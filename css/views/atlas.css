@@ -1,0 +1,7 @@
+/* Atlas view */
+.chap-actions{display:flex;flex-wrap:wrap;gap:.8rem 1.2rem;align-items:center}
+.chapter .chap-all{margin-top:1rem}
+.chapter .strip .card{transform:rotate(var(--tilt,0deg))}
+.chapter .strip .card:nth-child(3n+1){--tilt:-1.1deg}.chapter .strip .card:nth-child(3n+2){--tilt:.8deg}.chapter .strip .card:nth-child(3n){--tilt:-.4deg}
+.chapter .strip .card:hover{transform:translateY(-3px) rotate(0)}
+@media (prefers-reduced-motion:reduce){.chapter .strip .card{transform:none}}

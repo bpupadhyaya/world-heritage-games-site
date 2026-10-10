@@ -1,0 +1,12 @@
+/* List view */
+.az-chips small{color:var(--ink-2)}
+.ltable{width:100%;border-collapse:collapse;font-size:.95rem}
+.ltable th,.ltable td{text-align:left;padding:.55rem .7rem;border-bottom:1px solid var(--rule);vertical-align:baseline}
+.ltable thead th{background:var(--paper);border-bottom:2px solid var(--ink);padding:0}
+.ltable thead button{all:unset;box-sizing:border-box;display:block;width:100%;padding:.7rem;cursor:pointer;font:600 .78rem var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+.ltable thead button:hover{color:var(--ink)}
+.ltable thead button:focus-visible{outline:3px solid var(--focus);outline-offset:-3px}
+.ltable tbody th{font-weight:600}
+.ltable tbody th a{color:var(--ink)}
+.ltable tbody tr:hover{background:var(--paper-2)}
+@media (max-width:640px){.ltable{font-size:.9rem}.ltable th,.ltable td{padding:.5rem .45rem}.ltable td:nth-child(3){display:none}.ltable thead th:nth-child(3){display:none}}

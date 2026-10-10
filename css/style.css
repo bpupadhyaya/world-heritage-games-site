@@ -166,3 +166,17 @@ main{display:block;min-height:60vh}
  .collage{display:grid;grid-template-columns:1fr 1fr;gap:.9rem;transform:rotate(-2.5deg)}
  .collage .card:nth-child(even){transform:translateY(1.6rem)}.collage .card:hover{transform:translateY(-3px)}.collage .card:nth-child(even):hover{transform:translateY(1.2rem)}}
 .hero .search{max-width:100%}
+
+/* view switcher (header, second row) */
+.viewbar{border-top:1px solid var(--rule)}
+.viewbar .wrap{display:flex;align-items:center;gap:.7rem;min-height:2.9rem}
+.views{display:flex;align-items:center;gap:.7rem;min-width:0;width:100%}
+.views-l{font:600 .68rem/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2);flex:none}
+.views ul{display:flex;gap:.2rem;list-style:none;margin:0;padding:.25rem;border:1px solid var(--rule);border-radius:99px;background:var(--card);overflow-x:auto;scrollbar-width:none;min-width:0;max-width:100%}
+.views ul::-webkit-scrollbar{display:none}
+.views a{display:flex;align-items:center;gap:.45rem;white-space:nowrap;min-height:2.25rem;padding:.2rem .95rem;border-radius:99px;color:var(--ink);text-decoration:none;font:600 .88rem var(--sans)}
+.views a svg{width:1.1rem;height:1.1rem;flex:none}
+.views a:hover{background:var(--paper-2)}
+.views a[aria-current]{background:var(--ink);color:var(--paper)}
+@media (max-width:520px){.views-l{display:none}.views a{padding:.2rem .8rem}}
+@media (max-width:760px){.site-header .wrap{row-gap:.2rem}}

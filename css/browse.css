@@ -1,0 +1,33 @@
+/* shared browse bar (search + filters) and result grids for the switchable views */
+.bbar{max-width:none}
+.bbar .search{display:flex;gap:.6rem;max-width:40rem}
+.bbar .search input{flex:1;min-width:0}
+html:not(.no-js) .bsubmit{display:none}
+.bfilters{margin:.9rem 0 0;max-width:60rem}
+.ftoggle{display:inline-flex;align-items:center;gap:.5rem;min-height:2.75rem}
+.fpanel{display:none;flex-wrap:wrap;gap:.6rem .8rem;align-items:end;margin-top:.8rem}
+.fpanel.open{display:flex}
+.fl{display:flex;flex-direction:column;gap:.2rem;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);font-weight:600}
+.fl select{font:400 .95rem var(--sans);letter-spacing:0;text-transform:none;padding:.5rem .6rem;border-radius:.5rem;border:1px solid var(--rule);background:var(--card);color:var(--ink);max-width:14rem;min-height:2.5rem}
+.fl.chk{flex-direction:row;align-items:center;gap:.5rem;letter-spacing:0;text-transform:none;font-size:.92rem;font-weight:500;color:var(--ink);min-height:2.5rem}
+.fl.chk input{width:1.15rem;height:1.15rem;accent-color:var(--accent)}
+@media (max-width:640px){.fpanel.open{display:grid;grid-template-columns:1fr 1fr}.fl select{max-width:none;width:100%}.fl.chk,.fclear{grid-column:1/-1}}
+.bstate{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem;margin-top:.8rem}
+.bcount{margin:0;font:600 .9rem var(--sans);color:var(--ink-2)}
+.bchips{display:flex;flex-wrap:wrap;gap:.4rem;list-style:none;margin:0;padding:0}
+.bchips button{font:500 .85rem var(--sans);border:1px solid var(--ink);background:var(--card);color:var(--ink);border-radius:99px;padding:.3rem .75rem;cursor:pointer;min-height:2rem}
+.bchips button:hover{background:var(--ink);color:var(--paper)}
+.stage{min-height:24rem}
+.sentinel{height:1px}
+.more-btn{margin:1.2rem auto 0;display:flex}
+.is-filtered .home-extra{display:none}
+.is-filtered .hero .collage,.is-filtered .hero .stats{display:none}
+.views-page .pagehead{border-bottom:0;margin-bottom:0}
+
+/* a non-default view is the main event: shrink the home hero */
+:is(.alt-view,.is-filtered) .hero{padding-block:1.6rem 1rem}
+:is(.alt-view,.is-filtered) .hero h1{font-size:clamp(1.5rem,3.4vw,2.2rem);margin-bottom:.4rem}
+:is(.alt-view,.is-filtered) .hero .lede,:is(.alt-view,.is-filtered) .hero .collage,:is(.alt-view,.is-filtered) .hero .stats,:is(.alt-view,.is-filtered) .hero .chips,:is(.alt-view,.is-filtered) .hero .eyebrow{display:none}
+:is(.alt-view,.is-filtered) .hero .wrap{grid-template-columns:1fr}
+:is(.alt-view,.is-filtered) .hero .arcs{opacity:.25}
+:is(.alt-view,.is-filtered) .stage>.section:first-child{padding-top:1rem}

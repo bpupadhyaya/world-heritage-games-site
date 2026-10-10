@@ -21,6 +21,7 @@ path: "/"
 
 ## Browse
 
+- [Ways to browse (views)](views/index.md)
 - [By era](eras/index.md)
 - [By cradle](cradles/index.md)
 - [By country](countries/index.md)

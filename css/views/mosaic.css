@@ -1,0 +1,22 @@
+/* Mosaic view: duotone photo tiles. Tile colour --tc is set per tile; image is greyscale multiplied onto it. */
+.mz-h{font-size:clamp(1.25rem,3vw,1.7rem);margin:2rem 0 1rem}
+.mz-n{font:600 .85rem var(--mono);color:var(--ink-2);margin-left:.4rem}
+.mz-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem;margin:0;padding:0;list-style:none}
+@media (min-width:40rem){.mz-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (min-width:62rem){.mz-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:.9rem}}
+.mz-tile{all:unset;box-sizing:border-box;position:relative;display:block;width:100%;aspect-ratio:4/3;border-radius:1rem;overflow:hidden;background:var(--tc);cursor:pointer;isolation:isolate;box-shadow:var(--shadow);transition:transform .25s ease,box-shadow .25s ease}
+a.mz-tile{display:block}
+.mz-tile:hover{transform:translateY(-3px) scale(1.01)}
+.mz-tile:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.mz-img{position:absolute;inset:0;z-index:-1;mix-blend-mode:multiply}
+.mz-img img{width:100%;height:100%;object-fit:cover;display:block;filter:grayscale(1) contrast(1.1) brightness(1.5)}
+.mz-tile::after{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(to top,rgba(10,12,18,.82) 0%,rgba(10,12,18,.35) 48%,rgba(10,12,18,0) 75%);pointer-events:none}
+.mz-t{position:absolute;left:0;right:0;bottom:0;z-index:1;padding:.7rem .85rem;color:#fff;display:flex;flex-direction:column;gap:.1rem}
+.mz-t b{font:600 clamp(1.05rem,2.4vw,1.3rem)/1.1 var(--serif);text-shadow:0 1px 6px rgba(0,0,0,.5)}
+.mz-t span{font-size:.82rem;opacity:.95}
+.mz-tile[aria-pressed="true"]{outline:4px solid var(--accent);outline-offset:2px}
+.mz-tile[aria-pressed="true"] .mz-t b::before{content:"✓ "}
+.mz-tile.is-empty{opacity:.45;cursor:not-allowed}
+.mz-res{scroll-margin-top:8rem;margin-top:2.5rem;border-top:1px solid var(--rule);padding-top:.5rem}
+.mz-res:focus{outline:none}
+@media (prefers-reduced-motion:reduce){.mz-tile:hover{transform:none}}

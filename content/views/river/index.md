@@ -1,0 +1,21 @@
+---
+title: "River of Time"
+description: "One wide river through six eras, with the cradles as tributaries and games as boats."
+path: "/views/river/"
+view: "river"
+default: false
+---
+# River of Time
+
+One wide river through six eras, with the cradles as tributaries and games as boats.
+
+This is one of 4 views of the same 1,037 entries. The interactive view needs JavaScript; below is the same material as plain links.
+
+- [Deep Past](../../eras/deep-past/index.md): before about 3000 BCE, 102 entries
+- [First Cities](../../eras/river-valleys/index.md): about 3000 to 1000 BCE, 65 entries
+- [Classical Worlds](../../eras/classical/index.md): about 1000 BCE to 500 CE, 102 entries
+- [Golden Ages](../../eras/crossroads/index.md): about 500 to 1500, 125 entries
+- [Age of Contact](../../eras/contact/index.md): about 1500 to 1800, 72 entries
+- [Modern and Living](../../eras/modern/index.md): 1800 to today, and traditions too continuous to date, 571 entries
+
+Other views: [Atlas](../../views/atlas/index.md) · [Mosaic](../../views/mosaic/index.md) · [List](../../views/list/index.md)
