@@ -1,0 +1,63 @@
+---
+title: "Entries beginning with A"
+description: "56 entries beginning with A."
+path: "/a-z/A/"
+---
+# Entries beginning with A
+
+- [Abalala'e](../../games/699-abalalae/index.md): Eritrea; Board and table games; Deep Past and First Games
+- [Abbia](../../games/618-abbia/index.md): Cameroon; Other traditions; Deep Past and First Games
+- [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
+- [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
+- [Achi](../../games/748-achi/index.md): Ghana; Board and table games; Age of Contact and Craft
+- [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md): Ghana, Cote d'Ivoire; Crafts and making; Living Traditions
+- [Adire indigo resist dyeing](../../games/87-adire-indigo-resist-dyeing/index.md): Nigeria; Crafts and making; Living Traditions
+- [Adji-boto](../../games/1116-adji-boto/index.md): Suriname; Board and table games; Deep Past and First Games
+- [Adungu](../../games/186-adungu/index.md): Uganda; Musical instruments; Classical Worlds
+- [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md): Afghanistan; Musical instruments; Crossroads and Golden Ages
+- [African draughts](../../games/586-african-draughts/index.md): Benin, Burkina Faso; Board and table games; Modern Heritage
+- [Agaseke basket weaving](../../games/89-agaseke-basket-weaving/index.md): Rwanda; Crafts and making; Living Traditions
+- [Ail ger](../../games/940-ail-ger/index.md): Mongolia; Dexterity and skill games; Modern Heritage
+- [Ajrak block printing](../../games/1226-ajrak-block-printing/index.md): Pakistan; Crafts and making; Living Traditions
+- [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md): Ghana, Cote d'Ivoire; Puzzles and mind games; Modern Heritage
+- [Akedewama](../../games/837-akedewama/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
+- [Akuru Thaasbe](../../games/913-akuru-thaasbe/index.md): Maldives; Other traditions; Living Traditions
+- [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
+- [Al Laqfa](../../games/1038-al-laqfa/index.md): Qatar; Dexterity and skill games; Modern Heritage
+- [Al Talli Braid Embroidery](../../games/1273-al-talli-braid-embroidery/index.md): United Arab Emirates; Crafts and making; Living Traditions
+- [Al-Jazari water-clock contraptions](../../games/237-al-jazari-water-clock-contraptions/index.md): Iraq; Puzzles and mind games; Modern Heritage
+- [Al-Qatt Al-Asiri Wall Painting](../../games/1231-al-qatt-al-asiri-wall-painting/index.md): Saudi Arabia; Crafts and making; Living Traditions
+- [Alag Malkhii](../../games/941-alag-malkhii/index.md): Mongolia; Dexterity and skill games; Modern Heritage
+- [Alchik](../../games/868-alchik/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
+- [Alebrije painting](../../games/92-alebrije-painting/index.md): Mexico; Crafts and making; Living Traditions
+- [Allo nettle fibre weaving](../../games/1228-allo-nettle-fibre-weaving/index.md): Nepal; Crafts and making; Living Traditions
+- [Amadinda and embaire](../../games/185-amadinda-and-embaire/index.md): Uganda; Musical instruments; Living Traditions
+- [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md): Morocco; Crafts and making; Living Traditions
+- [Ambalangoda mask carving](../../games/299-ambalangoda-mask-carving/index.md): Sri Lanka; Crafts and making; Living Traditions
+- [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Ampe](../../games/747-ampe/index.md): Ghana, Togo; Dexterity and skill games; Modern Heritage
+- [Andada](../../games/700-andada/index.md): Eritrea; Board and table games; Deep Past and First Games
+- [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
+- [Antaimoro flower paper](../../games/1229-antaimoro-flower-paper/index.md): Madagascar; Crafts and making; Living Traditions
+- [Antigua Classic Yacht Race](../../games/1433-antigua-classic-yacht-race/index.md): Antigua and Barbuda, United Kingdom; Racing; Age of Contact and Craft
+- [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md): Greece; Puzzles and mind games; Modern Heritage
+- [Anywoli](../../games/1109-anywoli/index.md): Sudan; Board and table games; Deep Past and First Games
+- [Aqal Somali](../../games/190-aqal-somali/index.md): Somalia; Crafts and making; Living Traditions
+- [Arabian mancala](../../games/1219-arabian-mancala/index.md): Yemen; Board and table games; Deep Past and First Games
+- [Aragoz Hand-Puppet Booth](../../games/222-aragoz-hand-puppet-booth/index.md): Egypt; Performance and storytelling; Classical Worlds
+- [Aranmula metal mirror](../../games/285-aranmula-metal-mirror/index.md): Worldwide; Crafts and making; Living Traditions
+- [Archery](../../games/591-archery/index.md): Bhutan; Street and playground games; Classical Worlds
+- [Ardah Drum-and-Line Rhythm](../../games/1343-ardah-drum-and-line-rhythm/index.md): Saudi Arabia; Musical instruments; Living Traditions
+- [Arnis / Eskrima](../../games/323-arnis-eskrima/index.md): Philippines, Timor-Leste; Wrestling and martial sports; Classical Worlds
+- [Asafo Flag Appliqué](../../games/1230-asafo-flag-applique/index.md): Ghana; Crafts and making; Living Traditions
+- [Ashyk](../../games/1169-ashyk/index.md): Turkmenistan; Dexterity and skill games; Modern Heritage
+- [Asmara highland road race](../../games/193-asmara-highland-road-race/index.md): Eritrea; Racing; Age of Contact and Craft
+- [Astrolabe: reading the sky](../../games/236-astrolabe-reading-the-sky/index.md): Iran; Toys; Modern Heritage
+- [Asyk Atu](../../games/856-asyk-atu/index.md): Kazakhstan; Dexterity and skill games; Modern Heritage
+- [Atarraya](../../games/1434-atarraya/index.md): Colombia; Dexterity and skill games; Modern Heritage
+- [Aweet](../../games/1110-aweet/index.md): Sudan; Board and table games; Deep Past and First Games
+- [Axe throwing](../../games/442-axe-throwing/index.md): Canada, United States; Dexterity and skill games; Modern Heritage
+- [Axemen woodchop](../../games/1232-axemen-woodchop/index.md): Australia; Other traditions; Modern Heritage
+- [Ayit](../../games/1090-ayit/index.md): South Sudan; Board and table games; Deep Past and First Games
+- [Ayo](../../games/986-ayo/index.md): Nigeria; Board and table games; Deep Past and First Games
+- [Azulejo tile painting](../../games/122-azulejo-tile-painting/index.md): Portugal; Crafts and making; Living Traditions

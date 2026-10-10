@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bpupadhyaya.github.io/world-heritage-games-site/sitemap.xml

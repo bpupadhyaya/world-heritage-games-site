@@ -1,0 +1,141 @@
+---
+title: "Dexterity and skill games"
+description: "127 traditions of this kind."
+path: "/types/dexterity/"
+count: 127
+---
+# Dexterity and skill games
+
+127 traditions of this kind.
+
+
+
+127 entries.
+
+- [Atarraya](../../games/1434-atarraya/index.md): Colombia; Dexterity and skill games; Modern Heritage
+- [Axe throwing](../../games/442-axe-throwing/index.md): Canada, United States; Dexterity and skill games; Modern Heritage
+- [Bagatelle](../../games/72-bagatelle/index.md): France, United Kingdom; Dexterity and skill games; Modern Heritage
+- [Barrel racing](../../games/439-barrel-racing/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
+- [Bat and Trap](../../games/405-bat-and-trap/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
+- [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md): India; Dexterity and skill games; Modern Heritage
+- [Candlepin bowling](../../games/444-candlepin-bowling/index.md): United Kingdom, Canada; Dexterity and skill games; Age of Contact and Craft
+- [Charro lasso roping](../../games/60-charro-lasso-roping/index.md): Mexico; Dexterity and skill games; Age of Contact and Craft
+- [Chinlone](../../games/16-chinlone/index.md): Myanmar; Dexterity and skill games; Modern Heritage
+- [Chungi](../../games/297-chungi/index.md): Nepal, India; Dexterity and skill games; Modern Heritage
+- [Cirit](../../games/156-cirit/index.md): Turkey; Dexterity and skill games; Classical Worlds
+- [Crossbow Target Match](../../games/1367-crossbow-target-match/index.md): Italy, San Marino; Dexterity and skill games; Modern Heritage
+- [Cuju](../../games/333-cuju/index.md): China; Dexterity and skill games; Classical Worlds
+- [Cymbergaj](../../games/377-cymbergaj/index.md): Poland; Dexterity and skill games; Modern Heritage
+- [Dalgona](../../games/100-dalgona/index.md): South Korea; Dexterity and skill games; Crossroads and Golden Ages
+- [Disc-flip](../../games/8-disc-flip/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
+- [Doko porter trail](../../games/293-doko-porter-trail/index.md): Nepal; Dexterity and skill games; Modern Heritage
+- [Finnish pin toss](../../games/49-finnish-pin-toss/index.md): Finland; Dexterity and skill games; Age of Contact and Craft
+- [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md): Ireland, Netherlands; Dexterity and skill games; Age of Contact and Craft
+- [Gasing uri](../../games/1289-gasing-uri/index.md): Malaysia; Dexterity and skill games; Modern Heritage
+- [Gondola Rowing](../../games/401-gondola-rowing/index.md): Italy; Dexterity and skill games; Modern Heritage
+- [Gorodki](../../games/13-gorodki/index.md): Russia; Dexterity and skill games; Age of Contact and Craft
+- [Haenyeo Breath Dive](../../games/1459-haenyeo-breath-dive/index.md): South Korea; Dexterity and skill games; Modern Heritage
+- [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
+- [Hose-Run Fire Sport](../../games/1281-hose-run-fire-sport/index.md): Czechia, Slovakia; Dexterity and skill games; Modern Heritage
+- [Ice Stock Sport](../../games/1451-ice-stock-sport/index.md): Austria, Germany; Dexterity and skill games; Modern Heritage
+- [Indian club swinging](../../games/264-indian-club-swinging/index.md): India, Pakistan; Dexterity and skill games; Modern Heritage
+- [Kingyo-sukui](../../games/3-kingyo-sukui/index.md): Japan; Dexterity and skill games; Modern Heritage
+- [Krulbol](../../games/1469-krulbol/index.md): Belgium, Netherlands; Dexterity and skill games; Classical Worlds
+- [Lawn bowls](../../games/74-lawn-bowls/index.md): United Kingdom, Australia; Dexterity and skill games; Classical Worlds
+- [Limbo](../../games/58-limbo/index.md): Trinidad and Tobago; Dexterity and skill games; Modern Heritage
+- [Menko](../../games/346-menko/index.md): Japan; Dexterity and skill games; Modern Heritage
+- [Mongolian Bow Archery](../../games/1476-mongolian-bow-archery/index.md): Mongolia; Dexterity and skill games; Classical Worlds
+- [Mounted Archery Course](../../games/67-mounted-archery-course/index.md): Hungary; Dexterity and skill games; Classical Worlds
+- [Nail driving](../../games/82-nail-driving/index.md): Germany; Dexterity and skill games; Modern Heritage
+- [Namib dune sandboarding](../../games/1345-namib-dune-sandboarding/index.md): Namibia; Dexterity and skill games; Modern Heritage
+- [Nguni stick-fighting rhythm skirmish](../../games/209-nguni-stick-fighting-rhythm-skirmish/index.md): South Africa, Eswatini; Dexterity and skill games; Modern Heritage
+- [Nhodo](../../games/1346-nhodo/index.md): Zimbabwe; Dexterity and skill games; Deep Past and First Games
+- [Otedama](../../games/131-otedama/index.md): Japan; Dexterity and skill games; Modern Heritage
+- [Pinata swing](../../games/61-pinata-swing/index.md): Mexico, Paraguay; Dexterity and skill games; Modern Heritage
+- [Pitch-pot](../../games/2-pitch-pot/index.md): China, South Korea; Dexterity and skill games; Modern Heritage
+- [Plate Spinning](../../games/73-plate-spinning/index.md): China; Dexterity and skill games; Modern Heritage
+- [Pole-and-line tuna fishing from a masdhoni](../../games/1334-pole-and-line-tuna-fishing-from-a-masdhoni/index.md): Maldives; Dexterity and skill games; Modern Heritage
+- [Ring Tilting](../../games/65-ring-tilting/index.md): Croatia; Dexterity and skill games; Modern Heritage
+- [Ringridning](../../games/1365-ringridning/index.md): Denmark; Dexterity and skill games; Modern Heritage
+- [Shove ha'penny](../../games/54-shove-hapenny/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
+- [Sjoelen](../../games/9-sjoelen/index.md): Netherlands; Dexterity and skill games; Modern Heritage
+- [Steppe eagle hunting](../../games/254-steppe-eagle-hunting/index.md): Kazakhstan; Dexterity and skill games; Modern Heritage
+- [Stilt fishing](../../games/288-stilt-fishing/index.md): Sri Lanka; Dexterity and skill games; Classical Worlds
+- [Takoyaki-style ball flipping](../../games/352-takoyaki-style-ball-flipping/index.md): Japan; Dexterity and skill games; Modern Heritage
+- [Tinikling](../../games/141-tinikling/index.md): Philippines; Dexterity and skill games; Modern Heritage
+- [Trick Roping](../../games/1408-trick-roping/index.md): United States; Dexterity and skill games; Modern Heritage
+- [Varpa](../../games/1396-varpa/index.md): Sweden; Dexterity and skill games; Modern Heritage
+- [Wave riding](../../games/76-wave-riding/index.md): Worldwide; Dexterity and skill games; Modern Heritage
+- [Zurkhaneh strength rhythm](../../games/227-zurkhaneh-strength-rhythm/index.md): Iran; Dexterity and skill games; Modern Heritage
+- [Ail ger](../../games/940-ail-ger/index.md): Mongolia; Dexterity and skill games; Modern Heritage
+- [Al Laqfa](../../games/1038-al-laqfa/index.md): Qatar; Dexterity and skill games; Modern Heritage
+- [Alag Malkhii](../../games/941-alag-malkhii/index.md): Mongolia; Dexterity and skill games; Modern Heritage
+- [Alchik](../../games/868-alchik/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
+- [Ampe](../../games/747-ampe/index.md): Ghana, Togo; Dexterity and skill games; Modern Heritage
+- [Ashyk](../../games/1169-ashyk/index.md): Turkmenistan; Dexterity and skill games; Modern Heritage
+- [Asyk Atu](../../games/856-asyk-atu/index.md): Kazakhstan; Dexterity and skill games; Modern Heritage
+- [Batu Seremban / Five stones](../../games/1068-batu-seremban-five-stones/index.md): Singapore; Dexterity and skill games; Deep Past and First Games
+- [Besh Tash](../../games/869-besh-tash/index.md): Kyrgyzstan; Dexterity and skill games; Deep Past and First Games
+- [Blada](../../games/862-blada/index.md): Kenya; Dexterity and skill games; Modern Heritage
+- [Break the pot](../../games/1105-break-the-pot/index.md): Sri Lanka; Dexterity and skill games; Modern Heritage
+- [Carolinian string figures](../../games/938-carolinian-string-figures/index.md): Micronesia; Dexterity and skill games; Deep Past and First Games
+- [Chapteh shuttlecock](../../games/1066-chapteh-shuttlecock/index.md): Singapore; Dexterity and skill games; Modern Heritage
+- [Chromos](../../games/648-chromos/index.md): Costa Rica; Dexterity and skill games; Modern Heritage
+- [Cornhole](../../games/1194-cornhole/index.md): United States; Dexterity and skill games; Modern Heritage
+- [Crokinole](../../games/623-crokinole/index.md): Canada; Dexterity and skill games; Modern Heritage
+- [Cup-and-ball](../../games/933-cup-and-ball/index.md): Mexico; Dexterity and skill games; Modern Heritage
+- [Cush](../../games/760-cush/index.md): Guyana; Dexterity and skill games; Modern Heritage
+- [Dandi Biyo](../../games/968-dandi-biyo/index.md): Nepal; Dexterity and skill games; Modern Heritage
+- [Dego](../../games/590-dego/index.md): Bhutan; Dexterity and skill games; Modern Heritage
+- [Diketo](../../games/1076-diketo/index.md): South Africa, Botswana; Dexterity and skill games; Deep Past and First Games
+- [Duulu](../../games/1173-duulu/index.md): Uganda; Dexterity and skill games; Modern Heritage
+- [Emboque](../../games/629-emboque/index.md): Chile; Dexterity and skill games; Modern Heritage
+- [Enchute](../../games/770-enchute/index.md): Honduras; Dexterity and skill games; Modern Heritage
+- [Five stones](../../games/907-five-stones/index.md): Malaysia, Brunei; Dexterity and skill games; Deep Past and First Games
+- [Frog toss](../../games/688-frog-toss/index.md): Ecuador; Dexterity and skill games; Modern Heritage
+- [Gasing](../../games/908-gasing/index.md): Malaysia, Singapore; Dexterity and skill games; Modern Heritage
+- [Gilbert Islands string figures](../../games/866-gilbert-islands-string-figures/index.md): Kiribati; Dexterity and skill games; Deep Past and First Games
+- [Gilli-Danda](../../games/793-gilli-danda/index.md): India; Dexterity and skill games; Modern Heritage
+- [Glass marbles](../../games/685-glass-marbles/index.md): Ecuador; Dexterity and skill games; Deep Past and First Games
+- [Gonggi](../../games/1085-gonggi/index.md): South Korea; Dexterity and skill games; Deep Past and First Games
+- [Gulli Danda](../../games/1003-gulli-danda/index.md): Pakistan; Dexterity and skill games; Modern Heritage
+- [Heu](../../games/1146-heu/index.md): Tonga; Dexterity and skill games; Modern Heritage
+- [Hiko](../../games/1147-hiko/index.md): Tonga; Dexterity and skill games; Modern Heritage
+- [Hopscotch](../../games/762-hopscotch/index.md): Haiti, Honduras; Dexterity and skill games; Deep Past and First Games
+- [Jacks](../../games/697-jacks/index.md): El Salvador; Dexterity and skill games; Deep Past and First Games
+- [Jacks, Dandy Shandy, ring games](../../games/842-jacks-dandy-shandy-ring-games/index.md): Jamaica; Dexterity and skill games; Deep Past and First Games
+- [Kendama](../../games/850-kendama/index.md): Japan; Dexterity and skill games; Modern Heritage
+- [Keram](../../games/1137-keram/index.md): Tanzania; Dexterity and skill games; Modern Heritage
+- [Khuru](../../games/592-khuru/index.md): Bhutan; Dexterity and skill games; Age of Contact and Craft
+- [Kite fighting](../../games/788-kite-fighting/index.md): India, Pakistan; Dexterity and skill games; Classical Worlds
+- [Kite flying](../../games/769-kite-flying/index.md): Honduras; Dexterity and skill games; Classical Worlds
+- [Kites](../../games/577-kites/index.md): Barbados, El Salvador; Dexterity and skill games; Classical Worlds
+- [Knucklebone game](../../games/522-knucklebone-game/index.md): Afghanistan, Mongolia; Dexterity and skill games; Deep Past and First Games
+- [Lafo](../../games/1150-lafo/index.md): Tonga; Dexterity and skill games; Deep Past and First Games
+- [Maori stick games](../../games/981-maori-stick-games/index.md): New Zealand; Dexterity and skill games; Modern Heritage
+- [Marbles](../../games/650-marbles/index.md): Cuba, Jamaica; Dexterity and skill games; Deep Past and First Games
+- [Marshallese string figures](../../games/926-marshallese-string-figures/index.md): Marshall Islands; Dexterity and skill games; Deep Past and First Games
+- [Ordo](../../games/870-ordo/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
+- [Palauan string figures](../../games/1007-palauan-string-figures/index.md): Palau; Dexterity and skill games; Deep Past and First Games
+- [Pebbles](../../games/874-pebbles/index.md): Laos; Dexterity and skill games; Deep Past and First Games
+- [Perinola](../../games/1212-perinola/index.md): Venezuela; Dexterity and skill games; Modern Heritage
+- [Pitch and toss](../../games/822-pitch-and-toss/index.md): Ireland; Dexterity and skill games; Modern Heritage
+- [Rana](../../games/645-rana/index.md): Colombia; Dexterity and skill games; Modern Heritage
+- [Rope skipping, tops, marbles](../../games/768-rope-skipping-tops-marbles/index.md): Haiti; Dexterity and skill games; Deep Past and First Games
+- [Sapo](../../games/1019-sapo/index.md): Peru, Bolivia; Dexterity and skill games; Modern Heritage
+- [Seed throwing](../../games/612-seed-throwing/index.md): Cambodia; Dexterity and skill games; Deep Past and First Games
+- [Seven-pebble toss game](../../games/620-seven-pebble-toss-game/index.md): Cameroon; Dexterity and skill games; Deep Past and First Games
+- [Solomon string figures](../../games/1075-solomon-string-figures/index.md): Solomon Islands; Dexterity and skill games; Deep Past and First Games
+- [Spinning top](../../games/678-spinning-top/index.md): Dominican Republic, Jamaica; Dexterity and skill games; Modern Heritage
+- [Stone put](../../games/589-stone-put/index.md): Bhutan, Switzerland; Dexterity and skill games; Modern Heritage
+- [Street](../../games/1052-street/index.md): Saint Vincent and the Grenadines, Grenada; Dexterity and skill games; Deep Past and First Games
+- [Street games](../../games/570-street-games/index.md): Bahamas; Dexterity and skill games; Deep Past and First Games
+- [Street play games](../../games/1155-street-play-games/index.md): Trinidad and Tobago; Dexterity and skill games; Modern Heritage
+- [Table shuffleboard](../../games/1199-table-shuffleboard/index.md): United States; Dexterity and skill games; Modern Heritage
+- [Ten Ten](../../games/988-ten-ten/index.md): Nigeria; Dexterity and skill games; Modern Heritage
+- [Thai pebbles](../../games/1140-thai-pebbles/index.md): Thailand; Dexterity and skill games; Deep Past and First Games
+- [Tuho](../../games/1089-tuho/index.md): South Korea; Dexterity and skill games; Modern Heritage
+- [Wau bulan kite](../../games/911-wau-bulan-kite/index.md): Malaysia; Dexterity and skill games; Classical Worlds
+- [Whai](../../games/982-whai/index.md): New Zealand; Dexterity and skill games; Deep Past and First Games
+- [Yo-yo](../../games/696-yo-yo/index.md): El Salvador, Nicaragua; Dexterity and skill games; Modern Heritage
+- [Zarzir](../../games/1010-zarzir/index.md): Palestine; Dexterity and skill games; Deep Past and First Games

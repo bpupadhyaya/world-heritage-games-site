@@ -1,0 +1,77 @@
+---
+title: "Entries beginning with P"
+description: "70 entries beginning with P."
+path: "/a-z/P/"
+---
+# Entries beginning with P
+
+- [Pachisi](../../games/797-pachisi/index.md): India; Board and table games; River Valleys and First Cities
+- [Pacu jawi](../../games/1354-pacu-jawi/index.md): Indonesia; Racing; Age of Contact and Craft
+- [Paduk](../../games/990-paduk/index.md): North Korea; Board and table games; Classical Worlds
+- [Pai gow](../../games/771-pai-gow/index.md): China; Board and table games; Crossroads and Golden Ages
+- [Pakistani truck art](../../games/116-pakistani-truck-art/index.md): Pakistan, India; Crafts and making; Living Traditions
+- [Palant](../../games/1031-palant/index.md): Poland; Street and playground games; Deep Past and First Games
+- [Palauan storyboard carving](../../games/1355-palauan-storyboard-carving/index.md): Palau; Crafts and making; Living Traditions
+- [Palauan string figures](../../games/1007-palauan-string-figures/index.md): Palau; Dexterity and skill games; Deep Past and First Games
+- [Pallanguzhi](../../games/798-pallanguzhi/index.md): India; Board and table games; Deep Past and First Games
+- [Palm sugar boiling and mould-filling](../../games/313-palm-sugar-boiling-and-mould-filling/index.md): Cambodia; Crafts and making; Living Traditions
+- [Pamiri House Ceiling Raiser](../../games/1356-pamiri-house-ceiling-raiser/index.md): Tajikistan; Crafts and making; Living Traditions
+- [Panamanian singing rounds](../../games/1011-panamanian-singing-rounds/index.md): Panama; Performance and storytelling; Living Traditions
+- [Pancha](../../games/1108-pancha/index.md): Sri Lanka; Board and table games; River Valleys and First Cities
+- [Pandanus mat plaiting](../../games/1313-pandanus-mat-plaiting/index.md): Kiribati; Crafts and making; Living Traditions
+- [Panu di Pinti Weaving](../../games/1357-panu-di-pinti-weaving/index.md): Guinea-Bissau; Crafts and making; Living Traditions
+- [Paper Fortune Teller](../../games/465-paper-fortune-teller/index.md): United Kingdom, United States; Crafts and making; Living Traditions
+- [Paper Plane Flight Contest](../../games/466-paper-plane-flight-contest/index.md): Japan; Crafts and making; Living Traditions
+- [Paper Soccer](../../games/464-paper-soccer/index.md): Poland, Germany; Crafts and making; Living Traditions
+- [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md): Paraguay; Musical instruments; Classical Worlds
+- [Parchís](../../games/1098-parchis/index.md): Spain; Board and table games; River Valleys and First Cities
+- [Partner-Carry Obstacle Race](../../games/406-partner-carry-obstacle-race/index.md): Finland; Racing; Age of Contact and Craft
+- [Parxís](../../games/542-parxis/index.md): Andorra; Board and table games; River Valleys and First Cities
+- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md): New Zealand; Street and playground games; Age of Contact and Craft
+- [Patintero](../../games/1021-patintero/index.md): Philippines; Street and playground games; Deep Past and First Games
+- [Patolli](../../games/454-patolli/index.md): Mexico; Board and table games; Crossroads and Golden Ages
+- [Payada](../../games/1426-payada/index.md): Argentina, Uruguay; Wrestling and martial sports; Classical Worlds
+- [Pebbles](../../games/874-pebbles/index.md): Laos; Dexterity and skill games; Deep Past and First Games
+- [Pencak silat](../../games/329-pencak-silat/index.md): Indonesia, Malaysia; Wrestling and martial sports; Classical Worlds
+- [Penghu Stone Weir Tide Puzzle](../../games/1479-penghu-stone-weir-tide-puzzle/index.md): Taiwan; Crafts and making; Living Traditions
+- [Peralikatuma](../../games/287-peralikatuma/index.md): Sri Lanka; Board and table games; Crossroads and Golden Ages
+- [Peranakan beaded slippers](../../games/1358-peranakan-beaded-slippers/index.md): China, Singapore; Crafts and making; Living Traditions
+- [Perfumer's Organ](../../games/402-perfumers-organ/index.md): Worldwide; Crafts and making; Living Traditions
+- [Perinola](../../games/1212-perinola/index.md): Venezuela; Dexterity and skill games; Modern Heritage
+- [Persian Carpet Knotting](../../games/161-persian-carpet-knotting/index.md): Iran, Turkey; Crafts and making; Living Traditions
+- [Persian garden layout puzzle](../../games/239-persian-garden-layout-puzzle/index.md): Iran; Crafts and making; Living Traditions
+- [Pesapallo](../../games/484-pesapallo/index.md): Finland; Racing; Modern Heritage
+- [Petanque](../../games/872-petanque/index.md): Laos, France; Street and playground games; Modern Heritage
+- [Petrykivka painting](../../games/381-petrykivka-painting/index.md): Ukraine; Crafts and making; Living Traditions
+- [Phankhon](../../games/957-phankhon/index.md): Myanmar; Street and playground games; Modern Heritage
+- [Phoenician Alphabet Trader](../../games/1359-phoenician-alphabet-trader/index.md): Lebanon; Puzzles and mind games; Modern Heritage
+- [Phuang malai flower garland threading](../../games/309-phuang-malai-flower-garland-threading/index.md): Thailand; Crafts and making; Living Traditions
+- [Phulkari darn-stitch embroidery](../../games/257-phulkari-darn-stitch-embroidery/index.md): India, Pakistan; Crafts and making; Living Traditions
+- [Piko](../../games/1022-piko/index.md): Philippines; Street and playground games; Deep Past and First Games
+- [Pillow fight](../../games/1101-pillow-fight/index.md): Sri Lanka, Myanmar; Street and playground games; Modern Heritage
+- [Pilolo](../../games/750-pilolo/index.md): Ghana; Street and playground games; Deep Past and First Games
+- [Pinata swing](../../games/61-pinata-swing/index.md): Mexico, Paraguay; Dexterity and skill games; Modern Heritage
+- [Pinisi](../../games/327-pinisi/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
+- [Pirogue coastal canoe race](../../games/56-pirogue-coastal-canoe-race/index.md): Worldwide; Racing; Age of Contact and Craft
+- [Pirot Kilim Weaver](../../games/1361-pirot-kilim-weaver/index.md): Serbia; Crafts and making; Living Traditions
+- [Pitch and toss](../../games/822-pitch-and-toss/index.md): Ireland; Dexterity and skill games; Modern Heritage
+- [Pitch-pot](../../games/2-pitch-pot/index.md): China, South Korea; Dexterity and skill games; Modern Heritage
+- [Pitthu Garam](../../games/1004-pitthu-garam/index.md): Pakistan; Street and playground games; Modern Heritage
+- [Plate Spinning](../../games/73-plate-spinning/index.md): China; Dexterity and skill games; Modern Heritage
+- [Plis Cap Felter](../../games/1362-plis-cap-felter/index.md): Albania, Kosovo; Crafts and making; Living Traditions
+- [Polder Windmill Keeper](../../games/412-polder-windmill-keeper/index.md): Netherlands; Puzzles and mind games; River Valleys and First Cities
+- [Pole-and-line tuna fishing from a masdhoni](../../games/1334-pole-and-line-tuna-fishing-from-a-masdhoni/index.md): Maldives; Dexterity and skill games; Modern Heritage
+- [Polish draughts](../../games/1034-polish-draughts/index.md): Poland; Board and table games; Crossroads and Golden Ages
+- [Pollera and Tembleques](../../games/1480-pollera-and-tembleques/index.md): Panama; Crafts and making; Living Traditions
+- [Poo](../../games/884-poo/index.md): Liberia; Board and table games; Deep Past and First Games
+- [Portolan Chart Navigator](../../games/503-portolan-chart-navigator/index.md): Italy, Spain; Puzzles and mind games; Modern Heritage
+- [Portuguese Guitar](../../games/1457-portuguese-guitar/index.md): Portugal; Musical instruments; Classical Worlds
+- [Portuguese staff fighting](../../games/1037-portuguese-staff-fighting/index.md): Portugal; Street and playground games; Classical Worlds
+- [Potta](../../games/579-potta/index.md): Barbados; Board and table games; River Valleys and First Cities
+- [Provencal boules](../../games/939-provencal-boules/index.md): Monaco; Street and playground games; Classical Worlds
+- [Pub darts](../../games/1182-pub-darts/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
+- [Pub dominoes](../../games/1183-pub-dominoes/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
+- [Puerto Rican Cuatro](../../games/1481-puerto-rican-cuatro/index.md): Worldwide; Musical instruments; Living Traditions
+- [Puluc](../../games/757-puluc/index.md): Guatemala, Belize; Board and table games; Crossroads and Golden Ages
+- [Pupusa Maker](../../games/1482-pupusa-maker/index.md): El Salvador; Crafts and making; Living Traditions
+- [Putu](../../games/609-putu/index.md): Burkina Faso; Street and playground games; Modern Heritage

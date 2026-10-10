@@ -1,0 +1,75 @@
+---
+title: "Entries beginning with M"
+description: "68 entries beginning with M."
+path: "/a-z/M/"
+---
+# Entries beginning with M
+
+- [Macau Portuguese Custard Tart Bake](../../games/1471-macau-portuguese-custard-tart-bake/index.md): Portugal, China; Crafts and making; Living Traditions
+- [Macho parado](../../games/984-macho-parado/index.md): Nicaragua; Street and playground games; Modern Heritage
+- [Madura bull racing](../../games/805-madura-bull-racing/index.md): Indonesia; Street and playground games; Modern Heritage
+- [Maedeup](../../games/1468-maedeup/index.md): South Korea; Crafts and making; Living Traditions
+- [Maghrebi 5x5 capture game](../../games/887-maghrebi-5x5-capture-game/index.md): Libya; Board and table games; Age of Contact and Craft
+- [Mahjong](../../games/635-mahjong/index.md): China, Singapore; Board and table games; Crossroads and Golden Ages
+- [Makonde ebony carving](../../games/1331-makonde-ebony-carving/index.md): Tanzania, Mozambique; Crafts and making; Living Traditions
+- [Makonn](../../games/1065-makonn/index.md): Seychelles; Board and table games; Deep Past and First Games
+- [Makyek](../../games/1143-makyek/index.md): Thailand; Board and table games; Crossroads and Golden Ages
+- [Malagasy lamba silk weaving](../../games/206-malagasy-lamba-silk-weaving/index.md): Worldwide; Crafts and making; Living Traditions
+- [Malambo](../../games/1417-malambo/index.md): Argentina; Dances; Living Traditions
+- [Malay draughts](../../games/910-malay-draughts/index.md): Malaysia; Board and table games; Crossroads and Golden Ages
+- [Maldivian chess](../../games/917-maldivian-chess/index.md): Maldives; Board and table games; Crossroads and Golden Ages
+- [Maldivian lacquer work](../../games/1328-maldivian-lacquer-work/index.md): Maldives; Crafts and making; Living Traditions
+- [Malha](../../games/1466-malha/index.md): Portugal; Archery, throwing and target games; Classical Worlds
+- [Mancala-type sowing games](../../games/626-mancala-type-sowing-games/index.md): Central African Republic; Board and table games; Deep Past and First Games
+- [Mandarin square capturing](../../games/1216-mandarin-square-capturing/index.md): Vietnam; Board and table games; Deep Past and First Games
+- [Mangala](../../games/1164-mangala/index.md): Turkey; Board and table games; Deep Past and First Games
+- [Mangola](../../games/668-mangola/index.md): DR Congo; Board and table games; Deep Past and First Games
+- [Manteo](../../games/596-manteo/index.md): Bolivia; Street and playground games; Modern Heritage
+- [Maori stick games](../../games/981-maori-stick-games/index.md): New Zealand; Dexterity and skill games; Modern Heritage
+- [Maple taffy on snow](../../games/441-maple-taffy-on-snow/index.md): Canada; Crafts and making; Living Traditions
+- [Marbles](../../games/650-marbles/index.md): Cuba, Jamaica; Dexterity and skill games; Deep Past and First Games
+- [Marimba](../../games/52-marimba/index.md): Worldwide; Musical instruments; Living Traditions
+- [Marinera Norteña](../../games/1472-marinera-nortena/index.md): Peru; Dances; Living Traditions
+- [Marshallese stick chart navigator](../../games/1333-marshallese-stick-chart-navigator/index.md): Marshall Islands; Puzzles and mind games; Modern Heritage
+- [Marshallese string figures](../../games/926-marshallese-string-figures/index.md): Marshall Islands; Dexterity and skill games; Deep Past and First Games
+- [Mas-wrestling](../../games/380-mas-wrestling/index.md): Russia; Wrestling and martial sports; River Valleys and First Cities
+- [Masaya Hammock Weaving](../../games/1473-masaya-hammock-weaving/index.md): Nicaragua; Crafts and making; Living Traditions
+- [Masenqo and the azmari](../../games/187-masenqo-and-the-azmari/index.md): Ethiopia; Musical instruments; Living Traditions
+- [Mashonisa](../../games/882-mashonisa/index.md): Lesotho; Other traditions; Living Traditions
+- [Masi bark-cloth stencil printing](../../games/1279-masi-bark-cloth-stencil-printing/index.md): Fiji; Crafts and making; Living Traditions
+- [Mate Pouring](../../games/1418-mate-pouring/index.md): Argentina; Crafts and making; Living Traditions
+- [Matkot](../../games/825-matkot/index.md): Israel; Street and playground games; Modern Heritage
+- [Matryoshka](../../games/28-matryoshka/index.md): Russia; Crafts and making; Living Traditions
+- [Mbira](../../games/32-mbira/index.md): Zimbabwe; Musical instruments; Crossroads and Golden Ages
+- [Mehndi henna pattern drawing](../../games/260-mehndi-henna-pattern-drawing/index.md): India, Pakistan; Crafts and making; Living Traditions
+- [Menko](../../games/346-menko/index.md): Japan; Dexterity and skill games; Modern Heritage
+- [Mento band](../../games/432-mento-band/index.md): Jamaica; Musical instruments; Living Traditions
+- [Mesoamerican ballgame](../../games/759-mesoamerican-ballgame/index.md): Guatemala, Mexico; Street and playground games; Modern Heritage
+- [Mesob basket weaving](../../games/1335-mesob-basket-weaving/index.md): Ethiopia; Crafts and making; Living Traditions
+- [Mexican Lotería](../../games/935-mexican-loteria/index.md): Mexico; Board and table games; Crossroads and Golden Ages
+- [Mezoued Bagpipe and Tabl Drum](../../games/1336-mezoued-bagpipe-and-tabl-drum/index.md): Tunisia; Musical instruments; Crossroads and Golden Ages
+- [Mheibes](../../games/158-mheibes/index.md): Iraq; Street and playground games; Modern Heritage
+- [Mhele](../../games/600-mhele/index.md): Botswana; Street and playground games; Modern Heritage
+- [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md): Lebanon, Syria; Musical instruments; Living Traditions
+- [Mill](../../games/1061-mill/index.md): Senegal; Board and table games; River Valleys and First Cities
+- [Mithila folk painting](../../games/1337-mithila-folk-painting/index.md): Nepal, India; Crafts and making; Living Traditions
+- [Mixtec ball game](../../games/936-mixtec-ball-game/index.md): Mexico; Street and playground games; Modern Heritage
+- [Mochitsuki](../../games/358-mochitsuki/index.md): Japan; Performance and storytelling; Living Traditions
+- [Mokoro polling](../../games/1338-mokoro-polling/index.md): Botswana; Racing; Age of Contact and Craft
+- [Moldovan Woven Carpet Pattern Studio](../../games/1339-moldovan-woven-carpet-pattern-studio/index.md): Moldova; Crafts and making; Living Traditions
+- [Mongol bichig](../../games/373-mongol-bichig/index.md): Mongolia; Crafts and making; Living Traditions
+- [Mongolian Bow Archery](../../games/1476-mongolian-bow-archery/index.md): Mongolia; Dexterity and skill games; Classical Worlds
+- [Mongolian chess](../../games/943-mongolian-chess/index.md): Mongolia; Board and table games; Crossroads and Golden Ages
+- [Moraingy drum-and-strike duel](../../games/207-moraingy-drum-and-strike-duel/index.md): Madagascar; Wrestling and martial sports; Classical Worlds
+- [Morin khuur](../../games/34-morin-khuur/index.md): Mongolia; Musical instruments; Classical Worlds
+- [Morra](../../games/83-morra/index.md): Italy; Archery, throwing and target games; Classical Worlds
+- [Moruba / Ncuva](../../games/1080-moruba-ncuva/index.md): South Africa; Board and table games; Deep Past and First Games
+- [Mountain dulcimer](../../games/435-mountain-dulcimer/index.md): United States; Musical instruments; Classical Worlds
+- [Mounted Archery Course](../../games/67-mounted-archery-course/index.md): Hungary; Dexterity and skill games; Classical Worlds
+- [Mu Torere](../../games/979-mu-torere/index.md): New Zealand; Board and table games; Crossroads and Golden Ages
+- [Mud Plaster Season](../../games/179-mud-plaster-season/index.md): Mali; Crafts and making; Living Traditions
+- [Mudhif reed-arch house](../../games/230-mudhif-reed-arch-house/index.md): Iraq; Crafts and making; Living Traditions
+- [Muqarnas stalactite vault builder](../../games/228-muqarnas-stalactite-vault-builder/index.md): Iran; Crafts and making; Living Traditions
+- [Murchunga](../../games/290-murchunga/index.md): Nepal; Musical instruments; Classical Worlds
+- [Murga Uruguaya Carnival Troupe](../../games/1419-murga-uruguaya-carnival-troupe/index.md): Uruguay; Crafts and making; Living Traditions
+- [Mvet](../../games/1420-mvet/index.md): Gabon, Cameroon; Musical instruments; Classical Worlds

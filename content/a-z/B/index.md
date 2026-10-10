@@ -1,0 +1,91 @@
+---
+title: "Entries beginning with B"
+description: "84 entries beginning with B."
+path: "/a-z/B/"
+---
+# Entries beginning with B
+
+- [Babatone](../../games/1233-babatone/index.md): Malawi; Musical instruments; Living Traditions
+- [Backgammon](../../games/1159-backgammon/index.md): Turkey, Israel; Board and table games; River Valleys and First Cities
+- [Badgir windcatcher cooling puzzle](../../games/229-badgir-windcatcher-cooling-puzzle/index.md): Iran; Crafts and making; Living Traditions
+- [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
+- [Bagatelle](../../games/72-bagatelle/index.md): France, United Kingdom; Dexterity and skill games; Modern Heritage
+- [Bahamian dominoes](../../games/569-bahamian-dominoes/index.md): Bahamas; Board and table games; Crossroads and Golden Ages
+- [Bahamian Straw Plaiting](../../games/1435-bahamian-straw-plaiting/index.md): Bahamas; Crafts and making; Living Traditions
+- [Baibalaa](../../games/914-baibalaa/index.md): Maldives; Street and playground games; Deep Past and First Games
+- [Bakiak](../../games/324-bakiak/index.md): Indonesia, Malaysia; Racing; Age of Contact and Craft
+- [Balanta Mangrove Rice Polder](../../games/1235-balanta-mangrove-rice-polder/index.md): Guinea-Bissau; Board and table games; Crossroads and Golden Ages
+- [Baleada Stand](../../games/1436-baleada-stand/index.md): Honduras; Crafts and making; Living Traditions
+- [Balle pelote](../../games/580-balle-pelote/index.md): Belgium; Street and playground games; Modern Heritage
+- [Baloot](../../games/1060-baloot/index.md): Saudi Arabia, Yemen; Card games; Age of Contact and Craft
+- [Bamboo Copter](../../games/12-bamboo-copter/index.md): Worldwide; Toys; Modern Heritage
+- [Bamboo scaffold builder](../../games/369-bamboo-scaffold-builder/index.md): China; Crafts and making; Living Traditions
+- [Bamileke beadwork designer](../../games/1404-bamileke-beadwork-designer/index.md): Cameroon; Crafts and making; Living Traditions
+- [Bamum script writer](../../games/1405-bamum-script-writer/index.md): Cameroon; Crafts and making; Living Traditions
+- [Bandhani tie-dye](../../games/258-bandhani-tie-dye/index.md): India; Crafts and making; Living Traditions
+- [Bandoneon and tango rhythm](../../games/426-bandoneon-and-tango-rhythm/index.md): Argentina, Uruguay; Musical instruments; Age of Contact and Craft
+- [Banig mat weaving](../../games/1236-banig-mat-weaving/index.md): Philippines; Crafts and making; Living Traditions
+- [Bankura terracotta horse](../../games/280-bankura-terracotta-horse/index.md): Bangladesh; Crafts and making; Living Traditions
+- [Banqi](../../games/1437-banqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages
+- [Bao](../../games/647-bao/index.md): Comoros; Board and table games; Deep Past and First Games
+- [Bao la Kiswahili](../../games/861-bao-la-kiswahili/index.md): Kenya, Tanzania; Board and table games; Deep Past and First Games
+- [Barrel racing](../../games/439-barrel-racing/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
+- [Bashi](../../games/915-bashi/index.md): Maldives; Street and playground games; Modern Heritage
+- [Basotho blanket pattern designer](../../games/201-basotho-blanket-pattern-designer/index.md): Lesotho; Crafts and making; Living Traditions
+- [Basotho pony mountain race](../../games/1238-basotho-pony-mountain-race/index.md): Lesotho; Racing; Age of Contact and Craft
+- [Basque Pelota](../../games/1094-basque-pelota/index.md): Spain, France; Street and playground games; Modern Heritage
+- [Basque stone lifting](../../games/479-basque-stone-lifting/index.md): France; Acrobatics and strength; Classical Worlds
+- [Bat and Trap](../../games/405-bat-and-trap/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
+- [Batik wax-resist pattern studio](../../games/105-batik-wax-resist-pattern-studio/index.md): Indonesia, Malaysia; Crafts and making; Living Traditions
+- [Batu Seremban / Five stones](../../games/1068-batu-seremban-five-stones/index.md): Singapore; Dexterity and skill games; Deep Past and First Games
+- [Batuque Cloth-Drum Circle](../../games/1251-batuque-cloth-drum-circle/index.md): Cape Verde; Musical instruments; Living Traditions
+- [Bawo](../../games/906-bawo/index.md): Malawi; Board and table games; Deep Past and First Games
+- [Bayt-bazi: verse chain](../../games/240-bayt-bazi-verse-chain/index.md): Iran; Performance and storytelling; Living Traditions
+- [Beach flags](../../games/446-beach-flags/index.md): Australia; Racing; Age of Contact and Craft
+- [Bedouin Coffee Pour](../../games/1240-bedouin-coffee-pour/index.md): Jordan; Crafts and making; Living Traditions
+- [Beehive Panel Painter](../../games/1241-beehive-panel-painter/index.md): Slovenia; Crafts and making; Living Traditions
+- [Belarusian straw weaving](../../games/387-belarusian-straw-weaving/index.md): Belarus; Crafts and making; Living Traditions
+- [Bequia Boat and Model Builder](../../games/1440-bequia-boat-and-model-builder/index.md): Saint Vincent and the Grenadines; Crafts and making; Living Traditions
+- [Besh Tash](../../games/869-besh-tash/index.md): Kyrgyzstan; Dexterity and skill games; Deep Past and First Games
+- [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md): India; Dexterity and skill games; Modern Heritage
+- [Bianzhong](../../games/336-bianzhong/index.md): China; Musical instruments; Living Traditions
+- [Bidriware silver inlay](../../games/274-bidriware-silver-inlay/index.md): Worldwide; Crafts and making; Living Traditions
+- [Billycart derby](../../games/445-billycart-derby/index.md): Australia; Racing; Age of Contact and Craft
+- [Bilum looped string bag](../../games/1242-bilum-looped-string-bag/index.md): Papua New Guinea; Crafts and making; Living Traditions
+- [Bingo](../../games/622-bingo/index.md): Canada; Board and table games; Crossroads and Golden Ages
+- [Black Forest Cuckoo Clock Workshop](../../games/409-black-forest-cuckoo-clock-workshop/index.md): Germany; Crafts and making; Living Traditions
+- [Blacksmith's Forge](../../games/506-blacksmiths-forge/index.md): United Kingdom, Germany; Crafts and making; Living Traditions
+- [Blada](../../games/862-blada/index.md): Kenya; Dexterity and skill games; Modern Heritage
+- [Blind hen](../../games/983-blind-hen/index.md): Nicaragua; Other traditions; Living Traditions
+- [Blind Man's Buff](../../games/467-blind-mans-buff/index.md): Turkey, India; Street and playground games; Modern Heritage
+- [Block printing](../../games/118-block-printing/index.md): India; Crafts and making; Living Traditions
+- [Blue-and-white porcelain painting](../../games/342-blue-and-white-porcelain-painting/index.md): Worldwide; Crafts and making; Living Traditions
+- [Bo Sang umbrella painting](../../games/1243-bo-sang-umbrella-painting/index.md): Thailand; Crafts and making; Living Traditions
+- [Bobbin lace making](../../games/108-bobbin-lace-making/index.md): Belgium; Crafts and making; Living Traditions
+- [Bocce](../../games/830-bocce/index.md): Italy, San Marino; Street and playground games; Modern Heritage
+- [Boċċi](../../games/922-bocci/index.md): Malta; Street and playground games; Classical Worlds
+- [Bodhran Frame Drum](../../games/521-bodhran-frame-drum/index.md): Ireland; Musical instruments; Age of Contact and Craft
+- [Bogolan mud cloth](../../games/86-bogolan-mud-cloth/index.md): Mali; Crafts and making; Living Traditions
+- [Bojagi](../../games/363-bojagi/index.md): South Korea; Crafts and making; Living Traditions
+- [Bökh](../../games/374-bokh/index.md): Mongolia; Wrestling and martial sports; River Valleys and First Cities
+- [Bolas criollas](../../games/51-bolas-criollas/index.md): Venezuela; Board and table games; Age of Contact and Craft
+- [Bolesławiec Stamped Pottery](../../games/1244-bolesawiec-stamped-pottery/index.md): Poland; Crafts and making; Living Traditions
+- [Bolga Basket Weaver](../../games/1245-bolga-basket-weaver/index.md): Ghana; Crafts and making; Living Traditions
+- [Boli Khela](../../games/572-boli-khela/index.md): Bangladesh; Street and playground games; River Valleys and First Cities
+- [Bomba](../../games/425-bomba/index.md): Worldwide; Dances; Living Traditions
+- [Botswana coil basket weaving](../../games/208-botswana-coil-basket-weaving/index.md): Worldwide; Crafts and making; Living Traditions
+- [Bottle Dance](../../games/1424-bottle-dance/index.md): Paraguay, Spain; Dances; Living Traditions
+- [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
+- [Bouzouki Strum](../../games/1247-bouzouki-strum/index.md): Greece; Musical instruments; Living Traditions
+- [Bozo Net Casting](../../games/169-bozo-net-casting/index.md): Niger, Mali; Puzzles and mind games; Modern Heritage
+- [Brännboll](../../games/1118-brannboll/index.md): Sweden; Street and playground games; Deep Past and First Games
+- [Break the pot](../../games/1105-break-the-pot/index.md): Sri Lanka; Dexterity and skill games; Modern Heritage
+- [Bridge Stick Race](../../games/468-bridge-stick-race/index.md): United Kingdom; Toys; Modern Heritage
+- [Buffalo race](../../games/613-buffalo-race/index.md): Cambodia; Street and playground games; Modern Heritage
+- [Buganda barkcloth making](../../games/1249-buganda-barkcloth-making/index.md): Uganda; Crafts and making; Living Traditions
+- [Bulgarian Painted Pottery](../../games/1388-bulgarian-painted-pottery/index.md): Bulgaria; Crafts and making; Living Traditions
+- [Bulundu](../../games/667-bulundu/index.md): DR Congo; Street and playground games; Modern Heritage
+- [Burmese lacquerware engraving](../../games/310-burmese-lacquerware-engraving/index.md): Myanmar; Crafts and making; Living Traditions
+- [Burn-out](../../games/654-burn-out/index.md): Cuba; Street and playground games; Modern Heritage
+- [Burundian drum ensemble](../../games/1250-burundian-drum-ensemble/index.md): Burundi; Musical instruments; Living Traditions
+- [Buzuq Long-Neck Lute](../../games/218-buzuq-long-neck-lute/index.md): Lebanon, Syria; Musical instruments; Crossroads and Golden Ages

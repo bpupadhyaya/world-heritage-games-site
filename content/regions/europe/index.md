@@ -1,0 +1,236 @@
+---
+title: "Europe"
+description: "222 entries."
+path: "/regions/europe/"
+count: 222
+---
+# Europe
+
+222 entries.
+
+
+
+222 entries.
+
+- [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md): Greece; Puzzles and mind games; Modern Heritage
+- [Azulejo tile painting](../../games/122-azulejo-tile-painting/index.md): Portugal; Crafts and making; Living Traditions
+- [Bagatelle](../../games/72-bagatelle/index.md): France, United Kingdom; Dexterity and skill games; Modern Heritage
+- [Basque stone lifting](../../games/479-basque-stone-lifting/index.md): France; Acrobatics and strength; Classical Worlds
+- [Bat and Trap](../../games/405-bat-and-trap/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
+- [Beehive Panel Painter](../../games/1241-beehive-panel-painter/index.md): Slovenia; Crafts and making; Living Traditions
+- [Belarusian straw weaving](../../games/387-belarusian-straw-weaving/index.md): Belarus; Crafts and making; Living Traditions
+- [Black Forest Cuckoo Clock Workshop](../../games/409-black-forest-cuckoo-clock-workshop/index.md): Germany; Crafts and making; Living Traditions
+- [Blacksmith's Forge](../../games/506-blacksmiths-forge/index.md): United Kingdom, Germany; Crafts and making; Living Traditions
+- [Bobbin lace making](../../games/108-bobbin-lace-making/index.md): Belgium; Crafts and making; Living Traditions
+- [Bodhran Frame Drum](../../games/521-bodhran-frame-drum/index.md): Ireland; Musical instruments; Age of Contact and Craft
+- [Bolesławiec Stamped Pottery](../../games/1244-bolesawiec-stamped-pottery/index.md): Poland; Crafts and making; Living Traditions
+- [Bouzouki Strum](../../games/1247-bouzouki-strum/index.md): Greece; Musical instruments; Living Traditions
+- [Bridge Stick Race](../../games/468-bridge-stick-race/index.md): United Kingdom; Toys; Modern Heritage
+- [Bulgarian Painted Pottery](../../games/1388-bulgarian-painted-pottery/index.md): Bulgaria; Crafts and making; Living Traditions
+- [Canal pole vault](../../games/7-canal-pole-vault/index.md): Netherlands; Water and winter sports; Modern Heritage
+- [Candlepin bowling](../../games/444-candlepin-bowling/index.md): United Kingdom, Canada; Dexterity and skill games; Age of Contact and Craft
+- [Carillon](../../games/418-carillon/index.md): Belgium, Netherlands; Musical instruments; Living Traditions
+- [Celtic knot weave](../../games/25-celtic-knot-weave/index.md): Ireland, United Kingdom; Crafts and making; Living Traditions
+- [Change Ringing](../../games/1443-change-ringing/index.md): United Kingdom; Puzzles and mind games; Age of Contact and Craft
+- [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md): United Kingdom; Racing; Modern Heritage
+- [Chonguri](../../games/255-chonguri/index.md): Georgia; Musical instruments; Crossroads and Golden Ages
+- [Churchkhela](../../games/1255-churchkhela/index.md): Georgia; Crafts and making; Living Traditions
+- [Čičmany House Ornament Painting](../../games/1256-cicmany-house-ornament-painting/index.md): Slovakia; Crafts and making; Living Traditions
+- [Çiftelia](../../games/1257-ciftelia/index.md): Albania; Musical instruments; Crossroads and Golden Ages
+- [Cimbalom](../../games/1258-cimbalom/index.md): Hungary; Musical instruments; Living Traditions
+- [Clay Bird Whistle Painting](../../games/1478-clay-bird-whistle-painting/index.md): Luxembourg; Musical instruments; Living Traditions
+- [Clinker Boat Building](../../games/496-clinker-boat-building/index.md): Norway, Denmark; Crafts and making; Living Traditions
+- [Clockwork Movement Builder](../../games/502-clockwork-movement-builder/index.md): Germany, Switzerland; Puzzles and mind games; Modern Heritage
+- [Commedia Mask Stock Characters](../../games/515-commedia-mask-stock-characters/index.md): Italy; Performance and storytelling; Living Traditions
+- [Croquet](../../games/81-croquet/index.md): United Kingdom, Ireland; Board and table games; Crossroads and Golden Ages
+- [Cross-Stitch Pattern Weaving](../../games/103-cross-stitch-pattern-weaving/index.md): Ukraine; Crafts and making; Living Traditions
+- [Crossbow Target Match](../../games/1367-crossbow-target-match/index.md): Italy, San Marino; Dexterity and skill games; Modern Heritage
+- [Cymbergaj](../../games/377-cymbergaj/index.md): Poland; Dexterity and skill games; Modern Heritage
+- [Cynghanedd Poetry Puzzle](../../games/1448-cynghanedd-poetry-puzzle/index.md): United Kingdom; Puzzles and mind games; Modern Heritage
+- [Dala Horse Painting](../../games/415-dala-horse-painting/index.md): Sweden; Crafts and making; Living Traditions
+- [Daldøs](../../games/458-dalds/index.md): Denmark, Norway; Board and table games; Crossroads and Golden Ages
+- [Disc-flip](../../games/8-disc-flip/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
+- [Dots and Boxes](../../games/463-dots-and-boxes/index.md): France; Crafts and making; Living Traditions
+- [Dry Stone Wall Builder](../../games/404-dry-stone-wall-builder/index.md): Croatia, Spain; Crafts and making; Living Traditions
+- [Equestrian vaulting](../../games/488-equestrian-vaulting/index.md): Worldwide; Sports with animal partners; Classical Worlds
+- [Euclid's Ruler and Compass](../../games/396-euclids-ruler-and-compass/index.md): Greece; Puzzles and mind games; Modern Heritage
+- [Faroese chain dance](../../games/1276-faroese-chain-dance/index.md): Denmark; Dances; Living Traditions
+- [Faustball](../../games/485-faustball/index.md): Germany, Austria; Other traditions; Living Traditions
+- [Finger Hooking](../../games/1452-finger-hooking/index.md): Germany, Austria; Wrestling and martial sports; Classical Worlds
+- [Finnish pin toss](../../games/49-finnish-pin-toss/index.md): Finland; Dexterity and skill games; Age of Contact and Craft
+- [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md): Ireland, Netherlands; Dexterity and skill games; Age of Contact and Craft
+- [Fujara](../../games/135-fujara/index.md): Slovakia; Musical instruments; Classical Worlds
+- [Gadulka](../../games/1285-gadulka/index.md): Bulgaria; Musical instruments; Living Traditions
+- [Gallarija Balcony Builder](../../games/1286-gallarija-balcony-builder/index.md): Malta; Crafts and making; Living Traditions
+- [Game of the Goose](../../games/450-game-of-the-goose/index.md): Italy, Spain; Board and table games; River Valleys and First Cities
+- [Glassblowing](../../games/121-glassblowing/index.md): Italy; Crafts and making; Living Traditions
+- [Glima](../../games/478-glima/index.md): Iceland; Wrestling and martial sports; River Valleys and First Cities
+- [Gondola Rowing](../../games/401-gondola-rowing/index.md): Italy; Dexterity and skill games; Modern Heritage
+- [Gorodki](../../games/13-gorodki/index.md): Russia; Dexterity and skill games; Age of Contact and Craft
+- [Grandmother's Footsteps](../../games/469-grandmothers-footsteps/index.md): United Kingdom, France; Other traditions; Living Traditions
+- [Gusle Bow and Verse](../../games/1294-gusle-bow-and-verse/index.md): Serbia; Musical instruments; Living Traditions
+- [Haapsalu lace shawl knitting](../../games/386-haapsalu-lace-shawl-knitting/index.md): Estonia; Crafts and making; Living Traditions
+- [Harbour Street Circuit Time Trial](../../games/1475-harbour-street-circuit-time-trial/index.md): Monaco; Racing; Modern Heritage
+- [Hardanger embroidery](../../games/1296-hardanger-embroidery/index.md): Norway; Crafts and making; Living Traditions
+- [Hardanger Fiddle Halling](../../games/520-hardanger-fiddle-halling/index.md): Norway; Musical instruments; Living Traditions
+- [Highland Bagpipe Chanter and Drone](../../games/510-highland-bagpipe-chanter-and-drone/index.md): United Kingdom; Musical instruments; Crossroads and Golden Ages
+- [Horezu ceramics](../../games/384-horezu-ceramics/index.md): Romania; Crafts and making; Living Traditions
+- [Hornussen](../../games/10-hornussen/index.md): Switzerland; Board and table games; Crossroads and Golden Ages
+- [Hose-Run Fire Sport](../../games/1281-hose-run-fire-sport/index.md): Czechia, Slovakia; Dexterity and skill games; Modern Heritage
+- [Hurdy-gurdy](../../games/153-hurdy-gurdy/index.md): France; Musical instruments; Living Traditions
+- [Ice Stock Sport](../../games/1451-ice-stock-sport/index.md): Austria, Germany; Dexterity and skill games; Modern Heritage
+- [Irish Handball](../../games/1464-irish-handball/index.md): Ireland; Crafts and making; Living Traditions
+- [Kalocsa floral painting](../../games/383-kalocsa-floral-painting/index.md): Hungary; Crafts and making; Living Traditions
+- [Kanklės](../../games/136-kankles/index.md): Lithuania; Musical instruments; Classical Worlds
+- [Kantele](../../games/152-kantele/index.md): Finland; Musical instruments; Classical Worlds
+- [Khinkali dumpling pleating](../../games/246-khinkali-dumpling-pleating/index.md): Georgia; Crafts and making; Living Traditions
+- [Khokhloma Pattern Painting](../../games/102-khokhloma-pattern-painting/index.md): Russia; Crafts and making; Living Traditions
+- [Khomus](../../games/379-khomus/index.md): Russia; Musical instruments; Classical Worlds
+- [Kicksled Race](../../games/407-kicksled-race/index.md): Finland, Sweden; Racing; Age of Contact and Craft
+- [Kiiking](../../games/66-kiiking/index.md): Estonia; Puzzles and mind games; Modern Heritage
+- [Kochari](../../games/1315-kochari/index.md): Armenia; Dances; Living Traditions
+- [Kokh](../../games/1317-kokh/index.md): Armenia; Wrestling and martial sports; River Valleys and First Cities
+- [Kolf](../../games/491-kolf/index.md): Netherlands; Archery, throwing and target games; Classical Worlds
+- [Korfball](../../games/481-korfball/index.md): Netherlands, Belgium; Team ball sports; Modern Heritage
+- [Kottabos Symposium Toss](../../games/392-kottabos-symposium-toss/index.md): Greece; Archery, throwing and target games; Classical Worlds
+- [Krulbol](../../games/1469-krulbol/index.md): Belgium, Netherlands; Dexterity and skill games; Classical Worlds
+- [Kurai](../../games/1237-kurai/index.md): Russia; Musical instruments; Classical Worlds
+- [Kurpie Layered Paper Cutting](../../games/1320-kurpie-layered-paper-cutting/index.md): Poland; Crafts and making; Living Traditions
+- [Langeleik](../../games/1322-langeleik/index.md): Norway; Musical instruments; Classical Worlds
+- [Langspil](../../games/1323-langspil/index.md): Iceland; Musical instruments; Classical Worlds
+- [Lapta](../../games/375-lapta/index.md): Russia; Street and playground games; Modern Heritage
+- [Latvian Bagpipe and Folk Pipes](../../games/1324-latvian-bagpipe-and-folk-pipes/index.md): Latvia; Musical instruments; Crossroads and Golden Ages
+- [Launeddas Triple Pipe](../../games/400-launeddas-triple-pipe/index.md): Italy; Musical instruments; Living Traditions
+- [Lavash Baking](../../games/163-lavash-baking/index.md): Armenia; Crafts and making; Living Traditions
+- [Lawn bowls](../../games/74-lawn-bowls/index.md): United Kingdom, Australia; Dexterity and skill games; Classical Worlds
+- [Lefkara Lace](../../games/220-lefkara-lace/index.md): Cyprus; Crafts and making; Living Traditions
+- [Letter Categories](../../games/472-letter-categories/index.md): Germany, India; Racing; Age of Contact and Craft
+- [Licitar Heart Decorator](../../games/1326-licitar-heart-decorator/index.md): Croatia; Crafts and making; Living Traditions
+- [Lielvārde Sash Pattern Weaving](../../games/1327-lielvarde-sash-pattern-weaving/index.md): Latvia; Crafts and making; Living Traditions
+- [Luge and toboggan run](../../games/482-luge-and-toboggan-run/index.md): Worldwide; Racing; Age of Contact and Craft
+- [Lur pitch-and-breath game](../../games/1329-lur-pitch-and-breath-game/index.md): Denmark; Musical instruments; Living Traditions
+- [Luzzu Boat Painter](../../games/1330-luzzu-boat-painter/index.md): Malta; Crafts and making; Living Traditions
+- [Macau Portuguese Custard Tart Bake](../../games/1471-macau-portuguese-custard-tart-bake/index.md): Portugal, China; Crafts and making; Living Traditions
+- [Malha](../../games/1466-malha/index.md): Portugal; Archery, throwing and target games; Classical Worlds
+- [Mas-wrestling](../../games/380-mas-wrestling/index.md): Russia; Wrestling and martial sports; River Valleys and First Cities
+- [Matryoshka](../../games/28-matryoshka/index.md): Russia; Crafts and making; Living Traditions
+- [Moldovan Woven Carpet Pattern Studio](../../games/1339-moldovan-woven-carpet-pattern-studio/index.md): Moldova; Crafts and making; Living Traditions
+- [Morra](../../games/83-morra/index.md): Italy; Archery, throwing and target games; Classical Worlds
+- [Mounted Archery Course](../../games/67-mounted-archery-course/index.md): Hungary; Dexterity and skill games; Classical Worlds
+- [Nail driving](../../games/82-nail-driving/index.md): Germany; Dexterity and skill games; Modern Heritage
+- [Nohejbal](../../games/378-nohejbal/index.md): Czechia; Team ball sports; Modern Heritage
+- [Nordic Colourwork Knitting](../../games/413-nordic-colourwork-knitting/index.md): United Kingdom, Norway; Crafts and making; Living Traditions
+- [Novuss](../../games/456-novuss/index.md): Latvia, Estonia; Board and table games; Crossroads and Golden Ages
+- [Nyckelharpa](../../games/408-nyckelharpa/index.md): Sweden; Musical instruments; Classical Worlds
+- [Ohrid Pearl Maker](../../games/1350-ohrid-pearl-maker/index.md): North Macedonia; Crafts and making; Living Traditions
+- [Oina](../../games/376-oina/index.md): Romania; Bat-and-ball games; Age of Contact and Craft
+- [Paper Fortune Teller](../../games/465-paper-fortune-teller/index.md): United Kingdom, United States; Crafts and making; Living Traditions
+- [Paper Soccer](../../games/464-paper-soccer/index.md): Poland, Germany; Crafts and making; Living Traditions
+- [Partner-Carry Obstacle Race](../../games/406-partner-carry-obstacle-race/index.md): Finland; Racing; Age of Contact and Craft
+- [Perfumer's Organ](../../games/402-perfumers-organ/index.md): Worldwide; Crafts and making; Living Traditions
+- [Pesapallo](../../games/484-pesapallo/index.md): Finland; Racing; Modern Heritage
+- [Petrykivka painting](../../games/381-petrykivka-painting/index.md): Ukraine; Crafts and making; Living Traditions
+- [Pirot Kilim Weaver](../../games/1361-pirot-kilim-weaver/index.md): Serbia; Crafts and making; Living Traditions
+- [Plis Cap Felter](../../games/1362-plis-cap-felter/index.md): Albania, Kosovo; Crafts and making; Living Traditions
+- [Polder Windmill Keeper](../../games/412-polder-windmill-keeper/index.md): Netherlands; Puzzles and mind games; River Valleys and First Cities
+- [Portolan Chart Navigator](../../games/503-portolan-chart-navigator/index.md): Italy, Spain; Puzzles and mind games; Modern Heritage
+- [Portuguese Guitar](../../games/1457-portuguese-guitar/index.md): Portugal; Musical instruments; Classical Worlds
+- [Racing Pigeon Loft](../../games/411-racing-pigeon-loft/index.md): Belgium, Netherlands; Board and table games; Crossroads and Golden Ages
+- [Ribbon Pole Weave](../../games/419-ribbon-pole-weave/index.md): United Kingdom, Spain; Dances; Living Traditions
+- [Ribbon-Pole Plaiting Dance](../../games/512-ribbon-pole-plaiting-dance/index.md): United Kingdom, Germany; Dances; Living Traditions
+- [Ring Tilting](../../games/65-ring-tilting/index.md): Croatia; Dexterity and skill games; Modern Heritage
+- [Ringridning](../../games/1365-ringridning/index.md): Denmark; Dexterity and skill games; Modern Heritage
+- [Rosemaling](../../games/120-rosemaling/index.md): Norway; Crafts and making; Living Traditions
+- [Sáhkku](../../games/451-sahkku/index.md): Worldwide; Board and table games; River Valleys and First Cities
+- [Sailor's Knotwork and Turk's Head](../../games/112-sailors-knotwork-and-turks-head/index.md): Worldwide; Crafts and making; Living Traditions
+- [Seven-Key Cabinet Puzzle](../../games/1432-seven-key-cabinet-puzzle/index.md): Andorra; Performance and storytelling; Living Traditions
+- [Shepherd's Leap](../../games/391-shepherds-leap/index.md): Worldwide; Puzzles and mind games; Modern Heritage
+- [Shove ha'penny](../../games/54-shove-hapenny/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
+- [Sicilian Cart Painting](../../games/399-sicilian-cart-painting/index.md): Italy; Crafts and making; Living Traditions
+- [Sicilian Puppet Knights](../../games/514-sicilian-puppet-knights/index.md): Italy; Performance and storytelling; Classical Worlds
+- [Sjoelen](../../games/9-sjoelen/index.md): Netherlands; Dexterity and skill games; Modern Heritage
+- [Skrabalai](../../games/388-skrabalai/index.md): Lithuania; Musical instruments; Living Traditions
+- [Slutsk Sash Weaving](../../games/1375-slutsk-sash-weaving/index.md): Belarus; Crafts and making; Living Traditions
+- [Sprouts](../../games/473-sprouts/index.md): United Kingdom; Crafts and making; Living Traditions
+- [Stamp Designer and Perforator](../../games/1470-stamp-designer-and-perforator/index.md): Liechtenstein; Crafts and making; Living Traditions
+- [Steal the Flag](../../games/474-steal-the-flag/index.md): Italy, Brazil; Other traditions; Living Traditions
+- [Stoolball](../../games/492-stoolball/index.md): United Kingdom; Archery, throwing and target games; Modern Heritage
+- [Swiss wrestling](../../games/487-swiss-wrestling/index.md): Switzerland; Wrestling and martial sports; River Valleys and First Cities
+- [Tamburello](../../games/489-tamburello/index.md): Italy, France; Crafts and making; Living Traditions
+- [Tar and mugham modes](../../games/247-tar-and-mugham-modes/index.md): Azerbaijan; Musical instruments; Crossroads and Golden Ages
+- [Tartan Sett Weaving](../../games/505-tartan-sett-weaving/index.md): United Kingdom, Ireland; Crafts and making; Living Traditions
+- [Tavern Nail and Wire Puzzles](../../games/110-tavern-nail-and-wire-puzzles/index.md): Germany, United Kingdom; Puzzles and mind games; Classical Worlds
+- [Tessellated Mosaic Making](../../games/500-tessellated-mosaic-making/index.md): Italy, Lebanon; Crafts and making; Living Traditions
+- [Trânta](../../games/1386-tranta/index.md): Moldova, Romania; Wrestling and martial sports; River Valleys and First Cities
+- [Trembita](../../games/1387-trembita/index.md): Ukraine; Musical instruments; Living Traditions
+- [Txalaparta Duet](../../games/390-txalaparta-duet/index.md): Spain; Musical instruments; Living Traditions
+- [Varpa](../../games/1396-varpa/index.md): Sweden; Dexterity and skill games; Modern Heritage
+- [Venetian lagoon regatta](../../games/486-venetian-lagoon-regatta/index.md): Italy; Racing; Age of Contact and Craft
+- [Water Jousting](../../games/393-water-jousting/index.md): France; Wrestling and martial sports; Crossroads and Golden Ages
+- [Water Polo Sprint](../../games/1398-water-polo-sprint/index.md): Montenegro; Crafts and making; Living Traditions
+- [Welsh Love Spoon Carving](../../games/414-welsh-love-spoon-carving/index.md): United Kingdom; Crafts and making; Living Traditions
+- [Whistled Language Relay](../../games/403-whistled-language-relay/index.md): Worldwide; Puzzles and mind games; Modern Heritage
+- [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
+- [Yalli](../../games/1400-yalli/index.md): Azerbaijan; Dances; Living Traditions
+- [Balle pelote](../../games/580-balle-pelote/index.md): Belgium; Street and playground games; Modern Heritage
+- [Basque Pelota](../../games/1094-basque-pelota/index.md): Spain, France; Street and playground games; Modern Heritage
+- [Bocce](../../games/830-bocce/index.md): Italy, San Marino; Street and playground games; Modern Heritage
+- [Boċċi](../../games/922-bocci/index.md): Malta; Street and playground games; Classical Worlds
+- [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
+- [Brännboll](../../games/1118-brannboll/index.md): Sweden; Street and playground games; Deep Past and First Games
+- [Cantabrian palm bowling](../../games/1096-cantabrian-palm-bowling/index.md): Spain; Street and playground games; Age of Contact and Craft
+- [Chess](../../games/552-chess/index.md): Armenia, Azerbaijan; Board and table games; Crossroads and Golden Ages
+- [Chidaoba](../../games/734-chidaoba/index.md): Georgia; Street and playground games; River Valleys and First Cities
+- [Chovqan](../../games/565-chovqan/index.md): Azerbaijan; Street and playground games; Classical Worlds
+- [Crossbow shooting](../../games/1058-crossbow-shooting/index.md): San Marino; Street and playground games; Modern Heritage
+- [Curling](../../games/1181-curling/index.md): United Kingdom; Street and playground games; Modern Heritage
+- [Czech draughts](../../games/662-czech-draughts/index.md): Czechia; Board and table games; Crossroads and Golden Ages
+- [Danish pin billiards](../../games/671-danish-pin-billiards/index.md): Denmark; Street and playground games; Age of Contact and Craft
+- [Don't Get Angry](../../games/744-dont-get-angry/index.md): Germany; Board and table games; River Valleys and First Cities
+- [Don't Get Mad](../../games/530-dont-get-mad/index.md): Albania; Board and table games; Crossroads and Golden Ages
+- [Dutch draughts](../../games/970-dutch-draughts/index.md): Netherlands; Board and table games; Crossroads and Golden Ages
+- [Estonian Durak](../../games/704-estonian-durak/index.md): Estonia; Card games; Age of Contact and Craft
+- [Fierljeppen](../../games/971-fierljeppen/index.md): Netherlands; Street and playground games; Modern Heritage
+- [Finch sitting](../../games/584-finch-sitting/index.md): Belgium; Other traditions; Living Traditions
+- [Finger pulling](../../games/563-finger-pulling/index.md): Austria; Street and playground games; Modern Heritage
+- [Frisian kaatsen](../../games/973-frisian-kaatsen/index.md): Netherlands; Street and playground games; Modern Heritage
+- [Highland games](../../games/1184-highland-games/index.md): United Kingdom; Street and playground games; Modern Heritage
+- [Hungarian dominoes](../../games/778-hungarian-dominoes/index.md): Hungary; Board and table games; Crossroads and Golden Ages
+- [Hurling](../../games/821-hurling/index.md): Ireland; Street and playground games; Crossroads and Golden Ages
+- [Italian draughts](../../games/834-italian-draughts/index.md): Italy; Board and table games; Crossroads and Golden Ages
+- [Klootschieten](../../games/975-klootschieten/index.md): Netherlands; Street and playground games; Modern Heritage
+- [Krulbollen](../../games/583-krulbollen/index.md): Belgium; Street and playground games; Modern Heritage
+- [Kubb](../../games/1120-kubb/index.md): Sweden; Street and playground games; Modern Heritage
+- [Kyykka](../../games/715-kyykka/index.md): Finland; Street and playground games; Age of Contact and Craft
+- [Lelo Burti](../../games/737-lelo-burti/index.md): Georgia; Street and playground games; Modern Heritage
+- [Ligrin](../../games/657-ligrin/index.md): Cyprus; Street and playground games; Modern Heritage
+- [Lithuanian Durak variants](../../games/894-lithuanian-durak-variants/index.md): Lithuania; Card games; Age of Contact and Craft
+- [Nardi](../../games/551-nardi/index.md): Armenia, Azerbaijan; Board and table games; River Valleys and First Cities
+- [Nardy](../../games/1047-nardy/index.md): Russia; Board and table games; River Valleys and First Cities
+- [Nine Men's Morris](../../games/740-nine-mens-morris/index.md): Germany, Liechtenstein; Board and table games; River Valleys and First Cities
+- [Palant](../../games/1031-palant/index.md): Poland; Street and playground games; Deep Past and First Games
+- [Parchís](../../games/1098-parchis/index.md): Spain; Board and table games; River Valleys and First Cities
+- [Parxís](../../games/542-parxis/index.md): Andorra; Board and table games; River Valleys and First Cities
+- [Pitch and toss](../../games/822-pitch-and-toss/index.md): Ireland; Dexterity and skill games; Modern Heritage
+- [Polish draughts](../../games/1034-polish-draughts/index.md): Poland; Board and table games; Crossroads and Golden Ages
+- [Portuguese staff fighting](../../games/1037-portuguese-staff-fighting/index.md): Portugal; Street and playground games; Classical Worlds
+- [Provencal boules](../../games/939-provencal-boules/index.md): Monaco; Street and playground games; Classical Worlds
+- [Pub darts](../../games/1182-pub-darts/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
+- [Pub dominoes](../../games/1183-pub-dominoes/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
+- [Regional pub games](../../games/1180-regional-pub-games/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
+- [Remi](../../games/993-remi/index.md): North Macedonia, Serbia; Card games; Age of Contact and Craft
+- [Road bowling](../../games/819-road-bowling/index.md): Ireland; Street and playground games; Age of Contact and Craft
+- [Scopa](../../games/832-scopa/index.md): Italy, San Marino; Card games; Age of Contact and Craft
+- [Shashki](../../games/1177-shashki/index.md): Ukraine, Belarus; Board and table games; Crossroads and Golden Ages
+- [Skittles](../../games/1179-skittles/index.md): United Kingdom, Germany; Street and playground games; Age of Contact and Craft
+- [Slovene quintain](../../games/1073-slovene-quintain/index.md): Slovenia; Street and playground games; Classical Worlds
+- [Snooker](../../games/1185-snooker/index.md): United Kingdom; Street and playground games; Modern Heritage
+- [Stick and Cingel](../../games/529-stick-and-cingel/index.md): Albania; Street and playground games; Modern Heritage
+- [Svaika](../../games/1048-svaika/index.md): Russia; Street and playground games; Modern Heritage
+- [Table](../../games/1044-table/index.md): Romania, Moldova; Board and table games; River Valleys and First Cities
+- [Tafl](../../games/995-tafl/index.md): Norway, Sweden; Board and table games; Crossroads and Golden Ages
+- [Tavëll](../../games/527-tavell/index.md): Albania, Kosovo; Board and table games; River Valleys and First Cities
+- [Tavla](../../games/992-tavla/index.md): North Macedonia, Montenegro; Board and table games; River Valleys and First Cities
+- [Tavli](../../games/656-tavli/index.md): Cyprus, Greece; Board and table games; River Valleys and First Cities
+- [Tombola](../../games/829-tombola/index.md): Italy, Malta; Racing; Age of Contact and Craft
+- [Ziziros](../../games/659-ziziros/index.md): Cyprus; Street and playground games; Deep Past and First Games

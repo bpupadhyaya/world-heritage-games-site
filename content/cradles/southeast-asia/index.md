@@ -1,0 +1,106 @@
+---
+title: "Southeast Asia and the Islands"
+description: "Mainland valleys and the island world from Sumatra to the Philippines."
+path: "/cradles/southeast-asia/"
+count: 92
+---
+# Southeast Asia and the Islands
+
+Mainland valleys and the island world from Sumatra to the Philippines.
+
+
+
+92 entries.
+
+- [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
+- [Arnis / Eskrima](../../games/323-arnis-eskrima/index.md): Philippines, Timor-Leste; Wrestling and martial sports; Classical Worlds
+- [Bakiak](../../games/324-bakiak/index.md): Indonesia, Malaysia; Racing; Age of Contact and Craft
+- [Banig mat weaving](../../games/1236-banig-mat-weaving/index.md): Philippines; Crafts and making; Living Traditions
+- [Batik wax-resist pattern studio](../../games/105-batik-wax-resist-pattern-studio/index.md): Indonesia, Malaysia; Crafts and making; Living Traditions
+- [Bo Sang umbrella painting](../../games/1243-bo-sang-umbrella-painting/index.md): Thailand; Crafts and making; Living Traditions
+- [Burmese lacquerware engraving](../../games/310-burmese-lacquerware-engraving/index.md): Myanmar; Crafts and making; Living Traditions
+- [Chinlone](../../games/16-chinlone/index.md): Myanmar; Dexterity and skill games; Modern Heritage
+- [Co Ganh](../../games/301-co-ganh/index.md): Vietnam; Board and table games; Crossroads and Golden Ages
+- [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md): Indonesia; Street and playground games; Modern Heritage
+- [Dan bau](../../games/143-dan-bau/index.md): Vietnam; Musical instruments; Living Traditions
+- [Dikir barat](../../games/1268-dikir-barat/index.md): Malaysia; Street and playground games; Modern Heritage
+- [Egrang](../../games/17-egrang/index.md): Indonesia, Malaysia; Racing; Classical Worlds
+- [Floating market trader](../../games/315-floating-market-trader/index.md): Thailand; Board and table games; Crossroads and Golden Ages
+- [Gasing uri](../../games/1289-gasing-uri/index.md): Malaysia; Dexterity and skill games; Modern Heritage
+- [Gobak Sodor](../../games/46-gobak-sodor/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
+- [Greasy pole climb](../../games/77-greasy-pole-climb/index.md): Indonesia; Performance and storytelling; Living Traditions
+- [Independence-day field games](../../games/330-independence-day-field-games/index.md): Indonesia; Racing; Age of Contact and Craft
+- [Intha leg rowing on the lake](../../games/304-intha-leg-rowing-on-the-lake/index.md): Myanmar; Racing; Age of Contact and Craft
+- [Jeepney painting](../../games/1306-jeepney-painting/index.md): Philippines; Crafts and making; Living Traditions
+- [Kaapse Klopse](../../games/1307-kaapse-klopse/index.md): Malaysia, South Africa; Street and playground games; Modern Heritage
+- [Kampong Ayer water-taxi dash](../../games/1308-kampong-ayer-water-taxi-dash/index.md): Brunei, Malaysia; Water and winter sports; Classical Worlds
+- [Ketupat](../../games/322-ketupat/index.md): Malaysia, Indonesia; Crafts and making; Living Traditions
+- [Khene](../../games/145-khene/index.md): Laos; Musical instruments; Living Traditions
+- [Khloy bamboo duct flute](../../games/1311-khloy-bamboo-duct-flute/index.md): Cambodia; Musical instruments; Classical Worlds
+- [Kulintang](../../games/318-kulintang/index.md): Philippines, Malaysia; Musical instruments; Classical Worlds
+- [Lao silk brocade weaving](../../games/311-lao-silk-brocade-weaving/index.md): Laos; Crafts and making; Living Traditions
+- [Lato-lato](../../games/316-lato-lato/index.md): Indonesia, Malaysia; Toys; Modern Heritage
+- [Luk chup](../../games/307-luk-chup/index.md): Thailand; Crafts and making; Living Traditions
+- [Luksong tinik](../../games/146-luksong-tinik/index.md): Philippines; Street and playground games; Modern Heritage
+- [Pacu jawi](../../games/1354-pacu-jawi/index.md): Indonesia; Racing; Age of Contact and Craft
+- [Palm sugar boiling and mould-filling](../../games/313-palm-sugar-boiling-and-mould-filling/index.md): Cambodia; Crafts and making; Living Traditions
+- [Pencak silat](../../games/329-pencak-silat/index.md): Indonesia, Malaysia; Wrestling and martial sports; Classical Worlds
+- [Penghu Stone Weir Tide Puzzle](../../games/1479-penghu-stone-weir-tide-puzzle/index.md): Taiwan; Crafts and making; Living Traditions
+- [Phuang malai flower garland threading](../../games/309-phuang-malai-flower-garland-threading/index.md): Thailand; Crafts and making; Living Traditions
+- [Pinisi](../../games/327-pinisi/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
+- [Ranat ek](../../games/305-ranat-ek/index.md): Thailand; Musical instruments; Living Traditions
+- [Sack Race](../../games/476-sack-race/index.md): Indonesia, United Kingdom; Racing; Age of Contact and Craft
+- [Sasando](../../games/317-sasando/index.md): Indonesia; Musical instruments; Classical Worlds
+- [Saung gauk](../../games/306-saung-gauk/index.md): Myanmar; Musical instruments; Classical Worlds
+- [Shophouse facade builder](../../games/1373-shophouse-facade-builder/index.md): Singapore, China; Crafts and making; Living Traditions
+- [Sittuyin](../../games/302-sittuyin/index.md): Myanmar; Board and table games; Crossroads and Golden Ages
+- [Songket](../../games/320-songket/index.md): Malaysia, Brunei; Crafts and making; Living Traditions
+- [Stilt-village builder](../../games/1248-stilt-village-builder/index.md): Brunei, Malaysia; Crafts and making; Living Traditions
+- [Tais](../../games/321-tais/index.md): Timor-Leste; Crafts and making; Living Traditions
+- [Thai fruit and vegetable carving](../../games/114-thai-fruit-and-vegetable-carving/index.md): Thailand; Crafts and making; Living Traditions
+- [Thung chai basket-boat spinning](../../games/308-thung-chai-basket-boat-spinning/index.md): Vietnam; Racing; Age of Contact and Craft
+- [Timorese coffee cherry harvest and sort](../../games/1381-timorese-coffee-cherry-harvest-and-sort/index.md): Timor-Leste; Crafts and making; Living Traditions
+- [Tinikling](../../games/141-tinikling/index.md): Philippines; Dexterity and skill games; Modern Heritage
+- [Water puppet pond theatre](../../games/303-water-puppet-pond-theatre/index.md): Vietnam; Performance and storytelling; Classical Worlds
+- [Yoke thé](../../games/314-yoke-the/index.md): Myanmar; Performance and storytelling; Classical Worlds
+- [Batu Seremban / Five stones](../../games/1068-batu-seremban-five-stones/index.md): Singapore; Dexterity and skill games; Deep Past and First Games
+- [Buffalo race](../../games/613-buffalo-race/index.md): Cambodia; Street and playground games; Modern Heritage
+- [Chapteh shuttlecock](../../games/1066-chapteh-shuttlecock/index.md): Singapore; Dexterity and skill games; Modern Heritage
+- [Congklak](../../games/803-congklak/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
+- [Encang kuda](../../games/1067-encang-kuda/index.md): Singapore; Street and playground games; Classical Worlds
+- [Five stones](../../games/907-five-stones/index.md): Malaysia, Brunei; Dexterity and skill games; Deep Past and First Games
+- [Galah panjang](../../games/909-galah-panjang/index.md): Malaysia, Singapore; Street and playground games; Deep Past and First Games
+- [Gaple dominoes](../../games/804-gaple-dominoes/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
+- [Gasing](../../games/908-gasing/index.md): Malaysia, Singapore; Dexterity and skill games; Modern Heritage
+- [Gourd-crab dice](../../games/1213-gourd-crab-dice/index.md): Vietnam; Board and table games; River Valleys and First Cities
+- [Hide the scarf](../../games/615-hide-the-scarf/index.md): Cambodia; Street and playground games; Modern Heritage
+- [Horse race ludo](../../games/1214-horse-race-ludo/index.md): Vietnam; Board and table games; River Valleys and First Cities
+- [Kataw](../../games/873-kataw/index.md): Laos; Street and playground games; Modern Heritage
+- [Khmer chess](../../games/616-khmer-chess/index.md): Cambodia; Board and table games; Crossroads and Golden Ages
+- [Lao chess](../../games/875-lao-chess/index.md): Laos; Board and table games; Crossroads and Golden Ages
+- [Madura bull racing](../../games/805-madura-bull-racing/index.md): Indonesia; Street and playground games; Modern Heritage
+- [Makyek](../../games/1143-makyek/index.md): Thailand; Board and table games; Crossroads and Golden Ages
+- [Malay draughts](../../games/910-malay-draughts/index.md): Malaysia; Board and table games; Crossroads and Golden Ages
+- [Mandarin square capturing](../../games/1216-mandarin-square-capturing/index.md): Vietnam; Board and table games; Deep Past and First Games
+- [Patintero](../../games/1021-patintero/index.md): Philippines; Street and playground games; Deep Past and First Games
+- [Pebbles](../../games/874-pebbles/index.md): Laos; Dexterity and skill games; Deep Past and First Games
+- [Petanque](../../games/872-petanque/index.md): Laos, France; Street and playground games; Modern Heritage
+- [Phankhon](../../games/957-phankhon/index.md): Myanmar; Street and playground games; Modern Heritage
+- [Piko](../../games/1022-piko/index.md): Philippines; Street and playground games; Deep Past and First Games
+- [Regional pony race meets](../../games/1145-regional-pony-race-meets/index.md): Timor-Leste; Street and playground games; Modern Heritage
+- [Scarf-ball toss](../../games/614-scarf-ball-toss/index.md): Cambodia; Street and playground games; Modern Heritage
+- [Seed throwing](../../games/612-seed-throwing/index.md): Cambodia; Dexterity and skill games; Deep Past and First Games
+- [Sepak takraw](../../games/802-sepak-takraw/index.md): Indonesia, Malaysia; Street and playground games; Modern Heritage
+- [Silat Melayu](../../games/605-silat-melayu/index.md): Brunei; Street and playground games; Modern Heritage
+- [Sipa](../../games/1024-sipa/index.md): Philippines; Street and playground games; Modern Heritage
+- [Sungka](../../games/1025-sungka/index.md): Philippines; Board and table games; Deep Past and First Games
+- [Tag](../../games/959-tag/index.md): Myanmar; Street and playground games; Deep Past and First Games
+- [Taiwanese mahjong](../../games/1131-taiwanese-mahjong/index.md): Taiwan; Board and table games; Crossroads and Golden Ages
+- [Tapatan](../../games/1026-tapatan/index.md): Philippines; Board and table games; River Valleys and First Cities
+- [Thai checkers](../../games/1142-thai-checkers/index.md): Thailand; Board and table games; Crossroads and Golden Ages
+- [Thai chess](../../games/1141-thai-chess/index.md): Thailand; Board and table games; Crossroads and Golden Ages
+- [Thai pebbles](../../games/1140-thai-pebbles/index.md): Thailand; Dexterity and skill games; Deep Past and First Games
+- [Tikhi](../../games/876-tikhi/index.md): Laos; Street and playground games; Modern Heritage
+- [Tumbang preso](../../games/1028-tumbang-preso/index.md): Philippines; Street and playground games; Modern Heritage
+- [Vietnamese xiangqi](../../games/1215-vietnamese-xiangqi/index.md): Vietnam; Board and table games; Crossroads and Golden Ages
+- [Wau bulan kite](../../games/911-wau-bulan-kite/index.md): Malaysia; Dexterity and skill games; Classical Worlds
