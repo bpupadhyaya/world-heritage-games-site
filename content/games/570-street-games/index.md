@@ -13,7 +13,7 @@ countries: ["Bahamas"]
 
 *Marbles / Hopscotch*
 
-**Encyclopedia ID 570** (permanent) · https://equalinformation.com/world-heritage-games-site/games/570-street-games/
+**Encyclopedia ID 570** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/570-street-games/
 
 Children's yard games: flicking marbles at targets and hopping through a chalk grid.
 

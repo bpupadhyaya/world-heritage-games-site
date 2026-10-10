@@ -13,7 +13,7 @@ countries: ["Bangladesh"]
 
 *লাউ কাটা কাটি*
 
-**Encyclopedia ID 460** (permanent) · https://equalinformation.com/world-heritage-games-site/games/460-lau-kata-kati/
+**Encyclopedia ID 460** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/460-lau-kata-kati/
 
 ![Lau Kata Kati](../../../img/photos/00460-lau-kata-kati.jpg)
 

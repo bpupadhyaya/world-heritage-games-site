@@ -13,7 +13,7 @@ countries: ["New Zealand"]
 
 *Kirikiti · diaspora*
 
-**Encyclopedia ID 980** (permanent) · https://equalinformation.com/world-heritage-games-site/games/980-pasifika-kirikiti/
+**Encyclopedia ID 980** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/980-pasifika-kirikiti/
 
 Samoan/Pacific-style cricket played in NZ Pacific communities at community gatherings.
 

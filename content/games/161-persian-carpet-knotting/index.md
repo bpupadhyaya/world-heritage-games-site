@@ -13,7 +13,7 @@ countries: ["Iran", "Turkey"]
 
 *فرش دستباف*
 
-**Encyclopedia ID 161** (permanent) · https://equalinformation.com/world-heritage-games-site/games/161-persian-carpet-knotting/
+**Encyclopedia ID 161** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/161-persian-carpet-knotting/
 
 ![Persian Carpet Knotting](../../../img/photos/00161-persian-carpet-knotting.jpg)
 

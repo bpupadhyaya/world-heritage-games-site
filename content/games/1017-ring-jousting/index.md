@@ -13,7 +13,7 @@ countries: ["Paraguay"]
 
 *Sortija*
 
-**Encyclopedia ID 1017** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1017-ring-jousting/
+**Encyclopedia ID 1017** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1017-ring-jousting/
 
 Riders gallop under an arch and spear a hanging ring.
 

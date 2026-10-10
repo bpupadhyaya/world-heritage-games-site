@@ -13,7 +13,7 @@ countries: ["Ethiopia"]
 
 *Masinko / masenqo · one-string fiddle*
 
-**Encyclopedia ID 187** (permanent) · https://equalinformation.com/world-heritage-games-site/games/187-masenqo-and-the-azmari/
+**Encyclopedia ID 187** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/187-masenqo-and-the-azmari/
 
 ![Masenqo and the azmari](../../../img/photos/00187-masenqo-and-the-azmari.jpg)
 

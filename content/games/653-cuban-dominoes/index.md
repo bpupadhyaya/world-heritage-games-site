@@ -13,7 +13,7 @@ countries: ["Cuba"]
 
 *Dominó · Dominó de parejas · Longana · doble nueve, parejas*
 
-**Encyclopedia ID 653** (permanent) · https://equalinformation.com/world-heritage-games-site/games/653-cuban-dominoes/
+**Encyclopedia ID 653** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/653-cuban-dominoes/
 
 Four players in partnerships use a double-nine set and race to empty their hands; also a four-way cross layout called Longana.
 

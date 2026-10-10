@@ -13,7 +13,7 @@ countries: ["Kenya"]
 
 *Nyatiti*
 
-**Encyclopedia ID 1349** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1349-nyatiti-luo-lyre/
+**Encyclopedia ID 1349** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1349-nyatiti-luo-lyre/
 
 ![Nyatiti Luo lyre](../../../img/photos/01349-nyatiti-luo-lyre.jpg)
 

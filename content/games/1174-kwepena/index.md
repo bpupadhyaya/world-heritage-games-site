@@ -13,7 +13,7 @@ countries: ["Uganda"]
 
 *Kwepena*
 
-**Encyclopedia ID 1174** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1174-kwepena/
+**Encyclopedia ID 1174** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1174-kwepena/
 
 Buganda dodgeball with shooters at both ends.
 

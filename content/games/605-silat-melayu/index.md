@@ -13,7 +13,7 @@ countries: ["Brunei"]
 
 *Silat*
 
-**Encyclopedia ID 605** (permanent) · https://equalinformation.com/world-heritage-games-site/games/605-silat-melayu/
+**Encyclopedia ID 605** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/605-silat-melayu/
 
 Malay martial art widely practiced, local variant Silat Suffian Bela Diri.
 

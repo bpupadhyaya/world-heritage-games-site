@@ -13,7 +13,7 @@ countries: ["Syria"]
 
 *sadaf / صدف*
 
-**Encyclopedia ID 223** (permanent) · https://equalinformation.com/world-heritage-games-site/games/223-damascus-mother-of-pearl-inlay/
+**Encyclopedia ID 223** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/223-damascus-mother-of-pearl-inlay/
 
 ![Damascus Mother-of-Pearl Inlay](../../../img/photos/00223-damascus-mother-of-pearl-inlay.jpg)
 

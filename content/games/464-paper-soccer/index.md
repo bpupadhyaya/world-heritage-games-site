@@ -13,7 +13,7 @@ countries: ["Poland", "Germany", "Russia"]
 
 *Piłka nożna na kartce · Kropki / Fussball auf Papier*
 
-**Encyclopedia ID 464** (permanent) · https://equalinformation.com/world-heritage-games-site/games/464-paper-soccer/
+**Encyclopedia ID 464** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/464-paper-soccer/
 
 ![Paper Soccer](../../../img/photos/00464-paper-soccer.jpg)
 

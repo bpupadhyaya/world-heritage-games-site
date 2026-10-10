@@ -13,7 +13,7 @@ countries: ["Denmark"]
 
 *lur · Bronze Age horn*
 
-**Encyclopedia ID 1329** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1329-lur-pitch-and-breath-game/
+**Encyclopedia ID 1329** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1329-lur-pitch-and-breath-game/
 
 ![Lur pitch-and-breath game](../../../img/photos/01329-lur-pitch-and-breath-game.jpg)
 

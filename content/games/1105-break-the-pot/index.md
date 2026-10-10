@@ -13,7 +13,7 @@ countries: ["Sri Lanka"]
 
 *Kana Mutti Bindima*
 
-**Encyclopedia ID 1105** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1105-break-the-pot/
+**Encyclopedia ID 1105** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1105-break-the-pot/
 
 Blindfolded player swings a stick at suspended clay pots.
 

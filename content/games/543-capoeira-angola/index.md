@@ -13,7 +13,7 @@ countries: ["Angola"]
 
 *Capoeira Angola · Capoeira*
 
-**Encyclopedia ID 543** (permanent) · https://equalinformation.com/world-heritage-games-site/games/543-capoeira-angola/
+**Encyclopedia ID 543** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/543-capoeira-angola/
 
 Afro-Brazilian art/game; style named for Angola; origin debated.
 

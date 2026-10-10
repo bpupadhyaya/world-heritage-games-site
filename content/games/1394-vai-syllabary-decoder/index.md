@@ -13,7 +13,7 @@ countries: ["Liberia"]
 
 *Vai script (ꕙꔤ)*
 
-**Encyclopedia ID 1394** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1394-vai-syllabary-decoder/
+**Encyclopedia ID 1394** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1394-vai-syllabary-decoder/
 
 ![Vai Syllabary Decoder](../../../img/photos/01394-vai-syllabary-decoder.jpg)
 

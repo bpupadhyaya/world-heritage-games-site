@@ -13,7 +13,7 @@ countries: ["China"]
 
 *军棋 Jūnqí (Luzhanqi) · Land battle chess · Army chess*
 
-**Encyclopedia ID 640** (permanent) · https://equalinformation.com/world-heritage-games-site/games/640-luzhanqi/
+**Encyclopedia ID 640** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/640-luzhanqi/
 
 Hidden-rank pieces move along railways and posts on a 65-space board; the aim is to capture the opposing flag.
 

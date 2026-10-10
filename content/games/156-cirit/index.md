@@ -13,7 +13,7 @@ countries: ["Turkey"]
 
 *Cirit · horseback javelin game*
 
-**Encyclopedia ID 156** (permanent) · https://equalinformation.com/world-heritage-games-site/games/156-cirit/
+**Encyclopedia ID 156** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/156-cirit/
 
 ![Cirit](../../../img/photos/00156-cirit.jpg)
 

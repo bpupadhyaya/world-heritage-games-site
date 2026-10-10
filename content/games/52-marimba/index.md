@@ -13,7 +13,7 @@ countries: []
 
 *Marimba de Guatemala*
 
-**Encyclopedia ID 52** (permanent) · https://equalinformation.com/world-heritage-games-site/games/52-marimba/
+**Encyclopedia ID 52** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/52-marimba/
 
 ![Marimba](../../../img/photos/00052-marimba.jpg)
 

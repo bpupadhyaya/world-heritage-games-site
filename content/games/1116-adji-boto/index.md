@@ -13,7 +13,7 @@ countries: ["Suriname"]
 
 *Adji-boto · Saramaccan mancala*
 
-**Encyclopedia ID 1116** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1116-adji-boto/
+**Encyclopedia ID 1116** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1116-adji-boto/
 
 Mancala game of the Saramaccan Maroons; played for ten days after a death and boards are made only by widows.
 

@@ -13,7 +13,7 @@ countries: ["Mauritania"]
 
 *Dhamet (Srand) · Damma · Zamma · Srand*
 
-**Encyclopedia ID 927** (permanent) · https://equalinformation.com/world-heritage-games-site/games/927-dhamet/
+**Encyclopedia ID 927** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/927-dhamet/
 
 Draughts-like game on a 9x9 intersection board where each side has 40 pieces, men promote to Mullahs, and captures remove pieces immediately.
 

@@ -13,7 +13,7 @@ countries: ["Kyrgyzstan"]
 
 *комуз · Kyrgyz three-string lute*
 
-**Encyclopedia ID 242** (permanent) · https://equalinformation.com/world-heritage-games-site/games/242-komuz/
+**Encyclopedia ID 242** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/242-komuz/
 
 ![Komuz](../../../img/photos/00242-komuz.jpg)
 

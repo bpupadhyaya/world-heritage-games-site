@@ -13,7 +13,7 @@ countries: ["Liberia"]
 
 *Queah · Liberian Queah*
 
-**Encyclopedia ID 885** (permanent) · https://equalinformation.com/world-heritage-games-site/games/885-queah/
+**Encyclopedia ID 885** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/885-queah/
 
 ![Queah](../../../img/photos/01325-liberian-queah.jpg)
 

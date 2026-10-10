@@ -13,7 +13,7 @@ countries: ["Croatia", "Spain", "Italy", "Greece", "Malta"]
 
 *Suhozid / pared de piedra seca / muri a secco*
 
-**Encyclopedia ID 404** (permanent) · https://equalinformation.com/world-heritage-games-site/games/404-dry-stone-wall-builder/
+**Encyclopedia ID 404** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/404-dry-stone-wall-builder/
 
 ![Dry Stone Wall Builder](../../../img/photos/00404-dry-stone-wall-builder.jpg)
 

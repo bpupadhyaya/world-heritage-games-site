@@ -13,7 +13,7 @@ countries: ["Belgium", "Netherlands"]
 
 *Krulbol / Rolle Bolle · Flemish Curve Bowls*
 
-**Encyclopedia ID 1469** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1469-krulbol/
+**Encyclopedia ID 1469** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1469-krulbol/
 
 ![Krulbol](../../../img/photos/01469-krulbol.jpg)
 

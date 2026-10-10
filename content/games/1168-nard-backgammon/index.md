@@ -13,7 +13,7 @@ countries: ["Turkmenistan", "Tajikistan"]
 
 *Nard*
 
-**Encyclopedia ID 1168** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1168-nard-backgammon/
+**Encyclopedia ID 1168** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1168-nard-backgammon/
 
 Dice race board game.
 

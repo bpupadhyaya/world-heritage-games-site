@@ -13,7 +13,7 @@ countries: ["Congo"]
 
 *Nzango · clap-and-foot court game*
 
-**Encyclopedia ID 1422** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1422-nzango/
+**Encyclopedia ID 1422** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1422-nzango/
 
 ![Nzango](../../../img/photos/01422-nzango.jpg)
 

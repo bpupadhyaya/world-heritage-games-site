@@ -13,7 +13,7 @@ countries: ["Mali"]
 
 *Crepissage (Sahel earth building)*
 
-**Encyclopedia ID 179** (permanent) · https://equalinformation.com/world-heritage-games-site/games/179-mud-plaster-season/
+**Encyclopedia ID 179** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/179-mud-plaster-season/
 
 ![Mud Plaster Season](../../../img/photos/00179-mud-plaster-season.jpg)
 

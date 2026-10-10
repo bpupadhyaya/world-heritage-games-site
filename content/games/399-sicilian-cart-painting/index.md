@@ -13,7 +13,7 @@ countries: ["Italy"]
 
 *Carretto siciliano*
 
-**Encyclopedia ID 399** (permanent) · https://equalinformation.com/world-heritage-games-site/games/399-sicilian-cart-painting/
+**Encyclopedia ID 399** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/399-sicilian-cart-painting/
 
 ![Sicilian Cart Painting](../../../img/photos/00399-sicilian-cart-painting.jpg)
 

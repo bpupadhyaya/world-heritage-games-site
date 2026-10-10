@@ -13,7 +13,7 @@ countries: ["Niger", "Mali"]
 
 *Pêche à l'épervier (Bozo fishing)*
 
-**Encyclopedia ID 169** (permanent) · https://equalinformation.com/world-heritage-games-site/games/169-bozo-net-casting/
+**Encyclopedia ID 169** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/169-bozo-net-casting/
 
 ![Bozo Net Casting](../../../img/photos/00169-bozo-net-casting.jpg)
 

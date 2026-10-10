@@ -13,7 +13,7 @@ countries: ["Ireland"]
 
 *Liathróid láimhe · Alley Handball*
 
-**Encyclopedia ID 1464** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1464-irish-handball/
+**Encyclopedia ID 1464** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1464-irish-handball/
 
 ![Irish Handball](../../../img/photos/01464-irish-handball.jpg)
 

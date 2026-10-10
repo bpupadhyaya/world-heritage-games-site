@@ -13,7 +13,7 @@ countries: ["Guatemala"]
 
 *Lotería*
 
-**Encyclopedia ID 758** (permanent) · https://equalinformation.com/world-heritage-games-site/games/758-guatemalan-loteria/
+**Encyclopedia ID 758** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/758-guatemalan-loteria/
 
 Picture bingo with decks of images instead of numbers; first to complete a line or full card wins.
 

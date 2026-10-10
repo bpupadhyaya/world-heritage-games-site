@@ -13,7 +13,7 @@ countries: ["United Kingdom"]
 
 *Cheese rolling*
 
-**Encyclopedia ID 70** (permanent) · https://equalinformation.com/world-heritage-games-site/games/70-cheese-rolling-hill/
+**Encyclopedia ID 70** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/70-cheese-rolling-hill/
 
 ![Cheese Rolling Hill](../../../img/photos/00070-cheese-rolling-hill.jpg)
 

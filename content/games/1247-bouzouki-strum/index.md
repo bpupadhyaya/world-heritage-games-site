@@ -13,7 +13,7 @@ countries: ["Greece"]
 
 *Μπουζούκι*
 
-**Encyclopedia ID 1247** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1247-bouzouki-strum/
+**Encyclopedia ID 1247** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1247-bouzouki-strum/
 
 ![Bouzouki Strum](../../../img/photos/01247-bouzouki-strum.jpg)
 

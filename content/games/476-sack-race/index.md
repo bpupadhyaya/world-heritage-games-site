@@ -13,7 +13,7 @@ countries: ["Indonesia", "United Kingdom"]
 
 *Balap Karung, Carrera de sacos · Balap Karung*
 
-**Encyclopedia ID 476** (permanent) · https://equalinformation.com/world-heritage-games-site/games/476-sack-race/
+**Encyclopedia ID 476** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/476-sack-race/
 
 ![Sack Race](../../../img/photos/00476-sack-race.jpg)
 

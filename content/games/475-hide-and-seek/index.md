@@ -13,7 +13,7 @@ countries: []
 
 *Nascondino, Petak umpet, Kakurenbo, Escondidas · Nascondino / Petak Umpet / Kakurenbo*
 
-**Encyclopedia ID 475** (permanent) · https://equalinformation.com/world-heritage-games-site/games/475-hide-and-seek/
+**Encyclopedia ID 475** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/475-hide-and-seek/
 
 ![Hide and Seek](../../../img/photos/00475-hide-and-seek.jpg)
 

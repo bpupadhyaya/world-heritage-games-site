@@ -13,7 +13,7 @@ countries: ["South Korea", "North Korea"]
 
 *제기차기 Jegichagi*
 
-**Encyclopedia ID 1082** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1082-jegichagi/
+**Encyclopedia ID 1082** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1082-jegichagi/
 
 Players kick a paper-and-coin shuttle (jegi) and count how many kicks they can make without letting it fall.
 

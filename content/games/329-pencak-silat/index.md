@@ -13,7 +13,7 @@ countries: ["Indonesia", "Malaysia", "Brunei", "Singapore"]
 
 *Pencak silat · forms and sparring sport*
 
-**Encyclopedia ID 329** (permanent) · https://equalinformation.com/world-heritage-games-site/games/329-pencak-silat/
+**Encyclopedia ID 329** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/329-pencak-silat/
 
 ![Pencak silat](../../../img/photos/00329-pencak-silat.jpg)
 

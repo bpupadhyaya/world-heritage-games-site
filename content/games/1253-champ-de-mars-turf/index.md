@@ -13,7 +13,7 @@ countries: ["Mauritius"]
 
 *Champ de Mars turf (island horse racing) · island horse racing*
 
-**Encyclopedia ID 1253** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1253-champ-de-mars-turf/
+**Encyclopedia ID 1253** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1253-champ-de-mars-turf/
 
 ![Champ de Mars turf](../../../img/photos/01253-champ-de-mars-turf.jpg)
 

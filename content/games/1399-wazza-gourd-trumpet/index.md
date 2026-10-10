@@ -13,7 +13,7 @@ countries: ["Sudan"]
 
 *Wazza*
 
-**Encyclopedia ID 1399** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1399-wazza-gourd-trumpet/
+**Encyclopedia ID 1399** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1399-wazza-gourd-trumpet/
 
 ![Wazza gourd trumpet](../../../img/photos/01399-wazza-gourd-trumpet.jpg)
 

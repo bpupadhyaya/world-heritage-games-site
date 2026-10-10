@@ -13,7 +13,7 @@ countries: ["Guyana"]
 
 *Cush · washer pitching*
 
-**Encyclopedia ID 760** (permanent) · https://equalinformation.com/world-heritage-games-site/games/760-cush/
+**Encyclopedia ID 760** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/760-cush/
 
 Pitch metal washers at lines for button stakes.
 

@@ -13,7 +13,7 @@ countries: ["Kenya"]
 
 *Kitendawili! - Tega! · Swahili riddle duel*
 
-**Encyclopedia ID 181** (permanent) · https://equalinformation.com/world-heritage-games-site/games/181-kitendawili/
+**Encyclopedia ID 181** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/181-kitendawili/
 
 ![Kitendawili](../../../img/photos/00181-kitendawili.jpg)
 

@@ -11,7 +11,7 @@ countries: ["Gabon"]
 ---
 # Ogooué river pirogue journey
 
-**Encyclopedia ID 1423** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1423-ogooue-river-pirogue-journey/
+**Encyclopedia ID 1423** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1423-ogooue-river-pirogue-journey/
 
 ![Ogooué river pirogue journey](../../../img/photos/01423-ogooue-river-pirogue-journey.jpg)
 

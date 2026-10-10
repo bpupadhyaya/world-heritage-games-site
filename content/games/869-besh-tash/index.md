@@ -13,7 +13,7 @@ countries: ["Kyrgyzstan"]
 
 *Besh-tash · five stones*
 
-**Encyclopedia ID 869** (permanent) · https://equalinformation.com/world-heritage-games-site/games/869-besh-tash/
+**Encyclopedia ID 869** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/869-besh-tash/
 
 Toss one stone and grab others before catching it, a five-stones toss and catch game.
 

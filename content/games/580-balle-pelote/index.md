@@ -13,7 +13,7 @@ countries: ["Belgium"]
 
 *Balle pelote · Jeu de balle*
 
-**Encyclopedia ID 580** (permanent) · https://equalinformation.com/world-heritage-games-site/games/580-balle-pelote/
+**Encyclopedia ID 580** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/580-balle-pelote/
 
 Walloon wall-less ball game with a gloved/bare hand; historic in Wallonia.
 

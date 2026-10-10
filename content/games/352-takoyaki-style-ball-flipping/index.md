@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *たこ焼き · street stall*
 
-**Encyclopedia ID 352** (permanent) · https://equalinformation.com/world-heritage-games-site/games/352-takoyaki-style-ball-flipping/
+**Encyclopedia ID 352** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/352-takoyaki-style-ball-flipping/
 
 ![Takoyaki-style ball flipping](../../../img/photos/00352-takoyaki-style-ball-flipping.jpg)
 

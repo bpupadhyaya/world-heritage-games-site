@@ -13,7 +13,7 @@ countries: ["Paraguay"]
 
 *Nanduti · spider-web lace*
 
-**Encyclopedia ID 428** (permanent) · https://equalinformation.com/world-heritage-games-site/games/428-nanduti/
+**Encyclopedia ID 428** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/428-nanduti/
 
 ![Nanduti](../../../img/photos/00428-nanduti.jpg)
 

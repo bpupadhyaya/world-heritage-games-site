@@ -13,7 +13,7 @@ countries: ["Germany", "United Kingdom"]
 
 *Wirrwarr / Nagelspiele*
 
-**Encyclopedia ID 110** (permanent) · https://equalinformation.com/world-heritage-games-site/games/110-tavern-nail-and-wire-puzzles/
+**Encyclopedia ID 110** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/110-tavern-nail-and-wire-puzzles/
 
 ![Tavern Nail and Wire Puzzles](../../../img/photos/00110-tavern-nail-and-wire-puzzles.jpg)
 

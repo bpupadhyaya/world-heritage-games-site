@@ -13,7 +13,7 @@ countries: ["Nauru"]
 
 *Ibibo*
 
-**Encyclopedia ID 964** (permanent) · https://equalinformation.com/world-heritage-games-site/games/964-ibibo/
+**Encyclopedia ID 964** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/964-ibibo/
 
 Hand-batting game with a pandanus-wrapped stone ball.
 

@@ -13,7 +13,7 @@ countries: ["Azerbaijan"]
 
 *Chovqan · Karabakh horse polo*
 
-**Encyclopedia ID 565** (permanent) · https://equalinformation.com/world-heritage-games-site/games/565-chovqan/
+**Encyclopedia ID 565** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/565-chovqan/
 
 Mounted game with mallets and a ball played with Karabakh horses; heritage tradition.
 

@@ -13,7 +13,7 @@ countries: ["Fiji"]
 
 *Vakadovu*
 
-**Encyclopedia ID 709** (permanent) · https://equalinformation.com/world-heritage-games-site/games/709-sugar-cane-spear-throwing/
+**Encyclopedia ID 709** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/709-sugar-cane-spear-throwing/
 
 Throwers stand at a distance and aim spears at a heap of cut sugar cane; first to hit wins.
 

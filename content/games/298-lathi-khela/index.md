@@ -13,7 +13,7 @@ countries: ["Bangladesh"]
 
 *লাঠি খেলা · stick duel*
 
-**Encyclopedia ID 298** (permanent) · https://equalinformation.com/world-heritage-games-site/games/298-lathi-khela/
+**Encyclopedia ID 298** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/298-lathi-khela/
 
 ![Lathi Khela](../../../img/photos/00298-lathi-khela.jpg)
 

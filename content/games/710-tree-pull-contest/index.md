@@ -13,7 +13,7 @@ countries: ["Fiji"]
 
 *Veileveleveti*
 
-**Encyclopedia ID 710** (permanent) · https://equalinformation.com/world-heritage-games-site/games/710-tree-pull-contest/
+**Encyclopedia ID 710** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/710-tree-pull-contest/
 
 One team climbs a tree while the other pulls their legs down using hands only; those up may kick.
 

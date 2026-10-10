@@ -13,7 +13,7 @@ countries: ["Burkina Faso"]
 
 *Putu · hidden-object guessing*
 
-**Encyclopedia ID 609** (permanent) · https://equalinformation.com/world-heritage-games-site/games/609-putu/
+**Encyclopedia ID 609** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/609-putu/
 
 One child hides an object in one of several earth mounds and another must find it.
 

@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *はさみ将棋 Hasami shōgi*
 
-**Encyclopedia ID 849** (permanent) · https://equalinformation.com/world-heritage-games-site/games/849-hasami-shogi/
+**Encyclopedia ID 849** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/849-hasami-shogi/
 
 Single-type pieces move like rooks and capture by sandwiching an enemy piece between two of your own.
 

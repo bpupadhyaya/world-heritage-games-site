@@ -13,7 +13,7 @@ countries: ["Belgium", "Netherlands"]
 
 *Beiaard / Carillon*
 
-**Encyclopedia ID 418** (permanent) · https://equalinformation.com/world-heritage-games-site/games/418-carillon/
+**Encyclopedia ID 418** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/418-carillon/
 
 ![Carillon](../../../img/photos/00418-carillon.jpg)
 

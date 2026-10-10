@@ -13,7 +13,7 @@ countries: ["Gabon"]
 
 *Kale · Gabon mancala*
 
-**Encyclopedia ID 732** (permanent) · https://equalinformation.com/world-heritage-games-site/games/732-kale/
+**Encyclopedia ID 732** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/732-kale/
 
 A mancala game attributed to Gabon in Wikipedia's mancala list; no article or rules found.
 

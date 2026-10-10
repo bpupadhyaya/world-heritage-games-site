@@ -13,7 +13,7 @@ countries: ["Dominican Republic"]
 
 *Pelota / Vitilla / Plaquita · vitilla, plaquita*
 
-**Encyclopedia ID 684** (permanent) · https://equalinformation.com/world-heritage-games-site/games/684-street-baseball/
+**Encyclopedia ID 684** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/684-street-baseball/
 
 Bottle-cap-and-broomstick baseball (vitilla) and a cricket-like bat game (plaquita) played in barrios.
 

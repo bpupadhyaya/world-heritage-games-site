@@ -13,7 +13,7 @@ countries: ["Cameroon"]
 
 *Shümom · Shümom syllabary*
 
-**Encyclopedia ID 1405** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1405-bamum-script-writer/
+**Encyclopedia ID 1405** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1405-bamum-script-writer/
 
 ![Bamum script writer](../../../img/photos/01405-bamum-script-writer.jpg)
 

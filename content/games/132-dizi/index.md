@@ -13,7 +13,7 @@ countries: ["China"]
 
 *笛子 · bamboo flute*
 
-**Encyclopedia ID 132** (permanent) · https://equalinformation.com/world-heritage-games-site/games/132-dizi/
+**Encyclopedia ID 132** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/132-dizi/
 
 ![Dizi](../../../img/photos/00132-dizi.jpg)
 

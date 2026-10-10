@@ -13,7 +13,7 @@ countries: ["Saint Lucia"]
 
 *Wa-wee (English Wari)*
 
-**Encyclopedia ID 1051** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1051-wa-wee/
+**Encyclopedia ID 1051** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1051-wa-wee/
 
 Two-row mancala documented in early 20th-century St Lucia, boards sold in Castries.
 

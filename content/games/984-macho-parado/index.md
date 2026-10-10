@@ -13,7 +13,7 @@ countries: ["Nicaragua"]
 
 *Macho parado · ball elimination*
 
-**Encyclopedia ID 984** (permanent) · https://equalinformation.com/world-heritage-games-site/games/984-macho-parado/
+**Encyclopedia ID 984** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/984-macho-parado/
 
 Teams throw a ball to eliminate opponents by hitting them.
 

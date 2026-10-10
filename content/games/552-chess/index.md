@@ -13,7 +13,7 @@ countries: ["Armenia", "Azerbaijan", "India", "Afghanistan"]
 
 *Shakhmat*
 
-**Encyclopedia ID 552** (permanent) · https://equalinformation.com/world-heritage-games-site/games/552-chess/
+**Encyclopedia ID 552** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/552-chess/
 
 Chaturanga is the ancient Indian four-division army game from about the 7th century CE that led to chess; a historical-rules version could showcase it.
 

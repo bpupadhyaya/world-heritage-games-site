@@ -13,7 +13,7 @@ countries: ["South Korea", "North Korea"]
 
 *윷놀이 Yunnori · Yut*
 
-**Encyclopedia ID 1083** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1083-yut-nori/
+**Encyclopedia ID 1083** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1083-yut-nori/
 
 Four half-round sticks serve as dice (do, gae, geol, yut, mo) to race four tokens around a 29-station board, with captures and extra throws.
 

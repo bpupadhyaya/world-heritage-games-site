@@ -13,7 +13,7 @@ countries: ["Thailand"]
 
 *Mak Ruk (Makruk)*
 
-**Encyclopedia ID 1141** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1141-thai-chess/
+**Encyclopedia ID 1141** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1141-thai-chess/
 
 8x8 chess descendant with Khon and Met pieces, pawn promotion on the sixth rank.
 

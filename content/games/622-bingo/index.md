@@ -13,7 +13,7 @@ countries: ["Canada"]
 
 *Bingo · Beano*
 
-**Encyclopedia ID 622** (permanent) · https://equalinformation.com/world-heritage-games-site/games/622-bingo/
+**Encyclopedia ID 622** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/622-bingo/
 
 Number-calling card game run at halls and fundraisers.
 

@@ -13,7 +13,7 @@ countries: ["Maldives", "New Zealand"]
 
 *Dhandi Jehun*
 
-**Encyclopedia ID 912** (permanent) · https://equalinformation.com/world-heritage-games-site/games/912-stick-game/
+**Encyclopedia ID 912** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/912-stick-game/
 
 Players sit in pairs and toss and catch wooden sticks to a rhythm and song.
 

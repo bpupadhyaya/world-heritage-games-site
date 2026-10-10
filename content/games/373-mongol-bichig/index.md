@@ -13,7 +13,7 @@ countries: ["Mongolia"]
 
 *ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ · vertical script calligraphy*
 
-**Encyclopedia ID 373** (permanent) · https://equalinformation.com/world-heritage-games-site/games/373-mongol-bichig/
+**Encyclopedia ID 373** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/373-mongol-bichig/
 
 ![Mongol bichig](../../../img/photos/00373-mongol-bichig.jpg)
 

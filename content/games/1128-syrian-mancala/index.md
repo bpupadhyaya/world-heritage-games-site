@@ -13,7 +13,7 @@ countries: ["Syria"]
 
 *La'b Madjnuni · Madjnuni*
 
-**Encyclopedia ID 1128** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1128-syrian-mancala/
+**Encyclopedia ID 1128** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1128-syrian-mancala/
 
 Syrian sowing game; Gaziantep Mangala is said to resemble it.
 

@@ -13,7 +13,7 @@ countries: ["United States", "Canada"]
 
 *Dog mushing*
 
-**Encyclopedia ID 62** (permanent) · https://equalinformation.com/world-heritage-games-site/games/62-sled-dog-race/
+**Encyclopedia ID 62** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/62-sled-dog-race/
 
 ![Sled dog race](../../../img/photos/00062-sled-dog-race.jpg)
 

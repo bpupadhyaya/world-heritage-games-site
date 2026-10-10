@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *羽根突き · Japanese battledore*
 
-**Encyclopedia ID 347** (permanent) · https://equalinformation.com/world-heritage-games-site/games/347-hanetsuki/
+**Encyclopedia ID 347** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/347-hanetsuki/
 
 ![Hanetsuki](../../../img/photos/00347-hanetsuki.jpg)
 

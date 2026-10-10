@@ -13,7 +13,7 @@ countries: ["Nigeria"]
 
 *Adire*
 
-**Encyclopedia ID 87** (permanent) · https://equalinformation.com/world-heritage-games-site/games/87-adire-indigo-resist-dyeing/
+**Encyclopedia ID 87** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/87-adire-indigo-resist-dyeing/
 
 ![Adire indigo resist dyeing](../../../img/photos/00087-adire-indigo-resist-dyeing.jpg)
 

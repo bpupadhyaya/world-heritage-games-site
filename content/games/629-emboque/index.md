@@ -13,7 +13,7 @@ countries: ["Chile"]
 
 *Emboque · cup and ball*
 
-**Encyclopedia ID 629** (permanent) · https://equalinformation.com/world-heritage-games-site/games/629-emboque/
+**Encyclopedia ID 629** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/629-emboque/
 
 Catch a wooden cone on a stick.
 

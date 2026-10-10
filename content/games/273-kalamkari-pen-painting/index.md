@@ -13,7 +13,7 @@ countries: []
 
 *కలంకారి*
 
-**Encyclopedia ID 273** (permanent) · https://equalinformation.com/world-heritage-games-site/games/273-kalamkari-pen-painting/
+**Encyclopedia ID 273** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/273-kalamkari-pen-painting/
 
 ![Kalamkari pen painting](../../../img/photos/00273-kalamkari-pen-painting.jpg)
 

@@ -13,7 +13,7 @@ countries: ["China"]
 
 *Hoop trundling / hoopen*
 
-**Encyclopedia ID 69** (permanent) · https://equalinformation.com/world-heritage-games-site/games/69-hoop-rolling-trundle/
+**Encyclopedia ID 69** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/69-hoop-rolling-trundle/
 
 ![Hoop Rolling Trundle](../../../img/photos/00069-hoop-rolling-trundle.jpg)
 

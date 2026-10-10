@@ -13,7 +13,7 @@ countries: ["Turkey"]
 
 *Çelik çomak · tipcat*
 
-**Encyclopedia ID 1162** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1162-steel-and-stick/
+**Encyclopedia ID 1162** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1162-steel-and-stick/
 
 Street game where a short stick is struck with a longer stick and distance is scored.
 

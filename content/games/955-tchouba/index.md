@@ -13,7 +13,7 @@ countries: ["Mozambique"]
 
 *Tchouba · Tshuba*
 
-**Encyclopedia ID 955** (permanent) · https://equalinformation.com/world-heritage-games-site/games/955-tchouba/
+**Encyclopedia ID 955** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/955-tchouba/
 
 Largest known mancala, Thonga and Chopi.
 

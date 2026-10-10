@@ -13,7 +13,7 @@ countries: ["Dominican Republic", "Jamaica", "Mexico", "Guatemala", "Belize", "H
 
 *El Trompo*
 
-**Encyclopedia ID 678** (permanent) · https://equalinformation.com/world-heritage-games-site/games/678-spinning-top/
+**Encyclopedia ID 678** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/678-spinning-top/
 
 A wooden top is wound with cord, thrown to spin as long as possible or to knock others out of a ring.
 

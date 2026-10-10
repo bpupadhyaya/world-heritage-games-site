@@ -13,7 +13,7 @@ countries: ["Philippines"]
 
 *Piko · hopscotch*
 
-**Encyclopedia ID 1022** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1022-piko/
+**Encyclopedia ID 1022** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1022-piko/
 
 Hopscotch drawn on pavement.
 

@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *将棋 Shōgi · Japanese chess*
 
-**Encyclopedia ID 852** (permanent) · https://equalinformation.com/world-heritage-games-site/games/852-shogi/
+**Encyclopedia ID 852** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/852-shogi/
 
 Chess-like game on a 9x9 board in which captured pieces can be dropped back onto the board by the captor.
 

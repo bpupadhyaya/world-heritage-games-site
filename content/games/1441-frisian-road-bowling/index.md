@@ -13,7 +13,7 @@ countries: ["Ireland", "Netherlands", "Germany"]
 
 *Boßeln / Klootschießen · Boßeln*
 
-**Encyclopedia ID 1441** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1441-frisian-road-bowling/
+**Encyclopedia ID 1441** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1441-frisian-road-bowling/
 
 ![Frisian Road Bowling](../../../img/photos/01441-frisian-road-bowling.jpg)
 

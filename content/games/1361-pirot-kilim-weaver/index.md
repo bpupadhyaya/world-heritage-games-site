@@ -13,7 +13,7 @@ countries: ["Serbia"]
 
 *Пиротски ћилим*
 
-**Encyclopedia ID 1361** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1361-pirot-kilim-weaver/
+**Encyclopedia ID 1361** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1361-pirot-kilim-weaver/
 
 ![Pirot Kilim Weaver](../../../img/photos/01361-pirot-kilim-weaver.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Azerbaijan"]
 
 *Yallı · Azerbaijani circle and line dance*
 
-**Encyclopedia ID 1400** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1400-yalli/
+**Encyclopedia ID 1400** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1400-yalli/
 
 ![Yalli](../../../img/photos/01400-yalli.jpg)
 

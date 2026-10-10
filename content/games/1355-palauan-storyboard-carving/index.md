@@ -13,7 +13,7 @@ countries: ["Palau"]
 
 *Storyboards (dechel / bai)*
 
-**Encyclopedia ID 1355** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1355-palauan-storyboard-carving/
+**Encyclopedia ID 1355** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1355-palauan-storyboard-carving/
 
 ![Palauan storyboard carving](../../../img/photos/01355-palauan-storyboard-carving.jpg)
 

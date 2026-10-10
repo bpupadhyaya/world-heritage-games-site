@@ -13,7 +13,7 @@ countries: ["Colombia"]
 
 *Rana / Bolirana · frog toss*
 
-**Encyclopedia ID 645** (permanent) · https://equalinformation.com/world-heritage-games-site/games/645-rana/
+**Encyclopedia ID 645** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/645-rana/
 
 Throw discs at a table with a frog mouth worth most points.
 

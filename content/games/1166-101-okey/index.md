@@ -13,7 +13,7 @@ countries: ["Turkey"]
 
 *Yüzbir Okey · Okey 101*
 
-**Encyclopedia ID 1166** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1166-101-okey/
+**Encyclopedia ID 1166** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1166-101-okey/
 
 Okey variant with melding during play and point penalties across rounds.
 

@@ -13,7 +13,7 @@ countries: ["Belarus"]
 
 *Салома*
 
-**Encyclopedia ID 387** (permanent) · https://equalinformation.com/world-heritage-games-site/games/387-belarusian-straw-weaving/
+**Encyclopedia ID 387** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/387-belarusian-straw-weaving/
 
 ![Belarusian straw weaving](../../../img/photos/00387-belarusian-straw-weaving.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Denmark"]
 
 *Keglebillard*
 
-**Encyclopedia ID 671** (permanent) · https://equalinformation.com/world-heritage-games-site/games/671-danish-pin-billiards/
+**Encyclopedia ID 671** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/671-danish-pin-billiards/
 
 A cue sport with five pins in the middle of the table; scoring is for toppling pins with the white ball.
 

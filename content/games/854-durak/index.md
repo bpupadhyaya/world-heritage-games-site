@@ -13,7 +13,7 @@ countries: ["Kazakhstan", "Turkmenistan", "Armenia", "Azerbaijan", "Georgia", "L
 
 *Durak · Fool*
 
-**Encyclopedia ID 854** (permanent) · https://equalinformation.com/world-heritage-games-site/games/854-durak/
+**Encyclopedia ID 854** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/854-durak/
 
 Russia's national card game: attack, defend, pile on cards, and avoid being the last holder.
 

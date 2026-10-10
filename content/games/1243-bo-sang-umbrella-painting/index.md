@@ -13,7 +13,7 @@ countries: ["Thailand"]
 
 *ร่มบ่อสร้าง*
 
-**Encyclopedia ID 1243** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1243-bo-sang-umbrella-painting/
+**Encyclopedia ID 1243** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1243-bo-sang-umbrella-painting/
 
 ![Bo Sang umbrella painting](../../../img/photos/01243-bo-sang-umbrella-painting.jpg)
 

@@ -13,7 +13,7 @@ countries: ["South Korea", "North Korea"]
 
 *고려청자 상감 · sanggam*
 
-**Encyclopedia ID 1455** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1455-goryeo-celadon-inlay/
+**Encyclopedia ID 1455** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1455-goryeo-celadon-inlay/
 
 ![Goryeo Celadon Inlay](../../../img/photos/01455-goryeo-celadon-inlay.jpg)
 

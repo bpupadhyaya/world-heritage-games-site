@@ -13,7 +13,7 @@ countries: ["Trinidad and Tobago"]
 
 *Kalinda / bois · Trinidad*
 
-**Encyclopedia ID 1467** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1467-kalinda-stick-duel/
+**Encyclopedia ID 1467** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1467-kalinda-stick-duel/
 
 ![Kalinda Stick Duel](../../../img/photos/01467-kalinda-stick-duel.jpg)
 

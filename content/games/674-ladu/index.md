@@ -13,7 +13,7 @@ countries: ["Djibouti", "Somalia"]
 
 *Ladu*
 
-**Encyclopedia ID 674** (permanent) · https://equalinformation.com/world-heritage-games-site/games/674-ladu/
+**Encyclopedia ID 674** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/674-ladu/
 
 One of three Somali board games named by a teaching site; I could not verify its equipment or rules (the page returned 403).
 

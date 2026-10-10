@@ -13,7 +13,7 @@ countries: ["Canada"]
 
 *Crokinole · Pichenotte · Crokinole board*
 
-**Encyclopedia ID 623** (permanent) · https://equalinformation.com/world-heritage-games-site/games/623-crokinole/
+**Encyclopedia ID 623** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/623-crokinole/
 
 Flick wooden discs across a board toward a 20-point center hole while avoiding pegs.
 

@@ -13,7 +13,7 @@ countries: ["Turkey"]
 
 *Bağlama · Turkish long-neck lute*
 
-**Encyclopedia ID 243** (permanent) · https://equalinformation.com/world-heritage-games-site/games/243-saz-baglama/
+**Encyclopedia ID 243** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/243-saz-baglama/
 
 ![Saz / Bağlama](../../../img/photos/00243-saz-baglama.jpg)
 

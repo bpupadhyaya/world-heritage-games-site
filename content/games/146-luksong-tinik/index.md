@@ -13,7 +13,7 @@ countries: ["Philippines"]
 
 *Luksong tinik · jump the thorns*
 
-**Encyclopedia ID 146** (permanent) · https://equalinformation.com/world-heritage-games-site/games/146-luksong-tinik/
+**Encyclopedia ID 146** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/146-luksong-tinik/
 
 ![Luksong tinik](../../../img/photos/00146-luksong-tinik.jpg)
 

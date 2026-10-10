@@ -13,7 +13,7 @@ countries: ["Ireland"]
 
 *Bodhrán*
 
-**Encyclopedia ID 521** (permanent) · https://equalinformation.com/world-heritage-games-site/games/521-bodhran-frame-drum/
+**Encyclopedia ID 521** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/521-bodhran-frame-drum/
 
 ![Bodhran Frame Drum](../../../img/photos/00521-bodhran-frame-drum.jpg)
 

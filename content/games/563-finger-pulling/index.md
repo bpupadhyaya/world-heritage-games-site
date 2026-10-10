@@ -13,7 +13,7 @@ countries: ["Austria"]
 
 *Fingerhakeln*
 
-**Encyclopedia ID 563** (permanent) · https://equalinformation.com/world-heritage-games-site/games/563-finger-pulling/
+**Encyclopedia ID 563** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/563-finger-pulling/
 
 Two players pull each other across a table by a leather loop on the middle finger.
 

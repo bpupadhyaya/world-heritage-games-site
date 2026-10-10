@@ -13,7 +13,7 @@ countries: ["South Korea"]
 
 *한글 · letter-block builder*
 
-**Encyclopedia ID 364** (permanent) · https://equalinformation.com/world-heritage-games-site/games/364-hangul-syllable-blocks/
+**Encyclopedia ID 364** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/364-hangul-syllable-blocks/
 
 ![Hangul syllable blocks](../../../img/photos/00364-hangul-syllable-blocks.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Niger"]
 
 *Atay / Attaya · Three Glasses*
 
-**Encyclopedia ID 1390** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1390-tuareg-tea/
+**Encyclopedia ID 1390** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1390-tuareg-tea/
 
 ![Tuareg Tea](../../../img/photos/01390-tuareg-tea.jpg)
 

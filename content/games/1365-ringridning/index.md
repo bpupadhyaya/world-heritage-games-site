@@ -13,7 +13,7 @@ countries: ["Denmark"]
 
 *ringridning · Danish ring tilting*
 
-**Encyclopedia ID 1365** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1365-ringridning/
+**Encyclopedia ID 1365** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1365-ringridning/
 
 ![Ringridning](../../../img/photos/01365-ringridning.jpg)
 

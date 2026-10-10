@@ -13,7 +13,7 @@ countries: ["France"]
 
 *Boule lyonnaise · Sport-boules · Bocce volo*
 
-**Encyclopedia ID 730** (permanent) · https://equalinformation.com/world-heritage-games-site/games/730-boules-lyonnaises/
+**Encyclopedia ID 730** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/730-boules-lyonnaises/
 
 Throw metal boules to land near the jack or knock opponent's boules away, with run-up allowed.
 

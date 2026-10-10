@@ -13,7 +13,7 @@ countries: ["Kenya"]
 
 *Giuthi / Kiothi / Mbothe · Giuthi · Kiothi · Mbothe*
 
-**Encyclopedia ID 863** (permanent) · https://equalinformation.com/world-heritage-games-site/games/863-highland-and-river-mancalas/
+**Encyclopedia ID 863** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/863-highland-and-river-mancalas/
 
 Local mancala forms of Kikuyu/Embu, Meru and Pokomo.
 

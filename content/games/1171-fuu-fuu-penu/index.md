@@ -13,7 +13,7 @@ countries: ["Tuvalu"]
 
 *Fuu Fuu Penu · circle chase game*
 
-**Encyclopedia ID 1171** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1171-fuu-fuu-penu/
+**Encyclopedia ID 1171** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1171-fuu-fuu-penu/
 
 Players sit in a circle with eyes closed while someone drops an object behind a player and runs; if the chosen player catches the placer before reaching the empty spot, roles swap.
 

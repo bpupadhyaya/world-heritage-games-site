@@ -13,7 +13,7 @@ countries: ["China", "Taiwan"]
 
 *象棋 Xiangqi · Elephant chess · Chinese chess*
 
-**Encyclopedia ID 636** (permanent) · https://equalinformation.com/world-heritage-games-site/games/636-xiangqi/
+**Encyclopedia ID 636** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/636-xiangqi/
 
 Two armies face off across a river on a 9x10 grid; each side has a general confined to a palace and the winner traps the enemy general.
 

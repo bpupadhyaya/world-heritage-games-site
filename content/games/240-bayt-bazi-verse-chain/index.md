@@ -13,7 +13,7 @@ countries: ["Iran"]
 
 *بیت‌بازی · poetry-link word game*
 
-**Encyclopedia ID 240** (permanent) · https://equalinformation.com/world-heritage-games-site/games/240-bayt-bazi-verse-chain/
+**Encyclopedia ID 240** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/240-bayt-bazi-verse-chain/
 
 ![Bayt-bazi: verse chain](../../../img/photos/00240-bayt-bazi-verse-chain.jpg)
 

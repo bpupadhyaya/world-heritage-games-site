@@ -13,7 +13,7 @@ countries: ["Finland"]
 
 *Eukonkanto*
 
-**Encyclopedia ID 406** (permanent) · https://equalinformation.com/world-heritage-games-site/games/406-partner-carry-obstacle-race/
+**Encyclopedia ID 406** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/406-partner-carry-obstacle-race/
 
 ![Partner-Carry Obstacle Race](../../../img/photos/00406-partner-carry-obstacle-race.jpg)
 

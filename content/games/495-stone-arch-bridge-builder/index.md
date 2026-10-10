@@ -13,7 +13,7 @@ countries: ["China"]
 
 *Anji Bridge, Zhaozhou Qiao · Anji / Zhaozhou bridge*
 
-**Encyclopedia ID 495** (permanent) · https://equalinformation.com/world-heritage-games-site/games/495-stone-arch-bridge-builder/
+**Encyclopedia ID 495** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/495-stone-arch-bridge-builder/
 
 ![Stone Arch Bridge Builder](../../../img/photos/00495-stone-arch-bridge-builder.jpg)
 

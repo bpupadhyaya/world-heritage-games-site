@@ -13,7 +13,7 @@ countries: ["Sri Lanka"]
 
 *අම්බලන්ගොඩ*
 
-**Encyclopedia ID 299** (permanent) · https://equalinformation.com/world-heritage-games-site/games/299-ambalangoda-mask-carving/
+**Encyclopedia ID 299** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/299-ambalangoda-mask-carving/
 
 ![Ambalangoda mask carving](../../../img/photos/00299-ambalangoda-mask-carving.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Mongolia"]
 
 *Айл гэр Ail ger · stone ger*
 
-**Encyclopedia ID 940** (permanent) · https://equalinformation.com/world-heritage-games-site/games/940-ail-ger/
+**Encyclopedia ID 940** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/940-ail-ger/
 
 Children arrange stones in a circle to represent a ger, with stones standing for furniture and livestock.
 

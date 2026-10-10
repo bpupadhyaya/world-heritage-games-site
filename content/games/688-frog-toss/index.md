@@ -13,7 +13,7 @@ countries: ["Ecuador"]
 
 *Rana / Sapo*
 
-**Encyclopedia ID 688** (permanent) · https://equalinformation.com/world-heritage-games-site/games/688-frog-toss/
+**Encyclopedia ID 688** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/688-frog-toss/
 
 Throw discs into holes of a table with a frog mouth.
 

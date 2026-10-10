@@ -13,7 +13,7 @@ countries: ["Philippines"]
 
 *Sipa*
 
-**Encyclopedia ID 1024** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1024-sipa/
+**Encyclopedia ID 1024** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1024-sipa/
 
 Kick a washer-and-straw shuttle to keep it airborne; formerly the national sport until 2009.
 

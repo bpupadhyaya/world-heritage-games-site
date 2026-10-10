@@ -13,7 +13,7 @@ countries: ["Kenya"]
 
 *Kiondo*
 
-**Encyclopedia ID 194** (permanent) · https://equalinformation.com/world-heritage-games-site/games/194-kiondo-basket-weaving/
+**Encyclopedia ID 194** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/194-kiondo-basket-weaving/
 
 ![Kiondo basket weaving](../../../img/photos/00194-kiondo-basket-weaving.jpg)
 

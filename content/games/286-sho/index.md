@@ -13,7 +13,7 @@ countries: ["China"]
 
 *ཤོ · Tibetan dice race*
 
-**Encyclopedia ID 286** (permanent) · https://equalinformation.com/world-heritage-games-site/games/286-sho/
+**Encyclopedia ID 286** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/286-sho/
 
 ![Sho](../../../img/photos/00286-sho.jpg)
 

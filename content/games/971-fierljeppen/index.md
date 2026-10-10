@@ -13,7 +13,7 @@ countries: ["Netherlands"]
 
 *Fierljeppen · Pole vaulting over canals*
 
-**Encyclopedia ID 971** (permanent) · https://equalinformation.com/world-heritage-games-site/games/971-fierljeppen/
+**Encyclopedia ID 971** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/971-fierljeppen/
 
 Run, grab a pole and climb to leap a canal; Frisian farmer tradition.
 

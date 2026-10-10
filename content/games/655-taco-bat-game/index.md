@@ -13,7 +13,7 @@ countries: ["Cuba"]
 
 *Juego del Taco*
 
-**Encyclopedia ID 655** (permanent) · https://equalinformation.com/world-heritage-games-site/games/655-taco-bat-game/
+**Encyclopedia ID 655** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/655-taco-bat-game/
 
 Minimal-equipment bat-and-ball street game that resembles street cricket and baseball.
 

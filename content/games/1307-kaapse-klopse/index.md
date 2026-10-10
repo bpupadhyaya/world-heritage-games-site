@@ -13,7 +13,7 @@ countries: ["Malaysia", "South Africa"]
 
 *Kaapse Klopse (Cape minstrel parade) · Cape minstrel parade*
 
-**Encyclopedia ID 1307** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1307-kaapse-klopse/
+**Encyclopedia ID 1307** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1307-kaapse-klopse/
 
 ![Kaapse Klopse](../../../img/photos/01307-kaapse-klopse.jpg)
 

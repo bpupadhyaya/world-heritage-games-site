@@ -13,7 +13,7 @@ countries: ["Turkmenistan"]
 
 *Türkmen halysy · hali*
 
-**Encyclopedia ID 249** (permanent) · https://equalinformation.com/world-heritage-games-site/games/249-turkmen-gul-carpet/
+**Encyclopedia ID 249** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/249-turkmen-gul-carpet/
 
 ![Turkmen gul carpet](../../../img/photos/00249-turkmen-gul-carpet.jpg)
 

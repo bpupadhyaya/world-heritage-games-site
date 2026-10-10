@@ -13,7 +13,7 @@ countries: ["Mexico"]
 
 *Chinampas de Xochimilco · floating-garden farming*
 
-**Encyclopedia ID 1444** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1444-chinampa-gardens/
+**Encyclopedia ID 1444** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1444-chinampa-gardens/
 
 ![Chinampa Gardens](../../../img/photos/01444-chinampa-gardens.jpg)
 

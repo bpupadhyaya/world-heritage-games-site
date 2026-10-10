@@ -13,7 +13,7 @@ countries: ["Turkmenistan"]
 
 *Ashyk · ankle bones*
 
-**Encyclopedia ID 1169** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1169-ashyk/
+**Encyclopedia ID 1169** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1169-ashyk/
 
 Bone toss and flick games with sheep ankle bones.
 

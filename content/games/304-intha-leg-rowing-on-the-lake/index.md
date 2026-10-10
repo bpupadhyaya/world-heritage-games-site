@@ -11,7 +11,7 @@ countries: ["Myanmar"]
 ---
 # Intha leg rowing on the lake
 
-**Encyclopedia ID 304** (permanent) · https://equalinformation.com/world-heritage-games-site/games/304-intha-leg-rowing-on-the-lake/
+**Encyclopedia ID 304** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/304-intha-leg-rowing-on-the-lake/
 
 ![Intha leg rowing on the lake](../../../img/photos/00304-intha-leg-rowing-on-the-lake.jpg)
 

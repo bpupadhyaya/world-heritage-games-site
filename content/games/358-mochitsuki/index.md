@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *餅つき · rice pounding rhythm duet*
 
-**Encyclopedia ID 358** (permanent) · https://equalinformation.com/world-heritage-games-site/games/358-mochitsuki/
+**Encyclopedia ID 358** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/358-mochitsuki/
 
 ![Mochitsuki](../../../img/photos/00358-mochitsuki.jpg)
 

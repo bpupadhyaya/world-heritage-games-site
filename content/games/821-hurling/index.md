@@ -13,7 +13,7 @@ countries: ["Ireland"]
 
 *Iomáint / Hurling · Camogie*
 
-**Encyclopedia ID 821** (permanent) · https://equalinformation.com/world-heritage-games-site/games/821-hurling/
+**Encyclopedia ID 821** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/821-hurling/
 
 Fast stick-and-ball field game, one of the oldest field games in Europe; GAA national sport.
 

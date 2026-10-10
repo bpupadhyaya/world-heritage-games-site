@@ -13,7 +13,7 @@ countries: ["Bangladesh"]
 
 *রিকশা আর্ট*
 
-**Encyclopedia ID 295** (permanent) · https://equalinformation.com/world-heritage-games-site/games/295-dhaka-rickshaw-art/
+**Encyclopedia ID 295** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/295-dhaka-rickshaw-art/
 
 ![Dhaka rickshaw art](../../../img/photos/00295-dhaka-rickshaw-art.jpg)
 

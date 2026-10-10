@@ -13,7 +13,7 @@ countries: ["Bhutan"]
 
 *Dha (archery) · Datse · Dha*
 
-**Encyclopedia ID 591** (permanent) · https://equalinformation.com/world-heritage-games-site/games/591-archery/
+**Encyclopedia ID 591** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/591-archery/
 
 Teams of 13 shoot bamboo bows at targets about 130 m away to reach 25 points, amid songs, dancing and multi-day social matches.
 

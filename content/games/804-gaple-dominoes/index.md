@@ -13,7 +13,7 @@ countries: ["Indonesia"]
 
 *Gaple*
 
-**Encyclopedia ID 804** (permanent) · https://equalinformation.com/world-heritage-games-site/games/804-gaple-dominoes/
+**Encyclopedia ID 804** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/804-gaple-dominoes/
 
 Domino matching game with a 28-tile set, played in warungs and at night watches; strongly social.
 

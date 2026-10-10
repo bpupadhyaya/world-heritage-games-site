@@ -13,7 +13,7 @@ countries: ["Indonesia"]
 
 *Sasando · Rote tube zither*
 
-**Encyclopedia ID 317** (permanent) · https://equalinformation.com/world-heritage-games-site/games/317-sasando/
+**Encyclopedia ID 317** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/317-sasando/
 
 ![Sasando](../../../img/photos/00317-sasando.jpg)
 

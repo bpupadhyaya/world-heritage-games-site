@@ -13,7 +13,7 @@ countries: []
 
 *Lukasa*
 
-**Encyclopedia ID 197** (permanent) · https://equalinformation.com/world-heritage-games-site/games/197-lukasa-memory-board-pattern-game/
+**Encyclopedia ID 197** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/197-lukasa-memory-board-pattern-game/
 
 ![Lukasa memory board pattern game](../../../img/photos/00197-lukasa-memory-board-pattern-game.jpg)
 

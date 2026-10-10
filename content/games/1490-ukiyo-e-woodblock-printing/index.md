@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *木版画 / 浮世絵 · mokuhanga*
 
-**Encyclopedia ID 1490** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1490-ukiyo-e-woodblock-printing/
+**Encyclopedia ID 1490** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1490-ukiyo-e-woodblock-printing/
 
 ![Ukiyo-e Woodblock Printing](../../../img/photos/01490-ukiyo-e-woodblock-printing.jpg)
 

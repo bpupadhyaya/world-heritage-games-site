@@ -13,7 +13,7 @@ countries: ["Kazakhstan"]
 
 *Kokpar · goat-carcass polo*
 
-**Encyclopedia ID 857** (permanent) · https://equalinformation.com/world-heritage-games-site/games/857-kokpar/
+**Encyclopedia ID 857** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/857-kokpar/
 
 Mounted teams fight to carry a goat carcass into the opposing goal; an official sport with national federations.
 

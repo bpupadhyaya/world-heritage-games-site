@@ -13,7 +13,7 @@ countries: ["South Sudan"]
 
 *Kundi*
 
-**Encyclopedia ID 1319** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1319-zande-kundi-arched-harp/
+**Encyclopedia ID 1319** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1319-zande-kundi-arched-harp/
 
 ![Zande kundi arched harp](../../../img/photos/01319-zande-kundi-arched-harp.jpg)
 

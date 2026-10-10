@@ -13,7 +13,7 @@ countries: ["Bolivia"]
 
 *Manteo · blanket tossing*
 
-**Encyclopedia ID 596** (permanent) · https://equalinformation.com/world-heritage-games-site/games/596-manteo/
+**Encyclopedia ID 596** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/596-manteo/
 
 Group blanket toss tied to festivals.
 

@@ -13,7 +13,7 @@ countries: ["Indonesia"]
 
 *Cublak-cublak suweng · pass the hidden stone*
 
-**Encyclopedia ID 325** (permanent) · https://equalinformation.com/world-heritage-games-site/games/325-cublak-cublak-suweng/
+**Encyclopedia ID 325** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/325-cublak-cublak-suweng/
 
 ![Cublak-cublak suweng](../../../img/photos/00325-cublak-cublak-suweng.jpg)
 

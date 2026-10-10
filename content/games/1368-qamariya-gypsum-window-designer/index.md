@@ -13,7 +13,7 @@ countries: ["Yemen"]
 
 *قمرية*
 
-**Encyclopedia ID 1368** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1368-qamariya-gypsum-window-designer/
+**Encyclopedia ID 1368** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1368-qamariya-gypsum-window-designer/
 
 ![Qamariya Gypsum Window Designer](../../../img/photos/01368-qamariya-gypsum-window-designer.jpg)
 

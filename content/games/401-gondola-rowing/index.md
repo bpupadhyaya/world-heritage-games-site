@@ -13,7 +13,7 @@ countries: ["Italy"]
 
 *Voga alla veneta*
 
-**Encyclopedia ID 401** (permanent) · https://equalinformation.com/world-heritage-games-site/games/401-gondola-rowing/
+**Encyclopedia ID 401** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/401-gondola-rowing/
 
 ![Gondola Rowing](../../../img/photos/00401-gondola-rowing.jpg)
 

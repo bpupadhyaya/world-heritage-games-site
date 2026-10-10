@@ -13,7 +13,7 @@ countries: ["Ecuador"]
 
 *Sombrero de paja toquilla*
 
-**Encyclopedia ID 93** (permanent) · https://equalinformation.com/world-heritage-games-site/games/93-toquilla-straw-hat-weaving/
+**Encyclopedia ID 93** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/93-toquilla-straw-hat-weaving/
 
 ![Toquilla straw hat weaving](../../../img/photos/00093-toquilla-straw-hat-weaving.jpg)
 

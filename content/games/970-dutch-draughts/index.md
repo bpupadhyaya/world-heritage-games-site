@@ -13,7 +13,7 @@ countries: ["Netherlands"]
 
 *Dammen · Draughts · Damspel*
 
-**Encyclopedia ID 970** (permanent) · https://equalinformation.com/world-heritage-games-site/games/970-dutch-draughts/
+**Encyclopedia ID 970** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/970-dutch-draughts/
 
 10x10 international draughts, with Dutch masters; Nederlandse Dambond.
 

@@ -13,7 +13,7 @@ countries: ["Cuba"]
 
 *Tres cubano · son guitar*
 
-**Encyclopedia ID 433** (permanent) · https://equalinformation.com/world-heritage-games-site/games/433-tres-cubano/
+**Encyclopedia ID 433** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/433-tres-cubano/
 
 ![Tres cubano](../../../img/photos/00433-tres-cubano.jpg)
 

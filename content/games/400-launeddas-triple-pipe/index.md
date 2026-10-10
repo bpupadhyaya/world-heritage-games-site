@@ -13,7 +13,7 @@ countries: ["Italy"]
 
 *Launeddas*
 
-**Encyclopedia ID 400** (permanent) · https://equalinformation.com/world-heritage-games-site/games/400-launeddas-triple-pipe/
+**Encyclopedia ID 400** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/400-launeddas-triple-pipe/
 
 ![Launeddas Triple Pipe](../../../img/photos/00400-launeddas-triple-pipe.jpg)
 

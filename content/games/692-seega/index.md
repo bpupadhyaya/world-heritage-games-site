@@ -13,7 +13,7 @@ countries: ["Egypt"]
 
 *Seega · Seejeh · Seeza · Siga · Sidjah*
 
-**Encyclopedia ID 692** (permanent) · https://equalinformation.com/world-heritage-games-site/games/692-seega/
+**Encyclopedia ID 692** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/692-seega/
 
 Placement then movement game on a small grid; capture by flanking.
 

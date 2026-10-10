@@ -13,7 +13,7 @@ countries: ["Malaysia"]
 
 *Wau (kite flying)*
 
-**Encyclopedia ID 911** (permanent) · https://equalinformation.com/world-heritage-games-site/games/911-wau-bulan-kite/
+**Encyclopedia ID 911** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/911-wau-bulan-kite/
 
 Decorated crescent-shaped kites flown and shown off, especially on the east coast of the peninsula.
 

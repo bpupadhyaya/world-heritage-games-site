@@ -13,7 +13,7 @@ countries: ["Netherlands", "Belgium", "Taiwan"]
 
 *Korfbal*
 
-**Encyclopedia ID 481** (permanent) · https://equalinformation.com/world-heritage-games-site/games/481-korfball/
+**Encyclopedia ID 481** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/481-korfball/
 
 ![Korfball](../../../img/photos/00481-korfball.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Belgium", "Netherlands", "United Kingdom"]
 
 *Brieftaubensport / Colombophilie*
 
-**Encyclopedia ID 411** (permanent) · https://equalinformation.com/world-heritage-games-site/games/411-racing-pigeon-loft/
+**Encyclopedia ID 411** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/411-racing-pigeon-loft/
 
 ![Racing Pigeon Loft](../../../img/photos/00411-racing-pigeon-loft.jpg)
 

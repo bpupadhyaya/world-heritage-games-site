@@ -13,7 +13,7 @@ countries: ["Palestine"]
 
 *Hajla · stone-kicking hop game*
 
-**Encyclopedia ID 1009** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1009-hajla/
+**Encyclopedia ID 1009** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1009-hajla/
 
 Hopscotch-like stone game most known among girls.
 

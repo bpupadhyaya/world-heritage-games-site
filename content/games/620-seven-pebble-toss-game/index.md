@@ -13,7 +13,7 @@ countries: ["Cameroon"]
 
 *Ndoung / jeu de cailloux · Ndoung (Yemba) · jeu de cailloux*
 
-**Encyclopedia ID 620** (permanent) · https://equalinformation.com/world-heritage-games-site/games/620-seven-pebble-toss-game/
+**Encyclopedia ID 620** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/620-seven-pebble-toss-game/
 
 Players sit and throw seven pebbles, then regroup or catch them in set patterns; local name varies by cultural area.
 

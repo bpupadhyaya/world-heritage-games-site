@@ -11,7 +11,7 @@ countries: ["Australia", "United Kingdom"]
 ---
 # Netball
 
-**Encyclopedia ID 447** (permanent) · https://equalinformation.com/world-heritage-games-site/games/447-netball/
+**Encyclopedia ID 447** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/447-netball/
 
 ![Netball](../../../img/photos/00447-netball.jpg)
 

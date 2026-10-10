@@ -13,7 +13,7 @@ countries: ["Iran"]
 
 *Chogan · Chovgan · Persian polo*
 
-**Encyclopedia ID 810** (permanent) · https://equalinformation.com/world-heritage-games-site/games/810-chogan/
+**Encyclopedia ID 810** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/810-chogan/
 
 Ancient horseback ball-and-mallet game from Iran, ancestor of polo.
 

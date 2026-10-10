@@ -13,7 +13,7 @@ countries: ["Oman"]
 
 *خنجر عماني*
 
-**Encyclopedia ID 1351** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1351-omani-khanjar-silver-filigree/
+**Encyclopedia ID 1351** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1351-omani-khanjar-silver-filigree/
 
 ![Omani Khanjar Silver Filigree](../../../img/photos/01351-omani-khanjar-silver-filigree.jpg)
 

@@ -13,7 +13,7 @@ countries: []
 
 *chikankari*
 
-**Encyclopedia ID 266** (permanent) · https://equalinformation.com/world-heritage-games-site/games/266-chikankari-white-on-white-embroidery/
+**Encyclopedia ID 266** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/266-chikankari-white-on-white-embroidery/
 
 ![Chikankari white-on-white embroidery](../../../img/photos/00266-chikankari-white-on-white-embroidery.jpg)
 

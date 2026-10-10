@@ -13,7 +13,7 @@ countries: ["Mongolia", "Russia"]
 
 *Khoomei / Хоомей · khoomei*
 
-**Encyclopedia ID 508** (permanent) · https://equalinformation.com/world-heritage-games-site/games/508-tuvan-throat-singing/
+**Encyclopedia ID 508** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/508-tuvan-throat-singing/
 
 ![Tuvan Throat Singing](../../../img/photos/00508-tuvan-throat-singing.jpg)
 

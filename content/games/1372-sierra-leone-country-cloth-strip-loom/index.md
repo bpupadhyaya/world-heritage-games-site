@@ -13,7 +13,7 @@ countries: ["Sierra Leone"]
 
 *Country cloth*
 
-**Encyclopedia ID 1372** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1372-sierra-leone-country-cloth-strip-loom/
+**Encyclopedia ID 1372** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1372-sierra-leone-country-cloth-strip-loom/
 
 ![Sierra Leone Country Cloth Strip Loom](../../../img/photos/01372-sierra-leone-country-cloth-strip-loom.jpg)
 

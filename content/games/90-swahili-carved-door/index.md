@@ -13,7 +13,7 @@ countries: ["Kenya"]
 
 *Mlango wa Zanzibar*
 
-**Encyclopedia ID 90** (permanent) · https://equalinformation.com/world-heritage-games-site/games/90-swahili-carved-door/
+**Encyclopedia ID 90** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/90-swahili-carved-door/
 
 ![Swahili carved door](../../../img/photos/00090-swahili-carved-door.jpg)
 

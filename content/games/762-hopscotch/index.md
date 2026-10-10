@@ -13,7 +13,7 @@ countries: ["Haiti", "Honduras", "Nicaragua", "Panama", "Guyana", "Suriname"]
 
 *Marèl*
 
-**Encyclopedia ID 762** (permanent) · https://equalinformation.com/world-heritage-games-site/games/762-hopscotch/
+**Encyclopedia ID 762** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/762-hopscotch/
 
 Throw a flat stone into a chalked grid and hop through squares without touching the stone square.
 

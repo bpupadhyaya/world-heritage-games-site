@@ -13,7 +13,7 @@ countries: ["Mongolia"]
 
 *Алаг мэлхий Alag malkhii (multicoloured turtle) · Multicoloured turtle*
 
-**Encyclopedia ID 941** (permanent) · https://equalinformation.com/world-heritage-games-site/games/941-alag-malkhii/
+**Encyclopedia ID 941** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/941-alag-malkhii/
 
 Players take bones from a pile painted in five colours and build a turtle shape, a shagai game with cosmic symbolism.
 

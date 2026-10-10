@@ -13,7 +13,7 @@ countries: ["Costa Rica"]
 
 *Carreta tipica (Sarchi)*
 
-**Encyclopedia ID 427** (permanent) · https://equalinformation.com/world-heritage-games-site/games/427-costa-rican-painted-oxcart/
+**Encyclopedia ID 427** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/427-costa-rican-painted-oxcart/
 
 ![Costa Rican painted oxcart](../../../img/photos/00427-costa-rican-painted-oxcart.jpg)
 

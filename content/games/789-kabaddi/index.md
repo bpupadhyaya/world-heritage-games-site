@@ -13,7 +13,7 @@ countries: ["India", "Pakistan", "Bangladesh", "Nepal"]
 
 *Kabaddi · Hu-tu-tu · Chedugudu (South)*
 
-**Encyclopedia ID 789** (permanent) · https://equalinformation.com/world-heritage-games-site/games/789-kabaddi/
+**Encyclopedia ID 789** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/789-kabaddi/
 
 A raider crosses into the other half, tags defenders and returns on one breath while chanting; teams of seven.
 

@@ -13,7 +13,7 @@ countries: ["Finland", "Sweden", "Norway"]
 
 *Spark / Potkukelkka*
 
-**Encyclopedia ID 407** (permanent) · https://equalinformation.com/world-heritage-games-site/games/407-kicksled-race/
+**Encyclopedia ID 407** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/407-kicksled-race/
 
 ![Kicksled Race](../../../img/photos/00407-kicksled-race.jpg)
 

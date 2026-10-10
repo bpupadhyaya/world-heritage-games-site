@@ -13,7 +13,7 @@ countries: ["Pakistan"]
 
 *Gulli Danda · Gilli Danda*
 
-**Encyclopedia ID 1003** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1003-gulli-danda/
+**Encyclopedia ID 1003** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1003-gulli-danda/
 
 Hit the gulli with the danda and score by distance.
 

@@ -13,7 +13,7 @@ countries: ["Lithuania"]
 
 *Skrabalai · Lithuanian wooden cowbells*
 
-**Encyclopedia ID 388** (permanent) · https://equalinformation.com/world-heritage-games-site/games/388-skrabalai/
+**Encyclopedia ID 388** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/388-skrabalai/
 
 ![Skrabalai](../../../img/photos/00388-skrabalai.jpg)
 

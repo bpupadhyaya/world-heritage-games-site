@@ -13,7 +13,7 @@ countries: ["Egypt"]
 
 *Rhind papyrus problems*
 
-**Encyclopedia ID 215** (permanent) · https://equalinformation.com/world-heritage-games-site/games/215-egyptian-fractions-and-doubling/
+**Encyclopedia ID 215** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/215-egyptian-fractions-and-doubling/
 
 ![Egyptian Fractions and Doubling](../../../img/photos/00215-egyptian-fractions-and-doubling.jpg)
 

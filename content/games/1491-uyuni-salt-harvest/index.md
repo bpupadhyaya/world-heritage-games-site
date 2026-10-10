@@ -13,7 +13,7 @@ countries: ["Bolivia"]
 
 *Cosecha de sal en el Salar de Uyuni · salt-flat caravan*
 
-**Encyclopedia ID 1491** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1491-uyuni-salt-harvest/
+**Encyclopedia ID 1491** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1491-uyuni-salt-harvest/
 
 ![Uyuni Salt Harvest](../../../img/photos/01491-uyuni-salt-harvest.jpg)
 

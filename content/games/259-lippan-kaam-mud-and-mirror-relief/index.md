@@ -13,7 +13,7 @@ countries: ["India", "Pakistan"]
 
 *lippan kaam*
 
-**Encyclopedia ID 259** (permanent) · https://equalinformation.com/world-heritage-games-site/games/259-lippan-kaam-mud-and-mirror-relief/
+**Encyclopedia ID 259** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/259-lippan-kaam-mud-and-mirror-relief/
 
 ![Lippan kaam mud-and-mirror relief](../../../img/photos/00259-lippan-kaam-mud-and-mirror-relief.jpg)
 

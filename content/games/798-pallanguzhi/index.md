@@ -13,7 +13,7 @@ countries: ["India"]
 
 *Pallanguzhi · Pallankuzhi · Vamana Guntalu · Kuzhipara*
 
-**Encyclopedia ID 798** (permanent) · https://equalinformation.com/world-heritage-games-site/games/798-pallanguzhi/
+**Encyclopedia ID 798** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/798-pallanguzhi/
 
 Mancala sowing game on a 14-pit board with shells or seeds, played at home in the south.
 

@@ -13,7 +13,7 @@ countries: ["Czechia"]
 
 *Dáma*
 
-**Encyclopedia ID 662** (permanent) · https://equalinformation.com/world-heritage-games-site/games/662-czech-draughts/
+**Encyclopedia ID 662** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/662-czech-draughts/
 
 Draughts on 8x8 with 12 men each, mandatory capture and flying kings.
 

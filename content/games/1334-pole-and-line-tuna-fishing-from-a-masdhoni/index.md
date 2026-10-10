@@ -13,7 +13,7 @@ countries: ["Maldives"]
 
 *މަސްދޯނި*
 
-**Encyclopedia ID 1334** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1334-pole-and-line-tuna-fishing-from-a-masdhoni/
+**Encyclopedia ID 1334** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1334-pole-and-line-tuna-fishing-from-a-masdhoni/
 
 ![Pole-and-line tuna fishing from a masdhoni](../../../img/photos/01334-pole-and-line-tuna-fishing-from-a-masdhoni.jpg)
 

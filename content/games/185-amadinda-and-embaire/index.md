@@ -13,7 +13,7 @@ countries: ["Uganda"]
 
 *Amadinda · log xylophone duet*
 
-**Encyclopedia ID 185** (permanent) · https://equalinformation.com/world-heritage-games-site/games/185-amadinda-and-embaire/
+**Encyclopedia ID 185** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/185-amadinda-and-embaire/
 
 ![Amadinda and embaire](../../../img/photos/00185-amadinda-and-embaire.jpg)
 

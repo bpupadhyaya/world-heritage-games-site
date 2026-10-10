@@ -13,7 +13,7 @@ countries: ["India"]
 
 *कठपुतली*
 
-**Encyclopedia ID 79** (permanent) · https://equalinformation.com/world-heritage-games-site/games/79-kathputli-string-puppets/
+**Encyclopedia ID 79** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/79-kathputli-string-puppets/
 
 ![Kathputli string puppets](../../../img/photos/00079-kathputli-string-puppets.jpg)
 

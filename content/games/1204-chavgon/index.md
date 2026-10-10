@@ -13,7 +13,7 @@ countries: ["Uzbekistan"]
 
 *Chavgon · horse-mounted stick and ball*
 
-**Encyclopedia ID 1204** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1204-chavgon/
+**Encyclopedia ID 1204** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1204-chavgon/
 
 Riders drive a ball with mallets in an old polo form.
 

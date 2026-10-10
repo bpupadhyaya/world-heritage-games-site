@@ -13,7 +13,7 @@ countries: ["Iraq"]
 
 *Cuneiform / مسمارية*
 
-**Encyclopedia ID 1260** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1260-cuneiform-clay-tablet-scribe/
+**Encyclopedia ID 1260** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1260-cuneiform-clay-tablet-scribe/
 
 ![Cuneiform Clay Tablet Scribe](../../../img/photos/01260-cuneiform-clay-tablet-scribe.jpg)
 

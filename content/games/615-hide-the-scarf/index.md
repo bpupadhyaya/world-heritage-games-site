@@ -13,7 +13,7 @@ countries: ["Cambodia"]
 
 *Leak Kanseng*
 
-**Encyclopedia ID 615** (permanent) · https://equalinformation.com/world-heritage-games-site/games/615-hide-the-scarf/
+**Encyclopedia ID 615** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/615-hide-the-scarf/
 
 Children sit in a circle while one walks around singing and secretly drops a twisted towel behind someone.
 

@@ -13,7 +13,7 @@ countries: ["Palestine"]
 
 *Kufiya / كوفية*
 
-**Encyclopedia ID 1310** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1310-keffiyeh-pattern-loom/
+**Encyclopedia ID 1310** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1310-keffiyeh-pattern-loom/
 
 ![Keffiyeh Pattern Loom](../../../img/photos/01310-keffiyeh-pattern-loom.jpg)
 

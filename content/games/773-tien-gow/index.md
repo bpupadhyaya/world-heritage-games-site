@@ -13,7 +13,7 @@ countries: ["China"]
 
 *天九 Tin gau · Tin Kau · Heaven nine*
 
-**Encyclopedia ID 773** (permanent) · https://equalinformation.com/world-heritage-games-site/games/773-tien-gow/
+**Encyclopedia ID 773** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/773-tien-gow/
 
 Four-player Chinese dominoes game using 32 tiles in a trick-like structure.
 

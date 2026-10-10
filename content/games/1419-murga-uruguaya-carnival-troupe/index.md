@@ -13,7 +13,7 @@ countries: ["Uruguay"]
 
 *Murga uruguaya*
 
-**Encyclopedia ID 1419** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1419-murga-uruguaya-carnival-troupe/
+**Encyclopedia ID 1419** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1419-murga-uruguaya-carnival-troupe/
 
 ![Murga Uruguaya Carnival Troupe](../../../img/photos/01419-murga-uruguaya-carnival-troupe.jpg)
 

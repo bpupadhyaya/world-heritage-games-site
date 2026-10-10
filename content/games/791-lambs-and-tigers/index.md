@@ -13,7 +13,7 @@ countries: ["India"]
 
 *Aadu Puli Attam · Puli Meka · Goats and Tigers*
 
-**Encyclopedia ID 791** (permanent) · https://equalinformation.com/world-heritage-games-site/games/791-lambs-and-tigers/
+**Encyclopedia ID 791** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/791-lambs-and-tigers/
 
 Hunt game: three tigers versus up to fifteen goats on a triangle-and-lines board.
 

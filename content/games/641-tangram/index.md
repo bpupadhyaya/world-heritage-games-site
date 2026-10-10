@@ -13,7 +13,7 @@ countries: ["China"]
 
 *七巧板 Qīqiǎobǎn*
 
-**Encyclopedia ID 641** (permanent) · https://equalinformation.com/world-heritage-games-site/games/641-tangram/
+**Encyclopedia ID 641** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/641-tangram/
 
 Seven flat geometric pieces are rearranged to fill a given silhouette without overlap.
 

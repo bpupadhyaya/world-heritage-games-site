@@ -13,7 +13,7 @@ countries: ["Chile"]
 
 *Rayuela chilena · disc pitching*
 
-**Encyclopedia ID 1427** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1427-chilean-rayuela/
+**Encyclopedia ID 1427** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1427-chilean-rayuela/
 
 ![Chilean Rayuela](../../../img/photos/01427-chilean-rayuela.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Argentina", "Uruguay"]
 
 *Bandoneon*
 
-**Encyclopedia ID 426** (permanent) · https://equalinformation.com/world-heritage-games-site/games/426-bandoneon-and-tango-rhythm/
+**Encyclopedia ID 426** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/426-bandoneon-and-tango-rhythm/
 
 ![Bandoneon and tango rhythm](../../../img/photos/00426-bandoneon-and-tango-rhythm.jpg)
 

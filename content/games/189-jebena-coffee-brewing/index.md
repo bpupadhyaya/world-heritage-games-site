@@ -13,7 +13,7 @@ countries: ["Ethiopia", "Eritrea"]
 
 *Buna / jebena*
 
-**Encyclopedia ID 189** (permanent) · https://equalinformation.com/world-heritage-games-site/games/189-jebena-coffee-brewing/
+**Encyclopedia ID 189** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/189-jebena-coffee-brewing/
 
 ![Jebena coffee brewing](../../../img/photos/00189-jebena-coffee-brewing.jpg)
 

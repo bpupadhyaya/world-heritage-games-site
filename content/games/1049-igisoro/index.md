@@ -13,7 +13,7 @@ countries: ["Rwanda", "Burundi"]
 
 *Igisoro · Ikibuguzo*
 
-**Encyclopedia ID 1049** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1049-igisoro/
+**Encyclopedia ID 1049** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1049-igisoro/
 
 Mancala on 4x8 board with 64 seeds meant as cows; masters play blindfolded.
 

@@ -13,7 +13,7 @@ countries: ["Mexico"]
 
 *Floreo de reata / lazo · lazo*
 
-**Encyclopedia ID 60** (permanent) · https://equalinformation.com/world-heritage-games-site/games/60-charro-lasso-roping/
+**Encyclopedia ID 60** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/60-charro-lasso-roping/
 
 ![Charro lasso roping](../../../img/photos/00060-charro-lasso-roping.jpg)
 

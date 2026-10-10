@@ -13,7 +13,7 @@ countries: ["Morocco"]
 
 *Zamma (Zemmat)*
 
-**Encyclopedia ID 462** (permanent) · https://equalinformation.com/world-heritage-games-site/games/462-zamma/
+**Encyclopedia ID 462** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/462-zamma/
 
 ![Zamma](../../../img/photos/00462-zamma.jpg)
 

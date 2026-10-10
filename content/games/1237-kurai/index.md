@@ -13,7 +13,7 @@ countries: ["Russia"]
 
 *Ҡурай · Bashkir reed flute*
 
-**Encyclopedia ID 1237** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1237-kurai/
+**Encyclopedia ID 1237** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1237-kurai/
 
 ![Kurai](../../../img/photos/01237-kurai.jpg)
 

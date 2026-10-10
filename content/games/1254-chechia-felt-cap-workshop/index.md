@@ -13,7 +13,7 @@ countries: ["Tunisia"]
 
 *Chechia / شاشية*
 
-**Encyclopedia ID 1254** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1254-chechia-felt-cap-workshop/
+**Encyclopedia ID 1254** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1254-chechia-felt-cap-workshop/
 
 ![Chechia Felt-Cap Workshop](../../../img/photos/01254-chechia-felt-cap-workshop.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Albania"]
 
 *Cingel*
 
-**Encyclopedia ID 529** (permanent) · https://equalinformation.com/world-heritage-games-site/games/529-stick-and-cingel/
+**Encyclopedia ID 529** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/529-stick-and-cingel/
 
 Children flick a short wooden peg with a longer stick and score by how far it flies.
 

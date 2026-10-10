@@ -13,7 +13,7 @@ countries: ["China"]
 
 *捶丸 · ancient Chinese golf*
 
-**Encyclopedia ID 332** (permanent) · https://equalinformation.com/world-heritage-games-site/games/332-chuiwan/
+**Encyclopedia ID 332** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/332-chuiwan/
 
 ![Chuiwan](../../../img/photos/00332-chuiwan.jpg)
 

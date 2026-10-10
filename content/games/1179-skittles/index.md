@@ -13,7 +13,7 @@ countries: ["United Kingdom", "Germany", "Liechtenstein"]
 
 *Skittles (Old English / Table / Long Alley) · Table skittles · Northamptonshire skittles*
 
-**Encyclopedia ID 1179** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1179-skittles/
+**Encyclopedia ID 1179** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1179-skittles/
 
 Knock pins down by throwing a ball or cheese; many regional forms from alley skittles to Northamptonshire table skittles.
 

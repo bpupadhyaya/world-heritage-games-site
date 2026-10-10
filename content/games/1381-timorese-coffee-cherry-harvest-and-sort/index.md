@@ -13,7 +13,7 @@ countries: ["Timor-Leste"]
 
 *kafé Timor-Leste*
 
-**Encyclopedia ID 1381** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1381-timorese-coffee-cherry-harvest-and-sort/
+**Encyclopedia ID 1381** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1381-timorese-coffee-cherry-harvest-and-sort/
 
 ![Timorese coffee cherry harvest and sort](../../../img/photos/01381-timorese-coffee-cherry-harvest-and-sort.jpg)
 

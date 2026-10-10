@@ -13,7 +13,7 @@ countries: ["Sri Lanka"]
 
 *තේ කඩන*
 
-**Encyclopedia ID 1297** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1297-hill-country-tea-plucking/
+**Encyclopedia ID 1297** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1297-hill-country-tea-plucking/
 
 ![Hill-country tea plucking](../../../img/photos/01297-hill-country-tea-plucking.jpg)
 

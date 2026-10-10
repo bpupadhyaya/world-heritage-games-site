@@ -13,7 +13,7 @@ countries: ["Ecuador"]
 
 *Bolas de cristal*
 
-**Encyclopedia ID 685** (permanent) · https://equalinformation.com/world-heritage-games-site/games/685-glass-marbles/
+**Encyclopedia ID 685** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/685-glass-marbles/
 
 Marbles.
 

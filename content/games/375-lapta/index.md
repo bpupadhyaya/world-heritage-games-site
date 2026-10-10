@@ -13,7 +13,7 @@ countries: ["Russia"]
 
 *Лапта · Russian bat-and-run*
 
-**Encyclopedia ID 375** (permanent) · https://equalinformation.com/world-heritage-games-site/games/375-lapta/
+**Encyclopedia ID 375** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/375-lapta/
 
 ![Lapta](../../../img/photos/00375-lapta.jpg)
 

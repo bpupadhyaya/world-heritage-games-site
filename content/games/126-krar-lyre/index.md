@@ -13,7 +13,7 @@ countries: ["Ethiopia", "Eritrea"]
 
 *Krar*
 
-**Encyclopedia ID 126** (permanent) · https://equalinformation.com/world-heritage-games-site/games/126-krar-lyre/
+**Encyclopedia ID 126** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/126-krar-lyre/
 
 ![Krar lyre](../../../img/photos/00126-krar-lyre.jpg)
 

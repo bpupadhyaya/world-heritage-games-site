@@ -13,7 +13,7 @@ countries: ["Sri Lanka"]
 
 *Olinda Keliya · Mancala*
 
-**Encyclopedia ID 1106** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1106-olinda-keliya/
+**Encyclopedia ID 1106** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1106-olinda-keliya/
 
 Mancala game played with olinda seeds in pits, where players sow and collect seeds; a New Year pastime.
 

@@ -13,7 +13,7 @@ countries: ["Central African Republic"]
 
 *Mancala (local names not identified)*
 
-**Encyclopedia ID 626** (permanent) · https://equalinformation.com/world-heritage-games-site/games/626-mancala-type-sowing-games/
+**Encyclopedia ID 626** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/626-mancala-type-sowing-games/
 
 Traditional African mancala-family sowing game; exact local rules vary by village.
 

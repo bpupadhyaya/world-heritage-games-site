@@ -13,7 +13,7 @@ countries: ["Guatemala", "Belize"]
 
 *Puluc · Kekchi/Mopan board game*
 
-**Encyclopedia ID 757** (permanent) · https://equalinformation.com/world-heritage-games-site/games/757-puluc/
+**Encyclopedia ID 757** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/757-puluc/
 
 Two sides move along a track using binary stick throws; landing on an enemy piece captures it, but it must then be dragged home.
 

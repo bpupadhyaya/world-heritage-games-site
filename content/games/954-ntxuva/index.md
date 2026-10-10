@@ -13,7 +13,7 @@ countries: ["Mozambique"]
 
 *Ntxuva · Tchadji · Mancala · Ntchuva*
 
-**Encyclopedia ID 954** (permanent) · https://equalinformation.com/world-heritage-games-site/games/954-ntxuva/
+**Encyclopedia ID 954** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/954-ntxuva/
 
 Four-row mancala dug in ground or cement boards, played by adult men nationwide.
 

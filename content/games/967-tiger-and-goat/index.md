@@ -13,7 +13,7 @@ countries: ["Nepal"]
 
 *Bagh-Chal · Bagh Chal*
 
-**Encyclopedia ID 967** (permanent) · https://equalinformation.com/world-heritage-games-site/games/967-tiger-and-goat/
+**Encyclopedia ID 967** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/967-tiger-and-goat/
 
 Four tigers versus twenty goats on a 5x5 grid.
 

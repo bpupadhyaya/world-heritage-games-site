@@ -13,7 +13,7 @@ countries: ["Spain"]
 
 *Txalaparta*
 
-**Encyclopedia ID 390** (permanent) · https://equalinformation.com/world-heritage-games-site/games/390-txalaparta-duet/
+**Encyclopedia ID 390** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/390-txalaparta-duet/
 
 ![Txalaparta Duet](../../../img/photos/00390-txalaparta-duet.jpg)
 

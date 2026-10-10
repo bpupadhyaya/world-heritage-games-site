@@ -13,7 +13,7 @@ countries: ["United Kingdom"]
 
 *Darts · 501*
 
-**Encyclopedia ID 1182** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1182-pub-darts/
+**Encyclopedia ID 1182** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1182-pub-darts/
 
 Throw darts at a numbered board, counting down from 501 to exactly zero; the standard pub and league game.
 

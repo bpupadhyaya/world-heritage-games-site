@@ -13,7 +13,7 @@ countries: ["Maldives"]
 
 *Ohvalhu Gondi*
 
-**Encyclopedia ID 916** (permanent) · https://equalinformation.com/world-heritage-games-site/games/916-ohvalhu/
+**Encyclopedia ID 916** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/916-ohvalhu/
 
 A small mancala on an eight-pit board where players sow shells counter-clockwise to fill a home cup.
 

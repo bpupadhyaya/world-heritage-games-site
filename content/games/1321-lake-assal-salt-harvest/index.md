@@ -13,7 +13,7 @@ countries: ["Djibouti"]
 
 *Lac Assal*
 
-**Encyclopedia ID 1321** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1321-lake-assal-salt-harvest/
+**Encyclopedia ID 1321** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1321-lake-assal-salt-harvest/
 
 ![Lake Assal salt harvest](../../../img/photos/01321-lake-assal-salt-harvest.jpg)
 

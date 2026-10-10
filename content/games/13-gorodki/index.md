@@ -13,7 +13,7 @@ countries: ["Russia"]
 
 *Городки · town-skittles*
 
-**Encyclopedia ID 13** (permanent) · https://equalinformation.com/world-heritage-games-site/games/13-gorodki/
+**Encyclopedia ID 13** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/13-gorodki/
 
 ![Gorodki](../../../img/photos/00013-gorodki.jpg)
 

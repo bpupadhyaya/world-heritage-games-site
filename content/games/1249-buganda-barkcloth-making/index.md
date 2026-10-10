@@ -13,7 +13,7 @@ countries: ["Uganda"]
 
 *Olubugo*
 
-**Encyclopedia ID 1249** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1249-buganda-barkcloth-making/
+**Encyclopedia ID 1249** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1249-buganda-barkcloth-making/
 
 ![Buganda barkcloth making](../../../img/photos/01249-buganda-barkcloth-making.jpg)
 

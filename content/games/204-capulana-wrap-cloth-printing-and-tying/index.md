@@ -13,7 +13,7 @@ countries: ["Mozambique"]
 
 *Capulana*
 
-**Encyclopedia ID 204** (permanent) · https://equalinformation.com/world-heritage-games-site/games/204-capulana-wrap-cloth-printing-and-tying/
+**Encyclopedia ID 204** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/204-capulana-wrap-cloth-printing-and-tying/
 
 ![Capulana wrap cloth printing and tying](../../../img/photos/00204-capulana-wrap-cloth-printing-and-tying.jpg)
 

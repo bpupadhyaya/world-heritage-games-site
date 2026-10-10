@@ -13,7 +13,7 @@ countries: ["Italy", "Spain", "France"]
 
 *Gioco dell'Oca / Juego de la Oca / Jeu de l'Oie*
 
-**Encyclopedia ID 450** (permanent) · https://equalinformation.com/world-heritage-games-site/games/450-game-of-the-goose/
+**Encyclopedia ID 450** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/450-game-of-the-goose/
 
 ![Game of the Goose](../../../img/photos/00450-game-of-the-goose.jpg)
 

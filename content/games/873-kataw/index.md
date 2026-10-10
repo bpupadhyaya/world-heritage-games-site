@@ -13,7 +13,7 @@ countries: ["Laos"]
 
 *Kataw (Sepak Takraw)*
 
-**Encyclopedia ID 873** (permanent) · https://equalinformation.com/world-heritage-games-site/games/873-kataw/
+**Encyclopedia ID 873** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/873-kataw/
 
 Most popular sport per sources; net game with rattan ball.
 

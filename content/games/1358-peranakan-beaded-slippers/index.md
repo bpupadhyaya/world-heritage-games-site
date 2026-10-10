@@ -13,7 +13,7 @@ countries: ["China", "Singapore"]
 
 *kasut manik*
 
-**Encyclopedia ID 1358** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1358-peranakan-beaded-slippers/
+**Encyclopedia ID 1358** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1358-peranakan-beaded-slippers/
 
 ![Peranakan beaded slippers](../../../img/photos/01358-peranakan-beaded-slippers.jpg)
 

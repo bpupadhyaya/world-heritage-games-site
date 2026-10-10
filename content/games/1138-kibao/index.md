@@ -13,7 +13,7 @@ countries: ["Tanzania"]
 
 *Kibao*
 
-**Encyclopedia ID 1138** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1138-kibao/
+**Encyclopedia ID 1138** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1138-kibao/
 
 Children's jumping contests with improvised gear.
 

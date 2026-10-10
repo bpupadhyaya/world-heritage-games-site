@@ -13,7 +13,7 @@ countries: ["Zimbabwe"]
 
 *Mbira / Kalimba / Sanza · Thumb Piano*
 
-**Encyclopedia ID 32** (permanent) · https://equalinformation.com/world-heritage-games-site/games/32-mbira/
+**Encyclopedia ID 32** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/32-mbira/
 
 ![Mbira](../../../img/photos/00032-mbira.jpg)
 

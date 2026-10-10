@@ -13,7 +13,7 @@ countries: ["Philippines"]
 
 *banig · Banig*
 
-**Encyclopedia ID 1236** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1236-banig-mat-weaving/
+**Encyclopedia ID 1236** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1236-banig-mat-weaving/
 
 ![Banig mat weaving](../../../img/photos/01236-banig-mat-weaving.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Sudan"]
 
 *Anywoli*
 
-**Encyclopedia ID 1109** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1109-anywoli/
+**Encyclopedia ID 1109** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1109-anywoli/
 
 Anuak mancala.
 

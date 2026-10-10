@@ -13,7 +13,7 @@ countries: ["Nepal", "India"]
 
 *मिथिला कला · fish and peacock motifs*
 
-**Encyclopedia ID 1337** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1337-mithila-folk-painting/
+**Encyclopedia ID 1337** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1337-mithila-folk-painting/
 
 ![Mithila folk painting](../../../img/photos/01337-mithila-folk-painting.jpg)
 

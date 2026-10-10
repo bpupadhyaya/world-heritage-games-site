@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *面子 / めんこ · card and disc slapping*
 
-**Encyclopedia ID 346** (permanent) · https://equalinformation.com/world-heritage-games-site/games/346-menko/
+**Encyclopedia ID 346** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/346-menko/
 
 ![Menko](../../../img/photos/00346-menko.jpg)
 

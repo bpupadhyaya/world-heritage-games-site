@@ -13,7 +13,7 @@ countries: ["Timor-Leste"]
 
 *Tais · Timorese backstrap weaving*
 
-**Encyclopedia ID 321** (permanent) · https://equalinformation.com/world-heritage-games-site/games/321-tais/
+**Encyclopedia ID 321** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/321-tais/
 
 ![Tais](../../../img/photos/00321-tais.jpg)
 

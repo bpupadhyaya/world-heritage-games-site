@@ -13,7 +13,7 @@ countries: ["Colombia"]
 
 *Parqués*
 
-**Encyclopedia ID 644** (permanent) · https://equalinformation.com/world-heritage-games-site/games/644-colombian-parques/
+**Encyclopedia ID 644** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/644-colombian-parques/
 
 Pachisi descendant with Colombian rules like jail and safe squares.
 

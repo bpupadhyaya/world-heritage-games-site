@@ -13,7 +13,7 @@ countries: ["Tuvalu"]
 
 *Kilikiti*
 
-**Encyclopedia ID 1172** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1172-tuvaluan-kilikiti/
+**Encyclopedia ID 1172** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1172-tuvaluan-kilikiti/
 
 Community cricket with fatele.
 

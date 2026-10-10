@@ -13,7 +13,7 @@ countries: ["Iran"]
 
 *تنبک / ضرب · zarb*
 
-**Encyclopedia ID 233** (permanent) · https://equalinformation.com/world-heritage-games-site/games/233-tombak-goblet-drum-rhythms/
+**Encyclopedia ID 233** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/233-tombak-goblet-drum-rhythms/
 
 ![Tombak goblet drum rhythms](../../../img/photos/00233-tombak-goblet-drum-rhythms.jpg)
 

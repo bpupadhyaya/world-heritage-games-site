@@ -13,7 +13,7 @@ countries: ["Kazakhstan"]
 
 *Togyzqumalaq · Nine Pebbles*
 
-**Encyclopedia ID 859** (permanent) · https://equalinformation.com/world-heritage-games-site/games/859-togyz-kumalak/
+**Encyclopedia ID 859** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/859-togyz-kumalak/
 
 Two players sow pebbles around two rows of nine pits and capture even-numbered pits and a special tuzdyk pit; first to a majority of the 162 stones wins.
 

@@ -13,7 +13,7 @@ countries: ["South Korea", "North Korea"]
 
 *고구려 고분벽화*
 
-**Encyclopedia ID 1454** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1454-goguryeo-mural-restoration/
+**Encyclopedia ID 1454** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1454-goguryeo-mural-restoration/
 
 ![Goguryeo Mural Restoration](../../../img/photos/01454-goguryeo-mural-restoration.jpg)
 

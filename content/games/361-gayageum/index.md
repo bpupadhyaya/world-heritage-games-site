@@ -13,7 +13,7 @@ countries: ["South Korea"]
 
 *가야금 · twelve-string zither*
 
-**Encyclopedia ID 361** (permanent) · https://equalinformation.com/world-heritage-games-site/games/361-gayageum/
+**Encyclopedia ID 361** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/361-gayageum/
 
 ![Gayageum](../../../img/photos/00361-gayageum.jpg)
 

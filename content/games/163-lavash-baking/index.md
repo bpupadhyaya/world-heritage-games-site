@@ -13,7 +13,7 @@ countries: ["Armenia"]
 
 *Լավաշ · tonir*
 
-**Encyclopedia ID 163** (permanent) · https://equalinformation.com/world-heritage-games-site/games/163-lavash-baking/
+**Encyclopedia ID 163** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/163-lavash-baking/
 
 ![Lavash Baking](../../../img/photos/00163-lavash-baking.jpg)
 

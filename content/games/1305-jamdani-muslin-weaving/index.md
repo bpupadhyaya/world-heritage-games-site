@@ -13,7 +13,7 @@ countries: ["Bangladesh"]
 
 *জামদানি*
 
-**Encyclopedia ID 1305** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1305-jamdani-muslin-weaving/
+**Encyclopedia ID 1305** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1305-jamdani-muslin-weaving/
 
 ![Jamdani muslin weaving](../../../img/photos/01305-jamdani-muslin-weaving.jpg)
 

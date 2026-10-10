@@ -13,7 +13,7 @@ countries: ["Tonga"]
 
 *Ngatu · kupesi*
 
-**Encyclopedia ID 1385** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1385-ngatu-bark-cloth-pattern-rubbing/
+**Encyclopedia ID 1385** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1385-ngatu-bark-cloth-pattern-rubbing/
 
 ![Ngatu bark-cloth pattern rubbing](../../../img/photos/01385-ngatu-bark-cloth-pattern-rubbing.jpg)
 

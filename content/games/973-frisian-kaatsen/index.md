@@ -13,7 +13,7 @@ countries: ["Netherlands"]
 
 *Kaatsen*
 
-**Encyclopedia ID 973** (permanent) · https://equalinformation.com/world-heritage-games-site/games/973-frisian-kaatsen/
+**Encyclopedia ID 973** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/973-frisian-kaatsen/
 
 Frisian handball-like game played on fields in Friesland.
 

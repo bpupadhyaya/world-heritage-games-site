@@ -13,7 +13,7 @@ countries: ["Montenegro"]
 
 *Vaterpolo*
 
-**Encyclopedia ID 1398** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1398-water-polo-sprint/
+**Encyclopedia ID 1398** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1398-water-polo-sprint/
 
 ![Water Polo Sprint](../../../img/photos/01398-water-polo-sprint.jpg)
 

@@ -13,7 +13,7 @@ countries: []
 
 *కొండపల్లి బొమ్మలు*
 
-**Encyclopedia ID 276** (permanent) · https://equalinformation.com/world-heritage-games-site/games/276-kondapalli-village-toys/
+**Encyclopedia ID 276** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/276-kondapalli-village-toys/
 
 ![Kondapalli village toys](../../../img/photos/00276-kondapalli-village-toys.jpg)
 

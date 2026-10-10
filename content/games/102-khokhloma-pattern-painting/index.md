@@ -13,7 +13,7 @@ countries: ["Russia"]
 
 *Хохлома*
 
-**Encyclopedia ID 102** (permanent) · https://equalinformation.com/world-heritage-games-site/games/102-khokhloma-pattern-painting/
+**Encyclopedia ID 102** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/102-khokhloma-pattern-painting/
 
 ![Khokhloma Pattern Painting](../../../img/photos/00102-khokhloma-pattern-painting.jpg)
 

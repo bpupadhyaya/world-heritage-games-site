@@ -13,7 +13,7 @@ countries: ["Cyprus"]
 
 *lefkaritika*
 
-**Encyclopedia ID 220** (permanent) · https://equalinformation.com/world-heritage-games-site/games/220-lefkara-lace/
+**Encyclopedia ID 220** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/220-lefkara-lace/
 
 ![Lefkara Lace](../../../img/photos/00220-lefkara-lace.jpg)
 

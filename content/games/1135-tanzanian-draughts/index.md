@@ -13,7 +13,7 @@ countries: ["Tanzania"]
 
 *Drafti*
 
-**Encyclopedia ID 1135** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1135-tanzanian-draughts/
+**Encyclopedia ID 1135** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1135-tanzanian-draughts/
 
 8x8 draughts with flying kings (a hybrid of American and Russian rules).
 

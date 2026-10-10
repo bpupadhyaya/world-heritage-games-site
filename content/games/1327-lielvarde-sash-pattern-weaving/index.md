@@ -13,7 +13,7 @@ countries: ["Latvia"]
 
 *Lielvārdes josta*
 
-**Encyclopedia ID 1327** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1327-lielvarde-sash-pattern-weaving/
+**Encyclopedia ID 1327** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1327-lielvarde-sash-pattern-weaving/
 
 ![Lielvārde Sash Pattern Weaving](../../../img/photos/01327-lielvarde-sash-pattern-weaving.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Mexico"]
 
 *Balero · balero*
 
-**Encyclopedia ID 933** (permanent) · https://equalinformation.com/world-heritage-games-site/games/933-cup-and-ball/
+**Encyclopedia ID 933** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/933-cup-and-ball/
 
 A ball tied to a wooden handle is flipped to land in the cup or spike; players count catches or perform tricks.
 

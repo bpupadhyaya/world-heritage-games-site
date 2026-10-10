@@ -13,7 +13,7 @@ countries: ["Saudi Arabia", "Yemen", "Oman", "United Arab Emirates", "Qatar", "B
 
 *Baloot · Bolot*
 
-**Encyclopedia ID 1060** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1060-baloot/
+**Encyclopedia ID 1060** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1060-baloot/
 
 Four players in two teams play a 32-card bidding trick game with "sun" (no trump) and "hokum" (trump) contracts and declared combinations.
 

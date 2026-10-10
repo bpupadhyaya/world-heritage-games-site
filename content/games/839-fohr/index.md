@@ -13,7 +13,7 @@ countries: ["Cote d'Ivoire"]
 
 *Fohr (hidden-piece guessing game)*
 
-**Encyclopedia ID 839** (permanent) · https://equalinformation.com/world-heritage-games-site/games/839-fohr/
+**Encyclopedia ID 839** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/839-fohr/
 
 One player hides a piece in a closed hand and the opponent guesses which, moving counters along rings.
 

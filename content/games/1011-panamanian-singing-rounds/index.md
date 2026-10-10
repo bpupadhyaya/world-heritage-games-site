@@ -13,7 +13,7 @@ countries: ["Panama"]
 
 *Rondas*
 
-**Encyclopedia ID 1011** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1011-panamanian-singing-rounds/
+**Encyclopedia ID 1011** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1011-panamanian-singing-rounds/
 
 Children's rhyme circles.
 

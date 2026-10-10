@@ -11,7 +11,7 @@ countries: ["United States", "Canada"]
 ---
 # Barrel racing
 
-**Encyclopedia ID 439** (permanent) · https://equalinformation.com/world-heritage-games-site/games/439-barrel-racing/
+**Encyclopedia ID 439** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/439-barrel-racing/
 
 ![Barrel racing](../../../img/photos/00439-barrel-racing.jpg)
 

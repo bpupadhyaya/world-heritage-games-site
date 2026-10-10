@@ -13,7 +13,7 @@ countries: ["United States"]
 
 *frottoir*
 
-**Encyclopedia ID 437** (permanent) · https://equalinformation.com/world-heritage-games-site/games/437-rubboard-zydeco-rhythm/
+**Encyclopedia ID 437** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/437-rubboard-zydeco-rhythm/
 
 ![Rubboard zydeco rhythm](../../../img/photos/00437-rubboard-zydeco-rhythm.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Portugal"]
 
 *Jogo do Pau*
 
-**Encyclopedia ID 1037** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1037-portuguese-staff-fighting/
+**Encyclopedia ID 1037** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1037-portuguese-staff-fighting/
 
 Stick-fencing art from northern Portugal with set strikes and parries, now a sport.
 

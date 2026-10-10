@@ -13,7 +13,7 @@ countries: ["Sri Lanka", "Myanmar"]
 
 *Kotta Pora*
 
-**Encyclopedia ID 1101** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1101-pillow-fight/
+**Encyclopedia ID 1101** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1101-pillow-fight/
 
 Two players sit on a raised bar and try to knock each other off with pillows.
 

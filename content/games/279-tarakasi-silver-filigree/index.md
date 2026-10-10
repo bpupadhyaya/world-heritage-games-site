@@ -13,7 +13,7 @@ countries: []
 
 *ତାରକସି*
 
-**Encyclopedia ID 279** (permanent) · https://equalinformation.com/world-heritage-games-site/games/279-tarakasi-silver-filigree/
+**Encyclopedia ID 279** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/279-tarakasi-silver-filigree/
 
 ![Tarakasi silver filigree](../../../img/photos/00279-tarakasi-silver-filigree.jpg)
 

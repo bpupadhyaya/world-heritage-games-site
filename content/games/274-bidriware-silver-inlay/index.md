@@ -13,7 +13,7 @@ countries: []
 
 *ಬಿದರಿ*
 
-**Encyclopedia ID 274** (permanent) · https://equalinformation.com/world-heritage-games-site/games/274-bidriware-silver-inlay/
+**Encyclopedia ID 274** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/274-bidriware-silver-inlay/
 
 ![Bidriware silver inlay](../../../img/photos/00274-bidriware-silver-inlay.jpg)
 

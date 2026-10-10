@@ -13,7 +13,7 @@ countries: ["Kazakhstan"]
 
 *Arkan tartys*
 
-**Encyclopedia ID 855** (permanent) · https://equalinformation.com/world-heritage-games-site/games/855-rope-pulling/
+**Encyclopedia ID 855** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/855-rope-pulling/
 
 Two teams pull on a rope across a line, a tug-of-war form listed among traditional Kazakh games.
 

@@ -13,7 +13,7 @@ countries: ["Argentina"]
 
 *Malambo · gaucho footwork duel*
 
-**Encyclopedia ID 1417** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1417-malambo/
+**Encyclopedia ID 1417** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1417-malambo/
 
 ![Malambo](../../../img/photos/01417-malambo.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Turkey"]
 
 *Mangala · Mangola · Turkish mancala*
 
-**Encyclopedia ID 1164** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1164-mangala/
+**Encyclopedia ID 1164** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1164-mangala/
 
 Ottoman-era sowing game with 2x6 or 2x7 pits and capture on even counts.
 

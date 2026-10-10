@@ -13,7 +13,7 @@ countries: ["Germany"]
 
 *Kuckucksuhr*
 
-**Encyclopedia ID 409** (permanent) · https://equalinformation.com/world-heritage-games-site/games/409-black-forest-cuckoo-clock-workshop/
+**Encyclopedia ID 409** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/409-black-forest-cuckoo-clock-workshop/
 
 ![Black Forest Cuckoo Clock Workshop](../../../img/photos/00409-black-forest-cuckoo-clock-workshop.jpg)
 

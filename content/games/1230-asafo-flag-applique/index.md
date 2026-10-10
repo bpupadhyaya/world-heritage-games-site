@@ -13,7 +13,7 @@ countries: ["Ghana"]
 
 *Asafo flags*
 
-**Encyclopedia ID 1230** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1230-asafo-flag-applique/
+**Encyclopedia ID 1230** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1230-asafo-flag-applique/
 
 ![Asafo Flag Appliqué](../../../img/photos/01230-asafo-flag-applique.jpg)
 

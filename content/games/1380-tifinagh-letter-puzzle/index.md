@@ -13,7 +13,7 @@ countries: ["Niger", "Morocco", "Libya", "Algeria"]
 
 *Tifinagh / ⵜⵉⴼⵉⵏⴰⵖ*
 
-**Encyclopedia ID 1380** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1380-tifinagh-letter-puzzle/
+**Encyclopedia ID 1380** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1380-tifinagh-letter-puzzle/
 
 ![Tifinagh Letter Puzzle](../../../img/photos/01380-tifinagh-letter-puzzle.jpg)
 

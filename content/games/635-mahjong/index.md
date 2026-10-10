@@ -13,7 +13,7 @@ countries: ["China", "Singapore"]
 
 *麻将 Májiàng (Guobiao, Sichuan, Guangdong) · Mah-jong · mainland rulesets*
 
-**Encyclopedia ID 635** (permanent) · https://equalinformation.com/world-heritage-games-site/games/635-mahjong/
+**Encyclopedia ID 635** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/635-mahjong/
 
 Four players draw and discard tiles to build four sets and a pair; mainland China plays many local rulesets, with Guobiao as the official competition standard.
 

@@ -13,7 +13,7 @@ countries: []
 
 *Course de pirogues*
 
-**Encyclopedia ID 56** (permanent) · https://equalinformation.com/world-heritage-games-site/games/56-pirogue-coastal-canoe-race/
+**Encyclopedia ID 56** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/56-pirogue-coastal-canoe-race/
 
 ![Pirogue coastal canoe race](../../../img/photos/00056-pirogue-coastal-canoe-race.jpg)
 

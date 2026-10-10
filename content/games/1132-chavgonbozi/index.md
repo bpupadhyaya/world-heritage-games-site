@@ -13,7 +13,7 @@ countries: ["Tajikistan"]
 
 *Chavgonbozi*
 
-**Encyclopedia ID 1132** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1132-chavgonbozi/
+**Encyclopedia ID 1132** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1132-chavgonbozi/
 
 Mounted mallet game akin to polo.
 

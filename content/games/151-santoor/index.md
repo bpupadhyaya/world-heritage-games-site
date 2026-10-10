@@ -13,7 +13,7 @@ countries: ["India"]
 
 *سنتور · hammered dulcimer*
 
-**Encyclopedia ID 151** (permanent) · https://equalinformation.com/world-heritage-games-site/games/151-santoor/
+**Encyclopedia ID 151** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/151-santoor/
 
 ![Santoor](../../../img/photos/00151-santoor.jpg)
 

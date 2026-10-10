@@ -13,7 +13,7 @@ countries: ["Ireland"]
 
 *Pitch and Toss*
 
-**Encyclopedia ID 822** (permanent) · https://equalinformation.com/world-heritage-games-site/games/822-pitch-and-toss/
+**Encyclopedia ID 822** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/822-pitch-and-toss/
 
 Coin-pitching game toward a mark or line with side bets; traditional at fairs and crossroads.
 

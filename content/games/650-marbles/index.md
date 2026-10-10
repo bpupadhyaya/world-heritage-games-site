@@ -13,7 +13,7 @@ countries: ["Cuba", "Jamaica", "Barbados", "Dominica", "Saint Kitts and Nevis", 
 
 *Las Bolas*
 
-**Encyclopedia ID 650** (permanent) · https://equalinformation.com/world-heritage-games-site/games/650-marbles/
+**Encyclopedia ID 650** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/650-marbles/
 
 Players knock marbles out of a drawn circle or triangle and keep those they win, using named types such as neya and miami.
 

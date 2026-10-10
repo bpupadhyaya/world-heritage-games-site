@@ -13,7 +13,7 @@ countries: ["North Macedonia", "Serbia", "Bosnia and Herzegovina", "Croatia", "R
 
 *Реми*
 
-**Encyclopedia ID 993** (permanent) · https://equalinformation.com/world-heritage-games-site/games/993-remi/
+**Encyclopedia ID 993** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/993-remi/
 
 Rummy in two forms: the open version lets you meld on the table, the closed version only once the hand can finish.
 

@@ -13,7 +13,7 @@ countries: ["Singapore"]
 
 *Capteh (Chapteh)*
 
-**Encyclopedia ID 1066** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1066-chapteh-shuttlecock/
+**Encyclopedia ID 1066** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1066-chapteh-shuttlecock/
 
 Players keep a feathered, weighted shuttle in the air with the feet, a pastime for children that leads into sepak raga.
 

@@ -13,7 +13,7 @@ countries: ["Palestine"]
 
 *Zarzir · knucklebones*
 
-**Encyclopedia ID 1010** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1010-zarzir/
+**Encyclopedia ID 1010** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1010-zarzir/
 
 A jacks-style game played by tossing and catching animal ankle bones.
 

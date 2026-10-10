@@ -13,7 +13,7 @@ countries: ["France"]
 
 *Pipopipette · La Pipopipette*
 
-**Encyclopedia ID 463** (permanent) · https://equalinformation.com/world-heritage-games-site/games/463-dots-and-boxes/
+**Encyclopedia ID 463** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/463-dots-and-boxes/
 
 ![Dots and Boxes](../../../img/photos/00463-dots-and-boxes.jpg)
 

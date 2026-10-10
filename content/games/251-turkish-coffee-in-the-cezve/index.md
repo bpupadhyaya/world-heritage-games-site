@@ -13,7 +13,7 @@ countries: ["Turkey"]
 
 *Türk kahvesi*
 
-**Encyclopedia ID 251** (permanent) · https://equalinformation.com/world-heritage-games-site/games/251-turkish-coffee-in-the-cezve/
+**Encyclopedia ID 251** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/251-turkish-coffee-in-the-cezve/
 
 ![Turkish coffee in the cezve](../../../img/photos/00251-turkish-coffee-in-the-cezve.jpg)
 

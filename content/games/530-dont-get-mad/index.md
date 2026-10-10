@@ -13,7 +13,7 @@ countries: ["Albania"]
 
 *Mos u Nxeh*
 
-**Encyclopedia ID 530** (permanent) · https://equalinformation.com/world-heritage-games-site/games/530-dont-get-mad/
+**Encyclopedia ID 530** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/530-dont-get-mad/
 
 Albanian version of the Ludo-type race game, popular under communism.
 

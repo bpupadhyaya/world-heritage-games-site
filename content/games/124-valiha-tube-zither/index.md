@@ -13,7 +13,7 @@ countries: ["Madagascar"]
 
 *Valiha*
 
-**Encyclopedia ID 124** (permanent) · https://equalinformation.com/world-heritage-games-site/games/124-valiha-tube-zither/
+**Encyclopedia ID 124** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/124-valiha-tube-zither/
 
 ![Valiha tube zither](../../../img/photos/00124-valiha-tube-zither.jpg)
 

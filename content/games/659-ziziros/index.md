@@ -13,7 +13,7 @@ countries: ["Cyprus"]
 
 *Ziziros*
 
-**Encyclopedia ID 659** (permanent) · https://equalinformation.com/world-heritage-games-site/games/659-ziziros/
+**Encyclopedia ID 659** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/659-ziziros/
 
 A middle player mimics a cicada and tries to tag the others, who must stay still.
 

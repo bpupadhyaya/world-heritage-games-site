@@ -13,7 +13,7 @@ countries: ["Turkey", "India"]
 
 *Gallina ciega, Blindekuh, Colin-Maillard, Kore-be · Colin-Maillard*
 
-**Encyclopedia ID 467** (permanent) · https://equalinformation.com/world-heritage-games-site/games/467-blind-mans-buff/
+**Encyclopedia ID 467** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/467-blind-mans-buff/
 
 ![Blind Man's Buff](../../../img/photos/00467-blind-mans-buff.jpg)
 

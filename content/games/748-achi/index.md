@@ -13,7 +13,7 @@ countries: ["Ghana"]
 
 *Achi*
 
-**Encyclopedia ID 748** (permanent) · https://equalinformation.com/world-heritage-games-site/games/748-achi/
+**Encyclopedia ID 748** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/748-achi/
 
 Three-in-a-row game on a 3x3 board where pieces move after placement.
 

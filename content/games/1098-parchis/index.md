@@ -13,7 +13,7 @@ countries: ["Spain"]
 
 *Parchís · Ludo · Spanish Ludo*
 
-**Encyclopedia ID 1098** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1098-parchis/
+**Encyclopedia ID 1098** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1098-parchis/
 
 Cross-and-circle dice race with barriers and captures; the Spanish board-game staple.
 

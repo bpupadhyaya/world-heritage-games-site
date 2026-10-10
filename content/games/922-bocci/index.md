@@ -13,7 +13,7 @@ countries: ["Malta"]
 
 *Boċċi*
 
-**Encyclopedia ID 922** (permanent) · https://equalinformation.com/world-heritage-games-site/games/922-bocci/
+**Encyclopedia ID 922** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/922-bocci/
 
 Maltese bowls game on sand lanes at village clubs; seen as a beloved traditional sport.
 

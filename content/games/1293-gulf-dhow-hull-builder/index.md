@@ -13,7 +13,7 @@ countries: ["Qatar"]
 
 *بوم / سمبوك*
 
-**Encyclopedia ID 1293** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1293-gulf-dhow-hull-builder/
+**Encyclopedia ID 1293** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1293-gulf-dhow-hull-builder/
 
 ![Gulf Dhow Hull Builder](../../../img/photos/01293-gulf-dhow-hull-builder.jpg)
 

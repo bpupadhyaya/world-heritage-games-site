@@ -13,7 +13,7 @@ countries: ["Barbados", "Antigua and Barbuda", "Saint Lucia", "Saint Vincent and
 
 *Drafts*
 
-**Encyclopedia ID 576** (permanent) · https://equalinformation.com/world-heritage-games-site/games/576-draughts/
+**Encyclopedia ID 576** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/576-draughts/
 
 African draughts, normally the 10x10 international form with flying kings, played on street boards, in cafes and in federation events.
 

@@ -13,7 +13,7 @@ countries: ["Haiti", "Jamaica", "Cameroon", "Central African Republic", "Chad", 
 
 *Lido*
 
-**Encyclopedia ID 763** (permanent) · https://equalinformation.com/world-heritage-games-site/games/763-ludo/
+**Encyclopedia ID 763** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/763-ludo/
 
 Race four tokens round a cross-shaped track by dice throws, sending rivals home by landing on them; a simplified descendant of Pachisi.
 

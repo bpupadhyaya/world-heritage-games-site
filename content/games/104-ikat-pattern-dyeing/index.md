@@ -13,7 +13,7 @@ countries: ["Uzbekistan"]
 
 *Ikat / Abr · Abr*
 
-**Encyclopedia ID 104** (permanent) · https://equalinformation.com/world-heritage-games-site/games/104-ikat-pattern-dyeing/
+**Encyclopedia ID 104** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/104-ikat-pattern-dyeing/
 
 ![Ikat Pattern Dyeing](../../../img/photos/00104-ikat-pattern-dyeing.jpg)
 

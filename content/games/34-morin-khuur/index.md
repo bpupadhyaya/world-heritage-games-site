@@ -13,7 +13,7 @@ countries: ["Mongolia"]
 
 *Морин хуур / morin khuur · horsehead fiddle*
 
-**Encyclopedia ID 34** (permanent) · https://equalinformation.com/world-heritage-games-site/games/34-morin-khuur/
+**Encyclopedia ID 34** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/34-morin-khuur/
 
 ![Morin khuur](../../../img/photos/00034-morin-khuur.jpg)
 

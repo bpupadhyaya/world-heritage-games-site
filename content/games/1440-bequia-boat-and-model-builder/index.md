@@ -13,7 +13,7 @@ countries: ["Saint Vincent and the Grenadines"]
 
 *Bequia boatbuilding*
 
-**Encyclopedia ID 1440** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1440-bequia-boat-and-model-builder/
+**Encyclopedia ID 1440** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1440-bequia-boat-and-model-builder/
 
 ![Bequia Boat and Model Builder](../../../img/photos/01440-bequia-boat-and-model-builder.jpg)
 

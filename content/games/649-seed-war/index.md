@@ -13,7 +13,7 @@ countries: ["Costa Rica"]
 
 *Guerra de semillas*
 
-**Encyclopedia ID 649** (permanent) · https://equalinformation.com/world-heritage-games-site/games/649-seed-war/
+**Encyclopedia ID 649** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/649-seed-war/
 
 Teams throw soft castor seeds at one another.
 

@@ -11,7 +11,7 @@ countries: ["Singapore", "China", "Malaysia"]
 ---
 # Shophouse facade builder
 
-**Encyclopedia ID 1373** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1373-shophouse-facade-builder/
+**Encyclopedia ID 1373** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1373-shophouse-facade-builder/
 
 ![Shophouse facade builder](../../../img/photos/01373-shophouse-facade-builder.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Peru"]
 
 *Cacho / Dudo*
 
-**Encyclopedia ID 1020** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1020-dudo-cacho/
+**Encyclopedia ID 1020** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1020-dudo-cacho/
 
 Players secretly roll dice under cups and bid on how many of a face are on the table, challenging bluffs.
 

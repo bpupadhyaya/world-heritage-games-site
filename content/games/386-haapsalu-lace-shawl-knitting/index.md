@@ -13,7 +13,7 @@ countries: ["Estonia"]
 
 *Haapsalu sall*
 
-**Encyclopedia ID 386** (permanent) · https://equalinformation.com/world-heritage-games-site/games/386-haapsalu-lace-shawl-knitting/
+**Encyclopedia ID 386** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/386-haapsalu-lace-shawl-knitting/
 
 ![Haapsalu lace shawl knitting](../../../img/photos/00386-haapsalu-lace-shawl-knitting.jpg)
 

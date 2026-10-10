@@ -13,7 +13,7 @@ countries: ["San Marino"]
 
 *Balestra*
 
-**Encyclopedia ID 1058** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1058-crossbow-shooting/
+**Encyclopedia ID 1058** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1058-crossbow-shooting/
 
 Shooters aim crossbows at targets; San Marino keeps a crossbow tradition with historic uniformed shooters.
 

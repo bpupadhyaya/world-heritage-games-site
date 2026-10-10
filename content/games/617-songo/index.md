@@ -13,7 +13,7 @@ countries: ["Cameroon", "Gabon", "Equatorial Guinea", "DR Congo"]
 
 *Songo / Songo'o · Songho · Songoh · Songo ewondo · mbekh ô kôla (Gabon) · 14-house mancala*
 
-**Encyclopedia ID 617** (permanent) · https://equalinformation.com/world-heritage-games-site/games/617-songo/
+**Encyclopedia ID 617** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/617-songo/
 
 Two-row, 14-house sowing game with five seeds per house, played by Ekang/Beti/Fang peoples; first to bank 40 wins.
 

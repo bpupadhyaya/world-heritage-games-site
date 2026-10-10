@@ -13,7 +13,7 @@ countries: ["Grenada"]
 
 *Nutmeg sorting*
 
-**Encyclopedia ID 1456** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1456-grenada-nutmeg-grading/
+**Encyclopedia ID 1456** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1456-grenada-nutmeg-grading/
 
 ![Grenada Nutmeg Grading](../../../img/photos/01456-grenada-nutmeg-grading.jpg)
 

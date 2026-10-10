@@ -13,7 +13,7 @@ countries: ["Sao Tome and Principe"]
 
 *Tchiloli*
 
-**Encyclopedia ID 1430** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1430-tchiloli-masked-play/
+**Encyclopedia ID 1430** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1430-tchiloli-masked-play/
 
 ![Tchiloli masked play](../../../img/photos/01430-tchiloli-masked-play.jpg)
 

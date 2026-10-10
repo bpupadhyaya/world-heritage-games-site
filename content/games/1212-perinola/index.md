@@ -13,7 +13,7 @@ countries: ["Venezuela"]
 
 *Perinola · cup-and-ball*
 
-**Encyclopedia ID 1212** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1212-perinola/
+**Encyclopedia ID 1212** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1212-perinola/
 
 Catch a wooden ball in a cup joined by cord.
 

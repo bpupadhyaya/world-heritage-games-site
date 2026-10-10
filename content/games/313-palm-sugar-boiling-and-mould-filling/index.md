@@ -13,7 +13,7 @@ countries: ["Cambodia"]
 
 *ស្ករត្នោត*
 
-**Encyclopedia ID 313** (permanent) · https://equalinformation.com/world-heritage-games-site/games/313-palm-sugar-boiling-and-mould-filling/
+**Encyclopedia ID 313** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/313-palm-sugar-boiling-and-mould-filling/
 
 ![Palm sugar boiling and mould-filling](../../../img/photos/00313-palm-sugar-boiling-and-mould-filling.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Maldives"]
 
 *Baibalaa*
 
-**Encyclopedia ID 914** (permanent) · https://equalinformation.com/world-heritage-games-site/games/914-baibalaa/
+**Encyclopedia ID 914** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/914-baibalaa/
 
 Players in a ring field tag and capture opponents, much like kabaddi.
 

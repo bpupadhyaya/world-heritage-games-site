@@ -13,7 +13,7 @@ countries: ["Lebanon", "Palestine"]
 
 *Tawle · Shesh Besh · backgammon*
 
-**Encyclopedia ID 880** (permanent) · https://equalinformation.com/world-heritage-games-site/games/880-tawle/
+**Encyclopedia ID 880** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/880-tawle/
 
 Two players race fifteen checkers around a 24-point board with dice, a cafe and seafront staple.
 

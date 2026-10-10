@@ -13,7 +13,7 @@ countries: []
 
 *Bomba puertorriqueña · barrel drums and dancer*
 
-**Encyclopedia ID 425** (permanent) · https://equalinformation.com/world-heritage-games-site/games/425-bomba/
+**Encyclopedia ID 425** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/425-bomba/
 
 ![Bomba](../../../img/photos/00425-bomba.jpg)
 

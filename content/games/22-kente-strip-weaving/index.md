@@ -13,7 +13,7 @@ countries: ["Ghana"]
 
 *Kente (Akan / Ewe)*
 
-**Encyclopedia ID 22** (permanent) · https://equalinformation.com/world-heritage-games-site/games/22-kente-strip-weaving/
+**Encyclopedia ID 22** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/22-kente-strip-weaving/
 
 ![Kente strip weaving](../../../img/photos/00022-kente-strip-weaving.jpg)
 

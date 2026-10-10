@@ -13,7 +13,7 @@ countries: ["Kyrgyzstan"]
 
 *Alchik (Chuko)*
 
-**Encyclopedia ID 868** (permanent) · https://equalinformation.com/world-heritage-games-site/games/868-alchik/
+**Encyclopedia ID 868** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/868-alchik/
 
 Knee-bone throwing game to knock the opponent's pieces out of a row or ring.
 

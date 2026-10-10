@@ -13,7 +13,7 @@ countries: ["Guyana"]
 
 *Rounders*
 
-**Encyclopedia ID 761** (permanent) · https://equalinformation.com/world-heritage-games-site/games/761-rounders/
+**Encyclopedia ID 761** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/761-rounders/
 
 Bat and ball.
 

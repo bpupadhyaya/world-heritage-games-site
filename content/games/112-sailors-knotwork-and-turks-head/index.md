@@ -13,7 +13,7 @@ countries: []
 
 *Knots at sea*
 
-**Encyclopedia ID 112** (permanent) · https://equalinformation.com/world-heritage-games-site/games/112-sailors-knotwork-and-turks-head/
+**Encyclopedia ID 112** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/112-sailors-knotwork-and-turks-head/
 
 ![Sailor's Knotwork and Turk's Head](../../../img/photos/00112-sailors-knotwork-and-turks-head.jpg)
 

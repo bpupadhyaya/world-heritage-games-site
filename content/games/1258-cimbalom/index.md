@@ -13,7 +13,7 @@ countries: ["Hungary"]
 
 *Cimbalom · Hammered Dulcimer*
 
-**Encyclopedia ID 1258** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1258-cimbalom/
+**Encyclopedia ID 1258** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1258-cimbalom/
 
 ![Cimbalom](../../../img/photos/01258-cimbalom.jpg)
 

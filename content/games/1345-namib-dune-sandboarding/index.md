@@ -13,7 +13,7 @@ countries: ["Namibia"]
 
 *Namib dune sandboarding*
 
-**Encyclopedia ID 1345** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1345-namib-dune-sandboarding/
+**Encyclopedia ID 1345** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1345-namib-dune-sandboarding/
 
 ![Namib dune sandboarding](../../../img/photos/01345-namib-dune-sandboarding.jpg)
 

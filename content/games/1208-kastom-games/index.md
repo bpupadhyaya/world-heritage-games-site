@@ -13,7 +13,7 @@ countries: ["Vanuatu"]
 
 *Children's kastom games*
 
-**Encyclopedia ID 1208** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1208-kastom-games/
+**Encyclopedia ID 1208** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1208-kastom-games/
 
 Traditional children's games shown in Tanna cultural villages; no specific game named.
 

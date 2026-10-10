@@ -13,7 +13,7 @@ countries: ["India", "Nepal", "Bangladesh", "Sri Lanka"]
 
 *खो-खो · chain chase*
 
-**Encyclopedia ID 15** (permanent) · https://equalinformation.com/world-heritage-games-site/games/15-kho-kho/
+**Encyclopedia ID 15** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/15-kho-kho/
 
 ![Kho-Kho](../../../img/photos/00015-kho-kho.jpg)
 

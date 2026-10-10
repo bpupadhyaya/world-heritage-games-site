@@ -13,7 +13,7 @@ countries: ["New Zealand", "United Kingdom"]
 
 *wellie wanging*
 
-**Encyclopedia ID 448** (permanent) · https://equalinformation.com/world-heritage-games-site/games/448-gumboot-throwing/
+**Encyclopedia ID 448** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/448-gumboot-throwing/
 
 ![Gumboot throwing](../../../img/photos/00448-gumboot-throwing.jpg)
 

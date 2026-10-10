@@ -13,7 +13,7 @@ countries: ["Brazil"]
 
 *Frevo*
 
-**Encyclopedia ID 1411** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1411-frevo-umbrella-dance/
+**Encyclopedia ID 1411** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1411-frevo-umbrella-dance/
 
 ![Frevo Umbrella Dance](../../../img/photos/01411-frevo-umbrella-dance.jpg)
 

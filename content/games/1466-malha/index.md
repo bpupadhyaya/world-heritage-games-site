@@ -13,7 +13,7 @@ countries: ["Portugal"]
 
 *Jogo da Malha · Portuguese Metal Disc Toss*
 
-**Encyclopedia ID 1466** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1466-malha/
+**Encyclopedia ID 1466** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1466-malha/
 
 ![Malha](../../../img/photos/01466-malha.jpg)
 

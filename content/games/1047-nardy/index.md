@@ -13,7 +13,7 @@ countries: ["Russia"]
 
 *Нарды*
 
-**Encyclopedia ID 1047** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1047-nardy/
+**Encyclopedia ID 1047** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1047-nardy/
 
 Backgammon-family race game played in homes and parks.
 

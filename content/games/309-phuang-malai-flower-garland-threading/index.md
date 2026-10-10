@@ -13,7 +13,7 @@ countries: ["Thailand"]
 
 *พวงมาลัย*
 
-**Encyclopedia ID 309** (permanent) · https://equalinformation.com/world-heritage-games-site/games/309-phuang-malai-flower-garland-threading/
+**Encyclopedia ID 309** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/309-phuang-malai-flower-garland-threading/
 
 ![Phuang malai flower garland threading](../../../img/photos/00309-phuang-malai-flower-garland-threading.jpg)
 

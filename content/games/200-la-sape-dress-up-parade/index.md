@@ -13,7 +13,7 @@ countries: ["Congo"]
 
 *La Sape · the Society of Ambiance-Makers and Elegant People*
 
-**Encyclopedia ID 200** (permanent) · https://equalinformation.com/world-heritage-games-site/games/200-la-sape-dress-up-parade/
+**Encyclopedia ID 200** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/200-la-sape-dress-up-parade/
 
 ![La Sape dress-up parade](../../../img/photos/00200-la-sape-dress-up-parade.jpg)
 

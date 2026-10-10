@@ -13,7 +13,7 @@ countries: ["India"]
 
 *blue pottery*
 
-**Encyclopedia ID 262** (permanent) · https://equalinformation.com/world-heritage-games-site/games/262-jaipur-blue-pottery-painting/
+**Encyclopedia ID 262** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/262-jaipur-blue-pottery-painting/
 
 ![Jaipur blue pottery painting](../../../img/photos/00262-jaipur-blue-pottery-painting.jpg)
 

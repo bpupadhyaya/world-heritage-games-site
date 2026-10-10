@@ -13,7 +13,7 @@ countries: ["Cote d'Ivoire"]
 
 *Kikouri · stick strategy game*
 
-**Encyclopedia ID 840** (permanent) · https://equalinformation.com/world-heritage-games-site/games/840-kikouri/
+**Encyclopedia ID 840** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/840-kikouri/
 
 A game from Gagnoa played with sticks on a simple board to build concentration.
 

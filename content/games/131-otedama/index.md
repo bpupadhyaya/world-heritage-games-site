@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *お手玉 · beanbag juggling and catch*
 
-**Encyclopedia ID 131** (permanent) · https://equalinformation.com/world-heritage-games-site/games/131-otedama/
+**Encyclopedia ID 131** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/131-otedama/
 
 ![Otedama](../../../img/photos/00131-otedama.jpg)
 

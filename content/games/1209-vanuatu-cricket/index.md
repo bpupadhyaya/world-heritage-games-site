@@ -13,7 +13,7 @@ countries: ["Vanuatu"]
 
 *Cricket*
 
-**Encyclopedia ID 1209** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1209-vanuatu-cricket/
+**Encyclopedia ID 1209** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1209-vanuatu-cricket/
 
 Cricket growing in Vanuatu; a village kilikiti form is not confirmed in sources.
 

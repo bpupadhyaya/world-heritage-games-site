@@ -13,7 +13,7 @@ countries: ["Monaco"]
 
 *Circuit de la rade (generic)*
 
-**Encyclopedia ID 1475** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1475-harbour-street-circuit-time-trial/
+**Encyclopedia ID 1475** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1475-harbour-street-circuit-time-trial/
 
 ![Harbour Street Circuit Time Trial](../../../img/photos/01475-harbour-street-circuit-time-trial.jpg)
 

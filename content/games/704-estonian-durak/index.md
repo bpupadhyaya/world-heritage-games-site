@@ -13,7 +13,7 @@ countries: ["Estonia"]
 
 *Turakas (Potkatnoi)*
 
-**Encyclopedia ID 704** (permanent) · https://equalinformation.com/world-heritage-games-site/games/704-estonian-durak/
+**Encyclopedia ID 704** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/704-estonian-durak/
 
 A Durak-like beating game with a special unbeatable spade queen.
 

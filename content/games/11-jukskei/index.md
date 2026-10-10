@@ -13,7 +13,7 @@ countries: ["South Africa"]
 
 *Jukskei (Afrikaans)*
 
-**Encyclopedia ID 11** (permanent) · https://equalinformation.com/world-heritage-games-site/games/11-jukskei/
+**Encyclopedia ID 11** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/11-jukskei/
 
 ![Jukskei](../../../img/photos/00011-jukskei.jpg)
 

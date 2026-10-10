@@ -13,7 +13,7 @@ countries: ["Brazil", "Germany", "Italy", "Poland"]
 
 *Queimada, Volkerball, Palla avvelenata, Dwa ognie · Queimada / Volkerball / Palla avvelenata*
 
-**Encyclopedia ID 470** (permanent) · https://equalinformation.com/world-heritage-games-site/games/470-circle-dodgeball/
+**Encyclopedia ID 470** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/470-circle-dodgeball/
 
 ![Circle Dodgeball](../../../img/photos/00470-circle-dodgeball.jpg)
 

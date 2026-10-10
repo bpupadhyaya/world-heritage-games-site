@@ -13,7 +13,7 @@ countries: ["Moldova"]
 
 *Covor moldovenesc*
 
-**Encyclopedia ID 1339** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1339-moldovan-woven-carpet-pattern-studio/
+**Encyclopedia ID 1339** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1339-moldovan-woven-carpet-pattern-studio/
 
 ![Moldovan Woven Carpet Pattern Studio](../../../img/photos/01339-moldovan-woven-carpet-pattern-studio.jpg)
 

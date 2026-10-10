@@ -13,7 +13,7 @@ countries: ["Mauritania"]
 
 *Sig · Siga*
 
-**Encyclopedia ID 928** (permanent) · https://equalinformation.com/world-heritage-games-site/games/928-sig/
+**Encyclopedia ID 928** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/928-sig/
 
 Women's afternoon game where two teams move pieces along a sand-hill track using thrown coloured sticks.
 

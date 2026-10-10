@@ -13,7 +13,7 @@ countries: ["Hungary"]
 
 *Magyar dominó*
 
-**Encyclopedia ID 778** (permanent) · https://equalinformation.com/world-heritage-games-site/games/778-hungarian-dominoes/
+**Encyclopedia ID 778** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/778-hungarian-dominoes/
 
 Traditional domino games with a 45-tile set.
 

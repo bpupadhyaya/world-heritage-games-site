@@ -13,7 +13,7 @@ countries: ["Indonesia"]
 
 *Karapan Sapi*
 
-**Encyclopedia ID 805** (permanent) · https://equalinformation.com/world-heritage-games-site/games/805-madura-bull-racing/
+**Encyclopedia ID 805** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/805-madura-bull-racing/
 
 Pairs of bulls race pulling a wooden sled.
 

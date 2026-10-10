@@ -13,7 +13,7 @@ countries: ["Cape Verde", "Guinea-Bissau"]
 
 *Ouril (Uril) · Ouri · Uril · Urim · Ori*
 
-**Encyclopedia ID 611** (permanent) · https://equalinformation.com/world-heritage-games-site/games/611-ouril/
+**Encyclopedia ID 611** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/611-ouril/
 
 Oware-like sowing game with local capture rules; most played in Sao Vicente, played in squares and port towns, mainly by men.
 

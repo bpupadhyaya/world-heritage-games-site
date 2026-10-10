@@ -13,7 +13,7 @@ countries: ["Lebanon"]
 
 *Dabke / Dabka*
 
-**Encyclopedia ID 37** (permanent) · https://equalinformation.com/world-heritage-games-site/games/37-dabke-line-dance/
+**Encyclopedia ID 37** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/37-dabke-line-dance/
 
 ![Dabke line dance](../../../img/photos/00037-dabke-line-dance.jpg)
 

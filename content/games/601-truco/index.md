@@ -13,7 +13,7 @@ countries: ["Brazil", "Andorra"]
 
 *Truco (Paulista/Mineiro)*
 
-**Encyclopedia ID 601** (permanent) · https://equalinformation.com/world-heritage-games-site/games/601-truco/
+**Encyclopedia ID 601** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/601-truco/
 
 Trick game where bluffing and raising stakes matter; Paulista uses manilha trumps set by a turned card, 12 points to win.
 

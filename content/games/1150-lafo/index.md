@@ -13,7 +13,7 @@ countries: ["Tonga"]
 
 *Lafo*
 
-**Encyclopedia ID 1150** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1150-lafo/
+**Encyclopedia ID 1150** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1150-lafo/
 
 A mat game with small discs or seeds that appears in a Vava'u photograph from 1895; rules are not verified here.
 

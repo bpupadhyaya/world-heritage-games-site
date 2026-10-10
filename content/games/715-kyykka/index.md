@@ -13,7 +13,7 @@ countries: ["Finland"]
 
 *Kyykkä · Finnish skittles*
 
-**Encyclopedia ID 715** (permanent) · https://equalinformation.com/world-heritage-games-site/games/715-kyykka/
+**Encyclopedia ID 715** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/715-kyykka/
 
 Throw flat bats to clear skittles from a 5x5 m square in as few throws as possible.
 

@@ -11,7 +11,7 @@ countries: ["United States"]
 ---
 # Lei making
 
-**Encyclopedia ID 449** (permanent) · https://equalinformation.com/world-heritage-games-site/games/449-lei-making/
+**Encyclopedia ID 449** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/449-lei-making/
 
 ![Lei making](../../../img/photos/00449-lei-making.jpg)
 

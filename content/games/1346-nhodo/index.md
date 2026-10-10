@@ -13,7 +13,7 @@ countries: ["Zimbabwe"]
 
 *Nhodo (mbuga stone toss) · mbuga stone toss*
 
-**Encyclopedia ID 1346** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1346-nhodo/
+**Encyclopedia ID 1346** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1346-nhodo/
 
 ![Nhodo](../../../img/photos/01346-nhodo.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Romania", "Moldova"]
 
 *Table · backgammon*
 
-**Encyclopedia ID 1044** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1044-table/
+**Encyclopedia ID 1044** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1044-table/
 
 Two players race fifteen checkers around a board by dice, hitting blots; Romanian and Moldovan backgammon.
 

@@ -13,7 +13,7 @@ countries: ["Angola"]
 
 *Kiela · Kimbundu mancala*
 
-**Encyclopedia ID 544** (permanent) · https://equalinformation.com/world-heritage-games-site/games/544-kiela/
+**Encyclopedia ID 544** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/544-kiela/
 
 Kimbundu mancala of northern Angola, called a game of peace; similar to Omweso.
 

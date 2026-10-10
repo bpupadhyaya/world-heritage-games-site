@@ -13,7 +13,7 @@ countries: ["Croatia"]
 
 *Licitarsko srce*
 
-**Encyclopedia ID 1326** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1326-licitar-heart-decorator/
+**Encyclopedia ID 1326** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1326-licitar-heart-decorator/
 
 ![Licitar Heart Decorator](../../../img/photos/01326-licitar-heart-decorator.jpg)
 

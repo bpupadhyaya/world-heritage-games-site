@@ -13,7 +13,7 @@ countries: ["Malaysia", "Brunei"]
 
 *Batu Seremban · Lima batu · Selambut*
 
-**Encyclopedia ID 907** (permanent) · https://equalinformation.com/world-heritage-games-site/games/907-five-stones/
+**Encyclopedia ID 907** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/907-five-stones/
 
 Toss one stone up while picking up or rearranging others, in stages of rising difficulty.
 

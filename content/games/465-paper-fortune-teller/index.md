@@ -13,7 +13,7 @@ countries: ["United Kingdom", "United States", "Germany", "Japan"]
 
 *Himmel und Holle (German name; use neutral title) · Cootie Catcher / Chatterbox*
 
-**Encyclopedia ID 465** (permanent) · https://equalinformation.com/world-heritage-games-site/games/465-paper-fortune-teller/
+**Encyclopedia ID 465** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/465-paper-fortune-teller/
 
 ![Paper Fortune Teller](../../../img/photos/00465-paper-fortune-teller.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Madagascar"]
 
 *Fanorona · Fanoron-Sivy*
 
-**Encyclopedia ID 901** (permanent) · https://equalinformation.com/world-heritage-games-site/games/901-fanorona/
+**Encyclopedia ID 901** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/901-fanorona/
 
 National board game with capture by approach and withdrawal.
 

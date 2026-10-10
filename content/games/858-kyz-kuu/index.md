@@ -13,7 +13,7 @@ countries: ["Kazakhstan"]
 
 *Kyz kuu · Catch the Girl*
 
-**Encyclopedia ID 858** (permanent) · https://equalinformation.com/world-heritage-games-site/games/858-kyz-kuu/
+**Encyclopedia ID 858** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/858-kyz-kuu/
 
 A boy on horseback chases a girl who may whip him if caught; played at festivals and weddings.
 

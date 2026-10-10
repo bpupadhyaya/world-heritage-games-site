@@ -13,7 +13,7 @@ countries: ["Bangladesh"]
 
 *নকশি কাঁথা*
 
-**Encyclopedia ID 294** (permanent) · https://equalinformation.com/world-heritage-games-site/games/294-nakshi-kantha-embroidery/
+**Encyclopedia ID 294** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/294-nakshi-kantha-embroidery/
 
 ![Nakshi Kantha embroidery](../../../img/photos/00294-nakshi-kantha-embroidery.jpg)
 

@@ -13,7 +13,7 @@ countries: []
 
 *Silbo gomero*
 
-**Encyclopedia ID 403** (permanent) · https://equalinformation.com/world-heritage-games-site/games/403-whistled-language-relay/
+**Encyclopedia ID 403** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/403-whistled-language-relay/
 
 ![Whistled Language Relay](../../../img/photos/00403-whistled-language-relay.jpg)
 

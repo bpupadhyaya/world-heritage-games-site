@@ -13,7 +13,7 @@ countries: ["South Korea"]
 
 *고누 Gonu · Gono*
 
-**Encyclopedia ID 1086** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1086-gonu/
+**Encyclopedia ID 1086** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1086-gonu/
 
 Family of small line-and-capture games played with pebbles on lines scratched on the ground.
 

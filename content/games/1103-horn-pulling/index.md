@@ -13,7 +13,7 @@ countries: ["Sri Lanka"]
 
 *Ankeliya*
 
-**Encyclopedia ID 1103** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1103-horn-pulling/
+**Encyclopedia ID 1103** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1103-horn-pulling/
 
 Tug of hooked horns until one breaks.
 

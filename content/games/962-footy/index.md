@@ -13,7 +13,7 @@ countries: ["Nauru"]
 
 *Australian rules football*
 
-**Encyclopedia ID 962** (permanent) · https://equalinformation.com/world-heritage-games-site/games/962-footy/
+**Encyclopedia ID 962** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/962-footy/
 
 Introduced game and the national sport of Nauru since independence.
 

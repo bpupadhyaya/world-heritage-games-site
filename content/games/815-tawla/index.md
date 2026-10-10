@@ -13,7 +13,7 @@ countries: ["Iraq", "Syria", "Jordan", "Yemen"]
 
 *Tawla · Nard · Shesh Besh · backgammon*
 
-**Encyclopedia ID 815** (permanent) · https://equalinformation.com/world-heritage-games-site/games/815-tawla/
+**Encyclopedia ID 815** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/815-tawla/
 
 Two players race fifteen checkers around a twenty-four point board using dice, hitting blots and bearing off.
 

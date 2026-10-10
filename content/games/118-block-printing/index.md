@@ -13,7 +13,7 @@ countries: ["India"]
 
 *छपाई · Bagru and Sanganer*
 
-**Encyclopedia ID 118** (permanent) · https://equalinformation.com/world-heritage-games-site/games/118-block-printing/
+**Encyclopedia ID 118** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/118-block-printing/
 
 ![Block printing](../../../img/photos/00118-block-printing.jpg)
 

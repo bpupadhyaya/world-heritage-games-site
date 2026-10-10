@@ -13,7 +13,7 @@ countries: ["Sweden"]
 
 *Dalahast*
 
-**Encyclopedia ID 415** (permanent) · https://equalinformation.com/world-heritage-games-site/games/415-dala-horse-painting/
+**Encyclopedia ID 415** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/415-dala-horse-painting/
 
 ![Dala Horse Painting](../../../img/photos/00415-dala-horse-painting.jpg)
 

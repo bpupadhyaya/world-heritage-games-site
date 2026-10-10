@@ -13,7 +13,7 @@ countries: ["United States"]
 
 *Double Dutch*
 
-**Encyclopedia ID 53** (permanent) · https://equalinformation.com/world-heritage-games-site/games/53-double-dutch/
+**Encyclopedia ID 53** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/53-double-dutch/
 
 ![Double Dutch](../../../img/photos/00053-double-dutch.jpg)
 

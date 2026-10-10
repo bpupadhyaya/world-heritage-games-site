@@ -13,7 +13,7 @@ countries: ["Trinidad and Tobago"]
 
 *Steelpan / steel drum*
 
-**Encyclopedia ID 31** (permanent) · https://equalinformation.com/world-heritage-games-site/games/31-steelpan/
+**Encyclopedia ID 31** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/31-steelpan/
 
 ![Steelpan](../../../img/photos/00031-steelpan.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Morocco"]
 
 *Krur · Karur*
 
-**Encyclopedia ID 950** (permanent) · https://equalinformation.com/world-heritage-games-site/games/950-krur/
+**Encyclopedia ID 950** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/950-krur/
 
 Small two-row mancala from the Hassaniya Sahara with relay sowing.
 

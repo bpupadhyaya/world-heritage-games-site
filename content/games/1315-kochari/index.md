@@ -13,7 +13,7 @@ countries: ["Armenia"]
 
 *Քոչարի · Armenian line dance*
 
-**Encyclopedia ID 1315** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1315-kochari/
+**Encyclopedia ID 1315** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1315-kochari/
 
 ![Kochari](../../../img/photos/01315-kochari.jpg)
 

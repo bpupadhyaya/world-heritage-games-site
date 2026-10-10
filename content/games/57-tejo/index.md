@@ -13,7 +13,7 @@ countries: ["Colombia"]
 
 *Tejo / Turmequé · Turmequé*
 
-**Encyclopedia ID 57** (permanent) · https://equalinformation.com/world-heritage-games-site/games/57-tejo/
+**Encyclopedia ID 57** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/57-tejo/
 
 ![Tejo](../../../img/photos/00057-tejo.jpg)
 

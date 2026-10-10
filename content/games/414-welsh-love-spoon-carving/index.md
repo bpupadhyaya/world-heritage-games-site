@@ -13,7 +13,7 @@ countries: ["United Kingdom"]
 
 *Llwy garu*
 
-**Encyclopedia ID 414** (permanent) · https://equalinformation.com/world-heritage-games-site/games/414-welsh-love-spoon-carving/
+**Encyclopedia ID 414** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/414-welsh-love-spoon-carving/
 
 ![Welsh Love Spoon Carving](../../../img/photos/00414-welsh-love-spoon-carving.jpg)
 

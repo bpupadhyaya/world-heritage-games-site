@@ -13,7 +13,7 @@ countries: ["China"]
 
 *旗袍 (長衫) 縫紉*
 
-**Encyclopedia ID 1462** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1462-cheongsam-tailor-shop/
+**Encyclopedia ID 1462** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1462-cheongsam-tailor-shop/
 
 ![Cheongsam Tailor Shop](../../../img/photos/01462-cheongsam-tailor-shop.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Egypt"]
 
 *felucca*
 
-**Encyclopedia ID 216** (permanent) · https://equalinformation.com/world-heritage-games-site/games/216-nile-felucca-sailing/
+**Encyclopedia ID 216** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/216-nile-felucca-sailing/
 
 ![Nile Felucca Sailing](../../../img/photos/00216-nile-felucca-sailing.jpg)
 

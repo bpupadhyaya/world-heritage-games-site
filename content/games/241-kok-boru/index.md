@@ -13,7 +13,7 @@ countries: ["Kyrgyzstan", "Kazakhstan", "Tajikistan", "Afghanistan"]
 
 *Көк бөрү · Ulak-tartysh, goat polo*
 
-**Encyclopedia ID 241** (permanent) · https://equalinformation.com/world-heritage-games-site/games/241-kok-boru/
+**Encyclopedia ID 241** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/241-kok-boru/
 
 ![Kok-boru](../../../img/photos/00241-kok-boru.jpg)
 

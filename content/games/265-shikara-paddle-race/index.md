@@ -13,7 +13,7 @@ countries: ["India"]
 
 *shikara*
 
-**Encyclopedia ID 265** (permanent) · https://equalinformation.com/world-heritage-games-site/games/265-shikara-paddle-race/
+**Encyclopedia ID 265** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/265-shikara-paddle-race/
 
 ![Shikara paddle race](../../../img/photos/00265-shikara-paddle-race.jpg)
 

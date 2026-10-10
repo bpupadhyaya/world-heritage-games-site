@@ -13,7 +13,7 @@ countries: ["Mongolia"]
 
 *Монгол шатар Mongol shatar · Shatar · Shatar (Mongolian chess) · shatar*
 
-**Encyclopedia ID 943** (permanent) · https://equalinformation.com/world-heritage-games-site/games/943-mongolian-chess/
+**Encyclopedia ID 943** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/943-mongolian-chess/
 
 ![Mongolian chess](../../../img/photos/01477-shatar.jpg)
 

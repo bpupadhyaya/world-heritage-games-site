@@ -13,7 +13,7 @@ countries: ["Colombia"]
 
 *Yermis*
 
-**Encyclopedia ID 646** (permanent) · https://equalinformation.com/world-heritage-games-site/games/646-yermis/
+**Encyclopedia ID 646** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/646-yermis/
 
 Street game from San Andres with a ball and bottle-like pins.
 

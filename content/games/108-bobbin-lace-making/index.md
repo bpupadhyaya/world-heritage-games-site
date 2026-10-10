@@ -13,7 +13,7 @@ countries: ["Belgium"]
 
 *Kloppeln / dentelle aux fuseaux*
 
-**Encyclopedia ID 108** (permanent) · https://equalinformation.com/world-heritage-games-site/games/108-bobbin-lace-making/
+**Encyclopedia ID 108** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/108-bobbin-lace-making/
 
 ![Bobbin lace making](../../../img/photos/00108-bobbin-lace-making.jpg)
 

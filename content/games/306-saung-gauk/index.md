@@ -13,7 +13,7 @@ countries: ["Myanmar"]
 
 *စောင်းကောက် · Burmese arched harp*
 
-**Encyclopedia ID 306** (permanent) · https://equalinformation.com/world-heritage-games-site/games/306-saung-gauk/
+**Encyclopedia ID 306** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/306-saung-gauk/
 
 ![Saung gauk](../../../img/photos/00306-saung-gauk.jpg)
 

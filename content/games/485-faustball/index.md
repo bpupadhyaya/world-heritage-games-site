@@ -13,7 +13,7 @@ countries: ["Germany", "Austria", "Brazil"]
 
 *Faustball · fist ball*
 
-**Encyclopedia ID 485** (permanent) · https://equalinformation.com/world-heritage-games-site/games/485-faustball/
+**Encyclopedia ID 485** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/485-faustball/
 
 ![Faustball](../../../img/photos/00485-faustball.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Laos"]
 
 *Mak Kep / Kator*
 
-**Encyclopedia ID 874** (permanent) · https://equalinformation.com/world-heritage-games-site/games/874-pebbles/
+**Encyclopedia ID 874** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/874-pebbles/
 
 Lao version of stone toss and pick-up, played by children.
 

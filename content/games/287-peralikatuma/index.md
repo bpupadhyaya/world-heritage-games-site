@@ -13,7 +13,7 @@ countries: ["Sri Lanka"]
 
 *පෙරලිකටුම*
 
-**Encyclopedia ID 287** (permanent) · https://equalinformation.com/world-heritage-games-site/games/287-peralikatuma/
+**Encyclopedia ID 287** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/287-peralikatuma/
 
 ![Peralikatuma](../../../img/photos/00287-peralikatuma.jpg)
 

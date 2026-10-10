@@ -13,7 +13,7 @@ countries: ["Burkina Faso"]
 
 *Faso dan fani*
 
-**Encyclopedia ID 1277** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1277-faso-dan-fani-strip-weaving/
+**Encyclopedia ID 1277** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1277-faso-dan-fani-strip-weaving/
 
 ![Faso Dan Fani Strip Weaving](../../../img/photos/01277-faso-dan-fani-strip-weaving.jpg)
 

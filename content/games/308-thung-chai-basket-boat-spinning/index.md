@@ -13,7 +13,7 @@ countries: ["Vietnam"]
 
 *thúng chai*
 
-**Encyclopedia ID 308** (permanent) · https://equalinformation.com/world-heritage-games-site/games/308-thung-chai-basket-boat-spinning/
+**Encyclopedia ID 308** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/308-thung-chai-basket-boat-spinning/
 
 ![Thung chai basket-boat spinning](../../../img/photos/00308-thung-chai-basket-boat-spinning.jpg)
 

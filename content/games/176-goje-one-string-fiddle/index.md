@@ -13,7 +13,7 @@ countries: ["Nigeria", "Niger"]
 
 *Goge / goje*
 
-**Encyclopedia ID 176** (permanent) · https://equalinformation.com/world-heritage-games-site/games/176-goje-one-string-fiddle/
+**Encyclopedia ID 176** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/176-goje-one-string-fiddle/
 
 ![Goje One-String Fiddle](../../../img/photos/00176-goje-one-string-fiddle.jpg)
 

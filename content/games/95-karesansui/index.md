@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *枯山水 · dry garden raking*
 
-**Encyclopedia ID 95** (permanent) · https://equalinformation.com/world-heritage-games-site/games/95-karesansui/
+**Encyclopedia ID 95** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/95-karesansui/
 
 ![Karesansui](../../../img/photos/00095-karesansui.jpg)
 

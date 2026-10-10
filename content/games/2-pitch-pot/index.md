@@ -13,7 +13,7 @@ countries: ["China", "South Korea"]
 
 *投壺 / 투호 · touhu / tuho*
 
-**Encyclopedia ID 2** (permanent) · https://equalinformation.com/world-heritage-games-site/games/2-pitch-pot/
+**Encyclopedia ID 2** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/2-pitch-pot/
 
 ![Pitch-pot](../../../img/photos/00002-pitch-pot.jpg)
 

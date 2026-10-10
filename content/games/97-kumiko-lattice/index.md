@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *組子 · joinery pattern puzzle*
 
-**Encyclopedia ID 97** (permanent) · https://equalinformation.com/world-heritage-games-site/games/97-kumiko-lattice/
+**Encyclopedia ID 97** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/97-kumiko-lattice/
 
 ![Kumiko lattice](../../../img/photos/00097-kumiko-lattice.jpg)
 

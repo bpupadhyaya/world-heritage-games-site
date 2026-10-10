@@ -13,7 +13,7 @@ countries: ["Russia"]
 
 *Хомус · Sakha jaw harp*
 
-**Encyclopedia ID 379** (permanent) · https://equalinformation.com/world-heritage-games-site/games/379-khomus/
+**Encyclopedia ID 379** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/379-khomus/
 
 ![Khomus](../../../img/photos/00379-khomus.jpg)
 

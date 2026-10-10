@@ -13,7 +13,7 @@ countries: ["South Africa"]
 
 *Venda team dances (Tshigombela / reed-pipe ensemble) · Tshigombela / reed-pipe ensemble*
 
-**Encyclopedia ID 1397** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1397-venda-team-dances/
+**Encyclopedia ID 1397** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1397-venda-team-dances/
 
 ![Venda team dances](../../../img/photos/01397-venda-team-dances.jpg)
 

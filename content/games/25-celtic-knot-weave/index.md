@@ -13,7 +13,7 @@ countries: ["Ireland", "United Kingdom"]
 
 *Celtic knotwork*
 
-**Encyclopedia ID 25** (permanent) · https://equalinformation.com/world-heritage-games-site/games/25-celtic-knot-weave/
+**Encyclopedia ID 25** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/25-celtic-knot-weave/
 
 ![Celtic knot weave](../../../img/photos/00025-celtic-knot-weave.jpg)
 

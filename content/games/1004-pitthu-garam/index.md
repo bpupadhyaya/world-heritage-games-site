@@ -13,7 +13,7 @@ countries: ["Pakistan"]
 
 *Pitthu Garam · Seven Tiles*
 
-**Encyclopedia ID 1004** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1004-pitthu-garam/
+**Encyclopedia ID 1004** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1004-pitthu-garam/
 
 Throw a ball at seven stacked stones, then rebuild while being targeted.
 

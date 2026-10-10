@@ -13,7 +13,7 @@ countries: ["Tonga"]
 
 *Kilikiti*
 
-**Encyclopedia ID 1149** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1149-tongan-cricket/
+**Encyclopedia ID 1149** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1149-tongan-cricket/
 
 Village-scale cricket variant played at community events.
 

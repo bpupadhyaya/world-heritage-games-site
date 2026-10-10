@@ -13,7 +13,7 @@ countries: ["Argentina", "Uruguay"]
 
 *Payada · rhyming verse duel*
 
-**Encyclopedia ID 1426** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1426-payada/
+**Encyclopedia ID 1426** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1426-payada/
 
 ![Payada](../../../img/photos/01426-payada.jpg)
 

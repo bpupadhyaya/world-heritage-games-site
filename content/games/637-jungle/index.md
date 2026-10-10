@@ -13,7 +13,7 @@ countries: ["China"]
 
 *斗兽棋 Dòushòuqí · Animal chess · Dou Shou Qi*
 
-**Encyclopedia ID 637** (permanent) · https://equalinformation.com/world-heritage-games-site/games/637-jungle/
+**Encyclopedia ID 637** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/637-jungle/
 
 Eight ranked animals fight on a 7x9 board with rivers, traps and dens; the rat can capture the elephant.
 

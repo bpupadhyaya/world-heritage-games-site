@@ -13,7 +13,7 @@ countries: ["Poland"]
 
 *Ceramika bolesławiecka*
 
-**Encyclopedia ID 1244** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1244-bolesawiec-stamped-pottery/
+**Encyclopedia ID 1244** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1244-bolesawiec-stamped-pottery/
 
 ![Bolesławiec Stamped Pottery](../../../img/photos/01244-bolesawiec-stamped-pottery.jpg)
 

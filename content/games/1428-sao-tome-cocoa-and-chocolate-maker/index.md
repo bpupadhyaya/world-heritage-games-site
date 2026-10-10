@@ -11,7 +11,7 @@ countries: ["Sao Tome and Principe"]
 ---
 # São Tomé cocoa and chocolate maker
 
-**Encyclopedia ID 1428** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1428-sao-tome-cocoa-and-chocolate-maker/
+**Encyclopedia ID 1428** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1428-sao-tome-cocoa-and-chocolate-maker/
 
 ![São Tomé cocoa and chocolate maker](../../../img/photos/01428-sao-tome-cocoa-and-chocolate-maker.jpg)
 

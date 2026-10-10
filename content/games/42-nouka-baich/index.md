@@ -13,7 +13,7 @@ countries: ["Bangladesh", "India"]
 
 *নৌকা বাইচ · village boat race*
 
-**Encyclopedia ID 42** (permanent) · https://equalinformation.com/world-heritage-games-site/games/42-nouka-baich/
+**Encyclopedia ID 42** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/42-nouka-baich/
 
 ![Nouka Baich](../../../img/photos/00042-nouka-baich.jpg)
 

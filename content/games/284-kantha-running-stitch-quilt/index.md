@@ -13,7 +13,7 @@ countries: ["Bangladesh"]
 
 *কাঁথা*
 
-**Encyclopedia ID 284** (permanent) · https://equalinformation.com/world-heritage-games-site/games/284-kantha-running-stitch-quilt/
+**Encyclopedia ID 284** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/284-kantha-running-stitch-quilt/
 
 ![Kantha running-stitch quilt](../../../img/photos/00284-kantha-running-stitch-quilt.jpg)
 

@@ -13,7 +13,7 @@ countries: ["United Kingdom", "Ireland", "France"]
 
 *Jeu de mail / croquet*
 
-**Encyclopedia ID 81** (permanent) · https://equalinformation.com/world-heritage-games-site/games/81-croquet/
+**Encyclopedia ID 81** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/81-croquet/
 
 ![Croquet](../../../img/photos/00081-croquet.jpg)
 

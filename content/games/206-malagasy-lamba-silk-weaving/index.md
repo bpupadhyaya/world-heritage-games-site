@@ -13,7 +13,7 @@ countries: []
 
 *Lamba landy / akotifahana*
 
-**Encyclopedia ID 206** (permanent) · https://equalinformation.com/world-heritage-games-site/games/206-malagasy-lamba-silk-weaving/
+**Encyclopedia ID 206** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/206-malagasy-lamba-silk-weaving/
 
 ![Malagasy lamba silk weaving](../../../img/photos/00206-malagasy-lamba-silk-weaving.jpg)
 

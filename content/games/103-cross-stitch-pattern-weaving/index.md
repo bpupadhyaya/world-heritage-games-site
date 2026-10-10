@@ -13,7 +13,7 @@ countries: ["Ukraine"]
 
 *Вишивка (vyshyvka)*
 
-**Encyclopedia ID 103** (permanent) · https://equalinformation.com/world-heritage-games-site/games/103-cross-stitch-pattern-weaving/
+**Encyclopedia ID 103** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/103-cross-stitch-pattern-weaving/
 
 ![Cross-Stitch Pattern Weaving](../../../img/photos/00103-cross-stitch-pattern-weaving.jpg)
 

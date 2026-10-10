@@ -13,7 +13,7 @@ countries: ["India", "Pakistan", "Afghanistan"]
 
 *Patang Baazi (Kite fighting) · Kite flying · Manja*
 
-**Encyclopedia ID 788** (permanent) · https://equalinformation.com/world-heritage-games-site/games/788-kite-fighting/
+**Encyclopedia ID 788** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/788-kite-fighting/
 
 Fliers use abrasive-coated string to cut rivals' kites mid-air, then chase the fallen kites; huge around festival days.
 

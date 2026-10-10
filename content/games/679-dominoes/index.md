@@ -13,7 +13,7 @@ countries: ["Dominican Republic", "Trinidad and Tobago", "Antigua and Barbuda", 
 
 *Dominó · double-six*
 
-**Encyclopedia ID 679** (permanent) · https://equalinformation.com/world-heritage-games-site/games/679-dominoes/
+**Encyclopedia ID 679** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/679-dominoes/
 
 Players match tile ends from a double-six set in two- to four-player rounds, a fixture of coffeehouse tables across the Arab world.
 

@@ -13,7 +13,7 @@ countries: ["Uzbekistan"]
 
 *Кураш · Uzbek belt wrestling*
 
-**Encyclopedia ID 253** (permanent) · https://equalinformation.com/world-heritage-games-site/games/253-kurash/
+**Encyclopedia ID 253** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/253-kurash/
 
 ![Kurash](../../../img/photos/00253-kurash.jpg)
 

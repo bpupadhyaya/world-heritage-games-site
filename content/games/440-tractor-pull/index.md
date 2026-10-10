@@ -11,7 +11,7 @@ countries: ["United States", "Canada"]
 ---
 # Tractor pull
 
-**Encyclopedia ID 440** (permanent) · https://equalinformation.com/world-heritage-games-site/games/440-tractor-pull/
+**Encyclopedia ID 440** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/440-tractor-pull/
 
 ![Tractor pull](../../../img/photos/00440-tractor-pull.jpg)
 

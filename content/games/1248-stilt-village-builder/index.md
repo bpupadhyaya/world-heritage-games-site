@@ -13,7 +13,7 @@ countries: ["Brunei", "Malaysia"]
 
 *Kampong Ayer*
 
-**Encyclopedia ID 1248** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1248-stilt-village-builder/
+**Encyclopedia ID 1248** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1248-stilt-village-builder/
 
 ![Stilt-village builder](../../../img/photos/01248-stilt-village-builder.jpg)
 

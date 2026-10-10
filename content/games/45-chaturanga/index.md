@@ -13,7 +13,7 @@ countries: ["India"]
 
 *चतुरङ्ग · ancestor of chess*
 
-**Encyclopedia ID 45** (permanent) · https://equalinformation.com/world-heritage-games-site/games/45-chaturanga/
+**Encyclopedia ID 45** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/45-chaturanga/
 
 ![Chaturanga](../../../img/photos/00045-chaturanga.jpg)
 

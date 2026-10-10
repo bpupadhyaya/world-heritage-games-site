@@ -13,7 +13,7 @@ countries: ["Qatar"]
 
 *Al Laqfa · jackstones*
 
-**Encyclopedia ID 1038** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1038-al-laqfa/
+**Encyclopedia ID 1038** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1038-al-laqfa/
 
 Players toss a stone upward and snatch other stones from the ground before catching it.
 

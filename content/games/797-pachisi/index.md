@@ -13,7 +13,7 @@ countries: ["India"]
 
 *Pachisi / Chaupar (Ludo) · Chaupar · Chausar · Ludo*
 
-**Encyclopedia ID 797** (permanent) · https://equalinformation.com/world-heritage-games-site/games/797-pachisi/
+**Encyclopedia ID 797** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/797-pachisi/
 
 Cross-shaped race game moved by cowrie or dice throws; its descendant Ludo is the household version.
 

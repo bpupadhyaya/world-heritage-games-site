@@ -13,7 +13,7 @@ countries: ["Senegal", "Mali", "Burkina Faso"]
 
 *Yoté*
 
-**Encyclopedia ID 167** (permanent) · https://equalinformation.com/world-heritage-games-site/games/167-yote-capture-grid/
+**Encyclopedia ID 167** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/167-yote-capture-grid/
 
 ![Yote Capture Grid](../../../img/photos/00167-yote-capture-grid.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Saudi Arabia"]
 
 *القط العسيري*
 
-**Encyclopedia ID 1231** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1231-al-qatt-al-asiri-wall-painting/
+**Encyclopedia ID 1231** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1231-al-qatt-al-asiri-wall-painting/
 
 ![Al-Qatt Al-Asiri Wall Painting](../../../img/photos/01231-al-qatt-al-asiri-wall-painting.jpg)
 

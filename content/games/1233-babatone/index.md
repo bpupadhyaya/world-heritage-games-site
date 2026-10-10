@@ -13,7 +13,7 @@ countries: ["Malawi"]
 
 *Babatone (one-string bass) · one-string bass*
 
-**Encyclopedia ID 1233** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1233-babatone/
+**Encyclopedia ID 1233** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1233-babatone/
 
 ![Babatone](../../../img/photos/01233-babatone.jpg)
 

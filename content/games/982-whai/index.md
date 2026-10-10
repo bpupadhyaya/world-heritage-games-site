@@ -13,7 +13,7 @@ countries: ["New Zealand"]
 
 *Whai · Maori string figures*
 
-**Encyclopedia ID 982** (permanent) · https://equalinformation.com/world-heritage-games-site/games/982-whai/
+**Encyclopedia ID 982** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/982-whai/
 
 Pattern making with a flax loop, accompanied by chants; traditionally played by all ages.
 

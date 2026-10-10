@@ -13,7 +13,7 @@ countries: ["Turkey", "Cyprus"]
 
 *Okey · Okey 101 is a variant · Turkish tile rummy*
 
-**Encyclopedia ID 1158** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1158-okey/
+**Encyclopedia ID 1158** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1158-okey/
 
 Four-player rummy played with 106 numbered tiles and a wild joker tile; make runs, sets or seven pairs to go out.
 

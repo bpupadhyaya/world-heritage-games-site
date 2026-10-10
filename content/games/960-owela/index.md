@@ -13,7 +13,7 @@ countries: ["Namibia"]
 
 *Owela · Hus*
 
-**Encyclopedia ID 960** (permanent) · https://equalinformation.com/world-heritage-games-site/games/960-owela/
+**Encyclopedia ID 960** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/960-owela/
 
 Four-row mancala widely played across Namibian peoples.
 

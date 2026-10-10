@@ -11,7 +11,7 @@ countries: ["Cameroon"]
 ---
 # Bamileke beadwork designer
 
-**Encyclopedia ID 1404** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1404-bamileke-beadwork-designer/
+**Encyclopedia ID 1404** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1404-bamileke-beadwork-designer/
 
 ![Bamileke beadwork designer](../../../img/photos/01404-bamileke-beadwork-designer.jpg)
 

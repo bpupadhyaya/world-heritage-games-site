@@ -13,7 +13,7 @@ countries: ["China", "Japan", "Taiwan"]
 
 *围棋 Wéiqí · Baduk · Igo · Weiqi*
 
-**Encyclopedia ID 634** (permanent) · https://equalinformation.com/world-heritage-games-site/games/634-go/
+**Encyclopedia ID 634** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/634-go/
 
 Players alternately place stones on a 19x19 line grid to surround territory and capture enemy stones.
 

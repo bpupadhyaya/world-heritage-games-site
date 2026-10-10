@@ -13,7 +13,7 @@ countries: ["Australia"]
 
 *Two-up · Swy*
 
-**Encyclopedia ID 560** (permanent) · https://equalinformation.com/world-heritage-games-site/games/560-two-up/
+**Encyclopedia ID 560** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/560-two-up/
 
 A spinner tosses two coins from a flat board; bets are placed on two heads, two tails or odds, and odds means a rethrow.
 

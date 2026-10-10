@@ -13,7 +13,7 @@ countries: ["South Africa"]
 
 *Ncuva · Moruba*
 
-**Encyclopedia ID 1080** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1080-moruba-ncuva/
+**Encyclopedia ID 1080** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1080-moruba-ncuva/
 
 Mancala game of the Pedi (Moruba); Ncuva is an official indigenous games code.
 

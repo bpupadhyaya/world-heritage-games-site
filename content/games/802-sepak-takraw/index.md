@@ -13,7 +13,7 @@ countries: ["Indonesia", "Malaysia", "Brunei", "Thailand"]
 
 *Sepak Takraw*
 
-**Encyclopedia ID 802** (permanent) · https://equalinformation.com/world-heritage-games-site/games/802-sepak-takraw/
+**Encyclopedia ID 802** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/802-sepak-takraw/
 
 Circle or net game with a rattan ball played with feet and head; Malacca origins cited around the 15th century.
 

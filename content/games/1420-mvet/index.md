@@ -13,7 +13,7 @@ countries: ["Gabon", "Cameroon", "Equatorial Guinea"]
 
 *Mvet · Fang stick zither*
 
-**Encyclopedia ID 1420** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1420-mvet/
+**Encyclopedia ID 1420** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1420-mvet/
 
 ![Mvet](../../../img/photos/01420-mvet.jpg)
 

@@ -13,7 +13,7 @@ countries: []
 
 *Taketombo / Zhuzhu*
 
-**Encyclopedia ID 12** (permanent) · https://equalinformation.com/world-heritage-games-site/games/12-bamboo-copter/
+**Encyclopedia ID 12** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/12-bamboo-copter/
 
 ![Bamboo Copter](../../../img/photos/00012-bamboo-copter.jpg)
 

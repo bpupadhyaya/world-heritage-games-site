@@ -13,7 +13,7 @@ countries: ["Uganda"]
 
 *Omweso · Mweso*
 
-**Encyclopedia ID 1176** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1176-omweso/
+**Encyclopedia ID 1176** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1176-omweso/
 
 Baganda national mancala on 4x8 board, once a royal court pastime.
 

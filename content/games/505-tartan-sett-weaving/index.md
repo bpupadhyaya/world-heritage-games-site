@@ -13,7 +13,7 @@ countries: ["United Kingdom", "Ireland"]
 
 *Breacan / tartan*
 
-**Encyclopedia ID 505** (permanent) · https://equalinformation.com/world-heritage-games-site/games/505-tartan-sett-weaving/
+**Encyclopedia ID 505** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/505-tartan-sett-weaving/
 
 ![Tartan Sett Weaving](../../../img/photos/00505-tartan-sett-weaving.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Equatorial Guinea"]
 
 *Other mancala (Bubi/Annobon unknown)*
 
-**Encyclopedia ID 698** (permanent) · https://equalinformation.com/world-heritage-games-site/games/698-local-mancala-variants/
+**Encyclopedia ID 698** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/698-local-mancala-variants/
 
 Traditional African mancala-family sowing game; exact local rules vary by village.
 

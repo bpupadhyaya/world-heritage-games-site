@@ -13,7 +13,7 @@ countries: ["Samoa"]
 
 *Tiʻa*
 
-**Encyclopedia ID 1057** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1057-dart-spear-throwing/
+**Encyclopedia ID 1057** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1057-dart-spear-throwing/
 
 Traditional aim contests listed with footracing and spear throwing.
 

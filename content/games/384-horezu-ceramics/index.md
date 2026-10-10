@@ -13,7 +13,7 @@ countries: ["Romania"]
 
 *Ceramica de Horezu*
 
-**Encyclopedia ID 384** (permanent) · https://equalinformation.com/world-heritage-games-site/games/384-horezu-ceramics/
+**Encyclopedia ID 384** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/384-horezu-ceramics/
 
 ![Horezu ceramics](../../../img/photos/00384-horezu-ceramics.jpg)
 

@@ -13,7 +13,7 @@ countries: []
 
 *Orgue à parfums (Grasse)*
 
-**Encyclopedia ID 402** (permanent) · https://equalinformation.com/world-heritage-games-site/games/402-perfumers-organ/
+**Encyclopedia ID 402** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/402-perfumers-organ/
 
 ![Perfumer's Organ](../../../img/photos/00402-perfumers-organ.jpg)
 

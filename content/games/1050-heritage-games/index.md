@@ -13,7 +13,7 @@ countries: ["Saint Lucia"]
 
 *Kwéyòl folk games*
 
-**Encyclopedia ID 1050** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1050-heritage-games/
+**Encyclopedia ID 1050** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1050-heritage-games/
 
 Folk games during Jounen Kwéyòl.
 

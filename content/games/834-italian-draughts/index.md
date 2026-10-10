@@ -13,7 +13,7 @@ countries: ["Italy"]
 
 *Dama italiana*
 
-**Encyclopedia ID 834** (permanent) · https://equalinformation.com/world-heritage-games-site/games/834-italian-draughts/
+**Encyclopedia ID 834** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/834-italian-draughts/
 
 8x8 draughts where men cannot capture kings; played in clubs with a federation.
 

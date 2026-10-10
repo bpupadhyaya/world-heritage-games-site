@@ -13,7 +13,7 @@ countries: ["Tajikistan"]
 
 *Чод / Chorkhona*
 
-**Encyclopedia ID 1356** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1356-pamiri-house-ceiling-raiser/
+**Encyclopedia ID 1356** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1356-pamiri-house-ceiling-raiser/
 
 ![Pamiri House Ceiling Raiser](../../../img/photos/01356-pamiri-house-ceiling-raiser.jpg)
 
