@@ -41,6 +41,7 @@ p{margin:0 0 1em}
 .site-header .wrap{display:flex;align-items:center;gap:1rem;min-height:3.5rem;flex-wrap:wrap}
 .brand{font:600 1.05rem/1 var(--serif);color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:.55rem;margin-right:auto;padding:.5rem 0}
 .brand svg{width:1.7rem;height:1.7rem;flex:none}
+.brand img.emblem{width:3.3rem;height:3.3rem;flex:none;filter:drop-shadow(0 1px 2px rgba(10,20,50,.35))}
 .brand small{display:block;font:600 .62rem/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2);margin-top:.25rem}
 .nav{display:flex;gap:.15rem;flex-wrap:wrap}
 .nav a{color:var(--ink);text-decoration:none;padding:.5rem .7rem;border-radius:.5rem;font-size:.92rem}
