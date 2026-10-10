@@ -13,7 +13,7 @@ countries: ["Botswana"]
 
 *Koi · skipping rope*
 
-**Encyclopedia ID 599** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/599-koi/
+**Encyclopedia ID 599** (permanent) · https://equalinformation.com/world-heritage-games-site/games/599-koi/
 
 Skipping-rope game.
 

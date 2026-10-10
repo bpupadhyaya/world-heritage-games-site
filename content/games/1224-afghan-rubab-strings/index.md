@@ -13,7 +13,7 @@ countries: ["Afghanistan"]
 
 *رباب*
 
-**Encyclopedia ID 1224** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1224-afghan-rubab-strings/
+**Encyclopedia ID 1224** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1224-afghan-rubab-strings/
 
 ![Afghan Rubab Strings](../../../img/photos/01224-afghan-rubab-strings.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Georgia"]
 
 *ხინკალი*
 
-**Encyclopedia ID 246** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/246-khinkali-dumpling-pleating/
+**Encyclopedia ID 246** (permanent) · https://equalinformation.com/world-heritage-games-site/games/246-khinkali-dumpling-pleating/
 
 ![Khinkali dumpling pleating](../../../img/photos/00246-khinkali-dumpling-pleating.jpg)
 

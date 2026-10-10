@@ -13,7 +13,7 @@ countries: ["Malaysia", "Indonesia", "Philippines"]
 
 *Ketupat / puso · woven palm-leaf pouch*
 
-**Encyclopedia ID 322** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/322-ketupat/
+**Encyclopedia ID 322** (permanent) · https://equalinformation.com/world-heritage-games-site/games/322-ketupat/
 
 ![Ketupat](../../../img/photos/00322-ketupat.jpg)
 

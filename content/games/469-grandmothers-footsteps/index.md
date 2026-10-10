@@ -13,7 +13,7 @@ countries: ["United Kingdom", "France", "South Korea"]
 
 *What's the Time Mr Wolf, Estatua, Mugunghwa, Un Deux Trois Soleil · Red Light, Green Light*
 
-**Encyclopedia ID 469** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/469-grandmothers-footsteps/
+**Encyclopedia ID 469** (permanent) · https://equalinformation.com/world-heritage-games-site/games/469-grandmothers-footsteps/
 
 ![Grandmother's Footsteps](../../../img/photos/00469-grandmothers-footsteps.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Togo"]
 
 *Takienta (Batammariba mud tower-houses)*
 
-**Encyclopedia ID 1383** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1383-takienta-tower-house-builder/
+**Encyclopedia ID 1383** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1383-takienta-tower-house-builder/
 
 ![Takienta Tower-House Builder](../../../img/photos/01383-takienta-tower-house-builder.jpg)
 

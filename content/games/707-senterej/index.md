@@ -13,7 +13,7 @@ countries: ["Ethiopia", "Eritrea"]
 
 *Senterej · Sant'raj · Shatranj-like · Ethiopian chess*
 
-**Encyclopedia ID 707** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/707-senterej/
+**Encyclopedia ID 707** (permanent) · https://equalinformation.com/world-heritage-games-site/games/707-senterej/
 
 Regional chess variant whose opening lets each side make free moves until the first capture.
 

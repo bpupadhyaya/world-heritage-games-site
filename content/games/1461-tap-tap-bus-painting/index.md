@@ -13,7 +13,7 @@ countries: ["Haiti"]
 
 *Tap-tap*
 
-**Encyclopedia ID 1461** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1461-tap-tap-bus-painting/
+**Encyclopedia ID 1461** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1461-tap-tap-bus-painting/
 
 ![Tap-Tap Bus Painting](../../../img/photos/01461-tap-tap-bus-painting.jpg)
 

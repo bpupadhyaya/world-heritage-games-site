@@ -13,7 +13,7 @@ countries: ["China"]
 
 *Chamadao*
 
-**Encyclopedia ID 39** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/39-tea-horse-road-caravan/
+**Encyclopedia ID 39** (permanent) · https://equalinformation.com/world-heritage-games-site/games/39-tea-horse-road-caravan/
 
 ![Tea Horse Road Caravan](../../../img/photos/00039-tea-horse-road-caravan.jpg)
 

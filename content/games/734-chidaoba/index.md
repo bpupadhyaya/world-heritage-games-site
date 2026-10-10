@@ -13,7 +13,7 @@ countries: ["Georgia"]
 
 *Chidaoba · Kakhetian wrestling*
 
-**Encyclopedia ID 734** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/734-chidaoba/
+**Encyclopedia ID 734** (permanent) · https://equalinformation.com/world-heritage-games-site/games/734-chidaoba/
 
 Folk wrestling set to drums and wind music; UNESCO 2018.
 

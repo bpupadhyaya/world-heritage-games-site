@@ -13,7 +13,7 @@ countries: ["South Korea"]
 
 *해녀 · Jeju women divers*
 
-**Encyclopedia ID 1459** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1459-haenyeo-breath-dive/
+**Encyclopedia ID 1459** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1459-haenyeo-breath-dive/
 
 ![Haenyeo Breath Dive](../../../img/photos/01459-haenyeo-breath-dive.jpg)
 

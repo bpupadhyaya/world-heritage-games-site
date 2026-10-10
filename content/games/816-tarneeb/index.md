@@ -13,7 +13,7 @@ countries: ["Iraq", "Syria", "Lebanon", "Jordan", "Palestine", "Egypt"]
 
 *Tarneeb · Tarnib*
 
-**Encyclopedia ID 816** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/816-tarneeb/
+**Encyclopedia ID 816** (permanent) · https://equalinformation.com/world-heritage-games-site/games/816-tarneeb/
 
 Four players in two teams bid for the right to name trumps, then must take at least their bid in tricks.
 

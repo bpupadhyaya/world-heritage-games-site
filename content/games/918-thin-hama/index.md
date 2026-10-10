@@ -13,7 +13,7 @@ countries: ["Maldives"]
 
 *Thin Hama*
 
-**Encyclopedia ID 918** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/918-thin-hama/
+**Encyclopedia ID 918** (permanent) · https://equalinformation.com/world-heritage-games-site/games/918-thin-hama/
 
 Two players place and move pieces on a marked board to line up three in a row; rule detail unclear (morris-like).
 

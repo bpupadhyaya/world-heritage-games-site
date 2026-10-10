@@ -13,7 +13,7 @@ countries: ["Nepal", "India"]
 
 *चुङ्गी · rubber-band footbag*
 
-**Encyclopedia ID 297** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/297-chungi/
+**Encyclopedia ID 297** (permanent) · https://equalinformation.com/world-heritage-games-site/games/297-chungi/
 
 ![Chungi](../../../img/photos/00297-chungi.jpg)
 

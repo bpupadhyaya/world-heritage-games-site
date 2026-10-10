@@ -13,7 +13,7 @@ countries: ["Thailand"]
 
 *Mak Kep*
 
-**Encyclopedia ID 1140** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1140-thai-pebbles/
+**Encyclopedia ID 1140** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1140-thai-pebbles/
 
 Toss one stone while collecting others in stages.
 

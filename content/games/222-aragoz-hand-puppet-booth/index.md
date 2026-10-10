@@ -13,7 +13,7 @@ countries: ["Egypt"]
 
 *aragoz / أراجوز*
 
-**Encyclopedia ID 222** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/222-aragoz-hand-puppet-booth/
+**Encyclopedia ID 222** (permanent) · https://equalinformation.com/world-heritage-games-site/games/222-aragoz-hand-puppet-booth/
 
 ![Aragoz Hand-Puppet Booth](../../../img/photos/00222-aragoz-hand-puppet-booth.jpg)
 

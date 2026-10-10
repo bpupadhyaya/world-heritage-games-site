@@ -13,7 +13,7 @@ countries: ["Slovenia"]
 
 *Panjske končnice*
 
-**Encyclopedia ID 1241** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1241-beehive-panel-painter/
+**Encyclopedia ID 1241** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1241-beehive-panel-painter/
 
 ![Beehive Panel Painter](../../../img/photos/01241-beehive-panel-painter.jpg)
 

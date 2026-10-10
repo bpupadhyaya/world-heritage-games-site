@@ -13,7 +13,7 @@ countries: ["Norway"]
 
 *Rosemaling · Norwegian decorative painting*
 
-**Encyclopedia ID 120** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/120-rosemaling/
+**Encyclopedia ID 120** (permanent) · https://equalinformation.com/world-heritage-games-site/games/120-rosemaling/
 
 ![Rosemaling](../../../img/photos/00120-rosemaling.jpg)
 

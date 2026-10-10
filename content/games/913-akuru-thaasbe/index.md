@@ -13,7 +13,7 @@ countries: ["Maldives"]
 
 *Akuru Thaasbe*
 
-**Encyclopedia ID 913** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/913-akuru-thaasbe/
+**Encyclopedia ID 913** (permanent) · https://equalinformation.com/world-heritage-games-site/games/913-akuru-thaasbe/
 
 Syllable-based Scrabble-like word game in Thaana script.
 

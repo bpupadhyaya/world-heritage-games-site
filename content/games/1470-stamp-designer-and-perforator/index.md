@@ -13,7 +13,7 @@ countries: ["Liechtenstein"]
 
 *Briefmarkengestaltung*
 
-**Encyclopedia ID 1470** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1470-stamp-designer-and-perforator/
+**Encyclopedia ID 1470** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1470-stamp-designer-and-perforator/
 
 ![Stamp Designer and Perforator](../../../img/photos/01470-stamp-designer-and-perforator.jpg)
 

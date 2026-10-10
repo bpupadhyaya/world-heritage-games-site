@@ -13,7 +13,7 @@ countries: ["India"]
 
 *Moksha Patam / Saap Seedhi · Gyan Chaupar · Saanp Seedhi*
 
-**Encyclopedia ID 796** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/796-snakes-and-ladders/
+**Encyclopedia ID 796** (permanent) · https://equalinformation.com/world-heritage-games-site/games/796-snakes-and-ladders/
 
 Dice race up a numbered grid, with ladders to climb and snakes to slide down.
 

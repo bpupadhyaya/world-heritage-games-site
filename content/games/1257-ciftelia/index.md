@@ -13,7 +13,7 @@ countries: ["Albania"]
 
 *Çiftelia · two-string folk lute*
 
-**Encyclopedia ID 1257** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1257-ciftelia/
+**Encyclopedia ID 1257** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1257-ciftelia/
 
 ![Çiftelia](../../../img/photos/01257-ciftelia.jpg)
 

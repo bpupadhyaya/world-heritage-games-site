@@ -13,7 +13,7 @@ countries: ["Oman"]
 
 *Hawalis · Omani mancala*
 
-**Encyclopedia ID 1001** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1001-hawalis/
+**Encyclopedia ID 1001** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1001-hawalis/
 
 4x7 sowing board played in Oman; Zanzibar cousin Bao la Kiarabu.
 

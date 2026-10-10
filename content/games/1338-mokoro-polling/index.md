@@ -13,7 +13,7 @@ countries: ["Botswana"]
 
 *Mokoro polling (Okavango dugout race) · Okavango dugout race*
 
-**Encyclopedia ID 1338** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1338-mokoro-polling/
+**Encyclopedia ID 1338** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1338-mokoro-polling/
 
 ![Mokoro polling](../../../img/photos/01338-mokoro-polling.jpg)
 

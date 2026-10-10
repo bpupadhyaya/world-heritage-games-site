@@ -13,7 +13,7 @@ countries: ["United States"]
 
 *Cornhole · Bags · Sack toss*
 
-**Encyclopedia ID 1194** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1194-cornhole/
+**Encyclopedia ID 1194** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1194-cornhole/
 
 Lawn game of tossing bean bags at an angled board with a hole; the ubiquitous tailgate game.
 

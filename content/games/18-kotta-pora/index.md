@@ -13,7 +13,7 @@ countries: ["Sri Lanka"]
 
 *කොට්ටා පොර · pillow fight on a log*
 
-**Encyclopedia ID 18** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/18-kotta-pora/
+**Encyclopedia ID 18** (permanent) · https://equalinformation.com/world-heritage-games-site/games/18-kotta-pora/
 
 ![Kotta Pora](../../../img/photos/00018-kotta-pora.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Austria", "Germany"]
 
 *Eisstockschießen*
 
-**Encyclopedia ID 1451** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1451-ice-stock-sport/
+**Encyclopedia ID 1451** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1451-ice-stock-sport/
 
 ![Ice Stock Sport](../../../img/photos/01451-ice-stock-sport.jpg)
 

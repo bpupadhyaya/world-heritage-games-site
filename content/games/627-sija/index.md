@@ -13,7 +13,7 @@ countries: ["Chad"]
 
 *Sija · Chadian mancala*
 
-**Encyclopedia ID 627** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/627-sija/
+**Encyclopedia ID 627** (permanent) · https://equalinformation.com/world-heritage-games-site/games/627-sija/
 
 Traditional African mancala-family sowing game; exact local rules vary by village.
 

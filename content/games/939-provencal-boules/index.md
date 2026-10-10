@@ -13,7 +13,7 @@ countries: ["Monaco"]
 
 *Boules lyonnaises / Jeu provençal*
 
-**Encyclopedia ID 939** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/939-provencal-boules/
+**Encyclopedia ID 939** (permanent) · https://equalinformation.com/world-heritage-games-site/games/939-provencal-boules/
 
 Throwing boules game parent of pétanque.
 

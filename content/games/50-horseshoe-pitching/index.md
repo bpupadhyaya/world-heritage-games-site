@@ -13,7 +13,7 @@ countries: ["United States", "Canada"]
 
 *Horseshoes*
 
-**Encyclopedia ID 50** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/50-horseshoe-pitching/
+**Encyclopedia ID 50** (permanent) · https://equalinformation.com/world-heritage-games-site/games/50-horseshoe-pitching/
 
 ![Horseshoe pitching](../../../img/photos/00050-horseshoe-pitching.jpg)
 

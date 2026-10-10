@@ -13,7 +13,7 @@ countries: ["Kenya", "Tanzania"]
 
 *Bao*
 
-**Encyclopedia ID 861** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/861-bao-la-kiswahili/
+**Encyclopedia ID 861** (permanent) · https://equalinformation.com/world-heritage-games-site/games/861-bao-la-kiswahili/
 
 Complex Swahili mancala from the coast with a hands-on mastery culture.
 

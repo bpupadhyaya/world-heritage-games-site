@@ -11,7 +11,7 @@ countries: ["Australia"]
 ---
 # Beach flags
 
-**Encyclopedia ID 446** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/446-beach-flags/
+**Encyclopedia ID 446** (permanent) · https://equalinformation.com/world-heritage-games-site/games/446-beach-flags/
 
 ![Beach flags](../../../img/photos/00446-beach-flags.jpg)
 

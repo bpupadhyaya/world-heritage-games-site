@@ -13,7 +13,7 @@ countries: ["India"]
 
 *சிலம்பம் · bamboo staff fencing*
 
-**Encyclopedia ID 271** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/271-silambam/
+**Encyclopedia ID 271** (permanent) · https://equalinformation.com/world-heritage-games-site/games/271-silambam/
 
 ![Silambam](../../../img/photos/00271-silambam.jpg)
 

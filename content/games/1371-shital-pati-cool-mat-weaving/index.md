@@ -13,7 +13,7 @@ countries: ["Bangladesh"]
 
 *শীতল পাটি*
 
-**Encyclopedia ID 1371** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1371-shital-pati-cool-mat-weaving/
+**Encyclopedia ID 1371** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1371-shital-pati-cool-mat-weaving/
 
 ![Shital pati cool mat weaving](../../../img/photos/01371-shital-pati-cool-mat-weaving.jpg)
 

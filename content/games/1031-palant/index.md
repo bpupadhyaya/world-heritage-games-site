@@ -13,7 +13,7 @@ countries: ["Poland"]
 
 *Palant*
 
-**Encyclopedia ID 1031** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1031-palant/
+**Encyclopedia ID 1031** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1031-palant/
 
 A bat-and-ball team game where hitters run between zones and fielders catch or tag them.
 

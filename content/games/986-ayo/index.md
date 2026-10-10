@@ -13,7 +13,7 @@ countries: ["Nigeria"]
 
 *Ayo Olopon · Ayoayo · Ncho · Okwe · Nsa Isong · mancala*
 
-**Encyclopedia ID 986** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/986-ayo/
+**Encyclopedia ID 986** (permanent) · https://equalinformation.com/world-heritage-games-site/games/986-ayo/
 
 Yoruba sowing and capture game on a 2x6 wooden board with 48 seeds; played across Nigeria under many names.
 

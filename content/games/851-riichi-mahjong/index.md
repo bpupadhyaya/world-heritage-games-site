@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *麻雀 Mājan (riichi) · Japanese mahjong*
 
-**Encyclopedia ID 851** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/851-riichi-mahjong/
+**Encyclopedia ID 851** (permanent) · https://equalinformation.com/world-heritage-games-site/games/851-riichi-mahjong/
 
 Mahjong with a riichi declaration that stakes 1,000 points for a closed hand, plus dora bonus tiles and furiten rules.
 

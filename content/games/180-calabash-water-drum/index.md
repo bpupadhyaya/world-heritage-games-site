@@ -13,7 +13,7 @@ countries: ["Niger", "Nigeria"]
 
 *Water drum (tinde / water calabashes)*
 
-**Encyclopedia ID 180** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/180-calabash-water-drum/
+**Encyclopedia ID 180** (permanent) · https://equalinformation.com/world-heritage-games-site/games/180-calabash-water-drum/
 
 ![Calabash Water Drum](../../../img/photos/00180-calabash-water-drum.jpg)
 

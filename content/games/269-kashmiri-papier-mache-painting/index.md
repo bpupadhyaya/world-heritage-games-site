@@ -13,7 +13,7 @@ countries: ["India"]
 
 *kari-qalamkar*
 
-**Encyclopedia ID 269** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/269-kashmiri-papier-mache-painting/
+**Encyclopedia ID 269** (permanent) · https://equalinformation.com/world-heritage-games-site/games/269-kashmiri-papier-mache-painting/
 
 ![Kashmiri papier-mache painting](../../../img/photos/00269-kashmiri-papier-mache-painting.jpg)
 

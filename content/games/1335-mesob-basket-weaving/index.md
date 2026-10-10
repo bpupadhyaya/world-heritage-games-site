@@ -13,7 +13,7 @@ countries: ["Ethiopia"]
 
 *Mesob*
 
-**Encyclopedia ID 1335** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1335-mesob-basket-weaving/
+**Encyclopedia ID 1335** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1335-mesob-basket-weaving/
 
 ![Mesob basket weaving](../../../img/photos/01335-mesob-basket-weaving.jpg)
 

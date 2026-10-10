@@ -13,7 +13,7 @@ countries: ["Myanmar"]
 
 *Phankhon*
 
-**Encyclopedia ID 957** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/957-phankhon/
+**Encyclopedia ID 957** (permanent) · https://equalinformation.com/world-heritage-games-site/games/957-phankhon/
 
 Mostly girls play: teams hop over a human obstacle that rises in height each round.
 

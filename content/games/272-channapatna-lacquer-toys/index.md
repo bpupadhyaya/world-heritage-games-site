@@ -13,7 +13,7 @@ countries: []
 
 *ಚನ್ನಪಟ್ಟಣ ಗೊಂಬೆಗಳು · lathe-turned wooden toys*
 
-**Encyclopedia ID 272** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/272-channapatna-lacquer-toys/
+**Encyclopedia ID 272** (permanent) · https://equalinformation.com/world-heritage-games-site/games/272-channapatna-lacquer-toys/
 
 ![Channapatna lacquer toys](../../../img/photos/00272-channapatna-lacquer-toys.jpg)
 

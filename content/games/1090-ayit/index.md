@@ -13,7 +13,7 @@ countries: ["South Sudan"]
 
 *Ayit · Dinka*
 
-**Encyclopedia ID 1090** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1090-ayit/
+**Encyclopedia ID 1090** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1090-ayit/
 
 Dinka mancala, related to the Nuer game Yit.
 

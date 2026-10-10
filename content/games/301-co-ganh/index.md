@@ -13,7 +13,7 @@ countries: ["Vietnam"]
 
 *Cờ gánh · Vietnamese flanking game*
 
-**Encyclopedia ID 301** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/301-co-ganh/
+**Encyclopedia ID 301** (permanent) · https://equalinformation.com/world-heritage-games-site/games/301-co-ganh/
 
 ![Co Ganh](../../../img/photos/00301-co-ganh.jpg)
 

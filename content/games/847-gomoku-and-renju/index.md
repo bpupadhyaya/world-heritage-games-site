@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *五目並べ Gomoku / 連珠 Renju · Five in a row*
 
-**Encyclopedia ID 847** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/847-gomoku-and-renju/
+**Encyclopedia ID 847** (permanent) · https://equalinformation.com/world-heritage-games-site/games/847-gomoku-and-renju/
 
 Players alternate placing stones to get five in a row; Renju adds restrictions on the first player to keep balance.
 

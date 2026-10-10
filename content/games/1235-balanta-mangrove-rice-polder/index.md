@@ -13,7 +13,7 @@ countries: ["Guinea-Bissau"]
 
 *Balanta bolanha rice*
 
-**Encyclopedia ID 1235** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1235-balanta-mangrove-rice-polder/
+**Encyclopedia ID 1235** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1235-balanta-mangrove-rice-polder/
 
 ![Balanta Mangrove Rice Polder](../../../img/photos/01235-balanta-mangrove-rice-polder.jpg)
 

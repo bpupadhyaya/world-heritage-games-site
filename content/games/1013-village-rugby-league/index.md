@@ -13,7 +13,7 @@ countries: ["Papua New Guinea"]
 
 *Rugby league*
 
-**Encyclopedia ID 1013** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1013-village-rugby-league/
+**Encyclopedia ID 1013** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1013-village-rugby-league/
 
 Contact ball game played in schools and villages; treated as part of national identity but not a traditional game.
 

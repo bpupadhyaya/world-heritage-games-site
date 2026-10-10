@@ -13,7 +13,7 @@ countries: ["Philippines"]
 
 *Tumbang Preso*
 
-**Encyclopedia ID 1028** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1028-tumbang-preso/
+**Encyclopedia ID 1028** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1028-tumbang-preso/
 
 Knock a tin can from its spot with slippers; guard tags runners.
 

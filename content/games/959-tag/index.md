@@ -13,7 +13,7 @@ countries: ["Myanmar"]
 
 *Zum-zum / Htote si toe*
 
-**Encyclopedia ID 959** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/959-tag/
+**Encyclopedia ID 959** (permanent) · https://equalinformation.com/world-heritage-games-site/games/959-tag/
 
 Border-crossing tag games where raiders try to cross lines without being tagged by defenders.
 

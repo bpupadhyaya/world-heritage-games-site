@@ -13,7 +13,7 @@ countries: ["Micronesia"]
 
 *String figures*
 
-**Encyclopedia ID 938** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/938-carolinian-string-figures/
+**Encyclopedia ID 938** (permanent) · https://equalinformation.com/world-heritage-games-site/games/938-carolinian-string-figures/
 
 Making patterns by looping string around the fingers, often with chants or stories; a regional tradition assumed here but not confirmed for this country.
 

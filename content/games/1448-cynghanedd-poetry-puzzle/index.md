@@ -13,7 +13,7 @@ countries: ["United Kingdom"]
 
 *Cynghanedd*
 
-**Encyclopedia ID 1448** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1448-cynghanedd-poetry-puzzle/
+**Encyclopedia ID 1448** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1448-cynghanedd-poetry-puzzle/
 
 ![Cynghanedd Poetry Puzzle](../../../img/photos/01448-cynghanedd-poetry-puzzle.jpg)
 

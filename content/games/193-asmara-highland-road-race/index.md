@@ -13,7 +13,7 @@ countries: ["Eritrea"]
 
 *Tour of Eritrea*
 
-**Encyclopedia ID 193** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/193-asmara-highland-road-race/
+**Encyclopedia ID 193** (permanent) · https://equalinformation.com/world-heritage-games-site/games/193-asmara-highland-road-race/
 
 ![Asmara highland road race](../../../img/photos/00193-asmara-highland-road-race.jpg)
 

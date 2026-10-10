@@ -13,7 +13,7 @@ countries: ["Vietnam"]
 
 *O An Quan*
 
-**Encyclopedia ID 1216** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1216-mandarin-square-capturing/
+**Encyclopedia ID 1216** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1216-mandarin-square-capturing/
 
 Mancala game drawn on the ground; capture mandarin pieces and pebbles.
 

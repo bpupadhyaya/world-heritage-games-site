@@ -13,7 +13,7 @@ countries: ["Nepal"]
 
 *ढाका*
 
-**Encyclopedia ID 115** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/115-dhaka-weave-pattern-loom/
+**Encyclopedia ID 115** (permanent) · https://equalinformation.com/world-heritage-games-site/games/115-dhaka-weave-pattern-loom/
 
 ![Dhaka weave pattern loom](../../../img/photos/00115-dhaka-weave-pattern-loom.jpg)
 

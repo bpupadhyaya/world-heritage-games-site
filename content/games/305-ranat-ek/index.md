@@ -13,7 +13,7 @@ countries: ["Thailand"]
 
 *ระนาดเอก · Thai xylophone*
 
-**Encyclopedia ID 305** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/305-ranat-ek/
+**Encyclopedia ID 305** (permanent) · https://equalinformation.com/world-heritage-games-site/games/305-ranat-ek/
 
 ![Ranat ek](../../../img/photos/00305-ranat-ek.jpg)
 

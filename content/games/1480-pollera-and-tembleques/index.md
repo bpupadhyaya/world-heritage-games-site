@@ -13,7 +13,7 @@ countries: ["Panama"]
 
 *La Pollera panameña y los tembleques · Panamanian national dress*
 
-**Encyclopedia ID 1480** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1480-pollera-and-tembleques/
+**Encyclopedia ID 1480** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1480-pollera-and-tembleques/
 
 ![Pollera and Tembleques](../../../img/photos/01480-pollera-and-tembleques.jpg)
 

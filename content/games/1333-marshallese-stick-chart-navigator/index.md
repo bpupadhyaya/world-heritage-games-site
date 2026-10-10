@@ -13,7 +13,7 @@ countries: ["Marshall Islands"]
 
 *Mattang / rebbelib · mattang*
 
-**Encyclopedia ID 1333** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1333-marshallese-stick-chart-navigator/
+**Encyclopedia ID 1333** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1333-marshallese-stick-chart-navigator/
 
 ![Marshallese stick chart navigator](../../../img/photos/01333-marshallese-stick-chart-navigator.jpg)
 

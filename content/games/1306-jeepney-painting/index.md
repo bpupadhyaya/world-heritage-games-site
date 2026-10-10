@@ -11,7 +11,7 @@ countries: ["Philippines"]
 ---
 # Jeepney painting
 
-**Encyclopedia ID 1306** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1306-jeepney-painting/
+**Encyclopedia ID 1306** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1306-jeepney-painting/
 
 ![Jeepney painting](../../../img/photos/01306-jeepney-painting.jpg)
 

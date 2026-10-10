@@ -13,7 +13,7 @@ countries: ["Micronesia"]
 
 *Micronesian Games traditional events*
 
-**Encyclopedia ID 937** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/937-traditional-contests-at-micronesian-games/
+**Encyclopedia ID 937** (permanent) · https://equalinformation.com/world-heritage-games-site/games/937-traditional-contests-at-micronesian-games/
 
 Regional games include local-style contests alongside sports.
 

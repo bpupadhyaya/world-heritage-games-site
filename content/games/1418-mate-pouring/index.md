@@ -13,7 +13,7 @@ countries: ["Argentina"]
 
 *Mate / cebado · Cebar el Mate*
 
-**Encyclopedia ID 1418** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1418-mate-pouring/
+**Encyclopedia ID 1418** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1418-mate-pouring/
 
 ![Mate Pouring](../../../img/photos/01418-mate-pouring.jpg)
 

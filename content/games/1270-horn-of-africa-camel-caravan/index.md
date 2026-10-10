@@ -13,7 +13,7 @@ countries: ["Djibouti"]
 
 *Karawan*
 
-**Encyclopedia ID 1270** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1270-horn-of-africa-camel-caravan/
+**Encyclopedia ID 1270** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1270-horn-of-africa-camel-caravan/
 
 ![Horn of Africa camel caravan](../../../img/photos/01270-horn-of-africa-camel-caravan.jpg)
 

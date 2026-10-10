@@ -13,7 +13,7 @@ countries: ["Iran"]
 
 *ورزش باستانی · Pahlavani club*
 
-**Encyclopedia ID 227** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/227-zurkhaneh-strength-rhythm/
+**Encyclopedia ID 227** (permanent) · https://equalinformation.com/world-heritage-games-site/games/227-zurkhaneh-strength-rhythm/
 
 ![Zurkhaneh strength rhythm](../../../img/photos/00227-zurkhaneh-strength-rhythm.jpg)
 

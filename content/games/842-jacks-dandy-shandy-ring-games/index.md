@@ -13,7 +13,7 @@ countries: ["Jamaica"]
 
 *Jacks / Dandy Shandy / Ring games*
 
-**Encyclopedia ID 842** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/842-jacks-dandy-shandy-ring-games/
+**Encyclopedia ID 842** (permanent) · https://equalinformation.com/world-heritage-games-site/games/842-jacks-dandy-shandy-ring-games/
 
 Playground games: scoop jacks, dodge the ball, sing in a ring.
 

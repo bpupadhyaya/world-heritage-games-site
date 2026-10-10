@@ -13,7 +13,7 @@ countries: ["Eswatini"]
 
 *Swazi carved figures and craft market*
 
-**Encyclopedia ID 1377** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1377-swazi-carved-figures-and-craft-market/
+**Encyclopedia ID 1377** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1377-swazi-carved-figures-and-craft-market/
 
 ![Swazi carved figures and craft market](../../../img/photos/01377-swazi-carved-figures-and-craft-market.jpg)
 

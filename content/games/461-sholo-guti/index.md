@@ -13,7 +13,7 @@ countries: ["Bangladesh"]
 
 *ষোল গুটি / Sixteen Soldiers*
 
-**Encyclopedia ID 461** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/461-sholo-guti/
+**Encyclopedia ID 461** (permanent) · https://equalinformation.com/world-heritage-games-site/games/461-sholo-guti/
 
 ![Sholo Guti](../../../img/photos/00461-sholo-guti.jpg)
 

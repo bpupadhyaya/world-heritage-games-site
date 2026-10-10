@@ -13,7 +13,7 @@ countries: ["Armenia"]
 
 *Կոխ · Armenian wrestling*
 
-**Encyclopedia ID 1317** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1317-kokh/
+**Encyclopedia ID 1317** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1317-kokh/
 
 ![Kokh](../../../img/photos/01317-kokh.jpg)
 

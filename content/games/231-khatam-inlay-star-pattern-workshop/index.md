@@ -13,7 +13,7 @@ countries: ["Iran"]
 
 *خاتم‌کاری*
 
-**Encyclopedia ID 231** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/231-khatam-inlay-star-pattern-workshop/
+**Encyclopedia ID 231** (permanent) · https://equalinformation.com/world-heritage-games-site/games/231-khatam-inlay-star-pattern-workshop/
 
 ![Khatam inlay star pattern workshop](../../../img/photos/00231-khatam-inlay-star-pattern-workshop.jpg)
 

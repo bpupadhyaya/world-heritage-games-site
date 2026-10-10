@@ -13,7 +13,7 @@ countries: ["Fiji"]
 
 *Veisabiliga*
 
-**Encyclopedia ID 711** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/711-hand-slap-game/
+**Encyclopedia ID 711** (permanent) · https://equalinformation.com/world-heritage-games-site/games/711-hand-slap-game/
 
 Teams line up on a field; one side delivers pre-set slaps to opponents' hands and the hardest-slapped player tries to catch the slapper for a point.
 

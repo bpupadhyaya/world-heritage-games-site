@@ -13,7 +13,7 @@ countries: ["Mauritania"]
 
 *Oualata painted houses*
 
-**Encyclopedia ID 1352** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1352-oualata-wall-painting/
+**Encyclopedia ID 1352** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1352-oualata-wall-painting/
 
 ![Oualata Wall Painting](../../../img/photos/01352-oualata-wall-painting.jpg)
 

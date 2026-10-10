@@ -13,7 +13,7 @@ countries: ["China"]
 
 *蹴鞠 · ancient Chinese football*
 
-**Encyclopedia ID 333** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/333-cuju/
+**Encyclopedia ID 333** (permanent) · https://equalinformation.com/world-heritage-games-site/games/333-cuju/
 
 ![Cuju](../../../img/photos/00333-cuju.jpg)
 

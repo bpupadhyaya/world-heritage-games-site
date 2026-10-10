@@ -13,7 +13,7 @@ countries: ["Chile", "Bolivia", "Argentina"]
 
 *Cueca · handkerchief courtship dance*
 
-**Encyclopedia ID 430** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/430-cueca/
+**Encyclopedia ID 430** (permanent) · https://equalinformation.com/world-heritage-games-site/games/430-cueca/
 
 ![Cueca](../../../img/photos/00430-cueca.jpg)
 

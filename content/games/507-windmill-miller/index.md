@@ -13,7 +13,7 @@ countries: ["Netherlands", "Spain", "Iran", "United Kingdom"]
 
 *Molen / Dutch windmill*
 
-**Encyclopedia ID 507** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/507-windmill-miller/
+**Encyclopedia ID 507** (permanent) · https://equalinformation.com/world-heritage-games-site/games/507-windmill-miller/
 
 ![Windmill Miller](../../../img/photos/00507-windmill-miller.jpg)
 

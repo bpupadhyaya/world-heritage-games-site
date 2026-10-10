@@ -13,7 +13,7 @@ countries: ["Greece"]
 
 *Kottabos (κότταβος)*
 
-**Encyclopedia ID 392** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/392-kottabos-symposium-toss/
+**Encyclopedia ID 392** (permanent) · https://equalinformation.com/world-heritage-games-site/games/392-kottabos-symposium-toss/
 
 ![Kottabos Symposium Toss](../../../img/photos/00392-kottabos-symposium-toss.jpg)
 

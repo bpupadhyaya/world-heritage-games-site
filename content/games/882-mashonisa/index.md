@@ -13,7 +13,7 @@ countries: ["Lesotho"]
 
 *Mashonisa*
 
-**Encyclopedia ID 882** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/882-mashonisa/
+**Encyclopedia ID 882** (permanent) · https://equalinformation.com/world-heritage-games-site/games/882-mashonisa/
 
 Named as a traditional Basotho game at a 2025 heritage tour; details not verified.
 

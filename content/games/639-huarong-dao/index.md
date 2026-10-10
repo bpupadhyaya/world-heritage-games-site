@@ -13,7 +13,7 @@ countries: ["China"]
 
 *华容道 Huáróng dào · Klotski*
 
-**Encyclopedia ID 639** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/639-huarong-dao/
+**Encyclopedia ID 639** (permanent) · https://equalinformation.com/world-heritage-games-site/games/639-huarong-dao/
 
 Sliding-block puzzle on a 4x5 grid where the large Cao Cao block must be walked out through the bottom exit.
 

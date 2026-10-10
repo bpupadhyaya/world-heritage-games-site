@@ -13,7 +13,7 @@ countries: ["South Korea"]
 
 *Sa-p'an Kono / 사방고누*
 
-**Encyclopedia ID 457** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/457-four-field-kono/
+**Encyclopedia ID 457** (permanent) · https://equalinformation.com/world-heritage-games-site/games/457-four-field-kono/
 
 ![Four-Field Kono](../../../img/photos/00457-four-field-kono.jpg)
 

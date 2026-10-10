@@ -13,7 +13,7 @@ countries: ["Senegal"]
 
 *Jeu du moulin (Mill)*
 
-**Encyclopedia ID 1061** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1061-mill/
+**Encyclopedia ID 1061** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1061-mill/
 
 Three-in-a-row mill game on concentric squares.
 

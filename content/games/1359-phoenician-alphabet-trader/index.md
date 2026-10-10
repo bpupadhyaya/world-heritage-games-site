@@ -13,7 +13,7 @@ countries: ["Lebanon"]
 
 *Abjad / أبجدية*
 
-**Encyclopedia ID 1359** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1359-phoenician-alphabet-trader/
+**Encyclopedia ID 1359** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1359-phoenician-alphabet-trader/
 
 ![Phoenician Alphabet Trader](../../../img/photos/01359-phoenician-alphabet-trader.jpg)
 

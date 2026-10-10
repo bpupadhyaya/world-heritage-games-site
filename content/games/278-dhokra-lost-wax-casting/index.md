@@ -13,7 +13,7 @@ countries: ["Bangladesh"]
 
 *ଢୋକରା*
 
-**Encyclopedia ID 278** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/278-dhokra-lost-wax-casting/
+**Encyclopedia ID 278** (permanent) · https://equalinformation.com/world-heritage-games-site/games/278-dhokra-lost-wax-casting/
 
 ![Dhokra lost-wax casting](../../../img/photos/00278-dhokra-lost-wax-casting.jpg)
 

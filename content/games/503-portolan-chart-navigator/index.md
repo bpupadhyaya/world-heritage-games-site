@@ -13,7 +13,7 @@ countries: ["Italy", "Spain", "Turkey"]
 
 *Carta nautica / portolano*
 
-**Encyclopedia ID 503** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/503-portolan-chart-navigator/
+**Encyclopedia ID 503** (permanent) · https://equalinformation.com/world-heritage-games-site/games/503-portolan-chart-navigator/
 
 ![Portolan Chart Navigator](../../../img/photos/00503-portolan-chart-navigator.jpg)
 

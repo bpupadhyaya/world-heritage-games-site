@@ -13,7 +13,7 @@ countries: ["Nepal"]
 
 *मुर्चुङ्गा · Nepali jaw harp*
 
-**Encyclopedia ID 290** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/290-murchunga/
+**Encyclopedia ID 290** (permanent) · https://equalinformation.com/world-heritage-games-site/games/290-murchunga/
 
 ![Murchunga](../../../img/photos/00290-murchunga.jpg)
 

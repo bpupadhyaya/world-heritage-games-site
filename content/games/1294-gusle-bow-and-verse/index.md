@@ -13,7 +13,7 @@ countries: ["Serbia"]
 
 *Гусле*
 
-**Encyclopedia ID 1294** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1294-gusle-bow-and-verse/
+**Encyclopedia ID 1294** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1294-gusle-bow-and-verse/
 
 ![Gusle Bow and Verse](../../../img/photos/01294-gusle-bow-and-verse.jpg)
 

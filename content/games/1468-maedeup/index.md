@@ -13,7 +13,7 @@ countries: ["South Korea"]
 
 *매듭 · Korean decorative knotting*
 
-**Encyclopedia ID 1468** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1468-maedeup/
+**Encyclopedia ID 1468** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1468-maedeup/
 
 ![Maedeup](../../../img/photos/01468-maedeup.jpg)
 

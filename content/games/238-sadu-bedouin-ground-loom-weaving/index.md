@@ -13,7 +13,7 @@ countries: ["Jordan"]
 
 *السدو*
 
-**Encyclopedia ID 238** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/238-sadu-bedouin-ground-loom-weaving/
+**Encyclopedia ID 238** (permanent) · https://equalinformation.com/world-heritage-games-site/games/238-sadu-bedouin-ground-loom-weaving/
 
 ![Sadu Bedouin ground-loom weaving](../../../img/photos/00238-sadu-bedouin-ground-loom-weaving.jpg)
 

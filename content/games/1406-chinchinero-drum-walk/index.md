@@ -13,7 +13,7 @@ countries: ["Chile"]
 
 *Chinchinero*
 
-**Encyclopedia ID 1406** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1406-chinchinero-drum-walk/
+**Encyclopedia ID 1406** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1406-chinchinero-drum-walk/
 
 ![Chinchinero Drum Walk](../../../img/photos/01406-chinchinero-drum-walk.jpg)
 

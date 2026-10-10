@@ -13,7 +13,7 @@ countries: ["Turkey"]
 
 *Ebru (Turkish) / Abru*
 
-**Encyclopedia ID 20** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/20-ebru-paper-marbling/
+**Encyclopedia ID 20** (permanent) · https://equalinformation.com/world-heritage-games-site/games/20-ebru-paper-marbling/
 
 ![Ebru paper marbling](../../../img/photos/00020-ebru-paper-marbling.jpg)
 

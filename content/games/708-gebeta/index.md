@@ -13,7 +13,7 @@ countries: ["Ethiopia"]
 
 *Gebeta / Gabata · Gabata · Gebeta · Ethiopian mancala*
 
-**Encyclopedia ID 708** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/708-gebeta/
+**Encyclopedia ID 708** (permanent) · https://equalinformation.com/world-heritage-games-site/games/708-gebeta/
 
 Count-and-capture sowing game played on a carved board or ground pits; tied to weddings, harvest and holidays.
 

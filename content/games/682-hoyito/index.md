@@ -13,7 +13,7 @@ countries: ["Dominican Republic"]
 
 *Hoyito · mancala*
 
-**Encyclopedia ID 682** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/682-hoyito/
+**Encyclopedia ID 682** (permanent) · https://equalinformation.com/world-heritage-games-site/games/682-hoyito/
 
 A small two-row mancala-type sowing game; Wikipedia lists it among traditional Dominican games.
 

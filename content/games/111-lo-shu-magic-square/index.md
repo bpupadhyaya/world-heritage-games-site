@@ -13,7 +13,7 @@ countries: ["China"]
 
 *洛书*
 
-**Encyclopedia ID 111** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/111-lo-shu-magic-square/
+**Encyclopedia ID 111** (permanent) · https://equalinformation.com/world-heritage-games-site/games/111-lo-shu-magic-square/
 
 ![Lo Shu Magic Square](../../../img/photos/00111-lo-shu-magic-square.jpg)
 

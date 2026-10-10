@@ -13,7 +13,7 @@ countries: ["Antigua and Barbuda"]
 
 *Union Jack Game · Potta*
 
-**Encyclopedia ID 547** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/547-union-jack-game/
+**Encyclopedia ID 547** (permanent) · https://equalinformation.com/world-heritage-games-site/games/547-union-jack-game/
 
 Line-based three-in-a-row game under the Antiguan name Union Jack Game.
 

@@ -13,7 +13,7 @@ countries: ["South Sudan"]
 
 *Tok Ku Rou*
 
-**Encyclopedia ID 1091** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1091-tok-ku-rou/
+**Encyclopedia ID 1091** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1091-tok-ku-rou/
 
 Mancala of Dinka and Shilluk; name means one and two.
 

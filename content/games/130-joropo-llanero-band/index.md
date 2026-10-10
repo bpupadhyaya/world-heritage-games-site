@@ -13,7 +13,7 @@ countries: ["Venezuela", "Colombia"]
 
 *Joropo llanero*
 
-**Encyclopedia ID 130** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/130-joropo-llanero-band/
+**Encyclopedia ID 130** (permanent) · https://equalinformation.com/world-heritage-games-site/games/130-joropo-llanero-band/
 
 ![Joropo llanero band](../../../img/photos/00130-joropo-llanero-band.jpg)
 

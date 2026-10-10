@@ -13,7 +13,7 @@ countries: ["Barbados"]
 
 *Tuk band · Barbados*
 
-**Encyclopedia ID 1438** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1438-tuk-band/
+**Encyclopedia ID 1438** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1438-tuk-band/
 
 ![Tuk Band](../../../img/photos/01438-tuk-band.jpg)
 

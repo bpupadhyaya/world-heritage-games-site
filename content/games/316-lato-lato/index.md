@@ -13,7 +13,7 @@ countries: ["Indonesia", "Malaysia"]
 
 *Lato-lato · clackers*
 
-**Encyclopedia ID 316** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/316-lato-lato/
+**Encyclopedia ID 316** (permanent) · https://equalinformation.com/world-heritage-games-site/games/316-lato-lato/
 
 ![Lato-lato](../../../img/photos/00316-lato-lato.jpg)
 

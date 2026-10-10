@@ -13,7 +13,7 @@ countries: ["Marshall Islands"]
 
 *String figures*
 
-**Encyclopedia ID 926** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/926-marshallese-string-figures/
+**Encyclopedia ID 926** (permanent) · https://equalinformation.com/world-heritage-games-site/games/926-marshallese-string-figures/
 
 Making patterns by looping string around the fingers, often with chants or stories; a regional tradition assumed here but not confirmed for this country.
 

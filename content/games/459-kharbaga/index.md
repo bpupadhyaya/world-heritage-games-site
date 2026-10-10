@@ -13,7 +13,7 @@ countries: ["Morocco"]
 
 *خربقة (Kharbaga)*
 
-**Encyclopedia ID 459** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/459-kharbaga/
+**Encyclopedia ID 459** (permanent) · https://equalinformation.com/world-heritage-games-site/games/459-kharbaga/
 
 ![Kharbaga](../../../img/photos/00459-kharbaga.jpg)
 

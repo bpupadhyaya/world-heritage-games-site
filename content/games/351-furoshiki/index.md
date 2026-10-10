@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *風呂敷 · cloth-wrapping puzzle*
 
-**Encyclopedia ID 351** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/351-furoshiki/
+**Encyclopedia ID 351** (permanent) · https://equalinformation.com/world-heritage-games-site/games/351-furoshiki/
 
 ![Furoshiki](../../../img/photos/00351-furoshiki.jpg)
 

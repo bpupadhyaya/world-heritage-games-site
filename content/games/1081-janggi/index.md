@@ -13,7 +13,7 @@ countries: ["South Korea", "North Korea"]
 
 *장기 Janggi · Korean chess*
 
-**Encyclopedia ID 1081** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1081-janggi/
+**Encyclopedia ID 1081** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1081-janggi/
 
 Chess-like game on a 9x10 board without a river, where the general starts in the palace centre and players may pass.
 

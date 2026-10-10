@@ -13,7 +13,7 @@ countries: ["Comoros"]
 
 *Bao · Bao la Kiswahili*
 
-**Encyclopedia ID 647** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/647-bao/
+**Encyclopedia ID 647** (permanent) · https://equalinformation.com/world-heritage-games-site/games/647-bao/
 
 Swahili mancala; Comoros among regions named.
 

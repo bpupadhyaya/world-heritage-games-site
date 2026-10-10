@@ -13,7 +13,7 @@ countries: ["Egypt"]
 
 *Nuba / Nubian wall decoration*
 
-**Encyclopedia ID 192** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/192-nubian-house-painting/
+**Encyclopedia ID 192** (permanent) · https://equalinformation.com/world-heritage-games-site/games/192-nubian-house-painting/
 
 ![Nubian house painting](../../../img/photos/00192-nubian-house-painting.jpg)
 

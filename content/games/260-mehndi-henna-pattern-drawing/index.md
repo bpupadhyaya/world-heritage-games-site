@@ -13,7 +13,7 @@ countries: ["India", "Pakistan"]
 
 *mehndi*
 
-**Encyclopedia ID 260** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/260-mehndi-henna-pattern-drawing/
+**Encyclopedia ID 260** (permanent) · https://equalinformation.com/world-heritage-games-site/games/260-mehndi-henna-pattern-drawing/
 
 ![Mehndi henna pattern drawing](../../../img/photos/00260-mehndi-henna-pattern-drawing.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Fiji"]
 
 *Village rugby sevens · village form*
 
-**Encyclopedia ID 713** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/713-rugby-sevens/
+**Encyclopedia ID 713** (permanent) · https://equalinformation.com/world-heritage-games-site/games/713-rugby-sevens/
 
 Fast seven-a-side rugby played in villages and fields; national passion with Olympic gold in 2016.
 

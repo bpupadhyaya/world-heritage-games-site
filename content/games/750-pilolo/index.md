@@ -13,7 +13,7 @@ countries: ["Ghana"]
 
 *Pilolo · hide and seek treasure hunt*
 
-**Encyclopedia ID 750** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/750-pilolo/
+**Encyclopedia ID 750** (permanent) · https://equalinformation.com/world-heritage-games-site/games/750-pilolo/
 
 Children hide a small object and the others hunt for it, a Ga game mixing hide-and-seek with treasure hunt.
 

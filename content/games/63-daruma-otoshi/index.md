@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *だるま落とし · tower knock-out*
 
-**Encyclopedia ID 63** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/63-daruma-otoshi/
+**Encyclopedia ID 63** (permanent) · https://equalinformation.com/world-heritage-games-site/games/63-daruma-otoshi/
 
 ![Daruma Otoshi](../../../img/photos/00063-daruma-otoshi.jpg)
 

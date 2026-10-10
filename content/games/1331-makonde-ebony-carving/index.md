@@ -13,7 +13,7 @@ countries: ["Tanzania", "Mozambique"]
 
 *Makonde*
 
-**Encyclopedia ID 1331** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1331-makonde-ebony-carving/
+**Encyclopedia ID 1331** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1331-makonde-ebony-carving/
 
 ![Makonde ebony carving](../../../img/photos/01331-makonde-ebony-carving.jpg)
 

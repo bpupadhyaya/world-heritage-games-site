@@ -13,7 +13,7 @@ countries: ["Indonesia", "Malaysia", "Philippines"]
 
 *Bakiak / bakya · team clog race*
 
-**Encyclopedia ID 324** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/324-bakiak/
+**Encyclopedia ID 324** (permanent) · https://equalinformation.com/world-heritage-games-site/games/324-bakiak/
 
 ![Bakiak](../../../img/photos/00324-bakiak.jpg)
 

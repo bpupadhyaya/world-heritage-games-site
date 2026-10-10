@@ -13,7 +13,7 @@ countries: ["Tonga"]
 
 *Kasivaki · underwater rugby*
 
-**Encyclopedia ID 1148** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1148-kasivaki/
+**Encyclopedia ID 1148** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1148-kasivaki/
 
 Ancient underwater team contest to carry a stone across the field.
 

@@ -13,7 +13,7 @@ countries: ["Belize"]
 
 *Kriol street games · Bruk Macachista, Landan Bridge, Outside Jewbell*
 
-**Encyclopedia ID 585** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/585-kriol-traditional-games/
+**Encyclopedia ID 585** (permanent) · https://equalinformation.com/world-heritage-games-site/games/585-kriol-traditional-games/
 
 Group chasing and rhyme games collected in a heritage booklet to revive Kriol play.
 

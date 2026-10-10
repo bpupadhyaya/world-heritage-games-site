@@ -13,7 +13,7 @@ countries: ["Papua New Guinea"]
 
 *Traditional contests (spear/stone throwing, wrestling)*
 
-**Encyclopedia ID 1014** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1014-highland-and-coastal-contests/
+**Encyclopedia ID 1014** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1014-highland-and-coastal-contests/
 
 Regional contests of strength and aim tied to feasts and initiations rather than formal games.
 

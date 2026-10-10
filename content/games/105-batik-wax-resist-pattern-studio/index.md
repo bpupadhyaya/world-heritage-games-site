@@ -13,7 +13,7 @@ countries: ["Indonesia", "Malaysia"]
 
 *Batik tulis*
 
-**Encyclopedia ID 105** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/105-batik-wax-resist-pattern-studio/
+**Encyclopedia ID 105** (permanent) · https://equalinformation.com/world-heritage-games-site/games/105-batik-wax-resist-pattern-studio/
 
 ![Batik wax-resist pattern studio](../../../img/photos/00105-batik-wax-resist-pattern-studio.jpg)
 

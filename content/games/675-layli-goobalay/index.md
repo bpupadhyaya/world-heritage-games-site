@@ -13,7 +13,7 @@ countries: ["Djibouti", "Somalia"]
 
 *Layli Goobalay · Closing the holes*
 
-**Encyclopedia ID 675** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/675-layli-goobalay/
+**Encyclopedia ID 675** (permanent) · https://equalinformation.com/world-heritage-games-site/games/675-layli-goobalay/
 
 Somali mancala dug in the ground, historically with dried camel dung as pieces.
 

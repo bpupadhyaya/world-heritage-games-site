@@ -13,7 +13,7 @@ countries: ["Uganda"]
 
 *Odede*
 
-**Encyclopedia ID 1175** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1175-odede/
+**Encyclopedia ID 1175** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1175-odede/
 
 Lango children's pretend-family game.
 

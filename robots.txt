@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bpupadhyaya.github.io/world-heritage-games-site/sitemap.xml
+Sitemap: https://equalinformation.com/world-heritage-games-site/sitemap.xml

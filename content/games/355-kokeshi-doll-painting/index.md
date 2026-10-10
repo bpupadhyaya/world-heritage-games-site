@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *こけし*
 
-**Encyclopedia ID 355** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/355-kokeshi-doll-painting/
+**Encyclopedia ID 355** (permanent) · https://equalinformation.com/world-heritage-games-site/games/355-kokeshi-doll-painting/
 
 ![Kokeshi doll painting](../../../img/photos/00355-kokeshi-doll-painting.jpg)
 

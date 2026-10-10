@@ -13,7 +13,7 @@ countries: ["United Arab Emirates"]
 
 *التلي*
 
-**Encyclopedia ID 1273** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1273-al-talli-braid-embroidery/
+**Encyclopedia ID 1273** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1273-al-talli-braid-embroidery/
 
 ![Al Talli Braid Embroidery](../../../img/photos/01273-al-talli-braid-embroidery.jpg)
 

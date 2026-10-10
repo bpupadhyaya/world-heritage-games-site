@@ -13,7 +13,7 @@ countries: ["Barbados"]
 
 *Dominoes*
 
-**Encyclopedia ID 578** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/578-slam-dominoes/
+**Encyclopedia ID 578** (permanent) · https://equalinformation.com/world-heritage-games-site/games/578-slam-dominoes/
 
 Rum-shop partnership dominoes.
 

@@ -13,7 +13,7 @@ countries: ["Haiti"]
 
 *Sote kòd / Ralba / Teke mab*
 
-**Encyclopedia ID 768** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/768-rope-skipping-tops-marbles/
+**Encyclopedia ID 768** (permanent) · https://equalinformation.com/world-heritage-games-site/games/768-rope-skipping-tops-marbles/
 
 Child street games revived at community events.
 

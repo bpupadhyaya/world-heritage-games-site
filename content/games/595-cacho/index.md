@@ -13,7 +13,7 @@ countries: ["Bolivia", "Chile", "Peru", "Ecuador"]
 
 *Cacho · Dudo*
 
-**Encyclopedia ID 595** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/595-cacho/
+**Encyclopedia ID 595** (permanent) · https://equalinformation.com/world-heritage-games-site/games/595-cacho/
 
 Cup bluffing dice.
 

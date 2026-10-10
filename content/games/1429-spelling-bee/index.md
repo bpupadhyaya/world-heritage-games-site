@@ -13,7 +13,7 @@ countries: ["United States"]
 
 *Spelling bee*
 
-**Encyclopedia ID 1429** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1429-spelling-bee/
+**Encyclopedia ID 1429** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1429-spelling-bee/
 
 ![Spelling Bee](../../../img/photos/01429-spelling-bee.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Kenya"]
 
 *Kanga / leso*
 
-**Encyclopedia ID 184** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/184-kanga-cloth-design/
+**Encyclopedia ID 184** (permanent) · https://equalinformation.com/world-heritage-games-site/games/184-kanga-cloth-design/
 
 ![Kanga cloth design](../../../img/photos/00184-kanga-cloth-design.jpg)
 

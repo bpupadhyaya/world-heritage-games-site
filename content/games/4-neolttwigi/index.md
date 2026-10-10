@@ -13,7 +13,7 @@ countries: ["South Korea"]
 
 *널뛰기 · seesaw jumping*
 
-**Encyclopedia ID 4** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/4-neolttwigi/
+**Encyclopedia ID 4** (permanent) · https://equalinformation.com/world-heritage-games-site/games/4-neolttwigi/
 
 ![Neolttwigi](../../../img/photos/00004-neolttwigi.jpg)
 

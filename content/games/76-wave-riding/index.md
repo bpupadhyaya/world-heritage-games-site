@@ -13,7 +13,7 @@ countries: []
 
 *Heʻe nalu / surfing · surf break*
 
-**Encyclopedia ID 76** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/76-wave-riding/
+**Encyclopedia ID 76** (permanent) · https://equalinformation.com/world-heritage-games-site/games/76-wave-riding/
 
 ![Wave riding](../../../img/photos/00076-wave-riding.jpg)
 

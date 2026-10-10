@@ -13,7 +13,7 @@ countries: ["Vietnam"]
 
 *Đàn bầu · Vietnamese monochord*
 
-**Encyclopedia ID 143** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/143-dan-bau/
+**Encyclopedia ID 143** (permanent) · https://equalinformation.com/world-heritage-games-site/games/143-dan-bau/
 
 ![Dan bau](../../../img/photos/00143-dan-bau.jpg)
 

@@ -11,7 +11,7 @@ countries: ["United Kingdom", "Canada"]
 ---
 # Candlepin bowling
 
-**Encyclopedia ID 444** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/444-candlepin-bowling/
+**Encyclopedia ID 444** (permanent) · https://equalinformation.com/world-heritage-games-site/games/444-candlepin-bowling/
 
 ![Candlepin bowling](../../../img/photos/00444-candlepin-bowling.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *Yukigassen 雪合戦*
 
-**Encyclopedia ID 71** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/71-yukigassen-snow-fort/
+**Encyclopedia ID 71** (permanent) · https://equalinformation.com/world-heritage-games-site/games/71-yukigassen-snow-fort/
 
 ![Yukigassen Snow Fort](../../../img/photos/00071-yukigassen-snow-fort.jpg)
 

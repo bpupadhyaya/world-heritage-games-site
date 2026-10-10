@@ -13,7 +13,7 @@ countries: ["China"]
 
 *编钟 · bronze chime bells*
 
-**Encyclopedia ID 336** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/336-bianzhong/
+**Encyclopedia ID 336** (permanent) · https://equalinformation.com/world-heritage-games-site/games/336-bianzhong/
 
 ![Bianzhong](../../../img/photos/00336-bianzhong.jpg)
 

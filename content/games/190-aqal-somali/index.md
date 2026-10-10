@@ -13,7 +13,7 @@ countries: ["Somalia"]
 
 *Aqal Soomaali · nomad hut building*
 
-**Encyclopedia ID 190** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/190-aqal-somali/
+**Encyclopedia ID 190** (permanent) · https://equalinformation.com/world-heritage-games-site/games/190-aqal-somali/
 
 ![Aqal Somali](../../../img/photos/00190-aqal-somali.jpg)
 

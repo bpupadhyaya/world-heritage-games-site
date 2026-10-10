@@ -13,7 +13,7 @@ countries: ["Egypt"]
 
 *Tawla · Tawla zahr · Mahbousa · Shesh Besh · tawla / mahbousa*
 
-**Encyclopedia ID 695** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/695-egyptian-backgammon/
+**Encyclopedia ID 695** (permanent) · https://equalinformation.com/world-heritage-games-site/games/695-egyptian-backgammon/
 
 Dice-driven race game of bearing off all checkers; the locked-piece variant mahbousa is the best-known Arab form.
 

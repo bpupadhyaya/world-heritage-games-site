@@ -13,7 +13,7 @@ countries: ["Cuba"]
 
 *Cuatro Esquinas · hand baseball*
 
-**Encyclopedia ID 652** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/652-four-corners/
+**Encyclopedia ID 652** (permanent) · https://equalinformation.com/world-heritage-games-site/games/652-four-corners/
 
 Rubber-ball street baseball hit with the hand, running around a square; ancestor of Baseball5.
 

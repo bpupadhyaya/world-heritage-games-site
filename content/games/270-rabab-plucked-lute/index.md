@@ -13,7 +13,7 @@ countries: ["India", "Pakistan"]
 
 *rabab (rubab)*
 
-**Encyclopedia ID 270** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/270-rabab-plucked-lute/
+**Encyclopedia ID 270** (permanent) · https://equalinformation.com/world-heritage-games-site/games/270-rabab-plucked-lute/
 
 ![Rabab plucked lute](../../../img/photos/00270-rabab-plucked-lute.jpg)
 

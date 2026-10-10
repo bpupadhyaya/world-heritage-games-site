@@ -13,7 +13,7 @@ countries: ["Lesotho"]
 
 *Mokhahlo / Seanamarena*
 
-**Encyclopedia ID 201** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/201-basotho-blanket-pattern-designer/
+**Encyclopedia ID 201** (permanent) · https://equalinformation.com/world-heritage-games-site/games/201-basotho-blanket-pattern-designer/
 
 ![Basotho blanket pattern designer](../../../img/photos/00201-basotho-blanket-pattern-designer.jpg)
 

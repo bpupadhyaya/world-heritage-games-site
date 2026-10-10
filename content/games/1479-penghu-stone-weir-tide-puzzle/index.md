@@ -13,7 +13,7 @@ countries: ["Taiwan"]
 
 *澎湖石滬*
 
-**Encyclopedia ID 1479** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1479-penghu-stone-weir-tide-puzzle/
+**Encyclopedia ID 1479** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1479-penghu-stone-weir-tide-puzzle/
 
 ![Penghu Stone Weir Tide Puzzle](../../../img/photos/01479-penghu-stone-weir-tide-puzzle.jpg)
 

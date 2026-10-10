@@ -13,7 +13,7 @@ countries: ["India", "Pakistan"]
 
 *kushti, pehlwani*
 
-**Encyclopedia ID 256** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/256-kushti-pehlwani-mud-wrestling/
+**Encyclopedia ID 256** (permanent) · https://equalinformation.com/world-heritage-games-site/games/256-kushti-pehlwani-mud-wrestling/
 
 ![Kushti / Pehlwani mud wrestling](../../../img/photos/00256-kushti-pehlwani-mud-wrestling.jpg)
 

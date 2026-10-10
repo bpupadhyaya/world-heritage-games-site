@@ -13,7 +13,7 @@ countries: ["Ghana"]
 
 *Krobo beads*
 
-**Encyclopedia ID 173** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/173-krobo-powder-glass-beads/
+**Encyclopedia ID 173** (permanent) · https://equalinformation.com/world-heritage-games-site/games/173-krobo-powder-glass-beads/
 
 ![Krobo Powder-Glass Beads](../../../img/photos/00173-krobo-powder-glass-beads.jpg)
 

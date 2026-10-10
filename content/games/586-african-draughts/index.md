@@ -13,7 +13,7 @@ countries: ["Benin", "Burkina Faso", "Cote d'Ivoire", "Ghana", "Guinea", "Liberi
 
 *Jeu de dames · Draughts · Dame, 10x10*
 
-**Encyclopedia ID 586** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/586-african-draughts/
+**Encyclopedia ID 586** (permanent) · https://equalinformation.com/world-heritage-games-site/games/586-african-draughts/
 
 African draughts, normally the 10x10 international form with flying kings, played on street boards, in cafes and in federation events.
 

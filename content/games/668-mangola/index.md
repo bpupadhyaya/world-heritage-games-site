@@ -13,7 +13,7 @@ countries: ["DR Congo"]
 
 *Mangola*
 
-**Encyclopedia ID 668** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/668-mangola/
+**Encyclopedia ID 668** (permanent) · https://equalinformation.com/world-heritage-games-site/games/668-mangola/
 
 Mancala game described as the most popular mancala in DR Congo, developed after 1911 and replacing older games.
 

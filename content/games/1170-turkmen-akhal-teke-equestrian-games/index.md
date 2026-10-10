@@ -13,7 +13,7 @@ countries: ["Turkmenistan"]
 
 *Atly oyunlary*
 
-**Encyclopedia ID 1170** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1170-turkmen-akhal-teke-equestrian-games/
+**Encyclopedia ID 1170** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1170-turkmen-akhal-teke-equestrian-games/
 
 Horse beauty, racing and riding games tied to weddings and the Akhal-Teke breed.
 

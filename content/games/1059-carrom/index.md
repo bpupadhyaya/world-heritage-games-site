@@ -13,7 +13,7 @@ countries: ["Saudi Arabia", "Oman", "United Arab Emirates", "Qatar", "Bahrain", 
 
 *Carrom · Karam*
 
-**Encyclopedia ID 1059** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1059-carrom/
+**Encyclopedia ID 1059** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1059-carrom/
 
 Players flick a weighted striker across a powdered board to sink wooden discs, and the red queen, into the four corner pockets.
 

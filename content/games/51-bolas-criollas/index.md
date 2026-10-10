@@ -13,7 +13,7 @@ countries: ["Venezuela"]
 
 *Bolas criollas*
 
-**Encyclopedia ID 51** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/51-bolas-criollas/
+**Encyclopedia ID 51** (permanent) · https://equalinformation.com/world-heritage-games-site/games/51-bolas-criollas/
 
 ![Bolas criollas](../../../img/photos/00051-bolas-criollas.jpg)
 

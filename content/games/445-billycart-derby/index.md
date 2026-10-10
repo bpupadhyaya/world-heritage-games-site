@@ -11,7 +11,7 @@ countries: ["Australia"]
 ---
 # Billycart derby
 
-**Encyclopedia ID 445** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/445-billycart-derby/
+**Encyclopedia ID 445** (permanent) · https://equalinformation.com/world-heritage-games-site/games/445-billycart-derby/
 
 ![Billycart derby](../../../img/photos/00445-billycart-derby.jpg)
 

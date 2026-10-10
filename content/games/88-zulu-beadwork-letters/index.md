@@ -13,7 +13,7 @@ countries: ["South Africa"]
 
 *Ubuhlalu / love letters*
 
-**Encyclopedia ID 88** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/88-zulu-beadwork-letters/
+**Encyclopedia ID 88** (permanent) · https://equalinformation.com/world-heritage-games-site/games/88-zulu-beadwork-letters/
 
 ![Zulu beadwork letters](../../../img/photos/00088-zulu-beadwork-letters.jpg)
 

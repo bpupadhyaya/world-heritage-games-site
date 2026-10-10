@@ -13,7 +13,7 @@ countries: ["Nigeria"]
 
 *Dùndún / Tama / Kalangu*
 
-**Encyclopedia ID 33** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/33-talking-drum/
+**Encyclopedia ID 33** (permanent) · https://equalinformation.com/world-heritage-games-site/games/33-talking-drum/
 
 ![Talking drum](../../../img/photos/00033-talking-drum.jpg)
 

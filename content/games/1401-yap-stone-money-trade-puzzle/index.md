@@ -13,7 +13,7 @@ countries: ["Micronesia"]
 
 *Rai · rai*
 
-**Encyclopedia ID 1401** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1401-yap-stone-money-trade-puzzle/
+**Encyclopedia ID 1401** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1401-yap-stone-money-trade-puzzle/
 
 ![Yap stone money trade puzzle](../../../img/photos/01401-yap-stone-money-trade-puzzle.jpg)
 

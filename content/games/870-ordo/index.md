@@ -13,7 +13,7 @@ countries: ["Kyrgyzstan"]
 
 *Ordo · knock the khan*
 
-**Encyclopedia ID 870** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/870-ordo/
+**Encyclopedia ID 870** (permanent) · https://equalinformation.com/world-heritage-games-site/games/870-ordo/
 
 Players throw bones to knock a target bone out of a circle.
 

@@ -13,7 +13,7 @@ countries: ["Eritrea"]
 
 *Andada · Kunama mancala*
 
-**Encyclopedia ID 700** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/700-andada/
+**Encyclopedia ID 700** (permanent) · https://equalinformation.com/world-heritage-games-site/games/700-andada/
 
 Mancala of the Kunama of western Eritrea where the last mover wins by leaving the opponent without counters.
 

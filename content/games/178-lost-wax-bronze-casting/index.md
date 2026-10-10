@@ -13,7 +13,7 @@ countries: ["Japan", "Benin", "Nigeria"]
 
 *Igun / lost-wax casting*
 
-**Encyclopedia ID 178** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/178-lost-wax-bronze-casting/
+**Encyclopedia ID 178** (permanent) · https://equalinformation.com/world-heritage-games-site/games/178-lost-wax-bronze-casting/
 
 ![Lost-Wax Bronze Casting](../../../img/photos/00178-lost-wax-bronze-casting.jpg)
 

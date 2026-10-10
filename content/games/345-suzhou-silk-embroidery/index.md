@@ -13,7 +13,7 @@ countries: ["China"]
 
 *苏绣 · Su xiu*
 
-**Encyclopedia ID 345** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/345-suzhou-silk-embroidery/
+**Encyclopedia ID 345** (permanent) · https://equalinformation.com/world-heritage-games-site/games/345-suzhou-silk-embroidery/
 
 ![Suzhou silk embroidery](../../../img/photos/00345-suzhou-silk-embroidery.jpg)
 

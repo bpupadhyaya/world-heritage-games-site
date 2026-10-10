@@ -13,7 +13,7 @@ countries: ["Nigeria"]
 
 *Ten Ten (Ten-Ten) · Leg lift*
 
-**Encyclopedia ID 988** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/988-ten-ten/
+**Encyclopedia ID 988** (permanent) · https://equalinformation.com/world-heritage-games-site/games/988-ten-ten/
 
 Children face each other and jump to show one or two feet; matching feet score a point, in a rhythm closely related to Ampe.
 

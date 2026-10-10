@@ -13,7 +13,7 @@ countries: []
 
 *青花瓷*
 
-**Encyclopedia ID 342** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/342-blue-and-white-porcelain-painting/
+**Encyclopedia ID 342** (permanent) · https://equalinformation.com/world-heritage-games-site/games/342-blue-and-white-porcelain-painting/
 
 ![Blue-and-white porcelain painting](../../../img/photos/00342-blue-and-white-porcelain-painting.jpg)
 

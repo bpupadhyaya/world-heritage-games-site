@@ -13,7 +13,7 @@ countries: ["Thailand"]
 
 *Makhos*
 
-**Encyclopedia ID 1142** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1142-thai-checkers/
+**Encyclopedia ID 1142** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1142-thai-checkers/
 
 8x8 checkers with eight pieces per side and long-range kings.
 

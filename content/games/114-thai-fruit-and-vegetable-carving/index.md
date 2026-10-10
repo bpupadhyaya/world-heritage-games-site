@@ -13,7 +13,7 @@ countries: ["Thailand"]
 
 *Kae sa lak*
 
-**Encyclopedia ID 114** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/114-thai-fruit-and-vegetable-carving/
+**Encyclopedia ID 114** (permanent) · https://equalinformation.com/world-heritage-games-site/games/114-thai-fruit-and-vegetable-carving/
 
 ![Thai fruit and vegetable carving](../../../img/photos/00114-thai-fruit-and-vegetable-carving.jpg)
 

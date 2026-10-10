@@ -13,7 +13,7 @@ countries: ["South Korea"]
 
 *공기놀이 Gonggi · Gonggi nori · Five stones*
 
-**Encyclopedia ID 1085** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1085-gonggi/
+**Encyclopedia ID 1085** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1085-gonggi/
 
 Gonggi is a dexterity and skill game tradition from South Korea.
 

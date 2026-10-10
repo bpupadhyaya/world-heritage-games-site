@@ -13,7 +13,7 @@ countries: ["China"]
 
 *杂技转碟 · Chinese acrobatic sticks*
 
-**Encyclopedia ID 73** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/73-plate-spinning/
+**Encyclopedia ID 73** (permanent) · https://equalinformation.com/world-heritage-games-site/games/73-plate-spinning/
 
 ![Plate Spinning](../../../img/photos/00073-plate-spinning.jpg)
 

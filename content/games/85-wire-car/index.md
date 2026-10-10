@@ -13,7 +13,7 @@ countries: []
 
 *Galimoto (Chichewa) / wire-car · street-made toy car*
 
-**Encyclopedia ID 85** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/85-wire-car/
+**Encyclopedia ID 85** (permanent) · https://equalinformation.com/world-heritage-games-site/games/85-wire-car/
 
 ![Wire car](../../../img/photos/00085-wire-car.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Tanzania"]
 
 *Keram · Carrom · carrom*
 
-**Encyclopedia ID 1137** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1137-keram/
+**Encyclopedia ID 1137** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1137-keram/
 
 Flick-disc board game, played in bars at night.
 

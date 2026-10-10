@@ -13,7 +13,7 @@ countries: ["Germany", "Liechtenstein"]
 
 *Mühle · Mill*
 
-**Encyclopedia ID 740** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/740-nine-mens-morris/
+**Encyclopedia ID 740** (permanent) · https://equalinformation.com/world-heritage-games-site/games/740-nine-mens-morris/
 
 Form three in a row to remove stones; ancient game found in German pubs.
 

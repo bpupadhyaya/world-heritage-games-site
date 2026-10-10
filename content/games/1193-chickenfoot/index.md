@@ -13,7 +13,7 @@ countries: ["United States"]
 
 *Chickenfoot / Train Dominoes · Mexican Train*
 
-**Encyclopedia ID 1193** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1193-chickenfoot/
+**Encyclopedia ID 1193** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1193-chickenfoot/
 
 Spinner-hub family domino games where players build branching lines; Chickenfoot adds forked 'feet'.
 

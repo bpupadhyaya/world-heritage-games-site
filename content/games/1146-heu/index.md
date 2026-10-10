@@ -13,7 +13,7 @@ countries: ["Tonga"]
 
 *Heu · stick hit*
 
-**Encyclopedia ID 1146** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1146-heu/
+**Encyclopedia ID 1146** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1146-heu/
 
 Hit a short stick off a hole with a long stick while avoiding being caught.
 

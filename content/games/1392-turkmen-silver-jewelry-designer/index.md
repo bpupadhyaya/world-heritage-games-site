@@ -13,7 +13,7 @@ countries: ["Turkmenistan"]
 
 *Türkmen şaý-sepleri*
 
-**Encyclopedia ID 1392** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1392-turkmen-silver-jewelry-designer/
+**Encyclopedia ID 1392** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1392-turkmen-silver-jewelry-designer/
 
 ![Turkmen Silver Jewelry Designer](../../../img/photos/01392-turkmen-silver-jewelry-designer.jpg)
 

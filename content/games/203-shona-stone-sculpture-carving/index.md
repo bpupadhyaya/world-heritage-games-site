@@ -13,7 +13,7 @@ countries: ["Zimbabwe"]
 
 *Shona sculpture*
 
-**Encyclopedia ID 203** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/203-shona-stone-sculpture-carving/
+**Encyclopedia ID 203** (permanent) · https://equalinformation.com/world-heritage-games-site/games/203-shona-stone-sculpture-carving/
 
 ![Shona stone sculpture carving](../../../img/photos/00203-shona-stone-sculpture-carving.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Pakistan", "India"]
 
 *ٹرک آرٹ*
 
-**Encyclopedia ID 116** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/116-pakistani-truck-art/
+**Encyclopedia ID 116** (permanent) · https://equalinformation.com/world-heritage-games-site/games/116-pakistani-truck-art/
 
 ![Pakistani truck art](../../../img/photos/00116-pakistani-truck-art.jpg)
 

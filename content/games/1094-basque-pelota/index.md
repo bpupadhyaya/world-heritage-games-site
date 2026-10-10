@@ -13,7 +13,7 @@ countries: ["Spain", "France"]
 
 *Pelota Vasca*
 
-**Encyclopedia ID 1094** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1094-basque-pelota/
+**Encyclopedia ID 1094** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1094-basque-pelota/
 
 Wall-and-court ball sport played with the hand, racket or basket; frontón courts in most Basque towns.
 

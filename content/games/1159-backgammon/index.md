@@ -13,7 +13,7 @@ countries: ["Turkey", "Israel", "Libya"]
 
 *Tavla · Tawla · Shesh Besh · Nard · Turkish tables*
 
-**Encyclopedia ID 1159** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1159-backgammon/
+**Encyclopedia ID 1159** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1159-backgammon/
 
 Dice-race tables game played in cafes and homes; usually a match of three variants (portes, plakoto/mahbusa-style, fevga).
 

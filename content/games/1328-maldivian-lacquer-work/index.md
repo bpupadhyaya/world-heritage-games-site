@@ -13,7 +13,7 @@ countries: ["Maldives"]
 
 *ލިއެލާ ޖެހުން · liyelaa jehun*
 
-**Encyclopedia ID 1328** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1328-maldivian-lacquer-work/
+**Encyclopedia ID 1328** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1328-maldivian-lacquer-work/
 
 ![Maldivian lacquer work](../../../img/photos/01328-maldivian-lacquer-work.jpg)
 

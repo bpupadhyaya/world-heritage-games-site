@@ -13,7 +13,7 @@ countries: ["Italy", "Lebanon"]
 
 *Opus tessellatum*
 
-**Encyclopedia ID 500** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/500-tessellated-mosaic-making/
+**Encyclopedia ID 500** (permanent) · https://equalinformation.com/world-heritage-games-site/games/500-tessellated-mosaic-making/
 
 ![Tessellated Mosaic Making](../../../img/photos/00500-tessellated-mosaic-making.jpg)
 

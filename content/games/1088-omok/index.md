@@ -13,7 +13,7 @@ countries: ["South Korea"]
 
 *오목 Omok · Gomoku*
 
-**Encyclopedia ID 1088** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1088-omok/
+**Encyclopedia ID 1088** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1088-omok/
 
 Korean five-in-a-row game on a 19x19 go board.
 

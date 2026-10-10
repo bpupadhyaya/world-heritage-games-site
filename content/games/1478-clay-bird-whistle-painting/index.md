@@ -13,7 +13,7 @@ countries: ["Luxembourg"]
 
 *Péckvillercher*
 
-**Encyclopedia ID 1478** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1478-clay-bird-whistle-painting/
+**Encyclopedia ID 1478** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1478-clay-bird-whistle-painting/
 
 ![Clay Bird Whistle Painting](../../../img/photos/01478-clay-bird-whistle-painting.jpg)
 

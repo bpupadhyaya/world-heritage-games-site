@@ -13,7 +13,7 @@ countries: ["Niger", "Mali", "Algeria"]
 
 *Imzad (Tamasheq)*
 
-**Encyclopedia ID 1301** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1301-imzad-fiddle/
+**Encyclopedia ID 1301** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1301-imzad-fiddle/
 
 ![Imzad Fiddle](../../../img/photos/01301-imzad-fiddle.jpg)
 

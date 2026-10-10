@@ -13,7 +13,7 @@ countries: ["Portugal", "China"]
 
 *澳門葡撻*
 
-**Encyclopedia ID 1471** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1471-macau-portuguese-custard-tart-bake/
+**Encyclopedia ID 1471** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1471-macau-portuguese-custard-tart-bake/
 
 ![Macau Portuguese Custard Tart Bake](../../../img/photos/01471-macau-portuguese-custard-tart-bake.jpg)
 

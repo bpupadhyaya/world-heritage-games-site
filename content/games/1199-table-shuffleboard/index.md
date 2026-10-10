@@ -13,7 +13,7 @@ countries: ["United States"]
 
 *Table Shuffleboard · Shuffleboard*
 
-**Encyclopedia ID 1199** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1199-table-shuffleboard/
+**Encyclopedia ID 1199** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1199-table-shuffleboard/
 
 Slide weighted pucks down a long waxed table (bar form) or push discs on a court (deck form).
 

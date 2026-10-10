@@ -13,7 +13,7 @@ countries: ["Malaysia"]
 
 *Dam / Dam Haji · Dam aji · Dam ular*
 
-**Encyclopedia ID 910** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/910-malay-draughts/
+**Encyclopedia ID 910** (permanent) · https://equalinformation.com/world-heritage-games-site/games/910-malay-draughts/
 
 Two-player draughts-type game on a marked board, often played in coffee shops.
 

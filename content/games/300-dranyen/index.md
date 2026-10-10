@@ -13,7 +13,7 @@ countries: ["China"]
 
 *སྒྲ་སྙན · Tibetan long-neck lute*
 
-**Encyclopedia ID 300** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/300-dranyen/
+**Encyclopedia ID 300** (permanent) · https://equalinformation.com/world-heritage-games-site/games/300-dranyen/
 
 ![Dranyen](../../../img/photos/00300-dranyen.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Costa Rica"]
 
 *Chromos · card flipping*
 
-**Encyclopedia ID 648** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/648-chromos/
+**Encyclopedia ID 648** (permanent) · https://equalinformation.com/world-heritage-games-site/games/648-chromos/
 
 Players slap cards so they flip, winning those they turn over.
 

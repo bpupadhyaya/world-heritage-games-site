@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *手毬*
 
-**Encyclopedia ID 96** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/96-temari-thread-ball-patterns/
+**Encyclopedia ID 96** (permanent) · https://equalinformation.com/world-heritage-games-site/games/96-temari-thread-ball-patterns/
 
 ![Temari Thread-Ball Patterns](../../../img/photos/00096-temari-thread-ball-patterns.jpg)
 

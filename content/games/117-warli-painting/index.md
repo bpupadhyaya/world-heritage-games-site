@@ -13,7 +13,7 @@ countries: ["India"]
 
 *वारली*
 
-**Encyclopedia ID 117** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/117-warli-painting/
+**Encyclopedia ID 117** (permanent) · https://equalinformation.com/world-heritage-games-site/games/117-warli-painting/
 
 ![Warli painting](../../../img/photos/00117-warli-painting.jpg)
 

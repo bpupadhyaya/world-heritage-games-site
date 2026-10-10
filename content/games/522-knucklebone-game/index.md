@@ -13,7 +13,7 @@ countries: ["Afghanistan", "Mongolia"]
 
 *Bujal Bazi · Shagai (anklebone games) · Knucklebones*
 
-**Encyclopedia ID 522** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/522-knucklebone-game/
+**Encyclopedia ID 522** (permanent) · https://equalinformation.com/world-heritage-games-site/games/522-knucklebone-game/
 
 Sheep anklebones with four sides (horse, sheep, camel, goat) are used as dice and tokens in many games, including tabletop flick races over about ten metres.
 

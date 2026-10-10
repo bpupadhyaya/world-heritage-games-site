@@ -13,7 +13,7 @@ countries: ["South Korea"]
 
 *달고나 / 뽑기 · honeycomb candy carving*
 
-**Encyclopedia ID 100** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/100-dalgona/
+**Encyclopedia ID 100** (permanent) · https://equalinformation.com/world-heritage-games-site/games/100-dalgona/
 
 ![Dalgona](../../../img/photos/00100-dalgona.jpg)
 

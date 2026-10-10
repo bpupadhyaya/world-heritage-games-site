@@ -13,7 +13,7 @@ countries: ["Bolivia", "Bulgaria"]
 
 *Taba · knucklebone toss*
 
-**Encyclopedia ID 594** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/594-taba/
+**Encyclopedia ID 594** (permanent) · https://equalinformation.com/world-heritage-games-site/games/594-taba/
 
 Two players race fifteen checkers each around a board with dice, hitting blots; the Bulgarian form of backgammon.
 

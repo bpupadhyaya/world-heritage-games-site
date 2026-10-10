@@ -13,7 +13,7 @@ countries: ["Brazil"]
 
 *Jangada · Ceara fishing raft*
 
-**Encyclopedia ID 1413** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1413-jangada-sailing/
+**Encyclopedia ID 1413** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1413-jangada-sailing/
 
 ![Jangada Sailing](../../../img/photos/01413-jangada-sailing.jpg)
 

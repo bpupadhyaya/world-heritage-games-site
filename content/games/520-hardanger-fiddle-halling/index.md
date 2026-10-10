@@ -13,7 +13,7 @@ countries: ["Norway"]
 
 *Hardingfele*
 
-**Encyclopedia ID 520** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/520-hardanger-fiddle-halling/
+**Encyclopedia ID 520** (permanent) · https://equalinformation.com/world-heritage-games-site/games/520-hardanger-fiddle-halling/
 
 ![Hardanger Fiddle Halling](../../../img/photos/00520-hardanger-fiddle-halling.jpg)
 

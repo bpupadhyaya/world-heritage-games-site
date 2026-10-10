@@ -13,7 +13,7 @@ countries: ["North Macedonia"]
 
 *Охридски бисер*
 
-**Encyclopedia ID 1350** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1350-ohrid-pearl-maker/
+**Encyclopedia ID 1350** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1350-ohrid-pearl-maker/
 
 ![Ohrid Pearl Maker](../../../img/photos/01350-ohrid-pearl-maker.jpg)
 

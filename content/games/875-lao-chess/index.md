@@ -13,7 +13,7 @@ countries: ["Laos"]
 
 *Mak Ruk (Lao chess)*
 
-**Encyclopedia ID 875** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/875-lao-chess/
+**Encyclopedia ID 875** (permanent) · https://equalinformation.com/world-heritage-games-site/games/875-lao-chess/
 
 Lao form of the Makruk-family chess; rules follow the Thai game closely.
 

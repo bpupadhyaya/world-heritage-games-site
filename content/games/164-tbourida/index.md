@@ -13,7 +13,7 @@ countries: ["Morocco"]
 
 *Tbourida / Fantasia · Moroccan horseback charge*
 
-**Encyclopedia ID 164** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/164-tbourida/
+**Encyclopedia ID 164** (permanent) · https://equalinformation.com/world-heritage-games-site/games/164-tbourida/
 
 ![Tbourida](../../../img/photos/00164-tbourida.jpg)
 

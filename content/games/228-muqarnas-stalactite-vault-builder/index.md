@@ -13,7 +13,7 @@ countries: ["Iran"]
 
 *مقرنس*
 
-**Encyclopedia ID 228** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/228-muqarnas-stalactite-vault-builder/
+**Encyclopedia ID 228** (permanent) · https://equalinformation.com/world-heritage-games-site/games/228-muqarnas-stalactite-vault-builder/
 
 ![Muqarnas stalactite vault builder](../../../img/photos/00228-muqarnas-stalactite-vault-builder.jpg)
 

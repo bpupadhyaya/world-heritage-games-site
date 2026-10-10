@@ -13,7 +13,7 @@ countries: ["United Kingdom"]
 
 *Bat and Trap / Aunt Sally / Toad in the Hole · Ringing the Bull*
 
-**Encyclopedia ID 1180** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1180-regional-pub-games/
+**Encyclopedia ID 1180** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1180-regional-pub-games/
 
 Regional pub and garden games: bat and trap (Kent), Aunt Sally (Oxfordshire), toad in the hole (Sussex), ringing the bull (Nottingham).
 

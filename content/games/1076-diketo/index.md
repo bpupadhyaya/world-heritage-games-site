@@ -13,7 +13,7 @@ countries: ["South Africa", "Botswana", "Lesotho"]
 
 *Diketo · Magave · Upuca · Puca*
 
-**Encyclopedia ID 1076** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1076-diketo/
+**Encyclopedia ID 1076** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1076-diketo/
 
 Toss a stone upward and sweep pebbles from a circle before catching it; jacks-style.
 

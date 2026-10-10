@@ -13,7 +13,7 @@ countries: ["Turkey"]
 
 *Yağlı güreş · yagli gures*
 
-**Encyclopedia ID 480** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/480-oil-wrestling/
+**Encyclopedia ID 480** (permanent) · https://equalinformation.com/world-heritage-games-site/games/480-oil-wrestling/
 
 ![Oil wrestling](../../../img/photos/00480-oil-wrestling.jpg)
 

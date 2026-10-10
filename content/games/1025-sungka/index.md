@@ -13,7 +13,7 @@ countries: ["Philippines"]
 
 *Sungka*
 
-**Encyclopedia ID 1025** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1025-sungka/
+**Encyclopedia ID 1025** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1025-sungka/
 
 Filipino mancala with 7 houses per side and 2 home pits.
 

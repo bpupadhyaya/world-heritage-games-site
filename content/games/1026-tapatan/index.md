@@ -13,7 +13,7 @@ countries: ["Philippines"]
 
 *Tapatan*
 
-**Encyclopedia ID 1026** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1026-tapatan/
+**Encyclopedia ID 1026** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1026-tapatan/
 
 Three men's morris style game on a 3x3 grid.
 

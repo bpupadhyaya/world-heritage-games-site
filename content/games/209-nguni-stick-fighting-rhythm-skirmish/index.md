@@ -13,7 +13,7 @@ countries: ["South Africa", "Eswatini"]
 
 *Intonga / donga · intonga*
 
-**Encyclopedia ID 209** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/209-nguni-stick-fighting-rhythm-skirmish/
+**Encyclopedia ID 209** (permanent) · https://equalinformation.com/world-heritage-games-site/games/209-nguni-stick-fighting-rhythm-skirmish/
 
 ![Nguni stick-fighting rhythm skirmish](../../../img/photos/00209-nguni-stick-fighting-rhythm-skirmish.jpg)
 

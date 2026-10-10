@@ -13,7 +13,7 @@ countries: ["Iran", "Iraq", "India", "Greece"]
 
 *Santur / santoor*
 
-**Encyclopedia ID 138** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/138-santur-hammer-strings/
+**Encyclopedia ID 138** (permanent) · https://equalinformation.com/world-heritage-games-site/games/138-santur-hammer-strings/
 
 ![Santur Hammer Strings](../../../img/photos/00138-santur-hammer-strings.jpg)
 

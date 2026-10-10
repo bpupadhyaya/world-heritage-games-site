@@ -13,7 +13,7 @@ countries: []
 
 *粵劇*
 
-**Encyclopedia ID 370** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/370-cantonese-opera-role-maker/
+**Encyclopedia ID 370** (permanent) · https://equalinformation.com/world-heritage-games-site/games/370-cantonese-opera-role-maker/
 
 ![Cantonese opera role maker](../../../img/photos/00370-cantonese-opera-role-maker.jpg)
 

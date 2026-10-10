@@ -13,7 +13,7 @@ countries: ["Iran"]
 
 *چهارباغ · Chahar Bagh*
 
-**Encyclopedia ID 239** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/239-persian-garden-layout-puzzle/
+**Encyclopedia ID 239** (permanent) · https://equalinformation.com/world-heritage-games-site/games/239-persian-garden-layout-puzzle/
 
 ![Persian garden layout puzzle](../../../img/photos/00239-persian-garden-layout-puzzle.jpg)
 

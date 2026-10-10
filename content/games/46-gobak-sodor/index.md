@@ -13,7 +13,7 @@ countries: ["Indonesia", "Malaysia"]
 
 *Gobak Sodor / Galah Asin · line-guard tag*
 
-**Encyclopedia ID 46** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/46-gobak-sodor/
+**Encyclopedia ID 46** (permanent) · https://equalinformation.com/world-heritage-games-site/games/46-gobak-sodor/
 
 ![Gobak Sodor](../../../img/photos/00046-gobak-sodor.jpg)
 

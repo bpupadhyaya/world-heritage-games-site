@@ -13,7 +13,7 @@ countries: ["Mexico"]
 
 *Pelota mixteca*
 
-**Encyclopedia ID 936** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/936-mixtec-ball-game/
+**Encyclopedia ID 936** (permanent) · https://equalinformation.com/world-heritage-games-site/games/936-mixtec-ball-game/
 
 Net-less tennis style game where players strike a hard ball with a heavy glove-and-board over a long dirt court.
 

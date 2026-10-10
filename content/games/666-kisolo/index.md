@@ -13,7 +13,7 @@ countries: ["DR Congo", "Zambia"]
 
 *Kisolo / Chisolo · Chisolo · 4x8 mancala*
 
-**Encyclopedia ID 666** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/666-kisolo/
+**Encyclopedia ID 666** (permanent) · https://equalinformation.com/world-heritage-games-site/games/666-kisolo/
 
 Four-row mancala of the Luba, Lulua and Songye peoples; also in Zambia/Zimbabwe.
 

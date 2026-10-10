@@ -13,7 +13,7 @@ countries: ["Samoa"]
 
 *Kilikiti*
 
-**Encyclopedia ID 1056** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1056-samoan-cricket/
+**Encyclopedia ID 1056** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1056-samoan-cricket/
 
 Community cricket using a three-sided wooden club and pandanus ball, with singing, food and village hosting.
 

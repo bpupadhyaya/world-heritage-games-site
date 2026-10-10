@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *練り切り*
 
-**Encyclopedia ID 350** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/350-nerikiri-wagashi-sculpting/
+**Encyclopedia ID 350** (permanent) · https://equalinformation.com/world-heritage-games-site/games/350-nerikiri-wagashi-sculpting/
 
 ![Nerikiri wagashi sculpting](../../../img/photos/00350-nerikiri-wagashi-sculpting.jpg)
 

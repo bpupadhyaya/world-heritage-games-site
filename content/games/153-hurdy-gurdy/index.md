@@ -13,7 +13,7 @@ countries: ["France"]
 
 *Vielle a roue*
 
-**Encyclopedia ID 153** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/153-hurdy-gurdy/
+**Encyclopedia ID 153** (permanent) · https://equalinformation.com/world-heritage-games-site/games/153-hurdy-gurdy/
 
 ![Hurdy-gurdy](../../../img/photos/00153-hurdy-gurdy.jpg)
 

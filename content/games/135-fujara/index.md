@@ -13,7 +13,7 @@ countries: ["Slovakia"]
 
 *Fujara · Shepherd's Overtone Flute*
 
-**Encyclopedia ID 135** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/135-fujara/
+**Encyclopedia ID 135** (permanent) · https://equalinformation.com/world-heritage-games-site/games/135-fujara/
 
 ![Fujara](../../../img/photos/00135-fujara.jpg)
 

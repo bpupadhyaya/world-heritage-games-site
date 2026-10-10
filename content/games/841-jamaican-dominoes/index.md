@@ -13,7 +13,7 @@ countries: ["Jamaica"]
 
 *Dominoes (Partner / Cut-Throat / French) · Six Love*
 
-**Encyclopedia ID 841** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/841-jamaican-dominoes/
+**Encyclopedia ID 841** (permanent) · https://equalinformation.com/world-heritage-games-site/games/841-jamaican-dominoes/
 
 Slam-down partner dominoes with trash talk; also solo Cut-Throat; played in rum shops and world tournaments.
 

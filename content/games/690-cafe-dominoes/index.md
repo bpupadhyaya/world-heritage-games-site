@@ -13,7 +13,7 @@ countries: ["Egypt"]
 
 *Domino · Domina*
 
-**Encyclopedia ID 690** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/690-cafe-dominoes/
+**Encyclopedia ID 690** (permanent) · https://equalinformation.com/world-heritage-games-site/games/690-cafe-dominoes/
 
 Tile-matching game played fast in coffeehouses, often as partnerships.
 

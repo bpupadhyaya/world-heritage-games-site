@@ -13,7 +13,7 @@ countries: ["Georgia"]
 
 *ჩურჩხელა · Georgian string-and-nut candle*
 
-**Encyclopedia ID 1255** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1255-churchkhela/
+**Encyclopedia ID 1255** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1255-churchkhela/
 
 ![Churchkhela](../../../img/photos/01255-churchkhela.jpg)
 

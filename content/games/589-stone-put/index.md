@@ -13,7 +13,7 @@ countries: ["Bhutan", "Switzerland"]
 
 *Pundo · Pesa*
 
-**Encyclopedia ID 589** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/589-stone-put/
+**Encyclopedia ID 589** (permanent) · https://equalinformation.com/world-heritage-games-site/games/589-stone-put/
 
 A stone over one kilogram is thrown from the shoulder as far as possible, much like shot put.
 

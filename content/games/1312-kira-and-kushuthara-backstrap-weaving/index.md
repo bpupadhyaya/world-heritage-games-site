@@ -13,7 +13,7 @@ countries: ["Bhutan"]
 
 *ཀི་ར། (kira)*
 
-**Encyclopedia ID 1312** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1312-kira-and-kushuthara-backstrap-weaving/
+**Encyclopedia ID 1312** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1312-kira-and-kushuthara-backstrap-weaving/
 
 ![Kira and Kushuthara backstrap weaving](../../../img/photos/01312-kira-and-kushuthara-backstrap-weaving.jpg)
 

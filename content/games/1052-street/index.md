@@ -13,7 +13,7 @@ countries: ["Saint Vincent and the Grenadines", "Grenada"]
 
 *Marbles / Hopscotch*
 
-**Encyclopedia ID 1052** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1052-street/
+**Encyclopedia ID 1052** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1052-street/
 
 Children's yard games: flicking marbles at targets and hopping through a chalk grid.
 

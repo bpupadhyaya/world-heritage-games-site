@@ -13,7 +13,7 @@ countries: ["Venezuela"]
 
 *Lotería*
 
-**Encyclopedia ID 1211** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1211-loteria/
+**Encyclopedia ID 1211** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1211-loteria/
 
 Picture bingo.
 

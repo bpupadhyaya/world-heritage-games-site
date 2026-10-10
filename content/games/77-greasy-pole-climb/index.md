@@ -13,7 +13,7 @@ countries: ["Indonesia"]
 
 *Panjat pinang*
 
-**Encyclopedia ID 77** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/77-greasy-pole-climb/
+**Encyclopedia ID 77** (permanent) · https://equalinformation.com/world-heritage-games-site/games/77-greasy-pole-climb/
 
 ![Greasy pole climb](../../../img/photos/00077-greasy-pole-climb.jpg)
 

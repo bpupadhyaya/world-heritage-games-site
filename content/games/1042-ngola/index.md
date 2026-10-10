@@ -13,7 +13,7 @@ countries: ["Congo"]
 
 *Ngola · Congolese mancala*
 
-**Encyclopedia ID 1042** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1042-ngola/
+**Encyclopedia ID 1042** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1042-ngola/
 
 Two rows of six holes, 44 pieces, played at home and in the street; described as African chess in Congolese press.
 

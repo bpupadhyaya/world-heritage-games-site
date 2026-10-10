@@ -13,7 +13,7 @@ countries: ["Norway", "Sweden", "Denmark", "Iceland"]
 
 *Hnefatafl / Tafl · Viking chess*
 
-**Encyclopedia ID 995** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/995-tafl/
+**Encyclopedia ID 995** (permanent) · https://equalinformation.com/world-heritage-games-site/games/995-tafl/
 
 An uneven-armies siege game: attackers surround the king while he races to escape.
 

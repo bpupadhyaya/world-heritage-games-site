@@ -13,7 +13,7 @@ countries: ["Congo"]
 
 *Kuli · Tio ball game*
 
-**Encyclopedia ID 1041** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1041-kuli/
+**Encyclopedia ID 1041** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1041-kuli/
 
 Ball game of the Tio people, listed in Wikipedia's African traditional games.
 

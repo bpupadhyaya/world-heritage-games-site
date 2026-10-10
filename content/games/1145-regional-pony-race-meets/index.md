@@ -13,7 +13,7 @@ countries: ["Timor-Leste"]
 
 *Horse racing (Timor pony meets)*
 
-**Encyclopedia ID 1145** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1145-regional-pony-race-meets/
+**Encyclopedia ID 1145** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1145-regional-pony-race-meets/
 
 Regional race meets run on the small, agile Timor pony; the only traditional pastime Wikipedia names for the country.
 

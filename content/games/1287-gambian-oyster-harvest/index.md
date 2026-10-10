@@ -13,7 +13,7 @@ countries: ["Gambia"]
 
 *Mangrove oyster harvesting*
 
-**Encyclopedia ID 1287** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1287-gambian-oyster-harvest/
+**Encyclopedia ID 1287** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1287-gambian-oyster-harvest/
 
 ![Gambian Oyster Harvest](../../../img/photos/01287-gambian-oyster-harvest.jpg)
 

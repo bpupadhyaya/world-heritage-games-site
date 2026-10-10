@@ -13,7 +13,7 @@ countries: ["Myanmar"]
 
 *စစ်တုရင် · Burmese chess*
 
-**Encyclopedia ID 302** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/302-sittuyin/
+**Encyclopedia ID 302** (permanent) · https://equalinformation.com/world-heritage-games-site/games/302-sittuyin/
 
 ![Sittuyin](../../../img/photos/00302-sittuyin.jpg)
 

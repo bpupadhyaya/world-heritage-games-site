@@ -13,7 +13,7 @@ countries: ["Nauru"]
 
 *Eakabarere*
 
-**Encyclopedia ID 963** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/963-nauruan-wrestling/
+**Encyclopedia ID 963** (permanent) · https://equalinformation.com/world-heritage-games-site/games/963-nauruan-wrestling/
 
 Traditional wrestling form listed on Wikipedia under Nauru's traditional pursuits.
 

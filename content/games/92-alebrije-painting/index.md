@@ -13,7 +13,7 @@ countries: ["Mexico"]
 
 *Alebrijes de Oaxaca*
 
-**Encyclopedia ID 92** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/92-alebrije-painting/
+**Encyclopedia ID 92** (permanent) · https://equalinformation.com/world-heritage-games-site/games/92-alebrije-painting/
 
 ![Alebrije painting](../../../img/photos/00092-alebrije-painting.jpg)
 

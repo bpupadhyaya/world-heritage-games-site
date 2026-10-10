@@ -13,7 +13,7 @@ countries: ["Kiribati"]
 
 *String figures*
 
-**Encyclopedia ID 866** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/866-gilbert-islands-string-figures/
+**Encyclopedia ID 866** (permanent) · https://equalinformation.com/world-heritage-games-site/games/866-gilbert-islands-string-figures/
 
 Making patterns by looping string around the fingers, often with chants or stories; a regional tradition assumed here but not confirmed for this country.
 

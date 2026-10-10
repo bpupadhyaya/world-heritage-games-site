@@ -13,7 +13,7 @@ countries: ["Sweden"]
 
 *varpa · Gotland throwing game*
 
-**Encyclopedia ID 1396** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1396-varpa/
+**Encyclopedia ID 1396** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1396-varpa/
 
 ![Varpa](../../../img/photos/01396-varpa.jpg)
 

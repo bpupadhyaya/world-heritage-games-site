@@ -13,7 +13,7 @@ countries: ["Iraq"]
 
 *مضيف · Marsh Arabs*
 
-**Encyclopedia ID 230** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/230-mudhif-reed-arch-house/
+**Encyclopedia ID 230** (permanent) · https://equalinformation.com/world-heritage-games-site/games/230-mudhif-reed-arch-house/
 
 ![Mudhif reed-arch house](../../../img/photos/00230-mudhif-reed-arch-house.jpg)
 

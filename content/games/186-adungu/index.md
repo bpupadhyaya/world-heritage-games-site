@@ -13,7 +13,7 @@ countries: ["Uganda"]
 
 *Adungu · arched harp*
 
-**Encyclopedia ID 186** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/186-adungu/
+**Encyclopedia ID 186** (permanent) · https://equalinformation.com/world-heritage-games-site/games/186-adungu/
 
 ![Adungu](../../../img/photos/00186-adungu.jpg)
 

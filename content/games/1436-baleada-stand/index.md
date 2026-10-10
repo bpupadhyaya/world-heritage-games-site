@@ -13,7 +13,7 @@ countries: ["Honduras"]
 
 *Baleada · street tortilla cook*
 
-**Encyclopedia ID 1436** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1436-baleada-stand/
+**Encyclopedia ID 1436** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1436-baleada-stand/
 
 ![Baleada Stand](../../../img/photos/01436-baleada-stand.jpg)
 

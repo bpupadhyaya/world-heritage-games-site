@@ -13,7 +13,7 @@ countries: ["Belgium"]
 
 *Vinkenzetting · Vinkensport*
 
-**Encyclopedia ID 584** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/584-finch-sitting/
+**Encyclopedia ID 584** (permanent) · https://equalinformation.com/world-heritage-games-site/games/584-finch-sitting/
 
 Chaffinch owners compete on how many songs their bird sings in an hour; 400-year-old Flemish tradition.
 

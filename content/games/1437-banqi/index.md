@@ -13,7 +13,7 @@ countries: ["China", "Taiwan"]
 
 *暗棋 / 半棋 · Dark Chess*
 
-**Encyclopedia ID 1437** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1437-banqi/
+**Encyclopedia ID 1437** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1437-banqi/
 
 ![Banqi](../../../img/photos/01437-banqi.jpg)
 

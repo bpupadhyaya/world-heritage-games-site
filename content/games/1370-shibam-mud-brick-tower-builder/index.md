@@ -13,7 +13,7 @@ countries: ["Yemen"]
 
 *شبام حضرموت*
 
-**Encyclopedia ID 1370** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1370-shibam-mud-brick-tower-builder/
+**Encyclopedia ID 1370** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1370-shibam-mud-brick-tower-builder/
 
 ![Shibam Mud-Brick Tower Builder](../../../img/photos/01370-shibam-mud-brick-tower-builder.jpg)
 

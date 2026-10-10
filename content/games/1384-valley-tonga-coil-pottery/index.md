@@ -13,7 +13,7 @@ countries: ["Tonga", "Zambia"]
 
 *Valley Tonga coil pottery*
 
-**Encyclopedia ID 1384** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1384-valley-tonga-coil-pottery/
+**Encyclopedia ID 1384** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1384-valley-tonga-coil-pottery/
 
 ![Valley Tonga coil pottery](../../../img/photos/01384-valley-tonga-coil-pottery.jpg)
 

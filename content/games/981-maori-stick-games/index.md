@@ -13,7 +13,7 @@ countries: ["New Zealand"]
 
 *Tītī tōrea*
 
-**Encyclopedia ID 981** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/981-maori-stick-games/
+**Encyclopedia ID 981** (permanent) · https://equalinformation.com/world-heritage-games-site/games/981-maori-stick-games/
 
 Rhythmic partner game passing and tossing short sticks, often with song.
 

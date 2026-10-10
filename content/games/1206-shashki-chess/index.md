@@ -13,7 +13,7 @@ countries: ["Uzbekistan"]
 
 *Shashka · Russian draughts*
 
-**Encyclopedia ID 1206** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1206-shashki-chess/
+**Encyclopedia ID 1206** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1206-shashki-chess/
 
 Draughts and chess are the common board games in Russian-influenced Central Asia.
 

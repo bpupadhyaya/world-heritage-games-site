@@ -13,7 +13,7 @@ countries: []
 
 *Stone skimming / Ducks and drakes*
 
-**Encyclopedia ID 5** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/5-stone-skipping/
+**Encyclopedia ID 5** (permanent) · https://equalinformation.com/world-heritage-games-site/games/5-stone-skipping/
 
 ![Stone Skipping](../../../img/photos/00005-stone-skipping.jpg)
 

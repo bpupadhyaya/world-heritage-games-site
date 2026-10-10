@@ -13,7 +13,7 @@ countries: ["Bahamas", "United States"]
 
 *Draughts / Checkers · pool checkers*
 
-**Encyclopedia ID 567** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/567-checkers/
+**Encyclopedia ID 567** (permanent) · https://equalinformation.com/world-heritage-games-site/games/567-checkers/
 
 Common bar and park game in the Caribbean; pool-checkers (Wikipedia) is regionally associated.
 

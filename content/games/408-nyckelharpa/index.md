@@ -13,7 +13,7 @@ countries: ["Sweden"]
 
 *Nyckelharpa · key fiddle*
 
-**Encyclopedia ID 408** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/408-nyckelharpa/
+**Encyclopedia ID 408** (permanent) · https://equalinformation.com/world-heritage-games-site/games/408-nyckelharpa/
 
 ![Nyckelharpa](../../../img/photos/00408-nyckelharpa.jpg)
 

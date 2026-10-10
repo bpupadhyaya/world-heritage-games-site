@@ -13,7 +13,7 @@ countries: ["Zambia", "Malawi"]
 
 *Nsolo · Isolo · Insolo · Chisolo*
 
-**Encyclopedia ID 1220** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1220-nsolo/
+**Encyclopedia ID 1220** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1220-nsolo/
 
 Large four-row mancala dug in the ground; some boards up to 4x36.
 

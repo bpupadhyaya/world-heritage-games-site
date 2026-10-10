@@ -13,7 +13,7 @@ countries: ["Georgia"]
 
 *ჭონგური · Georgian four-string lute*
 
-**Encyclopedia ID 255** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/255-chonguri/
+**Encyclopedia ID 255** (permanent) · https://equalinformation.com/world-heritage-games-site/games/255-chonguri/
 
 ![Chonguri](../../../img/photos/00255-chonguri.jpg)
 

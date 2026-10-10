@@ -13,7 +13,7 @@ countries: ["Bhutan"]
 
 *Khuru · Kuru*
 
-**Encyclopedia ID 592** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/592-khuru/
+**Encyclopedia ID 592** (permanent) · https://equalinformation.com/world-heritage-games-site/games/592-khuru/
 
 Heavy wooden darts with nail tips are thrown underarm at a small upright board; teams score for hits and closeness.
 

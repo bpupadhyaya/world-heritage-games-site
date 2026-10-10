@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *算額*
 
-**Encyclopedia ID 109** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/109-sangaku-geometry-puzzles/
+**Encyclopedia ID 109** (permanent) · https://equalinformation.com/world-heritage-games-site/games/109-sangaku-geometry-puzzles/
 
 ![Sangaku Geometry Puzzles](../../../img/photos/00109-sangaku-geometry-puzzles.jpg)
 

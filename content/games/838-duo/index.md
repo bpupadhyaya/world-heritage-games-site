@@ -13,7 +13,7 @@ countries: ["Cote d'Ivoire"]
 
 *Duo · 11-stick alignment game*
 
-**Encyclopedia ID 838** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/838-duo/
+**Encyclopedia ID 838** (permanent) · https://equalinformation.com/world-heritage-games-site/games/838-duo/
 
 Two players move 11 sticks each on a rectangular board to line them up while blocking the opponent.
 

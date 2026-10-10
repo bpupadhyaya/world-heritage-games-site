@@ -13,7 +13,7 @@ countries: ["Tunisia"]
 
 *Mezoued / مزود*
 
-**Encyclopedia ID 1336** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1336-mezoued-bagpipe-and-tabl-drum/
+**Encyclopedia ID 1336** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1336-mezoued-bagpipe-and-tabl-drum/
 
 ![Mezoued Bagpipe and Tabl Drum](../../../img/photos/01336-mezoued-bagpipe-and-tabl-drum.jpg)
 

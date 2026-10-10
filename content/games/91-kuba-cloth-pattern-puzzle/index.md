@@ -13,7 +13,7 @@ countries: ["DR Congo"]
 
 *Kuba raffia cloth*
 
-**Encyclopedia ID 91** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/91-kuba-cloth-pattern-puzzle/
+**Encyclopedia ID 91** (permanent) · https://equalinformation.com/world-heritage-games-site/games/91-kuba-cloth-pattern-puzzle/
 
 ![Kuba cloth pattern puzzle](../../../img/photos/00091-kuba-cloth-pattern-puzzle.jpg)
 

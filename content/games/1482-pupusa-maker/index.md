@@ -13,7 +13,7 @@ countries: ["El Salvador"]
 
 *Pupusa · hand-patted stuffed tortillas*
 
-**Encyclopedia ID 1482** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1482-pupusa-maker/
+**Encyclopedia ID 1482** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1482-pupusa-maker/
 
 ![Pupusa Maker](../../../img/photos/01482-pupusa-maker.jpg)
 

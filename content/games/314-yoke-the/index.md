@@ -13,7 +13,7 @@ countries: ["Myanmar"]
 
 *ရုပ်သေးရုံ · Burmese marionette theatre*
 
-**Encyclopedia ID 314** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/314-yoke-the/
+**Encyclopedia ID 314** (permanent) · https://equalinformation.com/world-heritage-games-site/games/314-yoke-the/
 
 ![Yoke thé](../../../img/photos/00314-yoke-the.jpg)
 

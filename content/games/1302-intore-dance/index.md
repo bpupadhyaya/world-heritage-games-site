@@ -13,7 +13,7 @@ countries: ["Rwanda"]
 
 *Intore*
 
-**Encyclopedia ID 1302** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1302-intore-dance/
+**Encyclopedia ID 1302** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1302-intore-dance/
 
 ![Intore dance](../../../img/photos/01302-intore-dance.jpg)
 

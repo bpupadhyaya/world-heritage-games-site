@@ -13,7 +13,7 @@ countries: ["India"]
 
 *dhol*
 
-**Encyclopedia ID 263** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/263-dhol-drum-rhythm/
+**Encyclopedia ID 263** (permanent) · https://equalinformation.com/world-heritage-games-site/games/263-dhol-drum-rhythm/
 
 ![Dhol drum rhythm](../../../img/photos/00263-dhol-drum-rhythm.jpg)
 

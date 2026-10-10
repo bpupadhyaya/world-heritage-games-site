@@ -13,7 +13,7 @@ countries: ["Colombia"]
 
 *Atarraya · cast-net throwing*
 
-**Encyclopedia ID 1434** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1434-atarraya/
+**Encyclopedia ID 1434** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1434-atarraya/
 
 ![Atarraya](../../../img/photos/01434-atarraya.jpg)
 

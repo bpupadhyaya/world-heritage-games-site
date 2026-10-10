@@ -13,7 +13,7 @@ countries: ["Portugal"]
 
 *Azulejo*
 
-**Encyclopedia ID 122** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/122-azulejo-tile-painting/
+**Encyclopedia ID 122** (permanent) · https://equalinformation.com/world-heritage-games-site/games/122-azulejo-tile-painting/
 
 ![Azulejo tile painting](../../../img/photos/00122-azulejo-tile-painting.jpg)
 

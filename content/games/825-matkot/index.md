@@ -13,7 +13,7 @@ countries: ["Israel"]
 
 *Matkot · beach paddle rally*
 
-**Encyclopedia ID 825** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/825-matkot/
+**Encyclopedia ID 825** (permanent) · https://equalinformation.com/world-heritage-games-site/games/825-matkot/
 
 Two players rally a hard rubber ball with wooden paddles; cooperative, no points.
 

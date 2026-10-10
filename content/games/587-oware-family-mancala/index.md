@@ -13,7 +13,7 @@ countries: ["Benin", "Burkina Faso", "Cote d'Ivoire", "Guinea", "Niger", "Senega
 
 *Adjito (Aji) · Awale · Adji · 2x6 sowing*
 
-**Encyclopedia ID 587** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/587-oware-family-mancala/
+**Encyclopedia ID 587** (permanent) · https://equalinformation.com/world-heritage-games-site/games/587-oware-family-mancala/
 
 Two players sow seeds anticlockwise around a 2x6 board and capture small piles; a core home and street game.
 

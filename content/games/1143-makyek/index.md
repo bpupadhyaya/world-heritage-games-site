@@ -13,7 +13,7 @@ countries: ["Thailand"]
 
 *Makyek*
 
-**Encyclopedia ID 1143** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1143-makyek/
+**Encyclopedia ID 1143** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1143-makyek/
 
 Thai custodian-capture game on an 8x8 board where rook-like pieces capture by sandwiching an enemy piece.
 

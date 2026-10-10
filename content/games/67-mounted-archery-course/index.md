@@ -13,7 +13,7 @@ countries: ["Hungary"]
 
 *Lovasíjászat*
 
-**Encyclopedia ID 67** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/67-mounted-archery-course/
+**Encyclopedia ID 67** (permanent) · https://equalinformation.com/world-heritage-games-site/games/67-mounted-archery-course/
 
 ![Mounted Archery Course](../../../img/photos/00067-mounted-archery-course.jpg)
 

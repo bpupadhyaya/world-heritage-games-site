@@ -13,7 +13,7 @@ countries: ["Lebanon", "Syria", "Palestine"]
 
 *buzuq / بزق*
 
-**Encyclopedia ID 218** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/218-buzuq-long-neck-lute/
+**Encyclopedia ID 218** (permanent) · https://equalinformation.com/world-heritage-games-site/games/218-buzuq-long-neck-lute/
 
 ![Buzuq Long-Neck Lute](../../../img/photos/00218-buzuq-long-neck-lute.jpg)
 

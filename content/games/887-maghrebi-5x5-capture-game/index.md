@@ -13,7 +13,7 @@ countries: ["Libya"]
 
 *Siga/Kharbga*
 
-**Encyclopedia ID 887** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/887-maghrebi-5x5-capture-game/
+**Encyclopedia ID 887** (permanent) · https://equalinformation.com/world-heritage-games-site/games/887-maghrebi-5x5-capture-game/
 
 Two-player capture game on a 5x5 diagonal-line grid, drawn in sand or chalk; kinged pieces move freely.
 

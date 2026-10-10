@@ -13,7 +13,7 @@ countries: ["Maldives"]
 
 *Raazuvaa*
 
-**Encyclopedia ID 917** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/917-maldivian-chess/
+**Encyclopedia ID 917** (permanent) · https://equalinformation.com/world-heritage-games-site/games/917-maldivian-chess/
 
 Island chess variant with the same pieces but different pawn moves.
 

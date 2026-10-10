@@ -13,7 +13,7 @@ countries: ["Pakistan", "India"]
 
 *رلی*
 
-**Encyclopedia ID 1364** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1364-ralli-patchwork-quilt/
+**Encyclopedia ID 1364** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1364-ralli-patchwork-quilt/
 
 ![Ralli patchwork quilt](../../../img/photos/01364-ralli-patchwork-quilt.jpg)
 

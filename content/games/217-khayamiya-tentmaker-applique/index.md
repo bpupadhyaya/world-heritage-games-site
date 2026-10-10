@@ -13,7 +13,7 @@ countries: ["Egypt"]
 
 *khayamiya / خيامية*
 
-**Encyclopedia ID 217** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/217-khayamiya-tentmaker-applique/
+**Encyclopedia ID 217** (permanent) · https://equalinformation.com/world-heritage-games-site/games/217-khayamiya-tentmaker-applique/
 
 ![Khayamiya Tentmaker Applique](../../../img/photos/00217-khayamiya-tentmaker-applique.jpg)
 

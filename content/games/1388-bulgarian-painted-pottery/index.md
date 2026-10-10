@@ -13,7 +13,7 @@ countries: ["Bulgaria"]
 
 *Троянска керамика · Troyan Style*
 
-**Encyclopedia ID 1388** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1388-bulgarian-painted-pottery/
+**Encyclopedia ID 1388** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1388-bulgarian-painted-pottery/
 
 ![Bulgarian Painted Pottery](../../../img/photos/01388-bulgarian-painted-pottery.jpg)
 

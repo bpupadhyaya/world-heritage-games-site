@@ -13,7 +13,7 @@ countries: ["Mali"]
 
 *Ginna / granary*
 
-**Encyclopedia ID 177** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/177-dogon-granary-builder/
+**Encyclopedia ID 177** (permanent) · https://equalinformation.com/world-heritage-games-site/games/177-dogon-granary-builder/
 
 ![Dogon Granary Builder](../../../img/photos/00177-dogon-granary-builder.jpg)
 

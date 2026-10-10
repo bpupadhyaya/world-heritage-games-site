@@ -13,7 +13,7 @@ countries: ["Trinidad and Tobago"]
 
 *Marbles / Hopscotch / Skipping*
 
-**Encyclopedia ID 1155** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1155-street-play-games/
+**Encyclopedia ID 1155** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1155-street-play-games/
 
 Children's yard games.
 

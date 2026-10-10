@@ -13,7 +13,7 @@ countries: []
 
 *ആറന്മുള കണ്ണാടി*
 
-**Encyclopedia ID 285** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/285-aranmula-metal-mirror/
+**Encyclopedia ID 285** (permanent) · https://equalinformation.com/world-heritage-games-site/games/285-aranmula-metal-mirror/
 
 ![Aranmula metal mirror](../../../img/photos/00285-aranmula-metal-mirror.jpg)
 

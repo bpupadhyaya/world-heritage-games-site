@@ -13,7 +13,7 @@ countries: ["Malaysia"]
 
 *gasing uri · giant spinning top*
 
-**Encyclopedia ID 1289** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1289-gasing-uri/
+**Encyclopedia ID 1289** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1289-gasing-uri/
 
 ![Gasing uri](../../../img/photos/01289-gasing-uri.jpg)
 

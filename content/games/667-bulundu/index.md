@@ -13,7 +13,7 @@ countries: ["DR Congo"]
 
 *Bulundu · Luba ball game*
 
-**Encyclopedia ID 667** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/667-bulundu/
+**Encyclopedia ID 667** (permanent) · https://equalinformation.com/world-heritage-games-site/games/667-bulundu/
 
 Ball game of the Luba, listed in Wikipedia's African traditional games list.
 

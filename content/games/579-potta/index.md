@@ -13,7 +13,7 @@ countries: ["Barbados"]
 
 *Potta · Union Jack Game (Antigua) · Morale (France) · three-in-a-row line game*
 
-**Encyclopedia ID 579** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/579-potta/
+**Encyclopedia ID 579** (permanent) · https://equalinformation.com/world-heritage-games-site/games/579-potta/
 
 Players place and move three pieces on a board of intersecting lines aiming to line them up, a cousin of nine-men's-morris style games.
 

@@ -13,7 +13,7 @@ countries: ["Haiti"]
 
 *Domino · Dominos · Dekabès*
 
-**Encyclopedia ID 765** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/765-haitian-dominoes/
+**Encyclopedia ID 765** (permanent) · https://equalinformation.com/world-heritage-games-site/games/765-haitian-dominoes/
 
 Double-six partnership game won by taking four games in a row, with a Dekabès bonus for ending on a tile matching both open ends.
 

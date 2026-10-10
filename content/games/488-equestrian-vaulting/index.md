@@ -13,7 +13,7 @@ countries: []
 
 *Voltigieren*
 
-**Encyclopedia ID 488** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/488-equestrian-vaulting/
+**Encyclopedia ID 488** (permanent) · https://equalinformation.com/world-heritage-games-site/games/488-equestrian-vaulting/
 
 ![Equestrian vaulting](../../../img/photos/00488-equestrian-vaulting.jpg)
 

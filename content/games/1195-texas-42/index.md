@@ -13,7 +13,7 @@ countries: ["United States"]
 
 *Dominoes: Texas 42 · Forty-Two · 42*
 
-**Encyclopedia ID 1195** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1195-texas-42/
+**Encyclopedia ID 1195** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1195-texas-42/
 
 Partnership trick-taking game played with dominoes instead of cards; invented 1887 in Texas.
 

@@ -13,7 +13,7 @@ countries: ["Mexico"]
 
 *Talavera poblana*
 
-**Encyclopedia ID 429** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/429-talavera-tile-painting/
+**Encyclopedia ID 429** (permanent) · https://equalinformation.com/world-heritage-games-site/games/429-talavera-tile-painting/
 
 ![Talavera tile painting](../../../img/photos/00429-talavera-tile-painting.jpg)
 

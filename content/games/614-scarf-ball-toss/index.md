@@ -13,7 +13,7 @@ countries: ["Cambodia"]
 
 *Chol Chhoung*
 
-**Encyclopedia ID 614** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/614-scarf-ball-toss/
+**Encyclopedia ID 614** (permanent) · https://equalinformation.com/world-heritage-games-site/games/614-scarf-ball-toss/
 
 Two teams of boys and girls toss a rolled scarf over a high arc, played on the first night of Khmer New Year.
 

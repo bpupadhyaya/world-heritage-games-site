@@ -13,7 +13,7 @@ countries: ["Vietnam"]
 
 *Co Tuong*
 
-**Encyclopedia ID 1215** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1215-vietnamese-xiangqi/
+**Encyclopedia ID 1215** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1215-vietnamese-xiangqi/
 
 Chinese-chess form with a river dividing 9x10 board; ubiquitous in streets and cafes.
 

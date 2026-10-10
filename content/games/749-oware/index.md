@@ -13,7 +13,7 @@ countries: ["Ghana"]
 
 *Oware (Akan: 'he marries') · Awale · Warri · Adi (Ewe) · Awele (Ga)*
 
-**Encyclopedia ID 749** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/749-oware/
+**Encyclopedia ID 749** (permanent) · https://equalinformation.com/world-heritage-games-site/games/749-oware/
 
 Sowing and capture on a 2x6 board; the national mancala game of Ghana with strong social/onlooker culture.
 

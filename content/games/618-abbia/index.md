@@ -13,7 +13,7 @@ countries: ["Cameroon"]
 
 *Abbia · Beti token game*
 
-**Encyclopedia ID 618** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/618-abbia/
+**Encyclopedia ID 618** (permanent) · https://equalinformation.com/world-heritage-games-site/games/618-abbia/
 
 Beti gambling game played with the seeds/tokens, suppressed in the colonial period; also a cultural symbol of Beti identity.
 

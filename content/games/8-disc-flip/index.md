@@ -13,7 +13,7 @@ countries: ["United Kingdom"]
 
 *Tiddlywinks*
 
-**Encyclopedia ID 8** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/8-disc-flip/
+**Encyclopedia ID 8** (permanent) · https://equalinformation.com/world-heritage-games-site/games/8-disc-flip/
 
 ![Disc-flip](../../../img/photos/00008-disc-flip.jpg)
 

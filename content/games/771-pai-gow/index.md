@@ -13,7 +13,7 @@ countries: ["China"]
 
 *牌九 Paai gau*
 
-**Encyclopedia ID 771** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/771-pai-gow/
+**Encyclopedia ID 771** (permanent) · https://equalinformation.com/world-heritage-games-site/games/771-pai-gow/
 
 Players split four dominoes into a front and back hand and beat the banker's two hands.
 

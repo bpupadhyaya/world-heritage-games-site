@@ -13,7 +13,7 @@ countries: ["Yemen"]
 
 *Mancala (regional)*
 
-**Encyclopedia ID 1219** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1219-arabian-mancala/
+**Encyclopedia ID 1219** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1219-arabian-mancala/
 
 Two players sow seeds along pits and capture; the Arabian mancala family.
 

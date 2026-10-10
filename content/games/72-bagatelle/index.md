@@ -13,7 +13,7 @@ countries: ["France", "United Kingdom"]
 
 *Bagatelle · pin table*
 
-**Encyclopedia ID 72** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/72-bagatelle/
+**Encyclopedia ID 72** (permanent) · https://equalinformation.com/world-heritage-games-site/games/72-bagatelle/
 
 ![Bagatelle](../../../img/photos/00072-bagatelle.jpg)
 

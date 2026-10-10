@@ -13,7 +13,7 @@ countries: ["Kazakhstan"]
 
 *Домбыра / dombyra · two-string lute kuy*
 
-**Encyclopedia ID 48** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/48-dombra/
+**Encyclopedia ID 48** (permanent) · https://equalinformation.com/world-heritage-games-site/games/48-dombra/
 
 ![Dombra](../../../img/photos/00048-dombra.jpg)
 

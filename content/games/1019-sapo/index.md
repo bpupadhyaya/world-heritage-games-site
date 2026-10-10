@@ -13,7 +13,7 @@ countries: ["Peru", "Bolivia", "Uruguay"]
 
 *Sapo · frog toss*
 
-**Encyclopedia ID 1019** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1019-sapo/
+**Encyclopedia ID 1019** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1019-sapo/
 
 Players throw metal discs onto a table, aiming for the frog's mouth, played in picanterias.
 

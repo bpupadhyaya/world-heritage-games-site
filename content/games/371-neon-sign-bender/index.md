@@ -13,7 +13,7 @@ countries: ["China"]
 
 *霓虹燈 · Hong Kong*
 
-**Encyclopedia ID 371** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/371-neon-sign-bender/
+**Encyclopedia ID 371** (permanent) · https://equalinformation.com/world-heritage-games-site/games/371-neon-sign-bender/
 
 ![Neon sign bender](../../../img/photos/00371-neon-sign-bender.jpg)
 

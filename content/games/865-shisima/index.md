@@ -13,7 +13,7 @@ countries: ["Kenya"]
 
 *Shisima · Water bug game*
 
-**Encyclopedia ID 865** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/865-shisima/
+**Encyclopedia ID 865** (permanent) · https://equalinformation.com/world-heritage-games-site/games/865-shisima/
 
 Three-piece octagon board game of the Luhya, similar to tic-tac-toe with moving pieces.
 

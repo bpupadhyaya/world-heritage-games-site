@@ -13,7 +13,7 @@ countries: ["Cote d'Ivoire"]
 
 *Tissu de Korhogo*
 
-**Encyclopedia ID 1318** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1318-korhogo-painted-cloth-studio/
+**Encyclopedia ID 1318** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1318-korhogo-painted-cloth-studio/
 
 ![Korhogo Painted Cloth Studio](../../../img/photos/01318-korhogo-painted-cloth-studio.jpg)
 

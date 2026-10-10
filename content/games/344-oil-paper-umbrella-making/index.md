@@ -13,7 +13,7 @@ countries: ["China"]
 
 *油纸伞*
 
-**Encyclopedia ID 344** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/344-oil-paper-umbrella-making/
+**Encyclopedia ID 344** (permanent) · https://equalinformation.com/world-heritage-games-site/games/344-oil-paper-umbrella-making/
 
 ![Oil-paper umbrella making](../../../img/photos/00344-oil-paper-umbrella-making.jpg)
 

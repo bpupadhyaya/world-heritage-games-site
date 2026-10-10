@@ -13,7 +13,7 @@ countries: ["China"]
 
 *六博 · Six Sticks*
 
-**Encyclopedia ID 331** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/331-liubo/
+**Encyclopedia ID 331** (permanent) · https://equalinformation.com/world-heritage-games-site/games/331-liubo/
 
 ![Liubo](../../../img/photos/00331-liubo.jpg)
 

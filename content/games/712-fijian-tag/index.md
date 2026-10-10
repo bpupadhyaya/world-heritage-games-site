@@ -13,7 +13,7 @@ countries: ["Fiji"]
 
 *Veitara (veibusi, veidreu, qito he)*
 
-**Encyclopedia ID 712** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/712-fijian-tag/
+**Encyclopedia ID 712** (permanent) · https://equalinformation.com/world-heritage-games-site/games/712-fijian-tag/
 
 the Fiji Times says it is still played by children.
 

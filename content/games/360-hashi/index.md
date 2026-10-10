@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *橋をかけろ / Hashiwokakero · bridges puzzle*
 
-**Encyclopedia ID 360** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/360-hashi/
+**Encyclopedia ID 360** (permanent) · https://equalinformation.com/world-heritage-games-site/games/360-hashi/
 
 ![Hashi](../../../img/photos/00360-hashi.jpg)
 

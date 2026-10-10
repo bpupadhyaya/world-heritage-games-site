@@ -13,7 +13,7 @@ countries: ["China"]
 
 *篆刻 · zhuanke*
 
-**Encyclopedia ID 341** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/341-seal-carving/
+**Encyclopedia ID 341** (permanent) · https://equalinformation.com/world-heritage-games-site/games/341-seal-carving/
 
 ![Seal carving](../../../img/photos/00341-seal-carving.jpg)
 

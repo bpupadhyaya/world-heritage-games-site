@@ -13,7 +13,7 @@ countries: ["Bangladesh"]
 
 *শোলা*
 
-**Encyclopedia ID 283** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/283-sholapith-flower-carving/
+**Encyclopedia ID 283** (permanent) · https://equalinformation.com/world-heritage-games-site/games/283-sholapith-flower-carving/
 
 ![Sholapith flower carving](../../../img/photos/00283-sholapith-flower-carving.jpg)
 

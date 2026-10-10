@@ -13,7 +13,7 @@ countries: ["Malawi"]
 
 *Bawo · Bao*
 
-**Encyclopedia ID 906** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/906-bawo/
+**Encyclopedia ID 906** (permanent) · https://equalinformation.com/world-heritage-games-site/games/906-bawo/
 
 Yao tournament mancala with district-to-national championships.
 

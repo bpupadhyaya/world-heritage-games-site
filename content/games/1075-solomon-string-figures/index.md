@@ -13,7 +13,7 @@ countries: ["Solomon Islands"]
 
 *String figures*
 
-**Encyclopedia ID 1075** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1075-solomon-string-figures/
+**Encyclopedia ID 1075** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1075-solomon-string-figures/
 
 Making patterns by looping string around the fingers, often with chants or stories; a regional tradition assumed here but not confirmed for this country.
 

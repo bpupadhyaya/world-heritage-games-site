@@ -13,7 +13,7 @@ countries: ["Cambodia"]
 
 *Bull racing*
 
-**Encyclopedia ID 613** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/613-buffalo-race/
+**Encyclopedia ID 613** (permanent) · https://equalinformation.com/world-heritage-games-site/games/613-buffalo-race/
 
 Water buffalo pairs race along a road, as at the Pchum Ben pagoda event since the 1920s.
 

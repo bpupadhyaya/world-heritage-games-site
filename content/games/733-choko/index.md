@@ -13,7 +13,7 @@ countries: ["Gambia"]
 
 *Choko*
 
-**Encyclopedia ID 733** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/733-choko/
+**Encyclopedia ID 733** (permanent) · https://equalinformation.com/world-heritage-games-site/games/733-choko/
 
 Capture game on a 5x5 board with 12 pieces each, attributed to Mandinka and Fula players in the Gambia valley.
 

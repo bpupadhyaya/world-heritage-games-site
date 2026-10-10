@@ -13,7 +13,7 @@ countries: ["Belgium"]
 
 *Krulbol / Rolle bolle · Rolle bolle · Bolle*
 
-**Encyclopedia ID 583** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/583-krulbollen/
+**Encyclopedia ID 583** (permanent) · https://equalinformation.com/world-heritage-games-site/games/583-krulbollen/
 
 Roll a curved disc (bolle) so it curls close to a stick; ancient Flemish lawn game.
 

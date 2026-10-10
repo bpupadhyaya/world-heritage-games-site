@@ -13,7 +13,7 @@ countries: ["Cuba"]
 
 *El Quemado · dodgeball*
 
-**Encyclopedia ID 654** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/654-burn-out/
+**Encyclopedia ID 654** (permanent) · https://equalinformation.com/world-heritage-games-site/games/654-burn-out/
 
 Players try to hit opponents with a ball while others dodge; now also organised as a sport.
 

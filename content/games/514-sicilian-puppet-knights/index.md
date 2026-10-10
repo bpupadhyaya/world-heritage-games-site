@@ -13,7 +13,7 @@ countries: ["Italy"]
 
 *Opera dei Pupi*
 
-**Encyclopedia ID 514** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/514-sicilian-puppet-knights/
+**Encyclopedia ID 514** (permanent) · https://equalinformation.com/world-heritage-games-site/games/514-sicilian-puppet-knights/
 
 ![Sicilian Puppet Knights](../../../img/photos/00514-sicilian-puppet-knights.jpg)
 

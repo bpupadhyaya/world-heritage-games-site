@@ -13,7 +13,7 @@ countries: ["Tonga"]
 
 *Hiko · juggling*
 
-**Encyclopedia ID 1147** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1147-hiko/
+**Encyclopedia ID 1147** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1147-hiko/
 
 Multi-generational juggling game traditionally for women.
 

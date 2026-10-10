@@ -13,7 +13,7 @@ countries: ["Burundi"]
 
 *Ingoma y'Burundi · Ingoma*
 
-**Encyclopedia ID 1250** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1250-burundian-drum-ensemble/
+**Encyclopedia ID 1250** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1250-burundian-drum-ensemble/
 
 ![Burundian drum ensemble](../../../img/photos/01250-burundian-drum-ensemble.jpg)
 

@@ -13,7 +13,7 @@ countries: ["China", "Laos", "Thailand", "Vietnam"]
 
 *paj ntaub*
 
-**Encyclopedia ID 1298** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1298-hmong-story-cloth/
+**Encyclopedia ID 1298** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1298-hmong-story-cloth/
 
 ![Hmong story cloth](../../../img/photos/01298-hmong-story-cloth.jpg)
 

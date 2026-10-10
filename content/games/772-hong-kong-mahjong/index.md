@@ -13,7 +13,7 @@ countries: ["China"]
 
 *麻雀 Máhjoek (Hong Kong style) · Old Hong Kong mahjong*
 
-**Encyclopedia ID 772** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/772-hong-kong-mahjong/
+**Encyclopedia ID 772** (permanent) · https://equalinformation.com/world-heritage-games-site/games/772-hong-kong-mahjong/
 
 Cantonese mahjong with 13-tile hands, fan-based scoring and 144 tiles including flowers.
 

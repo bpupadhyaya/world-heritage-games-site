@@ -13,7 +13,7 @@ countries: ["Burkina Faso"]
 
 *Yuyu (circle guessing game)*
 
-**Encyclopedia ID 610** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/610-yuyu/
+**Encyclopedia ID 610** (permanent) · https://equalinformation.com/world-heritage-games-site/games/610-yuyu/
 
 Children sit in a circle with eyes closed; one is silently touched and then must be guessed.
 

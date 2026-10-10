@@ -13,7 +13,7 @@ countries: ["China"]
 
 *棚架 · Hong Kong*
 
-**Encyclopedia ID 369** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/369-bamboo-scaffold-builder/
+**Encyclopedia ID 369** (permanent) · https://equalinformation.com/world-heritage-games-site/games/369-bamboo-scaffold-builder/
 
 ![Bamboo scaffold builder](../../../img/photos/00369-bamboo-scaffold-builder.jpg)
 

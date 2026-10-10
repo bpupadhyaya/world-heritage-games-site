@@ -13,7 +13,7 @@ countries: ["Sweden"]
 
 *Brännboll · burnball*
 
-**Encyclopedia ID 1118** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1118-brannboll/
+**Encyclopedia ID 1118** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1118-brannboll/
 
 A bat-and-ball game where batters run around four bases and fielders tag or catch them.
 

@@ -13,7 +13,7 @@ countries: ["France"]
 
 *Joutes nautiques (Sète tradition)*
 
-**Encyclopedia ID 393** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/393-water-jousting/
+**Encyclopedia ID 393** (permanent) · https://equalinformation.com/world-heritage-games-site/games/393-water-jousting/
 
 ![Water Jousting](../../../img/photos/00393-water-jousting.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Ghana", "Togo"]
 
 *Ampe*
 
-**Encyclopedia ID 747** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/747-ampe/
+**Encyclopedia ID 747** (permanent) · https://equalinformation.com/world-heritage-games-site/games/747-ampe/
 
 Children's jump-and-clap game: both players jump, clap and thrust a foot; if the feet match the leader scores.
 

@@ -13,7 +13,7 @@ countries: ["Nicaragua"]
 
 *Gallina ciega*
 
-**Encyclopedia ID 983** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/983-blind-hen/
+**Encyclopedia ID 983** (permanent) · https://equalinformation.com/world-heritage-games-site/games/983-blind-hen/
 
 A blindfolded player must find others who sing to confuse them.
 

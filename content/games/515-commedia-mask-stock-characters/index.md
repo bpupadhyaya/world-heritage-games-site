@@ -13,7 +13,7 @@ countries: ["Italy"]
 
 *Commedia dell'arte*
 
-**Encyclopedia ID 515** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/515-commedia-mask-stock-characters/
+**Encyclopedia ID 515** (permanent) · https://equalinformation.com/world-heritage-games-site/games/515-commedia-mask-stock-characters/
 
 ![Commedia Mask Stock Characters](../../../img/photos/00515-commedia-mask-stock-characters.jpg)
 

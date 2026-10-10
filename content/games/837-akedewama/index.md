@@ -13,7 +13,7 @@ countries: ["Cote d'Ivoire"]
 
 *Akedewama (Spider game) · Akêdêwama*
 
-**Encyclopedia ID 837** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/837-akedewama/
+**Encyclopedia ID 837** (permanent) · https://equalinformation.com/world-heritage-games-site/games/837-akedewama/
 
 Agni and Baoule three-in-a-row game on a four-sided board with a central point.
 

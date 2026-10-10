@@ -13,7 +13,7 @@ countries: ["Guatemala"]
 
 *Barriletes gigantes · Sumpango kites*
 
-**Encyclopedia ID 1486** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1486-giant-barriletes/
+**Encyclopedia ID 1486** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1486-giant-barriletes/
 
 ![Giant Barriletes](../../../img/photos/01486-giant-barriletes.jpg)
 

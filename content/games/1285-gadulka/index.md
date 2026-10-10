@@ -13,7 +13,7 @@ countries: ["Bulgaria"]
 
 *Гадулка · Bulgarian Bowed Fiddle*
 
-**Encyclopedia ID 1285** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1285-gadulka/
+**Encyclopedia ID 1285** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1285-gadulka/
 
 ![Gadulka](../../../img/photos/01285-gadulka.jpg)
 

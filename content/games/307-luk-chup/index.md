@@ -13,7 +13,7 @@ countries: ["Thailand"]
 
 *ลูกชุบ · painted mung-bean fruits*
 
-**Encyclopedia ID 307** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/307-luk-chup/
+**Encyclopedia ID 307** (permanent) · https://equalinformation.com/world-heritage-games-site/games/307-luk-chup/
 
 ![Luk chup](../../../img/photos/00307-luk-chup.jpg)
 

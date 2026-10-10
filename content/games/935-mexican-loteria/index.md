@@ -13,7 +13,7 @@ countries: ["Mexico"]
 
 *Lotería · picture bingo*
 
-**Encyclopedia ID 935** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/935-mexican-loteria/
+**Encyclopedia ID 935** (permanent) · https://equalinformation.com/world-heritage-games-site/games/935-mexican-loteria/
 
 A caller (cantor) draws pictures from a 54-card deck, announcing each with a rhyme, and players mark matching pictures on 4x4 tablas; first to fill a line, corners or the centre shouts Lotería.
 

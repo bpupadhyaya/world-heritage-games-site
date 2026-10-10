@@ -13,7 +13,7 @@ countries: ["India"]
 
 *জাপি · Assamese cane and leaf hat*
 
-**Encyclopedia ID 1304** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1304-jaapi-weaving/
+**Encyclopedia ID 1304** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1304-jaapi-weaving/
 
 ![Jaapi weaving](../../../img/photos/01304-jaapi-weaving.jpg)
 

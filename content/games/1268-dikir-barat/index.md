@@ -13,7 +13,7 @@ countries: ["Malaysia"]
 
 *dikir barat*
 
-**Encyclopedia ID 1268** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1268-dikir-barat/
+**Encyclopedia ID 1268** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1268-dikir-barat/
 
 ![Dikir barat](../../../img/photos/01268-dikir-barat.jpg)
 

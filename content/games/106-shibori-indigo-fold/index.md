@@ -13,7 +13,7 @@ countries: ["Japan", "India"]
 
 *Shibori 絞り*
 
-**Encyclopedia ID 106** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/106-shibori-indigo-fold/
+**Encyclopedia ID 106** (permanent) · https://equalinformation.com/world-heritage-games-site/games/106-shibori-indigo-fold/
 
 ![Shibori Indigo Fold](../../../img/photos/00106-shibori-indigo-fold.jpg)
 

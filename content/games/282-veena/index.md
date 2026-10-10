@@ -13,7 +13,7 @@ countries: ["India"]
 
 *வீணை · South Indian plucked lute*
 
-**Encyclopedia ID 282** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/282-veena/
+**Encyclopedia ID 282** (permanent) · https://equalinformation.com/world-heritage-games-site/games/282-veena/
 
 ![Veena](../../../img/photos/00282-veena.jpg)
 

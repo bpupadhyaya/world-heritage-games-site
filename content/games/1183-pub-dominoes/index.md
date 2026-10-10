@@ -13,7 +13,7 @@ countries: ["United Kingdom"]
 
 *Dominoes · Fives and Threes · Block · Draw*
 
-**Encyclopedia ID 1183** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1183-pub-dominoes/
+**Encyclopedia ID 1183** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1183-pub-dominoes/
 
 Pub dominoes: Fives and Threes scoring game and Block/Draw variants.
 

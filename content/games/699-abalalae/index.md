@@ -13,7 +13,7 @@ countries: ["Eritrea"]
 
 *Abalala'e / Gebeta · Gebeta · Gabata · Abalala'e · Eritrean highland mancala*
 
-**Encyclopedia ID 699** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/699-abalalae/
+**Encyclopedia ID 699** (permanent) · https://equalinformation.com/world-heritage-games-site/games/699-abalalae/
 
 The mancala most widely played in the Eritrean highlands; the name means eating in Tigrinya.
 

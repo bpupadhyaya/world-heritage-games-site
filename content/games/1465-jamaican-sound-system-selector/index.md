@@ -13,7 +13,7 @@ countries: ["Jamaica"]
 
 *Sound system*
 
-**Encyclopedia ID 1465** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1465-jamaican-sound-system-selector/
+**Encyclopedia ID 1465** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1465-jamaican-sound-system-selector/
 
 ![Jamaican Sound System Selector](../../../img/photos/01465-jamaican-sound-system-selector.jpg)
 

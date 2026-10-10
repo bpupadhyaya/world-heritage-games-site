@@ -13,7 +13,7 @@ countries: ["Finland"]
 
 *Mölkky · Molkky*
 
-**Encyclopedia ID 49** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/49-finnish-pin-toss/
+**Encyclopedia ID 49** (permanent) · https://equalinformation.com/world-heritage-games-site/games/49-finnish-pin-toss/
 
 ![Finnish pin toss](../../../img/photos/00049-finnish-pin-toss.jpg)
 

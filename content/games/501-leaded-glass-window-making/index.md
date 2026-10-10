@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *Stained glass*
 
-**Encyclopedia ID 501** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/501-leaded-glass-window-making/
+**Encyclopedia ID 501** (permanent) · https://equalinformation.com/world-heritage-games-site/games/501-leaded-glass-window-making/
 
 ![Leaded Glass Window Making](../../../img/photos/00501-leaded-glass-window-making.jpg)
 

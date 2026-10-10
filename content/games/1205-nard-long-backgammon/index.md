@@ -13,7 +13,7 @@ countries: ["Uzbekistan"]
 
 *Nard · Nardy*
 
-**Encyclopedia ID 1205** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1205-nard-long-backgammon/
+**Encyclopedia ID 1205** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1205-nard-long-backgammon/
 
 Race of 15 pieces per side around a 24-point board using dice and parallel movement.
 

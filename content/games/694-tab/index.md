@@ -13,7 +13,7 @@ countries: ["Egypt"]
 
 *Tab · Tab wa Sidr · stick-dice race*
 
-**Encyclopedia ID 694** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/694-tab/
+**Encyclopedia ID 694** (permanent) · https://equalinformation.com/world-heritage-games-site/games/694-tab/
 
 Throw-stick race game described as Egyptian-Arabic with many variants.
 

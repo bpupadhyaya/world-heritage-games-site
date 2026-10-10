@@ -13,7 +13,7 @@ countries: ["Haiti"]
 
 *Kay (Kay / Warri)*
 
-**Encyclopedia ID 767** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/767-kay-mancala/
+**Encyclopedia ID 767** (permanent) · https://equalinformation.com/world-heritage-games-site/games/767-kay-mancala/
 
 Two-row mancala game reportedly played for generations; also called Warri in parts of Haiti.
 

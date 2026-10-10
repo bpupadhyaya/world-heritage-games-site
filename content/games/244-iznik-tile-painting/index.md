@@ -13,7 +13,7 @@ countries: ["Turkey"]
 
 *İznik çinisi*
 
-**Encyclopedia ID 244** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/244-iznik-tile-painting/
+**Encyclopedia ID 244** (permanent) · https://equalinformation.com/world-heritage-games-site/games/244-iznik-tile-painting/
 
 ![Iznik tile painting](../../../img/photos/00244-iznik-tile-painting.jpg)
 

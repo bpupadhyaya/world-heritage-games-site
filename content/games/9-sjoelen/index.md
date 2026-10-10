@@ -13,7 +13,7 @@ countries: ["Netherlands"]
 
 *Sjoelen / Sjoelbak · Sjoelbak · Dutch shuffleboard · Dutch Table Shuffleboard*
 
-**Encyclopedia ID 9** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/9-sjoelen/
+**Encyclopedia ID 9** (permanent) · https://equalinformation.com/world-heritage-games-site/games/9-sjoelen/
 
 ![Sjoelen](../../../img/photos/00009-sjoelen.jpg)
 

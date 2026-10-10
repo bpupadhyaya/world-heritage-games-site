@@ -13,7 +13,7 @@ countries: ["Angola", "Zambia", "DR Congo"]
 
 *Sona / lusona · Sona*
 
-**Encyclopedia ID 113** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/113-lusona-sand-drawings/
+**Encyclopedia ID 113** (permanent) · https://equalinformation.com/world-heritage-games-site/games/113-lusona-sand-drawings/
 
 ![Lusona Sand Drawings](../../../img/photos/00113-lusona-sand-drawings.jpg)
 

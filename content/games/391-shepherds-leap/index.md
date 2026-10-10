@@ -13,7 +13,7 @@ countries: []
 
 *Salto del pastor*
 
-**Encyclopedia ID 391** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/391-shepherds-leap/
+**Encyclopedia ID 391** (permanent) · https://equalinformation.com/world-heritage-games-site/games/391-shepherds-leap/
 
 ![Shepherd's Leap](../../../img/photos/00391-shepherds-leap.jpg)
 

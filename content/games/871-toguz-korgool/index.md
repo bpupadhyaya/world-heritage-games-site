@@ -13,7 +13,7 @@ countries: ["Kyrgyzstan"]
 
 *Toguz korgool*
 
-**Encyclopedia ID 871** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/871-toguz-korgool/
+**Encyclopedia ID 871** (permanent) · https://equalinformation.com/world-heritage-games-site/games/871-toguz-korgool/
 
 Nine-pit mancala with a tuzdyk capture, the same game as Togyzqumalaq.
 

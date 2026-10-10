@@ -13,7 +13,7 @@ countries: ["South Africa", "Botswana"]
 
 *Dibeke · Skununu*
 
-**Encyclopedia ID 1078** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1078-dibeke/
+**Encyclopedia ID 1078** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1078-dibeke/
 
 Running ball game: attackers kick the ball away, defenders use hands to grab it.
 

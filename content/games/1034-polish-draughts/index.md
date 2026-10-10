@@ -13,7 +13,7 @@ countries: ["Poland"]
 
 *Warcaby (10x10) · international draughts*
 
-**Encyclopedia ID 1034** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1034-polish-draughts/
+**Encyclopedia ID 1034** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1034-polish-draughts/
 
 Draughts on a 10x10 board; the name 'Polish draughts' is a Dutch convention and the game probably originated in the Netherlands around 1550.
 

@@ -13,7 +13,7 @@ countries: ["Singapore"]
 
 *Encang kuda (Keleret)*
 
-**Encyclopedia ID 1067** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1067-encang-kuda/
+**Encyclopedia ID 1067** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1067-encang-kuda/
 
 Stone-throwing game with jockey and horse roles.
 

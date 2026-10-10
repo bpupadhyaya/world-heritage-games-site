@@ -13,7 +13,7 @@ countries: ["Netherlands"]
 
 *Fierljeppen / polsstokverspringen · Fierljeppen*
 
-**Encyclopedia ID 7** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/7-canal-pole-vault/
+**Encyclopedia ID 7** (permanent) · https://equalinformation.com/world-heritage-games-site/games/7-canal-pole-vault/
 
 ![Canal pole vault](../../../img/photos/00007-canal-pole-vault.jpg)
 

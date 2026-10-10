@@ -13,7 +13,7 @@ countries: ["Georgia"]
 
 *Lelo burti · field ball*
 
-**Encyclopedia ID 737** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/737-lelo-burti/
+**Encyclopedia ID 737** (permanent) · https://equalinformation.com/world-heritage-games-site/games/737-lelo-burti/
 
 Village-vs-village full-contact ball game across a field to a stream; heritage in Gurian communities.
 

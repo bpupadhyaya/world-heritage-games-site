@@ -13,7 +13,7 @@ countries: ["Nepal"]
 
 *Dandi Biyo*
 
-**Encyclopedia ID 968** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/968-dandi-biyo/
+**Encyclopedia ID 968** (permanent) · https://equalinformation.com/world-heritage-games-site/games/968-dandi-biyo/
 
 Hit a small wooden pin with a stick, then strike it far.
 

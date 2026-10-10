@@ -13,7 +13,7 @@ countries: ["Nicaragua"]
 
 *Hamaca de Masaya*
 
-**Encyclopedia ID 1473** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1473-masaya-hammock-weaving/
+**Encyclopedia ID 1473** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1473-masaya-hammock-weaving/
 
 ![Masaya Hammock Weaving](../../../img/photos/01473-masaya-hammock-weaving.jpg)
 

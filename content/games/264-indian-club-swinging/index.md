@@ -13,7 +13,7 @@ countries: ["India", "Pakistan"]
 
 *mugdar, jori, meels · mugdar / jori*
 
-**Encyclopedia ID 264** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/264-indian-club-swinging/
+**Encyclopedia ID 264** (permanent) · https://equalinformation.com/world-heritage-games-site/games/264-indian-club-swinging/
 
 ![Indian club swinging](../../../img/photos/00264-indian-club-swinging.jpg)
 

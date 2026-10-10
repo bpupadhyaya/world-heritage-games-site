@@ -13,7 +13,7 @@ countries: []
 
 *Rodel*
 
-**Encyclopedia ID 482** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/482-luge-and-toboggan-run/
+**Encyclopedia ID 482** (permanent) · https://equalinformation.com/world-heritage-games-site/games/482-luge-and-toboggan-run/
 
 ![Luge and toboggan run](../../../img/photos/00482-luge-and-toboggan-run.jpg)
 

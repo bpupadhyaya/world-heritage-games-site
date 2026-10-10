@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *津軽三味線*
 
-**Encyclopedia ID 1489** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1489-tsugaru-shamisen/
+**Encyclopedia ID 1489** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1489-tsugaru-shamisen/
 
 ![Tsugaru Shamisen](../../../img/photos/01489-tsugaru-shamisen.jpg)
 

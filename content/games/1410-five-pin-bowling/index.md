@@ -13,7 +13,7 @@ countries: ["Canada"]
 
 *Quilles a cinq*
 
-**Encyclopedia ID 1410** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1410-five-pin-bowling/
+**Encyclopedia ID 1410** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1410-five-pin-bowling/
 
 ![Five-Pin Bowling](../../../img/photos/01410-five-pin-bowling.jpg)
 

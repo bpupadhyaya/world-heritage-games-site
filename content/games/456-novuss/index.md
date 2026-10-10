@@ -13,7 +13,7 @@ countries: ["Latvia", "Estonia"]
 
 *Novuss / Koroona*
 
-**Encyclopedia ID 456** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/456-novuss/
+**Encyclopedia ID 456** (permanent) · https://equalinformation.com/world-heritage-games-site/games/456-novuss/
 
 ![Novuss](../../../img/photos/00456-novuss.jpg)
 

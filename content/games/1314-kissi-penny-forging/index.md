@@ -13,7 +13,7 @@ countries: ["Guinea", "Sierra Leone", "Liberia"]
 
 *Kissi penny / guinzé*
 
-**Encyclopedia ID 1314** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1314-kissi-penny-forging/
+**Encyclopedia ID 1314** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1314-kissi-penny-forging/
 
 ![Kissi Penny Forging](../../../img/photos/01314-kissi-penny-forging.jpg)
 

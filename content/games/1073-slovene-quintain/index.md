@@ -13,7 +13,7 @@ countries: ["Slovenia"]
 
 *Štehvanje*
 
-**Encyclopedia ID 1073** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1073-slovene-quintain/
+**Encyclopedia ID 1073** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1073-slovene-quintain/
 
 Costumed riders on horseback strike a hanging barrel with bats in a village festival tournament.
 

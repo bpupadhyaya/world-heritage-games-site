@@ -13,7 +13,7 @@ countries: ["Vietnam"]
 
 *Múa rối nước*
 
-**Encyclopedia ID 303** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/303-water-puppet-pond-theatre/
+**Encyclopedia ID 303** (permanent) · https://equalinformation.com/world-heritage-games-site/games/303-water-puppet-pond-theatre/
 
 ![Water puppet pond theatre](../../../img/photos/00303-water-puppet-pond-theatre.jpg)
 

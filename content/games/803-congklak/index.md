@@ -13,7 +13,7 @@ countries: ["Indonesia", "Malaysia", "Brunei"]
 
 *Congklak (Dakon) · Dakon · Congkak*
 
-**Encyclopedia ID 803** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/803-congklak/
+**Encyclopedia ID 803** (permanent) · https://equalinformation.com/world-heritage-games-site/games/803-congklak/
 
 Malay mancala board with 14 houses and 2 stores, played with shells; considered the Malay member of the mancala family.
 

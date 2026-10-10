@@ -13,7 +13,7 @@ countries: ["Albania", "Kosovo"]
 
 *Plisi / Qeleshe · white felt cap*
 
-**Encyclopedia ID 1362** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1362-plis-cap-felter/
+**Encyclopedia ID 1362** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1362-plis-cap-felter/
 
 ![Plis Cap Felter](../../../img/photos/01362-plis-cap-felter.jpg)
 

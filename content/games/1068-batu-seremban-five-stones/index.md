@@ -13,7 +13,7 @@ countries: ["Singapore"]
 
 *Five Stones*
 
-**Encyclopedia ID 1068** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1068-batu-seremban-five-stones/
+**Encyclopedia ID 1068** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1068-batu-seremban-five-stones/
 
 Players toss one stone and pick up others in graded stages before it lands.
 

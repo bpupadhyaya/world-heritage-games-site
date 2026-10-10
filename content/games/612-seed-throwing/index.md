@@ -13,7 +13,7 @@ countries: ["Cambodia"]
 
 *Bos Angkunh*
 
-**Encyclopedia ID 612** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/612-seed-throwing/
+**Encyclopedia ID 612** (permanent) · https://equalinformation.com/world-heritage-games-site/games/612-seed-throwing/
 
 Players throw a seed at target seeds on the ground; longer versions add further stages of skill.
 

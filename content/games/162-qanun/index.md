@@ -13,7 +13,7 @@ countries: ["Turkey", "Armenia", "Azerbaijan"]
 
 *قانون · plucked trapezoid zither*
 
-**Encyclopedia ID 162** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/162-qanun/
+**Encyclopedia ID 162** (permanent) · https://equalinformation.com/world-heritage-games-site/games/162-qanun/
 
 ![Qanun](../../../img/photos/00162-qanun.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Indonesia"]
 
 *Angklung*
 
-**Encyclopedia ID 142** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/142-angklung-bamboo-chime-ensemble/
+**Encyclopedia ID 142** (permanent) · https://equalinformation.com/world-heritage-games-site/games/142-angklung-bamboo-chime-ensemble/
 
 ![Angklung bamboo chime ensemble](../../../img/photos/00142-angklung-bamboo-chime-ensemble.jpg)
 

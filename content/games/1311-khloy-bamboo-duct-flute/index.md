@@ -13,7 +13,7 @@ countries: ["Cambodia"]
 
 *khloy / ខ្លុយ · Khloy*
 
-**Encyclopedia ID 1311** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1311-khloy-bamboo-duct-flute/
+**Encyclopedia ID 1311** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1311-khloy-bamboo-duct-flute/
 
 ![Khloy bamboo duct flute](../../../img/photos/01311-khloy-bamboo-duct-flute.jpg)
 

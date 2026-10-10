@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *Sashiko*
 
-**Encyclopedia ID 27** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/27-sashiko-stitch-patterns/
+**Encyclopedia ID 27** (permanent) · https://equalinformation.com/world-heritage-games-site/games/27-sashiko-stitch-patterns/
 
 ![Sashiko Stitch Patterns](../../../img/photos/00027-sashiko-stitch-patterns.jpg)
 

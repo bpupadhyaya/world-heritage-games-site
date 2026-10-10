@@ -13,7 +13,7 @@ countries: ["Hungary"]
 
 *Kalocsai virágminta*
 
-**Encyclopedia ID 383** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/383-kalocsa-floral-painting/
+**Encyclopedia ID 383** (permanent) · https://equalinformation.com/world-heritage-games-site/games/383-kalocsa-floral-painting/
 
 ![Kalocsa floral painting](../../../img/photos/00383-kalocsa-floral-painting.jpg)
 

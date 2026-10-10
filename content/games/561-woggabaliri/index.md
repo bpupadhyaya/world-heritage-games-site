@@ -13,7 +13,7 @@ countries: ["Australia"]
 
 *Woggabaliri · keep-it-up ball*
 
-**Encyclopedia ID 561** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/561-woggabaliri/
+**Encyclopedia ID 561** (permanent) · https://equalinformation.com/world-heritage-games-site/games/561-woggabaliri/
 
 Cooperative foot-and-hand game where players keep a ball in the air as long as possible.
 

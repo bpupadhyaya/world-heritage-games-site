@@ -11,7 +11,7 @@ countries: ["Brunei", "Malaysia"]
 ---
 # Kampong Ayer water-taxi dash
 
-**Encyclopedia ID 1308** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1308-kampong-ayer-water-taxi-dash/
+**Encyclopedia ID 1308** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1308-kampong-ayer-water-taxi-dash/
 
 ![Kampong Ayer water-taxi dash](../../../img/photos/01308-kampong-ayer-water-taxi-dash.jpg)
 

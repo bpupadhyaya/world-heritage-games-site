@@ -13,7 +13,7 @@ countries: ["Tajikistan"]
 
 *Shatranj*
 
-**Encyclopedia ID 1134** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1134-shatranj-chess/
+**Encyclopedia ID 1134** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1134-shatranj-chess/
 
 Ancestor chess form; Tajik/Persian heritage claim.
 

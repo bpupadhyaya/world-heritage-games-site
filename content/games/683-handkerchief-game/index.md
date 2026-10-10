@@ -13,7 +13,7 @@ countries: ["Dominican Republic"]
 
 *Juego del Pañuelo*
 
-**Encyclopedia ID 683** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/683-handkerchief-game/
+**Encyclopedia ID 683** (permanent) · https://equalinformation.com/world-heritage-games-site/games/683-handkerchief-game/
 
 A steal-the-bacon type children's game.
 

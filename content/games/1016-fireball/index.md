@@ -13,7 +13,7 @@ countries: ["Paraguay"]
 
 *Pelota tata*
 
-**Encyclopedia ID 1016** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1016-fireball/
+**Encyclopedia ID 1016** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1016-fireball/
 
 A burning ball is kicked or dodged at San Juan.
 

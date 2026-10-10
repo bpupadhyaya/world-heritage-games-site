@@ -13,7 +13,7 @@ countries: ["Iran"]
 
 *Gol ya pooch · Gol ya Pouch · hidden-object guessing*
 
-**Encyclopedia ID 812** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/812-flower-or-empty/
+**Encyclopedia ID 812** (permanent) · https://equalinformation.com/world-heritage-games-site/games/812-flower-or-empty/
 
 Teams hide a small object in a fist while the other team guesses; similar to Mheibes.
 

@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *畳 / 畳敷き*
 
-**Encyclopedia ID 356** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/356-tatami-room-tiling-puzzle/
+**Encyclopedia ID 356** (permanent) · https://equalinformation.com/world-heritage-games-site/games/356-tatami-room-tiling-puzzle/
 
 ![Tatami room tiling puzzle](../../../img/photos/00356-tatami-room-tiling-puzzle.jpg)
 

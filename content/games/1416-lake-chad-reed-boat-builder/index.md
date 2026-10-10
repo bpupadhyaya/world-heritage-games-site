@@ -13,7 +13,7 @@ countries: ["Chad"]
 
 *Kadei*
 
-**Encyclopedia ID 1416** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1416-lake-chad-reed-boat-builder/
+**Encyclopedia ID 1416** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1416-lake-chad-reed-boat-builder/
 
 ![Lake Chad reed boat builder](../../../img/photos/01416-lake-chad-reed-boat-builder.jpg)
 

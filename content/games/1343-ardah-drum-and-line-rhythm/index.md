@@ -13,7 +13,7 @@ countries: ["Saudi Arabia"]
 
 *العرضة*
 
-**Encyclopedia ID 1343** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1343-ardah-drum-and-line-rhythm/
+**Encyclopedia ID 1343** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1343-ardah-drum-and-line-rhythm/
 
 ![Ardah Drum-and-Line Rhythm](../../../img/photos/01343-ardah-drum-and-line-rhythm.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Laos", "France", "Monaco"]
 
 *Petong (Petanque)*
 
-**Encyclopedia ID 872** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/872-petanque/
+**Encyclopedia ID 872** (permanent) · https://equalinformation.com/world-heritage-games-site/games/872-petanque/
 
 Toss metal balls toward a jack, French-origin and favourite Lao pastime.
 

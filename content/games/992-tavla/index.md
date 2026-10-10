@@ -13,7 +13,7 @@ countries: ["North Macedonia", "Montenegro"]
 
 *Табла*
 
-**Encyclopedia ID 992** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/992-tavla/
+**Encyclopedia ID 992** (permanent) · https://equalinformation.com/world-heritage-games-site/games/992-tavla/
 
 Two players race fifteen checkers each around a board with dice, hitting blots; the Balkan form of backgammon.
 

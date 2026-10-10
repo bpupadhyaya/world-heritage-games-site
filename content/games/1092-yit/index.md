@@ -13,7 +13,7 @@ countries: ["South Sudan"]
 
 *Yit · Yit Nuri · Nuer*
 
-**Encyclopedia ID 1092** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1092-yit/
+**Encyclopedia ID 1092** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1092-yit/
 
 Nuer 2x7 clay-board mancala.
 

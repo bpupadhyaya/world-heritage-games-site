@@ -13,7 +13,7 @@ countries: ["Liberia"]
 
 *Poo · Pu · Liberian mancala*
 
-**Encyclopedia ID 884** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/884-poo/
+**Encyclopedia ID 884** (permanent) · https://equalinformation.com/world-heritage-games-site/games/884-poo/
 
 A Liberian sowing game listed in a mancala catalog; details vary by community.
 

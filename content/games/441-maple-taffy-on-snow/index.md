@@ -13,7 +13,7 @@ countries: ["Canada"]
 
 *tire d'erable · tire sur la neige*
 
-**Encyclopedia ID 441** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/441-maple-taffy-on-snow/
+**Encyclopedia ID 441** (permanent) · https://equalinformation.com/world-heritage-games-site/games/441-maple-taffy-on-snow/
 
 ![Maple taffy on snow](../../../img/photos/00441-maple-taffy-on-snow.jpg)
 

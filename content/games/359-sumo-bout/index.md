@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *相撲 · ring push-out*
 
-**Encyclopedia ID 359** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/359-sumo-bout/
+**Encyclopedia ID 359** (permanent) · https://equalinformation.com/world-heritage-games-site/games/359-sumo-bout/
 
 ![Sumo bout](../../../img/photos/00359-sumo-bout.jpg)
 

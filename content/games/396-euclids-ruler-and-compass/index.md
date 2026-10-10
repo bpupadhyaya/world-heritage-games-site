@@ -13,7 +13,7 @@ countries: ["Greece"]
 
 *Στοιχεῖα (Elements)*
 
-**Encyclopedia ID 396** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/396-euclids-ruler-and-compass/
+**Encyclopedia ID 396** (permanent) · https://equalinformation.com/world-heritage-games-site/games/396-euclids-ruler-and-compass/
 
 ![Euclid's Ruler and Compass](../../../img/photos/00396-euclids-ruler-and-compass.jpg)
 

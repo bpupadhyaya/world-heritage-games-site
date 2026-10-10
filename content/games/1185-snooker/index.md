@@ -13,7 +13,7 @@ countries: ["United Kingdom"]
 
 *Snooker / Billiards · English billiards*
 
-**Encyclopedia ID 1185** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1185-snooker/
+**Encyclopedia ID 1185** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1185-snooker/
 
 Cue sport on a large table with 15 reds and six coloured balls, played in pubs, clubs and halls.
 

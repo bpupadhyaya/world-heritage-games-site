@@ -13,7 +13,7 @@ countries: ["Nauru"]
 
 *Itsibweb*
 
-**Encyclopedia ID 965** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/965-itsibweb/
+**Encyclopedia ID 965** (permanent) · https://equalinformation.com/world-heritage-games-site/games/965-itsibweb/
 
 Traditional Nauruan sport named alongside Karaduga.
 

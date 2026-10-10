@@ -13,7 +13,7 @@ countries: ["Palestine", "Lebanon"]
 
 *tatreez / تطريز*
 
-**Encyclopedia ID 212** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/212-tatreez-palestinian-cross-stitch/
+**Encyclopedia ID 212** (permanent) · https://equalinformation.com/world-heritage-games-site/games/212-tatreez-palestinian-cross-stitch/
 
 ![Tatreez Palestinian Cross-Stitch](../../../img/photos/00212-tatreez-palestinian-cross-stitch.jpg)
 

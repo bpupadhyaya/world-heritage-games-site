@@ -13,7 +13,7 @@ countries: ["Guatemala", "Mexico"]
 
 *Ulama · Ulama (Mesoamerican ballgame, modern)*
 
-**Encyclopedia ID 759** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/759-mesoamerican-ballgame/
+**Encyclopedia ID 759** (permanent) · https://equalinformation.com/world-heritage-games-site/games/759-mesoamerican-ballgame/
 
 Heritage ballgame also linked to Maya court history.
 

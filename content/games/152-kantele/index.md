@@ -13,7 +13,7 @@ countries: ["Finland"]
 
 *Kantele · Finnish plucked zither*
 
-**Encyclopedia ID 152** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/152-kantele/
+**Encyclopedia ID 152** (permanent) · https://equalinformation.com/world-heritage-games-site/games/152-kantele/
 
 ![Kantele](../../../img/photos/00152-kantele.jpg)
 

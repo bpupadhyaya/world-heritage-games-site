@@ -13,7 +13,7 @@ countries: ["Bahamas"]
 
 *Dominoes · Haitian-style*
 
-**Encyclopedia ID 569** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/569-bahamian-dominoes/
+**Encyclopedia ID 569** (permanent) · https://equalinformation.com/world-heritage-games-site/games/569-bahamian-dominoes/
 
 Loud partnership dominoes with strong Haitian-Bahamian crossover.
 

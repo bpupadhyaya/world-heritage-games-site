@@ -13,7 +13,7 @@ countries: ["Spain"]
 
 *Bolo palma*
 
-**Encyclopedia ID 1096** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1096-cantabrian-palm-bowling/
+**Encyclopedia ID 1096** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1096-cantabrian-palm-bowling/
 
 Cantabrian bowling where a wooden ball is thrown at nine pins; deeply local with 16th-century records.
 

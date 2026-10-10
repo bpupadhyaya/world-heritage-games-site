@@ -13,7 +13,7 @@ countries: ["Kyrgyzstan"]
 
 *Ak-cholmok*
 
-**Encyclopedia ID 867** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/867-white-cloth/
+**Encyclopedia ID 867** (permanent) · https://equalinformation.com/world-heritage-games-site/games/867-white-cloth/
 
 Teams try to seize a central object without being tagged.
 

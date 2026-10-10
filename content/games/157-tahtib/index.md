@@ -13,7 +13,7 @@ countries: ["Egypt"]
 
 *Tahtib / Tahtib · Egyptian stick dance-duel*
 
-**Encyclopedia ID 157** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/157-tahtib/
+**Encyclopedia ID 157** (permanent) · https://equalinformation.com/world-heritage-games-site/games/157-tahtib/
 
 ![Tahtib](../../../img/photos/00157-tahtib.jpg)
 

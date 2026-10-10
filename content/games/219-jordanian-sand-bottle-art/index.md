@@ -13,7 +13,7 @@ countries: ["Jordan"]
 
 *sand bottles / رمل ملون*
 
-**Encyclopedia ID 219** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/219-jordanian-sand-bottle-art/
+**Encyclopedia ID 219** (permanent) · https://equalinformation.com/world-heritage-games-site/games/219-jordanian-sand-bottle-art/
 
 ![Jordanian Sand Bottle Art](../../../img/photos/00219-jordanian-sand-bottle-art.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Kazakhstan"]
 
 *Asyq atu · Asyk · Asyq · Sheep-ankle-bone hitting game*
 
-**Encyclopedia ID 856** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/856-asyk-atu/
+**Encyclopedia ID 856** (permanent) · https://equalinformation.com/world-heritage-games-site/games/856-asyk-atu/
 
 Players flick or throw a heavy ankle bone to knock opponents' bones out of a line or ring, and keep what they hit.
 

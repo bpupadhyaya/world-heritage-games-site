@@ -13,7 +13,7 @@ countries: ["Japan"]
 
 *金魚すくい · goldfish scooping*
 
-**Encyclopedia ID 3** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/3-kingyo-sukui/
+**Encyclopedia ID 3** (permanent) · https://equalinformation.com/world-heritage-games-site/games/3-kingyo-sukui/
 
 ![Kingyo-sukui](../../../img/photos/00003-kingyo-sukui.jpg)
 

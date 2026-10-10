@@ -13,7 +13,7 @@ countries: ["Iraq"]
 
 *الجزري · Ingenious Devices*
 
-**Encyclopedia ID 237** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/237-al-jazari-water-clock-contraptions/
+**Encyclopedia ID 237** (permanent) · https://equalinformation.com/world-heritage-games-site/games/237-al-jazari-water-clock-contraptions/
 
 ![Al-Jazari water-clock contraptions](../../../img/photos/00237-al-jazari-water-clock-contraptions.jpg)
 

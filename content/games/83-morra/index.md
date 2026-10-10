@@ -13,7 +13,7 @@ countries: ["Italy"]
 
 *Morra / mora*
 
-**Encyclopedia ID 83** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/83-morra/
+**Encyclopedia ID 83** (permanent) · https://equalinformation.com/world-heritage-games-site/games/83-morra/
 
 ![Morra](../../../img/photos/00083-morra.jpg)
 

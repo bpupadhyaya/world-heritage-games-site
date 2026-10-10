@@ -13,7 +13,7 @@ countries: ["Andorra"]
 
 *Parxís · Catalan Parchís*
 
-**Encyclopedia ID 542** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/542-parxis/
+**Encyclopedia ID 542** (permanent) · https://equalinformation.com/world-heritage-games-site/games/542-parxis/
 
 Players race four pieces around a cross-shaped track by dice, with captures and safe squares.
 

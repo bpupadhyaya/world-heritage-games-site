@@ -13,7 +13,7 @@ countries: ["Czechia"]
 
 *Nohejbal · foot volleyball*
 
-**Encyclopedia ID 378** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/378-nohejbal/
+**Encyclopedia ID 378** (permanent) · https://equalinformation.com/world-heritage-games-site/games/378-nohejbal/
 
 ![Nohejbal](../../../img/photos/00378-nohejbal.jpg)
 

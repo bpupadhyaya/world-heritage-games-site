@@ -13,7 +13,7 @@ countries: ["Poland"]
 
 *Wycinanka kurpiowska*
 
-**Encyclopedia ID 1320** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1320-kurpie-layered-paper-cutting/
+**Encyclopedia ID 1320** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1320-kurpie-layered-paper-cutting/
 
 ![Kurpie Layered Paper Cutting](../../../img/photos/01320-kurpie-layered-paper-cutting.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Sri Lanka"]
 
 *Pancha Keliya*
 
-**Encyclopedia ID 1108** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1108-pancha/
+**Encyclopedia ID 1108** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1108-pancha/
 
 Cowrie-shell board race game played in teams at New Year, comparable to Pachisi.
 

@@ -13,7 +13,7 @@ countries: ["Thailand"]
 
 *ตลาดน้ำ*
 
-**Encyclopedia ID 315** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/315-floating-market-trader/
+**Encyclopedia ID 315** (permanent) · https://equalinformation.com/world-heritage-games-site/games/315-floating-market-trader/
 
 ![Floating market trader](../../../img/photos/00315-floating-market-trader.jpg)
 

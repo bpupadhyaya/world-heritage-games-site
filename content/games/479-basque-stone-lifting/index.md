@@ -13,7 +13,7 @@ countries: ["France"]
 
 *Harri-jasotzea · harri-jasotzaile*
 
-**Encyclopedia ID 479** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/479-basque-stone-lifting/
+**Encyclopedia ID 479** (permanent) · https://equalinformation.com/world-heritage-games-site/games/479-basque-stone-lifting/
 
 ![Basque stone lifting](../../../img/photos/00479-basque-stone-lifting.jpg)
 

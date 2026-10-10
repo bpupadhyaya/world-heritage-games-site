@@ -13,7 +13,7 @@ countries: ["Ukraine"]
 
 *Петриківський розпис*
 
-**Encyclopedia ID 381** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/381-petrykivka-painting/
+**Encyclopedia ID 381** (permanent) · https://equalinformation.com/world-heritage-games-site/games/381-petrykivka-painting/
 
 ![Petrykivka painting](../../../img/photos/00381-petrykivka-painting.jpg)
 

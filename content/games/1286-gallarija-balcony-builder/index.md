@@ -13,7 +13,7 @@ countries: ["Malta"]
 
 *Gallarija · Maltese enclosed balconies*
 
-**Encyclopedia ID 1286** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1286-gallarija-balcony-builder/
+**Encyclopedia ID 1286** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1286-gallarija-balcony-builder/
 
 ![Gallarija Balcony Builder](../../../img/photos/01286-gallarija-balcony-builder.jpg)
 

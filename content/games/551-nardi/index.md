@@ -13,7 +13,7 @@ countries: ["Armenia", "Azerbaijan", "Georgia", "Iran"]
 
 *Nardi · backgammon*
 
-**Encyclopedia ID 551** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/551-nardi/
+**Encyclopedia ID 551** (permanent) · https://equalinformation.com/world-heritage-games-site/games/551-nardi/
 
 Persian dice-race tables game; Iranians say it is the leading board game in tea houses and homes.
 

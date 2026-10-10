@@ -13,7 +13,7 @@ countries: ["North Korea"]
 
 *바둑 Paduk · Baduk · Go*
 
-**Encyclopedia ID 990** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/990-paduk/
+**Encyclopedia ID 990** (permanent) · https://equalinformation.com/world-heritage-games-site/games/990-paduk/
 
 North Korea's name for go; organised nationally and treated as a 'mental martial art' under the Taekwondo organisation.
 

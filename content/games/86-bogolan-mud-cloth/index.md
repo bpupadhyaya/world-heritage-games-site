@@ -13,7 +13,7 @@ countries: ["Mali"]
 
 *Bogolanfini*
 
-**Encyclopedia ID 86** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/86-bogolan-mud-cloth/
+**Encyclopedia ID 86** (permanent) · https://equalinformation.com/world-heritage-games-site/games/86-bogolan-mud-cloth/
 
 ![Bogolan mud cloth](../../../img/photos/00086-bogolan-mud-cloth.jpg)
 

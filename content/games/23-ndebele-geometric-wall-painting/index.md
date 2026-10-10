@@ -13,7 +13,7 @@ countries: ["South Africa"]
 
 *Ndebele house painting*
 
-**Encyclopedia ID 23** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/23-ndebele-geometric-wall-painting/
+**Encyclopedia ID 23** (permanent) · https://equalinformation.com/world-heritage-games-site/games/23-ndebele-geometric-wall-painting/
 
 ![Ndebele geometric wall painting](../../../img/photos/00023-ndebele-geometric-wall-painting.jpg)
 

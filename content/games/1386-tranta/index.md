@@ -13,7 +13,7 @@ countries: ["Moldova", "Romania"]
 
 *Trânta · Moldovan Shepherd Wrestling*
 
-**Encyclopedia ID 1386** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1386-tranta/
+**Encyclopedia ID 1386** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1386-tranta/
 
 ![Trânta](../../../img/photos/01386-tranta.jpg)
 

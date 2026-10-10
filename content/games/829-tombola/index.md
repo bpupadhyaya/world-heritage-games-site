@@ -13,7 +13,7 @@ countries: ["Italy", "Malta"]
 
 *Tombola*
 
-**Encyclopedia ID 829** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/829-tombola/
+**Encyclopedia ID 829** (permanent) · https://equalinformation.com/world-heritage-games-site/games/829-tombola/
 
 Players mark numbers on cards as they are drawn from a bag, racing to complete a line or the full card, run at parish and club events.
 

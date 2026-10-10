@@ -13,7 +13,7 @@ countries: ["Laos"]
 
 *ຜ້າຊິ່ນ · sinh*
 
-**Encyclopedia ID 311** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/311-lao-silk-brocade-weaving/
+**Encyclopedia ID 311** (permanent) · https://equalinformation.com/world-heritage-games-site/games/311-lao-silk-brocade-weaving/
 
 ![Lao silk brocade weaving](../../../img/photos/00311-lao-silk-brocade-weaving.jpg)
 

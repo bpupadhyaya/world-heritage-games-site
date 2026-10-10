@@ -13,7 +13,7 @@ countries: []
 
 *芦笙 · Miao and Dong reed-pipe ensemble*
 
-**Encyclopedia ID 337** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/337-lusheng/
+**Encyclopedia ID 337** (permanent) · https://equalinformation.com/world-heritage-games-site/games/337-lusheng/
 
 ![Lusheng](../../../img/photos/00337-lusheng.jpg)
 

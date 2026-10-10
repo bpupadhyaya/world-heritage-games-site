@@ -13,7 +13,7 @@ countries: ["Pakistan"]
 
 *اجرک*
 
-**Encyclopedia ID 1226** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1226-ajrak-block-printing/
+**Encyclopedia ID 1226** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1226-ajrak-block-printing/
 
 ![Ajrak block printing](../../../img/photos/01226-ajrak-block-printing.jpg)
 

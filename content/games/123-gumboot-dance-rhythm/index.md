@@ -13,7 +13,7 @@ countries: ["South Africa"]
 
 *Isicathulo*
 
-**Encyclopedia ID 123** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/123-gumboot-dance-rhythm/
+**Encyclopedia ID 123** (permanent) · https://equalinformation.com/world-heritage-games-site/games/123-gumboot-dance-rhythm/
 
 ![Gumboot dance rhythm](../../../img/photos/00123-gumboot-dance-rhythm.jpg)
 

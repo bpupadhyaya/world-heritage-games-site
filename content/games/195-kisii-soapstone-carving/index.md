@@ -13,7 +13,7 @@ countries: []
 
 *Tabaka soapstone*
 
-**Encyclopedia ID 195** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/195-kisii-soapstone-carving/
+**Encyclopedia ID 195** (permanent) · https://equalinformation.com/world-heritage-games-site/games/195-kisii-soapstone-carving/
 
 ![Kisii soapstone carving](../../../img/photos/00195-kisii-soapstone-carving.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Iraq"]
 
 *Royal Game of Ur*
 
-**Encyclopedia ID 817** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/817-royal-game-of-ur/
+**Encyclopedia ID 817** (permanent) · https://equalinformation.com/world-heritage-games-site/games/817-royal-game-of-ur/
 
 Ancient Mesopotamian race game revived from tablets.
 

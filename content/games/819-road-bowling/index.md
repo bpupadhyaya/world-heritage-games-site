@@ -13,7 +13,7 @@ countries: ["Ireland"]
 
 *Bol Chumann na hÉireann / Road Bowling · Bullets · Irish road bowling*
 
-**Encyclopedia ID 819** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/819-road-bowling/
+**Encyclopedia ID 819** (permanent) · https://equalinformation.com/world-heritage-games-site/games/819-road-bowling/
 
 Throw a 28 oz iron ball along country roads in fewest throws; Cork and Armagh strongholds.
 

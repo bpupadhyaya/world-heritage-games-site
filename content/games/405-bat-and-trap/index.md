@@ -13,7 +13,7 @@ countries: ["United Kingdom"]
 
 *Bat and Trap*
 
-**Encyclopedia ID 405** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/405-bat-and-trap/
+**Encyclopedia ID 405** (permanent) · https://equalinformation.com/world-heritage-games-site/games/405-bat-and-trap/
 
 ![Bat and Trap](../../../img/photos/00405-bat-and-trap.jpg)
 

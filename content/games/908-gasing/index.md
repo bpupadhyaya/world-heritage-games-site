@@ -13,7 +13,7 @@ countries: ["Malaysia", "Singapore", "Brunei"]
 
 *Gasing · spinning top*
 
-**Encyclopedia ID 908** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/908-gasing/
+**Encyclopedia ID 908** (permanent) · https://equalinformation.com/world-heritage-games-site/games/908-gasing/
 
 Wound-string spinning tops spun for duration or knocked out of play, part of the shared Malay-world toy tradition.
 

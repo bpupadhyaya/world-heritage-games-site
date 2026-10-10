@@ -11,7 +11,7 @@ countries: ["Canada", "United States"]
 ---
 # Axe throwing
 
-**Encyclopedia ID 442** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/442-axe-throwing/
+**Encyclopedia ID 442** (permanent) · https://equalinformation.com/world-heritage-games-site/games/442-axe-throwing/
 
 ![Axe throwing](../../../img/photos/00442-axe-throwing.jpg)
 

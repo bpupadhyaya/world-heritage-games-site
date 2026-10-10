@@ -13,7 +13,7 @@ countries: ["Germany"]
 
 *Mensch ärgere Dich nicht · Ludo*
 
-**Encyclopedia ID 744** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/744-dont-get-angry/
+**Encyclopedia ID 744** (permanent) · https://equalinformation.com/world-heritage-games-site/games/744-dont-get-angry/
 
 Cross-and-circle race game with sent-home captures, derived from Ludo/Pachisi.
 

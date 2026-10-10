@@ -13,7 +13,7 @@ countries: ["Ukraine", "Belarus", "Russia"]
 
 *Шашки · Russian draughts*
 
-**Encyclopedia ID 1177** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1177-shashki/
+**Encyclopedia ID 1177** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1177-shashki/
 
 8x8 draughts with flying kings and backwards captures; Poddavki and Bashni are popular variants.
 

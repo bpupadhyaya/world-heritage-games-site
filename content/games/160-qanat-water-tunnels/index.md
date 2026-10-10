@@ -13,7 +13,7 @@ countries: ["Iran"]
 
 *قنات*
 
-**Encyclopedia ID 160** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/160-qanat-water-tunnels/
+**Encyclopedia ID 160** (permanent) · https://equalinformation.com/world-heritage-games-site/games/160-qanat-water-tunnels/
 
 ![Qanat Water Tunnels](../../../img/photos/00160-qanat-water-tunnels.jpg)
 

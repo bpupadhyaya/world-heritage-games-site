@@ -13,7 +13,7 @@ countries: ["Trinidad and Tobago", "Barbados", "Antigua and Barbuda", "Saint Vin
 
 *Cricket (street/yard)*
 
-**Encyclopedia ID 1151** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1151-yard-cricket/
+**Encyclopedia ID 1151** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1151-yard-cricket/
 
 Improvised backyard cricket with a homemade bat and ball.
 

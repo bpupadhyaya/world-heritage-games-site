@@ -13,7 +13,7 @@ countries: ["Italy", "France"]
 
 *Tamburello · drum racket*
 
-**Encyclopedia ID 489** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/489-tamburello/
+**Encyclopedia ID 489** (permanent) · https://equalinformation.com/world-heritage-games-site/games/489-tamburello/
 
 ![Tamburello](../../../img/photos/00489-tamburello.jpg)
 

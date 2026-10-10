@@ -13,7 +13,7 @@ countries: ["Denmark"]
 
 *Føroyskur dansur · Faroese ballads*
 
-**Encyclopedia ID 1276** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1276-faroese-chain-dance/
+**Encyclopedia ID 1276** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1276-faroese-chain-dance/
 
 ![Faroese chain dance](../../../img/photos/01276-faroese-chain-dance.jpg)
 

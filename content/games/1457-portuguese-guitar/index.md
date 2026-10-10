@@ -13,7 +13,7 @@ countries: ["Portugal"]
 
 *Guitarra Portuguesa*
 
-**Encyclopedia ID 1457** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1457-portuguese-guitar/
+**Encyclopedia ID 1457** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1457-portuguese-guitar/
 
 ![Portuguese Guitar](../../../img/photos/01457-portuguese-guitar.jpg)
 

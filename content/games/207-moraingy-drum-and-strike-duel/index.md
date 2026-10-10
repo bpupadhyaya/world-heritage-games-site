@@ -13,7 +13,7 @@ countries: ["Madagascar"]
 
 *Moraingy*
 
-**Encyclopedia ID 207** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/207-moraingy-drum-and-strike-duel/
+**Encyclopedia ID 207** (permanent) · https://equalinformation.com/world-heritage-games-site/games/207-moraingy-drum-and-strike-duel/
 
 ![Moraingy drum-and-strike duel](../../../img/photos/00207-moraingy-drum-and-strike-duel.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Ghana", "Cote d'Ivoire"]
 
 *Abrammuo / goldweights*
 
-**Encyclopedia ID 171** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/171-akan-gold-weight-balance/
+**Encyclopedia ID 171** (permanent) · https://equalinformation.com/world-heritage-games-site/games/171-akan-gold-weight-balance/
 
 ![Akan Gold-Weight Balance](../../../img/photos/00171-akan-gold-weight-balance.jpg)
 

@@ -13,7 +13,7 @@ countries: ["Tanzania"]
 
 *Tingatinga*
 
-**Encyclopedia ID 183** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/183-tingatinga-painting/
+**Encyclopedia ID 183** (permanent) · https://equalinformation.com/world-heritage-games-site/games/183-tingatinga-painting/
 
 ![Tingatinga painting](../../../img/photos/00183-tingatinga-painting.jpg)
 

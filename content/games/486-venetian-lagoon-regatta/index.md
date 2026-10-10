@@ -13,7 +13,7 @@ countries: ["Italy"]
 
 *Regata · gondolino*
 
-**Encyclopedia ID 486** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/486-venetian-lagoon-regatta/
+**Encyclopedia ID 486** (permanent) · https://equalinformation.com/world-heritage-games-site/games/486-venetian-lagoon-regatta/
 
 ![Venetian lagoon regatta](../../../img/photos/00486-venetian-lagoon-regatta.jpg)
 

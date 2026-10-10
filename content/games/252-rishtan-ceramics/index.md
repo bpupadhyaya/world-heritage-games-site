@@ -13,7 +13,7 @@ countries: ["Uzbekistan"]
 
 *Риштон кулоллиги · ishkor glaze plates*
 
-**Encyclopedia ID 252** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/252-rishtan-ceramics/
+**Encyclopedia ID 252** (permanent) · https://equalinformation.com/world-heritage-games-site/games/252-rishtan-ceramics/
 
 ![Rishtan ceramics](../../../img/photos/00252-rishtan-ceramics.jpg)
 

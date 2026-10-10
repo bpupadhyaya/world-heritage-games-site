@@ -13,7 +13,7 @@ countries: ["Palestine"]
 
 *Edrees · nine-square line game*
 
-**Encyclopedia ID 1008** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1008-edrees/
+**Encyclopedia ID 1008** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1008-edrees/
 
 Three-in-a-row game on a nine-square grid.
 

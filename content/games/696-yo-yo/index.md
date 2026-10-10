@@ -13,7 +13,7 @@ countries: ["El Salvador", "Nicaragua"]
 
 *Yoyo*
 
-**Encyclopedia ID 696** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/696-yo-yo/
+**Encyclopedia ID 696** (permanent) · https://equalinformation.com/world-heritage-games-site/games/696-yo-yo/
 
 String-and-disc tricks.
 

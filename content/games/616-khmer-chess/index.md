@@ -13,7 +13,7 @@ countries: ["Cambodia"]
 
 *Ouk Chatrang*
 
-**Encyclopedia ID 616** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/616-khmer-chess/
+**Encyclopedia ID 616** (permanent) · https://equalinformation.com/world-heritage-games-site/games/616-khmer-chess/
 
 Chess descendant similar to makruk with special opening moves.
 

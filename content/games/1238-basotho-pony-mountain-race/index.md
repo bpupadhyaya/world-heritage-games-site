@@ -13,7 +13,7 @@ countries: ["Lesotho"]
 
 *Basotho pony mountain race*
 
-**Encyclopedia ID 1238** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1238-basotho-pony-mountain-race/
+**Encyclopedia ID 1238** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1238-basotho-pony-mountain-race/
 
 ![Basotho pony mountain race](../../../img/photos/01238-basotho-pony-mountain-race.jpg)
 

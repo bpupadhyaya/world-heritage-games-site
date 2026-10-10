@@ -13,7 +13,7 @@ countries: ["United Kingdom", "Germany", "Sweden", "Japan", "India"]
 
 *Schmiedekunst / forging*
 
-**Encyclopedia ID 506** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/506-blacksmiths-forge/
+**Encyclopedia ID 506** (permanent) · https://equalinformation.com/world-heritage-games-site/games/506-blacksmiths-forge/
 
 ![Blacksmith's Forge](../../../img/photos/00506-blacksmiths-forge.jpg)
 

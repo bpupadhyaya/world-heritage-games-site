@@ -13,7 +13,7 @@ countries: ["Bahamas"]
 
 *Straw work*
 
-**Encyclopedia ID 1435** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1435-bahamian-straw-plaiting/
+**Encyclopedia ID 1435** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1435-bahamian-straw-plaiting/
 
 ![Bahamian Straw Plaiting](../../../img/photos/01435-bahamian-straw-plaiting.jpg)
 

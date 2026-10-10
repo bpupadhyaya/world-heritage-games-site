@@ -13,7 +13,7 @@ countries: ["Madagascar"]
 
 *Hira gasy*
 
-**Encyclopedia ID 205** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/205-hira-gasy-village-troupe-contest/
+**Encyclopedia ID 205** (permanent) · https://equalinformation.com/world-heritage-games-site/games/205-hira-gasy-village-troupe-contest/
 
 ![Hira gasy village troupe contest](../../../img/photos/00205-hira-gasy-village-troupe-contest.jpg)
 

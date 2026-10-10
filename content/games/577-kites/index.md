@@ -13,7 +13,7 @@ countries: ["Barbados", "El Salvador"]
 
 *Kite flying*
 
-**Encyclopedia ID 577** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/577-kites/
+**Encyclopedia ID 577** (permanent) · https://equalinformation.com/world-heritage-games-site/games/577-kites/
 
 Paper kites on a cane frame, flown in summer and in October.
 

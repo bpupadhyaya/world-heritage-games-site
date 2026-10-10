@@ -13,7 +13,7 @@ countries: ["Ethiopia", "Djibouti"]
 
 *Dabuda · Dabuda I · Dabuda II · Afar mancala*
 
-**Encyclopedia ID 705** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/705-dabuda/
+**Encyclopedia ID 705** (permanent) · https://equalinformation.com/world-heritage-games-site/games/705-dabuda/
 
 Afar-people mancala described by Richard Pankhurst in 1971, in long and short board versions.
 

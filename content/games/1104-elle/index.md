@@ -13,7 +13,7 @@ countries: ["Sri Lanka"]
 
 *Elle*
 
-**Encyclopedia ID 1104** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1104-elle/
+**Encyclopedia ID 1104** (permanent) · https://equalinformation.com/world-heritage-games-site/games/1104-elle/
 
 Bat-and-ball team game played at village and New Year festivals; exact rules not verified here.
 
