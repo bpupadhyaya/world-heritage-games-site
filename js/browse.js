@@ -8,7 +8,7 @@
   var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
   var FIELDS = ['q', 'region', 'country', 'type', 'family', 'era', 'cradle', 'photo'];
   var W = window.WHG = { views: {}, state: {}, manifest: null, rows: null };
-  var pageView = stage.getAttribute('data-view'), defaultView = stage.getAttribute('data-default-view') || pageView;
+  var pageView = stage.getAttribute('data-view'), defaultView = stage.getAttribute('data-default-view') || pageView, fullHeroView = stage.getAttribute('data-full-hero-view') || defaultView;
   var isHome = base === './' || base === '';
   var current = null, curId = null, staticHTML = {}, ready = false, loadingAll = null, chunkCache = {};
   staticHTML[pageView] = stage.innerHTML;
@@ -208,7 +208,7 @@
     if (!v) { if (!silent) setTimeout(function () { if (W.views[id]) show(id, true); }, 150); return; }
     var first = !current;
     if (current && current.unmount) current.unmount(stage);
-    current = v; curId = id; markSwitcher(id); document.body.classList.toggle('alt-view', id !== defaultView);
+    current = v; curId = id; markSwitcher(id); document.body.classList.toggle('alt-view', id !== fullHeroView);
     stage.setAttribute('data-view', id); stage.classList.remove('is-loading');
     var useStatic = id === pageView && staticHTML[id] && !activeFilters() && !!v.adopt;
     if (useStatic) { if (!first) stage.innerHTML = staticHTML[id]; } else stage.innerHTML = '';

@@ -3,7 +3,7 @@ title: "Atlas"
 description: "Era chapters with photo cards: a journey from the first stone games to today."
 path: "/views/atlas/"
 view: "atlas"
-default: true
+default: false
 ---
 # Atlas
 
@@ -19,4 +19,4 @@ This is one of 4 views of the same 1,037 entries. The interactive view needs Jav
 6. [Modern Heritage](../../eras/modern/index.md) (1800 to today): Street games, national sports and revivals: heritage that people are still playing in their own lifetimes. 234 entries.
 7. [Living Traditions](../../eras/living/index.md) (undated): Crafts, instruments and dances handed from hand to hand, too old or too continuous to date. 337 entries.
 
-Other views: [River of Time](../../views/river/index.md) · [Mosaic](../../views/mosaic/index.md) · [List](../../views/list/index.md)
+Other views: [Mosaic](../../views/mosaic/index.md) · [River of Time](../../views/river/index.md) · [List](../../views/list/index.md)

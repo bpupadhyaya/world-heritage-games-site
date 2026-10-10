@@ -3,7 +3,7 @@ title: "Mosaic"
 description: "Photo tiles for every region and kind of play; pick a tile to open its games."
 path: "/views/mosaic/"
 view: "mosaic"
-default: false
+default: true
 ---
 # Mosaic
 

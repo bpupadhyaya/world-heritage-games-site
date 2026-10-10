@@ -18,4 +18,4 @@ This is one of 4 views of the same 1,037 entries. The interactive view needs Jav
 - [Age of Contact](../../eras/contact/index.md): about 1500 to 1800, 72 entries
 - [Modern and Living](../../eras/modern/index.md): 1800 to today, and traditions too continuous to date, 571 entries
 
-Other views: [Atlas](../../views/atlas/index.md) · [Mosaic](../../views/mosaic/index.md) · [List](../../views/list/index.md)
+Other views: [Mosaic](../../views/mosaic/index.md) · [Atlas](../../views/atlas/index.md) · [List](../../views/list/index.md)
