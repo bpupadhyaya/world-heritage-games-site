@@ -1,11 +1,11 @@
 ---
 title: "Regions of the world"
-description: "Browse by broad region."
+description: "Browse by broad region, or explore them on the map."
 path: "/regions/"
 ---
 # Regions of the world
 
-Browse by broad region.
+Browse by broad region, or explore them on the map.
 
 - [Americas](../regions/americas/index.md): 146 entries
 - [East and Southeast Asia](../regions/east-and-southeast-asia/index.md): 206 entries

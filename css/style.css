@@ -362,3 +362,7 @@ main{display:block;min-height:60vh}
 .filters select{flex:1 1 10rem}
 @media (min-width:40rem){.filters select{flex:0 1 16rem}}
 .entry{overflow-wrap:break-word}.entry li a{overflow-wrap:anywhere}
+.wmap-regions{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 .8rem}
+.wmap-regions button{font:inherit;font-size:.85rem;border:1px solid var(--rule);background:var(--card);color:var(--ink);border-radius:99px;padding:.3rem .8rem;cursor:pointer}
+.wmap-regions button:hover{border-color:var(--accent)}
+.wmap-regions button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
