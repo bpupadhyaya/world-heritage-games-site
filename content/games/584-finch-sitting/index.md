@@ -11,7 +11,7 @@ countries: ["Belgium"]
 ---
 # Finch sitting
 
-*Vinkenzetting · Vinkensport*
+*Vinkenzetting · Vinkensport · Dutch for "finch sport"*
 
 **Encyclopedia ID 584** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/584-finch-sitting/
 

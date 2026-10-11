@@ -42,14 +42,15 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 ## Related entries
 
 - [Bao la Kiswahili](../../games/861-bao-la-kiswahili/index.md)
+- [Enkeshui](../../games/1136-enkeshui/index.md)
 - [Bao](../../games/647-bao/index.md)
 - [Katro / Katra](../../games/903-katro-katra/index.md)
 - [Bawo](../../games/906-bawo/index.md)
 - [Igisoro](../../games/1049-igisoro/index.md)
-- [Makonn](../../games/1065-makonn/index.md)
 
 ## Sources
 
 - <https://mancala.fandom.com/wiki/Giuthi>
 - <https://en.wikipedia.org/wiki/Mbothe>
 - <https://en.wikipedia.org/wiki/Kiothi>
+- <https://en.wikipedia.org/wiki/Giuthi>

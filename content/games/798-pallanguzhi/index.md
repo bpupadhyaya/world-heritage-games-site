@@ -47,3 +47,4 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 ## Sources
 
 - <https://en.wikipedia.org/wiki/Traditional_games_of_India>
+- <https://en.wikipedia.org/wiki/Kuzhipara>

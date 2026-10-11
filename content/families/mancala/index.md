@@ -25,7 +25,7 @@ count: 56
 - [Bawo](../../games/906-bawo/index.md): Malawi; Board and table games; Deep Past and First Games
 - [Congklak](../../games/803-congklak/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
 - [Dabuda](../../games/705-dabuda/index.md): Ethiopia, Djibouti; Board and table games; Deep Past and First Games
-- [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania; Board and table games; Deep Past and First Games
+- [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania, Kenya; Board and table games; Deep Past and First Games
 - [Gebeta](../../games/708-gebeta/index.md): Ethiopia; Board and table games; Deep Past and First Games
 - [Hawalis](../../games/1001-hawalis/index.md): Oman; Board and table games; Deep Past and First Games
 - [Highland and river mancalas](../../games/863-highland-and-river-mancalas/index.md): Kenya; Board and table games; Deep Past and First Games

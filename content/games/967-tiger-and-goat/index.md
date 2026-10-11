@@ -11,7 +11,7 @@ countries: ["Nepal"]
 ---
 # Tiger and Goat
 
-*Bagh-Chal · Bagh Chal*
+*Bagh-Chal · Bagh Chal · Bagha-chall*
 
 **Encyclopedia ID 967** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/967-tiger-and-goat/
 
@@ -51,3 +51,5 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Sources
 
 - <https://en.wikipedia.org/wiki/Traditional_games_of_Nepal>
+- <https://en.wikipedia.org/wiki/Bagh-chal>
+- <https://en.wikipedia.org/wiki/Bagha-chall>

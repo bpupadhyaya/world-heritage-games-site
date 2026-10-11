@@ -14392,7 +14392,8 @@
    "name": "Finch sitting",
    "native": "Vinkenzetting",
    "alt": [
-    "Vinkensport"
+    "Vinkensport",
+    "Dutch for \"finch sport\""
    ],
    "countries": [
     "Belgium"
@@ -15289,7 +15290,8 @@
    "sources": [
     "https://www.canadashistory.ca/explore/arts-culture-society/crokinole",
     "https://www.cbc.ca/newsinteractives/features/crokinole-country",
-    "https://www.granthaven.com/post/world-crokinole-championship-celebrates-25-years-in-tavistock"
+    "https://www.granthaven.com/post/world-crokinole-championship-celebrates-25-years-in-tavistock",
+    "https://en.wikipedia.org/wiki/Pichenotte"
    ],
    "photo": null
   },
@@ -16080,7 +16082,8 @@
    "heritage_note": "Part of the living heritage of DR Congo, Zambia.",
    "sources": [
     "https://en.wikipedia.org/wiki/Kisolo",
-    "https://mancala.fandom.com/wiki/Isolo_I"
+    "https://mancala.fandom.com/wiki/Isolo_I",
+    "https://en.wikipedia.org/wiki/Chisolo"
    ],
    "photo": null
   },
@@ -17943,7 +17946,8 @@
    "native": "Aadu Puli Attam",
    "alt": [
     "Puli Meka",
-    "Goats and Tigers"
+    "Goats and Tigers",
+    "Aadu Puli Attam"
    ],
    "countries": [
     "India"
@@ -17962,7 +17966,8 @@
    "how_played": "Hunt game: three tigers versus up to fifteen goats on a triangle-and-lines board.",
    "heritage_note": "Part of the living heritage of India.",
    "sources": [
-    "https://en.wikipedia.org/wiki/Traditional_games_of_India"
+    "https://en.wikipedia.org/wiki/Traditional_games_of_India",
+    "https://en.wikipedia.org/wiki/Lambs_and_tigers"
    ],
    "photo": null
   },
@@ -18087,7 +18092,8 @@
    "how_played": "Mancala sowing game on a 14-pit board with shells or seeds, played at home in the south.",
    "heritage_note": "Part of the living heritage of India.",
    "sources": [
-    "https://en.wikipedia.org/wiki/Traditional_games_of_India"
+    "https://en.wikipedia.org/wiki/Traditional_games_of_India",
+    "https://en.wikipedia.org/wiki/Kuzhipara"
    ],
    "photo": null
   },
@@ -18986,7 +18992,15 @@
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/855-rope-pulling/",
    "name": "Rope pulling",
    "native": "Arkan tartys",
-   "alt": [],
+   "alt": [
+    "Tug of war",
+    "also known as tug o' war",
+    "tug-a-war",
+    "tug war",
+    "rope war",
+    "rope pulling",
+    "or tugging war"
+   ],
    "countries": [
     "Kazakhstan"
    ],
@@ -19005,7 +19019,8 @@
    "heritage_note": "Part of the living heritage of Kazakhstan.",
    "sources": [
     "https://central-asia.guide/kazakhstan/kazakh-culture/kazakh-games/",
-    "https://welcome.kz/en/kazakhstan/national-games"
+    "https://welcome.kz/en/kazakhstan/national-games",
+    "https://en.wikipedia.org/wiki/Tug_of_war"
    ],
    "photo": null
   },
@@ -19246,7 +19261,8 @@
    "sources": [
     "https://mancala.fandom.com/wiki/Giuthi",
     "https://en.wikipedia.org/wiki/Mbothe",
-    "https://en.wikipedia.org/wiki/Kiothi"
+    "https://en.wikipedia.org/wiki/Kiothi",
+    "https://en.wikipedia.org/wiki/Giuthi"
    ],
    "photo": null
   },
@@ -19897,7 +19913,8 @@
    "name": "Katro / Katra",
    "native": "Katro",
    "alt": [
-    "Fifangha"
+    "Fifangha",
+    "Katro"
    ],
    "countries": [
     "Madagascar"
@@ -20251,7 +20268,9 @@
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/916-ohvalhu/",
    "name": "Ohvalhu",
    "native": "Ohvalhu Gondi",
-   "alt": [],
+   "alt": [
+    "Oh’valhu-gondi"
+   ],
    "countries": [
     "Maldives"
    ],
@@ -20270,7 +20289,8 @@
    "heritage_note": "Part of the living heritage of Maldives.",
    "sources": [
     "https://visitmaldives.com/en/experience/traditional-games-and-favourite-sports-from-the-sunny-side-of-life",
-    "https://lovethemaldives.com/traditional-maldivian-games/"
+    "https://lovethemaldives.com/traditional-maldivian-games/",
+    "https://en.wikipedia.org/wiki/Oh’valhu-gondi"
    ],
    "photo": null
   },
@@ -20991,7 +21011,9 @@
    "name": "Tiger and Goat",
    "native": "Bagh-Chal",
    "alt": [
-    "Bagh Chal"
+    "Bagh Chal",
+    "Bagh-Chal",
+    "Bagha-chall"
    ],
    "countries": [
     "Nepal"
@@ -21010,7 +21032,9 @@
    "how_played": "Four tigers versus twenty goats on a 5x5 grid.",
    "heritage_note": "Part of the living heritage of Nepal.",
    "sources": [
-    "https://en.wikipedia.org/wiki/Traditional_games_of_Nepal"
+    "https://en.wikipedia.org/wiki/Traditional_games_of_Nepal",
+    "https://en.wikipedia.org/wiki/Bagh-chal",
+    "https://en.wikipedia.org/wiki/Bagha-chall"
    ],
    "photo": null
   },
@@ -21405,7 +21429,8 @@
    "heritage_note": "Part of the living heritage of Nigeria.",
    "sources": [
     "https://www.channelstv.com/2021/11/04/ayo-olopon-the-african-game-aiming-for-olympics-recognition/",
-    "https://en.wikipedia.org/wiki/Traditional_games_of_Nigeria"
+    "https://en.wikipedia.org/wiki/Traditional_games_of_Nigeria",
+    "https://en.wikipedia.org/wiki/Ayoayo"
    ],
    "photo": null
   },
@@ -23867,10 +23892,12 @@
     "Endodoi"
    ],
    "countries": [
-    "Tanzania"
+    "Tanzania",
+    "Kenya"
    ],
    "country_codes": [
-    "TZ"
+    "TZ",
+    "KE"
    ],
    "region": "Sub-Saharan Africa",
    "type": "Board and table games",
@@ -23883,7 +23910,8 @@
    "how_played": "Maasai mancala played in Tanzania and Kenya.",
    "heritage_note": "Part of the living heritage of Tanzania.",
    "sources": [
-    "https://en.wikipedia.org/wiki/Enkeshui"
+    "https://en.wikipedia.org/wiki/Enkeshui",
+    "https://en.wikipedia.org/wiki/Endodoi"
    ],
    "photo": null
   },
@@ -23948,7 +23976,9 @@
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/1140-thai-pebbles/",
    "name": "Thai pebbles",
    "native": "Mak Kep",
-   "alt": [],
+   "alt": [
+    "Mak kep"
+   ],
    "countries": [
     "Thailand"
    ],
@@ -25242,7 +25272,9 @@
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/1213-gourd-crab-dice/",
    "name": "Gourd-crab dice",
    "native": "Bau Cua Ca Cop",
-   "alt": [],
+   "alt": [
+    "Bầu Cua Cá Cọp"
+   ],
    "countries": [
     "Vietnam"
    ],
@@ -25260,7 +25292,8 @@
    "how_played": "Dice with six symbols; players bet on the face-up symbol, especially at Tet.",
    "heritage_note": "Part of the living heritage of Vietnam.",
    "sources": [
-    "https://vinwonders.com/en/wonderpedia/news/traditional-vietnamese-games/"
+    "https://vinwonders.com/en/wonderpedia/news/traditional-vietnamese-games/",
+    "https://en.wikipedia.org/wiki/Bầu_Cua_Cá_Cọp"
    ],
    "photo": null
   },
@@ -25323,7 +25356,9 @@
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/1216-mandarin-square-capturing/",
    "name": "Mandarin square capturing",
    "native": "O An Quan",
-   "alt": [],
+   "alt": [
+    "Ô Ăn Quan"
+   ],
    "countries": [
     "Vietnam"
    ],
@@ -25341,7 +25376,8 @@
    "how_played": "Mancala game drawn on the ground; capture mandarin pieces and pebbles.",
    "heritage_note": "Part of the living heritage of Vietnam.",
    "sources": [
-    "https://vinwonders.com/en/wonderpedia/news/traditional-vietnamese-games/"
+    "https://vinwonders.com/en/wonderpedia/news/traditional-vietnamese-games/",
+    "https://en.wikipedia.org/wiki/Ô_ăn_quan"
    ],
    "photo": null
   },

@@ -38,7 +38,7 @@ East Africa, the Great Lakes and the island world of the Indian Ocean.
 - [Bawo](../../games/906-bawo/index.md): Malawi; Board and table games; Deep Past and First Games
 - [Blada](../../games/862-blada/index.md): Kenya; Dexterity and skill games; Modern Heritage
 - [Duulu](../../games/1173-duulu/index.md): Uganda; Dexterity and skill games; Modern Heritage
-- [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania; Board and table games; Deep Past and First Games
+- [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania, Kenya; Board and table games; Deep Past and First Games
 - [Fanoron-Telo](../../games/902-fanoron-telo/index.md): Madagascar; Board and table games; Crossroads and Golden Ages
 - [Fanorona](../../games/901-fanorona/index.md): Madagascar; Board and table games; Crossroads and Golden Ages
 - [Highland and river mancalas](../../games/863-highland-and-river-mancalas/index.md): Kenya; Board and table games; Deep Past and First Games

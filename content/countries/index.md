@@ -94,7 +94,7 @@ Every country with entries in the encyclopedia.
 - [Japan](../countries/japan/index.md): 43 entries
 - [Jordan](../countries/jordan/index.md): 6 entries
 - [Kazakhstan](../countries/kazakhstan/index.md): 9 entries
-- [Kenya](../countries/kenya/index.md): 10 entries
+- [Kenya](../countries/kenya/index.md): 11 entries
 - [Kiribati](../countries/kiribati/index.md): 2 entries
 - [Kosovo](../countries/kosovo/index.md): 2 entries
 - [Kuwait](../countries/kuwait/index.md): 2 entries

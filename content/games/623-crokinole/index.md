@@ -53,3 +53,4 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - <https://www.canadashistory.ca/explore/arts-culture-society/crokinole>
 - <https://www.cbc.ca/newsinteractives/features/crokinole-country>
 - <https://www.granthaven.com/post/world-crokinole-championship-celebrates-25-years-in-tavistock>
+- <https://en.wikipedia.org/wiki/Pichenotte>

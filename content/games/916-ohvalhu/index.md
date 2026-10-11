@@ -11,7 +11,7 @@ countries: ["Maldives"]
 ---
 # Ohvalhu
 
-*Ohvalhu Gondi*
+*Ohvalhu Gondi · Oh’valhu-gondi*
 
 **Encyclopedia ID 916** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/916-ohvalhu/
 
@@ -48,3 +48,4 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - <https://visitmaldives.com/en/experience/traditional-games-and-favourite-sports-from-the-sunny-side-of-life>
 - <https://lovethemaldives.com/traditional-maldivian-games/>
+- <https://en.wikipedia.org/wiki/Oh’valhu-gondi>

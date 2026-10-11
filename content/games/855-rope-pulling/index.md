@@ -11,7 +11,7 @@ countries: ["Kazakhstan"]
 ---
 # Rope pulling
 
-*Arkan tartys*
+*Arkan tartys · Tug of war · also known as tug o' war · tug-a-war · tug war*
 
 **Encyclopedia ID 855** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/855-rope-pulling/
 
@@ -47,3 +47,4 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 - <https://central-asia.guide/kazakhstan/kazakh-culture/kazakh-games/>
 - <https://welcome.kz/en/kazakhstan/national-games>
+- <https://en.wikipedia.org/wiki/Tug_of_war>

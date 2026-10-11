@@ -11,7 +11,7 @@ countries: ["Thailand"]
 ---
 # Thai pebbles
 
-*Mak Kep*
+*Mak Kep · Mak kep*
 
 **Encyclopedia ID 1140** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1140-thai-pebbles/
 

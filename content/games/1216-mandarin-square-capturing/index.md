@@ -11,7 +11,7 @@ countries: ["Vietnam"]
 ---
 # Mandarin square capturing
 
-*O An Quan*
+*O An Quan · Ô Ăn Quan*
 
 **Encyclopedia ID 1216** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1216-mandarin-square-capturing/
 
@@ -51,3 +51,4 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 ## Sources
 
 - <https://vinwonders.com/en/wonderpedia/news/traditional-vietnamese-games/>
+- <https://en.wikipedia.org/wiki/Ô_ăn_quan>

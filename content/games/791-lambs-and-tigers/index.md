@@ -47,3 +47,4 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Sources
 
 - <https://en.wikipedia.org/wiki/Traditional_games_of_India>
+- <https://en.wikipedia.org/wiki/Lambs_and_tigers>

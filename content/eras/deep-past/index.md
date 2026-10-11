@@ -35,7 +35,7 @@ Games began with what lay to hand: knucklebones, pebbles, seeds and a patch of g
 - [Congklak](../../games/803-congklak/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
 - [Dabuda](../../games/705-dabuda/index.md): Ethiopia, Djibouti; Board and table games; Deep Past and First Games
 - [Diketo](../../games/1076-diketo/index.md): South Africa, Botswana; Dexterity and skill games; Deep Past and First Games
-- [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania; Board and table games; Deep Past and First Games
+- [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania, Kenya; Board and table games; Deep Past and First Games
 - [Fijian tag](../../games/712-fijian-tag/index.md): Fiji; Street and playground games; Deep Past and First Games
 - [Five stones](../../games/907-five-stones/index.md): Malaysia, Brunei; Dexterity and skill games; Deep Past and First Games
 - [Galah panjang](../../games/909-galah-panjang/index.md): Malaysia, Singapore; Street and playground games; Deep Past and First Games

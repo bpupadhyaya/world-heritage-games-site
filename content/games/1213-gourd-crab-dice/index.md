@@ -11,7 +11,7 @@ countries: ["Vietnam"]
 ---
 # Gourd-crab dice
 
-*Bau Cua Ca Cop*
+*Bau Cua Ca Cop · Bầu Cua Cá Cọp*
 
 **Encyclopedia ID 1213** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1213-gourd-crab-dice/
 
@@ -47,3 +47,4 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 ## Sources
 
 - <https://vinwonders.com/en/wonderpedia/news/traditional-vietnamese-games/>
+- <https://en.wikipedia.org/wiki/Bầu_Cua_Cá_Cọp>

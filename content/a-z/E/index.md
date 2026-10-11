@@ -17,7 +17,7 @@ path: "/a-z/E/"
 - [Encang kuda](../../games/1067-encang-kuda/index.md): Singapore; Street and playground games; Classical Worlds
 - [Enchute](../../games/770-enchute/index.md): Honduras; Dexterity and skill games; Modern Heritage
 - [Engolo](../../games/1409-engolo/index.md): Angola; Dances; Living Traditions
-- [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania; Board and table games; Deep Past and First Games
+- [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania, Kenya; Board and table games; Deep Past and First Games
 - [Equestrian vaulting](../../games/488-equestrian-vaulting/index.md): Worldwide; Sports with animal partners; Classical Worlds
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Eskista](../../games/188-eskista/index.md): Ethiopia; Dances; Living Traditions

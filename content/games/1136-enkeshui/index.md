@@ -7,7 +7,7 @@ type: "board_game"
 family: "mancala"
 era: "deep-past"
 cradle: "africa-east"
-countries: ["Tanzania"]
+countries: ["Tanzania", "Kenya"]
 ---
 # Enkeshui
 
@@ -27,7 +27,7 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 ## Facts
 
-- **Where:** Tanzania
+- **Where:** Tanzania, Kenya
 - **Type:** Board and table games
 - **Family:** Mancala and sowing games
 - **Era:** [Deep Past and First Games](../../eras/deep-past/index.md) (uncertain)
@@ -42,8 +42,8 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 ## Related entries
 
 - [Bao la Kiswahili](../../games/861-bao-la-kiswahili/index.md)
-- [Bao](../../games/647-bao/index.md)
 - [Highland and river mancalas](../../games/863-highland-and-river-mancalas/index.md)
+- [Bao](../../games/647-bao/index.md)
 - [Katro / Katra](../../games/903-katro-katra/index.md)
 - [Bawo](../../games/906-bawo/index.md)
 - [Igisoro](../../games/1049-igisoro/index.md)
@@ -51,3 +51,4 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 ## Sources
 
 - <https://en.wikipedia.org/wiki/Enkeshui>
+- <https://en.wikipedia.org/wiki/Endodoi>

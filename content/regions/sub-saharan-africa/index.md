@@ -141,7 +141,7 @@ count: 187
 - [Diketo](../../games/1076-diketo/index.md): South Africa, Botswana; Dexterity and skill games; Deep Past and First Games
 - [Duo](../../games/838-duo/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
 - [Duulu](../../games/1173-duulu/index.md): Uganda; Dexterity and skill games; Modern Heritage
-- [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania; Board and table games; Deep Past and First Games
+- [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania, Kenya; Board and table games; Deep Past and First Games
 - [Fanoron-Telo](../../games/902-fanoron-telo/index.md): Madagascar; Board and table games; Crossroads and Golden Ages
 - [Fanorona](../../games/901-fanorona/index.md): Madagascar; Board and table games; Crossroads and Golden Ages
 - [Fohr](../../games/839-fohr/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages

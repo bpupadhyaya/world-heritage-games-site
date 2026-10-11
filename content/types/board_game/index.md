@@ -90,7 +90,7 @@ count: 214
 - [Dutch draughts](../../games/970-dutch-draughts/index.md): Netherlands; Board and table games; Crossroads and Golden Ages
 - [Edrees](../../games/1008-edrees/index.md): Palestine; Board and table games; Crossroads and Golden Ages
 - [Egyptian backgammon](../../games/695-egyptian-backgammon/index.md): Egypt; Board and table games; River Valleys and First Cities
-- [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania; Board and table games; Deep Past and First Games
+- [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania, Kenya; Board and table games; Deep Past and First Games
 - [Fanoron-Telo](../../games/902-fanoron-telo/index.md): Madagascar; Board and table games; Crossroads and Golden Ages
 - [Fanorona](../../games/901-fanorona/index.md): Madagascar; Board and table games; Crossroads and Golden Ages
 - [Fohr](../../games/839-fohr/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages

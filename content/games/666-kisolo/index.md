@@ -48,3 +48,4 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - <https://en.wikipedia.org/wiki/Kisolo>
 - <https://mancala.fandom.com/wiki/Isolo_I>
+- <https://en.wikipedia.org/wiki/Chisolo>
