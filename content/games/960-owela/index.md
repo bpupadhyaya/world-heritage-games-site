@@ -11,7 +11,7 @@ countries: ["Namibia"]
 ---
 # Owela
 
-*Owela · Hus*
+*Also known as: Hus*
 
 **Encyclopedia ID 960** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/960-owela/
 

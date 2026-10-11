@@ -11,7 +11,7 @@ countries: ["Georgia"]
 ---
 # Khinkali dumpling pleating
 
-*ხინკალი*
+*Also known as: ხინკალი*
 
 **Encyclopedia ID 246** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/246-khinkali-dumpling-pleating/
 

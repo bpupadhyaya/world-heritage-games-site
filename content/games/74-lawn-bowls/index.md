@@ -11,7 +11,7 @@ countries: ["United Kingdom", "Australia", "New Zealand"]
 ---
 # Lawn bowls
 
-*Lawn bowls · biased-bowl green*
+*Also known as: biased-bowl green*
 
 **Encyclopedia ID 74** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/74-lawn-bowls/
 

@@ -11,7 +11,7 @@ countries: ["Mongolia"]
 ---
 # Morin khuur
 
-*Морин хуур / morin khuur · horsehead fiddle*
+*Also known as: Морин хуур · horsehead fiddle*
 
 **Encyclopedia ID 34** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/34-morin-khuur/
 

@@ -11,7 +11,7 @@ countries: ["Ireland", "United Kingdom"]
 ---
 # Celtic knot weave
 
-*Celtic knotwork*
+*Also known as: Celtic knotwork*
 
 **Encyclopedia ID 25** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/25-celtic-knot-weave/
 

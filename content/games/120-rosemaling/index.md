@@ -11,7 +11,7 @@ countries: ["Norway"]
 ---
 # Rosemaling
 
-*Rosemaling · Norwegian decorative painting*
+*Also known as: Norwegian decorative painting*
 
 **Encyclopedia ID 120** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/120-rosemaling/
 

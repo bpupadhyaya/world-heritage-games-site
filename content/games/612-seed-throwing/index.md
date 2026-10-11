@@ -11,7 +11,7 @@ countries: ["Cambodia"]
 ---
 # Seed throwing
 
-*Bos Angkunh*
+*Also known as: Bos Angkunh*
 
 **Encyclopedia ID 612** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/612-seed-throwing/
 

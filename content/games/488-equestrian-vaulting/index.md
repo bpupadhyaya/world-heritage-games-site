@@ -11,7 +11,7 @@ countries: []
 ---
 # Equestrian vaulting
 
-*Voltigieren*
+*Also known as: Voltigieren*
 
 **Encyclopedia ID 488** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/488-equestrian-vaulting/
 

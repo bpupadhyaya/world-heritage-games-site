@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Lamian
 
-*拉面 · hand-pulled noodles*
+*Also known as: 拉面 · hand-pulled noodles*
 
 **Encyclopedia ID 340** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/340-lamian/
 

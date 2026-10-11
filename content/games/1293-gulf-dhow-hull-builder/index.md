@@ -11,7 +11,7 @@ countries: ["Qatar"]
 ---
 # Gulf Dhow Hull Builder
 
-*بوم / سمبوك*
+*Also known as: بوم*
 
 **Encyclopedia ID 1293** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1293-gulf-dhow-hull-builder/
 

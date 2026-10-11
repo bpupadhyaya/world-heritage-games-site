@@ -11,7 +11,7 @@ countries: ["Indonesia"]
 ---
 # Pacu jawi
 
-*pacu jawi · rice-field bull race*
+*Also known as: rice-field bull race*
 
 **Encyclopedia ID 1354** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1354-pacu-jawi/
 

@@ -11,7 +11,7 @@ countries: ["Egypt"]
 ---
 # Aragoz Hand-Puppet Booth
 
-*aragoz / أراجوز*
+*Also known as: aragoz · أراجوز*
 
 **Encyclopedia ID 222** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/222-aragoz-hand-puppet-booth/
 

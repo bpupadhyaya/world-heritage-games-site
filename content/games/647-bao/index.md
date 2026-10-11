@@ -11,7 +11,7 @@ countries: ["Comoros"]
 ---
 # Bao
 
-*Bao · Bao la Kiswahili*
+*Also known as: Bao la Kiswahili*
 
 **Encyclopedia ID 647** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/647-bao/
 

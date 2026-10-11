@@ -11,7 +11,7 @@ countries: ["Tonga"]
 ---
 # Heu
 
-*Heu · stick hit*
+*Also known as: stick hit*
 
 **Encyclopedia ID 1146** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1146-heu/
 

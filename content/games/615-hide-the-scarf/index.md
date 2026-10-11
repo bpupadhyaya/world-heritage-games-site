@@ -11,7 +11,7 @@ countries: ["Cambodia"]
 ---
 # Hide the scarf
 
-*Leak Kanseng*
+*Also known as: Leak Kanseng*
 
 **Encyclopedia ID 615** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/615-hide-the-scarf/
 

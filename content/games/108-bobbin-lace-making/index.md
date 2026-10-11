@@ -11,7 +11,7 @@ countries: ["Belgium"]
 ---
 # Bobbin lace making
 
-*Kloppeln / dentelle aux fuseaux*
+*Also known as: Kloppeln · dentelle aux fuseaux*
 
 **Encyclopedia ID 108** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/108-bobbin-lace-making/
 

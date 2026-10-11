@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Kamishibai
 
-*紙芝居 · paper-card storytelling*
+*Also known as: 紙芝居 · paper-card storytelling*
 
 **Encyclopedia ID 353** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/353-kamishibai/
 

@@ -11,7 +11,7 @@ countries: ["Spain", "France"]
 ---
 # Basque Pelota
 
-*Pelota Vasca*
+*Also known as: Pelota Vasca*
 
 **Encyclopedia ID 1094** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1094-basque-pelota/
 

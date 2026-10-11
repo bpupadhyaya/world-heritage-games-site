@@ -11,7 +11,7 @@ countries: ["Venezuela", "Colombia"]
 ---
 # Joropo llanero band
 
-*Joropo llanero*
+*Also known as: Joropo llanero*
 
 **Encyclopedia ID 130** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/130-joropo-llanero-band/
 

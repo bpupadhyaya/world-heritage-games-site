@@ -11,7 +11,7 @@ countries: ["Peru"]
 ---
 # Caballito de totora
 
-*Caballito de totora · reed riding-boat*
+*Also known as: reed riding-boat*
 
 **Encyclopedia ID 1442** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1442-caballito-de-totora/
 

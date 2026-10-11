@@ -11,7 +11,7 @@ countries: []
 ---
 # Malagasy lamba silk weaving
 
-*Lamba landy / akotifahana*
+*Also known as: Lamba landy · akotifahana*
 
 **Encyclopedia ID 206** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/206-malagasy-lamba-silk-weaving/
 

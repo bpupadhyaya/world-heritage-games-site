@@ -11,7 +11,7 @@ countries: ["Cote d'Ivoire"]
 ---
 # Fohr
 
-*Fohr (hidden-piece guessing game)*
+*Also known as: Fohr (hidden-piece guessing game)*
 
 **Encyclopedia ID 839** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/839-fohr/
 

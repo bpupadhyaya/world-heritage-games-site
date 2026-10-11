@@ -11,7 +11,7 @@ countries: ["DR Congo"]
 ---
 # Bulundu
 
-*Bulundu · Luba ball game*
+*Also known as: Luba ball game*
 
 **Encyclopedia ID 667** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/667-bulundu/
 

@@ -11,7 +11,7 @@ countries: ["Singapore"]
 ---
 # Encang kuda
 
-*Encang kuda (Keleret)*
+*Also known as: Encang kuda (Keleret)*
 
 **Encyclopedia ID 1067** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1067-encang-kuda/
 

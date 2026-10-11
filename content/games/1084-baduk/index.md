@@ -11,7 +11,7 @@ countries: ["South Korea"]
 ---
 # Baduk
 
-*바둑 Baduk · Go*
+*Also known as: Go*
 
 **Encyclopedia ID 1084** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1084-baduk/
 

@@ -11,7 +11,7 @@ countries: ["Malawi"]
 ---
 # Babatone
 
-*Babatone (one-string bass) · one-string bass*
+*Also known as: Babatone (one-string bass) · one-string bass*
 
 **Encyclopedia ID 1233** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1233-babatone/
 

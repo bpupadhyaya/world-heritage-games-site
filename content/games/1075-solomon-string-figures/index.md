@@ -11,7 +11,7 @@ countries: ["Solomon Islands"]
 ---
 # Solomon string figures
 
-*String figures*
+*Also known as: String figures*
 
 **Encyclopedia ID 1075** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1075-solomon-string-figures/
 

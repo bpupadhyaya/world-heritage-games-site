@@ -11,7 +11,7 @@ countries: ["Tonga"]
 ---
 # Tongan cricket
 
-*Kilikiti*
+*Also known as: Kilikiti*
 
 **Encyclopedia ID 1149** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1149-tongan-cricket/
 

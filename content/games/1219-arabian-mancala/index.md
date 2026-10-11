@@ -11,7 +11,7 @@ countries: ["Yemen"]
 ---
 # Arabian mancala
 
-*Mancala (regional)*
+*Also known as: Mancala (regional)*
 
 **Encyclopedia ID 1219** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1219-arabian-mancala/
 

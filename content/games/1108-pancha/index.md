@@ -11,7 +11,7 @@ countries: ["Sri Lanka"]
 ---
 # Pancha
 
-*Pancha Keliya*
+*Also known as: Pancha Keliya*
 
 **Encyclopedia ID 1108** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1108-pancha/
 

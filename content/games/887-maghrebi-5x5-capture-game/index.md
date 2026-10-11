@@ -11,7 +11,7 @@ countries: ["Libya"]
 ---
 # Maghrebi 5x5 capture game
 
-*Siga/Kharbga*
+*Also known as: Siga · Kharbga*
 
 **Encyclopedia ID 887** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/887-maghrebi-5x5-capture-game/
 

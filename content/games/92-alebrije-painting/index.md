@@ -11,7 +11,7 @@ countries: ["Mexico"]
 ---
 # Alebrije painting
 
-*Alebrijes de Oaxaca*
+*Also known as: Alebrijes de Oaxaca*
 
 **Encyclopedia ID 92** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/92-alebrije-painting/
 

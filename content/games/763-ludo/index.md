@@ -11,7 +11,7 @@ countries: ["Haiti", "Jamaica", "Cameroon", "Central African Republic", "Chad", 
 ---
 # Ludo
 
-*Lido*
+*Also known as: Lido*
 
 **Encyclopedia ID 763** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/763-ludo/
 

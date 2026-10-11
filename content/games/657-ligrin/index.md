@@ -11,8 +11,6 @@ countries: ["Cyprus"]
 ---
 # Ligrin
 
-*Ligrin*
-
 **Encyclopedia ID 657** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/657-ligrin/
 
 Players throw a short wooden stick and try to catch it to score points.

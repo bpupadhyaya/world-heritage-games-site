@@ -11,7 +11,7 @@ countries: ["Lebanon", "Syria", "Palestine", "Jordan"]
 ---
 # Mijwiz Double Clarinet
 
-*mijwiz / مجوز*
+*Also known as: mijwiz · مجوز*
 
 **Encyclopedia ID 221** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/221-mijwiz-double-clarinet/
 

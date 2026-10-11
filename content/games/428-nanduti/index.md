@@ -11,7 +11,7 @@ countries: ["Paraguay"]
 ---
 # Nanduti
 
-*Nanduti · spider-web lace*
+*Also known as: spider-web lace*
 
 **Encyclopedia ID 428** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/428-nanduti/
 

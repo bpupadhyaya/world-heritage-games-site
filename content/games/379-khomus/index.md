@@ -11,7 +11,7 @@ countries: ["Russia"]
 ---
 # Khomus
 
-*Хомус · Sakha jaw harp*
+*Also known as: Хомус · Sakha jaw harp*
 
 **Encyclopedia ID 379** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/379-khomus/
 

@@ -11,7 +11,7 @@ countries: ["Canada"]
 ---
 # Bingo
 
-*Bingo · Beano*
+*Also known as: Beano*
 
 **Encyclopedia ID 622** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/622-bingo/
 

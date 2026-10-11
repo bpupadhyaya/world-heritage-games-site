@@ -11,7 +11,7 @@ countries: ["Turkmenistan"]
 ---
 # Ashyk
 
-*Ashyk · ankle bones*
+*Also known as: ankle bones*
 
 **Encyclopedia ID 1169** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1169-ashyk/
 

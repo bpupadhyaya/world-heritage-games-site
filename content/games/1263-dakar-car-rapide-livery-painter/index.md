@@ -11,7 +11,7 @@ countries: ["Senegal"]
 ---
 # Dakar Car Rapide Livery Painter
 
-*Car rapide*
+*Also known as: Car rapide*
 
 **Encyclopedia ID 1263** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1263-dakar-car-rapide-livery-painter/
 

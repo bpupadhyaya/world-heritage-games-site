@@ -11,7 +11,7 @@ countries: ["Philippines"]
 ---
 # Banig mat weaving
 
-*banig · Banig*
+*Also known as: banig*
 
 **Encyclopedia ID 1236** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1236-banig-mat-weaving/
 

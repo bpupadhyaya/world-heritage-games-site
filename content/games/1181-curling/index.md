@@ -11,8 +11,6 @@ countries: ["United Kingdom"]
 ---
 # Curling
 
-*Curling*
-
 **Encyclopedia ID 1181** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1181-curling/
 
 Slide stones over ice toward a target while teammates sweep; Scotland is its historic home.

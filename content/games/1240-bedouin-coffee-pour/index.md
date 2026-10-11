@@ -11,7 +11,7 @@ countries: ["Jordan"]
 ---
 # Bedouin Coffee Pour
 
-*Qahwa Bedawiyya / قهوة بدوية*
+*Also known as: Qahwa Bedawiyya · قهوة بدوية*
 
 **Encyclopedia ID 1240** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1240-bedouin-coffee-pour/
 

@@ -11,7 +11,7 @@ countries: ["Sri Lanka"]
 ---
 # Kotta Pora
 
-*කොට්ටා පොර · pillow fight on a log*
+*Also known as: කොට්ටා පොර · pillow fight on a log*
 
 **Encyclopedia ID 18** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/18-kotta-pora/
 

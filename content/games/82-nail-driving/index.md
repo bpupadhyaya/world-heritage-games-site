@@ -11,7 +11,7 @@ countries: ["Germany"]
 ---
 # Nail driving
 
-*Hammerschlagen · Hammerschlagen / Wettnageln*
+*Also known as: Hammerschlagen · Wettnageln*
 
 **Encyclopedia ID 82** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/82-nail-driving/
 

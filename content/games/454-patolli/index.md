@@ -11,8 +11,6 @@ countries: ["Mexico"]
 ---
 # Patolli
 
-*Patolli*
-
 **Encyclopedia ID 454** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/454-patolli/
 
 ![Patolli](../../../img/photos/00454-patolli.jpg)

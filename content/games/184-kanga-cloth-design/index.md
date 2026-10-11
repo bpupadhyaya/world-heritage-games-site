@@ -11,7 +11,7 @@ countries: ["Kenya"]
 ---
 # Kanga cloth design
 
-*Kanga / leso*
+*Also known as: Kanga · leso*
 
 **Encyclopedia ID 184** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/184-kanga-cloth-design/
 

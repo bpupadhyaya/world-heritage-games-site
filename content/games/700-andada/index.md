@@ -11,7 +11,7 @@ countries: ["Eritrea"]
 ---
 # Andada
 
-*Andada · Kunama mancala*
+*Also known as: Kunama mancala*
 
 **Encyclopedia ID 700** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/700-andada/
 

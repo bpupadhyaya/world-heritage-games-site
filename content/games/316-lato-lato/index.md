@@ -11,7 +11,7 @@ countries: ["Indonesia", "Malaysia"]
 ---
 # Lato-lato
 
-*Lato-lato · clackers*
+*Also known as: clackers*
 
 **Encyclopedia ID 316** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/316-lato-lato/
 

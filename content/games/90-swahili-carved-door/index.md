@@ -11,7 +11,7 @@ countries: ["Kenya"]
 ---
 # Swahili carved door
 
-*Mlango wa Zanzibar*
+*Also known as: Mlango wa Zanzibar*
 
 **Encyclopedia ID 90** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/90-swahili-carved-door/
 

@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Fukuwarai
 
-*福笑い · blindfold face-building*
+*Also known as: 福笑い · blindfold face-building*
 
 **Encyclopedia ID 94** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/94-fukuwarai/
 

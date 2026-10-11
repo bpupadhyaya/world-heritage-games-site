@@ -11,7 +11,7 @@ countries: ["Bolivia", "Bulgaria"]
 ---
 # Taba
 
-*Taba · knucklebone toss*
+*Also known as: knucklebone toss*
 
 **Encyclopedia ID 594** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/594-taba/
 

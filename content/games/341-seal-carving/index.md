@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Seal carving
 
-*篆刻 · zhuanke*
+*Also known as: 篆刻 · zhuanke*
 
 **Encyclopedia ID 341** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/341-seal-carving/
 

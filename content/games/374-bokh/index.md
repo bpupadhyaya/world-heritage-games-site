@@ -11,7 +11,7 @@ countries: ["Mongolia"]
 ---
 # Bökh
 
-*бөх · Mongolian wrestling*
+*Also known as: бөх · Mongolian wrestling*
 
 **Encyclopedia ID 374** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/374-bokh/
 

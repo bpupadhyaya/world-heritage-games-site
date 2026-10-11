@@ -11,7 +11,7 @@ countries: ["Poland"]
 ---
 # Bolesławiec Stamped Pottery
 
-*Ceramika bolesławiecka*
+*Also known as: Ceramika bolesławiecka*
 
 **Encyclopedia ID 1244** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1244-bolesawiec-stamped-pottery/
 

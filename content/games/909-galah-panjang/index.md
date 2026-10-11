@@ -11,8 +11,6 @@ countries: ["Malaysia", "Singapore"]
 ---
 # Galah panjang
 
-*Galah Panjang*
-
 **Encyclopedia ID 909** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/909-galah-panjang/
 
 Line-crossing tag game; attackers try to cross all lines and return.

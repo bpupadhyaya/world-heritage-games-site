@@ -11,7 +11,7 @@ countries: ["Djibouti"]
 ---
 # Horn of Africa camel caravan
 
-*Karawan*
+*Also known as: Karawan*
 
 **Encyclopedia ID 1270** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1270-horn-of-africa-camel-caravan/
 

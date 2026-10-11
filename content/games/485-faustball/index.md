@@ -11,7 +11,7 @@ countries: ["Germany", "Austria", "Brazil"]
 ---
 # Faustball
 
-*Faustball · fist ball*
+*Also known as: fist ball*
 
 **Encyclopedia ID 485** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/485-faustball/
 

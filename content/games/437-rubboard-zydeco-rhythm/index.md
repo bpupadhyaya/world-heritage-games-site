@@ -11,7 +11,7 @@ countries: ["United States"]
 ---
 # Rubboard zydeco rhythm
 
-*frottoir*
+*Also known as: frottoir*
 
 **Encyclopedia ID 437** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/437-rubboard-zydeco-rhythm/
 

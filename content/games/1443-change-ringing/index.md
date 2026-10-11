@@ -11,7 +11,7 @@ countries: ["United Kingdom"]
 ---
 # Change Ringing
 
-*Change ringing · Bell Method Puzzle*
+*Also known as: Bell Method Puzzle*
 
 **Encyclopedia ID 1443** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1443-change-ringing/
 

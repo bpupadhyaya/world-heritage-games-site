@@ -11,7 +11,7 @@ countries: ["New Zealand"]
 ---
 # Whai
 
-*Whai · Maori string figures*
+*Also known as: Maori string figures*
 
 **Encyclopedia ID 982** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/982-whai/
 

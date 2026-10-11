@@ -11,8 +11,6 @@ countries: ["Italy", "San Marino"]
 ---
 # Scopa
 
-*Scopa*
-
 **Encyclopedia ID 832** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/832-scopa/
 
 Capture table cards with matching values, sweeping for a point; the classic Italian family card game.

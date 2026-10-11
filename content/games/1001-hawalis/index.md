@@ -11,7 +11,7 @@ countries: ["Oman"]
 ---
 # Hawalis
 
-*Hawalis · Omani mancala*
+*Also known as: Omani mancala*
 
 **Encyclopedia ID 1001** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1001-hawalis/
 

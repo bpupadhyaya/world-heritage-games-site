@@ -11,8 +11,6 @@ countries: ["Israel"]
 ---
 # Rummikub
 
-*Rummikub*
-
 **Encyclopedia ID 826** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/826-rummikub/
 
 Tile rummy invented by Ephraim Hertzano.

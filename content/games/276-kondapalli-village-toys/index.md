@@ -11,7 +11,7 @@ countries: []
 ---
 # Kondapalli village toys
 
-*కొండపల్లి బొమ్మలు*
+*Also known as: కొండపల్లి బొమ్మలు*
 
 **Encyclopedia ID 276** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/276-kondapalli-village-toys/
 

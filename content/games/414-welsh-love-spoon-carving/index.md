@@ -11,7 +11,7 @@ countries: ["United Kingdom"]
 ---
 # Welsh Love Spoon Carving
 
-*Llwy garu*
+*Also known as: Llwy garu*
 
 **Encyclopedia ID 414** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/414-welsh-love-spoon-carving/
 

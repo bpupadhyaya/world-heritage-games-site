@@ -11,7 +11,7 @@ countries: []
 ---
 # Lukasa memory board pattern game
 
-*Lukasa*
+*Also known as: Lukasa*
 
 **Encyclopedia ID 197** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/197-lukasa-memory-board-pattern-game/
 

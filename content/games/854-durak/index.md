@@ -11,7 +11,7 @@ countries: ["Kazakhstan", "Turkmenistan", "Armenia", "Azerbaijan", "Georgia", "L
 ---
 # Durak
 
-*Durak · Fool*
+*Also known as: Fool*
 
 **Encyclopedia ID 854** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/854-durak/
 

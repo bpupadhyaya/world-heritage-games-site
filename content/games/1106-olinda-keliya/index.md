@@ -11,7 +11,7 @@ countries: ["Sri Lanka"]
 ---
 # Olinda Keliya
 
-*Olinda Keliya · Mancala*
+*Also known as: Mancala*
 
 **Encyclopedia ID 1106** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1106-olinda-keliya/
 

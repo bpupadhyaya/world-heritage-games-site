@@ -11,7 +11,7 @@ countries: ["Costa Rica"]
 ---
 # Chorreador
 
-*Chorreador de café · Costa Rican drip coffee*
+*Also known as: Chorreador de café · Costa Rican drip coffee*
 
 **Encyclopedia ID 1446** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1446-chorreador/
 

@@ -11,7 +11,7 @@ countries: ["Haiti", "Honduras", "Nicaragua", "Panama", "Guyana", "Suriname"]
 ---
 # Hopscotch
 
-*Marèl*
+*Also known as: Marèl*
 
 **Encyclopedia ID 762** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/762-hopscotch/
 

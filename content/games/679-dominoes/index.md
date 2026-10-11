@@ -11,7 +11,7 @@ countries: ["Dominican Republic", "Trinidad and Tobago", "Antigua and Barbuda", 
 ---
 # Dominoes
 
-*Dominó · double-six*
+*Also known as: Dominó · double-six*
 
 **Encyclopedia ID 679** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/679-dominoes/
 

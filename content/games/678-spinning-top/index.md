@@ -11,7 +11,7 @@ countries: ["Dominican Republic", "Jamaica", "Mexico", "Guatemala", "Belize", "H
 ---
 # Spinning top
 
-*El Trompo*
+*Also known as: El Trompo*
 
 **Encyclopedia ID 678** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/678-spinning-top/
 

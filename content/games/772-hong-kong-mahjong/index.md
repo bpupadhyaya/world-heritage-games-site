@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Hong Kong mahjong
 
-*麻雀 Máhjoek (Hong Kong style) · Old Hong Kong mahjong*
+*Also known as: 麻雀 Máhjoek (Hong Kong style) · Old Hong Kong mahjong*
 
 **Encyclopedia ID 772** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/772-hong-kong-mahjong/
 

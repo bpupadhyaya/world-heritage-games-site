@@ -11,7 +11,7 @@ countries: ["Indonesia"]
 ---
 # Independence-day field games
 
-*Lomba Agustusan · balap karung, sack race*
+*Also known as: Lomba Agustusan · balap karung, sack race*
 
 **Encyclopedia ID 330** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/330-independence-day-field-games/
 

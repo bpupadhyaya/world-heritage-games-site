@@ -11,7 +11,7 @@ countries: ["Turkmenistan"]
 ---
 # Turkmen gul carpet
 
-*Türkmen halysy · hali*
+*Also known as: Türkmen halysy · hali*
 
 **Encyclopedia ID 249** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/249-turkmen-gul-carpet/
 

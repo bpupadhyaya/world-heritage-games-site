@@ -11,7 +11,7 @@ countries: ["China", "Nepal", "Japan"]
 ---
 # Dumpling Pleating
 
-*饺子 jiaozi / momo / gyoza*
+*Also known as: 饺子 jiaozi · momo · gyoza*
 
 **Encyclopedia ID 499** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/499-dumpling-pleating/
 

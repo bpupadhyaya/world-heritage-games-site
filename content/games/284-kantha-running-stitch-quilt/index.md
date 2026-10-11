@@ -11,7 +11,7 @@ countries: ["Bangladesh"]
 ---
 # Kantha running-stitch quilt
 
-*কাঁথা*
+*Also known as: কাঁথা*
 
 **Encyclopedia ID 284** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/284-kantha-running-stitch-quilt/
 

@@ -11,7 +11,7 @@ countries: ["Kenya"]
 ---
 # Nyatiti Luo lyre
 
-*Nyatiti*
+*Also known as: Nyatiti*
 
 **Encyclopedia ID 1349** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1349-nyatiti-luo-lyre/
 

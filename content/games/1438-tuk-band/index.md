@@ -11,7 +11,7 @@ countries: ["Barbados"]
 ---
 # Tuk Band
 
-*Tuk band · Barbados*
+*Also known as: Barbados*
 
 **Encyclopedia ID 1438** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1438-tuk-band/
 

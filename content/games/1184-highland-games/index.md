@@ -11,7 +11,7 @@ countries: ["United Kingdom"]
 ---
 # Highland games
 
-*Highland games heavy events · Caber toss · Stone put · Maide-leisg*
+*Also known as: Highland games heavy events · Caber toss · Stone put · Maide-leisg*
 
 **Encyclopedia ID 1184** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1184-highland-games/
 

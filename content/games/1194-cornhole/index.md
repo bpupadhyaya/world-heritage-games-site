@@ -11,7 +11,7 @@ countries: ["United States"]
 ---
 # Cornhole
 
-*Cornhole · Bags · Sack toss*
+*Also known as: Bags · Sack toss*
 
 **Encyclopedia ID 1194** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1194-cornhole/
 

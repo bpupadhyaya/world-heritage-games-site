@@ -11,7 +11,7 @@ countries: ["Norway"]
 ---
 # Langeleik
 
-*langeleik · Norwegian drone zither*
+*Also known as: Norwegian drone zither*
 
 **Encyclopedia ID 1322** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1322-langeleik/
 

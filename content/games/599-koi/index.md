@@ -11,7 +11,7 @@ countries: ["Botswana"]
 ---
 # Koi
 
-*Koi · skipping rope*
+*Also known as: skipping rope*
 
 **Encyclopedia ID 599** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/599-koi/
 

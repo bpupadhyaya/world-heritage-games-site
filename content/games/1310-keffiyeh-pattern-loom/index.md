@@ -11,7 +11,7 @@ countries: ["Palestine"]
 ---
 # Keffiyeh Pattern Loom
 
-*Kufiya / كوفية*
+*Also known as: Kufiya · كوفية*
 
 **Encyclopedia ID 1310** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1310-keffiyeh-pattern-loom/
 

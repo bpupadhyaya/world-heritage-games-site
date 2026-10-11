@@ -11,7 +11,7 @@ countries: ["Zimbabwe"]
 ---
 # Tsoro
 
-*Tsoro · Tsoro Mancala · mancala*
+*Also known as: Tsoro Mancala · mancala*
 
 **Encyclopedia ID 1222** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1222-tsoro/
 

@@ -11,7 +11,7 @@ countries: ["United Kingdom", "Germany", "Sweden", "France", "Italy"]
 ---
 # Ribbon-Pole Plaiting Dance
 
-*Maypole ribbon dance (generic)*
+*Also known as: Maypole ribbon dance (generic)*
 
 **Encyclopedia ID 512** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/512-ribbon-pole-plaiting-dance/
 

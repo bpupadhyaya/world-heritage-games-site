@@ -11,7 +11,7 @@ countries: ["Norway"]
 ---
 # Hardanger Fiddle Halling
 
-*Hardingfele*
+*Also known as: Hardingfele*
 
 **Encyclopedia ID 520** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/520-hardanger-fiddle-halling/
 

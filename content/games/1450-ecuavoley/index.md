@@ -11,8 +11,6 @@ countries: ["Ecuador"]
 ---
 # Ecuavoley
 
-*Ecuavóley*
-
 **Encyclopedia ID 1450** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1450-ecuavoley/
 
 ![Ecuavoley](../../../img/photos/01450-ecuavoley.jpg)

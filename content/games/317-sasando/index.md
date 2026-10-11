@@ -11,7 +11,7 @@ countries: ["Indonesia"]
 ---
 # Sasando
 
-*Sasando · Rote tube zither*
+*Also known as: Rote tube zither*
 
 **Encyclopedia ID 317** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/317-sasando/
 

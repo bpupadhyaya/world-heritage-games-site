@@ -11,7 +11,7 @@ countries: ["Cote d'Ivoire"]
 ---
 # Gbofe Trumpet Ensemble
 
-*Gbofé d'Afounkaha*
+*Also known as: Gbofé d'Afounkaha*
 
 **Encyclopedia ID 1290** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1290-gbofe-trumpet-ensemble/
 

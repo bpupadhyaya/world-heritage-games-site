@@ -11,7 +11,7 @@ countries: ["Trinidad and Tobago"]
 ---
 # Steelpan
 
-*Steelpan / steel drum*
+*Also known as: steel drum*
 
 **Encyclopedia ID 31** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/31-steelpan/
 

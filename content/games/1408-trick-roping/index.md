@@ -11,7 +11,7 @@ countries: ["United States"]
 ---
 # Trick Roping
 
-*Trick roping · Rope Spinning*
+*Also known as: Rope Spinning*
 
 **Encyclopedia ID 1408** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1408-trick-roping/
 

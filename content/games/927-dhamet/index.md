@@ -11,7 +11,7 @@ countries: ["Mauritania"]
 ---
 # Dhamet
 
-*Dhamet (Srand) · Damma · Zamma · Srand*
+*Also known as: Dhamet (Srand) · Damma · Zamma · Srand*
 
 **Encyclopedia ID 927** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/927-dhamet/
 

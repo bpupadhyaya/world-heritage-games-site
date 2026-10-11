@@ -11,7 +11,7 @@ countries: ["Uganda"]
 ---
 # Amadinda and embaire
 
-*Amadinda · log xylophone duet*
+*Also known as: Amadinda · log xylophone duet*
 
 **Encyclopedia ID 185** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/185-amadinda-and-embaire/
 

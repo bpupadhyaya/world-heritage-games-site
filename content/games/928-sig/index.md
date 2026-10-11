@@ -11,7 +11,7 @@ countries: ["Mauritania"]
 ---
 # Sig
 
-*Sig · Siga*
+*Also known as: Siga*
 
 **Encyclopedia ID 928** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/928-sig/
 

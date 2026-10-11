@@ -11,7 +11,7 @@ countries: ["Bulgaria"]
 ---
 # Gadulka
 
-*Гадулка · Bulgarian Bowed Fiddle*
+*Also known as: Гадулка · Bulgarian Bowed Fiddle*
 
 **Encyclopedia ID 1285** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1285-gadulka/
 

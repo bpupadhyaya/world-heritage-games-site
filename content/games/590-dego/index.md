@@ -11,8 +11,6 @@ countries: ["Bhutan"]
 ---
 # Dego
 
-*Dego*
-
 **Encyclopedia ID 590** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/590-dego/
 
 Players throw a stone close to a peg and may knock an opponent's stone away; (Wikipedia Sports in Bhutan page does not list it).

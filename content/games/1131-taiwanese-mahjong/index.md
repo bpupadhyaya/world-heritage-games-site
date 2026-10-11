@@ -11,7 +11,7 @@ countries: ["Taiwan"]
 ---
 # Taiwanese mahjong
 
-*台灣麻將 Táiwān májiàng · 16-tile mahjong · 16-tile*
+*Also known as: 台灣麻將 Táiwān májiàng · 16-tile mahjong · 16-tile*
 
 **Encyclopedia ID 1131** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1131-taiwanese-mahjong/
 

@@ -11,7 +11,7 @@ countries: ["Dominican Republic"]
 ---
 # Handkerchief game
 
-*Juego del Pañuelo*
+*Also known as: Juego del Pañuelo*
 
 **Encyclopedia ID 683** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/683-handkerchief-game/
 

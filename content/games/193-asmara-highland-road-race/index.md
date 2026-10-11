@@ -11,7 +11,7 @@ countries: ["Eritrea"]
 ---
 # Asmara highland road race
 
-*Tour of Eritrea*
+*Also known as: Tour of Eritrea*
 
 **Encyclopedia ID 193** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/193-asmara-highland-road-race/
 

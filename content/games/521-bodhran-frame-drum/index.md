@@ -11,7 +11,7 @@ countries: ["Ireland"]
 ---
 # Bodhran Frame Drum
 
-*Bodhrán*
+*Also known as: Bodhrán*
 
 **Encyclopedia ID 521** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/521-bodhran-frame-drum/
 

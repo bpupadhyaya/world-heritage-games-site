@@ -11,7 +11,7 @@ countries: ["Vietnam"]
 ---
 # Horse race ludo
 
-*Co Ca Ngua*
+*Also known as: Co Ca Ngua*
 
 **Encyclopedia ID 1214** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1214-horse-race-ludo/
 

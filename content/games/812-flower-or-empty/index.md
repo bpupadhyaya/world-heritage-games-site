@@ -11,7 +11,7 @@ countries: ["Iran"]
 ---
 # Flower or Empty
 
-*Gol ya pooch · Gol ya Pouch · hidden-object guessing*
+*Also known as: Gol ya pooch · Gol ya Pouch · hidden-object guessing*
 
 **Encyclopedia ID 812** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/812-flower-or-empty/
 

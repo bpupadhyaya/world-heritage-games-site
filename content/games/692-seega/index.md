@@ -11,7 +11,7 @@ countries: ["Egypt"]
 ---
 # Seega
 
-*Seega · Seejeh · Seeza · Siga · Sidjah*
+*Also known as: Seejeh · Seeza · Siga · Sidjah · Cheza*
 
 **Encyclopedia ID 692** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/692-seega/
 

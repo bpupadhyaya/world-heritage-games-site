@@ -11,7 +11,7 @@ countries: ["Syria"]
 ---
 # Syrian mancala
 
-*La'b Madjnuni · Madjnuni*
+*Also known as: La'b Madjnuni · Madjnuni*
 
 **Encyclopedia ID 1128** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1128-syrian-mancala/
 

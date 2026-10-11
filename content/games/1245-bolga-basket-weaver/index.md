@@ -11,7 +11,7 @@ countries: ["Ghana"]
 ---
 # Bolga Basket Weaver
 
-*Bolga baskets*
+*Also known as: Bolga baskets*
 
 **Encyclopedia ID 1245** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1245-bolga-basket-weaver/
 

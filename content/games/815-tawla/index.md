@@ -11,7 +11,7 @@ countries: ["Iraq", "Syria", "Jordan", "Yemen"]
 ---
 # Tawla
 
-*Tawla · Nard · Shesh Besh · backgammon*
+*Also known as: Nard · Shesh Besh · backgammon*
 
 **Encyclopedia ID 815** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/815-tawla/
 

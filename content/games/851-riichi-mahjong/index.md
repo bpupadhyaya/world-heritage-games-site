@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Riichi mahjong
 
-*麻雀 Mājan (riichi) · Japanese mahjong*
+*Also known as: 麻雀 Mājan (riichi) · Japanese mahjong*
 
 **Encyclopedia ID 851** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/851-riichi-mahjong/
 

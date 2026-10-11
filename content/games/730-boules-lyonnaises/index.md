@@ -11,7 +11,7 @@ countries: ["France"]
 ---
 # Boules lyonnaises
 
-*Boule lyonnaise · Sport-boules · Bocce volo*
+*Also known as: Boule lyonnaise · Sport-boules · Bocce volo*
 
 **Encyclopedia ID 730** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/730-boules-lyonnaises/
 

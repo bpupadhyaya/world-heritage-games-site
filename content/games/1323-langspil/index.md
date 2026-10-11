@@ -11,7 +11,7 @@ countries: ["Iceland"]
 ---
 # Langspil
 
-*langspil · Icelandic bowed zither*
+*Also known as: Icelandic bowed zither*
 
 **Encyclopedia ID 1323** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1323-langspil/
 

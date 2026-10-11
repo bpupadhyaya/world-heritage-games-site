@@ -11,7 +11,7 @@ countries: ["Myanmar"]
 ---
 # Yoke thé
 
-*ရုပ်သေးရုံ · Burmese marionette theatre*
+*Also known as: ရုပ်သေးရုံ · Burmese marionette theatre*
 
 **Encyclopedia ID 314** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/314-yoke-the/
 

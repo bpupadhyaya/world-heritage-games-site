@@ -11,7 +11,7 @@ countries: ["Uganda"]
 ---
 # Omweso
 
-*Omweso · Mweso*
+*Also known as: Mweso*
 
 **Encyclopedia ID 1176** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1176-omweso/
 

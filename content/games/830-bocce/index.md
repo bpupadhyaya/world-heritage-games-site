@@ -11,8 +11,6 @@ countries: ["Italy", "San Marino"]
 ---
 # Bocce
 
-*Bocce*
-
 **Encyclopedia ID 830** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/830-bocce/
 
 Roll balls toward the pallino on a sand lane; world federation exists.

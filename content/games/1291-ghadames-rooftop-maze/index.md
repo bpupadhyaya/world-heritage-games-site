@@ -11,7 +11,7 @@ countries: ["Libya"]
 ---
 # Ghadames Rooftop Maze
 
-*Ghadames / غدامس*
+*Also known as: Ghadames · غدامس*
 
 **Encyclopedia ID 1291** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1291-ghadames-rooftop-maze/
 

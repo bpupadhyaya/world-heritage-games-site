@@ -11,8 +11,6 @@ countries: []
 ---
 # Skijoring
 
-*Skijöring*
-
 **Encyclopedia ID 490** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/490-skijoring/
 
 ![Skijoring](../../../img/photos/00490-skijoring.jpg)

@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Shakuhachi
 
-*尺八 · end-blown bamboo flute*
+*Also known as: 尺八 · end-blown bamboo flute*
 
 **Encyclopedia ID 349** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/349-shakuhachi/
 

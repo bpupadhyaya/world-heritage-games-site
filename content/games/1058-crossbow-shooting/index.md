@@ -11,7 +11,7 @@ countries: ["San Marino"]
 ---
 # Crossbow shooting
 
-*Balestra*
+*Also known as: Balestra*
 
 **Encyclopedia ID 1058** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1058-crossbow-shooting/
 

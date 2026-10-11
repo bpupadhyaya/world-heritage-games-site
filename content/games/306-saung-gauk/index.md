@@ -11,7 +11,7 @@ countries: ["Myanmar"]
 ---
 # Saung gauk
 
-*စောင်းကောက် · Burmese arched harp*
+*Also known as: စောင်းကောက် · Burmese arched harp*
 
 **Encyclopedia ID 306** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/306-saung-gauk/
 

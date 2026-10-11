@@ -11,7 +11,7 @@ countries: ["Yemen"]
 ---
 # Shibam Mud-Brick Tower Builder
 
-*شبام حضرموت*
+*Also known as: شبام حضرموت*
 
 **Encyclopedia ID 1370** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1370-shibam-mud-brick-tower-builder/
 

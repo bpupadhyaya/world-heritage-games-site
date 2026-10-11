@@ -11,8 +11,6 @@ countries: ["United Kingdom"]
 ---
 # Stoolball
 
-*Stoolball*
-
 **Encyclopedia ID 492** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/492-stoolball/
 
 ![Stoolball](../../../img/photos/00492-stoolball.jpg)

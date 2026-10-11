@@ -11,7 +11,7 @@ countries: ["Turkey"]
 ---
 # 101 Okey
 
-*Yüzbir Okey · Okey 101*
+*Also known as: Yüzbir Okey · Okey 101*
 
 **Encyclopedia ID 1166** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1166-101-okey/
 

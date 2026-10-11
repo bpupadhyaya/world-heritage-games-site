@@ -11,8 +11,6 @@ countries: ["Bolivia", "Peru"]
 ---
 # Charango
 
-*Charango*
-
 **Encyclopedia ID 55** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/55-charango/
 
 ![Charango](../../../img/photos/00055-charango.jpg)

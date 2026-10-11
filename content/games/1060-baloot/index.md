@@ -11,7 +11,7 @@ countries: ["Saudi Arabia", "Yemen", "Oman", "United Arab Emirates", "Qatar", "B
 ---
 # Baloot
 
-*Baloot · Bolot*
+*Also known as: Bolot*
 
 **Encyclopedia ID 1060** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1060-baloot/
 

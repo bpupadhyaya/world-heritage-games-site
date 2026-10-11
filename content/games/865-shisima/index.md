@@ -11,7 +11,7 @@ countries: ["Kenya"]
 ---
 # Shisima
 
-*Shisima · Water bug game*
+*Also known as: Water bug game*
 
 **Encyclopedia ID 865** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/865-shisima/
 

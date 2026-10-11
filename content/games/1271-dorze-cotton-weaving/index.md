@@ -11,7 +11,7 @@ countries: ["Ethiopia"]
 ---
 # Dorze cotton weaving
 
-*Dorze shamma*
+*Also known as: Dorze shamma*
 
 **Encyclopedia ID 1271** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1271-dorze-cotton-weaving/
 

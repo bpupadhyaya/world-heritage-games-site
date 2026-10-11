@@ -11,7 +11,7 @@ countries: ["Congo"]
 ---
 # Kuli
 
-*Kuli · Tio ball game*
+*Also known as: Tio ball game*
 
 **Encyclopedia ID 1041** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1041-kuli/
 

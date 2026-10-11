@@ -11,7 +11,7 @@ countries: ["China", "South Korea", "Japan"]
 ---
 # Dougong Bracket Stacking
 
-*斗拱 dougong*
+*Also known as: 斗拱 dougong*
 
 **Encyclopedia ID 504** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/504-dougong-bracket-stacking/
 

@@ -11,7 +11,7 @@ countries: ["Belgium"]
 ---
 # Krulbollen
 
-*Krulbol / Rolle bolle · Rolle bolle · Bolle*
+*Also known as: Krulbol · Rolle bolle · Bolle*
 
 **Encyclopedia ID 583** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/583-krulbollen/
 

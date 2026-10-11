@@ -11,7 +11,7 @@ countries: ["Brazil", "Andorra"]
 ---
 # Truco
 
-*Truco (Paulista/Mineiro)*
+*Also known as: Truco (Paulista · Mineiro)*
 
 **Encyclopedia ID 601** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/601-truco/
 

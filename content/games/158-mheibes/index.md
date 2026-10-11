@@ -11,7 +11,7 @@ countries: ["Iraq"]
 ---
 # Mheibes
 
-*Mheibes / Muhaibis · Hunt the Ring*
+*Also known as: Muhaibis · Hunt the Ring*
 
 **Encyclopedia ID 158** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/158-mheibes/
 

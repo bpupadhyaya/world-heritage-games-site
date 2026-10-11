@@ -11,7 +11,7 @@ countries: ["Nicaragua"]
 ---
 # Macho parado
 
-*Macho parado · ball elimination*
+*Also known as: ball elimination*
 
 **Encyclopedia ID 984** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/984-macho-parado/
 

@@ -11,7 +11,7 @@ countries: ["Sri Lanka"]
 ---
 # Hill-country tea plucking
 
-*තේ කඩන*
+*Also known as: තේ කඩන*
 
 **Encyclopedia ID 1297** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1297-hill-country-tea-plucking/
 

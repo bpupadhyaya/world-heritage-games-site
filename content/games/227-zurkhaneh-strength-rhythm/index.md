@@ -11,7 +11,7 @@ countries: ["Iran"]
 ---
 # Zurkhaneh strength rhythm
 
-*ورزش باستانی · Pahlavani club*
+*Also known as: ورزش باستانی · Pahlavani club*
 
 **Encyclopedia ID 227** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/227-zurkhaneh-strength-rhythm/
 

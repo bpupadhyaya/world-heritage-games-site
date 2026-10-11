@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Hashi
 
-*橋をかけろ / Hashiwokakero · bridges puzzle*
+*Also known as: 橋をかけろ · Hashiwokakero · bridges puzzle*
 
 **Encyclopedia ID 360** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/360-hashi/
 

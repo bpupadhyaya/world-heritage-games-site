@@ -11,7 +11,7 @@ countries: ["South Korea"]
 ---
 # Dalgona
 
-*달고나 / 뽑기 · honeycomb candy carving*
+*Also known as: 달고나 · honeycomb candy carving*
 
 **Encyclopedia ID 100** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/100-dalgona/
 

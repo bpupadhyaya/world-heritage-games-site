@@ -11,7 +11,7 @@ countries: ["Russia"]
 ---
 # Mas-wrestling
 
-*Мас-тартыы · stick pull*
+*Also known as: Мас-тартыы · stick pull*
 
 **Encyclopedia ID 380** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/380-mas-wrestling/
 

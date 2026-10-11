@@ -11,7 +11,7 @@ countries: ["Finland", "Sweden", "Norway"]
 ---
 # Kicksled Race
 
-*Spark / Potkukelkka*
+*Also known as: Spark · Potkukelkka*
 
 **Encyclopedia ID 407** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/407-kicksled-race/
 

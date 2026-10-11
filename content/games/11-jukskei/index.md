@@ -11,7 +11,7 @@ countries: ["South Africa"]
 ---
 # Jukskei
 
-*Jukskei (Afrikaans)*
+*Also known as: Jukskei (Afrikaans)*
 
 **Encyclopedia ID 11** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/11-jukskei/
 

@@ -11,7 +11,7 @@ countries: ["Palestine"]
 ---
 # Hajla
 
-*Hajla · stone-kicking hop game*
+*Also known as: stone-kicking hop game*
 
 **Encyclopedia ID 1009** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1009-hajla/
 

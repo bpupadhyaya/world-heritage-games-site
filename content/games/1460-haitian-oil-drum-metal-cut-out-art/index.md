@@ -11,7 +11,7 @@ countries: ["Haiti"]
 ---
 # Haitian Oil-Drum Metal Cut-Out Art
 
-*Fè koupe (Croix-des-Bouquets)*
+*Also known as: Fè koupe (Croix-des-Bouquets)*
 
 **Encyclopedia ID 1460** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1460-haitian-oil-drum-metal-cut-out-art/
 

@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Snakes and Ladders
 
-*Moksha Patam / Saap Seedhi · Gyan Chaupar · Saanp Seedhi*
+*Also known as: Moksha Patam · Saap Seedhi · Gyan Chaupar · Saanp Seedhi*
 
 **Encyclopedia ID 796** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/796-snakes-and-ladders/
 

@@ -11,7 +11,7 @@ countries: []
 ---
 # Stone Skipping
 
-*Stone skimming / Ducks and drakes*
+*Also known as: Stone skimming · Ducks and drakes*
 
 **Encyclopedia ID 5** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/5-stone-skipping/
 

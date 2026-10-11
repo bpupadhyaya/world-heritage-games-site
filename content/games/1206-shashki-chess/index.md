@@ -11,7 +11,7 @@ countries: ["Uzbekistan"]
 ---
 # Shashki / chess
 
-*Shashka · Russian draughts*
+*Also known as: Shashka · Russian draughts*
 
 **Encyclopedia ID 1206** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1206-shashki-chess/
 

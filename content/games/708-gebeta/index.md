@@ -11,7 +11,7 @@ countries: ["Ethiopia"]
 ---
 # Gebeta
 
-*Gebeta / Gabata · Gabata · Gebeta · Ethiopian mancala*
+*Also known as: Gabata · Ethiopian mancala*
 
 **Encyclopedia ID 708** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/708-gebeta/
 

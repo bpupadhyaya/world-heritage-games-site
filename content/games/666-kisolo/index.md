@@ -11,7 +11,7 @@ countries: ["DR Congo", "Zambia"]
 ---
 # Kisolo
 
-*Kisolo / Chisolo · Chisolo · 4x8 mancala*
+*Also known as: Chisolo · 4x8 mancala*
 
 **Encyclopedia ID 666** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/666-kisolo/
 

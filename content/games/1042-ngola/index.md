@@ -11,7 +11,7 @@ countries: ["Congo"]
 ---
 # Ngola
 
-*Ngola · Congolese mancala*
+*Also known as: Congolese mancala*
 
 **Encyclopedia ID 1042** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1042-ngola/
 

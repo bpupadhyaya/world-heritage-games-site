@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Oil-paper umbrella making
 
-*油纸伞*
+*Also known as: 油纸伞*
 
 **Encyclopedia ID 344** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/344-oil-paper-umbrella-making/
 

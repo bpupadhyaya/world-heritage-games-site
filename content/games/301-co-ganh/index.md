@@ -11,7 +11,7 @@ countries: ["Vietnam"]
 ---
 # Co Ganh
 
-*Cờ gánh · Vietnamese flanking game*
+*Also known as: Vietnamese flanking game*
 
 **Encyclopedia ID 301** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/301-co-ganh/
 

@@ -11,7 +11,7 @@ countries: ["Ghana"]
 ---
 # Kente strip weaving
 
-*Kente (Akan / Ewe)*
+*Also known as: Kente (Akan · Ewe)*
 
 **Encyclopedia ID 22** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/22-kente-strip-weaving/
 

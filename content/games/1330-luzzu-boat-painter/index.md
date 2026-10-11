@@ -11,7 +11,7 @@ countries: ["Malta"]
 ---
 # Luzzu Boat Painter
 
-*Luzzu · Maltese fishing-boat colours*
+*Also known as: Luzzu · Maltese fishing-boat colours*
 
 **Encyclopedia ID 1330** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1330-luzzu-boat-painter/
 

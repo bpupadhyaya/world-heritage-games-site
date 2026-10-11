@@ -11,7 +11,7 @@ countries: ["Sudan"]
 ---
 # Aweet
 
-*Aweet · Awet · Dinka mancala*
+*Also known as: Awet · Dinka mancala*
 
 **Encyclopedia ID 1110** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1110-aweet/
 

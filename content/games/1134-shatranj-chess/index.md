@@ -11,7 +11,7 @@ countries: ["Tajikistan"]
 ---
 # Shatranj / chess
 
-*Shatranj*
+*Also known as: Shatranj*
 
 **Encyclopedia ID 1134** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1134-shatranj-chess/
 

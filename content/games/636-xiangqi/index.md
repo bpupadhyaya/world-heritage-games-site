@@ -11,7 +11,7 @@ countries: ["China", "Taiwan"]
 ---
 # Xiangqi
 
-*象棋 Xiangqi · Elephant chess · Chinese chess*
+*Also known as: Elephant chess · Chinese chess*
 
 **Encyclopedia ID 636** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/636-xiangqi/
 

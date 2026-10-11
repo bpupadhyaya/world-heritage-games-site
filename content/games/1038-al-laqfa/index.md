@@ -11,7 +11,7 @@ countries: ["Qatar"]
 ---
 # Al Laqfa
 
-*Al Laqfa · jackstones*
+*Also known as: jackstones*
 
 **Encyclopedia ID 1038** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1038-al-laqfa/
 

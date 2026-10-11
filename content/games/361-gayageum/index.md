@@ -11,7 +11,7 @@ countries: ["South Korea"]
 ---
 # Gayageum
 
-*가야금 · twelve-string zither*
+*Also known as: 가야금 · twelve-string zither*
 
 **Encyclopedia ID 361** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/361-gayageum/
 

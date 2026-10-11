@@ -11,7 +11,7 @@ countries: ["Mongolia"]
 ---
 # Alag Malkhii
 
-*Алаг мэлхий Alag malkhii (multicoloured turtle) · Multicoloured turtle*
+*Also known as: Алаг мэлхий Alag malkhii (multicoloured turtle) · Multicoloured turtle*
 
 **Encyclopedia ID 941** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/941-alag-malkhii/
 

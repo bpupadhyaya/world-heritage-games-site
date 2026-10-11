@@ -11,7 +11,7 @@ countries: ["Morocco"]
 ---
 # Amazigh Rug Weaving
 
-*azetta, Beni Ourain*
+*Also known as: azetta, Beni Ourain*
 
 **Encyclopedia ID 224** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/224-amazigh-rug-weaving/
 

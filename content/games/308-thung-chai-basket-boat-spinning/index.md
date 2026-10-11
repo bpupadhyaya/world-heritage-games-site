@@ -11,7 +11,7 @@ countries: ["Vietnam"]
 ---
 # Thung chai basket-boat spinning
 
-*thúng chai*
+*Also known as: thúng chai*
 
 **Encyclopedia ID 308** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/308-thung-chai-basket-boat-spinning/
 

@@ -11,7 +11,7 @@ countries: ["United States", "Canada"]
 ---
 # Horseshoe pitching
 
-*Horseshoes*
+*Also known as: Horseshoes*
 
 **Encyclopedia ID 50** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/50-horseshoe-pitching/
 

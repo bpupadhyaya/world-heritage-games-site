@@ -11,7 +11,7 @@ countries: ["Fiji"]
 ---
 # Sugar-cane spear throwing
 
-*Vakadovu*
+*Also known as: Vakadovu*
 
 **Encyclopedia ID 709** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/709-sugar-cane-spear-throwing/
 

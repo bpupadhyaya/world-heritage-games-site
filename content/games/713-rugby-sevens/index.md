@@ -11,7 +11,7 @@ countries: ["Fiji"]
 ---
 # Rugby sevens
 
-*Village rugby sevens · village form*
+*Also known as: Village rugby sevens · village form*
 
 **Encyclopedia ID 713** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/713-rugby-sevens/
 

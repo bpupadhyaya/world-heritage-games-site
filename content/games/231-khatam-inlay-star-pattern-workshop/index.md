@@ -11,7 +11,7 @@ countries: ["Iran"]
 ---
 # Khatam inlay star pattern workshop
 
-*خاتم‌کاری*
+*Also known as: خاتم‌کاری*
 
 **Encyclopedia ID 231** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/231-khatam-inlay-star-pattern-workshop/
 

@@ -11,7 +11,7 @@ countries: ["Cambodia"]
 ---
 # Khmer chess
 
-*Ouk Chatrang*
+*Also known as: Ouk Chatrang*
 
 **Encyclopedia ID 616** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/616-khmer-chess/
 

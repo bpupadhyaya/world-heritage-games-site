@@ -11,7 +11,7 @@ countries: ["Bangladesh"]
 ---
 # Bankura terracotta horse
 
-*বাঁকুড়া ঘোড়া*
+*Also known as: বাঁকুড়া ঘোড়া*
 
 **Encyclopedia ID 280** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/280-bankura-terracotta-horse/
 

@@ -11,7 +11,7 @@ countries: ["Armenia"]
 ---
 # Kokh
 
-*Կոխ · Armenian wrestling*
+*Also known as: Կոխ · Armenian wrestling*
 
 **Encyclopedia ID 1317** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1317-kokh/
 

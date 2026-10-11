@@ -11,8 +11,6 @@ countries: ["Japan"]
 ---
 # Kendama
 
-*けん玉 Kendama*
-
 **Encyclopedia ID 850** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/850-kendama/
 
 A handle with a ball on a string; players toss the ball and catch it on the spike or in the cups, building tricks.

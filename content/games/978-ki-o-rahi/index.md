@@ -11,8 +11,6 @@ countries: ["New Zealand"]
 ---
 # Kī-o-rahi
 
-*Kī-o-rahi*
-
 **Encyclopedia ID 978** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/978-ki-o-rahi/
 
 Fast circular-field ball game between a defending team and an attacking team, scoring by touching a central marker.

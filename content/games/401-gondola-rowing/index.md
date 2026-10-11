@@ -11,7 +11,7 @@ countries: ["Italy"]
 ---
 # Gondola Rowing
 
-*Voga alla veneta*
+*Also known as: Voga alla veneta*
 
 **Encyclopedia ID 401** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/401-gondola-rowing/
 

@@ -11,7 +11,7 @@ countries: ["Belarus"]
 ---
 # Belarusian straw weaving
 
-*Салома*
+*Also known as: Салома*
 
 **Encyclopedia ID 387** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/387-belarusian-straw-weaving/
 

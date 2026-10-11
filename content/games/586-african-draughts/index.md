@@ -11,7 +11,7 @@ countries: ["Benin", "Burkina Faso", "Cote d'Ivoire", "Ghana", "Guinea", "Liberi
 ---
 # African draughts
 
-*Jeu de dames · Draughts · Dame, 10x10*
+*Also known as: Jeu de dames · Draughts · Dame, 10x10*
 
 **Encyclopedia ID 586** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/586-african-draughts/
 

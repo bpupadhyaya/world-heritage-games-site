@@ -11,7 +11,7 @@ countries: []
 ---
 # Shepherd's Leap
 
-*Salto del pastor*
+*Also known as: Salto del pastor*
 
 **Encyclopedia ID 391** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/391-shepherds-leap/
 

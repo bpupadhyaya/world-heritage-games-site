@@ -11,8 +11,6 @@ countries: ["Bhutan"]
 ---
 # Yam
 
-*Yam*
-
 **Encyclopedia ID 593** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/593-yam/
 
 A dice game played with two six-sided dice and 64 cowrie shells, mostly by men.

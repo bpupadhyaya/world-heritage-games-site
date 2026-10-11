@@ -11,8 +11,6 @@ countries: ["Uganda"]
 ---
 # Duulu
 
-*Duulu*
-
 **Encyclopedia ID 1173** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1173-duulu/
 
 Marble game aiming at a ground hole.

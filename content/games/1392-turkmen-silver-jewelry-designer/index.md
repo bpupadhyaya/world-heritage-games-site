@@ -11,7 +11,7 @@ countries: ["Turkmenistan"]
 ---
 # Turkmen Silver Jewelry Designer
 
-*Türkmen şaý-sepleri*
+*Also known as: Türkmen şaý-sepleri*
 
 **Encyclopedia ID 1392** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1392-turkmen-silver-jewelry-designer/
 

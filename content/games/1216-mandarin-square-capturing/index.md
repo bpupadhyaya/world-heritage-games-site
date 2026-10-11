@@ -11,7 +11,7 @@ countries: ["Vietnam"]
 ---
 # Mandarin square capturing
 
-*O An Quan · Ô Ăn Quan*
+*Also known as: O An Quan*
 
 **Encyclopedia ID 1216** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1216-mandarin-square-capturing/
 

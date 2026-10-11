@@ -11,7 +11,7 @@ countries: ["Iran"]
 ---
 # Astrolabe: reading the sky
 
-*اسطرلاب*
+*Also known as: اسطرلاب*
 
 **Encyclopedia ID 236** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/236-astrolabe-reading-the-sky/
 

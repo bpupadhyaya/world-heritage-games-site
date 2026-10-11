@@ -11,7 +11,7 @@ countries: ["Sierra Leone"]
 ---
 # Sierra Leone Country Cloth Strip Loom
 
-*Country cloth*
+*Also known as: Country cloth*
 
 **Encyclopedia ID 1372** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1372-sierra-leone-country-cloth-strip-loom/
 

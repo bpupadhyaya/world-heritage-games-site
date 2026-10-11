@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Yukigassen Snow Fort
 
-*Yukigassen 雪合戦*
+*Also known as: Yukigassen 雪合戦*
 
 **Encyclopedia ID 71** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/71-yukigassen-snow-fort/
 

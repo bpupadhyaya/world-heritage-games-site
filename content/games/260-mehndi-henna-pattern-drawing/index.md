@@ -11,7 +11,7 @@ countries: ["India", "Pakistan"]
 ---
 # Mehndi henna pattern drawing
 
-*mehndi*
+*Also known as: mehndi*
 
 **Encyclopedia ID 260** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/260-mehndi-henna-pattern-drawing/
 

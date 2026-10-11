@@ -11,7 +11,7 @@ countries: ["Malawi"]
 ---
 # Bawo
 
-*Bawo · Bao*
+*Also known as: Bao*
 
 **Encyclopedia ID 906** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/906-bawo/
 

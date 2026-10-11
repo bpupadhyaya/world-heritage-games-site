@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Sashiko Stitch Patterns
 
-*Sashiko*
+*Also known as: Sashiko*
 
 **Encyclopedia ID 27** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/27-sashiko-stitch-patterns/
 

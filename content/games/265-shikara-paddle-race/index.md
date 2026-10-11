@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Shikara paddle race
 
-*shikara*
+*Also known as: shikara*
 
 **Encyclopedia ID 265** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/265-shikara-paddle-race/
 

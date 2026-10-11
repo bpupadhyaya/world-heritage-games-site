@@ -11,7 +11,7 @@ countries: ["Cyprus"]
 ---
 # Lefkara Lace
 
-*lefkaritika*
+*Also known as: lefkaritika*
 
 **Encyclopedia ID 220** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/220-lefkara-lace/
 

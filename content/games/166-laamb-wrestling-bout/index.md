@@ -11,7 +11,7 @@ countries: ["Senegal", "Gambia"]
 ---
 # Laamb Wrestling Bout
 
-*Laamb · Lutte*
+*Also known as: Laamb · Lutte*
 
 **Encyclopedia ID 166** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/166-laamb-wrestling-bout/
 

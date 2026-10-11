@@ -11,7 +11,7 @@ countries: ["Ecuador"]
 ---
 # Frog toss
 
-*Rana / Sapo*
+*Also known as: Rana · Sapo*
 
 **Encyclopedia ID 688** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/688-frog-toss/
 

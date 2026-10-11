@@ -11,7 +11,7 @@ countries: ["Palau"]
 ---
 # Palauan string figures
 
-*String figures*
+*Also known as: String figures*
 
 **Encyclopedia ID 1007** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1007-palauan-string-figures/
 

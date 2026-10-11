@@ -11,7 +11,7 @@ countries: ["Russia"]
 ---
 # Svaika
 
-*Свайка*
+*Also known as: Свайка*
 
 **Encyclopedia ID 1048** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1048-svaika/
 

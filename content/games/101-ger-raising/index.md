@@ -11,7 +11,7 @@ countries: ["Mongolia"]
 ---
 # Ger raising
 
-*гэр · Mongolian felt-tent build*
+*Also known as: гэр · Mongolian felt-tent build*
 
 **Encyclopedia ID 101** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/101-ger-raising/
 

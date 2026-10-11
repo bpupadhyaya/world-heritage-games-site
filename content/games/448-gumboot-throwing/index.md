@@ -11,7 +11,7 @@ countries: ["New Zealand", "United Kingdom"]
 ---
 # Gumboot throwing
 
-*wellie wanging*
+*Also known as: wellie wanging*
 
 **Encyclopedia ID 448** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/448-gumboot-throwing/
 

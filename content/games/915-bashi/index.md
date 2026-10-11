@@ -11,8 +11,6 @@ countries: ["Maldives"]
 ---
 # Bashi
 
-*Bashi*
-
 **Encyclopedia ID 915** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/915-bashi/
 
 Women's sand-court game: a server hits the ball backwards over a net and head, and opponents must catch it; teams of 7 or 11.

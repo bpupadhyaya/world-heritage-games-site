@@ -11,7 +11,7 @@ countries: ["Morocco"]
 ---
 # Zamma
 
-*Zamma (Zemmat)*
+*Also known as: Zamma (Zemmat)*
 
 **Encyclopedia ID 462** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/462-zamma/
 

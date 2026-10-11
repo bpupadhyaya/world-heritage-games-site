@@ -11,7 +11,7 @@ countries: ["Portugal", "China"]
 ---
 # Macau Portuguese Custard Tart Bake
 
-*澳門葡撻*
+*Also known as: 澳門葡撻*
 
 **Encyclopedia ID 1471** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1471-macau-portuguese-custard-tart-bake/
 

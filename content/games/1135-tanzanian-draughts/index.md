@@ -11,7 +11,7 @@ countries: ["Tanzania"]
 ---
 # Tanzanian draughts
 
-*Drafti*
+*Also known as: Drafti*
 
 **Encyclopedia ID 1135** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1135-tanzanian-draughts/
 

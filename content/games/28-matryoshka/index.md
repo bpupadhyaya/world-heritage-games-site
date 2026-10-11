@@ -11,7 +11,7 @@ countries: ["Russia"]
 ---
 # Matryoshka
 
-*Матрёшка · nesting dolls*
+*Also known as: Матрёшка · nesting dolls*
 
 **Encyclopedia ID 28** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/28-matryoshka/
 

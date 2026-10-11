@@ -11,7 +11,7 @@ countries: ["South Korea"]
 ---
 # Geomungo
 
-*거문고 · six-string black-crane zither*
+*Also known as: 거문고 · six-string black-crane zither*
 
 **Encyclopedia ID 1453** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1453-geomungo/
 

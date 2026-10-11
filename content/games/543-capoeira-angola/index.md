@@ -11,7 +11,7 @@ countries: ["Angola"]
 ---
 # Capoeira Angola
 
-*Capoeira Angola · Capoeira*
+*Also known as: Capoeira*
 
 **Encyclopedia ID 543** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/543-capoeira-angola/
 

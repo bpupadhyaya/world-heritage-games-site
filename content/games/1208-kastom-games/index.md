@@ -11,7 +11,7 @@ countries: ["Vanuatu"]
 ---
 # Kastom games
 
-*Children's kastom games*
+*Also known as: Children's kastom games*
 
 **Encyclopedia ID 1208** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1208-kastom-games/
 

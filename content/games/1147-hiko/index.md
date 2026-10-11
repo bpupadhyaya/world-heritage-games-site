@@ -11,7 +11,7 @@ countries: ["Tonga"]
 ---
 # Hiko
 
-*Hiko · juggling*
+*Also known as: juggling*
 
 **Encyclopedia ID 1147** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1147-hiko/
 

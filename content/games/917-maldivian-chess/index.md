@@ -11,7 +11,7 @@ countries: ["Maldives"]
 ---
 # Maldivian chess
 
-*Raazuvaa*
+*Also known as: Raazuvaa*
 
 **Encyclopedia ID 917** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/917-maldivian-chess/
 

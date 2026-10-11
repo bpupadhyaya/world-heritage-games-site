@@ -11,7 +11,7 @@ countries: ["Tonga"]
 ---
 # Ngatu bark-cloth pattern rubbing
 
-*Ngatu · kupesi*
+*Also known as: Ngatu · kupesi*
 
 **Encyclopedia ID 1385** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1385-ngatu-bark-cloth-pattern-rubbing/
 

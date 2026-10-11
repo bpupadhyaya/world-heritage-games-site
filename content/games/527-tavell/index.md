@@ -11,8 +11,6 @@ countries: ["Albania", "Kosovo"]
 ---
 # Tavëll
 
-*Tavëll*
-
 **Encyclopedia ID 527** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/527-tavell/
 
 Two players race fifteen checkers each around a board with dice; backgammon as played in Albanian-speaking cafes.

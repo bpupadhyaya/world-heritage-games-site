@@ -11,7 +11,7 @@ countries: ["Spain"]
 ---
 # Cantabrian palm bowling
 
-*Bolo palma*
+*Also known as: Bolo palma*
 
 **Encyclopedia ID 1096** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1096-cantabrian-palm-bowling/
 

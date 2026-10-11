@@ -11,7 +11,7 @@ countries: ["Lesotho"]
 ---
 # Basotho blanket pattern designer
 
-*Mokhahlo / Seanamarena*
+*Also known as: Mokhahlo · Seanamarena*
 
 **Encyclopedia ID 201** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/201-basotho-blanket-pattern-designer/
 

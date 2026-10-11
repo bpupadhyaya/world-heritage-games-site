@@ -11,7 +11,7 @@ countries: ["Italy"]
 ---
 # Commedia Mask Stock Characters
 
-*Commedia dell'arte*
+*Also known as: Commedia dell'arte*
 
 **Encyclopedia ID 515** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/515-commedia-mask-stock-characters/
 

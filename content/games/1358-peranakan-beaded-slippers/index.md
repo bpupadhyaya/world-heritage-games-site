@@ -11,7 +11,7 @@ countries: ["China", "Singapore"]
 ---
 # Peranakan beaded slippers
 
-*kasut manik*
+*Also known as: kasut manik*
 
 **Encyclopedia ID 1358** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1358-peranakan-beaded-slippers/
 

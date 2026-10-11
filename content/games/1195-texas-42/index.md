@@ -11,7 +11,7 @@ countries: ["United States"]
 ---
 # Texas 42
 
-*Dominoes: Texas 42 · Forty-Two · 42*
+*Also known as: Dominoes: Texas 42 · Forty-Two · 42*
 
 **Encyclopedia ID 1195** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1195-texas-42/
 

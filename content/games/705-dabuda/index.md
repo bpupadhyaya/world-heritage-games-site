@@ -11,7 +11,7 @@ countries: ["Ethiopia", "Djibouti"]
 ---
 # Dabuda
 
-*Dabuda · Dabuda I · Dabuda II · Afar mancala*
+*Also known as: Dabuda I · Dabuda II · Afar mancala*
 
 **Encyclopedia ID 705** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/705-dabuda/
 

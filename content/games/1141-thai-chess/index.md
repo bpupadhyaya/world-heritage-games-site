@@ -11,7 +11,7 @@ countries: ["Thailand"]
 ---
 # Thai chess
 
-*Mak Ruk (Makruk)*
+*Also known as: Mak Ruk (Makruk)*
 
 **Encyclopedia ID 1141** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1141-thai-chess/
 

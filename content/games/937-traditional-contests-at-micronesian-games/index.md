@@ -11,7 +11,7 @@ countries: ["Micronesia"]
 ---
 # Traditional contests at Micronesian Games
 
-*Micronesian Games traditional events*
+*Also known as: Micronesian Games traditional events*
 
 **Encyclopedia ID 937** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/937-traditional-contests-at-micronesian-games/
 

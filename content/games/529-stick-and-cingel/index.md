@@ -11,7 +11,7 @@ countries: ["Albania"]
 ---
 # Stick and Cingel
 
-*Cingel*
+*Also known as: Cingel*
 
 **Encyclopedia ID 529** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/529-stick-and-cingel/
 

@@ -11,7 +11,7 @@ countries: ["Ethiopia"]
 ---
 # Mesob basket weaving
 
-*Mesob*
+*Also known as: Mesob*
 
 **Encyclopedia ID 1335** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1335-mesob-basket-weaving/
 

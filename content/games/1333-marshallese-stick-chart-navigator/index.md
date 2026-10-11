@@ -11,7 +11,7 @@ countries: ["Marshall Islands"]
 ---
 # Marshallese stick chart navigator
 
-*Mattang / rebbelib · mattang*
+*Also known as: Mattang · rebbelib*
 
 **Encyclopedia ID 1333** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1333-marshallese-stick-chart-navigator/
 

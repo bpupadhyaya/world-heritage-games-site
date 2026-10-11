@@ -11,7 +11,7 @@ countries: ["Mexico"]
 ---
 # Talavera tile painting
 
-*Talavera poblana*
+*Also known as: Talavera poblana*
 
 **Encyclopedia ID 429** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/429-talavera-tile-painting/
 

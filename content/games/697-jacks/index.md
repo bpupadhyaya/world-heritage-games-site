@@ -11,8 +11,6 @@ countries: ["El Salvador"]
 ---
 # Jacks
 
-*Jacks*
-
 **Encyclopedia ID 697** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/697-jacks/
 
 Bounce a ball and pick up jacks one at a time before it lands.

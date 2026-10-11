@@ -11,7 +11,7 @@ countries: ["Hungary"]
 ---
 # Hungarian dominoes
 
-*Magyar dominó*
+*Also known as: Magyar dominó*
 
 **Encyclopedia ID 778** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/778-hungarian-dominoes/
 

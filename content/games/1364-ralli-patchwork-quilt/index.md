@@ -11,7 +11,7 @@ countries: ["Pakistan", "India"]
 ---
 # Ralli patchwork quilt
 
-*رلی*
+*Also known as: رلی*
 
 **Encyclopedia ID 1364** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1364-ralli-patchwork-quilt/
 

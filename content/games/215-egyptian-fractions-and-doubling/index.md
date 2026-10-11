@@ -11,7 +11,7 @@ countries: ["Egypt"]
 ---
 # Egyptian Fractions and Doubling
 
-*Rhind papyrus problems*
+*Also known as: Rhind papyrus problems*
 
 **Encyclopedia ID 215** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/215-egyptian-fractions-and-doubling/
 

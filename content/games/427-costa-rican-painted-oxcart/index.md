@@ -11,7 +11,7 @@ countries: ["Costa Rica"]
 ---
 # Costa Rican painted oxcart
 
-*Carreta tipica (Sarchi)*
+*Also known as: Carreta tipica (Sarchi)*
 
 **Encyclopedia ID 427** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/427-costa-rican-painted-oxcart/
 

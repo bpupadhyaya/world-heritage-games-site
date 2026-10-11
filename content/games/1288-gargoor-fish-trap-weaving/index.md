@@ -11,7 +11,7 @@ countries: ["Bahrain"]
 ---
 # Gargoor Fish-Trap Weaving
 
-*قرقور*
+*Also known as: قرقور*
 
 **Encyclopedia ID 1288** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1288-gargoor-fish-trap-weaving/
 

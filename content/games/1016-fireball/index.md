@@ -11,7 +11,7 @@ countries: ["Paraguay"]
 ---
 # Fireball
 
-*Pelota tata*
+*Also known as: Pelota tata*
 
 **Encyclopedia ID 1016** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1016-fireball/
 

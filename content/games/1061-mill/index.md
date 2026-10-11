@@ -11,7 +11,7 @@ countries: ["Senegal"]
 ---
 # Mill
 
-*Jeu du moulin (Mill)*
+*Also known as: Jeu du moulin (Mill)*
 
 **Encyclopedia ID 1061** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1061-mill/
 

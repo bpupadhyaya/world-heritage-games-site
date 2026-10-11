@@ -11,7 +11,7 @@ countries: ["Brazil"]
 ---
 # Frevo Umbrella Dance
 
-*Frevo*
+*Also known as: Frevo*
 
 **Encyclopedia ID 1411** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1411-frevo-umbrella-dance/
 

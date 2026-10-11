@@ -11,7 +11,7 @@ countries: ["Denmark"]
 ---
 # Lur pitch-and-breath game
 
-*lur · Bronze Age horn*
+*Also known as: lur · Bronze Age horn*
 
 **Encyclopedia ID 1329** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1329-lur-pitch-and-breath-game/
 

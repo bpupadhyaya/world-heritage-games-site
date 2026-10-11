@@ -11,7 +11,7 @@ countries: ["Uzbekistan"]
 ---
 # Nard / long backgammon
 
-*Nard · Nardy*
+*Also known as: Nard · Nardy*
 
 **Encyclopedia ID 1205** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1205-nard-long-backgammon/
 

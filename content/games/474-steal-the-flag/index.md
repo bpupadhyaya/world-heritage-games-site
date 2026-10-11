@@ -11,7 +11,7 @@ countries: ["Italy", "Brazil", "Spain"]
 ---
 # Steal the Flag
 
-*Ruba bandiera, Barra bandeira, Capture the numbers · Ruba Bandiera*
+*Also known as: Ruba bandiera, Barra bandeira, Capture the numbers · Ruba Bandiera*
 
 **Encyclopedia ID 474** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/474-steal-the-flag/
 

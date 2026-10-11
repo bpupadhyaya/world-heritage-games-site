@@ -11,7 +11,7 @@ countries: ["Poland"]
 ---
 # Cymbergaj
 
-*Cymbergaj · Polish puck table game*
+*Also known as: Polish puck table game*
 
 **Encyclopedia ID 377** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/377-cymbergaj/
 

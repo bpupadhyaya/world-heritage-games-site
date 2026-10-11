@@ -11,7 +11,7 @@ countries: ["Pakistan"]
 ---
 # Ajrak block printing
 
-*اجرک*
+*Also known as: اجرک*
 
 **Encyclopedia ID 1226** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1226-ajrak-block-printing/
 

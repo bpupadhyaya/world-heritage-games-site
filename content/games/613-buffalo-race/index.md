@@ -11,7 +11,7 @@ countries: ["Cambodia"]
 ---
 # Buffalo race
 
-*Bull racing*
+*Also known as: Bull racing*
 
 **Encyclopedia ID 613** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/613-buffalo-race/
 

@@ -11,7 +11,7 @@ countries: ["Trinidad and Tobago", "Barbados", "Antigua and Barbuda", "Saint Vin
 ---
 # Yard cricket
 
-*Cricket (street/yard)*
+*Also known as: Cricket (street · yard)*
 
 **Encyclopedia ID 1151** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1151-yard-cricket/
 

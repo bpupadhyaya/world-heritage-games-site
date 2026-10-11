@@ -11,7 +11,7 @@ countries: ["Italy", "Spain", "Turkey"]
 ---
 # Portolan Chart Navigator
 
-*Carta nautica / portolano*
+*Also known as: Carta nautica · portolano*
 
 **Encyclopedia ID 503** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/503-portolan-chart-navigator/
 

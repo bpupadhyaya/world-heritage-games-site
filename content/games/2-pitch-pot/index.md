@@ -11,7 +11,7 @@ countries: ["China", "South Korea"]
 ---
 # Pitch-pot
 
-*投壺 / 투호 · touhu / tuho*
+*Also known as: 投壺 · touhu · tuho*
 
 **Encyclopedia ID 2** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/2-pitch-pot/
 

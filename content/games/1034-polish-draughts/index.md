@@ -11,7 +11,7 @@ countries: ["Poland"]
 ---
 # Polish draughts
 
-*Warcaby (10x10) · international draughts*
+*Also known as: Warcaby (10x10) · international draughts*
 
 **Encyclopedia ID 1034** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1034-polish-draughts/
 

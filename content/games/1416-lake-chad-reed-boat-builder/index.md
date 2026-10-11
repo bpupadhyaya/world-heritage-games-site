@@ -11,7 +11,7 @@ countries: ["Chad"]
 ---
 # Lake Chad reed boat builder
 
-*Kadei*
+*Also known as: Kadei*
 
 **Encyclopedia ID 1416** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1416-lake-chad-reed-boat-builder/
 

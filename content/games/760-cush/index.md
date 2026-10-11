@@ -11,7 +11,7 @@ countries: ["Guyana"]
 ---
 # Cush
 
-*Cush · washer pitching*
+*Also known as: washer pitching*
 
 **Encyclopedia ID 760** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/760-cush/
 

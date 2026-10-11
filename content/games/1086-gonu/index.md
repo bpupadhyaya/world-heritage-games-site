@@ -11,7 +11,7 @@ countries: ["South Korea"]
 ---
 # Gonu
 
-*고누 Gonu · Gono*
+*Also known as: Gono*
 
 **Encyclopedia ID 1086** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1086-gonu/
 

@@ -11,7 +11,7 @@ countries: ["Ukraine"]
 ---
 # Trembita
 
-*Трембіта · Carpathian Alpine Horn*
+*Also known as: Трембіта · Carpathian Alpine Horn*
 
 **Encyclopedia ID 1387** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1387-trembita/
 

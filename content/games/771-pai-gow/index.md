@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Pai gow
 
-*牌九 Paai gau*
+*Also known as: 牌九 Paai gau*
 
 **Encyclopedia ID 771** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/771-pai-gow/
 

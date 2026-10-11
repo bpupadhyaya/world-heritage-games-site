@@ -11,7 +11,7 @@ countries: ["Italy", "France"]
 ---
 # Tamburello
 
-*Tamburello · drum racket*
+*Also known as: drum racket*
 
 **Encyclopedia ID 489** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/489-tamburello/
 

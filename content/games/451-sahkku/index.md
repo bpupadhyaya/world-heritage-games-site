@@ -11,7 +11,7 @@ countries: []
 ---
 # Sáhkku
 
-*Sáhkku (Sámi)*
+*Also known as: Sáhkku (Sámi)*
 
 **Encyclopedia ID 451** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/451-sahkku/
 

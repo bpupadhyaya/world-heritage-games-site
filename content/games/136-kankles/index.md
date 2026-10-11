@@ -11,7 +11,7 @@ countries: ["Lithuania"]
 ---
 # Kanklės
 
-*Kanklės · Baltic Zither*
+*Also known as: Baltic Zither*
 
 **Encyclopedia ID 136** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/136-kankles/
 

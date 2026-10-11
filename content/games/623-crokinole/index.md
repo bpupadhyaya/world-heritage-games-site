@@ -11,7 +11,7 @@ countries: ["Canada"]
 ---
 # Crokinole
 
-*Crokinole · Pichenotte · Crokinole board*
+*Also known as: Pichenotte · Crokinole board*
 
 **Encyclopedia ID 623** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/623-crokinole/
 

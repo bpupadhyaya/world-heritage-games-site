@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Pachisi
 
-*Pachisi / Chaupar (Ludo) · Chaupar · Chausar · Ludo*
+*Also known as: Chaupar (Ludo) · Chaupar · Chausar · Ludo*
 
 **Encyclopedia ID 797** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/797-pachisi/
 

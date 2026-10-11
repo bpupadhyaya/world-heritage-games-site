@@ -11,7 +11,7 @@ countries: ["Cuba", "Jamaica", "Barbados", "Dominica", "Saint Kitts and Nevis", 
 ---
 # Marbles
 
-*Las Bolas*
+*Also known as: Las Bolas*
 
 **Encyclopedia ID 650** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/650-marbles/
 

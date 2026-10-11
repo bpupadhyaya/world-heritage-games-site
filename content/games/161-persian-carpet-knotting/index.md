@@ -11,7 +11,7 @@ countries: ["Iran", "Turkey"]
 ---
 # Persian Carpet Knotting
 
-*فرش دستباف*
+*Also known as: فرش دستباف*
 
 **Encyclopedia ID 161** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/161-persian-carpet-knotting/
 

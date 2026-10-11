@@ -11,7 +11,7 @@ countries: ["Andorra"]
 ---
 # Seven-Key Cabinet Puzzle
 
-*Armari de les Set Claus*
+*Also known as: Armari de les Set Claus*
 
 **Encyclopedia ID 1432** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1432-seven-key-cabinet-puzzle/
 

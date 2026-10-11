@@ -11,7 +11,7 @@ countries: ["Nigeria", "Niger"]
 ---
 # Dambe
 
-*Dambe · Dambe Bout · Hausa boxing*
+*Also known as: Dambe Bout · Hausa boxing*
 
 **Encyclopedia ID 987** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/987-dambe/
 

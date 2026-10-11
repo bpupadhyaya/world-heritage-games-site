@@ -11,7 +11,7 @@ countries: ["Slovakia"]
 ---
 # Čičmany House Ornament Painting
 
-*Čičmianske ornamenty*
+*Also known as: Čičmianske ornamenty*
 
 **Encyclopedia ID 1256** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1256-cicmany-house-ornament-painting/
 

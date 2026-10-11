@@ -11,7 +11,7 @@ countries: ["Sudan"]
 ---
 # Wazza gourd trumpet
 
-*Wazza*
+*Also known as: Wazza*
 
 **Encyclopedia ID 1399** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1399-wazza-gourd-trumpet/
 

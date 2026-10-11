@@ -11,7 +11,7 @@ countries: ["Burundi"]
 ---
 # Burundian drum ensemble
 
-*Ingoma y'Burundi · Ingoma*
+*Also known as: Ingoma y'Burundi · Ingoma*
 
 **Encyclopedia ID 1250** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1250-burundian-drum-ensemble/
 

@@ -11,7 +11,7 @@ countries: ["Armenia"]
 ---
 # Lavash Baking
 
-*Լավաշ · tonir*
+*Also known as: Լավաշ · tonir*
 
 **Encyclopedia ID 163** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/163-lavash-baking/
 

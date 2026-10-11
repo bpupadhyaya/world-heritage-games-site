@@ -11,7 +11,7 @@ countries: ["Poland"]
 ---
 # Kurpie Layered Paper Cutting
 
-*Wycinanka kurpiowska*
+*Also known as: Wycinanka kurpiowska*
 
 **Encyclopedia ID 1320** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1320-kurpie-layered-paper-cutting/
 

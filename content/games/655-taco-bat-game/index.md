@@ -11,7 +11,7 @@ countries: ["Cuba"]
 ---
 # Taco bat game
 
-*Juego del Taco*
+*Also known as: Juego del Taco*
 
 **Encyclopedia ID 655** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/655-taco-bat-game/
 

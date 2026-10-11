@@ -11,7 +11,7 @@ countries: ["South Korea"]
 ---
 # Bojagi
 
-*보자기 · patchwork wrapping cloth*
+*Also known as: 보자기 · patchwork wrapping cloth*
 
 **Encyclopedia ID 363** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/363-bojagi/
 

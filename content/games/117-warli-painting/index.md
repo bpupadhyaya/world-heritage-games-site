@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Warli painting
 
-*वारली*
+*Also known as: वारली*
 
 **Encyclopedia ID 117** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/117-warli-painting/
 

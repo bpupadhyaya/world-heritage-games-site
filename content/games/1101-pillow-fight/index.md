@@ -11,7 +11,7 @@ countries: ["Sri Lanka", "Myanmar"]
 ---
 # Pillow fight
 
-*Kotta Pora*
+*Also known as: Kotta Pora*
 
 **Encyclopedia ID 1101** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1101-pillow-fight/
 

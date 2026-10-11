@@ -11,7 +11,7 @@ countries: ["Lithuania"]
 ---
 # Lithuanian Durak variants
 
-*Durnius / Kopšas / Vežimas*
+*Also known as: Durnius · Kopšas · Vežimas*
 
 **Encyclopedia ID 894** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/894-lithuanian-durak-variants/
 

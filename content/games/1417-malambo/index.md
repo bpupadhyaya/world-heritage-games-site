@@ -11,7 +11,7 @@ countries: ["Argentina"]
 ---
 # Malambo
 
-*Malambo · gaucho footwork duel*
+*Also known as: gaucho footwork duel*
 
 **Encyclopedia ID 1417** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1417-malambo/
 

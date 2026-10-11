@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Shogi
 
-*将棋 Shōgi · Japanese chess*
+*Also known as: Japanese chess*
 
 **Encyclopedia ID 852** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/852-shogi/
 

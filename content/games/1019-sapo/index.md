@@ -11,7 +11,7 @@ countries: ["Peru", "Bolivia", "Uruguay"]
 ---
 # Sapo
 
-*Sapo · frog toss*
+*Also known as: frog toss*
 
 **Encyclopedia ID 1019** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1019-sapo/
 

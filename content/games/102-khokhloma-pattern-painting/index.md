@@ -11,7 +11,7 @@ countries: ["Russia"]
 ---
 # Khokhloma Pattern Painting
 
-*Хохлома*
+*Also known as: Хохлома*
 
 **Encyclopedia ID 102** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/102-khokhloma-pattern-painting/
 

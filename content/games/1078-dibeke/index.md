@@ -11,7 +11,7 @@ countries: ["South Africa", "Botswana"]
 ---
 # Dibeke
 
-*Dibeke · Skununu*
+*Also known as: Skununu*
 
 **Encyclopedia ID 1078** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1078-dibeke/
 

@@ -11,7 +11,7 @@ countries: ["Myanmar"]
 ---
 # Burmese lacquerware engraving
 
-*ယွန်း · yun*
+*Also known as: ယွန်း · yun*
 
 **Encyclopedia ID 310** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/310-burmese-lacquerware-engraving/
 

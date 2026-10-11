@@ -11,7 +11,7 @@ countries: ["Kazakhstan"]
 ---
 # Asyk Atu
 
-*Asyq atu · Asyk · Asyq · Sheep-ankle-bone hitting game*
+*Also known as: Asyq atu · Asyk · Asyq · Sheep-ankle-bone hitting game*
 
 **Encyclopedia ID 856** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/856-asyk-atu/
 

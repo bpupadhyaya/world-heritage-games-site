@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Paper Plane Flight Contest
 
-*Kamihikoki (Japan), Papierflieger*
+*Also known as: Kamihikoki (Japan), Papierflieger*
 
 **Encyclopedia ID 466** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/466-paper-plane-flight-contest/
 

@@ -11,7 +11,7 @@ countries: ["Liberia"]
 ---
 # Vai Syllabary Decoder
 
-*Vai script (ꕙꔤ)*
+*Also known as: Vai script (ꕙꔤ)*
 
 **Encyclopedia ID 1394** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1394-vai-syllabary-decoder/
 

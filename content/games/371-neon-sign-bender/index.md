@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Neon sign bender
 
-*霓虹燈 · Hong Kong*
+*Also known as: 霓虹燈 · Hong Kong*
 
 **Encyclopedia ID 371** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/371-neon-sign-bender/
 

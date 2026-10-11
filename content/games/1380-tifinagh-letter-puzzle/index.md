@@ -11,7 +11,7 @@ countries: ["Niger", "Morocco", "Libya", "Algeria"]
 ---
 # Tifinagh Letter Puzzle
 
-*Tifinagh / ⵜⵉⴼⵉⵏⴰⵖ*
+*Also known as: Tifinagh · ⵜⵉⴼⵉⵏⴰⵖ*
 
 **Encyclopedia ID 1380** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1380-tifinagh-letter-puzzle/
 

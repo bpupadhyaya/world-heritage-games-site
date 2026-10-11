@@ -11,7 +11,7 @@ countries: ["Netherlands"]
 ---
 # Canal pole vault
 
-*Fierljeppen / polsstokverspringen · Fierljeppen*
+*Also known as: Fierljeppen · polsstokverspringen*
 
 **Encyclopedia ID 7** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/7-canal-pole-vault/
 

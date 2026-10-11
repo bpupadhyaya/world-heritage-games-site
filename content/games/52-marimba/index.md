@@ -11,7 +11,7 @@ countries: []
 ---
 # Marimba
 
-*Marimba de Guatemala*
+*Also known as: Marimba de Guatemala*
 
 **Encyclopedia ID 52** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/52-marimba/
 

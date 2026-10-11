@@ -11,7 +11,7 @@ countries: ["Netherlands", "Spain", "Iran", "United Kingdom"]
 ---
 # Windmill Miller
 
-*Molen / Dutch windmill*
+*Also known as: Molen · Dutch windmill*
 
 **Encyclopedia ID 507** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/507-windmill-miller/
 

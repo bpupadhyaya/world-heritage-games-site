@@ -11,7 +11,7 @@ countries: ["Germany"]
 ---
 # Don't Get Angry
 
-*Mensch ärgere Dich nicht · Ludo*
+*Also known as: Mensch ärgere Dich nicht · Ludo*
 
 **Encyclopedia ID 744** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/744-dont-get-angry/
 

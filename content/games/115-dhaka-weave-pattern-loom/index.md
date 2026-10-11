@@ -11,7 +11,7 @@ countries: ["Nepal"]
 ---
 # Dhaka weave pattern loom
 
-*ढाका*
+*Also known as: ढाका*
 
 **Encyclopedia ID 115** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/115-dhaka-weave-pattern-loom/
 

@@ -11,7 +11,7 @@ countries: ["Rwanda", "Burundi"]
 ---
 # Igisoro
 
-*Igisoro · Ikibuguzo*
+*Also known as: Ikibuguzo*
 
 **Encyclopedia ID 1049** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1049-igisoro/
 

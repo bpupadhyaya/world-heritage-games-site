@@ -11,7 +11,7 @@ countries: ["Moldova"]
 ---
 # Moldovan Woven Carpet Pattern Studio
 
-*Covor moldovenesc*
+*Also known as: Covor moldovenesc*
 
 **Encyclopedia ID 1339** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1339-moldovan-woven-carpet-pattern-studio/
 

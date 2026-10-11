@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Bhavai pot-balance dance
 
-*bhavai · Bhavai dance*
+*Also known as: bhavai · Bhavai dance*
 
 **Encyclopedia ID 268** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/268-bhavai-pot-balance-dance/
 

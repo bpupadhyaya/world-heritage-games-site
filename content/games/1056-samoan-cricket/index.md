@@ -11,7 +11,7 @@ countries: ["Samoa"]
 ---
 # Samoan cricket
 
-*Kilikiti*
+*Also known as: Kilikiti*
 
 **Encyclopedia ID 1056** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1056-samoan-cricket/
 

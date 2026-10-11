@@ -11,7 +11,7 @@ countries: ["United Kingdom"]
 ---
 # Highland Bagpipe Chanter and Drone
 
-*Piobaireachd / Piping*
+*Also known as: Piobaireachd · Piping*
 
 **Encyclopedia ID 510** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/510-highland-bagpipe-chanter-and-drone/
 

@@ -11,7 +11,7 @@ countries: ["Iran"]
 ---
 # Tombak goblet drum rhythms
 
-*تنبک / ضرب · zarb*
+*Also known as: تنبک · zarb*
 
 **Encyclopedia ID 233** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/233-tombak-goblet-drum-rhythms/
 

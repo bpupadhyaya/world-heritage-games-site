@@ -11,7 +11,7 @@ countries: ["Finland"]
 ---
 # Finnish pin toss
 
-*Mölkky · Molkky*
+*Also known as: Mölkky*
 
 **Encyclopedia ID 49** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/49-finnish-pin-toss/
 

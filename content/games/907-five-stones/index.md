@@ -11,7 +11,7 @@ countries: ["Malaysia", "Brunei"]
 ---
 # Five stones
 
-*Batu Seremban · Lima batu · Selambut*
+*Also known as: Batu Seremban · Lima batu · Selambut*
 
 **Encyclopedia ID 907** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/907-five-stones/
 

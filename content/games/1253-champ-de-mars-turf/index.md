@@ -11,7 +11,7 @@ countries: ["Mauritius"]
 ---
 # Champ de Mars turf
 
-*Champ de Mars turf (island horse racing) · island horse racing*
+*Also known as: Champ de Mars turf (island horse racing) · island horse racing*
 
 **Encyclopedia ID 1253** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1253-champ-de-mars-turf/
 

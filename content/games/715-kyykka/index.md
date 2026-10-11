@@ -11,7 +11,7 @@ countries: ["Finland"]
 ---
 # Kyykka
 
-*Kyykkä · Finnish skittles*
+*Also known as: Finnish skittles*
 
 **Encyclopedia ID 715** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/715-kyykka/
 

@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Dizi
 
-*笛子 · bamboo flute*
+*Also known as: 笛子 · bamboo flute*
 
 **Encyclopedia ID 132** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/132-dizi/
 

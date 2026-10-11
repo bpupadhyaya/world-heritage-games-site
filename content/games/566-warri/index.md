@@ -11,7 +11,7 @@ countries: ["Bahamas", "Barbados", "Antigua and Barbuda", "Mali"]
 ---
 # Warri
 
-*Warri / mancala*
+*Also known as: mancala*
 
 **Encyclopedia ID 566** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/566-warri/
 

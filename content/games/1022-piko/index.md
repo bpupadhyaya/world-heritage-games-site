@@ -11,7 +11,7 @@ countries: ["Philippines"]
 ---
 # Piko
 
-*Piko · hopscotch*
+*Also known as: hopscotch*
 
 **Encyclopedia ID 1022** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1022-piko/
 

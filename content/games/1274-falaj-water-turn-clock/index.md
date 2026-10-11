@@ -11,7 +11,7 @@ countries: ["Oman"]
 ---
 # Falaj Water-Turn Clock
 
-*فلج · aflaj shares*
+*Also known as: فلج · aflaj shares*
 
 **Encyclopedia ID 1274** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1274-falaj-water-turn-clock/
 

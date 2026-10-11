@@ -11,7 +11,7 @@ countries: ["South Africa", "Eswatini"]
 ---
 # Nguni stick-fighting rhythm skirmish
 
-*Intonga / donga · intonga*
+*Also known as: Intonga · donga*
 
 **Encyclopedia ID 209** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/209-nguni-stick-fighting-rhythm-skirmish/
 

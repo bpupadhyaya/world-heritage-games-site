@@ -11,7 +11,7 @@ countries: ["Israel"]
 ---
 # Matkot
 
-*Matkot · beach paddle rally*
+*Also known as: beach paddle rally*
 
 **Encyclopedia ID 825** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/825-matkot/
 

@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Bianzhong
 
-*编钟 · bronze chime bells*
+*Also known as: 编钟 · bronze chime bells*
 
 **Encyclopedia ID 336** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/336-bianzhong/
 

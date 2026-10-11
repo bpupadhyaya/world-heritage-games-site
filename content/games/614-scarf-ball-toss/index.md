@@ -11,7 +11,7 @@ countries: ["Cambodia"]
 ---
 # Scarf-ball toss
 
-*Chol Chhoung*
+*Also known as: Chol Chhoung*
 
 **Encyclopedia ID 614** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/614-scarf-ball-toss/
 

@@ -11,8 +11,6 @@ countries: ["Cyprus", "Greece"]
 ---
 # Tavli
 
-*Tavli*
-
 **Encyclopedia ID 656** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/656-tavli/
 
 Backgammon-family dice game played as a match of several variants in kafeneio cafes.

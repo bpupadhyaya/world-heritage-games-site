@@ -11,7 +11,7 @@ countries: ["Saudi Arabia"]
 ---
 # Ardah Drum-and-Line Rhythm
 
-*العرضة*
+*Also known as: العرضة*
 
 **Encyclopedia ID 1343** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1343-ardah-drum-and-line-rhythm/
 

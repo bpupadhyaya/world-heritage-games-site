@@ -11,7 +11,7 @@ countries: ["Suriname"]
 ---
 # Adji-boto
 
-*Adji-boto · Saramaccan mancala*
+*Also known as: Saramaccan mancala*
 
 **Encyclopedia ID 1116** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1116-adji-boto/
 

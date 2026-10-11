@@ -11,7 +11,7 @@ countries: ["Indonesia"]
 ---
 # Madura bull racing
 
-*Karapan Sapi*
+*Also known as: Karapan Sapi*
 
 **Encyclopedia ID 805** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/805-madura-bull-racing/
 

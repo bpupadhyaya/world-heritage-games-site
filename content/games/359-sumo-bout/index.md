@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Sumo bout
 
-*相撲 · ring push-out*
+*Also known as: 相撲 · ring push-out*
 
 **Encyclopedia ID 359** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/359-sumo-bout/
 

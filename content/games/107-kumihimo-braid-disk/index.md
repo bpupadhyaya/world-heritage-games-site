@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Kumihimo Braid Disk
 
-*Kumihimo 組紐*
+*Also known as: Kumihimo 組紐*
 
 **Encyclopedia ID 107** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/107-kumihimo-braid-disk/
 

@@ -11,7 +11,7 @@ countries: ["Azerbaijan"]
 ---
 # Tar and mugham modes
 
-*Tar / Muğam · Azerbaijani long-neck lute*
+*Also known as: Tar · Muğam · Azerbaijani long-neck lute*
 
 **Encyclopedia ID 247** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/247-tar-and-mugham-modes/
 

@@ -11,7 +11,7 @@ countries: ["Ghana", "Cote d'Ivoire"]
 ---
 # Adinkra Cloth Stamping
 
-*Adinkra*
+*Also known as: Adinkra*
 
 **Encyclopedia ID 170** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/170-adinkra-cloth-stamping/
 

@@ -11,7 +11,7 @@ countries: ["Djibouti"]
 ---
 # Lake Assal salt harvest
 
-*Lac Assal*
+*Also known as: Lac Assal*
 
 **Encyclopedia ID 1321** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1321-lake-assal-salt-harvest/
 

@@ -11,7 +11,7 @@ countries: ["Comoros"]
 ---
 # Ngalawa outrigger sailing
 
-*Ngalawa outrigger sailing (Comoros) · Comoros*
+*Also known as: Ngalawa outrigger sailing (Comoros) · Comoros*
 
 **Encyclopedia ID 1259** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1259-ngalawa-outrigger-sailing/
 

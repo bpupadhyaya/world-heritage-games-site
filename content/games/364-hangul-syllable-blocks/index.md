@@ -11,7 +11,7 @@ countries: ["South Korea"]
 ---
 # Hangul syllable blocks
 
-*한글 · letter-block builder*
+*Also known as: 한글 · letter-block builder*
 
 **Encyclopedia ID 364** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/364-hangul-syllable-blocks/
 

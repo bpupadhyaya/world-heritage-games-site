@@ -11,7 +11,7 @@ countries: ["Rwanda"]
 ---
 # Agaseke basket weaving
 
-*Agaseke / Igiseke*
+*Also known as: Agaseke · Igiseke*
 
 **Encyclopedia ID 89** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/89-agaseke-basket-weaving/
 

@@ -11,7 +11,7 @@ countries: ["Azerbaijan"]
 ---
 # Chovqan
 
-*Chovqan · Karabakh horse polo*
+*Also known as: Karabakh horse polo*
 
 **Encyclopedia ID 565** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/565-chovqan/
 

@@ -11,7 +11,7 @@ countries: ["Thailand"]
 ---
 # Ranat ek
 
-*ระนาดเอก · Thai xylophone*
+*Also known as: ระนาดเอก · Thai xylophone*
 
 **Encyclopedia ID 305** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/305-ranat-ek/
 

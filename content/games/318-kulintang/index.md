@@ -11,7 +11,7 @@ countries: ["Philippines", "Malaysia", "Brunei", "Timor-Leste"]
 ---
 # Kulintang
 
-*Kulintang · gong-chime row*
+*Also known as: gong-chime row*
 
 **Encyclopedia ID 318** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/318-kulintang/
 

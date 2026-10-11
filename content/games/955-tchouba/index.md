@@ -11,7 +11,7 @@ countries: ["Mozambique"]
 ---
 # Tchouba
 
-*Tchouba · Tshuba*
+*Also known as: Tshuba*
 
 **Encyclopedia ID 955** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/955-tchouba/
 

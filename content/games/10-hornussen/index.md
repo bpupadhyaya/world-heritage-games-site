@@ -11,8 +11,6 @@ countries: ["Switzerland"]
 ---
 # Hornussen
 
-*Hornussen*
-
 **Encyclopedia ID 10** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/10-hornussen/
 
 ![Hornussen](../../../img/photos/00010-hornussen.jpg)

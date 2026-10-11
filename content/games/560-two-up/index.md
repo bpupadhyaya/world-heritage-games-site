@@ -11,7 +11,7 @@ countries: ["Australia"]
 ---
 # Two-up
 
-*Two-up · Swy*
+*Also known as: Swy*
 
 **Encyclopedia ID 560** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/560-two-up/
 

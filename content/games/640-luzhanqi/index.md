@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Luzhanqi
 
-*军棋 Jūnqí (Luzhanqi) · Land battle chess · Army chess*
+*Also known as: 军棋 Jūnqí (Luzhanqi) · Land battle chess · Army chess*
 
 **Encyclopedia ID 640** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/640-luzhanqi/
 

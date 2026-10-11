@@ -11,7 +11,7 @@ countries: ["Honduras"]
 ---
 # Kite flying
 
-*Barrilete*
+*Also known as: Barrilete*
 
 **Encyclopedia ID 769** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/769-kite-flying/
 

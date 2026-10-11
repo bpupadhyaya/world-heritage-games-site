@@ -11,7 +11,7 @@ countries: ["Latvia"]
 ---
 # Lielvārde Sash Pattern Weaving
 
-*Lielvārdes josta*
+*Also known as: Lielvārdes josta*
 
 **Encyclopedia ID 1327** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1327-lielvarde-sash-pattern-weaving/
 

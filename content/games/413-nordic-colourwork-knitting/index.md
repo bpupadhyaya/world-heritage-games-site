@@ -11,7 +11,7 @@ countries: ["United Kingdom", "Norway", "Iceland"]
 ---
 # Nordic Colourwork Knitting
 
-*Fair Isle / Selbu / Lopapeysa*
+*Also known as: Fair Isle · Selbu · Lopapeysa*
 
 **Encyclopedia ID 413** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/413-nordic-colourwork-knitting/
 

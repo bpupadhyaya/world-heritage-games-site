@@ -11,7 +11,7 @@ countries: ["Samoa"]
 ---
 # Dart/spear throwing
 
-*Tiʻa*
+*Also known as: Tiʻa*
 
 **Encyclopedia ID 1057** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1057-dart-spear-throwing/
 

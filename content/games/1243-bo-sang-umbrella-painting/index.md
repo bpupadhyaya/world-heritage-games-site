@@ -11,7 +11,7 @@ countries: ["Thailand"]
 ---
 # Bo Sang umbrella painting
 
-*ร่มบ่อสร้าง*
+*Also known as: ร่มบ่อสร้าง*
 
 **Encyclopedia ID 1243** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1243-bo-sang-umbrella-painting/
 

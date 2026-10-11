@@ -11,7 +11,7 @@ countries: ["Vietnam"]
 ---
 # Water puppet pond theatre
 
-*Múa rối nước*
+*Also known as: Múa rối nước*
 
 **Encyclopedia ID 303** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/303-water-puppet-pond-theatre/
 

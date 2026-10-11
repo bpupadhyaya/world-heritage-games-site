@@ -11,7 +11,7 @@ countries: ["Zimbabwe"]
 ---
 # Mbira
 
-*Mbira / Kalimba / Sanza · Thumb Piano*
+*Also known as: Kalimba · Sanza · Thumb Piano*
 
 **Encyclopedia ID 32** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/32-mbira/
 

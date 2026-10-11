@@ -11,7 +11,7 @@ countries: ["Italy"]
 ---
 # Glassblowing
 
-*Soffiatura del vetro · Venetian style*
+*Also known as: Soffiatura del vetro · Venetian style*
 
 **Encyclopedia ID 121** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/121-glassblowing/
 

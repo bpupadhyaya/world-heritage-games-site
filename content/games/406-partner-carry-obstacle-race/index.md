@@ -11,7 +11,7 @@ countries: ["Finland"]
 ---
 # Partner-Carry Obstacle Race
 
-*Eukonkanto*
+*Also known as: Eukonkanto*
 
 **Encyclopedia ID 406** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/406-partner-carry-obstacle-race/
 

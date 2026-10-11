@@ -11,7 +11,7 @@ countries: ["Sri Lanka"]
 ---
 # Peralikatuma
 
-*පෙරලිකටුම*
+*Also known as: පෙරලිකටුම*
 
 **Encyclopedia ID 287** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/287-peralikatuma/
 

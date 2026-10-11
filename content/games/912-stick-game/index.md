@@ -11,7 +11,7 @@ countries: ["Maldives", "New Zealand"]
 ---
 # Stick game
 
-*Dhandi Jehun*
+*Also known as: Dhandi Jehun*
 
 **Encyclopedia ID 912** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/912-stick-game/
 

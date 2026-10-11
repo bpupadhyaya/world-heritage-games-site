@@ -11,7 +11,7 @@ countries: []
 ---
 # Kisii soapstone carving
 
-*Tabaka soapstone*
+*Also known as: Tabaka soapstone*
 
 **Encyclopedia ID 195** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/195-kisii-soapstone-carving/
 

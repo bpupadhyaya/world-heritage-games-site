@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Lagori
 
-*Lagori / Pitthu / Dabba kali · Seven Stones · Lagori · Pitthu · Satoliya*
+*Also known as: Pitthu · Dabba kali · Seven Stones · Satoliya*
 
 **Encyclopedia ID 14** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/14-lagori/
 

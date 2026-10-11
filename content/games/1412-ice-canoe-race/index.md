@@ -11,7 +11,7 @@ countries: ["Canada"]
 ---
 # Ice Canoe Race
 
-*Course en canot a glace*
+*Also known as: Course en canot a glace*
 
 **Encyclopedia ID 1412** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1412-ice-canoe-race/
 

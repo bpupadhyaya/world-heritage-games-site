@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Sangaku Geometry Puzzles
 
-*算額*
+*Also known as: 算額*
 
 **Encyclopedia ID 109** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/109-sangaku-geometry-puzzles/
 

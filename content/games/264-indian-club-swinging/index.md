@@ -11,7 +11,7 @@ countries: ["India", "Pakistan"]
 ---
 # Indian club swinging
 
-*mugdar, jori, meels · mugdar / jori*
+*Also known as: mugdar, jori, meels · mugdar · jori*
 
 **Encyclopedia ID 264** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/264-indian-club-swinging/
 

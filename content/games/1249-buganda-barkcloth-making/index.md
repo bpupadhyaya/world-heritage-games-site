@@ -11,7 +11,7 @@ countries: ["Uganda"]
 ---
 # Buganda barkcloth making
 
-*Olubugo*
+*Also known as: Olubugo*
 
 **Encyclopedia ID 1249** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1249-buganda-barkcloth-making/
 

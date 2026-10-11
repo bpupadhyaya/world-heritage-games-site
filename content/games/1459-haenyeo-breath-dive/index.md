@@ -11,7 +11,7 @@ countries: ["South Korea"]
 ---
 # Haenyeo Breath Dive
 
-*해녀 · Jeju women divers*
+*Also known as: 해녀 · Jeju women divers*
 
 **Encyclopedia ID 1459** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1459-haenyeo-breath-dive/
 

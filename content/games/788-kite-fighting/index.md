@@ -11,7 +11,7 @@ countries: ["India", "Pakistan", "Afghanistan"]
 ---
 # Kite fighting
 
-*Patang Baazi (Kite fighting) · Kite flying · Manja*
+*Also known as: Patang Baazi (Kite fighting) · Kite flying · Manja*
 
 **Encyclopedia ID 788** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/788-kite-fighting/
 

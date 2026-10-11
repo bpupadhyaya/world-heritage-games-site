@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Thanjavur dancing doll
 
-*தஞ்சாவூர் தலையாட்டி பொம்மை · balancing toy*
+*Also known as: தஞ்சாவூர் தலையாட்டி பொம்மை · balancing toy*
 
 **Encyclopedia ID 275** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/275-thanjavur-dancing-doll/
 

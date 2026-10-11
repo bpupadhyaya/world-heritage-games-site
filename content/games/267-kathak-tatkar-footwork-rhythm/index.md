@@ -11,7 +11,7 @@ countries: ["India", "Pakistan"]
 ---
 # Kathak tatkar footwork rhythm
 
-*tatkar, ghungroo*
+*Also known as: tatkar, ghungroo*
 
 **Encyclopedia ID 267** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/267-kathak-tatkar-footwork-rhythm/
 

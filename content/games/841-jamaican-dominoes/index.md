@@ -11,7 +11,7 @@ countries: ["Jamaica"]
 ---
 # Jamaican dominoes
 
-*Dominoes (Partner / Cut-Throat / French) · Six Love*
+*Also known as: Dominoes (Partner · Cut-Throat · French) · Six Love*
 
 **Encyclopedia ID 841** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/841-jamaican-dominoes/
 

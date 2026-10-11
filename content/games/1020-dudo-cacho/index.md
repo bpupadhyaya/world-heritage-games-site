@@ -11,7 +11,7 @@ countries: ["Peru"]
 ---
 # Dudo / Cacho
 
-*Cacho / Dudo*
+*Also known as: Cacho · Dudo*
 
 **Encyclopedia ID 1020** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1020-dudo-cacho/
 

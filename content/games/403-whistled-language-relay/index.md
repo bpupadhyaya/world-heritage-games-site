@@ -11,7 +11,7 @@ countries: []
 ---
 # Whistled Language Relay
 
-*Silbo gomero*
+*Also known as: Silbo gomero*
 
 **Encyclopedia ID 403** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/403-whistled-language-relay/
 

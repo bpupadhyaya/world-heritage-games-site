@@ -11,7 +11,7 @@ countries: ["Slovenia"]
 ---
 # Beehive Panel Painter
 
-*Panjske končnice*
+*Also known as: Panjske končnice*
 
 **Encyclopedia ID 1241** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1241-beehive-panel-painter/
 

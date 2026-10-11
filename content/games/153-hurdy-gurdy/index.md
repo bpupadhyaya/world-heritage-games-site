@@ -11,7 +11,7 @@ countries: ["France"]
 ---
 # Hurdy-gurdy
 
-*Vielle a roue*
+*Also known as: Vielle a roue*
 
 **Encyclopedia ID 153** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/153-hurdy-gurdy/
 

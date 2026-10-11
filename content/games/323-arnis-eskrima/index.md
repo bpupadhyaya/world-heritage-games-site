@@ -11,7 +11,7 @@ countries: ["Philippines", "Timor-Leste"]
 ---
 # Arnis / Eskrima
 
-*Arnis · Arnis stick fighting · stick sparring*
+*Also known as: Arnis · Arnis stick fighting · stick sparring*
 
 **Encyclopedia ID 323** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/323-arnis-eskrima/
 

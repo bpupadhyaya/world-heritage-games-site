@@ -11,7 +11,7 @@ countries: ["Lesotho", "Eswatini", "South Africa", "Botswana"]
 ---
 # Umlabalaba
 
-*Umlabalaba · Zulu chess · Morabaraba (Twelve Cows) · Mlabalaba*
+*Also known as: Zulu chess · Morabaraba (Twelve Cows) · Mlabalaba*
 
 **Encyclopedia ID 881** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/881-umlabalaba/
 

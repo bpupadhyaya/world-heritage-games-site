@@ -11,8 +11,6 @@ countries: ["Seychelles"]
 ---
 # Makonn
 
-*Makonn*
-
 **Encyclopedia ID 1065** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1065-makonn/
 
 Mancala on 4x10, almost forgotten, outer islands.

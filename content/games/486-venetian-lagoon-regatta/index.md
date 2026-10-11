@@ -11,7 +11,7 @@ countries: ["Italy"]
 ---
 # Venetian lagoon regatta
 
-*Regata · gondolino*
+*Also known as: Regata · gondolino*
 
 **Encyclopedia ID 486** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/486-venetian-lagoon-regatta/
 

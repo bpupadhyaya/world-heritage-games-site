@@ -11,7 +11,7 @@ countries: ["Iceland"]
 ---
 # Glima
 
-*Glíma · Icelandic belt wrestling*
+*Also known as: Icelandic belt wrestling*
 
 **Encyclopedia ID 478** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/478-glima/
 

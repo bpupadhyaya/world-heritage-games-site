@@ -11,7 +11,7 @@ countries: ["Burkina Faso"]
 ---
 # Putu
 
-*Putu · hidden-object guessing*
+*Also known as: hidden-object guessing*
 
 **Encyclopedia ID 609** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/609-putu/
 

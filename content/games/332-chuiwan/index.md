@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Chuiwan
 
-*捶丸 · ancient Chinese golf*
+*Also known as: 捶丸 · ancient Chinese golf*
 
 **Encyclopedia ID 332** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/332-chuiwan/
 

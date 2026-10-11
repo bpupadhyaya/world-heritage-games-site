@@ -11,7 +11,7 @@ countries: ["Italy"]
 ---
 # Italian draughts
 
-*Dama italiana*
+*Also known as: Dama italiana*
 
 **Encyclopedia ID 834** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/834-italian-draughts/
 

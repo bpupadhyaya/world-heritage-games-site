@@ -11,7 +11,7 @@ countries: ["Fiji"]
 ---
 # Tree-pull contest
 
-*Veileveleveti*
+*Also known as: Veileveleveti*
 
 **Encyclopedia ID 710** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/710-tree-pull-contest/
 

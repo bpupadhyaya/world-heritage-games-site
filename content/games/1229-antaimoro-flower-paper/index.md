@@ -11,8 +11,6 @@ countries: ["Madagascar"]
 ---
 # Antaimoro flower paper
 
-*Antaimoro flower paper*
-
 **Encyclopedia ID 1229** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1229-antaimoro-flower-paper/
 
 ![Antaimoro flower paper](../../../img/photos/01229-antaimoro-flower-paper.jpg)

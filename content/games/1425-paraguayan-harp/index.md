@@ -11,7 +11,7 @@ countries: ["Paraguay"]
 ---
 # Paraguayan Harp
 
-*Arpa paraguaya · Arpa Paraguaya*
+*Also known as: Arpa paraguaya*
 
 **Encyclopedia ID 1425** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1425-paraguayan-harp/
 

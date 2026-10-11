@@ -11,7 +11,7 @@ countries: ["Mexico"]
 ---
 # Mexican Lotería
 
-*Lotería · picture bingo*
+*Also known as: Lotería · picture bingo*
 
 **Encyclopedia ID 935** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/935-mexican-loteria/
 

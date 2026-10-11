@@ -11,8 +11,6 @@ countries: ["New Zealand"]
 ---
 # Mu Torere
 
-*Mū tōrere*
-
 **Encyclopedia ID 979** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/979-mu-torere/
 
 Two players each hold four pieces on an eight-pointed star and try to leave the opponent without a legal move; commonly linked with Ngati Porou.

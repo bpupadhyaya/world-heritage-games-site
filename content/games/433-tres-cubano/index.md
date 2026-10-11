@@ -11,7 +11,7 @@ countries: ["Cuba"]
 ---
 # Tres cubano
 
-*Tres cubano · son guitar*
+*Also known as: son guitar*
 
 **Encyclopedia ID 433** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/433-tres-cubano/
 

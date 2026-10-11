@@ -11,7 +11,7 @@ countries: ["China", "Laos", "Thailand", "Vietnam"]
 ---
 # Hmong story cloth
 
-*paj ntaub*
+*Also known as: paj ntaub*
 
 **Encyclopedia ID 1298** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1298-hmong-story-cloth/
 

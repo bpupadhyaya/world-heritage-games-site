@@ -11,7 +11,7 @@ countries: ["Malaysia", "Brunei", "Indonesia"]
 ---
 # Songket
 
-*Songket · supplementary-weft gold weaving*
+*Also known as: supplementary-weft gold weaving*
 
 **Encyclopedia ID 320** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/320-songket/
 

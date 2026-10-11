@@ -11,7 +11,7 @@ countries: ["Cape Verde", "Guinea-Bissau"]
 ---
 # Ouril
 
-*Ouril (Uril) · Ouri · Uril · Urim · Ori*
+*Also known as: Ouril (Uril) · Ouri · Uril · Urim · Ori*
 
 **Encyclopedia ID 611** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/611-ouril/
 

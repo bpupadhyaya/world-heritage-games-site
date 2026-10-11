@@ -11,8 +11,6 @@ countries: ["South Korea"]
 ---
 # Tuho
 
-*투호 Tuho*
-
 **Encyclopedia ID 1089** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1089-tuho/
 
 Players throw arrows into a narrow-necked jar from a distance.

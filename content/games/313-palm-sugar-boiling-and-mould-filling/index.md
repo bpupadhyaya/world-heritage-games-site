@@ -11,7 +11,7 @@ countries: ["Cambodia"]
 ---
 # Palm sugar boiling and mould-filling
 
-*ស្ករត្នោត*
+*Also known as: ស្ករត្នោត*
 
 **Encyclopedia ID 313** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/313-palm-sugar-boiling-and-mould-filling/
 

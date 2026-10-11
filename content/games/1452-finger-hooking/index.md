@@ -11,7 +11,7 @@ countries: ["Germany", "Austria"]
 ---
 # Finger Hooking
 
-*Fingerhakeln*
+*Also known as: Fingerhakeln*
 
 **Encyclopedia ID 1452** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1452-finger-hooking/
 

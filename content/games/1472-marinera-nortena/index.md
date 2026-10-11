@@ -11,7 +11,7 @@ countries: ["Peru"]
 ---
 # Marinera Norteña
 
-*Marinera norteña · handkerchief courtship dance*
+*Also known as: handkerchief courtship dance*
 
 **Encyclopedia ID 1472** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1472-marinera-nortena/
 

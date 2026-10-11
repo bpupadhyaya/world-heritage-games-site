@@ -11,7 +11,7 @@ countries: ["Chile"]
 ---
 # Chilean Rayuela
 
-*Rayuela chilena · disc pitching*
+*Also known as: Rayuela chilena · disc pitching*
 
 **Encyclopedia ID 1427** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1427-chilean-rayuela/
 

@@ -11,7 +11,7 @@ countries: ["Netherlands"]
 ---
 # Frisian kaatsen
 
-*Kaatsen*
+*Also known as: Kaatsen*
 
 **Encyclopedia ID 973** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/973-frisian-kaatsen/
 

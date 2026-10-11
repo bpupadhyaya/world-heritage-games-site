@@ -11,7 +11,7 @@ countries: ["Kuwait", "Bahrain"]
 ---
 # Fijiri Pearl-Diver Sea Songs
 
-*فجري*
+*Also known as: فجري*
 
 **Encyclopedia ID 1280** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1280-fijiri-pearl-diver-sea-songs/
 

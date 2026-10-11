@@ -11,7 +11,7 @@ countries: ["Turkey"]
 ---
 # Oil wrestling
 
-*Yağlı güreş · yagli gures*
+*Also known as: Yağlı güreş · yagli gures*
 
 **Encyclopedia ID 480** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/480-oil-wrestling/
 

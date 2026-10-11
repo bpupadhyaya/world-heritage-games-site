@@ -11,7 +11,7 @@ countries: ["Bhutan", "Switzerland"]
 ---
 # Stone put
 
-*Pundo · Pesa*
+*Also known as: Pundo · Pesa*
 
 **Encyclopedia ID 589** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/589-stone-put/
 

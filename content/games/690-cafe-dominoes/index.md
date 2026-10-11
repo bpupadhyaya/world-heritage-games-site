@@ -11,7 +11,7 @@ countries: ["Egypt"]
 ---
 # Cafe dominoes
 
-*Domino · Domina*
+*Also known as: Domino · Domina*
 
 **Encyclopedia ID 690** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/690-cafe-dominoes/
 

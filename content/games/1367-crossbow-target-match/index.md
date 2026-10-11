@@ -11,7 +11,7 @@ countries: ["Italy", "San Marino"]
 ---
 # Crossbow Target Match
 
-*Balestra sammarinese · balestra*
+*Also known as: Balestra sammarinese · balestra*
 
 **Encyclopedia ID 1367** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1367-crossbow-target-match/
 

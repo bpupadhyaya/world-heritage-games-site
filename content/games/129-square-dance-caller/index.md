@@ -11,7 +11,7 @@ countries: ["United States"]
 ---
 # Square dance caller
 
-*Square dance calling*
+*Also known as: Square dance calling*
 
 **Encyclopedia ID 129** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/129-square-dance-caller/
 

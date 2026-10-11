@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Otedama
 
-*お手玉 · beanbag juggling and catch*
+*Also known as: お手玉 · beanbag juggling and catch*
 
 **Encyclopedia ID 131** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/131-otedama/
 

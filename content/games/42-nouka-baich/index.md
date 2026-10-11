@@ -11,7 +11,7 @@ countries: ["Bangladesh", "India"]
 ---
 # Nouka Baich
 
-*নৌকা বাইচ · village boat race*
+*Also known as: নৌকা বাইচ · village boat race*
 
 **Encyclopedia ID 42** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/42-nouka-baich/
 

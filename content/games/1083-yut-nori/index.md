@@ -11,7 +11,7 @@ countries: ["South Korea", "North Korea"]
 ---
 # Yut Nori
 
-*윷놀이 Yunnori · Yut*
+*Also known as: 윷놀이 Yunnori · Yut*
 
 **Encyclopedia ID 1083** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1083-yut-nori/
 

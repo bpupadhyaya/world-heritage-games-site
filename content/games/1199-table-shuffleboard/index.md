@@ -11,7 +11,7 @@ countries: ["United States"]
 ---
 # Table shuffleboard
 
-*Table Shuffleboard · Shuffleboard*
+*Also known as: Shuffleboard*
 
 **Encyclopedia ID 1199** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1199-table-shuffleboard/
 

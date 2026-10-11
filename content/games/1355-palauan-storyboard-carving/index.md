@@ -11,7 +11,7 @@ countries: ["Palau"]
 ---
 # Palauan storyboard carving
 
-*Storyboards (dechel / bai)*
+*Also known as: Storyboards (dechel · bai)*
 
 **Encyclopedia ID 1355** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1355-palauan-storyboard-carving/
 

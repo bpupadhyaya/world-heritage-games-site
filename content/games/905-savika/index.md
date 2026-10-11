@@ -11,8 +11,6 @@ countries: ["Madagascar"]
 ---
 # Savika
 
-*Savika*
-
 **Encyclopedia ID 905** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/905-savika/
 
 Zebu-wrestling.

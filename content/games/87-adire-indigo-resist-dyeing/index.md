@@ -11,7 +11,7 @@ countries: ["Nigeria"]
 ---
 # Adire indigo resist dyeing
 
-*Adire*
+*Also known as: Adire*
 
 **Encyclopedia ID 87** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/87-adire-indigo-resist-dyeing/
 

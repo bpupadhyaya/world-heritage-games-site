@@ -11,7 +11,7 @@ countries: ["Lebanon", "Palestine"]
 ---
 # Tawle
 
-*Tawle · Shesh Besh · backgammon*
+*Also known as: Shesh Besh · backgammon*
 
 **Encyclopedia ID 880** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/880-tawle/
 

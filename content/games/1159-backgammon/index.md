@@ -11,7 +11,7 @@ countries: ["Turkey", "Israel", "Libya"]
 ---
 # Backgammon
 
-*Tavla · Tawla · Shesh Besh · Nard · Turkish tables*
+*Also known as: Tavla · Tawla · Shesh Besh · Nard · Turkish tables*
 
 **Encyclopedia ID 1159** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1159-backgammon/
 

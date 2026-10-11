@@ -11,7 +11,7 @@ countries: ["Bolivia", "Chile", "Peru", "Ecuador"]
 ---
 # Cacho
 
-*Cacho · Dudo*
+*Also known as: Dudo*
 
 **Encyclopedia ID 595** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/595-cacho/
 

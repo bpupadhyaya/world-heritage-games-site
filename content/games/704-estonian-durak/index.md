@@ -11,7 +11,7 @@ countries: ["Estonia"]
 ---
 # Estonian Durak
 
-*Turakas (Potkatnoi)*
+*Also known as: Turakas (Potkatnoi)*
 
 **Encyclopedia ID 704** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/704-estonian-durak/
 

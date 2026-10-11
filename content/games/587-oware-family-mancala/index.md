@@ -11,7 +11,7 @@ countries: ["Benin", "Burkina Faso", "Cote d'Ivoire", "Guinea", "Niger", "Senega
 ---
 # Oware-family mancala
 
-*Adjito (Aji) · Awale · Adji · 2x6 sowing*
+*Also known as: Adjito (Aji) · Awale · Adji · 2x6 sowing*
 
 **Encyclopedia ID 587** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/587-oware-family-mancala/
 

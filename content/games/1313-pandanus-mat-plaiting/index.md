@@ -11,7 +11,7 @@ countries: ["Kiribati"]
 ---
 # Pandanus mat plaiting
 
-*Te kie · te kie*
+*Also known as: Te kie*
 
 **Encyclopedia ID 1313** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1313-pandanus-mat-plaiting/
 

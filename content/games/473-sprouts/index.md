@@ -11,8 +11,6 @@ countries: ["United Kingdom"]
 ---
 # Sprouts
 
-*Sprouts*
-
 **Encyclopedia ID 473** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/473-sprouts/
 
 ![Sprouts](../../../img/photos/00473-sprouts.jpg)

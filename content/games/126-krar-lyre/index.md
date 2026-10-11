@@ -11,7 +11,7 @@ countries: ["Ethiopia", "Eritrea"]
 ---
 # Krar lyre
 
-*Krar*
+*Also known as: Krar*
 
 **Encyclopedia ID 126** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/126-krar-lyre/
 

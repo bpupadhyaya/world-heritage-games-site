@@ -11,7 +11,7 @@ countries: ["Cuba"]
 ---
 # Four Corners
 
-*Cuatro Esquinas · hand baseball*
+*Also known as: Cuatro Esquinas · hand baseball*
 
 **Encyclopedia ID 652** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/652-four-corners/
 

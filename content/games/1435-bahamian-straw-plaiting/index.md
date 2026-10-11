@@ -11,7 +11,7 @@ countries: ["Bahamas"]
 ---
 # Bahamian Straw Plaiting
 
-*Straw work*
+*Also known as: Straw work*
 
 **Encyclopedia ID 1435** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1435-bahamian-straw-plaiting/
 

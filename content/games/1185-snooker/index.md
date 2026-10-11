@@ -11,7 +11,7 @@ countries: ["United Kingdom"]
 ---
 # Snooker
 
-*Snooker / Billiards · English billiards*
+*Also known as: Billiards · English billiards*
 
 **Encyclopedia ID 1185** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1185-snooker/
 

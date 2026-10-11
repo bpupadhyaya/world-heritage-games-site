@@ -11,7 +11,7 @@ countries: ["Kazakhstan"]
 ---
 # Togyz Kumalak
 
-*Togyzqumalaq · Nine Pebbles*
+*Also known as: Togyzqumalaq · Nine Pebbles*
 
 **Encyclopedia ID 859** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/859-togyz-kumalak/
 

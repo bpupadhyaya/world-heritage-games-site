@@ -11,7 +11,7 @@ countries: ["India", "Pakistan"]
 ---
 # Rabab plucked lute
 
-*rabab (rubab)*
+*Also known as: rabab (rubab)*
 
 **Encyclopedia ID 270** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/270-rabab-plucked-lute/
 

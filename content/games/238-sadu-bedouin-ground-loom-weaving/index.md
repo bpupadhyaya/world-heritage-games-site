@@ -11,7 +11,7 @@ countries: ["Jordan"]
 ---
 # Sadu Bedouin ground-loom weaving
 
-*السدو*
+*Also known as: السدو*
 
 **Encyclopedia ID 238** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/238-sadu-bedouin-ground-loom-weaving/
 

@@ -11,7 +11,7 @@ countries: ["Maldives"]
 ---
 # Pole-and-line tuna fishing from a masdhoni
 
-*މަސްދޯނި*
+*Also known as: މަސްދޯނި*
 
 **Encyclopedia ID 1334** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1334-pole-and-line-tuna-fishing-from-a-masdhoni/
 

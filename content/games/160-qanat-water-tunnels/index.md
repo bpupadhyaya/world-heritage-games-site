@@ -11,7 +11,7 @@ countries: ["Iran"]
 ---
 # Qanat Water Tunnels
 
-*قنات*
+*Also known as: قنات*
 
 **Encyclopedia ID 160** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/160-qanat-water-tunnels/
 

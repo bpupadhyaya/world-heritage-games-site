@@ -11,7 +11,7 @@ countries: ["Bangladesh"]
 ---
 # Dhokra lost-wax casting
 
-*ଢୋକରା*
+*Also known as: ଢୋକରା*
 
 **Encyclopedia ID 278** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/278-dhokra-lost-wax-casting/
 

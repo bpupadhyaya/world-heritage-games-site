@@ -11,7 +11,7 @@ countries: ["Nauru"]
 ---
 # Footy
 
-*Australian rules football*
+*Also known as: Australian rules football*
 
 **Encyclopedia ID 962** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/962-footy/
 

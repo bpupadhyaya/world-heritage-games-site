@@ -11,7 +11,7 @@ countries: ["United Kingdom"]
 ---
 # Bridge Stick Race
 
-*Poohsticks*
+*Also known as: Poohsticks*
 
 **Encyclopedia ID 468** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/468-bridge-stick-race/
 

@@ -11,7 +11,7 @@ countries: ["Cambodia"]
 ---
 # Khloy bamboo duct flute
 
-*khloy / ខ្លុយ · Khloy*
+*Also known as: khloy · ខ្លុយ*
 
 **Encyclopedia ID 1311** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1311-khloy-bamboo-duct-flute/
 

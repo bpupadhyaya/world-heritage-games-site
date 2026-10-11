@@ -11,7 +11,7 @@ countries: ["Romania", "Moldova"]
 ---
 # Table
 
-*Table · backgammon*
+*Also known as: backgammon*
 
 **Encyclopedia ID 1044** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1044-table/
 

@@ -11,7 +11,7 @@ countries: ["Singapore"]
 ---
 # Chapteh shuttlecock
 
-*Capteh (Chapteh)*
+*Also known as: Capteh (Chapteh)*
 
 **Encyclopedia ID 1066** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1066-chapteh-shuttlecock/
 

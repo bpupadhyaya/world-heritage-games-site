@@ -11,7 +11,7 @@ countries: ["Mongolia"]
 ---
 # Mongolian Bow Archery
 
-*сур харвах · sur harvaa*
+*Also known as: сур харвах · sur harvaa*
 
 **Encyclopedia ID 1476** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1476-mongolian-bow-archery/
 

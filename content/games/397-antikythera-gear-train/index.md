@@ -11,7 +11,7 @@ countries: ["Greece"]
 ---
 # Antikythera Gear Train
 
-*Μηχανισμός των Αντικυθήρων*
+*Also known as: Μηχανισμός των Αντικυθήρων*
 
 **Encyclopedia ID 397** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/397-antikythera-gear-train/
 

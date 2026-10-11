@@ -11,7 +11,7 @@ countries: ["North Korea"]
 ---
 # Paduk
 
-*바둑 Paduk · Baduk · Go*
+*Also known as: Baduk · Go*
 
 **Encyclopedia ID 990** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/990-paduk/
 

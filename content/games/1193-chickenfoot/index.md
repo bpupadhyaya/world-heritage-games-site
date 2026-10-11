@@ -11,7 +11,7 @@ countries: ["United States"]
 ---
 # Chickenfoot
 
-*Chickenfoot / Train Dominoes · Mexican Train*
+*Also known as: Train Dominoes · Mexican Train*
 
 **Encyclopedia ID 1193** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1193-chickenfoot/
 

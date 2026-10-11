@@ -11,7 +11,7 @@ countries: ["Antigua and Barbuda", "United Kingdom"]
 ---
 # Antigua Classic Yacht Race
 
-*Classic yacht racing*
+*Also known as: Classic yacht racing*
 
 **Encyclopedia ID 1433** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1433-antigua-classic-yacht-race/
 

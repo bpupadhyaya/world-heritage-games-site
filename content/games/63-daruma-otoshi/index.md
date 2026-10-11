@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Daruma Otoshi
 
-*だるま落とし · tower knock-out*
+*Also known as: だるま落とし · tower knock-out*
 
 **Encyclopedia ID 63** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/63-daruma-otoshi/
 

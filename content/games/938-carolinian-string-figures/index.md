@@ -11,7 +11,7 @@ countries: ["Micronesia"]
 ---
 # Carolinian string figures
 
-*String figures*
+*Also known as: String figures*
 
 **Encyclopedia ID 938** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/938-carolinian-string-figures/
 

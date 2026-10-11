@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Dranyen
 
-*སྒྲ་སྙན · Tibetan long-neck lute*
+*Also known as: སྒྲ་སྙན · Tibetan long-neck lute*
 
 **Encyclopedia ID 300** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/300-dranyen/
 

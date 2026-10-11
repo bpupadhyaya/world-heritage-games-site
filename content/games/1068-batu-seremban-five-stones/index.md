@@ -11,7 +11,7 @@ countries: ["Singapore"]
 ---
 # Batu Seremban / Five stones
 
-*Five Stones*
+*Also known as: Five Stones*
 
 **Encyclopedia ID 1068** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1068-batu-seremban-five-stones/
 

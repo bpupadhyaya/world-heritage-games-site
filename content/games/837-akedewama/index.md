@@ -11,7 +11,7 @@ countries: ["Cote d'Ivoire"]
 ---
 # Akedewama
 
-*Akedewama (Spider game) · Akêdêwama*
+*Also known as: Akedewama (Spider game)*
 
 **Encyclopedia ID 837** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/837-akedewama/
 

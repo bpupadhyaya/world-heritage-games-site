@@ -11,7 +11,7 @@ countries: ["Sweden"]
 ---
 # Nyckelharpa
 
-*Nyckelharpa · key fiddle*
+*Also known as: key fiddle*
 
 **Encyclopedia ID 408** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/408-nyckelharpa/
 

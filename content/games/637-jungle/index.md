@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Jungle
 
-*斗兽棋 Dòushòuqí · Animal chess · Dou Shou Qi*
+*Also known as: 斗兽棋 Dòushòuqí · Animal chess · Dou Shou Qi*
 
 **Encyclopedia ID 637** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/637-jungle/
 

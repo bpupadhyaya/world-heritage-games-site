@@ -11,7 +11,7 @@ countries: ["Ireland"]
 ---
 # Road bowling
 
-*Bol Chumann na hÉireann / Road Bowling · Bullets · Irish road bowling*
+*Also known as: Bol Chumann na hÉireann · Bullets · Irish road bowling*
 
 **Encyclopedia ID 819** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/819-road-bowling/
 

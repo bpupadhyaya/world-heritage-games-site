@@ -11,7 +11,7 @@ countries: ["Belgium", "Netherlands"]
 ---
 # Carillon
 
-*Beiaard / Carillon*
+*Also known as: Beiaard*
 
 **Encyclopedia ID 418** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/418-carillon/
 

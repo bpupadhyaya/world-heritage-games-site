@@ -11,7 +11,7 @@ countries: ["North Macedonia", "Serbia", "Bosnia and Herzegovina", "Croatia", "R
 ---
 # Remi
 
-*Реми*
+*Also known as: Реми*
 
 **Encyclopedia ID 993** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/993-remi/
 

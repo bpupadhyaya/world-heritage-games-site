@@ -11,7 +11,7 @@ countries: ["Mexico"]
 ---
 # Mixtec ball game
 
-*Pelota mixteca*
+*Also known as: Pelota mixteca*
 
 **Encyclopedia ID 936** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/936-mixtec-ball-game/
 

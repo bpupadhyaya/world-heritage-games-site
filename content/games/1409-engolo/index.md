@@ -11,7 +11,7 @@ countries: ["Angola"]
 ---
 # Engolo
 
-*N'golo · handstand kick duel*
+*Also known as: N'golo · handstand kick duel*
 
 **Encyclopedia ID 1409** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1409-engolo/
 

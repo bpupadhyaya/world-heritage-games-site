@@ -11,7 +11,7 @@ countries: ["France", "United Kingdom"]
 ---
 # Bagatelle
 
-*Bagatelle · pin table*
+*Also known as: pin table*
 
 **Encyclopedia ID 72** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/72-bagatelle/
 

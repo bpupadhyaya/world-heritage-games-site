@@ -11,7 +11,7 @@ countries: ["Marshall Islands"]
 ---
 # Marshallese string figures
 
-*String figures*
+*Also known as: String figures*
 
 **Encyclopedia ID 926** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/926-marshallese-string-figures/
 

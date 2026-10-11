@@ -11,7 +11,7 @@ countries: ["Fiji"]
 ---
 # Masi bark-cloth stencil printing
 
-*Masi*
+*Also known as: Masi*
 
 **Encyclopedia ID 1279** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1279-masi-bark-cloth-stencil-printing/
 

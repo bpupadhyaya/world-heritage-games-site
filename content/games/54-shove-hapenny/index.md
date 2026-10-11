@@ -11,8 +11,6 @@ countries: ["United Kingdom"]
 ---
 # Shove ha'penny
 
-*Shove ha'penny*
-
 **Encyclopedia ID 54** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/54-shove-hapenny/
 
 ![Shove ha'penny](../../../img/photos/00054-shove-hapenny.jpg)

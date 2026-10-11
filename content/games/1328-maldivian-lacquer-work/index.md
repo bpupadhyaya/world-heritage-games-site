@@ -11,7 +11,7 @@ countries: ["Maldives"]
 ---
 # Maldivian lacquer work
 
-*ލިއެލާ ޖެހުން · liyelaa jehun*
+*Also known as: ލިއެލާ ޖެހުން · liyelaa jehun*
 
 **Encyclopedia ID 1328** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1328-maldivian-lacquer-work/
 

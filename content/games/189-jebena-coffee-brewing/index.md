@@ -11,7 +11,7 @@ countries: ["Ethiopia", "Eritrea"]
 ---
 # Jebena coffee brewing
 
-*Buna / jebena*
+*Also known as: Buna · jebena*
 
 **Encyclopedia ID 189** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/189-jebena-coffee-brewing/
 

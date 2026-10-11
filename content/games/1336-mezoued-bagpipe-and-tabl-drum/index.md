@@ -11,7 +11,7 @@ countries: ["Tunisia"]
 ---
 # Mezoued Bagpipe and Tabl Drum
 
-*Mezoued / مزود*
+*Also known as: Mezoued · مزود*
 
 **Encyclopedia ID 1336** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1336-mezoued-bagpipe-and-tabl-drum/
 

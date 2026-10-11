@@ -11,7 +11,7 @@ countries: ["Turkey", "Cyprus"]
 ---
 # Okey
 
-*Okey · Okey 101 is a variant · Turkish tile rummy*
+*Also known as: Okey 101 is a variant · Turkish tile rummy*
 
 **Encyclopedia ID 1158** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1158-okey/
 

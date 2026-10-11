@@ -11,7 +11,7 @@ countries: ["Thailand"]
 ---
 # Thai fruit and vegetable carving
 
-*Kae sa lak*
+*Also known as: Kae sa lak*
 
 **Encyclopedia ID 114** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/114-thai-fruit-and-vegetable-carving/
 

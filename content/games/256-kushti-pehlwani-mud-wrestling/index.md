@@ -11,7 +11,7 @@ countries: ["India", "Pakistan"]
 ---
 # Kushti / Pehlwani mud wrestling
 
-*kushti, pehlwani*
+*Also known as: kushti, pehlwani*
 
 **Encyclopedia ID 256** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/256-kushti-pehlwani-mud-wrestling/
 

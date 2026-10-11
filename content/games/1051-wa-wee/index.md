@@ -11,7 +11,7 @@ countries: ["Saint Lucia"]
 ---
 # Wa-wee
 
-*Wa-wee (English Wari)*
+*Also known as: Wa-wee (English Wari)*
 
 **Encyclopedia ID 1051** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1051-wa-wee/
 

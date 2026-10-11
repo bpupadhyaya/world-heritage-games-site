@@ -11,7 +11,7 @@ countries: ["Costa Rica"]
 ---
 # Seed war
 
-*Guerra de semillas*
+*Also known as: Guerra de semillas*
 
 **Encyclopedia ID 649** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/649-seed-war/
 

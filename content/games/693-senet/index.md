@@ -11,8 +11,6 @@ countries: ["Egypt"]
 ---
 # Senet
 
-*Senet*
-
 **Encyclopedia ID 693** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/693-senet/
 
 Ancient Egyptian track race using throw sticks; reconstructed rules, strong museum-icon status.

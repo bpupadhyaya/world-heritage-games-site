@@ -11,7 +11,7 @@ countries: ["Rwanda"]
 ---
 # Intore dance
 
-*Intore*
+*Also known as: Intore*
 
 **Encyclopedia ID 1302** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1302-intore-dance/
 

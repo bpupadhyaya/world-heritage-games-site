@@ -11,7 +11,7 @@ countries: ["South Korea"]
 ---
 # Gonggi
 
-*공기놀이 Gonggi · Gonggi nori · Five stones*
+*Also known as: Gonggi nori · Five stones*
 
 **Encyclopedia ID 1085** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1085-gonggi/
 

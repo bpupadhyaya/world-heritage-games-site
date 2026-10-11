@@ -11,8 +11,6 @@ countries: ["United States"]
 ---
 # Four Square
 
-*Four Square*
-
 **Encyclopedia ID 471** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/471-four-square/
 
 ![Four Square](../../../img/photos/00471-four-square.jpg)

@@ -11,7 +11,7 @@ countries: []
 ---
 # Bamboo Copter
 
-*Taketombo / Zhuzhu*
+*Also known as: Taketombo · Zhuzhu*
 
 **Encyclopedia ID 12** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/12-bamboo-copter/
 

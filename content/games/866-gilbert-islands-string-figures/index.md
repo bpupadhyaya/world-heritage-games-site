@@ -11,7 +11,7 @@ countries: ["Kiribati"]
 ---
 # Gilbert Islands string figures
 
-*String figures*
+*Also known as: String figures*
 
 **Encyclopedia ID 866** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/866-gilbert-islands-string-figures/
 

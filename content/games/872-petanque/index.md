@@ -11,7 +11,7 @@ countries: ["Laos", "France", "Monaco"]
 ---
 # Petanque
 
-*Petong (Petanque)*
+*Also known as: Petong (Petanque)*
 
 **Encyclopedia ID 872** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/872-petanque/
 

@@ -11,7 +11,7 @@ countries: ["Zimbabwe"]
 ---
 # Tsoro Yematatu
 
-*Tsoro yematatu · three-in-a-row triangle*
+*Also known as: three-in-a-row triangle*
 
 **Encyclopedia ID 196** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/196-tsoro-yematatu/
 

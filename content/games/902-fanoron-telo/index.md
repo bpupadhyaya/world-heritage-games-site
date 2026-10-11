@@ -11,8 +11,6 @@ countries: ["Madagascar"]
 ---
 # Fanoron-Telo
 
-*Fanoron-Telo*
-
 **Encyclopedia ID 902** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/902-fanoron-telo/
 
 3x3 variant akin to tic-tac-toe.

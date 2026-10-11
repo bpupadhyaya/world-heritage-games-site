@@ -11,7 +11,7 @@ countries: ["South Africa"]
 ---
 # Moruba / Ncuva
 
-*Ncuva · Moruba*
+*Also known as: Ncuva · Moruba*
 
 **Encyclopedia ID 1080** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1080-moruba-ncuva/
 

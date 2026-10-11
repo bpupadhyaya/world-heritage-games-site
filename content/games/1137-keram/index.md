@@ -11,7 +11,7 @@ countries: ["Tanzania"]
 ---
 # Keram
 
-*Keram · Carrom · carrom*
+*Also known as: Carrom*
 
 **Encyclopedia ID 1137** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1137-keram/
 

@@ -11,7 +11,7 @@ countries: ["India", "Pakistan", "Bangladesh", "Nepal"]
 ---
 # Kabaddi
 
-*Kabaddi · Hu-tu-tu · Chedugudu (South)*
+*Also known as: Hu-tu-tu · Chedugudu (South)*
 
 **Encyclopedia ID 789** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/789-kabaddi/
 

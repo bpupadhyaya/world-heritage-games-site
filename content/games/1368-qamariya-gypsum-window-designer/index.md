@@ -11,7 +11,7 @@ countries: ["Yemen"]
 ---
 # Qamariya Gypsum Window Designer
 
-*قمرية*
+*Also known as: قمرية*
 
 **Encyclopedia ID 1368** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1368-qamariya-gypsum-window-designer/
 

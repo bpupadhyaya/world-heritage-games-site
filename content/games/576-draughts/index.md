@@ -11,7 +11,7 @@ countries: ["Barbados", "Antigua and Barbuda", "Saint Lucia", "Saint Vincent and
 ---
 # Draughts
 
-*Drafts*
+*Also known as: Drafts*
 
 **Encyclopedia ID 576** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/576-draughts/
 

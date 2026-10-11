@@ -11,7 +11,7 @@ countries: ["Turkey"]
 ---
 # Cirit
 
-*Cirit · horseback javelin game*
+*Also known as: horseback javelin game*
 
 **Encyclopedia ID 156** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/156-cirit/
 

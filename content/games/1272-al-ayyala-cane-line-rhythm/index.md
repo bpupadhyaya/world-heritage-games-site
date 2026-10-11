@@ -11,7 +11,7 @@ countries: ["United Arab Emirates"]
 ---
 # Al Ayyala Cane-Line Rhythm
 
-*العيالة*
+*Also known as: العيالة*
 
 **Encyclopedia ID 1272** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1272-al-ayyala-cane-line-rhythm/
 

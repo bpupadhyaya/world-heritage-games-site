@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Chamba rumal embroidery
 
-*चम्बा रूमाल*
+*Also known as: चम्बा रूमाल*
 
 **Encyclopedia ID 1252** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1252-chamba-rumal-embroidery/
 

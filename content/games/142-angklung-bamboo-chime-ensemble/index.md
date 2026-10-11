@@ -11,7 +11,7 @@ countries: ["Indonesia"]
 ---
 # Angklung bamboo chime ensemble
 
-*Angklung*
+*Also known as: Angklung*
 
 **Encyclopedia ID 142** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/142-angklung-bamboo-chime-ensemble/
 

@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Tien gow
 
-*天九 Tin gau · Tin Kau · Heaven nine*
+*Also known as: 天九 Tin gau · Tin Kau · Heaven nine*
 
 **Encyclopedia ID 773** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/773-tien-gow/
 

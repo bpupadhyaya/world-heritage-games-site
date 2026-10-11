@@ -11,7 +11,7 @@ countries: ["Kenya"]
 ---
 # Kitendawili
 
-*Kitendawili! - Tega! · Swahili riddle duel*
+*Also known as: Kitendawili! - Tega! · Swahili riddle duel*
 
 **Encyclopedia ID 181** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/181-kitendawili/
 

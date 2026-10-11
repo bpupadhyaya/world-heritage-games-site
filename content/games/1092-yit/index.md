@@ -11,7 +11,7 @@ countries: ["South Sudan"]
 ---
 # Yit
 
-*Yit · Yit Nuri · Nuer*
+*Also known as: Yit Nuri · Nuer*
 
 **Encyclopedia ID 1092** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1092-yit/
 

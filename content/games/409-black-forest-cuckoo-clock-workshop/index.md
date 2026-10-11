@@ -11,7 +11,7 @@ countries: ["Germany"]
 ---
 # Black Forest Cuckoo Clock Workshop
 
-*Kuckucksuhr*
+*Also known as: Kuckucksuhr*
 
 **Encyclopedia ID 409** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/409-black-forest-cuckoo-clock-workshop/
 

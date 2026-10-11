@@ -11,7 +11,7 @@ countries: ["Dominican Republic"]
 ---
 # Hoyito
 
-*Hoyito · mancala*
+*Also known as: mancala*
 
 **Encyclopedia ID 682** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/682-hoyito/
 

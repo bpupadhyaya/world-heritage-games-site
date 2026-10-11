@@ -11,7 +11,7 @@ countries: ["Bolivia"]
 ---
 # Manteo
 
-*Manteo · blanket tossing*
+*Also known as: blanket tossing*
 
 **Encyclopedia ID 596** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/596-manteo/
 

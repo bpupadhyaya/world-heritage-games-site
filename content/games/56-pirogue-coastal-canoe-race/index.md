@@ -11,7 +11,7 @@ countries: []
 ---
 # Pirogue coastal canoe race
 
-*Course de pirogues*
+*Also known as: Course de pirogues*
 
 **Encyclopedia ID 56** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/56-pirogue-coastal-canoe-race/
 

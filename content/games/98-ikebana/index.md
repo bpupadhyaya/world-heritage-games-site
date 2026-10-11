@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Ikebana
 
-*生け花 · flower arrangement*
+*Also known as: 生け花 · flower arrangement*
 
 **Encyclopedia ID 98** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/98-ikebana/
 

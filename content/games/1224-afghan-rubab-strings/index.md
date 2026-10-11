@@ -11,7 +11,7 @@ countries: ["Afghanistan"]
 ---
 # Afghan Rubab Strings
 
-*رباب*
+*Also known as: رباب*
 
 **Encyclopedia ID 1224** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1224-afghan-rubab-strings/
 

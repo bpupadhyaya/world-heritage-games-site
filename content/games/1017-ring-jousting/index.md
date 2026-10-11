@@ -11,7 +11,7 @@ countries: ["Paraguay"]
 ---
 # Ring jousting
 
-*Sortija*
+*Also known as: Sortija*
 
 **Encyclopedia ID 1017** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1017-ring-jousting/
 

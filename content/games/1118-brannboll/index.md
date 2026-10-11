@@ -11,7 +11,7 @@ countries: ["Sweden"]
 ---
 # Brännboll
 
-*Brännboll · burnball*
+*Also known as: burnball*
 
 **Encyclopedia ID 1118** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1118-brannboll/
 

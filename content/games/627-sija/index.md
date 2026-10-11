@@ -11,7 +11,7 @@ countries: ["Chad"]
 ---
 # Sija
 
-*Sija · Chadian mancala*
+*Also known as: Chadian mancala*
 
 **Encyclopedia ID 627** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/627-sija/
 

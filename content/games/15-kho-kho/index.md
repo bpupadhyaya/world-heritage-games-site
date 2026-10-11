@@ -11,7 +11,7 @@ countries: ["India", "Nepal", "Bangladesh", "Sri Lanka"]
 ---
 # Kho-Kho
 
-*खो-खो · chain chase*
+*Also known as: खो-खो · chain chase*
 
 **Encyclopedia ID 15** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/15-kho-kho/
 

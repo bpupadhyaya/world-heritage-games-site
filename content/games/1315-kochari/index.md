@@ -11,7 +11,7 @@ countries: ["Armenia"]
 ---
 # Kochari
 
-*Քոչարի · Armenian line dance*
+*Also known as: Քոչարի · Armenian line dance*
 
 **Encyclopedia ID 1315** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1315-kochari/
 

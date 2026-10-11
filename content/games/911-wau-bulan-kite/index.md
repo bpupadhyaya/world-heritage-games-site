@@ -11,7 +11,7 @@ countries: ["Malaysia"]
 ---
 # Wau bulan kite
 
-*Wau (kite flying)*
+*Also known as: Wau (kite flying)*
 
 **Encyclopedia ID 911** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/911-wau-bulan-kite/
 

@@ -11,7 +11,7 @@ countries: ["Malaysia", "Singapore", "Brunei"]
 ---
 # Gasing
 
-*Gasing · spinning top*
+*Also known as: spinning top*
 
 **Encyclopedia ID 908** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/908-gasing/
 

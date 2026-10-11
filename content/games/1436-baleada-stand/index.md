@@ -11,7 +11,7 @@ countries: ["Honduras"]
 ---
 # Baleada Stand
 
-*Baleada · street tortilla cook*
+*Also known as: Baleada · street tortilla cook*
 
 **Encyclopedia ID 1436** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1436-baleada-stand/
 

@@ -11,7 +11,7 @@ countries: ["Colombia"]
 ---
 # Colombian Parqués
 
-*Parqués*
+*Also known as: Parqués*
 
 **Encyclopedia ID 644** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/644-colombian-parques/
 

@@ -11,7 +11,7 @@ countries: ["Timor-Leste"]
 ---
 # Regional pony race meets
 
-*Horse racing (Timor pony meets)*
+*Also known as: Horse racing (Timor pony meets)*
 
 **Encyclopedia ID 1145** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1145-regional-pony-race-meets/
 

@@ -11,7 +11,7 @@ countries: ["Bangladesh"]
 ---
 # Sholapith flower carving
 
-*শোলা*
+*Also known as: শোলা*
 
 **Encyclopedia ID 283** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/283-sholapith-flower-carving/
 

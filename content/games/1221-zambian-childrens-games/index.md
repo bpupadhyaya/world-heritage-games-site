@@ -11,7 +11,7 @@ countries: ["Zambia"]
 ---
 # Zambian children's games
 
-*Children's games (Culture Trip list of 7)*
+*Also known as: Children's games (Culture Trip list of 7)*
 
 **Encyclopedia ID 1221** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1221-zambian-childrens-games/
 

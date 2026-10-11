@@ -11,7 +11,7 @@ countries: ["Norway"]
 ---
 # Hardanger embroidery
 
-*Hardangersøm · hardangersøm*
+*Also known as: Hardangersøm*
 
 **Encyclopedia ID 1296** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1296-hardanger-embroidery/
 

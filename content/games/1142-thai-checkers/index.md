@@ -11,7 +11,7 @@ countries: ["Thailand"]
 ---
 # Thai checkers
 
-*Makhos*
+*Also known as: Makhos*
 
 **Encyclopedia ID 1142** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1142-thai-checkers/
 

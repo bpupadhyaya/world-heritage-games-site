@@ -11,7 +11,7 @@ countries: ["Czechia", "Slovakia"]
 ---
 # Hose-Run Fire Sport
 
-*Požární sport*
+*Also known as: Požární sport*
 
 **Encyclopedia ID 1281** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1281-hose-run-fire-sport/
 

@@ -11,7 +11,7 @@ countries: ["Belarus"]
 ---
 # Slutsk Sash Weaving
 
-*Слуцкія паясы*
+*Also known as: Слуцкія паясы*
 
 **Encyclopedia ID 1375** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1375-slutsk-sash-weaving/
 

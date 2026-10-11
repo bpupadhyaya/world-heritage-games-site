@@ -11,7 +11,7 @@ countries: ["Mexico"]
 ---
 # Chinampa Gardens
 
-*Chinampas de Xochimilco · floating-garden farming*
+*Also known as: Chinampas de Xochimilco · floating-garden farming*
 
 **Encyclopedia ID 1444** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1444-chinampa-gardens/
 

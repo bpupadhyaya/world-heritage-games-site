@@ -11,7 +11,7 @@ countries: ["United States"]
 ---
 # Mountain dulcimer
 
-*Appalachian*
+*Also known as: Appalachian*
 
 **Encyclopedia ID 435** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/435-mountain-dulcimer/
 

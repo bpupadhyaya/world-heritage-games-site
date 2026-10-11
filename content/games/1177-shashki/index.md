@@ -11,7 +11,7 @@ countries: ["Ukraine", "Belarus", "Russia"]
 ---
 # Shashki
 
-*Шашки · Russian draughts*
+*Also known as: Шашки · Russian draughts*
 
 **Encyclopedia ID 1177** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1177-shashki/
 

@@ -11,7 +11,7 @@ countries: ["Indonesia", "Malaysia", "Philippines"]
 ---
 # Bakiak
 
-*Bakiak / bakya · team clog race*
+*Also known as: bakya · team clog race*
 
 **Encyclopedia ID 324** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/324-bakiak/
 

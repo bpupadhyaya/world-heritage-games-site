@@ -11,7 +11,7 @@ countries: ["South Korea"]
 ---
 # Neolttwigi
 
-*널뛰기 · seesaw jumping*
+*Also known as: 널뛰기 · seesaw jumping*
 
 **Encyclopedia ID 4** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/4-neolttwigi/
 

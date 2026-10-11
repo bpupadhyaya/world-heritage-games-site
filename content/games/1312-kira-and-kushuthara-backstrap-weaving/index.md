@@ -11,7 +11,7 @@ countries: ["Bhutan"]
 ---
 # Kira and Kushuthara backstrap weaving
 
-*ཀི་ར། (kira)*
+*Also known as: ཀི་ར། (kira)*
 
 **Encyclopedia ID 1312** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1312-kira-and-kushuthara-backstrap-weaving/
 

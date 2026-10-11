@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Lambs and Tigers
 
-*Aadu Puli Attam · Puli Meka · Goats and Tigers*
+*Also known as: Aadu Puli Attam · Puli Meka · Goats and Tigers*
 
 **Encyclopedia ID 791** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/791-lambs-and-tigers/
 

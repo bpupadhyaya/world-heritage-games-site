@@ -11,7 +11,7 @@ countries: ["Fiji"]
 ---
 # Hand-slap game
 
-*Veisabiliga*
+*Also known as: Veisabiliga*
 
 **Encyclopedia ID 711** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/711-hand-slap-game/
 

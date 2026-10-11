@@ -11,7 +11,7 @@ countries: ["Spain"]
 ---
 # Txalaparta Duet
 
-*Txalaparta*
+*Also known as: Txalaparta*
 
 **Encyclopedia ID 390** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/390-txalaparta-duet/
 

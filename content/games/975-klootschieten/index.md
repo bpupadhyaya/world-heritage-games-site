@@ -11,7 +11,7 @@ countries: ["Netherlands"]
 ---
 # Klootschieten
 
-*Klootschieten · Boßeln*
+*Also known as: Boßeln*
 
 **Encyclopedia ID 975** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/975-klootschieten/
 

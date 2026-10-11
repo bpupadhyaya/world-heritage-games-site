@@ -11,7 +11,7 @@ countries: ["Pakistan"]
 ---
 # Gulli Danda
 
-*Gulli Danda · Gilli Danda*
+*Also known as: Gilli Danda*
 
 **Encyclopedia ID 1003** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1003-gulli-danda/
 

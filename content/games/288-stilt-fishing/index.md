@@ -11,7 +11,7 @@ countries: ["Sri Lanka"]
 ---
 # Stilt fishing
 
-*රිටිපැන්න · Ritipanna*
+*Also known as: රිටිපැන්න · Ritipanna*
 
 **Encyclopedia ID 288** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/288-stilt-fishing/
 

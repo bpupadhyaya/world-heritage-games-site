@@ -11,7 +11,7 @@ countries: ["Timor-Leste"]
 ---
 # Tais
 
-*Tais · Timorese backstrap weaving*
+*Also known as: Timorese backstrap weaving*
 
 **Encyclopedia ID 321** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/321-tais/
 

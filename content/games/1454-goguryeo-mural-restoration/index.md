@@ -11,7 +11,7 @@ countries: ["South Korea", "North Korea"]
 ---
 # Goguryeo Mural Restoration
 
-*고구려 고분벽화*
+*Also known as: 고구려 고분벽화*
 
 **Encyclopedia ID 1454** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1454-goguryeo-mural-restoration/
 

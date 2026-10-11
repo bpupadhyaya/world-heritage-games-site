@@ -11,7 +11,7 @@ countries: ["Indonesia", "Malaysia", "Brunei"]
 ---
 # Congklak
 
-*Congklak (Dakon) · Dakon · Congkak*
+*Also known as: Congklak (Dakon) · Dakon · Congkak*
 
 **Encyclopedia ID 803** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/803-congklak/
 

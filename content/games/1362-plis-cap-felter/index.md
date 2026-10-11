@@ -11,7 +11,7 @@ countries: ["Albania", "Kosovo"]
 ---
 # Plis Cap Felter
 
-*Plisi / Qeleshe · white felt cap*
+*Also known as: Plisi · Qeleshe · white felt cap*
 
 **Encyclopedia ID 1362** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1362-plis-cap-felter/
 

@@ -11,7 +11,7 @@ countries: ["South Africa"]
 ---
 # Zulu beadwork letters
 
-*Ubuhlalu / love letters*
+*Also known as: Ubuhlalu · love letters*
 
 **Encyclopedia ID 88** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/88-zulu-beadwork-letters/
 

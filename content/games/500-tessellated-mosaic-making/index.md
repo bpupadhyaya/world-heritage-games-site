@@ -11,7 +11,7 @@ countries: ["Italy", "Lebanon"]
 ---
 # Tessellated Mosaic Making
 
-*Opus tessellatum*
+*Also known as: Opus tessellatum*
 
 **Encyclopedia ID 500** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/500-tessellated-mosaic-making/
 

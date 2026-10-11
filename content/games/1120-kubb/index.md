@@ -11,8 +11,6 @@ countries: ["Sweden"]
 ---
 # Kubb
 
-*Kubb*
-
 **Encyclopedia ID 1120** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1120-kubb/
 
 Teams throw batons at wooden blocks across a pitch and finish by toppling the king.

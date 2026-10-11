@@ -11,7 +11,7 @@ countries: ["Australia"]
 ---
 # Axemen woodchop
 
-*Woodchopping · also spelled wood-chopping or wood chopping · standing block and underhand*
+*Also known as: Woodchopping · also spelled wood-chopping or wood chopping · standing block and underhand*
 
 **Encyclopedia ID 1232** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1232-axemen-woodchop/
 

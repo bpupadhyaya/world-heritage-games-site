@@ -11,7 +11,7 @@ countries: ["Kazakhstan"]
 ---
 # Kyz Kuu
 
-*Kyz kuu · Catch the Girl*
+*Also known as: Catch the Girl*
 
 **Encyclopedia ID 858** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/858-kyz-kuu/
 

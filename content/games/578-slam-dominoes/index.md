@@ -11,7 +11,7 @@ countries: ["Barbados"]
 ---
 # Slam dominoes
 
-*Dominoes*
+*Also known as: Dominoes*
 
 **Encyclopedia ID 578** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/578-slam-dominoes/
 

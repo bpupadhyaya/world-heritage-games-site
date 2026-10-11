@@ -11,7 +11,7 @@ countries: ["Palestine"]
 ---
 # Edrees
 
-*Edrees · nine-square line game*
+*Also known as: nine-square line game*
 
 **Encyclopedia ID 1008** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1008-edrees/
 

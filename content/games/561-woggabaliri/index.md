@@ -11,7 +11,7 @@ countries: ["Australia"]
 ---
 # Woggabaliri
 
-*Woggabaliri · keep-it-up ball*
+*Also known as: keep-it-up ball*
 
 **Encyclopedia ID 561** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/561-woggabaliri/
 

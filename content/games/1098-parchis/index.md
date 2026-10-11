@@ -11,7 +11,7 @@ countries: ["Spain"]
 ---
 # Parchís
 
-*Parchís · Ludo · Spanish Ludo*
+*Also known as: Ludo · Spanish Ludo*
 
 **Encyclopedia ID 1098** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1098-parchis/
 

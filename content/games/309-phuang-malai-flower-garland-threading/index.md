@@ -11,7 +11,7 @@ countries: ["Thailand"]
 ---
 # Phuang malai flower garland threading
 
-*พวงมาลัย*
+*Also known as: พวงมาลัย*
 
 **Encyclopedia ID 309** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/309-phuang-malai-flower-garland-threading/
 

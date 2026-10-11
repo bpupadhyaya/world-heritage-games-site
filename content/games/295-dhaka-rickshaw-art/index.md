@@ -11,7 +11,7 @@ countries: ["Bangladesh"]
 ---
 # Dhaka rickshaw art
 
-*রিকশা আর্ট*
+*Also known as: রিকশা আর্ট*
 
 **Encyclopedia ID 295** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/295-dhaka-rickshaw-art/
 

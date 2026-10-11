@@ -11,7 +11,7 @@ countries: ["Kazakhstan"]
 ---
 # Steppe eagle hunting
 
-*Бүркітші · berkutchi*
+*Also known as: Бүркітші · berkutchi*
 
 **Encyclopedia ID 254** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/254-steppe-eagle-hunting/
 

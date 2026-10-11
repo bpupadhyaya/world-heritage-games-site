@@ -11,7 +11,7 @@ countries: ["Liechtenstein"]
 ---
 # Stamp Designer and Perforator
 
-*Briefmarkengestaltung*
+*Also known as: Briefmarkengestaltung*
 
 **Encyclopedia ID 1470** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1470-stamp-designer-and-perforator/
 

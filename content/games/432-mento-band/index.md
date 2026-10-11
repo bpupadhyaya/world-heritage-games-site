@@ -11,7 +11,7 @@ countries: ["Jamaica"]
 ---
 # Mento band
 
-*Mento*
+*Also known as: Mento*
 
 **Encyclopedia ID 432** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/432-mento-band/
 

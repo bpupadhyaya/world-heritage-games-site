@@ -11,7 +11,7 @@ countries: []
 ---
 # Tarakasi silver filigree
 
-*ତାରକସି*
+*Also known as: ତାରକସି*
 
 **Encyclopedia ID 279** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/279-tarakasi-silver-filigree/
 

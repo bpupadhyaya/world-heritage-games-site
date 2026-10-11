@@ -11,7 +11,7 @@ countries: ["Kenya"]
 ---
 # Highland and river mancalas
 
-*Giuthi / Kiothi / Mbothe · Giuthi · Kiothi · Mbothe*
+*Also known as: Giuthi · Kiothi · Mbothe*
 
 **Encyclopedia ID 863** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/863-highland-and-river-mancalas/
 

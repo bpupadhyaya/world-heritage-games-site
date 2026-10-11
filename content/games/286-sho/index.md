@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Sho
 
-*ཤོ · Tibetan dice race*
+*Also known as: ཤོ · Tibetan dice race*
 
 **Encyclopedia ID 286** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/286-sho/
 

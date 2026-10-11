@@ -11,7 +11,7 @@ countries: ["Germany", "Liechtenstein"]
 ---
 # Nine Men's Morris
 
-*Mühle · Mill*
+*Also known as: Mühle · Mill*
 
 **Encyclopedia ID 740** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/740-nine-mens-morris/
 

@@ -11,7 +11,7 @@ countries: ["South Africa", "Botswana", "Lesotho"]
 ---
 # Diketo
 
-*Diketo · Magave · Upuca · Puca*
+*Also known as: Magave · Upuca · Puca*
 
 **Encyclopedia ID 1076** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1076-diketo/
 

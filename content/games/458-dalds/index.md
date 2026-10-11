@@ -11,8 +11,6 @@ countries: ["Denmark", "Norway"]
 ---
 # Daldøs
 
-*Daldøs*
-
 **Encyclopedia ID 458** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/458-dalds/
 
 ![Daldøs](../../../img/photos/00458-dalds.jpg)

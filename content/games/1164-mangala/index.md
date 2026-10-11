@@ -11,7 +11,7 @@ countries: ["Turkey"]
 ---
 # Mangala
 
-*Mangala · Mangola · Turkish mancala*
+*Also known as: Mangola · Turkish mancala*
 
 **Encyclopedia ID 1164** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1164-mangala/
 

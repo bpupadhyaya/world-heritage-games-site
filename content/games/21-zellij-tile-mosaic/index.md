@@ -11,7 +11,7 @@ countries: ["Morocco"]
 ---
 # Zellij tile mosaic
 
-*Zellij / Zellige (Arabic)*
+*Also known as: Zellij · Zellige (Arabic)*
 
 **Encyclopedia ID 21** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/21-zellij-tile-mosaic/
 

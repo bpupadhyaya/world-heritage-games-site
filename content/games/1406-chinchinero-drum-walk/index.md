@@ -11,7 +11,7 @@ countries: ["Chile"]
 ---
 # Chinchinero Drum Walk
 
-*Chinchinero*
+*Also known as: Chinchinero*
 
 **Encyclopedia ID 1406** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1406-chinchinero-drum-walk/
 

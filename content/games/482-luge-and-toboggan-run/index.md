@@ -11,7 +11,7 @@ countries: []
 ---
 # Luge and toboggan run
 
-*Rodel*
+*Also known as: Rodel*
 
 **Encyclopedia ID 482** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/482-luge-and-toboggan-run/
 

@@ -11,7 +11,7 @@ countries: ["Poland", "Germany", "Russia"]
 ---
 # Paper Soccer
 
-*Piłka nożna na kartce · Kropki / Fussball auf Papier*
+*Also known as: Piłka nożna na kartce · Kropki · Fussball auf Papier*
 
 **Encyclopedia ID 464** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/464-paper-soccer/
 

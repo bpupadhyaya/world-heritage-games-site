@@ -11,7 +11,7 @@ countries: ["Norway", "Sweden", "Denmark", "Iceland"]
 ---
 # Tafl
 
-*Hnefatafl / Tafl · Viking chess*
+*Also known as: Hnefatafl · Viking chess*
 
 **Encyclopedia ID 995** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/995-tafl/
 

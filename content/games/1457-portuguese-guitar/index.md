@@ -11,7 +11,7 @@ countries: ["Portugal"]
 ---
 # Portuguese Guitar
 
-*Guitarra Portuguesa*
+*Also known as: Guitarra Portuguesa*
 
 **Encyclopedia ID 1457** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1457-portuguese-guitar/
 

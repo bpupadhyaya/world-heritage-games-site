@@ -11,7 +11,7 @@ countries: ["Netherlands", "Belgium", "Taiwan"]
 ---
 # Korfball
 
-*Korfbal*
+*Also known as: Korfbal*
 
 **Encyclopedia ID 481** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/481-korfball/
 

@@ -11,7 +11,7 @@ countries: ["Kazakhstan"]
 ---
 # Kokpar
 
-*Kokpar · goat-carcass polo*
+*Also known as: goat-carcass polo*
 
 **Encyclopedia ID 857** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/857-kokpar/
 

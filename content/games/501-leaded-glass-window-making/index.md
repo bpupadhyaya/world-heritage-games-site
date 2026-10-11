@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Leaded Glass Window Making
 
-*Stained glass*
+*Also known as: Stained glass*
 
 **Encyclopedia ID 501** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/501-leaded-glass-window-making/
 

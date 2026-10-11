@@ -11,7 +11,7 @@ countries: ["Vanuatu"]
 ---
 # Sand drawing
 
-*Sandroing / tok-tok drawing · continuous line tracing*
+*Also known as: Sandroing · tok-tok drawing · continuous line tracing*
 
 **Encyclopedia ID 1395** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1395-sand-drawing/
 

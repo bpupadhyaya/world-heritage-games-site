@@ -11,7 +11,7 @@ countries: ["South Sudan"]
 ---
 # Ayit
 
-*Ayit · Dinka*
+*Also known as: Dinka*
 
 **Encyclopedia ID 1090** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1090-ayit/
 

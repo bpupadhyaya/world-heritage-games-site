@@ -11,7 +11,7 @@ countries: ["Mozambique"]
 ---
 # Capulana wrap cloth printing and tying
 
-*Capulana*
+*Also known as: Capulana*
 
 **Encyclopedia ID 204** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/204-capulana-wrap-cloth-printing-and-tying/
 

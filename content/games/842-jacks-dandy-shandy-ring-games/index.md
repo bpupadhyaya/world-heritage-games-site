@@ -11,7 +11,7 @@ countries: ["Jamaica"]
 ---
 # Jacks, Dandy Shandy, ring games
 
-*Jacks / Dandy Shandy / Ring games*
+*Also known as: Jacks · Dandy Shandy · Ring games*
 
 **Encyclopedia ID 842** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/842-jacks-dandy-shandy-ring-games/
 

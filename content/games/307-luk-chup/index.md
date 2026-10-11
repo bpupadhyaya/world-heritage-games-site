@@ -11,7 +11,7 @@ countries: ["Thailand"]
 ---
 # Luk chup
 
-*ลูกชุบ · painted mung-bean fruits*
+*Also known as: ลูกชุบ · painted mung-bean fruits*
 
 **Encyclopedia ID 307** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/307-luk-chup/
 

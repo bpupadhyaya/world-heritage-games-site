@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Liubo
 
-*六博 · Six Sticks*
+*Also known as: 六博 · Six Sticks*
 
 **Encyclopedia ID 331** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/331-liubo/
 

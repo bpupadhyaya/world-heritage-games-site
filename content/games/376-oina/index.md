@@ -11,8 +11,6 @@ countries: ["Romania"]
 ---
 # Oina
 
-*Oină*
-
 **Encyclopedia ID 376** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/376-oina/
 
 ![Oina](../../../img/photos/00376-oina.jpg)

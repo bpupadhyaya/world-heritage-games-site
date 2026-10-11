@@ -11,7 +11,7 @@ countries: ["Kyrgyzstan"]
 ---
 # Alchik
 
-*Alchik (Chuko)*
+*Also known as: Alchik (Chuko)*
 
 **Encyclopedia ID 868** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/868-alchik/
 

@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Jaipur blue pottery painting
 
-*blue pottery*
+*Also known as: blue pottery*
 
 **Encyclopedia ID 262** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/262-jaipur-blue-pottery-painting/
 

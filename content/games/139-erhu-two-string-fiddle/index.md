@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Erhu Two-String Fiddle
 
-*Erhu 二胡*
+*Also known as: Erhu 二胡*
 
 **Encyclopedia ID 139** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/139-erhu-two-string-fiddle/
 

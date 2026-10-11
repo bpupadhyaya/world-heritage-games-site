@@ -11,7 +11,7 @@ countries: ["United Kingdom"]
 ---
 # Cynghanedd Poetry Puzzle
 
-*Cynghanedd*
+*Also known as: Cynghanedd*
 
 **Encyclopedia ID 1448** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1448-cynghanedd-poetry-puzzle/
 

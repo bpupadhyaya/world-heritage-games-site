@@ -11,7 +11,7 @@ countries: ["Greece"]
 ---
 # Euclid's Ruler and Compass
 
-*Στοιχεῖα (Elements)*
+*Also known as: Στοιχεῖα (Elements)*
 
 **Encyclopedia ID 396** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/396-euclids-ruler-and-compass/
 

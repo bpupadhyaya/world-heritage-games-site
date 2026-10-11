@@ -11,7 +11,7 @@ countries: ["United Kingdom", "Ireland"]
 ---
 # Tartan Sett Weaving
 
-*Breacan / tartan*
+*Also known as: Breacan · tartan*
 
 **Encyclopedia ID 505** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/505-tartan-sett-weaving/
 

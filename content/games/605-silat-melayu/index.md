@@ -11,7 +11,7 @@ countries: ["Brunei"]
 ---
 # Silat Melayu
 
-*Silat*
+*Also known as: Silat*
 
 **Encyclopedia ID 605** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/605-silat-melayu/
 

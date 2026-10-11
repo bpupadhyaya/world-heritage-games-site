@@ -11,7 +11,7 @@ countries: ["Croatia"]
 ---
 # Licitar Heart Decorator
 
-*Licitarsko srce*
+*Also known as: Licitarsko srce*
 
 **Encyclopedia ID 1326** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1326-licitar-heart-decorator/
 

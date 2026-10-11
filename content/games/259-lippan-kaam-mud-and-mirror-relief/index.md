@@ -11,7 +11,7 @@ countries: ["India", "Pakistan"]
 ---
 # Lippan kaam mud-and-mirror relief
 
-*lippan kaam*
+*Also known as: lippan kaam*
 
 **Encyclopedia ID 259** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/259-lippan-kaam-mud-and-mirror-relief/
 

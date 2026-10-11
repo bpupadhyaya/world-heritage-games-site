@@ -11,7 +11,7 @@ countries: ["Cape Verde"]
 ---
 # Batuque Cloth-Drum Circle
 
-*Batuque (Santiago, Cabo Verde)*
+*Also known as: Batuque (Santiago, Cabo Verde)*
 
 **Encyclopedia ID 1251** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1251-batuque-cloth-drum-circle/
 

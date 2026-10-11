@@ -11,7 +11,7 @@ countries: ["Tonga"]
 ---
 # Kasivaki
 
-*Kasivaki · underwater rugby*
+*Also known as: underwater rugby*
 
 **Encyclopedia ID 1148** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1148-kasivaki/
 

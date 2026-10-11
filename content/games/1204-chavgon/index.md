@@ -11,7 +11,7 @@ countries: ["Uzbekistan"]
 ---
 # Chavgon
 
-*Chavgon · horse-mounted stick and ball*
+*Also known as: horse-mounted stick and ball*
 
 **Encyclopedia ID 1204** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1204-chavgon/
 

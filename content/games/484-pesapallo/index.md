@@ -11,7 +11,7 @@ countries: ["Finland"]
 ---
 # Pesapallo
 
-*Pesäpallo · Finnish baseball*
+*Also known as: Finnish baseball*
 
 **Encyclopedia ID 484** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/484-pesapallo/
 

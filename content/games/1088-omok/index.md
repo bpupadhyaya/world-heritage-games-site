@@ -11,7 +11,7 @@ countries: ["South Korea"]
 ---
 # Omok
 
-*오목 Omok · Gomoku*
+*Also known as: Gomoku*
 
 **Encyclopedia ID 1088** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1088-omok/
 

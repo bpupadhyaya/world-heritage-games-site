@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Hong Kong Milk Tea Pulling
 
-*港式奶茶 (絲襪奶茶)*
+*Also known as: 港式奶茶 (絲襪奶茶)*
 
 **Encyclopedia ID 1463** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1463-hong-kong-milk-tea-pulling/
 

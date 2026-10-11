@@ -11,7 +11,7 @@ countries: ["United Kingdom", "Ireland", "France"]
 ---
 # Croquet
 
-*Jeu de mail / croquet*
+*Also known as: Jeu de mail*
 
 **Encyclopedia ID 81** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/81-croquet/
 

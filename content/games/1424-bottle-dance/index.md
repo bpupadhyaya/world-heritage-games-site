@@ -11,7 +11,7 @@ countries: ["Paraguay", "Spain"]
 ---
 # Bottle Dance
 
-*Danza de la botella · Danza de la Botella*
+*Also known as: Danza de la botella*
 
 **Encyclopedia ID 1424** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1424-bottle-dance/
 

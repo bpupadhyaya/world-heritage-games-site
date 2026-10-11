@@ -11,7 +11,7 @@ countries: ["Nigeria"]
 ---
 # Ten Ten
 
-*Ten Ten (Ten-Ten) · Leg lift*
+*Also known as: Ten Ten (Ten-Ten) · Leg lift*
 
 **Encyclopedia ID 988** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/988-ten-ten/
 

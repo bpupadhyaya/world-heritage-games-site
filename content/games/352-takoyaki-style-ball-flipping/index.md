@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Takoyaki-style ball flipping
 
-*たこ焼き · street stall*
+*Also known as: たこ焼き · street stall*
 
 **Encyclopedia ID 352** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/352-takoyaki-style-ball-flipping/
 

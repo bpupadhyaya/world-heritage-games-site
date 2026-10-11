@@ -11,7 +11,7 @@ countries: ["Djibouti", "Somalia"]
 ---
 # Layli Goobalay
 
-*Layli Goobalay · Closing the holes*
+*Also known as: Closing the holes*
 
 **Encyclopedia ID 675** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/675-layli-goobalay/
 

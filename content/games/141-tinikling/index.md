@@ -11,7 +11,7 @@ countries: ["Philippines"]
 ---
 # Tinikling
 
-*Tinikling · bamboo pole hop*
+*Also known as: bamboo pole hop*
 
 **Encyclopedia ID 141** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/141-tinikling/
 

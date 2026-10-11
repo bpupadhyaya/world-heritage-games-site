@@ -11,7 +11,7 @@ countries: ["Belgium"]
 ---
 # Balle pelote
 
-*Balle pelote · Jeu de balle*
+*Also known as: Jeu de balle*
 
 **Encyclopedia ID 580** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/580-balle-pelote/
 

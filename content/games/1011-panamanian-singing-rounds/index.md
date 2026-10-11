@@ -11,7 +11,7 @@ countries: ["Panama"]
 ---
 # Panamanian singing rounds
 
-*Rondas*
+*Also known as: Rondas*
 
 **Encyclopedia ID 1011** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1011-panamanian-singing-rounds/
 

@@ -11,7 +11,7 @@ countries: ["Laos"]
 ---
 # Pebbles
 
-*Mak Kep / Kator*
+*Also known as: Mak Kep · Kator*
 
 **Encyclopedia ID 874** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/874-pebbles/
 

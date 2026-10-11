@@ -11,7 +11,7 @@ countries: ["Barbados", "El Salvador"]
 ---
 # Kites
 
-*Kite flying*
+*Also known as: Kite flying*
 
 **Encyclopedia ID 577** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/577-kites/
 

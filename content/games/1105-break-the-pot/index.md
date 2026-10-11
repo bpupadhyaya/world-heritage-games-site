@@ -11,7 +11,7 @@ countries: ["Sri Lanka"]
 ---
 # Break the pot
 
-*Kana Mutti Bindima*
+*Also known as: Kana Mutti Bindima*
 
 **Encyclopedia ID 1105** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1105-break-the-pot/
 

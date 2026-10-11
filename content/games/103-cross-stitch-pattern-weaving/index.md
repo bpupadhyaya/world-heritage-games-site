@@ -11,7 +11,7 @@ countries: ["Ukraine"]
 ---
 # Cross-Stitch Pattern Weaving
 
-*Вишивка (vyshyvka)*
+*Also known as: Вишивка (vyshyvka)*
 
 **Encyclopedia ID 103** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/103-cross-stitch-pattern-weaving/
 

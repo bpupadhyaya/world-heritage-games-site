@@ -11,7 +11,7 @@ countries: ["Malaysia"]
 ---
 # Gasing uri
 
-*gasing uri · giant spinning top*
+*Also known as: giant spinning top*
 
 **Encyclopedia ID 1289** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1289-gasing-uri/
 

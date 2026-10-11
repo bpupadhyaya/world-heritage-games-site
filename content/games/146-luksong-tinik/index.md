@@ -11,7 +11,7 @@ countries: ["Philippines"]
 ---
 # Luksong tinik
 
-*Luksong tinik · jump the thorns*
+*Also known as: jump the thorns*
 
 **Encyclopedia ID 146** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/146-luksong-tinik/
 

@@ -11,7 +11,7 @@ countries: ["Eritrea"]
 ---
 # Abalala'e
 
-*Abalala'e / Gebeta · Gebeta · Gabata · Abalala'e · Eritrean highland mancala*
+*Also known as: Gebeta · Gabata · Eritrean highland mancala*
 
 **Encyclopedia ID 699** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/699-abalalae/
 

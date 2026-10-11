@@ -11,7 +11,7 @@ countries: ["Armenia", "Azerbaijan", "India", "Afghanistan"]
 ---
 # Chess
 
-*Shakhmat*
+*Also known as: Shakhmat*
 
 **Encyclopedia ID 552** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/552-chess/
 

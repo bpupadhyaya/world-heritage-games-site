@@ -11,7 +11,7 @@ countries: ["Ghana"]
 ---
 # Asafo Flag Appliqué
 
-*Asafo flags*
+*Also known as: Asafo flags*
 
 **Encyclopedia ID 1230** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1230-asafo-flag-applique/
 

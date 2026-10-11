@@ -11,7 +11,7 @@ countries: ["Turkey"]
 ---
 # Steel-and-stick
 
-*Çelik çomak · tipcat*
+*Also known as: Çelik çomak · tipcat*
 
 **Encyclopedia ID 1162** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1162-steel-and-stick/
 

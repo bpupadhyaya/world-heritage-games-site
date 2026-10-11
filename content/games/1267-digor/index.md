@@ -11,7 +11,7 @@ countries: ["Bhutan"]
 ---
 # Digor
 
-*དྲིག་གོར། · Bhutanese stone throw*
+*Also known as: དྲིག་གོར། · Bhutanese stone throw*
 
 **Encyclopedia ID 1267** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1267-digor/
 

@@ -11,7 +11,7 @@ countries: ["Iraq", "Syria", "Lebanon", "Jordan", "Palestine", "Egypt"]
 ---
 # Tarneeb
 
-*Tarneeb · Tarnib*
+*Also known as: Tarnib*
 
 **Encyclopedia ID 816** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/816-tarneeb/
 

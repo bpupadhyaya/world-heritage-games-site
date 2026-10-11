@@ -11,7 +11,7 @@ countries: ["Nigeria", "Niger"]
 ---
 # Dara
 
-*Dara / Dili / Doki · Dili (Dara) · Doki*
+*Also known as: Dili · Doki · Dili (Dara)*
 
 **Encyclopedia ID 452** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/452-dara/
 

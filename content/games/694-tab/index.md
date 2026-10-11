@@ -11,7 +11,7 @@ countries: ["Egypt"]
 ---
 # Tab
 
-*Tab · Tab wa Sidr · stick-dice race*
+*Also known as: Tab wa Sidr · stick-dice race*
 
 **Encyclopedia ID 694** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/694-tab/
 

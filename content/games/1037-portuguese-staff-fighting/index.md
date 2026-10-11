@@ -11,7 +11,7 @@ countries: ["Portugal"]
 ---
 # Portuguese staff fighting
 
-*Jogo do Pau*
+*Also known as: Jogo do Pau*
 
 **Encyclopedia ID 1037** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1037-portuguese-staff-fighting/
 

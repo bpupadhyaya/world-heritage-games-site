@@ -11,7 +11,7 @@ countries: ["Palestine"]
 ---
 # Zarzir
 
-*Zarzir · knucklebones*
+*Also known as: knucklebones*
 
 **Encyclopedia ID 1010** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1010-zarzir/
 

@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Kokeshi doll painting
 
-*こけし*
+*Also known as: こけし*
 
 **Encyclopedia ID 355** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/355-kokeshi-doll-painting/
 

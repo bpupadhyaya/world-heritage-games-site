@@ -11,7 +11,7 @@ countries: ["Guatemala"]
 ---
 # Guatemalan Lotería
 
-*Lotería*
+*Also known as: Lotería*
 
 **Encyclopedia ID 758** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/758-guatemalan-loteria/
 

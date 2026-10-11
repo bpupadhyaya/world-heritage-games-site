@@ -11,7 +11,7 @@ countries: ["Turkey"]
 ---
 # Turkish coffee in the cezve
 
-*Türk kahvesi*
+*Also known as: Türk kahvesi*
 
 **Encyclopedia ID 251** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/251-turkish-coffee-in-the-cezve/
 

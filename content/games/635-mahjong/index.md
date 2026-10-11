@@ -11,7 +11,7 @@ countries: ["China", "Singapore"]
 ---
 # Mahjong
 
-*麻将 Májiàng (Guobiao, Sichuan, Guangdong) · Mah-jong · mainland rulesets*
+*Also known as: 麻将 Májiàng (Guobiao, Sichuan, Guangdong) · Mah-jong · mainland rulesets*
 
 **Encyclopedia ID 635** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/635-mahjong/
 

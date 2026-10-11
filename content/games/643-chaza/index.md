@@ -11,8 +11,6 @@ countries: ["Colombia"]
 ---
 # Chaza
 
-*Chaza*
-
 **Encyclopedia ID 643** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/643-chaza/
 
 Old Colombian ball-and-board striking game said to be among the country's oldest sports.

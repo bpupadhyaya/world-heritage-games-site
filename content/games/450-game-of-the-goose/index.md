@@ -11,7 +11,7 @@ countries: ["Italy", "Spain", "France"]
 ---
 # Game of the Goose
 
-*Gioco dell'Oca / Juego de la Oca / Jeu de l'Oie*
+*Also known as: Gioco dell'Oca · Juego de la Oca · Jeu de l'Oie*
 
 **Encyclopedia ID 450** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/450-game-of-the-goose/
 

@@ -11,7 +11,7 @@ countries: ["Jordan"]
 ---
 # Jordanian Sand Bottle Art
 
-*sand bottles / رمل ملون*
+*Also known as: sand bottles · رمل ملون*
 
 **Encyclopedia ID 219** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/219-jordanian-sand-bottle-art/
 

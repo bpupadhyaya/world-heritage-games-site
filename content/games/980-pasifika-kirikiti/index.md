@@ -11,7 +11,7 @@ countries: ["New Zealand"]
 ---
 # Pasifika kirikiti
 
-*Kirikiti · diaspora*
+*Also known as: Kirikiti · diaspora*
 
 **Encyclopedia ID 980** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/980-pasifika-kirikiti/
 

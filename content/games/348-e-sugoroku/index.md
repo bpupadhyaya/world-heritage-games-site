@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # E-sugoroku
 
-*絵双六 / 道中双六 · Picture sugoroku · Sugoroku · Tokaido travel board*
+*Also known as: 絵双六 · Picture sugoroku · Sugoroku · Tokaido travel board*
 
 **Encyclopedia ID 348** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/348-e-sugoroku/
 

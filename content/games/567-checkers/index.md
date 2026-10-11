@@ -11,7 +11,7 @@ countries: ["Bahamas", "United States"]
 ---
 # Checkers
 
-*Draughts / Checkers · pool checkers*
+*Also known as: Draughts · pool checkers*
 
 **Encyclopedia ID 567** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/567-checkers/
 

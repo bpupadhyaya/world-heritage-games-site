@@ -11,7 +11,7 @@ countries: ["Turkey", "Turkmenistan", "Ethiopia", "Eritrea", "Iraq", "Syria", "L
 ---
 # Turkish Dama
 
-*Dama · Turkish draughts · Türk daması · Dama (draughts) · Dama / Dama oyunu*
+*Also known as: Dama · Turkish draughts · Türk daması · Dama (draughts) · Dama oyunu*
 
 **Encyclopedia ID 155** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/155-turkish-dama/
 

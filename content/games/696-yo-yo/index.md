@@ -11,7 +11,7 @@ countries: ["El Salvador", "Nicaragua"]
 ---
 # Yo-yo
 
-*Yoyo*
+*Also known as: Yoyo*
 
 **Encyclopedia ID 696** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/696-yo-yo/
 

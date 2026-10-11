@@ -11,7 +11,7 @@ countries: ["Netherlands"]
 ---
 # Kolf
 
-*Kolf · Dutch club-and-ball*
+*Also known as: Dutch club-and-ball*
 
 **Encyclopedia ID 491** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/491-kolf/
 

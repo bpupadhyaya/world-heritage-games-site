@@ -11,7 +11,7 @@ countries: ["Laos"]
 ---
 # Lao silk brocade weaving
 
-*ຜ້າຊິ່ນ · sinh*
+*Also known as: ຜ້າຊິ່ນ · sinh*
 
 **Encyclopedia ID 311** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/311-lao-silk-brocade-weaving/
 

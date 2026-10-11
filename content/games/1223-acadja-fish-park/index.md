@@ -11,7 +11,7 @@ countries: ["Benin"]
 ---
 # Acadja Fish Park
 
-*Acadja · Lake Nokoué*
+*Also known as: Acadja · Lake Nokoué*
 
 **Encyclopedia ID 1223** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1223-acadja-fish-park/
 

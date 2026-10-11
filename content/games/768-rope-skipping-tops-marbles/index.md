@@ -11,7 +11,7 @@ countries: ["Haiti"]
 ---
 # Rope skipping, tops, marbles
 
-*Sote kòd / Ralba / Teke mab*
+*Also known as: Sote kòd · Ralba · Teke mab*
 
 **Encyclopedia ID 768** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/768-rope-skipping-tops-marbles/
 

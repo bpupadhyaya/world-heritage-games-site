@@ -11,7 +11,7 @@ countries: ["Italy"]
 ---
 # Launeddas Triple Pipe
 
-*Launeddas*
+*Also known as: Launeddas*
 
 **Encyclopedia ID 400** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/400-launeddas-triple-pipe/
 

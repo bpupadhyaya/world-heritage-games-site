@@ -11,7 +11,7 @@ countries: ["Nigeria"]
 ---
 # Talking drum
 
-*Dùndún / Tama / Kalangu*
+*Also known as: Dùndún · Tama · Kalangu*
 
 **Encyclopedia ID 33** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/33-talking-drum/
 

@@ -11,7 +11,7 @@ countries: ["Turkey"]
 ---
 # Saz / Bağlama
 
-*Bağlama · Turkish long-neck lute*
+*Also known as: Bağlama · Turkish long-neck lute*
 
 **Encyclopedia ID 243** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/243-saz-baglama/
 

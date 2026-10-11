@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Kashmiri papier-mache painting
 
-*kari-qalamkar*
+*Also known as: kari-qalamkar*
 
 **Encyclopedia ID 269** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/269-kashmiri-papier-mache-painting/
 

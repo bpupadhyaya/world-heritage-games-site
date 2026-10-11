@@ -11,7 +11,7 @@ countries: ["Kazakhstan"]
 ---
 # Rope pulling
 
-*Arkan tartys · Tug of war · also known as tug o' war · tug-a-war · tug war*
+*Also known as: Arkan tartys · Tug of war · also known as tug o' war · tug-a-war · tug war · rope war*
 
 **Encyclopedia ID 855** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/855-rope-pulling/
 

@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Hanabi
 
-*花火 · firework shell design*
+*Also known as: 花火 · firework shell design*
 
 **Encyclopedia ID 354** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/354-hanabi/
 

@@ -11,7 +11,7 @@ countries: ["Nigeria", "Niger"]
 ---
 # Goje One-String Fiddle
 
-*Goge / goje*
+*Also known as: Goge · goje*
 
 **Encyclopedia ID 176** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/176-goje-one-string-fiddle/
 

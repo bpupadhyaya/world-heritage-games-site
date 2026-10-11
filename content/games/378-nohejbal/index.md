@@ -11,7 +11,7 @@ countries: ["Czechia"]
 ---
 # Nohejbal
 
-*Nohejbal · foot volleyball*
+*Also known as: foot volleyball*
 
 **Encyclopedia ID 378** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/378-nohejbal/
 

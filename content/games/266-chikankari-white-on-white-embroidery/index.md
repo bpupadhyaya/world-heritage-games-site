@@ -11,7 +11,7 @@ countries: []
 ---
 # Chikankari white-on-white embroidery
 
-*chikankari*
+*Also known as: chikankari*
 
 **Encyclopedia ID 266** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/266-chikankari-white-on-white-embroidery/
 

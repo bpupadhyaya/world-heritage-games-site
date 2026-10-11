@@ -11,7 +11,7 @@ countries: ["Saint Vincent and the Grenadines", "Grenada"]
 ---
 # Street
 
-*Marbles / Hopscotch*
+*Also known as: Marbles · Hopscotch*
 
 **Encyclopedia ID 1052** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1052-street/
 

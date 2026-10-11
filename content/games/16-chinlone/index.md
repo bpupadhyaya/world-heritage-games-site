@@ -11,7 +11,7 @@ countries: ["Myanmar"]
 ---
 # Chinlone
 
-*ချင်းလုံး · Caneball · cane-ball circle dance*
+*Also known as: ချင်းလုံး · Caneball · cane-ball circle dance*
 
 **Encyclopedia ID 16** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/16-chinlone/
 

@@ -11,7 +11,7 @@ countries: ["Tanzania"]
 ---
 # Tingatinga painting
 
-*Tingatinga*
+*Also known as: Tingatinga*
 
 **Encyclopedia ID 183** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/183-tingatinga-painting/
 

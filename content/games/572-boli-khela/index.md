@@ -11,8 +11,6 @@ countries: ["Bangladesh"]
 ---
 # Boli Khela
 
-*Boli Khela*
-
 **Encyclopedia ID 572** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/572-boli-khela/
 
 Traditional wrestling especially of Chittagong.

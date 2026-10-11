@@ -11,7 +11,7 @@ countries: ["Nigeria", "Niger"]
 ---
 # Kokawa Hausa Wrestling
 
-*Kokawa / Ƙauraye*
+*Also known as: Kokawa · Ƙauraye*
 
 **Encyclopedia ID 1316** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1316-kokawa-hausa-wrestling/
 

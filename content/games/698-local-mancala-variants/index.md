@@ -11,7 +11,7 @@ countries: ["Equatorial Guinea"]
 ---
 # Local mancala variants
 
-*Other mancala (Bubi/Annobon unknown)*
+*Also known as: Other mancala (Bubi · Annobon unknown)*
 
 **Encyclopedia ID 698** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/698-local-mancala-variants/
 

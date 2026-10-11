@@ -11,8 +11,6 @@ countries: ["Trinidad and Tobago"]
 ---
 # Limbo
 
-*Limbo*
-
 **Encyclopedia ID 58** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/58-limbo/
 
 ![Limbo](../../../img/photos/00058-limbo.jpg)

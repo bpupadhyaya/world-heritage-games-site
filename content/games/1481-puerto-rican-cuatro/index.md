@@ -11,7 +11,7 @@ countries: []
 ---
 # Puerto Rican Cuatro
 
-*Cuatro*
+*Also known as: Cuatro*
 
 **Encyclopedia ID 1481** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1481-puerto-rican-cuatro/
 

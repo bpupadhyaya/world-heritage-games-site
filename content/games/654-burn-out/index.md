@@ -11,7 +11,7 @@ countries: ["Cuba"]
 ---
 # Burn-out
 
-*El Quemado · dodgeball*
+*Also known as: El Quemado · dodgeball*
 
 **Encyclopedia ID 654** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/654-burn-out/
 

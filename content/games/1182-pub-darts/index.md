@@ -11,7 +11,7 @@ countries: ["United Kingdom"]
 ---
 # Pub darts
 
-*Darts · 501*
+*Also known as: Darts · 501*
 
 **Encyclopedia ID 1182** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1182-pub-darts/
 

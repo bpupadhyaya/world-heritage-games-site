@@ -11,7 +11,7 @@ countries: ["Cameroon"]
 ---
 # Abbia
 
-*Abbia · Beti token game*
+*Also known as: Beti token game*
 
 **Encyclopedia ID 618** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/618-abbia/
 

@@ -11,7 +11,7 @@ countries: ["United Kingdom", "France", "South Korea"]
 ---
 # Grandmother's Footsteps
 
-*What's the Time Mr Wolf, Estatua, Mugunghwa, Un Deux Trois Soleil · Red Light, Green Light*
+*Also known as: What's the Time Mr Wolf, Estatua, Mugunghwa, Un Deux Trois Soleil · Red Light, Green Light*
 
 **Encyclopedia ID 469** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/469-grandmothers-footsteps/
 

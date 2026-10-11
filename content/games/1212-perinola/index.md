@@ -11,7 +11,7 @@ countries: ["Venezuela"]
 ---
 # Perinola
 
-*Perinola · cup-and-ball*
+*Also known as: cup-and-ball*
 
 **Encyclopedia ID 1212** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1212-perinola/
 

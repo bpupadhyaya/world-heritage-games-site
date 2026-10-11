@@ -11,7 +11,7 @@ countries: ["Turkmenistan"]
 ---
 # Turkmen Akhal-Teke equestrian games
 
-*Atly oyunlary*
+*Also known as: Atly oyunlary*
 
 **Encyclopedia ID 1170** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1170-turkmen-akhal-teke-equestrian-games/
 

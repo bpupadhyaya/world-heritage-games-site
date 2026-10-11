@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Amidakuji
 
-*あみだくじ · ghost-leg lottery*
+*Also known as: あみだくじ · ghost-leg lottery*
 
 **Encyclopedia ID 357** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/357-amidakuji/
 

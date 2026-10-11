@@ -11,7 +11,7 @@ countries: ["Cuba"]
 ---
 # Stickball
 
-*Stickball · Street Stickball / Stoopball*
+*Also known as: Street Stickball · Stoopball*
 
 **Encyclopedia ID 477** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/477-stickball/
 

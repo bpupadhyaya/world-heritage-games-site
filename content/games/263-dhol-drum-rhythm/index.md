@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Dhol drum rhythm
 
-*dhol*
+*Also known as: dhol*
 
 **Encyclopedia ID 263** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/263-dhol-drum-rhythm/
 

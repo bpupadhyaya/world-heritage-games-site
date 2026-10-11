@@ -11,7 +11,7 @@ countries: ["China", "Japan", "Taiwan"]
 ---
 # Go
 
-*围棋 Wéiqí · Baduk · Igo · Weiqi*
+*Also known as: 围棋 Wéiqí · Baduk · Igo*
 
 **Encyclopedia ID 634** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/634-go/
 

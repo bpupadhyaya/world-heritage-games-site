@@ -11,7 +11,7 @@ countries: ["Kyrgyzstan"]
 ---
 # Besh Tash
 
-*Besh-tash · five stones*
+*Also known as: Besh-tash · five stones*
 
 **Encyclopedia ID 869** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/869-besh-tash/
 

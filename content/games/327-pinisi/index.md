@@ -11,7 +11,7 @@ countries: ["Indonesia"]
 ---
 # Pinisi
 
-*Pinisi · Bugis trading schooner*
+*Also known as: Bugis trading schooner*
 
 **Encyclopedia ID 327** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/327-pinisi/
 

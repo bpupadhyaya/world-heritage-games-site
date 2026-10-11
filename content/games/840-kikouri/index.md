@@ -11,7 +11,7 @@ countries: ["Cote d'Ivoire"]
 ---
 # Kikouri
 
-*Kikouri · stick strategy game*
+*Also known as: stick strategy game*
 
 **Encyclopedia ID 840** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/840-kikouri/
 

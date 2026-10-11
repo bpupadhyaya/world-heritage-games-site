@@ -11,7 +11,7 @@ countries: ["United Kingdom", "Spain"]
 ---
 # Ribbon Pole Weave
 
-*Maypole dance / Lintdans*
+*Also known as: Maypole dance · Lintdans*
 
 **Encyclopedia ID 419** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/419-ribbon-pole-weave/
 

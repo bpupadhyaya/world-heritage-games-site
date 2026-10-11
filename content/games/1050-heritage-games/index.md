@@ -11,7 +11,7 @@ countries: ["Saint Lucia"]
 ---
 # Heritage games
 
-*Kwéyòl folk games*
+*Also known as: Kwéyòl folk games*
 
 **Encyclopedia ID 1050** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1050-heritage-games/
 

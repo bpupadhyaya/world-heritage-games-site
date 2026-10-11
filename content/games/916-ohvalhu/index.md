@@ -11,7 +11,7 @@ countries: ["Maldives"]
 ---
 # Ohvalhu
 
-*Ohvalhu Gondi · Oh’valhu-gondi*
+*Also known as: Ohvalhu Gondi · Oh’valhu-gondi*
 
 **Encyclopedia ID 916** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/916-ohvalhu/
 

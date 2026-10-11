@@ -11,7 +11,7 @@ countries: ["Monaco"]
 ---
 # Harbour Street Circuit Time Trial
 
-*Circuit de la rade (generic)*
+*Also known as: Circuit de la rade (generic)*
 
 **Encyclopedia ID 1475** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1475-harbour-street-circuit-time-trial/
 

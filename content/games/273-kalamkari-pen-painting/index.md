@@ -11,7 +11,7 @@ countries: []
 ---
 # Kalamkari pen painting
 
-*కలంకారి*
+*Also known as: కలంకారి*
 
 **Encyclopedia ID 273** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/273-kalamkari-pen-painting/
 

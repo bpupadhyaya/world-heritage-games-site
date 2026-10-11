@@ -11,7 +11,7 @@ countries: ["Egypt"]
 ---
 # Nile Felucca Sailing
 
-*felucca*
+*Also known as: felucca*
 
 **Encyclopedia ID 216** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/216-nile-felucca-sailing/
 

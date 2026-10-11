@@ -11,7 +11,7 @@ countries: ["Kenya"]
 ---
 # Blada
 
-*Blada · elastic band jump*
+*Also known as: elastic band jump*
 
 **Encyclopedia ID 862** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/862-blada/
 

@@ -11,7 +11,7 @@ countries: ["Rwanda"]
 ---
 # Imigongo geometric painting
 
-*Imigongo*
+*Also known as: Imigongo*
 
 **Encyclopedia ID 182** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/182-imigongo-geometric-painting/
 

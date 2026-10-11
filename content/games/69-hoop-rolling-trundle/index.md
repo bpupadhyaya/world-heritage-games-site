@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Hoop Rolling Trundle
 
-*Hoop trundling / hoopen*
+*Also known as: Hoop trundling · hoopen*
 
 **Encyclopedia ID 69** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/69-hoop-rolling-trundle/
 

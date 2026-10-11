@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Santoor
 
-*سنتور · hammered dulcimer*
+*Also known as: سنتور · hammered dulcimer*
 
 **Encyclopedia ID 151** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/151-santoor/
 

@@ -11,7 +11,7 @@ countries: ["Central African Republic"]
 ---
 # Mancala-type sowing games
 
-*Mancala (local names not identified)*
+*Also known as: Mancala (local names not identified)*
 
 **Encyclopedia ID 626** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/626-mancala-type-sowing-games/
 

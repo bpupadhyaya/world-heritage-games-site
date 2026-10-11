@@ -11,7 +11,7 @@ countries: ["Kyrgyzstan"]
 ---
 # White Cloth
 
-*Ak-cholmok*
+*Also known as: Ak-cholmok*
 
 **Encyclopedia ID 867** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/867-white-cloth/
 

@@ -11,7 +11,7 @@ countries: ["Nicaragua"]
 ---
 # Masaya Hammock Weaving
 
-*Hamaca de Masaya*
+*Also known as: Hamaca de Masaya*
 
 **Encyclopedia ID 1473** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1473-masaya-hammock-weaving/
 

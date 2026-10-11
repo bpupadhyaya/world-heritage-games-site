@@ -11,8 +11,6 @@ countries: ["Nigeria"]
 ---
 # Abula
 
-*Abula*
-
 **Encyclopedia ID 985** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/985-abula/
 
 A team bat-and-ball street game.

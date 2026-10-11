@@ -11,7 +11,7 @@ countries: ["Ireland"]
 ---
 # Hurling
 
-*Iomáint / Hurling · Camogie*
+*Also known as: Iomáint · Camogie*
 
 **Encyclopedia ID 821** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/821-hurling/
 

@@ -11,7 +11,7 @@ countries: ["United Kingdom"]
 ---
 # Cheese Rolling Hill
 
-*Cheese rolling*
+*Also known as: Cheese rolling*
 
 **Encyclopedia ID 70** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/70-cheese-rolling-hill/
 

@@ -11,7 +11,7 @@ countries: ["Argentina", "Uruguay", "Paraguay"]
 ---
 # Generala
 
-*Generala · five-dice cup game*
+*Also known as: five-dice cup game*
 
 **Encyclopedia ID 422** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/422-generala/
 

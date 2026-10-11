@@ -11,7 +11,7 @@ countries: ["Switzerland"]
 ---
 # Swiss wrestling
 
-*Schwingen*
+*Also known as: Schwingen*
 
 **Encyclopedia ID 487** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/487-swiss-wrestling/
 

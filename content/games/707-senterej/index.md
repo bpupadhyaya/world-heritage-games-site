@@ -11,7 +11,7 @@ countries: ["Ethiopia", "Eritrea"]
 ---
 # Senterej
 
-*Senterej · Sant'raj · Shatranj-like · Ethiopian chess*
+*Also known as: Sant'raj · Shatranj-like · Ethiopian chess*
 
 **Encyclopedia ID 707** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/707-senterej/
 

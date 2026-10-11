@@ -11,7 +11,7 @@ countries: ["Thailand"]
 ---
 # Floating market trader
 
-*ตลาดน้ำ*
+*Also known as: ตลาดน้ำ*
 
 **Encyclopedia ID 315** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/315-floating-market-trader/
 

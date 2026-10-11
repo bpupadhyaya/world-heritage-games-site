@@ -11,7 +11,7 @@ countries: ["Guatemala", "Mexico"]
 ---
 # Mesoamerican ballgame
 
-*Ulama · Ulama (Mesoamerican ballgame, modern)*
+*Also known as: Ulama · Ulama (Mesoamerican ballgame, modern)*
 
 **Encyclopedia ID 759** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/759-mesoamerican-ballgame/
 

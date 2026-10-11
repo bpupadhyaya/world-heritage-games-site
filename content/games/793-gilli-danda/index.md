@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Gilli-Danda
 
-*Gilli-Danda · Gulli Danda*
+*Also known as: Gulli Danda*
 
 **Encyclopedia ID 793** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/793-gilli-danda/
 

@@ -11,7 +11,7 @@ countries: ["Madagascar"]
 ---
 # Valiha tube zither
 
-*Valiha*
+*Also known as: Valiha*
 
 **Encyclopedia ID 124** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/124-valiha-tube-zither/
 

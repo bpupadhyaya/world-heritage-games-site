@@ -11,8 +11,6 @@ countries: ["Laos"]
 ---
 # Tikhi
 
-*Tikhi*
-
 **Encyclopedia ID 876** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/876-tikhi/
 
 A hockey-like stick game played between villagers and civil servants at the That Luang festival.

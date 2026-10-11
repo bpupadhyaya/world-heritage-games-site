@@ -11,7 +11,7 @@ countries: ["Haiti"]
 ---
 # Haitian dominoes
 
-*Domino · Dominos · Dekabès*
+*Also known as: Domino · Dominos · Dekabès*
 
 **Encyclopedia ID 765** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/765-haitian-dominoes/
 

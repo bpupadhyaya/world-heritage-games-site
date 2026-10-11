@@ -11,7 +11,7 @@ countries: []
 ---
 # Botswana coil basket weaving
 
-*Gumare / Etsha baskets (ikalanga, Hambukushu coil style)*
+*Also known as: Gumare · Etsha baskets (ikalanga, Hambukushu coil style)*
 
 **Encyclopedia ID 208** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/208-botswana-coil-basket-weaving/
 

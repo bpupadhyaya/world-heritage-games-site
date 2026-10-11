@@ -11,7 +11,7 @@ countries: ["Pakistan"]
 ---
 # Pitthu Garam
 
-*Pitthu Garam · Seven Tiles*
+*Also known as: Seven Tiles*
 
 **Encyclopedia ID 1004** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1004-pitthu-garam/
 

@@ -11,7 +11,7 @@ countries: ["Iran"]
 ---
 # Chogan
 
-*Chogan · Chovgan · Persian polo*
+*Also known as: Chovgan · Persian polo*
 
 **Encyclopedia ID 810** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/810-chogan/
 

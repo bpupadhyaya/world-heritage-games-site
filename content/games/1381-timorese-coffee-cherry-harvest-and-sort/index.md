@@ -11,7 +11,7 @@ countries: ["Timor-Leste"]
 ---
 # Timorese coffee cherry harvest and sort
 
-*kafé Timor-Leste*
+*Also known as: kafé Timor-Leste*
 
 **Encyclopedia ID 1381** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1381-timorese-coffee-cherry-harvest-and-sort/
 

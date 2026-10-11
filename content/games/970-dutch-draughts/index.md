@@ -11,7 +11,7 @@ countries: ["Netherlands"]
 ---
 # Dutch draughts
 
-*Dammen · Draughts · Damspel*
+*Also known as: Dammen · Draughts · Damspel*
 
 **Encyclopedia ID 970** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/970-dutch-draughts/
 

@@ -11,7 +11,7 @@ countries: ["Georgia"]
 ---
 # Chidaoba
 
-*Chidaoba · Kakhetian wrestling*
+*Also known as: Kakhetian wrestling*
 
 **Encyclopedia ID 734** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/734-chidaoba/
 

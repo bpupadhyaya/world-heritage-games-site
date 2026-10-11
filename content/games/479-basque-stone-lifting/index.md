@@ -11,7 +11,7 @@ countries: ["France"]
 ---
 # Basque stone lifting
 
-*Harri-jasotzea · harri-jasotzaile*
+*Also known as: Harri-jasotzea · harri-jasotzaile*
 
 **Encyclopedia ID 479** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/479-basque-stone-lifting/
 

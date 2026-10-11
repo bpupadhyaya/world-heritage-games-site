@@ -11,7 +11,7 @@ countries: ["Ethiopia"]
 ---
 # Masenqo and the azmari
 
-*Masinko / masenqo · one-string fiddle*
+*Also known as: Masinko · masenqo · one-string fiddle*
 
 **Encyclopedia ID 187** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/187-masenqo-and-the-azmari/
 

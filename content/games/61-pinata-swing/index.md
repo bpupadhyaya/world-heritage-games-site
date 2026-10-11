@@ -11,7 +11,7 @@ countries: ["Mexico", "Paraguay"]
 ---
 # Pinata swing
 
-*Piñata · Piñata (clay pot)*
+*Also known as: Piñata · Piñata (clay pot)*
 
 **Encyclopedia ID 61** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/61-pinata-swing/
 

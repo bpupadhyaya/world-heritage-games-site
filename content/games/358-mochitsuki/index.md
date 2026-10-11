@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Mochitsuki
 
-*餅つき · rice pounding rhythm duet*
+*Also known as: 餅つき · rice pounding rhythm duet*
 
 **Encyclopedia ID 358** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/358-mochitsuki/
 

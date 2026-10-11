@@ -11,7 +11,7 @@ countries: ["Cote d'Ivoire"]
 ---
 # Duo
 
-*Duo · 11-stick alignment game*
+*Also known as: 11-stick alignment game*
 
 **Encyclopedia ID 838** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/838-duo/
 

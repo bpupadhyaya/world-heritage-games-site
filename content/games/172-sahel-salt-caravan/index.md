@@ -11,7 +11,7 @@ countries: ["Niger", "Mali"]
 ---
 # Sahel Salt Caravan
 
-*Azalai (Taoudenni to Timbuktu)*
+*Also known as: Azalai (Taoudenni to Timbuktu)*
 
 **Encyclopedia ID 172** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/172-sahel-salt-caravan/
 

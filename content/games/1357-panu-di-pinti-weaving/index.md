@@ -11,7 +11,7 @@ countries: ["Guinea-Bissau"]
 ---
 # Panu di Pinti Weaving
 
-*Panu di pinti (pano de pente)*
+*Also known as: Panu di pinti (pano de pente)*
 
 **Encyclopedia ID 1357** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1357-panu-di-pinti-weaving/
 

@@ -11,7 +11,7 @@ countries: ["Lebanon"]
 ---
 # Phoenician Alphabet Trader
 
-*Abjad / أبجدية*
+*Also known as: Abjad · أبجدية*
 
 **Encyclopedia ID 1359** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1359-phoenician-alphabet-trader/
 

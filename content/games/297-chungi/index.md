@@ -11,7 +11,7 @@ countries: ["Nepal", "India"]
 ---
 # Chungi
 
-*चुङ्गी · rubber-band footbag*
+*Also known as: चुङ्गी · rubber-band footbag*
 
 **Encyclopedia ID 297** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/297-chungi/
 

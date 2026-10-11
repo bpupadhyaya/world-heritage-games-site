@@ -11,7 +11,7 @@ countries: ["Dominican Republic"]
 ---
 # Street baseball
 
-*Pelota / Vitilla / Plaquita · vitilla, plaquita*
+*Also known as: Pelota · Vitilla · Plaquita · vitilla, plaquita*
 
 **Encyclopedia ID 684** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/684-street-baseball/
 

@@ -11,7 +11,7 @@ countries: ["Mali"]
 ---
 # Mud Plaster Season
 
-*Crepissage (Sahel earth building)*
+*Also known as: Crepissage (Sahel earth building)*
 
 **Encyclopedia ID 179** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/179-mud-plaster-season/
 

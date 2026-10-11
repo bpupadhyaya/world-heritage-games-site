@@ -11,7 +11,7 @@ countries: ["Andorra"]
 ---
 # Parxís
 
-*Parxís · Catalan Parchís*
+*Also known as: Catalan Parchís*
 
 **Encyclopedia ID 542** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/542-parxis/
 

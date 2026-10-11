@@ -11,7 +11,7 @@ countries: ["Bahamas"]
 ---
 # Bahamian dominoes
 
-*Dominoes · Haitian-style*
+*Also known as: Dominoes · Haitian-style*
 
 **Encyclopedia ID 569** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/569-bahamian-dominoes/
 

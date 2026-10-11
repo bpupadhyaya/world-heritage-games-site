@@ -11,7 +11,7 @@ countries: ["Hungary"]
 ---
 # Mounted Archery Course
 
-*Lovasíjászat*
+*Also known as: Lovasíjászat*
 
 **Encyclopedia ID 67** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/67-mounted-archery-course/
 

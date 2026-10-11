@@ -11,7 +11,7 @@ countries: ["Norway", "Denmark", "Netherlands"]
 ---
 # Clinker Boat Building
 
-*Klinkbygd skip (Nordic)*
+*Also known as: Klinkbygd skip (Nordic)*
 
 **Encyclopedia ID 496** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/496-clinker-boat-building/
 

@@ -11,7 +11,7 @@ countries: ["Benin"]
 ---
 # Dahomey Appliqué Panel Studio
 
-*Appliqué d'Abomey (fabric panels)*
+*Also known as: Appliqué d'Abomey (fabric panels)*
 
 **Encyclopedia ID 1262** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1262-dahomey-applique-panel-studio/
 

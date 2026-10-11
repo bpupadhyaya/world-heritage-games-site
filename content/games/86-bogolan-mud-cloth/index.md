@@ -11,7 +11,7 @@ countries: ["Mali"]
 ---
 # Bogolan mud cloth
 
-*Bogolanfini*
+*Also known as: Bogolanfini*
 
 **Encyclopedia ID 86** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/86-bogolan-mud-cloth/
 

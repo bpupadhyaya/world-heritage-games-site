@@ -11,7 +11,7 @@ countries: ["Papua New Guinea"]
 ---
 # Bilum looped string bag
 
-*Bilum*
+*Also known as: Bilum*
 
 **Encyclopedia ID 1242** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1242-bilum-looped-string-bag/
 

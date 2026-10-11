@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Gomoku and Renju
 
-*五目並べ Gomoku / 連珠 Renju · Five in a row*
+*Also known as: 五目並べ Gomoku · 連珠 Renju · Five in a row*
 
 **Encyclopedia ID 847** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/847-gomoku-and-renju/
 

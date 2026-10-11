@@ -11,7 +11,7 @@ countries: ["Nauru"]
 ---
 # Nauruan wrestling
 
-*Eakabarere*
+*Also known as: Eakabarere*
 
 **Encyclopedia ID 963** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/963-nauruan-wrestling/
 

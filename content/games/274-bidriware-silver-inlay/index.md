@@ -11,7 +11,7 @@ countries: []
 ---
 # Bidriware silver inlay
 
-*ಬಿದರಿ*
+*Also known as: ಬಿದರಿ*
 
 **Encyclopedia ID 274** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/274-bidriware-silver-inlay/
 

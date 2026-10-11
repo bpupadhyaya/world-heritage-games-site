@@ -11,7 +11,7 @@ countries: ["Canada"]
 ---
 # Five-Pin Bowling
 
-*Quilles a cinq*
+*Also known as: Quilles a cinq*
 
 **Encyclopedia ID 1410** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1410-five-pin-bowling/
 

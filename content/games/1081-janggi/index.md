@@ -11,7 +11,7 @@ countries: ["South Korea", "North Korea"]
 ---
 # Janggi
 
-*장기 Janggi · Korean chess*
+*Also known as: Korean chess*
 
 **Encyclopedia ID 1081** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1081-janggi/
 

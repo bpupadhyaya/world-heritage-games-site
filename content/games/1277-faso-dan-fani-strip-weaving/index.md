@@ -11,7 +11,7 @@ countries: ["Burkina Faso"]
 ---
 # Faso Dan Fani Strip Weaving
 
-*Faso dan fani*
+*Also known as: Faso dan fani*
 
 **Encyclopedia ID 1277** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1277-faso-dan-fani-strip-weaving/
 

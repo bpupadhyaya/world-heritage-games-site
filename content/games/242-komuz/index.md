@@ -11,7 +11,7 @@ countries: ["Kyrgyzstan"]
 ---
 # Komuz
 
-*комуз · Kyrgyz three-string lute*
+*Also known as: комуз · Kyrgyz three-string lute*
 
 **Encyclopedia ID 242** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/242-komuz/
 

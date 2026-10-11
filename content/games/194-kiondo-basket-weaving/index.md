@@ -11,7 +11,7 @@ countries: ["Kenya"]
 ---
 # Kiondo basket weaving
 
-*Kiondo*
+*Also known as: Kiondo*
 
 **Encyclopedia ID 194** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/194-kiondo-basket-weaving/
 

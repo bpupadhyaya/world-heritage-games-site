@@ -11,7 +11,7 @@ countries: ["Trinidad and Tobago"]
 ---
 # Street play games
 
-*Marbles / Hopscotch / Skipping*
+*Also known as: Marbles · Hopscotch · Skipping*
 
 **Encyclopedia ID 1155** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1155-street-play-games/
 

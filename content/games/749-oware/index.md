@@ -11,7 +11,7 @@ countries: ["Ghana"]
 ---
 # Oware
 
-*Oware (Akan: 'he marries') · Awale · Warri · Adi (Ewe) · Awele (Ga)*
+*Also known as: Oware (Akan: 'he marries') · Awale · Warri · Adi (Ewe) · Awele (Ga)*
 
 **Encyclopedia ID 749** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/749-oware/
 

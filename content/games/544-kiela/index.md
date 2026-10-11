@@ -11,7 +11,7 @@ countries: ["Angola"]
 ---
 # Kiela
 
-*Kiela · Kimbundu mancala*
+*Also known as: Kimbundu mancala*
 
 **Encyclopedia ID 544** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/544-kiela/
 

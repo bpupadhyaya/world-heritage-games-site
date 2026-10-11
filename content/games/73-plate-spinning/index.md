@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Plate Spinning
 
-*杂技转碟 · Chinese acrobatic sticks*
+*Also known as: 杂技转碟 · Chinese acrobatic sticks*
 
 **Encyclopedia ID 73** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/73-plate-spinning/
 

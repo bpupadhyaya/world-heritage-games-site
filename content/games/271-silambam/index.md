@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Silambam
 
-*சிலம்பம் · bamboo staff fencing*
+*Also known as: சிலம்பம் · bamboo staff fencing*
 
 **Encyclopedia ID 271** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/271-silambam/
 

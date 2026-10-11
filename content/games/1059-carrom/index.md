@@ -11,7 +11,7 @@ countries: ["Saudi Arabia", "Oman", "United Arab Emirates", "Qatar", "Bahrain", 
 ---
 # Carrom
 
-*Carrom · Karam*
+*Also known as: Karam*
 
 **Encyclopedia ID 1059** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1059-carrom/
 

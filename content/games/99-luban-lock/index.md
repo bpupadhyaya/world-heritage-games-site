@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Luban lock
 
-*鲁班锁 / 孔明锁 · Kongming lock interlocking puzzle*
+*Also known as: 鲁班锁 · Kongming lock interlocking puzzle*
 
 **Encyclopedia ID 99** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/99-luban-lock/
 

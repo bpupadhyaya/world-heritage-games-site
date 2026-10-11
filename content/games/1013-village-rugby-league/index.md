@@ -11,7 +11,7 @@ countries: ["Papua New Guinea"]
 ---
 # Village rugby league
 
-*Rugby league*
+*Also known as: Rugby league*
 
 **Encyclopedia ID 1013** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1013-village-rugby-league/
 

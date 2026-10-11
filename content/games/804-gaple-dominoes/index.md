@@ -11,7 +11,7 @@ countries: ["Indonesia"]
 ---
 # Gaple dominoes
 
-*Gaple*
+*Also known as: Gaple*
 
 **Encyclopedia ID 804** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/804-gaple-dominoes/
 

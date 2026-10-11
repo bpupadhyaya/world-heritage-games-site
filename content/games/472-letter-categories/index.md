@@ -11,7 +11,7 @@ countries: ["Germany", "India", "France", "Brazil"]
 ---
 # Letter Categories
 
-*Stadt Land Fluss, Basta, Tutti Frutti, Petit Bac, Adedonha · Name Place Animal Thing / Basta / Stadt Land Fluss*
+*Also known as: Stadt Land Fluss, Basta, Tutti Frutti, Petit Bac, Adedonha · Name Place Animal Thing · Basta · Stadt Land Fluss*
 
 **Encyclopedia ID 472** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/472-letter-categories/
 

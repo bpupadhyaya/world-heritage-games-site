@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Tatami room tiling puzzle
 
-*畳 / 畳敷き*
+*Also known as: 畳*
 
 **Encyclopedia ID 356** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/356-tatami-room-tiling-puzzle/
 

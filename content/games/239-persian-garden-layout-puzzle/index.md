@@ -11,7 +11,7 @@ countries: ["Iran"]
 ---
 # Persian garden layout puzzle
 
-*چهارباغ · Chahar Bagh*
+*Also known as: چهارباغ · Chahar Bagh*
 
 **Encyclopedia ID 239** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/239-persian-garden-layout-puzzle/
 

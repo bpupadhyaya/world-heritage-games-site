@@ -11,7 +11,7 @@ countries: ["Hungary"]
 ---
 # Kalocsa floral painting
 
-*Kalocsai virágminta*
+*Also known as: Kalocsai virágminta*
 
 **Encyclopedia ID 383** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/383-kalocsa-floral-painting/
 

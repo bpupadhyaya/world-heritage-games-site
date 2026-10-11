@@ -11,7 +11,7 @@ countries: ["Cameroon"]
 ---
 # Traditional wrestling
 
-*Lutte traditionnelle · Lutte*
+*Also known as: Lutte traditionnelle · Lutte*
 
 **Encyclopedia ID 619** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/619-traditional-wrestling/
 

@@ -11,7 +11,7 @@ countries: ["Nepal", "India"]
 ---
 # Mithila folk painting
 
-*मिथिला कला · fish and peacock motifs*
+*Also known as: मिथिला कला · fish and peacock motifs*
 
 **Encyclopedia ID 1337** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1337-mithila-folk-painting/
 

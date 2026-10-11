@@ -11,7 +11,7 @@ countries: ["Guinea"]
 ---
 # Fula Riti One-String Fiddle
 
-*Riti / nyanyeru*
+*Also known as: Riti · nyanyeru*
 
 **Encyclopedia ID 1283** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1283-fula-riti-one-string-fiddle/
 

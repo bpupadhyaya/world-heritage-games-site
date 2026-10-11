@@ -11,7 +11,7 @@ countries: ["Mongolia"]
 ---
 # Mongol bichig
 
-*ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ · vertical script calligraphy*
+*Also known as: ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ · vertical script calligraphy*
 
 **Encyclopedia ID 373** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/373-mongol-bichig/
 

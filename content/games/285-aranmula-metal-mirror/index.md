@@ -11,7 +11,7 @@ countries: []
 ---
 # Aranmula metal mirror
 
-*ആറന്മുള കണ്ണാടി*
+*Also known as: ആറന്മുള കണ്ണാടി*
 
 **Encyclopedia ID 285** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/285-aranmula-metal-mirror/
 

@@ -11,7 +11,7 @@ countries: ["Monaco"]
 ---
 # Provencal boules
 
-*Boules lyonnaises / Jeu provençal*
+*Also known as: Boules lyonnaises · Jeu provençal*
 
 **Encyclopedia ID 939** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/939-provencal-boules/
 

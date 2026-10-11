@@ -11,7 +11,7 @@ countries: ["Burkina Faso"]
 ---
 # Yuyu
 
-*Yuyu (circle guessing game)*
+*Also known as: Yuyu (circle guessing game)*
 
 **Encyclopedia ID 610** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/610-yuyu/
 

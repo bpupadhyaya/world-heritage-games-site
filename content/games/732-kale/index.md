@@ -11,7 +11,7 @@ countries: ["Gabon"]
 ---
 # Kale
 
-*Kale · Gabon mancala*
+*Also known as: Gabon mancala*
 
 **Encyclopedia ID 732** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/732-kale/
 

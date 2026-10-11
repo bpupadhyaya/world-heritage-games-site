@@ -11,7 +11,7 @@ countries: ["Mongolia"]
 ---
 # Ail ger
 
-*Айл гэр Ail ger · stone ger*
+*Also known as: stone ger*
 
 **Encyclopedia ID 940** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/940-ail-ger/
 

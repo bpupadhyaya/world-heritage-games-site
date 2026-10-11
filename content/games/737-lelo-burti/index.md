@@ -11,7 +11,7 @@ countries: ["Georgia"]
 ---
 # Lelo Burti
 
-*Lelo burti · field ball*
+*Also known as: field ball*
 
 **Encyclopedia ID 737** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/737-lelo-burti/
 

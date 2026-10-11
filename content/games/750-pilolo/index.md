@@ -11,7 +11,7 @@ countries: ["Ghana"]
 ---
 # Pilolo
 
-*Pilolo · hide and seek treasure hunt*
+*Also known as: hide and seek treasure hunt*
 
 **Encyclopedia ID 750** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/750-pilolo/
 

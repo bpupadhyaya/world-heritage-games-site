@@ -11,7 +11,7 @@ countries: ["Tuvalu"]
 ---
 # Fuu Fuu Penu
 
-*Fuu Fuu Penu · circle chase game*
+*Also known as: circle chase game*
 
 **Encyclopedia ID 1171** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1171-fuu-fuu-penu/
 

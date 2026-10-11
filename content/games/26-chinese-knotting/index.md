@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Chinese knotting
 
-*中国结 · decorative cord knots*
+*Also known as: 中国结 · decorative cord knots*
 
 **Encyclopedia ID 26** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/26-chinese-knotting/
 

@@ -11,7 +11,7 @@ countries: ["Germany", "United Kingdom"]
 ---
 # Tavern Nail and Wire Puzzles
 
-*Wirrwarr / Nagelspiele*
+*Also known as: Wirrwarr · Nagelspiele*
 
 **Encyclopedia ID 110** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/110-tavern-nail-and-wire-puzzles/
 

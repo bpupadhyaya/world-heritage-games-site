@@ -11,7 +11,7 @@ countries: ["Jamaica"]
 ---
 # Jamaican Sound System Selector
 
-*Sound system*
+*Also known as: Sound system*
 
 **Encyclopedia ID 1465** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1465-jamaican-sound-system-selector/
 

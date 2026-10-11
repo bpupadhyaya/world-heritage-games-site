@@ -11,7 +11,7 @@ countries: ["Laos"]
 ---
 # Khene
 
-*Khene / แคน · Lao bamboo mouth organ*
+*Also known as: แคน · Lao bamboo mouth organ*
 
 **Encyclopedia ID 145** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/145-khene/
 

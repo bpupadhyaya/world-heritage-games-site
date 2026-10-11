@@ -11,7 +11,7 @@ countries: ["Cameroon"]
 ---
 # Bamum script writer
 
-*Shümom · Shümom syllabary*
+*Also known as: Shümom · Shümom syllabary*
 
 **Encyclopedia ID 1405** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1405-bamum-script-writer/
 

@@ -11,7 +11,7 @@ countries: ["Sierra Leone"]
 ---
 # Freetown Beach Seine Haul
 
-*Beach seine hauling*
+*Also known as: Beach seine hauling*
 
 **Encyclopedia ID 1282** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1282-freetown-beach-seine-haul/
 

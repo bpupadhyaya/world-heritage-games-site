@@ -11,8 +11,6 @@ countries: ["Honduras"]
 ---
 # Enchute
 
-*Enchute*
-
 **Encyclopedia ID 770** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/770-enchute/
 
 Throwing game named in roundups.

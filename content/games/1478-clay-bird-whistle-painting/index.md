@@ -11,7 +11,7 @@ countries: ["Luxembourg"]
 ---
 # Clay Bird Whistle Painting
 
-*Péckvillercher*
+*Also known as: Péckvillercher*
 
 **Encyclopedia ID 1478** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1478-clay-bird-whistle-painting/
 

@@ -11,7 +11,7 @@ countries: ["Bhutan"]
 ---
 # Archery
 
-*Dha (archery) · Datse · Dha*
+*Also known as: Dha (archery) · Datse · Dha*
 
 **Encyclopedia ID 591** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/591-archery/
 

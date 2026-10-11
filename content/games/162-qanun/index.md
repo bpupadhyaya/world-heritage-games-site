@@ -11,7 +11,7 @@ countries: ["Turkey", "Armenia", "Azerbaijan"]
 ---
 # Qanun
 
-*قانون · plucked trapezoid zither*
+*Also known as: قانون · plucked trapezoid zither*
 
 **Encyclopedia ID 162** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/162-qanun/
 

@@ -11,7 +11,7 @@ countries: ["Vietnam"]
 ---
 # Vietnamese xiangqi
 
-*Co Tuong*
+*Also known as: Co Tuong*
 
 **Encyclopedia ID 1215** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1215-vietnamese-xiangqi/
 

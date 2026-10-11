@@ -11,7 +11,7 @@ countries: ["Germany", "Switzerland", "United Kingdom"]
 ---
 # Clockwork Movement Builder
 
-*Schwarzwalduhr / Kuckucksuhr · Black Forest clock*
+*Also known as: Schwarzwalduhr · Kuckucksuhr · Black Forest clock*
 
 **Encyclopedia ID 502** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/502-clockwork-movement-builder/
 

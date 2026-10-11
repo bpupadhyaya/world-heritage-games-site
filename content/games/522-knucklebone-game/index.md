@@ -11,7 +11,7 @@ countries: ["Afghanistan", "Mongolia"]
 ---
 # Knucklebone game
 
-*Bujal Bazi · Shagai (anklebone games) · Knucklebones*
+*Also known as: Bujal Bazi · Shagai (anklebone games) · Knucklebones*
 
 **Encyclopedia ID 522** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/522-knucklebone-game/
 

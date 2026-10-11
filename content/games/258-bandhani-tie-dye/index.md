@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Bandhani tie-dye
 
-*bandhej, bandhani*
+*Also known as: bandhej, bandhani*
 
 **Encyclopedia ID 258** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/258-bandhani-tie-dye/
 

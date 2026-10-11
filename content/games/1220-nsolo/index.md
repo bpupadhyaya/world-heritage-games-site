@@ -11,7 +11,7 @@ countries: ["Zambia", "Malawi"]
 ---
 # Nsolo
 
-*Nsolo · Isolo · Insolo · Chisolo*
+*Also known as: Isolo · Insolo · Chisolo*
 
 **Encyclopedia ID 1220** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1220-nsolo/
 

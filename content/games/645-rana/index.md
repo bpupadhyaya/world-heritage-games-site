@@ -11,7 +11,7 @@ countries: ["Colombia"]
 ---
 # Rana
 
-*Rana / Bolirana · frog toss*
+*Also known as: Bolirana · frog toss*
 
 **Encyclopedia ID 645** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/645-rana/
 

@@ -11,7 +11,7 @@ countries: ["Palestine", "Lebanon"]
 ---
 # Tatreez Palestinian Cross-Stitch
 
-*tatreez / تطريز*
+*Also known as: tatreez · تطريز*
 
 **Encyclopedia ID 212** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/212-tatreez-palestinian-cross-stitch/
 

@@ -11,7 +11,7 @@ countries: ["Uzbekistan", "Tajikistan"]
 ---
 # Suzani embroidery
 
-*Сузани*
+*Also known as: Сузани*
 
 **Encyclopedia ID 248** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/248-suzani-embroidery/
 

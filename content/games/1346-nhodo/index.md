@@ -11,7 +11,7 @@ countries: ["Zimbabwe"]
 ---
 # Nhodo
 
-*Nhodo (mbuga stone toss) · mbuga stone toss*
+*Also known as: Nhodo (mbuga stone toss) · mbuga stone toss*
 
 **Encyclopedia ID 1346** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1346-nhodo/
 

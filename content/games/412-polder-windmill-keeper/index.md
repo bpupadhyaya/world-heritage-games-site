@@ -11,7 +11,7 @@ countries: ["Netherlands"]
 ---
 # Polder Windmill Keeper
 
-*Molen / Poldermolen*
+*Also known as: Molen · Poldermolen*
 
 **Encyclopedia ID 412** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/412-polder-windmill-keeper/
 

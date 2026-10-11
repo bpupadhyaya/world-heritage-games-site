@@ -11,7 +11,7 @@ countries: ["Kenya", "Tanzania"]
 ---
 # Bao la Kiswahili
 
-*Bao*
+*Also known as: Bao*
 
 **Encyclopedia ID 861** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/861-bao-la-kiswahili/
 

@@ -11,7 +11,7 @@ countries: ["Estonia"]
 ---
 # Kiiking
 
-*Kiiking · Giant Swing*
+*Also known as: Giant Swing*
 
 **Encyclopedia ID 66** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/66-kiiking/
 

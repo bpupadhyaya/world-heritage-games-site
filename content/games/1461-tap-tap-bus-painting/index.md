@@ -11,7 +11,7 @@ countries: ["Haiti"]
 ---
 # Tap-Tap Bus Painting
 
-*Tap-tap*
+*Also known as: Tap-tap*
 
 **Encyclopedia ID 1461** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1461-tap-tap-bus-painting/
 

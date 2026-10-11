@@ -11,7 +11,7 @@ countries: ["Uruguay"]
 ---
 # Murga Uruguaya Carnival Troupe
 
-*Murga uruguaya*
+*Also known as: Murga uruguaya*
 
 **Encyclopedia ID 1419** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1419-murga-uruguaya-carnival-troupe/
 

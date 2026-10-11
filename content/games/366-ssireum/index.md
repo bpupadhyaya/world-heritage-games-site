@@ -11,7 +11,7 @@ countries: ["South Korea"]
 ---
 # Ssireum
 
-*씨름 · Korean sash wrestling*
+*Also known as: 씨름 · Korean sash wrestling*
 
 **Encyclopedia ID 366** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/366-ssireum/
 

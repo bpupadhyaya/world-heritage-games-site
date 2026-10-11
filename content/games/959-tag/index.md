@@ -11,7 +11,7 @@ countries: ["Myanmar"]
 ---
 # Tag
 
-*Zum-zum / Htote si toe*
+*Also known as: Zum-zum · Htote si toe*
 
 **Encyclopedia ID 959** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/959-tag/
 

@@ -11,7 +11,7 @@ countries: []
 ---
 # Blue-and-white porcelain painting
 
-*青花瓷*
+*Also known as: 青花瓷*
 
 **Encyclopedia ID 342** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/342-blue-and-white-porcelain-painting/
 

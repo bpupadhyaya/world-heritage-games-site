@@ -11,7 +11,7 @@ countries: ["Nepal"]
 ---
 # Allo nettle fibre weaving
 
-*अल्लो*
+*Also known as: अल्लो*
 
 **Encyclopedia ID 1228** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1228-allo-nettle-fibre-weaving/
 

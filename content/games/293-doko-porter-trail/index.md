@@ -11,7 +11,7 @@ countries: ["Nepal"]
 ---
 # Doko porter trail
 
-*डोको*
+*Also known as: डोको*
 
 **Encyclopedia ID 293** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/293-doko-porter-trail/
 

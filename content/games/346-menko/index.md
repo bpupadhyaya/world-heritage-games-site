@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Menko
 
-*面子 / めんこ · card and disc slapping*
+*Also known as: 面子 · card and disc slapping*
 
 **Encyclopedia ID 346** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/346-menko/
 

@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Hanetsuki
 
-*羽根突き · Japanese battledore*
+*Also known as: 羽根突き · Japanese battledore*
 
 **Encyclopedia ID 347** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/347-hanetsuki/
 

@@ -11,7 +11,7 @@ countries: ["Iran"]
 ---
 # Muqarnas stalactite vault builder
 
-*مقرنس*
+*Also known as: مقرنس*
 
 **Encyclopedia ID 228** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/228-muqarnas-stalactite-vault-builder/
 

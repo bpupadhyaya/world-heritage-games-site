@@ -11,7 +11,7 @@ countries: ["Nepal"]
 ---
 # Tiger and Goat
 
-*Bagh-Chal · Bagh Chal · Bagha-chall*
+*Also known as: Bagh-Chal · Bagh Chal · Bagha-chall*
 
 **Encyclopedia ID 967** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/967-tiger-and-goat/
 

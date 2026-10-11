@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Huarong Dao
 
-*华容道 Huáróng dào · Klotski*
+*Also known as: Klotski*
 
 **Encyclopedia ID 639** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/639-huarong-dao/
 

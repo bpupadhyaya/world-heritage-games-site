@@ -11,7 +11,7 @@ countries: ["Tanzania", "Kenya"]
 ---
 # Enkeshui
 
-*Enkeshui · Endodoi · Maasai mancala*
+*Also known as: Endodoi · Maasai mancala*
 
 **Encyclopedia ID 1136** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1136-enkeshui/
 

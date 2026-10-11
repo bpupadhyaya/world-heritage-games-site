@@ -11,7 +11,7 @@ countries: ["Czechia"]
 ---
 # Czech draughts
 
-*Dáma*
+*Also known as: Dáma*
 
 **Encyclopedia ID 662** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/662-czech-draughts/
 

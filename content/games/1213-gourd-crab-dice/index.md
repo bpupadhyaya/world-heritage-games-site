@@ -11,7 +11,7 @@ countries: ["Vietnam"]
 ---
 # Gourd-crab dice
 
-*Bau Cua Ca Cop · Bầu Cua Cá Cọp*
+*Also known as: Bau Cua Ca Cop*
 
 **Encyclopedia ID 1213** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1213-gourd-crab-dice/
 

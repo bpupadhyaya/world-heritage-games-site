@@ -11,7 +11,7 @@ countries: ["Latvia"]
 ---
 # Latvian Bagpipe and Folk Pipes
 
-*Latvijas dūdas · Dūdas*
+*Also known as: Latvijas dūdas · Dūdas*
 
 **Encyclopedia ID 1324** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1324-latvian-bagpipe-and-folk-pipes/
 

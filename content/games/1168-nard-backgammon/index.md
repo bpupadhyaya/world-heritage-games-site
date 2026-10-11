@@ -11,7 +11,7 @@ countries: ["Turkmenistan", "Tajikistan"]
 ---
 # Nard / backgammon
 
-*Nard*
+*Also known as: Nard*
 
 **Encyclopedia ID 1168** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1168-nard-backgammon/
 

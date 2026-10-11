@@ -11,8 +11,6 @@ countries: ["Philippines"]
 ---
 # Patintero
 
-*Patintero*
-
 **Encyclopedia ID 1021** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1021-patintero/
 
 Grid-crossing tag game widely played in streets.

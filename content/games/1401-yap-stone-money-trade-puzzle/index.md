@@ -11,7 +11,7 @@ countries: ["Micronesia"]
 ---
 # Yap stone money trade puzzle
 
-*Rai · rai*
+*Also known as: Rai*
 
 **Encyclopedia ID 1401** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1401-yap-stone-money-trade-puzzle/
 

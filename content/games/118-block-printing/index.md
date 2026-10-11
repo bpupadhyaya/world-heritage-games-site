@@ -11,7 +11,7 @@ countries: ["India"]
 ---
 # Block printing
 
-*छपाई · Bagru and Sanganer*
+*Also known as: छपाई · Bagru and Sanganer*
 
 **Encyclopedia ID 118** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/118-block-printing/
 

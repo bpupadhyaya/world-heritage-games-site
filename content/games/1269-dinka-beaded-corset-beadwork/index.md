@@ -11,7 +11,7 @@ countries: ["South Sudan"]
 ---
 # Dinka beaded corset beadwork
 
-*Dinka beadwork*
+*Also known as: Dinka beadwork*
 
 **Encyclopedia ID 1269** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1269-dinka-beaded-corset-beadwork/
 

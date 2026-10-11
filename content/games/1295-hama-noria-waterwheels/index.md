@@ -11,7 +11,7 @@ countries: ["Syria"]
 ---
 # Hama Noria Waterwheels
 
-*Nawaġir Hama / نواعير حماة*
+*Also known as: Nawaġir Hama · نواعير حماة*
 
 **Encyclopedia ID 1295** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1295-hama-noria-waterwheels/
 

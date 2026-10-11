@@ -11,7 +11,7 @@ countries: ["Colombia"]
 ---
 # Atarraya
 
-*Atarraya · cast-net throwing*
+*Also known as: cast-net throwing*
 
 **Encyclopedia ID 1434** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1434-atarraya/
 

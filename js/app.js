@@ -140,9 +140,12 @@
   if (sp) {
     var qi = $('input[type=search]', sp), res = $('#results'), cnt = $('#count'), ft = $('#f-type'), fe = $('#f-era'), more = $('#more'), shown = 40, last = [];
     var p = new URLSearchParams(location.search); qi.value = p.get('q') || '';
+    function shortC(c) { var a = (c || 'Worldwide').split(', '); return a.length > 3 ? a.slice(0, 3).join(', ') + ' +' + (a.length - 3) : a.join(', '); }
     function card(r) {
-      var img = r.photo ? '<img src="' + base + 'img/thumb/' + r.photo + '" alt="" loading="lazy" width="360" height="270">' : '<span class="ph-fallback"></span>';
-      return '<li class="card" data-era="' + r.era + '"><span class="ph">' + img + '</span><div class="b"><h3><a href="' + href(r) + '">' + esc(r.name) + '</a></h3><span class="m"><i class="dot"></i>' + esc(r.ctry || 'Worldwide') + ' · ' + esc(IDX.types[r.type]) + '</span></div></li>';
+      var img = r.photo ? '<img src="' + base + 'img/thumb/' + r.photo + '" alt="" loading="lazy" width="88" height="66">' : '<span class="ph-fallback"></span>';
+      var alt = r.alt ? r.alt.split(' | ').filter(function (x) { return norm(x) !== r.n; }).slice(0, 2).join(' · ') : '';
+      return '<li class="row" data-era="' + r.era + '"><span class="ph">' + img + '</span><div class="b"><h3><a href="' + href(r) + '">' + esc(r.name) + '</a></h3>' +
+        '<span class="m"><i class="dot"></i>' + esc(shortC(r.ctry)) + ' · ' + esc(IDX.types[r.type]) + ' · ' + esc(IDX.eras[r.era] || '') + '</span>' + (alt ? '<span class="m alt">' + esc(alt) + '</span>' : '') + '</div></li>';
     }
     function run() {
       loadIndex().then(function () {

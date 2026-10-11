@@ -11,7 +11,7 @@ countries: ["Mexico"]
 ---
 # Cup-and-ball
 
-*Balero · balero*
+*Also known as: Balero*
 
 **Encyclopedia ID 933** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/933-cup-and-ball/
 

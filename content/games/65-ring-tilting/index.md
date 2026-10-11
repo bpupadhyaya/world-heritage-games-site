@@ -11,7 +11,7 @@ countries: ["Croatia"]
 ---
 # Ring Tilting
 
-*Sinjska alka · Sinj Alka*
+*Also known as: Sinjska alka · Sinj Alka*
 
 **Encyclopedia ID 65** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/65-ring-tilting/
 

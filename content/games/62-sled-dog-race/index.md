@@ -11,7 +11,7 @@ countries: ["United States", "Canada"]
 ---
 # Sled dog race
 
-*Dog mushing*
+*Also known as: Dog mushing*
 
 **Encyclopedia ID 62** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/62-sled-dog-race/
 

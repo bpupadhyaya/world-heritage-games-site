@@ -11,7 +11,7 @@ countries: ["Sri Lanka"]
 ---
 # Horn pulling
 
-*Ankeliya*
+*Also known as: Ankeliya*
 
 **Encyclopedia ID 1103** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1103-horn-pulling/
 

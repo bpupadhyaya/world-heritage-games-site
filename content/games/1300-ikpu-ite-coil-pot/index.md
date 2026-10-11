@@ -11,7 +11,7 @@ countries: ["Nigeria"]
 ---
 # Ikpu Ite Coil Pot
 
-*Ikpu ite (traditional pottery)*
+*Also known as: Ikpu ite (traditional pottery)*
 
 **Encyclopedia ID 1300** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1300-ikpu-ite-coil-pot/
 

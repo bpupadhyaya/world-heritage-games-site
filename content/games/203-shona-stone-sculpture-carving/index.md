@@ -11,7 +11,7 @@ countries: ["Zimbabwe"]
 ---
 # Shona stone sculpture carving
 
-*Shona sculpture*
+*Also known as: Shona sculpture*
 
 **Encyclopedia ID 203** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/203-shona-stone-sculpture-carving/
 

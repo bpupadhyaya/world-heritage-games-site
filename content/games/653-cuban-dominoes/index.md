@@ -11,7 +11,7 @@ countries: ["Cuba"]
 ---
 # Cuban dominoes
 
-*Dominó · Dominó de parejas · Longana · doble nueve, parejas*
+*Also known as: Dominó · Dominó de parejas · Longana · doble nueve, parejas*
 
 **Encyclopedia ID 653** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/653-cuban-dominoes/
 

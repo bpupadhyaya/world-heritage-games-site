@@ -11,7 +11,7 @@ countries: ["Armenia", "Azerbaijan", "Georgia", "Iran"]
 ---
 # Nardi
 
-*Nardi · backgammon*
+*Also known as: backgammon*
 
 **Encyclopedia ID 551** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/551-nardi/
 

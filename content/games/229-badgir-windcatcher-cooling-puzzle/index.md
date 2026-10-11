@@ -11,7 +11,7 @@ countries: ["Iran"]
 ---
 # Badgir windcatcher cooling puzzle
 
-*بادگیر*
+*Also known as: بادگیر*
 
 **Encyclopedia ID 229** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/229-badgir-windcatcher-cooling-puzzle/
 

@@ -11,7 +11,7 @@ countries: ["Pakistan", "India"]
 ---
 # Pakistani truck art
 
-*ٹرک آرٹ*
+*Also known as: ٹرک آرٹ*
 
 **Encyclopedia ID 116** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/116-pakistani-truck-art/
 

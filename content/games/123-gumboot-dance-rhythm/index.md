@@ -11,7 +11,7 @@ countries: ["South Africa"]
 ---
 # Gumboot dance rhythm
 
-*Isicathulo*
+*Also known as: Isicathulo*
 
 **Encyclopedia ID 123** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/123-gumboot-dance-rhythm/
 

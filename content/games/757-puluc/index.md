@@ -11,7 +11,7 @@ countries: ["Guatemala", "Belize"]
 ---
 # Puluc
 
-*Puluc · Kekchi/Mopan board game*
+*Also known as: Kekchi · Mopan board game*
 
 **Encyclopedia ID 757** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/757-puluc/
 

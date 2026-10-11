@@ -11,7 +11,7 @@ countries: ["Costa Rica"]
 ---
 # Chromos
 
-*Chromos · card flipping*
+*Also known as: card flipping*
 
 **Encyclopedia ID 648** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/648-chromos/
 

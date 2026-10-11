@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Cloisonne
 
-*景泰蓝 · Jingtailan enamel*
+*Also known as: 景泰蓝 · Jingtailan enamel*
 
 **Encyclopedia ID 343** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/343-cloisonne/
 

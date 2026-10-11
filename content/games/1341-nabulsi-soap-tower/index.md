@@ -11,7 +11,7 @@ countries: ["Palestine"]
 ---
 # Nabulsi Soap Tower
 
-*Sabun Nabulsi / صابون نابلسي*
+*Also known as: Sabun Nabulsi · صابون نابلسي*
 
 **Encyclopedia ID 1341** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1341-nabulsi-soap-tower/
 

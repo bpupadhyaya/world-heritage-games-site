@@ -11,7 +11,7 @@ countries: ["Trinidad and Tobago"]
 ---
 # Kalinda Stick Duel
 
-*Kalinda / bois · Trinidad*
+*Also known as: Kalinda · bois · Trinidad*
 
 **Encyclopedia ID 1467** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1467-kalinda-stick-duel/
 

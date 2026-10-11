@@ -11,7 +11,7 @@ countries: ["India", "Pakistan"]
 ---
 # Phulkari darn-stitch embroidery
 
-*phulkari (flower work)*
+*Also known as: phulkari (flower work)*
 
 **Encyclopedia ID 257** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/257-phulkari-darn-stitch-embroidery/
 

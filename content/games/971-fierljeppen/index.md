@@ -11,7 +11,7 @@ countries: ["Netherlands"]
 ---
 # Fierljeppen
 
-*Fierljeppen · Pole vaulting over canals*
+*Also known as: Pole vaulting over canals*
 
 **Encyclopedia ID 971** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/971-fierljeppen/
 

@@ -11,7 +11,7 @@ countries: ["Indonesia", "Malaysia"]
 ---
 # Egrang
 
-*Egrang / Ingkling · bamboo stilt race*
+*Also known as: Ingkling · bamboo stilt race*
 
 **Encyclopedia ID 17** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/17-egrang/
 

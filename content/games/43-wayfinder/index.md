@@ -11,7 +11,7 @@ countries: ["United States", "New Zealand", "Micronesia"]
 ---
 # Wayfinder
 
-*Wayfinding / Hoku-based navigation · Pacific star-path voyage*
+*Also known as: Wayfinding · Hoku-based navigation · Pacific star-path voyage*
 
 **Encyclopedia ID 43** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/43-wayfinder/
 

@@ -11,7 +11,7 @@ countries: ["Cameroon", "Gabon", "Equatorial Guinea", "DR Congo"]
 ---
 # Songo
 
-*Songo / Songo'o · Songho · Songoh · Songo ewondo · mbekh ô kôla (Gabon) · 14-house mancala*
+*Also known as: Songo'o · Songho · Songoh · Songo ewondo · mbekh ô kôla (Gabon) · 14-house mancala*
 
 **Encyclopedia ID 617** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/617-songo/
 

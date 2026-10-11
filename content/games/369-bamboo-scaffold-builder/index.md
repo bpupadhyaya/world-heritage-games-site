@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Bamboo scaffold builder
 
-*棚架 · Hong Kong*
+*Also known as: 棚架 · Hong Kong*
 
 **Encyclopedia ID 369** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/369-bamboo-scaffold-builder/
 

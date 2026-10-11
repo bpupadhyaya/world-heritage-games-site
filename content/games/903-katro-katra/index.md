@@ -11,7 +11,7 @@ countries: ["Madagascar"]
 ---
 # Katro / Katra
 
-*Katro · Fifangha*
+*Also known as: Katro · Fifangha*
 
 **Encyclopedia ID 903** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/903-katro-katra/
 

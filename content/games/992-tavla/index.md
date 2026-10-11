@@ -11,7 +11,7 @@ countries: ["North Macedonia", "Montenegro"]
 ---
 # Tavla
 
-*Табла*
+*Also known as: Табла*
 
 **Encyclopedia ID 992** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/992-tavla/
 

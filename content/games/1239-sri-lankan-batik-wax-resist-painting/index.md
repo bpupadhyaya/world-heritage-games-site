@@ -11,7 +11,7 @@ countries: ["Sri Lanka"]
 ---
 # Sri Lankan batik wax-resist painting
 
-*බතික්*
+*Also known as: බතික්*
 
 **Encyclopedia ID 1239** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1239-sri-lankan-batik-wax-resist-painting/
 

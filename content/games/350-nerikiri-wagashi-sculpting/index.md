@@ -11,7 +11,7 @@ countries: ["Japan"]
 ---
 # Nerikiri wagashi sculpting
 
-*練り切り*
+*Also known as: 練り切り*
 
 **Encyclopedia ID 350** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/350-nerikiri-wagashi-sculpting/
 

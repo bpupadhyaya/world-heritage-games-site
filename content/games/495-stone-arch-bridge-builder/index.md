@@ -11,7 +11,7 @@ countries: ["China"]
 ---
 # Stone Arch Bridge Builder
 
-*Anji Bridge, Zhaozhou Qiao · Anji / Zhaozhou bridge*
+*Also known as: Anji Bridge, Zhaozhou Qiao · Anji · Zhaozhou bridge*
 
 **Encyclopedia ID 495** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/495-stone-arch-bridge-builder/
 

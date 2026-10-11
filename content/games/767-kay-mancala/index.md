@@ -11,7 +11,7 @@ countries: ["Haiti"]
 ---
 # Kay mancala
 
-*Kay (Kay / Warri)*
+*Also known as: Kay (Kay · Warri)*
 
 **Encyclopedia ID 767** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/767-kay-mancala/
 

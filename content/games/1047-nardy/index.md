@@ -11,7 +11,7 @@ countries: ["Russia"]
 ---
 # Nardy
 
-*Нарды*
+*Also known as: Нарды*
 
 **Encyclopedia ID 1047** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1047-nardy/
 

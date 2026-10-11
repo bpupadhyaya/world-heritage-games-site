@@ -11,7 +11,7 @@ countries: ["Ethiopia"]
 ---
 # Eskista
 
-*Eskista · Ethiopian shoulder dance*
+*Also known as: Ethiopian shoulder dance*
 
 **Encyclopedia ID 188** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/188-eskista/
 

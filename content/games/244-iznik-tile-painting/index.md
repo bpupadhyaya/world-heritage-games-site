@@ -11,7 +11,7 @@ countries: ["Turkey"]
 ---
 # Iznik tile painting
 
-*İznik çinisi*
+*Also known as: İznik çinisi*
 
 **Encyclopedia ID 244** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/244-iznik-tile-painting/
 

@@ -11,7 +11,7 @@ countries: ["Antigua and Barbuda"]
 ---
 # Union Jack Game
 
-*Union Jack Game · Potta*
+*Also known as: Potta*
 
 **Encyclopedia ID 547** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/547-union-jack-game/
 

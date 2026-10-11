@@ -11,7 +11,7 @@ countries: ["Barbados"]
 ---
 # Potta
 
-*Potta · Union Jack Game (Antigua) · Morale (France) · three-in-a-row line game*
+*Also known as: Union Jack Game (Antigua) · Morale (France) · three-in-a-row line game*
 
 **Encyclopedia ID 579** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/579-potta/
 
