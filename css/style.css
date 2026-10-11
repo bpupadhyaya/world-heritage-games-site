@@ -96,8 +96,8 @@ p{margin:0 0 1em}
 /* wordmark: gold EB Garamond caps on a navy plaque; tagline spread over the name's width (revert: git tag site-before-wordmark) */
 .brand{font:600 1.05rem/1 var(--serif);text-decoration:none;display:flex;align-items:center;gap:.7rem;margin-right:auto;padding:.3rem 1.1rem .3rem .4rem;margin-block:.35rem;border-radius:.8rem;background:linear-gradient(135deg,#10245a,#091030);box-shadow:0 1px 0 rgba(255,255,255,.08) inset,0 6px 16px -8px rgba(9,16,48,.7)}
 .brand>span{display:inline-flex;flex-direction:column}
-.brand .wm{display:block;font:800 1.3rem/1 "EB Garamond",var(--serif);text-transform:uppercase;letter-spacing:.07em;background:linear-gradient(180deg,#fbe9a6 0%,#eec35a 52%,#d9a640 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 1px 0 rgba(0,0,0,.35))}
-.brand small{display:flex;justify-content:space-between;align-self:stretch;font:700 .8rem/1 "EB Garamond",var(--sans);text-transform:uppercase;color:#e8c565;margin-top:.35rem;margin-right:.07em}
+.brand .wm{display:block;font:800 1.3rem/1 "EB Garamond",var(--serif);text-transform:uppercase;letter-spacing:.07em;background:linear-gradient(180deg,#fffbe0 0%,#ffe9a0 45%,#ffd35c 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+.brand small{display:flex;justify-content:space-between;align-self:stretch;font:700 .8rem/1 "EB Garamond",var(--sans);text-transform:uppercase;color:#ffe08a;margin-top:.35rem;margin-right:.07em}
 .brand small i{font-style:normal}.brand small i:empty{width:.9em}
 @media (max-width:520px){.brand .wm{font-size:1.05rem;letter-spacing:.05em}}
 .brand svg{width:1.7rem;height:1.7rem;flex:none}
