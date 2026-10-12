@@ -1,19 +1,20 @@
 ---
 title: "Water sports"
-description: "24 related traditions."
+description: "26 related traditions."
 path: "/families/water-sport/"
-count: 24
+count: 26
 ---
 # Water sports
 
-24 related traditions.
+26 related traditions.
 
 
 
-24 entries.
+26 entries.
 
 - [Antigua Classic Yacht Race](../../games/1433-antigua-classic-yacht-race/index.md): Antigua and Barbuda, United Kingdom; Racing; Age of Contact and Craft
 - [Bequia Boat and Model Builder](../../games/1440-bequia-boat-and-model-builder/index.md): Saint Vincent and the Grenadines; Crafts and making; Living Traditions
+- [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md): China; Racing; Crossroads and Golden Ages
 - [Ecuavoley](../../games/1450-ecuavoley/index.md): Ecuador; Other traditions; Living Traditions
 - [Faustball](../../games/485-faustball/index.md): Germany, Austria; Other traditions; Living Traditions
 - [Fijiri Pearl-Diver Sea Songs](../../games/1280-fijiri-pearl-diver-sea-songs/index.md): Kuwait, Bahrain; Musical instruments; Living Traditions
@@ -36,3 +37,4 @@ count: 24
 - [Kataw](../../games/873-kataw/index.md): Laos; Street and playground games; Modern Heritage
 - [Matkot](../../games/825-matkot/index.md): Israel; Street and playground games; Modern Heritage
 - [Mixtec ball game](../../games/936-mixtec-ball-game/index.md): Mexico; Street and playground games; Modern Heritage
+- [Traditional dhow sail racing](../../games/6768-traditional-dhow-sail-racing/index.md): United Arab Emirates; Racing; Age of Contact and Craft

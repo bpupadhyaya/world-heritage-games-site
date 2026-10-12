@@ -2,7 +2,7 @@
 title: "Southeast Asia and the Islands"
 description: "Mainland valleys and the island world from Sumatra to the Philippines."
 path: "/cradles/southeast-asia/"
-count: 92
+count: 94
 ---
 # Southeast Asia and the Islands
 
@@ -10,7 +10,7 @@ Mainland valleys and the island world from Sumatra to the Philippines.
 
 
 
-92 entries.
+94 entries.
 
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
 - [Arnis / Eskrima](../../games/323-arnis-eskrima/index.md): Philippines, Timor-Leste; Wrestling and martial sports; Classical Worlds
@@ -83,6 +83,7 @@ Mainland valleys and the island world from Sumatra to the Philippines.
 - [Chapteh shuttlecock](../../games/1066-chapteh-shuttlecock/index.md): Singapore; Dexterity and skill games; Modern Heritage
 - [Encang kuda](../../games/1067-encang-kuda/index.md): Singapore; Street and playground games; Classical Worlds
 - [Five stones](../../games/907-five-stones/index.md): Malaysia, Brunei; Dexterity and skill games; Deep Past and First Games
+- [Gamelan](../../games/22329-gamelan/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Gaple dominoes](../../games/804-gaple-dominoes/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
 - [Gasing](../../games/908-gasing/index.md): Malaysia, Singapore; Dexterity and skill games; Modern Heritage
 - [Hide the scarf](../../games/615-hide-the-scarf/index.md): Cambodia; Street and playground games; Modern Heritage
@@ -94,6 +95,7 @@ Mainland valleys and the island world from Sumatra to the Philippines.
 - [Malay draughts](../../games/910-malay-draughts/index.md): Malaysia; Board and table games; Crossroads and Golden Ages
 - [Petanque](../../games/872-petanque/index.md): Laos, France; Street and playground games; Modern Heritage
 - [Piko](../../games/1022-piko/index.md): Philippines; Street and playground games; Deep Past and First Games
+- [Rice terrace farming](../../games/22337-rice-terrace-farming/index.md): Philippines, Indonesia; Other traditions; Living Traditions
 - [Scarf-ball toss](../../games/614-scarf-ball-toss/index.md): Cambodia; Street and playground games; Modern Heritage
 - [Seed throwing](../../games/612-seed-throwing/index.md): Cambodia; Dexterity and skill games; Deep Past and First Games
 - [Sungka](../../games/1025-sungka/index.md): Philippines; Board and table games; Deep Past and First Games

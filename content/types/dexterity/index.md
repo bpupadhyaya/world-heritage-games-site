@@ -1,16 +1,16 @@
 ---
 title: "Dexterity and skill games"
-description: "127 traditions of this kind."
+description: "133 traditions of this kind."
 path: "/types/dexterity/"
-count: 127
+count: 133
 ---
 # Dexterity and skill games
 
-127 traditions of this kind.
+133 traditions of this kind.
 
 
 
-127 entries.
+133 entries.
 
 - [Ampe](../../games/747-ampe/index.md): Ghana, Togo; Dexterity and skill games; Modern Heritage
 - [Atarraya](../../games/1434-atarraya/index.md): Colombia; Dexterity and skill games; Modern Heritage
@@ -113,19 +113,24 @@ count: 127
 - [Gasing](../../games/908-gasing/index.md): Malaysia, Singapore; Dexterity and skill games; Modern Heritage
 - [Gilbert Islands string figures](../../games/866-gilbert-islands-string-figures/index.md): Kiribati; Dexterity and skill games; Deep Past and First Games
 - [Glass marbles](../../games/685-glass-marbles/index.md): Ecuador; Dexterity and skill games; Deep Past and First Games
+- [Golden Sling](../../games/22331-golden-sling/index.md): Worldwide; Dexterity and skill games; Modern Heritage
 - [Gulli Danda](../../games/1003-gulli-danda/index.md): Pakistan; Dexterity and skill games; Modern Heritage
 - [Heu](../../games/1146-heu/index.md): Tonga; Dexterity and skill games; Modern Heritage
 - [Hiko](../../games/1147-hiko/index.md): Tonga; Dexterity and skill games; Modern Heritage
 - [Jacks](../../games/697-jacks/index.md): El Salvador; Dexterity and skill games; Deep Past and First Games
 - [Jacks, Dandy Shandy, ring games](../../games/842-jacks-dandy-shandy-ring-games/index.md): Jamaica; Dexterity and skill games; Deep Past and First Games
+- [Jackstraws](../../games/14110-jackstraws/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Keram](../../games/1137-keram/index.md): Tanzania; Dexterity and skill games; Modern Heritage
 - [Khuru](../../games/592-khuru/index.md): Bhutan; Dexterity and skill games; Age of Contact and Craft
 - [Kite fighting](../../games/788-kite-fighting/index.md): India, Pakistan; Dexterity and skill games; Classical Worlds
+- [Kongzhu](../../games/5289-kongzhu/index.md): China; Dexterity and skill games; Modern Heritage
 - [Lafo](../../games/1150-lafo/index.md): Tonga; Dexterity and skill games; Deep Past and First Games
 - [Marbles](../../games/650-marbles/index.md): Cuba, Jamaica; Dexterity and skill games; Deep Past and First Games
 - [Marshallese string figures](../../games/926-marshallese-string-figures/index.md): Marshall Islands; Dexterity and skill games; Deep Past and First Games
+- [Miniature golf](../../games/22333-miniature-golf/index.md): United Kingdom, United States; Dexterity and skill games; Modern Heritage
 - [Ordo](../../games/870-ordo/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
 - [Palauan string figures](../../games/1007-palauan-string-figures/index.md): Palau; Dexterity and skill games; Deep Past and First Games
+- [Perch](../../games/22335-perch/index.md): Worldwide; Dexterity and skill games; Modern Heritage
 - [Perinola](../../games/1212-perinola/index.md): Venezuela; Dexterity and skill games; Modern Heritage
 - [Pitch and toss](../../games/822-pitch-and-toss/index.md): Ireland; Dexterity and skill games; Modern Heritage
 - [Rana](../../games/645-rana/index.md): Colombia; Dexterity and skill games; Modern Heritage
@@ -136,6 +141,7 @@ count: 127
 - [Solomon string figures](../../games/1075-solomon-string-figures/index.md): Solomon Islands; Dexterity and skill games; Deep Past and First Games
 - [Street](../../games/1052-street/index.md): Saint Vincent and the Grenadines, Grenada; Dexterity and skill games; Deep Past and First Games
 - [Thai pebbles](../../games/1140-thai-pebbles/index.md): Thailand; Dexterity and skill games; Deep Past and First Games
+- [Ttakji-ssaum](../../games/14067-ttakji-ssaum/index.md): South Korea; Dexterity and skill games; Classical Worlds
 - [Whai](../../games/982-whai/index.md): New Zealand; Dexterity and skill games; Deep Past and First Games
 - [Yo-yo](../../games/696-yo-yo/index.md): El Salvador, Nicaragua; Dexterity and skill games; Modern Heritage
 - [Zarzir](../../games/1010-zarzir/index.md): Palestine; Dexterity and skill games; Deep Past and First Games

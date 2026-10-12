@@ -37,12 +37,12 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
+- [Jackstraws](../../games/14110-jackstraws/index.md)
 - [Zarzir](../../games/1010-zarzir/index.md)
 - [Mheibes](../../games/158-mheibes/index.md)
 - [Al-Jazari water-clock contraptions](../../games/237-al-jazari-water-clock-contraptions/index.md)
 - [Sho](../../games/286-sho/index.md)
 - [Liubo](../../games/331-liubo/index.md)
-- [E-sugoroku](../../games/348-e-sugoroku/index.md)
 
 ## Sources
 

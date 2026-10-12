@@ -1,16 +1,16 @@
 ---
 title: "Crafts and making"
-description: "256 traditions of this kind."
+description: "263 traditions of this kind."
 path: "/types/craft/"
-count: 256
+count: 263
 ---
 # Crafts and making
 
-256 traditions of this kind.
+263 traditions of this kind.
 
 
 
-256 entries.
+263 entries.
 
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md): Ghana, Cote d'Ivoire; Crafts and making; Living Traditions
 - [Adire indigo resist dyeing](../../games/87-adire-indigo-resist-dyeing/index.md): Nigeria; Crafts and making; Living Traditions
@@ -22,6 +22,7 @@ count: 256
 - [Allo nettle fibre weaving](../../games/1228-allo-nettle-fibre-weaving/index.md): Nepal; Crafts and making; Living Traditions
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md): Morocco; Crafts and making; Living Traditions
 - [Ambalangoda mask carving](../../games/299-ambalangoda-mask-carving/index.md): Sri Lanka; Crafts and making; Living Traditions
+- [American patchwork quilting](../../games/6356-american-patchwork-quilting/index.md): United States; Crafts and making; Living Traditions
 - [Antaimoro flower paper](../../games/1229-antaimoro-flower-paper/index.md): Madagascar; Crafts and making; Living Traditions
 - [Aqal Somali](../../games/190-aqal-somali/index.md): Somalia; Crafts and making; Living Traditions
 - [Aranmula metal mirror](../../games/285-aranmula-metal-mirror/index.md): Worldwide; Crafts and making; Living Traditions
@@ -54,11 +55,13 @@ count: 256
 - [Bojagi](../../games/363-bojagi/index.md): South Korea; Crafts and making; Living Traditions
 - [Bolesławiec Stamped Pottery](../../games/1244-bolesawiec-stamped-pottery/index.md): Poland; Crafts and making; Living Traditions
 - [Bolga Basket Weaver](../../games/1245-bolga-basket-weaver/index.md): Ghana; Crafts and making; Living Traditions
+- [Bonsai](../../games/5376-bonsai/index.md): Japan; Crafts and making; Living Traditions
 - [Botswana coil basket weaving](../../games/208-botswana-coil-basket-weaving/index.md): Worldwide; Crafts and making; Living Traditions
 - [Buganda barkcloth making](../../games/1249-buganda-barkcloth-making/index.md): Uganda; Crafts and making; Living Traditions
 - [Bulgarian Painted Pottery](../../games/1388-bulgarian-painted-pottery/index.md): Bulgaria; Crafts and making; Living Traditions
 - [Burmese lacquerware engraving](../../games/310-burmese-lacquerware-engraving/index.md): Myanmar; Crafts and making; Living Traditions
 - [Caballito de totora](../../games/1442-caballito-de-totora/index.md): Peru; Crafts and making; Living Traditions
+- [Calligraphy](../../games/6621-calligraphy/index.md): China; Crafts and making; Living Traditions
 - [Cantonese opera role maker](../../games/370-cantonese-opera-role-maker/index.md): Worldwide; Crafts and making; Living Traditions
 - [Capulana wrap cloth printing and tying](../../games/204-capulana-wrap-cloth-printing-and-tying/index.md): Mozambique; Crafts and making; Living Traditions
 - [Celtic knot weave](../../games/25-celtic-knot-weave/index.md): Ireland, United Kingdom; Crafts and making; Living Traditions
@@ -134,6 +137,7 @@ count: 256
 - [Khayamiya Tentmaker Applique](../../games/217-khayamiya-tentmaker-applique/index.md): Egypt; Crafts and making; Living Traditions
 - [Khinkali dumpling pleating](../../games/246-khinkali-dumpling-pleating/index.md): Georgia; Crafts and making; Living Traditions
 - [Khokhloma Pattern Painting](../../games/102-khokhloma-pattern-painting/index.md): Russia; Crafts and making; Living Traditions
+- [Kintsugi](../../games/5371-kintsugi/index.md): Japan; Crafts and making; Living Traditions
 - [Kiondo basket weaving](../../games/194-kiondo-basket-weaving/index.md): Kenya; Crafts and making; Living Traditions
 - [Kira and Kushuthara backstrap weaving](../../games/1312-kira-and-kushuthara-backstrap-weaving/index.md): Bhutan; Crafts and making; Living Traditions
 - [Kisii soapstone carving](../../games/195-kisii-soapstone-carving/index.md): Worldwide; Crafts and making; Living Traditions
@@ -212,6 +216,7 @@ count: 256
 - [Pirot Kilim Weaver](../../games/1361-pirot-kilim-weaver/index.md): Serbia; Crafts and making; Living Traditions
 - [Plis Cap Felter](../../games/1362-plis-cap-felter/index.md): Albania, Kosovo; Crafts and making; Living Traditions
 - [Pollera and Tembleques](../../games/1480-pollera-and-tembleques/index.md): Panama; Crafts and making; Living Traditions
+- [Pottery](../../games/6593-pottery/index.md): Worldwide; Crafts and making; Living Traditions
 - [Pupusa Maker](../../games/1482-pupusa-maker/index.md): El Salvador; Crafts and making; Living Traditions
 - [Qamariya Gypsum Window Designer](../../games/1368-qamariya-gypsum-window-designer/index.md): Yemen; Crafts and making; Living Traditions
 - [Ralli patchwork quilt](../../games/1364-ralli-patchwork-quilt/index.md): Pakistan, India; Crafts and making; Living Traditions
@@ -268,3 +273,5 @@ count: 256
 - [Wire car](../../games/85-wire-car/index.md): Worldwide; Crafts and making; Living Traditions
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md): Morocco; Crafts and making; Living Traditions
 - [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md): South Africa; Crafts and making; Living Traditions
+- [Kolam](../../games/22332-kolam/index.md): India; Crafts and making; Living Traditions
+- [World Weave](../../games/22347-world-weave/index.md): Worldwide; Crafts and making; Modern Heritage

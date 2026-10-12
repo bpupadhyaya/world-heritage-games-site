@@ -27,7 +27,7 @@ count: 24
 - [Pitch-pot](../../games/2-pitch-pot/index.md): China, South Korea; Dexterity and skill games; Modern Heritage
 - [Pub darts](../../games/1182-pub-darts/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
 - [Tejo](../../games/57-tejo/index.md): Colombia; Archery, throwing and target games; Modern Heritage
-- [Archery](../../games/591-archery/index.md): Bhutan; Street and playground games; Classical Worlds
+- [Archery](../../games/591-archery/index.md): Bhutan; Archery, throwing and target games; Classical Worlds
 - [Boċċi](../../games/922-bocci/index.md): Malta; Street and playground games; Classical Worlds
 - [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
 - [Glass marbles](../../games/685-glass-marbles/index.md): Ecuador; Dexterity and skill games; Deep Past and First Games

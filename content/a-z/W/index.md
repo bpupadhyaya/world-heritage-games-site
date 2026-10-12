@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with W"
-description: "17 entries beginning with W."
+description: "19 entries beginning with W."
 path: "/a-z/W/"
 ---
 # Entries beginning with W
@@ -22,3 +22,5 @@ path: "/a-z/W/"
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
 - [Wire car](../../games/85-wire-car/index.md): Worldwide; Crafts and making; Living Traditions
 - [Woggabaliri](../../games/561-woggabaliri/index.md): Australia; Street and playground games; Modern Heritage
+- [Word Game](../../games/22346-word-game/index.md): Worldwide; Puzzles and mind games; Modern Heritage
+- [World Weave](../../games/22347-world-weave/index.md): Worldwide; Crafts and making; Modern Heritage

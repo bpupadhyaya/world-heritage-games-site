@@ -1,19 +1,20 @@
 ---
 title: "Japan"
-description: "43 traditions from Japan."
+description: "51 traditions from Japan."
 path: "/countries/japan/"
-count: 43
+count: 51
 ---
 # Japan
 
-43 traditions from Japan.
+51 traditions from Japan.
 
 
 
-43 entries.
+51 entries.
 
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Blacksmith's Forge](../../games/506-blacksmiths-forge/index.md): United Kingdom, Germany; Crafts and making; Living Traditions
+- [Bonsai](../../games/5376-bonsai/index.md): Japan; Crafts and making; Living Traditions
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md): China, South Korea; Puzzles and mind games; Classical Worlds
 - [Dumpling Pleating](../../games/499-dumpling-pleating/index.md): China, Nepal; Crafts and making; Living Traditions
@@ -31,6 +32,7 @@ count: 43
 - [Karesansui](../../games/95-karesansui/index.md): Japan; Crafts and making; Living Traditions
 - [Kendama](../../games/850-kendama/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md): Japan; Dexterity and skill games; Modern Heritage
+- [Kintsugi](../../games/5371-kintsugi/index.md): Japan; Crafts and making; Living Traditions
 - [Kokeshi doll painting](../../games/355-kokeshi-doll-painting/index.md): Japan; Crafts and making; Living Traditions
 - [Kumihimo Braid Disk](../../games/107-kumihimo-braid-disk/index.md): Japan; Crafts and making; Living Traditions
 - [Kumiko lattice](../../games/97-kumiko-lattice/index.md): Japan; Crafts and making; Living Traditions
@@ -49,9 +51,15 @@ count: 43
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md): Japan, India; Crafts and making; Living Traditions
 - [Shogi](../../games/852-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Sumo bout](../../games/359-sumo-bout/index.md): Japan; Wrestling and martial sports; River Valleys and First Cities
+- [Taiko](../../games/5367-taiko/index.md): Japan; Musical instruments; Living Traditions
 - [Takoyaki-style ball flipping](../../games/352-takoyaki-style-ball-flipping/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Tatami room tiling puzzle](../../games/356-tatami-room-tiling-puzzle/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Temari Thread-Ball Patterns](../../games/96-temari-thread-ball-patterns/index.md): Japan; Crafts and making; Living Traditions
 - [Tsugaru Shamisen](../../games/1489-tsugaru-shamisen/index.md): Japan; Musical instruments; Crossroads and Golden Ages
 - [Ukiyo-e Woodblock Printing](../../games/1490-ukiyo-e-woodblock-printing/index.md): Japan; Crafts and making; Living Traditions
 - [Yukigassen Snow Fort](../../games/71-yukigassen-snow-fort/index.md): Japan; Water and winter sports; Modern Heritage
+- [Baseball](../../games/22323-baseball/index.md): United States, Cuba; Bat-and-ball games; Modern Heritage
+- [Reversi](../../games/22336-reversi/index.md): United Kingdom, Japan; Board and table games; Crossroads and Golden Ages
+- [Soroban](../../games/22319-soroban/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Sudoku](../../games/22340-sudoku/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Volleyball](../../games/22345-volleyball/index.md): United States, Brazil; Team ball sports; Modern Heritage

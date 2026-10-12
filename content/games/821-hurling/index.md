@@ -41,7 +41,7 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Play it
 
-[About the game](https://bpupadhyaya.github.io/games-site/games/hurling-sliotar-dash/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Web preview](https://bpupadhyaya.github.io/games-site/games/hurling-sliotar-dash/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
@@ -49,5 +49,5 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Water Jousting](../../games/393-water-jousting/index.md)
 - [Racing Pigeon Loft](../../games/411-racing-pigeon-loft/index.md)
 - [Highland Bagpipe Chanter and Drone](../../games/510-highland-bagpipe-chanter-and-drone/index.md)
+- [Shinny](../../games/725-shinny/index.md)
 - [Chogan](../../games/810-chogan/index.md)
-- [Chovqan](../../games/565-chovqan/index.md)

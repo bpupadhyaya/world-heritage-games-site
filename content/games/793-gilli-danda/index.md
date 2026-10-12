@@ -39,6 +39,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - **Region:** South and Central Asia
 - **Players:** 2+
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/games-site/games/gilli-danda-stick-and-peg/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Lapta](../../games/375-lapta/index.md)
@@ -46,7 +50,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Stoolball](../../games/492-stoolball/index.md)
 - [Four Corners](../../games/652-four-corners/index.md)
 - [Rounders](../../games/761-rounders/index.md)
-- [Kho-Kho](../../games/15-kho-kho/index.md)
+- [Vitti Dandu](../../games/9804-vitti-dandu/index.md)
 
 ## Sources
 

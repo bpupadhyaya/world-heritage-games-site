@@ -35,14 +35,18 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - **Region:** East and Southeast Asia
 - **Players:** 2
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/games-site/games/renju-omok-five-row/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Gayageum](../../games/361-gayageum/index.md)
 - [Gomoku and Renju](../../games/847-gomoku-and-renju/index.md)
 - [Baduk](../../games/1084-baduk/index.md)
 - [Geomungo](../../games/1453-geomungo/index.md)
-- [Shakuhachi](../../games/349-shakuhachi/index.md)
-- [Duo](../../games/838-duo/index.md)
+- [Juldarigi](../../games/2772-juldarigi/index.md)
+- [Ttakji-ssaum](../../games/14067-ttakji-ssaum/index.md)
 
 ## Sources
 

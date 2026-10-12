@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with T"
-description: "88 entries beginning with T."
+description: "95 entries beginning with T."
 path: "/a-z/T/"
 ---
 # Entries beginning with T
@@ -8,11 +8,14 @@ path: "/a-z/T/"
 - [Tab](../../games/694-tab/index.md): Egypt; Board and table games; River Valleys and First Cities
 - [Taba](../../games/594-taba/index.md): Bolivia, Bulgaria; Board and table games; Deep Past and First Games
 - [Table](../../games/1044-table/index.md): Romania, Moldova; Board and table games; River Valleys and First Cities
+- [Table football](../../games/5250-table-football/index.md): Spain; Team ball sports; Crossroads and Golden Ages
 - [Table shuffleboard](../../games/1199-table-shuffleboard/index.md): United States; Dexterity and skill games; Modern Heritage
+- [Table tennis](../../games/22342-table-tennis/index.md): United Kingdom, China; Bat-and-ball games; Age of Contact and Craft
 - [Taco bat game](../../games/655-taco-bat-game/index.md): Cuba; Street and playground games; Age of Contact and Craft
 - [Tafl](../../games/995-tafl/index.md): Norway, Sweden; Board and table games; Crossroads and Golden Ages
 - [Tag](../../games/959-tag/index.md): Myanmar; Street and playground games; Deep Past and First Games
 - [Tahtib](../../games/157-tahtib/index.md): Egypt; Dances; Living Traditions
+- [Taiko](../../games/5367-taiko/index.md): Japan; Musical instruments; Living Traditions
 - [Tais](../../games/321-tais/index.md): Timor-Leste; Crafts and making; Living Traditions
 - [Taiwanese mahjong](../../games/1131-taiwanese-mahjong/index.md): Taiwan; Board and table games; Crossroads and Golden Ages
 - [Takienta Tower-House Builder](../../games/1383-takienta-tower-house-builder/index.md): Togo; Crafts and making; Living Traditions
@@ -51,6 +54,7 @@ path: "/a-z/T/"
 - [Thai fruit and vegetable carving](../../games/114-thai-fruit-and-vegetable-carving/index.md): Thailand; Crafts and making; Living Traditions
 - [Thai pebbles](../../games/1140-thai-pebbles/index.md): Thailand; Dexterity and skill games; Deep Past and First Games
 - [Thanjavur dancing doll](../../games/275-thanjavur-dancing-doll/index.md): India; Toys; Modern Heritage
+- [The Road to Lanka](../../games/22330-the-road-to-lanka/index.md): India, Sri Lanka; Performance and storytelling; Modern Heritage
 - [Thin Hama](../../games/918-thin-hama/index.md): Maldives; Board and table games; River Valleys and First Cities
 - [Thung chai basket-boat spinning](../../games/308-thung-chai-basket-boat-spinning/index.md): Vietnam; Racing; Age of Contact and Craft
 - [Tiebele House Painting](../../games/174-tiebele-house-painting/index.md): Burkina Faso; Crafts and making; Living Traditions
@@ -70,6 +74,8 @@ path: "/a-z/T/"
 - [Toquilla straw hat weaving](../../games/93-toquilla-straw-hat-weaving/index.md): Ecuador; Crafts and making; Living Traditions
 - [Tractor pull](../../games/440-tractor-pull/index.md): United States, Canada; Puzzles and mind games; Modern Heritage
 - [Traditional contests at Micronesian Games](../../games/937-traditional-contests-at-micronesian-games/index.md): Micronesia; Street and playground games; Modern Heritage
+- [Traditional dhow sail racing](../../games/6768-traditional-dhow-sail-racing/index.md): United Arab Emirates; Racing; Age of Contact and Craft
+- [Traditional football](../../games/10068-traditional-football/index.md): United Kingdom; Team ball sports; Modern Heritage
 - [Traditional wrestling](../../games/619-traditional-wrestling/index.md): Cameroon; Street and playground games; River Valleys and First Cities
 - [Trânta](../../games/1386-tranta/index.md): Moldova, Romania; Wrestling and martial sports; River Valleys and First Cities
 - [Tree-pull contest](../../games/710-tree-pull-contest/index.md): Fiji; Street and playground games; Modern Heritage
@@ -80,6 +86,7 @@ path: "/a-z/T/"
 - [Tsoro](../../games/1222-tsoro/index.md): Zimbabwe; Board and table games; Deep Past and First Games
 - [Tsoro Yematatu](../../games/196-tsoro-yematatu/index.md): Zimbabwe; Board and table games; River Valleys and First Cities
 - [Tsugaru Shamisen](../../games/1489-tsugaru-shamisen/index.md): Japan; Musical instruments; Crossroads and Golden Ages
+- [Ttakji-ssaum](../../games/14067-ttakji-ssaum/index.md): South Korea; Dexterity and skill games; Classical Worlds
 - [Tuareg Tea](../../games/1390-tuareg-tea/index.md): Niger; Crafts and making; Living Traditions
 - [Tuho](../../games/1089-tuho/index.md): South Korea; Dexterity and skill games; Modern Heritage
 - [Tuk Band](../../games/1438-tuk-band/index.md): Barbados; Other traditions; Classical Worlds

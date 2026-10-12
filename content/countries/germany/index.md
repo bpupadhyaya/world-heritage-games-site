@@ -1,19 +1,20 @@
 ---
 title: "Germany"
-description: "17 traditions from Germany."
+description: "18 traditions from Germany."
 path: "/countries/germany/"
-count: 17
+count: 18
 ---
 # Germany
 
-17 traditions from Germany.
+18 traditions from Germany.
 
 
 
-17 entries.
+18 entries.
 
 - [Black Forest Cuckoo Clock Workshop](../../games/409-black-forest-cuckoo-clock-workshop/index.md): Germany; Crafts and making; Living Traditions
 - [Blacksmith's Forge](../../games/506-blacksmiths-forge/index.md): United Kingdom, Germany; Crafts and making; Living Traditions
+- [Chinese Checkers](../../games/8870-chinese-checkers/index.md): Germany; Board and table games; Deep Past and First Games
 - [Circle Dodgeball](../../games/470-circle-dodgeball/index.md): Brazil, Germany; Archery, throwing and target games; Classical Worlds
 - [Clockwork Movement Builder](../../games/502-clockwork-movement-builder/index.md): Germany, Switzerland; Puzzles and mind games; Modern Heritage
 - [Don't Get Angry](../../games/744-dont-get-angry/index.md): Germany; Board and table games; River Valleys and First Cities

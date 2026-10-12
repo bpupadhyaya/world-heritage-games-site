@@ -11,7 +11,7 @@ countries: ["Cuba", "Jamaica", "Barbados", "Dominica", "Saint Kitts and Nevis", 
 ---
 # Marbles
 
-*Also known as: Las Bolas*
+*Also known as: Las Bolas · Kancha · Kelereng · Billes · Canicas*
 
 **Encyclopedia ID 650** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/650-marbles/
 
@@ -34,6 +34,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - **Cradle:** [The Americas: Caribbean](../../cradles/caribbean/index.md)
 - **Region:** Americas
 - **Players:** 2+
+
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/games-site/games/marbles-ring-and-shoot/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 

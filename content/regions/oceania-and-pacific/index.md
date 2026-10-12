@@ -1,18 +1,19 @@
 ---
 title: "Oceania and Pacific"
-description: "50 entries."
+description: "51 entries."
 path: "/regions/oceania-and-pacific/"
-count: 50
+count: 51
 ---
 # Oceania and Pacific
 
-50 entries.
+51 entries.
 
 
 
-50 entries.
+51 entries.
 
 - [Axemen woodchop](../../games/1232-axemen-woodchop/index.md): Australia; Other traditions; Modern Heritage
+- [Backyard cricket](../../games/559-backyard-cricket/index.md): Australia; Street and playground games; Age of Contact and Craft
 - [Beach flags](../../games/446-beach-flags/index.md): Australia; Racing; Age of Contact and Craft
 - [Billycart derby](../../games/445-billycart-derby/index.md): Australia; Racing; Age of Contact and Craft
 - [Bilum looped string bag](../../games/1242-bilum-looped-string-bag/index.md): Papua New Guinea; Crafts and making; Living Traditions

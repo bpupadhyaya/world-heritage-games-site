@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with C"
-description: "78 entries beginning with C."
+description: "83 entries beginning with C."
 path: "/a-z/C/"
 ---
 # Entries beginning with C
@@ -9,6 +9,7 @@ path: "/a-z/C/"
 - [Cacho](../../games/595-cacho/index.md): Bolivia, Chile; Board and table games; River Valleys and First Cities
 - [Cafe dominoes](../../games/690-cafe-dominoes/index.md): Egypt; Board and table games; Crossroads and Golden Ages
 - [Calabash Water Drum](../../games/180-calabash-water-drum/index.md): Niger, Nigeria; Musical instruments; Living Traditions
+- [Calligraphy](../../games/6621-calligraphy/index.md): China; Crafts and making; Living Traditions
 - [Canal pole vault](../../games/7-canal-pole-vault/index.md): Netherlands; Water and winter sports; Modern Heritage
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md): United Kingdom, Canada; Dexterity and skill games; Age of Contact and Craft
 - [Cantabrian palm bowling](../../games/1096-cantabrian-palm-bowling/index.md): Spain; Street and playground games; Age of Contact and Craft
@@ -41,6 +42,7 @@ path: "/a-z/C/"
 - [Chilean Rayuela](../../games/1427-chilean-rayuela/index.md): Chile; Archery, throwing and target games; Modern Heritage
 - [Chinampa Gardens](../../games/1444-chinampa-gardens/index.md): Mexico; Crafts and making; Living Traditions
 - [Chinchinero Drum Walk](../../games/1406-chinchinero-drum-walk/index.md): Chile; Performance and storytelling; Modern Heritage
+- [Chinese Checkers](../../games/8870-chinese-checkers/index.md): Germany; Board and table games; Deep Past and First Games
 - [Chinese knotting](../../games/26-chinese-knotting/index.md): China; Crafts and making; Living Traditions
 - [Chinlone](../../games/16-chinlone/index.md): Myanmar; Dexterity and skill games; Modern Heritage
 - [Chogan](../../games/810-chogan/index.md): Iran; Street and playground games; Classical Worlds
@@ -67,11 +69,14 @@ path: "/a-z/C/"
 - [Congklak](../../games/803-congklak/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
 - [Cornhole](../../games/1194-cornhole/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Costa Rican painted oxcart](../../games/427-costa-rican-painted-oxcart/index.md): Costa Rica; Crafts and making; Living Traditions
+- [Cricket](../../games/22343-cricket/index.md): United Kingdom, India; Bat-and-ball games; Age of Contact and Craft
 - [Crokinole](../../games/623-crokinole/index.md): Canada; Dexterity and skill games; Modern Heritage
 - [Croquet](../../games/81-croquet/index.md): United Kingdom, Ireland; Board and table games; Crossroads and Golden Ages
 - [Cross-Stitch Pattern Weaving](../../games/103-cross-stitch-pattern-weaving/index.md): Ukraine; Crafts and making; Living Traditions
 - [Crossbow shooting](../../games/1058-crossbow-shooting/index.md): San Marino; Street and playground games; Modern Heritage
 - [Crossbow Target Match](../../games/1367-crossbow-target-match/index.md): Italy, San Marino; Dexterity and skill games; Modern Heritage
+- [Crossword](../../games/22326-crossword/index.md): United Kingdom, United States; Puzzles and mind games; Modern Heritage
+- [Crown Fields](../../games/22327-crown-fields/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Cuban dominoes](../../games/653-cuban-dominoes/index.md): Cuba; Board and table games; Crossroads and Golden Ages
 - [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md): Indonesia; Street and playground games; Modern Heritage
 - [Cueca](../../games/430-cueca/index.md): Chile, Bolivia; Dances; Living Traditions

@@ -42,10 +42,10 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Leaded Glass Window Making](../../games/501-leaded-glass-window-making/index.md)
 - [Ukiyo-e Woodblock Printing](../../games/1490-ukiyo-e-woodblock-printing/index.md)
+- [Kintsugi](../../games/5371-kintsugi/index.md)
 - [Goryeo Celadon Inlay](../../games/1455-goryeo-celadon-inlay/index.md)
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
 - [Swahili carved door](../../games/90-swahili-carved-door/index.md)
-- [Thai fruit and vegetable carving](../../games/114-thai-fruit-and-vegetable-carving/index.md)
 
 ## Sources
 

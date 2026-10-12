@@ -42,10 +42,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Sepak takraw](../../games/802-sepak-takraw/index.md)
 - [Chapteh shuttlecock](../../games/1066-chapteh-shuttlecock/index.md)
+- [Traditional football](../../games/10068-traditional-football/index.md)
+- [American football](../../games/22320-american-football/index.md)
+- [Badminton](../../games/22322-badminton/index.md)
 - [Hose-Run Fire Sport](../../games/1281-hose-run-fire-sport/index.md)
-- [Kiiking](../../games/66-kiiking/index.md)
-- [Nail driving](../../games/82-nail-driving/index.md)
-- [Cuju](../../games/333-cuju/index.md)
 
 ## Sources
 

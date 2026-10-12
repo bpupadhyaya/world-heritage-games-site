@@ -1,16 +1,16 @@
 ---
 title: "Paper, ink and painting crafts"
-description: "87 related traditions."
+description: "89 related traditions."
 path: "/families/paper-ink/"
-count: 87
+count: 89
 ---
 # Paper, ink and painting crafts
 
-87 related traditions.
+89 related traditions.
 
 
 
-87 entries.
+89 entries.
 
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md): Ghana, Cote d'Ivoire; Crafts and making; Living Traditions
 - [Ajrak block printing](../../games/1226-ajrak-block-printing/index.md): Pakistan; Crafts and making; Living Traditions
@@ -27,6 +27,7 @@ count: 87
 - [Bo Sang umbrella painting](../../games/1243-bo-sang-umbrella-painting/index.md): Thailand; Crafts and making; Living Traditions
 - [Bogolan mud cloth](../../games/86-bogolan-mud-cloth/index.md): Mali; Crafts and making; Living Traditions
 - [Bojagi](../../games/363-bojagi/index.md): South Korea; Crafts and making; Living Traditions
+- [Calligraphy](../../games/6621-calligraphy/index.md): China; Crafts and making; Living Traditions
 - [Cantonese opera role maker](../../games/370-cantonese-opera-role-maker/index.md): Worldwide; Crafts and making; Living Traditions
 - [Capulana wrap cloth printing and tying](../../games/204-capulana-wrap-cloth-printing-and-tying/index.md): Mozambique; Crafts and making; Living Traditions
 - [Cheongsam Tailor Shop](../../games/1462-cheongsam-tailor-shop/index.md): China; Crafts and making; Living Traditions
@@ -99,3 +100,4 @@ count: 87
 - [Tingatinga painting](../../games/183-tingatinga-painting/index.md): Tanzania; Crafts and making; Living Traditions
 - [Warli painting](../../games/117-warli-painting/index.md): India; Crafts and making; Living Traditions
 - [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md): South Africa; Crafts and making; Living Traditions
+- [Kolam](../../games/22332-kolam/index.md): India; Crafts and making; Living Traditions

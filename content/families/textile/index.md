@@ -1,22 +1,23 @@
 ---
 title: "Textile and weaving crafts"
-description: "64 related traditions."
+description: "66 related traditions."
 path: "/families/textile/"
-count: 64
+count: 66
 ---
 # Textile and weaving crafts
 
-64 related traditions.
+66 related traditions.
 
 
 
-64 entries.
+66 entries.
 
 - [Adire indigo resist dyeing](../../games/87-adire-indigo-resist-dyeing/index.md): Nigeria; Crafts and making; Living Traditions
 - [Agaseke basket weaving](../../games/89-agaseke-basket-weaving/index.md): Rwanda; Crafts and making; Living Traditions
 - [Al Talli Braid Embroidery](../../games/1273-al-talli-braid-embroidery/index.md): United Arab Emirates; Crafts and making; Living Traditions
 - [Allo nettle fibre weaving](../../games/1228-allo-nettle-fibre-weaving/index.md): Nepal; Crafts and making; Living Traditions
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md): Morocco; Crafts and making; Living Traditions
+- [American patchwork quilting](../../games/6356-american-patchwork-quilting/index.md): United States; Crafts and making; Living Traditions
 - [Bandhani tie-dye](../../games/258-bandhani-tie-dye/index.md): India; Crafts and making; Living Traditions
 - [Banig mat weaving](../../games/1236-banig-mat-weaving/index.md): Philippines; Crafts and making; Living Traditions
 - [Batik wax-resist pattern studio](../../games/105-batik-wax-resist-pattern-studio/index.md): Indonesia, Malaysia; Crafts and making; Living Traditions
@@ -76,3 +77,4 @@ count: 64
 - [Tatreez Palestinian Cross-Stitch](../../games/212-tatreez-palestinian-cross-stitch/index.md): Palestine, Lebanon; Crafts and making; Living Traditions
 - [Toquilla straw hat weaving](../../games/93-toquilla-straw-hat-weaving/index.md): Ecuador; Crafts and making; Living Traditions
 - [Turkmen gul carpet](../../games/249-turkmen-gul-carpet/index.md): Turkmenistan; Crafts and making; Living Traditions
+- [World Weave](../../games/22347-world-weave/index.md): Worldwide; Crafts and making; Modern Heritage

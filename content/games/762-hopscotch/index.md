@@ -7,11 +7,11 @@ type: "dexterity"
 family: "puzzle-dexterity"
 era: "deep-past"
 cradle: "caribbean"
-countries: ["Haiti", "Honduras", "Nicaragua", "Panama", "Guyana", "Suriname"]
+countries: ["Haiti", "Honduras", "Nicaragua", "Panama", "Guyana", "Suriname", "Argentina", "Chile", "Spain"]
 ---
 # Hopscotch
 
-*Also known as: Marèl*
+*Also known as: Marèl · Rayuela*
 
 **Encyclopedia ID 762** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/762-hopscotch/
 
@@ -31,13 +31,17 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 ## Facts
 
-- **Where:** Haiti, Honduras, Nicaragua, Panama, Guyana, Suriname
+- **Where:** Haiti, Honduras, Nicaragua, Panama, Guyana, Suriname, Argentina, Chile, Spain
 - **Type:** Dexterity and skill games
 - **Family:** Puzzle and dexterity toys
 - **Era:** [Deep Past and First Games](../../eras/deep-past/index.md) (uncertain)
 - **Cradle:** [The Americas: Caribbean](../../cradles/caribbean/index.md)
 - **Region:** Americas
 - **Players:** 2+
+
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/games-site/games/rayuela-hop/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 

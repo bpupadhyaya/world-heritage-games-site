@@ -1,16 +1,16 @@
 ---
 title: "Iran"
-description: "15 traditions from Iran."
+description: "16 traditions from Iran."
 path: "/countries/iran/"
-count: 15
+count: 16
 ---
 # Iran
 
-15 traditions from Iran.
+16 traditions from Iran.
 
 
 
-15 entries.
+16 entries.
 
 - [Astrolabe: reading the sky](../../games/236-astrolabe-reading-the-sky/index.md): Iran; Toys; Modern Heritage
 - [Badgir windcatcher cooling puzzle](../../games/229-badgir-windcatcher-cooling-puzzle/index.md): Iran; Crafts and making; Living Traditions
@@ -27,3 +27,4 @@ count: 15
 - [Tombak goblet drum rhythms](../../games/233-tombak-goblet-drum-rhythms/index.md): Iran; Musical instruments; Living Traditions
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
 - [Zurkhaneh strength rhythm](../../games/227-zurkhaneh-strength-rhythm/index.md): Iran; Dexterity and skill games; Modern Heritage
+- [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md): China, Uzbekistan; Other traditions; Classical Worlds

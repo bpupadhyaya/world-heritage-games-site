@@ -1,18 +1,22 @@
 ---
 title: "Kicking and football games"
-description: "4 related traditions."
+description: "8 related traditions."
 path: "/families/football/"
-count: 4
+count: 8
 ---
 # Kicking and football games
 
-4 related traditions.
+8 related traditions.
 
 
 
-4 entries.
+8 entries.
 
 - [Cuju](../../games/333-cuju/index.md): China; Dexterity and skill games; Classical Worlds
 - [Nohejbal](../../games/378-nohejbal/index.md): Czechia; Team ball sports; Modern Heritage
 - [Sepak takraw](../../games/802-sepak-takraw/index.md): Indonesia, Malaysia; Street and playground games; Modern Heritage
+- [American football](../../games/22320-american-football/index.md): United States; Team ball sports; Modern Heritage
+- [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
 - [Chapteh shuttlecock](../../games/1066-chapteh-shuttlecock/index.md): Singapore; Dexterity and skill games; Modern Heritage
+- [Table football](../../games/5250-table-football/index.md): Spain; Team ball sports; Crossroads and Golden Ages
+- [Traditional football](../../games/10068-traditional-football/index.md): United Kingdom; Team ball sports; Modern Heritage

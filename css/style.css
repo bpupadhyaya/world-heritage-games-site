@@ -206,7 +206,7 @@ main{display:block;min-height:60vh}
 .prose table{border-collapse:collapse;width:100%}.prose td,.prose th{border-bottom:1px solid var(--rule);padding:.4rem .5rem;text-align:left}
 .tablewrap{overflow-x:auto}
 .note{border-left:4px solid var(--era);padding:.4rem 0 .4rem 1rem;color:var(--ink-2)}
-.play{margin:1rem 0}
+.play{margin:1rem 0} .play p{display:flex;flex-wrap:wrap;gap:.5rem} .btn.soon{opacity:.55;cursor:default} .card .playable{display:inline-block;margin-top:.35rem;font:600 .72rem var(--sans);letter-spacing:.02em;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:.1rem .5rem}
 /* footer */
 .site-footer{border-top:1px solid var(--ftr-line);background:var(--ftr-bg);padding-block:2.5rem;margin-top:3rem;font-size:.9rem;color:var(--ftr-ink)}
 .site-footer a{color:var(--ftr-link)}

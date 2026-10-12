@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with V"
-description: "10 entries beginning with V."
+description: "12 entries beginning with V."
 path: "/a-z/V/"
 ---
 # Entries beginning with V
@@ -15,3 +15,5 @@ path: "/a-z/V/"
 - [Venetian lagoon regatta](../../games/486-venetian-lagoon-regatta/index.md): Italy; Racing; Age of Contact and Craft
 - [Vietnamese xiangqi](../../games/1215-vietnamese-xiangqi/index.md): Vietnam; Board and table games; Crossroads and Golden Ages
 - [Village rugby league](../../games/1013-village-rugby-league/index.md): Papua New Guinea; Street and playground games; Modern Heritage
+- [Vitti Dandu](../../games/9804-vitti-dandu/index.md): India; Bat-and-ball games; Age of Contact and Craft
+- [Volleyball](../../games/22345-volleyball/index.md): United States, Brazil; Team ball sports; Modern Heritage

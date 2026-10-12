@@ -2,7 +2,7 @@
 title: "Crossroads and Golden Ages"
 description: "Along the Silk Road and the sea lanes, games, instruments and crafts travelled and changed."
 path: "/eras/crossroads/"
-count: 125
+count: 131
 ---
 # Crossroads and Golden Ages
 
@@ -10,7 +10,7 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 
 
 
-125 entries.
+131 entries.
 
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
 - [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md): Afghanistan; Musical instruments; Crossroads and Golden Ages
@@ -32,6 +32,7 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 - [Daldøs](../../games/458-dalds/index.md): Denmark, Norway; Board and table games; Crossroads and Golden Ages
 - [Dalgona](../../games/100-dalgona/index.md): South Korea; Dexterity and skill games; Crossroads and Golden Ages
 - [Dombra](../../games/48-dombra/index.md): Kazakhstan; Musical instruments; Crossroads and Golden Ages
+- [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md): China; Racing; Crossroads and Golden Ages
 - [Dranyen](../../games/300-dranyen/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Floating market trader](../../games/315-floating-market-trader/index.md): Thailand; Board and table games; Crossroads and Golden Ages
@@ -45,6 +46,7 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 - [Italian draughts](../../games/834-italian-draughts/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Kharbaga](../../games/459-kharbaga/index.md): Morocco; Board and table games; Crossroads and Golden Ages
 - [Komuz](../../games/242-komuz/index.md): Kyrgyzstan; Musical instruments; Crossroads and Golden Ages
+- [Kōnane](../../games/961-konane/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Ladu](../../games/674-ladu/index.md): Djibouti, Somalia; Board and table games; Crossroads and Golden Ages
 - [Lake Assal salt harvest](../../games/1321-lake-assal-salt-harvest/index.md): Djibouti; Sports with animal partners; Crossroads and Golden Ages
 - [Latvian Bagpipe and Folk Pipes](../../games/1324-latvian-bagpipe-and-folk-pipes/index.md): Latvia; Musical instruments; Crossroads and Golden Ages
@@ -125,9 +127,13 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 - [Polish draughts](../../games/1034-polish-draughts/index.md): Poland; Board and table games; Crossroads and Golden Ages
 - [Pub dominoes](../../games/1183-pub-dominoes/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
 - [Puluc](../../games/757-puluc/index.md): Guatemala, Belize; Board and table games; Crossroads and Golden Ages
+- [Reversi](../../games/22336-reversi/index.md): United Kingdom, Japan; Board and table games; Crossroads and Golden Ages
+- [Rithmomachia](../../games/8869-rithmomachia/index.md): Italy; Board and table games; Crossroads and Golden Ages
+- [Russian Loto](../../games/22338-russian-loto/index.md): Russia; Board and table games; Crossroads and Golden Ages
 - [Shisima](../../games/865-shisima/index.md): Kenya; Board and table games; Crossroads and Golden Ages
 - [Sig](../../games/928-sig/index.md): Mauritania; Board and table games; Crossroads and Golden Ages
 - [Slam dominoes](../../games/578-slam-dominoes/index.md): Barbados; Board and table games; Crossroads and Golden Ages
+- [Table football](../../games/5250-table-football/index.md): Spain; Team ball sports; Crossroads and Golden Ages
 - [Taiwanese mahjong](../../games/1131-taiwanese-mahjong/index.md): Taiwan; Board and table games; Crossroads and Golden Ages
 - [Tanzanian draughts](../../games/1135-tanzanian-draughts/index.md): Tanzania; Board and table games; Crossroads and Golden Ages
 - [Thai checkers](../../games/1142-thai-checkers/index.md): Thailand; Board and table games; Crossroads and Golden Ages

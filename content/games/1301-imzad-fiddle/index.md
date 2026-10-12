@@ -40,12 +40,12 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Related entries
 
+- [Kora](../../games/7176-kora/index.md)
 - [Fula Riti One-String Fiddle](../../games/1283-fula-riti-one-string-fiddle/index.md)
 - [Mvet](../../games/1420-mvet/index.md)
 - [Morin khuur](../../games/34-morin-khuur/index.md)
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md)
 - [Valiha tube zither](../../games/124-valiha-tube-zither/index.md)
-- [Krar lyre](../../games/126-krar-lyre/index.md)
 
 ## Sources
 

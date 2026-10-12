@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with J"
-description: "16 entries beginning with J."
+description: "18 entries beginning with J."
 path: "/a-z/J/"
 ---
 # Entries beginning with J
@@ -8,6 +8,7 @@ path: "/a-z/J/"
 - [Jaapi weaving](../../games/1304-jaapi-weaving/index.md): India; Crafts and making; Living Traditions
 - [Jacks](../../games/697-jacks/index.md): El Salvador; Dexterity and skill games; Deep Past and First Games
 - [Jacks, Dandy Shandy, ring games](../../games/842-jacks-dandy-shandy-ring-games/index.md): Jamaica; Dexterity and skill games; Deep Past and First Games
+- [Jackstraws](../../games/14110-jackstraws/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Jaipur blue pottery painting](../../games/262-jaipur-blue-pottery-painting/index.md): India; Crafts and making; Living Traditions
 - [Jamaican dominoes](../../games/841-jamaican-dominoes/index.md): Jamaica; Board and table games; Crossroads and Golden Ages
 - [Jamaican Sound System Selector](../../games/1465-jamaican-sound-system-selector/index.md): Jamaica; Musical instruments; Modern Heritage
@@ -20,4 +21,5 @@ path: "/a-z/J/"
 - [Jordanian Sand Bottle Art](../../games/219-jordanian-sand-bottle-art/index.md): Jordan; Crafts and making; Living Traditions
 - [Joropo llanero band](../../games/130-joropo-llanero-band/index.md): Venezuela, Colombia; Musical instruments; Classical Worlds
 - [Jukskei](../../games/11-jukskei/index.md): South Africa; Archery, throwing and target games; Modern Heritage
+- [Juldarigi](../../games/2772-juldarigi/index.md): South Korea, United Kingdom; Other traditions; Classical Worlds
 - [Jungle](../../games/637-jungle/index.md): China; Board and table games; Crossroads and Golden Ages

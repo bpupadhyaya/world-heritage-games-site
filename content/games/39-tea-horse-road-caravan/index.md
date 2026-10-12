@@ -43,8 +43,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Cuju](../../games/333-cuju/index.md)
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md)
 - [Go](../../games/634-go/index.md)
+- [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md)
 - [Pitch-pot](../../games/2-pitch-pot/index.md)
-- [Chinese knotting](../../games/26-chinese-knotting/index.md)
 
 ## Sources
 

@@ -1,18 +1,19 @@
 ---
 title: "Americas"
-description: "146 entries."
+description: "155 entries."
 path: "/regions/americas/"
-count: 146
+count: 155
 ---
 # Americas
 
-146 entries.
+155 entries.
 
 
 
-146 entries.
+155 entries.
 
 - [Alebrije painting](../../games/92-alebrije-painting/index.md): Mexico; Crafts and making; Living Traditions
+- [American patchwork quilting](../../games/6356-american-patchwork-quilting/index.md): United States; Crafts and making; Living Traditions
 - [Antigua Classic Yacht Race](../../games/1433-antigua-classic-yacht-race/index.md): Antigua and Barbuda, United Kingdom; Racing; Age of Contact and Craft
 - [Atarraya](../../games/1434-atarraya/index.md): Colombia; Dexterity and skill games; Modern Heritage
 - [Axe throwing](../../games/442-axe-throwing/index.md): Canada, United States; Dexterity and skill games; Modern Heritage
@@ -64,6 +65,7 @@ count: 146
 - [Kalinda Stick Duel](../../games/1467-kalinda-stick-duel/index.md): Trinidad and Tobago; Wrestling and martial sports; Classical Worlds
 - [Kite flying](../../games/769-kite-flying/index.md): Honduras; Dexterity and skill games; Classical Worlds
 - [Kites](../../games/577-kites/index.md): Barbados, El Salvador; Dexterity and skill games; Classical Worlds
+- [Kōnane](../../games/961-konane/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Lei making](../../games/449-lei-making/index.md): United States; Crafts and making; Living Traditions
 - [Limbo](../../games/58-limbo/index.md): Trinidad and Tobago; Dexterity and skill games; Modern Heritage
 - [Ludo](../../games/763-ludo/index.md): Haiti, Jamaica; Board and table games; River Valleys and First Cities
@@ -89,6 +91,7 @@ count: 146
 - [Ring jousting](../../games/1017-ring-jousting/index.md): Paraguay; Street and playground games; Crossroads and Golden Ages
 - [Rounders](../../games/761-rounders/index.md): Guyana; Street and playground games; Modern Heritage
 - [Rubboard zydeco rhythm](../../games/437-rubboard-zydeco-rhythm/index.md): United States; Musical instruments; Living Traditions
+- [Shinny](../../games/725-shinny/index.md): United States, Canada; Street and playground games; Modern Heritage
 - [Skijoring](../../games/490-skijoring/index.md): Worldwide; Sports with animal partners; Classical Worlds
 - [Sled dog race](../../games/62-sled-dog-race/index.md): United States, Canada; Racing; Age of Contact and Craft
 - [Spelling Bee](../../games/1429-spelling-bee/index.md): United States; Other traditions; Crossroads and Golden Ages
@@ -112,7 +115,10 @@ count: 146
 - [Wayfinder](../../games/43-wayfinder/index.md): United States, New Zealand; Puzzles and mind games; Crossroads and Golden Ages
 - [Yard cricket](../../games/1151-yard-cricket/index.md): Trinidad and Tobago, Barbados; Street and playground games; Age of Contact and Craft
 - [Adji-boto](../../games/1116-adji-boto/index.md): Suriname; Board and table games; Deep Past and First Games
+- [American football](../../games/22320-american-football/index.md): United States; Team ball sports; Modern Heritage
 - [Bahamian dominoes](../../games/569-bahamian-dominoes/index.md): Bahamas; Board and table games; Crossroads and Golden Ages
+- [Baseball](../../games/22323-baseball/index.md): United States, Cuba; Bat-and-ball games; Modern Heritage
+- [Basketball](../../games/22324-basketball/index.md): United States; Team ball sports; Modern Heritage
 - [Blind hen](../../games/983-blind-hen/index.md): Nicaragua; Other traditions; Living Traditions
 - [Burn-out](../../games/654-burn-out/index.md): Cuba; Street and playground games; Modern Heritage
 - [Chromos](../../games/648-chromos/index.md): Costa Rica; Dexterity and skill games; Modern Heritage
@@ -131,8 +137,10 @@ count: 146
 - [Hoyito](../../games/682-hoyito/index.md): Dominican Republic; Board and table games; Deep Past and First Games
 - [Jacks](../../games/697-jacks/index.md): El Salvador; Dexterity and skill games; Deep Past and First Games
 - [Jacks, Dandy Shandy, ring games](../../games/842-jacks-dandy-shandy-ring-games/index.md): Jamaica; Dexterity and skill games; Deep Past and First Games
+- [Jackstraws](../../games/14110-jackstraws/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Jamaican dominoes](../../games/841-jamaican-dominoes/index.md): Jamaica; Board and table games; Crossroads and Golden Ages
 - [Kay mancala](../../games/767-kay-mancala/index.md): Haiti; Board and table games; Deep Past and First Games
+- [Klondike](../../games/22325-klondike/index.md): United States, Canada; Card games; Age of Contact and Craft
 - [Kriol traditional games](../../games/585-kriol-traditional-games/index.md): Belize; Street and playground games; Modern Heritage
 - [Lotería](../../games/1211-loteria/index.md): Venezuela; Board and table games; Crossroads and Golden Ages
 - [Macho parado](../../games/984-macho-parado/index.md): Nicaragua; Street and playground games; Modern Heritage
@@ -154,6 +162,7 @@ count: 146
 - [Taco bat game](../../games/655-taco-bat-game/index.md): Cuba; Street and playground games; Age of Contact and Craft
 - [Truco](../../games/601-truco/index.md): Brazil, Andorra; Card games; Age of Contact and Craft
 - [Union Jack Game](../../games/547-union-jack-game/index.md): Antigua and Barbuda; Board and table games; Crossroads and Golden Ages
+- [Volleyball](../../games/22345-volleyball/index.md): United States, Brazil; Team ball sports; Modern Heritage
 - [Wa-wee](../../games/1051-wa-wee/index.md): Saint Lucia; Board and table games; Deep Past and First Games
 - [Warri](../../games/566-warri/index.md): Bahamas, Barbados; Board and table games; Deep Past and First Games
 - [Yermis](../../games/646-yermis/index.md): Colombia; Street and playground games; Modern Heritage

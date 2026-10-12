@@ -1,21 +1,22 @@
 ---
 title: "France"
-description: "14 traditions from France."
+description: "15 traditions from France."
 path: "/countries/france/"
-count: 14
+count: 15
 ---
 # France
 
-14 traditions from France.
+15 traditions from France.
 
 
 
-14 entries.
+15 entries.
 
 - [Bagatelle](../../games/72-bagatelle/index.md): France, United Kingdom; Dexterity and skill games; Modern Heritage
 - [Basque Pelota](../../games/1094-basque-pelota/index.md): Spain, France; Street and playground games; Modern Heritage
 - [Basque stone lifting](../../games/479-basque-stone-lifting/index.md): France; Acrobatics and strength; Classical Worlds
 - [Croquet](../../games/81-croquet/index.md): United Kingdom, Ireland; Board and table games; Crossroads and Golden Ages
+- [Diabolo](../../games/5023-diabolo/index.md): France; Toys; Modern Heritage
 - [Dots and Boxes](../../games/463-dots-and-boxes/index.md): France; Crafts and making; Living Traditions
 - [Game of the Goose](../../games/450-game-of-the-goose/index.md): Italy, Spain; Board and table games; River Valleys and First Cities
 - [Grandmother's Footsteps](../../games/469-grandmothers-footsteps/index.md): United Kingdom, France; Other traditions; Living Traditions

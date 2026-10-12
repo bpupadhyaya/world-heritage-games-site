@@ -1,18 +1,19 @@
 ---
 title: "Street and playground games"
-description: "150 traditions of this kind."
+description: "152 traditions of this kind."
 path: "/types/street_game/"
-count: 150
+count: 152
 ---
 # Street and playground games
 
-150 traditions of this kind.
+152 traditions of this kind.
 
 
 
-150 entries.
+152 entries.
 
 - [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
+- [Backyard cricket](../../games/559-backyard-cricket/index.md): Australia; Street and playground games; Age of Contact and Craft
 - [Bashi](../../games/915-bashi/index.md): Maldives; Street and playground games; Modern Heritage
 - [Basque Pelota](../../games/1094-basque-pelota/index.md): Spain, France; Street and playground games; Modern Heritage
 - [Blind Man's Buff](../../games/467-blind-mans-buff/index.md): Turkey, India; Street and playground games; Modern Heritage
@@ -78,6 +79,7 @@ count: 150
 - [Samoan cricket](../../games/1056-samoan-cricket/index.md): Samoa; Street and playground games; Age of Contact and Craft
 - [Savika](../../games/905-savika/index.md): Madagascar; Street and playground games; River Valleys and First Cities
 - [Sepak takraw](../../games/802-sepak-takraw/index.md): Indonesia, Malaysia; Street and playground games; Modern Heritage
+- [Shinny](../../games/725-shinny/index.md): United States, Canada; Street and playground games; Modern Heritage
 - [Silat Melayu](../../games/605-silat-melayu/index.md): Brunei; Street and playground games; Modern Heritage
 - [Sipa](../../games/1024-sipa/index.md): Philippines; Street and playground games; Modern Heritage
 - [Slovene quintain](../../games/1073-slovene-quintain/index.md): Slovenia; Street and playground games; Classical Worlds
@@ -87,11 +89,11 @@ count: 150
 - [Traditional wrestling](../../games/619-traditional-wrestling/index.md): Cameroon; Street and playground games; River Valleys and First Cities
 - [Tumbang preso](../../games/1028-tumbang-preso/index.md): Philippines; Street and playground games; Modern Heritage
 - [Yard cricket](../../games/1151-yard-cricket/index.md): Trinidad and Tobago, Barbados; Street and playground games; Age of Contact and Craft
-- [Archery](../../games/591-archery/index.md): Bhutan; Street and playground games; Classical Worlds
 - [Baibalaa](../../games/914-baibalaa/index.md): Maldives; Street and playground games; Deep Past and First Games
 - [Balle pelote](../../games/580-balle-pelote/index.md): Belgium; Street and playground games; Modern Heritage
 - [Boċċi](../../games/922-bocci/index.md): Malta; Street and playground games; Classical Worlds
 - [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
+- [Bulls and Cows](../../games/9038-bulls-and-cows/index.md): Worldwide; Street and playground games; Age of Contact and Craft
 - [Bulundu](../../games/667-bulundu/index.md): DR Congo; Street and playground games; Modern Heritage
 - [Burn-out](../../games/654-burn-out/index.md): Cuba; Street and playground games; Modern Heritage
 - [Chavgon](../../games/1204-chavgon/index.md): Uzbekistan; Street and playground games; Classical Worlds

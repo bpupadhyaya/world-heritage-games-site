@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with G"
-description: "44 entries beginning with G."
+description: "46 entries beginning with G."
 path: "/a-z/G/"
 ---
 # Entries beginning with G
@@ -10,6 +10,7 @@ path: "/a-z/G/"
 - [Gallarija Balcony Builder](../../games/1286-gallarija-balcony-builder/index.md): Malta; Crafts and making; Living Traditions
 - [Gambian Oyster Harvest](../../games/1287-gambian-oyster-harvest/index.md): Gambia; Crafts and making; Living Traditions
 - [Game of the Goose](../../games/450-game-of-the-goose/index.md): Italy, Spain; Board and table games; River Valleys and First Cities
+- [Gamelan](../../games/22329-gamelan/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Gaple dominoes](../../games/804-gaple-dominoes/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
 - [Gargoor Fish-Trap Weaving](../../games/1288-gargoor-fish-trap-weaving/index.md): Bahrain; Crafts and making; Living Traditions
 - [Gasing](../../games/908-gasing/index.md): Malaysia, Singapore; Dexterity and skill games; Modern Heritage
@@ -31,6 +32,7 @@ path: "/a-z/G/"
 - [Gobak Sodor](../../games/46-gobak-sodor/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
 - [Goguryeo Mural Restoration](../../games/1454-goguryeo-mural-restoration/index.md): South Korea, North Korea; Puzzles and mind games; River Valleys and First Cities
 - [Goje One-String Fiddle](../../games/176-goje-one-string-fiddle/index.md): Nigeria, Niger; Musical instruments; Living Traditions
+- [Golden Sling](../../games/22331-golden-sling/index.md): Worldwide; Dexterity and skill games; Modern Heritage
 - [Gollachut](../../games/573-gollachut/index.md): Bangladesh; Street and playground games; Modern Heritage
 - [Gomoku and Renju](../../games/847-gomoku-and-renju/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Gondola Rowing](../../games/401-gondola-rowing/index.md): Italy; Dexterity and skill games; Modern Heritage

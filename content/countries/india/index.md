@@ -1,16 +1,16 @@
 ---
 title: "India"
-description: "43 traditions from India."
+description: "49 traditions from India."
 path: "/countries/india/"
-count: 43
+count: 49
 ---
 # India
 
-43 traditions from India.
+49 traditions from India.
 
 
 
-43 entries.
+49 entries.
 
 - [Bandhani tie-dye](../../games/258-bandhani-tie-dye/index.md): India; Crafts and making; Living Traditions
 - [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md): India; Dexterity and skill games; Modern Heritage
@@ -51,7 +51,13 @@ count: 43
 - [Thanjavur dancing doll](../../games/275-thanjavur-dancing-doll/index.md): India; Toys; Modern Heritage
 - [Veena](../../games/282-veena/index.md): India; Musical instruments; Crossroads and Golden Ages
 - [Warli painting](../../games/117-warli-painting/index.md): India; Crafts and making; Living Traditions
+- [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
+- [Cricket](../../games/22343-cricket/index.md): United Kingdom, India; Bat-and-ball games; Age of Contact and Craft
 - [Kite fighting](../../games/788-kite-fighting/index.md): India, Pakistan; Dexterity and skill games; Classical Worlds
+- [Kolam](../../games/22332-kolam/index.md): India; Crafts and making; Living Traditions
 - [Lambs and Tigers](../../games/791-lambs-and-tigers/index.md): India; Board and table games; Crossroads and Golden Ages
+- [One Arrow Oath](../../games/22334-one-arrow-oath/index.md): India; Other traditions; Modern Heritage
 - [Pachisi](../../games/797-pachisi/index.md): India; Board and table games; River Valleys and First Cities
 - [Snakes and Ladders](../../games/796-snakes-and-ladders/index.md): India; Board and table games; River Valleys and First Cities
+- [The Road to Lanka](../../games/22330-the-road-to-lanka/index.md): India, Sri Lanka; Performance and storytelling; Modern Heritage
+- [Vitti Dandu](../../games/9804-vitti-dandu/index.md): India; Bat-and-ball games; Age of Contact and Craft

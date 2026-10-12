@@ -45,7 +45,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Four Corners](../../games/652-four-corners/index.md)
 - [Rounders](../../games/761-rounders/index.md)
 - [Gilli-Danda](../../games/793-gilli-danda/index.md)
-- [Kiiking](../../games/66-kiiking/index.md)
+- [Baseball](../../games/22323-baseball/index.md)
 
 ## Sources
 

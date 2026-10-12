@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with K"
-description: "89 entries beginning with K."
+description: "95 entries beginning with K."
 path: "/a-z/K/"
 ---
 # Entries beginning with K
@@ -50,6 +50,7 @@ path: "/a-z/K/"
 - [Kiiking](../../games/66-kiiking/index.md): Estonia; Puzzles and mind games; Modern Heritage
 - [Kikouri](../../games/840-kikouri/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md): Japan; Dexterity and skill games; Modern Heritage
+- [Kintsugi](../../games/5371-kintsugi/index.md): Japan; Crafts and making; Living Traditions
 - [Kiondo basket weaving](../../games/194-kiondo-basket-weaving/index.md): Kenya; Crafts and making; Living Traditions
 - [Kira and Kushuthara backstrap weaving](../../games/1312-kira-and-kushuthara-backstrap-weaving/index.md): Bhutan; Crafts and making; Living Traditions
 - [Kisii soapstone carving](../../games/195-kisii-soapstone-carving/index.md): Worldwide; Crafts and making; Living Traditions
@@ -59,6 +60,7 @@ path: "/a-z/K/"
 - [Kite flying](../../games/769-kite-flying/index.md): Honduras; Dexterity and skill games; Classical Worlds
 - [Kitendawili](../../games/181-kitendawili/index.md): Kenya; Puzzles and mind games; Classical Worlds
 - [Kites](../../games/577-kites/index.md): Barbados, El Salvador; Dexterity and skill games; Classical Worlds
+- [Klondike](../../games/22325-klondike/index.md): United States, Canada; Card games; Age of Contact and Craft
 - [Klootschieten](../../games/975-klootschieten/index.md): Netherlands; Street and playground games; Modern Heritage
 - [Knucklebone game](../../games/522-knucklebone-game/index.md): Afghanistan, Mongolia; Dexterity and skill games; Deep Past and First Games
 - [Kochari](../../games/1315-kochari/index.md): Armenia; Dances; Living Traditions
@@ -68,9 +70,13 @@ path: "/a-z/K/"
 - [Kokeshi doll painting](../../games/355-kokeshi-doll-painting/index.md): Japan; Crafts and making; Living Traditions
 - [Kokh](../../games/1317-kokh/index.md): Armenia; Wrestling and martial sports; River Valleys and First Cities
 - [Kokpar](../../games/857-kokpar/index.md): Kazakhstan; Street and playground games; Classical Worlds
+- [Kolam](../../games/22332-kolam/index.md): India; Crafts and making; Living Traditions
 - [Kolf](../../games/491-kolf/index.md): Netherlands; Archery, throwing and target games; Classical Worlds
 - [Komuz](../../games/242-komuz/index.md): Kyrgyzstan; Musical instruments; Crossroads and Golden Ages
+- [Kōnane](../../games/961-konane/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Kondapalli village toys](../../games/276-kondapalli-village-toys/index.md): Worldwide; Crafts and making; Living Traditions
+- [Kongzhu](../../games/5289-kongzhu/index.md): China; Dexterity and skill games; Modern Heritage
+- [Kora](../../games/7176-kora/index.md): Gambia, Mali; Musical instruments; Classical Worlds
 - [Korfball](../../games/481-korfball/index.md): Netherlands, Belgium; Team ball sports; Modern Heritage
 - [Korhogo Painted Cloth Studio](../../games/1318-korhogo-painted-cloth-studio/index.md): Cote d'Ivoire; Crafts and making; Living Traditions
 - [Kotta Pora](../../games/18-kotta-pora/index.md): Sri Lanka; Wrestling and martial sports; Classical Worlds

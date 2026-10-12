@@ -2,7 +2,7 @@
 title: "Japan and Korea"
 description: "The island and peninsula traditions of Northeast Asia."
 path: "/cradles/japan-korea/"
-count: 59
+count: 66
 ---
 # Japan and Korea
 
@@ -10,11 +10,12 @@ The island and peninsula traditions of Northeast Asia.
 
 
 
-59 entries.
+66 entries.
 
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
 - [Bojagi](../../games/363-bojagi/index.md): South Korea; Crafts and making; Living Traditions
+- [Bonsai](../../games/5376-bonsai/index.md): Japan; Crafts and making; Living Traditions
 - [Dalgona](../../games/100-dalgona/index.md): South Korea; Dexterity and skill games; Crossroads and Golden Ages
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [E-sugoroku](../../games/348-e-sugoroku/index.md): Japan; Board and table games; River Valleys and First Cities
@@ -36,10 +37,12 @@ The island and peninsula traditions of Northeast Asia.
 - [Hashi](../../games/360-hashi/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Ikebana](../../games/98-ikebana/index.md): Japan; Crafts and making; Living Traditions
 - [Jegichagi](../../games/1082-jegichagi/index.md): South Korea, North Korea; Street and playground games; Modern Heritage
+- [Juldarigi](../../games/2772-juldarigi/index.md): South Korea, United Kingdom; Other traditions; Classical Worlds
 - [Kamishibai](../../games/353-kamishibai/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Karesansui](../../games/95-karesansui/index.md): Japan; Crafts and making; Living Traditions
 - [Kendama](../../games/850-kendama/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md): Japan; Dexterity and skill games; Modern Heritage
+- [Kintsugi](../../games/5371-kintsugi/index.md): Japan; Crafts and making; Living Traditions
 - [Kokeshi doll painting](../../games/355-kokeshi-doll-painting/index.md): Japan; Crafts and making; Living Traditions
 - [Kumihimo Braid Disk](../../games/107-kumihimo-braid-disk/index.md): Japan; Crafts and making; Living Traditions
 - [Kumiko lattice](../../games/97-kumiko-lattice/index.md): Japan; Crafts and making; Living Traditions
@@ -60,6 +63,7 @@ The island and peninsula traditions of Northeast Asia.
 - [Shogi](../../games/852-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Ssireum](../../games/366-ssireum/index.md): South Korea; Wrestling and martial sports; River Valleys and First Cities
 - [Sumo bout](../../games/359-sumo-bout/index.md): Japan; Wrestling and martial sports; River Valleys and First Cities
+- [Taiko](../../games/5367-taiko/index.md): Japan; Musical instruments; Living Traditions
 - [Takoyaki-style ball flipping](../../games/352-takoyaki-style-ball-flipping/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Tatami room tiling puzzle](../../games/356-tatami-room-tiling-puzzle/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Temari Thread-Ball Patterns](../../games/96-temari-thread-ball-patterns/index.md): Japan; Crafts and making; Living Traditions
@@ -70,4 +74,7 @@ The island and peninsula traditions of Northeast Asia.
 - [Janggi](../../games/1081-janggi/index.md): South Korea, North Korea; Board and table games; Crossroads and Golden Ages
 - [Omok](../../games/1088-omok/index.md): South Korea; Board and table games; Classical Worlds
 - [Paduk](../../games/990-paduk/index.md): North Korea; Board and table games; Classical Worlds
+- [Soroban](../../games/22319-soroban/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Sudoku](../../games/22340-sudoku/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Ttakji-ssaum](../../games/14067-ttakji-ssaum/index.md): South Korea; Dexterity and skill games; Classical Worlds
 - [Yut Nori](../../games/1083-yut-nori/index.md): South Korea, North Korea; Board and table games; River Valleys and First Cities

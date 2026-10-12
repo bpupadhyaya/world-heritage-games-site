@@ -2,7 +2,7 @@
 title: "Modern Heritage"
 description: "Street games, national sports and revivals: heritage that people are still playing in their own lifetimes."
 path: "/eras/modern/"
-count: 234
+count: 257
 ---
 # Modern Heritage
 
@@ -10,7 +10,7 @@ Street games, national sports and revivals: heritage that people are still playi
 
 
 
-234 entries.
+257 entries.
 
 - [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md): Ghana, Cote d'Ivoire; Puzzles and mind games; Modern Heritage
@@ -53,6 +53,7 @@ Street games, national sports and revivals: heritage that people are still playi
 - [Dambe](../../games/987-dambe/index.md): Nigeria, Niger; Street and playground games; Modern Heritage
 - [Dandi Biyo](../../games/968-dandi-biyo/index.md): Nepal; Dexterity and skill games; Modern Heritage
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Diabolo](../../games/5023-diabolo/index.md): France; Toys; Modern Heritage
 - [Dikir barat](../../games/1268-dikir-barat/index.md): Malaysia; Street and playground games; Modern Heritage
 - [Disc-flip](../../games/8-disc-flip/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
 - [Doko porter trail](../../games/293-doko-porter-trail/index.md): Nepal; Dexterity and skill games; Modern Heritage
@@ -115,6 +116,7 @@ Street games, national sports and revivals: heritage that people are still playi
 - [Madura bull racing](../../games/805-madura-bull-racing/index.md): Indonesia; Street and playground games; Modern Heritage
 - [Maori stick games](../../games/981-maori-stick-games/index.md): New Zealand; Dexterity and skill games; Modern Heritage
 - [Marshallese stick chart navigator](../../games/1333-marshallese-stick-chart-navigator/index.md): Marshall Islands; Puzzles and mind games; Modern Heritage
+- [Maze](../../games/6640-maze/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Menko](../../games/346-menko/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Mesoamerican ballgame](../../games/759-mesoamerican-ballgame/index.md): Guatemala, Mexico; Street and playground games; Modern Heritage
 - [Mheibes](../../games/158-mheibes/index.md): Iraq; Street and playground games; Modern Heritage
@@ -142,6 +144,7 @@ Street games, national sports and revivals: heritage that people are still playi
 - [Sand drawing](../../games/1395-sand-drawing/index.md): Vanuatu; Puzzles and mind games; Modern Heritage
 - [Sepak takraw](../../games/802-sepak-takraw/index.md): Indonesia, Malaysia; Street and playground games; Modern Heritage
 - [Shepherd's Leap](../../games/391-shepherds-leap/index.md): Worldwide; Puzzles and mind games; Modern Heritage
+- [Shinny](../../games/725-shinny/index.md): United States, Canada; Street and playground games; Modern Heritage
 - [Shove ha'penny](../../games/54-shove-hapenny/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
 - [Silat Melayu](../../games/605-silat-melayu/index.md): Brunei; Street and playground games; Modern Heritage
 - [Sipa](../../games/1024-sipa/index.md): Philippines; Street and playground games; Modern Heritage
@@ -179,14 +182,20 @@ Street games, national sports and revivals: heritage that people are still playi
 - [Al Laqfa](../../games/1038-al-laqfa/index.md): Qatar; Dexterity and skill games; Modern Heritage
 - [Alag Malkhii](../../games/941-alag-malkhii/index.md): Mongolia; Dexterity and skill games; Modern Heritage
 - [Alchik](../../games/868-alchik/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
+- [American football](../../games/22320-american-football/index.md): United States; Team ball sports; Modern Heritage
 - [Ashyk](../../games/1169-ashyk/index.md): Turkmenistan; Dexterity and skill games; Modern Heritage
 - [Asyk Atu](../../games/856-asyk-atu/index.md): Kazakhstan; Dexterity and skill games; Modern Heritage
+- [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
 - [Balle pelote](../../games/580-balle-pelote/index.md): Belgium; Street and playground games; Modern Heritage
+- [Baseball](../../games/22323-baseball/index.md): United States, Cuba; Bat-and-ball games; Modern Heritage
+- [Basketball](../../games/22324-basketball/index.md): United States; Team ball sports; Modern Heritage
 - [Blada](../../games/862-blada/index.md): Kenya; Dexterity and skill games; Modern Heritage
 - [Bulundu](../../games/667-bulundu/index.md): DR Congo; Street and playground games; Modern Heritage
 - [Burn-out](../../games/654-burn-out/index.md): Cuba; Street and playground games; Modern Heritage
 - [Chapteh shuttlecock](../../games/1066-chapteh-shuttlecock/index.md): Singapore; Dexterity and skill games; Modern Heritage
 - [Chromos](../../games/648-chromos/index.md): Costa Rica; Dexterity and skill games; Modern Heritage
+- [Crossword](../../games/22326-crossword/index.md): United Kingdom, United States; Puzzles and mind games; Modern Heritage
+- [Crown Fields](../../games/22327-crown-fields/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Cup-and-ball](../../games/933-cup-and-ball/index.md): Mexico; Dexterity and skill games; Modern Heritage
 - [Cush](../../games/760-cush/index.md): Guyana; Dexterity and skill games; Modern Heritage
 - [Dart/spear throwing](../../games/1057-dart-spear-throwing/index.md): Samoa; Street and playground games; Modern Heritage
@@ -200,6 +209,7 @@ Street games, national sports and revivals: heritage that people are still playi
 - [Footy](../../games/962-footy/index.md): Nauru; Street and playground games; Modern Heritage
 - [Frisian kaatsen](../../games/973-frisian-kaatsen/index.md): Netherlands; Street and playground games; Modern Heritage
 - [Gasing](../../games/908-gasing/index.md): Malaysia, Singapore; Dexterity and skill games; Modern Heritage
+- [Golden Sling](../../games/22331-golden-sling/index.md): Worldwide; Dexterity and skill games; Modern Heritage
 - [Gollachut](../../games/573-gollachut/index.md): Bangladesh; Street and playground games; Modern Heritage
 - [Gulli Danda](../../games/1003-gulli-danda/index.md): Pakistan; Dexterity and skill games; Modern Heritage
 - [Heu](../../games/1146-heu/index.md): Tonga; Dexterity and skill games; Modern Heritage
@@ -208,11 +218,13 @@ Street games, national sports and revivals: heritage that people are still playi
 - [Highland games](../../games/1184-highland-games/index.md): United Kingdom; Street and playground games; Modern Heritage
 - [Hiko](../../games/1147-hiko/index.md): Tonga; Dexterity and skill games; Modern Heritage
 - [Itsibweb](../../games/965-itsibweb/index.md): Nauru; Street and playground games; Modern Heritage
+- [Jackstraws](../../games/14110-jackstraws/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Kasivaki](../../games/1148-kasivaki/index.md): Tonga; Street and playground games; Modern Heritage
 - [Kastom games](../../games/1208-kastom-games/index.md): Vanuatu; Street and playground games; Modern Heritage
 - [Kataw](../../games/873-kataw/index.md): Laos; Street and playground games; Modern Heritage
 - [Keram](../../games/1137-keram/index.md): Tanzania; Dexterity and skill games; Modern Heritage
 - [Koi](../../games/599-koi/index.md): Botswana; Street and playground games; Modern Heritage
+- [Kongzhu](../../games/5289-kongzhu/index.md): China; Dexterity and skill games; Modern Heritage
 - [Kriol traditional games](../../games/585-kriol-traditional-games/index.md): Belize; Street and playground games; Modern Heritage
 - [Kuli](../../games/1041-kuli/index.md): Congo; Street and playground games; Modern Heritage
 - [Lelo Burti](../../games/737-lelo-burti/index.md): Georgia; Street and playground games; Modern Heritage
@@ -220,8 +232,12 @@ Street games, national sports and revivals: heritage that people are still playi
 - [Macho parado](../../games/984-macho-parado/index.md): Nicaragua; Street and playground games; Modern Heritage
 - [Manteo](../../games/596-manteo/index.md): Bolivia; Street and playground games; Modern Heritage
 - [Matkot](../../games/825-matkot/index.md): Israel; Street and playground games; Modern Heritage
+- [Minesweeper](../../games/22341-minesweeper/index.md): Worldwide; Puzzles and mind games; Modern Heritage
+- [Miniature golf](../../games/22333-miniature-golf/index.md): United Kingdom, United States; Dexterity and skill games; Modern Heritage
 - [Mixtec ball game](../../games/936-mixtec-ball-game/index.md): Mexico; Street and playground games; Modern Heritage
+- [One Arrow Oath](../../games/22334-one-arrow-oath/index.md): India; Other traditions; Modern Heritage
 - [Ordo](../../games/870-ordo/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
+- [Perch](../../games/22335-perch/index.md): Worldwide; Dexterity and skill games; Modern Heritage
 - [Perinola](../../games/1212-perinola/index.md): Venezuela; Dexterity and skill games; Modern Heritage
 - [Petanque](../../games/872-petanque/index.md): Laos, France; Street and playground games; Modern Heritage
 - [Pillow fight](../../games/1101-pillow-fight/index.md): Sri Lanka, Myanmar; Street and playground games; Modern Heritage
@@ -233,15 +249,22 @@ Street games, national sports and revivals: heritage that people are still playi
 - [Sapo](../../games/1019-sapo/index.md): Peru, Bolivia; Dexterity and skill games; Modern Heritage
 - [Scarf-ball toss](../../games/614-scarf-ball-toss/index.md): Cambodia; Street and playground games; Modern Heritage
 - [Snooker](../../games/1185-snooker/index.md): United Kingdom; Street and playground games; Modern Heritage
+- [Soroban](../../games/22319-soroban/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Steel-and-stick](../../games/1162-steel-and-stick/index.md): Turkey; Street and playground games; Modern Heritage
 - [Stick and Cingel](../../games/529-stick-and-cingel/index.md): Albania; Street and playground games; Modern Heritage
+- [Sudoku](../../games/22340-sudoku/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Sugar-cane spear throwing](../../games/709-sugar-cane-spear-throwing/index.md): Fiji; Street and playground games; Modern Heritage
+- [The Road to Lanka](../../games/22330-the-road-to-lanka/index.md): India, Sri Lanka; Performance and storytelling; Modern Heritage
 - [Tikhi](../../games/876-tikhi/index.md): Laos; Street and playground games; Modern Heritage
 - [Traditional contests at Micronesian Games](../../games/937-traditional-contests-at-micronesian-games/index.md): Micronesia; Street and playground games; Modern Heritage
+- [Traditional football](../../games/10068-traditional-football/index.md): United Kingdom; Team ball sports; Modern Heritage
 - [Tree-pull contest](../../games/710-tree-pull-contest/index.md): Fiji; Street and playground games; Modern Heritage
 - [Village rugby league](../../games/1013-village-rugby-league/index.md): Papua New Guinea; Street and playground games; Modern Heritage
+- [Volleyball](../../games/22345-volleyball/index.md): United States, Brazil; Team ball sports; Modern Heritage
 - [White Cloth](../../games/867-white-cloth/index.md): Kyrgyzstan; Street and playground games; Modern Heritage
 - [Woggabaliri](../../games/561-woggabaliri/index.md): Australia; Street and playground games; Modern Heritage
+- [Word Game](../../games/22346-word-game/index.md): Worldwide; Puzzles and mind games; Modern Heritage
+- [World Weave](../../games/22347-world-weave/index.md): Worldwide; Crafts and making; Modern Heritage
 - [Yermis](../../games/646-yermis/index.md): Colombia; Street and playground games; Modern Heritage
 - [Yo-yo](../../games/696-yo-yo/index.md): El Salvador, Nicaragua; Dexterity and skill games; Modern Heritage
 - [Yuyu](../../games/610-yuyu/index.md): Burkina Faso; Street and playground games; Modern Heritage

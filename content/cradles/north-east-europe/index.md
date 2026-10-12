@@ -2,7 +2,7 @@
 title: "Northern and Eastern Europe"
 description: "Nordic, Baltic, Slavic and central European lands."
 path: "/cradles/north-east-europe/"
-count: 82
+count: 84
 ---
 # Northern and Eastern Europe
 
@@ -10,13 +10,14 @@ Nordic, Baltic, Slavic and central European lands.
 
 
 
-82 entries.
+84 entries.
 
 - [Belarusian straw weaving](../../games/387-belarusian-straw-weaving/index.md): Belarus; Crafts and making; Living Traditions
 - [Black Forest Cuckoo Clock Workshop](../../games/409-black-forest-cuckoo-clock-workshop/index.md): Germany; Crafts and making; Living Traditions
 - [Bolesławiec Stamped Pottery](../../games/1244-bolesawiec-stamped-pottery/index.md): Poland; Crafts and making; Living Traditions
 - [Brännboll](../../games/1118-brannboll/index.md): Sweden; Street and playground games; Deep Past and First Games
 - [Bulgarian Painted Pottery](../../games/1388-bulgarian-painted-pottery/index.md): Bulgaria; Crafts and making; Living Traditions
+- [Chinese Checkers](../../games/8870-chinese-checkers/index.md): Germany; Board and table games; Deep Past and First Games
 - [Čičmany House Ornament Painting](../../games/1256-cicmany-house-ornament-painting/index.md): Slovakia; Crafts and making; Living Traditions
 - [Cimbalom](../../games/1258-cimbalom/index.md): Hungary; Musical instruments; Living Traditions
 - [Clinker Boat Building](../../games/496-clinker-boat-building/index.md): Norway, Denmark; Crafts and making; Living Traditions
@@ -93,4 +94,5 @@ Nordic, Baltic, Slavic and central European lands.
 - [Nine Men's Morris](../../games/740-nine-mens-morris/index.md): Germany, Liechtenstein; Board and table games; River Valleys and First Cities
 - [Palant](../../games/1031-palant/index.md): Poland; Street and playground games; Deep Past and First Games
 - [Polish draughts](../../games/1034-polish-draughts/index.md): Poland; Board and table games; Crossroads and Golden Ages
+- [Russian Loto](../../games/22338-russian-loto/index.md): Russia; Board and table games; Crossroads and Golden Ages
 - [Table](../../games/1044-table/index.md): Romania, Moldova; Board and table games; River Valleys and First Cities

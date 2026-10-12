@@ -2,7 +2,7 @@
 title: "Mediterranean"
 description: "Greece, Rome, Iberia, Italy and the Maghreb around the inland sea."
 path: "/cradles/mediterranean/"
-count: 65
+count: 66
 ---
 # Mediterranean
 
@@ -10,7 +10,7 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 
 
 
-65 entries.
+66 entries.
 
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md): Morocco; Crafts and making; Living Traditions
 - [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md): Greece; Puzzles and mind games; Modern Heritage
@@ -71,6 +71,7 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Parxís](../../games/542-parxis/index.md): Andorra; Board and table games; River Valleys and First Cities
 - [Portuguese staff fighting](../../games/1037-portuguese-staff-fighting/index.md): Portugal; Street and playground games; Classical Worlds
 - [Remi](../../games/993-remi/index.md): North Macedonia, Serbia; Card games; Age of Contact and Craft
+- [Rithmomachia](../../games/8869-rithmomachia/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Scopa](../../games/832-scopa/index.md): Italy, San Marino; Card games; Age of Contact and Craft
 - [Stick and Cingel](../../games/529-stick-and-cingel/index.md): Albania; Street and playground games; Modern Heritage
 - [Tavëll](../../games/527-tavell/index.md): Albania, Kosovo; Board and table games; River Valleys and First Cities

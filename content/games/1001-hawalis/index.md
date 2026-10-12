@@ -35,6 +35,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - **Region:** Middle East and North Africa
 - **Players:** 2
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/games-site/games/hawalis-gulf-sowing/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Mangala](../../games/1164-mangala/index.md)

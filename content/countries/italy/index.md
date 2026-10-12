@@ -1,16 +1,16 @@
 ---
 title: "Italy"
-description: "21 traditions from Italy."
+description: "22 traditions from Italy."
 path: "/countries/italy/"
-count: 21
+count: 22
 ---
 # Italy
 
-21 traditions from Italy.
+22 traditions from Italy.
 
 
 
-21 entries.
+22 entries.
 
 - [Bocce](../../games/830-bocce/index.md): Italy, San Marino; Street and playground games; Modern Heritage
 - [Circle Dodgeball](../../games/470-circle-dodgeball/index.md): Brazil, Germany; Archery, throwing and target games; Classical Worlds
@@ -31,5 +31,6 @@ count: 21
 - [Tamburello](../../games/489-tamburello/index.md): Italy, France; Crafts and making; Living Traditions
 - [Tessellated Mosaic Making](../../games/500-tessellated-mosaic-making/index.md): Italy, Lebanon; Crafts and making; Living Traditions
 - [Venetian lagoon regatta](../../games/486-venetian-lagoon-regatta/index.md): Italy; Racing; Age of Contact and Craft
+- [Rithmomachia](../../games/8869-rithmomachia/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Scopa](../../games/832-scopa/index.md): Italy, San Marino; Card games; Age of Contact and Craft
 - [Tombola](../../games/829-tombola/index.md): Italy, Malta; Racing; Age of Contact and Craft

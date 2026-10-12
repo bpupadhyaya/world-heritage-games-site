@@ -2,7 +2,7 @@
 title: "Age of Contact and Craft"
 description: "Trade and empire carried pastimes across oceans while village traditions took their lasting shape."
 path: "/eras/contact/"
-count: 72
+count: 79
 ---
 # Age of Contact and Craft
 
@@ -10,10 +10,11 @@ Trade and empire carried pastimes across oceans while village traditions took th
 
 
 
-72 entries.
+79 entries.
 
 - [Antigua Classic Yacht Race](../../games/1433-antigua-classic-yacht-race/index.md): Antigua and Barbuda, United Kingdom; Racing; Age of Contact and Craft
 - [Asmara highland road race](../../games/193-asmara-highland-road-race/index.md): Eritrea; Racing; Age of Contact and Craft
+- [Backyard cricket](../../games/559-backyard-cricket/index.md): Australia; Street and playground games; Age of Contact and Craft
 - [Bakiak](../../games/324-bakiak/index.md): Indonesia, Malaysia; Racing; Age of Contact and Craft
 - [Bandoneon and tango rhythm](../../games/426-bandoneon-and-tango-rhythm/index.md): Argentina, Uruguay; Musical instruments; Age of Contact and Craft
 - [Basotho pony mountain race](../../games/1238-basotho-pony-mountain-race/index.md): Lesotho; Racing; Age of Contact and Craft
@@ -67,9 +68,12 @@ Trade and empire carried pastimes across oceans while village traditions took th
 - [Yard cricket](../../games/1151-yard-cricket/index.md): Trinidad and Tobago, Barbados; Street and playground games; Age of Contact and Craft
 - [Achi](../../games/748-achi/index.md): Ghana; Board and table games; Age of Contact and Craft
 - [Baloot](../../games/1060-baloot/index.md): Saudi Arabia, Yemen; Card games; Age of Contact and Craft
+- [Bulls and Cows](../../games/9038-bulls-and-cows/index.md): Worldwide; Street and playground games; Age of Contact and Craft
+- [Cricket](../../games/22343-cricket/index.md): United Kingdom, India; Bat-and-ball games; Age of Contact and Craft
 - [Estonian Durak](../../games/704-estonian-durak/index.md): Estonia; Card games; Age of Contact and Craft
 - [Fuu Fuu Penu](../../games/1171-fuu-fuu-penu/index.md): Tuvalu; Street and playground games; Age of Contact and Craft
 - [Khuru](../../games/592-khuru/index.md): Bhutan; Dexterity and skill games; Age of Contact and Craft
+- [Klondike](../../games/22325-klondike/index.md): United States, Canada; Card games; Age of Contact and Craft
 - [Lithuanian Durak variants](../../games/894-lithuanian-durak-variants/index.md): Lithuania; Card games; Age of Contact and Craft
 - [Maghrebi 5x5 capture game](../../games/887-maghrebi-5x5-capture-game/index.md): Libya; Board and table games; Age of Contact and Craft
 - [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md): New Zealand; Street and playground games; Age of Contact and Craft
@@ -78,9 +82,12 @@ Trade and empire carried pastimes across oceans while village traditions took th
 - [Seega](../../games/692-seega/index.md): Egypt; Board and table games; Age of Contact and Craft
 - [Skittles](../../games/1179-skittles/index.md): United Kingdom, Germany; Street and playground games; Age of Contact and Craft
 - [Street baseball](../../games/684-street-baseball/index.md): Dominican Republic; Street and playground games; Age of Contact and Craft
+- [Table tennis](../../games/22342-table-tennis/index.md): United Kingdom, China; Bat-and-ball games; Age of Contact and Craft
 - [Taco bat game](../../games/655-taco-bat-game/index.md): Cuba; Street and playground games; Age of Contact and Craft
 - [Tombola](../../games/829-tombola/index.md): Italy, Malta; Racing; Age of Contact and Craft
 - [Tongan cricket](../../games/1149-tongan-cricket/index.md): Tonga; Street and playground games; Age of Contact and Craft
+- [Traditional dhow sail racing](../../games/6768-traditional-dhow-sail-racing/index.md): United Arab Emirates; Racing; Age of Contact and Craft
 - [Truco](../../games/601-truco/index.md): Brazil, Andorra; Card games; Age of Contact and Craft
 - [Tuvaluan kilikiti](../../games/1172-tuvaluan-kilikiti/index.md): Tuvalu; Street and playground games; Age of Contact and Craft
 - [Vanuatu cricket](../../games/1209-vanuatu-cricket/index.md): Vanuatu; Street and playground games; Age of Contact and Craft
+- [Vitti Dandu](../../games/9804-vitti-dandu/index.md): India; Bat-and-ball games; Age of Contact and Craft

@@ -2,7 +2,7 @@
 title: "China"
 description: "From the Yellow River to the Yangtze and the highlands beyond."
 path: "/cradles/china/"
-count: 42
+count: 45
 ---
 # China
 
@@ -10,7 +10,7 @@ From the Yellow River to the Yangtze and the highlands beyond.
 
 
 
-42 entries.
+45 entries.
 
 - [Bamboo scaffold builder](../../games/369-bamboo-scaffold-builder/index.md): China; Crafts and making; Living Traditions
 - [Banqi](../../games/1437-banqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages
@@ -22,6 +22,7 @@ From the Yellow River to the Yangtze and the highlands beyond.
 - [Cuju](../../games/333-cuju/index.md): China; Dexterity and skill games; Classical Worlds
 - [Dizi](../../games/132-dizi/index.md): China; Musical instruments; Classical Worlds
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md): China, South Korea; Puzzles and mind games; Classical Worlds
+- [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md): China; Racing; Crossroads and Golden Ages
 - [Dranyen](../../games/300-dranyen/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Dumpling Pleating](../../games/499-dumpling-pleating/index.md): China, Nepal; Crafts and making; Living Traditions
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md): China; Musical instruments; Crossroads and Golden Ages
@@ -51,6 +52,8 @@ From the Yellow River to the Yangtze and the highlands beyond.
 - [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md): China; Board and table games; Classical Worlds
 - [Hong Kong mahjong](../../games/772-hong-kong-mahjong/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Jungle](../../games/637-jungle/index.md): China; Board and table games; Crossroads and Golden Ages
+- [Kongzhu](../../games/5289-kongzhu/index.md): China; Dexterity and skill games; Modern Heritage
 - [Pai gow](../../games/771-pai-gow/index.md): China; Board and table games; Crossroads and Golden Ages
+- [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md): China, Uzbekistan; Other traditions; Classical Worlds
 - [Tien gow](../../games/773-tien-gow/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Xiangqi](../../games/636-xiangqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages

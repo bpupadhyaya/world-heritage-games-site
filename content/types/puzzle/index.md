@@ -1,16 +1,16 @@
 ---
 title: "Puzzles and mind games"
-description: "49 traditions of this kind."
+description: "56 traditions of this kind."
 path: "/types/puzzle/"
-count: 49
+count: 56
 ---
 # Puzzles and mind games
 
-49 traditions of this kind.
+56 traditions of this kind.
 
 
 
-49 entries.
+56 entries.
 
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md): Ghana, Cote d'Ivoire; Puzzles and mind games; Modern Heritage
 - [Al-Jazari water-clock contraptions](../../games/237-al-jazari-water-clock-contraptions/index.md): Iraq; Puzzles and mind games; Modern Heritage
@@ -41,6 +41,7 @@ count: 49
 - [Luban lock](../../games/99-luban-lock/index.md): China; Puzzles and mind games; Modern Heritage
 - [Lusona Sand Drawings](../../games/113-lusona-sand-drawings/index.md): Angola, Zambia; Puzzles and mind games; Modern Heritage
 - [Marshallese stick chart navigator](../../games/1333-marshallese-stick-chart-navigator/index.md): Marshall Islands; Puzzles and mind games; Modern Heritage
+- [Maze](../../games/6640-maze/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Phoenician Alphabet Trader](../../games/1359-phoenician-alphabet-trader/index.md): Lebanon; Puzzles and mind games; Modern Heritage
 - [Polder Windmill Keeper](../../games/412-polder-windmill-keeper/index.md): Netherlands; Puzzles and mind games; River Valleys and First Cities
 - [Portolan Chart Navigator](../../games/503-portolan-chart-navigator/index.md): Italy, Spain; Puzzles and mind games; Modern Heritage
@@ -61,3 +62,9 @@ count: 49
 - [Wayfinder](../../games/43-wayfinder/index.md): United States, New Zealand; Puzzles and mind games; Crossroads and Golden Ages
 - [Whistled Language Relay](../../games/403-whistled-language-relay/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
+- [Crossword](../../games/22326-crossword/index.md): United Kingdom, United States; Puzzles and mind games; Modern Heritage
+- [Crown Fields](../../games/22327-crown-fields/index.md): Worldwide; Puzzles and mind games; Modern Heritage
+- [Minesweeper](../../games/22341-minesweeper/index.md): Worldwide; Puzzles and mind games; Modern Heritage
+- [Soroban](../../games/22319-soroban/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Sudoku](../../games/22340-sudoku/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Word Game](../../games/22346-word-game/index.md): Worldwide; Puzzles and mind games; Modern Heritage

@@ -40,11 +40,11 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [Wayfinder](../../games/43-wayfinder/index.md)
+- [Kōnane](../../games/961-konane/index.md)
 - [Mu Torere](../../games/979-mu-torere/index.md)
 - [Traditional contests at Micronesian Games](../../games/937-traditional-contests-at-micronesian-games/index.md)
 - [Carolinian string figures](../../games/938-carolinian-string-figures/index.md)
 - [Wave riding](../../games/76-wave-riding/index.md)
-- [Billycart derby](../../games/445-billycart-derby/index.md)
 
 ## Sources
 

@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with P"
-description: "70 entries beginning with P."
+description: "73 entries beginning with P."
 path: "/a-z/P/"
 ---
 # Entries beginning with P
@@ -31,11 +31,13 @@ path: "/a-z/P/"
 - [Patintero](../../games/1021-patintero/index.md): Philippines; Street and playground games; Deep Past and First Games
 - [Patolli](../../games/454-patolli/index.md): Mexico; Board and table games; Crossroads and Golden Ages
 - [Payada](../../games/1426-payada/index.md): Argentina, Uruguay; Wrestling and martial sports; Classical Worlds
+- [Pearl diving](../../games/6769-pearl-diving/index.md): Bahrain; Other traditions; Living Traditions
 - [Pebbles](../../games/874-pebbles/index.md): Laos; Dexterity and skill games; Deep Past and First Games
 - [Pencak silat](../../games/329-pencak-silat/index.md): Indonesia, Malaysia; Wrestling and martial sports; Classical Worlds
 - [Penghu Stone Weir Tide Puzzle](../../games/1479-penghu-stone-weir-tide-puzzle/index.md): Taiwan; Crafts and making; Living Traditions
 - [Peralikatuma](../../games/287-peralikatuma/index.md): Sri Lanka; Board and table games; Crossroads and Golden Ages
 - [Peranakan beaded slippers](../../games/1358-peranakan-beaded-slippers/index.md): China, Singapore; Crafts and making; Living Traditions
+- [Perch](../../games/22335-perch/index.md): Worldwide; Dexterity and skill games; Modern Heritage
 - [Perfumer's Organ](../../games/402-perfumers-organ/index.md): Worldwide; Crafts and making; Living Traditions
 - [Perinola](../../games/1212-perinola/index.md): Venezuela; Dexterity and skill games; Modern Heritage
 - [Persian Carpet Knotting](../../games/161-persian-carpet-knotting/index.md): Iran, Turkey; Crafts and making; Living Traditions
@@ -68,6 +70,7 @@ path: "/a-z/P/"
 - [Portuguese Guitar](../../games/1457-portuguese-guitar/index.md): Portugal; Musical instruments; Classical Worlds
 - [Portuguese staff fighting](../../games/1037-portuguese-staff-fighting/index.md): Portugal; Street and playground games; Classical Worlds
 - [Potta](../../games/579-potta/index.md): Barbados; Board and table games; River Valleys and First Cities
+- [Pottery](../../games/6593-pottery/index.md): Worldwide; Crafts and making; Living Traditions
 - [Provencal boules](../../games/939-provencal-boules/index.md): Monaco; Street and playground games; Classical Worlds
 - [Pub darts](../../games/1182-pub-darts/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
 - [Pub dominoes](../../games/1183-pub-dominoes/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages

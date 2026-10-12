@@ -1,16 +1,16 @@
 ---
 title: "Performance and storytelling"
-description: "15 traditions of this kind."
+description: "17 traditions of this kind."
 path: "/types/performance/"
-count: 15
+count: 17
 ---
 # Performance and storytelling
 
-15 traditions of this kind.
+17 traditions of this kind.
 
 
 
-15 entries.
+17 entries.
 
 - [Aragoz Hand-Puppet Booth](../../games/222-aragoz-hand-puppet-booth/index.md): Egypt; Performance and storytelling; Classical Worlds
 - [Bayt-bazi: verse chain](../../games/240-bayt-bazi-verse-chain/index.md): Iran; Performance and storytelling; Living Traditions
@@ -26,4 +26,6 @@ count: 15
 - [Tchiloli masked play](../../games/1430-tchiloli-masked-play/index.md): Sao Tome and Principe; Performance and storytelling; Living Traditions
 - [Water puppet pond theatre](../../games/303-water-puppet-pond-theatre/index.md): Vietnam; Performance and storytelling; Classical Worlds
 - [Yoke thé](../../games/314-yoke-the/index.md): Myanmar; Performance and storytelling; Classical Worlds
+- [Anansi stories](../../games/22321-anansi-stories/index.md): Ghana; Performance and storytelling; Living Traditions
 - [Panamanian singing rounds](../../games/1011-panamanian-singing-rounds/index.md): Panama; Performance and storytelling; Living Traditions
+- [The Road to Lanka](../../games/22330-the-road-to-lanka/index.md): India, Sri Lanka; Performance and storytelling; Modern Heritage

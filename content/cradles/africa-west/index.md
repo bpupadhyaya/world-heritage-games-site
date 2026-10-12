@@ -2,7 +2,7 @@
 title: "Africa: Sahel, West and Central"
 description: "The Sahel, the Guinea coast and the forests of central Africa."
 path: "/cradles/africa-west/"
-count: 87
+count: 89
 ---
 # Africa: Sahel, West and Central
 
@@ -10,7 +10,7 @@ The Sahel, the Guinea coast and the forests of central Africa.
 
 
 
-87 entries.
+89 entries.
 
 - [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
@@ -44,6 +44,7 @@ The Sahel, the Guinea coast and the forests of central Africa.
 - [Kisolo](../../games/666-kisolo/index.md): DR Congo, Zambia; Board and table games; Deep Past and First Games
 - [Kissi Penny Forging](../../games/1314-kissi-penny-forging/index.md): Guinea, Sierra Leone; Crafts and making; Living Traditions
 - [Kokawa Hausa Wrestling](../../games/1316-kokawa-hausa-wrestling/index.md): Nigeria, Niger; Wrestling and martial sports; River Valleys and First Cities
+- [Kora](../../games/7176-kora/index.md): Gambia, Mali; Musical instruments; Classical Worlds
 - [Korhogo Painted Cloth Studio](../../games/1318-korhogo-painted-cloth-studio/index.md): Cote d'Ivoire; Crafts and making; Living Traditions
 - [Krobo Powder-Glass Beads](../../games/173-krobo-powder-glass-beads/index.md): Ghana; Crafts and making; Living Traditions
 - [Kuba cloth pattern puzzle](../../games/91-kuba-cloth-pattern-puzzle/index.md): DR Congo; Crafts and making; Living Traditions
@@ -76,6 +77,7 @@ The Sahel, the Guinea coast and the forests of central Africa.
 - [Achi](../../games/748-achi/index.md): Ghana; Board and table games; Age of Contact and Craft
 - [African draughts](../../games/586-african-draughts/index.md): Benin, Burkina Faso; Board and table games; Modern Heritage
 - [Akedewama](../../games/837-akedewama/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
+- [Anansi stories](../../games/22321-anansi-stories/index.md): Ghana; Performance and storytelling; Living Traditions
 - [Ayo](../../games/986-ayo/index.md): Nigeria; Board and table games; Deep Past and First Games
 - [Bulundu](../../games/667-bulundu/index.md): DR Congo; Street and playground games; Modern Heritage
 - [Choko](../../games/733-choko/index.md): Gambia; Board and table games; Crossroads and Golden Ages

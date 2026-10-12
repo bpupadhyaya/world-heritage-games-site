@@ -37,16 +37,16 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Play it
 
-[About the game](https://bpupadhyaya.github.io/games-site/games/chogan-persian-polo/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Web preview](https://bpupadhyaya.github.io/games-site/games/chogan-persian-polo/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
 - [Chogan](../../games/810-chogan/index.md)
 - [Chavgonbozi](../../games/1132-chavgonbozi/index.md)
 - [Kok-boru](../../games/241-kok-boru/index.md)
+- [Shinny](../../games/725-shinny/index.md)
 - [Hurling](../../games/821-hurling/index.md)
 - [Rope pulling](../../games/855-rope-pulling/index.md)
-- [Kyz Kuu](../../games/858-kyz-kuu/index.md)
 
 ## Sources
 

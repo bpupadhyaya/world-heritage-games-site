@@ -7,10 +7,10 @@ path: "/eras/"
 
 Games grew up alongside cities, empires and trade routes. Walk through seven chapters of human history.
 
-- [Deep Past and First Games](../eras/deep-past/index.md): before about 3000 BCE · 102 entries
+- [Deep Past and First Games](../eras/deep-past/index.md): before about 3000 BCE · 103 entries
 - [River Valleys and First Cities](../eras/river-valleys/index.md): about 3000 to 1000 BCE · 65 entries
-- [Classical Worlds](../eras/classical/index.md): about 1000 BCE to 500 CE · 102 entries
-- [Crossroads and Golden Ages](../eras/crossroads/index.md): about 500 to 1500 · 125 entries
-- [Age of Contact and Craft](../eras/contact/index.md): about 1500 to 1800 · 72 entries
-- [Modern Heritage](../eras/modern/index.md): 1800 to today · 234 entries
-- [Living Traditions](../eras/living/index.md): undated · 337 entries
+- [Classical Worlds](../eras/classical/index.md): about 1000 BCE to 500 CE · 108 entries
+- [Crossroads and Golden Ages](../eras/crossroads/index.md): about 500 to 1500 · 131 entries
+- [Age of Contact and Craft](../eras/contact/index.md): about 1500 to 1800 · 79 entries
+- [Modern Heritage](../eras/modern/index.md): 1800 to today · 257 entries
+- [Living Traditions](../eras/living/index.md): undated · 347 entries

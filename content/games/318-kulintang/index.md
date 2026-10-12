@@ -40,12 +40,12 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Related entries
 
+- [Gamelan](../../games/22329-gamelan/index.md)
 - [Egrang](../../games/17-egrang/index.md)
 - [Ranat ek](../../games/305-ranat-ek/index.md)
 - [Arnis / Eskrima](../../games/323-arnis-eskrima/index.md)
 - [Pencak silat](../../games/329-pencak-silat/index.md)
 - [Wau bulan kite](../../games/911-wau-bulan-kite/index.md)
-- [Kampong Ayer water-taxi dash](../../games/1308-kampong-ayer-water-taxi-dash/index.md)
 
 ## Sources
 

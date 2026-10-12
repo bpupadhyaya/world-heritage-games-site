@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with M"
-description: "68 entries beginning with M."
+description: "71 entries beginning with M."
 path: "/a-z/M/"
 ---
 # Entries beginning with M
@@ -40,6 +40,7 @@ path: "/a-z/M/"
 - [Mate Pouring](../../games/1418-mate-pouring/index.md): Argentina; Crafts and making; Living Traditions
 - [Matkot](../../games/825-matkot/index.md): Israel; Street and playground games; Modern Heritage
 - [Matryoshka](../../games/28-matryoshka/index.md): Russia; Crafts and making; Living Traditions
+- [Maze](../../games/6640-maze/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Mbira](../../games/32-mbira/index.md): Zimbabwe; Musical instruments; Crossroads and Golden Ages
 - [Mehndi henna pattern drawing](../../games/260-mehndi-henna-pattern-drawing/index.md): India, Pakistan; Crafts and making; Living Traditions
 - [Menko](../../games/346-menko/index.md): Japan; Dexterity and skill games; Modern Heritage
@@ -52,6 +53,8 @@ path: "/a-z/M/"
 - [Mhele](../../games/600-mhele/index.md): Botswana; Street and playground games; Modern Heritage
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md): Lebanon, Syria; Musical instruments; Living Traditions
 - [Mill](../../games/1061-mill/index.md): Senegal; Board and table games; River Valleys and First Cities
+- [Minesweeper](../../games/22341-minesweeper/index.md): Worldwide; Puzzles and mind games; Modern Heritage
+- [Miniature golf](../../games/22333-miniature-golf/index.md): United Kingdom, United States; Dexterity and skill games; Modern Heritage
 - [Mithila folk painting](../../games/1337-mithila-folk-painting/index.md): Nepal, India; Crafts and making; Living Traditions
 - [Mixtec ball game](../../games/936-mixtec-ball-game/index.md): Mexico; Street and playground games; Modern Heritage
 - [Mochitsuki](../../games/358-mochitsuki/index.md): Japan; Performance and storytelling; Living Traditions

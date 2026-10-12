@@ -1,16 +1,16 @@
 ---
 title: "Middle East and North Africa"
-description: "93 entries."
+description: "95 entries."
 path: "/regions/middle-east-and-north-africa/"
-count: 93
+count: 95
 ---
 # Middle East and North Africa
 
-93 entries.
+95 entries.
 
 
 
-93 entries.
+95 entries.
 
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
 - [Al Talli Braid Embroidery](../../games/1273-al-talli-braid-embroidery/index.md): United Arab Emirates; Crafts and making; Living Traditions
@@ -98,10 +98,12 @@ count: 93
 - [Krur](../../games/950-krur/index.md): Morocco; Board and table games; Deep Past and First Games
 - [Maghrebi 5x5 capture game](../../games/887-maghrebi-5x5-capture-game/index.md): Libya; Board and table games; Age of Contact and Craft
 - [Matkot](../../games/825-matkot/index.md): Israel; Street and playground games; Modern Heritage
+- [Pearl diving](../../games/6769-pearl-diving/index.md): Bahrain; Other traditions; Living Traditions
 - [Seega](../../games/692-seega/index.md): Egypt; Board and table games; Age of Contact and Craft
 - [Steel-and-stick](../../games/1162-steel-and-stick/index.md): Turkey; Street and playground games; Modern Heritage
 - [Syrian mancala](../../games/1128-syrian-mancala/index.md): Syria; Board and table games; Deep Past and First Games
 - [Tab](../../games/694-tab/index.md): Egypt; Board and table games; River Valleys and First Cities
 - [Tawla](../../games/815-tawla/index.md): Iraq, Syria; Board and table games; River Valleys and First Cities
 - [Tawle](../../games/880-tawle/index.md): Lebanon, Palestine; Board and table games; River Valleys and First Cities
+- [Traditional dhow sail racing](../../games/6768-traditional-dhow-sail-racing/index.md): United Arab Emirates; Racing; Age of Contact and Craft
 - [Zarzir](../../games/1010-zarzir/index.md): Palestine; Dexterity and skill games; Deep Past and First Games

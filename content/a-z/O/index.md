@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with O"
-description: "19 entries beginning with O."
+description: "20 entries beginning with O."
 path: "/a-z/O/"
 ---
 # Entries beginning with O
@@ -17,6 +17,7 @@ path: "/a-z/O/"
 - [Omani Khanjar Silver Filigree](../../games/1351-omani-khanjar-silver-filigree/index.md): Oman; Crafts and making; Living Traditions
 - [Omok](../../games/1088-omok/index.md): South Korea; Board and table games; Classical Worlds
 - [Omweso](../../games/1176-omweso/index.md): Uganda; Board and table games; Deep Past and First Games
+- [One Arrow Oath](../../games/22334-one-arrow-oath/index.md): India; Other traditions; Modern Heritage
 - [Ordo](../../games/870-ordo/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
 - [Otedama](../../games/131-otedama/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Oualata Wall Painting](../../games/1352-oualata-wall-painting/index.md): Mauritania; Crafts and making; Living Traditions

@@ -1,16 +1,16 @@
 ---
 title: "Puzzle and dexterity toys"
-description: "116 related traditions."
+description: "121 related traditions."
 path: "/families/puzzle-dexterity/"
-count: 116
+count: 121
 ---
 # Puzzle and dexterity toys
 
-116 related traditions.
+121 related traditions.
 
 
 
-116 entries.
+121 entries.
 
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md): Ghana, Cote d'Ivoire; Puzzles and mind games; Modern Heritage
 - [Al-Jazari water-clock contraptions](../../games/237-al-jazari-water-clock-contraptions/index.md): Iraq; Puzzles and mind games; Modern Heritage
@@ -30,6 +30,7 @@ count: 116
 - [Dalgona](../../games/100-dalgona/index.md): South Korea; Dexterity and skill games; Crossroads and Golden Ages
 - [Dandi Biyo](../../games/968-dandi-biyo/index.md): Nepal; Dexterity and skill games; Modern Heritage
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Diabolo](../../games/5023-diabolo/index.md): France; Toys; Modern Heritage
 - [Diketo](../../games/1076-diketo/index.md): South Africa, Botswana; Dexterity and skill games; Deep Past and First Games
 - [Disc-flip](../../games/8-disc-flip/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md): China, South Korea; Puzzles and mind games; Classical Worlds
@@ -60,6 +61,7 @@ count: 116
 - [Lusona Sand Drawings](../../games/113-lusona-sand-drawings/index.md): Angola, Zambia; Puzzles and mind games; Modern Heritage
 - [Maori stick games](../../games/981-maori-stick-games/index.md): New Zealand; Dexterity and skill games; Modern Heritage
 - [Marshallese stick chart navigator](../../games/1333-marshallese-stick-chart-navigator/index.md): Marshall Islands; Puzzles and mind games; Modern Heritage
+- [Maze](../../games/6640-maze/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Menko](../../games/346-menko/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Nail driving](../../games/82-nail-driving/index.md): Germany; Dexterity and skill games; Modern Heritage
 - [Nhodo](../../games/1346-nhodo/index.md): Zimbabwe; Dexterity and skill games; Deep Past and First Games
@@ -103,6 +105,8 @@ count: 116
 - [Blada](../../games/862-blada/index.md): Kenya; Dexterity and skill games; Modern Heritage
 - [Carolinian string figures](../../games/938-carolinian-string-figures/index.md): Micronesia; Dexterity and skill games; Deep Past and First Games
 - [Chromos](../../games/648-chromos/index.md): Costa Rica; Dexterity and skill games; Modern Heritage
+- [Crossword](../../games/22326-crossword/index.md): United Kingdom, United States; Puzzles and mind games; Modern Heritage
+- [Crown Fields](../../games/22327-crown-fields/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Cup-and-ball](../../games/933-cup-and-ball/index.md): Mexico; Dexterity and skill games; Modern Heritage
 - [Cush](../../games/760-cush/index.md): Guyana; Dexterity and skill games; Modern Heritage
 - [Dego](../../games/590-dego/index.md): Bhutan; Dexterity and skill games; Modern Heritage
@@ -126,5 +130,6 @@ count: 116
 - [Seven-pebble toss game](../../games/620-seven-pebble-toss-game/index.md): Cameroon; Dexterity and skill games; Deep Past and First Games
 - [Solomon string figures](../../games/1075-solomon-string-figures/index.md): Solomon Islands; Dexterity and skill games; Deep Past and First Games
 - [Street](../../games/1052-street/index.md): Saint Vincent and the Grenadines, Grenada; Dexterity and skill games; Deep Past and First Games
+- [Sudoku](../../games/22340-sudoku/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Thai pebbles](../../games/1140-thai-pebbles/index.md): Thailand; Dexterity and skill games; Deep Past and First Games
 - [Whai](../../games/982-whai/index.md): New Zealand; Dexterity and skill games; Deep Past and First Games

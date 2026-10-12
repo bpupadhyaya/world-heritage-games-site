@@ -2,7 +2,7 @@
 title: "South Asia"
 description: "The Indus and Ganges plains, the Deccan, the south and the Himalaya."
 path: "/cradles/south-asia/"
-count: 86
+count: 90
 ---
 # South Asia
 
@@ -10,7 +10,7 @@ The Indus and Ganges plains, the Deccan, the south and the Himalaya.
 
 
 
-86 entries.
+90 entries.
 
 - [Ajrak block printing](../../games/1226-ajrak-block-printing/index.md): Pakistan; Crafts and making; Living Traditions
 - [Allo nettle fibre weaving](../../games/1228-allo-nettle-fibre-weaving/index.md): Nepal; Crafts and making; Living Traditions
@@ -78,7 +78,7 @@ The Indus and Ganges plains, the Deccan, the south and the Himalaya.
 - [Veena](../../games/282-veena/index.md): India; Musical instruments; Crossroads and Golden Ages
 - [Warli painting](../../games/117-warli-painting/index.md): India; Crafts and making; Living Traditions
 - [Akuru Thaasbe](../../games/913-akuru-thaasbe/index.md): Maldives; Other traditions; Living Traditions
-- [Archery](../../games/591-archery/index.md): Bhutan; Street and playground games; Classical Worlds
+- [Archery](../../games/591-archery/index.md): Bhutan; Archery, throwing and target games; Classical Worlds
 - [Baibalaa](../../games/914-baibalaa/index.md): Maldives; Street and playground games; Deep Past and First Games
 - [Dego](../../games/590-dego/index.md): Bhutan; Dexterity and skill games; Modern Heritage
 - [Gollachut](../../games/573-gollachut/index.md): Bangladesh; Street and playground games; Modern Heritage
@@ -86,15 +86,19 @@ The Indus and Ganges plains, the Deccan, the south and the Himalaya.
 - [Horn pulling](../../games/1103-horn-pulling/index.md): Sri Lanka; Street and playground games; Classical Worlds
 - [Khuru](../../games/592-khuru/index.md): Bhutan; Dexterity and skill games; Age of Contact and Craft
 - [Kite fighting](../../games/788-kite-fighting/index.md): India, Pakistan; Dexterity and skill games; Classical Worlds
+- [Kolam](../../games/22332-kolam/index.md): India; Crafts and making; Living Traditions
 - [Lambs and Tigers](../../games/791-lambs-and-tigers/index.md): India; Board and table games; Crossroads and Golden Ages
 - [Maldivian chess](../../games/917-maldivian-chess/index.md): Maldives; Board and table games; Crossroads and Golden Ages
 - [Ohvalhu](../../games/916-ohvalhu/index.md): Maldives; Board and table games; Deep Past and First Games
 - [Olinda Keliya](../../games/1106-olinda-keliya/index.md): Sri Lanka; Board and table games; Deep Past and First Games
+- [One Arrow Oath](../../games/22334-one-arrow-oath/index.md): India; Other traditions; Modern Heritage
 - [Pachisi](../../games/797-pachisi/index.md): India; Board and table games; River Valleys and First Cities
 - [Pancha](../../games/1108-pancha/index.md): Sri Lanka; Board and table games; River Valleys and First Cities
 - [Pillow fight](../../games/1101-pillow-fight/index.md): Sri Lanka, Myanmar; Street and playground games; Modern Heritage
 - [Pitthu Garam](../../games/1004-pitthu-garam/index.md): Pakistan; Street and playground games; Modern Heritage
 - [Snakes and Ladders](../../games/796-snakes-and-ladders/index.md): India; Board and table games; River Valleys and First Cities
+- [The Road to Lanka](../../games/22330-the-road-to-lanka/index.md): India, Sri Lanka; Performance and storytelling; Modern Heritage
 - [Thin Hama](../../games/918-thin-hama/index.md): Maldives; Board and table games; River Valleys and First Cities
 - [Tiger and Goat](../../games/967-tiger-and-goat/index.md): Nepal; Board and table games; Crossroads and Golden Ages
+- [Vitti Dandu](../../games/9804-vitti-dandu/index.md): India; Bat-and-ball games; Age of Contact and Craft
 - [Yam](../../games/593-yam/index.md): Bhutan; Board and table games; River Valleys and First Cities

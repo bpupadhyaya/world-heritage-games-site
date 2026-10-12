@@ -38,11 +38,11 @@ A living tradition passed from person to person; it is not tied to a single date
 ## Related entries
 
 - [Rubboard zydeco rhythm](../../games/437-rubboard-zydeco-rhythm/index.md)
+- [American patchwork quilting](../../games/6356-american-patchwork-quilting/index.md)
 - [Maple taffy on snow](../../games/441-maple-taffy-on-snow/index.md)
 - [Ice Canoe Race](../../games/1412-ice-canoe-race/index.md)
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md)
 - [Double Dutch](../../games/53-double-dutch/index.md)
-- [Sled dog race](../../games/62-sled-dog-race/index.md)
 
 ## Sources
 

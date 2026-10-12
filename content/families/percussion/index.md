@@ -1,16 +1,16 @@
 ---
 title: "Drums and percussion"
-description: "23 related traditions."
+description: "25 related traditions."
 path: "/families/percussion/"
-count: 23
+count: 25
 ---
 # Drums and percussion
 
-23 related traditions.
+25 related traditions.
 
 
 
-23 entries.
+25 entries.
 
 - [Amadinda and embaire](../../games/185-amadinda-and-embaire/index.md): Uganda; Musical instruments; Living Traditions
 - [Ardah Drum-and-Line Rhythm](../../games/1343-ardah-drum-and-line-rhythm/index.md): Saudi Arabia; Musical instruments; Living Traditions
@@ -32,6 +32,8 @@ count: 23
 - [Murga Uruguaya Carnival Troupe](../../games/1419-murga-uruguaya-carnival-troupe/index.md): Uruguay; Crafts and making; Living Traditions
 - [Ranat ek](../../games/305-ranat-ek/index.md): Thailand; Musical instruments; Living Traditions
 - [Steelpan](../../games/31-steelpan/index.md): Trinidad and Tobago; Musical instruments; Age of Contact and Craft
+- [Taiko](../../games/5367-taiko/index.md): Japan; Musical instruments; Living Traditions
 - [Talking drum](../../games/33-talking-drum/index.md): Nigeria; Musical instruments; Living Traditions
 - [Tamburello](../../games/489-tamburello/index.md): Italy, France; Crafts and making; Living Traditions
 - [Tombak goblet drum rhythms](../../games/233-tombak-goblet-drum-rhythms/index.md): Iran; Musical instruments; Living Traditions
+- [Gamelan](../../games/22329-gamelan/index.md): Indonesia; Musical instruments; Classical Worlds

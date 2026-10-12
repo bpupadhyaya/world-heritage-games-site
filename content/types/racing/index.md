@@ -1,16 +1,16 @@
 ---
 title: "Racing"
-description: "30 traditions of this kind."
+description: "32 traditions of this kind."
 path: "/types/racing/"
-count: 30
+count: 32
 ---
 # Racing
 
-30 traditions of this kind.
+32 traditions of this kind.
 
 
 
-30 entries.
+32 entries.
 
 - [Antigua Classic Yacht Race](../../games/1433-antigua-classic-yacht-race/index.md): Antigua and Barbuda, United Kingdom; Racing; Age of Contact and Craft
 - [Asmara highland road race](../../games/193-asmara-highland-road-race/index.md): Eritrea; Racing; Age of Contact and Craft
@@ -19,6 +19,7 @@ count: 30
 - [Beach flags](../../games/446-beach-flags/index.md): Australia; Racing; Age of Contact and Craft
 - [Billycart derby](../../games/445-billycart-derby/index.md): Australia; Racing; Age of Contact and Craft
 - [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md): United Kingdom; Racing; Modern Heritage
+- [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md): China; Racing; Crossroads and Golden Ages
 - [Egrang](../../games/17-egrang/index.md): Indonesia, Malaysia; Racing; Classical Worlds
 - [Hanetsuki](../../games/347-hanetsuki/index.md): Japan; Racing; Age of Contact and Craft
 - [Harbour Street Circuit Time Trial](../../games/1475-harbour-street-circuit-time-trial/index.md): Monaco; Racing; Modern Heritage
@@ -42,3 +43,4 @@ count: 30
 - [Thung chai basket-boat spinning](../../games/308-thung-chai-basket-boat-spinning/index.md): Vietnam; Racing; Age of Contact and Craft
 - [Venetian lagoon regatta](../../games/486-venetian-lagoon-regatta/index.md): Italy; Racing; Age of Contact and Craft
 - [Tombola](../../games/829-tombola/index.md): Italy, Malta; Racing; Age of Contact and Craft
+- [Traditional dhow sail racing](../../games/6768-traditional-dhow-sail-racing/index.md): United Arab Emirates; Racing; Age of Contact and Craft

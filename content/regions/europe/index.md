@@ -1,16 +1,16 @@
 ---
 title: "Europe"
-description: "222 entries."
+description: "236 entries."
 path: "/regions/europe/"
-count: 222
+count: 236
 ---
 # Europe
 
-222 entries.
+236 entries.
 
 
 
-222 entries.
+236 entries.
 
 - [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Azulejo tile painting](../../games/122-azulejo-tile-painting/index.md): Portugal; Crafts and making; Living Traditions
@@ -39,6 +39,7 @@ count: 222
 - [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md): United Kingdom; Racing; Modern Heritage
 - [Chess](../../games/552-chess/index.md): Armenia, Azerbaijan; Board and table games; Crossroads and Golden Ages
 - [Chidaoba](../../games/734-chidaoba/index.md): Georgia; Street and playground games; River Valleys and First Cities
+- [Chinese Checkers](../../games/8870-chinese-checkers/index.md): Germany; Board and table games; Deep Past and First Games
 - [Chonguri](../../games/255-chonguri/index.md): Georgia; Musical instruments; Crossroads and Golden Ages
 - [Churchkhela](../../games/1255-churchkhela/index.md): Georgia; Crafts and making; Living Traditions
 - [Čičmany House Ornament Painting](../../games/1256-cicmany-house-ornament-painting/index.md): Slovakia; Crafts and making; Living Traditions
@@ -58,6 +59,7 @@ count: 222
 - [Dala Horse Painting](../../games/415-dala-horse-painting/index.md): Sweden; Crafts and making; Living Traditions
 - [Daldøs](../../games/458-dalds/index.md): Denmark, Norway; Board and table games; Crossroads and Golden Ages
 - [Danish pin billiards](../../games/671-danish-pin-billiards/index.md): Denmark; Street and playground games; Age of Contact and Craft
+- [Diabolo](../../games/5023-diabolo/index.md): France; Toys; Modern Heritage
 - [Disc-flip](../../games/8-disc-flip/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
 - [Don't Get Angry](../../games/744-dont-get-angry/index.md): Germany; Board and table games; River Valleys and First Cities
 - [Dots and Boxes](../../games/463-dots-and-boxes/index.md): France; Crafts and making; Living Traditions
@@ -132,6 +134,7 @@ count: 222
 - [Malha](../../games/1466-malha/index.md): Portugal; Archery, throwing and target games; Classical Worlds
 - [Mas-wrestling](../../games/380-mas-wrestling/index.md): Russia; Wrestling and martial sports; River Valleys and First Cities
 - [Matryoshka](../../games/28-matryoshka/index.md): Russia; Crafts and making; Living Traditions
+- [Maze](../../games/6640-maze/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Moldovan Woven Carpet Pattern Studio](../../games/1339-moldovan-woven-carpet-pattern-studio/index.md): Moldova; Crafts and making; Living Traditions
 - [Morra](../../games/83-morra/index.md): Italy; Archery, throwing and target games; Classical Worlds
 - [Mounted Archery Course](../../games/67-mounted-archery-course/index.md): Hungary; Dexterity and skill games; Classical Worlds
@@ -199,10 +202,13 @@ count: 222
 - [Whistled Language Relay](../../games/403-whistled-language-relay/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
 - [Yalli](../../games/1400-yalli/index.md): Azerbaijan; Dances; Living Traditions
+- [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
 - [Balle pelote](../../games/580-balle-pelote/index.md): Belgium; Street and playground games; Modern Heritage
 - [Boċċi](../../games/922-bocci/index.md): Malta; Street and playground games; Classical Worlds
 - [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
 - [Chovqan](../../games/565-chovqan/index.md): Azerbaijan; Street and playground games; Classical Worlds
+- [Cricket](../../games/22343-cricket/index.md): United Kingdom, India; Bat-and-ball games; Age of Contact and Craft
+- [Crossword](../../games/22326-crossword/index.md): United Kingdom, United States; Puzzles and mind games; Modern Heritage
 - [Czech draughts](../../games/662-czech-draughts/index.md): Czechia; Board and table games; Crossroads and Golden Ages
 - [Don't Get Mad](../../games/530-dont-get-mad/index.md): Albania; Board and table games; Crossroads and Golden Ages
 - [Dutch draughts](../../games/970-dutch-draughts/index.md): Netherlands; Board and table games; Crossroads and Golden Ages
@@ -214,6 +220,7 @@ count: 222
 - [Lelo Burti](../../games/737-lelo-burti/index.md): Georgia; Street and playground games; Modern Heritage
 - [Ligrin](../../games/657-ligrin/index.md): Cyprus; Street and playground games; Modern Heritage
 - [Lithuanian Durak variants](../../games/894-lithuanian-durak-variants/index.md): Lithuania; Card games; Age of Contact and Craft
+- [Miniature golf](../../games/22333-miniature-golf/index.md): United Kingdom, United States; Dexterity and skill games; Modern Heritage
 - [Nardy](../../games/1047-nardy/index.md): Russia; Board and table games; River Valleys and First Cities
 - [Nine Men's Morris](../../games/740-nine-mens-morris/index.md): Germany, Liechtenstein; Board and table games; River Valleys and First Cities
 - [Palant](../../games/1031-palant/index.md): Poland; Street and playground games; Deep Past and First Games
@@ -225,12 +232,19 @@ count: 222
 - [Provencal boules](../../games/939-provencal-boules/index.md): Monaco; Street and playground games; Classical Worlds
 - [Pub dominoes](../../games/1183-pub-dominoes/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
 - [Remi](../../games/993-remi/index.md): North Macedonia, Serbia; Card games; Age of Contact and Craft
+- [Reversi](../../games/22336-reversi/index.md): United Kingdom, Japan; Board and table games; Crossroads and Golden Ages
+- [Rithmomachia](../../games/8869-rithmomachia/index.md): Italy; Board and table games; Crossroads and Golden Ages
+- [Russian Loto](../../games/22338-russian-loto/index.md): Russia; Board and table games; Crossroads and Golden Ages
 - [Scopa](../../games/832-scopa/index.md): Italy, San Marino; Card games; Age of Contact and Craft
+- [Sheepdog trials](../../games/5047-sheepdog-trials/index.md): United Kingdom; Sports with animal partners; Classical Worlds
 - [Skittles](../../games/1179-skittles/index.md): United Kingdom, Germany; Street and playground games; Age of Contact and Craft
 - [Snooker](../../games/1185-snooker/index.md): United Kingdom; Street and playground games; Modern Heritage
 - [Stick and Cingel](../../games/529-stick-and-cingel/index.md): Albania; Street and playground games; Modern Heritage
 - [Table](../../games/1044-table/index.md): Romania, Moldova; Board and table games; River Valleys and First Cities
+- [Table football](../../games/5250-table-football/index.md): Spain; Team ball sports; Crossroads and Golden Ages
+- [Table tennis](../../games/22342-table-tennis/index.md): United Kingdom, China; Bat-and-ball games; Age of Contact and Craft
 - [Tavëll](../../games/527-tavell/index.md): Albania, Kosovo; Board and table games; River Valleys and First Cities
 - [Tavla](../../games/992-tavla/index.md): North Macedonia, Montenegro; Board and table games; River Valleys and First Cities
 - [Tombola](../../games/829-tombola/index.md): Italy, Malta; Racing; Age of Contact and Craft
+- [Traditional football](../../games/10068-traditional-football/index.md): United Kingdom; Team ball sports; Modern Heritage
 - [Ziziros](../../games/659-ziziros/index.md): Cyprus; Street and playground games; Deep Past and First Games

@@ -42,11 +42,11 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 ## Related entries
 
 - [Pacu jawi](../../games/1354-pacu-jawi/index.md)
+- [Bulls and Cows](../../games/9038-bulls-and-cows/index.md)
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md)
 - [Pub darts](../../games/1182-pub-darts/index.md)
 - [Change Ringing](../../games/1443-change-ringing/index.md)
 - [Skittles](../../games/1179-skittles/index.md)
-- [Wave riding](../../games/76-wave-riding/index.md)
 
 ## Sources
 

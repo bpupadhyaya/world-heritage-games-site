@@ -39,10 +39,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Sepak takraw](../../games/802-sepak-takraw/index.md)
 - [Nohejbal](../../games/378-nohejbal/index.md)
+- [Traditional football](../../games/10068-traditional-football/index.md)
+- [American football](../../games/22320-american-football/index.md)
+- [Badminton](../../games/22322-badminton/index.md)
 - [Gasing](../../games/908-gasing/index.md)
-- [Chinlone](../../games/16-chinlone/index.md)
-- [Tinikling](../../games/141-tinikling/index.md)
-- [Luksong tinik](../../games/146-luksong-tinik/index.md)
 
 ## Sources
 

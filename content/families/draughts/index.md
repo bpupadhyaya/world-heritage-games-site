@@ -1,18 +1,19 @@
 ---
 title: "Draughts and capture games"
-description: "21 related traditions."
+description: "22 related traditions."
 path: "/families/draughts/"
-count: 21
+count: 22
 ---
 # Draughts and capture games
 
-21 related traditions.
+22 related traditions.
 
 
 
-21 entries.
+22 entries.
 
 - [Checkers](../../games/567-checkers/index.md): Bahamas, United States; Board and table games; Crossroads and Golden Ages
+- [Chinese Checkers](../../games/8870-chinese-checkers/index.md): Germany; Board and table games; Deep Past and First Games
 - [Italian draughts](../../games/834-italian-draughts/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Kharbaga](../../games/459-kharbaga/index.md): Morocco; Board and table games; Crossroads and Golden Ages
 - [Peralikatuma](../../games/287-peralikatuma/index.md): Sri Lanka; Board and table games; Crossroads and Golden Ages

@@ -1,16 +1,16 @@
 ---
 title: "Uzbekistan"
-description: "7 traditions from Uzbekistan."
+description: "8 traditions from Uzbekistan."
 path: "/countries/uzbekistan/"
-count: 7
+count: 8
 ---
 # Uzbekistan
 
-7 traditions from Uzbekistan.
+8 traditions from Uzbekistan.
 
 
 
-7 entries.
+8 entries.
 
 - [Ikat Pattern Dyeing](../../games/104-ikat-pattern-dyeing/index.md): Uzbekistan; Crafts and making; Living Traditions
 - [Kurash](../../games/253-kurash/index.md): Uzbekistan; Wrestling and martial sports; River Valleys and First Cities
@@ -19,3 +19,4 @@ count: 7
 - [Chavgon](../../games/1204-chavgon/index.md): Uzbekistan; Street and playground games; Classical Worlds
 - [Nard / long backgammon](../../games/1205-nard-long-backgammon/index.md): Uzbekistan; Board and table games; River Valleys and First Cities
 - [Shashki / chess](../../games/1206-shashki-chess/index.md): Uzbekistan; Board and table games; Classical Worlds
+- [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md): China, Uzbekistan; Other traditions; Classical Worlds

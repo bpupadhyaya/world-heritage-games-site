@@ -41,7 +41,7 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Play it
 
-[About the game](https://bpupadhyaya.github.io/games-site/games/go-stones-and-territory/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Web preview](https://bpupadhyaya.github.io/games-site/games/go-stones-and-territory/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
@@ -50,7 +50,7 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Dizi](../../games/132-dizi/index.md)
 - [Cuju](../../games/333-cuju/index.md)
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md)
-- [Pitch-pot](../../games/2-pitch-pot/index.md)
+- [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md)
 
 ## Sources
 

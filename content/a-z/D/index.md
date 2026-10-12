@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with D"
-description: "47 entries beginning with D."
+description: "49 entries beginning with D."
 path: "/a-z/D/"
 ---
 # Entries beginning with D
@@ -26,6 +26,7 @@ path: "/a-z/D/"
 - [Dhamet](../../games/927-dhamet/index.md): Mauritania; Board and table games; Crossroads and Golden Ages
 - [Dhokra lost-wax casting](../../games/278-dhokra-lost-wax-casting/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Dhol drum rhythm](../../games/263-dhol-drum-rhythm/index.md): India; Musical instruments; Living Traditions
+- [Diabolo](../../games/5023-diabolo/index.md): France; Toys; Modern Heritage
 - [Dibeke](../../games/1078-dibeke/index.md): South Africa, Botswana; Street and playground games; Modern Heritage
 - [Digor](../../games/1267-digor/index.md): Bhutan; Archery, throwing and target games; Classical Worlds
 - [Diketo](../../games/1076-diketo/index.md): South Africa, Botswana; Dexterity and skill games; Deep Past and First Games
@@ -43,6 +44,7 @@ path: "/a-z/D/"
 - [Dots and Boxes](../../games/463-dots-and-boxes/index.md): France; Crafts and making; Living Traditions
 - [Double Dutch](../../games/53-double-dutch/index.md): United States; Street and playground games; Modern Heritage
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md): China, South Korea; Puzzles and mind games; Classical Worlds
+- [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md): China; Racing; Crossroads and Golden Ages
 - [Dranyen](../../games/300-dranyen/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Draughts](../../games/576-draughts/index.md): Barbados, Antigua and Barbuda; Board and table games; Modern Heritage
 - [Dry Stone Wall Builder](../../games/404-dry-stone-wall-builder/index.md): Croatia, Spain; Crafts and making; Living Traditions

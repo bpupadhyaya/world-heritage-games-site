@@ -11,7 +11,7 @@ countries: ["Benin", "Burkina Faso", "Cote d'Ivoire", "Ghana", "Guinea", "Liberi
 ---
 # African draughts
 
-*Also known as: Jeu de dames · Draughts · Dame, 10x10*
+*Also known as: Jeu de dames · Draughts · Dame · Dame, 10x10*
 
 **Encyclopedia ID 586** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/586-african-draughts/
 
@@ -34,6 +34,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - **Cradle:** [Africa: Sahel, West and Central](../../cradles/africa-west/index.md)
 - **Region:** Sub-Saharan Africa
 - **Players:** 2
+
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/games-site/games/dame-ghana-draughts/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 

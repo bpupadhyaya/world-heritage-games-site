@@ -1,16 +1,16 @@
 ---
 title: "String instruments"
-description: "58 related traditions."
+description: "59 related traditions."
 path: "/families/string-instrument/"
-count: 58
+count: 59
 ---
 # String instruments
 
-58 related traditions.
+59 related traditions.
 
 
 
-58 entries.
+59 entries.
 
 - [Adungu](../../games/186-adungu/index.md): Uganda; Musical instruments; Classical Worlds
 - [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md): Afghanistan; Musical instruments; Crossroads and Golden Ages
@@ -42,6 +42,7 @@ count: 58
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md): India; Performance and storytelling; Classical Worlds
 - [Khomus](../../games/379-khomus/index.md): Russia; Musical instruments; Classical Worlds
 - [Komuz](../../games/242-komuz/index.md): Kyrgyzstan; Musical instruments; Crossroads and Golden Ages
+- [Kora](../../games/7176-kora/index.md): Gambia, Mali; Musical instruments; Classical Worlds
 - [Krar lyre](../../games/126-krar-lyre/index.md): Ethiopia, Eritrea; Musical instruments; Classical Worlds
 - [Langeleik](../../games/1322-langeleik/index.md): Norway; Musical instruments; Classical Worlds
 - [Langspil](../../games/1323-langspil/index.md): Iceland; Musical instruments; Classical Worlds

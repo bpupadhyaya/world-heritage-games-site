@@ -43,10 +43,10 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 - [Taco bat game](../../games/655-taco-bat-game/index.md)
 - [Street baseball](../../games/684-street-baseball/index.md)
+- [Backyard cricket](../../games/559-backyard-cricket/index.md)
 - [Samoan cricket](../../games/1056-samoan-cricket/index.md)
 - [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md)
 - [Tongan cricket](../../games/1149-tongan-cricket/index.md)
-- [Tuvaluan kilikiti](../../games/1172-tuvaluan-kilikiti/index.md)
 
 ## Sources
 

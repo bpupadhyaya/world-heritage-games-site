@@ -2,7 +2,7 @@
 title: "Celtic and Atlantic Europe"
 description: "Ireland, Britain, France and the Low Countries."
 path: "/cradles/celtic-atlantic/"
-count: 63
+count: 72
 ---
 # Celtic and Atlantic Europe
 
@@ -10,7 +10,7 @@ Ireland, Britain, France and the Low Countries.
 
 
 
-63 entries.
+72 entries.
 
 - [Bagatelle](../../games/72-bagatelle/index.md): France, United Kingdom; Dexterity and skill games; Modern Heritage
 - [Basque stone lifting](../../games/479-basque-stone-lifting/index.md): France; Acrobatics and strength; Classical Worlds
@@ -29,6 +29,7 @@ Ireland, Britain, France and the Low Countries.
 - [Croquet](../../games/81-croquet/index.md): United Kingdom, Ireland; Board and table games; Crossroads and Golden Ages
 - [Curling](../../games/1181-curling/index.md): United Kingdom; Street and playground games; Modern Heritage
 - [Cynghanedd Poetry Puzzle](../../games/1448-cynghanedd-poetry-puzzle/index.md): United Kingdom; Puzzles and mind games; Modern Heritage
+- [Diabolo](../../games/5023-diabolo/index.md): France; Toys; Modern Heritage
 - [Disc-flip](../../games/8-disc-flip/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
 - [Dots and Boxes](../../games/463-dots-and-boxes/index.md): France; Crafts and making; Living Traditions
 - [Fierljeppen](../../games/971-fierljeppen/index.md): Netherlands; Street and playground games; Modern Heritage
@@ -65,13 +66,21 @@ Ireland, Britain, France and the Low Countries.
 - [Water Jousting](../../games/393-water-jousting/index.md): France; Wrestling and martial sports; Crossroads and Golden Ages
 - [Welsh Love Spoon Carving](../../games/414-welsh-love-spoon-carving/index.md): United Kingdom; Crafts and making; Living Traditions
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
+- [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
 - [Balle pelote](../../games/580-balle-pelote/index.md): Belgium; Street and playground games; Modern Heritage
 - [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
+- [Cricket](../../games/22343-cricket/index.md): United Kingdom, India; Bat-and-ball games; Age of Contact and Craft
+- [Crossword](../../games/22326-crossword/index.md): United Kingdom, United States; Puzzles and mind games; Modern Heritage
 - [Dutch draughts](../../games/970-dutch-draughts/index.md): Netherlands; Board and table games; Crossroads and Golden Ages
 - [Frisian kaatsen](../../games/973-frisian-kaatsen/index.md): Netherlands; Street and playground games; Modern Heritage
 - [Highland games](../../games/1184-highland-games/index.md): United Kingdom; Street and playground games; Modern Heritage
+- [Miniature golf](../../games/22333-miniature-golf/index.md): United Kingdom, United States; Dexterity and skill games; Modern Heritage
 - [Pitch and toss](../../games/822-pitch-and-toss/index.md): Ireland; Dexterity and skill games; Modern Heritage
 - [Provencal boules](../../games/939-provencal-boules/index.md): Monaco; Street and playground games; Classical Worlds
 - [Pub dominoes](../../games/1183-pub-dominoes/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
+- [Reversi](../../games/22336-reversi/index.md): United Kingdom, Japan; Board and table games; Crossroads and Golden Ages
+- [Sheepdog trials](../../games/5047-sheepdog-trials/index.md): United Kingdom; Sports with animal partners; Classical Worlds
 - [Skittles](../../games/1179-skittles/index.md): United Kingdom, Germany; Street and playground games; Age of Contact and Craft
 - [Snooker](../../games/1185-snooker/index.md): United Kingdom; Street and playground games; Modern Heritage
+- [Table tennis](../../games/22342-table-tennis/index.md): United Kingdom, China; Bat-and-ball games; Age of Contact and Craft
+- [Traditional football](../../games/10068-traditional-football/index.md): United Kingdom; Team ball sports; Modern Heritage

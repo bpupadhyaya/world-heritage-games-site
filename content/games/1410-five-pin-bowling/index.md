@@ -40,11 +40,11 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 ## Related entries
 
 - [Sled dog race](../../games/62-sled-dog-race/index.md)
+- [Klondike](../../games/22325-klondike/index.md)
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md)
 - [Barrel racing](../../games/439-barrel-racing/index.md)
 - [Tractor pull](../../games/440-tractor-pull/index.md)
 - [Maple taffy on snow](../../games/441-maple-taffy-on-snow/index.md)
-- [Axe throwing](../../games/442-axe-throwing/index.md)
 
 ## Sources
 

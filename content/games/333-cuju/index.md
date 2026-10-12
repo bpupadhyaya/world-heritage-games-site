@@ -44,8 +44,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Dizi](../../games/132-dizi/index.md)
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md)
 - [Go](../../games/634-go/index.md)
+- [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md)
 - [Nohejbal](../../games/378-nohejbal/index.md)
-- [Sepak takraw](../../games/802-sepak-takraw/index.md)
 
 ## Sources
 

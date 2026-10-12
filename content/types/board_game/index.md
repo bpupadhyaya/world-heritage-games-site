@@ -1,16 +1,16 @@
 ---
 title: "Board and table games"
-description: "214 traditions of this kind."
+description: "219 traditions of this kind."
 path: "/types/board_game/"
-count: 214
+count: 219
 ---
 # Board and table games
 
-214 traditions of this kind.
+219 traditions of this kind.
 
 
 
-214 entries.
+219 entries.
 
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
 - [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
@@ -26,6 +26,7 @@ count: 214
 - [Checkers](../../games/567-checkers/index.md): Bahamas, United States; Board and table games; Crossroads and Golden Ages
 - [Chess](../../games/552-chess/index.md): Armenia, Azerbaijan; Board and table games; Crossroads and Golden Ages
 - [Chickenfoot](../../games/1193-chickenfoot/index.md): United States; Board and table games; Crossroads and Golden Ages
+- [Chinese Checkers](../../games/8870-chinese-checkers/index.md): Germany; Board and table games; Deep Past and First Games
 - [Co Ganh](../../games/301-co-ganh/index.md): Vietnam; Board and table games; Crossroads and Golden Ages
 - [Congklak](../../games/803-congklak/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
 - [Croquet](../../games/81-croquet/index.md): United Kingdom, Ireland; Board and table games; Crossroads and Golden Ages
@@ -49,6 +50,7 @@ count: 214
 - [Katro / Katra](../../games/903-katro-katra/index.md): Madagascar; Board and table games; Deep Past and First Games
 - [Kharbaga](../../games/459-kharbaga/index.md): Morocco; Board and table games; Crossroads and Golden Ages
 - [Kisolo](../../games/666-kisolo/index.md): DR Congo, Zambia; Board and table games; Deep Past and First Games
+- [Kōnane](../../games/961-konane/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Ladu](../../games/674-ladu/index.md): Djibouti, Somalia; Board and table games; Crossroads and Golden Ages
 - [Lau Kata Kati](../../games/460-lau-kata-kati/index.md): Bangladesh; Board and table games; Crossroads and Golden Ages
 - [Liubo](../../games/331-liubo/index.md): China; Board and table games; River Valleys and First Cities
@@ -188,6 +190,9 @@ count: 214
 - [Potta](../../games/579-potta/index.md): Barbados; Board and table games; River Valleys and First Cities
 - [Pub dominoes](../../games/1183-pub-dominoes/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
 - [Puluc](../../games/757-puluc/index.md): Guatemala, Belize; Board and table games; Crossroads and Golden Ages
+- [Reversi](../../games/22336-reversi/index.md): United Kingdom, Japan; Board and table games; Crossroads and Golden Ages
+- [Rithmomachia](../../games/8869-rithmomachia/index.md): Italy; Board and table games; Crossroads and Golden Ages
+- [Russian Loto](../../games/22338-russian-loto/index.md): Russia; Board and table games; Crossroads and Golden Ages
 - [Seega](../../games/692-seega/index.md): Egypt; Board and table games; Age of Contact and Craft
 - [Shashki / chess](../../games/1206-shashki-chess/index.md): Uzbekistan; Board and table games; Classical Worlds
 - [Shax](../../games/676-shax/index.md): Djibouti, Somalia; Board and table games; River Valleys and First Cities

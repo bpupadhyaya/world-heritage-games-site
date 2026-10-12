@@ -2,7 +2,7 @@
 title: "Mesopotamia, Levant and Arabia"
 description: "Between the rivers and along the desert trade routes, including Anatolia."
 path: "/cradles/mesopotamia-levant/"
-count: 56
+count: 58
 ---
 # Mesopotamia, Levant and Arabia
 
@@ -10,7 +10,7 @@ Between the rivers and along the desert trade routes, including Anatolia.
 
 
 
-56 entries.
+58 entries.
 
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
 - [Al Talli Braid Embroidery](../../games/1273-al-talli-braid-embroidery/index.md): United Arab Emirates; Crafts and making; Living Traditions
@@ -63,8 +63,10 @@ Between the rivers and along the desert trade routes, including Anatolia.
 - [Hajla](../../games/1009-hajla/index.md): Palestine; Street and playground games; Deep Past and First Games
 - [Hawalis](../../games/1001-hawalis/index.md): Oman; Board and table games; Deep Past and First Games
 - [Matkot](../../games/825-matkot/index.md): Israel; Street and playground games; Modern Heritage
+- [Pearl diving](../../games/6769-pearl-diving/index.md): Bahrain; Other traditions; Living Traditions
 - [Steel-and-stick](../../games/1162-steel-and-stick/index.md): Turkey; Street and playground games; Modern Heritage
 - [Syrian mancala](../../games/1128-syrian-mancala/index.md): Syria; Board and table games; Deep Past and First Games
 - [Tawla](../../games/815-tawla/index.md): Iraq, Syria; Board and table games; River Valleys and First Cities
 - [Tawle](../../games/880-tawle/index.md): Lebanon, Palestine; Board and table games; River Valleys and First Cities
+- [Traditional dhow sail racing](../../games/6768-traditional-dhow-sail-racing/index.md): United Arab Emirates; Racing; Age of Contact and Craft
 - [Zarzir](../../games/1010-zarzir/index.md): Palestine; Dexterity and skill games; Deep Past and First Games

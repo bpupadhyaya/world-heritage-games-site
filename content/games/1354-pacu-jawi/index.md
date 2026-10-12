@@ -42,10 +42,10 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 - [Madura bull racing](../../games/805-madura-bull-racing/index.md)
 - [Regional pub games](../../games/1180-regional-pub-games/index.md)
+- [Bulls and Cows](../../games/9038-bulls-and-cows/index.md)
 - [Bakiak](../../games/324-bakiak/index.md)
 - [Independence-day field games](../../games/330-independence-day-field-games/index.md)
 - [Sack Race](../../games/476-sack-race/index.md)
-- [Encang kuda](../../games/1067-encang-kuda/index.md)
 
 ## Sources
 

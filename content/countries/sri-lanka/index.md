@@ -1,16 +1,16 @@
 ---
 title: "Sri Lanka"
-description: "13 traditions from Sri Lanka."
+description: "14 traditions from Sri Lanka."
 path: "/countries/sri-lanka/"
-count: 13
+count: 14
 ---
 # Sri Lanka
 
-13 traditions from Sri Lanka.
+14 traditions from Sri Lanka.
 
 
 
-13 entries.
+14 entries.
 
 - [Ambalangoda mask carving](../../games/299-ambalangoda-mask-carving/index.md): Sri Lanka; Crafts and making; Living Traditions
 - [Break the pot](../../games/1105-break-the-pot/index.md): Sri Lanka; Dexterity and skill games; Modern Heritage
@@ -25,3 +25,4 @@ count: 13
 - [Olinda Keliya](../../games/1106-olinda-keliya/index.md): Sri Lanka; Board and table games; Deep Past and First Games
 - [Pancha](../../games/1108-pancha/index.md): Sri Lanka; Board and table games; River Valleys and First Cities
 - [Pillow fight](../../games/1101-pillow-fight/index.md): Sri Lanka, Myanmar; Street and playground games; Modern Heritage
+- [The Road to Lanka](../../games/22330-the-road-to-lanka/index.md): India, Sri Lanka; Performance and storytelling; Modern Heritage

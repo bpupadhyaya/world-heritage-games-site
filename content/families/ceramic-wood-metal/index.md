@@ -1,16 +1,16 @@
 ---
 title: "Pottery, wood and metal crafts"
-description: "49 related traditions."
+description: "51 related traditions."
 path: "/families/ceramic-wood-metal/"
-count: 49
+count: 51
 ---
 # Pottery, wood and metal crafts
 
-49 related traditions.
+51 related traditions.
 
 
 
-49 entries.
+51 entries.
 
 - [Ambalangoda mask carving](../../games/299-ambalangoda-mask-carving/index.md): Sri Lanka; Crafts and making; Living Traditions
 - [Aranmula metal mirror](../../games/285-aranmula-metal-mirror/index.md): Worldwide; Crafts and making; Living Traditions
@@ -31,6 +31,7 @@ count: 49
 - [Iznik tile painting](../../games/244-iznik-tile-painting/index.md): Turkey; Crafts and making; Living Traditions
 - [Jaipur blue pottery painting](../../games/262-jaipur-blue-pottery-painting/index.md): India; Crafts and making; Living Traditions
 - [Khatam inlay star pattern workshop](../../games/231-khatam-inlay-star-pattern-workshop/index.md): Iran; Crafts and making; Living Traditions
+- [Kintsugi](../../games/5371-kintsugi/index.md): Japan; Crafts and making; Living Traditions
 - [Kisii soapstone carving](../../games/195-kisii-soapstone-carving/index.md): Worldwide; Crafts and making; Living Traditions
 - [Kissi Penny Forging](../../games/1314-kissi-penny-forging/index.md): Guinea, Sierra Leone; Crafts and making; Living Traditions
 - [Kondapalli village toys](../../games/276-kondapalli-village-toys/index.md): Worldwide; Crafts and making; Living Traditions
@@ -42,6 +43,7 @@ count: 49
 - [Omani Khanjar Silver Filigree](../../games/1351-omani-khanjar-silver-filigree/index.md): Oman; Crafts and making; Living Traditions
 - [Palauan storyboard carving](../../games/1355-palauan-storyboard-carving/index.md): Palau; Crafts and making; Living Traditions
 - [Pamiri House Ceiling Raiser](../../games/1356-pamiri-house-ceiling-raiser/index.md): Tajikistan; Crafts and making; Living Traditions
+- [Pottery](../../games/6593-pottery/index.md): Worldwide; Crafts and making; Living Traditions
 - [Rishtan ceramics](../../games/252-rishtan-ceramics/index.md): Uzbekistan; Crafts and making; Living Traditions
 - [Seal carving](../../games/341-seal-carving/index.md): China; Crafts and making; Living Traditions
 - [Sholapith flower carving](../../games/283-sholapith-flower-carving/index.md): Bangladesh; Crafts and making; Living Traditions

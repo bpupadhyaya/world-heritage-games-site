@@ -41,7 +41,7 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 
 ## Play it
 
-[About the game](https://bpupadhyaya.github.io/games-site/games/tavla-dice-and-points/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Web preview](https://bpupadhyaya.github.io/games-site/games/tavla-dice-and-points/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 

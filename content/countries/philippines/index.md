@@ -1,16 +1,16 @@
 ---
 title: "Philippines"
-description: "14 traditions from Philippines."
+description: "15 traditions from Philippines."
 path: "/countries/philippines/"
-count: 14
+count: 15
 ---
 # Philippines
 
-14 traditions from Philippines.
+15 traditions from Philippines.
 
 
 
-14 entries.
+15 entries.
 
 - [Arnis / Eskrima](../../games/323-arnis-eskrima/index.md): Philippines, Timor-Leste; Wrestling and martial sports; Classical Worlds
 - [Bakiak](../../games/324-bakiak/index.md): Indonesia, Malaysia; Racing; Age of Contact and Craft
@@ -24,5 +24,6 @@ count: 14
 - [Tinikling](../../games/141-tinikling/index.md): Philippines; Dexterity and skill games; Modern Heritage
 - [Tumbang preso](../../games/1028-tumbang-preso/index.md): Philippines; Street and playground games; Modern Heritage
 - [Piko](../../games/1022-piko/index.md): Philippines; Street and playground games; Deep Past and First Games
+- [Rice terrace farming](../../games/22337-rice-terrace-farming/index.md): Philippines, Indonesia; Other traditions; Living Traditions
 - [Sungka](../../games/1025-sungka/index.md): Philippines; Board and table games; Deep Past and First Games
 - [Tapatan](../../games/1026-tapatan/index.md): Philippines; Board and table games; River Valleys and First Cities

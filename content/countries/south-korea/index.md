@@ -1,16 +1,16 @@
 ---
 title: "South Korea"
-description: "23 traditions from South Korea."
+description: "25 traditions from South Korea."
 path: "/countries/south-korea/"
-count: 23
+count: 25
 ---
 # South Korea
 
-23 traditions from South Korea.
+25 traditions from South Korea.
 
 
 
-23 entries.
+25 entries.
 
 - [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
 - [Bojagi](../../games/363-bojagi/index.md): South Korea; Crafts and making; Living Traditions
@@ -27,6 +27,7 @@ count: 23
 - [Haenyeo Breath Dive](../../games/1459-haenyeo-breath-dive/index.md): South Korea; Dexterity and skill games; Modern Heritage
 - [Hangul syllable blocks](../../games/364-hangul-syllable-blocks/index.md): South Korea; Puzzles and mind games; Modern Heritage
 - [Jegichagi](../../games/1082-jegichagi/index.md): South Korea, North Korea; Street and playground games; Modern Heritage
+- [Juldarigi](../../games/2772-juldarigi/index.md): South Korea, United Kingdom; Other traditions; Classical Worlds
 - [Maedeup](../../games/1468-maedeup/index.md): South Korea; Crafts and making; Living Traditions
 - [Neolttwigi](../../games/4-neolttwigi/index.md): South Korea; Street and playground games; Modern Heritage
 - [Pitch-pot](../../games/2-pitch-pot/index.md): China, South Korea; Dexterity and skill games; Modern Heritage
@@ -34,4 +35,5 @@ count: 23
 - [Tuho](../../games/1089-tuho/index.md): South Korea; Dexterity and skill games; Modern Heritage
 - [Janggi](../../games/1081-janggi/index.md): South Korea, North Korea; Board and table games; Crossroads and Golden Ages
 - [Omok](../../games/1088-omok/index.md): South Korea; Board and table games; Classical Worlds
+- [Ttakji-ssaum](../../games/14067-ttakji-ssaum/index.md): South Korea; Dexterity and skill games; Classical Worlds
 - [Yut Nori](../../games/1083-yut-nori/index.md): South Korea, North Korea; Board and table games; River Valleys and First Cities

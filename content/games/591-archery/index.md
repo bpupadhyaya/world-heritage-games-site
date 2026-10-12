@@ -3,7 +3,7 @@ title: "Archery"
 description: "Teams of 13 shoot bamboo bows at targets about 130 m away to reach 25 points, amid songs, dancing and multi-day social matches."
 path: "/games/591-archery/"
 id: 591
-type: "street_game"
+type: "archery_throwing"
 family: "target-games"
 era: "classical"
 cradle: "south-asia"
@@ -28,12 +28,16 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 ## Facts
 
 - **Where:** Bhutan
-- **Type:** Street and playground games
+- **Type:** Archery, throwing and target games
 - **Family:** Archery and target games
 - **Era:** [Classical Worlds](../../eras/classical/index.md) (uncertain)
 - **Cradle:** [South Asia](../../cradles/south-asia/index.md)
 - **Region:** South and Central Asia
 - **Players:** teams
+
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/games-site/games/datse-bhutan-archery/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 

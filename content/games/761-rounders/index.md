@@ -44,7 +44,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Pesapallo](../../games/484-pesapallo/index.md)
 - [Stoolball](../../games/492-stoolball/index.md)
 - [Gilli-Danda](../../games/793-gilli-danda/index.md)
-- [Yard cricket](../../games/1151-yard-cricket/index.md)
+- [Baseball](../../games/22323-baseball/index.md)
 
 ## Sources
 

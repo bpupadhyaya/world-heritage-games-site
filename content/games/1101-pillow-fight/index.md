@@ -40,8 +40,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Elle](../../games/1104-elle/index.md)
 - [Break the pot](../../games/1105-break-the-pot/index.md)
 - [Hill-country tea plucking](../../games/1297-hill-country-tea-plucking/index.md)
+- [The Road to Lanka](../../games/22330-the-road-to-lanka/index.md)
 - [Indian club swinging](../../games/264-indian-club-swinging/index.md)
-- [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md)
 
 ## Sources
 

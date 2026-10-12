@@ -1,13 +1,15 @@
 ---
 title: "Entries beginning with B"
-description: "84 entries beginning with B."
+description: "90 entries beginning with B."
 path: "/a-z/B/"
 ---
 # Entries beginning with B
 
 - [Babatone](../../games/1233-babatone/index.md): Malawi; Musical instruments; Living Traditions
 - [Backgammon](../../games/1159-backgammon/index.md): Turkey, Israel; Board and table games; River Valleys and First Cities
+- [Backyard cricket](../../games/559-backyard-cricket/index.md): Australia; Street and playground games; Age of Contact and Craft
 - [Badgir windcatcher cooling puzzle](../../games/229-badgir-windcatcher-cooling-puzzle/index.md): Iran; Crafts and making; Living Traditions
+- [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
 - [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
 - [Bagatelle](../../games/72-bagatelle/index.md): France, United Kingdom; Dexterity and skill games; Modern Heritage
 - [Bahamian dominoes](../../games/569-bahamian-dominoes/index.md): Bahamas; Board and table games; Crossroads and Golden Ages
@@ -30,7 +32,9 @@ path: "/a-z/B/"
 - [Bao](../../games/647-bao/index.md): Comoros; Board and table games; Deep Past and First Games
 - [Bao la Kiswahili](../../games/861-bao-la-kiswahili/index.md): Kenya, Tanzania; Board and table games; Deep Past and First Games
 - [Barrel racing](../../games/439-barrel-racing/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
+- [Baseball](../../games/22323-baseball/index.md): United States, Cuba; Bat-and-ball games; Modern Heritage
 - [Bashi](../../games/915-bashi/index.md): Maldives; Street and playground games; Modern Heritage
+- [Basketball](../../games/22324-basketball/index.md): United States; Team ball sports; Modern Heritage
 - [Basotho blanket pattern designer](../../games/201-basotho-blanket-pattern-designer/index.md): Lesotho; Crafts and making; Living Traditions
 - [Basotho pony mountain race](../../games/1238-basotho-pony-mountain-race/index.md): Lesotho; Racing; Age of Contact and Craft
 - [Basque Pelota](../../games/1094-basque-pelota/index.md): Spain, France; Street and playground games; Modern Heritage
@@ -73,6 +77,7 @@ path: "/a-z/B/"
 - [Bolga Basket Weaver](../../games/1245-bolga-basket-weaver/index.md): Ghana; Crafts and making; Living Traditions
 - [Boli Khela](../../games/572-boli-khela/index.md): Bangladesh; Street and playground games; River Valleys and First Cities
 - [Bomba](../../games/425-bomba/index.md): Worldwide; Dances; Living Traditions
+- [Bonsai](../../games/5376-bonsai/index.md): Japan; Crafts and making; Living Traditions
 - [Botswana coil basket weaving](../../games/208-botswana-coil-basket-weaving/index.md): Worldwide; Crafts and making; Living Traditions
 - [Bottle Dance](../../games/1424-bottle-dance/index.md): Paraguay, Spain; Dances; Living Traditions
 - [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
@@ -84,6 +89,7 @@ path: "/a-z/B/"
 - [Buffalo race](../../games/613-buffalo-race/index.md): Cambodia; Street and playground games; Modern Heritage
 - [Buganda barkcloth making](../../games/1249-buganda-barkcloth-making/index.md): Uganda; Crafts and making; Living Traditions
 - [Bulgarian Painted Pottery](../../games/1388-bulgarian-painted-pottery/index.md): Bulgaria; Crafts and making; Living Traditions
+- [Bulls and Cows](../../games/9038-bulls-and-cows/index.md): Worldwide; Street and playground games; Age of Contact and Craft
 - [Bulundu](../../games/667-bulundu/index.md): DR Congo; Street and playground games; Modern Heritage
 - [Burmese lacquerware engraving](../../games/310-burmese-lacquerware-engraving/index.md): Myanmar; Crafts and making; Living Traditions
 - [Burn-out](../../games/654-burn-out/index.md): Cuba; Street and playground games; Modern Heritage

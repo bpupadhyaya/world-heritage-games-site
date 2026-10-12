@@ -1,16 +1,16 @@
 ---
 title: "Sports with animal partners"
-description: "7 traditions of this kind."
+description: "8 traditions of this kind."
 path: "/types/animal_partnered/"
-count: 7
+count: 8
 ---
 # Sports with animal partners
 
-7 traditions of this kind.
+8 traditions of this kind.
 
 
 
-7 entries.
+8 entries.
 
 - [Champ de Mars turf](../../games/1253-champ-de-mars-turf/index.md): Mauritius; Sports with animal partners; Classical Worlds
 - [Equestrian vaulting](../../games/488-equestrian-vaulting/index.md): Worldwide; Sports with animal partners; Classical Worlds
@@ -19,3 +19,4 @@ count: 7
 - [Sahel Salt Caravan](../../games/172-sahel-salt-caravan/index.md): Niger, Mali; Sports with animal partners; Crossroads and Golden Ages
 - [Skijoring](../../games/490-skijoring/index.md): Worldwide; Sports with animal partners; Classical Worlds
 - [Tbourida](../../games/164-tbourida/index.md): Morocco; Sports with animal partners; Classical Worlds
+- [Sheepdog trials](../../games/5047-sheepdog-trials/index.md): United Kingdom; Sports with animal partners; Classical Worlds

@@ -2,7 +2,7 @@
 title: "Classical Worlds"
 description: "Empires and academies turned play into sport, strategy and art."
 path: "/eras/classical/"
-count: 102
+count: 108
 ---
 # Classical Worlds
 
@@ -10,7 +10,7 @@ Empires and academies turned play into sport, strategy and art.
 
 
 
-102 entries.
+108 entries.
 
 - [Adungu](../../games/186-adungu/index.md): Uganda; Musical instruments; Classical Worlds
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
@@ -39,6 +39,7 @@ Empires and academies turned play into sport, strategy and art.
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
 - [Imzad Fiddle](../../games/1301-imzad-fiddle/index.md): Niger, Mali; Musical instruments; Classical Worlds
 - [Joropo llanero band](../../games/130-joropo-llanero-band/index.md): Venezuela, Colombia; Musical instruments; Classical Worlds
+- [Juldarigi](../../games/2772-juldarigi/index.md): South Korea, United Kingdom; Other traditions; Classical Worlds
 - [Kalinda Stick Duel](../../games/1467-kalinda-stick-duel/index.md): Trinidad and Tobago; Wrestling and martial sports; Classical Worlds
 - [Kampong Ayer water-taxi dash](../../games/1308-kampong-ayer-water-taxi-dash/index.md): Brunei, Malaysia; Water and winter sports; Classical Worlds
 - [Kanklės](../../games/136-kankles/index.md): Lithuania; Musical instruments; Classical Worlds
@@ -51,6 +52,7 @@ Empires and academies turned play into sport, strategy and art.
 - [Kites](../../games/577-kites/index.md): Barbados, El Salvador; Dexterity and skill games; Classical Worlds
 - [Kok-boru](../../games/241-kok-boru/index.md): Kyrgyzstan, Kazakhstan; Sports with animal partners; Classical Worlds
 - [Kolf](../../games/491-kolf/index.md): Netherlands; Archery, throwing and target games; Classical Worlds
+- [Kora](../../games/7176-kora/index.md): Gambia, Mali; Musical instruments; Classical Worlds
 - [Kotta Pora](../../games/18-kotta-pora/index.md): Sri Lanka; Wrestling and martial sports; Classical Worlds
 - [Kottabos Symposium Toss](../../games/392-kottabos-symposium-toss/index.md): Greece; Archery, throwing and target games; Classical Worlds
 - [Krar lyre](../../games/126-krar-lyre/index.md): Ethiopia, Eritrea; Musical instruments; Classical Worlds
@@ -98,13 +100,14 @@ Empires and academies turned play into sport, strategy and art.
 - [Wau bulan kite](../../games/911-wau-bulan-kite/index.md): Malaysia; Dexterity and skill games; Classical Worlds
 - [Yoke thé](../../games/314-yoke-the/index.md): Myanmar; Performance and storytelling; Classical Worlds
 - [Zande kundi arched harp](../../games/1319-zande-kundi-arched-harp/index.md): South Sudan; Musical instruments; Classical Worlds
-- [Archery](../../games/591-archery/index.md): Bhutan; Street and playground games; Classical Worlds
+- [Archery](../../games/591-archery/index.md): Bhutan; Archery, throwing and target games; Classical Worlds
 - [Boċċi](../../games/922-bocci/index.md): Malta; Street and playground games; Classical Worlds
 - [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
 - [Chavgon](../../games/1204-chavgon/index.md): Uzbekistan; Street and playground games; Classical Worlds
 - [Chavgonbozi](../../games/1132-chavgonbozi/index.md): Tajikistan; Street and playground games; Classical Worlds
 - [Chovqan](../../games/565-chovqan/index.md): Azerbaijan; Street and playground games; Classical Worlds
 - [Encang kuda](../../games/1067-encang-kuda/index.md): Singapore; Street and playground games; Classical Worlds
+- [Gamelan](../../games/22329-gamelan/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Horn pulling](../../games/1103-horn-pulling/index.md): Sri Lanka; Street and playground games; Classical Worlds
 - [Kite fighting](../../games/788-kite-fighting/index.md): India, Pakistan; Dexterity and skill games; Classical Worlds
 - [Kokpar](../../games/857-kokpar/index.md): Kazakhstan; Street and playground games; Classical Worlds
@@ -113,4 +116,7 @@ Empires and academies turned play into sport, strategy and art.
 - [Portuguese staff fighting](../../games/1037-portuguese-staff-fighting/index.md): Portugal; Street and playground games; Classical Worlds
 - [Provencal boules](../../games/939-provencal-boules/index.md): Monaco; Street and playground games; Classical Worlds
 - [Shashki / chess](../../games/1206-shashki-chess/index.md): Uzbekistan; Board and table games; Classical Worlds
+- [Sheepdog trials](../../games/5047-sheepdog-trials/index.md): United Kingdom; Sports with animal partners; Classical Worlds
+- [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md): China, Uzbekistan; Other traditions; Classical Worlds
+- [Ttakji-ssaum](../../games/14067-ttakji-ssaum/index.md): South Korea; Dexterity and skill games; Classical Worlds
 - [Turkmen Akhal-Teke equestrian games](../../games/1170-turkmen-akhal-teke-equestrian-games/index.md): Turkmenistan; Street and playground games; Classical Worlds

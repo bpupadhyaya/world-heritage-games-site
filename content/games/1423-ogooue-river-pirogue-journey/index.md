@@ -38,12 +38,12 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Related entries
 
+- [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md)
 - [Nouka Baich](../../games/42-nouka-baich/index.md)
 - [Pirogue coastal canoe race](../../games/56-pirogue-coastal-canoe-race/index.md)
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md)
 - [Sahel Salt Caravan](../../games/172-sahel-salt-caravan/index.md)
 - [Nile Felucca Sailing](../../games/216-nile-felucca-sailing/index.md)
-- [Shikara paddle race](../../games/265-shikara-paddle-race/index.md)
 
 ## Sources
 

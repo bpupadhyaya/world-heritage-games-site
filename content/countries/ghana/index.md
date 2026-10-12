@@ -1,16 +1,16 @@
 ---
 title: "Ghana"
-description: "11 traditions from Ghana."
+description: "12 traditions from Ghana."
 path: "/countries/ghana/"
-count: 11
+count: 12
 ---
 # Ghana
 
-11 traditions from Ghana.
+12 traditions from Ghana.
 
 
 
-11 entries.
+12 entries.
 
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md): Ghana, Cote d'Ivoire; Crafts and making; Living Traditions
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md): Ghana, Cote d'Ivoire; Puzzles and mind games; Modern Heritage
@@ -22,4 +22,5 @@ count: 11
 - [Oware](../../games/749-oware/index.md): Ghana; Board and table games; Deep Past and First Games
 - [Achi](../../games/748-achi/index.md): Ghana; Board and table games; Age of Contact and Craft
 - [African draughts](../../games/586-african-draughts/index.md): Benin, Burkina Faso; Board and table games; Modern Heritage
+- [Anansi stories](../../games/22321-anansi-stories/index.md): Ghana; Performance and storytelling; Living Traditions
 - [Pilolo](../../games/750-pilolo/index.md): Ghana; Street and playground games; Deep Past and First Games

@@ -35,12 +35,12 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
+- [Shinny](../../games/725-shinny/index.md)
 - [Petanque](../../games/872-petanque/index.md)
 - [Kataw](../../games/873-kataw/index.md)
 - [Chinlone](../../games/16-chinlone/index.md)
 - [Tinikling](../../games/141-tinikling/index.md)
 - [Luksong tinik](../../games/146-luksong-tinik/index.md)
-- [Lato-lato](../../games/316-lato-lato/index.md)
 
 ## Sources
 

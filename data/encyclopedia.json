@@ -13936,6 +13936,36 @@
    }
   },
   {
+   "id": 559,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/559-backyard-cricket/",
+   "name": "Backyard cricket",
+   "native": "Backyard cricket",
+   "alt": [],
+   "countries": [
+    "Australia"
+   ],
+   "country_codes": [
+    "AU"
+   ],
+   "region": "Oceania and Pacific",
+   "type": "Street and playground games",
+   "family": "Bat-and-ball games",
+   "era": "Age of Contact and Craft",
+   "era_uncertain": true,
+   "cradle": "Pacific and Oceania",
+   "origin_note": "Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), although its exact origins are uncertain, within the cultural world of Pacific and Oceania.",
+   "summary": "Improvised family and street cricket with house rules such as tip-and-run and one-hand-one-bounce.",
+   "how_played": "Improvised family and street cricket with house rules such as tip-and-run and one-hand-one-bounce. A summer-holiday tradition.",
+   "heritage_note": "Part of the living heritage of Australia.",
+   "sources": [],
+   "photo": {
+    "file": "img/photos/00559-backyard-cricket.jpg",
+    "author": "laneylou",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Beach_cricket.jpg"
+   }
+  },
+  {
    "id": 560,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/560-two-up/",
    "name": "Two-up",
@@ -14505,7 +14535,8 @@
    "native": "Jeu de dames",
    "alt": [
     "Jeu de dames",
-    "Draughts"
+    "Draughts",
+    "Dame"
    ],
    "countries": [
     "Benin",
@@ -14655,7 +14686,8 @@
    "name": "Archery",
    "native": "Dha (archery)",
    "alt": [
-    "Datse"
+    "Datse",
+    "Dha"
    ],
    "countries": [
     "Bhutan"
@@ -14664,7 +14696,7 @@
     "BT"
    ],
    "region": "South and Central Asia",
-   "type": "Street and playground games",
+   "type": "Archery, throwing and target games",
    "family": "Archery and target games",
    "era": "Classical Worlds",
    "era_uncertain": true,
@@ -15935,7 +15967,12 @@
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/650-marbles/",
    "name": "Marbles",
    "native": "Las Bolas",
-   "alt": [],
+   "alt": [
+    "Kancha",
+    "Kelereng",
+    "Billes",
+    "Canicas"
+   ],
    "countries": [
     "Cuba",
     "Jamaica",
@@ -17274,6 +17311,44 @@
    }
   },
   {
+   "id": 725,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/725-shinny/",
+   "name": "Shinny",
+   "native": "Shinny / Double ball",
+   "alt": [
+    "Double ball",
+    "Hoop and stick",
+    "Pond hockey"
+   ],
+   "countries": [
+    "United States",
+    "Canada"
+   ],
+   "country_codes": [
+    "US",
+    "CA"
+   ],
+   "region": "Americas",
+   "type": "Street and playground games",
+   "family": "Stick-and-ball games",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "The Americas: North America",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of The Americas: North America.",
+   "summary": "Informal stick-and-ball team game on field or ice, parent of modern hockey in some narratives.",
+   "how_played": "Informal stick-and-ball team game on field or ice, parent of modern hockey in some narratives.",
+   "heritage_note": "Part of the living heritage of United States, Canada.",
+   "sources": [
+    "https://www.ebsco.com/research-starters/sports-and-leisure/native-american-games-and-contests/"
+   ],
+   "photo": {
+    "file": "img/photos/00725-shinny.jpg",
+    "author": "John Boyd",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sarnia_Shinny.jpg"
+   }
+  },
+  {
    "id": 730,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/730-boules-lyonnaises/",
    "name": "Boules lyonnaises",
@@ -17769,14 +17844,19 @@
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/762-hopscotch/",
    "name": "Hopscotch",
    "native": "Marèl",
-   "alt": [],
+   "alt": [
+    "Rayuela"
+   ],
    "countries": [
     "Haiti",
     "Honduras",
     "Nicaragua",
     "Panama",
     "Guyana",
-    "Suriname"
+    "Suriname",
+    "Argentina",
+    "Chile",
+    "Spain"
    ],
    "country_codes": [
     "HT",
@@ -17784,7 +17864,10 @@
     "NI",
     "PA",
     "GY",
-    "SR"
+    "SR",
+    "AR",
+    "CL",
+    "ES"
    ],
    "region": "Americas",
    "type": "Dexterity and skill games",
@@ -21330,6 +21413,40 @@
     "author": "Moongateclimber",
     "licence": "Public domain",
     "source_url": "https://commons.wikimedia.org/wiki/File:Hus_(Omwela)_board_for_sale_in_Swakopmund,_Namibia.jpg"
+   }
+  },
+  {
+   "id": 961,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/961-konane/",
+   "name": "Kōnane",
+   "native": "Kōnane",
+   "alt": [
+    "Konane"
+   ],
+   "countries": [
+    "United States"
+   ],
+   "country_codes": [
+    "US"
+   ],
+   "region": "Americas",
+   "type": "Board and table games",
+   "family": "",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Pacific and Oceania",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Pacific and Oceania.",
+   "summary": "Two players jump orthogonally over opponent stones on a grid, removing them; last player able to move wins.",
+   "how_played": "Two players jump orthogonally over opponent stones on a grid, removing them; last player able to move wins.",
+   "heritage_note": "Part of the living heritage of United States.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/K%C5%8Dnane"
+   ],
+   "photo": {
+    "file": "img/photos/00961-konane.jpg",
+    "author": "Cpl. Rich Mattingly",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:USMC-14131.jpg"
    }
   },
   {
@@ -33163,6 +33280,1503 @@
     "licence": "CC BY-SA 2.5",
     "source_url": "https://commons.wikimedia.org/wiki/File:Piles_of_Salt_Salar_de_Uyuni_Bolivia_Luca_Galuzzi_2006_a.jpg"
    }
+  },
+  {
+   "id": 2772,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/2772-juldarigi/",
+   "name": "Juldarigi",
+   "native": "",
+   "alt": [
+    "Korean: 줄다리기",
+    "also chuldarigi",
+    "Tug of war",
+    "Rope pulling"
+   ],
+   "countries": [
+    "South Korea",
+    "United Kingdom",
+    "Indonesia"
+   ],
+   "country_codes": [
+    "KR",
+    "GB",
+    "ID"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Other traditions",
+   "family": "",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Japan and Korea",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Japan and Korea.",
+   "summary": "Tug of war, two teams pulling on one rope, is among the oldest contests of strength and is played at village festivals from Korea and Japan to Britain and Indonesia; several Asian rope-pulling festivals are listed as living heritage.",
+   "how_played": "Teams grip the rope on either side of a centre mark and pull in time to a caller; the side that drags the mark past its own line wins. Rhythm, footing and holding the surge matter as much as weight.",
+   "heritage_note": "Part of the living heritage of South Korea, United Kingdom, Indonesia.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Juldarigi",
+    "https://en.wikipedia.org/wiki/Tug_of_war"
+   ],
+   "photo": {
+    "file": "img/photos/02772-juldarigi.jpg",
+    "author": "Steve46814 at English Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Korea-Hi_Seoul_Festival-2006-09.jpg"
+   }
+  },
+  {
+   "id": 5023,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5023-diabolo/",
+   "name": "Diabolo",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "France"
+   ],
+   "country_codes": [
+    "FR"
+   ],
+   "region": "Europe",
+   "type": "Toys",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "A juggling toy of a spool tossed and spun on a string held by two sticks, popular in France and elsewhere in Europe.",
+   "how_played": "The player whips the string between two hand sticks to spin the spool, tossing and catching it in tricks.",
+   "heritage_note": "Part of the living heritage of France.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Diabolo"
+   ],
+   "photo": {
+    "file": "img/photos/05023-diabolo.jpg",
+    "author": "en:User:StoatBringer",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Diabolo_large_and_small.jpg"
+   }
+  },
+  {
+   "id": 5047,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5047-sheepdog-trials/",
+   "name": "Sheepdog trials",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United Kingdom"
+   ],
+   "country_codes": [
+    "GB"
+   ],
+   "region": "Europe",
+   "type": "Sports with animal partners",
+   "family": "",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "Competitions of herding dogs guiding sheep around a field course through gates and into a pen on the shepherd's calls.",
+   "how_played": "The handler directs a dog by whistles and calls to move a small flock through a set course against the clock.",
+   "heritage_note": "Part of the living heritage of United Kingdom. Animals are partners in this tradition; good care and local rules always come first.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sheepdog_trial"
+   ],
+   "photo": null
+  },
+  {
+   "id": 5250,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5250-table-football/",
+   "name": "Table football",
+   "native": "",
+   "alt": [
+    "Futbolín",
+    "Foosball"
+   ],
+   "countries": [
+    "Spain"
+   ],
+   "country_codes": [
+    "ES"
+   ],
+   "region": "Europe",
+   "type": "Team ball sports",
+   "family": "Kicking and football games",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain.",
+   "summary": "A tabletop version of football with rods of figures that players spin and slide to strike a small ball.",
+   "how_played": "Players turn rods holding small figures to hit the ball past the opposing figures into the goal.",
+   "heritage_note": "A tradition shared by communities in many places.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Table_football"
+   ],
+   "photo": null
+  },
+  {
+   "id": 5289,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5289-kongzhu/",
+   "name": "Kongzhu",
+   "native": "空竹",
+   "alt": [],
+   "countries": [
+    "China"
+   ],
+   "country_codes": [
+    "CN"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Dexterity and skill games",
+   "family": "",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "China",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of China.",
+   "summary": "A hollow double-headed whistling spool that is spun and tossed on a string held between two sticks, popular in northern city parks.",
+   "how_played": "The player whips the string to spin the spool up, then flips it, catches it on the string and performs tricks such as throws and passes behind the body.",
+   "heritage_note": "Part of the living heritage of China.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Diabolo"
+   ],
+   "photo": null
+  },
+  {
+   "id": 5333,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5333-dragon-boat-racing/",
+   "name": "Dragon boat racing",
+   "native": "龙舟竞渡",
+   "alt": [],
+   "countries": [
+    "China"
+   ],
+   "country_codes": [
+    "CN"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Racing",
+   "family": "Water sports",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "China",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of China.",
+   "summary": "Long narrow paddled boats with a carved dragon head race in teams, set to a drummer's beat.",
+   "how_played": "Teams of paddlers paddle in unison to a drum while a steersperson guides the boat down a river course.",
+   "heritage_note": "Part of the living heritage of China.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dragon_boat"
+   ],
+   "photo": {
+    "file": "img/photos/05333-dragon-boat-racing.jpg",
+    "author": "Deerpeter",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Drakenboot_Giethoorn.jpg"
+   }
+  },
+  {
+   "id": 5367,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5367-taiko/",
+   "name": "Taiko",
+   "native": "太鼓",
+   "alt": [],
+   "countries": [
+    "Japan"
+   ],
+   "country_codes": [
+    "JP"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Musical instruments",
+   "family": "Drums and percussion",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Japan and Korea",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Japan and Korea.",
+   "summary": "A family of Japanese drums played in ensembles with large barrel drums and a kinetic stage style.",
+   "how_played": "Performers strike drums of different sizes with thick sticks in coordinated rhythms.",
+   "heritage_note": "Part of the living heritage of Japan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Taiko"
+   ],
+   "photo": {
+    "file": "img/photos/05367-taiko.jpg",
+    "author": "Taiko-Kaiser-Drums",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Miya_Daiko_drum_-_Taiko_drums.jpg"
+   }
+  },
+  {
+   "id": 5371,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5371-kintsugi/",
+   "name": "Kintsugi",
+   "native": "金継ぎ",
+   "alt": [],
+   "countries": [
+    "Japan"
+   ],
+   "country_codes": [
+    "JP"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Crafts and making",
+   "family": "Pottery, wood and metal crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Japan and Korea",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Japan and Korea.",
+   "summary": "The craft of repairing broken ceramics with lacquer dusted with gold or other metallic powder.",
+   "how_played": "Fragments are joined with lacquer, cured over time and finished with metallic powder along the seam.",
+   "heritage_note": "Part of the living heritage of Japan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kintsugi"
+   ],
+   "photo": {
+    "file": "img/photos/05371-kintsugi.jpg",
+    "author": "Daderot",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tea_bowl,_Korea,_Joseon_dynasty,_16th_century_AD,_Mishima-hakeme_type,_buncheong_ware,_stoneware_with_white_engobe_and_translucent,_greenish-gray_glaze,_gold_lacquer_-_Ethnological_Museum,_Berlin_-_DSC02061.JPG"
+   }
+  },
+  {
+   "id": 5376,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5376-bonsai/",
+   "name": "Bonsai",
+   "native": "盆栽",
+   "alt": [],
+   "countries": [
+    "Japan"
+   ],
+   "country_codes": [
+    "JP"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Crafts and making",
+   "family": "",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Japan and Korea",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Japan and Korea.",
+   "summary": "The art of cultivating and shaping miniature trees in shallow containers.",
+   "how_played": "Growers prune roots and branches, wire limbs and shape trees over years to imitate ancient natural forms.",
+   "heritage_note": "Part of the living heritage of Japan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bonsai"
+   ],
+   "photo": {
+    "file": "img/photos/05376-bonsai.jpg",
+    "author": "Order of the Rose (薔薇騎士団)",
+    "licence": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bonsai,_Kenshin_Toge.jpg"
+   }
+  },
+  {
+   "id": 6356,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/6356-american-patchwork-quilting/",
+   "name": "American patchwork quilting",
+   "native": "",
+   "alt": [
+    "Patchwork quilt",
+    "Quilting"
+   ],
+   "countries": [
+    "United States"
+   ],
+   "country_codes": [
+    "US"
+   ],
+   "region": "Americas",
+   "type": "Crafts and making",
+   "family": "Textile and weaving crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "The Americas: North America",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of The Americas: North America.",
+   "summary": "A tradition of stitching small pieces of fabric into patterned tops that are then layered and quilted.",
+   "how_played": "Quilters cut and sew pieces into blocks, then stitch through layers of cloth.",
+   "heritage_note": "Part of the living heritage of United States.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Patchwork"
+   ],
+   "photo": {
+    "file": "img/photos/06356-american-patchwork-quilting.jpg",
+    "author": "by angela n.",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Korea-Joseon-Bojagi-01.jpg"
+   }
+  },
+  {
+   "id": 6593,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/6593-pottery/",
+   "name": "Pottery",
+   "native": "",
+   "alt": [],
+   "countries": [],
+   "country_codes": [],
+   "region": "Worldwide",
+   "type": "Crafts and making",
+   "family": "Pottery, wood and metal crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Shared across the world",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin.",
+   "summary": "Shaping clay on a spinning wheel into vessels, practised from ancient Mesopotamia onward.",
+   "how_played": "Centre the clay on the wheel and pull walls up with the hands.",
+   "heritage_note": "A tradition shared by communities in many places.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pottery"
+   ],
+   "photo": {
+    "file": "img/photos/06593-pottery.jpg",
+    "author": "Chukwukajustice",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Traditional_pottery_in_Nigeria_(Ikpu_ite)_19.jpg"
+   }
+  },
+  {
+   "id": 6621,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/6621-calligraphy/",
+   "name": "Calligraphy",
+   "native": "",
+   "alt": [
+    "Brush calligraphy"
+   ],
+   "countries": [
+    "China"
+   ],
+   "country_codes": [
+    "CN"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Crafts and making",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Shared across the world",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin.",
+   "summary": "Decorative handwriting practised in China, Arabic and European traditions.",
+   "how_played": "Write with brush or pen following set strokes.",
+   "heritage_note": "A tradition shared by communities in many places.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Calligraphy"
+   ],
+   "photo": {
+    "file": "img/photos/06621-calligraphy.jpg",
+    "author": "Unknown author Unknown author",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Letter_by_Ouyang_Xiu.jpg"
+   }
+  },
+  {
+   "id": 6640,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/6640-maze/",
+   "name": "Maze",
+   "native": "",
+   "alt": [
+    "Labyrinth"
+   ],
+   "countries": [
+    "Greece"
+   ],
+   "country_codes": [
+    "GR"
+   ],
+   "region": "Europe",
+   "type": "Puzzles and mind games",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain.",
+   "summary": "A path puzzle with branches and dead ends, drawn or built in many cultures.",
+   "how_played": "Trace a path from entrance to exit.",
+   "heritage_note": "A tradition shared by communities in many places.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Maze"
+   ],
+   "photo": {
+    "file": "img/photos/06640-maze.jpg",
+    "author": "Niki Odolphie from Frome, England",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Longleat-maze.jpg"
+   }
+  },
+  {
+   "id": 6768,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/6768-traditional-dhow-sail-racing/",
+   "name": "Traditional dhow sail racing",
+   "native": "",
+   "alt": [
+    "Dhow sailing"
+   ],
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "country_codes": [
+    "AE"
+   ],
+   "region": "Middle East and North Africa",
+   "type": "Racing",
+   "family": "Water sports",
+   "era": "Age of Contact and Craft",
+   "era_uncertain": true,
+   "cradle": "Mesopotamia, Levant and Arabia",
+   "origin_note": "Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), although its exact origins are uncertain, within the cultural world of Mesopotamia, Levant and Arabia.",
+   "summary": "Races of traditional wooden sailing boats held in the Gulf.",
+   "how_played": "Crews race dhows over a set sea course by sail.",
+   "heritage_note": "Part of the living heritage of United Arab Emirates.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dhow"
+   ],
+   "photo": null
+  },
+  {
+   "id": 6769,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/6769-pearl-diving/",
+   "name": "Pearl diving",
+   "native": "الغوص",
+   "alt": [
+    "Ghaus"
+   ],
+   "countries": [
+    "Bahrain"
+   ],
+   "country_codes": [
+    "BH"
+   ],
+   "region": "Middle East and North Africa",
+   "type": "Other traditions",
+   "family": "",
+   "era": "Living Traditions",
+   "era_uncertain": true,
+   "cradle": "Mesopotamia, Levant and Arabia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Mesopotamia, Levant and Arabia.",
+   "summary": "Hand-diving for pearl oysters, a main seasonal industry of the Gulf before oil.",
+   "how_played": "Divers with nose clip and stone weight descend and collect oysters while hauled up by a rope partner.",
+   "heritage_note": "Part of the living heritage of Bahrain.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pearl_hunting"
+   ],
+   "photo": null
+  },
+  {
+   "id": 7176,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/7176-kora/",
+   "name": "Kora",
+   "native": "kora",
+   "alt": [
+    "Kôra"
+   ],
+   "countries": [
+    "Gambia",
+    "Mali",
+    "Senegal"
+   ],
+   "country_codes": [
+    "GM",
+    "ML",
+    "SN"
+   ],
+   "region": "Sub-Saharan Africa",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Africa: Sahel, West and Central",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Africa: Sahel, West and Central.",
+   "summary": "A 21-string bridge harp-lute with a large calabash body, associated with Mande hereditary musicians of the Senegambia region.",
+   "how_played": "A 21-string bridge harp-lute with a large calabash body, associated with Mande hereditary musicians of the Senegambia region.",
+   "heritage_note": "Part of the living heritage of Gambia.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kora_(instrument)"
+   ],
+   "photo": {
+    "file": "img/photos/07176-kora.jpg",
+    "author": "KannanShanmugamstudio,Main Road,Kollam",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kora_DSC_0355.JPG"
+   }
+  },
+  {
+   "id": 8869,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/8869-rithmomachia/",
+   "name": "Rithmomachia",
+   "native": "",
+   "alt": [
+    "Philosophers' game"
+   ],
+   "countries": [
+    "Italy"
+   ],
+   "country_codes": [
+    "IT"
+   ],
+   "region": "Europe",
+   "type": "Board and table games",
+   "family": "",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Mediterranean",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Mediterranean.",
+   "summary": "Medieval European mathematical board game in which captures depend on the numbers inscribed on pieces.",
+   "how_played": "Pieces with numbers capture by arithmetic relations and a win comes from forming a victory progression.",
+   "heritage_note": "Part of the living heritage of Italy.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rithmomachia"
+   ],
+   "photo": null
+  },
+  {
+   "id": 8870,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/8870-chinese-checkers/",
+   "name": "Chinese Checkers",
+   "native": "",
+   "alt": [
+    "Sternhalma",
+    "Chinese chequers"
+   ],
+   "countries": [
+    "Germany"
+   ],
+   "country_codes": [
+    "DE"
+   ],
+   "region": "Europe",
+   "type": "Board and table games",
+   "family": "Draughts and capture games",
+   "era": "Deep Past and First Games",
+   "era_uncertain": true,
+   "cradle": "Northern and Eastern Europe",
+   "origin_note": "Usually placed in the era of Deep Past and First Games (before about 3000 BCE), although its exact origins are uncertain, within the cultural world of Northern and Eastern Europe.",
+   "summary": "Star-shaped board race game, of German origin, for two to six players played individually or in teams.",
+   "how_played": "Players hop or step marbles across the star board to reach the opposite corner first.",
+   "heritage_note": "Part of the living heritage of Germany.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chinese_checkers"
+   ],
+   "photo": {
+    "file": "img/photos/08870-chinese-checkers.jpg",
+    "author": "The original uploader was Hephaestos at English Wikipedia .",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ChineseCheckersboard.jpeg"
+   }
+  },
+  {
+   "id": 9038,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/9038-bulls-and-cows/",
+   "name": "Bulls and Cows",
+   "native": "",
+   "alt": [
+    "Cows and bulls"
+   ],
+   "countries": [],
+   "country_codes": [],
+   "region": "Worldwide",
+   "type": "Street and playground games",
+   "family": "Horse and animal sports",
+   "era": "Age of Contact and Craft",
+   "era_uncertain": true,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), although its exact origins are uncertain.",
+   "summary": "Code-breaking pencil-and-paper game in which one player tries to guess another's secret number.",
+   "how_played": "One player sets a secret number and the other guesses; each guess is scored by how many digits are right and in place.",
+   "heritage_note": "A tradition shared by communities in many places. Animals are partners in this tradition; good care and local rules always come first.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bulls_and_cows"
+   ],
+   "photo": null
+  },
+  {
+   "id": 9804,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/9804-vitti-dandu/",
+   "name": "Vitti Dandu",
+   "native": "",
+   "alt": [
+    "Viti Dandu",
+    "Vitti-Dandu"
+   ],
+   "countries": [
+    "India"
+   ],
+   "country_codes": [
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Bat-and-ball games",
+   "family": "Bat-and-ball games",
+   "era": "Age of Contact and Craft",
+   "era_uncertain": true,
+   "cradle": "South Asia",
+   "origin_note": "Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), although its exact origins are uncertain, within the cultural world of South Asia.",
+   "summary": "The Marathi name and local style of gilli-danda, with a small guchhi hole in the centre of the field and its own state federation.",
+   "how_played": "A short pointed stick is levered out of a small hole with a longer stick and struck in flight; the score depends on the distance reached and whether fielders can catch it.",
+   "heritage_note": "Part of the living heritage of India.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gillidanda",
+    "https://worldforumfoundation.org/wp-content/uploads/2024/05/Traditional-Indian-Games-By-Dr.-Swati-Kela-India-Vancouver-2024.pdf"
+   ],
+   "photo": null
+  },
+  {
+   "id": 10068,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/10068-traditional-football/",
+   "name": "Traditional football",
+   "native": "",
+   "alt": [
+    "Folk football",
+    "Mob football",
+    "Football",
+    "Association football",
+    "Soccer"
+   ],
+   "countries": [
+    "United Kingdom"
+   ],
+   "country_codes": [
+    "GB"
+   ],
+   "region": "Europe",
+   "type": "Team ball sports",
+   "family": "Kicking and football games",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "Association football, the world's most played sport, was codified in England in 1863 from older village and school kicking games and is now played in every country.",
+   "how_played": "Two teams move a ball with any part of the body except the hands and arms, trying to kick it into the opposing goal. The full game is eleven a side on a large pitch; seven a side on a compact pitch is the common recreational form.",
+   "heritage_note": "Part of the living heritage of United Kingdom.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Traditional_football",
+    "https://en.wikipedia.org/wiki/Association_football"
+   ],
+   "photo": null
+  },
+  {
+   "id": 14067,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/14067-ttakji-ssaum/",
+   "name": "Ttakji-ssaum",
+   "native": "",
+   "alt": [
+    "Orang-kai-kkot-tchi-ki",
+    "Violet Fighting"
+   ],
+   "countries": [
+    "South Korea"
+   ],
+   "country_codes": [
+    "KR"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Dexterity and skill games",
+   "family": "",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Japan and Korea",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Japan and Korea.",
+   "summary": "A children's contest in which flowers of the violet are hooked together and pulled apart so that the head breaks off one.",
+   "how_played": "Each child hooks violets by the stems and tugs; the one whose flower head comes off loses.",
+   "heritage_note": "Part of the living heritage of South Korea. It is presented as sport and skill, never as real fighting.",
+   "sources": [
+    "https://archive.org/details/koreangameswith00culigoog"
+   ],
+   "photo": null
+  },
+  {
+   "id": 14110,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/14110-jackstraws/",
+   "name": "Jackstraws",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United States"
+   ],
+   "country_codes": [
+    "US"
+   ],
+   "region": "Americas",
+   "type": "Dexterity and skill games",
+   "family": "Dice and knucklebone games",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "The Americas: North America",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of The Americas: North America.",
+   "summary": "A game of splints piled on the back of the hand, found among Eskimo and Haida, played like jackstraws.",
+   "how_played": "Players pile fifty to seventy-five small wooden splints and remove them one at a time without disturbing the rest.",
+   "heritage_note": "Part of the living heritage of United States.",
+   "sources": [
+    "https://archive.org/details/gamesofnorthamer00culirich"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22319,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22319-soroban/",
+   "name": "Soroban",
+   "native": "そろばん",
+   "alt": [
+    "Abacus",
+    "Japanese abacus"
+   ],
+   "countries": [
+    "Japan"
+   ],
+   "country_codes": [
+    "JP"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Puzzles and mind games",
+   "family": "",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Japan and Korea",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Japan and Korea.",
+   "summary": "The soroban is the Japanese bead abacus: rods in a wooden frame, each carrying one five-bead above the beam and four one-beads below it, still taught to schoolchildren for fast arithmetic.",
+   "how_played": "Each rod stands for one decimal place. A number is set by sliding beads toward the beam; adding and subtracting follow fixed finger movements that use the complements of five and ten, so long columns can be summed at speed. Trained users go on to anzan, picturing the beads and calculating entirely in the head.",
+   "heritage_note": "Part of the living heritage of Japan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Soroban"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22320,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22320-american-football/",
+   "name": "American football",
+   "native": "",
+   "alt": [
+    "Gridiron football"
+   ],
+   "countries": [
+    "United States"
+   ],
+   "country_codes": [
+    "US"
+   ],
+   "region": "Americas",
+   "type": "Team ball sports",
+   "family": "Kicking and football games",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "The Americas: North America",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of The Americas: North America.",
+   "summary": "American football grew out of rugby and association football on the college fields of the north-eastern United States in the 1870s, and became the country's most watched sport.",
+   "how_played": "Two teams advance an oval ball down a 100-yard field by running or passing, needing ten yards in four downs to keep possession; a touchdown is worth six points and a field goal three. Seven-on-seven is the non-contact practice form, all passing, played on a short field.",
+   "heritage_note": "Part of the living heritage of United States.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/American_football"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22321,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22321-anansi-stories/",
+   "name": "Anansi stories",
+   "native": "",
+   "alt": [
+    "Anansesem",
+    "Anansi tales"
+   ],
+   "countries": [
+    "Ghana"
+   ],
+   "country_codes": [
+    "GH"
+   ],
+   "region": "Sub-Saharan Africa",
+   "type": "Performance and storytelling",
+   "family": "",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Africa: Sahel, West and Central",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Africa: Sahel, West and Central.",
+   "summary": "Anansesem, the spider stories of the Akan people of Ghana, follow Anansi, a small trickster who wins against bigger and stronger animals by wit, and sometimes loses to his own greed.",
+   "how_played": "A storyteller performs the tales at evening gatherings, with call-and-response, songs and voices for each animal. Listeners already know the characters, so the pleasure is in the telling and in the lesson each trick carries. The stories crossed the Atlantic and live on in Caribbean and American folklore.",
+   "heritage_note": "Part of the living heritage of Ghana.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Anansi"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22322,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22322-badminton/",
+   "name": "Badminton",
+   "native": "",
+   "alt": [
+    "Poona"
+   ],
+   "countries": [
+    "United Kingdom",
+    "India",
+    "Indonesia",
+    "China"
+   ],
+   "country_codes": [
+    "GB",
+    "IN",
+    "ID",
+    "CN"
+   ],
+   "region": "Europe",
+   "type": "Bat-and-ball games",
+   "family": "Kicking and football games",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "Badminton, a racket game played with a feathered shuttlecock over a high net, took its modern rules from British officers in India in the 1870s and is now dominated by players from Indonesia, China, Denmark and India.",
+   "how_played": "Singles or doubles rally a shuttlecock across a net 1.55 metres high. Games are played to 21 points, best of three, mixing fast smashes with delicate drops at the net.",
+   "heritage_note": "Part of the living heritage of United Kingdom, India, Indonesia.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Badminton"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22323,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22323-baseball/",
+   "name": "Baseball",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United States",
+    "Cuba",
+    "Dominican Republic",
+    "Japan"
+   ],
+   "country_codes": [
+    "US",
+    "CU",
+    "DO",
+    "JP"
+   ],
+   "region": "Americas",
+   "type": "Bat-and-ball games",
+   "family": "Bat-and-ball games",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "The Americas: North America",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of The Americas: North America.",
+   "summary": "Baseball, the bat-and-ball game of nine-player teams and a diamond of four bases, took shape in the north-eastern United States in the 1840s and became a national passion in Cuba, the Dominican Republic and Japan as well.",
+   "how_played": "A pitcher throws to a batter, who tries to hit the ball into fair territory and run the bases; the fielding side gets three outs per innings and a game lasts nine innings. The home-run contest is a festival form in which hitters simply try to clear the fence as often as they can.",
+   "heritage_note": "Part of the living heritage of United States, Cuba, Dominican Republic.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Baseball"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22324,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22324-basketball/",
+   "name": "Basketball",
+   "native": "",
+   "alt": [
+    "3x3 basketball"
+   ],
+   "countries": [
+    "United States"
+   ],
+   "country_codes": [
+    "US"
+   ],
+   "region": "Americas",
+   "type": "Team ball sports",
+   "family": "",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "The Americas: North America",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of The Americas: North America.",
+   "summary": "Basketball was invented in 1891 in Springfield, Massachusetts, as an indoor winter game with a ball and two peach baskets, and spread from school gyms to city courts around the world.",
+   "how_played": "Teams score by shooting the ball through a hoop three metres above the floor; players advance by passing or dribbling and may not run holding the ball. Half-court three-on-three, with one basket and a twelve-second shot clock, is the street form and an Olympic event since 2020.",
+   "heritage_note": "Part of the living heritage of United States.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Basketball"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22325,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22325-klondike/",
+   "name": "Klondike",
+   "native": "",
+   "alt": [
+    "Klondike solitaire",
+    "Patience"
+   ],
+   "countries": [
+    "United States",
+    "Canada"
+   ],
+   "country_codes": [
+    "US",
+    "CA"
+   ],
+   "region": "Americas",
+   "type": "Card games",
+   "family": "",
+   "era": "Age of Contact and Craft",
+   "era_uncertain": true,
+   "cradle": "The Americas: North America",
+   "origin_note": "Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), although its exact origins are uncertain, within the cultural world of The Americas: North America.",
+   "summary": "Klondike is the best-known solitaire card game, named after the gold rush of the 1890s and played by one person with a single pack.",
+   "how_played": "Seven columns are dealt with only the top card face up. Cards are built downward in alternating colours on the columns and upward by suit on four foundations, drawing from the remaining stock; the game is won when all four suits are complete.",
+   "heritage_note": "Part of the living heritage of United States, Canada.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Klondike_(solitaire)"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22326,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22326-crossword/",
+   "name": "Crossword",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United Kingdom",
+    "United States"
+   ],
+   "country_codes": [
+    "GB",
+    "US"
+   ],
+   "region": "Europe",
+   "type": "Puzzles and mind games",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": false,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "The crossword puzzle first appeared in a New York newspaper in 1913 and within a decade was a daily habit in Britain and America, where the cryptic style developed.",
+   "how_played": "A grid of white and black squares is filled with words running across and down, each answering a numbered clue. American grids are dense and fully interlocking; British cryptic clues hide the answer in wordplay as well as a definition.",
+   "heritage_note": "Part of the living heritage of United Kingdom, United States.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Crossword"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22327,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22327-crown-fields/",
+   "name": "Crown Fields",
+   "native": "",
+   "alt": [],
+   "countries": [],
+   "country_codes": [],
+   "region": "Worldwide",
+   "type": "Puzzles and mind games",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": false,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today).",
+   "summary": "The solver places crowns by deduction alone.",
+   "how_played": "The solver places crowns by deduction alone. A region that is one square wide fixes a crown at once; the rows and columns it occupies are then cleared, and the chain of eliminations continues until every region holds exactly one crown.",
+   "heritage_note": "An Arcforge original, created for the World Heritage Games collection rather than drawn from one tradition.",
+   "sources": [],
+   "photo": null
+  },
+  {
+   "id": 22329,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22329-gamelan/",
+   "name": "Gamelan",
+   "native": "Gamelan",
+   "alt": [],
+   "countries": [
+    "Indonesia"
+   ],
+   "country_codes": [
+    "ID"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Musical instruments",
+   "family": "Drums and percussion",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Southeast Asia and the Islands",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Southeast Asia and the Islands.",
+   "summary": "Gamelan is the bronze percussion ensemble of Java and Bali: tuned metallophones, hanging gongs, kettle gongs and drums played together as one instrument.",
+   "how_played": "The pieces are tuned to each other in the five-tone slendro or seven-tone pelog scales, so no two gamelans sound alike. A large gong marks the end of each cycle, the drum leads the tempo, and layers of metallophones fill the cycle with interlocking patterns.",
+   "heritage_note": "Part of the living heritage of Indonesia.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gamelan"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22330,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22330-the-road-to-lanka/",
+   "name": "The Road to Lanka",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "India",
+    "Sri Lanka"
+   ],
+   "country_codes": [
+    "IN",
+    "LK"
+   ],
+   "region": "South and Central Asia",
+   "type": "Performance and storytelling",
+   "family": "",
+   "era": "Modern Heritage",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), within the cultural world of South Asia.",
+   "summary": "The Road to Lanka is an Arcforge story adventure drawn from the ancient Sanskrit epic storytelling tradition of South Asia: a prince's long journey south to an island kingdom, told chapter by chapter.",
+   "how_played": "The player follows the road from the forest exile to the final crossing of the sea, meeting allies and rivals from the epic in turn, with choices at each halt that change how the story is told.",
+   "heritage_note": "An Arcforge original, created for the World Heritage Games collection rather than drawn from one tradition.",
+   "sources": [],
+   "photo": null
+  },
+  {
+   "id": 22331,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22331-golden-sling/",
+   "name": "Golden Sling",
+   "native": "",
+   "alt": [
+    "Harvest Sling",
+    "Golden Sling Deluxe"
+   ],
+   "countries": [],
+   "country_codes": [],
+   "region": "Worldwide",
+   "type": "Dexterity and skill games",
+   "family": "",
+   "era": "Modern Heritage",
+   "era_uncertain": false,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today).",
+   "summary": "Golden Sling is an Arcforge original: a harvest field, a hand-carved slingshot and a flock of birds to outwit before they strip the crop. Four seasons bring four guardians to a paper-cut landscape.",
+   "how_played": "Stones are launched from the sling to scatter the birds before they reach the standing grain; each season changes the wind, the light and the flock.",
+   "heritage_note": "An Arcforge original, created for the World Heritage Games collection rather than drawn from one tradition.",
+   "sources": [],
+   "photo": null
+  },
+  {
+   "id": 22332,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22332-kolam/",
+   "name": "Kolam",
+   "native": "கோலம்",
+   "alt": [
+    "Rangoli",
+    "Muggu"
+   ],
+   "countries": [
+    "India"
+   ],
+   "country_codes": [
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Crafts and making",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of South Asia.",
+   "summary": "Kolam is the South Indian art of drawing geometric patterns at the threshold each dawn with rice flour, looping continuous lines around a grid of dots.",
+   "how_played": "A grid of dots is laid first; then a single line, or a few, is drawn around and between the dots so that every dot is enclosed and the line closes on itself. Designs are learned from mothers and grandmothers and vary by season and occasion.",
+   "heritage_note": "Part of the living heritage of India.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kolam"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22333,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22333-miniature-golf/",
+   "name": "Miniature golf",
+   "native": "",
+   "alt": [
+    "Mini golf",
+    "Crazy golf",
+    "Putting course"
+   ],
+   "countries": [
+    "United Kingdom",
+    "United States"
+   ],
+   "country_codes": [
+    "GB",
+    "US"
+   ],
+   "region": "Europe",
+   "type": "Dexterity and skill games",
+   "family": "",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "Miniature golf shrinks the putting green into a course of short holes with banks, tunnels and water, a seaside and roadside pastime since the early twentieth century.",
+   "how_played": "Players putt a ball from a tee to a hole on each of nine or eighteen small greens, counting strokes; obstacles and slopes make each hole a small physics problem.",
+   "heritage_note": "Part of the living heritage of United Kingdom, United States.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Miniature_golf"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22334,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22334-one-arrow-oath/",
+   "name": "One Arrow Oath",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "India"
+   ],
+   "country_codes": [
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Other traditions",
+   "family": "",
+   "era": "Modern Heritage",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), within the cultural world of South Asia.",
+   "summary": "One Arrow Oath is an Arcforge original inspired by a warrior's vow in ancient Sanskrit epic poetry: a single arrow, a long campaign and a fresh hand of choices on every attempt.",
+   "how_played": "Each run strings together encounters from the campaign; the player builds a small deck of techniques and spends them wisely, because the one arrow may be loosed only once.",
+   "heritage_note": "An Arcforge original, created for the World Heritage Games collection rather than drawn from one tradition.",
+   "sources": [],
+   "photo": null
+  },
+  {
+   "id": 22335,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22335-perch/",
+   "name": "Perch",
+   "native": "",
+   "alt": [],
+   "countries": [],
+   "country_codes": [],
+   "region": "Worldwide",
+   "type": "Dexterity and skill games",
+   "family": "",
+   "era": "Modern Heritage",
+   "era_uncertain": false,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today).",
+   "summary": "Perch is an Arcforge original reflex game: a small bird on a thin perch, stones falling from above and one good moment to move.",
+   "how_played": "The bird hops left or right to avoid each falling stone; the longer it survives, the faster the stones come.",
+   "heritage_note": "An Arcforge original, created for the World Heritage Games collection rather than drawn from one tradition.",
+   "sources": [],
+   "photo": null
+  },
+  {
+   "id": 22336,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22336-reversi/",
+   "name": "Reversi",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United Kingdom",
+    "Japan"
+   ],
+   "country_codes": [
+    "GB",
+    "JP"
+   ],
+   "region": "Europe",
+   "type": "Board and table games",
+   "family": "",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "Reversi, the disc-flipping game of trapping lines of the opponent's pieces, began in Victorian England in the 1880s and was revived and refined in Japan in the 1970s.",
+   "how_played": "Two players place double-sided discs on an eight-by-eight board; a disc must be placed so that it traps one or more enemy discs in a straight line, which then flip to the mover's colour. When the board is full the player with more discs wins.",
+   "heritage_note": "Part of the living heritage of United Kingdom, Japan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Reversi"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22337,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22337-rice-terrace-farming/",
+   "name": "Rice terrace farming",
+   "native": "",
+   "alt": [
+    "Ifugao rice terraces",
+    "Subak"
+   ],
+   "countries": [
+    "Philippines",
+    "Indonesia"
+   ],
+   "country_codes": [
+    "PH",
+    "ID"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Other traditions",
+   "family": "",
+   "era": "Living Traditions",
+   "era_uncertain": true,
+   "cradle": "Southeast Asia and the Islands",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Southeast Asia and the Islands.",
+   "summary": "The stone-walled rice terraces of the Philippine Cordillera and the shared-water rice fields of Bali are communal works of engineering: spring water is led downhill through channels and gates so that every field floods and drains in its turn.",
+   "how_played": "Farmers follow a calendar of planting, flooding, weeding and harvest set by the community, and the irrigation council of each valley decides when each group of fields may take water.",
+   "heritage_note": "Part of the living heritage of Philippines, Indonesia.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rice_Terraces_of_the_Philippine_Cordilleras",
+    "https://en.wikipedia.org/wiki/Subak_(irrigation)"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22338,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22338-russian-loto/",
+   "name": "Russian Loto",
+   "native": "Русское лото",
+   "alt": [
+    "Russkoye loto",
+    "Loto"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "country_codes": [
+    "RU"
+   ],
+   "region": "Europe",
+   "type": "Board and table games",
+   "family": "",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Northern and Eastern Europe",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Northern and Eastern Europe.",
+   "summary": "Russian Loto is the family number lottery of Russia and the former Soviet lands, played with numbered wooden kegs drawn from a cloth bag and cards of three rows.",
+   "how_played": "Each player buys one or more cards of fifteen numbers. A caller draws kegs one at a time and announces the number, often with a traditional nickname; players cover matches, and the first to fill a row, or the whole card, wins the pot.",
+   "heritage_note": "Part of the living heritage of Russia.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lotto_(board_game)"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22339,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22339-silk-road-caravan-trade/",
+   "name": "Silk Road caravan trade",
+   "native": "",
+   "alt": [
+    "Silk Road"
+   ],
+   "countries": [
+    "China",
+    "Uzbekistan",
+    "Iran",
+    "Iraq"
+   ],
+   "country_codes": [
+    "CN",
+    "UZ",
+    "IR",
+    "IQ"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Other traditions",
+   "family": "Hunt and blockade games",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "China",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of China.",
+   "summary": "For more than a thousand years caravans carried silk, paper, glass, spices and horses along the overland routes between Chang'an and Baghdad, trading from oasis to oasis rather than end to end.",
+   "how_played": "A merchant buys goods where they are cheap, pays for camels, guides and protection, and sells where they are scarce, judging weather, bandits and the politics of each khanate on the way.",
+   "heritage_note": "Part of the living heritage of China, Uzbekistan, Iran.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Silk_Road"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22340,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22340-sudoku/",
+   "name": "Sudoku",
+   "native": "数独",
+   "alt": [
+    "Number Place"
+   ],
+   "countries": [
+    "Japan"
+   ],
+   "country_codes": [
+    "JP"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Puzzles and mind games",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": false,
+   "cradle": "Japan and Korea",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), within the cultural world of Japan and Korea.",
+   "summary": "Sudoku, the number-placement puzzle, was published in the United States in 1979, named and popularised in Japan in the 1980s and became a worldwide newspaper fixture after 2004.",
+   "how_played": "A nine-by-nine grid, divided into nine boxes, is partly filled with digits. The solver completes it so that every row, column and box contains the digits one to nine exactly once, by logic alone.",
+   "heritage_note": "Part of the living heritage of Japan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sudoku"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22341,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22341-minesweeper/",
+   "name": "Minesweeper",
+   "native": "",
+   "alt": [
+    "Sure Sweep"
+   ],
+   "countries": [],
+   "country_codes": [],
+   "region": "Worldwide",
+   "type": "Puzzles and mind games",
+   "family": "",
+   "era": "Modern Heritage",
+   "era_uncertain": false,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today).",
+   "summary": "Minesweeper is a computer-age logic classic from the 1980s: a hidden field of mines must be cleared square by square using only the numbers revealed at each step.",
+   "how_played": "from these counts the player deduces which neighbours are safe and marks the rest. Sure Sweep is the Arcforge version, built so that no board ever needs a guess.",
+   "heritage_note": "A tradition shared by communities in many places.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Minesweeper_(video_game)"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22342,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22342-table-tennis/",
+   "name": "Table tennis",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United Kingdom",
+    "China"
+   ],
+   "country_codes": [
+    "GB",
+    "CN"
+   ],
+   "region": "Europe",
+   "type": "Bat-and-ball games",
+   "family": "",
+   "era": "Age of Contact and Craft",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "Table tennis began as an after-dinner parlour game in Victorian England and grew into one of the most played sports on earth, with China dominating competition since the 1960s.",
+   "how_played": "Two or four players strike a light celluloid or plastic ball across a low net on a table, letting it bounce once on their side; spin and placement matter more than power. Games are played to eleven points.",
+   "heritage_note": "Part of the living heritage of United Kingdom, China.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Table_tennis"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22343,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22343-cricket/",
+   "name": "Cricket",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United Kingdom",
+    "India",
+    "Australia",
+    "Pakistan"
+   ],
+   "country_codes": [
+    "GB",
+    "IN",
+    "AU",
+    "PK"
+   ],
+   "region": "Europe",
+   "type": "Bat-and-ball games",
+   "family": "Bat-and-ball games",
+   "era": "Age of Contact and Craft",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "Cricket, the bat-and-ball game of two elevens, a 22-yard pitch and three-stump wickets, grew up in south-east England and travelled with the Commonwealth to South Asia, Australia, southern Africa and the Caribbean.",
+   "how_played": "A bowler delivers the ball to a batter who defends the wicket and scores runs by hitting and running between the creases; the fielding side tries to dismiss ten batters. Backyard and street cricket keep the game alive with improvised rules everywhere it is played.",
+   "heritage_note": "Part of the living heritage of United Kingdom, India, Australia.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cricket"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22345,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22345-volleyball/",
+   "name": "Volleyball",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United States",
+    "Brazil",
+    "Japan"
+   ],
+   "country_codes": [
+    "US",
+    "BR",
+    "JP"
+   ],
+   "region": "Americas",
+   "type": "Team ball sports",
+   "family": "",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "The Americas: North America",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of The Americas: North America.",
+   "summary": "Volleyball was devised in Massachusetts in 1895 as a gentler indoor game than basketball and became a worldwide team sport, with beach volleyball following from California in the 1920s.",
+   "how_played": "Six a side send the ball over a high net with no more than three touches, usually pass, set and spike, and rotate positions after each point won on serve. Rallies end when the ball touches the floor or goes out.",
+   "heritage_note": "Part of the living heritage of United States, Brazil, Japan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Volleyball"
+   ],
+   "photo": null
+  },
+  {
+   "id": 22346,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22346-word-game/",
+   "name": "Word Game",
+   "native": "",
+   "alt": [
+    "Word Game Deluxe"
+   ],
+   "countries": [],
+   "country_codes": [],
+   "region": "Worldwide",
+   "type": "Puzzles and mind games",
+   "family": "",
+   "era": "Modern Heritage",
+   "era_uncertain": false,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today).",
+   "summary": "Players study a set of words, then are tested on them in short timed rounds that return to the words they missed.",
+   "how_played": "Players study a set of words, then are tested on them in short timed rounds that return to the words they missed.",
+   "heritage_note": "An Arcforge original, created for the World Heritage Games collection rather than drawn from one tradition.",
+   "sources": [],
+   "photo": null
+  },
+  {
+   "id": 22347,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/22347-world-weave/",
+   "name": "World Weave",
+   "native": "",
+   "alt": [],
+   "countries": [],
+   "country_codes": [],
+   "region": "Worldwide",
+   "type": "Crafts and making",
+   "family": "Textile and weaving crafts",
+   "era": "Modern Heritage",
+   "era_uncertain": false,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today).",
+   "summary": "World Weave is an Arcforge original pattern puzzle that weaves real textile and tile traditions from many civilizations into one loom.",
+   "how_played": "Each pattern is rebuilt thread by thread from the motifs of its home tradition, following the lineage of the design rather than any one country.",
+   "heritage_note": "An Arcforge original, created for the World Heritage Games collection rather than drawn from one tradition.",
+   "sources": [],
+   "photo": null
   }
  ]
 }

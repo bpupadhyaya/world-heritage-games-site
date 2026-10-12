@@ -1,20 +1,21 @@
 ---
 title: "China"
-description: "44 traditions from China."
+description: "50 traditions from China."
 path: "/countries/china/"
-count: 44
+count: 50
 ---
 # China
 
-44 traditions from China.
+50 traditions from China.
 
 
 
-44 entries.
+50 entries.
 
 - [Bamboo scaffold builder](../../games/369-bamboo-scaffold-builder/index.md): China; Crafts and making; Living Traditions
 - [Banqi](../../games/1437-banqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages
 - [Bianzhong](../../games/336-bianzhong/index.md): China; Musical instruments; Living Traditions
+- [Calligraphy](../../games/6621-calligraphy/index.md): China; Crafts and making; Living Traditions
 - [Cheongsam Tailor Shop](../../games/1462-cheongsam-tailor-shop/index.md): China; Crafts and making; Living Traditions
 - [Chinese knotting](../../games/26-chinese-knotting/index.md): China; Crafts and making; Living Traditions
 - [Chuiwan](../../games/332-chuiwan/index.md): China; Other traditions; Living Traditions
@@ -22,6 +23,7 @@ count: 44
 - [Cuju](../../games/333-cuju/index.md): China; Dexterity and skill games; Classical Worlds
 - [Dizi](../../games/132-dizi/index.md): China; Musical instruments; Classical Worlds
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md): China, South Korea; Puzzles and mind games; Classical Worlds
+- [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md): China; Racing; Crossroads and Golden Ages
 - [Dranyen](../../games/300-dranyen/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Dumpling Pleating](../../games/499-dumpling-pleating/index.md): China, Nepal; Crafts and making; Living Traditions
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md): China; Musical instruments; Crossroads and Golden Ages
@@ -51,8 +53,12 @@ count: 44
 - [Tanghua](../../games/64-tanghua/index.md): China; Crafts and making; Living Traditions
 - [Tangram](../../games/641-tangram/index.md): China; Puzzles and mind games; Modern Heritage
 - [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md): China; Board and table games; Classical Worlds
+- [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
 - [Hong Kong mahjong](../../games/772-hong-kong-mahjong/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Jungle](../../games/637-jungle/index.md): China; Board and table games; Crossroads and Golden Ages
+- [Kongzhu](../../games/5289-kongzhu/index.md): China; Dexterity and skill games; Modern Heritage
 - [Pai gow](../../games/771-pai-gow/index.md): China; Board and table games; Crossroads and Golden Ages
+- [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md): China, Uzbekistan; Other traditions; Classical Worlds
+- [Table tennis](../../games/22342-table-tennis/index.md): United Kingdom, China; Bat-and-ball games; Age of Contact and Craft
 - [Tien gow](../../games/773-tien-gow/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Xiangqi](../../games/636-xiangqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages

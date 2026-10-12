@@ -1,16 +1,16 @@
 ---
 title: "Dice and knucklebone games"
-description: "27 related traditions."
+description: "28 related traditions."
 path: "/families/dice/"
-count: 27
+count: 28
 ---
 # Dice and knucklebone games
 
-27 related traditions.
+28 related traditions.
 
 
 
-27 entries.
+28 entries.
 
 - [Cacho](../../games/595-cacho/index.md): Bolivia, Chile; Board and table games; River Valleys and First Cities
 - [Daldøs](../../games/458-dalds/index.md): Denmark, Norway; Board and table games; Crossroads and Golden Ages
@@ -32,6 +32,7 @@ count: 27
 - [Five stones](../../games/907-five-stones/index.md): Malaysia, Brunei; Dexterity and skill games; Deep Past and First Games
 - [Jacks](../../games/697-jacks/index.md): El Salvador; Dexterity and skill games; Deep Past and First Games
 - [Jacks, Dandy Shandy, ring games](../../games/842-jacks-dandy-shandy-ring-games/index.md): Jamaica; Dexterity and skill games; Deep Past and First Games
+- [Jackstraws](../../games/14110-jackstraws/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Parxís](../../games/542-parxis/index.md): Andorra; Board and table games; River Valleys and First Cities
 - [Sig](../../games/928-sig/index.md): Mauritania; Board and table games; Crossroads and Golden Ages
 - [Tab](../../games/694-tab/index.md): Egypt; Board and table games; River Valleys and First Cities

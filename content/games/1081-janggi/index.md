@@ -35,6 +35,10 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - **Region:** East and Southeast Asia
 - **Players:** 2
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/games-site/games/janggi-korean-chess-tutor/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Hasami shogi](../../games/849-hasami-shogi/index.md)

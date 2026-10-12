@@ -45,7 +45,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Menko](../../games/346-menko/index.md)
 - [Tatami room tiling puzzle](../../games/356-tatami-room-tiling-puzzle/index.md)
 - [Hashi](../../games/360-hashi/index.md)
-- [Hangul syllable blocks](../../games/364-hangul-syllable-blocks/index.md)
+- [Sudoku](../../games/22340-sudoku/index.md)
 
 ## Sources
 

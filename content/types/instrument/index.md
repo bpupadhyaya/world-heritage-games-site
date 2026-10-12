@@ -1,16 +1,16 @@
 ---
 title: "Musical instruments"
-description: "94 traditions of this kind."
+description: "97 traditions of this kind."
 path: "/types/instrument/"
-count: 94
+count: 97
 ---
 # Musical instruments
 
-94 traditions of this kind.
+97 traditions of this kind.
 
 
 
-94 entries.
+97 entries.
 
 - [Adungu](../../games/186-adungu/index.md): Uganda; Musical instruments; Classical Worlds
 - [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md): Afghanistan; Musical instruments; Crossroads and Golden Ages
@@ -59,6 +59,7 @@ count: 94
 - [Khloy bamboo duct flute](../../games/1311-khloy-bamboo-duct-flute/index.md): Cambodia; Musical instruments; Classical Worlds
 - [Khomus](../../games/379-khomus/index.md): Russia; Musical instruments; Classical Worlds
 - [Komuz](../../games/242-komuz/index.md): Kyrgyzstan; Musical instruments; Crossroads and Golden Ages
+- [Kora](../../games/7176-kora/index.md): Gambia, Mali; Musical instruments; Classical Worlds
 - [Krar lyre](../../games/126-krar-lyre/index.md): Ethiopia, Eritrea; Musical instruments; Classical Worlds
 - [Kulintang](../../games/318-kulintang/index.md): Philippines, Malaysia; Musical instruments; Classical Worlds
 - [Kurai](../../games/1237-kurai/index.md): Russia; Musical instruments; Classical Worlds
@@ -95,6 +96,7 @@ count: 94
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds
 - [Skrabalai](../../games/388-skrabalai/index.md): Lithuania; Musical instruments; Living Traditions
 - [Steelpan](../../games/31-steelpan/index.md): Trinidad and Tobago; Musical instruments; Age of Contact and Craft
+- [Taiko](../../games/5367-taiko/index.md): Japan; Musical instruments; Living Traditions
 - [Talking drum](../../games/33-talking-drum/index.md): Nigeria; Musical instruments; Living Traditions
 - [Tar and mugham modes](../../games/247-tar-and-mugham-modes/index.md): Azerbaijan; Musical instruments; Crossroads and Golden Ages
 - [Tombak goblet drum rhythms](../../games/233-tombak-goblet-drum-rhythms/index.md): Iran; Musical instruments; Living Traditions
@@ -106,3 +108,4 @@ count: 94
 - [Veena](../../games/282-veena/index.md): India; Musical instruments; Crossroads and Golden Ages
 - [Wazza gourd trumpet](../../games/1399-wazza-gourd-trumpet/index.md): Sudan; Musical instruments; Living Traditions
 - [Zande kundi arched harp](../../games/1319-zande-kundi-arched-harp/index.md): South Sudan; Musical instruments; Classical Worlds
+- [Gamelan](../../games/22329-gamelan/index.md): Indonesia; Musical instruments; Classical Worlds

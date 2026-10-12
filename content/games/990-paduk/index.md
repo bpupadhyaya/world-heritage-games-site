@@ -36,7 +36,7 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Play it
 
-[About the game](https://bpupadhyaya.github.io/games-site/games/go-stones-and-territory/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Web preview](https://bpupadhyaya.github.io/games-site/games/go-stones-and-territory/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
@@ -44,8 +44,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Gayageum](../../games/361-gayageum/index.md)
 - [Baduk](../../games/1084-baduk/index.md)
 - [Geomungo](../../games/1453-geomungo/index.md)
+- [Juldarigi](../../games/2772-juldarigi/index.md)
 - [Omok](../../games/1088-omok/index.md)
-- [Jegichagi](../../games/1082-jegichagi/index.md)
 
 ## Sources
 

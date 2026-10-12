@@ -1,16 +1,16 @@
 ---
 title: "Indonesia"
-description: "20 traditions from Indonesia."
+description: "24 traditions from Indonesia."
 path: "/countries/indonesia/"
-count: 20
+count: 24
 ---
 # Indonesia
 
-20 traditions from Indonesia.
+24 traditions from Indonesia.
 
 
 
-20 entries.
+24 entries.
 
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
 - [Bakiak](../../games/324-bakiak/index.md): Indonesia, Malaysia; Racing; Age of Contact and Craft
@@ -21,6 +21,7 @@ count: 20
 - [Gobak Sodor](../../games/46-gobak-sodor/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
 - [Greasy pole climb](../../games/77-greasy-pole-climb/index.md): Indonesia; Performance and storytelling; Living Traditions
 - [Independence-day field games](../../games/330-independence-day-field-games/index.md): Indonesia; Racing; Age of Contact and Craft
+- [Juldarigi](../../games/2772-juldarigi/index.md): South Korea, United Kingdom; Other traditions; Classical Worlds
 - [Ketupat](../../games/322-ketupat/index.md): Malaysia, Indonesia; Crafts and making; Living Traditions
 - [Lato-lato](../../games/316-lato-lato/index.md): Indonesia, Malaysia; Toys; Modern Heritage
 - [Madura bull racing](../../games/805-madura-bull-racing/index.md): Indonesia; Street and playground games; Modern Heritage
@@ -31,4 +32,7 @@ count: 20
 - [Sasando](../../games/317-sasando/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Sepak takraw](../../games/802-sepak-takraw/index.md): Indonesia, Malaysia; Street and playground games; Modern Heritage
 - [Songket](../../games/320-songket/index.md): Malaysia, Brunei; Crafts and making; Living Traditions
+- [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
+- [Gamelan](../../games/22329-gamelan/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Gaple dominoes](../../games/804-gaple-dominoes/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
+- [Rice terrace farming](../../games/22337-rice-terrace-farming/index.md): Philippines, Indonesia; Other traditions; Living Traditions

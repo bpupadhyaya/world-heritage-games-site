@@ -1,16 +1,16 @@
 ---
 title: "South and Central Asia"
-description: "121 entries."
+description: "125 entries."
 path: "/regions/south-and-central-asia/"
-count: 121
+count: 125
 ---
 # South and Central Asia
 
-121 entries.
+125 entries.
 
 
 
-121 entries.
+125 entries.
 
 - [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md): Afghanistan; Musical instruments; Crossroads and Golden Ages
 - [Ajrak block printing](../../games/1226-ajrak-block-printing/index.md): Pakistan; Crafts and making; Living Traditions
@@ -101,7 +101,7 @@ count: 121
 - [Warli painting](../../games/117-warli-painting/index.md): India; Crafts and making; Living Traditions
 - [Akuru Thaasbe](../../games/913-akuru-thaasbe/index.md): Maldives; Other traditions; Living Traditions
 - [Alchik](../../games/868-alchik/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
-- [Archery](../../games/591-archery/index.md): Bhutan; Street and playground games; Classical Worlds
+- [Archery](../../games/591-archery/index.md): Bhutan; Archery, throwing and target games; Classical Worlds
 - [Ashyk](../../games/1169-ashyk/index.md): Turkmenistan; Dexterity and skill games; Modern Heritage
 - [Asyk Atu](../../games/856-asyk-atu/index.md): Kazakhstan; Dexterity and skill games; Modern Heritage
 - [Baibalaa](../../games/914-baibalaa/index.md): Maldives; Street and playground games; Deep Past and First Games
@@ -115,11 +115,13 @@ count: 121
 - [Khuru](../../games/592-khuru/index.md): Bhutan; Dexterity and skill games; Age of Contact and Craft
 - [Kite fighting](../../games/788-kite-fighting/index.md): India, Pakistan; Dexterity and skill games; Classical Worlds
 - [Kokpar](../../games/857-kokpar/index.md): Kazakhstan; Street and playground games; Classical Worlds
+- [Kolam](../../games/22332-kolam/index.md): India; Crafts and making; Living Traditions
 - [Lambs and Tigers](../../games/791-lambs-and-tigers/index.md): India; Board and table games; Crossroads and Golden Ages
 - [Maldivian chess](../../games/917-maldivian-chess/index.md): Maldives; Board and table games; Crossroads and Golden Ages
 - [Nard / long backgammon](../../games/1205-nard-long-backgammon/index.md): Uzbekistan; Board and table games; River Valleys and First Cities
 - [Ohvalhu](../../games/916-ohvalhu/index.md): Maldives; Board and table games; Deep Past and First Games
 - [Olinda Keliya](../../games/1106-olinda-keliya/index.md): Sri Lanka; Board and table games; Deep Past and First Games
+- [One Arrow Oath](../../games/22334-one-arrow-oath/index.md): India; Other traditions; Modern Heritage
 - [Ordo](../../games/870-ordo/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
 - [Pachisi](../../games/797-pachisi/index.md): India; Board and table games; River Valleys and First Cities
 - [Pancha](../../games/1108-pancha/index.md): Sri Lanka; Board and table games; River Valleys and First Cities
@@ -127,9 +129,11 @@ count: 121
 - [Pitthu Garam](../../games/1004-pitthu-garam/index.md): Pakistan; Street and playground games; Modern Heritage
 - [Shashki / chess](../../games/1206-shashki-chess/index.md): Uzbekistan; Board and table games; Classical Worlds
 - [Snakes and Ladders](../../games/796-snakes-and-ladders/index.md): India; Board and table games; River Valleys and First Cities
+- [The Road to Lanka](../../games/22330-the-road-to-lanka/index.md): India, Sri Lanka; Performance and storytelling; Modern Heritage
 - [Thin Hama](../../games/918-thin-hama/index.md): Maldives; Board and table games; River Valleys and First Cities
 - [Tiger and Goat](../../games/967-tiger-and-goat/index.md): Nepal; Board and table games; Crossroads and Golden Ages
 - [Togyz Kumalak](../../games/859-togyz-kumalak/index.md): Kazakhstan; Board and table games; Deep Past and First Games
 - [Turkmen Akhal-Teke equestrian games](../../games/1170-turkmen-akhal-teke-equestrian-games/index.md): Turkmenistan; Street and playground games; Classical Worlds
+- [Vitti Dandu](../../games/9804-vitti-dandu/index.md): India; Bat-and-ball games; Age of Contact and Craft
 - [White Cloth](../../games/867-white-cloth/index.md): Kyrgyzstan; Street and playground games; Modern Heritage
 - [Yam](../../games/593-yam/index.md): Bhutan; Board and table games; River Valleys and First Cities

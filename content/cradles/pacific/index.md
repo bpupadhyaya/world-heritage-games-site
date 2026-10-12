@@ -2,7 +2,7 @@
 title: "Pacific and Oceania"
 description: "Australia, Aotearoa and the voyaging cultures of the Pacific."
 path: "/cradles/pacific/"
-count: 52
+count: 54
 ---
 # Pacific and Oceania
 
@@ -10,9 +10,10 @@ Australia, Aotearoa and the voyaging cultures of the Pacific.
 
 
 
-52 entries.
+54 entries.
 
 - [Axemen woodchop](../../games/1232-axemen-woodchop/index.md): Australia; Other traditions; Modern Heritage
+- [Backyard cricket](../../games/559-backyard-cricket/index.md): Australia; Street and playground games; Age of Contact and Craft
 - [Beach flags](../../games/446-beach-flags/index.md): Australia; Racing; Age of Contact and Craft
 - [Billycart derby](../../games/445-billycart-derby/index.md): Australia; Racing; Age of Contact and Craft
 - [Bilum looped string bag](../../games/1242-bilum-looped-string-bag/index.md): Papua New Guinea; Crafts and making; Living Traditions
@@ -20,6 +21,7 @@ Australia, Aotearoa and the voyaging cultures of the Pacific.
 - [Hand-slap game](../../games/711-hand-slap-game/index.md): Fiji; Street and playground games; Modern Heritage
 - [Ibibo](../../games/964-ibibo/index.md): Nauru; Street and playground games; Modern Heritage
 - [Kī-o-rahi](../../games/978-ki-o-rahi/index.md): New Zealand; Street and playground games; Modern Heritage
+- [Kōnane](../../games/961-konane/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Lei making](../../games/449-lei-making/index.md): United States; Crafts and making; Living Traditions
 - [Maori stick games](../../games/981-maori-stick-games/index.md): New Zealand; Dexterity and skill games; Modern Heritage
 - [Marshallese stick chart navigator](../../games/1333-marshallese-stick-chart-navigator/index.md): Marshall Islands; Puzzles and mind games; Modern Heritage

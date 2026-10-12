@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with S"
-description: "102 entries beginning with S."
+description: "107 entries beginning with S."
 path: "/a-z/S/"
 ---
 # Entries beginning with S
@@ -38,10 +38,12 @@ path: "/a-z/S/"
 - [Shashki / chess](../../games/1206-shashki-chess/index.md): Uzbekistan; Board and table games; Classical Worlds
 - [Shatranj / chess](../../games/1134-shatranj-chess/index.md): Tajikistan; Board and table games; Crossroads and Golden Ages
 - [Shax](../../games/676-shax/index.md): Djibouti, Somalia; Board and table games; River Valleys and First Cities
+- [Sheepdog trials](../../games/5047-sheepdog-trials/index.md): United Kingdom; Sports with animal partners; Classical Worlds
 - [Shepherd's Leap](../../games/391-shepherds-leap/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Shibam Mud-Brick Tower Builder](../../games/1370-shibam-mud-brick-tower-builder/index.md): Yemen; Crafts and making; Living Traditions
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md): Japan, India; Crafts and making; Living Traditions
 - [Shikara paddle race](../../games/265-shikara-paddle-race/index.md): India; Racing; Age of Contact and Craft
+- [Shinny](../../games/725-shinny/index.md): United States, Canada; Street and playground games; Modern Heritage
 - [Shisima](../../games/865-shisima/index.md): Kenya; Board and table games; Crossroads and Golden Ages
 - [Shital pati cool mat weaving](../../games/1371-shital-pati-cool-mat-weaving/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Sho](../../games/286-sho/index.md): China; Board and table games; River Valleys and First Cities
@@ -58,6 +60,7 @@ path: "/a-z/S/"
 - [Sija](../../games/627-sija/index.md): Chad; Board and table games; Deep Past and First Games
 - [Silambam](../../games/271-silambam/index.md): India; Wrestling and martial sports; Classical Worlds
 - [Silat Melayu](../../games/605-silat-melayu/index.md): Brunei; Street and playground games; Modern Heritage
+- [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md): China, Uzbekistan; Other traditions; Classical Worlds
 - [Sipa](../../games/1024-sipa/index.md): Philippines; Street and playground games; Modern Heritage
 - [Sittuyin](../../games/302-sittuyin/index.md): Myanmar; Board and table games; Crossroads and Golden Ages
 - [Sjoelen](../../games/9-sjoelen/index.md): Netherlands; Dexterity and skill games; Modern Heritage
@@ -73,6 +76,7 @@ path: "/a-z/S/"
 - [Solomon string figures](../../games/1075-solomon-string-figures/index.md): Solomon Islands; Dexterity and skill games; Deep Past and First Games
 - [Songket](../../games/320-songket/index.md): Malaysia, Brunei; Crafts and making; Living Traditions
 - [Songo](../../games/617-songo/index.md): Cameroon, Gabon; Board and table games; Deep Past and First Games
+- [Soroban](../../games/22319-soroban/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Spelling Bee](../../games/1429-spelling-bee/index.md): United States; Other traditions; Crossroads and Golden Ages
 - [Spinning top](../../games/678-spinning-top/index.md): Dominican Republic, Jamaica; Dexterity and skill games; Modern Heritage
 - [Sprouts](../../games/473-sprouts/index.md): United Kingdom; Crafts and making; Living Traditions
@@ -97,6 +101,7 @@ path: "/a-z/S/"
 - [Street baseball](../../games/684-street-baseball/index.md): Dominican Republic; Street and playground games; Age of Contact and Craft
 - [Street games](../../games/570-street-games/index.md): Bahamas; Dexterity and skill games; Deep Past and First Games
 - [Street play games](../../games/1155-street-play-games/index.md): Trinidad and Tobago; Dexterity and skill games; Modern Heritage
+- [Sudoku](../../games/22340-sudoku/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Sugar-cane spear throwing](../../games/709-sugar-cane-spear-throwing/index.md): Fiji; Street and playground games; Modern Heritage
 - [Sumo bout](../../games/359-sumo-bout/index.md): Japan; Wrestling and martial sports; River Valleys and First Cities
 - [Sungka](../../games/1025-sungka/index.md): Philippines; Board and table games; Deep Past and First Games

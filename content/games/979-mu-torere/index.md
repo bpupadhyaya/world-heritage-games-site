@@ -34,16 +34,16 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Play it
 
-[About the game](https://bpupadhyaya.github.io/games-site/games/mu-torere-star-board/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Web preview](https://bpupadhyaya.github.io/games-site/games/mu-torere-star-board/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
 - [Wayfinder](../../games/43-wayfinder/index.md)
+- [Kōnane](../../games/961-konane/index.md)
 - [Yap stone money trade puzzle](../../games/1401-yap-stone-money-trade-puzzle/index.md)
 - [Gumboot throwing](../../games/448-gumboot-throwing/index.md)
 - [Kī-o-rahi](../../games/978-ki-o-rahi/index.md)
 - [Maori stick games](../../games/981-maori-stick-games/index.md)
-- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md)
 
 ## Sources
 

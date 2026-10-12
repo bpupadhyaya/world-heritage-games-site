@@ -1,16 +1,16 @@
 ---
 title: "Sub-Saharan Africa"
-description: "187 entries."
+description: "189 entries."
 path: "/regions/sub-saharan-africa/"
-count: 187
+count: 189
 ---
 # Sub-Saharan Africa
 
-187 entries.
+189 entries.
 
 
 
-187 entries.
+189 entries.
 
 - [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
@@ -77,6 +77,7 @@ count: 187
 - [Kissi Penny Forging](../../games/1314-kissi-penny-forging/index.md): Guinea, Sierra Leone; Crafts and making; Living Traditions
 - [Kitendawili](../../games/181-kitendawili/index.md): Kenya; Puzzles and mind games; Classical Worlds
 - [Kokawa Hausa Wrestling](../../games/1316-kokawa-hausa-wrestling/index.md): Nigeria, Niger; Wrestling and martial sports; River Valleys and First Cities
+- [Kora](../../games/7176-kora/index.md): Gambia, Mali; Musical instruments; Classical Worlds
 - [Korhogo Painted Cloth Studio](../../games/1318-korhogo-painted-cloth-studio/index.md): Cote d'Ivoire; Crafts and making; Living Traditions
 - [Krar lyre](../../games/126-krar-lyre/index.md): Ethiopia, Eritrea; Musical instruments; Classical Worlds
 - [Krobo Powder-Glass Beads](../../games/173-krobo-powder-glass-beads/index.md): Ghana; Crafts and making; Living Traditions
@@ -142,6 +143,7 @@ count: 187
 - [Achi](../../games/748-achi/index.md): Ghana; Board and table games; Age of Contact and Craft
 - [African draughts](../../games/586-african-draughts/index.md): Benin, Burkina Faso; Board and table games; Modern Heritage
 - [Akedewama](../../games/837-akedewama/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
+- [Anansi stories](../../games/22321-anansi-stories/index.md): Ghana; Performance and storytelling; Living Traditions
 - [Andada](../../games/700-andada/index.md): Eritrea; Board and table games; Deep Past and First Games
 - [Ayit](../../games/1090-ayit/index.md): South Sudan; Board and table games; Deep Past and First Games
 - [Ayo](../../games/986-ayo/index.md): Nigeria; Board and table games; Deep Past and First Games

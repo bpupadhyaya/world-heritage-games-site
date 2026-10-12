@@ -36,16 +36,16 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 ## Play it
 
-[About the game](https://bpupadhyaya.github.io/games-site/games/baloot-sun-hokum-table/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Web preview](https://bpupadhyaya.github.io/games-site/games/baloot-sun-hokum-table/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
+- [Traditional dhow sail racing](../../games/6768-traditional-dhow-sail-racing/index.md)
 - [Tarneeb](../../games/816-tarneeb/index.md)
 - [Carrom](../../games/1059-carrom/index.md)
 - [Al-Qatt Al-Asiri Wall Painting](../../games/1231-al-qatt-al-asiri-wall-painting/index.md)
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md)
 - [Al Talli Braid Embroidery](../../games/1273-al-talli-braid-embroidery/index.md)
-- [Falaj Water-Turn Clock](../../games/1274-falaj-water-turn-clock/index.md)
 
 ## Sources
 

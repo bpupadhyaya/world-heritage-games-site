@@ -39,16 +39,16 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Play it
 
-[About the game](https://bpupadhyaya.github.io/games-site/games/sepak-takraw-rally/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Web preview](https://bpupadhyaya.github.io/games-site/games/sepak-takraw-rally/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
 - [Chapteh shuttlecock](../../games/1066-chapteh-shuttlecock/index.md)
 - [Nohejbal](../../games/378-nohejbal/index.md)
+- [Traditional football](../../games/10068-traditional-football/index.md)
+- [American football](../../games/22320-american-football/index.md)
+- [Badminton](../../games/22322-badminton/index.md)
 - [Lato-lato](../../games/316-lato-lato/index.md)
-- [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md)
-- [Silat Melayu](../../games/605-silat-melayu/index.md)
-- [Madura bull racing](../../games/805-madura-bull-racing/index.md)
 
 ## Sources
 

@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with A"
-description: "56 entries beginning with A."
+description: "59 entries beginning with A."
 path: "/a-z/A/"
 ---
 # Entries beginning with A
@@ -34,8 +34,11 @@ path: "/a-z/A/"
 - [Amadinda and embaire](../../games/185-amadinda-and-embaire/index.md): Uganda; Musical instruments; Living Traditions
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md): Morocco; Crafts and making; Living Traditions
 - [Ambalangoda mask carving](../../games/299-ambalangoda-mask-carving/index.md): Sri Lanka; Crafts and making; Living Traditions
+- [American football](../../games/22320-american-football/index.md): United States; Team ball sports; Modern Heritage
+- [American patchwork quilting](../../games/6356-american-patchwork-quilting/index.md): United States; Crafts and making; Living Traditions
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Ampe](../../games/747-ampe/index.md): Ghana, Togo; Dexterity and skill games; Modern Heritage
+- [Anansi stories](../../games/22321-anansi-stories/index.md): Ghana; Performance and storytelling; Living Traditions
 - [Andada](../../games/700-andada/index.md): Eritrea; Board and table games; Deep Past and First Games
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
 - [Antaimoro flower paper](../../games/1229-antaimoro-flower-paper/index.md): Madagascar; Crafts and making; Living Traditions
@@ -46,7 +49,7 @@ path: "/a-z/A/"
 - [Arabian mancala](../../games/1219-arabian-mancala/index.md): Yemen; Board and table games; Deep Past and First Games
 - [Aragoz Hand-Puppet Booth](../../games/222-aragoz-hand-puppet-booth/index.md): Egypt; Performance and storytelling; Classical Worlds
 - [Aranmula metal mirror](../../games/285-aranmula-metal-mirror/index.md): Worldwide; Crafts and making; Living Traditions
-- [Archery](../../games/591-archery/index.md): Bhutan; Street and playground games; Classical Worlds
+- [Archery](../../games/591-archery/index.md): Bhutan; Archery, throwing and target games; Classical Worlds
 - [Ardah Drum-and-Line Rhythm](../../games/1343-ardah-drum-and-line-rhythm/index.md): Saudi Arabia; Musical instruments; Living Traditions
 - [Arnis / Eskrima](../../games/323-arnis-eskrima/index.md): Philippines, Timor-Leste; Wrestling and martial sports; Classical Worlds
 - [Asafo Flag Appliqué](../../games/1230-asafo-flag-applique/index.md): Ghana; Crafts and making; Living Traditions

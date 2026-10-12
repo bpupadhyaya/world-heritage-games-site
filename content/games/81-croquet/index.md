@@ -44,7 +44,7 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Highland Bagpipe Chanter and Drone](../../games/510-highland-bagpipe-chanter-and-drone/index.md)
 - [Hurling](../../games/821-hurling/index.md)
 - [Pub dominoes](../../games/1183-pub-dominoes/index.md)
-- [Dutch draughts](../../games/970-dutch-draughts/index.md)
+- [Reversi](../../games/22336-reversi/index.md)
 
 ## Sources
 
