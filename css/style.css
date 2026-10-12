@@ -208,11 +208,15 @@ main{display:block;min-height:60vh}
 .note{border-left:4px solid var(--era);padding:.4rem 0 .4rem 1rem;color:var(--ink-2)}
 .play{margin:1rem 0} .play p{display:flex;flex-wrap:wrap;gap:.5rem} .btn.soon{opacity:.55;cursor:default} .card .playable{display:inline-block;margin-top:.35rem;font:600 .72rem var(--sans);letter-spacing:.02em;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:.1rem .5rem}
 /* footer */
-.site-footer{border-top:1px solid var(--ftr-line);background:var(--ftr-bg);padding-block:2.5rem;margin-top:3rem;font-size:.9rem;color:var(--ftr-ink)}
+.site-footer{position:sticky;bottom:0;z-index:45;border-top:1px solid var(--ftr-line);background:var(--ftr-bg);padding-block:.55rem .65rem;margin-top:3rem;font-size:.8rem;line-height:1.45;color:var(--ftr-ink);box-shadow:0 -6px 18px rgba(0,0,0,.12)}
 .site-footer a{color:var(--ftr-link)}
-.site-footer .cols{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr))}
-.site-footer h2{font:600 .75rem var(--sans);letter-spacing:.14em;text-transform:uppercase;margin-bottom:.6rem;color:var(--ftr-head)}
-.site-footer ul{list-style:none;margin:0;padding:0}.site-footer li{margin:.25rem 0}
+.site-footer .cols{display:flex;flex-direction:column;gap:.3rem}
+.site-footer .cols>div{display:flex;flex-wrap:wrap;align-items:baseline;gap:.15rem .9rem;min-width:0}
+.site-footer h2{font:600 .66rem var(--sans);letter-spacing:.14em;text-transform:uppercase;margin:0;color:var(--ftr-head);flex:0 0 4.6rem}
+.site-footer ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.15rem .9rem;flex:1 1 0;min-width:0}.site-footer li{margin:0}
+.site-footer p{margin:0;flex:1 1 0;min-width:0}
+@media (max-width:40rem){.site-footer{font-size:.74rem;padding-block:.45rem .55rem}.site-footer .cols{gap:.2rem}.site-footer h2{flex-basis:3.9rem}
+.site-footer ul{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;white-space:nowrap}.site-footer ul::-webkit-scrollbar{display:none}}
 .visually-hidden{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .filters{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}.filters select{font:inherit;padding:.5rem .7rem;border-radius:.5rem;border:1px solid var(--rule);background:var(--card);color:var(--ink);max-width:100%}
 .dotmap{width:100%;height:auto;border:1px solid var(--rule);border-radius:1rem;background:var(--card)}
