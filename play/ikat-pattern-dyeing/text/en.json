@@ -1,0 +1,26 @@
+{
+ "title": "Ikat pattern dyeing",
+ "native": "Ikat",
+ "alt": [
+  "Warp ikat",
+  "Resist-dyed warp"
+ ],
+ "summary": "Ikat is a way of patterning cloth by dyeing the threads before weaving: bundles of warp are bound tightly where the dye must not reach, dipped, re-bound and dipped again, so the design appears, softly feathered at its edges, only as the cloth is woven.",
+ "howToPlay": [
+  "Choose a dye colour and a pattern shape from the strip under the warp.",
+  "Tap a square to dye it: the same shape appears on the matching squares across the cloth.",
+  "Copy the small chart above the warp, then press Check."
+ ],
+ "rules": [
+  "The cloth is a mirror image left to right and top to bottom, as in many banded warp cloths.",
+  "A square counts only when its pattern shape and its dye colour both match the chart.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Resist-dyed warp cloth is made in many parts of the world, among them Indonesia, India, Central Asia, Japan and the Americas. In places such as Sumba, weavers still bind and dye indigo and red threads by hand before the loom is set up.",
+ "countries": [
+  "Indonesia"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

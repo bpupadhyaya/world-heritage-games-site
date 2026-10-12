@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with L"
-description: "49 entries beginning with L."
+description: "51 entries beginning with L."
 path: "/a-z/L/"
 ---
 # Entries beginning with L
@@ -32,6 +32,7 @@ path: "/a-z/L/"
 - [Lei making](../../games/449-lei-making/index.md): United States; Crafts and making; Living Traditions
 - [Lelo Burti](../../games/737-lelo-burti/index.md): Georgia; Street and playground games; Modern Heritage
 - [Letter Categories](../../games/472-letter-categories/index.md): Germany, India; Racing; Age of Contact and Craft
+- [Lezginka](../../games/250-lezginka/index.md): Worldwide; Dances; Living Traditions
 - [Licitar Heart Decorator](../../games/1326-licitar-heart-decorator/index.md): Croatia; Crafts and making; Living Traditions
 - [Lielvārde Sash Pattern Weaving](../../games/1327-lielvarde-sash-pattern-weaving/index.md): Latvia; Crafts and making; Living Traditions
 - [Ligrin](../../games/657-ligrin/index.md): Cyprus; Street and playground games; Modern Heritage
@@ -41,6 +42,7 @@ path: "/a-z/L/"
 - [Liubo](../../games/331-liubo/index.md): China; Board and table games; River Valleys and First Cities
 - [Lo Shu Magic Square](../../games/111-lo-shu-magic-square/index.md): China; Puzzles and mind games; Age of Contact and Craft
 - [Local mancala variants](../../games/698-local-mancala-variants/index.md): Equatorial Guinea; Board and table games; Deep Past and First Games
+- [Log rolling](../../games/59-log-rolling/index.md): United States, Canada; Dexterity and skill games; Modern Heritage
 - [Lost-Wax Bronze Casting](../../games/178-lost-wax-bronze-casting/index.md): Japan, Benin; Crafts and making; Living Traditions
 - [Lotería](../../games/1211-loteria/index.md): Venezuela; Board and table games; Crossroads and Golden Ages
 - [Luban lock](../../games/99-luban-lock/index.md): China; Puzzles and mind games; Modern Heritage

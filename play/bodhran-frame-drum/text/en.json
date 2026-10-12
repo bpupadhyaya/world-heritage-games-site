@@ -1,0 +1,27 @@
+{
+ "title": "Bodhrán",
+ "native": "Bodhrán",
+ "alt": [
+  "Bodhran",
+  "Irish frame drum"
+ ],
+ "summary": "The bodhrán is the Irish frame drum: a goatskin stretched over a wooden hoop, struck with a short double-ended stick called a tipper while the other hand presses the inside of the skin to change the pitch. It drives jigs and reels in Irish dance music with a lilting pulse of down and up strokes.",
+ "howToPlay": [
+  "Five pads are five sounds: the down stroke, the lighter up stroke, a pressed note with the hand against the skin, a higher note struck near the rim, and a rim click.",
+  "Marks fall toward the line; strike the matching pad as each one lands.",
+  "The jig counts six eighth notes to a bar in two groups of three, the reel eight to a bar in four groups of two, and the slip jig nine in three groups of three.",
+  "Each tune plays through twice."
+ ],
+ "rules": [
+  "Every pulse is one eighth note for the jigs and the slip jig; for the reel a beat is a quarter note and the off beats fall halfway between.",
+  "A stroke within a short moment of the mark is perfect; a close one is good; extra strokes cost points.",
+  "Three stars need nearly every stroke on time."
+ ],
+ "heritageNote": "The bodhrán entered Irish session music mainly in the 1960s, when players such as Seán Ó Riada brought it into ensembles, and its playing has since grown from a steady pulse into tonal, melodic patterns. It is played in sessions and bands across Ireland and in Irish communities worldwide.",
+ "countries": [
+  "Ireland"
+ ],
+ "credits": [
+  "Instrument: Irish tradition; rhythms written for this game"
+ ]
+}

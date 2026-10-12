@@ -40,11 +40,11 @@ A living tradition passed from person to person; it is not tied to a single date
 ## Related entries
 
 - [Azulejo tile painting](../../games/122-azulejo-tile-painting/index.md)
+- [Macau wave pavement](../../games/372-macau-wave-pavement/index.md)
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
 - [Glassblowing](../../games/121-glassblowing/index.md)
 - [Lefkara Lace](../../games/220-lefkara-lace/index.md)
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md)
-- [Txalaparta Duet](../../games/390-txalaparta-duet/index.md)
 
 ## Sources
 

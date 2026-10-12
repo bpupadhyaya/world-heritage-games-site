@@ -1,0 +1,29 @@
+{
+ "title": "Moraingy",
+ "native": "Moraingy",
+ "alt": [
+  "Moraingy",
+  "Morengy"
+ ],
+ "summary": "A sport of the coastal villages of Madagascar: fighters from neighbouring villages meet in an open arena and trade straight punches, hooks and kicks to the pulse of the drums, each side cheered by its own supporters.",
+ "howToPlay": [
+  "Read the rival's stance: it shows the blow that is coming.",
+  "Tap the answering move on the drumbeat, while the marker is in the bright zone.",
+  "Straight punches are quick; hooks and uppercuts hit harder but arrive slower.",
+  "Win two of three matches, or push the rival out of the arena."
+ ],
+ "rules": [
+  "Each move beats two others and is beaten by two others.",
+  "A well timed move on the beat is full strength; a late one is weak.",
+  "A fighter who is driven out of the arena, or whose balance is gone, loses the match.",
+  "A match also ends when one side leads by eight points, or when the clock runs out.",
+  "Use Breathe to recover stamina; tired blows are weak. No injury is shown."
+ ],
+ "heritageNote": "Moraingy is a sport of the coastal peoples of Madagascar, often held in an open field between teams from different villages with drums and dancing for the fighters. This game shows only the sport.",
+ "countries": [
+  "Madagascar"
+ ],
+ "credits": [
+  "Game design: World Heritage Games (original)"
+ ]
+}

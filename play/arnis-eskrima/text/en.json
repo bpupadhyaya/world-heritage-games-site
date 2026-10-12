@@ -1,0 +1,31 @@
+{
+ "title": "Arnis",
+ "native": "Arnis · Eskrima",
+ "alt": [
+  "Eskrima",
+  "Kali",
+  "Arnis stick sparring"
+ ],
+ "summary": "Arnis is the stick art of the Philippines. In sport sparring two players in padding use light rattan sticks, exchanging numbered strikes, checks and a trap that takes the other stick away, scoring touches by skill and never by force.",
+ "howToPlay": [
+  "Watch the rival's stance: it shows the move coming.",
+  "Tap the answering move while the marker is inside the bright zone.",
+  "A disarm only works once the rival is off balance.",
+  "Win two of three rounds."
+ ],
+ "rules": [
+  "Every move beats two others and is beaten by two others; learn the circle.",
+  "Timing decides the strength of a move: inside the bright zone is full strength.",
+  "Strikes, weaves and checks score a touch; a trap and disarm scores two.",
+  "A round ends when one player is five points ahead, or when the clock runs out.",
+  "Tired players move weakly: use Breathe to recover."
+ ],
+ "heritageNote": "Arnis, also called eskrima or kali, is taught across the Philippine islands with rattan sticks. Students learn numbered angles of attack and partner drills such as the double-stick weave before they ever spar, and it is now a school sport and a national martial art.",
+ "countries": [
+  "Philippines",
+  "Timor-Leste"
+ ],
+ "credits": [
+  "Game design: World Heritage Games (original)"
+ ]
+}

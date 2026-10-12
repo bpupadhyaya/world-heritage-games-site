@@ -1,0 +1,27 @@
+{
+ "title": "Tessellated mosaic making",
+ "native": "Opus tessellatum",
+ "alt": [
+  "Tessellated mosaic",
+  "Tile mosaic"
+ ],
+ "summary": "Tessellated mosaic is the craft of setting thousands of small cut cubes of stone, clay or glass into a bed of mortar so that they form a repeating geometric floor or wall. Makers follow the flow of the rows, called andamento, so that every tile sits tight and the pattern stays clean.",
+ "howToPlay": [
+  "Pick a tile shape and a colour from the strip under the panel.",
+  "Tap a square to set it: the same tile appears on the matching squares all round the panel, as a mosaic maker mirrors a design.",
+  "Copy the small pattern above the panel, then press Check."
+ ],
+ "rules": [
+  "The panel is mirrored and turned in four directions, like a square floor medallion.",
+  "A square counts only when its tile shape and its colour both match the pattern.",
+  "Setting the same tile and colour again takes it out; three stars need a nearly perfect copy."
+ ],
+ "heritageNote": "Floors laid from small cut tiles were made across the Mediterranean world, from Italy to the Levant and North Africa, and mosaic workshops in these regions still work with stone and glass today.",
+ "countries": [
+  "Italy",
+  "Lebanon"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

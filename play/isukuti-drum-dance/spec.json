@@ -1,0 +1,266 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "Lead",
+    "hz": 85,
+    "timbre": "bass",
+    "color": "#d9532b"
+   },
+   {
+    "name": "Answer",
+    "hz": 140,
+    "timbre": "tone",
+    "color": "#e8b23a"
+   },
+   {
+    "name": "High",
+    "hz": 230,
+    "timbre": "slap",
+    "color": "#6bbf8a"
+   },
+   {
+    "name": "Stick",
+    "hz": 420,
+    "timbre": "rim",
+    "color": "#4f9fd6"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Warm-up",
+    "bpm": 66,
+    "meter": 2,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 1.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 3.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 4.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 5.6667,
+      "lane": "High"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 6.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Stick"
+     },
+     {
+      "beat": 7.6667,
+      "lane": "Stick"
+     }
+    ]
+   },
+   {
+    "name": "Steady march",
+    "bpm": 78,
+    "meter": 2,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 0.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 1.3333,
+      "lane": "High"
+     },
+     {
+      "beat": 1.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 2.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 3.3333,
+      "lane": "High"
+     },
+     {
+      "beat": 3.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 4.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 5.3333,
+      "lane": "High"
+     },
+     {
+      "beat": 5.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 6.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Stick"
+     },
+     {
+      "beat": 7.6667,
+      "lane": "Stick"
+     }
+    ]
+   },
+   {
+    "name": "Fast layers",
+    "bpm": 90,
+    "meter": 2,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 0.3333,
+      "lane": "Answer"
+     },
+     {
+      "beat": 0.6667,
+      "lane": "High"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 1.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 2.3333,
+      "lane": "Answer"
+     },
+     {
+      "beat": 2.6667,
+      "lane": "High"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 3.3333,
+      "lane": "Stick"
+     },
+     {
+      "beat": 3.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 4.3333,
+      "lane": "Answer"
+     },
+     {
+      "beat": 4.6667,
+      "lane": "High"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 5.6667,
+      "lane": "Answer"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 6.3333,
+      "lane": "Answer"
+     },
+     {
+      "beat": 6.6667,
+      "lane": "High"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Lead"
+     },
+     {
+      "beat": 7.3333,
+      "lane": "Stick"
+     },
+     {
+      "beat": 7.6667,
+      "lane": "Answer"
+     }
+    ]
+   }
+  ]
+ }
+}

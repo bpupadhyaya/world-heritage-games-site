@@ -1,0 +1,25 @@
+{
+ "title": "Mounted Archery Course",
+ "native": "Lovasíjászat",
+ "alt": [
+  "Horseback archery course"
+ ],
+ "summary": "An archer rides a straight 90 metre track and shoots at round targets set beside it, drawing and loosing the bow on the move. The course is run against the clock, and each ring of a target is worth more points the closer it lies to the centre.",
+ "howToPlay": [
+  "Press and hold to draw the bow; the gauge fills as the draw is completed.",
+  "The crosshair sways with the rhythm of the ride. Release when it sits just ahead of a passing target, because the arrow needs a moment to arrive.",
+  "Nine arrows make a run."
+ ],
+ "rules": [
+  "The five rings of a target score 5 in the centre, then 4, 3, 2 and 1 at the edge.",
+  "A short draw drops the arrow lower, so always draw fully.",
+  "The arrow lands where the crosshair was at release, after a short flight; a miss scores nothing."
+ ],
+ "heritageNote": "Archery from horseback was a skill of the horse-riding peoples of the Eurasian steppe. In Hungary it was revived as a sport in the late twentieth century, with courses of about ninety metres and targets set to the side of the track.",
+ "countries": [
+  "Hungary"
+ ],
+ "credits": [
+  "Game design: World Heritage Games (original)"
+ ]
+}

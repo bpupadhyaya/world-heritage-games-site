@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with C"
-description: "83 entries beginning with C."
+description: "86 entries beginning with C."
 path: "/a-z/C/"
 ---
 # Entries beginning with C
@@ -10,6 +10,8 @@ path: "/a-z/C/"
 - [Cafe dominoes](../../games/690-cafe-dominoes/index.md): Egypt; Board and table games; Crossroads and Golden Ages
 - [Calabash Water Drum](../../games/180-calabash-water-drum/index.md): Niger, Nigeria; Musical instruments; Living Traditions
 - [Calligraphy](../../games/6621-calligraphy/index.md): China; Crafts and making; Living Traditions
+- [Camel racing dash](../../games/19-camel-racing-dash/index.md): Jordan; Racing; Crossroads and Golden Ages
+- [Canal ice-skating marathon](../../games/84-canal-ice-skating-marathon/index.md): Netherlands; Racing; Age of Contact and Craft
 - [Canal pole vault](../../games/7-canal-pole-vault/index.md): Netherlands; Water and winter sports; Modern Heritage
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md): United Kingdom, Canada; Dexterity and skill games; Age of Contact and Craft
 - [Cantabrian palm bowling](../../games/1096-cantabrian-palm-bowling/index.md): Spain; Street and playground games; Age of Contact and Craft
@@ -19,6 +21,7 @@ path: "/a-z/C/"
 - [Carillon](../../games/418-carillon/index.md): Belgium, Netherlands; Musical instruments; Living Traditions
 - [Carolinian string figures](../../games/938-carolinian-string-figures/index.md): Micronesia; Dexterity and skill games; Deep Past and First Games
 - [Carrom](../../games/1059-carrom/index.md): Saudi Arabia, Oman; Board and table games; Crossroads and Golden Ages
+- [Castells](../../games/119-castells/index.md): Spain; Puzzles and mind games; Modern Heritage
 - [Celtic knot weave](../../games/25-celtic-knot-weave/index.md): Ireland, United Kingdom; Crafts and making; Living Traditions
 - [Chamba rumal embroidery](../../games/1252-chamba-rumal-embroidery/index.md): India; Crafts and making; Living Traditions
 - [Champ de Mars turf](../../games/1253-champ-de-mars-turf/index.md): Mauritius; Sports with animal partners; Classical Worlds

@@ -1,0 +1,13 @@
+{
+ "slug": "ikat-pattern-dyeing",
+ "title": "Ikat pattern dyeing",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

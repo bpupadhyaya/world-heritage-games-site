@@ -1,0 +1,13 @@
+{
+ "slug": "lukasa-memory-board-pattern-game",
+ "title": "Lukasa memory board",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

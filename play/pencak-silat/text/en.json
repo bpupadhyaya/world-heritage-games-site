@@ -1,0 +1,31 @@
+{
+ "title": "Pencak Silat",
+ "native": "Pencak Silat",
+ "alt": [
+  "Silat",
+  "Pencak silat tanding"
+ ],
+ "summary": "The martial sport of the Malay world, shown as a scored sparring match: low stances, punches and kicks, sweeps and locks, slips and blocks, each scored as a clean technique.",
+ "howToPlay": [
+  "Read the rival's stance: it shows the technique he is about to use.",
+  "Tap the answering technique while the marker is in the bright zone.",
+  "Sweeps and locks score most when the rival is already off balance.",
+  "Win two of three rounds, or lead by ten points."
+ ],
+ "rules": [
+  "Techniques score as clean points: a strike one, a kick two, a lock two, a sweep three; no force is shown.",
+  "Each technique beats two others and is beaten by two others.",
+  "A sweep or a lock works fully only on a rival who is off balance.",
+  "A round ends when one side leads by ten points, or when the clock runs out.",
+  "Use Breathe to recover stamina; tired techniques are weak."
+ ],
+ "heritageNote": "Pencak silat is the family of martial arts of Indonesia, Malaysia, Brunei and the neighbouring islands, with many styles taught in local schools and shown in competitions and performances. Here only the sparring sport is shown.",
+ "countries": [
+  "Indonesia",
+  "Malaysia",
+  "Brunei"
+ ],
+ "credits": [
+  "Game design: World Heritage Games (original)"
+ ]
+}

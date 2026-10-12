@@ -1,0 +1,13 @@
+{
+ "slug": "sashiko-stitch-patterns",
+ "title": "Sashiko stitch patterns",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

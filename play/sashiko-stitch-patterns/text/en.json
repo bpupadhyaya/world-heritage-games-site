@@ -1,0 +1,26 @@
+{
+ "title": "Sashiko stitch patterns",
+ "native": "刺し子",
+ "alt": [
+  "Sashiko",
+  "Hitomezashi"
+ ],
+ "summary": "Sashiko is Japanese running-stitch embroidery: white cotton thread sewn in regular rows on indigo cloth to strengthen worn farm clothing and, over time, to decorate it with named geometric patterns such as hemp leaf, seven treasures and ocean waves.",
+ "howToPlay": [
+  "Choose a thread colour and a stitch shape from the strip under the cloth.",
+  "Tap a square to stitch it: the same shape appears on the matching squares across the cloth.",
+  "Copy the small chart above the cloth, then press Check."
+ ],
+ "rules": [
+  "The cloth is symmetric in four directions and across both diagonals, as stitched pattern charts are.",
+  "A square counts only when its shape and its thread colour both match the chart.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Sashiko grew in the farming and fishing villages of northern Japan during the Edo period, where families mended and layered precious cloth by hand. It is still stitched, taught and exhibited today.",
+ "countries": [
+  "Japan"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

@@ -1,0 +1,438 @@
+{
+ "engine": "story",
+ "params": {
+  "stage": "verse",
+  "start": "start",
+  "look": {
+   "frame": "#7a2a1a",
+   "glow": "#d9893a",
+   "ink": "#3a1a10"
+  },
+  "cast": {
+   "you": {
+    "name": "You",
+    "kind": "person",
+    "hat": "straw",
+    "color": "#b22a2a",
+    "accent": "#e8b24a"
+   },
+   "rabe": {
+    "name": "Rabe the leader",
+    "kind": "person",
+    "hat": "straw",
+    "beard": true,
+    "color": "#b22a2a",
+    "accent": "#e8b24a",
+    "prop": "staff"
+   },
+   "rival": {
+    "name": "The rival troupe",
+    "kind": "person",
+    "hat": "straw",
+    "color": "#2a5a8a",
+    "accent": "#e8b24a"
+   },
+   "singer": {
+    "name": "Ravao",
+    "kind": "person",
+    "hat": "none",
+    "color": "#3b7a8a",
+    "accent": "#f2d070"
+   }
+  },
+  "meters": [
+   {
+    "id": "wit",
+    "label": "Wit",
+    "start": 0,
+    "max": 4
+   },
+   {
+    "id": "harmony",
+    "label": "Harmony",
+    "start": 0,
+    "max": 4
+   }
+  ],
+  "scenes": {
+   "start": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "you",
+      "at": "left"
+     },
+     {
+      "who": "rabe",
+      "at": "center"
+     },
+     {
+      "who": "rival",
+      "at": "right"
+     }
+    ],
+    "text": "A village plaza at noon. Two troupes face each other in a ring of neighbours; the crowd will judge wit and harmony. Rabe the leader nods to you: \"Bring the men together.\"",
+    "speaker": "rabe",
+    "choices": [
+     {
+      "text": "Pound the drums as loud as you can to frighten the rival troupe",
+      "next": "loud",
+      "pts": 0,
+      "set": [
+       "bragged"
+      ]
+     },
+     {
+      "text": "Start a steady beat and let the others find it, one by one",
+      "next": "steady",
+      "pts": 2,
+      "effects": {
+       "harmony": 1
+      },
+      "verse": "Beat by beat we find each other"
+     },
+     {
+      "text": "Let every drummer play whatever he likes best",
+      "next": "solo",
+      "pts": 1
+     }
+    ]
+   },
+   "loud": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "you",
+      "at": "left",
+      "pose": "slump"
+     },
+     {
+      "who": "rabe",
+      "at": "center"
+     },
+     {
+      "who": "rival",
+      "at": "right"
+     }
+    ],
+    "text": "The drums crash and the rival leader smiles; nobody is afraid. Somebody's baby starts to cry. Rabe taps your shoulder: \"Noise is not music. Now, the speech.\"",
+    "speaker": "rabe",
+    "next": "kabary",
+    "cont": "Open with a speech"
+   },
+   "steady": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "you",
+      "at": "left",
+      "pose": "cheer"
+     },
+     {
+      "who": "rabe",
+      "at": "center"
+     },
+     {
+      "who": "rival",
+      "at": "right"
+     }
+    ],
+    "text": "Drum joins drum until the plaza throbs like one heart. The neighbours sway. Rabe raises his straw hat: \"Now, a speech to open the day.\"",
+    "speaker": "rabe",
+    "next": "kabary",
+    "cont": "Open with a speech"
+   },
+   "solo": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "you",
+      "at": "left"
+     },
+     {
+      "who": "rabe",
+      "at": "center"
+     },
+     {
+      "who": "rival",
+      "at": "right"
+     }
+    ],
+    "text": "Ten rhythms tumble over each other and the dancers hesitate. It is lively, but nobody can clap along. Rabe covers one ear: \"Now, a speech.\"",
+    "speaker": "rabe",
+    "next": "kabary",
+    "cont": "Open with a speech"
+   },
+   "kabary": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "you",
+      "at": "left",
+      "pose": "point"
+     },
+     {
+      "who": "rabe",
+      "at": "center"
+     },
+     {
+      "who": "rival",
+      "at": "right"
+     }
+    ],
+    "text": "A speech opens the day, and a speech needs a saying everyone knows. You begin: \"One voice is a pebble, but many voices together are a ...\"",
+    "speaker": "you",
+    "puzzle": {
+     "prompt": "Which word ends the saying?",
+     "options": [
+      "Puddle",
+      "River",
+      "Fence"
+     ],
+     "answer": 1,
+     "addVerse": true,
+     "right": {
+      "effects": {
+       "wit": 1
+      },
+      "pts": 2,
+      "next": "tone"
+     },
+     "wrong": {
+      "pts": 0,
+      "next": "tone"
+     }
+    }
+   },
+   "tone": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "you",
+      "at": "left"
+     },
+     {
+      "who": "rabe",
+      "at": "center"
+     },
+     {
+      "who": "rival",
+      "at": "right",
+      "pose": "point"
+     }
+    ],
+    "text": "The rival speaker arrives late in a rumpled coat and bows. The crowd waits to hear what you will say about the other troupe, before the singing begins.",
+    "speaker": "rabe",
+    "choices": [
+     {
+      "text": "Joke about their crumpled coats and their long, slow walk",
+      "next": "renihira",
+      "pts": 0,
+      "set": [
+       "mocked"
+      ]
+     },
+     {
+      "text": "Say nothing of them and keep to your own song",
+      "next": "renihira",
+      "pts": 1
+     },
+     {
+      "text": "Praise their long walk and invite them to share the plaza",
+      "next": "renihira",
+      "pts": 2,
+      "effects": {
+       "wit": 1
+      },
+      "verse": "Welcome, walkers from the far hill"
+     }
+    ]
+   },
+   "renihira": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "you",
+      "at": "left"
+     },
+     {
+      "who": "singer",
+      "at": "center"
+     },
+     {
+      "who": "rival",
+      "at": "right"
+     }
+    ],
+    "text": "Singers form a circle for the long harmony song. Young Ravao, proud of her bright voice, rises above the others and the chorus wobbles at the turn.",
+    "speaker": "you",
+    "choices": [
+     {
+      "text": "Hush her sharply in front of everyone",
+      "next": "dihy",
+      "pts": 0,
+      "set": [
+       "shamed"
+      ]
+     },
+     {
+      "text": "Sing over her with the biggest voice you have",
+      "next": "dihy",
+      "pts": 0
+     },
+     {
+      "text": "Soften your own voice and lead her back into the line with a nod",
+      "next": "dihy",
+      "pts": 2,
+      "effects": {
+       "harmony": 1
+      },
+      "verse": "One song, many throats"
+     }
+    ]
+   },
+   "dihy": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "you",
+      "at": "left"
+     },
+     {
+      "who": "rabe",
+      "at": "center"
+     },
+     {
+      "who": "rival",
+      "at": "right",
+      "pose": "cheer"
+     }
+    ],
+    "text": "The dance begins. Rabe's nephew leaps, his straw hat slips and he lands in a heap. The crowd gasps, then waits. Everyone looks at the ring.",
+    "speaker": "you",
+    "choices": [
+     {
+      "text": "Laugh loudest and point at the hat",
+      "next": "close",
+      "pts": 0,
+      "set": [
+       "mocked"
+      ]
+     },
+     {
+      "text": "Signal the drums to stop until he is on his feet",
+      "next": "close",
+      "pts": 1
+     },
+     {
+      "text": "Step beside him and turn the fall into a deep bow the drums can follow",
+      "next": "close",
+      "pts": 2,
+      "effects": {
+       "wit": 1
+      }
+     }
+    ]
+   },
+   "close": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "you",
+      "at": "left"
+     },
+     {
+      "who": "rabe",
+      "at": "center"
+     },
+     {
+      "who": "rival",
+      "at": "right"
+     }
+    ],
+    "text": "Evening comes. The closing piece must thank the plaza in one last line. The neighbours lean forward. What does the final line say?",
+    "speaker": "rabe",
+    "puzzle": {
+     "prompt": "Which closing line?",
+     "options": [
+      "We were the best by far",
+      "Thank you, plaza, and thank both troupes",
+      "Where is our prize?"
+     ],
+     "answer": 1,
+     "addVerse": true,
+     "right": {
+      "effects": {
+       "harmony": 1
+      },
+      "pts": 2,
+      "next": "verdict"
+     },
+     "wrong": {
+      "pts": 0,
+      "next": "verdict"
+     }
+    }
+   },
+   "verdict": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "you",
+      "at": "left",
+      "pose": "bow"
+     },
+     {
+      "who": "rabe",
+      "at": "center",
+      "pose": "cheer"
+     },
+     {
+      "who": "rival",
+      "at": "right",
+      "pose": "bow"
+     }
+    ],
+    "text": "The neighbours stamp, clap and call out. Both leaders shake hands in the middle of the ring. Then the plaza starts to hum the final chorus together.",
+    "end": true
+   }
+  },
+  "endings": [
+   {
+    "id": "best",
+    "stars": 3,
+    "headline": "The plaza sings along",
+    "text": "Wit and harmony together: both troupes bow, and the crowd cannot pick a loser.",
+    "when": {
+     "min": {
+      "wit": 3,
+      "harmony": 2
+     },
+     "notFlags": [
+      "mocked",
+      "shamed",
+      "bragged"
+     ]
+    }
+   },
+   {
+    "id": "fine",
+    "stars": 2,
+    "headline": "A good day on the plaza",
+    "text": "The troupe is applauded and the speeches are remembered, though not every moment was gracious.",
+    "when": {
+     "min": {
+      "wit": 1,
+      "harmony": 1
+     }
+    }
+   },
+   {
+    "id": "loud",
+    "stars": 1,
+    "headline": "More noise than music",
+    "text": "The neighbours cheer politely, then drift home before the last chorus."
+   }
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "slug": "mehndi-henna-pattern-drawing",
+ "title": "Mehndi Henna Pattern Drawing",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,22 +1,23 @@
 ---
 title: "Iran"
-description: "16 traditions from Iran."
+description: "17 traditions from Iran."
 path: "/countries/iran/"
-count: 16
+count: 17
 ---
 # Iran
 
-16 traditions from Iran.
+17 traditions from Iran.
 
 
 
-16 entries.
+17 entries.
 
 - [Astrolabe: reading the sky](../../games/236-astrolabe-reading-the-sky/index.md): Iran; Toys; Modern Heritage
 - [Badgir windcatcher cooling puzzle](../../games/229-badgir-windcatcher-cooling-puzzle/index.md): Iran; Crafts and making; Living Traditions
 - [Bayt-bazi: verse chain](../../games/240-bayt-bazi-verse-chain/index.md): Iran; Performance and storytelling; Living Traditions
 - [Chogan](../../games/810-chogan/index.md): Iran; Street and playground games; Classical Worlds
 - [Flower or Empty](../../games/812-flower-or-empty/index.md): Iran; Street and playground games; Modern Heritage
+- [Kamancha](../../games/165-kamancha/index.md): Azerbaijan, Iran; Musical instruments; Living Traditions
 - [Khatam inlay star pattern workshop](../../games/231-khatam-inlay-star-pattern-workshop/index.md): Iran; Crafts and making; Living Traditions
 - [Muqarnas stalactite vault builder](../../games/228-muqarnas-stalactite-vault-builder/index.md): Iran; Crafts and making; Living Traditions
 - [Nardi](../../games/551-nardi/index.md): Armenia, Azerbaijan; Board and table games; River Valleys and First Cities

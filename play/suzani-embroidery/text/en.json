@@ -1,0 +1,27 @@
+{
+ "title": "Suzani Embroidery",
+ "native": "Сузани (suzani)",
+ "alt": [
+  "Suzane",
+  "Suzani needlework"
+ ],
+ "summary": "Suzani is the large embroidered cloth of Uzbekistan and Tajikistan, worked in silk thread on cotton, with round flower-like medallions, curling vines, leaves and fruit laid out in balanced panels in crimson, indigo, gold and green.",
+ "howToPlay": [
+  "Choose a thread colour and a motif from the strip under the cloth.",
+  "Touch a square to stitch it: the same motif appears in the matching squares of all four quarters, as on a cloth worked from the centre outward.",
+  "Copy the small panel shown above the cloth, then press Check."
+ ],
+ "rules": [
+  "The cloth is symmetric left to right and top to bottom, so each stitch you place is copied to its three partners.",
+  "Leaves and spirals turn to follow the symmetry, as they would if sewn by hand.",
+  "A square counts only when its motif and its thread colour both match the panel; three stars need a nearly perfect copy."
+ ],
+ "heritageNote": "Suzani cloths have been embroidered in the oasis towns of Central Asia, such as Bukhara, Samarkand, Shahrisabz and Tashkent, where each town has its own favoured layout; families and craft workshops still make them today.",
+ "countries": [
+  "Uzbekistan",
+  "Tajikistan"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original panels after traditional suzani medallion and vine layouts)"
+ ]
+}

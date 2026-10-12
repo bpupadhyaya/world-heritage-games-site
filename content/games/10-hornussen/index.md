@@ -3,7 +3,7 @@ title: "Hornussen"
 description: "Strike a puck (Nouss) from a ramp with a flexible rod; the fielding team raises wooden boards (Schindeln) to knock it from the air."
 path: "/games/10-hornussen/"
 id: 10
-type: "board_game"
+type: "bat_and_ball"
 family: ""
 era: "crossroads"
 cradle: "north-east-europe"
@@ -30,19 +30,23 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Facts
 
 - **Where:** Switzerland
-- **Type:** Board and table games
+- **Type:** Bat-and-ball games
 - **Era:** [Crossroads and Golden Ages](../../eras/crossroads/index.md) (uncertain)
 - **Cradle:** [Northern and Eastern Europe](../../cradles/north-east-europe/index.md)
 - **Region:** Europe
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
+- [Balalaika](../../games/133-balalaika/index.md)
 - [Novuss](../../games/456-novuss/index.md)
 - [Daldøs](../../games/458-dalds/index.md)
 - [Tafl](../../games/995-tafl/index.md)
 - [Shashki](../../games/1177-shashki/index.md)
 - [Latvian Bagpipe and Folk Pipes](../../games/1324-latvian-bagpipe-and-folk-pipes/index.md)
-- [Czech draughts](../../games/662-czech-draughts/index.md)
 
 ## Sources
 

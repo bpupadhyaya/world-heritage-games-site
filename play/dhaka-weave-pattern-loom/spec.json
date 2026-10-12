@@ -1,0 +1,209 @@
+{
+ "engine": "pattern",
+ "variant": "dhaka-weave-pattern-loom",
+ "params": {
+  "cols": 11,
+  "rows": 9,
+  "symmetry": "mirror-xy",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Ivory",
+    "color": "#f1e8d0"
+   },
+   {
+    "name": "Red",
+    "color": "#c4302b"
+   },
+   {
+    "name": "Orange",
+    "color": "#e8892a"
+   },
+   {
+    "name": "Green",
+    "color": "#3a9a5b"
+   }
+  ],
+  "background": "#1a1613",
+  "grid": "#352c24",
+  "motifs": [
+   "diamond",
+   "zigzag",
+   "triangle",
+   "dot",
+   "checker",
+   "star"
+  ],
+  "designs": [
+   {
+    "name": "Diamond bands",
+    "rows": [
+     "hhhhhhhhhhh",
+     "d.d.d.d.d.d",
+     ".a.b.a.b.a.",
+     "d.d.d.d.d.d",
+     "gcgcgcgcgcg",
+     "d.d.d.d.d.d",
+     ".a.b.a.b.a.",
+     "d.d.d.d.d.d",
+     "hhhhhhhhhhh"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "e": {
+      "m": 5,
+      "c": 1
+     },
+     "f": {
+      "m": 2,
+      "c": 3
+     },
+     "g": {
+      "m": 4,
+      "c": 0
+     },
+     "h": {
+      "m": 1,
+      "c": 1
+     },
+     "i": {
+      "m": 5,
+      "c": 2
+     },
+     "j": {
+      "m": 2,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Star field",
+    "rows": [
+     "jjjjjjjjjjj",
+     ".f.f.f.f.f.",
+     "e.i.e.e.i.e",
+     ".f.f.f.f.f.",
+     "gcgcgcgcgcg",
+     ".f.f.f.f.f.",
+     "e.i.e.e.i.e",
+     ".f.f.f.f.f.",
+     "jjjjjjjjjjj"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "e": {
+      "m": 5,
+      "c": 1
+     },
+     "f": {
+      "m": 2,
+      "c": 3
+     },
+     "g": {
+      "m": 4,
+      "c": 0
+     },
+     "h": {
+      "m": 1,
+      "c": 1
+     },
+     "i": {
+      "m": 5,
+      "c": 2
+     },
+     "j": {
+      "m": 2,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Stepped trellis",
+    "rows": [
+     "bbbbbbbbbbb",
+     "a.c.a.a.c.a",
+     ".c.e.c.e.c.",
+     "a.c.a.a.c.a",
+     "bhbhbhbhbhb",
+     "a.c.a.a.c.a",
+     ".c.e.c.e.c.",
+     "a.c.a.a.c.a",
+     "bbbbbbbbbbb"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "e": {
+      "m": 5,
+      "c": 1
+     },
+     "f": {
+      "m": 2,
+      "c": 3
+     },
+     "g": {
+      "m": 4,
+      "c": 0
+     },
+     "h": {
+      "m": 1,
+      "c": 1
+     },
+     "i": {
+      "m": 5,
+      "c": 2
+     },
+     "j": {
+      "m": 2,
+      "c": 0
+     }
+    }
+   }
+  ],
+  "rotateMarks": true
+ }
+}

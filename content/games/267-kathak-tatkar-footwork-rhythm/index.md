@@ -39,12 +39,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md)
 - [Pakistani truck art](../../games/116-pakistani-truck-art/index.md)
 - [Warli painting](../../games/117-warli-painting/index.md)
 - [Block printing](../../games/118-block-printing/index.md)
 - [Santoor](../../games/151-santoor/index.md)
 - [Phulkari darn-stitch embroidery](../../games/257-phulkari-darn-stitch-embroidery/index.md)
-- [Bandhani tie-dye](../../games/258-bandhani-tie-dye/index.md)
 
 ## Sources
 

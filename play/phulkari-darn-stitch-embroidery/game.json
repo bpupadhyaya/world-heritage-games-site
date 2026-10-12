@@ -1,0 +1,13 @@
+{
+ "slug": "phulkari-darn-stitch-embroidery",
+ "title": "Phulkari Darn-Stitch Embroidery",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -40,12 +40,12 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Related entries
 
+- [Panduri](../../games/41-panduri/index.md)
 - [Dombra](../../games/48-dombra/index.md)
 - [Tar and mugham modes](../../games/247-tar-and-mugham-modes/index.md)
 - [Chonguri](../../games/255-chonguri/index.md)
 - [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md)
 - [Charango](../../games/55-charango/index.md)
-- [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md)
 
 ## Sources
 

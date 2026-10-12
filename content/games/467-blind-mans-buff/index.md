@@ -38,6 +38,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - **Cradle:** [Mesopotamia, Levant and Arabia](../../cradles/mesopotamia-levant/index.md)
 - **Region:** Middle East and North Africa
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Kho-Kho](../../games/15-kho-kho/index.md)

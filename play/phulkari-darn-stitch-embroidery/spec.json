@@ -1,0 +1,225 @@
+{
+ "engine": "pattern",
+ "variant": "phulkari-darn-stitch-embroidery",
+ "params": {
+  "cols": 13,
+  "rows": 9,
+  "symmetry": "rot2",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Gold",
+    "color": "#f2c334"
+   },
+   {
+    "name": "Cream",
+    "color": "#f6efe0"
+   },
+   {
+    "name": "Green",
+    "color": "#5da34c"
+   },
+   {
+    "name": "Orange",
+    "color": "#ee7a2c"
+   },
+   {
+    "name": "Pink",
+    "color": "#ea6a92"
+   }
+  ],
+  "background": "#7b2d1b",
+  "grid": "#5c2013",
+  "motifs": [
+   "stripe-h",
+   "stripe-v",
+   "diamond",
+   "triangle",
+   "checker",
+   "zigzag"
+  ],
+  "rotateMarks": true,
+  "designs": [
+   {
+    "name": "Bagh bands",
+    "rows": [
+     "hhhhhhhhhhhhh",
+     "vvvvvvvvvvvvv",
+     "dhdhdhdhdhdhd",
+     "ppppppppppppp",
+     "hhhhhhkhhhhhh",
+     "ppppppppppppp",
+     "dhdhdhdhdhdhd",
+     "vvvvvvvvvvvvv",
+     "hhhhhhhhhhhhh"
+    ],
+    "legend": {
+     "h": {
+      "m": 0,
+      "c": 0
+     },
+     "g": {
+      "m": 0,
+      "c": 2
+     },
+     "v": {
+      "m": 1,
+      "c": 1
+     },
+     "p": {
+      "m": 1,
+      "c": 4
+     },
+     "d": {
+      "m": 2,
+      "c": 3
+     },
+     "o": {
+      "m": 2,
+      "c": 0
+     },
+     "k": {
+      "m": 2,
+      "c": 1
+     },
+     "t": {
+      "m": 3,
+      "c": 2
+     },
+     "c": {
+      "m": 3,
+      "c": 4
+     },
+     "z": {
+      "m": 5,
+      "c": 1
+     },
+     "x": {
+      "m": 4,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Triangle and zigzag bands",
+    "rows": [
+     "tctctctctctct",
+     "hhhhhhhhhhhhh",
+     ".d.d.d.d.d.d.",
+     "vvvvvvvvvvvvv",
+     "zzzzzzkzzzzzz",
+     "vvvvvvvvvvvvv",
+     ".d.d.d.d.d.d.",
+     "hhhhhhhhhhhhh",
+     "tctctctctctct"
+    ],
+    "legend": {
+     "h": {
+      "m": 0,
+      "c": 0
+     },
+     "g": {
+      "m": 0,
+      "c": 2
+     },
+     "v": {
+      "m": 1,
+      "c": 1
+     },
+     "p": {
+      "m": 1,
+      "c": 4
+     },
+     "d": {
+      "m": 2,
+      "c": 3
+     },
+     "o": {
+      "m": 2,
+      "c": 0
+     },
+     "k": {
+      "m": 2,
+      "c": 1
+     },
+     "t": {
+      "m": 3,
+      "c": 2
+     },
+     "c": {
+      "m": 3,
+      "c": 4
+     },
+     "z": {
+      "m": 5,
+      "c": 1
+     },
+     "x": {
+      "m": 4,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Garden diamond",
+    "rows": [
+     "ggggggggggggg",
+     "vpvpvpvpvpvpv",
+     "hhhhhdodhhhhh",
+     "vvvvdkokdvvvv",
+     "hhhdkokokdhhh",
+     "vvvvdkokdvvvv",
+     "hhhhhdodhhhhh",
+     "vpvpvpvpvpvpv",
+     "ggggggggggggg"
+    ],
+    "legend": {
+     "h": {
+      "m": 0,
+      "c": 0
+     },
+     "g": {
+      "m": 0,
+      "c": 2
+     },
+     "v": {
+      "m": 1,
+      "c": 1
+     },
+     "p": {
+      "m": 1,
+      "c": 4
+     },
+     "d": {
+      "m": 2,
+      "c": 3
+     },
+     "o": {
+      "m": 2,
+      "c": 0
+     },
+     "k": {
+      "m": 2,
+      "c": 1
+     },
+     "t": {
+      "m": 3,
+      "c": 2
+     },
+     "c": {
+      "m": 3,
+      "c": 4
+     },
+     "z": {
+      "m": 5,
+      "c": 1
+     },
+     "x": {
+      "m": 4,
+      "c": 1
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "title": "Carillon",
+ "native": "Beiaard / Carillon",
+ "alt": [
+  "Beiaard"
+ ],
+ "summary": "A carillon is a set of at least twenty-three tuned bronze bells hung in a tower and played from one keyboard. The player strikes wooden batons with the sides of the fists and presses foot pedals for the large bells, sending melodies over the roofs of the town.",
+ "howToPlay": [
+  "The pedals for the large bells are in the first row and the batons for the smaller bells in the second, shortest bell on the right.",
+  "Notes travel toward a line at the bottom; strike the bar just as its note arrives.",
+  "Begin with the rising and falling peal, then play the tower tune with its pedal bass.",
+  "End with the peal where the pedals answer the batons."
+ ],
+ "rules": [
+  "Eight batons give a diatonic scale from a lower to a higher bell; three pedals sound the large bells below.",
+  "A stroke within a hair of the note is perfect, a near one is good, and a missed one scores nothing.",
+  "An extra stroke while a song is running costs a few points.",
+  "Each song plays twice; three stars need roughly nine notes in ten on time.",
+  "Bells ring on after the stroke, so the tune is spaced to let each note fade."
+ ],
+ "heritageNote": "The carillon grew in the towns of the Low Countries, where bells marked the hours and played short tunes across market squares. Belgium and the Netherlands still have schools for carillonneurs and hold summer concerts from towers.",
+ "countries": [
+  "Belgium",
+  "Netherlands"
+ ],
+ "credits": [
+  "Tradition: carillon playing of Belgium and the Netherlands; tunes written for this game",
+  "Photo of a carillon from Wikimedia Commons (CC BY-SA 4.0)"
+ ]
+}

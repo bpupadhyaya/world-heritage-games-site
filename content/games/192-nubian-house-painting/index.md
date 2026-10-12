@@ -40,12 +40,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md)
 - [Khayamiya Tentmaker Applique](../../games/217-khayamiya-tentmaker-applique/index.md)
 - [Dinka beaded corset beadwork](../../games/1269-dinka-beaded-corset-beadwork/index.md)
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md)
 - [Ndebele geometric wall painting](../../games/23-ndebele-geometric-wall-painting/index.md)
 - [Chinese knotting](../../games/26-chinese-knotting/index.md)
-- [Matryoshka](../../games/28-matryoshka/index.md)
 
 ## Sources
 

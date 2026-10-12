@@ -1,0 +1,176 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "rot4-mirror",
+  "mode": "copy",
+  "rotateMarks": true,
+  "palette": [
+   {
+    "name": "Terracotta",
+    "color": "#c0583a"
+   },
+   {
+    "name": "Ochre",
+    "color": "#e0a93b"
+   },
+   {
+    "name": "Slate blue",
+    "color": "#3f6c8c"
+   },
+   {
+    "name": "Limestone",
+    "color": "#eee8d8"
+   },
+   {
+    "name": "Black",
+    "color": "#1f1d1b"
+   }
+  ],
+  "background": "#8d846f",
+  "grid": "#6e664f",
+  "motifs": [
+   "hexagon",
+   "star",
+   "triangle",
+   "diamond",
+   "checker",
+   "solid"
+  ],
+  "designs": [
+   {
+    "name": "Eight-point star",
+    "rows": [
+     "k.t.s.t.k",
+     ".h.tdt.h.",
+     "t.s.h.s.t",
+     ".t.dtd.t.",
+     "sdhtsthds",
+     ".t.dtd.t.",
+     "t.s.h.s.t",
+     ".h.tdt.h.",
+     "k.t.s.t.k"
+    ],
+    "legend": {
+     "h": {
+      "m": 0,
+      "c": 0
+     },
+     "s": {
+      "m": 1,
+      "c": 1
+     },
+     "t": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "k": {
+      "m": 4,
+      "c": 4
+     },
+     "o": {
+      "m": 5,
+      "c": 2
+     },
+     "r": {
+      "m": 5,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Honeycomb field",
+    "rows": [
+     "h.h.h.h.h",
+     "..d.h.d..",
+     "hdh.h.hdh",
+     "...dhd...",
+     "hhhhhhhhh",
+     "...dhd...",
+     "hdh.h.hdh",
+     "..d.h.d..",
+     "h.h.h.h.h"
+    ],
+    "legend": {
+     "h": {
+      "m": 0,
+      "c": 0
+     },
+     "s": {
+      "m": 1,
+      "c": 1
+     },
+     "t": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "k": {
+      "m": 4,
+      "c": 4
+     },
+     "o": {
+      "m": 5,
+      "c": 2
+     },
+     "r": {
+      "m": 5,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Chequer border",
+    "rows": [
+     "kokokokok",
+     "okdtdtdko",
+     "kdktrtkdk",
+     "ottkdktto",
+     "kdrdrdrdk",
+     "ottkdktto",
+     "kdktrtkdk",
+     "okdtdtdko",
+     "kokokokok"
+    ],
+    "legend": {
+     "h": {
+      "m": 0,
+      "c": 0
+     },
+     "s": {
+      "m": 1,
+      "c": 1
+     },
+     "t": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "k": {
+      "m": 4,
+      "c": 4
+     },
+     "o": {
+      "m": 5,
+      "c": 2
+     },
+     "r": {
+      "m": 5,
+      "c": 0
+     }
+    }
+   }
+  ]
+ }
+}

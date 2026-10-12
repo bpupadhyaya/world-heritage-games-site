@@ -1,0 +1,13 @@
+{
+ "slug": "dhaka-weave-pattern-loom",
+ "title": "Dhaka weave pattern loom",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

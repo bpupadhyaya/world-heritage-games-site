@@ -45,12 +45,12 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Related entries
 
+- [Buzkashi](../../games/226-buzkashi/index.md)
 - [Kok-boru](../../games/241-kok-boru/index.md)
 - [Kokpar](../../games/857-kokpar/index.md)
 - [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md)
 - [Dizi](../../games/132-dizi/index.md)
 - [Cuju](../../games/333-cuju/index.md)
-- [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md)
 
 ## Sources
 

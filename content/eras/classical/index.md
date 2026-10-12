@@ -2,7 +2,7 @@
 title: "Classical Worlds"
 description: "Empires and academies turned play into sport, strategy and art."
 path: "/eras/classical/"
-count: 108
+count: 113
 ---
 # Classical Worlds
 
@@ -10,15 +10,17 @@ Empires and academies turned play into sport, strategy and art.
 
 
 
-108 entries.
+113 entries.
 
 - [Adungu](../../games/186-adungu/index.md): Uganda; Musical instruments; Classical Worlds
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
 - [Aragoz Hand-Puppet Booth](../../games/222-aragoz-hand-puppet-booth/index.md): Egypt; Performance and storytelling; Classical Worlds
 - [Arnis / Eskrima](../../games/323-arnis-eskrima/index.md): Philippines, Timor-Leste; Wrestling and martial sports; Classical Worlds
 - [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
+- [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md): India, Nepal; Musical instruments; Classical Worlds
 - [Barrel racing](../../games/439-barrel-racing/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
 - [Basque stone lifting](../../games/479-basque-stone-lifting/index.md): France; Acrobatics and strength; Classical Worlds
+- [Buzkashi](../../games/226-buzkashi/index.md): Afghanistan, Uzbekistan; Dexterity and skill games; Classical Worlds
 - [Champ de Mars turf](../../games/1253-champ-de-mars-turf/index.md): Mauritius; Sports with animal partners; Classical Worlds
 - [Chogan](../../games/810-chogan/index.md): Iran; Street and playground games; Classical Worlds
 - [Circle Dodgeball](../../games/470-circle-dodgeball/index.md): Brazil, Germany; Archery, throwing and target games; Classical Worlds
@@ -44,6 +46,7 @@ Empires and academies turned play into sport, strategy and art.
 - [Kampong Ayer water-taxi dash](../../games/1308-kampong-ayer-water-taxi-dash/index.md): Brunei, Malaysia; Water and winter sports; Classical Worlds
 - [Kanklės](../../games/136-kankles/index.md): Lithuania; Musical instruments; Classical Worlds
 - [Kantele](../../games/152-kantele/index.md): Finland; Musical instruments; Classical Worlds
+- [Karagoz](../../games/38-karagoz/index.md): Turkey; Performance and storytelling; Classical Worlds
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md): India; Performance and storytelling; Classical Worlds
 - [Khloy bamboo duct flute](../../games/1311-khloy-bamboo-duct-flute/index.md): Cambodia; Musical instruments; Classical Worlds
 - [Khomus](../../games/379-khomus/index.md): Russia; Musical instruments; Classical Worlds
@@ -90,6 +93,7 @@ Empires and academies turned play into sport, strategy and art.
 - [Skijoring](../../games/490-skijoring/index.md): Worldwide; Sports with animal partners; Classical Worlds
 - [Slovene quintain](../../games/1073-slovene-quintain/index.md): Slovenia; Street and playground games; Classical Worlds
 - [Stilt fishing](../../games/288-stilt-fishing/index.md): Sri Lanka; Dexterity and skill games; Classical Worlds
+- [String Marionette Theatre](../../games/68-string-marionette-theatre/index.md): Czechia; Performance and storytelling; Classical Worlds
 - [Tavern Nail and Wire Puzzles](../../games/110-tavern-nail-and-wire-puzzles/index.md): Germany, United Kingdom; Puzzles and mind games; Classical Worlds
 - [Tbourida](../../games/164-tbourida/index.md): Morocco; Sports with animal partners; Classical Worlds
 - [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md): China; Board and table games; Classical Worlds
@@ -98,6 +102,7 @@ Empires and academies turned play into sport, strategy and art.
 - [Valiha tube zither](../../games/124-valiha-tube-zither/index.md): Madagascar; Musical instruments; Classical Worlds
 - [Water puppet pond theatre](../../games/303-water-puppet-pond-theatre/index.md): Vietnam; Performance and storytelling; Classical Worlds
 - [Wau bulan kite](../../games/911-wau-bulan-kite/index.md): Malaysia; Dexterity and skill games; Classical Worlds
+- [Wayang Shadow Puppets](../../games/47-wayang-shadow-puppets/index.md): Indonesia; Performance and storytelling; Classical Worlds
 - [Yoke thé](../../games/314-yoke-the/index.md): Myanmar; Performance and storytelling; Classical Worlds
 - [Zande kundi arched harp](../../games/1319-zande-kundi-arched-harp/index.md): South Sudan; Musical instruments; Classical Worlds
 - [Archery](../../games/591-archery/index.md): Bhutan; Archery, throwing and target games; Classical Worlds

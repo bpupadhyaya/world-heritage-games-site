@@ -1,0 +1,31 @@
+{
+ "title": "Bansuri bamboo flute",
+ "native": "बाँसुरी",
+ "alt": [
+  "Murali",
+  "Nepali murali"
+ ],
+ "summary": "The bansuri, called murali in Nepal, is a side-blown flute cut from a single length of bamboo with six finger holes. A player shapes the air with the lips and lifts fingers from the bottom upward to climb a scale, singing folk melodies and long phrases.",
+ "howToPlay": [
+  "Eight lanes stand for the notes of a scale, from the lowest note on the left to the octave on the right.",
+  "Above each lane a diagram shows the six finger holes: filled holes are covered, open ones are lifted.",
+  "Notes travel toward a line at the bottom; strike the lane just as a note arrives, and let long notes ring.",
+  "Begin with the ladder up and down the scale, then play the hill-path tune and the call across the valley."
+ ],
+ "rules": [
+  "The scale is seven notes of a major mode plus the octave; pitches follow a fixed root.",
+  "Covering all six holes gives the lowest note; lifting fingers from the bottom upward raises it step by step.",
+  "A stroke within a hair of the note is perfect, a near one is good, and a missed one scores nothing.",
+  "An extra stroke while a song is running costs a few points.",
+  "Each song plays twice; three stars need roughly nine notes in ten on time."
+ ],
+ "heritageNote": "Bamboo flutes are played in the hills and valleys of India and Nepal by herders, village singers and concert musicians alike. A flute is cut and tuned to a single key, so players keep a family of lengths.",
+ "countries": [
+  "India",
+  "Nepal"
+ ],
+ "credits": [
+  "Tradition: bansuri and Nepali murali playing; melodies written for this game",
+  "Photo of a set of bansuris from Wikimedia Commons (CC BY-SA 4.0)"
+ ]
+}

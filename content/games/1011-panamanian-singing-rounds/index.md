@@ -39,10 +39,10 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Pollera and Tembleques](../../games/1480-pollera-and-tembleques/index.md)
 - [Kriol traditional games](../../games/585-kriol-traditional-games/index.md)
+- [Elastic Jump](../../games/6-elastic-jump/index.md)
 - [Double Dutch](../../games/53-double-dutch/index.md)
 - [Morra](../../games/83-morra/index.md)
 - [Alebrije painting](../../games/92-alebrije-painting/index.md)
-- [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md)
 
 ## Sources
 

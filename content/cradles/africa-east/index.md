@@ -2,7 +2,7 @@
 title: "Africa: Great Lakes and Indian Ocean"
 description: "East Africa, the Great Lakes and the island world of the Indian Ocean."
 path: "/cradles/africa-east/"
-count: 44
+count: 45
 ---
 # Africa: Great Lakes and Indian Ocean
 
@@ -10,7 +10,7 @@ East Africa, the Great Lakes and the island world of the Indian Ocean.
 
 
 
-44 entries.
+45 entries.
 
 - [Adungu](../../games/186-adungu/index.md): Uganda; Musical instruments; Classical Worlds
 - [Agaseke basket weaving](../../games/89-agaseke-basket-weaving/index.md): Rwanda; Crafts and making; Living Traditions
@@ -36,6 +36,7 @@ East Africa, the Great Lakes and the island world of the Indian Ocean.
 - [Ngalawa outrigger sailing](../../games/1259-ngalawa-outrigger-sailing/index.md): Comoros; Racing; Age of Contact and Craft
 - [Nyatiti Luo lyre](../../games/1349-nyatiti-luo-lyre/index.md): Kenya; Musical instruments; Classical Worlds
 - [Savika](../../games/905-savika/index.md): Madagascar; Street and playground games; River Valleys and First Cities
+- [Sega ravanne drum](../../games/199-sega-ravanne-drum/index.md): Mauritius; Musical instruments; Modern Heritage
 - [Swahili carved door](../../games/90-swahili-carved-door/index.md): Kenya; Crafts and making; Living Traditions
 - [Tingatinga painting](../../games/183-tingatinga-painting/index.md): Tanzania; Crafts and making; Living Traditions
 - [Valiha tube zither](../../games/124-valiha-tube-zither/index.md): Madagascar; Musical instruments; Classical Worlds

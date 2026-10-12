@@ -40,12 +40,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Macau wave pavement](../../games/372-macau-wave-pavement/index.md)
 - [Sicilian Cart Painting](../../games/399-sicilian-cart-painting/index.md)
 - [Beehive Panel Painter](../../games/1241-beehive-panel-painter/index.md)
 - [Gallarija Balcony Builder](../../games/1286-gallarija-balcony-builder/index.md)
 - [Luzzu Boat Painter](../../games/1330-luzzu-boat-painter/index.md)
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md)
-- [Ndebele geometric wall painting](../../games/23-ndebele-geometric-wall-painting/index.md)
 
 ## Sources
 

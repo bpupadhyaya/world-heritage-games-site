@@ -1,19 +1,20 @@
 ---
 title: "Palestine"
-description: "10 traditions from Palestine."
+description: "11 traditions from Palestine."
 path: "/countries/palestine/"
-count: 10
+count: 11
 ---
 # Palestine
 
-10 traditions from Palestine.
+11 traditions from Palestine.
 
 
 
-10 entries.
+11 entries.
 
 - [Buzuq Long-Neck Lute](../../games/218-buzuq-long-neck-lute/index.md): Lebanon, Syria; Musical instruments; Crossroads and Golden Ages
 - [Keffiyeh Pattern Loom](../../games/1310-keffiyeh-pattern-loom/index.md): Palestine; Crafts and making; Living Traditions
+- [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md): Lebanon, Syria; Musical instruments; Living Traditions
 - [Nabulsi Soap Tower](../../games/1341-nabulsi-soap-tower/index.md): Palestine; Crafts and making; Living Traditions
 - [Tarneeb](../../games/816-tarneeb/index.md): Iraq, Syria; Card games; Age of Contact and Craft

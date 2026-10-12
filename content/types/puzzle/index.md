@@ -1,22 +1,23 @@
 ---
 title: "Puzzles and mind games"
-description: "56 traditions of this kind."
+description: "58 traditions of this kind."
 path: "/types/puzzle/"
-count: 56
+count: 58
 ---
 # Puzzles and mind games
 
-56 traditions of this kind.
+58 traditions of this kind.
 
 
 
-56 entries.
+58 entries.
 
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md): Ghana, Cote d'Ivoire; Puzzles and mind games; Modern Heritage
 - [Al-Jazari water-clock contraptions](../../games/237-al-jazari-water-clock-contraptions/index.md): Iraq; Puzzles and mind games; Modern Heritage
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Bozo Net Casting](../../games/169-bozo-net-casting/index.md): Niger, Mali; Puzzles and mind games; Modern Heritage
+- [Castells](../../games/119-castells/index.md): Spain; Puzzles and mind games; Modern Heritage
 - [Change Ringing](../../games/1443-change-ringing/index.md): United Kingdom; Puzzles and mind games; Age of Contact and Craft
 - [Clockwork Movement Builder](../../games/502-clockwork-movement-builder/index.md): Germany, Switzerland; Puzzles and mind games; Modern Heritage
 - [Cynghanedd Poetry Puzzle](../../games/1448-cynghanedd-poetry-puzzle/index.md): United Kingdom; Puzzles and mind games; Modern Heritage
@@ -48,6 +49,7 @@ count: 56
 - [Qanat Water Tunnels](../../games/160-qanat-water-tunnels/index.md): Iran; Puzzles and mind games; Modern Heritage
 - [Sand drawing](../../games/1395-sand-drawing/index.md): Vanuatu; Puzzles and mind games; Modern Heritage
 - [Sangaku Geometry Puzzles](../../games/109-sangaku-geometry-puzzles/index.md): Japan; Puzzles and mind games; Age of Contact and Craft
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Shepherd's Leap](../../games/391-shepherds-leap/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Square dance caller](../../games/129-square-dance-caller/index.md): United States; Puzzles and mind games; Modern Heritage
 - [Stone Arch Bridge Builder](../../games/495-stone-arch-bridge-builder/index.md): China; Puzzles and mind games; Age of Contact and Craft

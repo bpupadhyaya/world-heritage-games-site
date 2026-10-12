@@ -1,0 +1,286 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "Over",
+    "hz": 330,
+    "timbre": "slap",
+    "icon": "foot-l",
+    "color": "#e8688f"
+   },
+   {
+    "name": "Under",
+    "hz": 260,
+    "timbre": "slap",
+    "icon": "foot-r",
+    "color": "#4fa8d6"
+   },
+   {
+    "name": "Skip",
+    "hz": 150,
+    "timbre": "stomp",
+    "icon": "stomp",
+    "color": "#f2c14e"
+   },
+   {
+    "name": "Clap",
+    "hz": 1300,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#7fcf8f"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Plaiting, 6/8 jig time",
+    "bpm": 126,
+    "meter": 6,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Over"
+     },
+     {
+      "beat": 1,
+      "lane": "Skip"
+     },
+     {
+      "beat": 2,
+      "lane": "Skip"
+     },
+     {
+      "beat": 3,
+      "lane": "Under"
+     },
+     {
+      "beat": 4,
+      "lane": "Skip"
+     },
+     {
+      "beat": 5,
+      "lane": "Skip"
+     },
+     {
+      "beat": 6,
+      "lane": "Over"
+     },
+     {
+      "beat": 7,
+      "lane": "Skip"
+     },
+     {
+      "beat": 8,
+      "lane": "Skip"
+     },
+     {
+      "beat": 9,
+      "lane": "Under"
+     },
+     {
+      "beat": 10,
+      "lane": "Skip"
+     },
+     {
+      "beat": 11,
+      "lane": "Skip"
+     },
+     {
+      "beat": 12,
+      "lane": "Under"
+     },
+     {
+      "beat": 13,
+      "lane": "Skip"
+     },
+     {
+      "beat": 14,
+      "lane": "Skip"
+     },
+     {
+      "beat": 15,
+      "lane": "Over"
+     },
+     {
+      "beat": 16,
+      "lane": "Skip"
+     },
+     {
+      "beat": 17,
+      "lane": "Skip"
+     },
+     {
+      "beat": 18,
+      "lane": "Under"
+     },
+     {
+      "beat": 19,
+      "lane": "Skip"
+     },
+     {
+      "beat": 20,
+      "lane": "Skip"
+     },
+     {
+      "beat": 21,
+      "lane": "Over"
+     },
+     {
+      "beat": 22,
+      "lane": "Skip"
+     },
+     {
+      "beat": 23,
+      "lane": "Clap"
+     }
+    ]
+   },
+   {
+    "name": "Barber's pole, 2/4",
+    "bpm": 104,
+    "meter": 2,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Skip"
+     },
+     {
+      "beat": 1,
+      "lane": "Skip"
+     },
+     {
+      "beat": 2,
+      "lane": "Skip"
+     },
+     {
+      "beat": 3,
+      "lane": "Skip"
+     },
+     {
+      "beat": 4,
+      "lane": "Skip"
+     },
+     {
+      "beat": 5,
+      "lane": "Skip"
+     },
+     {
+      "beat": 6,
+      "lane": "Skip"
+     },
+     {
+      "beat": 7,
+      "lane": "Clap"
+     },
+     {
+      "beat": 8,
+      "lane": "Over"
+     },
+     {
+      "beat": 9,
+      "lane": "Skip"
+     },
+     {
+      "beat": 10,
+      "lane": "Under"
+     },
+     {
+      "beat": 11,
+      "lane": "Skip"
+     },
+     {
+      "beat": 12,
+      "lane": "Over"
+     },
+     {
+      "beat": 13,
+      "lane": "Skip"
+     },
+     {
+      "beat": 14,
+      "lane": "Under"
+     },
+     {
+      "beat": 15,
+      "lane": "Clap"
+     }
+    ]
+   },
+   {
+    "name": "Spider's web, quick 2/4",
+    "bpm": 116,
+    "meter": 2,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Over"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Under"
+     },
+     {
+      "beat": 2,
+      "lane": "Over"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Under"
+     },
+     {
+      "beat": 4,
+      "lane": "Over"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Under"
+     },
+     {
+      "beat": 6,
+      "lane": "Skip"
+     },
+     {
+      "beat": 7,
+      "lane": "Clap"
+     },
+     {
+      "beat": 8,
+      "lane": "Under"
+     },
+     {
+      "beat": 8.5,
+      "lane": "Over"
+     },
+     {
+      "beat": 10,
+      "lane": "Under"
+     },
+     {
+      "beat": 10.5,
+      "lane": "Over"
+     },
+     {
+      "beat": 12,
+      "lane": "Under"
+     },
+     {
+      "beat": 12.5,
+      "lane": "Over"
+     },
+     {
+      "beat": 14,
+      "lane": "Skip"
+     },
+     {
+      "beat": 15,
+      "lane": "Clap"
+     }
+    ]
+   }
+  ]
+ }
+}

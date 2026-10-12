@@ -40,12 +40,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Balkan Kolo](../../games/134-balkan-kolo/index.md)
+- [Bulgarian asymmetric rhythm](../../games/385-bulgarian-asymmetric-rhythm/index.md)
+- [Schuhplattler](../../games/410-schuhplattler/index.md)
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md)
 - [Gumboot dance rhythm](../../games/123-gumboot-dance-rhythm/index.md)
 - [Tahtib](../../games/157-tahtib/index.md)
-- [Eskista](../../games/188-eskista/index.md)
-- [Jebena coffee brewing](../../games/189-jebena-coffee-brewing/index.md)
-- [Cueca](../../games/430-cueca/index.md)
 
 ## Sources
 

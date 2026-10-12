@@ -1,0 +1,13 @@
+{
+ "slug": "bogolan-mud-cloth",
+ "title": "Bogolan mud cloth",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

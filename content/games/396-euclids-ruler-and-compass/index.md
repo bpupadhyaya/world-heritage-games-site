@@ -41,11 +41,11 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md)
+- [Castells](../../games/119-castells/index.md)
+- [Flag Tossing](../../games/395-flag-tossing/index.md)
 - [Portolan Chart Navigator](../../games/503-portolan-chart-navigator/index.md)
 - [Ghadames Rooftop Maze](../../games/1291-ghadames-rooftop-maze/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
-- [Stone Skipping](../../games/5-stone-skipping/index.md)
-- [Disc-flip](../../games/8-disc-flip/index.md)
 
 ## Sources
 

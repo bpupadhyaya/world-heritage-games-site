@@ -1,0 +1,206 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 9,
+  "rows": 11,
+  "symmetry": "mirror-xy",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Red bead",
+    "color": "#c0392b"
+   },
+   {
+    "name": "Blue bead",
+    "color": "#2e6fd0"
+   },
+   {
+    "name": "White shell",
+    "color": "#f1ead6"
+   },
+   {
+    "name": "Yellow bead",
+    "color": "#e0b93a"
+   },
+   {
+    "name": "Green bead",
+    "color": "#2f9a5a"
+   }
+  ],
+  "background": "#3a2415",
+  "grid": "#5a3a22",
+  "motifs": [
+   "dot",
+   "ring",
+   "stripe-v",
+   "stripe-h",
+   "diamond",
+   "zigzag"
+  ],
+  "designs": [
+   {
+    "name": "Board of lineages",
+    "rows": [
+     "abcabacba",
+     "dhghdhghd",
+     ".cebdbec.",
+     "..cdhdc..",
+     "...eae...",
+     "...gfg...",
+     "...eae...",
+     "..cdhdc..",
+     ".cebdbec.",
+     "dhghdhghd",
+     "abcabacba"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 0,
+      "c": 3
+     },
+     "e": {
+      "m": 2,
+      "c": 2
+     },
+     "f": {
+      "m": 3,
+      "c": 3
+     },
+     "g": {
+      "m": 4,
+      "c": 4
+     },
+     "h": {
+      "m": 0,
+      "c": 4
+     },
+     "i": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Path of a journey",
+    "rows": [
+     "a...b...a",
+     ".i.....i.",
+     "c.i.d.i.c",
+     "...i.i...",
+     "b.c.i.c.b",
+     "..d.e.d..",
+     "b.c.i.c.b",
+     "...i.i...",
+     "c.i.d.i.c",
+     ".i.....i.",
+     "a...b...a"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 0,
+      "c": 3
+     },
+     "e": {
+      "m": 2,
+      "c": 2
+     },
+     "f": {
+      "m": 3,
+      "c": 3
+     },
+     "g": {
+      "m": 4,
+      "c": 4
+     },
+     "h": {
+      "m": 0,
+      "c": 4
+     },
+     "i": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Circles of counsel",
+    "rows": [
+     "c.c.c.c.c",
+     ".a.b.b.a.",
+     "c.d.c.d.c",
+     ".b.a.a.b.",
+     "c.c.e.c.c",
+     "..a.f.a..",
+     "c.c.e.c.c",
+     ".b.a.a.b.",
+     "c.d.c.d.c",
+     ".a.b.b.a.",
+     "c.c.c.c.c"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 0,
+      "c": 3
+     },
+     "e": {
+      "m": 2,
+      "c": 2
+     },
+     "f": {
+      "m": 3,
+      "c": 3
+     },
+     "g": {
+      "m": 4,
+      "c": 4
+     },
+     "h": {
+      "m": 0,
+      "c": 4
+     },
+     "i": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   }
+  ],
+  "rotateMarks": true
+ }
+}

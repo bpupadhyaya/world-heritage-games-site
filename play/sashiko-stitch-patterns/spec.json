@@ -1,0 +1,128 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "rot4-mirror",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "White thread",
+    "color": "#f4f4ef"
+   },
+   {
+    "name": "Red thread",
+    "color": "#c8402f"
+   },
+   {
+    "name": "Pale indigo thread",
+    "color": "#9db8e6"
+   }
+  ],
+  "background": "#1b2f5c",
+  "grid": "#2d4887",
+  "motifs": [
+   "cross",
+   "dot",
+   "diamond",
+   "star",
+   "ring",
+   "wave"
+  ],
+  "designs": [
+   {
+    "name": "Hemp leaf (asanoha)",
+    "rows": [
+     "a.a.a.a.a",
+     ".b.b.b.b.",
+     "a.c.a.c.a",
+     ".b.b.b.b.",
+     "a.a.d.a.a",
+     ".b.b.b.b.",
+     "a.c.a.c.a",
+     ".b.b.b.b.",
+     "a.a.a.a.a"
+    ],
+    "legend": {
+     "a": {
+      "m": 3,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 4,
+      "c": 0
+     },
+     "d": {
+      "m": 2,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Seven treasures (shippo)",
+    "rows": [
+     "a.b.a.b.a",
+     ".b.a.a.b.",
+     "b.a.b.a.b",
+     ".a.b.b.a.",
+     "a.b.a.b.a",
+     ".a.b.b.a.",
+     "b.a.b.a.b",
+     ".b.a.a.b.",
+     "a.b.a.b.a"
+    ],
+    "legend": {
+     "a": {
+      "m": 4,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Ripples (seigaiha)",
+    "rows": [
+     "aaaaaaaaa",
+     "abbbbbbba",
+     "abcccccba",
+     "abcdddcba",
+     "abcdedcba",
+     "abcdddcba",
+     "abcccccba",
+     "abbbbbbba",
+     "aaaaaaaaa"
+    ],
+    "legend": {
+     "a": {
+      "m": 5,
+      "c": 0
+     },
+     "b": {
+      "m": 5,
+      "c": 2
+     },
+     "c": {
+      "m": 5,
+      "c": 0
+     },
+     "d": {
+      "m": 5,
+      "c": 2
+     },
+     "e": {
+      "m": 1,
+      "c": 1
+     }
+    }
+   }
+  ],
+  "rotateMarks": true
+ }
+}

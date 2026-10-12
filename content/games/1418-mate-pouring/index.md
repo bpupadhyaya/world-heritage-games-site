@@ -43,8 +43,8 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Malambo](../../games/1417-malambo/index.md)
 - [Toquilla straw hat weaving](../../games/93-toquilla-straw-hat-weaving/index.md)
 - [Nanduti](../../games/428-nanduti/index.md)
+- [Vallenato accordion trio](../../games/431-vallenato-accordion-trio/index.md)
 - [Frevo Umbrella Dance](../../games/1411-frevo-umbrella-dance/index.md)
-- [Jangada Sailing](../../games/1413-jangada-sailing/index.md)
 
 ## Sources
 

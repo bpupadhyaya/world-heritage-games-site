@@ -1,0 +1,13 @@
+{
+ "slug": "kuba-cloth-pattern-puzzle",
+ "title": "Kuba raffia cloth",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

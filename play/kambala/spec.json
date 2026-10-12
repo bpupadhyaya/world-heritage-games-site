@@ -1,0 +1,64 @@
+{
+ "engine": "tempo-race",
+ "variant": "kambala",
+ "players": "1",
+ "params": {
+  "vehicle": {
+   "kind": "animal",
+   "look": "buffalo",
+   "topSpeed": 11.5,
+   "gallopSeconds": 13,
+   "restSeconds": 7
+  },
+  "rhythm": {
+   "bpm": 104,
+   "window": 0.105
+  },
+  "course": {
+   "length": 140,
+   "lanes": 2,
+   "shape": "straight",
+   "terrain": "mud",
+   "scenery": "palms",
+   "rough": [
+    {
+     "from": 0,
+     "to": 140
+    }
+   ],
+   "obstacles": [
+    {
+     "at": 55,
+     "kind": "waves"
+    },
+    {
+     "at": 105,
+     "kind": "waves"
+    }
+   ]
+  },
+  "opponents": {
+   "count": 1,
+   "skill": 0.92,
+   "spread": 0,
+   "surge": 1.3,
+   "mistakes": 0.8
+  },
+  "rounds": 3,
+  "rhythmStars": 0.7,
+  "colors": {
+   "ground": "#6b4a2c",
+   "ground2": "#8f6c46",
+   "bank": "#3f7a2a",
+   "edge": "#d9c58a",
+   "player": "#f2c14e"
+  },
+  "labels": {
+   "tap": "Hold to run \u00b7 press on the stride",
+   "unit": "m"
+  }
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

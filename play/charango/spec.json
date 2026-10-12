@@ -1,0 +1,377 @@
+{
+ "engine": "rhythm",
+ "variant": "charango",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 392,
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "5 G",
+    "cents": 0,
+    "row": 0,
+    "timbre": "pluck",
+    "color": "#c2552d"
+   },
+   {
+    "name": "4 C",
+    "cents": 500,
+    "row": 0,
+    "timbre": "pluck",
+    "color": "#d9783a"
+   },
+   {
+    "name": "3 E",
+    "cents": 900,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#e8a23c"
+   },
+   {
+    "name": "2 A",
+    "cents": 200,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#e9c46a"
+   },
+   {
+    "name": "1 E",
+    "cents": 900,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#8fc1a8"
+   },
+   {
+    "name": "2 D fret",
+    "cents": 800,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "Strum",
+    "cents": 200,
+    "row": 2,
+    "timbre": "string",
+    "color": "#d64b3c"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Huayno step",
+    "bpm": 100,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 6
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 1.5,
+      "lane": 2
+     },
+     {
+      "beat": 0,
+      "lane": 6
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 1.5,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 6
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 5.5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 7.5,
+      "lane": 0
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 3
+     },
+     {
+      "beat": 9.5,
+      "lane": 2
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 11,
+      "lane": 5
+     },
+     {
+      "beat": 11.5,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 13,
+      "lane": 2
+     },
+     {
+      "beat": 13.5,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 6
+     },
+     {
+      "beat": 15,
+      "lane": 3
+     },
+     {
+      "beat": 15.5,
+      "lane": 3
+     }
+    ]
+   },
+   {
+    "name": "Bass and strum",
+    "bpm": 96,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 0.5,
+      "lane": 6
+     },
+     {
+      "beat": 1,
+      "lane": 6
+     },
+     {
+      "beat": 1.5,
+      "lane": 6
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 2.5,
+      "lane": 6
+     },
+     {
+      "beat": 3,
+      "lane": 6
+     },
+     {
+      "beat": 3.5,
+      "lane": 6
+     },
+     {
+      "beat": 4,
+      "lane": 1
+     },
+     {
+      "beat": 4.5,
+      "lane": 6
+     },
+     {
+      "beat": 5,
+      "lane": 6
+     },
+     {
+      "beat": 5.5,
+      "lane": 6
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 6.5,
+      "lane": 6
+     },
+     {
+      "beat": 7,
+      "lane": 6
+     },
+     {
+      "beat": 7.5,
+      "lane": 6
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 8.5,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 6
+     },
+     {
+      "beat": 9.5,
+      "lane": 6
+     },
+     {
+      "beat": 10,
+      "lane": 3
+     },
+     {
+      "beat": 10.5,
+      "lane": 6
+     },
+     {
+      "beat": 11,
+      "lane": 6
+     },
+     {
+      "beat": 11.5,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 1
+     },
+     {
+      "beat": 12.5,
+      "lane": 6
+     },
+     {
+      "beat": 13,
+      "lane": 6
+     },
+     {
+      "beat": 13.5,
+      "lane": 6
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 14.5,
+      "lane": 6
+     },
+     {
+      "beat": 15,
+      "lane": 6
+     },
+     {
+      "beat": 15.5,
+      "lane": 6
+     }
+    ]
+   },
+   {
+    "name": "Walk down the strings",
+    "bpm": 88,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 5
+     },
+     {
+      "beat": 4,
+      "lane": 1
+     },
+     {
+      "beat": 5,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 0
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 2
+     },
+     {
+      "beat": 10,
+      "lane": 5
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 1
+     },
+     {
+      "beat": 13,
+      "lane": 0
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 3,
+      "len": 1.0
+     }
+    ]
+   }
+  ]
+ }
+}

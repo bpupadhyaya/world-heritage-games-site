@@ -1,0 +1,172 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "rot4",
+  "palette": [
+   {
+    "name": "Gold",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Red",
+    "color": "#d02a1e"
+   },
+   {
+    "name": "Green",
+    "color": "#3f8a3a"
+   },
+   {
+    "name": "Cream",
+    "color": "#f4e6b8"
+   }
+  ],
+  "background": "#0e0b0a",
+  "grid": "#2e2420",
+  "motifs": [
+   "dot",
+   "ring",
+   "leaf",
+   "spiral",
+   "wave",
+   "star"
+  ],
+  "designs": [
+   {
+    "name": "Berry sprig",
+    "rows": [
+     "c.l.B.w.c",
+     ".Lb.ll.L.",
+     "w.dBb.dbl",
+     ".l.bdbB..",
+     "BlbdSdblB",
+     "..Bbdb.l.",
+     "lbd.bBd.w",
+     ".L.ll.bL.",
+     "c.w.B.l.c"
+    ],
+    "legend": {
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "B": {
+      "m": 1,
+      "c": 1
+     },
+     "l": {
+      "m": 2,
+      "c": 0
+     },
+     "L": {
+      "m": 2,
+      "c": 2
+     },
+     "c": {
+      "m": 3,
+      "c": 0
+     },
+     "w": {
+      "m": 4,
+      "c": 0
+     },
+     "S": {
+      "m": 5,
+      "c": 3
+     },
+     "d": {
+      "m": 0,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Curl border",
+    "rows": [
+     "cwcwcwcwc",
+     "wb.blb.bw",
+     "c.Bd.lB.c",
+     "wbl.s.dbw",
+     "cl.sDs.lc",
+     "wbd.s.lbw",
+     "c.Bl.dB.c",
+     "wb.blb.bw",
+     "cwcwcwcwc"
+    ],
+    "legend": {
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "B": {
+      "m": 1,
+      "c": 1
+     },
+     "l": {
+      "m": 2,
+      "c": 0
+     },
+     "c": {
+      "m": 3,
+      "c": 0
+     },
+     "w": {
+      "m": 4,
+      "c": 0
+     },
+     "s": {
+      "m": 5,
+      "c": 0
+     },
+     "d": {
+      "m": 0,
+      "c": 0
+     },
+     "D": {
+      "m": 0,
+      "c": 3
+     }
+    }
+   },
+   {
+    "name": "Rowan cluster",
+    "rows": [
+     "l.l.l.l.l",
+     ".bdb.b.b.",
+     "l.B.ldBdl",
+     ".bdb.b.b.",
+     "l.l.s.l.l",
+     ".b.b.bdb.",
+     "ldBdl.B.l",
+     ".b.b.bdb.",
+     "l.l.l.l.l"
+    ],
+    "legend": {
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "B": {
+      "m": 1,
+      "c": 1
+     },
+     "l": {
+      "m": 2,
+      "c": 0
+     },
+     "s": {
+      "m": 5,
+      "c": 0
+     },
+     "d": {
+      "m": 0,
+      "c": 0
+     }
+    }
+   }
+  ],
+  "mode": "copy",
+  "rotateMarks": true
+ }
+}

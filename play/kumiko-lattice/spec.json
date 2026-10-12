@@ -1,0 +1,198 @@
+{
+ "engine": "pattern",
+ "params": {
+  "symmetry": "rot4-mirror",
+  "mode": "copy",
+  "rotateMarks": false,
+  "palette": [
+   {
+    "name": "Pale cypress",
+    "color": "#e8cf9c"
+   },
+   {
+    "name": "Walnut",
+    "color": "#a8683a"
+   },
+   {
+    "name": "Paper white",
+    "color": "#f6f1e3"
+   }
+  ],
+  "background": "#2b2118",
+  "grid": "#4a3b2c",
+  "motifs": [
+   "triangle",
+   "hexagon",
+   "star",
+   "cross",
+   "diamond",
+   "ring"
+  ],
+  "cols": 11,
+  "rows": 11,
+  "designs": [
+   {
+    "name": "Star and triangle panel",
+    "rows": [
+     "t.t.t.t.t.t",
+     ".a.a.a.a.a.",
+     "t.t.t.t.t.t",
+     ".a.a.a.a.a.",
+     "t.t.t.t.t.t",
+     ".a.a.A.a.a.",
+     "t.t.t.t.t.t",
+     ".a.a.a.a.a.",
+     "t.t.t.t.t.t",
+     ".a.a.a.a.a.",
+     "t.t.t.t.t.t"
+    ],
+    "legend": {
+     "t": {
+      "m": 0,
+      "c": 0
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     },
+     "H": {
+      "m": 1,
+      "c": 1
+     },
+     "a": {
+      "m": 2,
+      "c": 2
+     },
+     "A": {
+      "m": 2,
+      "c": 0
+     },
+     "x": {
+      "m": 3,
+      "c": 0
+     },
+     "d": {
+      "m": 4,
+      "c": 1
+     },
+     "D": {
+      "m": 4,
+      "c": 0
+     },
+     "r": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Hexagon and ring",
+    "rows": [
+     "h.h.h.h.h.h",
+     ".r.r.r.r.r.",
+     "h.H.H.H.H.h",
+     ".r.r.r.r.r.",
+     "h.H.h.h.H.h",
+     ".r.r.D.r.r.",
+     "h.H.h.h.H.h",
+     ".r.r.r.r.r.",
+     "h.H.H.H.H.h",
+     ".r.r.r.r.r.",
+     "h.h.h.h.h.h"
+    ],
+    "legend": {
+     "t": {
+      "m": 0,
+      "c": 0
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     },
+     "H": {
+      "m": 1,
+      "c": 1
+     },
+     "a": {
+      "m": 2,
+      "c": 2
+     },
+     "A": {
+      "m": 2,
+      "c": 0
+     },
+     "x": {
+      "m": 3,
+      "c": 0
+     },
+     "d": {
+      "m": 4,
+      "c": 1
+     },
+     "D": {
+      "m": 4,
+      "c": 0
+     },
+     "r": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Cross lattice",
+    "rows": [
+     "x.x.x.x.x.x",
+     ".d.d.d.d.d.",
+     "x.x.x.x.x.x",
+     ".d.D.d.D.d.",
+     "x.x.x.x.x.x",
+     ".d.d.a.d.d.",
+     "x.x.x.x.x.x",
+     ".d.D.d.D.d.",
+     "x.x.x.x.x.x",
+     ".d.d.d.d.d.",
+     "x.x.x.x.x.x"
+    ],
+    "legend": {
+     "t": {
+      "m": 0,
+      "c": 0
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     },
+     "H": {
+      "m": 1,
+      "c": 1
+     },
+     "a": {
+      "m": 2,
+      "c": 2
+     },
+     "A": {
+      "m": 2,
+      "c": 0
+     },
+     "x": {
+      "m": 3,
+      "c": 0
+     },
+     "d": {
+      "m": 4,
+      "c": 1
+     },
+     "D": {
+      "m": 4,
+      "c": 0
+     },
+     "r": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 9,
+  "rows": 7,
+  "symmetry": "rot2",
+  "mode": "copy",
+  "rotateMarks": true,
+  "palette": [
+   {
+    "name": "Limestone",
+    "color": "#f3efe4"
+   },
+   {
+    "name": "Basalt",
+    "color": "#17171a"
+   }
+  ],
+  "background": "#857c68",
+  "grid": "#6c6452",
+  "motifs": [
+   "wave",
+   "star",
+   "dot",
+   "solid"
+  ],
+  "designs": [
+   {
+    "name": "Wave bands",
+    "rows": [
+     "wwwwwwwww",
+     "bbbbbbbbb",
+     "wwwwwwwww",
+     "bbbbbbbbb",
+     "wwwwwwwww",
+     "bbbbbbbbb",
+     "wwwwwwwww"
+    ],
+    "legend": {
+     "w": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "s": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 2,
+      "c": 0
+     },
+     "o": {
+      "m": 3,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Wave and flower",
+    "rows": [
+     "wwwwwwwww",
+     "bbbbbbbbb",
+     "wwwwwwwww",
+     "bbdbsbdbb",
+     "wwwwwwwww",
+     "bbbbbbbbb",
+     "wwwwwwwww"
+    ],
+    "legend": {
+     "w": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "s": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 2,
+      "c": 0
+     },
+     "o": {
+      "m": 3,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Bordered waves",
+    "rows": [
+     "ooooooooo",
+     "owwwwwwwo",
+     "obbbbbbbo",
+     "owwwwwwwo",
+     "obbbbbbbo",
+     "owwwwwwwo",
+     "ooooooooo"
+    ],
+    "legend": {
+     "w": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "s": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 2,
+      "c": 0
+     },
+     "o": {
+      "m": 3,
+      "c": 1
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,244 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 9,
+  "rows": 13,
+  "symmetry": "rot2",
+  "mode": "copy",
+  "rotateMarks": true,
+  "palette": [
+   {
+    "name": "Gold",
+    "color": "#e4b43a"
+   },
+   {
+    "name": "Silver",
+    "color": "#d9dde3"
+   },
+   {
+    "name": "Crimson",
+    "color": "#cf2f45"
+   },
+   {
+    "name": "Emerald",
+    "color": "#2fa56f"
+   }
+  ],
+  "background": "#3a1230",
+  "grid": "#5a2a4c",
+  "motifs": [
+   "triangle",
+   "diamond",
+   "star",
+   "leaf",
+   "dot",
+   "stripe-h"
+  ],
+  "designs": [
+   {
+    "name": "Bamboo-shoot border",
+    "rows": [
+     "fffffffff",
+     "a.a.a.a.a",
+     "kkkkkkkkk",
+     "j...i...j",
+     "..e.d.e..",
+     "j...i...j",
+     "g.g.g.g.g",
+     "j...i...j",
+     "..e.d.e..",
+     "j...i...j",
+     "kkkkkkkkk",
+     "a.a.a.a.a",
+     "fffffffff"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "h": {
+      "m": 0,
+      "c": 2
+     },
+     "b": {
+      "m": 1,
+      "c": 0
+     },
+     "j": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 2,
+      "c": 1
+     },
+     "i": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "e": {
+      "m": 4,
+      "c": 2
+     },
+     "g": {
+      "m": 4,
+      "c": 0
+     },
+     "f": {
+      "m": 5,
+      "c": 0
+     },
+     "k": {
+      "m": 5,
+      "c": 1
+     },
+     "l": {
+      "m": 3,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Scattered diamonds",
+    "rows": [
+     "fffffffff",
+     "h.h.h.h.h",
+     "fffffffff",
+     ".b.b.b.b.",
+     "c.c.c.c.c",
+     ".b.b.b.b.",
+     "c.c.c.c.c",
+     ".b.b.b.b.",
+     "c.c.c.c.c",
+     ".b.b.b.b.",
+     "fffffffff",
+     "h.h.h.h.h",
+     "fffffffff"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "h": {
+      "m": 0,
+      "c": 2
+     },
+     "b": {
+      "m": 1,
+      "c": 0
+     },
+     "j": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 2,
+      "c": 1
+     },
+     "i": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "e": {
+      "m": 4,
+      "c": 2
+     },
+     "g": {
+      "m": 4,
+      "c": 0
+     },
+     "f": {
+      "m": 5,
+      "c": 0
+     },
+     "k": {
+      "m": 5,
+      "c": 1
+     },
+     "l": {
+      "m": 3,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Leaf and star head panel",
+    "rows": [
+     "kkkkkkkkk",
+     "a.h.a.h.a",
+     ".........",
+     "..l.i.l..",
+     ".l..c..l.",
+     "..l.i.l..",
+     "fffffffff",
+     "..l.i.l..",
+     ".l..c..l.",
+     "..l.i.l..",
+     ".........",
+     "a.h.a.h.a",
+     "kkkkkkkkk"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "h": {
+      "m": 0,
+      "c": 2
+     },
+     "b": {
+      "m": 1,
+      "c": 0
+     },
+     "j": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 2,
+      "c": 1
+     },
+     "i": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "e": {
+      "m": 4,
+      "c": 2
+     },
+     "g": {
+      "m": 4,
+      "c": 0
+     },
+     "f": {
+      "m": 5,
+      "c": 0
+     },
+     "k": {
+      "m": 5,
+      "c": 1
+     },
+     "l": {
+      "m": 3,
+      "c": 0
+     }
+    }
+   }
+  ]
+ }
+}

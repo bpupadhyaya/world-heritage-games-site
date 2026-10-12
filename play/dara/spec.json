@@ -1,0 +1,22 @@
+{
+ "engine": "mill",
+ "variant": "dara",
+ "players": "2",
+ "params": {
+  "board": "grid",
+  "cols": 6,
+  "rows": 5,
+  "pieces": 12,
+  "mills": "runs",
+  "millSize": 3,
+  "longRun": "illegal",
+  "placementMills": "none",
+  "effect": "remove",
+  "removal": "protected",
+  "doubleMill": "one",
+  "minPieces": 2
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

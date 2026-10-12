@@ -1,0 +1,26 @@
+{
+ "title": "Zulu beadwork",
+ "native": "Ubuhlalu",
+ "alt": [
+  "Zulu love letters",
+  "Beadwork letters"
+ ],
+ "summary": "Zulu beadwork is made by threading small glass beads in rows to form triangles, diamonds and bands of strong colour on necklaces, collars and panels. Young people have long exchanged such pieces, and the choice of colours is part of how a piece is read, though the reading differs from one region to another.",
+ "howToPlay": [
+  "Pick a bead colour and a shape from the tray under the panel.",
+  "Touch a square to place that shape: it is repeated on the matching squares of the panel, because the design is symmetrical.",
+  "Copy the small panel shown above, then press Check."
+ ],
+ "rules": [
+  "The panel is symmetrical left to right and top to bottom, so each shape you place is copied to its three partners.",
+  "Triangles turn to follow the symmetry, so they point toward or away from the centre as on a real panel.",
+  "A square counts only when its shape and its colour both match the target; three stars need a nearly perfect copy."
+ ],
+ "heritageNote": "Beadwork is made across KwaZulu-Natal and neighbouring regions of South Africa. The colour schemes differ by area, so the game gives no single meaning to any colour.",
+ "countries": [
+  "South Africa"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original, in the style of the tradition)"
+ ]
+}

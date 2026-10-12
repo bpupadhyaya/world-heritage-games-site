@@ -44,12 +44,12 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
+- [Jianzi](../../games/1-jianzi/index.md)
 - [Pitch-pot](../../games/2-pitch-pot/index.md)
+- [Elastic Jump](../../games/6-elastic-jump/index.md)
 - [Hoop Rolling Trundle](../../games/69-hoop-rolling-trundle/index.md)
 - [Plate Spinning](../../games/73-plate-spinning/index.md)
 - [Luban lock](../../games/99-luban-lock/index.md)
-- [Huarong Dao](../../games/639-huarong-dao/index.md)
-- [Tangram](../../games/641-tangram/index.md)
 
 ## Sources
 

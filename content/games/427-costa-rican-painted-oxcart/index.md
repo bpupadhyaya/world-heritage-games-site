@@ -38,6 +38,10 @@ A living tradition passed from person to person; it is not tied to a single date
 - **Cradle:** [The Americas: Mesoamerica](../../cradles/meso-america/index.md)
 - **Region:** Americas
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Alebrije painting](../../games/92-alebrije-painting/index.md)

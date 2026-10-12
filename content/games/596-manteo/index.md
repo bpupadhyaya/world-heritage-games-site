@@ -39,9 +39,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Uyuni Salt Harvest](../../games/1491-uyuni-salt-harvest/index.md)
 - [Sapo](../../games/1019-sapo/index.md)
 - [Tejo](../../games/57-tejo/index.md)
+- [Peteca](../../games/421-peteca/index.md)
 - [Emboque](../../games/629-emboque/index.md)
 - [Chaza](../../games/643-chaza/index.md)
-- [Frog toss](../../games/688-frog-toss/index.md)
 
 ## Sources
 

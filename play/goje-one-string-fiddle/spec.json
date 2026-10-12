@@ -1,0 +1,375 @@
+{
+ "engine": "rhythm",
+ "variant": "goje-one-string-fiddle",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 220,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Open",
+    "cents": 0,
+    "row": 0,
+    "timbre": "string",
+    "dur": 0.7,
+    "color": "#e6a23c"
+   },
+   {
+    "name": "Stop 1",
+    "cents": 300,
+    "row": 0,
+    "timbre": "string",
+    "dur": 0.7,
+    "color": "#e8c25a"
+   },
+   {
+    "name": "Stop 2",
+    "cents": 500,
+    "row": 0,
+    "timbre": "string",
+    "dur": 0.7,
+    "color": "#8fc16a"
+   },
+   {
+    "name": "Stop 3",
+    "cents": 700,
+    "row": 0,
+    "timbre": "string",
+    "dur": 0.7,
+    "color": "#4fb0a6"
+   },
+   {
+    "name": "Stop 4",
+    "cents": 1000,
+    "row": 0,
+    "timbre": "string",
+    "dur": 0.7,
+    "color": "#5b8de0"
+   },
+   {
+    "name": "High",
+    "cents": 1200,
+    "row": 0,
+    "timbre": "string",
+    "dur": 0.7,
+    "color": "#a56bd6"
+   },
+   {
+    "name": "Drum low",
+    "hz": 100,
+    "row": 1,
+    "timbre": "bass",
+    "color": "#b5473a"
+   },
+   {
+    "name": "Drum high",
+    "hz": 330,
+    "row": 1,
+    "timbre": "slap",
+    "color": "#d9a03a"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Slow melody",
+    "bpm": 72,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0,
+      "len": 2.0
+     },
+     {
+      "beat": 2,
+      "lane": 1,
+      "len": 1.0
+     },
+     {
+      "beat": 3,
+      "lane": 2,
+      "len": 1.0
+     },
+     {
+      "beat": 4,
+      "lane": 3,
+      "len": 2.0
+     },
+     {
+      "beat": 6,
+      "lane": 2,
+      "len": 1.0
+     },
+     {
+      "beat": 7,
+      "lane": 1,
+      "len": 1.0
+     },
+     {
+      "beat": 8,
+      "lane": 0,
+      "len": 2.0
+     },
+     {
+      "beat": 10,
+      "lane": 4,
+      "len": 1.0
+     },
+     {
+      "beat": 11,
+      "lane": 3,
+      "len": 1.0
+     },
+     {
+      "beat": 12,
+      "lane": 2,
+      "len": 2.0
+     },
+     {
+      "beat": 14,
+      "lane": 1,
+      "len": 1.0
+     },
+     {
+      "beat": 15,
+      "lane": 0,
+      "len": 1.0
+     }
+    ]
+   },
+   {
+    "name": "Fiddle over the drum loop",
+    "bpm": 88,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 6
+     },
+     {
+      "beat": 0.5,
+      "lane": 1
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 1.5,
+      "lane": 7
+     },
+     {
+      "beat": 2,
+      "lane": 6
+     },
+     {
+      "beat": 2.5,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 1
+     },
+     {
+      "beat": 3.5,
+      "lane": 7
+     },
+     {
+      "beat": 4,
+      "lane": 6
+     },
+     {
+      "beat": 4.5,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 5.5,
+      "lane": 7
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 6.5,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 7.5,
+      "lane": 7
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 8.5,
+      "lane": 1
+     },
+     {
+      "beat": 9,
+      "lane": 0
+     },
+     {
+      "beat": 9.5,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 10.5,
+      "lane": 0
+     },
+     {
+      "beat": 11,
+      "lane": 1
+     },
+     {
+      "beat": 11.5,
+      "lane": 7
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 12.5,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 1
+     },
+     {
+      "beat": 13.5,
+      "lane": 7
+     },
+     {
+      "beat": 14,
+      "lane": 6
+     },
+     {
+      "beat": 14.5,
+      "lane": 1
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     },
+     {
+      "beat": 15.5,
+      "lane": 7
+     }
+    ]
+   },
+   {
+    "name": "Quick runs",
+    "bpm": 100,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 0.5,
+      "lane": 1
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 1.5,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 3.5,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 1
+     },
+     {
+      "beat": 5,
+      "lane": 0
+     },
+     {
+      "beat": 6,
+      "lane": 5,
+      "len": 1.0
+     },
+     {
+      "beat": 7,
+      "lane": 4
+     },
+     {
+      "beat": 8,
+      "lane": 3
+     },
+     {
+      "beat": 8.5,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 12.5,
+      "lane": 1
+     },
+     {
+      "beat": 13,
+      "lane": 0
+     },
+     {
+      "beat": 14,
+      "lane": 1
+     },
+     {
+      "beat": 15,
+      "lane": 0,
+      "len": 1.0
+     }
+    ]
+   }
+  ]
+ }
+}

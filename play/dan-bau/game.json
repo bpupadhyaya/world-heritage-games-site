@@ -1,0 +1,13 @@
+{
+ "slug": "dan-bau",
+ "title": "Dan bau (Vietnamese monochord)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

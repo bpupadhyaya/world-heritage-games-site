@@ -43,10 +43,10 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 - [Chogan](../../games/810-chogan/index.md)
 - [Chavgonbozi](../../games/1132-chavgonbozi/index.md)
+- [Buzkashi](../../games/226-buzkashi/index.md)
 - [Kok-boru](../../games/241-kok-boru/index.md)
 - [Shinny](../../games/725-shinny/index.md)
 - [Hurling](../../games/821-hurling/index.md)
-- [Rope pulling](../../games/855-rope-pulling/index.md)
 
 ## Sources
 

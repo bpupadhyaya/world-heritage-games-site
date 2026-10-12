@@ -1,18 +1,19 @@
 ---
 title: "Nepal"
-description: "11 traditions from Nepal."
+description: "13 traditions from Nepal."
 path: "/countries/nepal/"
-count: 11
+count: 13
 ---
 # Nepal
 
-11 traditions from Nepal.
+13 traditions from Nepal.
 
 
 
-11 entries.
+13 entries.
 
 - [Allo nettle fibre weaving](../../games/1228-allo-nettle-fibre-weaving/index.md): Nepal; Crafts and making; Living Traditions
+- [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md): India, Nepal; Musical instruments; Classical Worlds
 - [Chungi](../../games/297-chungi/index.md): Nepal, India; Dexterity and skill games; Modern Heritage
 - [Dandi Biyo](../../games/968-dandi-biyo/index.md): Nepal; Dexterity and skill games; Modern Heritage
 - [Dhaka weave pattern loom](../../games/115-dhaka-weave-pattern-loom/index.md): Nepal; Crafts and making; Living Traditions
@@ -22,4 +23,5 @@ count: 11
 - [Kho-Kho](../../games/15-kho-kho/index.md): India, Nepal; Street and playground games; Modern Heritage
 - [Mithila folk painting](../../games/1337-mithila-folk-painting/index.md): Nepal, India; Crafts and making; Living Traditions
 - [Murchunga](../../games/290-murchunga/index.md): Nepal; Musical instruments; Classical Worlds
+- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md): India, Nepal; Musical instruments; Living Traditions
 - [Tiger and Goat](../../games/967-tiger-and-goat/index.md): Nepal; Board and table games; Crossroads and Golden Ages

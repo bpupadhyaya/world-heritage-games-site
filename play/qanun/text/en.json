@@ -1,0 +1,30 @@
+{
+ "title": "Qanun (plucked trapezoid zither)",
+ "native": "قانون",
+ "alt": [
+  "Kanun",
+  "Kanoon",
+  "Qanoon"
+ ],
+ "summary": "The qanun is a flat trapezoid zither laid across the player's knees, strung with groups of three strings over a long bridge and plucked with a small pick on each index finger. Rows of tiny levers beside the strings let the player raise or lower a note by a fraction of a semitone in the middle of a tune.",
+ "howToPlay": [
+  "Twelve strings run low to high from left to right; the lower seven belong to the left hand and the upper five to the right.",
+  "Marks fall toward the line. Pluck the string as its mark arrives, on the beat or on the half beat.",
+  "Choose a rhythm cycle: a four-beat, a six-beat or a nine-beat pattern; each is played twice."
+ ],
+ "rules": [
+  "The notes belong to a makam, a melodic mode: the scale here is the hicaz mode, with its wide step between the second and third notes.",
+  "Several steps are smaller or larger than a piano's, as on a qanun whose levers are set for that mode.",
+  "Each cycle groups its beats as its name says: sofyan has four, semai six in two threes, aksak nine as 2 plus 2 plus 2 plus 3.",
+  "A pluck on the beat scores in full, a near one scores less, and an extra pluck costs a little."
+ ],
+ "heritageNote": "The qanun is played in Turkey, Armenia, Azerbaijan, Iran and across the Arab world, in court, city and village music, as a solo instrument and in ensembles. Turkish makers fit several levers to each group of strings so one set of strings can serve many makams.",
+ "countries": [
+  "Turkey",
+  "Armenia",
+  "Azerbaijan"
+ ],
+ "credits": [
+  "Rhythm patterns: World Heritage Games (original teaching patterns)"
+ ]
+}

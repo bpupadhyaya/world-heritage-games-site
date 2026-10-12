@@ -1,20 +1,21 @@
 ---
 title: "Spain"
-description: "13 traditions from Spain."
+description: "14 traditions from Spain."
 path: "/countries/spain/"
-count: 13
+count: 14
 ---
 # Spain
 
-13 traditions from Spain.
+14 traditions from Spain.
 
 
 
-13 entries.
+14 entries.
 
 - [Basque Pelota](../../games/1094-basque-pelota/index.md): Spain, France; Street and playground games; Modern Heritage
 - [Bottle Dance](../../games/1424-bottle-dance/index.md): Paraguay, Spain; Dances; Living Traditions
 - [Cantabrian palm bowling](../../games/1096-cantabrian-palm-bowling/index.md): Spain; Street and playground games; Age of Contact and Craft
+- [Castells](../../games/119-castells/index.md): Spain; Puzzles and mind games; Modern Heritage
 - [Dry Stone Wall Builder](../../games/404-dry-stone-wall-builder/index.md): Croatia, Spain; Crafts and making; Living Traditions
 - [Game of the Goose](../../games/450-game-of-the-goose/index.md): Italy, Spain; Board and table games; River Valleys and First Cities
 - [Hopscotch](../../games/762-hopscotch/index.md): Haiti, Honduras; Dexterity and skill games; Deep Past and First Games

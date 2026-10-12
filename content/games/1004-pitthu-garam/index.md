@@ -36,12 +36,12 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
+- [Tent pegging](../../games/78-tent-pegging/index.md)
 - [Indian club swinging](../../games/264-indian-club-swinging/index.md)
 - [Kabaddi](../../games/789-kabaddi/index.md)
 - [Gulli Danda](../../games/1003-gulli-danda/index.md)
 - [Kho-Kho](../../games/15-kho-kho/index.md)
-- [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md)
-- [Thanjavur dancing doll](../../games/275-thanjavur-dancing-doll/index.md)
+- [Mallakhamb](../../games/150-mallakhamb/index.md)
 
 ## Sources
 

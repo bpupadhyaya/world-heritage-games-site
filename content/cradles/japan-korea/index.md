@@ -2,7 +2,7 @@
 title: "Japan and Korea"
 description: "The island and peninsula traditions of Northeast Asia."
 path: "/cradles/japan-korea/"
-count: 66
+count: 67
 ---
 # Japan and Korea
 
@@ -10,7 +10,7 @@ The island and peninsula traditions of Northeast Asia.
 
 
 
-66 entries.
+67 entries.
 
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
@@ -58,6 +58,7 @@ The island and peninsula traditions of Northeast Asia.
 - [Riichi mahjong](../../games/851-riichi-mahjong/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Sangaku Geometry Puzzles](../../games/109-sangaku-geometry-puzzles/index.md): Japan; Puzzles and mind games; Age of Contact and Craft
 - [Sashiko Stitch Patterns](../../games/27-sashiko-stitch-patterns/index.md): Japan; Crafts and making; Living Traditions
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md): Japan, India; Crafts and making; Living Traditions
 - [Shogi](../../games/852-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages

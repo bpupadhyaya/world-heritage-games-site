@@ -42,7 +42,7 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Rabab plucked lute](../../games/270-rabab-plucked-lute/index.md)
 - [Veena](../../games/282-veena/index.md)
 - [Mheibes](../../games/158-mheibes/index.md)
-- [Kok-boru](../../games/241-kok-boru/index.md)
+- [Buzkashi](../../games/226-buzkashi/index.md)
 
 ## Sources
 

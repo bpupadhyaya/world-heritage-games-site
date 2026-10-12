@@ -1,0 +1,157 @@
+{
+ "engine": "bout",
+ "params": {
+  "level": 2,
+  "rounds": {
+   "count": 3,
+   "time": 40
+  },
+  "exchangeTime": 3,
+  "scoring": {
+   "fall": 2,
+   "fallEndsRound": false,
+   "fallLabel": "Disarmed",
+   "mercy": 5
+  },
+  "ring": {
+   "kind": "mat",
+   "pushOut": false
+  },
+  "grip": {
+   "enabled": false
+  },
+  "timing": {
+   "period": 1.25,
+   "window": 0.18,
+   "tempo": 2.4
+  },
+  "weapon": {
+   "front": "stick",
+   "back": "stick"
+  },
+  "setting": {
+   "sky": [
+    "#f4d58a",
+    "#fff3cf"
+   ],
+   "ground": "#b78a52",
+   "backdrop": "posts",
+   "far": "#8a5a2a",
+   "ringFill": "#d8b274",
+   "ringEdge": "#9b2c2c",
+   "ringStyle": "rope",
+   "crowd": true
+  },
+  "fighters": {
+   "you": {
+    "name": "You",
+    "color": "#1f5fb4",
+    "trim": "#f2c14e"
+   },
+   "rival": {
+    "name": "Kalaro",
+    "color": "#c0392b",
+    "trim": "#f5f1e8"
+   }
+  },
+  "moves": [
+   {
+    "id": "a1",
+    "name": "Forehand strike (angle 1)",
+    "kind": "strike",
+    "speed": 3,
+    "cost": 7,
+    "power": 14,
+    "points": 1,
+    "pose": "high",
+    "beats": [
+     "a2",
+     "weave"
+    ]
+   },
+   {
+    "id": "a2",
+    "name": "Backhand strike (angle 2)",
+    "kind": "strike",
+    "speed": 3,
+    "cost": 7,
+    "power": 13,
+    "points": 1,
+    "pose": "side",
+    "beats": [
+     "weave",
+     "a5"
+    ]
+   },
+   {
+    "id": "weave",
+    "name": "Double-stick weave",
+    "kind": "guard",
+    "speed": 2,
+    "cost": 8,
+    "power": 11,
+    "points": 1,
+    "steady": 7,
+    "pose": "step",
+    "beats": [
+     "a5",
+     "check"
+    ]
+   },
+   {
+    "id": "a5",
+    "name": "Centre thrust (angle 5)",
+    "kind": "strike",
+    "speed": 2,
+    "cost": 9,
+    "power": 18,
+    "points": 2,
+    "pose": "thrust",
+    "beats": [
+     "check",
+     "disarm"
+    ]
+   },
+   {
+    "id": "check",
+    "name": "Stick check",
+    "kind": "guard",
+    "speed": 2,
+    "cost": 6,
+    "power": 12,
+    "points": 1,
+    "steady": 8,
+    "pose": "guard",
+    "beats": [
+     "disarm",
+     "a1"
+    ]
+   },
+   {
+    "id": "disarm",
+    "name": "Trap and disarm",
+    "kind": "grip",
+    "speed": 1,
+    "cost": 13,
+    "power": 22,
+    "points": 2,
+    "needs": 80,
+    "pose": "low",
+    "beats": [
+     "a1",
+     "a2"
+    ]
+   },
+   {
+    "id": "breathe",
+    "name": "Breathe",
+    "kind": "rest",
+    "speed": 1,
+    "cost": -12,
+    "power": 0,
+    "pose": "rest",
+    "beats": []
+   }
+  ]
+ }
+}

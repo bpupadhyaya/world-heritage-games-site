@@ -1,19 +1,21 @@
 ---
 title: "Folk and line dances"
-description: "17 related traditions."
+description: "21 related traditions."
 path: "/families/folk-dance/"
-count: 17
+count: 21
 ---
 # Folk and line dances
 
-17 related traditions.
+21 related traditions.
 
 
 
-17 entries.
+21 entries.
 
+- [Balkan Kolo](../../games/134-balkan-kolo/index.md): Serbia, Croatia; Dances; Living Traditions
 - [Bamum script writer](../../games/1405-bamum-script-writer/index.md): Cameroon; Crafts and making; Living Traditions
 - [Bottle Dance](../../games/1424-bottle-dance/index.md): Paraguay, Spain; Dances; Living Traditions
+- [Bulgarian asymmetric rhythm](../../games/385-bulgarian-asymmetric-rhythm/index.md): Bulgaria; Dances; Living Traditions
 - [Cueca](../../games/430-cueca/index.md): Chile, Bolivia; Dances; Living Traditions
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md): Lebanon; Dances; Living Traditions
 - [Engolo](../../games/1409-engolo/index.md): Angola; Dances; Living Traditions
@@ -25,7 +27,9 @@ count: 17
 - [Jamaican Sound System Selector](../../games/1465-jamaican-sound-system-selector/index.md): Jamaica; Musical instruments; Modern Heritage
 - [Jebena coffee brewing](../../games/189-jebena-coffee-brewing/index.md): Ethiopia, Eritrea; Crafts and making; Living Traditions
 - [Kochari](../../games/1315-kochari/index.md): Armenia; Dances; Living Traditions
+- [Lezginka](../../games/250-lezginka/index.md): Worldwide; Dances; Living Traditions
 - [Malambo](../../games/1417-malambo/index.md): Argentina; Dances; Living Traditions
 - [Marinera Norteña](../../games/1472-marinera-nortena/index.md): Peru; Dances; Living Traditions
+- [Schuhplattler](../../games/410-schuhplattler/index.md): Germany, Austria; Dances; Living Traditions
 - [Tahtib](../../games/157-tahtib/index.md): Egypt; Dances; Living Traditions
 - [Yalli](../../games/1400-yalli/index.md): Azerbaijan; Dances; Living Traditions

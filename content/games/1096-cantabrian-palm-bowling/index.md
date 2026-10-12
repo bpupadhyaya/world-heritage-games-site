@@ -45,7 +45,7 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - [Scopa](../../games/832-scopa/index.md)
 - [Maghrebi 5x5 capture game](../../games/887-maghrebi-5x5-capture-game/index.md)
 - [Remi](../../games/993-remi/index.md)
-- [Txalaparta Duet](../../games/390-txalaparta-duet/index.md)
+- [Castells](../../games/119-castells/index.md)
 
 ## Sources
 

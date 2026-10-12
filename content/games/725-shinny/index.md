@@ -47,10 +47,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Tikhi](../../games/876-tikhi/index.md)
 - [Double Dutch](../../games/53-double-dutch/index.md)
+- [Log rolling](../../games/59-log-rolling/index.md)
 - [Square dance caller](../../games/129-square-dance-caller/index.md)
 - [Tractor pull](../../games/440-tractor-pull/index.md)
 - [Axe throwing](../../games/442-axe-throwing/index.md)
-- [Crokinole](../../games/623-crokinole/index.md)
 
 ## Sources
 

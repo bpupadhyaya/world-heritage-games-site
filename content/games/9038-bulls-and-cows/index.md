@@ -47,10 +47,10 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 - [Regional pub games](../../games/1180-regional-pub-games/index.md)
 - [Pacu jawi](../../games/1354-pacu-jawi/index.md)
+- [Camel racing dash](../../games/19-camel-racing-dash/index.md)
 - [Wave riding](../../games/76-wave-riding/index.md)
 - [Cirit](../../games/156-cirit/index.md)
 - [Tbourida](../../games/164-tbourida/index.md)
-- [Sahel Salt Caravan](../../games/172-sahel-salt-caravan/index.md)
 
 ## Sources
 

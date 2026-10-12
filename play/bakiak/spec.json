@@ -1,0 +1,37 @@
+{
+ "engine": "tempo-race",
+ "params": {
+  "vehicle": {
+   "kind": "runner",
+   "topSpeed": 3.1
+  },
+  "rhythm": {
+   "bpm": 72,
+   "window": 0.115
+  },
+  "course": {
+   "length": 100,
+   "lanes": 5,
+   "shape": "straight",
+   "terrain": "track",
+   "scenery": "crowd"
+  },
+  "opponents": {
+   "count": 4,
+   "skill": 0.88,
+   "spread": 0.035,
+   "surge": 1.1,
+   "mistakes": 1.2
+  },
+  "rounds": 2,
+  "rhythmStars": 0.75,
+  "colors": {
+   "player": "#ffd36a"
+  },
+  "labels": {
+   "left": "Left foot",
+   "right": "Right foot",
+   "unit": "m"
+  }
+ }
+}

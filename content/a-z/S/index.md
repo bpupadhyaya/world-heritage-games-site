@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with S"
-description: "107 entries beginning with S."
+description: "111 entries beginning with S."
 path: "/a-z/S/"
 ---
 # Entries beginning with S
@@ -23,11 +23,14 @@ path: "/a-z/S/"
 - [Savika](../../games/905-savika/index.md): Madagascar; Street and playground games; River Valleys and First Cities
 - [Saz / Bağlama](../../games/243-saz-baglama/index.md): Turkey; Musical instruments; Crossroads and Golden Ages
 - [Scarf-ball toss](../../games/614-scarf-ball-toss/index.md): Cambodia; Street and playground games; Modern Heritage
+- [Schuhplattler](../../games/410-schuhplattler/index.md): Germany, Austria; Dances; Living Traditions
 - [Scopa](../../games/832-scopa/index.md): Italy, San Marino; Card games; Age of Contact and Craft
 - [Seal carving](../../games/341-seal-carving/index.md): China; Crafts and making; Living Traditions
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Seed throwing](../../games/612-seed-throwing/index.md): Cambodia; Dexterity and skill games; Deep Past and First Games
 - [Seed war](../../games/649-seed-war/index.md): Costa Rica; Street and playground games; Deep Past and First Games
 - [Seega](../../games/692-seega/index.md): Egypt; Board and table games; Age of Contact and Craft
+- [Sega ravanne drum](../../games/199-sega-ravanne-drum/index.md): Mauritius; Musical instruments; Modern Heritage
 - [Senet](../../games/693-senet/index.md): Egypt; Board and table games; River Valleys and First Cities
 - [Senterej](../../games/707-senterej/index.md): Ethiopia, Eritrea; Board and table games; Crossroads and Golden Ages
 - [Sepak takraw](../../games/802-sepak-takraw/index.md): Indonesia, Malaysia; Street and playground games; Modern Heritage
@@ -101,6 +104,7 @@ path: "/a-z/S/"
 - [Street baseball](../../games/684-street-baseball/index.md): Dominican Republic; Street and playground games; Age of Contact and Craft
 - [Street games](../../games/570-street-games/index.md): Bahamas; Dexterity and skill games; Deep Past and First Games
 - [Street play games](../../games/1155-street-play-games/index.md): Trinidad and Tobago; Dexterity and skill games; Modern Heritage
+- [String Marionette Theatre](../../games/68-string-marionette-theatre/index.md): Czechia; Performance and storytelling; Classical Worlds
 - [Sudoku](../../games/22340-sudoku/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Sugar-cane spear throwing](../../games/709-sugar-cane-spear-throwing/index.md): Fiji; Street and playground games; Modern Heritage
 - [Sumo bout](../../games/359-sumo-bout/index.md): Japan; Wrestling and martial sports; River Valleys and First Cities

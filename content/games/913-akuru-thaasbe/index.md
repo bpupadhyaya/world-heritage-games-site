@@ -35,11 +35,11 @@ A living tradition passed from person to person; it is not tied to a single date
 ## Related entries
 
 - [Maldivian lacquer work](../../games/1328-maldivian-lacquer-work/index.md)
+- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md)
 - [Dhaka weave pattern loom](../../games/115-dhaka-weave-pattern-loom/index.md)
 - [Pakistani truck art](../../games/116-pakistani-truck-art/index.md)
 - [Warli painting](../../games/117-warli-painting/index.md)
 - [Block printing](../../games/118-block-printing/index.md)
-- [Santoor](../../games/151-santoor/index.md)
 
 ## Sources
 

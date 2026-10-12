@@ -41,8 +41,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Kulintang](../../games/318-kulintang/index.md)
 - [Pencak silat](../../games/329-pencak-silat/index.md)
 - [Wau bulan kite](../../games/911-wau-bulan-kite/index.md)
+- [Wayang Shadow Puppets](../../games/47-wayang-shadow-puppets/index.md)
 - [Water puppet pond theatre](../../games/303-water-puppet-pond-theatre/index.md)
-- [Saung gauk](../../games/306-saung-gauk/index.md)
 
 ## Sources
 

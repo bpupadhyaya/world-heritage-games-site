@@ -46,7 +46,7 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Kite flying](../../games/769-kite-flying/index.md)
 - [Wau bulan kite](../../games/911-wau-bulan-kite/index.md)
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md)
-- [Silambam](../../games/271-silambam/index.md)
+- [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md)
 
 ## Sources
 

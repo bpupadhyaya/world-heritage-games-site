@@ -38,14 +38,18 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - **Cradle:** [The Americas: North America](../../cradles/north-america/index.md)
 - **Region:** Americas
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
+- ['Ulu Maika](../../games/44-ulu-maika/index.md)
 - [Finnish pin toss](../../games/49-finnish-pin-toss/index.md)
+- [Canal ice-skating marathon](../../games/84-canal-ice-skating-marathon/index.md)
 - [Kicksled Race](../../games/407-kicksled-race/index.md)
 - [Barrel racing](../../games/439-barrel-racing/index.md)
 - [Tractor pull](../../games/440-tractor-pull/index.md)
-- [Maple taffy on snow](../../games/441-maple-taffy-on-snow/index.md)
-- [Axe throwing](../../games/442-axe-throwing/index.md)
 
 ## Sources
 

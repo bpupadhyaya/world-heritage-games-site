@@ -1,0 +1,30 @@
+{
+ "title": "Tabla bols",
+ "native": "तबला",
+ "alt": [
+  "Tabla",
+  "Tabla bol rhythm"
+ ],
+ "summary": "The tabla is a pair of hand drums of South Asia: a small treble drum, the dayan, and a larger bass drum, the bayan. Every stroke has a spoken name called a bol, and a rhythmic cycle called a taal is learned by saying the bols before playing them.",
+ "howToPlay": [
+  "Listen: the pads light up as the computer plays one phrase of the cycle.",
+  "Echo: strike the same pads on the same beats when it is your turn.",
+  "The chart shows every beat of the cycle with its bol; the first beat of each section is marked.",
+  "Choose a ten-beat, a seven-beat or an eight-beat cycle."
+ ],
+ "rules": [
+  "Jhaptal has ten beats grouped 2+3+2+3; rupak has seven grouped 3+2+2, and its first beat is the open one; keherwa has eight beats.",
+  "Dha, Dhin and Ge are deep strokes with the bass drum; Tin, Na and Ti are strokes of the small drum.",
+  "Timing is judged against the cycle; wrong or extra strokes cost points."
+ ],
+ "heritageNote": "Tabla is played across India, Nepal, Bangladesh and Pakistan, in accompaniment to song, instrument and dance as well as solo. Students traditionally learn the bols by voice first, and a fixed pattern called a theka marks the cycle.",
+ "countries": [
+  "India",
+  "Nepal",
+  "Bangladesh",
+  "Pakistan"
+ ],
+ "credits": [
+  "Cycles: South Asian tradition, simplified patterns written for this game"
+ ]
+}

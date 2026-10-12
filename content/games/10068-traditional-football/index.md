@@ -46,11 +46,11 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Badminton](../../games/22322-badminton/index.md)
+- [Jianzi](../../games/1-jianzi/index.md)
 - [Nohejbal](../../games/378-nohejbal/index.md)
+- [Peteca](../../games/421-peteca/index.md)
 - [Sepak takraw](../../games/802-sepak-takraw/index.md)
 - [Chapteh shuttlecock](../../games/1066-chapteh-shuttlecock/index.md)
-- [American football](../../games/22320-american-football/index.md)
-- [Disc-flip](../../games/8-disc-flip/index.md)
 
 ## Sources
 

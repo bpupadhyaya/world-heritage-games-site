@@ -1,0 +1,31 @@
+{
+  "title": "Nouka Baich",
+  "native": "নৌকা বাইচ",
+  "alt": [
+    "Village boat race",
+    "Bengal river boat race"
+  ],
+  "summary": "In the rainy season, villages of the Bengal delta send long, narrow boats down the river, each carrying a crew that paddles to the song and drum of a caller standing amidships. Whole villages line the banks to cheer.",
+  "howToPlay": [
+    "Watch the ring on the pad close: strike that side the moment it meets the pad.",
+    "Alternate left and right with the caller's beat; two strokes on one side swing the boat toward the bank.",
+    "Keep the stroke clean through the rough water and round the two marker buoys, and cross the line ahead of the other boats.",
+    "Two races; your score is the average of both."
+  ],
+  "rules": [
+    "Each stroke is graded by how close it falls to the beat; a stroke on the beat drives the boat, a stroke off it only tires the crew.",
+    "Striking the same side twice drifts the boat toward the bank and scrapes away speed.",
+    "Rough water narrows the timing window.",
+    "A marker buoy is passed cleanly only with a steady stroke as you reach it.",
+    "The river carries every boat gently downstream.",
+    "Three rival boats race you; the boat across the line first wins."
+  ],
+  "heritageNote": "Boat races are a favourite of the rainy and early autumn months across Bangladesh and the neighbouring river country of eastern India. A caller keeps the crew in time with song and drum while the banks fill with spectators.",
+  "countries": [
+    "Bangladesh",
+    "India"
+  ],
+  "credits": [
+    "Game design: World Heritage Games (original)"
+  ]
+}

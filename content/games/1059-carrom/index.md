@@ -44,12 +44,12 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Related entries
 
+- [Camel racing dash](../../games/19-camel-racing-dash/index.md)
 - [Turkish Dama](../../games/155-turkish-dama/index.md)
 - [Buzuq Long-Neck Lute](../../games/218-buzuq-long-neck-lute/index.md)
 - [Saz / Bağlama](../../games/243-saz-baglama/index.md)
 - [Rummikub](../../games/826-rummikub/index.md)
 - [Edrees](../../games/1008-edrees/index.md)
-- [101 Okey](../../games/1166-101-okey/index.md)
 
 ## Sources
 

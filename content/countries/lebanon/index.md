@@ -1,19 +1,20 @@
 ---
 title: "Lebanon"
-description: "9 traditions from Lebanon."
+description: "10 traditions from Lebanon."
 path: "/countries/lebanon/"
-count: 9
+count: 10
 ---
 # Lebanon
 
-9 traditions from Lebanon.
+10 traditions from Lebanon.
 
 
 
-9 entries.
+10 entries.
 
 - [Buzuq Long-Neck Lute](../../games/218-buzuq-long-neck-lute/index.md): Lebanon, Syria; Musical instruments; Crossroads and Golden Ages
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md): Lebanon; Dances; Living Traditions
+- [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md): Lebanon, Syria; Musical instruments; Living Traditions
 - [Phoenician Alphabet Trader](../../games/1359-phoenician-alphabet-trader/index.md): Lebanon; Puzzles and mind games; Modern Heritage
 - [Tarneeb](../../games/816-tarneeb/index.md): Iraq, Syria; Card games; Age of Contact and Craft

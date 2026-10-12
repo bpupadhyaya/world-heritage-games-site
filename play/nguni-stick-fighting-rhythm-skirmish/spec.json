@@ -1,0 +1,143 @@
+{
+ "engine": "bout",
+ "params": {
+  "level": 2,
+  "rounds": {
+   "count": 3,
+   "time": 30
+  },
+  "exchangeTime": 3,
+  "scoring": {
+   "fall": 4,
+   "fallEndsRound": false,
+   "fallLabel": "Clean touch",
+   "mercy": 9
+  },
+  "ring": {
+   "kind": "sand",
+   "pushOut": false,
+   "wallDamage": 5
+  },
+  "grip": {
+   "enabled": false
+  },
+  "timing": {
+   "period": 1.2,
+   "window": 0.19,
+   "tempo": 2.4
+  },
+  "weapon": {
+   "front": "stick",
+   "back": "shield"
+  },
+  "setting": {
+   "sky": [
+    "#f4d9a6",
+    "#fbefd0"
+   ],
+   "ground": "#b08a4a",
+   "backdrop": "hills",
+   "far": "#7a8a4a",
+   "ringFill": "#d2b878",
+   "ringEdge": "#5a3a1a",
+   "ringStyle": "none",
+   "crowd": true
+  },
+  "fighters": {
+   "you": {
+    "name": "You",
+    "color": "#7a2e22",
+    "trim": "#f2c14e"
+   },
+   "rival": {
+    "name": "Inkunzi",
+    "color": "#244a6e",
+    "trim": "#f2c14e"
+   }
+  },
+  "moves": [
+   {
+    "id": "over",
+    "name": "Overhand strike",
+    "kind": "strike",
+    "speed": 2,
+    "cost": 9,
+    "power": 17,
+    "points": 2,
+    "pose": "high",
+    "beats": [
+     "jab",
+     "feint"
+    ]
+   },
+   {
+    "id": "jab",
+    "name": "Low jab",
+    "kind": "strike",
+    "speed": 3,
+    "cost": 7,
+    "power": 12,
+    "points": 1,
+    "pose": "sweep",
+    "beats": [
+     "feint",
+     "shield"
+    ]
+   },
+   {
+    "id": "feint",
+    "name": "Feint and step",
+    "kind": "strike",
+    "speed": 2,
+    "cost": 9,
+    "power": 15,
+    "points": 2,
+    "pose": "side",
+    "beats": [
+     "shield",
+     "duck"
+    ]
+   },
+   {
+    "id": "shield",
+    "name": "Shield block",
+    "kind": "guard",
+    "speed": 2,
+    "cost": 6,
+    "power": 12,
+    "points": 1,
+    "steady": 8,
+    "pose": "guard",
+    "beats": [
+     "duck",
+     "over"
+    ]
+   },
+   {
+    "id": "duck",
+    "name": "Duck and slide",
+    "kind": "guard",
+    "speed": 3,
+    "cost": 6,
+    "power": 11,
+    "points": 1,
+    "steady": 6,
+    "pose": "low",
+    "beats": [
+     "over",
+     "jab"
+    ]
+   },
+   {
+    "id": "breathe",
+    "name": "Breathe",
+    "kind": "rest",
+    "speed": 1,
+    "cost": -12,
+    "power": 0,
+    "pose": "rest",
+    "beats": []
+   }
+  ]
+ }
+}

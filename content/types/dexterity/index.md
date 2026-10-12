@@ -1,17 +1,18 @@
 ---
 title: "Dexterity and skill games"
-description: "133 traditions of this kind."
+description: "141 traditions of this kind."
 path: "/types/dexterity/"
-count: 133
+count: 141
 ---
 # Dexterity and skill games
 
-133 traditions of this kind.
+141 traditions of this kind.
 
 
 
-133 entries.
+141 entries.
 
+- ['Ulu Maika](../../games/44-ulu-maika/index.md): United States; Dexterity and skill games; Age of Contact and Craft
 - [Ampe](../../games/747-ampe/index.md): Ghana, Togo; Dexterity and skill games; Modern Heritage
 - [Atarraya](../../games/1434-atarraya/index.md): Colombia; Dexterity and skill games; Modern Heritage
 - [Axe throwing](../../games/442-axe-throwing/index.md): Canada, United States; Dexterity and skill games; Modern Heritage
@@ -20,6 +21,7 @@ count: 133
 - [Bat and Trap](../../games/405-bat-and-trap/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
 - [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md): India; Dexterity and skill games; Modern Heritage
 - [Break the pot](../../games/1105-break-the-pot/index.md): Sri Lanka; Dexterity and skill games; Modern Heritage
+- [Buzkashi](../../games/226-buzkashi/index.md): Afghanistan, Uzbekistan; Dexterity and skill games; Classical Worlds
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md): United Kingdom, Canada; Dexterity and skill games; Age of Contact and Craft
 - [Charro lasso roping](../../games/60-charro-lasso-roping/index.md): Mexico; Dexterity and skill games; Age of Contact and Craft
 - [Chinlone](../../games/16-chinlone/index.md): Myanmar; Dexterity and skill games; Modern Heritage
@@ -37,6 +39,7 @@ count: 133
 - [Doko porter trail](../../games/293-doko-porter-trail/index.md): Nepal; Dexterity and skill games; Modern Heritage
 - [Emboque](../../games/629-emboque/index.md): Chile; Dexterity and skill games; Modern Heritage
 - [Finnish pin toss](../../games/49-finnish-pin-toss/index.md): Finland; Dexterity and skill games; Age of Contact and Craft
+- [Flag Tossing](../../games/395-flag-tossing/index.md): Italy; Dexterity and skill games; Modern Heritage
 - [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md): Ireland, Netherlands; Dexterity and skill games; Age of Contact and Craft
 - [Frog toss](../../games/688-frog-toss/index.md): Ecuador; Dexterity and skill games; Modern Heritage
 - [Gasing uri](../../games/1289-gasing-uri/index.md): Malaysia; Dexterity and skill games; Modern Heritage
@@ -50,6 +53,7 @@ count: 133
 - [Hose-Run Fire Sport](../../games/1281-hose-run-fire-sport/index.md): Czechia, Slovakia; Dexterity and skill games; Modern Heritage
 - [Ice Stock Sport](../../games/1451-ice-stock-sport/index.md): Austria, Germany; Dexterity and skill games; Modern Heritage
 - [Indian club swinging](../../games/264-indian-club-swinging/index.md): India, Pakistan; Dexterity and skill games; Modern Heritage
+- [Jianzi](../../games/1-jianzi/index.md): China, Vietnam; Dexterity and skill games; Modern Heritage
 - [Kendama](../../games/850-kendama/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Kite flying](../../games/769-kite-flying/index.md): Honduras; Dexterity and skill games; Classical Worlds
@@ -58,6 +62,8 @@ count: 133
 - [Krulbol](../../games/1469-krulbol/index.md): Belgium, Netherlands; Dexterity and skill games; Classical Worlds
 - [Lawn bowls](../../games/74-lawn-bowls/index.md): United Kingdom, Australia; Dexterity and skill games; Classical Worlds
 - [Limbo](../../games/58-limbo/index.md): Trinidad and Tobago; Dexterity and skill games; Modern Heritage
+- [Log rolling](../../games/59-log-rolling/index.md): United States, Canada; Dexterity and skill games; Modern Heritage
+- [Mallakhamb](../../games/150-mallakhamb/index.md): India; Dexterity and skill games; Modern Heritage
 - [Maori stick games](../../games/981-maori-stick-games/index.md): New Zealand; Dexterity and skill games; Modern Heritage
 - [Menko](../../games/346-menko/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Mongolian Bow Archery](../../games/1476-mongolian-bow-archery/index.md): Mongolia; Dexterity and skill games; Classical Worlds
@@ -68,6 +74,7 @@ count: 133
 - [Nhodo](../../games/1346-nhodo/index.md): Zimbabwe; Dexterity and skill games; Deep Past and First Games
 - [Otedama](../../games/131-otedama/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Pebbles](../../games/874-pebbles/index.md): Laos; Dexterity and skill games; Deep Past and First Games
+- [Peteca](../../games/421-peteca/index.md): Brazil; Dexterity and skill games; Modern Heritage
 - [Pinata swing](../../games/61-pinata-swing/index.md): Mexico, Paraguay; Dexterity and skill games; Modern Heritage
 - [Pitch-pot](../../games/2-pitch-pot/index.md): China, South Korea; Dexterity and skill games; Modern Heritage
 - [Plate Spinning](../../games/73-plate-spinning/index.md): China; Dexterity and skill games; Modern Heritage
@@ -85,6 +92,7 @@ count: 133
 - [Table shuffleboard](../../games/1199-table-shuffleboard/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Takoyaki-style ball flipping](../../games/352-takoyaki-style-ball-flipping/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Ten Ten](../../games/988-ten-ten/index.md): Nigeria; Dexterity and skill games; Modern Heritage
+- [Tent pegging](../../games/78-tent-pegging/index.md): Pakistan, India; Dexterity and skill games; Modern Heritage
 - [Tinikling](../../games/141-tinikling/index.md): Philippines; Dexterity and skill games; Modern Heritage
 - [Trick Roping](../../games/1408-trick-roping/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Tuho](../../games/1089-tuho/index.md): South Korea; Dexterity and skill games; Modern Heritage

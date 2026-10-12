@@ -1,0 +1,415 @@
+{
+ "engine": "story",
+ "params": {
+  "stage": "water",
+  "start": "start",
+  "cast": {
+   "teu": {
+    "name": "Teu the host",
+    "kind": "clown",
+    "color": "#c0402a",
+    "accent": "#f2e8c8",
+    "hat": "topknot"
+   },
+   "boy": {
+    "name": "Little Hai",
+    "kind": "child",
+    "color": "#3d8a5a",
+    "accent": "#f2f2f2",
+    "hat": "straw"
+   },
+   "buffalo": {
+    "name": "The buffalo",
+    "kind": "beast",
+    "color": "#4a4a52",
+    "accent": "#d8d0c0",
+    "scale": 1.15
+   },
+   "fisher": {
+    "name": "Fisherman Ba",
+    "kind": "person",
+    "color": "#2f5d8c",
+    "accent": "#d9b26a",
+    "hat": "straw",
+    "prop": "staff"
+   },
+   "aunt": {
+    "name": "Aunt Lan",
+    "kind": "person",
+    "color": "#8a5a2e",
+    "accent": "#f2e8c8",
+    "hat": "straw",
+    "prop": "fan"
+   }
+  },
+  "meters": [
+   {
+    "id": "wit",
+    "label": "Wit",
+    "start": 0,
+    "max": 5
+   },
+   {
+    "id": "team",
+    "label": "Teamwork",
+    "start": 0,
+    "max": 5
+   }
+  ],
+  "scenes": {
+   "start": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "teu",
+      "at": "left"
+     },
+     {
+      "who": "boy",
+      "at": "midright"
+     },
+     {
+      "who": "buffalo",
+      "at": "right"
+     }
+    ],
+    "speaker": "teu",
+    "text": "Teu the host splashes onto the pond: \"The new rice is planted! Little Hai, where is your buffalo?\" Behind the boy, the buffalo is wading toward the green seedlings.",
+    "choices": [
+     {
+      "text": "Pull the rope as hard as you can",
+      "next": "pull",
+      "pts": 0,
+      "set": [
+       "pulled"
+      ]
+     },
+     {
+      "text": "Whistle and wave the straw hat",
+      "next": "whistle",
+      "pts": 1
+     },
+     {
+      "text": "Call Aunt Lan and the neighbours to stand along the bank",
+      "next": "neighbours",
+      "pts": 2,
+      "effects": {
+       "team": 1
+      }
+     }
+    ]
+   },
+   "pull": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "boy",
+      "at": "left",
+      "pose": "slump"
+     },
+     {
+      "who": "buffalo",
+      "at": "center"
+     }
+    ],
+    "text": "The rope snaps tight. The buffalo plants its feet and sprays mud over three rows of seedlings. Little Hai sits down in the water.",
+    "next": "think",
+    "cont": "Wipe off the mud"
+   },
+   "whistle": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "boy",
+      "at": "left"
+     },
+     {
+      "who": "buffalo",
+      "at": "center"
+     }
+    ],
+    "text": "The buffalo flicks one ear and goes on grazing. Two rows are already flattened, but it has stopped for a moment.",
+    "next": "think",
+    "cont": "Think"
+   },
+   "neighbours": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "boy",
+      "at": "left"
+     },
+     {
+      "who": "aunt",
+      "at": "midleft",
+      "pose": "cheer"
+     },
+     {
+      "who": "buffalo",
+      "at": "center"
+     }
+    ],
+    "text": "Neighbours line the bank, arms spread wide. The buffalo lifts its head and stands still, a little puzzled. No seedling is hurt.",
+    "next": "think",
+    "cont": "Think"
+   },
+   "think": {
+    "bg": "river",
+    "on": [
+     {
+      "who": "teu",
+      "at": "left"
+     },
+     {
+      "who": "boy",
+      "at": "midleft"
+     },
+     {
+      "who": "fisher",
+      "at": "midright"
+     }
+    ],
+    "speaker": "fisher",
+    "text": "Fisherman Ba rows by: \"A buffalo goes where the grass is sweet. What does it want?\" He points to a bundle of green fodder on the far bank.",
+    "choices": [
+     {
+      "text": "Hit the buffalo with the rope to turn it",
+      "next": "hit",
+      "pts": 0
+     },
+     {
+      "text": "Wade in with the fodder and lead it along the bank",
+      "next": "lead",
+      "pts": 2,
+      "effects": {
+       "wit": 2,
+       "team": 1
+      }
+     },
+     {
+      "text": "Wait and hope it walks out on its own",
+      "next": "wait",
+      "pts": 1
+     }
+    ]
+   },
+   "hit": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "boy",
+      "at": "left",
+      "pose": "slump"
+     },
+     {
+      "who": "aunt",
+      "at": "midleft",
+      "pose": "slump"
+     }
+    ],
+    "text": "The buffalo bellows and charges across the field. By the time it is caught, half the paddy is trampled flat.",
+    "next": "mend",
+    "cont": "Look at the damage"
+   },
+   "wait": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "boy",
+      "at": "left"
+     },
+     {
+      "who": "buffalo",
+      "at": "center"
+     }
+    ],
+    "text": "The buffalo wanders on for a while, eating its way through the edge of the field before wandering back out by itself.",
+    "next": "mend",
+    "cont": "Look at the damage"
+   },
+   "lead": {
+    "bg": "river",
+    "on": [
+     {
+      "who": "boy",
+      "at": "midleft",
+      "pose": "cheer"
+     },
+     {
+      "who": "buffalo",
+      "at": "center"
+     },
+     {
+      "who": "fisher",
+      "at": "midright"
+     }
+    ],
+    "text": "Hai waves the fodder under the buffalo's nose and walks backwards along the dyke. The buffalo follows like a calm ship, and the field is untouched.",
+    "next": "mend",
+    "cont": "Look at the field"
+   },
+   "mend": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "aunt",
+      "at": "left"
+     },
+     {
+      "who": "boy",
+      "at": "midleft"
+     },
+     {
+      "who": "teu",
+      "at": "midright"
+     },
+     {
+      "who": "fisher",
+      "at": "right"
+     }
+    ],
+    "speaker": "aunt",
+    "text": "Aunt Lan counts the rows. \"Some seedlings need planting again, and the dyke needs mending where the buffalo crossed it.\" Everyone looks at Hai.",
+    "choices": [
+     {
+      "text": "Sneak off to fish before anyone asks",
+      "next": "end_bad",
+      "pts": 0
+     },
+     {
+      "text": "Replant the rows with the neighbours, and mend the dyke together",
+      "next": "end_good",
+      "pts": 2,
+      "effects": {
+       "team": 1
+      }
+     },
+     {
+      "text": "Offer a day of buffalo work in the neighbours' fields",
+      "next": "end_ok",
+      "pts": 1,
+      "effects": {
+       "team": 1
+      }
+     }
+    ]
+   },
+   "end_bad": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "boy",
+      "at": "left",
+      "pose": "slump"
+     },
+     {
+      "who": "aunt",
+      "at": "midleft"
+     }
+    ],
+    "text": "The fields are patched by evening, but not by Hai. The next time the pond rings with laughter, nobody looks his way.",
+    "end": true
+   },
+   "end_ok": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "boy",
+      "at": "midleft"
+     },
+     {
+      "who": "buffalo",
+      "at": "center"
+     },
+     {
+      "who": "aunt",
+      "at": "midright"
+     }
+    ],
+    "text": "A day of ploughing for the neighbours pays the debt, and the buffalo does the work gladly.",
+    "end": true
+   },
+   "end_good": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "teu",
+      "at": "left",
+      "pose": "cheer"
+     },
+     {
+      "who": "boy",
+      "at": "midleft",
+      "pose": "cheer"
+     },
+     {
+      "who": "aunt",
+      "at": "midright",
+      "pose": "cheer"
+     },
+     {
+      "who": "buffalo",
+      "at": "right"
+     }
+    ],
+    "text": "By dusk the rows are straight again and the dyke is stronger than before. Teu does a somersault in the water and the whole pond cheers.",
+    "end": true
+   }
+  },
+  "endings": [
+   {
+    "id": "none",
+    "stars": 0,
+    "headline": "A flattened field",
+    "text": "Mud, noise and no rice.",
+    "when": {
+     "flags": [
+      "pulled"
+     ],
+     "max": {
+      "wit": 0,
+      "team": 0
+     }
+    }
+   },
+   {
+    "id": "best",
+    "stars": 3,
+    "headline": "The whole pond cheers",
+    "text": "Patience, wit and many hands saved the rice.",
+    "when": {
+     "min": {
+      "wit": 2,
+      "team": 3
+     },
+     "notFlags": [
+      "pulled"
+     ]
+    }
+   },
+   {
+    "id": "good",
+    "stars": 2,
+    "headline": "The rice is saved",
+    "text": "A good plan, and a few lessons learned.",
+    "when": {
+     "min": {
+      "wit": 2
+     }
+    }
+   },
+   {
+    "id": "fine",
+    "stars": 1,
+    "headline": "A muddy morning"
+   }
+  ],
+  "look": {
+   "curtain": "#a8261c",
+   "wall": "#7a2a1c",
+   "floor": "#2a7a6a",
+   "far": "#4a1a12",
+   "near": "#c08a3a"
+  }
+ }
+}

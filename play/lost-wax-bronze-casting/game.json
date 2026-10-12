@@ -1,0 +1,13 @@
+{
+ "slug": "lost-wax-bronze-casting",
+ "title": "Lost-wax bronze casting",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

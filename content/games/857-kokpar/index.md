@@ -38,11 +38,11 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 ## Related entries
 
 - [Kok-boru](../../games/241-kok-boru/index.md)
+- [Buzkashi](../../games/226-buzkashi/index.md)
 - [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md)
 - [Rope pulling](../../games/855-rope-pulling/index.md)
 - [Kyz Kuu](../../games/858-kyz-kuu/index.md)
 - [Mheibes](../../games/158-mheibes/index.md)
-- [Steppe eagle hunting](../../games/254-steppe-eagle-hunting/index.md)
 
 ## Sources
 

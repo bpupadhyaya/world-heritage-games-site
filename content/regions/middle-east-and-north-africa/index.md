@@ -1,16 +1,16 @@
 ---
 title: "Middle East and North Africa"
-description: "95 entries."
+description: "100 entries."
 path: "/regions/middle-east-and-north-africa/"
-count: 95
+count: 100
 ---
 # Middle East and North Africa
 
-95 entries.
+100 entries.
 
 
 
-95 entries.
+100 entries.
 
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
 - [Al Talli Braid Embroidery](../../games/1273-al-talli-braid-embroidery/index.md): United Arab Emirates; Crafts and making; Living Traditions
@@ -26,6 +26,7 @@ count: 95
 - [Blind Man's Buff](../../games/467-blind-mans-buff/index.md): Turkey, India; Street and playground games; Modern Heritage
 - [Buzuq Long-Neck Lute](../../games/218-buzuq-long-neck-lute/index.md): Lebanon, Syria; Musical instruments; Crossroads and Golden Ages
 - [Cafe dominoes](../../games/690-cafe-dominoes/index.md): Egypt; Board and table games; Crossroads and Golden Ages
+- [Camel racing dash](../../games/19-camel-racing-dash/index.md): Jordan; Racing; Crossroads and Golden Ages
 - [Carrom](../../games/1059-carrom/index.md): Saudi Arabia, Oman; Board and table games; Crossroads and Golden Ages
 - [Chechia Felt-Cap Workshop](../../games/1254-chechia-felt-cap-workshop/index.md): Tunisia; Crafts and making; Living Traditions
 - [Chogan](../../games/810-chogan/index.md): Iran; Street and playground games; Classical Worlds
@@ -44,11 +45,15 @@ count: 95
 - [Hama Noria Waterwheels](../../games/1295-hama-noria-waterwheels/index.md): Syria; Puzzles and mind games; Modern Heritage
 - [Iznik tile painting](../../games/244-iznik-tile-painting/index.md): Turkey; Crafts and making; Living Traditions
 - [Jordanian Sand Bottle Art](../../games/219-jordanian-sand-bottle-art/index.md): Jordan; Crafts and making; Living Traditions
+- [Karagoz](../../games/38-karagoz/index.md): Turkey; Performance and storytelling; Classical Worlds
 - [Keffiyeh Pattern Loom](../../games/1310-keffiyeh-pattern-loom/index.md): Palestine; Crafts and making; Living Traditions
 - [Kharbaga](../../games/459-kharbaga/index.md): Morocco; Board and table games; Crossroads and Golden Ages
 - [Khatam inlay star pattern workshop](../../games/231-khatam-inlay-star-pattern-workshop/index.md): Iran; Crafts and making; Living Traditions
 - [Khayamiya Tentmaker Applique](../../games/217-khayamiya-tentmaker-applique/index.md): Egypt; Crafts and making; Living Traditions
+- [Lezginka](../../games/250-lezginka/index.md): Worldwide; Dances; Living Traditions
+- [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
 - [Mangala](../../games/1164-mangala/index.md): Turkey; Board and table games; Deep Past and First Games
+- [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md): Egypt, Syria; Crafts and making; Living Traditions
 - [Mezoued Bagpipe and Tabl Drum](../../games/1336-mezoued-bagpipe-and-tabl-drum/index.md): Tunisia; Musical instruments; Crossroads and Golden Ages
 - [Mheibes](../../games/158-mheibes/index.md): Iraq; Street and playground games; Modern Heritage
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md): Lebanon, Syria; Musical instruments; Living Traditions

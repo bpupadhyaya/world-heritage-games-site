@@ -44,8 +44,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md)
 - [Limbo](../../games/58-limbo/index.md)
 - [Gumboot dance rhythm](../../games/123-gumboot-dance-rhythm/index.md)
+- [Balkan Kolo](../../games/134-balkan-kolo/index.md)
 - [Tahtib](../../games/157-tahtib/index.md)
-- [Eskista](../../games/188-eskista/index.md)
 
 ## Sources
 

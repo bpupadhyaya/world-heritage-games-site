@@ -1,0 +1,222 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "free",
+  "root": 174.6,
+  "scale": "minor-pentatonic",
+  "lanes": [
+   {
+    "name": "F3",
+    "id": "f3",
+    "hz": 174.6,
+    "row": 0,
+    "timbre": "string",
+    "color": "#8b5a2b",
+    "dur": 1.0
+   },
+   {
+    "name": "Ab3",
+    "id": "ab3",
+    "hz": 207.7,
+    "row": 0,
+    "timbre": "string",
+    "color": "#a56a33",
+    "dur": 1.0
+   },
+   {
+    "name": "Bb3",
+    "id": "bb3",
+    "hz": 233.1,
+    "row": 0,
+    "timbre": "string",
+    "color": "#bd7f42",
+    "dur": 1.0
+   },
+   {
+    "name": "C4",
+    "id": "c4",
+    "hz": 261.6,
+    "row": 1,
+    "timbre": "string",
+    "color": "#c9a04a",
+    "dur": 1.0
+   },
+   {
+    "name": "Eb4",
+    "id": "eb4",
+    "hz": 311.1,
+    "row": 1,
+    "timbre": "string",
+    "color": "#dbb663",
+    "dur": 1.0
+   },
+   {
+    "name": "F4",
+    "id": "f4",
+    "hz": 349.2,
+    "row": 1,
+    "timbre": "string",
+    "color": "#ebcb82",
+    "dur": 1.0
+   },
+   {
+    "name": "Ab4",
+    "id": "ab4",
+    "hz": 415.3,
+    "row": 1,
+    "timbre": "string",
+    "color": "#f5dca3",
+    "dur": 1.0
+   }
+  ],
+  "duration": 60,
+  "subdivision": 2,
+  "drone": true,
+  "guide": true,
+  "tolerance": 1.4,
+  "songs": [
+   {
+    "name": "Long song phrase, slow",
+    "bpm": 54,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "f3",
+      "len": 1.6
+     },
+     {
+      "beat": 2.0,
+      "lane": "ab3",
+      "len": 1.6
+     },
+     {
+      "beat": 4.0,
+      "lane": "bb3",
+      "len": 1.6
+     },
+     {
+      "beat": 6.0,
+      "lane": "c4",
+      "len": 1.6
+     },
+     {
+      "beat": 8.0,
+      "lane": "eb4",
+      "len": 1.6
+     },
+     {
+      "beat": 10.0,
+      "lane": "c4",
+      "len": 1.6
+     },
+     {
+      "beat": 12.0,
+      "lane": "bb3",
+      "len": 1.6
+     },
+     {
+      "beat": 14.0,
+      "lane": "f3",
+      "len": 1.6
+     }
+    ]
+   },
+   {
+    "name": "Horse gallop figure",
+    "bpm": 100,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "c4"
+     },
+     {
+      "beat": 0.5,
+      "lane": "c4"
+     },
+     {
+      "beat": 1.0,
+      "lane": "eb4"
+     },
+     {
+      "beat": 2.0,
+      "lane": "c4"
+     },
+     {
+      "beat": 2.5,
+      "lane": "c4"
+     },
+     {
+      "beat": 3.0,
+      "lane": "f4"
+     },
+     {
+      "beat": 4.0,
+      "lane": "c4"
+     },
+     {
+      "beat": 4.5,
+      "lane": "c4"
+     },
+     {
+      "beat": 5.0,
+      "lane": "ab3"
+     },
+     {
+      "beat": 6.0,
+      "lane": "bb3"
+     },
+     {
+      "beat": 6.5,
+      "lane": "bb3"
+     },
+     {
+      "beat": 7.0,
+      "lane": "f3"
+     }
+    ]
+   },
+   {
+    "name": "Open fifth call",
+    "bpm": 72,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "f3"
+     },
+     {
+      "beat": 1.0,
+      "lane": "c4"
+     },
+     {
+      "beat": 2.0,
+      "lane": "eb4"
+     },
+     {
+      "beat": 3.0,
+      "lane": "c4"
+     },
+     {
+      "beat": 4.0,
+      "lane": "bb3"
+     },
+     {
+      "beat": 5.0,
+      "lane": "c4"
+     },
+     {
+      "beat": 6.0,
+      "lane": "ab4"
+     },
+     {
+      "beat": 7.0,
+      "lane": "f4"
+     }
+    ]
+   }
+  ]
+ }
+}

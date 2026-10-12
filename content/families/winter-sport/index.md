@@ -1,17 +1,18 @@
 ---
 title: "Winter sports"
-description: "45 related traditions."
+description: "49 related traditions."
 path: "/families/winter-sport/"
-count: 45
+count: 49
 ---
 # Winter sports
 
-45 related traditions.
+49 related traditions.
 
 
 
-45 entries.
+49 entries.
 
+- ['Ulu Maika](../../games/44-ulu-maika/index.md): United States; Dexterity and skill games; Age of Contact and Craft
 - [Axe throwing](../../games/442-axe-throwing/index.md): Canada, United States; Dexterity and skill games; Modern Heritage
 - [Bagatelle](../../games/72-bagatelle/index.md): France, United Kingdom; Dexterity and skill games; Modern Heritage
 - [Bamboo scaffold builder](../../games/369-bamboo-scaffold-builder/index.md): China; Crafts and making; Living Traditions
@@ -20,6 +21,7 @@ count: 45
 - [Bedouin Coffee Pour](../../games/1240-bedouin-coffee-pour/index.md): Jordan; Crafts and making; Living Traditions
 - [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md): India; Dexterity and skill games; Modern Heritage
 - [Bridge Stick Race](../../games/468-bridge-stick-race/index.md): United Kingdom; Toys; Modern Heritage
+- [Canal ice-skating marathon](../../games/84-canal-ice-skating-marathon/index.md): Netherlands; Racing; Age of Contact and Craft
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md): United Kingdom, Canada; Dexterity and skill games; Age of Contact and Craft
 - [Chinlone](../../games/16-chinlone/index.md): Myanmar; Dexterity and skill games; Modern Heritage
 - [Crossbow Target Match](../../games/1367-crossbow-target-match/index.md): Italy, San Marino; Dexterity and skill games; Modern Heritage
@@ -41,6 +43,7 @@ count: 45
 - [Kottabos Symposium Toss](../../games/392-kottabos-symposium-toss/index.md): Greece; Archery, throwing and target games; Classical Worlds
 - [Luge and toboggan run](../../games/482-luge-and-toboggan-run/index.md): Worldwide; Racing; Age of Contact and Craft
 - [Malha](../../games/1466-malha/index.md): Portugal; Archery, throwing and target games; Classical Worlds
+- [Mallakhamb](../../games/150-mallakhamb/index.md): India; Dexterity and skill games; Modern Heritage
 - [Maple taffy on snow](../../games/441-maple-taffy-on-snow/index.md): Canada; Crafts and making; Living Traditions
 - [Namib dune sandboarding](../../games/1345-namib-dune-sandboarding/index.md): Namibia; Dexterity and skill games; Modern Heritage
 - [Neon sign bender](../../games/371-neon-sign-bender/index.md): China; Crafts and making; Living Traditions
@@ -51,6 +54,7 @@ count: 45
 - [Skijoring](../../games/490-skijoring/index.md): Worldwide; Sports with animal partners; Classical Worlds
 - [Sled dog race](../../games/62-sled-dog-race/index.md): United States, Canada; Racing; Age of Contact and Craft
 - [Takoyaki-style ball flipping](../../games/352-takoyaki-style-ball-flipping/index.md): Japan; Dexterity and skill games; Modern Heritage
+- [Tent pegging](../../games/78-tent-pegging/index.md): Pakistan, India; Dexterity and skill games; Modern Heritage
 - [Tractor pull](../../games/440-tractor-pull/index.md): United States, Canada; Puzzles and mind games; Modern Heritage
 - [Varpa](../../games/1396-varpa/index.md): Sweden; Dexterity and skill games; Modern Heritage
 - [Wire car](../../games/85-wire-car/index.md): Worldwide; Crafts and making; Living Traditions

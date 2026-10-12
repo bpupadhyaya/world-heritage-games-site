@@ -1,16 +1,16 @@
 ---
 title: "Crafts and making"
-description: "263 traditions of this kind."
+description: "266 traditions of this kind."
 path: "/types/craft/"
-count: 263
+count: 266
 ---
 # Crafts and making
 
-263 traditions of this kind.
+266 traditions of this kind.
 
 
 
-263 entries.
+266 entries.
 
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md): Ghana, Cote d'Ivoire; Crafts and making; Living Traditions
 - [Adire indigo resist dyeing](../../games/87-adire-indigo-resist-dyeing/index.md): Nigeria; Crafts and making; Living Traditions
@@ -84,7 +84,6 @@ count: 263
 - [Dakar Car Rapide Livery Painter](../../games/1263-dakar-car-rapide-livery-painter/index.md): Senegal; Crafts and making; Living Traditions
 - [Dala Horse Painting](../../games/415-dala-horse-painting/index.md): Sweden; Crafts and making; Living Traditions
 - [Damascus Mother-of-Pearl Inlay](../../games/223-damascus-mother-of-pearl-inlay/index.md): Syria; Crafts and making; Living Traditions
-- [Dara](../../games/452-dara/index.md): Nigeria, Niger; Crafts and making; Living Traditions
 - [Dhaka rickshaw art](../../games/295-dhaka-rickshaw-art/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Dhaka weave pattern loom](../../games/115-dhaka-weave-pattern-loom/index.md): Nepal; Crafts and making; Living Traditions
 - [Dhokra lost-wax casting](../../games/278-dhokra-lost-wax-casting/index.md): Bangladesh; Crafts and making; Living Traditions
@@ -96,6 +95,7 @@ count: 263
 - [Dumpling Pleating](../../games/499-dumpling-pleating/index.md): China, Nepal; Crafts and making; Living Traditions
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md): Turkey; Crafts and making; Living Traditions
 - [Faso Dan Fani Strip Weaving](../../games/1277-faso-dan-fani-strip-weaving/index.md): Burkina Faso; Crafts and making; Living Traditions
+- [Fufu Pounding Rhythm](../../games/175-fufu-pounding-rhythm/index.md): Ghana, Nigeria; Crafts and making; Living Traditions
 - [Furoshiki](../../games/351-furoshiki/index.md): Japan; Crafts and making; Living Traditions
 - [Gallarija Balcony Builder](../../games/1286-gallarija-balcony-builder/index.md): Malta; Crafts and making; Living Traditions
 - [Gambian Oyster Harvest](../../games/1287-gambian-oyster-harvest/index.md): Gambia; Crafts and making; Living Traditions
@@ -164,13 +164,16 @@ count: 263
 - [Luk chup](../../games/307-luk-chup/index.md): Thailand; Crafts and making; Living Traditions
 - [Lukasa memory board pattern game](../../games/197-lukasa-memory-board-pattern-game/index.md): Worldwide; Crafts and making; Living Traditions
 - [Luzzu Boat Painter](../../games/1330-luzzu-boat-painter/index.md): Malta; Crafts and making; Living Traditions
+- [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
 - [Macau Portuguese Custard Tart Bake](../../games/1471-macau-portuguese-custard-tart-bake/index.md): Portugal, China; Crafts and making; Living Traditions
+- [Macau wave pavement](../../games/372-macau-wave-pavement/index.md): Portugal; Crafts and making; Living Traditions
 - [Maedeup](../../games/1468-maedeup/index.md): South Korea; Crafts and making; Living Traditions
 - [Makonde ebony carving](../../games/1331-makonde-ebony-carving/index.md): Tanzania, Mozambique; Crafts and making; Living Traditions
 - [Malagasy lamba silk weaving](../../games/206-malagasy-lamba-silk-weaving/index.md): Worldwide; Crafts and making; Living Traditions
 - [Maldivian lacquer work](../../games/1328-maldivian-lacquer-work/index.md): Maldives; Crafts and making; Living Traditions
 - [Maple taffy on snow](../../games/441-maple-taffy-on-snow/index.md): Canada; Crafts and making; Living Traditions
 - [Masaya Hammock Weaving](../../games/1473-masaya-hammock-weaving/index.md): Nicaragua; Crafts and making; Living Traditions
+- [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md): Egypt, Syria; Crafts and making; Living Traditions
 - [Masi bark-cloth stencil printing](../../games/1279-masi-bark-cloth-stencil-printing/index.md): Fiji; Crafts and making; Living Traditions
 - [Mate Pouring](../../games/1418-mate-pouring/index.md): Argentina; Crafts and making; Living Traditions
 - [Matryoshka](../../games/28-matryoshka/index.md): Russia; Crafts and making; Living Traditions

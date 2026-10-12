@@ -40,12 +40,12 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
+- [Castells](../../games/119-castells/index.md)
+- [Flag Tossing](../../games/395-flag-tossing/index.md)
 - [Euclid's Ruler and Compass](../../games/396-euclids-ruler-and-compass/index.md)
 - [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md)
 - [Portolan Chart Navigator](../../games/503-portolan-chart-navigator/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
-- [Stone Skipping](../../games/5-stone-skipping/index.md)
-- [Disc-flip](../../games/8-disc-flip/index.md)
 
 ## Sources
 

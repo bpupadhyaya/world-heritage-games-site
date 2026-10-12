@@ -1,0 +1,27 @@
+{
+ "title": "Batik pattern studio",
+ "native": "Batik tulis",
+ "alt": [
+  "Wax-resist dyeing",
+  "Hand-drawn batik"
+ ],
+ "summary": "Batik is cloth patterned by resisting dye with wax: a maker draws lines and dots of hot wax with a small copper pen called a canting, dips the cloth in a dye bath, then boils or scrapes the wax away, leaving the pattern in the colour the wax protected. Diagonal bands, circle lattices and many-petalled medallions are classic layouts.",
+ "howToPlay": [
+  "Pick a dye colour and a motif from the tray beside the cloth.",
+  "Tap a square to draw it: the same motif is turned half way round on the opposite side of the cloth.",
+  "Copy the small cloth shown above, then press Check."
+ ],
+ "rules": [
+  "The cloth repeats itself when turned half way round, as many diagonal batik layouts do.",
+  "A square counts only when its motif and its colour both match the target.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Batik is made across Java and other parts of Indonesia, and in Malaysia. Skills are taught in workshops and families, from the first wax lines with the canting to the final dye baths.",
+ "countries": [
+  "Indonesia",
+  "Malaysia"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

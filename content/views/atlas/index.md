@@ -9,14 +9,14 @@ default: false
 
 Era chapters with photo cards: a journey from the first stone games to today.
 
-This is one of 4 views of the same 1,090 entries. The interactive view needs JavaScript; below is the same material as plain links.
+This is one of 4 views of the same 1,127 entries. The interactive view needs JavaScript; below is the same material as plain links.
 
-1. [Deep Past and First Games](../../eras/deep-past/index.md) (before about 3000 BCE): Games began with what lay to hand: knucklebones, pebbles, seeds and a patch of ground. 103 entries.
+1. [Deep Past and First Games](../../eras/deep-past/index.md) (before about 3000 BCE): Games began with what lay to hand: knucklebones, pebbles, seeds and a patch of ground. 104 entries.
 2. [River Valleys and First Cities](../../eras/river-valleys/index.md) (about 3000 to 1000 BCE): Games came with the first cities: boards for kings, dice for markets, and rules written down. 65 entries.
-3. [Classical Worlds](../../eras/classical/index.md) (about 1000 BCE to 500 CE): Empires and academies turned play into sport, strategy and art. 108 entries.
-4. [Crossroads and Golden Ages](../../eras/crossroads/index.md) (about 500 to 1500): Along the Silk Road and the sea lanes, games, instruments and crafts travelled and changed. 131 entries.
-5. [Age of Contact and Craft](../../eras/contact/index.md) (about 1500 to 1800): Trade and empire carried pastimes across oceans while village traditions took their lasting shape. 79 entries.
-6. [Modern Heritage](../../eras/modern/index.md) (1800 to today): Street games, national sports and revivals: heritage that people are still playing in their own lifetimes. 257 entries.
-7. [Living Traditions](../../eras/living/index.md) (undated): Crafts, instruments and dances handed from hand to hand, too old or too continuous to date. 347 entries.
+3. [Classical Worlds](../../eras/classical/index.md) (about 1000 BCE to 500 CE): Empires and academies turned play into sport, strategy and art. 113 entries.
+4. [Crossroads and Golden Ages](../../eras/crossroads/index.md) (about 500 to 1500): Along the Silk Road and the sea lanes, games, instruments and crafts travelled and changed. 135 entries.
+5. [Age of Contact and Craft](../../eras/contact/index.md) (about 1500 to 1800): Trade and empire carried pastimes across oceans while village traditions took their lasting shape. 82 entries.
+6. [Modern Heritage](../../eras/modern/index.md) (1800 to today): Street games, national sports and revivals: heritage that people are still playing in their own lifetimes. 267 entries.
+7. [Living Traditions](../../eras/living/index.md) (undated): Crafts, instruments and dances handed from hand to hand, too old or too continuous to date. 361 entries.
 
 Other views: [Mosaic](../../views/mosaic/index.md) · [River of Time](../../views/river/index.md) · [List](../../views/list/index.md)

@@ -1,0 +1,159 @@
+{
+ "engine": "bout",
+ "params": {
+  "level": 2,
+  "rounds": {
+   "count": 3,
+   "time": 30
+  },
+  "exchangeTime": 3,
+  "scoring": {
+   "fall": 5,
+   "pushOut": 6,
+   "fallEndsRound": true,
+   "fallLabel": "Down",
+   "mercy": 7
+  },
+  "ring": {
+   "kind": "sand",
+   "pushOut": true
+  },
+  "grip": {
+   "enabled": true,
+   "label": "Waist hold",
+   "start": 30
+  },
+  "timing": {
+   "period": 1.4,
+   "window": 0.21,
+   "tempo": 2.6
+  },
+  "setting": {
+   "sky": [
+    "#f7d79c",
+    "#fdecc8"
+   ],
+   "ground": "#e5c98c",
+   "backdrop": "none",
+   "far": "#c79a58",
+   "ringFill": "#efd9a6",
+   "ringEdge": "#7a4b1c",
+   "ringStyle": "none",
+   "crowd": true
+  },
+  "fighters": {
+   "you": {
+    "name": "You",
+    "color": "#1e3f8f",
+    "trim": "#f2c14e"
+   },
+   "rival": {
+    "name": "Mb\u00ebr",
+    "color": "#b8341f",
+    "trim": "#f2c14e"
+   }
+  },
+  "moves": [
+   {
+    "id": "hold",
+    "name": "Waist wrap",
+    "kind": "grip",
+    "speed": 2,
+    "cost": 7,
+    "power": 9,
+    "pose": "grip",
+    "beats": [
+     "lift",
+     "hook"
+    ],
+    "gripGain": 30,
+    "gripBreak": 6
+   },
+   {
+    "id": "lift",
+    "name": "Hip lift",
+    "kind": "throw",
+    "speed": 1,
+    "cost": 15,
+    "power": 28,
+    "pose": "lift",
+    "beats": [
+     "hook",
+     "drive"
+    ],
+    "points": 3,
+    "needs": 65,
+    "push": 0.3,
+    "gripNeed": 30
+   },
+   {
+    "id": "hook",
+    "name": "Ankle hook",
+    "kind": "throw",
+    "speed": 2,
+    "cost": 10,
+    "power": 20,
+    "pose": "sweep",
+    "beats": [
+     "drive",
+     "slip"
+    ],
+    "points": 2,
+    "needs": 85
+   },
+   {
+    "id": "drive",
+    "name": "Drive forward",
+    "kind": "push",
+    "speed": 3,
+    "cost": 9,
+    "power": 12,
+    "pose": "push",
+    "beats": [
+     "slip",
+     "turn"
+    ],
+    "push": 0.5
+   },
+   {
+    "id": "slip",
+    "name": "Slip and pull",
+    "kind": "push",
+    "speed": 3,
+    "cost": 8,
+    "power": 14,
+    "pose": "step",
+    "beats": [
+     "turn",
+     "hold"
+    ],
+    "points": 1,
+    "gripBreak": 14
+   },
+   {
+    "id": "turn",
+    "name": "Turn under the arm",
+    "kind": "guard",
+    "speed": 2,
+    "cost": 6,
+    "power": 8,
+    "pose": "turn",
+    "beats": [
+     "hold",
+     "lift"
+    ],
+    "steady": 9
+   },
+   {
+    "id": "breathe",
+    "name": "Breathe",
+    "kind": "rest",
+    "speed": 1,
+    "cost": -12,
+    "power": 0,
+    "pose": "rest",
+    "beats": []
+   }
+  ]
+ }
+}

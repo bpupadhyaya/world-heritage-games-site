@@ -46,10 +46,10 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 - [Geomungo](../../games/1453-geomungo/index.md)
 - [Morin khuur](../../games/34-morin-khuur/index.md)
+- [String Marionette Theatre](../../games/68-string-marionette-theatre/index.md)
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md)
 - [Valiha tube zither](../../games/124-valiha-tube-zither/index.md)
 - [Krar lyre](../../games/126-krar-lyre/index.md)
-- [Joropo llanero band](../../games/130-joropo-llanero-band/index.md)
 
 ## Sources
 

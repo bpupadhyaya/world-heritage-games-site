@@ -1,0 +1,145 @@
+{
+ "engine": "bout",
+ "params": {
+  "level": 2,
+  "rounds": {
+   "count": 3,
+   "time": 40
+  },
+  "exchangeTime": 3,
+  "scoring": {
+   "fall": 10,
+   "fallEndsRound": true,
+   "fallLabel": "Pin"
+  },
+  "ring": {
+   "kind": "mud",
+   "pushOut": false
+  },
+  "grip": {
+   "enabled": true,
+   "label": "Hold",
+   "start": 35
+  },
+  "timing": {
+   "period": 1.5,
+   "window": 0.2,
+   "tempo": 2.8
+  },
+  "setting": {
+   "sky": [
+    "#efc489",
+    "#f6dcae"
+   ],
+   "ground": "#8e5f3a",
+   "backdrop": "posts",
+   "far": "#9a4a28",
+   "ringFill": "#8a3f22",
+   "ringEdge": "#e8d9ae",
+   "ringStyle": "none",
+   "crowd": false
+  },
+  "fighters": {
+   "you": {
+    "name": "You",
+    "color": "#b83a2a",
+    "trim": "#f2c14e"
+   },
+   "rival": {
+    "name": "Pehlwan",
+    "color": "#2b6a8e",
+    "trim": "#f5efe0"
+   }
+  },
+  "moves": [
+   {
+    "id": "tieup",
+    "name": "Collar and arm tie-up",
+    "kind": "grip",
+    "speed": 2,
+    "cost": 6,
+    "power": 8,
+    "gripGain": 32,
+    "gripBreak": 6,
+    "pose": "grip",
+    "beats": [
+     "dhobi",
+     "tang"
+    ]
+   },
+   {
+    "id": "dhobi",
+    "name": "Dhobi pat (hip throw)",
+    "kind": "throw",
+    "speed": 1,
+    "cost": 14,
+    "power": 28,
+    "points": 4,
+    "needs": 65,
+    "gripNeed": 30,
+    "pose": "turn",
+    "beats": [
+     "tang",
+     "dhak"
+    ]
+   },
+   {
+    "id": "tang",
+    "name": "Tang (leg trip)",
+    "kind": "throw",
+    "speed": 2,
+    "cost": 10,
+    "power": 20,
+    "points": 2,
+    "needs": 85,
+    "pose": "sweep",
+    "beats": [
+     "dhak",
+     "bagal"
+    ]
+   },
+   {
+    "id": "dhak",
+    "name": "Dhak (body flip)",
+    "kind": "throw",
+    "speed": 1,
+    "cost": 16,
+    "power": 32,
+    "points": 5,
+    "needs": 55,
+    "gripNeed": 40,
+    "pose": "lift",
+    "beats": [
+     "bagal",
+     "tieup"
+    ]
+   },
+   {
+    "id": "bagal",
+    "name": "Bagal dub (underarm lock)",
+    "kind": "grip",
+    "speed": 2,
+    "cost": 9,
+    "power": 14,
+    "points": 1,
+    "gripGain": 15,
+    "gripBreak": 22,
+    "pose": "low",
+    "beats": [
+     "tieup",
+     "dhobi"
+    ]
+   },
+   {
+    "id": "breathe",
+    "name": "Breathe",
+    "kind": "rest",
+    "speed": 1,
+    "cost": -12,
+    "power": 0,
+    "pose": "rest",
+    "beats": []
+   }
+  ]
+ }
+}

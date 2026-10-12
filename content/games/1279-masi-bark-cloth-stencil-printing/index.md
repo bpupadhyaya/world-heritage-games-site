@@ -40,12 +40,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Ukulele strum-along](../../games/144-ukulele-strum-along/index.md)
 - [Lei making](../../games/449-lei-making/index.md)
 - [Pandanus mat plaiting](../../games/1313-pandanus-mat-plaiting/index.md)
 - [Ngatu bark-cloth pattern rubbing](../../games/1385-ngatu-bark-cloth-pattern-rubbing/index.md)
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md)
 - [Ndebele geometric wall painting](../../games/23-ndebele-geometric-wall-painting/index.md)
-- [Chinese knotting](../../games/26-chinese-knotting/index.md)
 
 ## Sources
 

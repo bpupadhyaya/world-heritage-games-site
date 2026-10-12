@@ -1,0 +1,13 @@
+{
+ "slug": "kushti-pehlwani-mud-wrestling",
+ "title": "Kushti earth-pit wrestling",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

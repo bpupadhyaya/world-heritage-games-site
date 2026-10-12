@@ -41,10 +41,10 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Santur Hammer Strings](../../games/138-santur-hammer-strings/index.md)
 - [Persian Carpet Knotting](../../games/161-persian-carpet-knotting/index.md)
+- [Kamancha](../../games/165-kamancha/index.md)
 - [Muqarnas stalactite vault builder](../../games/228-muqarnas-stalactite-vault-builder/index.md)
 - [Khatam inlay star pattern workshop](../../games/231-khatam-inlay-star-pattern-workshop/index.md)
 - [Tombak goblet drum rhythms](../../games/233-tombak-goblet-drum-rhythms/index.md)
-- [Persian garden layout puzzle](../../games/239-persian-garden-layout-puzzle/index.md)
 
 ## Sources
 

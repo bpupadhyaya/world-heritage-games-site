@@ -1,0 +1,110 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "rot4-mirror",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Gold",
+    "color": "#d9a521"
+   },
+   {
+    "name": "Green",
+    "color": "#2f8f58"
+   },
+   {
+    "name": "Red",
+    "color": "#b3322a"
+   },
+   {
+    "name": "Cream",
+    "color": "#f1e8d0"
+   }
+  ],
+  "background": "#13211a",
+  "grid": "#243a2e",
+  "motifs": [
+   "knot",
+   "ring",
+   "diamond",
+   "dot",
+   "cross"
+  ],
+  "designs": [
+   {
+    "name": "Border and centre",
+    "rows": [
+     "a.b.e.b.a",
+     ".cdd.ddc.",
+     "bda.b.adb",
+     ".d.c.c.d.",
+     "e.b.a.b.e",
+     ".d.c.c.d.",
+     "bda.b.adb",
+     ".cdd.ddc.",
+     "a.b.e.b.a"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "e": {
+      "m": 4,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Four knots",
+    "rows": [
+     "d..d.d..d",
+     ".a.bdb.a.",
+     "..a.e.a..",
+     "db.a.a.bd",
+     ".de.c.ed.",
+     "db.a.a.bd",
+     "..a.e.a..",
+     ".a.bdb.a.",
+     "d..d.d..d"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "e": {
+      "m": 4,
+      "c": 0
+     }
+    }
+   }
+  ]
+ }
+}

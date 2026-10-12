@@ -38,14 +38,18 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - **Cradle:** [Mediterranean](../../cradles/mediterranean/index.md)
 - **Region:** Europe
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Tuvan Throat Singing](../../games/508-tuvan-throat-singing/index.md)
 - [Finger Hooking](../../games/1452-finger-hooking/index.md)
 - [Sicilian Puppet Knights](../../games/514-sicilian-puppet-knights/index.md)
+- [Elastic Jump](../../games/6-elastic-jump/index.md)
 - [Double Dutch](../../games/53-double-dutch/index.md)
 - [Tbourida](../../games/164-tbourida/index.md)
-- [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md)
 
 ## Sources
 

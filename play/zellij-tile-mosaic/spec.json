@@ -1,0 +1,140 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "rot4-mirror",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Cobalt",
+    "color": "#2a5db0"
+   },
+   {
+    "name": "Green",
+    "color": "#2c9a68"
+   },
+   {
+    "name": "Saffron",
+    "color": "#e3b02f"
+   },
+   {
+    "name": "White",
+    "color": "#f4efe2"
+   }
+  ],
+  "background": "#1b1612",
+  "grid": "#3a2f26",
+  "motifs": [
+   "star",
+   "hexagon",
+   "diamond",
+   "ring",
+   "solid",
+   "triangle"
+  ],
+  "designs": [
+   {
+    "name": "Star and cross",
+    "rows": [
+     "c.a.c.a.c",
+     ".b.b.b.b.",
+     "a.d.a.d.a",
+     ".b.b.b.b.",
+     "c.a.e.a.c",
+     ".b.b.b.b.",
+     "a.d.a.d.a",
+     ".b.b.b.b.",
+     "c.a.c.a.c"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 2
+     },
+     "b": {
+      "m": 2,
+      "c": 0
+     },
+     "c": {
+      "m": 1,
+      "c": 1
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "e": {
+      "m": 0,
+      "c": 3
+     }
+    }
+   },
+   {
+    "name": "Nested medallion",
+    "rows": [
+     "aaaaaaaaa",
+     "abbbbbbba",
+     "abcccccba",
+     "abcdddcba",
+     "abcdedcba",
+     "abcdddcba",
+     "abcccccba",
+     "abbbbbbba",
+     "aaaaaaaaa"
+    ],
+    "legend": {
+     "a": {
+      "m": 1,
+      "c": 1
+     },
+     "b": {
+      "m": 2,
+      "c": 3
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "e": {
+      "m": 0,
+      "c": 3
+     }
+    }
+   },
+   {
+    "name": "Chequered stars",
+    "rows": [
+     "acacacaca",
+     "cbcbcbcbc",
+     "acacacaca",
+     "cbcbcbcbc",
+     "acacacaca",
+     "cbcbcbcbc",
+     "acacacaca",
+     "cbcbcbcbc",
+     "acacacaca"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 2
+     },
+     "b": {
+      "m": 0,
+      "c": 0
+     },
+     "c": {
+      "m": 2,
+      "c": 1
+     }
+    }
+   }
+  ],
+  "rotateMarks": true
+ }
+}

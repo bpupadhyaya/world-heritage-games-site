@@ -1,0 +1,13 @@
+{
+ "slug": "cross-stitch-pattern-weaving",
+ "title": "Cross-stitch pattern weaving",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

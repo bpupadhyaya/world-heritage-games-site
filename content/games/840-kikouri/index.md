@@ -40,8 +40,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Duo](../../games/838-duo/index.md)
 - [Fohr](../../games/839-fohr/index.md)
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md)
+- [Balafon Gourd Xylophone](../../games/168-balafon-gourd-xylophone/index.md)
 - [Sahel Salt Caravan](../../games/172-sahel-salt-caravan/index.md)
-- [Queah](../../games/885-queah/index.md)
 
 ## Sources
 

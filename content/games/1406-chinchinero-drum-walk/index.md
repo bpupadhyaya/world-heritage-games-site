@@ -40,12 +40,12 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
+- [Sega ravanne drum](../../games/199-sega-ravanne-drum/index.md)
 - [Bandoneon and tango rhythm](../../games/426-bandoneon-and-tango-rhythm/index.md)
 - [Emboque](../../games/629-emboque/index.md)
 - [Murga Uruguaya Carnival Troupe](../../games/1419-murga-uruguaya-carnival-troupe/index.md)
 - [Chilean Rayuela](../../games/1427-chilean-rayuela/index.md)
 - [Steelpan](../../games/31-steelpan/index.md)
-- [Mbira](../../games/32-mbira/index.md)
 
 ## Sources
 

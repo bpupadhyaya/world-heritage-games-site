@@ -1,0 +1,12 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "bend",
+  "figure": "car",
+  "tolerance": 0.06,
+  "wireColor": "#d9b45a",
+  "wheelColor": "#7a828c",
+  "guide": true,
+  "variation": 1
+ }
+}

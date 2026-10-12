@@ -1,0 +1,27 @@
+{
+ "title": "Truck art panel",
+ "native": "ٹرک آرٹ",
+ "alt": [
+  "Pakistani truck painting",
+  "Truck art"
+ ],
+ "summary": "Truck art is the lavish painted decoration of lorries and buses across Pakistan: painters cover tailgates, doors and roofs with bright flowers, birds, arches and bands of shining tape. Each panel is arranged around a centre line, with matching flowers on the left and right.",
+ "howToPlay": [
+  "Choose a paint colour and a motif from the tray under the panel.",
+  "Tap a square to paint it: the same motif appears on the matching square on the other side of the panel.",
+  "Copy the small panel shown above, then press Check."
+ ],
+ "rules": [
+  "The panel is a mirror image left to right, as a tailgate is.",
+  "A square counts only when its motif and its colour both match the target.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Truck painting is practised in workshops in Karachi, Rawalpindi, Peshawar and other cities of Pakistan, and in parts of India. Painters often learn from family and work to the taste of the owner, with different cities favouring their own styles.",
+ "countries": [
+  "Pakistan",
+  "India"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

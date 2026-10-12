@@ -1,16 +1,16 @@
 ---
 title: "China"
-description: "50 traditions from China."
+description: "52 traditions from China."
 path: "/countries/china/"
-count: 50
+count: 52
 ---
 # China
 
-50 traditions from China.
+52 traditions from China.
 
 
 
-50 entries.
+52 entries.
 
 - [Bamboo scaffold builder](../../games/369-bamboo-scaffold-builder/index.md): China; Crafts and making; Living Traditions
 - [Banqi](../../games/1437-banqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages
@@ -26,6 +26,7 @@ count: 50
 - [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md): China; Racing; Crossroads and Golden Ages
 - [Dranyen](../../games/300-dranyen/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Dumpling Pleating](../../games/499-dumpling-pleating/index.md): China, Nepal; Crafts and making; Living Traditions
+- [Elastic Jump](../../games/6-elastic-jump/index.md): China; Street and playground games; Modern Heritage
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Fan-tan](../../games/900-fan-tan/index.md): China; Other traditions; Living Traditions
 - [Go](../../games/634-go/index.md): China, Japan; Board and table games; Classical Worlds
@@ -33,6 +34,7 @@ count: 50
 - [Hong Kong Milk Tea Pulling](../../games/1463-hong-kong-milk-tea-pulling/index.md): China; Crafts and making; Living Traditions
 - [Hoop Rolling Trundle](../../games/69-hoop-rolling-trundle/index.md): China; Street and playground games; Modern Heritage
 - [Huarong Dao](../../games/639-huarong-dao/index.md): China; Water and winter sports; Modern Heritage
+- [Jianzi](../../games/1-jianzi/index.md): China, Vietnam; Dexterity and skill games; Modern Heritage
 - [Lamian](../../games/340-lamian/index.md): China; Crafts and making; Living Traditions
 - [Liubo](../../games/331-liubo/index.md): China; Board and table games; River Valleys and First Cities
 - [Lo Shu Magic Square](../../games/111-lo-shu-magic-square/index.md): China; Puzzles and mind games; Age of Contact and Craft

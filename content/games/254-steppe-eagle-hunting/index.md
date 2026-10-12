@@ -38,14 +38,18 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - **Cradle:** [Steppe and Arctic](../../cradles/steppe-arctic/index.md)
 - **Region:** South and Central Asia
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Mheibes](../../games/158-mheibes/index.md)
 - [Ger raising](../../games/101-ger-raising/index.md)
+- [Buzkashi](../../games/226-buzkashi/index.md)
 - [Kok-boru](../../games/241-kok-boru/index.md)
 - [Pilolo](../../games/750-pilolo/index.md)
 - [Lambs and Tigers](../../games/791-lambs-and-tigers/index.md)
-- [Kokpar](../../games/857-kokpar/index.md)
 
 ## Sources
 

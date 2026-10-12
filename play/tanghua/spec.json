@@ -1,0 +1,180 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "mirror-x",
+  "palette": [
+   {
+    "name": "Honey",
+    "color": "#e8a21a"
+   },
+   {
+    "name": "Amber",
+    "color": "#d2700c"
+   },
+   {
+    "name": "Caramel",
+    "color": "#8a3f08"
+   }
+  ],
+  "background": "#efe9dc",
+  "grid": "#d6cfbf",
+  "motifs": [
+   "wave",
+   "spiral",
+   "zigzag",
+   "leaf",
+   "ring",
+   "dot"
+  ],
+  "designs": [
+   {
+    "name": "Butterfly",
+    "rows": [
+     "...D.D...",
+     "..lZdZl..",
+     ".SzLrLzS.",
+     ".sZ.D.Zs.",
+     "..ZWdWZ..",
+     ".sZ.D.Zs.",
+     ".SzLrLzS.",
+     "..lZdZl..",
+     "...D.D..."
+    ],
+    "legend": {
+     "W": {
+      "m": 0,
+      "c": 2
+     },
+     "s": {
+      "m": 1,
+      "c": 1
+     },
+     "S": {
+      "m": 1,
+      "c": 2
+     },
+     "z": {
+      "m": 2,
+      "c": 0
+     },
+     "Z": {
+      "m": 2,
+      "c": 1
+     },
+     "l": {
+      "m": 3,
+      "c": 2
+     },
+     "L": {
+      "m": 3,
+      "c": 1
+     },
+     "r": {
+      "m": 4,
+      "c": 1
+     },
+     "d": {
+      "m": 5,
+      "c": 2
+     },
+     "D": {
+      "m": 5,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Peony",
+    "rows": [
+     ".........",
+     "..R.l.R..",
+     ".lsRsRsl.",
+     "lsRrSrRsl",
+     ".srSRSrs.",
+     "lsRrSrRsl",
+     ".lsRsRsl.",
+     "..R.l.R..",
+     "....d...."
+    ],
+    "legend": {
+     "s": {
+      "m": 1,
+      "c": 1
+     },
+     "S": {
+      "m": 1,
+      "c": 2
+     },
+     "l": {
+      "m": 3,
+      "c": 2
+     },
+     "r": {
+      "m": 4,
+      "c": 1
+     },
+     "R": {
+      "m": 4,
+      "c": 0
+     },
+     "d": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Lantern",
+    "rows": [
+     "....d....",
+     "..wZdZw..",
+     ".wZrDrZw.",
+     ".ZsRWRsZ.",
+     "wZ.rdr.Zw",
+     ".ZsRWRsZ.",
+     ".wZrDrZw.",
+     "..wZdZw..",
+     "....d...."
+    ],
+    "legend": {
+     "w": {
+      "m": 0,
+      "c": 1
+     },
+     "W": {
+      "m": 0,
+      "c": 2
+     },
+     "s": {
+      "m": 1,
+      "c": 1
+     },
+     "Z": {
+      "m": 2,
+      "c": 1
+     },
+     "r": {
+      "m": 4,
+      "c": 1
+     },
+     "R": {
+      "m": 4,
+      "c": 0
+     },
+     "d": {
+      "m": 5,
+      "c": 2
+     },
+     "D": {
+      "m": 5,
+      "c": 1
+     }
+    }
+   }
+  ],
+  "mode": "copy",
+  "rotateMarks": true
+ }
+}

@@ -41,10 +41,10 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Tatreez Palestinian Cross-Stitch](../../games/212-tatreez-palestinian-cross-stitch/index.md)
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md)
+- [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md)
 - [Keffiyeh Pattern Loom](../../games/1310-keffiyeh-pattern-loom/index.md)
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md)
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md)
-- [Jordanian Sand Bottle Art](../../games/219-jordanian-sand-bottle-art/index.md)
 
 ## Sources
 

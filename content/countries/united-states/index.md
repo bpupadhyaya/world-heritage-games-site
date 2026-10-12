@@ -1,17 +1,18 @@
 ---
 title: "United States"
-description: "31 traditions from United States."
+description: "34 traditions from United States."
 path: "/countries/united-states/"
-count: 31
+count: 34
 ---
 # United States
 
-31 traditions from United States.
+34 traditions from United States.
 
 
 
-31 entries.
+34 entries.
 
+- ['Ulu Maika](../../games/44-ulu-maika/index.md): United States; Dexterity and skill games; Age of Contact and Craft
 - [American patchwork quilting](../../games/6356-american-patchwork-quilting/index.md): United States; Crafts and making; Living Traditions
 - [Axe throwing](../../games/442-axe-throwing/index.md): Canada, United States; Dexterity and skill games; Modern Heritage
 - [Barrel racing](../../games/439-barrel-racing/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
@@ -23,6 +24,7 @@ count: 31
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
 - [Kōnane](../../games/961-konane/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Lei making](../../games/449-lei-making/index.md): United States; Crafts and making; Living Traditions
+- [Log rolling](../../games/59-log-rolling/index.md): United States, Canada; Dexterity and skill games; Modern Heritage
 - [Mountain dulcimer](../../games/435-mountain-dulcimer/index.md): United States; Musical instruments; Classical Worlds
 - [Paper Fortune Teller](../../games/465-paper-fortune-teller/index.md): United Kingdom, United States; Crafts and making; Living Traditions
 - [Rubboard zydeco rhythm](../../games/437-rubboard-zydeco-rhythm/index.md): United States; Musical instruments; Living Traditions
@@ -34,6 +36,7 @@ count: 31
 - [Texas 42](../../games/1195-texas-42/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Tractor pull](../../games/440-tractor-pull/index.md): United States, Canada; Puzzles and mind games; Modern Heritage
 - [Trick Roping](../../games/1408-trick-roping/index.md): United States; Dexterity and skill games; Modern Heritage
+- [Ukulele strum-along](../../games/144-ukulele-strum-along/index.md): United States, Portugal; Musical instruments; Living Traditions
 - [Wayfinder](../../games/43-wayfinder/index.md): United States, New Zealand; Puzzles and mind games; Crossroads and Golden Ages
 - [American football](../../games/22320-american-football/index.md): United States; Team ball sports; Modern Heritage
 - [Baseball](../../games/22323-baseball/index.md): United States, Cuba; Bat-and-ball games; Modern Heritage

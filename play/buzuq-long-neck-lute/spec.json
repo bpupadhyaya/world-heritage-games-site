@@ -1,0 +1,360 @@
+{
+ "engine": "rhythm",
+ "variant": "buzuq-long-neck-lute",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 196,
+  "loops": 2,
+  "tolerance": 1.15,
+  "lanes": [
+   {
+    "name": "G3",
+    "id": "G3",
+    "cents": 0,
+    "row": 0,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#2a9d8f"
+   },
+   {
+    "name": "A3",
+    "id": "A3",
+    "cents": 200,
+    "row": 0,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#3fb3a4"
+   },
+   {
+    "name": "B3~",
+    "id": "B3~",
+    "cents": 350,
+    "row": 0,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#6ccbbd"
+   },
+   {
+    "name": "C4",
+    "id": "C4",
+    "cents": 500,
+    "row": 1,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d9a441"
+   },
+   {
+    "name": "D4",
+    "id": "D4",
+    "cents": 700,
+    "row": 1,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e6b658"
+   },
+   {
+    "name": "E4",
+    "id": "E4",
+    "cents": 900,
+    "row": 1,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#efc873"
+   },
+   {
+    "name": "F4~",
+    "id": "F4~",
+    "cents": 1050,
+    "row": 1,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#f4d58f"
+   },
+   {
+    "name": "G4",
+    "id": "G4",
+    "cents": 1200,
+    "row": 1,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#f8e2ae"
+   },
+   {
+    "name": "A4",
+    "id": "A4",
+    "cents": 1400,
+    "row": 1,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#fbecc4"
+   },
+   {
+    "name": "Tremolo",
+    "id": "Tremolo",
+    "cents": 700,
+    "row": 2,
+    "timbre": "string",
+    "dur": 0.5,
+    "color": "#e07a5f"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Rast up and down",
+    "bpm": 88,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "G3"
+     },
+     {
+      "beat": 1,
+      "lane": "A3"
+     },
+     {
+      "beat": 2,
+      "lane": "B3~"
+     },
+     {
+      "beat": 3,
+      "lane": "C4"
+     },
+     {
+      "beat": 4,
+      "lane": "D4",
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": "E4"
+     },
+     {
+      "beat": 7,
+      "lane": "F4~"
+     },
+     {
+      "beat": 8,
+      "lane": "G4",
+      "len": 2
+     },
+     {
+      "beat": 10,
+      "lane": "F4~"
+     },
+     {
+      "beat": 11,
+      "lane": "E4"
+     },
+     {
+      "beat": 12,
+      "lane": "D4"
+     },
+     {
+      "beat": 13,
+      "lane": "C4"
+     },
+     {
+      "beat": 14,
+      "lane": "B3~"
+     },
+     {
+      "beat": 15,
+      "lane": "A3"
+     }
+    ]
+   },
+   {
+    "name": "Tremolo line",
+    "bpm": 76,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "G4"
+     },
+     {
+      "beat": 1,
+      "lane": "Tremolo"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Tremolo"
+     },
+     {
+      "beat": 2,
+      "lane": "Tremolo"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Tremolo"
+     },
+     {
+      "beat": 3,
+      "lane": "F4~"
+     },
+     {
+      "beat": 4,
+      "lane": "E4"
+     },
+     {
+      "beat": 5,
+      "lane": "D4"
+     },
+     {
+      "beat": 6,
+      "lane": "Tremolo"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Tremolo"
+     },
+     {
+      "beat": 7,
+      "lane": "C4"
+     },
+     {
+      "beat": 8,
+      "lane": "B3~",
+      "len": 2
+     },
+     {
+      "beat": 10,
+      "lane": "A3"
+     },
+     {
+      "beat": 11,
+      "lane": "B3~"
+     },
+     {
+      "beat": 12,
+      "lane": "C4"
+     },
+     {
+      "beat": 13,
+      "lane": "Tremolo"
+     },
+     {
+      "beat": 13.5,
+      "lane": "Tremolo"
+     },
+     {
+      "beat": 14,
+      "lane": "Tremolo"
+     },
+     {
+      "beat": 14.5,
+      "lane": "Tremolo"
+     },
+     {
+      "beat": 15,
+      "lane": "G3"
+     }
+    ]
+   },
+   {
+    "name": "Dance-song line in four",
+    "bpm": 112,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "G3"
+     },
+     {
+      "beat": 0.5,
+      "lane": "G3"
+     },
+     {
+      "beat": 1,
+      "lane": "C4"
+     },
+     {
+      "beat": 2,
+      "lane": "D4"
+     },
+     {
+      "beat": 2.5,
+      "lane": "D4"
+     },
+     {
+      "beat": 3,
+      "lane": "E4"
+     },
+     {
+      "beat": 4,
+      "lane": "G4"
+     },
+     {
+      "beat": 4.5,
+      "lane": "G4"
+     },
+     {
+      "beat": 5,
+      "lane": "F4~"
+     },
+     {
+      "beat": 6,
+      "lane": "E4"
+     },
+     {
+      "beat": 6.5,
+      "lane": "D4"
+     },
+     {
+      "beat": 7,
+      "lane": "C4"
+     },
+     {
+      "beat": 8,
+      "lane": "G3"
+     },
+     {
+      "beat": 8.5,
+      "lane": "G3"
+     },
+     {
+      "beat": 9,
+      "lane": "C4"
+     },
+     {
+      "beat": 10,
+      "lane": "D4"
+     },
+     {
+      "beat": 11,
+      "lane": "E4"
+     },
+     {
+      "beat": 11.5,
+      "lane": "F4~"
+     },
+     {
+      "beat": 12,
+      "lane": "G4"
+     },
+     {
+      "beat": 13,
+      "lane": "A4"
+     },
+     {
+      "beat": 13.5,
+      "lane": "G4"
+     },
+     {
+      "beat": 14,
+      "lane": "E4"
+     },
+     {
+      "beat": 15,
+      "lane": "D4"
+     }
+    ]
+   }
+  ]
+ }
+}

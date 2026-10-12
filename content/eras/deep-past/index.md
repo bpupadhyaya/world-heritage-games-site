@@ -2,7 +2,7 @@
 title: "Deep Past and First Games"
 description: "Games began with what lay to hand: knucklebones, pebbles, seeds and a patch of ground."
 path: "/eras/deep-past/"
-count: 103
+count: 104
 ---
 # Deep Past and First Games
 
@@ -10,9 +10,10 @@ Games began with what lay to hand: knucklebones, pebbles, seeds and a patch of g
 
 
 
-103 entries.
+104 entries.
 
 - [Bao](../../games/647-bao/index.md): Comoros; Board and table games; Deep Past and First Games
+- [Bentengan](../../games/326-bentengan/index.md): Indonesia; Board and table games; Deep Past and First Games
 - [Brännboll](../../games/1118-brannboll/index.md): Sweden; Street and playground games; Deep Past and First Games
 - [Chinese Checkers](../../games/8870-chinese-checkers/index.md): Germany; Board and table games; Deep Past and First Games
 - [Congklak](../../games/803-congklak/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games

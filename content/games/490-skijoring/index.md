@@ -42,8 +42,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Barrel racing](../../games/439-barrel-racing/index.md)
 - [Malha](../../games/1466-malha/index.md)
 - [Chinlone](../../games/16-chinlone/index.md)
+- ['Ulu Maika](../../games/44-ulu-maika/index.md)
 - [Finnish pin toss](../../games/49-finnish-pin-toss/index.md)
-- [Pinata swing](../../games/61-pinata-swing/index.md)
 
 ## Sources
 

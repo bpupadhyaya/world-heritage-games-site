@@ -1,0 +1,13 @@
+{
+ "slug": "schuhplattler",
+ "title": "Schuhplattler (slap dance)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

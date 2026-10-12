@@ -1,11 +1,13 @@
 ---
 title: "Entries beginning with M"
-description: "71 entries beginning with M."
+description: "75 entries beginning with M."
 path: "/a-z/M/"
 ---
 # Entries beginning with M
 
+- [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
 - [Macau Portuguese Custard Tart Bake](../../games/1471-macau-portuguese-custard-tart-bake/index.md): Portugal, China; Crafts and making; Living Traditions
+- [Macau wave pavement](../../games/372-macau-wave-pavement/index.md): Portugal; Crafts and making; Living Traditions
 - [Macho parado](../../games/984-macho-parado/index.md): Nicaragua; Street and playground games; Modern Heritage
 - [Madura bull racing](../../games/805-madura-bull-racing/index.md): Indonesia; Street and playground games; Modern Heritage
 - [Maedeup](../../games/1468-maedeup/index.md): South Korea; Crafts and making; Living Traditions
@@ -20,6 +22,7 @@ path: "/a-z/M/"
 - [Maldivian chess](../../games/917-maldivian-chess/index.md): Maldives; Board and table games; Crossroads and Golden Ages
 - [Maldivian lacquer work](../../games/1328-maldivian-lacquer-work/index.md): Maldives; Crafts and making; Living Traditions
 - [Malha](../../games/1466-malha/index.md): Portugal; Archery, throwing and target games; Classical Worlds
+- [Mallakhamb](../../games/150-mallakhamb/index.md): India; Dexterity and skill games; Modern Heritage
 - [Mancala-type sowing games](../../games/626-mancala-type-sowing-games/index.md): Central African Republic; Board and table games; Deep Past and First Games
 - [Mandarin square capturing](../../games/1216-mandarin-square-capturing/index.md): Vietnam; Board and table games; Deep Past and First Games
 - [Mangala](../../games/1164-mangala/index.md): Turkey; Board and table games; Deep Past and First Games
@@ -36,6 +39,7 @@ path: "/a-z/M/"
 - [Masaya Hammock Weaving](../../games/1473-masaya-hammock-weaving/index.md): Nicaragua; Crafts and making; Living Traditions
 - [Masenqo and the azmari](../../games/187-masenqo-and-the-azmari/index.md): Ethiopia; Musical instruments; Living Traditions
 - [Mashonisa](../../games/882-mashonisa/index.md): Lesotho; Other traditions; Living Traditions
+- [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md): Egypt, Syria; Crafts and making; Living Traditions
 - [Masi bark-cloth stencil printing](../../games/1279-masi-bark-cloth-stencil-printing/index.md): Fiji; Crafts and making; Living Traditions
 - [Mate Pouring](../../games/1418-mate-pouring/index.md): Argentina; Crafts and making; Living Traditions
 - [Matkot](../../games/825-matkot/index.md): Israel; Street and playground games; Modern Heritage

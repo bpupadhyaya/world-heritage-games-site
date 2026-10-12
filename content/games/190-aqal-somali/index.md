@@ -44,7 +44,7 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Eskista](../../games/188-eskista/index.md)
 - [Jebena coffee brewing](../../games/189-jebena-coffee-brewing/index.md)
 - [Nubian house painting](../../games/192-nubian-house-painting/index.md)
-- [Khayamiya Tentmaker Applique](../../games/217-khayamiya-tentmaker-applique/index.md)
+- [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md)
 
 ## Sources
 

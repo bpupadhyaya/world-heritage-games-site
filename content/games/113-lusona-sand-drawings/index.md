@@ -38,14 +38,18 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - **Cradle:** [Africa: Southern Africa](../../cradles/africa-south/index.md)
 - **Region:** Sub-Saharan Africa
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
 - [Stone Skipping](../../games/5-stone-skipping/index.md)
 - [Disc-flip](../../games/8-disc-flip/index.md)
 - [Sjoelen](../../games/9-sjoelen/index.md)
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md)
 - [Shove ha'penny](../../games/54-shove-hapenny/index.md)
-- [Limbo](../../games/58-limbo/index.md)
 
 ## Sources
 

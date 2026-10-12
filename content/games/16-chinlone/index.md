@@ -39,6 +39,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - **Region:** East and Southeast Asia
 - **Players:** 6
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Pinata swing](../../games/61-pinata-swing/index.md)
@@ -46,7 +50,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Yukigassen Snow Fort](../../games/71-yukigassen-snow-fort/index.md)
 - [Bagatelle](../../games/72-bagatelle/index.md)
 - [Plate Spinning](../../games/73-plate-spinning/index.md)
-- [Nguni stick-fighting rhythm skirmish](../../games/209-nguni-stick-fighting-rhythm-skirmish/index.md)
+- [Tent pegging](../../games/78-tent-pegging/index.md)
 
 ## Sources
 

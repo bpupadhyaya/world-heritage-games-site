@@ -2,7 +2,7 @@
 title: "Africa: Sahel, West and Central"
 description: "The Sahel, the Guinea coast and the forests of central Africa."
 path: "/cradles/africa-west/"
-count: 89
+count: 91
 ---
 # Africa: Sahel, West and Central
 
@@ -10,7 +10,7 @@ The Sahel, the Guinea coast and the forests of central Africa.
 
 
 
-89 entries.
+91 entries.
 
 - [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
@@ -19,6 +19,7 @@ The Sahel, the Guinea coast and the forests of central Africa.
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md): Ghana, Cote d'Ivoire; Puzzles and mind games; Modern Heritage
 - [Ampe](../../games/747-ampe/index.md): Ghana, Togo; Dexterity and skill games; Modern Heritage
 - [Asafo Flag Appliqué](../../games/1230-asafo-flag-applique/index.md): Ghana; Crafts and making; Living Traditions
+- [Balafon Gourd Xylophone](../../games/168-balafon-gourd-xylophone/index.md): Mali, Guinea; Musical instruments; Crossroads and Golden Ages
 - [Balanta Mangrove Rice Polder](../../games/1235-balanta-mangrove-rice-polder/index.md): Guinea-Bissau; Board and table games; Crossroads and Golden Ages
 - [Bamileke beadwork designer](../../games/1404-bamileke-beadwork-designer/index.md): Cameroon; Crafts and making; Living Traditions
 - [Bamum script writer](../../games/1405-bamum-script-writer/index.md): Cameroon; Crafts and making; Living Traditions
@@ -30,10 +31,11 @@ The Sahel, the Guinea coast and the forests of central Africa.
 - [Dahomey Appliqué Panel Studio](../../games/1262-dahomey-applique-panel-studio/index.md): Benin; Crafts and making; Living Traditions
 - [Dakar Car Rapide Livery Painter](../../games/1263-dakar-car-rapide-livery-painter/index.md): Senegal; Crafts and making; Living Traditions
 - [Dambe](../../games/987-dambe/index.md): Nigeria, Niger; Street and playground games; Modern Heritage
-- [Dara](../../games/452-dara/index.md): Nigeria, Niger; Crafts and making; Living Traditions
+- [Dara](../../games/452-dara/index.md): Nigeria, Niger; Board and table games; Living Traditions
 - [Dogon Granary Builder](../../games/177-dogon-granary-builder/index.md): Mali; Crafts and making; Living Traditions
 - [Faso Dan Fani Strip Weaving](../../games/1277-faso-dan-fani-strip-weaving/index.md): Burkina Faso; Crafts and making; Living Traditions
 - [Freetown Beach Seine Haul](../../games/1282-freetown-beach-seine-haul/index.md): Sierra Leone; Performance and storytelling; Living Traditions
+- [Fufu Pounding Rhythm](../../games/175-fufu-pounding-rhythm/index.md): Ghana, Nigeria; Crafts and making; Living Traditions
 - [Fula Riti One-String Fiddle](../../games/1283-fula-riti-one-string-fiddle/index.md): Guinea; Musical instruments; Classical Worlds
 - [Gambian Oyster Harvest](../../games/1287-gambian-oyster-harvest/index.md): Gambia; Crafts and making; Living Traditions
 - [Gbofe Trumpet Ensemble](../../games/1290-gbofe-trumpet-ensemble/index.md): Cote d'Ivoire; Other traditions; Living Traditions

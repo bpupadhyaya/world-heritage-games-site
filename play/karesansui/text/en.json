@@ -1,0 +1,26 @@
+{
+ "title": "Karesansui gravel garden",
+ "native": "枯山水 (karesansui)",
+ "alt": [
+  "Dry landscape garden",
+  "Rock garden"
+ ],
+ "summary": "A karesansui is a dry garden of Japan made of gravel, stones and a little moss, with no pond or stream. The gravel is combed with a rake into lines, waves, scrolls or checks that suggest flowing water, and stones are set in small groups, often three together, rarely in straight or mirrored layouts.",
+ "howToPlay": [
+  "Pick a gravel pattern, a stone or a moss patch from the tray under the garden.",
+  "Touch a square to lay it down; touch it again to clear it. Each square shows the raking of that part of the garden.",
+  "Copy the small garden shown above, then press Check."
+ ],
+ "rules": [
+  "Every square holds one gravel pattern, a stone or a moss patch; nothing is repeated for you.",
+  "A square counts only when its pattern and its colour both match the target garden.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Dry gardens developed in Japan during the Muromachi period (14th to 16th centuries). The gravel is raked by hand and the raking is renewed regularly, because wind, rain and visitors disturb the lines.",
+ "countries": [
+  "Japan"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original, in the style of the tradition)"
+ ]
+}

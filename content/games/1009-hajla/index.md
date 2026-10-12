@@ -39,10 +39,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - [Piko](../../games/1022-piko/index.md)
 - [Zarzir](../../games/1010-zarzir/index.md)
+- [Elastic Jump](../../games/6-elastic-jump/index.md)
 - [Double Dutch](../../games/53-double-dutch/index.md)
 - [Morra](../../games/83-morra/index.md)
 - [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md)
-- [Tuvan Throat Singing](../../games/508-tuvan-throat-singing/index.md)
 
 ## Sources
 

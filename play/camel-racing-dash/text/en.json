@@ -1,0 +1,29 @@
+{
+ "title": "Camel Racing Dash",
+ "native": "سباق الهجن",
+ "alt": [
+  "Hajin racing",
+  "Camel race"
+ ],
+ "summary": "In the open desert of southern Jordan, owners and riders race long-legged camels bred for speed over a sandy track. A camel gives only so much strength: those who gallop too soon are passed on the last stretch.",
+ "howToPlay": [
+  "Hold the pad to let your camel gallop, and let go to ease it into a trot.",
+  "Strength falls while it gallops and returns while it trots.",
+  "Tap on the stride, as the ring closes, to call it into a short burst of speed.",
+  "Keep something in hand for the final stretch."
+ ],
+ "rules": [
+  "Two heats; your score is the average of both.",
+  "A tired camel slows right down until it has rested.",
+  "A call off the stride only unsettles the animal and uses strength.",
+  "Soft sand slows everyone, and a light headwind blows along the track.",
+  "The animal is never struck: it answers only to the voice and the pace you keep."
+ ],
+ "heritageNote": "Racing camels, called hajin, have been bred by Bedouin families of Jordan and the Arabian peninsula for speed and stamina, and races mark gatherings and festivals, notably in the Wadi Rum area. Good care of the animal comes before any prize.",
+ "countries": [
+  "Jordan"
+ ],
+ "credits": [
+  "Game design: World Heritage Games (original)"
+ ]
+}

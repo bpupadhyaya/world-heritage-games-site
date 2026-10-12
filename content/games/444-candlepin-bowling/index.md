@@ -36,14 +36,18 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - **Cradle:** [Celtic and Atlantic Europe](../../cradles/celtic-atlantic/index.md)
 - **Region:** Europe
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
+- [Canal ice-skating marathon](../../games/84-canal-ice-skating-marathon/index.md)
 - [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md)
+- ['Ulu Maika](../../games/44-ulu-maika/index.md)
 - [Finnish pin toss](../../games/49-finnish-pin-toss/index.md)
 - [Sled dog race](../../games/62-sled-dog-race/index.md)
 - [Bagatelle](../../games/72-bagatelle/index.md)
-- [Bat and Trap](../../games/405-bat-and-trap/index.md)
-- [Kicksled Race](../../games/407-kicksled-race/index.md)
 
 ## Sources
 

@@ -1,0 +1,162 @@
+{
+ "engine": "pattern",
+ "params": {
+  "symmetry": "none",
+  "mode": "copy",
+  "rotateMarks": false,
+  "palette": [
+   {
+    "name": "Raked ridge",
+    "color": "#85816f"
+   },
+   {
+    "name": "Stone",
+    "color": "#3d3f44"
+   },
+   {
+    "name": "Moss",
+    "color": "#5d7f4a"
+   }
+  ],
+  "background": "#e4e1d6",
+  "grid": "#cfccbf",
+  "motifs": [
+   "stripe-h",
+   "wave",
+   "spiral",
+   "checker",
+   "solid",
+   "ring"
+  ],
+  "cols": 11,
+  "rows": 7,
+  "designs": [
+   {
+    "name": "Lines around three stones",
+    "rows": [
+     "lllllllllll",
+     "llloooollll",
+     "llloRRRolll",
+     "llloooollll",
+     "lllllllllll",
+     "lllllllmlll",
+     "lllllllllll"
+    ],
+    "legend": {
+     "l": {
+      "m": 0,
+      "c": 0
+     },
+     "w": {
+      "m": 1,
+      "c": 0
+     },
+     "s": {
+      "m": 2,
+      "c": 0
+     },
+     "c": {
+      "m": 3,
+      "c": 0
+     },
+     "R": {
+      "m": 4,
+      "c": 1
+     },
+     "m": {
+      "m": 4,
+      "c": 2
+     },
+     "o": {
+      "m": 5,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Waves round an island",
+    "rows": [
+     "wwwwwwwwwww",
+     "wwwwwwwwwww",
+     "ww.sss.wwww",
+     "ww.sRs.wwww",
+     "ww.sss.wwRw",
+     "wwwwwwwwwww",
+     "wwwwwwwwwww"
+    ],
+    "legend": {
+     "l": {
+      "m": 0,
+      "c": 0
+     },
+     "w": {
+      "m": 1,
+      "c": 0
+     },
+     "s": {
+      "m": 2,
+      "c": 0
+     },
+     "c": {
+      "m": 3,
+      "c": 0
+     },
+     "R": {
+      "m": 4,
+      "c": 1
+     },
+     "m": {
+      "m": 4,
+      "c": 2
+     },
+     "o": {
+      "m": 5,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Checks beside lines",
+    "rows": [
+     "cccccclllll",
+     "cccccclllll",
+     "ccRcccllRll",
+     "cccccclllll",
+     "cccccclllll",
+     "cccmcclllll",
+     "cccccclllll"
+    ],
+    "legend": {
+     "l": {
+      "m": 0,
+      "c": 0
+     },
+     "w": {
+      "m": 1,
+      "c": 0
+     },
+     "s": {
+      "m": 2,
+      "c": 0
+     },
+     "c": {
+      "m": 3,
+      "c": 0
+     },
+     "R": {
+      "m": 4,
+      "c": 1
+     },
+     "m": {
+      "m": 4,
+      "c": 2
+     },
+     "o": {
+      "m": 5,
+      "c": 0
+     }
+    }
+   }
+  ]
+ }
+}

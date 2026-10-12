@@ -1,0 +1,13 @@
+{
+ "slug": "nouka-baich",
+ "title": "Nouka Baich",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,280 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 11,
+  "rows": 9,
+  "symmetry": "rot2",
+  "mode": "copy",
+  "rotateMarks": true,
+  "palette": [
+   {
+    "name": "Wax cream",
+    "color": "#f1e6c8"
+   },
+   {
+    "name": "Ochre",
+    "color": "#e0a83a"
+   },
+   {
+    "name": "Soga brown",
+    "color": "#b36a30"
+   },
+   {
+    "name": "Light indigo",
+    "color": "#6f95e0"
+   }
+  ],
+  "background": "#16204a",
+  "grid": "#2b3a78",
+  "motifs": [
+   "leaf",
+   "ring",
+   "dot",
+   "diamond",
+   "zigzag",
+   "star"
+  ],
+  "designs": [
+   {
+    "name": "Parang diagonals",
+    "rows": [
+     "aha.f.aha.f",
+     ".aha.f.aha.",
+     "f.aha.f.aha",
+     ".f.aha.f.ah",
+     "a.f.aha.f.a",
+     "ha.f.aha.f.",
+     "aha.f.aha.f",
+     ".aha.f.aha.",
+     "f.aha.f.aha"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 1,
+      "c": 2
+     },
+     "e": {
+      "m": 2,
+      "c": 1
+     },
+     "f": {
+      "m": 2,
+      "c": 2
+     },
+     "g": {
+      "m": 2,
+      "c": 0
+     },
+     "h": {
+      "m": 3,
+      "c": 1
+     },
+     "i": {
+      "m": 3,
+      "c": 0
+     },
+     "j": {
+      "m": 3,
+      "c": 2
+     },
+     "k": {
+      "m": 4,
+      "c": 0
+     },
+     "l": {
+      "m": 4,
+      "c": 1
+     },
+     "m": {
+      "m": 5,
+      "c": 0
+     },
+     "n": {
+      "m": 5,
+      "c": 1
+     },
+     "o": {
+      "m": 3,
+      "c": 3
+     },
+     "p": {
+      "m": 1,
+      "c": 3
+     }
+    }
+   },
+   {
+    "name": "Kawung rings",
+    "rows": [
+     "lllllllllll",
+     "fcfcfcfcfcf",
+     "cececececec",
+     "fcfcfcfcfcf",
+     "cececmcecec",
+     "fcfcfcfcfcf",
+     "cececececec",
+     "fcfcfcfcfcf",
+     "lllllllllll"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 1,
+      "c": 2
+     },
+     "e": {
+      "m": 2,
+      "c": 1
+     },
+     "f": {
+      "m": 2,
+      "c": 2
+     },
+     "g": {
+      "m": 2,
+      "c": 0
+     },
+     "h": {
+      "m": 3,
+      "c": 1
+     },
+     "i": {
+      "m": 3,
+      "c": 0
+     },
+     "j": {
+      "m": 3,
+      "c": 2
+     },
+     "k": {
+      "m": 4,
+      "c": 0
+     },
+     "l": {
+      "m": 4,
+      "c": 1
+     },
+     "m": {
+      "m": 5,
+      "c": 0
+     },
+     "n": {
+      "m": 5,
+      "c": 1
+     },
+     "o": {
+      "m": 3,
+      "c": 3
+     },
+     "p": {
+      "m": 1,
+      "c": 3
+     }
+    }
+   },
+   {
+    "name": "Ceplok medallion",
+    "rows": [
+     "kkkkkkkkkkk",
+     "h.h.h.h.h.h",
+     "..i..n..i..",
+     ".d.c.a.c.d.",
+     "j..a.n.a..j",
+     ".d.c.a.c.d.",
+     "..i..n..i..",
+     "h.h.h.h.h.h",
+     "kkkkkkkkkkk"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 1,
+      "c": 2
+     },
+     "e": {
+      "m": 2,
+      "c": 1
+     },
+     "f": {
+      "m": 2,
+      "c": 2
+     },
+     "g": {
+      "m": 2,
+      "c": 0
+     },
+     "h": {
+      "m": 3,
+      "c": 1
+     },
+     "i": {
+      "m": 3,
+      "c": 0
+     },
+     "j": {
+      "m": 3,
+      "c": 2
+     },
+     "k": {
+      "m": 4,
+      "c": 0
+     },
+     "l": {
+      "m": 4,
+      "c": 1
+     },
+     "m": {
+      "m": 5,
+      "c": 0
+     },
+     "n": {
+      "m": 5,
+      "c": 1
+     },
+     "o": {
+      "m": 3,
+      "c": 3
+     },
+     "p": {
+      "m": 1,
+      "c": 3
+     }
+    }
+   }
+  ]
+ }
+}

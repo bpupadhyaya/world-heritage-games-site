@@ -1,0 +1,26 @@
+{
+ "title": "Zellij tile mosaic",
+ "native": "الزليج",
+ "alt": [
+  "Zellige",
+  "Zillij"
+ ],
+ "summary": "Zellij is Moroccan mosaic tilework: craftspeople glaze small clay squares, chip them by hand into stars, hexagons and slivers, and fit the pieces together into dazzling geometric panels for fountains, floors and walls.",
+ "howToPlay": [
+  "Choose a glaze colour and a tile shape from the strip under the panel.",
+  "Tap a square to lay the tile: the same tile appears on the matching squares all round the panel.",
+  "Copy the small design above the panel, then press Check."
+ ],
+ "rules": [
+  "The panel is symmetric in four directions and across both diagonals, as tile panels are.",
+  "A square counts only when its tile shape and its glaze colour both match the design.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Zellij has been made in the workshops of Fez and other Moroccan cities for centuries, and the craft is still handed from master to apprentice. Its stars and polygons also decorate courtyards across the western Mediterranean.",
+ "countries": [
+  "Morocco"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

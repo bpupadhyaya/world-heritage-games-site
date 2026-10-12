@@ -1,16 +1,16 @@
 ---
 title: "Musical instruments"
-description: "97 traditions of this kind."
+description: "108 traditions of this kind."
 path: "/types/instrument/"
-count: 97
+count: 108
 ---
 # Musical instruments
 
-97 traditions of this kind.
+108 traditions of this kind.
 
 
 
-97 entries.
+108 entries.
 
 - [Adungu](../../games/186-adungu/index.md): Uganda; Musical instruments; Classical Worlds
 - [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md): Afghanistan; Musical instruments; Crossroads and Golden Ages
@@ -18,7 +18,10 @@ count: 97
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
 - [Ardah Drum-and-Line Rhythm](../../games/1343-ardah-drum-and-line-rhythm/index.md): Saudi Arabia; Musical instruments; Living Traditions
 - [Babatone](../../games/1233-babatone/index.md): Malawi; Musical instruments; Living Traditions
+- [Balafon Gourd Xylophone](../../games/168-balafon-gourd-xylophone/index.md): Mali, Guinea; Musical instruments; Crossroads and Golden Ages
+- [Balalaika](../../games/133-balalaika/index.md): Russia; Musical instruments; Crossroads and Golden Ages
 - [Bandoneon and tango rhythm](../../games/426-bandoneon-and-tango-rhythm/index.md): Argentina, Uruguay; Musical instruments; Age of Contact and Craft
+- [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md): India, Nepal; Musical instruments; Classical Worlds
 - [Batuque Cloth-Drum Circle](../../games/1251-batuque-cloth-drum-circle/index.md): Cape Verde; Musical instruments; Living Traditions
 - [Bianzhong](../../games/336-bianzhong/index.md): China; Musical instruments; Living Traditions
 - [Bodhran Frame Drum](../../games/521-bodhran-frame-drum/index.md): Ireland; Musical instruments; Age of Contact and Craft
@@ -44,6 +47,7 @@ count: 97
 - [Gadulka](../../games/1285-gadulka/index.md): Bulgaria; Musical instruments; Living Traditions
 - [Gayageum](../../games/361-gayageum/index.md): South Korea; Musical instruments; Classical Worlds
 - [Geomungo](../../games/1453-geomungo/index.md): South Korea; Musical instruments; Classical Worlds
+- [Georgian three-voice polyphony](../../games/245-georgian-three-voice-polyphony/index.md): Georgia; Musical instruments; Living Traditions
 - [Goje One-String Fiddle](../../games/176-goje-one-string-fiddle/index.md): Nigeria, Niger; Musical instruments; Living Traditions
 - [Gusle Bow and Verse](../../games/1294-gusle-bow-and-verse/index.md): Serbia; Musical instruments; Living Traditions
 - [Hardanger Fiddle Halling](../../games/520-hardanger-fiddle-halling/index.md): Norway; Musical instruments; Living Traditions
@@ -51,8 +55,10 @@ count: 97
 - [Horn of Africa camel caravan](../../games/1270-horn-of-africa-camel-caravan/index.md): Djibouti; Musical instruments; Crossroads and Golden Ages
 - [Hurdy-gurdy](../../games/153-hurdy-gurdy/index.md): France; Musical instruments; Living Traditions
 - [Imzad Fiddle](../../games/1301-imzad-fiddle/index.md): Niger, Mali; Musical instruments; Classical Worlds
+- [Isukuti drum dance](../../games/191-isukuti-drum-dance/index.md): Worldwide; Musical instruments; Living Traditions
 - [Jamaican Sound System Selector](../../games/1465-jamaican-sound-system-selector/index.md): Jamaica; Musical instruments; Modern Heritage
 - [Joropo llanero band](../../games/130-joropo-llanero-band/index.md): Venezuela, Colombia; Musical instruments; Classical Worlds
+- [Kamancha](../../games/165-kamancha/index.md): Azerbaijan, Iran; Musical instruments; Living Traditions
 - [Kanklės](../../games/136-kankles/index.md): Lithuania; Musical instruments; Classical Worlds
 - [Kantele](../../games/152-kantele/index.md): Finland; Musical instruments; Classical Worlds
 - [Khene](../../games/145-khene/index.md): Laos; Musical instruments; Living Traditions
@@ -81,6 +87,7 @@ count: 97
 - [Mvet](../../games/1420-mvet/index.md): Gabon, Cameroon; Musical instruments; Classical Worlds
 - [Nyatiti Luo lyre](../../games/1349-nyatiti-luo-lyre/index.md): Kenya; Musical instruments; Classical Worlds
 - [Nyckelharpa](../../games/408-nyckelharpa/index.md): Sweden; Musical instruments; Classical Worlds
+- [Panduri](../../games/41-panduri/index.md): Georgia; Musical instruments; Crossroads and Golden Ages
 - [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md): Paraguay; Musical instruments; Classical Worlds
 - [Portuguese Guitar](../../games/1457-portuguese-guitar/index.md): Portugal; Musical instruments; Classical Worlds
 - [Puerto Rican Cuatro](../../games/1481-puerto-rican-cuatro/index.md): Worldwide; Musical instruments; Living Traditions
@@ -93,9 +100,11 @@ count: 97
 - [Sasando](../../games/317-sasando/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Saung gauk](../../games/306-saung-gauk/index.md): Myanmar; Musical instruments; Classical Worlds
 - [Saz / Bağlama](../../games/243-saz-baglama/index.md): Turkey; Musical instruments; Crossroads and Golden Ages
+- [Sega ravanne drum](../../games/199-sega-ravanne-drum/index.md): Mauritius; Musical instruments; Modern Heritage
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds
 - [Skrabalai](../../games/388-skrabalai/index.md): Lithuania; Musical instruments; Living Traditions
 - [Steelpan](../../games/31-steelpan/index.md): Trinidad and Tobago; Musical instruments; Age of Contact and Craft
+- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md): India, Nepal; Musical instruments; Living Traditions
 - [Taiko](../../games/5367-taiko/index.md): Japan; Musical instruments; Living Traditions
 - [Talking drum](../../games/33-talking-drum/index.md): Nigeria; Musical instruments; Living Traditions
 - [Tar and mugham modes](../../games/247-tar-and-mugham-modes/index.md): Azerbaijan; Musical instruments; Crossroads and Golden Ages
@@ -104,7 +113,9 @@ count: 97
 - [Tres cubano](../../games/433-tres-cubano/index.md): Cuba; Musical instruments; Living Traditions
 - [Tsugaru Shamisen](../../games/1489-tsugaru-shamisen/index.md): Japan; Musical instruments; Crossroads and Golden Ages
 - [Txalaparta Duet](../../games/390-txalaparta-duet/index.md): Spain; Musical instruments; Living Traditions
+- [Ukulele strum-along](../../games/144-ukulele-strum-along/index.md): United States, Portugal; Musical instruments; Living Traditions
 - [Valiha tube zither](../../games/124-valiha-tube-zither/index.md): Madagascar; Musical instruments; Classical Worlds
+- [Vallenato accordion trio](../../games/431-vallenato-accordion-trio/index.md): Colombia; Musical instruments; Living Traditions
 - [Veena](../../games/282-veena/index.md): India; Musical instruments; Crossroads and Golden Ages
 - [Wazza gourd trumpet](../../games/1399-wazza-gourd-trumpet/index.md): Sudan; Musical instruments; Living Traditions
 - [Zande kundi arched harp](../../games/1319-zande-kundi-arched-harp/index.md): South Sudan; Musical instruments; Classical Worlds

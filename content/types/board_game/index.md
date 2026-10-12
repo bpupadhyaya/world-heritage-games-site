@@ -1,22 +1,23 @@
 ---
 title: "Board and table games"
-description: "219 traditions of this kind."
+description: "220 traditions of this kind."
 path: "/types/board_game/"
-count: 219
+count: 220
 ---
 # Board and table games
 
-219 traditions of this kind.
+220 traditions of this kind.
 
 
 
-219 entries.
+220 entries.
 
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
 - [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
 - [Balanta Mangrove Rice Polder](../../games/1235-balanta-mangrove-rice-polder/index.md): Guinea-Bissau; Board and table games; Crossroads and Golden Ages
 - [Banqi](../../games/1437-banqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages
 - [Bao](../../games/647-bao/index.md): Comoros; Board and table games; Deep Past and First Games
+- [Bentengan](../../games/326-bentengan/index.md): Indonesia; Board and table games; Deep Past and First Games
 - [Bingo](../../games/622-bingo/index.md): Canada; Board and table games; Crossroads and Golden Ages
 - [Bolas criollas](../../games/51-bolas-criollas/index.md): Venezuela; Board and table games; Age of Contact and Craft
 - [Cacho](../../games/595-cacho/index.md): Bolivia, Chile; Board and table games; River Valleys and First Cities
@@ -31,6 +32,7 @@ count: 219
 - [Congklak](../../games/803-congklak/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
 - [Croquet](../../games/81-croquet/index.md): United Kingdom, Ireland; Board and table games; Crossroads and Golden Ages
 - [Daldøs](../../games/458-dalds/index.md): Denmark, Norway; Board and table games; Crossroads and Golden Ages
+- [Dara](../../games/452-dara/index.md): Nigeria, Niger; Board and table games; Living Traditions
 - [Don't Get Angry](../../games/744-dont-get-angry/index.md): Germany; Board and table games; River Valleys and First Cities
 - [E-sugoroku](../../games/348-e-sugoroku/index.md): Japan; Board and table games; River Valleys and First Cities
 - [Falaj Water-Turn Clock](../../games/1274-falaj-water-turn-clock/index.md): Oman; Board and table games; Classical Worlds
@@ -44,7 +46,6 @@ count: 219
 - [Gonu](../../games/1086-gonu/index.md): South Korea; Board and table games; Deep Past and First Games
 - [Gourd-crab dice](../../games/1213-gourd-crab-dice/index.md): Vietnam; Board and table games; River Valleys and First Cities
 - [Hasami shogi](../../games/849-hasami-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
-- [Hornussen](../../games/10-hornussen/index.md): Switzerland; Board and table games; Crossroads and Golden Ages
 - [Igisoro](../../games/1049-igisoro/index.md): Rwanda, Burundi; Board and table games; Deep Past and First Games
 - [Italian draughts](../../games/834-italian-draughts/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Katro / Katra](../../games/903-katro-katra/index.md): Madagascar; Board and table games; Deep Past and First Games

@@ -38,14 +38,18 @@ A living tradition passed from person to person; it is not tied to a single date
 - **Cradle:** [Mediterranean](../../cradles/mediterranean/index.md)
 - **Region:** Europe
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Khene](../../games/145-khene/index.md)
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md)
 - [Mudhif reed-arch house](../../games/230-mudhif-reed-arch-house/index.md)
 - [Lusheng](../../games/337-lusheng/index.md)
+- [Vallenato accordion trio](../../games/431-vallenato-accordion-trio/index.md)
 - [Rubboard zydeco rhythm](../../games/437-rubboard-zydeco-rhythm/index.md)
-- [Cuneiform Clay Tablet Scribe](../../games/1260-cuneiform-clay-tablet-scribe/index.md)
 
 ## Sources
 

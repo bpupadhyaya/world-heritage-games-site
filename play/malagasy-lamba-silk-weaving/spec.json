@@ -1,0 +1,241 @@
+{
+ "engine": "pattern",
+ "variant": "malagasy-lamba-silk-weaving",
+ "params": {
+  "cols": 11,
+  "rows": 9,
+  "symmetry": "mirror-x",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Silk white",
+    "color": "#f1ece0"
+   },
+   {
+    "name": "Magenta",
+    "color": "#b8286e"
+   },
+   {
+    "name": "Turquoise",
+    "color": "#2fb5a9"
+   },
+   {
+    "name": "Gold",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Violet",
+    "color": "#6b3fa0"
+   },
+   {
+    "name": "Leaf green",
+    "color": "#3f9a4a"
+   }
+  ],
+  "background": "#1b1424",
+  "grid": "#33264a",
+  "motifs": [
+   "stripe-v",
+   "diamond",
+   "zigzag",
+   "checker",
+   "triangle",
+   "dot"
+  ],
+  "designs": [
+   {
+    "name": "Warp stripes and diamond band",
+    "rows": [
+     "bcdaeceadcb",
+     "bcdaeceadcb",
+     "hhhhhhhhhhh",
+     "gfgfgfgfgfg",
+     "kfkfkfkfkfk",
+     "gfgfgfgfgfg",
+     "hhhhhhhhhhh",
+     "bcdaeceadcb",
+     "bcdaeceadcb"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 0,
+      "c": 3
+     },
+     "e": {
+      "m": 0,
+      "c": 4
+     },
+     "f": {
+      "m": 1,
+      "c": 3
+     },
+     "g": {
+      "m": 1,
+      "c": 1
+     },
+     "h": {
+      "m": 2,
+      "c": 2
+     },
+     "i": {
+      "m": 3,
+      "c": 0
+     },
+     "j": {
+      "m": 4,
+      "c": 5
+     },
+     "k": {
+      "m": 5,
+      "c": 3
+     },
+     "l": {
+      "m": 2,
+      "c": 4
+     }
+    }
+   },
+   {
+    "name": "Violet and gold bands",
+    "rows": [
+     "decebdbeced",
+     "decebdbeced",
+     "lllllllllll",
+     "i.i.i.i.i.i",
+     "lllllllllll",
+     "i.i.i.i.i.i",
+     "lllllllllll",
+     "decebdbeced",
+     "decebdbeced"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 0,
+      "c": 3
+     },
+     "e": {
+      "m": 0,
+      "c": 4
+     },
+     "f": {
+      "m": 1,
+      "c": 3
+     },
+     "g": {
+      "m": 1,
+      "c": 1
+     },
+     "h": {
+      "m": 2,
+      "c": 2
+     },
+     "i": {
+      "m": 3,
+      "c": 0
+     },
+     "j": {
+      "m": 4,
+      "c": 5
+     },
+     "k": {
+      "m": 5,
+      "c": 3
+     },
+     "l": {
+      "m": 2,
+      "c": 4
+     }
+    }
+   },
+   {
+    "name": "Banded diamonds",
+    "rows": [
+     "aeaeaeaeaea",
+     "f.f.f.f.f.f",
+     ".g.g.g.g.g.",
+     "f.f.f.f.f.f",
+     "dcdcdcdcdcd",
+     "f.f.f.f.f.f",
+     ".g.g.g.g.g.",
+     "f.f.f.f.f.f",
+     "aeaeaeaeaea"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 0,
+      "c": 3
+     },
+     "e": {
+      "m": 0,
+      "c": 4
+     },
+     "f": {
+      "m": 1,
+      "c": 3
+     },
+     "g": {
+      "m": 1,
+      "c": 1
+     },
+     "h": {
+      "m": 2,
+      "c": 2
+     },
+     "i": {
+      "m": 3,
+      "c": 0
+     },
+     "j": {
+      "m": 4,
+      "c": 5
+     },
+     "k": {
+      "m": 5,
+      "c": 3
+     },
+     "l": {
+      "m": 2,
+      "c": 4
+     }
+    }
+   }
+  ],
+  "rotateMarks": true
+ }
+}

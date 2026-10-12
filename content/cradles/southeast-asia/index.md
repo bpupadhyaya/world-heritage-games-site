@@ -2,7 +2,7 @@
 title: "Southeast Asia and the Islands"
 description: "Mainland valleys and the island world from Sumatra to the Philippines."
 path: "/cradles/southeast-asia/"
-count: 94
+count: 96
 ---
 # Southeast Asia and the Islands
 
@@ -10,13 +10,14 @@ Mainland valleys and the island world from Sumatra to the Philippines.
 
 
 
-94 entries.
+96 entries.
 
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
 - [Arnis / Eskrima](../../games/323-arnis-eskrima/index.md): Philippines, Timor-Leste; Wrestling and martial sports; Classical Worlds
 - [Bakiak](../../games/324-bakiak/index.md): Indonesia, Malaysia; Racing; Age of Contact and Craft
 - [Banig mat weaving](../../games/1236-banig-mat-weaving/index.md): Philippines; Crafts and making; Living Traditions
 - [Batik wax-resist pattern studio](../../games/105-batik-wax-resist-pattern-studio/index.md): Indonesia, Malaysia; Crafts and making; Living Traditions
+- [Bentengan](../../games/326-bentengan/index.md): Indonesia; Board and table games; Deep Past and First Games
 - [Bo Sang umbrella painting](../../games/1243-bo-sang-umbrella-painting/index.md): Thailand; Crafts and making; Living Traditions
 - [Buffalo race](../../games/613-buffalo-race/index.md): Cambodia; Street and playground games; Modern Heritage
 - [Burmese lacquerware engraving](../../games/310-burmese-lacquerware-engraving/index.md): Myanmar; Crafts and making; Living Traditions
@@ -78,6 +79,7 @@ Mainland valleys and the island world from Sumatra to the Philippines.
 - [Tumbang preso](../../games/1028-tumbang-preso/index.md): Philippines; Street and playground games; Modern Heritage
 - [Water puppet pond theatre](../../games/303-water-puppet-pond-theatre/index.md): Vietnam; Performance and storytelling; Classical Worlds
 - [Wau bulan kite](../../games/911-wau-bulan-kite/index.md): Malaysia; Dexterity and skill games; Classical Worlds
+- [Wayang Shadow Puppets](../../games/47-wayang-shadow-puppets/index.md): Indonesia; Performance and storytelling; Classical Worlds
 - [Yoke thé](../../games/314-yoke-the/index.md): Myanmar; Performance and storytelling; Classical Worlds
 - [Batu Seremban / Five stones](../../games/1068-batu-seremban-five-stones/index.md): Singapore; Dexterity and skill games; Deep Past and First Games
 - [Chapteh shuttlecock](../../games/1066-chapteh-shuttlecock/index.md): Singapore; Dexterity and skill games; Modern Heritage

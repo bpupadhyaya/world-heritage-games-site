@@ -1,17 +1,18 @@
 ---
 title: "Uzbekistan"
-description: "8 traditions from Uzbekistan."
+description: "9 traditions from Uzbekistan."
 path: "/countries/uzbekistan/"
-count: 8
+count: 9
 ---
 # Uzbekistan
 
-8 traditions from Uzbekistan.
+9 traditions from Uzbekistan.
 
 
 
-8 entries.
+9 entries.
 
+- [Buzkashi](../../games/226-buzkashi/index.md): Afghanistan, Uzbekistan; Dexterity and skill games; Classical Worlds
 - [Ikat Pattern Dyeing](../../games/104-ikat-pattern-dyeing/index.md): Uzbekistan; Crafts and making; Living Traditions
 - [Kurash](../../games/253-kurash/index.md): Uzbekistan; Wrestling and martial sports; River Valleys and First Cities
 - [Rishtan ceramics](../../games/252-rishtan-ceramics/index.md): Uzbekistan; Crafts and making; Living Traditions

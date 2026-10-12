@@ -1,0 +1,28 @@
+{
+ "title": "Mbira",
+ "native": "mbira",
+ "alt": [
+  "Thumb piano",
+  "Kalimba",
+  "Sanza"
+ ],
+ "summary": "The mbira is a hand-held instrument of the Shona people of Zimbabwe: iron tines on a wooden board, plucked with the fingertips and often set inside a gourd resonator with buzzing shells or bottle caps. Players weave a repeating cycle of notes whose two hands interlock.",
+ "howToPlay": [
+  "Twelve keys in order of pitch: the lower six are usually played by the left thumb and the upper six by the right.",
+  "Notes fall toward the line; strike the key for each as it lands.",
+  "Start with the caller cycle, then the answering cycle that fits in the gaps.",
+  "Each cycle repeats twice, as a real piece loops round and round."
+ ],
+ "rules": [
+  "Twelve keys in two rows form a seven-note scale that is like a major scale with a flat seventh.",
+  "A cycle has twelve pulses; the two hands share them and notes fall on the pulse.",
+  "A stroke on the pulse is perfect, a near one is good; extra strokes cost points."
+ ],
+ "heritageNote": "The mbira has been played in Zimbabwe for many centuries, and its many tuning families and patterns are handed on between players. Related lamellophones are found across Africa, where they go by names such as sanza, kalimba and likembe.",
+ "countries": [
+  "Zimbabwe"
+ ],
+ "credits": [
+  "Tradition: Shona mbira music; cycles written for this game"
+ ]
+}

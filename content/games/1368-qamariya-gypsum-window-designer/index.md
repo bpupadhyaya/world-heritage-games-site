@@ -42,10 +42,10 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md)
 - [Jordanian Sand Bottle Art](../../games/219-jordanian-sand-bottle-art/index.md)
+- [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md)
 - [Al-Qatt Al-Asiri Wall Painting](../../games/1231-al-qatt-al-asiri-wall-painting/index.md)
 - [Keffiyeh Pattern Loom](../../games/1310-keffiyeh-pattern-loom/index.md)
 - [Ndebele geometric wall painting](../../games/23-ndebele-geometric-wall-painting/index.md)
-- [Chinese knotting](../../games/26-chinese-knotting/index.md)
 
 ## Sources
 

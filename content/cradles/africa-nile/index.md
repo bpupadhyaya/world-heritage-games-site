@@ -2,7 +2,7 @@
 title: "Africa: Nile and the Horn"
 description: "Egypt, Sudan, Ethiopia and the Horn of Africa."
 path: "/cradles/africa-nile/"
-count: 37
+count: 38
 ---
 # Africa: Nile and the Horn
 
@@ -10,7 +10,7 @@ Egypt, Sudan, Ethiopia and the Horn of Africa.
 
 
 
-37 entries.
+38 entries.
 
 - [Aqal Somali](../../games/190-aqal-somali/index.md): Somalia; Crafts and making; Living Traditions
 - [Aragoz Hand-Puppet Booth](../../games/222-aragoz-hand-puppet-booth/index.md): Egypt; Performance and storytelling; Classical Worlds
@@ -27,6 +27,7 @@ Egypt, Sudan, Ethiopia and the Horn of Africa.
 - [Ladu](../../games/674-ladu/index.md): Djibouti, Somalia; Board and table games; Crossroads and Golden Ages
 - [Lake Assal salt harvest](../../games/1321-lake-assal-salt-harvest/index.md): Djibouti; Sports with animal partners; Crossroads and Golden Ages
 - [Masenqo and the azmari](../../games/187-masenqo-and-the-azmari/index.md): Ethiopia; Musical instruments; Living Traditions
+- [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md): Egypt, Syria; Crafts and making; Living Traditions
 - [Mesob basket weaving](../../games/1335-mesob-basket-weaving/index.md): Ethiopia; Crafts and making; Living Traditions
 - [Nile Felucca Sailing](../../games/216-nile-felucca-sailing/index.md): Egypt; Racing; Age of Contact and Craft
 - [Nubian house painting](../../games/192-nubian-house-painting/index.md): Egypt; Crafts and making; Living Traditions

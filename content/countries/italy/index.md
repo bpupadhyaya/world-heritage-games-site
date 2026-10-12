@@ -1,22 +1,23 @@
 ---
 title: "Italy"
-description: "22 traditions from Italy."
+description: "23 traditions from Italy."
 path: "/countries/italy/"
-count: 22
+count: 23
 ---
 # Italy
 
-22 traditions from Italy.
+23 traditions from Italy.
 
 
 
-22 entries.
+23 entries.
 
 - [Bocce](../../games/830-bocce/index.md): Italy, San Marino; Street and playground games; Modern Heritage
 - [Circle Dodgeball](../../games/470-circle-dodgeball/index.md): Brazil, Germany; Archery, throwing and target games; Classical Worlds
 - [Commedia Mask Stock Characters](../../games/515-commedia-mask-stock-characters/index.md): Italy; Performance and storytelling; Living Traditions
 - [Crossbow Target Match](../../games/1367-crossbow-target-match/index.md): Italy, San Marino; Dexterity and skill games; Modern Heritage
 - [Dry Stone Wall Builder](../../games/404-dry-stone-wall-builder/index.md): Croatia, Spain; Crafts and making; Living Traditions
+- [Flag Tossing](../../games/395-flag-tossing/index.md): Italy; Dexterity and skill games; Modern Heritage
 - [Game of the Goose](../../games/450-game-of-the-goose/index.md): Italy, Spain; Board and table games; River Valleys and First Cities
 - [Glassblowing](../../games/121-glassblowing/index.md): Italy; Crafts and making; Living Traditions
 - [Gondola Rowing](../../games/401-gondola-rowing/index.md): Italy; Dexterity and skill games; Modern Heritage

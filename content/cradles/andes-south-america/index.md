@@ -2,7 +2,7 @@
 title: "The Americas: Andes and South America"
 description: "The Andes, the Amazon and the southern cone."
 path: "/cradles/andes-south-america/"
-count: 42
+count: 44
 ---
 # The Americas: Andes and South America
 
@@ -10,7 +10,7 @@ The Andes, the Amazon and the southern cone.
 
 
 
-42 entries.
+44 entries.
 
 - [Atarraya](../../games/1434-atarraya/index.md): Colombia; Dexterity and skill games; Modern Heritage
 - [Bandoneon and tango rhythm](../../games/426-bandoneon-and-tango-rhythm/index.md): Argentina, Uruguay; Musical instruments; Age of Contact and Craft
@@ -38,10 +38,12 @@ The Andes, the Amazon and the southern cone.
 - [Nanduti](../../games/428-nanduti/index.md): Paraguay; Crafts and making; Living Traditions
 - [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md): Paraguay; Musical instruments; Classical Worlds
 - [Payada](../../games/1426-payada/index.md): Argentina, Uruguay; Wrestling and martial sports; Classical Worlds
+- [Peteca](../../games/421-peteca/index.md): Brazil; Dexterity and skill games; Modern Heritage
 - [Ring jousting](../../games/1017-ring-jousting/index.md): Paraguay; Street and playground games; Crossroads and Golden Ages
 - [Tejo](../../games/57-tejo/index.md): Colombia; Archery, throwing and target games; Modern Heritage
 - [Toquilla straw hat weaving](../../games/93-toquilla-straw-hat-weaving/index.md): Ecuador; Crafts and making; Living Traditions
 - [Uyuni Salt Harvest](../../games/1491-uyuni-salt-harvest/index.md): Bolivia; Puzzles and mind games; Modern Heritage
+- [Vallenato accordion trio](../../games/431-vallenato-accordion-trio/index.md): Colombia; Musical instruments; Living Traditions
 - [Colombian Parqués](../../games/644-colombian-parques/index.md): Colombia; Board and table games; River Valleys and First Cities
 - [Dudo / Cacho](../../games/1020-dudo-cacho/index.md): Peru; Board and table games; River Valleys and First Cities
 - [Fireball](../../games/1016-fireball/index.md): Paraguay; Street and playground games; Modern Heritage

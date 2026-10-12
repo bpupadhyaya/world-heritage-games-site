@@ -1,0 +1,312 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 13,
+  "rows": 9,
+  "symmetry": "mirror-x",
+  "mode": "copy",
+  "rotateMarks": true,
+  "palette": [
+   {
+    "name": "Red",
+    "color": "#e8262e"
+   },
+   {
+    "name": "Yellow",
+    "color": "#fdd12a"
+   },
+   {
+    "name": "Green",
+    "color": "#1fa65a"
+   },
+   {
+    "name": "Turquoise",
+    "color": "#17b8c9"
+   },
+   {
+    "name": "Pink",
+    "color": "#f0509e"
+   },
+   {
+    "name": "White",
+    "color": "#fbfbf4"
+   }
+  ],
+  "background": "#15110f",
+  "grid": "#352a24",
+  "motifs": [
+   "arch",
+   "leaf",
+   "ring",
+   "star",
+   "diamond",
+   "stripe-h"
+  ],
+  "designs": [
+   {
+    "name": "Tailgate medallion",
+    "rows": [
+     "ppppppppppppp",
+     "a.b.a.b.a.b.a",
+     "......j......",
+     "..e...i...e..",
+     "mfgf.dhd.fgfm",
+     "..e...i...e..",
+     "......j......",
+     "n.m.n.m.n.m.n",
+     "rrrrrrrrrrrrr"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 1,
+      "c": 2
+     },
+     "e": {
+      "m": 1,
+      "c": 4
+     },
+     "f": {
+      "m": 1,
+      "c": 3
+     },
+     "g": {
+      "m": 2,
+      "c": 1
+     },
+     "h": {
+      "m": 2,
+      "c": 5
+     },
+     "i": {
+      "m": 2,
+      "c": 4
+     },
+     "j": {
+      "m": 3,
+      "c": 1
+     },
+     "k": {
+      "m": 3,
+      "c": 5
+     },
+     "l": {
+      "m": 3,
+      "c": 0
+     },
+     "m": {
+      "m": 4,
+      "c": 3
+     },
+     "n": {
+      "m": 4,
+      "c": 1
+     },
+     "o": {
+      "m": 4,
+      "c": 0
+     },
+     "p": {
+      "m": 5,
+      "c": 5
+     },
+     "q": {
+      "m": 5,
+      "c": 1
+     },
+     "r": {
+      "m": 5,
+      "c": 4
+     }
+    }
+   },
+   {
+    "name": "Bazaar borders",
+    "rows": [
+     "ppppppppppppp",
+     "n.n.n.n.n.n.n",
+     "qqqqqqqqqqqqq",
+     "..i.i.k.i.i..",
+     ".d.d.d.d.d.d.",
+     "..i.i.k.i.i..",
+     "qqqqqqqqqqqqq",
+     "o.o.o.o.o.o.o",
+     "ppppppppppppp"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 1,
+      "c": 2
+     },
+     "e": {
+      "m": 1,
+      "c": 4
+     },
+     "f": {
+      "m": 1,
+      "c": 3
+     },
+     "g": {
+      "m": 2,
+      "c": 1
+     },
+     "h": {
+      "m": 2,
+      "c": 5
+     },
+     "i": {
+      "m": 2,
+      "c": 4
+     },
+     "j": {
+      "m": 3,
+      "c": 1
+     },
+     "k": {
+      "m": 3,
+      "c": 5
+     },
+     "l": {
+      "m": 3,
+      "c": 0
+     },
+     "m": {
+      "m": 4,
+      "c": 3
+     },
+     "n": {
+      "m": 4,
+      "c": 1
+     },
+     "o": {
+      "m": 4,
+      "c": 0
+     },
+     "p": {
+      "m": 5,
+      "c": 5
+     },
+     "q": {
+      "m": 5,
+      "c": 1
+     },
+     "r": {
+      "m": 5,
+      "c": 4
+     }
+    }
+   },
+   {
+    "name": "Arches and leaf columns",
+    "rows": [
+     "rrrrrrrrrrrrr",
+     "..a.b.c.b.a..",
+     ".a.b.c.c.b.a.",
+     ".f.f.fjf.f.f.",
+     ".d.d.dgd.d.d.",
+     ".e.e.eie.e.e.",
+     ".d.d.dgd.d.d.",
+     "qqqqqqqqqqqqq",
+     "ppppppppppppp"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 1,
+      "c": 2
+     },
+     "e": {
+      "m": 1,
+      "c": 4
+     },
+     "f": {
+      "m": 1,
+      "c": 3
+     },
+     "g": {
+      "m": 2,
+      "c": 1
+     },
+     "h": {
+      "m": 2,
+      "c": 5
+     },
+     "i": {
+      "m": 2,
+      "c": 4
+     },
+     "j": {
+      "m": 3,
+      "c": 1
+     },
+     "k": {
+      "m": 3,
+      "c": 5
+     },
+     "l": {
+      "m": 3,
+      "c": 0
+     },
+     "m": {
+      "m": 4,
+      "c": 3
+     },
+     "n": {
+      "m": 4,
+      "c": 1
+     },
+     "o": {
+      "m": 4,
+      "c": 0
+     },
+     "p": {
+      "m": 5,
+      "c": 5
+     },
+     "q": {
+      "m": 5,
+      "c": 1
+     },
+     "r": {
+      "m": 5,
+      "c": 4
+     }
+    }
+   }
+  ]
+ }
+}

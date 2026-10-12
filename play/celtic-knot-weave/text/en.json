@@ -1,0 +1,27 @@
+{
+ "title": "Celtic knot weave",
+ "native": "",
+ "alt": [
+  "Celtic knotwork",
+  "Interlace"
+ ],
+ "summary": "Celtic knotwork is the art of interlaced cords that pass over and under one another with no beginning and no end, carved in stone, worked in metal and drawn on the pages of early illuminated books.",
+ "howToPlay": [
+  "Choose a colour and a motif from the strip under the panel.",
+  "Tap a square to place it: the same motif appears on the matching squares all round the panel.",
+  "Copy the small design above the panel, then press Check."
+ ],
+ "rules": [
+  "The panel is symmetric in four directions and across both diagonals, as knotwork bands are.",
+  "A square counts only when its motif and its colour both match the design.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Interlaced patterns of this kind were made across early medieval Ireland and Britain, on carved stone, metalwork and manuscript pages, and are still drawn, carved and embroidered today.",
+ "countries": [
+  "Ireland",
+  "United Kingdom"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

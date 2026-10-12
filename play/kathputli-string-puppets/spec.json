@@ -1,0 +1,358 @@
+{
+ "engine": "story",
+ "params": {
+  "stage": "marionette",
+  "start": "start",
+  "cast": {
+   "dilip": {
+    "name": "Dilip",
+    "kind": "child",
+    "hat": "cap",
+    "color": "#c2185b",
+    "accent": "#f2a03d"
+   },
+   "kamla": {
+    "name": "Kamla the puppeteer",
+    "kind": "person",
+    "hat": "turban",
+    "hatColor": "#e8742a",
+    "color": "#2b6f8a",
+    "accent": "#f2c14e",
+    "beard": false,
+    "robe": true
+   },
+   "weaver": {
+    "name": "The basket weaver",
+    "kind": "trader",
+    "hat": "turban",
+    "hatColor": "#f4efe2",
+    "color": "#7a8f3a",
+    "accent": "#c9b26a",
+    "prop": "bag"
+   }
+  },
+  "meters": [
+   {
+    "id": "wit",
+    "label": "Wit",
+    "start": 0,
+    "max": 4
+   },
+   {
+    "id": "goodwill",
+    "label": "Goodwill",
+    "start": 0,
+    "max": 4
+   }
+  ],
+  "scenes": {
+   "start": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "dilip",
+      "at": "left",
+      "pose": "slump"
+     },
+     {
+      "who": "kamla",
+      "at": "right"
+     }
+    ],
+    "text": "Drums call the village to the fair. Dilip hurries to the stage and steps on the little bamboo voice-reed, the boli, with a crack. Kamla's show starts in one hour.",
+    "speaker": "dilip",
+    "choices": [
+     {
+      "text": "Slip the broken boli into a sleeve and say nothing",
+      "next": "hidden",
+      "pts": 0,
+      "set": [
+       "hid"
+      ]
+     },
+     {
+      "text": "Run to the market to find a new one before anyone notices",
+      "next": "market",
+      "pts": 1
+     },
+     {
+      "text": "Show Kamla the broken boli and say it was your clumsy foot",
+      "next": "told",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1
+      }
+     }
+    ]
+   },
+   "hidden": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "dilip",
+      "at": "left",
+      "pose": "slump"
+     },
+     {
+      "who": "kamla",
+      "at": "right"
+     }
+    ],
+    "text": "Kamla reaches for the boli, finds splinters, and her brows climb. \"Now we lose time, and I lose my trust in you.\" She sends Dilip off to the market anyway.",
+    "speaker": "kamla",
+    "next": "market",
+    "cont": "Run to the market"
+   },
+   "told": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "dilip",
+      "at": "left"
+     },
+     {
+      "who": "kamla",
+      "at": "right",
+      "pose": "point"
+     }
+    ],
+    "text": "Kamla turns the pieces over. \"Honest feet, at least. A boli is two slivers of bamboo and a stretched band, but only dry, hollow cane will sing.\" She points to the market lane.",
+    "speaker": "kamla",
+    "next": "market",
+    "cont": "Run to the market"
+   },
+   "market": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "dilip",
+      "at": "left"
+     },
+     {
+      "who": "weaver",
+      "at": "right"
+     }
+    ],
+    "text": "The lane is thick with sellers. A potter shouts about jars, a sweet-maker about laddus, and an old weaver sits among cane baskets. Which stall can help a puppeteer?",
+    "speaker": "dilip",
+    "choices": [
+     {
+      "text": "The potter: clay jars ring and chime",
+      "next": "detour",
+      "pts": 0,
+      "set": [
+       "late"
+      ]
+     },
+     {
+      "text": "The sweet-maker: he surely knows every trick of sugar and reeds",
+      "next": "detour",
+      "pts": 0,
+      "set": [
+       "late"
+      ]
+     },
+     {
+      "text": "The basket weaver: she works with cane every day",
+      "next": "weaver",
+      "pts": 2,
+      "effects": {
+       "wit": 1
+      }
+     }
+    ]
+   },
+   "detour": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "dilip",
+      "at": "left",
+      "pose": "slump"
+     }
+    ],
+    "text": "The seller laughs kindly. \"Clay and sugar never sang a note. Try the basket weaver.\" The drums have begun and Dilip's sandals slap faster over the stones.",
+    "next": "weaver",
+    "cont": "Find the weaver"
+   },
+   "weaver": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "dilip",
+      "at": "left"
+     },
+     {
+      "who": "weaver",
+      "at": "right",
+      "pose": "point"
+     }
+    ],
+    "text": "The weaver holds up three lengths of cane. \"Choose the one that will sing. Tap it and listen: green and bent, dry and hollow, or thick and solid?\"",
+    "speaker": "weaver",
+    "puzzle": {
+     "prompt": "Which cane will sing?",
+     "options": [
+      "Green and bent",
+      "Thick and solid",
+      "Dry and hollow"
+     ],
+     "answer": 2,
+     "right": {
+      "effects": {
+       "wit": 1
+      },
+      "pts": 2,
+      "next": "show"
+     },
+     "wrong": {
+      "pts": 0,
+      "next": "show",
+      "set": [
+       "squeak"
+      ]
+     }
+    }
+   },
+   "show": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "dilip",
+      "at": "left"
+     },
+     {
+      "who": "kamla",
+      "at": "right"
+     }
+    ],
+    "text": "The curtain parts and Kamla's strings are in a knot, one dancer's skirt tangled with the king's crown. The crowd murmurs. Kamla looks at Dilip: \"You have clever hands. Quick.\"",
+    "speaker": "kamla",
+    "choices": [
+     {
+      "text": "Pull hard at the top of the knot and hope it frees",
+      "next": "applause",
+      "pts": 0,
+      "set": [
+       "tangled"
+      ]
+     },
+     {
+      "text": "Let Kamla fix it while the drummers fill the gap",
+      "next": "applause",
+      "pts": 1
+     },
+     {
+      "text": "Lay the bar down and free each string from the top, one at a time",
+      "next": "applause",
+      "pts": 2,
+      "effects": {
+       "wit": 1
+      }
+     }
+    ]
+   },
+   "applause": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "dilip",
+      "at": "left",
+      "pose": "bow"
+     },
+     {
+      "who": "kamla",
+      "at": "center"
+     },
+     {
+      "who": "weaver",
+      "at": "right"
+     }
+    ],
+    "text": "The show runs and the puppets bow to loud clapping. A child calls out, \"Who gave the dancer her voice?\" The crowd turns to Dilip, then to the basket stall far back.",
+    "speaker": "kamla",
+    "choices": [
+     {
+      "text": "Take every cheer yourself and bow low",
+      "next": "finale",
+      "pts": 0,
+      "set": [
+       "boast"
+      ]
+     },
+     {
+      "text": "Bow quietly and say nothing",
+      "next": "finale",
+      "pts": 1
+     },
+     {
+      "text": "Call the weaver forward to share the bow",
+      "next": "finale",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1
+      }
+     }
+    ]
+   },
+   "finale": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "dilip",
+      "at": "left",
+      "pose": "cheer"
+     },
+     {
+      "who": "kamla",
+      "at": "center"
+     },
+     {
+      "who": "weaver",
+      "at": "right"
+     }
+    ],
+    "text": "Lamps swing, sweets are passed along the rows and the dancer puppet twirls once more. Kamla tucks the new boli into her belt and laughs, ready for the next fair.",
+    "end": true
+   }
+  },
+  "endings": [
+   {
+    "id": "best",
+    "stars": 3,
+    "headline": "The voice of the fair",
+    "text": "A kept promise, a clever ear and a shared bow: the dancer sings.",
+    "when": {
+     "min": {
+      "wit": 2,
+      "goodwill": 2
+     },
+     "notFlags": [
+      "hid",
+      "late",
+      "tangled",
+      "boast",
+      "squeak"
+     ]
+    }
+   },
+   {
+    "id": "fine",
+    "stars": 2,
+    "headline": "The show goes on",
+    "text": "The strings are freed and the voice is found, though the evening was a scramble.",
+    "when": {
+     "min": {
+      "wit": 1
+     }
+    }
+   },
+   {
+    "id": "thin",
+    "stars": 1,
+    "headline": "A thin little show",
+    "text": "The puppets dance, but the voice squeaks and the crowd drifts away early."
+   }
+  ]
+ }
+}

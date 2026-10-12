@@ -1,20 +1,21 @@
 ---
 title: "Indonesia"
-description: "24 traditions from Indonesia."
+description: "26 traditions from Indonesia."
 path: "/countries/indonesia/"
-count: 24
+count: 26
 ---
 # Indonesia
 
-24 traditions from Indonesia.
+26 traditions from Indonesia.
 
 
 
-24 entries.
+26 entries.
 
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
 - [Bakiak](../../games/324-bakiak/index.md): Indonesia, Malaysia; Racing; Age of Contact and Craft
 - [Batik wax-resist pattern studio](../../games/105-batik-wax-resist-pattern-studio/index.md): Indonesia, Malaysia; Crafts and making; Living Traditions
+- [Bentengan](../../games/326-bentengan/index.md): Indonesia; Board and table games; Deep Past and First Games
 - [Congklak](../../games/803-congklak/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
 - [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md): Indonesia; Street and playground games; Modern Heritage
 - [Egrang](../../games/17-egrang/index.md): Indonesia, Malaysia; Racing; Classical Worlds
@@ -32,6 +33,7 @@ count: 24
 - [Sasando](../../games/317-sasando/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Sepak takraw](../../games/802-sepak-takraw/index.md): Indonesia, Malaysia; Street and playground games; Modern Heritage
 - [Songket](../../games/320-songket/index.md): Malaysia, Brunei; Crafts and making; Living Traditions
+- [Wayang Shadow Puppets](../../games/47-wayang-shadow-puppets/index.md): Indonesia; Performance and storytelling; Classical Worlds
 - [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
 - [Gamelan](../../games/22329-gamelan/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Gaple dominoes](../../games/804-gaple-dominoes/index.md): Indonesia; Board and table games; Crossroads and Golden Ages

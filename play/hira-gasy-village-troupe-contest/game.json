@@ -1,0 +1,13 @@
+{
+ "slug": "hira-gasy-village-troupe-contest",
+ "title": "Hira gasy troupe contest",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

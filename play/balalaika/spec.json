@@ -1,0 +1,319 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 329.6,
+  "loops": 2,
+  "tolerance": 1.15,
+  "lanes": [
+   {
+    "name": "A",
+    "cents": 500,
+    "row": 0,
+    "timbre": "pluck",
+    "color": "#e8b23a"
+   },
+   {
+    "name": "B",
+    "cents": 700,
+    "row": 0,
+    "timbre": "pluck",
+    "color": "#f2cd72"
+   },
+   {
+    "name": "C",
+    "cents": 800,
+    "row": 0,
+    "timbre": "pluck",
+    "color": "#f7e2a4"
+   },
+   {
+    "name": "D",
+    "cents": 1000,
+    "row": 0,
+    "timbre": "pluck",
+    "color": "#fff0c8"
+   },
+   {
+    "name": "E",
+    "cents": 0,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "F",
+    "cents": 100,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#78b6e2"
+   },
+   {
+    "name": "G",
+    "cents": 300,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#a3cdec"
+   },
+   {
+    "name": "Strum",
+    "cents": 0,
+    "row": 2,
+    "timbre": "string",
+    "color": "#d6573c"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Dance tune in A minor",
+    "bpm": 120,
+    "meter": 2,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Strum"
+     },
+     {
+      "beat": 1,
+      "lane": "A"
+     },
+     {
+      "beat": 1.5,
+      "lane": "B"
+     },
+     {
+      "beat": 2,
+      "lane": "C"
+     },
+     {
+      "beat": 3,
+      "lane": "B"
+     },
+     {
+      "beat": 3.5,
+      "lane": "A"
+     },
+     {
+      "beat": 4,
+      "lane": "Strum"
+     },
+     {
+      "beat": 5,
+      "lane": "E"
+     },
+     {
+      "beat": 5.5,
+      "lane": "F"
+     },
+     {
+      "beat": 6,
+      "lane": "G"
+     },
+     {
+      "beat": 7,
+      "lane": "F"
+     },
+     {
+      "beat": 7.5,
+      "lane": "E"
+     },
+     {
+      "beat": 8,
+      "lane": "Strum"
+     },
+     {
+      "beat": 9,
+      "lane": "A"
+     },
+     {
+      "beat": 9.5,
+      "lane": "C"
+     },
+     {
+      "beat": 10,
+      "lane": "B"
+     },
+     {
+      "beat": 11,
+      "lane": "A"
+     },
+     {
+      "beat": 11.5,
+      "lane": "G"
+     },
+     {
+      "beat": 12,
+      "lane": "Strum"
+     },
+     {
+      "beat": 13,
+      "lane": "E"
+     },
+     {
+      "beat": 13.5,
+      "lane": "G"
+     },
+     {
+      "beat": 14,
+      "lane": "F"
+     },
+     {
+      "beat": 15,
+      "lane": "E"
+     }
+    ]
+   },
+   {
+    "name": "Slow waltz in A minor",
+    "bpm": 100,
+    "meter": 3,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Strum"
+     },
+     {
+      "beat": 1,
+      "lane": "A"
+     },
+     {
+      "beat": 2,
+      "lane": "B"
+     },
+     {
+      "beat": 3,
+      "lane": "C"
+     },
+     {
+      "beat": 4,
+      "lane": "B"
+     },
+     {
+      "beat": 5,
+      "lane": "A"
+     },
+     {
+      "beat": 6,
+      "lane": "Strum"
+     },
+     {
+      "beat": 7,
+      "lane": "G"
+     },
+     {
+      "beat": 8,
+      "lane": "F"
+     },
+     {
+      "beat": 9,
+      "lane": "E"
+     },
+     {
+      "beat": 10,
+      "lane": "F"
+     },
+     {
+      "beat": 11,
+      "lane": "G"
+     },
+     {
+      "beat": 12,
+      "lane": "Strum"
+     },
+     {
+      "beat": 13,
+      "lane": "A"
+     },
+     {
+      "beat": 14,
+      "lane": "D"
+     },
+     {
+      "beat": 15,
+      "lane": "C"
+     },
+     {
+      "beat": 16,
+      "lane": "B"
+     },
+     {
+      "beat": 17,
+      "lane": "A"
+     }
+    ]
+   },
+   {
+    "name": "Strum and answer",
+    "bpm": 112,
+    "meter": 2,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Strum"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Strum"
+     },
+     {
+      "beat": 1,
+      "lane": "A"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Strum"
+     },
+     {
+      "beat": 2,
+      "lane": "Strum"
+     },
+     {
+      "beat": 2.5,
+      "lane": "E"
+     },
+     {
+      "beat": 3,
+      "lane": "A"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Strum"
+     },
+     {
+      "beat": 4,
+      "lane": "Strum"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Strum"
+     },
+     {
+      "beat": 5,
+      "lane": "B"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Strum"
+     },
+     {
+      "beat": 6,
+      "lane": "Strum"
+     },
+     {
+      "beat": 6.5,
+      "lane": "F"
+     },
+     {
+      "beat": 7,
+      "lane": "A"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Strum"
+     }
+    ]
+   }
+  ]
+ }
+}

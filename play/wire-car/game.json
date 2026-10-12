@@ -1,0 +1,13 @@
+{
+ "slug": "wire-car",
+ "title": "Wire car",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

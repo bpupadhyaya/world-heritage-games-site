@@ -46,11 +46,11 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 ## Related entries
 
 - [101 Okey](../../games/1166-101-okey/index.md)
+- [Karagoz](../../games/38-karagoz/index.md)
 - [Cirit](../../games/156-cirit/index.md)
 - [Qanun](../../games/162-qanun/index.md)
 - [Rummikub](../../games/826-rummikub/index.md)
 - [Mahjong](../../games/635-mahjong/index.md)
-- [Cafe dominoes](../../games/690-cafe-dominoes/index.md)
 
 ## Sources
 

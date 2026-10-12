@@ -1,0 +1,13 @@
+{
+ "slug": "pinata-swing",
+ "title": "Pinata Swing",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

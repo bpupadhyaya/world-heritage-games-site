@@ -17,7 +17,7 @@ path: "/a-z/D/"
 - [Dan bau](../../games/143-dan-bau/index.md): Vietnam; Musical instruments; Living Traditions
 - [Dandi Biyo](../../games/968-dandi-biyo/index.md): Nepal; Dexterity and skill games; Modern Heritage
 - [Danish pin billiards](../../games/671-danish-pin-billiards/index.md): Denmark; Street and playground games; Age of Contact and Craft
-- [Dara](../../games/452-dara/index.md): Nigeria, Niger; Crafts and making; Living Traditions
+- [Dara](../../games/452-dara/index.md): Nigeria, Niger; Board and table games; Living Traditions
 - [Dart/spear throwing](../../games/1057-dart-spear-throwing/index.md): Samoa; Street and playground games; Modern Heritage
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Dego](../../games/590-dego/index.md): Bhutan; Dexterity and skill games; Modern Heritage

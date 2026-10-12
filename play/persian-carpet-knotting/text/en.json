@@ -1,0 +1,28 @@
+{
+ "title": "Persian carpet knotting",
+ "native": "فرش دستباف",
+ "alt": [
+  "Persian rug weaving",
+  "Hand-knotted carpet"
+ ],
+ "summary": "A hand-knotted carpet is built one knot at a time: the weaver follows a coloured chart in which every square stands for a single knot of dyed wool. Medallions, borders, garden layouts and leaf-like boteh shapes grow from the middle outward, the same on every side.",
+ "howToPlay": [
+  "Pick a wool colour and a shape from the strip under the chart: solid knots, diamonds, stars, leaves, rings and hexagons.",
+  "Tap a square to tie a knot: the knots on the other three sides and the mirrored corners follow, so the chart stays balanced.",
+  "Copy the small chart above, then press Check."
+ ],
+ "rules": [
+  "The chart is balanced in four turns and in mirror image, as carpet fields are.",
+  "A square scores only when its shape and its wool colour both match the chart.",
+  "Tying the same shape and colour again, or using the eraser, removes the knot.",
+  "Three stars need a near-perfect copy; undo and clear are free."
+ ],
+ "heritageNote": "Carpet weaving has been practised for centuries in towns, villages and tribal camps across Iran and Turkey, each region with its own colours and layouts, and it is still a major household and workshop craft.",
+ "countries": [
+  "Iran",
+  "Turkey"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "engine": "pattern",
+ "params": {
+  "symmetry": "rot4-mirror",
+  "mode": "copy",
+  "rotateMarks": false,
+  "palette": [
+   {
+    "name": "Deep indigo",
+    "color": "#1f2f6b"
+   },
+   {
+    "name": "Mid indigo",
+    "color": "#3a5aa8"
+   },
+   {
+    "name": "Pale indigo",
+    "color": "#7fa3dc"
+   }
+  ],
+  "background": "#f1f3f8",
+  "grid": "#cfd6e6",
+  "motifs": [
+   "ring",
+   "dot",
+   "diamond",
+   "stripe-h",
+   "checker",
+   "star"
+  ],
+  "cols": 9,
+  "rows": 9,
+  "designs": [
+   {
+    "name": "Tied circles",
+    "rows": [
+     "r.r.r.r.r",
+     ".p.p.p.p.",
+     "r.r.r.r.r",
+     ".p.p.p.p.",
+     "r.r.a.r.r",
+     ".p.p.p.p.",
+     "r.r.r.r.r",
+     ".p.p.p.p.",
+     "r.r.r.r.r"
+    ],
+    "legend": {
+     "r": {
+      "m": 0,
+      "c": 0
+     },
+     "p": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 2,
+      "c": 0
+     },
+     "e": {
+      "m": 2,
+      "c": 1
+     },
+     "s": {
+      "m": 3,
+      "c": 1
+     },
+     "k": {
+      "m": 4,
+      "c": 0
+     },
+     "a": {
+      "m": 5,
+      "c": 0
+     },
+     "b": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Folded diamonds",
+    "rows": [
+     "d.e.d.e.d",
+     ".k.k.k.k.",
+     "e.d.e.d.e",
+     ".k.k.k.k.",
+     "d.e.b.e.d",
+     ".k.k.k.k.",
+     "e.d.e.d.e",
+     ".k.k.k.k.",
+     "d.e.d.e.d"
+    ],
+    "legend": {
+     "r": {
+      "m": 0,
+      "c": 0
+     },
+     "p": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 2,
+      "c": 0
+     },
+     "e": {
+      "m": 2,
+      "c": 1
+     },
+     "s": {
+      "m": 3,
+      "c": 1
+     },
+     "k": {
+      "m": 4,
+      "c": 0
+     },
+     "a": {
+      "m": 5,
+      "c": 0
+     },
+     "b": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Pasted stripes and stars",
+    "rows": [
+     "s.s.s.s.s",
+     ".b.b.b.b.",
+     "s.s.a.s.s",
+     ".b.p.p.b.",
+     "s.a.e.a.s",
+     ".b.p.p.b.",
+     "s.s.a.s.s",
+     ".b.b.b.b.",
+     "s.s.s.s.s"
+    ],
+    "legend": {
+     "r": {
+      "m": 0,
+      "c": 0
+     },
+     "p": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 2,
+      "c": 0
+     },
+     "e": {
+      "m": 2,
+      "c": 1
+     },
+     "s": {
+      "m": 3,
+      "c": 1
+     },
+     "k": {
+      "m": 4,
+      "c": 0
+     },
+     "a": {
+      "m": 5,
+      "c": 0
+     },
+     "b": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   }
+  ]
+ }
+}

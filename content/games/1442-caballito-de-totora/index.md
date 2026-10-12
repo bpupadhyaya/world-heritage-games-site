@@ -40,12 +40,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Vallenato accordion trio](../../games/431-vallenato-accordion-trio/index.md)
 - [Khene](../../games/145-khene/index.md)
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md)
 - [Mudhif reed-arch house](../../games/230-mudhif-reed-arch-house/index.md)
 - [Lusheng](../../games/337-lusheng/index.md)
 - [Launeddas Triple Pipe](../../games/400-launeddas-triple-pipe/index.md)
-- [Rubboard zydeco rhythm](../../games/437-rubboard-zydeco-rhythm/index.md)
 
 ## Sources
 

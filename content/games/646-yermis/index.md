@@ -38,8 +38,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Chaza](../../games/643-chaza/index.md)
 - [Atarraya](../../games/1434-atarraya/index.md)
 - [Rana](../../games/645-rana/index.md)
+- [Peteca](../../games/421-peteca/index.md)
 - [Emboque](../../games/629-emboque/index.md)
-- [Frog toss](../../games/688-frog-toss/index.md)
 
 ## Sources
 

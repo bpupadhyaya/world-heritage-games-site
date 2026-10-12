@@ -1,0 +1,261 @@
+{
+ "engine": "pattern",
+ "variant": "suzani-embroidery",
+ "params": {
+  "cols": 11,
+  "rows": 13,
+  "symmetry": "mirror-xy",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Crimson",
+    "color": "#c2263b"
+   },
+   {
+    "name": "Indigo",
+    "color": "#2a3f8e"
+   },
+   {
+    "name": "Gold",
+    "color": "#e8b02c"
+   },
+   {
+    "name": "Green",
+    "color": "#3c8a52"
+   },
+   {
+    "name": "Rose",
+    "color": "#e8789e"
+   }
+  ],
+  "background": "#f2ead6",
+  "grid": "#d8ccaf",
+  "motifs": [
+   "star",
+   "ring",
+   "leaf",
+   "spiral",
+   "dot",
+   "diamond"
+  ],
+  "rotateMarks": true,
+  "designs": [
+   {
+    "name": "Sunburst medallion",
+    "rows": [
+     "b.b.b.b.b.b",
+     ".w...v...w.",
+     "bl.m.r.m.lb",
+     ".l.l...l.l.",
+     "..eS.l.Se..",
+     ".v.sdmds.v.",
+     "..rdsSsdr..",
+     ".v.sdmds.v.",
+     "..eS.l.Se..",
+     ".l.l...l.l.",
+     "bl.m.r.m.lb",
+     ".w...v...w.",
+     "b.b.b.b.b.b"
+    ],
+    "legend": {
+     "s": {
+      "m": 0,
+      "c": 0
+     },
+     "S": {
+      "m": 0,
+      "c": 2
+     },
+     "r": {
+      "m": 1,
+      "c": 0
+     },
+     "R": {
+      "m": 1,
+      "c": 1
+     },
+     "l": {
+      "m": 2,
+      "c": 3
+     },
+     "m": {
+      "m": 2,
+      "c": 4
+     },
+     "v": {
+      "m": 3,
+      "c": 1
+     },
+     "w": {
+      "m": 3,
+      "c": 0
+     },
+     "b": {
+      "m": 4,
+      "c": 2
+     },
+     "p": {
+      "m": 4,
+      "c": 4
+     },
+     "d": {
+      "m": 5,
+      "c": 1
+     },
+     "e": {
+      "m": 5,
+      "c": 0
+     },
+     "t": {
+      "m": 0,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Vine and rose field",
+    "rows": [
+     "bbbbbbbbbbb",
+     "ew.l.p.l.we",
+     "bl.v.l.v.lb",
+     ".p.ml.lm.p.",
+     "rv.dRpRd.vr",
+     ".l.ptdtp.l.",
+     "bmltsSstlmb",
+     ".l.ptdtp.l.",
+     "rv.dRpRd.vr",
+     ".p.ml.lm.p.",
+     "bl.v.l.v.lb",
+     "ew.l.p.l.we",
+     "bbbbbbbbbbb"
+    ],
+    "legend": {
+     "s": {
+      "m": 0,
+      "c": 0
+     },
+     "S": {
+      "m": 0,
+      "c": 2
+     },
+     "r": {
+      "m": 1,
+      "c": 0
+     },
+     "R": {
+      "m": 1,
+      "c": 1
+     },
+     "l": {
+      "m": 2,
+      "c": 3
+     },
+     "m": {
+      "m": 2,
+      "c": 4
+     },
+     "v": {
+      "m": 3,
+      "c": 1
+     },
+     "w": {
+      "m": 3,
+      "c": 0
+     },
+     "b": {
+      "m": 4,
+      "c": 2
+     },
+     "p": {
+      "m": 4,
+      "c": 4
+     },
+     "d": {
+      "m": 5,
+      "c": 1
+     },
+     "e": {
+      "m": 5,
+      "c": 0
+     },
+     "t": {
+      "m": 0,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Garden panel",
+    "rows": [
+     ".p.p.p.p.p.",
+     "ev.v.l.v.ve",
+     ".ml.mlm.lm.",
+     "dw.R.p.R.wd",
+     ".ml.tdt.lm.",
+     "rv.sStSs.vr",
+     ".l.dtStd.l.",
+     "rv.sStSs.vr",
+     ".ml.tdt.lm.",
+     "dw.R.p.R.wd",
+     ".ml.mlm.lm.",
+     "ev.v.l.v.ve",
+     ".p.p.p.p.p."
+    ],
+    "legend": {
+     "s": {
+      "m": 0,
+      "c": 0
+     },
+     "S": {
+      "m": 0,
+      "c": 2
+     },
+     "r": {
+      "m": 1,
+      "c": 0
+     },
+     "R": {
+      "m": 1,
+      "c": 1
+     },
+     "l": {
+      "m": 2,
+      "c": 3
+     },
+     "m": {
+      "m": 2,
+      "c": 4
+     },
+     "v": {
+      "m": 3,
+      "c": 1
+     },
+     "w": {
+      "m": 3,
+      "c": 0
+     },
+     "b": {
+      "m": 4,
+      "c": 2
+     },
+     "p": {
+      "m": 4,
+      "c": 4
+     },
+     "d": {
+      "m": 5,
+      "c": 1
+     },
+     "e": {
+      "m": 5,
+      "c": 0
+     },
+     "t": {
+      "m": 0,
+      "c": 1
+     }
+    }
+   }
+  ]
+ }
+}

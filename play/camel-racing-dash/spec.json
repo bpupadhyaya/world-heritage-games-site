@@ -1,0 +1,54 @@
+{
+ "engine": "tempo-race",
+ "params": {
+  "vehicle": {
+   "kind": "animal",
+   "look": "camel",
+   "topSpeed": 14,
+   "gallopSeconds": 24,
+   "restSeconds": 10
+  },
+  "rhythm": {
+   "bpm": 78,
+   "window": 0.1
+  },
+  "course": {
+   "length": 1100,
+   "lanes": 4,
+   "shape": "straight",
+   "terrain": "sand",
+   "scenery": "dunes",
+   "current": -0.2,
+   "rough": [
+    {
+     "from": 300,
+     "to": 380
+    },
+    {
+     "from": 700,
+     "to": 790
+    }
+   ]
+  },
+  "opponents": {
+   "count": 5,
+   "skill": 0.91,
+   "spread": 0.02,
+   "surge": 1.3
+  },
+  "rounds": 2,
+  "rhythmStars": 0.75,
+  "colors": {
+   "sky": "#f6d9a0",
+   "ground": "#e2b36b",
+   "ground2": "#d49f55",
+   "bank": "#c58a45",
+   "edge": "#fff1d0",
+   "player": "#7b2d26"
+  },
+  "labels": {
+   "tap": "Hold to gallop \u00b7 tap on the stride to call",
+   "unit": "m"
+  }
+ }
+}

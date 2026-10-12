@@ -1,17 +1,18 @@
 ---
 title: "Netherlands"
-description: "15 traditions from Netherlands."
+description: "16 traditions from Netherlands."
 path: "/countries/netherlands/"
-count: 15
+count: 16
 ---
 # Netherlands
 
-15 traditions from Netherlands.
+16 traditions from Netherlands.
 
 
 
-15 entries.
+16 entries.
 
+- [Canal ice-skating marathon](../../games/84-canal-ice-skating-marathon/index.md): Netherlands; Racing; Age of Contact and Craft
 - [Canal pole vault](../../games/7-canal-pole-vault/index.md): Netherlands; Water and winter sports; Modern Heritage
 - [Carillon](../../games/418-carillon/index.md): Belgium, Netherlands; Musical instruments; Living Traditions
 - [Clinker Boat Building](../../games/496-clinker-boat-building/index.md): Norway, Denmark; Crafts and making; Living Traditions

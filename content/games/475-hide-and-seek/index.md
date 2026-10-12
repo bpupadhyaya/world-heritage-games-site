@@ -38,6 +38,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - **Cradle:** [Shared across the world](../../cradles/worldwide/index.md)
 - **Region:** Worldwide
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Galah panjang](../../games/909-galah-panjang/index.md)

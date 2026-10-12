@@ -46,11 +46,11 @@ Usually placed in the era of Modern Heritage (1800 to today), within the cultura
 ## Related entries
 
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md)
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md)
 - [Menko](../../games/346-menko/index.md)
 - [Kamishibai](../../games/353-kamishibai/index.md)
 - [Tatami room tiling puzzle](../../games/356-tatami-room-tiling-puzzle/index.md)
-- [Hashi](../../games/360-hashi/index.md)
 
 ## Sources
 

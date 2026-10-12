@@ -1,0 +1,245 @@
+{
+ "engine": "pattern",
+ "variant": "cross-stitch-pattern-weaving",
+ "params": {
+  "cols": 11,
+  "rows": 9,
+  "symmetry": "mirror-xy",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Red",
+    "color": "#b3202a"
+   },
+   {
+    "name": "Black",
+    "color": "#1c1c1c"
+   },
+   {
+    "name": "Blue",
+    "color": "#2b4f9a"
+   },
+   {
+    "name": "Yellow",
+    "color": "#d6a420"
+   }
+  ],
+  "background": "#e6d9ba",
+  "grid": "#cbbb92",
+  "motifs": [
+   "cross",
+   "diamond",
+   "star",
+   "zigzag",
+   "triangle",
+   "checker"
+  ],
+  "designs": [
+   {
+    "name": "Rhombus border",
+    "rows": [
+     "ggggggggggg",
+     "b.b.b.b.b.b",
+     ".c.d.c.d.c.",
+     "b.b.b.b.b.b",
+     "ggggggggggg",
+     "b.b.b.b.b.b",
+     ".c.d.c.d.c.",
+     "b.b.b.b.b.b",
+     "ggggggggggg"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 1,
+      "c": 1
+     },
+     "e": {
+      "m": 2,
+      "c": 0
+     },
+     "f": {
+      "m": 2,
+      "c": 1
+     },
+     "g": {
+      "m": 3,
+      "c": 0
+     },
+     "h": {
+      "m": 3,
+      "c": 1
+     },
+     "i": {
+      "m": 4,
+      "c": 0
+     },
+     "j": {
+      "m": 4,
+      "c": 1
+     },
+     "k": {
+      "m": 5,
+      "c": 1
+     },
+     "l": {
+      "m": 1,
+      "c": 3
+     },
+     "m": {
+      "m": 0,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Star towel band",
+    "rows": [
+     "jjjjjjjjjjj",
+     "a.a.a.a.a.a",
+     "e.f.e.e.f.e",
+     "a.a.a.a.a.a",
+     "hkhkhkhkhkh",
+     "a.a.a.a.a.a",
+     "e.f.e.e.f.e",
+     "a.a.a.a.a.a",
+     "jjjjjjjjjjj"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 1,
+      "c": 1
+     },
+     "e": {
+      "m": 2,
+      "c": 0
+     },
+     "f": {
+      "m": 2,
+      "c": 1
+     },
+     "g": {
+      "m": 3,
+      "c": 0
+     },
+     "h": {
+      "m": 3,
+      "c": 1
+     },
+     "i": {
+      "m": 4,
+      "c": 0
+     },
+     "j": {
+      "m": 4,
+      "c": 1
+     },
+     "k": {
+      "m": 5,
+      "c": 1
+     },
+     "l": {
+      "m": 1,
+      "c": 3
+     },
+     "m": {
+      "m": 0,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Bright regional band",
+    "rows": [
+     "ijijijijiji",
+     "l.l.l.l.l.l",
+     "cmcmcmcmcmc",
+     "l.l.l.l.l.l",
+     "gfgfgfgfgfg",
+     "l.l.l.l.l.l",
+     "cmcmcmcmcmc",
+     "l.l.l.l.l.l",
+     "ijijijijiji"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 1,
+      "c": 1
+     },
+     "e": {
+      "m": 2,
+      "c": 0
+     },
+     "f": {
+      "m": 2,
+      "c": 1
+     },
+     "g": {
+      "m": 3,
+      "c": 0
+     },
+     "h": {
+      "m": 3,
+      "c": 1
+     },
+     "i": {
+      "m": 4,
+      "c": 0
+     },
+     "j": {
+      "m": 4,
+      "c": 1
+     },
+     "k": {
+      "m": 5,
+      "c": 1
+     },
+     "l": {
+      "m": 1,
+      "c": 3
+     },
+     "m": {
+      "m": 0,
+      "c": 2
+     }
+    }
+   }
+  ],
+  "rotateMarks": true
+ }
+}

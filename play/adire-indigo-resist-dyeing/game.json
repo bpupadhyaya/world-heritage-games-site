@@ -1,0 +1,13 @@
+{
+ "slug": "adire-indigo-resist-dyeing",
+ "title": "Adire indigo resist dyeing",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

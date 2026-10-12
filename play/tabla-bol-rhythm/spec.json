@@ -1,0 +1,199 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "learn",
+  "tolerance": 1.25,
+  "phrase": 5,
+  "notes": {
+   "Dha": {
+    "hz": 138,
+    "timbre": "bass"
+   },
+   "Dhin": {
+    "hz": 150,
+    "timbre": "bass"
+   },
+   "Tin": {
+    "hz": 554,
+    "timbre": "bell"
+   },
+   "Na": {
+    "hz": 277,
+    "timbre": "tone"
+   },
+   "Ge": {
+    "hz": 98,
+    "timbre": "bass"
+   },
+   "Ka": {
+    "hz": 170,
+    "timbre": "slap"
+   },
+   "Ti": {
+    "hz": 330,
+    "timbre": "rim"
+   }
+  },
+  "lanes": [
+   {
+    "name": "Dha",
+    "note": "Dha",
+    "color": "#d9822b"
+   },
+   {
+    "name": "Dhin",
+    "note": "Dhin",
+    "color": "#c2452d"
+   },
+   {
+    "name": "Tin",
+    "note": "Tin",
+    "color": "#e8b020"
+   },
+   {
+    "name": "Na",
+    "note": "Na",
+    "color": "#3d8f7a"
+   },
+   {
+    "name": "Ge",
+    "note": "Ge",
+    "color": "#7a5ab0"
+   },
+   {
+    "name": "Ka",
+    "note": "Ka",
+    "color": "#4f7fd1"
+   },
+   {
+    "name": "Ti",
+    "note": "Ti",
+    "color": "#c76ea0"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Jhaptal theka, 10 beats (2+3+2+3)",
+    "bpm": 70,
+    "meter": 5,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Dhin"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Na"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Dhin"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Dhin"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Na"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Tin"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Na"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Dhin"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Dhin"
+     },
+     {
+      "beat": 9.0,
+      "lane": "Na"
+     }
+    ]
+   },
+   {
+    "name": "Rupak theka, 7 beats (3+2+2)",
+    "bpm": 78,
+    "meter": 7,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Tin"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Tin"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Na"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Dhin"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Na"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Dhin"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Na"
+     }
+    ]
+   },
+   {
+    "name": "Keherwa theka, 8 beats",
+    "bpm": 92,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Dha"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Ge"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Na"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Tin"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Na"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Ka"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Dhin"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Na"
+     }
+    ]
+   }
+  ]
+ }
+}

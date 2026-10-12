@@ -1,0 +1,13 @@
+{
+ "slug": "bandoneon-and-tango-rhythm",
+ "title": "Bandoneon and tango rhythm",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

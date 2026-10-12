@@ -48,8 +48,8 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - [Five-Pin Bowling](../../games/1410-five-pin-bowling/index.md)
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md)
 - [Double Dutch](../../games/53-double-dutch/index.md)
+- [Log rolling](../../games/59-log-rolling/index.md)
 - [Square dance caller](../../games/129-square-dance-caller/index.md)
-- [Mountain dulcimer](../../games/435-mountain-dulcimer/index.md)
 
 ## Sources
 

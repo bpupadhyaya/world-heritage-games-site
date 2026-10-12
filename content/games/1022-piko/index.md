@@ -42,7 +42,7 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - [Patintero](../../games/1021-patintero/index.md)
 - [Dikir barat](../../games/1268-dikir-barat/index.md)
 - [Sungka](../../games/1025-sungka/index.md)
-- [Gobak Sodor](../../games/46-gobak-sodor/index.md)
+- [Elastic Jump](../../games/6-elastic-jump/index.md)
 
 ## Sources
 

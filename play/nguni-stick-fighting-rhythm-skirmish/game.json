@@ -1,0 +1,13 @@
+{
+ "slug": "nguni-stick-fighting-rhythm-skirmish",
+ "title": "Nguni stick-fighting skirmish",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

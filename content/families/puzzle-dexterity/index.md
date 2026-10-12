@@ -1,16 +1,16 @@
 ---
 title: "Puzzle and dexterity toys"
-description: "121 related traditions."
+description: "124 related traditions."
 path: "/families/puzzle-dexterity/"
-count: 121
+count: 124
 ---
 # Puzzle and dexterity toys
 
-121 related traditions.
+124 related traditions.
 
 
 
-121 entries.
+124 entries.
 
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md): Ghana, Cote d'Ivoire; Puzzles and mind games; Modern Heritage
 - [Al-Jazari water-clock contraptions](../../games/237-al-jazari-water-clock-contraptions/index.md): Iraq; Puzzles and mind games; Modern Heritage
@@ -20,6 +20,7 @@ count: 121
 - [Atarraya](../../games/1434-atarraya/index.md): Colombia; Dexterity and skill games; Modern Heritage
 - [Bozo Net Casting](../../games/169-bozo-net-casting/index.md): Niger, Mali; Puzzles and mind games; Modern Heritage
 - [Break the pot](../../games/1105-break-the-pot/index.md): Sri Lanka; Dexterity and skill games; Modern Heritage
+- [Castells](../../games/119-castells/index.md): Spain; Puzzles and mind games; Modern Heritage
 - [Change Ringing](../../games/1443-change-ringing/index.md): United Kingdom; Puzzles and mind games; Age of Contact and Craft
 - [Charro lasso roping](../../games/60-charro-lasso-roping/index.md): Mexico; Dexterity and skill games; Age of Contact and Craft
 - [Chungi](../../games/297-chungi/index.md): Nepal, India; Dexterity and skill games; Modern Heritage
@@ -38,6 +39,7 @@ count: 121
 - [Egyptian Fractions and Doubling](../../games/215-egyptian-fractions-and-doubling/index.md): Egypt; Puzzles and mind games; Modern Heritage
 - [Emboque](../../games/629-emboque/index.md): Chile; Dexterity and skill games; Modern Heritage
 - [Euclid's Ruler and Compass](../../games/396-euclids-ruler-and-compass/index.md): Greece; Puzzles and mind games; Modern Heritage
+- [Flag Tossing](../../games/395-flag-tossing/index.md): Italy; Dexterity and skill games; Modern Heritage
 - [Frog toss](../../games/688-frog-toss/index.md): Ecuador; Dexterity and skill games; Modern Heritage
 - [Fukuwarai](../../games/94-fukuwarai/index.md): Japan; Puzzles and mind games; Age of Contact and Craft
 - [Ger raising](../../games/101-ger-raising/index.md): Mongolia; Puzzles and mind games; Modern Heritage
@@ -73,6 +75,7 @@ count: 121
 - [Ringridning](../../games/1365-ringridning/index.md): Denmark; Dexterity and skill games; Modern Heritage
 - [Sand drawing](../../games/1395-sand-drawing/index.md): Vanuatu; Puzzles and mind games; Modern Heritage
 - [Sangaku Geometry Puzzles](../../games/109-sangaku-geometry-puzzles/index.md): Japan; Puzzles and mind games; Age of Contact and Craft
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Shepherd's Leap](../../games/391-shepherds-leap/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Shove ha'penny](../../games/54-shove-hapenny/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
 - [Sjoelen](../../games/9-sjoelen/index.md): Netherlands; Dexterity and skill games; Modern Heritage

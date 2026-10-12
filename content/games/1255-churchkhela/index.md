@@ -41,11 +41,11 @@ A living tradition passed from person to person; it is not tied to a single date
 ## Related entries
 
 - [Santur Hammer Strings](../../games/138-santur-hammer-strings/index.md)
+- [Kamancha](../../games/165-kamancha/index.md)
+- [Panduri](../../games/41-panduri/index.md)
 - [Dan bau](../../games/143-dan-bau/index.md)
 - [Santoor](../../games/151-santoor/index.md)
 - [Goje One-String Fiddle](../../games/176-goje-one-string-fiddle/index.md)
-- [Masenqo and the azmari](../../games/187-masenqo-and-the-azmari/index.md)
-- [Hira gasy village troupe contest](../../games/205-hira-gasy-village-troupe-contest/index.md)
 
 ## Sources
 

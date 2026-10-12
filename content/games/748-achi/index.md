@@ -39,7 +39,7 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md)
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md)
 - [Krobo Powder-Glass Beads](../../games/173-krobo-powder-glass-beads/index.md)
-- [Ampe](../../games/747-ampe/index.md)
+- [Fufu Pounding Rhythm](../../games/175-fufu-pounding-rhythm/index.md)
 
 ## Sources
 

@@ -1,6 +1,6 @@
 # World Heritage Games: an atlas of play
 
-Public site of the Encyclopedia of World Heritage Games. **1,090 entries**, generated from a private source-of-truth repository.
+Public site of the Encyclopedia of World Heritage Games. **1,127 entries**, generated from a private source-of-truth repository.
 
 - Website: https://bpupadhyaya.github.io/world-heritage-games-site/
 - Read it as plain Markdown: start at [content/index.md](content/index.md). Every page exists twice: `content/<path>/index.md` (source) and `<path>/index.html` (website).

@@ -1,0 +1,294 @@
+{
+ "engine": "rhythm",
+ "variant": "cueca",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "Paso izq",
+    "id": "izq",
+    "hz": 150,
+    "timbre": "stomp",
+    "icon": "foot-l",
+    "color": "#3a7bd5"
+   },
+   {
+    "name": "Paso der",
+    "id": "der",
+    "hz": 175,
+    "timbre": "stomp",
+    "icon": "foot-r",
+    "color": "#f0705f"
+   },
+   {
+    "name": "Zapateo",
+    "id": "zap",
+    "hz": 100,
+    "timbre": "stomp",
+    "icon": "stomp",
+    "color": "#f6c445"
+   },
+   {
+    "name": "Escobillado",
+    "id": "esc",
+    "hz": 900,
+    "timbre": "slap",
+    "icon": "slap",
+    "color": "#8fd0c0"
+   },
+   {
+    "name": "Palmas",
+    "id": "pal",
+    "hz": 1500,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#f4f1ea"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Pie: walking in six",
+    "bpm": 150,
+    "meter": 6,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "izq"
+     },
+     {
+      "beat": 1,
+      "lane": "der"
+     },
+     {
+      "beat": 3,
+      "lane": "izq"
+     },
+     {
+      "beat": 4,
+      "lane": "der"
+     },
+     {
+      "beat": 6,
+      "lane": "izq"
+     },
+     {
+      "beat": 7,
+      "lane": "der"
+     },
+     {
+      "beat": 9,
+      "lane": "pal"
+     },
+     {
+      "beat": 10,
+      "lane": "pal"
+     },
+     {
+      "beat": 12,
+      "lane": "izq"
+     },
+     {
+      "beat": 13,
+      "lane": "der"
+     },
+     {
+      "beat": 15,
+      "lane": "izq"
+     },
+     {
+      "beat": 16,
+      "lane": "der"
+     },
+     {
+      "beat": 18,
+      "lane": "zap"
+     },
+     {
+      "beat": 21,
+      "lane": "zap"
+     },
+     {
+      "beat": 22,
+      "lane": "pal"
+     },
+     {
+      "beat": 23,
+      "lane": "pal"
+     }
+    ]
+   },
+   {
+    "name": "Six against three",
+    "bpm": 144,
+    "meter": 6,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "zap"
+     },
+     {
+      "beat": 2,
+      "lane": "pal"
+     },
+     {
+      "beat": 3,
+      "lane": "zap"
+     },
+     {
+      "beat": 5,
+      "lane": "pal"
+     },
+     {
+      "beat": 6,
+      "lane": "zap"
+     },
+     {
+      "beat": 7,
+      "lane": "pal"
+     },
+     {
+      "beat": 8,
+      "lane": "zap"
+     },
+     {
+      "beat": 9,
+      "lane": "pal"
+     },
+     {
+      "beat": 10,
+      "lane": "zap"
+     },
+     {
+      "beat": 11,
+      "lane": "pal"
+     },
+     {
+      "beat": 12,
+      "lane": "zap"
+     },
+     {
+      "beat": 14,
+      "lane": "pal"
+     },
+     {
+      "beat": 15,
+      "lane": "zap"
+     },
+     {
+      "beat": 17,
+      "lane": "pal"
+     },
+     {
+      "beat": 18,
+      "lane": "zap"
+     },
+     {
+      "beat": 19,
+      "lane": "pal"
+     },
+     {
+      "beat": 20,
+      "lane": "zap"
+     },
+     {
+      "beat": 21,
+      "lane": "pal"
+     },
+     {
+      "beat": 22,
+      "lane": "zap"
+     },
+     {
+      "beat": 23,
+      "lane": "pal"
+     }
+    ]
+   },
+   {
+    "name": "Brushing and stamping",
+    "bpm": 132,
+    "meter": 6,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "esc"
+     },
+     {
+      "beat": 1,
+      "lane": "esc"
+     },
+     {
+      "beat": 3,
+      "lane": "esc"
+     },
+     {
+      "beat": 4,
+      "lane": "esc"
+     },
+     {
+      "beat": 6,
+      "lane": "esc"
+     },
+     {
+      "beat": 7,
+      "lane": "esc"
+     },
+     {
+      "beat": 9,
+      "lane": "zap"
+     },
+     {
+      "beat": 10,
+      "lane": "zap"
+     },
+     {
+      "beat": 11,
+      "lane": "zap"
+     },
+     {
+      "beat": 12,
+      "lane": "esc"
+     },
+     {
+      "beat": 13,
+      "lane": "esc"
+     },
+     {
+      "beat": 15,
+      "lane": "esc"
+     },
+     {
+      "beat": 16,
+      "lane": "esc"
+     },
+     {
+      "beat": 18,
+      "lane": "zap"
+     },
+     {
+      "beat": 19,
+      "lane": "zap"
+     },
+     {
+      "beat": 21,
+      "lane": "zap"
+     },
+     {
+      "beat": 22,
+      "lane": "pal"
+     },
+     {
+      "beat": 23,
+      "lane": "pal"
+     }
+    ]
+   }
+  ]
+ }
+}

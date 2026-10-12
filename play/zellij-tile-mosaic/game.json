@@ -1,0 +1,13 @@
+{
+ "slug": "zellij-tile-mosaic",
+ "title": "Zellij tile mosaic",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

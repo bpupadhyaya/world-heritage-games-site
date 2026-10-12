@@ -2,7 +2,7 @@
 title: "Living Traditions"
 description: "Crafts, instruments and dances handed from hand to hand, too old or too continuous to date."
 path: "/eras/living/"
-count: 347
+count: 361
 ---
 # Living Traditions
 
@@ -10,7 +10,7 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 
 
 
-347 entries.
+361 entries.
 
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md): Ghana, Cote d'Ivoire; Crafts and making; Living Traditions
 - [Adire indigo resist dyeing](../../games/87-adire-indigo-resist-dyeing/index.md): Nigeria; Crafts and making; Living Traditions
@@ -35,6 +35,7 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Badgir windcatcher cooling puzzle](../../games/229-badgir-windcatcher-cooling-puzzle/index.md): Iran; Crafts and making; Living Traditions
 - [Bahamian Straw Plaiting](../../games/1435-bahamian-straw-plaiting/index.md): Bahamas; Crafts and making; Living Traditions
 - [Baleada Stand](../../games/1436-baleada-stand/index.md): Honduras; Crafts and making; Living Traditions
+- [Balkan Kolo](../../games/134-balkan-kolo/index.md): Serbia, Croatia; Dances; Living Traditions
 - [Bamboo scaffold builder](../../games/369-bamboo-scaffold-builder/index.md): China; Crafts and making; Living Traditions
 - [Bamileke beadwork designer](../../games/1404-bamileke-beadwork-designer/index.md): Cameroon; Crafts and making; Living Traditions
 - [Bamum script writer](../../games/1405-bamum-script-writer/index.md): Cameroon; Crafts and making; Living Traditions
@@ -68,6 +69,7 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Bottle Dance](../../games/1424-bottle-dance/index.md): Paraguay, Spain; Dances; Living Traditions
 - [Bouzouki Strum](../../games/1247-bouzouki-strum/index.md): Greece; Musical instruments; Living Traditions
 - [Buganda barkcloth making](../../games/1249-buganda-barkcloth-making/index.md): Uganda; Crafts and making; Living Traditions
+- [Bulgarian asymmetric rhythm](../../games/385-bulgarian-asymmetric-rhythm/index.md): Bulgaria; Dances; Living Traditions
 - [Bulgarian Painted Pottery](../../games/1388-bulgarian-painted-pottery/index.md): Bulgaria; Crafts and making; Living Traditions
 - [Burmese lacquerware engraving](../../games/310-burmese-lacquerware-engraving/index.md): Myanmar; Crafts and making; Living Traditions
 - [Burundian drum ensemble](../../games/1250-burundian-drum-ensemble/index.md): Burundi; Musical instruments; Living Traditions
@@ -104,7 +106,7 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Dala Horse Painting](../../games/415-dala-horse-painting/index.md): Sweden; Crafts and making; Living Traditions
 - [Damascus Mother-of-Pearl Inlay](../../games/223-damascus-mother-of-pearl-inlay/index.md): Syria; Crafts and making; Living Traditions
 - [Dan bau](../../games/143-dan-bau/index.md): Vietnam; Musical instruments; Living Traditions
-- [Dara](../../games/452-dara/index.md): Nigeria, Niger; Crafts and making; Living Traditions
+- [Dara](../../games/452-dara/index.md): Nigeria, Niger; Board and table games; Living Traditions
 - [Dhaka rickshaw art](../../games/295-dhaka-rickshaw-art/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Dhaka weave pattern loom](../../games/115-dhaka-weave-pattern-loom/index.md): Nepal; Crafts and making; Living Traditions
 - [Dhokra lost-wax casting](../../games/278-dhokra-lost-wax-casting/index.md): Bangladesh; Crafts and making; Living Traditions
@@ -128,12 +130,14 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Four Square](../../games/471-four-square/index.md): United States; Other traditions; Living Traditions
 - [Freetown Beach Seine Haul](../../games/1282-freetown-beach-seine-haul/index.md): Sierra Leone; Performance and storytelling; Living Traditions
 - [Frevo Umbrella Dance](../../games/1411-frevo-umbrella-dance/index.md): Brazil; Dances; Living Traditions
+- [Fufu Pounding Rhythm](../../games/175-fufu-pounding-rhythm/index.md): Ghana, Nigeria; Crafts and making; Living Traditions
 - [Furoshiki](../../games/351-furoshiki/index.md): Japan; Crafts and making; Living Traditions
 - [Gadulka](../../games/1285-gadulka/index.md): Bulgaria; Musical instruments; Living Traditions
 - [Gallarija Balcony Builder](../../games/1286-gallarija-balcony-builder/index.md): Malta; Crafts and making; Living Traditions
 - [Gambian Oyster Harvest](../../games/1287-gambian-oyster-harvest/index.md): Gambia; Crafts and making; Living Traditions
 - [Gargoor Fish-Trap Weaving](../../games/1288-gargoor-fish-trap-weaving/index.md): Bahrain; Crafts and making; Living Traditions
 - [Gbofe Trumpet Ensemble](../../games/1290-gbofe-trumpet-ensemble/index.md): Cote d'Ivoire; Other traditions; Living Traditions
+- [Georgian three-voice polyphony](../../games/245-georgian-three-voice-polyphony/index.md): Georgia; Musical instruments; Living Traditions
 - [Giant Barriletes](../../games/1486-giant-barriletes/index.md): Guatemala; Crafts and making; Living Traditions
 - [Glassblowing](../../games/121-glassblowing/index.md): Italy; Crafts and making; Living Traditions
 - [Goje One-String Fiddle](../../games/176-goje-one-string-fiddle/index.md): Nigeria, Niger; Musical instruments; Living Traditions
@@ -160,6 +164,7 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Imigongo geometric painting](../../games/182-imigongo-geometric-painting/index.md): Rwanda; Crafts and making; Living Traditions
 - [Intore dance](../../games/1302-intore-dance/index.md): Rwanda; Dances; Living Traditions
 - [Irish Handball](../../games/1464-irish-handball/index.md): Ireland; Crafts and making; Living Traditions
+- [Isukuti drum dance](../../games/191-isukuti-drum-dance/index.md): Worldwide; Musical instruments; Living Traditions
 - [Iznik tile painting](../../games/244-iznik-tile-painting/index.md): Turkey; Crafts and making; Living Traditions
 - [Jaapi weaving](../../games/1304-jaapi-weaving/index.md): India; Crafts and making; Living Traditions
 - [Jaipur blue pottery painting](../../games/262-jaipur-blue-pottery-painting/index.md): India; Crafts and making; Living Traditions
@@ -170,6 +175,7 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Jordanian Sand Bottle Art](../../games/219-jordanian-sand-bottle-art/index.md): Jordan; Crafts and making; Living Traditions
 - [Kalamkari pen painting](../../games/273-kalamkari-pen-painting/index.md): Worldwide; Crafts and making; Living Traditions
 - [Kalocsa floral painting](../../games/383-kalocsa-floral-painting/index.md): Hungary; Crafts and making; Living Traditions
+- [Kamancha](../../games/165-kamancha/index.md): Azerbaijan, Iran; Musical instruments; Living Traditions
 - [Kanga cloth design](../../games/184-kanga-cloth-design/index.md): Kenya; Crafts and making; Living Traditions
 - [Kantha running-stitch quilt](../../games/284-kantha-running-stitch-quilt/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Karesansui](../../games/95-karesansui/index.md): Japan; Crafts and making; Living Traditions
@@ -205,6 +211,7 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Leaded Glass Window Making](../../games/501-leaded-glass-window-making/index.md): Japan; Crafts and making; Living Traditions
 - [Lefkara Lace](../../games/220-lefkara-lace/index.md): Cyprus; Crafts and making; Living Traditions
 - [Lei making](../../games/449-lei-making/index.md): United States; Crafts and making; Living Traditions
+- [Lezginka](../../games/250-lezginka/index.md): Worldwide; Dances; Living Traditions
 - [Licitar Heart Decorator](../../games/1326-licitar-heart-decorator/index.md): Croatia; Crafts and making; Living Traditions
 - [Lielvārde Sash Pattern Weaving](../../games/1327-lielvarde-sash-pattern-weaving/index.md): Latvia; Crafts and making; Living Traditions
 - [Lippan kaam mud-and-mirror relief](../../games/259-lippan-kaam-mud-and-mirror-relief/index.md): India, Pakistan; Crafts and making; Living Traditions
@@ -214,7 +221,9 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Lur pitch-and-breath game](../../games/1329-lur-pitch-and-breath-game/index.md): Denmark; Musical instruments; Living Traditions
 - [Lusheng](../../games/337-lusheng/index.md): Worldwide; Musical instruments; Living Traditions
 - [Luzzu Boat Painter](../../games/1330-luzzu-boat-painter/index.md): Malta; Crafts and making; Living Traditions
+- [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
 - [Macau Portuguese Custard Tart Bake](../../games/1471-macau-portuguese-custard-tart-bake/index.md): Portugal, China; Crafts and making; Living Traditions
+- [Macau wave pavement](../../games/372-macau-wave-pavement/index.md): Portugal; Crafts and making; Living Traditions
 - [Maedeup](../../games/1468-maedeup/index.md): South Korea; Crafts and making; Living Traditions
 - [Makonde ebony carving](../../games/1331-makonde-ebony-carving/index.md): Tanzania, Mozambique; Crafts and making; Living Traditions
 - [Malagasy lamba silk weaving](../../games/206-malagasy-lamba-silk-weaving/index.md): Worldwide; Crafts and making; Living Traditions
@@ -225,6 +234,7 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Marinera Norteña](../../games/1472-marinera-nortena/index.md): Peru; Dances; Living Traditions
 - [Masaya Hammock Weaving](../../games/1473-masaya-hammock-weaving/index.md): Nicaragua; Crafts and making; Living Traditions
 - [Masenqo and the azmari](../../games/187-masenqo-and-the-azmari/index.md): Ethiopia; Musical instruments; Living Traditions
+- [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md): Egypt, Syria; Crafts and making; Living Traditions
 - [Masi bark-cloth stencil printing](../../games/1279-masi-bark-cloth-stencil-printing/index.md): Fiji; Crafts and making; Living Traditions
 - [Mate Pouring](../../games/1418-mate-pouring/index.md): Argentina; Crafts and making; Living Traditions
 - [Matryoshka](../../games/28-matryoshka/index.md): Russia; Crafts and making; Living Traditions
@@ -290,6 +300,7 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Santur Hammer Strings](../../games/138-santur-hammer-strings/index.md): Iran, Iraq; Musical instruments; Living Traditions
 - [São Tomé cocoa and chocolate maker](../../games/1428-sao-tome-cocoa-and-chocolate-maker/index.md): Sao Tome and Principe; Crafts and making; Living Traditions
 - [Sashiko Stitch Patterns](../../games/27-sashiko-stitch-patterns/index.md): Japan; Crafts and making; Living Traditions
+- [Schuhplattler](../../games/410-schuhplattler/index.md): Germany, Austria; Dances; Living Traditions
 - [Seal carving](../../games/341-seal-carving/index.md): China; Crafts and making; Living Traditions
 - [Seven-Key Cabinet Puzzle](../../games/1432-seven-key-cabinet-puzzle/index.md): Andorra; Performance and storytelling; Living Traditions
 - [Shibam Mud-Brick Tower Builder](../../games/1370-shibam-mud-brick-tower-builder/index.md): Yemen; Crafts and making; Living Traditions
@@ -312,6 +323,7 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Suzhou silk embroidery](../../games/345-suzhou-silk-embroidery/index.md): China; Crafts and making; Living Traditions
 - [Swahili carved door](../../games/90-swahili-carved-door/index.md): Kenya; Crafts and making; Living Traditions
 - [Swazi carved figures and craft market](../../games/1377-swazi-carved-figures-and-craft-market/index.md): Eswatini; Crafts and making; Living Traditions
+- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md): India, Nepal; Musical instruments; Living Traditions
 - [Tahtib](../../games/157-tahtib/index.md): Egypt; Dances; Living Traditions
 - [Taiko](../../games/5367-taiko/index.md): Japan; Musical instruments; Living Traditions
 - [Tais](../../games/321-tais/index.md): Timor-Leste; Crafts and making; Living Traditions
@@ -341,6 +353,8 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Turkmen Silver Jewelry Designer](../../games/1392-turkmen-silver-jewelry-designer/index.md): Turkmenistan; Crafts and making; Living Traditions
 - [Txalaparta Duet](../../games/390-txalaparta-duet/index.md): Spain; Musical instruments; Living Traditions
 - [Ukiyo-e Woodblock Printing](../../games/1490-ukiyo-e-woodblock-printing/index.md): Japan; Crafts and making; Living Traditions
+- [Ukulele strum-along](../../games/144-ukulele-strum-along/index.md): United States, Portugal; Musical instruments; Living Traditions
+- [Vallenato accordion trio](../../games/431-vallenato-accordion-trio/index.md): Colombia; Musical instruments; Living Traditions
 - [Valley Tonga coil pottery](../../games/1384-valley-tonga-coil-pottery/index.md): Tonga, Zambia; Crafts and making; Living Traditions
 - [Venda team dances](../../games/1397-venda-team-dances/index.md): South Africa; Dances; Living Traditions
 - [Warli painting](../../games/117-warli-painting/index.md): India; Crafts and making; Living Traditions

@@ -41,8 +41,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Daldøs](../../games/458-dalds/index.md)
 - [Dhamet](../../games/927-dhamet/index.md)
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md)
+- [Balafon Gourd Xylophone](../../games/168-balafon-gourd-xylophone/index.md)
 - [Sahel Salt Caravan](../../games/172-sahel-salt-caravan/index.md)
-- [Sho](../../games/286-sho/index.md)
 
 ## Sources
 

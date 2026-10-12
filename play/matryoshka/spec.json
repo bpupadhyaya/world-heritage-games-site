@@ -1,0 +1,42 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "doll",
+  "rows": 12,
+  "steps": 10,
+  "bands": 5,
+  "guide": true,
+  "clay": "#efd9a8",
+  "glazes": [
+   {
+    "name": "Scarlet",
+    "color": "#c8281f"
+   },
+   {
+    "name": "Sunflower yellow",
+    "color": "#f0b923"
+   },
+   {
+    "name": "Meadow green",
+    "color": "#2f8a3e"
+   },
+   {
+    "name": "Cream",
+    "color": "#f7efd8"
+   },
+   {
+    "name": "Cornflower blue",
+    "color": "#2c5fb3"
+   }
+  ],
+  "glazePattern": [
+   0,
+   3,
+   2,
+   3,
+   1
+  ],
+  "variation": 0.05
+ }
+}

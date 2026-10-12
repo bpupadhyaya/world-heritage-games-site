@@ -37,14 +37,18 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - **Cradle:** [South Asia](../../cradles/south-asia/index.md)
 - **Region:** South and Central Asia
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Kho-Kho](../../games/15-kho-kho/index.md)
 - [Chungi](../../games/297-chungi/index.md)
 - [Kabaddi](../../games/789-kabaddi/index.md)
 - [Dandi Biyo](../../games/968-dandi-biyo/index.md)
-- [Indian club swinging](../../games/264-indian-club-swinging/index.md)
-- [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md)
+- [Tent pegging](../../games/78-tent-pegging/index.md)
+- [Mallakhamb](../../games/150-mallakhamb/index.md)
 
 ## Sources
 

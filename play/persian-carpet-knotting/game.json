@@ -1,0 +1,13 @@
+{
+ "slug": "persian-carpet-knotting",
+ "title": "Persian carpet knotting",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

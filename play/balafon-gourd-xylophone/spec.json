@@ -1,0 +1,400 @@
+{
+ "engine": "rhythm",
+ "variant": "balafon-gourd-xylophone",
+ "params": {
+  "layout": "keys",
+  "mode": "learn",
+  "root": 196,
+  "scale": "equi-heptatonic",
+  "phrase": 4,
+  "tolerance": 1.25,
+  "lanes": [
+   {
+    "name": "1",
+    "id": "b1",
+    "degree": 0,
+    "row": 0,
+    "timbre": "mallet",
+    "dur": 0.8,
+    "color": "#7a2e1d"
+   },
+   {
+    "name": "2",
+    "id": "b2",
+    "degree": 1,
+    "row": 0,
+    "timbre": "mallet",
+    "dur": 0.8,
+    "color": "#9c3c22"
+   },
+   {
+    "name": "3",
+    "id": "b3",
+    "degree": 2,
+    "row": 0,
+    "timbre": "mallet",
+    "dur": 0.8,
+    "color": "#b5472a"
+   },
+   {
+    "name": "4",
+    "id": "b4",
+    "degree": 3,
+    "row": 0,
+    "timbre": "mallet",
+    "dur": 0.8,
+    "color": "#c9592f"
+   },
+   {
+    "name": "5",
+    "id": "b5",
+    "degree": 4,
+    "row": 0,
+    "timbre": "mallet",
+    "dur": 0.8,
+    "color": "#dc6f38"
+   },
+   {
+    "name": "6",
+    "id": "b6",
+    "degree": 5,
+    "row": 0,
+    "timbre": "mallet",
+    "dur": 0.8,
+    "color": "#e8743b"
+   },
+   {
+    "name": "7",
+    "id": "b7",
+    "degree": 6,
+    "row": 1,
+    "timbre": "mallet",
+    "dur": 0.8,
+    "color": "#e98f45"
+   },
+   {
+    "name": "8",
+    "id": "b8",
+    "degree": 7,
+    "row": 1,
+    "timbre": "mallet",
+    "dur": 0.8,
+    "color": "#eaa952"
+   },
+   {
+    "name": "9",
+    "id": "b9",
+    "degree": 8,
+    "row": 1,
+    "timbre": "mallet",
+    "dur": 0.8,
+    "color": "#e9c46a"
+   },
+   {
+    "name": "10",
+    "id": "b10",
+    "degree": 9,
+    "row": 1,
+    "timbre": "mallet",
+    "dur": 0.8,
+    "color": "#ecd283"
+   },
+   {
+    "name": "11",
+    "id": "b11",
+    "degree": 10,
+    "row": 1,
+    "timbre": "mallet",
+    "dur": 0.8,
+    "color": "#efdf9d"
+   },
+   {
+    "name": "12",
+    "id": "b12",
+    "degree": 11,
+    "row": 1,
+    "timbre": "mallet",
+    "dur": 0.8,
+    "color": "#f3ebb7"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Low call, high answer",
+    "bpm": 100,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "1"
+     },
+     {
+      "beat": 1,
+      "lane": "3"
+     },
+     {
+      "beat": 1.5,
+      "lane": "4"
+     },
+     {
+      "beat": 2,
+      "lane": "5"
+     },
+     {
+      "beat": 3,
+      "lane": "3"
+     },
+     {
+      "beat": 4,
+      "lane": "8"
+     },
+     {
+      "beat": 5,
+      "lane": "10"
+     },
+     {
+      "beat": 5.5,
+      "lane": "11"
+     },
+     {
+      "beat": 6,
+      "lane": "10"
+     },
+     {
+      "beat": 7,
+      "lane": "8"
+     },
+     {
+      "beat": 8,
+      "lane": "1"
+     },
+     {
+      "beat": 9,
+      "lane": "3"
+     },
+     {
+      "beat": 10,
+      "lane": "5"
+     },
+     {
+      "beat": 10.5,
+      "lane": "3"
+     },
+     {
+      "beat": 11,
+      "lane": "1"
+     },
+     {
+      "beat": 12,
+      "lane": "8"
+     },
+     {
+      "beat": 12.5,
+      "lane": "10"
+     },
+     {
+      "beat": 13,
+      "lane": "12"
+     },
+     {
+      "beat": 14,
+      "lane": "10"
+     },
+     {
+      "beat": 15,
+      "lane": "8"
+     }
+    ]
+   },
+   {
+    "name": "Interlocking pairs",
+    "bpm": 112,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "1"
+     },
+     {
+      "beat": 0.5,
+      "lane": "5"
+     },
+     {
+      "beat": 1,
+      "lane": "3"
+     },
+     {
+      "beat": 1.5,
+      "lane": "5"
+     },
+     {
+      "beat": 2,
+      "lane": "1"
+     },
+     {
+      "beat": 2.5,
+      "lane": "5"
+     },
+     {
+      "beat": 3,
+      "lane": "3"
+     },
+     {
+      "beat": 4,
+      "lane": "2"
+     },
+     {
+      "beat": 4.5,
+      "lane": "6"
+     },
+     {
+      "beat": 5,
+      "lane": "4"
+     },
+     {
+      "beat": 5.5,
+      "lane": "6"
+     },
+     {
+      "beat": 6,
+      "lane": "2"
+     },
+     {
+      "beat": 6.5,
+      "lane": "6"
+     },
+     {
+      "beat": 7,
+      "lane": "4"
+     },
+     {
+      "beat": 8,
+      "lane": "3"
+     },
+     {
+      "beat": 8.5,
+      "lane": "7"
+     },
+     {
+      "beat": 9,
+      "lane": "5"
+     },
+     {
+      "beat": 9.5,
+      "lane": "7"
+     },
+     {
+      "beat": 10,
+      "lane": "3"
+     },
+     {
+      "beat": 10.5,
+      "lane": "7"
+     },
+     {
+      "beat": 11,
+      "lane": "5"
+     },
+     {
+      "beat": 12,
+      "lane": "1"
+     },
+     {
+      "beat": 12.5,
+      "lane": "5"
+     },
+     {
+      "beat": 13,
+      "lane": "3"
+     },
+     {
+      "beat": 13.5,
+      "lane": "5"
+     },
+     {
+      "beat": 14,
+      "lane": "1"
+     },
+     {
+      "beat": 15,
+      "lane": "5"
+     }
+    ]
+   },
+   {
+    "name": "Five-note frame",
+    "bpm": 92,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "1"
+     },
+     {
+      "beat": 1,
+      "lane": "4"
+     },
+     {
+      "beat": 2,
+      "lane": "5"
+     },
+     {
+      "beat": 3,
+      "lane": "2"
+     },
+     {
+      "beat": 4,
+      "lane": "7"
+     },
+     {
+      "beat": 5,
+      "lane": "5"
+     },
+     {
+      "beat": 6,
+      "lane": "4"
+     },
+     {
+      "beat": 7,
+      "lane": "1"
+     },
+     {
+      "beat": 8,
+      "lane": "8"
+     },
+     {
+      "beat": 9,
+      "lane": "11"
+     },
+     {
+      "beat": 10,
+      "lane": "12"
+     },
+     {
+      "beat": 11,
+      "lane": "9"
+     },
+     {
+      "beat": 12,
+      "lane": "12"
+     },
+     {
+      "beat": 13,
+      "lane": "11"
+     },
+     {
+      "beat": 14,
+      "lane": "7"
+     },
+     {
+      "beat": 15,
+      "lane": "8"
+     }
+    ]
+   }
+  ]
+ }
+}

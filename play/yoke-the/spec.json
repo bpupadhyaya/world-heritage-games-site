@@ -1,0 +1,435 @@
+{
+ "engine": "story",
+ "params": {
+  "stage": "marionette",
+  "start": "start",
+  "cast": {
+   "king": {
+    "name": "The king",
+    "kind": "ruler",
+    "color": "#a8261c",
+    "accent": "#f2c14e",
+    "hat": "crown",
+    "prop": "fan"
+   },
+   "minister": {
+    "name": "The minister",
+    "kind": "person",
+    "color": "#2f4a6e",
+    "accent": "#e8c27a",
+    "hat": "turban",
+    "robe": true,
+    "beard": true
+   },
+   "clown": {
+    "name": "Ko Pyar the clown",
+    "kind": "clown",
+    "color": "#2f8a5a",
+    "accent": "#f2e8c8",
+    "hat": "pointed"
+   },
+   "farmer": {
+    "name": "Old farmer",
+    "kind": "person",
+    "color": "#7a5a34",
+    "accent": "#d9b26a",
+    "hat": "straw",
+    "prop": "staff"
+   },
+   "elephant": {
+    "name": "The royal elephant",
+    "kind": "beast",
+    "color": "#8a8a96",
+    "accent": "#f2e8c8",
+    "scale": 1.2
+   }
+  },
+  "meters": [
+   {
+    "id": "wit",
+    "label": "Wit",
+    "start": 0,
+    "max": 5
+   },
+   {
+    "id": "goodwill",
+    "label": "Goodwill",
+    "start": 0,
+    "max": 5
+   }
+  ],
+  "scenes": {
+   "start": {
+    "bg": "palace",
+    "on": [
+     {
+      "who": "king",
+      "at": "left"
+     },
+     {
+      "who": "minister",
+      "at": "midleft"
+     },
+     {
+      "who": "clown",
+      "at": "midright"
+     },
+     {
+      "who": "farmer",
+      "at": "right",
+      "pose": "slump"
+     }
+    ],
+    "speaker": "farmer",
+    "text": "At the palace gate an old farmer leans on his staff. The new grain tax is so high that his village will go hungry. \"But who may say so to the king?\" he asks the clown.",
+    "choices": [
+     {
+      "text": "Tell him to shout it at the king in the hall",
+      "next": "shout",
+      "pts": 0,
+      "set": [
+       "bold"
+      ]
+     },
+     {
+      "text": "Tell him to write a long petition and wait a year",
+      "next": "petition",
+      "pts": 1
+     },
+     {
+      "text": "Offer to stage a puppet tale at court that says it gently",
+      "next": "plan",
+      "pts": 2,
+      "effects": {
+       "wit": 1
+      }
+     }
+    ]
+   },
+   "shout": {
+    "bg": "palace",
+    "on": [
+     {
+      "who": "king",
+      "at": "left"
+     },
+     {
+      "who": "farmer",
+      "at": "right",
+      "pose": "slump"
+     }
+    ],
+    "speaker": "king",
+    "text": "The farmer is hustled out before he has finished a sentence. The king frowns: \"What was that noise?\" Nobody dares to explain.",
+    "next": "plan2",
+    "cont": "Try another way"
+   },
+   "petition": {
+    "bg": "street",
+    "on": [
+     {
+      "who": "farmer",
+      "at": "midleft",
+      "pose": "slump"
+     },
+     {
+      "who": "minister",
+      "at": "midright"
+     }
+    ],
+    "text": "A year later the petition is still in a basket under three other baskets. The village has already sold its seed rice.",
+    "next": "plan2",
+    "cont": "Try another way"
+   },
+   "plan": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "clown",
+      "at": "midleft",
+      "pose": "cheer"
+     },
+     {
+      "who": "farmer",
+      "at": "midright"
+     }
+    ],
+    "speaker": "clown",
+    "text": "\"A puppet may say what a man may not,\" says the clown. \"Tell me what the tale should be about, and I will make the king listen without noticing.\"",
+    "next": "tale",
+    "cont": "Plan the tale"
+   },
+   "plan2": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "clown",
+      "at": "midleft"
+     },
+     {
+      "who": "farmer",
+      "at": "midright"
+     }
+    ],
+    "speaker": "clown",
+    "text": "The clown scratches his chin. \"A puppet may say what a man may not. Tell me what the tale should be about, and perhaps the king will listen without noticing.\"",
+    "next": "tale",
+    "cont": "Plan the tale"
+   },
+   "tale": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "clown",
+      "at": "left"
+     },
+     {
+      "who": "elephant",
+      "at": "center"
+     },
+     {
+      "who": "farmer",
+      "at": "right"
+     }
+    ],
+    "speaker": "clown",
+    "text": "What shall the puppets act out before the king?",
+    "choices": [
+     {
+      "text": "A hungry farmer who begs the king, by name, to cut the grain tax",
+      "next": "plain",
+      "pts": 0
+     },
+     {
+      "text": "A royal elephant that grows thin because its keepers take too much of its feed",
+      "next": "parable",
+      "pts": 2,
+      "effects": {
+       "wit": 2
+      }
+     },
+     {
+      "text": "A comic chase after a runaway pot of rice, with no point at all",
+      "next": "empty",
+      "pts": 1
+     }
+    ]
+   },
+   "plain": {
+    "bg": "palace",
+    "on": [
+     {
+      "who": "king",
+      "at": "left",
+      "pose": "point"
+     },
+     {
+      "who": "clown",
+      "at": "right",
+      "pose": "slump"
+     }
+    ],
+    "speaker": "king",
+    "text": "The king stiffens as the puppet farmer names his tax. \"This is rude!\" The performance is stopped in the middle of the song.",
+    "next": "verdict",
+    "cont": "Await the verdict"
+   },
+   "empty": {
+    "bg": "palace",
+    "on": [
+     {
+      "who": "king",
+      "at": "left",
+      "pose": "cheer"
+     },
+     {
+      "who": "clown",
+      "at": "right"
+     }
+    ],
+    "text": "The king laughs until he weeps, and the pot of rice tumbles through the court. Nobody learns anything, and no one is hungrier or fuller.",
+    "next": "verdict",
+    "cont": "Await the verdict"
+   },
+   "parable": {
+    "bg": "palace",
+    "on": [
+     {
+      "who": "elephant",
+      "at": "center"
+     },
+     {
+      "who": "king",
+      "at": "left"
+     },
+     {
+      "who": "minister",
+      "at": "midleft"
+     }
+    ],
+    "speaker": "minister",
+    "text": "The puppet elephant sways, thinner each verse. The king stops fanning himself. \"A strong beast needs its feed,\" he mutters, \"or it cannot carry the royal load.\"",
+    "next": "verdict",
+    "cont": "Await the verdict"
+   },
+   "verdict": {
+    "bg": "palace",
+    "on": [
+     {
+      "who": "king",
+      "at": "left"
+     },
+     {
+      "who": "minister",
+      "at": "midleft"
+     },
+     {
+      "who": "clown",
+      "at": "midright"
+     },
+     {
+      "who": "farmer",
+      "at": "right"
+     }
+    ],
+    "speaker": "king",
+    "text": "The king calls for the clown. \"Tell me, puppet-master, whose elephant is this, and who is eating its feed?\"",
+    "choices": [
+     {
+      "text": "Stay silent and bow low",
+      "next": "end_silent",
+      "pts": 0
+     },
+     {
+      "text": "Say it is only a tale, and bow again",
+      "next": "end_safe",
+      "pts": 1
+     },
+     {
+      "text": "Say the elephant is the whole kingdom, and ask the king to count its feed himself",
+      "next": "end_best",
+      "pts": 2,
+      "effects": {
+       "goodwill": 2
+      }
+     }
+    ]
+   },
+   "end_silent": {
+    "bg": "palace",
+    "on": [
+     {
+      "who": "king",
+      "at": "left"
+     },
+     {
+      "who": "clown",
+      "at": "right",
+      "pose": "slump"
+     }
+    ],
+    "text": "The king dismisses the troupe with a wave. The tax stays as it was and the village grows quiet.",
+    "end": true
+   },
+   "end_safe": {
+    "bg": "palace",
+    "on": [
+     {
+      "who": "king",
+      "at": "left"
+     },
+     {
+      "who": "clown",
+      "at": "right",
+      "pose": "bow"
+     }
+    ],
+    "text": "The king smiles, pays the troupe and sends a clerk to ask a few questions. Perhaps something will change next season.",
+    "end": true
+   },
+   "end_best": {
+    "bg": "palace",
+    "on": [
+     {
+      "who": "king",
+      "at": "left",
+      "pose": "point"
+     },
+     {
+      "who": "minister",
+      "at": "midleft",
+      "pose": "slump"
+     },
+     {
+      "who": "farmer",
+      "at": "right",
+      "pose": "cheer"
+     },
+     {
+      "who": "clown",
+      "at": "midright",
+      "pose": "bow"
+     }
+    ],
+    "text": "The king sends a trusted clerk to the village and orders the tax revised. The farmer goes home with his seed rice, and the clown keeps his strings.",
+    "end": true
+   }
+  },
+  "endings": [
+   {
+    "id": "none",
+    "stars": 0,
+    "headline": "The curtain falls on silence",
+    "text": "A tale that was never understood.",
+    "when": {
+     "flags": [
+      "bold"
+     ],
+     "max": {
+      "wit": 0,
+      "goodwill": 0
+     }
+    }
+   },
+   {
+    "id": "best",
+    "stars": 3,
+    "headline": "The king counts the feed",
+    "text": "A parable told with care, and a village fed.",
+    "when": {
+     "min": {
+      "wit": 3,
+      "goodwill": 2
+     },
+     "notFlags": [
+      "bold"
+     ]
+    }
+   },
+   {
+    "id": "good",
+    "stars": 2,
+    "headline": "The king listens",
+    "text": "The message reached the throne, though not all the way.",
+    "when": {
+     "min": {
+      "wit": 2
+     }
+    }
+   },
+   {
+    "id": "fine",
+    "stars": 1,
+    "headline": "A pleasant show"
+   }
+  ],
+  "look": {
+   "curtain": "#8a1f1c",
+   "wall": "#3a1a14",
+   "floor": "#7a4a22",
+   "far": "#241008",
+   "near": "#a8672c",
+   "glow": "#ffc95a"
+  }
+ }
+}

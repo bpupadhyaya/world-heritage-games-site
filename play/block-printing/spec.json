@@ -1,0 +1,214 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 9,
+  "rows": 11,
+  "symmetry": "mirror-x",
+  "mode": "copy",
+  "rotateMarks": true,
+  "palette": [
+   {
+    "name": "Indigo",
+    "color": "#24407a"
+   },
+   {
+    "name": "Madder red",
+    "color": "#b5382c"
+   },
+   {
+    "name": "Turmeric",
+    "color": "#e0a526"
+   },
+   {
+    "name": "Leaf green",
+    "color": "#3b7a4a"
+   }
+  ],
+  "background": "#efe6d2",
+  "grid": "#d6c8a6",
+  "motifs": [
+   "dot",
+   "leaf",
+   "diamond",
+   "star",
+   "hexagon",
+   "stripe-v"
+  ],
+  "designs": [
+   {
+    "name": "Flower field with diamond border",
+    "rows": [
+     "fffffffff",
+     ".........",
+     "..e.c.e..",
+     ".e..d..e.",
+     "....a....",
+     "e...c...e",
+     "....a....",
+     ".e..d..e.",
+     "..e.c.e..",
+     ".........",
+     "fffffffff"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 3,
+      "c": 1
+     },
+     "d": {
+      "m": 3,
+      "c": 2
+     },
+     "e": {
+      "m": 1,
+      "c": 3
+     },
+     "f": {
+      "m": 2,
+      "c": 0
+     },
+     "g": {
+      "m": 4,
+      "c": 0
+     },
+     "h": {
+      "m": 5,
+      "c": 0
+     },
+     "i": {
+      "m": 1,
+      "c": 0
+     },
+     "j": {
+      "m": 0,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Dabu lattice",
+    "rows": [
+     "hhhhhhhhh",
+     ".........",
+     "g...g...g",
+     "..a...a..",
+     ".a..i..a.",
+     "g...g...g",
+     ".a..i..a.",
+     "..a...a..",
+     "g...g...g",
+     ".........",
+     "hhhhhhhhh"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 3,
+      "c": 1
+     },
+     "d": {
+      "m": 3,
+      "c": 2
+     },
+     "e": {
+      "m": 1,
+      "c": 3
+     },
+     "f": {
+      "m": 2,
+      "c": 0
+     },
+     "g": {
+      "m": 4,
+      "c": 0
+     },
+     "h": {
+      "m": 5,
+      "c": 0
+     },
+     "i": {
+      "m": 1,
+      "c": 0
+     },
+     "j": {
+      "m": 0,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Flower row between borders",
+    "rows": [
+     "b.b.b.b.b",
+     "fffffffff",
+     ".........",
+     "..c...c..",
+     ".e.....e.",
+     "....d....",
+     ".e.....e.",
+     "..c...c..",
+     ".........",
+     "fffffffff",
+     "b.b.b.b.b"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 3,
+      "c": 1
+     },
+     "d": {
+      "m": 3,
+      "c": 2
+     },
+     "e": {
+      "m": 1,
+      "c": 3
+     },
+     "f": {
+      "m": 2,
+      "c": 0
+     },
+     "g": {
+      "m": 4,
+      "c": 0
+     },
+     "h": {
+      "m": 5,
+      "c": 0
+     },
+     "i": {
+      "m": 1,
+      "c": 0
+     },
+     "j": {
+      "m": 0,
+      "c": 2
+     }
+    }
+   }
+  ]
+ }
+}

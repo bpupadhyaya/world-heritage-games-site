@@ -1,0 +1,413 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 220,
+  "scale": [
+   0,
+   113,
+   385,
+   498,
+   702,
+   815,
+   1019
+  ],
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "A3",
+    "id": "c0",
+    "degree": 0,
+    "timbre": "pluck",
+    "dur": 0.8,
+    "row": 0,
+    "color": "#d9b86a"
+   },
+   {
+    "name": "Bb3",
+    "id": "c1",
+    "degree": 1,
+    "timbre": "pluck",
+    "dur": 0.8,
+    "row": 0,
+    "color": "#e8a74a"
+   },
+   {
+    "name": "C#4",
+    "id": "c2",
+    "degree": 2,
+    "timbre": "pluck",
+    "dur": 0.8,
+    "row": 0,
+    "color": "#e8774a"
+   },
+   {
+    "name": "D4",
+    "id": "c3",
+    "degree": 3,
+    "timbre": "pluck",
+    "dur": 0.8,
+    "row": 0,
+    "color": "#d95a6a"
+   },
+   {
+    "name": "E4",
+    "id": "c4",
+    "degree": 4,
+    "timbre": "pluck",
+    "dur": 0.8,
+    "row": 0,
+    "color": "#b86ad9"
+   },
+   {
+    "name": "F4",
+    "id": "c5",
+    "degree": 5,
+    "timbre": "pluck",
+    "dur": 0.8,
+    "row": 0,
+    "color": "#7a7ae0"
+   },
+   {
+    "name": "G4",
+    "id": "c6",
+    "degree": 6,
+    "timbre": "pluck",
+    "dur": 0.8,
+    "row": 0,
+    "color": "#5aa8e0"
+   },
+   {
+    "name": "A4",
+    "id": "c7",
+    "degree": 7,
+    "timbre": "pluck",
+    "dur": 0.8,
+    "row": 1,
+    "color": "#d9b86a"
+   },
+   {
+    "name": "Bb4",
+    "id": "c8",
+    "degree": 8,
+    "timbre": "pluck",
+    "dur": 0.8,
+    "row": 1,
+    "color": "#e8a74a"
+   },
+   {
+    "name": "C#5",
+    "id": "c9",
+    "degree": 9,
+    "timbre": "pluck",
+    "dur": 0.8,
+    "row": 1,
+    "color": "#e8774a"
+   },
+   {
+    "name": "D5",
+    "id": "c10",
+    "degree": 10,
+    "timbre": "pluck",
+    "dur": 0.8,
+    "row": 1,
+    "color": "#d95a6a"
+   },
+   {
+    "name": "E5",
+    "id": "c11",
+    "degree": 11,
+    "timbre": "pluck",
+    "dur": 0.8,
+    "row": 1,
+    "color": "#b86ad9"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Sofyan, 4 beats",
+    "bpm": 92,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 1.5,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 3.5,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 0
+     },
+     {
+      "beat": 5,
+      "lane": 1
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 6.5,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 4
+     },
+     {
+      "beat": 8,
+      "lane": 5
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 9.5,
+      "lane": 3
+     },
+     {
+      "beat": 10,
+      "lane": 2
+     },
+     {
+      "beat": 11,
+      "lane": 1
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 2
+     },
+     {
+      "beat": 13.5,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "name": "Semai, 6 beats (3+3)",
+    "bpm": 84,
+    "meter": 6,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 1
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 4
+     },
+     {
+      "beat": 8,
+      "lane": 5
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 3
+     },
+     {
+      "beat": 11,
+      "lane": 2
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 4
+     },
+     {
+      "beat": 15,
+      "lane": 5
+     },
+     {
+      "beat": 16,
+      "lane": 6
+     },
+     {
+      "beat": 17,
+      "lane": 5
+     },
+     {
+      "beat": 18,
+      "lane": 4
+     },
+     {
+      "beat": 19,
+      "lane": 3
+     },
+     {
+      "beat": 20,
+      "lane": 2
+     },
+     {
+      "beat": 21,
+      "lane": 1
+     },
+     {
+      "beat": 22,
+      "lane": 0
+     },
+     {
+      "beat": 23,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "name": "Aksak, 9 beats (2+2+2+3)",
+    "bpm": 126,
+    "meter": 9,
+    "length": 36,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 11,
+      "lane": 4
+     },
+     {
+      "beat": 13,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     },
+     {
+      "beat": 16,
+      "lane": 1
+     },
+     {
+      "beat": 18,
+      "lane": 3
+     },
+     {
+      "beat": 20,
+      "lane": 4
+     },
+     {
+      "beat": 22,
+      "lane": 5
+     },
+     {
+      "beat": 24,
+      "lane": 6
+     },
+     {
+      "beat": 25,
+      "lane": 7
+     },
+     {
+      "beat": 27,
+      "lane": 6
+     },
+     {
+      "beat": 29,
+      "lane": 5
+     },
+     {
+      "beat": 31,
+      "lane": 4
+     },
+     {
+      "beat": 33,
+      "lane": 2
+     },
+     {
+      "beat": 34,
+      "lane": 1
+     }
+    ]
+   }
+  ]
+ }
+}

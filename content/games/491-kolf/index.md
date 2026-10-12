@@ -37,6 +37,10 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - **Cradle:** [Celtic and Atlantic Europe](../../cradles/celtic-atlantic/index.md)
 - **Region:** Europe
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Krulbol](../../games/1469-krulbol/index.md)

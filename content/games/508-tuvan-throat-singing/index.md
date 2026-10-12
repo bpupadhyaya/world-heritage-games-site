@@ -45,7 +45,7 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Morin khuur](../../games/34-morin-khuur/index.md)
 - [Khomus](../../games/379-khomus/index.md)
 - [Mongolian Bow Archery](../../games/1476-mongolian-bow-archery/index.md)
-- [Double Dutch](../../games/53-double-dutch/index.md)
+- [Elastic Jump](../../games/6-elastic-jump/index.md)
 
 ## Sources
 

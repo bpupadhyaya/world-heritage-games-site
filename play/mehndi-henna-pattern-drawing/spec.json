@@ -1,0 +1,233 @@
+{
+ "engine": "pattern",
+ "variant": "mehndi-henna-pattern-drawing",
+ "params": {
+  "cols": 9,
+  "rows": 13,
+  "symmetry": "mirror-x",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Dark henna",
+    "color": "#4a1e0d"
+   },
+   {
+    "name": "Henna",
+    "color": "#7c3417"
+   },
+   {
+    "name": "Terracotta",
+    "color": "#b45428"
+   },
+   {
+    "name": "Ochre",
+    "color": "#c98c36"
+   }
+  ],
+  "background": "#f0d2b2",
+  "grid": "#dcb48c",
+  "motifs": [
+   "leaf",
+   "spiral",
+   "ring",
+   "dot",
+   "wave",
+   "star"
+  ],
+  "rotateMarks": true,
+  "designs": [
+   {
+    "name": "Palm medallion",
+    "rows": [
+     "d.d.d.d.d",
+     ".a.a.a.a.",
+     "..d.o.d..",
+     ".s.b.b.s.",
+     "..d.d.d..",
+     "...aRa...",
+     ".wsRfRsw.",
+     "...aRa...",
+     "..d.d.d..",
+     ".s.b.b.s.",
+     "..d.o.d..",
+     "wwwwwwwww",
+     "d.d.d.d.d"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 2
+     },
+     "s": {
+      "m": 1,
+      "c": 0
+     },
+     "r": {
+      "m": 2,
+      "c": 0
+     },
+     "R": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "o": {
+      "m": 3,
+      "c": 2
+     },
+     "w": {
+      "m": 4,
+      "c": 1
+     },
+     "f": {
+      "m": 5,
+      "c": 0
+     },
+     "F": {
+      "m": 5,
+      "c": 2
+     },
+     "q": {
+      "m": 1,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Disc and leaf vine",
+    "rows": [
+     ".o.o.o.o.",
+     ".b.b.b.b.",
+     "a.a.a.a.a",
+     ".d.d.d.d.",
+     "..rrrrr..",
+     ".rdFdFdr.",
+     ".rdsfsdr.",
+     ".rdFdFdr.",
+     "..rrrrr..",
+     ".d.d.d.d.",
+     "a.a.a.a.a",
+     ".b.b.b.b.",
+     "wwwwwwwww"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 2
+     },
+     "s": {
+      "m": 1,
+      "c": 0
+     },
+     "r": {
+      "m": 2,
+      "c": 0
+     },
+     "R": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "o": {
+      "m": 3,
+      "c": 2
+     },
+     "w": {
+      "m": 4,
+      "c": 1
+     },
+     "f": {
+      "m": 5,
+      "c": 0
+     },
+     "F": {
+      "m": 5,
+      "c": 2
+     },
+     "q": {
+      "m": 1,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Wave bands",
+    "rows": [
+     "wwwwwwwww",
+     "d.d.d.d.d",
+     "sasasasas",
+     "wwwwwwwww",
+     ".o.o.o.o.",
+     ".f.fFf.f.",
+     "..d...d..",
+     ".f.fFf.f.",
+     ".o.o.o.o.",
+     "wwwwwwwww",
+     "sasasasas",
+     "d.d.d.d.d",
+     "wwwwwwwww"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 2
+     },
+     "s": {
+      "m": 1,
+      "c": 0
+     },
+     "r": {
+      "m": 2,
+      "c": 0
+     },
+     "R": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "o": {
+      "m": 3,
+      "c": 2
+     },
+     "w": {
+      "m": 4,
+      "c": 1
+     },
+     "f": {
+      "m": 5,
+      "c": 0
+     },
+     "F": {
+      "m": 5,
+      "c": 2
+     },
+     "q": {
+      "m": 1,
+      "c": 2
+     }
+    }
+   }
+  ]
+ }
+}

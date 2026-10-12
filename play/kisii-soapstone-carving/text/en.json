@@ -1,0 +1,27 @@
+{
+ "title": "Kisii soapstone carving",
+ "native": "Tabaka soapstone",
+ "alt": [
+  "Tabaka stone carving",
+  "Gusii soapstone"
+ ],
+ "countries": [
+  "Kenya"
+ ],
+ "summary": "Carvers in the Tabaka hills of western Kenya shape soft white, pink and grey soapstone into animals, bowls, boxes and chess sets, using a panga, knives and rasps, then smooth them with sandpaper and polish with wax.",
+ "howToPlay": [
+  "The framed bird shows what the block must become.",
+  "Drag over cells to chip them away; switch between the fine and broad chisel.",
+  "The outline marks the figure; dark cells show where you cut too deep.",
+  "Press Check when the shape is right."
+ ],
+ "rules": [
+  "Cut away only what lies outside the outline: removing a cell inside it costs as much as leaving one outside.",
+  "Undo brings back the last stroke.",
+  "Three stars need a nearly exact figure."
+ ],
+ "heritageNote": "Soapstone is dug from shallow quarries near Tabaka, in Kisii County, and whole families carve, sand and polish it by hand. The stone is so soft that a knife and water are enough to shape it.",
+ "credits": [
+  "Craft model: World Heritage Games (original)"
+ ]
+}

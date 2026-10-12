@@ -1,16 +1,16 @@
 ---
 title: "Sub-Saharan Africa"
-description: "189 entries."
+description: "192 entries."
 path: "/regions/sub-saharan-africa/"
-count: 189
+count: 192
 ---
 # Sub-Saharan Africa
 
-189 entries.
+192 entries.
 
 
 
-189 entries.
+192 entries.
 
 - [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
@@ -26,6 +26,7 @@ count: 189
 - [Asafo Flag Appliqué](../../games/1230-asafo-flag-applique/index.md): Ghana; Crafts and making; Living Traditions
 - [Asmara highland road race](../../games/193-asmara-highland-road-race/index.md): Eritrea; Racing; Age of Contact and Craft
 - [Babatone](../../games/1233-babatone/index.md): Malawi; Musical instruments; Living Traditions
+- [Balafon Gourd Xylophone](../../games/168-balafon-gourd-xylophone/index.md): Mali, Guinea; Musical instruments; Crossroads and Golden Ages
 - [Balanta Mangrove Rice Polder](../../games/1235-balanta-mangrove-rice-polder/index.md): Guinea-Bissau; Board and table games; Crossroads and Golden Ages
 - [Bamileke beadwork designer](../../games/1404-bamileke-beadwork-designer/index.md): Cameroon; Crafts and making; Living Traditions
 - [Bamum script writer](../../games/1405-bamum-script-writer/index.md): Cameroon; Crafts and making; Living Traditions
@@ -45,7 +46,7 @@ count: 189
 - [Dahomey Appliqué Panel Studio](../../games/1262-dahomey-applique-panel-studio/index.md): Benin; Crafts and making; Living Traditions
 - [Dakar Car Rapide Livery Painter](../../games/1263-dakar-car-rapide-livery-painter/index.md): Senegal; Crafts and making; Living Traditions
 - [Dambe](../../games/987-dambe/index.md): Nigeria, Niger; Street and playground games; Modern Heritage
-- [Dara](../../games/452-dara/index.md): Nigeria, Niger; Crafts and making; Living Traditions
+- [Dara](../../games/452-dara/index.md): Nigeria, Niger; Board and table games; Living Traditions
 - [Diketo](../../games/1076-diketo/index.md): South Africa, Botswana; Dexterity and skill games; Deep Past and First Games
 - [Dinka beaded corset beadwork](../../games/1269-dinka-beaded-corset-beadwork/index.md): South Sudan; Crafts and making; Living Traditions
 - [Dogon Granary Builder](../../games/177-dogon-granary-builder/index.md): Mali; Crafts and making; Living Traditions
@@ -54,6 +55,7 @@ count: 189
 - [Eskista](../../games/188-eskista/index.md): Ethiopia; Dances; Living Traditions
 - [Faso Dan Fani Strip Weaving](../../games/1277-faso-dan-fani-strip-weaving/index.md): Burkina Faso; Crafts and making; Living Traditions
 - [Freetown Beach Seine Haul](../../games/1282-freetown-beach-seine-haul/index.md): Sierra Leone; Performance and storytelling; Living Traditions
+- [Fufu Pounding Rhythm](../../games/175-fufu-pounding-rhythm/index.md): Ghana, Nigeria; Crafts and making; Living Traditions
 - [Fula Riti One-String Fiddle](../../games/1283-fula-riti-one-string-fiddle/index.md): Guinea; Musical instruments; Classical Worlds
 - [Gambian Oyster Harvest](../../games/1287-gambian-oyster-harvest/index.md): Gambia; Crafts and making; Living Traditions
 - [Gbofe Trumpet Ensemble](../../games/1290-gbofe-trumpet-ensemble/index.md): Cote d'Ivoire; Other traditions; Living Traditions
@@ -115,6 +117,7 @@ count: 189
 - [Sahel Salt Caravan](../../games/172-sahel-salt-caravan/index.md): Niger, Mali; Sports with animal partners; Crossroads and Golden Ages
 - [São Tomé cocoa and chocolate maker](../../games/1428-sao-tome-cocoa-and-chocolate-maker/index.md): Sao Tome and Principe; Crafts and making; Living Traditions
 - [Savika](../../games/905-savika/index.md): Madagascar; Street and playground games; River Valleys and First Cities
+- [Sega ravanne drum](../../games/199-sega-ravanne-drum/index.md): Mauritius; Musical instruments; Modern Heritage
 - [Senterej](../../games/707-senterej/index.md): Ethiopia, Eritrea; Board and table games; Crossroads and Golden Ages
 - [Shona stone sculpture carving](../../games/203-shona-stone-sculpture-carving/index.md): Zimbabwe; Crafts and making; Living Traditions
 - [Sierra Leone Country Cloth Strip Loom](../../games/1372-sierra-leone-country-cloth-strip-loom/index.md): Sierra Leone; Crafts and making; Living Traditions

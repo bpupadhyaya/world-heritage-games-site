@@ -1,0 +1,479 @@
+{
+ "engine": "story",
+ "params": {
+  "stage": "shadow",
+  "start": "start",
+  "cast": {
+   "laras": {
+    "name": "Laras",
+    "kind": "child",
+    "hat": "topknot",
+    "color": "#7a4a2a",
+    "accent": "#e0b04a"
+   },
+   "cungkring": {
+    "name": "Cungkring",
+    "kind": "clown",
+    "color": "#5a6a3a",
+    "accent": "#d9a030"
+   },
+   "kerbau": {
+    "name": "The buffalo",
+    "kind": "beast",
+    "scale": 1.0,
+    "color": "#4a4038"
+   },
+   "calf": {
+    "name": "The calf",
+    "kind": "beast",
+    "scale": 0.5,
+    "color": "#6a5a48"
+   },
+   "tani": {
+    "name": "Pak Tani",
+    "kind": "person",
+    "hat": "straw",
+    "prop": "staff",
+    "beard": true,
+    "color": "#5a4a30"
+   },
+   "lurah": {
+    "name": "The headman",
+    "kind": "ruler",
+    "hat": "cap",
+    "color": "#7a2a22",
+    "accent": "#e8b83a",
+    "prop": "fan"
+   }
+  },
+  "meters": [
+   {
+    "id": "wit",
+    "label": "Wit",
+    "start": 0,
+    "max": 5
+   },
+   {
+    "id": "goodwill",
+    "label": "Goodwill",
+    "start": 0,
+    "max": 5
+   },
+   {
+    "id": "water",
+    "label": "Water",
+    "start": 0,
+    "max": 5
+   }
+  ],
+  "scenes": {
+   "start": {
+    "bg": "village",
+    "speaker": "laras",
+    "on": [
+     {
+      "who": "laras",
+      "at": "left"
+     },
+     {
+      "who": "cungkring",
+      "at": "midright"
+     }
+    ],
+    "text": "The village well is dry on the eve of market day. Laras holds an empty bucket; the clown Cungkring peers into the dark hole and groans.",
+    "choices": [
+     {
+      "text": "Grumble that someone ought to fix it",
+      "next": "carry",
+      "pts": 0,
+      "set": [
+       "weary"
+      ]
+     },
+     {
+      "text": "Carry buckets from the far stream all day",
+      "next": "carry",
+      "pts": 1,
+      "set": [
+       "weary"
+      ]
+     },
+     {
+      "text": "Follow the dry channel uphill to find the cause",
+      "next": "channel",
+      "pts": 2,
+      "effects": {
+       "wit": 1
+      }
+     }
+    ]
+   },
+   "carry": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "laras",
+      "at": "left",
+      "pose": "slump"
+     },
+     {
+      "who": "cungkring",
+      "at": "midright",
+      "pose": "slump"
+     }
+    ],
+    "text": "Grumbling or not, they haul bucket after bucket until their arms ache. The village drinks, but the rice terraces stay cracked. They must find the cause.",
+    "next": "channel",
+    "cont": "Go uphill"
+   },
+   "channel": {
+    "bg": "river",
+    "on": [
+     {
+      "who": "kerbau",
+      "at": "center"
+     },
+     {
+      "who": "laras",
+      "at": "left"
+     }
+    ],
+    "text": "Far up the channel a great buffalo lies across the water, blocking it. She will not stand, whatever the clown says. Why does she stay?",
+    "choices": [
+     {
+      "text": "Shout and flap a cloth to drive her off",
+      "next": "shout",
+      "pts": 0,
+      "set": [
+       "scared"
+      ]
+     },
+     {
+      "text": "Push her flank with a long stick",
+      "next": "calf",
+      "pts": 1
+     },
+     {
+      "text": "Sit quietly and watch what she watches",
+      "next": "calf",
+      "pts": 2,
+      "effects": {
+       "wit": 1
+      }
+     }
+    ]
+   },
+   "shout": {
+    "bg": "river",
+    "on": [
+     {
+      "who": "kerbau",
+      "at": "center",
+      "pose": "point"
+     },
+     {
+      "who": "cungkring",
+      "at": "right",
+      "pose": "slump"
+     }
+    ],
+    "text": "The buffalo bellows and swings her horns. Cungkring tumbles into the reeds. She still does not move, and her eyes keep turning behind her.",
+    "next": "calf",
+    "cont": "Look behind her"
+   },
+   "calf": {
+    "bg": "river",
+    "on": [
+     {
+      "who": "kerbau",
+      "at": "midright"
+     },
+     {
+      "who": "calf",
+      "at": "center"
+     },
+     {
+      "who": "laras",
+      "at": "left"
+     }
+    ],
+    "text": "Behind her a calf is stuck in the mud to its belly, crying thinly. That is why she will not leave the water. How will you help?",
+    "choices": [
+     {
+      "text": "Tempt the mother away with a bundle of grass",
+      "next": "grass",
+      "pts": 0,
+      "set": [
+       "unkind"
+      ]
+     },
+     {
+      "text": "Run back to fetch the headman's men with ropes",
+      "next": "ropes",
+      "pts": 1,
+      "set": [
+       "late"
+      ]
+     },
+     {
+      "text": "Dig the mud away with a flat stone, slowly and gently",
+      "next": "freed",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1,
+       "water": 1
+      }
+     }
+    ]
+   },
+   "grass": {
+    "bg": "river",
+    "on": [
+     {
+      "who": "kerbau",
+      "at": "midright",
+      "pose": "point"
+     },
+     {
+      "who": "calf",
+      "at": "center",
+      "pose": "slump"
+     }
+    ],
+    "text": "The mother lunges for the grass, then hears the calf wail and turns back. Nothing is solved. You must dig after all.",
+    "next": "freed",
+    "cont": "Dig it out"
+   },
+   "ropes": {
+    "bg": "river",
+    "on": [
+     {
+      "who": "lurah",
+      "at": "midright"
+     },
+     {
+      "who": "calf",
+      "at": "center",
+      "pose": "slump"
+     },
+     {
+      "who": "cungkring",
+      "at": "left"
+     }
+    ],
+    "text": "The headman's men arrive at dusk, grumbling about supper. They haul the calf out with ropes, long after the market stalls have closed.",
+    "next": "freed",
+    "cont": "Open the channel"
+   },
+   "freed": {
+    "bg": "river",
+    "on": [
+     {
+      "who": "kerbau",
+      "at": "midright",
+      "pose": "cheer"
+     },
+     {
+      "who": "calf",
+      "at": "center",
+      "pose": "cheer"
+     },
+     {
+      "who": "laras",
+      "at": "left",
+      "pose": "cheer"
+     }
+    ],
+    "text": "The calf scrambles free and the mother noses it all over. Then she steps aside, and the water begins to run again, brown and quick.",
+    "next": "gate",
+    "cont": "Follow the water down"
+   },
+   "gate": {
+    "bg": "village",
+    "speaker": "tani",
+    "on": [
+     {
+      "who": "tani",
+      "at": "center"
+     },
+     {
+      "who": "laras",
+      "at": "left"
+     }
+    ],
+    "text": "Old Pak Tani guards the sluice gate. \"Water goes to those who can answer. What runs but never walks, and has a mouth but never speaks?\"",
+    "puzzle": {
+     "prompt": "What is the answer?",
+     "options": [
+      "A shadow",
+      "A river",
+      "A rumour"
+     ],
+     "answer": 1,
+     "right": {
+      "effects": {
+       "wit": 2
+      },
+      "pts": 2,
+      "next": "share"
+     },
+     "wrong": {
+      "pts": 0,
+      "next": "share",
+      "set": [
+       "stumped"
+      ]
+     }
+    }
+   },
+   "share": {
+    "bg": "village",
+    "speaker": "tani",
+    "on": [
+     {
+      "who": "tani",
+      "at": "center"
+     },
+     {
+      "who": "lurah",
+      "at": "right"
+     },
+     {
+      "who": "laras",
+      "at": "left"
+     }
+    ],
+    "text": "The gate lifts. The headman demands the first and fullest flow for his private fishpond. Everyone looks at you. Who gets the water?",
+    "choices": [
+     {
+      "text": "Fill the headman's pond first, since he asks loudest",
+      "next": "pond",
+      "pts": 0
+     },
+     {
+      "text": "Let whoever runs fastest to the gate take what they need",
+      "next": "rush",
+      "pts": 1
+     },
+     {
+      "text": "Send it to the terraces and the well in turns, so all drink",
+      "next": "turns",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1,
+       "water": 1
+      }
+     }
+    ]
+   },
+   "pond": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "lurah",
+      "at": "center",
+      "pose": "cheer"
+     },
+     {
+      "who": "tani",
+      "at": "right",
+      "pose": "slump"
+     },
+     {
+      "who": "laras",
+      "at": "left",
+      "pose": "slump"
+     }
+    ],
+    "text": "The pond fills to the brim and the terraces stay thirsty. The headman is pleased. Nobody else has much to say.",
+    "end": true
+   },
+   "rush": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "cungkring",
+      "at": "left",
+      "pose": "cheer"
+     },
+     {
+      "who": "tani",
+      "at": "right",
+      "pose": "slump"
+     }
+    ],
+    "text": "Buckets clatter and elbows fly. The quick fill their jars, the old and the small go home with half. The market is loud and unhappy.",
+    "end": true
+   },
+   "turns": {
+    "bg": "village",
+    "on": [
+     {
+      "who": "laras",
+      "at": "left",
+      "pose": "cheer"
+     },
+     {
+      "who": "tani",
+      "at": "center",
+      "pose": "cheer"
+     },
+     {
+      "who": "cungkring",
+      "at": "midright",
+      "pose": "cheer"
+     },
+     {
+      "who": "lurah",
+      "at": "right",
+      "pose": "cheer"
+     }
+    ],
+    "text": "The terraces drink at dawn, the well at noon, the pond at dusk. By market day the whole village is green and the gamelan plays late.",
+    "end": true
+   }
+  },
+  "endings": [
+   {
+    "id": "best",
+    "when": {
+     "min": {
+      "wit": 3,
+      "goodwill": 2
+     },
+     "notFlags": [
+      "late",
+      "unkind"
+     ]
+    },
+    "stars": 3,
+    "headline": "The water-bringers",
+    "text": "A patient eye, gentle hands and a fair share: the village drinks together."
+   },
+   {
+    "id": "fine",
+    "when": {
+     "min": {
+      "wit": 1,
+      "goodwill": 1
+     }
+    },
+    "stars": 2,
+    "headline": "Water at last",
+    "text": "The channel runs and the village is glad, though the tale could have been kinder."
+   },
+   {
+    "id": "ok",
+    "stars": 1,
+    "headline": "A thin trickle",
+    "text": "The water flows again, but not as it might have."
+   }
+  ],
+  "look": {
+   "screen": "#f7dfa0",
+   "screenEdge": "#c97e2c",
+   "lamp": "#fff4c8",
+   "frame": "#3e2410"
+  }
+ }
+}

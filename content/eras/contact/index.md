@@ -2,7 +2,7 @@
 title: "Age of Contact and Craft"
 description: "Trade and empire carried pastimes across oceans while village traditions took their lasting shape."
 path: "/eras/contact/"
-count: 79
+count: 82
 ---
 # Age of Contact and Craft
 
@@ -10,8 +10,9 @@ Trade and empire carried pastimes across oceans while village traditions took th
 
 
 
-79 entries.
+82 entries.
 
+- ['Ulu Maika](../../games/44-ulu-maika/index.md): United States; Dexterity and skill games; Age of Contact and Craft
 - [Antigua Classic Yacht Race](../../games/1433-antigua-classic-yacht-race/index.md): Antigua and Barbuda, United Kingdom; Racing; Age of Contact and Craft
 - [Asmara highland road race](../../games/193-asmara-highland-road-race/index.md): Eritrea; Racing; Age of Contact and Craft
 - [Backyard cricket](../../games/559-backyard-cricket/index.md): Australia; Street and playground games; Age of Contact and Craft
@@ -22,6 +23,7 @@ Trade and empire carried pastimes across oceans while village traditions took th
 - [Billycart derby](../../games/445-billycart-derby/index.md): Australia; Racing; Age of Contact and Craft
 - [Bodhran Frame Drum](../../games/521-bodhran-frame-drum/index.md): Ireland; Musical instruments; Age of Contact and Craft
 - [Bolas criollas](../../games/51-bolas-criollas/index.md): Venezuela; Board and table games; Age of Contact and Craft
+- [Canal ice-skating marathon](../../games/84-canal-ice-skating-marathon/index.md): Netherlands; Racing; Age of Contact and Craft
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md): United Kingdom, Canada; Dexterity and skill games; Age of Contact and Craft
 - [Cantabrian palm bowling](../../games/1096-cantabrian-palm-bowling/index.md): Spain; Street and playground games; Age of Contact and Craft
 - [Capoeira Angola](../../games/543-capoeira-angola/index.md): Angola; Street and playground games; Age of Contact and Craft
@@ -37,6 +39,7 @@ Trade and empire carried pastimes across oceans while village traditions took th
 - [Hanetsuki](../../games/347-hanetsuki/index.md): Japan; Racing; Age of Contact and Craft
 - [Independence-day field games](../../games/330-independence-day-field-games/index.md): Indonesia; Racing; Age of Contact and Craft
 - [Intha leg rowing on the lake](../../games/304-intha-leg-rowing-on-the-lake/index.md): Myanmar; Racing; Age of Contact and Craft
+- [Kambala](../../games/80-kambala/index.md): India; Racing; Age of Contact and Craft
 - [Kicksled Race](../../games/407-kicksled-race/index.md): Finland, Sweden; Racing; Age of Contact and Craft
 - [Kyykka](../../games/715-kyykka/index.md): Finland; Street and playground games; Age of Contact and Craft
 - [Letter Categories](../../games/472-letter-categories/index.md): Germany, India; Racing; Age of Contact and Craft

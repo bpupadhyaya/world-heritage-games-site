@@ -1,0 +1,13 @@
+{
+ "slug": "mijwiz-double-clarinet",
+ "title": "Mijwiz Double Clarinet",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,13 @@
+{
+ "slug": "rabab-plucked-lute",
+ "title": "Rabab plucked lute",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,25 @@
+{
+ "title": "Kumiko lattice",
+ "native": "組子 (kumiko)",
+ "alt": [
+  "Japanese wood lattice"
+ ],
+ "summary": "Kumiko is Japanese woodwork in which very thin, grooved strips of wood are fitted together without nails to make lattice panels for sliding screens and doors. The panels hold by the pressure of the joints, and each geometric pattern is named after a leaf, flower or other natural form.",
+ "howToPlay": [
+  "Pick a wood tone and a piece from the strip under the frame.",
+  "Touch a square to fit that piece: it is repeated in all matching places of the frame, because a lattice repeats around its centre.",
+  "Copy the small panel shown above, then press Check."
+ ],
+ "rules": [
+  "The frame is symmetric left to right, top to bottom and along both diagonals, so every piece you fit is copied to its seven partners.",
+  "A square counts only when both the piece and the wood tone match the target.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Kumiko has been made in Japan since about the 7th century, with many of the roughly two hundred patterns in use dating from the Edo period. Craftspeople still cut and fit the strips by hand, traditionally in cypress.",
+ "countries": [
+  "Japan"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original, in the style of the tradition)"
+ ]
+}

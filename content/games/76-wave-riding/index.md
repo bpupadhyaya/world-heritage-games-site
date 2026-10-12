@@ -38,14 +38,18 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - **Cradle:** [Pacific and Oceania](../../cradles/pacific/index.md)
 - **Region:** Oceania and Pacific
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Madura bull racing](../../games/805-madura-bull-racing/index.md)
+- [Camel racing dash](../../games/19-camel-racing-dash/index.md)
 - [Cirit](../../games/156-cirit/index.md)
 - [Tbourida](../../games/164-tbourida/index.md)
 - [Sahel Salt Caravan](../../games/172-sahel-salt-caravan/index.md)
 - [Netball](../../games/447-netball/index.md)
-- [Gumboot throwing](../../games/448-gumboot-throwing/index.md)
 
 ## Sources
 

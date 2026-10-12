@@ -1,0 +1,375 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "mode": "follow",
+  "root": 392,
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "5 lo",
+    "cents": 0,
+    "holes": "111111",
+    "timbre": "reed",
+    "color": "#8fd1a8"
+   },
+   {
+    "name": "6 lo",
+    "cents": 200,
+    "holes": "111110",
+    "timbre": "reed",
+    "color": "#6cc2a0"
+   },
+   {
+    "name": "7 lo",
+    "cents": 400,
+    "holes": "111100",
+    "timbre": "reed",
+    "color": "#52b3a0"
+   },
+   {
+    "name": "1 mid",
+    "cents": 500,
+    "holes": "111000",
+    "timbre": "reed",
+    "color": "#4a9fc4"
+   },
+   {
+    "name": "2 mid",
+    "cents": 700,
+    "holes": "110000",
+    "timbre": "reed",
+    "color": "#5a86d6"
+   },
+   {
+    "name": "3 mid",
+    "cents": 900,
+    "holes": "100000",
+    "timbre": "reed",
+    "color": "#8a74d6"
+   },
+   {
+    "name": "5 mid",
+    "cents": 1200,
+    "holes": "111111",
+    "timbre": "reed",
+    "color": "#c46bd6"
+   },
+   {
+    "name": "6 mid",
+    "cents": 1400,
+    "holes": "111110",
+    "timbre": "reed",
+    "color": "#e87fa0"
+   },
+   {
+    "name": "1 hi",
+    "cents": 1700,
+    "holes": "111000",
+    "timbre": "reed",
+    "color": "#f2c14e"
+   },
+   {
+    "name": "2 hi",
+    "cents": 1900,
+    "holes": "110000",
+    "timbre": "reed",
+    "color": "#f7dc8a"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Slow scale",
+    "bpm": 72,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "5 lo",
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": "6 lo",
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": "7 lo",
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": "1 mid",
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": "2 mid",
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": "3 mid",
+      "len": 1
+     },
+     {
+      "beat": 6,
+      "lane": "2 mid",
+      "len": 1
+     },
+     {
+      "beat": 7,
+      "lane": "1 mid",
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": "7 lo",
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": "6 lo",
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": "5 lo",
+      "len": 2
+     }
+    ]
+   },
+   {
+    "name": "Jasmine flower style",
+    "bpm": 100,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "3 mid",
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": "3 mid",
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": "5 mid",
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": "6 mid",
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": "1 hi",
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": "6 mid",
+      "len": 1
+     },
+     {
+      "beat": 6,
+      "lane": "5 mid",
+      "len": 2
+     },
+     {
+      "beat": 8,
+      "lane": "5 mid",
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": "5 mid",
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": "3 mid",
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": "5 mid",
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": "6 mid",
+      "len": 1
+     },
+     {
+      "beat": 13,
+      "lane": "5 mid",
+      "len": 1
+     },
+     {
+      "beat": 14,
+      "lane": "3 mid",
+      "len": 2
+     },
+     {
+      "beat": 16,
+      "lane": "2 mid",
+      "len": 1
+     },
+     {
+      "beat": 17,
+      "lane": "3 mid",
+      "len": 1
+     },
+     {
+      "beat": 18,
+      "lane": "2 mid",
+      "len": 1
+     },
+     {
+      "beat": 19,
+      "lane": "1 mid",
+      "len": 1
+     },
+     {
+      "beat": 20,
+      "lane": "2 mid",
+      "len": 1
+     },
+     {
+      "beat": 21,
+      "lane": "3 mid",
+      "len": 1
+     },
+     {
+      "beat": 22,
+      "lane": "1 mid",
+      "len": 2
+     }
+    ]
+   },
+   {
+    "name": "Quick northern run",
+    "bpm": 116,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "1 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 0.5,
+      "lane": "2 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 1,
+      "lane": "3 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 1.5,
+      "lane": "5 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 2,
+      "lane": "6 mid",
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": "5 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 3.5,
+      "lane": "3 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 4,
+      "lane": "2 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 4.5,
+      "lane": "3 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 5,
+      "lane": "2 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 5.5,
+      "lane": "1 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 6,
+      "lane": "7 lo",
+      "len": 1
+     },
+     {
+      "beat": 7,
+      "lane": "6 lo",
+      "len": 0.5
+     },
+     {
+      "beat": 7.5,
+      "lane": "5 lo",
+      "len": 0.5
+     },
+     {
+      "beat": 8,
+      "lane": "1 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 8.5,
+      "lane": "3 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 9,
+      "lane": "5 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 9.5,
+      "lane": "6 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 10,
+      "lane": "1 hi",
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": "6 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 11.5,
+      "lane": "5 mid",
+      "len": 0.5
+     },
+     {
+      "beat": 12,
+      "lane": "3 mid",
+      "len": 2
+     }
+    ]
+   }
+  ]
+ }
+}

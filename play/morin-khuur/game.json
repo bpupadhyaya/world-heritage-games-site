@@ -1,0 +1,13 @@
+{
+ "slug": "morin-khuur",
+ "title": "Morin khuur",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

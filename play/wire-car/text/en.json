@@ -1,0 +1,28 @@
+{
+ "title": "Wire car",
+ "native": "Galimoto",
+ "alt": [
+  "Wire-car",
+  "Street-made toy car"
+ ],
+ "countries": [
+  "Malawi",
+  "Kenya"
+ ],
+ "summary": "Children in southern and eastern Africa bend scrap wire into toy cars, often with wheels cut from tin lids or bottle tops and a long steering stick, then push them along dusty streets. Each car is invented, with its own bonnet, boot and roof.",
+ "howToPlay": [
+  "The framed picture shows the finished car; the dashed gold line in the work area is the outline to reach.",
+  "Drag the white points to bend the body wire and the long steering rod into place.",
+  "Drag each wheel by its rim and set it under the body.",
+  "Press Check to see how close the wire is to the outline."
+ ],
+ "rules": [
+  "Each wire keeps its points in order; Undo takes back the last drag.",
+  "The score measures how far your wire lies from the outline at its worst place, not only at the corners.",
+  "Three stars need the body, the rod and both wheels nearly on the outline."
+ ],
+ "heritageNote": "Children make galimoto and similar wire cars in Malawi and in other African countries from scrap such as telephone wire, packing wire and bottle tops. The skill of bending and binding wire passes from older to younger children, and cars are built for play and sometimes for sale.",
+ "credits": [
+  "Craft model: World Heritage Games (original)"
+ ]
+}

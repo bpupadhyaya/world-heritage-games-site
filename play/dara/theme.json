@@ -1,0 +1,21 @@
+{
+ "palette": {
+  "bg": "#2a1c10",
+  "panel": "#43301c",
+  "board": "#d6b27a",
+  "line": "#6b4a24",
+  "cell0": "#e3c48e",
+  "cell1": "#cfa96d",
+  "node": "#6b4a24",
+  "p0": "#c4502f",
+  "p1": "#2c4a9a",
+  "accent": "#f2b94a",
+  "ink": "#fbf3e0",
+  "dim": "#cdb48a",
+  "good": "#7cc47a"
+ },
+ "board": {},
+ "pieces": {},
+ "sounds": {},
+ "assets": {}
+}

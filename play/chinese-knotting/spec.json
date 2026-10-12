@@ -1,0 +1,15 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "knot",
+  "layout": "pan-chang",
+  "size": 4,
+  "symmetry": "rot4",
+  "cordColor": "#d1202f",
+  "background": "#2a0b0e",
+  "tassel": true,
+  "density": 0.8,
+  "guide": true,
+  "variation": 1
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "slug": "sahel-salt-caravan",
+ "title": "Sahel salt caravan",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

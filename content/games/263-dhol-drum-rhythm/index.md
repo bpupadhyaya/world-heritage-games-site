@@ -40,12 +40,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md)
 - [Talking drum](../../games/33-talking-drum/index.md)
 - [Marimba](../../games/52-marimba/index.md)
 - [Calabash Water Drum](../../games/180-calabash-water-drum/index.md)
 - [Amadinda and embaire](../../games/185-amadinda-and-embaire/index.md)
-- [Tombak goblet drum rhythms](../../games/233-tombak-goblet-drum-rhythms/index.md)
-- [Ranat ek](../../games/305-ranat-ek/index.md)
+- [Isukuti drum dance](../../games/191-isukuti-drum-dance/index.md)
 
 ## Sources
 

@@ -1,0 +1,26 @@
+{
+ "title": "Alebrije painting",
+ "native": "Alebrijes de Oaxaca",
+ "alt": [
+  "Oaxacan carved figures"
+ ],
+ "summary": "Alebrijes are carved wooden fantasy creatures from the valley of Oaxaca in Mexico. Once the figure is carved and sanded, painters cover its body with fine dots, lines, leaves and bands in saturated colour, the two sides of the animal matching each other.",
+ "howToPlay": [
+  "Pick a colour and a mark from the strip under the panel: dots, leaves, key bands, zigzags, diamonds and stripes.",
+  "Tap a square to paint it: the matching square on the other side of the body is painted for you.",
+  "Match the small sample above the panel as closely as you can, then press Check."
+ ],
+ "rules": [
+  "The panel stands for the body of one creature: whatever you paint on the left is mirrored on the right.",
+  "A square scores only when both its mark and its colour match the sample.",
+  "Painting the same mark and colour again, or using the eraser, clears a square.",
+  "Three stars need a near-perfect match; undo and clear are free."
+ ],
+ "heritageNote": "Alebrijes were first made in Mexico City in the 1930s and were carved in wood by families of Arrazola, San Martin Tilcajete and nearby villages in Oaxaca, where painting is still a family craft with its own signature patterns.",
+ "countries": [
+  "Mexico"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

@@ -40,11 +40,11 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md)
+- [Balafon Gourd Xylophone](../../games/168-balafon-gourd-xylophone/index.md)
 - [Sahel Salt Caravan](../../games/172-sahel-salt-caravan/index.md)
 - [Queah](../../games/885-queah/index.md)
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md)
 - [Vai Syllabary Decoder](../../games/1394-vai-syllabary-decoder/index.md)
-- [Nzango](../../games/1422-nzango/index.md)
 
 ## Sources
 

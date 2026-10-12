@@ -1,0 +1,13 @@
+{
+ "slug": "qanun",
+ "title": "Qanun (plucked trapezoid zither)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

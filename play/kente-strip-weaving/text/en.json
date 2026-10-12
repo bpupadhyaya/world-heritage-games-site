@@ -1,0 +1,26 @@
+{
+ "title": "Kente strip weaving",
+ "native": "Kente",
+ "alt": [
+  "Kente cloth",
+  "Asante strip cloth"
+ ],
+ "summary": "Kente is Ghanaian strip cloth: weavers work narrow bands on a small horizontal loom, patterning them with blocks, stripes and zigzags in gold, green, red and blue, then sew a dozen or more strips edge to edge into a broad cloth.",
+ "howToPlay": [
+  "Choose a thread colour and a weave shape from the strip under the loom.",
+  "Tap a square to weave it: the shape appears on the matching square on the other side of the strip.",
+  "Copy the small strip above, then press Check."
+ ],
+ "rules": [
+  "The strip is a mirror image left to right, as many woven bands are.",
+  "A square counts only when its weave shape and its colour both match the strip.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Kente is woven in Bonwire and other towns of the Asante region, and by Ewe weavers elsewhere in Ghana, where apprentices train for years under master weavers. Each pattern has its own name, often taken from a proverb, a plant or a story.",
+ "countries": [
+  "Ghana"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

@@ -1,0 +1,216 @@
+{
+ "engine": "pattern",
+ "variant": "nanduti",
+ "params": {
+  "symmetry": "rot8",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "White",
+    "color": "#f6f1e6"
+   },
+   {
+    "name": "Red",
+    "color": "#d9362f"
+   },
+   {
+    "name": "Yellow",
+    "color": "#f0c93a"
+   },
+   {
+    "name": "Green",
+    "color": "#2f9a58"
+   },
+   {
+    "name": "Blue",
+    "color": "#3d6fd6"
+   }
+  ],
+  "background": "#12162a",
+  "grid": "#2a3150",
+  "motifs": [
+   "star",
+   "ring",
+   "leaf",
+   "hexagon",
+   "dot",
+   "spiral"
+  ],
+  "designs": [
+   {
+    "name": "Sunburst disc",
+    "rows": [
+     "hhhhhhhhhhhhhhhh",
+     "b.b.b.b.b.b.b.b.",
+     "cccccccccccccccc",
+     "d.d.d.d.d.d.d.d.",
+     "kakakakakakakaka",
+     "a.a.a.a.a.a.a.a."
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 2,
+      "c": 3
+     },
+     "e": {
+      "m": 3,
+      "c": 4
+     },
+     "f": {
+      "m": 4,
+      "c": 0
+     },
+     "g": {
+      "m": 5,
+      "c": 1
+     },
+     "h": {
+      "m": 4,
+      "c": 2
+     },
+     "i": {
+      "m": 2,
+      "c": 0
+     },
+     "j": {
+      "m": 1,
+      "c": 0
+     },
+     "k": {
+      "m": 0,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Flower medallion",
+    "rows": [
+     "hhhhhhhhhhhhhhhh",
+     "iiiiiiiiiiiiiiii",
+     "e.e.e.e.e.e.e.e.",
+     "iiiiiiiiiiiiiiii",
+     "gggggggggggggggg",
+     ".c.c.c.c.c.c.c.c"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 2,
+      "c": 3
+     },
+     "e": {
+      "m": 3,
+      "c": 4
+     },
+     "f": {
+      "m": 4,
+      "c": 0
+     },
+     "g": {
+      "m": 5,
+      "c": 1
+     },
+     "h": {
+      "m": 4,
+      "c": 2
+     },
+     "i": {
+      "m": 2,
+      "c": 0
+     },
+     "j": {
+      "m": 1,
+      "c": 0
+     },
+     "k": {
+      "m": 0,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Spider web",
+    "rows": [
+     "f.f.f.f.f.f.f.f.",
+     "jjjjjjjjjjjjjjjj",
+     "f.f.f.f.f.f.f.f.",
+     "cccccccccccccccc",
+     "f.f.f.f.f.f.f.f.",
+     "jjjjjjjjjjjjjjjj"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 2,
+      "c": 3
+     },
+     "e": {
+      "m": 3,
+      "c": 4
+     },
+     "f": {
+      "m": 4,
+      "c": 0
+     },
+     "g": {
+      "m": 5,
+      "c": 1
+     },
+     "h": {
+      "m": 4,
+      "c": 2
+     },
+     "i": {
+      "m": 2,
+      "c": 0
+     },
+     "j": {
+      "m": 1,
+      "c": 0
+     },
+     "k": {
+      "m": 0,
+      "c": 2
+     }
+    }
+   }
+  ],
+  "shape": "polar",
+  "rings": 6,
+  "rays": 16
+ }
+}

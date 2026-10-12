@@ -15,7 +15,7 @@ count: 11
 - [Bozo Net Casting](../../games/169-bozo-net-casting/index.md): Niger, Mali; Puzzles and mind games; Modern Heritage
 - [Calabash Water Drum](../../games/180-calabash-water-drum/index.md): Niger, Nigeria; Musical instruments; Living Traditions
 - [Dambe](../../games/987-dambe/index.md): Nigeria, Niger; Street and playground games; Modern Heritage
-- [Dara](../../games/452-dara/index.md): Nigeria, Niger; Crafts and making; Living Traditions
+- [Dara](../../games/452-dara/index.md): Nigeria, Niger; Board and table games; Living Traditions
 - [Goje One-String Fiddle](../../games/176-goje-one-string-fiddle/index.md): Nigeria, Niger; Musical instruments; Living Traditions
 - [Imzad Fiddle](../../games/1301-imzad-fiddle/index.md): Niger, Mali; Musical instruments; Classical Worlds
 - [Kokawa Hausa Wrestling](../../games/1316-kokawa-hausa-wrestling/index.md): Nigeria, Niger; Wrestling and martial sports; River Valleys and First Cities

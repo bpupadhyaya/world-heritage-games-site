@@ -1,0 +1,13 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "cut",
+  "symmetry": "rot4-mirror",
+  "cols": 12,
+  "rows": 12,
+  "snips": 4,
+  "color": "#a8704a",
+  "cavity": "#d3e6ef",
+  "guide": true
+ }
+}

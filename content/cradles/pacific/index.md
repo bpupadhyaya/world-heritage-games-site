@@ -2,7 +2,7 @@
 title: "Pacific and Oceania"
 description: "Australia, Aotearoa and the voyaging cultures of the Pacific."
 path: "/cradles/pacific/"
-count: 54
+count: 56
 ---
 # Pacific and Oceania
 
@@ -10,8 +10,9 @@ Australia, Aotearoa and the voyaging cultures of the Pacific.
 
 
 
-54 entries.
+56 entries.
 
+- ['Ulu Maika](../../games/44-ulu-maika/index.md): United States; Dexterity and skill games; Age of Contact and Craft
 - [Axemen woodchop](../../games/1232-axemen-woodchop/index.md): Australia; Other traditions; Modern Heritage
 - [Backyard cricket](../../games/559-backyard-cricket/index.md): Australia; Street and playground games; Age of Contact and Craft
 - [Beach flags](../../games/446-beach-flags/index.md): Australia; Racing; Age of Contact and Craft
@@ -33,6 +34,7 @@ Australia, Aotearoa and the voyaging cultures of the Pacific.
 - [Samoan cricket](../../games/1056-samoan-cricket/index.md): Samoa; Street and playground games; Age of Contact and Craft
 - [Sand drawing](../../games/1395-sand-drawing/index.md): Vanuatu; Puzzles and mind games; Modern Heritage
 - [Two-up](../../games/560-two-up/index.md): Australia; Board and table games; Age of Contact and Craft
+- [Ukulele strum-along](../../games/144-ukulele-strum-along/index.md): United States, Portugal; Musical instruments; Living Traditions
 - [Valley Tonga coil pottery](../../games/1384-valley-tonga-coil-pottery/index.md): Tonga, Zambia; Crafts and making; Living Traditions
 - [Wave riding](../../games/76-wave-riding/index.md): Worldwide; Dexterity and skill games; Modern Heritage
 - [Wayfinder](../../games/43-wayfinder/index.md): United States, New Zealand; Puzzles and mind games; Crossroads and Golden Ages

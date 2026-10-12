@@ -42,10 +42,10 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Engolo](../../games/1409-engolo/index.md)
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md)
+- [Balkan Kolo](../../games/134-balkan-kolo/index.md)
 - [Tahtib](../../games/157-tahtib/index.md)
 - [Eskista](../../games/188-eskista/index.md)
 - [Jebena coffee brewing](../../games/189-jebena-coffee-brewing/index.md)
-- [Cueca](../../games/430-cueca/index.md)
 
 ## Sources
 

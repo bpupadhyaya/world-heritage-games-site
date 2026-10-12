@@ -1,0 +1,15 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "carve",
+  "figure": "bird",
+  "cols": 18,
+  "rows": 18,
+  "material": "clay",
+  "color": "#d8a845",
+  "cavity": "#2a1a10",
+  "chisels": 1,
+  "guide": true,
+  "variation": 0.6
+ }
+}

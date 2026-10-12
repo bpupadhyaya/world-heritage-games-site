@@ -1,0 +1,26 @@
+{
+ "title": "Daruma Otoshi",
+ "native": "だるま落とし",
+ "alt": [
+  "Tower knock-out"
+ ],
+ "summary": "A traditional Japanese skill toy: a tower of coloured wooden discs with a round painted head on top. Using a small wooden mallet you knock the discs out one at a time from the side, so that the rest drop straight down and the head ends up on the base.",
+ "howToPlay": [
+  "Press the disc you want to remove, pull the mallet back and let go. Aim for the marked window on the strength gauge.",
+  "A blow that is too soft only shakes the tower; one that is too hard drags the next disc out as well.",
+  "Work from the bottom up and keep the wobble low until the head comes down."
+ ],
+ "rules": [
+  "A clean blow sends one disc out and scores 1; the wobble settles a little.",
+  "A soft blow or a hard blow adds to the wobble; when the wobble is full the tower falls and the round ends.",
+  "Bringing the head down to the base with the tower still standing scores a bonus of 3.",
+  "Each round gives eight blows; three rounds make a game. Discs higher up need a slightly firmer blow."
+ ],
+ "heritageNote": "A children's game of patience and a steady hand from Japan, played with a small mallet and a tower of discs. The toy is still made in wood and played at home and at gatherings.",
+ "countries": [
+  "Japan"
+ ],
+ "credits": [
+  "Game design: World Heritage Games (original)"
+ ]
+}

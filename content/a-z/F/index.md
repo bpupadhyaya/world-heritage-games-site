@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with F"
-description: "34 entries beginning with F."
+description: "36 entries beginning with F."
 path: "/a-z/F/"
 ---
 # Entries beginning with F
@@ -22,6 +22,7 @@ path: "/a-z/F/"
 - [Fireball](../../games/1016-fireball/index.md): Paraguay; Street and playground games; Modern Heritage
 - [Five stones](../../games/907-five-stones/index.md): Malaysia, Brunei; Dexterity and skill games; Deep Past and First Games
 - [Five-Pin Bowling](../../games/1410-five-pin-bowling/index.md): Canada; Other traditions; Age of Contact and Craft
+- [Flag Tossing](../../games/395-flag-tossing/index.md): Italy; Dexterity and skill games; Modern Heritage
 - [Floating market trader](../../games/315-floating-market-trader/index.md): Thailand; Board and table games; Crossroads and Golden Ages
 - [Flower or Empty](../../games/812-flower-or-empty/index.md): Iran; Street and playground games; Modern Heritage
 - [Fohr](../../games/839-fohr/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
@@ -34,6 +35,7 @@ path: "/a-z/F/"
 - [Frisian kaatsen](../../games/973-frisian-kaatsen/index.md): Netherlands; Street and playground games; Modern Heritage
 - [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md): Ireland, Netherlands; Dexterity and skill games; Age of Contact and Craft
 - [Frog toss](../../games/688-frog-toss/index.md): Ecuador; Dexterity and skill games; Modern Heritage
+- [Fufu Pounding Rhythm](../../games/175-fufu-pounding-rhythm/index.md): Ghana, Nigeria; Crafts and making; Living Traditions
 - [Fujara](../../games/135-fujara/index.md): Slovakia; Musical instruments; Classical Worlds
 - [Fukuwarai](../../games/94-fukuwarai/index.md): Japan; Puzzles and mind games; Age of Contact and Craft
 - [Fula Riti One-String Fiddle](../../games/1283-fula-riti-one-string-fiddle/index.md): Guinea; Musical instruments; Classical Worlds

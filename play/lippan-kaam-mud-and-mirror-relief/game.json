@@ -1,0 +1,13 @@
+{
+ "slug": "lippan-kaam-mud-and-mirror-relief",
+ "title": "Lippan kaam mud-and-mirror relief",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

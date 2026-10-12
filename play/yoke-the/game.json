@@ -1,0 +1,13 @@
+{
+ "slug": "yoke-the",
+ "title": "Yoke th\u00e9 marionette theatre",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

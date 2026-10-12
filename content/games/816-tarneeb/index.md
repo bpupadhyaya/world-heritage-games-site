@@ -46,10 +46,10 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 - [Baloot](../../games/1060-baloot/index.md)
 - [Traditional dhow sail racing](../../games/6768-traditional-dhow-sail-racing/index.md)
+- [Camel racing dash](../../games/19-camel-racing-dash/index.md)
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md)
 - [Turkish Dama](../../games/155-turkish-dama/index.md)
 - [Mheibes](../../games/158-mheibes/index.md)
-- [Tatreez Palestinian Cross-Stitch](../../games/212-tatreez-palestinian-cross-stitch/index.md)
 
 ## Sources
 

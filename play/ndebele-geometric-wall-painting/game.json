@@ -1,0 +1,13 @@
+{
+ "slug": "ndebele-geometric-wall-painting",
+ "title": "Ndebele geometric wall painting",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

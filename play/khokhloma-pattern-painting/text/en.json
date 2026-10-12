@@ -1,0 +1,26 @@
+{
+ "title": "Khokhloma pattern painting",
+ "native": "Хохлома",
+ "alt": [
+  "Khokhloma"
+ ],
+ "summary": "Khokhloma is a Russian craft from the Volga region in which wooden bowls, spoons and furniture are given a warm golden shine with a metal powder and then painted with red and black berries, curling leaves and grass sprigs. Heat in the oven turns the finish a deep, glowing gold.",
+ "howToPlay": [
+  "Pick a colour and a mark from the strip under the panel: berries, rings, leaves, curls, grass and flowers.",
+  "Tap a square to paint it: the same mark appears in the matching squares turned round the middle, as on a plate.",
+  "Copy the small design above the panel, then press Check."
+ ],
+ "rules": [
+  "The panel is a plate seen from above: whatever you paint is repeated in four turns around the centre.",
+  "A square scores only when its mark and its colour both match the design.",
+  "Painting the same mark and colour again, or using the eraser, clears it.",
+  "Three stars need a near-perfect copy; undo and clear are free."
+ ],
+ "heritageNote": "Khokhloma takes its name from a village in the Nizhny Novgorod region of Russia, where painted wooden ware has been made since the seventeenth century and is still made by workshops and families today.",
+ "countries": [
+  "Russia"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

@@ -45,9 +45,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Wayfinder](../../games/43-wayfinder/index.md)
 - [Yap stone money trade puzzle](../../games/1401-yap-stone-money-trade-puzzle/index.md)
 - [Mu Torere](../../games/979-mu-torere/index.md)
+- ['Ulu Maika](../../games/44-ulu-maika/index.md)
+- [Ukulele strum-along](../../games/144-ukulele-strum-along/index.md)
 - [Lei making](../../games/449-lei-making/index.md)
-- [Wave riding](../../games/76-wave-riding/index.md)
-- [Billycart derby](../../games/445-billycart-derby/index.md)
 
 ## Sources
 

@@ -37,12 +37,12 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Related entries
 
+- [Buzkashi](../../games/226-buzkashi/index.md)
 - [Chavgon](../../games/1204-chavgon/index.md)
 - [Turkish Dama](../../games/155-turkish-dama/index.md)
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md)
 - [Kok-boru](../../games/241-kok-boru/index.md)
 - [Peralikatuma](../../games/287-peralikatuma/index.md)
-- [Kharbaga](../../games/459-kharbaga/index.md)
 
 ## Sources
 

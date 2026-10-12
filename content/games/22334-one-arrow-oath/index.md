@@ -43,8 +43,8 @@ Usually placed in the era of Modern Heritage (1800 to today), within the cultura
 ## Related entries
 
 - [Kho-Kho](../../games/15-kho-kho/index.md)
+- [Tent pegging](../../games/78-tent-pegging/index.md)
+- [Mallakhamb](../../games/150-mallakhamb/index.md)
 - [Indian club swinging](../../games/264-indian-club-swinging/index.md)
 - [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md)
 - [Thanjavur dancing doll](../../games/275-thanjavur-dancing-doll/index.md)
-- [Chungi](../../games/297-chungi/index.md)
-- [Kabaddi](../../games/789-kabaddi/index.md)

@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with W"
-description: "19 entries beginning with W."
+description: "20 entries beginning with W."
 path: "/a-z/W/"
 ---
 # Entries beginning with W
@@ -13,6 +13,7 @@ path: "/a-z/W/"
 - [Water puppet pond theatre](../../games/303-water-puppet-pond-theatre/index.md): Vietnam; Performance and storytelling; Classical Worlds
 - [Wau bulan kite](../../games/911-wau-bulan-kite/index.md): Malaysia; Dexterity and skill games; Classical Worlds
 - [Wave riding](../../games/76-wave-riding/index.md): Worldwide; Dexterity and skill games; Modern Heritage
+- [Wayang Shadow Puppets](../../games/47-wayang-shadow-puppets/index.md): Indonesia; Performance and storytelling; Classical Worlds
 - [Wayfinder](../../games/43-wayfinder/index.md): United States, New Zealand; Puzzles and mind games; Crossroads and Golden Ages
 - [Wazza gourd trumpet](../../games/1399-wazza-gourd-trumpet/index.md): Sudan; Musical instruments; Living Traditions
 - [Welsh Love Spoon Carving](../../games/414-welsh-love-spoon-carving/index.md): United Kingdom; Crafts and making; Living Traditions

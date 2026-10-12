@@ -44,8 +44,8 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md)
 - [Mudhif reed-arch house](../../games/230-mudhif-reed-arch-house/index.md)
 - [Launeddas Triple Pipe](../../games/400-launeddas-triple-pipe/index.md)
+- [Vallenato accordion trio](../../games/431-vallenato-accordion-trio/index.md)
 - [Rubboard zydeco rhythm](../../games/437-rubboard-zydeco-rhythm/index.md)
-- [Cuneiform Clay Tablet Scribe](../../games/1260-cuneiform-clay-tablet-scribe/index.md)
 
 ## Sources
 

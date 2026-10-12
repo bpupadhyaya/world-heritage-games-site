@@ -1,0 +1,26 @@
+{
+ "title": "Cross-stitch pattern weaving",
+ "native": "Вишивка (vyshyvka)",
+ "alt": [
+  "Vyshyvka",
+  "Ukrainian cross-stitch"
+ ],
+ "summary": "Vyshyvka is the embroidery of Ukraine, worked on linen by counting threads and sewing small crosses in red and black, and often blue or yellow, to build rhombuses, stars and zigzag borders on shirts, towels and cloths.",
+ "howToPlay": [
+  "Choose a thread colour and a stitch motif from the strip under the linen.",
+  "Tap a square to stitch it: the same stitch appears in the matching squares of every quarter, as a border mirrors on the cloth.",
+  "Match the small design shown above the linen, then press Check."
+ ],
+ "rules": [
+  "The cloth is symmetric left to right and top to bottom, so each stitch you add is copied to its three partners.",
+  "A square counts only when its motif and its thread colour both match the design.",
+  "Three stars need a nearly perfect copy; you may undo or clear as often as you like."
+ ],
+ "heritageNote": "Embroidered shirts, sleeves and towels have been made across Ukraine for centuries, and every region has its own favoured colours and shapes; families still pass the patterns from one generation to the next.",
+ "countries": [
+  "Ukraine"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original, after counted cross-stitch band layouts)"
+ ]
+}

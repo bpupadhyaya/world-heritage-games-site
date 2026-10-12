@@ -42,10 +42,10 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 - [Bodhran Frame Drum](../../games/521-bodhran-frame-drum/index.md)
 - [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md)
+- [Canal ice-skating marathon](../../games/84-canal-ice-skating-marathon/index.md)
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md)
 - [Regional pub games](../../games/1180-regional-pub-games/index.md)
 - [Pub darts](../../games/1182-pub-darts/index.md)
-- [Change Ringing](../../games/1443-change-ringing/index.md)
 
 ## Sources
 

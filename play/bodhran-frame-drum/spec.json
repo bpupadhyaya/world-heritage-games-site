@@ -1,0 +1,369 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Down",
+    "id": "down",
+    "hz": 130,
+    "timbre": "tone",
+    "wave": "triangle",
+    "dur": 0.3,
+    "color": "#c68642"
+   },
+   {
+    "name": "Up",
+    "id": "up",
+    "hz": 168,
+    "timbre": "tone",
+    "wave": "triangle",
+    "dur": 0.22,
+    "color": "#e3b778"
+   },
+   {
+    "name": "Pressed",
+    "id": "press",
+    "hz": 96,
+    "timbre": "bass",
+    "dur": 0.3,
+    "color": "#8b5a2b"
+   },
+   {
+    "name": "Top",
+    "id": "top",
+    "hz": 215,
+    "timbre": "tone",
+    "wave": "triangle",
+    "dur": 0.22,
+    "color": "#f1d9a6"
+   },
+   {
+    "name": "Rim",
+    "id": "rim",
+    "hz": 360,
+    "timbre": "rim",
+    "dur": 0.12,
+    "color": "#5f8f6a"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Double jig, 6/8 (pulse = eighth)",
+    "bpm": 150,
+    "meter": 6,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "down"
+     },
+     {
+      "beat": 2,
+      "lane": "up"
+     },
+     {
+      "beat": 3,
+      "lane": "down"
+     },
+     {
+      "beat": 5,
+      "lane": "up"
+     },
+     {
+      "beat": 6,
+      "lane": "down"
+     },
+     {
+      "beat": 7,
+      "lane": "up"
+     },
+     {
+      "beat": 8,
+      "lane": "up"
+     },
+     {
+      "beat": 9,
+      "lane": "down"
+     },
+     {
+      "beat": 11,
+      "lane": "press"
+     },
+     {
+      "beat": 12,
+      "lane": "down"
+     },
+     {
+      "beat": 14,
+      "lane": "up"
+     },
+     {
+      "beat": 15,
+      "lane": "down"
+     },
+     {
+      "beat": 17,
+      "lane": "up"
+     },
+     {
+      "beat": 18,
+      "lane": "down"
+     },
+     {
+      "beat": 20,
+      "lane": "top"
+     },
+     {
+      "beat": 21,
+      "lane": "down"
+     },
+     {
+      "beat": 22,
+      "lane": "up"
+     },
+     {
+      "beat": 23,
+      "lane": "rim"
+     }
+    ]
+   },
+   {
+    "name": "Reel, 4/4",
+    "bpm": 100,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "down"
+     },
+     {
+      "beat": 0.5,
+      "lane": "up"
+     },
+     {
+      "beat": 1,
+      "lane": "down"
+     },
+     {
+      "beat": 1.5,
+      "lane": "up"
+     },
+     {
+      "beat": 2,
+      "lane": "down"
+     },
+     {
+      "beat": 2.5,
+      "lane": "up"
+     },
+     {
+      "beat": 3,
+      "lane": "down"
+     },
+     {
+      "beat": 3.5,
+      "lane": "up"
+     },
+     {
+      "beat": 4,
+      "lane": "down"
+     },
+     {
+      "beat": 4.5,
+      "lane": "up"
+     },
+     {
+      "beat": 5,
+      "lane": "down"
+     },
+     {
+      "beat": 5.5,
+      "lane": "up"
+     },
+     {
+      "beat": 6,
+      "lane": "down"
+     },
+     {
+      "beat": 6.5,
+      "lane": "up"
+     },
+     {
+      "beat": 7,
+      "lane": "down"
+     },
+     {
+      "beat": 7.5,
+      "lane": "up"
+     },
+     {
+      "beat": 8,
+      "lane": "down"
+     },
+     {
+      "beat": 8.5,
+      "lane": "up"
+     },
+     {
+      "beat": 9,
+      "lane": "press"
+     },
+     {
+      "beat": 10,
+      "lane": "down"
+     },
+     {
+      "beat": 10.5,
+      "lane": "top"
+     },
+     {
+      "beat": 11,
+      "lane": "down"
+     },
+     {
+      "beat": 12,
+      "lane": "down"
+     },
+     {
+      "beat": 13,
+      "lane": "press"
+     },
+     {
+      "beat": 13.5,
+      "lane": "down"
+     },
+     {
+      "beat": 14,
+      "lane": "top"
+     },
+     {
+      "beat": 14.5,
+      "lane": "up"
+     },
+     {
+      "beat": 15,
+      "lane": "down"
+     },
+     {
+      "beat": 15.5,
+      "lane": "rim"
+     }
+    ]
+   },
+   {
+    "name": "Slip jig, 9/8 (3+3+3)",
+    "bpm": 156,
+    "meter": 9,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "down"
+     },
+     {
+      "beat": 2,
+      "lane": "up"
+     },
+     {
+      "beat": 3,
+      "lane": "down"
+     },
+     {
+      "beat": 5,
+      "lane": "up"
+     },
+     {
+      "beat": 6,
+      "lane": "down"
+     },
+     {
+      "beat": 8,
+      "lane": "up"
+     },
+     {
+      "beat": 9,
+      "lane": "down"
+     },
+     {
+      "beat": 10,
+      "lane": "up"
+     },
+     {
+      "beat": 12,
+      "lane": "down"
+     },
+     {
+      "beat": 14,
+      "lane": "press"
+     },
+     {
+      "beat": 15,
+      "lane": "down"
+     },
+     {
+      "beat": 16,
+      "lane": "top"
+     },
+     {
+      "beat": 17,
+      "lane": "rim"
+     },
+     {
+      "beat": 18,
+      "lane": "down"
+     },
+     {
+      "beat": 20,
+      "lane": "up"
+     },
+     {
+      "beat": 21,
+      "lane": "down"
+     },
+     {
+      "beat": 23,
+      "lane": "up"
+     },
+     {
+      "beat": 24,
+      "lane": "down"
+     },
+     {
+      "beat": 26,
+      "lane": "up"
+     },
+     {
+      "beat": 27,
+      "lane": "down"
+     },
+     {
+      "beat": 28,
+      "lane": "up"
+     },
+     {
+      "beat": 30,
+      "lane": "down"
+     },
+     {
+      "beat": 32,
+      "lane": "press"
+     },
+     {
+      "beat": 33,
+      "lane": "down"
+     },
+     {
+      "beat": 34,
+      "lane": "top"
+     },
+     {
+      "beat": 35,
+      "lane": "rim"
+     }
+    ]
+   }
+  ]
+ }
+}

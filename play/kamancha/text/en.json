@@ -1,0 +1,30 @@
+{
+ "title": "Kamancha (spike fiddle)",
+ "native": "کمانچه / Kamança",
+ "alt": [
+  "Kamancheh",
+  "Kamānche"
+ ],
+ "summary": "The kamancha is a bowed fiddle with a round, skin-covered body and a spike that rests on the player's knee. Central to the classical music of Azerbaijan and Iran, it is turned beneath the bow to reach each string.",
+ "howToPlay": [
+  "Twelve lanes stand in order of pitch, coloured by string: red for the low A string, gold for the E above it, teal for the next A and violet for the high E.",
+  "Notes arrive at the line one after another; strike the matching lane when a note lands. Long notes are bowed, so a tail shows how long they sing.",
+  "Start with the slow Shur melody, then try the upper-string turn and the quick tune in six pulses.",
+  "A tilde marks a neutral second, a note between a flat and a natural."
+ ],
+ "rules": [
+  "Twelve notes sit on four strings: A, E, A and E, tuned a fifth, a fourth and a fifth apart.",
+  "The scale has a neutral second, 150 cents above the tonic, as in the Shur family of modes.",
+  "Songs repeat twice; a stroke on the pulse is perfect, a near one is good, and extra strokes cost points.",
+  "Long bowed notes are judged only at their start."
+ ],
+ "heritageNote": "The kamancha has been played for centuries across the Caucasus and Persia, where it accompanies sung poetry and joins small ensembles with lute, frame drum and zither. Makers and players hand the craft on from teacher to pupil.",
+ "countries": [
+  "Azerbaijan",
+  "Iran",
+  "Armenia"
+ ],
+ "credits": [
+  "Tradition: kamancha music of Azerbaijan, Iran and Armenia; melodies written for this game"
+ ]
+}

@@ -1,17 +1,18 @@
 ---
 title: "Russia"
-description: "13 traditions from Russia."
+description: "14 traditions from Russia."
 path: "/countries/russia/"
-count: 13
+count: 14
 ---
 # Russia
 
-13 traditions from Russia.
+14 traditions from Russia.
 
 
 
-13 entries.
+14 entries.
 
+- [Balalaika](../../games/133-balalaika/index.md): Russia; Musical instruments; Crossroads and Golden Ages
 - [Gorodki](../../games/13-gorodki/index.md): Russia; Dexterity and skill games; Age of Contact and Craft
 - [Khokhloma Pattern Painting](../../games/102-khokhloma-pattern-painting/index.md): Russia; Crafts and making; Living Traditions
 - [Khomus](../../games/379-khomus/index.md): Russia; Musical instruments; Classical Worlds

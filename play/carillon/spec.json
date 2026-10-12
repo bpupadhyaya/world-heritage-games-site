@@ -1,0 +1,320 @@
+{
+ "engine": "rhythm",
+ "variant": "carillon",
+ "params": {
+  "layout": "keys",
+  "mode": "follow",
+  "root": 261.6,
+  "scale": "heptatonic",
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Pedal C",
+    "degree": -7,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 1.6,
+    "color": "#8a4b2a"
+   },
+   {
+    "name": "Pedal F",
+    "degree": -4,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 1.5,
+    "color": "#b5733a"
+   },
+   {
+    "name": "Pedal G",
+    "degree": -3,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 1.5,
+    "color": "#c98a3a"
+   },
+   {
+    "name": "Bell C",
+    "degree": 0,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 1.1,
+    "color": "#e8c25a"
+   },
+   {
+    "name": "Bell D",
+    "degree": 1,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 1.1,
+    "color": "#d9d070"
+   },
+   {
+    "name": "Bell E",
+    "degree": 2,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 1.1,
+    "color": "#a8d070"
+   },
+   {
+    "name": "Bell F",
+    "degree": 3,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 1.1,
+    "color": "#6fc07a"
+   },
+   {
+    "name": "Bell G",
+    "degree": 4,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 1.1,
+    "color": "#4fb0a6"
+   },
+   {
+    "name": "Bell A",
+    "degree": 5,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 1.1,
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "Bell B",
+    "degree": 6,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 1.1,
+    "color": "#7a7fe0"
+   },
+   {
+    "name": "Bell C'",
+    "degree": 7,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 1.1,
+    "color": "#a56bd6"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Rising and falling peal",
+    "bpm": 60,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 4
+     },
+     {
+      "beat": 2,
+      "lane": 5
+     },
+     {
+      "beat": 3,
+      "lane": 6
+     },
+     {
+      "beat": 4,
+      "lane": 7
+     },
+     {
+      "beat": 5,
+      "lane": 8
+     },
+     {
+      "beat": 6,
+      "lane": 9
+     },
+     {
+      "beat": 7,
+      "lane": 10
+     },
+     {
+      "beat": 8,
+      "lane": 10
+     },
+     {
+      "beat": 9,
+      "lane": 9
+     },
+     {
+      "beat": 10,
+      "lane": 8
+     },
+     {
+      "beat": 11,
+      "lane": 7
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 13,
+      "lane": 5
+     },
+     {
+      "beat": 14,
+      "lane": 4
+     },
+     {
+      "beat": 15,
+      "lane": 3
+     }
+    ]
+   },
+   {
+    "name": "Tower tune",
+    "bpm": 66,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 7
+     },
+     {
+      "beat": 2,
+      "lane": 8
+     },
+     {
+      "beat": 3,
+      "lane": 7
+     },
+     {
+      "beat": 4,
+      "lane": 10
+     },
+     {
+      "beat": 5,
+      "lane": 9
+     },
+     {
+      "beat": 6,
+      "lane": 8
+     },
+     {
+      "beat": 7,
+      "lane": 7
+     },
+     {
+      "beat": 8,
+      "lane": 2
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 11,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 5
+     },
+     {
+      "beat": 14,
+      "lane": 4
+     },
+     {
+      "beat": 15,
+      "lane": 3
+     }
+    ]
+   },
+   {
+    "name": "Peal with pedals",
+    "bpm": 72,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 10
+     },
+     {
+      "beat": 1,
+      "lane": 9
+     },
+     {
+      "beat": 2,
+      "lane": 8
+     },
+     {
+      "beat": 3,
+      "lane": 7
+     },
+     {
+      "beat": 4,
+      "lane": 6
+     },
+     {
+      "beat": 5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 4
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 11,
+      "lane": 10
+     },
+     {
+      "beat": 12,
+      "lane": 1
+     },
+     {
+      "beat": 13,
+      "lane": 6
+     },
+     {
+      "beat": 14,
+      "lane": 8
+     },
+     {
+      "beat": 15,
+      "lane": 3
+     }
+    ]
+   }
+  ]
+ }
+}

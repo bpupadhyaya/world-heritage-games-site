@@ -1,0 +1,19 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "fold",
+  "ops": [
+   "v-l",
+   "v-r",
+   "h-t",
+   "h-b",
+   "d-tr",
+   "d-bl"
+  ],
+  "folds": 3,
+  "maxExtra": 1,
+  "paper": "#c9d6ee",
+  "front": "#f5f1e6",
+  "guide": true
+ }
+}

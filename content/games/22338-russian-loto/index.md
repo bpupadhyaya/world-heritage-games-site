@@ -44,12 +44,12 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Related entries
 
+- [Balalaika](../../games/133-balalaika/index.md)
 - [Shashki](../../games/1177-shashki/index.md)
 - [Hornussen](../../games/10-hornussen/index.md)
 - [Novuss](../../games/456-novuss/index.md)
 - [Daldøs](../../games/458-dalds/index.md)
 - [Tafl](../../games/995-tafl/index.md)
-- [Latvian Bagpipe and Folk Pipes](../../games/1324-latvian-bagpipe-and-folk-pipes/index.md)
 
 ## Sources
 

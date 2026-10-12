@@ -1,0 +1,13 @@
+{
+ "slug": "bodhran-frame-drum",
+ "title": "Bodhr\u00e1n",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

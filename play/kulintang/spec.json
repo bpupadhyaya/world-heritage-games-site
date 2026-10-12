@@ -1,0 +1,388 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "circle",
+  "mode": "follow",
+  "root": 196,
+  "scale": [
+   0,
+   205,
+   455,
+   690,
+   940
+  ],
+  "loops": 2,
+  "tolerance": 1.25,
+  "lanes": [
+   {
+    "name": "1",
+    "id": "g1",
+    "degree": 0,
+    "timbre": "gong",
+    "dur": 0.9,
+    "color": "#7a4a1c"
+   },
+   {
+    "name": "2",
+    "id": "g2",
+    "degree": 1,
+    "timbre": "gong",
+    "dur": 0.9,
+    "color": "#8e5a24"
+   },
+   {
+    "name": "3",
+    "id": "g3",
+    "degree": 2,
+    "timbre": "gong",
+    "dur": 0.9,
+    "color": "#a26a2c"
+   },
+   {
+    "name": "4",
+    "id": "g4",
+    "degree": 3,
+    "timbre": "gong",
+    "dur": 0.9,
+    "color": "#b87a34"
+   },
+   {
+    "name": "5",
+    "id": "g5",
+    "degree": 4,
+    "timbre": "gong",
+    "dur": 0.9,
+    "color": "#cc8c3e"
+   },
+   {
+    "name": "6",
+    "id": "g6",
+    "degree": 5,
+    "timbre": "gong",
+    "dur": 0.9,
+    "color": "#dd9f4e"
+   },
+   {
+    "name": "7",
+    "id": "g7",
+    "degree": 6,
+    "timbre": "gong",
+    "dur": 0.9,
+    "color": "#eab463"
+   },
+   {
+    "name": "8",
+    "id": "g8",
+    "degree": 7,
+    "timbre": "gong",
+    "dur": 0.9,
+    "color": "#f3c97f"
+   },
+   {
+    "name": "Agung",
+    "id": "agung",
+    "hz": 78,
+    "timbre": "gong",
+    "dur": 1.4,
+    "color": "#c2552d"
+   },
+   {
+    "name": "Dabakan",
+    "id": "dab",
+    "hz": 120,
+    "timbre": "bass",
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "Babandil",
+    "id": "bab",
+    "hz": 520,
+    "timbre": "bell",
+    "dur": 0.5,
+    "color": "#58c27d"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Duyug, slow and steady",
+    "bpm": 84,
+    "meter": 4,
+    "cycle": 8,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "agung"
+     },
+     {
+      "beat": 0.5,
+      "lane": "g5"
+     },
+     {
+      "beat": 1,
+      "lane": "g3"
+     },
+     {
+      "beat": 1.5,
+      "lane": "g5"
+     },
+     {
+      "beat": 2,
+      "lane": "dab"
+     },
+     {
+      "beat": 2.5,
+      "lane": "g4"
+     },
+     {
+      "beat": 3,
+      "lane": "g3"
+     },
+     {
+      "beat": 3.5,
+      "lane": "g2"
+     },
+     {
+      "beat": 4,
+      "lane": "agung"
+     },
+     {
+      "beat": 4.5,
+      "lane": "g5"
+     },
+     {
+      "beat": 5,
+      "lane": "g6"
+     },
+     {
+      "beat": 5.5,
+      "lane": "g5"
+     },
+     {
+      "beat": 6,
+      "lane": "dab"
+     },
+     {
+      "beat": 6.5,
+      "lane": "g3"
+     },
+     {
+      "beat": 7,
+      "lane": "g4"
+     },
+     {
+      "beat": 7.5,
+      "lane": "g3"
+     }
+    ]
+   },
+   {
+    "name": "Sinulog, flowing",
+    "bpm": 96,
+    "meter": 4,
+    "cycle": 8,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "agung"
+     },
+     {
+      "beat": 0.5,
+      "lane": "g4"
+     },
+     {
+      "beat": 1,
+      "lane": "g5"
+     },
+     {
+      "beat": 1.5,
+      "lane": "g6"
+     },
+     {
+      "beat": 2,
+      "lane": "bab"
+     },
+     {
+      "beat": 2.5,
+      "lane": "g5"
+     },
+     {
+      "beat": 3,
+      "lane": "g4"
+     },
+     {
+      "beat": 3.5,
+      "lane": "g3"
+     },
+     {
+      "beat": 4,
+      "lane": "dab"
+     },
+     {
+      "beat": 4.5,
+      "lane": "g4"
+     },
+     {
+      "beat": 5,
+      "lane": "g5"
+     },
+     {
+      "beat": 5.5,
+      "lane": "g7"
+     },
+     {
+      "beat": 6,
+      "lane": "bab"
+     },
+     {
+      "beat": 6.5,
+      "lane": "g6"
+     },
+     {
+      "beat": 7,
+      "lane": "g4"
+     },
+     {
+      "beat": 7.5,
+      "lane": "g2"
+     }
+    ]
+   },
+   {
+    "name": "Binalig, quick and showy",
+    "bpm": 108,
+    "meter": 4,
+    "cycle": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "agung"
+     },
+     {
+      "beat": 0.5,
+      "lane": "g8"
+     },
+     {
+      "beat": 1,
+      "lane": "g7"
+     },
+     {
+      "beat": 1.5,
+      "lane": "g6"
+     },
+     {
+      "beat": 2,
+      "lane": "dab"
+     },
+     {
+      "beat": 2.5,
+      "lane": "g5"
+     },
+     {
+      "beat": 3,
+      "lane": "g6"
+     },
+     {
+      "beat": 3.5,
+      "lane": "g7"
+     },
+     {
+      "beat": 4,
+      "lane": "agung"
+     },
+     {
+      "beat": 4.5,
+      "lane": "g8"
+     },
+     {
+      "beat": 5,
+      "lane": "g6"
+     },
+     {
+      "beat": 5.5,
+      "lane": "g7"
+     },
+     {
+      "beat": 6,
+      "lane": "bab"
+     },
+     {
+      "beat": 6.5,
+      "lane": "g5"
+     },
+     {
+      "beat": 7,
+      "lane": "g4"
+     },
+     {
+      "beat": 7.5,
+      "lane": "g3"
+     },
+     {
+      "beat": 8,
+      "lane": "dab"
+     },
+     {
+      "beat": 8.5,
+      "lane": "g4"
+     },
+     {
+      "beat": 9,
+      "lane": "g3"
+     },
+     {
+      "beat": 9.5,
+      "lane": "g4"
+     },
+     {
+      "beat": 10,
+      "lane": "agung"
+     },
+     {
+      "beat": 10.5,
+      "lane": "g5"
+     },
+     {
+      "beat": 11,
+      "lane": "g3"
+     },
+     {
+      "beat": 11.5,
+      "lane": "g2"
+     },
+     {
+      "beat": 12,
+      "lane": "bab"
+     },
+     {
+      "beat": 12.5,
+      "lane": "g1"
+     },
+     {
+      "beat": 13,
+      "lane": "g2"
+     },
+     {
+      "beat": 13.5,
+      "lane": "g3"
+     },
+     {
+      "beat": 14,
+      "lane": "dab"
+     },
+     {
+      "beat": 14.5,
+      "lane": "g4"
+     },
+     {
+      "beat": 15,
+      "lane": "g5"
+     },
+     {
+      "beat": 15.5,
+      "lane": "g6"
+     }
+    ]
+   }
+  ]
+ }
+}

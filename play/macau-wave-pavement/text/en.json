@@ -1,0 +1,26 @@
+{
+ "title": "Macau wave pavement",
+ "native": "calçada à portuguesa",
+ "alt": [
+  "Portuguese pavement mosaic",
+  "Calçada"
+ ],
+ "summary": "The calçada is a pavement of small hand-cut cubes of pale limestone and dark basalt, set one by one into a bed of sand to draw waves, stars and borders across a square or street. Portuguese pavers carried the craft to Macau, where a wave design covers the central square of the old town.",
+ "howToPlay": [
+  "Choose white or black stone and a mark from the strip under the panel.",
+  "Tap a square to lay it: the square on the opposite side of the panel is laid too, so the waves run on across the pavement.",
+  "Copy the small design above the panel, then press Check."
+ ],
+ "rules": [
+  "The panel turns onto itself half a turn, so every square has a partner on the opposite side.",
+  "Only two stones are used, pale limestone and dark basalt, as in the pavement.",
+  "A square counts only when its mark and its stone both match the design."
+ ],
+ "heritageNote": "Pavements of black and white stone were laid in Portuguese towns from the nineteenth century and in Macau, Brazil and other places linked to Portugal, where paving masters still lay them by hand with a small hammer.",
+ "countries": [
+  "Portugal"
+ ],
+ "credits": [
+  "Pavement design: World Heritage Games (original)"
+ ]
+}

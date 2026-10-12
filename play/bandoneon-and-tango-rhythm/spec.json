@@ -1,0 +1,376 @@
+{
+ "engine": "rhythm",
+ "variant": "bandoneon-and-tango-rhythm",
+ "params": {
+  "layout": "keys",
+  "mode": "follow",
+  "root": 220,
+  "scale": [
+   0,
+   200,
+   300,
+   500,
+   700,
+   800,
+   1100
+  ],
+  "loops": 2,
+  "tolerance": 1.25,
+  "lanes": [
+   {
+    "name": "A pull",
+    "degree": 0,
+    "row": 0,
+    "timbre": "reed",
+    "dur": 0.5,
+    "color": "#d9a03a"
+   },
+   {
+    "name": "C pull",
+    "degree": 2,
+    "row": 0,
+    "timbre": "reed",
+    "dur": 0.5,
+    "color": "#e8c25a"
+   },
+   {
+    "name": "E pull",
+    "degree": 4,
+    "row": 0,
+    "timbre": "reed",
+    "dur": 0.5,
+    "color": "#a8d070"
+   },
+   {
+    "name": "A' pull",
+    "degree": 7,
+    "row": 0,
+    "timbre": "reed",
+    "dur": 0.5,
+    "color": "#6fc07a"
+   },
+   {
+    "name": "B push",
+    "degree": 1,
+    "row": 1,
+    "timbre": "reed",
+    "dur": 0.5,
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "D push",
+    "degree": 3,
+    "row": 1,
+    "timbre": "reed",
+    "dur": 0.5,
+    "color": "#7a7fe0"
+   },
+   {
+    "name": "F push",
+    "degree": 5,
+    "row": 1,
+    "timbre": "reed",
+    "dur": 0.5,
+    "color": "#a56bd6"
+   },
+   {
+    "name": "G# push",
+    "degree": 6,
+    "row": 1,
+    "timbre": "reed",
+    "dur": 0.5,
+    "color": "#e87fa0"
+   },
+   {
+    "name": "Marcato",
+    "hz": 78,
+    "row": 2,
+    "timbre": "bass",
+    "color": "#c2552d"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Marcato walk",
+    "bpm": 66,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 8
+     },
+     {
+      "beat": 1,
+      "lane": 8
+     },
+     {
+      "beat": 2,
+      "lane": 8
+     },
+     {
+      "beat": 2.5,
+      "lane": 0
+     },
+     {
+      "beat": 3,
+      "lane": 8
+     },
+     {
+      "beat": 3.5,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 8
+     },
+     {
+      "beat": 5,
+      "lane": 8
+     },
+     {
+      "beat": 6,
+      "lane": 8
+     },
+     {
+      "beat": 6.5,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 8
+     },
+     {
+      "beat": 7.5,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 8
+     },
+     {
+      "beat": 9,
+      "lane": 8
+     },
+     {
+      "beat": 10,
+      "lane": 8
+     },
+     {
+      "beat": 10.5,
+      "lane": 1
+     },
+     {
+      "beat": 11,
+      "lane": 8
+     },
+     {
+      "beat": 11.5,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 8
+     },
+     {
+      "beat": 13,
+      "lane": 8
+     },
+     {
+      "beat": 14,
+      "lane": 8
+     },
+     {
+      "beat": 14.5,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 8
+     },
+     {
+      "beat": 15.5,
+      "lane": 7
+     }
+    ]
+   },
+   {
+    "name": "Milonga three-three-two",
+    "bpm": 104,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 8
+     },
+     {
+      "beat": 1,
+      "lane": 0
+     },
+     {
+      "beat": 1.5,
+      "lane": 8
+     },
+     {
+      "beat": 2.5,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 8
+     },
+     {
+      "beat": 3.5,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 8
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 5.5,
+      "lane": 8
+     },
+     {
+      "beat": 6.5,
+      "lane": 6
+     },
+     {
+      "beat": 7,
+      "lane": 8
+     },
+     {
+      "beat": 7.5,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 8
+     },
+     {
+      "beat": 9,
+      "lane": 1
+     },
+     {
+      "beat": 9.5,
+      "lane": 8
+     },
+     {
+      "beat": 10.5,
+      "lane": 5
+     },
+     {
+      "beat": 11,
+      "lane": 8
+     },
+     {
+      "beat": 11.5,
+      "lane": 0
+     },
+     {
+      "beat": 12,
+      "lane": 8
+     },
+     {
+      "beat": 13,
+      "lane": 0
+     },
+     {
+      "beat": 13.5,
+      "lane": 8
+     },
+     {
+      "beat": 14.5,
+      "lane": 4
+     },
+     {
+      "beat": 15,
+      "lane": 8
+     },
+     {
+      "beat": 15.5,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "name": "Pull and push phrase",
+    "bpm": 76,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 4
+     },
+     {
+      "beat": 2,
+      "lane": 1
+     },
+     {
+      "beat": 3,
+      "lane": 5
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 6
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 7
+     },
+     {
+      "beat": 8,
+      "lane": 3
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 2
+     },
+     {
+      "beat": 11,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 1
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     },
+     {
+      "beat": 15,
+      "lane": 0,
+      "len": 1.0
+     }
+    ]
+   }
+  ]
+ }
+}

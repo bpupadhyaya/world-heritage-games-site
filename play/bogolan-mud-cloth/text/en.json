@@ -1,0 +1,26 @@
+{
+ "title": "Bogolan mud cloth",
+ "native": "Bògòlanfini",
+ "alt": [
+  "Mud cloth",
+  "Bogolanfini"
+ ],
+ "summary": "Bogolan is a hand-woven cotton cloth of Mali that is dyed pale yellow with leaves, painted in fermented river mud, and then washed so that the painted lines turn dark brown. The ground between the motifs is lightened afterwards, leaving dark bands of zigzags, checks and dots on a cream cloth.",
+ "howToPlay": [
+  "Pick a mud colour and a painted shape from the tray under the cloth.",
+  "Touch a square to paint it: the same shape appears on the matching squares across the cloth, because the bands repeat left to right and top to bottom.",
+  "Copy the small cloth shown above, then press Check."
+ ],
+ "rules": [
+  "The cloth repeats left to right and top to bottom, so each square you paint is copied to its three partners.",
+  "A square counts only when its shape and its colour both match the target.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Bogolan is made in Mali, with the town of San known for the finest cloth. Men weave the narrow strips and sew them into cloths, and women dye and paint them; today both women and men work as painters and artists.",
+ "countries": [
+  "Mali"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original, in the style of the tradition)"
+ ]
+}

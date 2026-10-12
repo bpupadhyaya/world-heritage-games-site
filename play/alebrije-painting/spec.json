@@ -1,0 +1,206 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 9,
+  "rows": 11,
+  "symmetry": "mirror-x",
+  "palette": [
+   {
+    "name": "Magenta",
+    "color": "#d6246e"
+   },
+   {
+    "name": "Turquoise",
+    "color": "#18b8b0"
+   },
+   {
+    "name": "Yellow",
+    "color": "#f6c518"
+   },
+   {
+    "name": "Orange",
+    "color": "#f26b1d"
+   },
+   {
+    "name": "Green",
+    "color": "#3aa655"
+   },
+   {
+    "name": "Violet",
+    "color": "#8a5ad6"
+   }
+  ],
+  "background": "#1d1228",
+  "grid": "#34244a",
+  "motifs": [
+   "dot",
+   "leaf",
+   "fret",
+   "zigzag",
+   "diamond",
+   "stripe-h"
+  ],
+  "designs": [
+   {
+    "name": "Spotted body",
+    "rows": [
+     "..g.d.g..",
+     ".g.mvm.g.",
+     "ZZZZZZZZZ",
+     "o.o.o.o.o",
+     ".t.d.d.t.",
+     "F.m.F.m.F",
+     ".t.d.d.t.",
+     "o.o.o.o.o",
+     "zzzzzzzzz",
+     ".g.mvm.g.",
+     "..g.d.g.."
+    ],
+    "legend": {
+     "d": {
+      "m": 4,
+      "c": 2
+     },
+     "v": {
+      "m": 4,
+      "c": 0
+     },
+     "m": {
+      "m": 0,
+      "c": 0
+     },
+     "t": {
+      "m": 0,
+      "c": 1
+     },
+     "o": {
+      "m": 0,
+      "c": 3
+     },
+     "g": {
+      "m": 1,
+      "c": 4
+     },
+     "F": {
+      "m": 2,
+      "c": 0
+     },
+     "Z": {
+      "m": 3,
+      "c": 1
+     },
+     "z": {
+      "m": 3,
+      "c": 3
+     }
+    }
+   },
+   {
+    "name": "Banded wing",
+    "rows": [
+     "..F.v.F..",
+     ".lmlmlml.",
+     "l.t.d.t.l",
+     "SSSSSSSSS",
+     ".o.o.o.o.",
+     "z.m.v.m.z",
+     ".o.o.o.o.",
+     "SSSSSSSSS",
+     "l.t.d.t.l",
+     ".lmlmlml.",
+     "..F.v.F.."
+    ],
+    "legend": {
+     "d": {
+      "m": 4,
+      "c": 2
+     },
+     "v": {
+      "m": 4,
+      "c": 0
+     },
+     "m": {
+      "m": 0,
+      "c": 0
+     },
+     "t": {
+      "m": 0,
+      "c": 1
+     },
+     "o": {
+      "m": 0,
+      "c": 3
+     },
+     "l": {
+      "m": 1,
+      "c": 1
+     },
+     "F": {
+      "m": 2,
+      "c": 0
+     },
+     "z": {
+      "m": 3,
+      "c": 3
+     },
+     "S": {
+      "m": 5,
+      "c": 5
+     }
+    }
+   },
+   {
+    "name": "Flame back",
+    "rows": [
+     "....v....",
+     "...gdg...",
+     "..g.m.g..",
+     ".gZ.t.Zg.",
+     "g.o.d.o.g",
+     "zzzzzzzzz",
+     "g.o.d.o.g",
+     ".gZ.t.Zg.",
+     "..g.m.g..",
+     "...gdg...",
+     "....v...."
+    ],
+    "legend": {
+     "d": {
+      "m": 4,
+      "c": 2
+     },
+     "v": {
+      "m": 4,
+      "c": 0
+     },
+     "m": {
+      "m": 0,
+      "c": 0
+     },
+     "t": {
+      "m": 0,
+      "c": 1
+     },
+     "o": {
+      "m": 0,
+      "c": 3
+     },
+     "g": {
+      "m": 1,
+      "c": 4
+     },
+     "Z": {
+      "m": 3,
+      "c": 1
+     },
+     "z": {
+      "m": 3,
+      "c": 3
+     }
+    }
+   }
+  ],
+  "mode": "copy",
+  "rotateMarks": true
+ }
+}

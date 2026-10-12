@@ -38,14 +38,18 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - **Cradle:** [Africa: Nile and the Horn](../../cradles/africa-nile/index.md)
 - **Region:** Sub-Saharan Africa
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Zande kundi arched harp](../../games/1319-zande-kundi-arched-harp/index.md)
 - [Morin khuur](../../games/34-morin-khuur/index.md)
+- [String Marionette Theatre](../../games/68-string-marionette-theatre/index.md)
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md)
 - [Valiha tube zither](../../games/124-valiha-tube-zither/index.md)
 - [Joropo llanero band](../../games/130-joropo-llanero-band/index.md)
-- [Kanklės](../../games/136-kankles/index.md)
 
 ## Sources
 

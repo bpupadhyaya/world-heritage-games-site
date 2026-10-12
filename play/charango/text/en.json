@@ -1,0 +1,28 @@
+{
+ "title": "Charango",
+ "native": "Charango",
+ "alt": [],
+ "summary": "The charango is a small ten-string lute of the Andean highlands of Bolivia and Peru, strung in five pairs and played with quick strums and plucked melodies. Its bright, high voice carries dance tunes and songs in the mountain towns.",
+ "howToPlay": [
+  "Five pairs of strings and a strumming bar sit in rows; the lowest pair is on the left.",
+  "Notes travel toward a line at the bottom of each lane; strike the lane just as a note reaches it.",
+  "Strum on the strong beats and pluck the single strings in between, as the pattern asks.",
+  "Each song plays twice through; try the dance step, the bass-and-strum figure and the walk down the strings."
+ ],
+ "rules": [
+  "The five courses are tuned in the re-entrant order G, C, E, A, E, so the lowest sounding pair is not the highest string.",
+  "A stroke within a hair of the beat is perfect, a near one is good, and a missed one scores nothing.",
+  "An extra stroke while a song is running costs a few points.",
+  "Each song plays twice; three stars need roughly nine notes in ten on time.",
+  "The strum lane stands for a whole-chord sweep and is sounded as one note here."
+ ],
+ "heritageNote": "Charangos are played from the high plains of Bolivia and Peru, in village dances and in town ensembles, and makers build them in many sizes. The body was once made from an armadillo shell, and carved wood is common today.",
+ "countries": [
+  "Bolivia",
+  "Peru"
+ ],
+ "credits": [
+  "Tradition: Andean charango music; figures written for this game",
+  "Photo of a charango from Wikimedia Commons (public domain)"
+ ]
+}

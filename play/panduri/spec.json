@@ -1,0 +1,252 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 196,
+  "scale": "heptatonic",
+  "lanes": [
+   {
+    "name": "G3",
+    "id": "g0",
+    "hz": 196.0,
+    "row": 0,
+    "timbre": "pluck",
+    "color": "#c98a3c"
+   },
+   {
+    "name": "A3",
+    "id": "g1",
+    "hz": 220.0,
+    "row": 0,
+    "timbre": "pluck",
+    "color": "#d9a24a"
+   },
+   {
+    "name": "B3",
+    "id": "g2",
+    "hz": 246.9,
+    "row": 0,
+    "timbre": "pluck",
+    "color": "#e8bc6a"
+   },
+   {
+    "name": "A3",
+    "id": "a0",
+    "hz": 220.0,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#a8693a"
+   },
+   {
+    "name": "B3",
+    "id": "a1",
+    "hz": 246.9,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#bd7d44"
+   },
+   {
+    "name": "C4",
+    "id": "a2",
+    "hz": 261.6,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#d29353"
+   },
+   {
+    "name": "C4",
+    "id": "c0",
+    "hz": 261.6,
+    "row": 2,
+    "timbre": "pluck",
+    "color": "#7aa37a"
+   },
+   {
+    "name": "D4",
+    "id": "c1",
+    "hz": 293.7,
+    "row": 2,
+    "timbre": "pluck",
+    "color": "#8fba8d"
+   },
+   {
+    "name": "E4",
+    "id": "c2",
+    "hz": 329.6,
+    "row": 2,
+    "timbre": "pluck",
+    "color": "#a6cfa0"
+   }
+  ],
+  "loops": 2,
+  "tolerance": 1.2,
+  "songs": [
+   {
+    "name": "Kartuli dance, 6/8 feel",
+    "bpm": 126,
+    "meter": 6,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "g0"
+     },
+     {
+      "beat": 2.0,
+      "lane": "c0"
+     },
+     {
+      "beat": 3.0,
+      "lane": "c1"
+     },
+     {
+      "beat": 4.0,
+      "lane": "c2"
+     },
+     {
+      "beat": 5.0,
+      "lane": "c1"
+     },
+     {
+      "beat": 6.0,
+      "lane": "g0"
+     },
+     {
+      "beat": 8.0,
+      "lane": "a2"
+     },
+     {
+      "beat": 9.0,
+      "lane": "c1"
+     },
+     {
+      "beat": 10.0,
+      "lane": "c0"
+     },
+     {
+      "beat": 11.0,
+      "lane": "a1"
+     }
+    ]
+   },
+   {
+    "name": "Khorumi, 5/8 (3+2)",
+    "bpm": 150,
+    "meter": 5,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "g0"
+     },
+     {
+      "beat": 1.0,
+      "lane": "c0"
+     },
+     {
+      "beat": 2.0,
+      "lane": "c1"
+     },
+     {
+      "beat": 3.0,
+      "lane": "c2"
+     },
+     {
+      "beat": 4.0,
+      "lane": "c1"
+     },
+     {
+      "beat": 5.0,
+      "lane": "g0"
+     },
+     {
+      "beat": 6.0,
+      "lane": "a1"
+     },
+     {
+      "beat": 7.0,
+      "lane": "a2"
+     },
+     {
+      "beat": 8.0,
+      "lane": "c1"
+     },
+     {
+      "beat": 9.0,
+      "lane": "c0"
+     }
+    ]
+   },
+   {
+    "name": "Slow song accompaniment",
+    "bpm": 72,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "g0"
+     },
+     {
+      "beat": 1.0,
+      "lane": "c0"
+     },
+     {
+      "beat": 2.0,
+      "lane": "c1"
+     },
+     {
+      "beat": 3.0,
+      "lane": "c0"
+     },
+     {
+      "beat": 4.0,
+      "lane": "g1"
+     },
+     {
+      "beat": 5.0,
+      "lane": "c0"
+     },
+     {
+      "beat": 6.0,
+      "lane": "c2"
+     },
+     {
+      "beat": 7.0,
+      "lane": "c1"
+     },
+     {
+      "beat": 8.0,
+      "lane": "g0"
+     },
+     {
+      "beat": 9.0,
+      "lane": "a1"
+     },
+     {
+      "beat": 10.0,
+      "lane": "a2"
+     },
+     {
+      "beat": 11.0,
+      "lane": "c1"
+     },
+     {
+      "beat": 12.0,
+      "lane": "c0"
+     },
+     {
+      "beat": 13.0,
+      "lane": "a2"
+     },
+     {
+      "beat": 14.0,
+      "lane": "a1"
+     },
+     {
+      "beat": 15.0,
+      "lane": "g1"
+     }
+    ]
+   }
+  ]
+ }
+}

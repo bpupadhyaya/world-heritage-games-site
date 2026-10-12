@@ -37,14 +37,18 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - **Cradle:** [Southeast Asia and the Islands](../../cradles/southeast-asia/index.md)
 - **Region:** East and Southeast Asia
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
+- [Bentengan](../../games/326-bentengan/index.md)
 - [Congklak](../../games/803-congklak/index.md)
 - [Galah panjang](../../games/909-galah-panjang/index.md)
 - [Five stones](../../games/907-five-stones/index.md)
 - [Pebbles](../../games/874-pebbles/index.md)
 - [Tag](../../games/959-tag/index.md)
-- [Patintero](../../games/1021-patintero/index.md)
 
 ## Sources
 

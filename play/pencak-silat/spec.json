@@ -1,0 +1,153 @@
+{
+ "engine": "bout",
+ "params": {
+  "level": 2,
+  "rounds": {
+   "count": 3,
+   "time": 30
+  },
+  "exchangeTime": 3,
+  "scoring": {
+   "fall": 4,
+   "fallEndsRound": false,
+   "fallLabel": "Takedown",
+   "mercy": 10
+  },
+  "ring": {
+   "kind": "mat",
+   "pushOut": false
+  },
+  "grip": {
+   "enabled": false
+  },
+  "timing": {
+   "period": 1.25,
+   "window": 0.2,
+   "tempo": 2.3
+  },
+  "setting": {
+   "sky": [
+    "#c4e8d2",
+    "#f8f3da"
+   ],
+   "ground": "#d9c590",
+   "backdrop": "hills",
+   "far": "#3f8a5c",
+   "ringFill": "#e9d6a2",
+   "ringEdge": "#b32d2d",
+   "ringStyle": "none",
+   "crowd": true
+  },
+  "fighters": {
+   "you": {
+    "name": "You",
+    "color": "#1a1a1a",
+    "trim": "#f2c14e"
+   },
+   "rival": {
+    "name": "Lawan",
+    "color": "#b32d2d",
+    "trim": "#fff3d6"
+   }
+  },
+  "moves": [
+   {
+    "id": "pukul",
+    "name": "Strike (pukulan)",
+    "kind": "strike",
+    "speed": 3,
+    "cost": 7,
+    "power": 12,
+    "pose": "thrust",
+    "beats": [
+     "tendang",
+     "sapu"
+    ],
+    "points": 1
+   },
+   {
+    "id": "tendang",
+    "name": "Kick (tendangan)",
+    "kind": "strike",
+    "speed": 2,
+    "cost": 10,
+    "power": 18,
+    "pose": "side",
+    "beats": [
+     "sapu",
+     "kunci"
+    ],
+    "points": 2
+   },
+   {
+    "id": "sapu",
+    "name": "Sweep (sapuan)",
+    "kind": "throw",
+    "speed": 2,
+    "cost": 11,
+    "power": 22,
+    "pose": "sweep",
+    "beats": [
+     "kunci",
+     "elak"
+    ],
+    "points": 3,
+    "needs": 80
+   },
+   {
+    "id": "kunci",
+    "name": "Lock (kuncian)",
+    "kind": "grip",
+    "speed": 2,
+    "cost": 10,
+    "power": 17,
+    "pose": "grip",
+    "beats": [
+     "elak",
+     "tangkis"
+    ],
+    "points": 2,
+    "needs": 90
+   },
+   {
+    "id": "elak",
+    "name": "Slip (elakan)",
+    "kind": "guard",
+    "speed": 3,
+    "cost": 5,
+    "power": 10,
+    "pose": "step",
+    "beats": [
+     "tangkis",
+     "pukul"
+    ],
+    "steady": 8,
+    "points": 1
+   },
+   {
+    "id": "tangkis",
+    "name": "Block (tangkisan)",
+    "kind": "guard",
+    "speed": 2,
+    "cost": 5,
+    "power": 8,
+    "pose": "low",
+    "beats": [
+     "pukul",
+     "tendang"
+    ],
+    "steady": 9
+   },
+   {
+    "id": "breathe",
+    "name": "Breathe",
+    "kind": "rest",
+    "speed": 1,
+    "cost": -12,
+    "power": 0,
+    "pose": "rest",
+    "beats": []
+   }
+  ]
+ }
+}

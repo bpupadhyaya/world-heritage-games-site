@@ -41,8 +41,8 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - [Fijian tag](../../games/712-fijian-tag/index.md)
 - [Tuvaluan kilikiti](../../games/1172-tuvaluan-kilikiti/index.md)
 - [Kho-Kho](../../games/15-kho-kho/index.md)
+- ['Ulu Maika](../../games/44-ulu-maika/index.md)
 - [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md)
-- [Otedama](../../games/131-otedama/index.md)
 
 ## Sources
 

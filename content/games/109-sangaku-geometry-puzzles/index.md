@@ -42,10 +42,10 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 - [Fukuwarai](../../games/94-fukuwarai/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md)
 - [Charro lasso roping](../../games/60-charro-lasso-roping/index.md)
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md)
 - [Lo Shu Magic Square](../../games/111-lo-shu-magic-square/index.md)
-- [Intha leg rowing on the lake](../../games/304-intha-leg-rowing-on-the-lake/index.md)
 
 ## Sources
 

@@ -43,6 +43,10 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - **Region:** Middle East and North Africa
 - **Players:** 2
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md)

@@ -1,0 +1,401 @@
+{
+ "engine": "rhythm",
+ "variant": "schuhplattler",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.25,
+  "lanes": [
+   {
+    "name": "Thigh",
+    "hz": 230,
+    "timbre": "slap",
+    "icon": "slap",
+    "color": "#d9a03a"
+   },
+   {
+    "name": "Knee",
+    "hz": 330,
+    "timbre": "slap",
+    "icon": "slap",
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "Heel",
+    "hz": 170,
+    "timbre": "slap",
+    "icon": "foot-r",
+    "color": "#8fc16a"
+   },
+   {
+    "name": "Clap",
+    "hz": 1500,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#e87fa0"
+   },
+   {
+    "name": "Stomp",
+    "hz": 95,
+    "timbre": "stomp",
+    "icon": "stomp",
+    "color": "#c2552d"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Basic slap figure",
+    "bpm": 108,
+    "meter": 3,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 4
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 0
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 0
+     },
+     {
+      "beat": 6,
+      "lane": 4
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 3
+     },
+     {
+      "beat": 11,
+      "lane": 0
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 13,
+      "lane": 0
+     },
+     {
+      "beat": 14,
+      "lane": 1
+     },
+     {
+      "beat": 15,
+      "lane": 4
+     },
+     {
+      "beat": 16,
+      "lane": 0
+     },
+     {
+      "beat": 17,
+      "lane": 1
+     },
+     {
+      "beat": 18,
+      "lane": 4
+     },
+     {
+      "beat": 19,
+      "lane": 0
+     },
+     {
+      "beat": 20,
+      "lane": 1
+     },
+     {
+      "beat": 21,
+      "lane": 4
+     },
+     {
+      "beat": 22,
+      "lane": 0
+     },
+     {
+      "beat": 23,
+      "lane": 1
+     }
+    ]
+   },
+   {
+    "name": "Knee and heel",
+    "bpm": 116,
+    "meter": 3,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 4
+     },
+     {
+      "beat": 1,
+      "lane": 0
+     },
+     {
+      "beat": 1.5,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 0
+     },
+     {
+      "beat": 4.5,
+      "lane": 1
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 4
+     },
+     {
+      "beat": 7,
+      "lane": 0
+     },
+     {
+      "beat": 7.5,
+      "lane": 1
+     },
+     {
+      "beat": 8,
+      "lane": 2
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 0
+     },
+     {
+      "beat": 10.5,
+      "lane": 1
+     },
+     {
+      "beat": 11,
+      "lane": 2
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 13,
+      "lane": 1
+     },
+     {
+      "beat": 13.5,
+      "lane": 0
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 4
+     },
+     {
+      "beat": 16,
+      "lane": 1
+     },
+     {
+      "beat": 16.5,
+      "lane": 0
+     },
+     {
+      "beat": 17,
+      "lane": 3
+     },
+     {
+      "beat": 18,
+      "lane": 4
+     },
+     {
+      "beat": 19,
+      "lane": 1
+     },
+     {
+      "beat": 19.5,
+      "lane": 0
+     },
+     {
+      "beat": 20,
+      "lane": 3
+     },
+     {
+      "beat": 21,
+      "lane": 4
+     },
+     {
+      "beat": 22,
+      "lane": 1
+     },
+     {
+      "beat": 22.5,
+      "lane": 0
+     },
+     {
+      "beat": 23,
+      "lane": 3
+     }
+    ]
+   },
+   {
+    "name": "Partner figure",
+    "bpm": 120,
+    "meter": 3,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 4
+     },
+     {
+      "beat": 1,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 0
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 0
+     },
+     {
+      "beat": 5,
+      "lane": 0
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 1
+     },
+     {
+      "beat": 8,
+      "lane": 2
+     },
+     {
+      "beat": 9,
+      "lane": 3
+     },
+     {
+      "beat": 10,
+      "lane": 1
+     },
+     {
+      "beat": 11,
+      "lane": 2
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 13,
+      "lane": 0
+     },
+     {
+      "beat": 13.5,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 4
+     },
+     {
+      "beat": 16,
+      "lane": 0
+     },
+     {
+      "beat": 16.5,
+      "lane": 1
+     },
+     {
+      "beat": 17,
+      "lane": 2
+     },
+     {
+      "beat": 18,
+      "lane": 3
+     },
+     {
+      "beat": 19,
+      "lane": 3
+     },
+     {
+      "beat": 20,
+      "lane": 4
+     },
+     {
+      "beat": 21,
+      "lane": 3
+     },
+     {
+      "beat": 22,
+      "lane": 3
+     },
+     {
+      "beat": 23,
+      "lane": 4
+     }
+    ]
+   }
+  ]
+ }
+}

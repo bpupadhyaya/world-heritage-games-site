@@ -2,7 +2,7 @@
 title: "Mediterranean"
 description: "Greece, Rome, Iberia, Italy and the Maghreb around the inland sea."
 path: "/cradles/mediterranean/"
-count: 66
+count: 69
 ---
 # Mediterranean
 
@@ -10,7 +10,7 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 
 
 
-66 entries.
+69 entries.
 
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md): Morocco; Crafts and making; Living Traditions
 - [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md): Greece; Puzzles and mind games; Modern Heritage
@@ -20,6 +20,7 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Bocce](../../games/830-bocce/index.md): Italy, San Marino; Street and playground games; Modern Heritage
 - [Bouzouki Strum](../../games/1247-bouzouki-strum/index.md): Greece; Musical instruments; Living Traditions
 - [Cantabrian palm bowling](../../games/1096-cantabrian-palm-bowling/index.md): Spain; Street and playground games; Age of Contact and Craft
+- [Castells](../../games/119-castells/index.md): Spain; Puzzles and mind games; Modern Heritage
 - [Chechia Felt-Cap Workshop](../../games/1254-chechia-felt-cap-workshop/index.md): Tunisia; Crafts and making; Living Traditions
 - [Çiftelia](../../games/1257-ciftelia/index.md): Albania; Musical instruments; Crossroads and Golden Ages
 - [Commedia Mask Stock Characters](../../games/515-commedia-mask-stock-characters/index.md): Italy; Performance and storytelling; Living Traditions
@@ -27,6 +28,7 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Crossbow Target Match](../../games/1367-crossbow-target-match/index.md): Italy, San Marino; Dexterity and skill games; Modern Heritage
 - [Dry Stone Wall Builder](../../games/404-dry-stone-wall-builder/index.md): Croatia, Spain; Crafts and making; Living Traditions
 - [Euclid's Ruler and Compass](../../games/396-euclids-ruler-and-compass/index.md): Greece; Puzzles and mind games; Modern Heritage
+- [Flag Tossing](../../games/395-flag-tossing/index.md): Italy; Dexterity and skill games; Modern Heritage
 - [Gallarija Balcony Builder](../../games/1286-gallarija-balcony-builder/index.md): Malta; Crafts and making; Living Traditions
 - [Game of the Goose](../../games/450-game-of-the-goose/index.md): Italy, Spain; Board and table games; River Valleys and First Cities
 - [Ghadames Rooftop Maze](../../games/1291-ghadames-rooftop-maze/index.md): Libya; Puzzles and mind games; Modern Heritage
@@ -40,6 +42,7 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Licitar Heart Decorator](../../games/1326-licitar-heart-decorator/index.md): Croatia; Crafts and making; Living Traditions
 - [Luzzu Boat Painter](../../games/1330-luzzu-boat-painter/index.md): Malta; Crafts and making; Living Traditions
 - [Macau Portuguese Custard Tart Bake](../../games/1471-macau-portuguese-custard-tart-bake/index.md): Portugal, China; Crafts and making; Living Traditions
+- [Macau wave pavement](../../games/372-macau-wave-pavement/index.md): Portugal; Crafts and making; Living Traditions
 - [Malha](../../games/1466-malha/index.md): Portugal; Archery, throwing and target games; Classical Worlds
 - [Mezoued Bagpipe and Tabl Drum](../../games/1336-mezoued-bagpipe-and-tabl-drum/index.md): Tunisia; Musical instruments; Crossroads and Golden Ages
 - [Morra](../../games/83-morra/index.md): Italy; Archery, throwing and target games; Classical Worlds

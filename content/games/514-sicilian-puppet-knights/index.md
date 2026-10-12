@@ -40,12 +40,12 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Related entries
 
+- [Karagoz](../../games/38-karagoz/index.md)
+- [Wayang Shadow Puppets](../../games/47-wayang-shadow-puppets/index.md)
 - [Aragoz Hand-Puppet Booth](../../games/222-aragoz-hand-puppet-booth/index.md)
 - [Water puppet pond theatre](../../games/303-water-puppet-pond-theatre/index.md)
 - [Yoke thé](../../games/314-yoke-the/index.md)
 - [Morra](../../games/83-morra/index.md)
-- [Tbourida](../../games/164-tbourida/index.md)
-- [Kottabos Symposium Toss](../../games/392-kottabos-symposium-toss/index.md)
 
 ## Sources
 

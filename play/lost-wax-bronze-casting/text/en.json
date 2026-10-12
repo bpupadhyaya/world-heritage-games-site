@@ -1,0 +1,29 @@
+{
+ "title": "Lost-wax bronze casting",
+ "native": "Igun / 失蝋鋳造",
+ "alt": [
+  "Cire perdue",
+  "Rogata"
+ ],
+ "countries": [
+  "Japan",
+  "Benin",
+  "Nigeria"
+ ],
+ "summary": "Metalworkers in Benin City, in Nigeria's Ife and Igbo-Ukwu traditions, and in Japan shape a figure in beeswax, coat it in clay, heat the mould until the wax runs away, and pour in molten bronze or brass. This game is the first step: trimming the wax model.",
+ "howToPlay": [
+  "The framed bird, a cockerel of the kind cast in Benin, is the wax model the founder wants.",
+  "Drag over the wax block to trim away everything that is not the bird.",
+  "Wax is cut with a fine heated blade, so work in small, careful strokes; Undo brings back the last stroke.",
+  "Press Check to see how true the model is."
+ ],
+ "rules": [
+  "Only the wax stage is played: the clay coat, burn-out and pour are told in the note below.",
+  "Cutting into the bird costs as much as leaving wax around it.",
+  "Three stars need a nearly exact model, because every flaw in the wax is copied in the metal."
+ ],
+ "heritageNote": "The wax model is coated in layers of clay, baked until the wax melts out, and the empty mould is filled with molten metal that is then freed by breaking the clay. Casting guilds in Benin City, workshops in Ife and Igbo-Ukwu, and Japanese bronze founders have handed the method down for many centuries; each casting is a one-off because the mould is destroyed.",
+ "credits": [
+  "Craft model: World Heritage Games (original)"
+ ]
+}

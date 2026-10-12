@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with E"
-description: "18 entries beginning with E."
+description: "19 entries beginning with E."
 path: "/a-z/E/"
 ---
 # Entries beginning with E
@@ -12,6 +12,7 @@ path: "/a-z/E/"
 - [Egrang](../../games/17-egrang/index.md): Indonesia, Malaysia; Racing; Classical Worlds
 - [Egyptian backgammon](../../games/695-egyptian-backgammon/index.md): Egypt; Board and table games; River Valleys and First Cities
 - [Egyptian Fractions and Doubling](../../games/215-egyptian-fractions-and-doubling/index.md): Egypt; Puzzles and mind games; Modern Heritage
+- [Elastic Jump](../../games/6-elastic-jump/index.md): China; Street and playground games; Modern Heritage
 - [Elle](../../games/1104-elle/index.md): Sri Lanka; Street and playground games; Modern Heritage
 - [Emboque](../../games/629-emboque/index.md): Chile; Dexterity and skill games; Modern Heritage
 - [Encang kuda](../../games/1067-encang-kuda/index.md): Singapore; Street and playground games; Classical Worlds

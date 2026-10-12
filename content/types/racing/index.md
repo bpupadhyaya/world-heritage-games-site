@@ -1,16 +1,16 @@
 ---
 title: "Racing"
-description: "32 traditions of this kind."
+description: "35 traditions of this kind."
 path: "/types/racing/"
-count: 32
+count: 35
 ---
 # Racing
 
-32 traditions of this kind.
+35 traditions of this kind.
 
 
 
-32 entries.
+35 entries.
 
 - [Antigua Classic Yacht Race](../../games/1433-antigua-classic-yacht-race/index.md): Antigua and Barbuda, United Kingdom; Racing; Age of Contact and Craft
 - [Asmara highland road race](../../games/193-asmara-highland-road-race/index.md): Eritrea; Racing; Age of Contact and Craft
@@ -18,6 +18,8 @@ count: 32
 - [Basotho pony mountain race](../../games/1238-basotho-pony-mountain-race/index.md): Lesotho; Racing; Age of Contact and Craft
 - [Beach flags](../../games/446-beach-flags/index.md): Australia; Racing; Age of Contact and Craft
 - [Billycart derby](../../games/445-billycart-derby/index.md): Australia; Racing; Age of Contact and Craft
+- [Camel racing dash](../../games/19-camel-racing-dash/index.md): Jordan; Racing; Crossroads and Golden Ages
+- [Canal ice-skating marathon](../../games/84-canal-ice-skating-marathon/index.md): Netherlands; Racing; Age of Contact and Craft
 - [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md): United Kingdom; Racing; Modern Heritage
 - [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md): China; Racing; Crossroads and Golden Ages
 - [Egrang](../../games/17-egrang/index.md): Indonesia, Malaysia; Racing; Classical Worlds
@@ -25,6 +27,7 @@ count: 32
 - [Harbour Street Circuit Time Trial](../../games/1475-harbour-street-circuit-time-trial/index.md): Monaco; Racing; Modern Heritage
 - [Independence-day field games](../../games/330-independence-day-field-games/index.md): Indonesia; Racing; Age of Contact and Craft
 - [Intha leg rowing on the lake](../../games/304-intha-leg-rowing-on-the-lake/index.md): Myanmar; Racing; Age of Contact and Craft
+- [Kambala](../../games/80-kambala/index.md): India; Racing; Age of Contact and Craft
 - [Kicksled Race](../../games/407-kicksled-race/index.md): Finland, Sweden; Racing; Age of Contact and Craft
 - [Letter Categories](../../games/472-letter-categories/index.md): Germany, India; Racing; Age of Contact and Craft
 - [Luge and toboggan run](../../games/482-luge-and-toboggan-run/index.md): Worldwide; Racing; Age of Contact and Craft

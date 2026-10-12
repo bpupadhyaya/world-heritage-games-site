@@ -1,0 +1,207 @@
+{
+ "engine": "pattern",
+ "variant": "tatreez-palestinian-cross-stitch",
+ "params": {
+  "cols": 9,
+  "rows": 11,
+  "symmetry": "mirror-x",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Madder red",
+    "color": "#bd2a31"
+   },
+   {
+    "name": "Green",
+    "color": "#3f9a52"
+   },
+   {
+    "name": "Gold",
+    "color": "#eaaa2c"
+   },
+   {
+    "name": "Cream",
+    "color": "#f0e7d2"
+   },
+   {
+    "name": "Blue",
+    "color": "#3f67b8"
+   }
+  ],
+  "background": "#17171d",
+  "grid": "#33333d",
+  "motifs": [
+   "xstitch",
+   "star",
+   "triangle",
+   "leaf",
+   "diamond",
+   "dot"
+  ],
+  "rotateMarks": true,
+  "designs": [
+   {
+    "name": "Cypress panel",
+    "rows": [
+     "aaaaaaaaa",
+     ".b.b.b.b.",
+     "....c....",
+     "...ccc...",
+     ".d.ccc.d.",
+     "..ccccc..",
+     ".d..e..d.",
+     "....e....",
+     ".b.b.b.b.",
+     ".........",
+     "aaaaaaaaa"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 4,
+      "c": 2
+     },
+     "c": {
+      "m": 2,
+      "c": 1
+     },
+     "d": {
+      "m": 1,
+      "c": 3
+     },
+     "e": {
+      "m": 0,
+      "c": 2
+     },
+     "f": {
+      "m": 3,
+      "c": 1
+     },
+     "g": {
+      "m": 5,
+      "c": 0
+     },
+     "h": {
+      "m": 0,
+      "c": 3
+     },
+     "k": {
+      "m": 4,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Star medallion",
+    "rows": [
+     "hhhhhhhhh",
+     ".k.....k.",
+     "..aaaaa..",
+     "..a.b.a..",
+     "f.a...a.f",
+     "..a.d.a..",
+     "f.a...a.f",
+     "..a.b.a..",
+     "..aaaaa..",
+     ".k.....k.",
+     "hhhhhhhhh"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 4,
+      "c": 2
+     },
+     "c": {
+      "m": 2,
+      "c": 1
+     },
+     "d": {
+      "m": 1,
+      "c": 3
+     },
+     "e": {
+      "m": 0,
+      "c": 2
+     },
+     "f": {
+      "m": 3,
+      "c": 1
+     },
+     "g": {
+      "m": 5,
+      "c": 0
+     },
+     "h": {
+      "m": 0,
+      "c": 3
+     },
+     "k": {
+      "m": 4,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Palm stem",
+    "rows": [
+     "aaaaaaaaa",
+     ".........",
+     "...f.f...",
+     "..f.e.f..",
+     ".f..e..f.",
+     "....e....",
+     "....e....",
+     "..g.e.g..",
+     ".........",
+     "k.k.k.k.k",
+     "aaaaaaaaa"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 4,
+      "c": 2
+     },
+     "c": {
+      "m": 2,
+      "c": 1
+     },
+     "d": {
+      "m": 1,
+      "c": 3
+     },
+     "e": {
+      "m": 0,
+      "c": 2
+     },
+     "f": {
+      "m": 3,
+      "c": 1
+     },
+     "g": {
+      "m": 5,
+      "c": 0
+     },
+     "h": {
+      "m": 0,
+      "c": 3
+     },
+     "k": {
+      "m": 4,
+      "c": 0
+     }
+    }
+   }
+  ]
+ }
+}

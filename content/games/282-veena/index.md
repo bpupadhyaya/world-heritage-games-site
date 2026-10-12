@@ -41,11 +41,11 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [Rabab plucked lute](../../games/270-rabab-plucked-lute/index.md)
+- [Panduri](../../games/41-panduri/index.md)
 - [Dombra](../../games/48-dombra/index.md)
 - [Charango](../../games/55-charango/index.md)
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md)
-- [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md)
-- [Santoor](../../games/151-santoor/index.md)
+- [Balalaika](../../games/133-balalaika/index.md)
 
 ## Sources
 

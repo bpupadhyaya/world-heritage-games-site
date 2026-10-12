@@ -37,12 +37,12 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
+- [Elastic Jump](../../games/6-elastic-jump/index.md)
 - [Double Dutch](../../games/53-double-dutch/index.md)
 - [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md)
 - [Dikir barat](../../games/1268-dikir-barat/index.md)
 - [Woggabaliri](../../games/561-woggabaliri/index.md)
 - [Finger pulling](../../games/563-finger-pulling/index.md)
-- [Panamanian singing rounds](../../games/1011-panamanian-singing-rounds/index.md)
 
 ## Sources
 

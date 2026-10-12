@@ -1,0 +1,13 @@
+{
+ "slug": "cheese-rolling-hill",
+ "title": "Cheese Rolling Hill",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

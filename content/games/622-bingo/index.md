@@ -44,5 +44,5 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Texas 42](../../games/1195-texas-42/index.md)
 - [Spelling Bee](../../games/1429-spelling-bee/index.md)
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md)
+- [Log rolling](../../games/59-log-rolling/index.md)
 - [Sled dog race](../../games/62-sled-dog-race/index.md)
-- [Barrel racing](../../games/439-barrel-racing/index.md)

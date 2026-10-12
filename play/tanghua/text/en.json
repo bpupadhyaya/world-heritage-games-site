@@ -1,0 +1,27 @@
+{
+ "title": "Tanghua (hot sugar drawing)",
+ "native": "糖画",
+ "alt": [
+  "Sugar painting",
+  "Sugar drawing"
+ ],
+ "summary": "Tanghua is the Chinese street art of drawing with hot syrup. The maker lets a thin thread of melted sugar run from a small ladle onto a cold stone slab, tracing the outline of a flower, bird or animal and filling it with swirls and zigzags, then lifts the cooled figure on a bamboo stick.",
+ "howToPlay": [
+  "Pick a colour of sugar and a stroke from the strip under the slab: waves, curls, zigzags, leaves, rings and drops.",
+  "Tap a square to lay the stroke: its mirror image appears on the other side of the figure, as in a symmetrical drawing.",
+  "Copy the small figure above the slab, then press Check."
+ ],
+ "rules": [
+  "The slab is mirrored left to right, so every figure has two matching halves.",
+  "A square scores only when its stroke and its shade of sugar both match the figure.",
+  "Laying the same stroke and shade again, or using the eraser, clears the square.",
+  "Three stars need a near-perfect copy; undo and clear are free."
+ ],
+ "heritageNote": "Sugar drawing is known from Sichuan and many other parts of China, where street makers still draw figures for passers-by; it is recognised as intangible cultural heritage in several provinces.",
+ "countries": [
+  "China"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

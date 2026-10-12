@@ -1,0 +1,13 @@
+{
+ "slug": "tanghua",
+ "title": "Tanghua (hot sugar drawing)",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,194 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "lanes": [
+   {
+    "name": "Left",
+    "hz": 160,
+    "timbre": "stomp",
+    "icon": "foot-l",
+    "color": "#3c8fd6"
+   },
+   {
+    "name": "Right",
+    "hz": 180,
+    "timbre": "stomp",
+    "icon": "foot-r",
+    "color": "#e0553c"
+   },
+   {
+    "name": "Stomp",
+    "hz": 90,
+    "timbre": "stomp",
+    "icon": "stomp",
+    "color": "#f0b43c"
+   },
+   {
+    "name": "Cross",
+    "hz": 140,
+    "timbre": "stomp",
+    "icon": "slap",
+    "color": "#58c27d"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Three stomps",
+    "bpm": 96,
+    "meter": 2,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Left"
+     },
+     {
+      "beat": 1,
+      "lane": "Right"
+     },
+     {
+      "beat": 2,
+      "lane": "Left"
+     },
+     {
+      "beat": 3,
+      "lane": "Right"
+     },
+     {
+      "beat": 4,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 5,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 6,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 7,
+      "lane": "Right"
+     }
+    ]
+   },
+   {
+    "name": "Six-measure line",
+    "bpm": 104,
+    "meter": 2,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Right"
+     },
+     {
+      "beat": 1,
+      "lane": "Left"
+     },
+     {
+      "beat": 2,
+      "lane": "Right"
+     },
+     {
+      "beat": 3,
+      "lane": "Left"
+     },
+     {
+      "beat": 4,
+      "lane": "Right"
+     },
+     {
+      "beat": 5,
+      "lane": "Cross"
+     },
+     {
+      "beat": 6,
+      "lane": "Left"
+     },
+     {
+      "beat": 7,
+      "lane": "Right"
+     },
+     {
+      "beat": 8,
+      "lane": "Cross"
+     },
+     {
+      "beat": 9,
+      "lane": "Left"
+     },
+     {
+      "beat": 10,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 11,
+      "lane": "Stomp"
+     }
+    ]
+   },
+   {
+    "name": "Fast open circle",
+    "bpm": 120,
+    "meter": 2,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Right"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Left"
+     },
+     {
+      "beat": 1,
+      "lane": "Right"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Left"
+     },
+     {
+      "beat": 2,
+      "lane": "Right"
+     },
+     {
+      "beat": 3,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 4,
+      "lane": "Left"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Right"
+     },
+     {
+      "beat": 5,
+      "lane": "Left"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Right"
+     },
+     {
+      "beat": 6,
+      "lane": "Cross"
+     },
+     {
+      "beat": 7,
+      "lane": "Stomp"
+     }
+    ]
+   }
+  ]
+ }
+}

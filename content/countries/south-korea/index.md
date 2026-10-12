@@ -1,16 +1,16 @@
 ---
 title: "South Korea"
-description: "25 traditions from South Korea."
+description: "26 traditions from South Korea."
 path: "/countries/south-korea/"
-count: 25
+count: 26
 ---
 # South Korea
 
-25 traditions from South Korea.
+26 traditions from South Korea.
 
 
 
-25 entries.
+26 entries.
 
 - [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
 - [Bojagi](../../games/363-bojagi/index.md): South Korea; Crafts and making; Living Traditions
@@ -27,6 +27,7 @@ count: 25
 - [Haenyeo Breath Dive](../../games/1459-haenyeo-breath-dive/index.md): South Korea; Dexterity and skill games; Modern Heritage
 - [Hangul syllable blocks](../../games/364-hangul-syllable-blocks/index.md): South Korea; Puzzles and mind games; Modern Heritage
 - [Jegichagi](../../games/1082-jegichagi/index.md): South Korea, North Korea; Street and playground games; Modern Heritage
+- [Jianzi](../../games/1-jianzi/index.md): China, Vietnam; Dexterity and skill games; Modern Heritage
 - [Juldarigi](../../games/2772-juldarigi/index.md): South Korea, United Kingdom; Other traditions; Classical Worlds
 - [Maedeup](../../games/1468-maedeup/index.md): South Korea; Crafts and making; Living Traditions
 - [Neolttwigi](../../games/4-neolttwigi/index.md): South Korea; Street and playground games; Modern Heritage

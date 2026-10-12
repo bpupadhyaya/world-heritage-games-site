@@ -1,0 +1,379 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 293.66,
+  "loops": 2,
+  "tolerance": 1.3,
+  "scale": [
+   0,
+   150,
+   300,
+   500,
+   700,
+   800,
+   1000
+  ],
+  "lanes": [
+   {
+    "name": "D4",
+    "id": "d4",
+    "cents": 0,
+    "timbre": "pluck",
+    "wave": "triangle",
+    "dur": 1.0,
+    "color": "#b9742f",
+    "row": 0
+   },
+   {
+    "name": "E4k",
+    "id": "e4k",
+    "cents": 150,
+    "timbre": "pluck",
+    "wave": "triangle",
+    "dur": 1.0,
+    "color": "#cf8a3a",
+    "row": 0
+   },
+   {
+    "name": "F4",
+    "id": "f4",
+    "cents": 300,
+    "timbre": "pluck",
+    "wave": "triangle",
+    "dur": 1.0,
+    "color": "#e0a050",
+    "row": 0
+   },
+   {
+    "name": "G4",
+    "id": "g4",
+    "cents": 500,
+    "timbre": "pluck",
+    "wave": "triangle",
+    "dur": 1.0,
+    "color": "#c98a5a",
+    "row": 0
+   },
+   {
+    "name": "A4",
+    "id": "a4",
+    "cents": 700,
+    "timbre": "pluck",
+    "wave": "triangle",
+    "dur": 1.0,
+    "color": "#a56f45",
+    "row": 0
+   },
+   {
+    "name": "Bb4",
+    "id": "bb4",
+    "cents": 800,
+    "timbre": "pluck",
+    "wave": "triangle",
+    "dur": 1.0,
+    "color": "#8a5a3a",
+    "row": 0
+   },
+   {
+    "name": "D5",
+    "id": "d5",
+    "cents": 1200,
+    "timbre": "pluck",
+    "wave": "triangle",
+    "dur": 0.9,
+    "color": "#6fa8c9",
+    "row": 1
+   },
+   {
+    "name": "E5k",
+    "id": "e5k",
+    "cents": 1350,
+    "timbre": "pluck",
+    "wave": "triangle",
+    "dur": 0.9,
+    "color": "#7fb7d6",
+    "row": 1
+   },
+   {
+    "name": "F5",
+    "id": "f5",
+    "cents": 1500,
+    "timbre": "pluck",
+    "wave": "triangle",
+    "dur": 0.9,
+    "color": "#93c6e0",
+    "row": 1
+   },
+   {
+    "name": "G5",
+    "id": "g5",
+    "cents": 1700,
+    "timbre": "pluck",
+    "wave": "triangle",
+    "dur": 0.9,
+    "color": "#7fb0c0",
+    "row": 1
+   },
+   {
+    "name": "A5",
+    "id": "a5",
+    "cents": 1900,
+    "timbre": "pluck",
+    "wave": "triangle",
+    "dur": 0.9,
+    "color": "#6a9bb0",
+    "row": 1
+   },
+   {
+    "name": "Bb5",
+    "id": "bb5",
+    "cents": 2000,
+    "timbre": "pluck",
+    "wave": "triangle",
+    "dur": 0.9,
+    "color": "#5a8a9e",
+    "row": 1
+   }
+  ],
+  "songs": [
+   {
+    "name": "Pishdarāmad style, slow 2/4",
+    "bpm": 72,
+    "meter": 2,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "d4",
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": "e4k",
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": "f4",
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": "g4",
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": "a4",
+      "len": 1
+     },
+     {
+      "beat": 7,
+      "lane": "bb4",
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": "a4",
+      "len": 2
+     },
+     {
+      "beat": 10,
+      "lane": "g4",
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": "f4",
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": "e4k",
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": "d4",
+      "len": 2
+     }
+    ]
+   },
+   {
+    "name": "Chahārmezrāb style, 6/8",
+    "bpm": 138,
+    "meter": 6,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "d4"
+     },
+     {
+      "beat": 1,
+      "lane": "d5"
+     },
+     {
+      "beat": 2,
+      "lane": "e4k"
+     },
+     {
+      "beat": 3,
+      "lane": "e5k"
+     },
+     {
+      "beat": 4,
+      "lane": "f4"
+     },
+     {
+      "beat": 5,
+      "lane": "f5"
+     },
+     {
+      "beat": 6,
+      "lane": "g4"
+     },
+     {
+      "beat": 7,
+      "lane": "g5"
+     },
+     {
+      "beat": 8,
+      "lane": "f4"
+     },
+     {
+      "beat": 9,
+      "lane": "f5"
+     },
+     {
+      "beat": 10,
+      "lane": "e4k"
+     },
+     {
+      "beat": 11,
+      "lane": "e5k"
+     },
+     {
+      "beat": 12,
+      "lane": "a4"
+     },
+     {
+      "beat": 13,
+      "lane": "a5"
+     },
+     {
+      "beat": 14,
+      "lane": "g4"
+     },
+     {
+      "beat": 15,
+      "lane": "g5"
+     },
+     {
+      "beat": 16,
+      "lane": "f4"
+     },
+     {
+      "beat": 17,
+      "lane": "d4"
+     },
+     {
+      "beat": 18,
+      "lane": "e4k"
+     },
+     {
+      "beat": 19,
+      "lane": "f5"
+     },
+     {
+      "beat": 20,
+      "lane": "g4"
+     },
+     {
+      "beat": 21,
+      "lane": "bb5"
+     },
+     {
+      "beat": 22,
+      "lane": "a5"
+     },
+     {
+      "beat": 23,
+      "lane": "d4"
+     }
+    ]
+   },
+   {
+    "name": "Reng style, 6/8 dance",
+    "bpm": 126,
+    "meter": 6,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "d4"
+     },
+     {
+      "beat": 1.5,
+      "lane": "f4"
+     },
+     {
+      "beat": 3,
+      "lane": "g4"
+     },
+     {
+      "beat": 4.5,
+      "lane": "a4"
+     },
+     {
+      "beat": 6,
+      "lane": "a5"
+     },
+     {
+      "beat": 7.5,
+      "lane": "g5"
+     },
+     {
+      "beat": 9,
+      "lane": "f5"
+     },
+     {
+      "beat": 10.5,
+      "lane": "e5k"
+     },
+     {
+      "beat": 12,
+      "lane": "bb4"
+     },
+     {
+      "beat": 13.5,
+      "lane": "a4"
+     },
+     {
+      "beat": 15,
+      "lane": "g4"
+     },
+     {
+      "beat": 16.5,
+      "lane": "f4"
+     },
+     {
+      "beat": 18,
+      "lane": "e4k"
+     },
+     {
+      "beat": 19.5,
+      "lane": "d5"
+     },
+     {
+      "beat": 21,
+      "lane": "d4"
+     },
+     {
+      "beat": 22.5,
+      "lane": "d5"
+     }
+    ]
+   }
+  ]
+ }
+}

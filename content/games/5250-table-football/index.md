@@ -45,12 +45,12 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Related entries
 
+- [Jianzi](../../games/1-jianzi/index.md)
 - [Cuju](../../games/333-cuju/index.md)
 - [Nohejbal](../../games/378-nohejbal/index.md)
+- [Peteca](../../games/421-peteca/index.md)
 - [Sepak takraw](../../games/802-sepak-takraw/index.md)
 - [Chapteh shuttlecock](../../games/1066-chapteh-shuttlecock/index.md)
-- [Traditional football](../../games/10068-traditional-football/index.md)
-- [American football](../../games/22320-american-football/index.md)
 
 ## Sources
 

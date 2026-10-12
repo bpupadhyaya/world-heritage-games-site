@@ -1,0 +1,448 @@
+{
+ "engine": "story",
+ "params": {
+  "stage": "caravan",
+  "start": "depart",
+  "route": [
+   {
+    "name": "Taoudenni",
+    "x": 0.07,
+    "y": 0.28
+   },
+   {
+    "name": "The dune sea",
+    "x": 0.3,
+    "y": 0.68
+   },
+   {
+    "name": "Araouane",
+    "x": 0.52,
+    "y": 0.34
+   },
+   {
+    "name": "The last well",
+    "x": 0.74,
+    "y": 0.7
+   },
+   {
+    "name": "Timbuktu",
+    "x": 0.93,
+    "y": 0.4
+   }
+  ],
+  "cast": {
+   "you": {
+    "name": "You",
+    "kind": "trader",
+    "hat": "turban",
+    "color": "#2a3f8a",
+    "accent": "#e8b84a"
+   },
+   "camel": {
+    "name": "Your camel",
+    "kind": "camel",
+    "pack": true,
+    "color": "#b0845a",
+    "accent": "#d9d2c0"
+   },
+   "keeper": {
+    "name": "The well-keeper",
+    "kind": "person",
+    "hat": "turban",
+    "hatColor": "#2a3f8a",
+    "beard": true,
+    "color": "#7a4a2a",
+    "accent": "#d9d2c0",
+    "prop": "staff"
+   },
+   "rival": {
+    "name": "The rival driver",
+    "kind": "person",
+    "hat": "hood",
+    "color": "#5a3a2a",
+    "accent": "#c9a35e"
+   },
+   "buyer": {
+    "name": "The buyer",
+    "kind": "trader",
+    "hat": "cap",
+    "color": "#8a2a2a",
+    "accent": "#e8b84a"
+   }
+  },
+  "meters": [
+   {
+    "id": "water",
+    "label": "Water",
+    "start": 3,
+    "max": 4
+   },
+   {
+    "id": "salt",
+    "label": "Salt",
+    "start": 3,
+    "max": 5
+   },
+   {
+    "id": "goodwill",
+    "label": "Goodwill",
+    "start": 0,
+    "max": 4
+   }
+  ],
+  "scenes": {
+   "depart": {
+    "stop": 0,
+    "bg": "camp",
+    "on": [
+     {
+      "who": "you",
+      "at": "midleft"
+     },
+     {
+      "who": "camel",
+      "at": "midright"
+     },
+     {
+      "who": "keeper",
+      "at": "right"
+     }
+    ],
+    "text": "Taoudenni at dawn: grey slabs of salt are stacked beside the kneeling camels. Three weeks of sand lie ahead. The old caravan master asks how you will load.",
+    "speaker": "keeper",
+    "choices": [
+     {
+      "text": "Five slabs on every camel, to earn the most",
+      "next": "dunes",
+      "pts": 0,
+      "effects": {
+       "salt": 1,
+       "water": -1
+      }
+     },
+     {
+      "text": "Four slabs and two spare water skins on each camel",
+      "next": "dunes",
+      "pts": 2,
+      "effects": {
+       "water": 1
+      }
+     },
+     {
+      "text": "Three slabs only, to travel light and fast",
+      "next": "dunes",
+      "pts": 1,
+      "effects": {
+       "salt": -1
+      }
+     }
+    ]
+   },
+   "dunes": {
+    "stop": 1,
+    "bg": "desert",
+    "on": [
+     {
+      "who": "you",
+      "at": "midleft"
+     },
+     {
+      "who": "camel",
+      "at": "midright"
+     }
+    ],
+    "text": "On the third day the wind lifts the sand and the dunes lose their shape. The track vanishes in a brown haze. The camels shuffle and look at you.",
+    "speaker": "you",
+    "choices": [
+     {
+      "text": "Push on blindly and hope the camels know the way",
+      "next": "lost",
+      "pts": 0,
+      "set": [
+       "lost"
+      ]
+     },
+     {
+      "text": "Halt, shelter the camels, and steer by the stars when night falls",
+      "next": "stars",
+      "pts": 2
+     }
+    ]
+   },
+   "lost": {
+    "stop": 1,
+    "bg": "desert",
+    "on": [
+     {
+      "who": "you",
+      "at": "midleft",
+      "pose": "slump"
+     },
+     {
+      "who": "camel",
+      "at": "midright"
+     }
+    ],
+    "text": "You wander in circles for half a day and stop at the same bent thorn tree twice. Water skins grow light. At last the stars clear and you find the line again.",
+    "next": "araouane",
+    "cont": "On to the oasis"
+   },
+   "stars": {
+    "stop": 1,
+    "bg": "night",
+    "on": [
+     {
+      "who": "you",
+      "at": "midleft"
+     },
+     {
+      "who": "camel",
+      "at": "midright"
+     }
+    ],
+    "text": "You kneel the camels and wait. When night falls, the stars show the way, the cold wind eases and the caravan rests. By dawn, the track is plain again.",
+    "next": "araouane",
+    "cont": "On to the oasis"
+   },
+   "araouane": {
+    "stop": 2,
+    "bg": "oasis",
+    "on": [
+     {
+      "who": "you",
+      "at": "midleft"
+     },
+     {
+      "who": "camel",
+      "at": "midright"
+     },
+     {
+      "who": "keeper",
+      "at": "right",
+      "pose": "point"
+     }
+    ],
+    "text": "At Araouane the well-keeper asks you to settle shares. \"Of every four slabs, one goes to the miners and three to the camel owners. Eight arrived. How many for the owners?\"",
+    "speaker": "keeper",
+    "puzzle": {
+     "prompt": "How many slabs go to the camel owners?",
+     "options": [
+      "Four",
+      "Six",
+      "Eight"
+     ],
+     "answer": 1,
+     "right": {
+      "effects": {
+       "goodwill": 1
+      },
+      "pts": 2,
+      "next": "limp"
+     },
+     "wrong": {
+      "pts": 0,
+      "next": "limp",
+      "set": [
+       "dispute"
+      ]
+     }
+    }
+   },
+   "limp": {
+    "stop": 3,
+    "bg": "camp",
+    "on": [
+     {
+      "who": "you",
+      "at": "midleft"
+     },
+     {
+      "who": "camel",
+      "at": "midright",
+      "pose": "slump"
+     }
+    ],
+    "text": "Your strongest camel is limping, a stone caught in its foot, and you are still a week from the market. Its four slabs now seem to weigh a mountain.",
+    "speaker": "you",
+    "choices": [
+     {
+      "text": "Leave the camel and its slabs behind on the sand",
+      "next": "well",
+      "pts": 0,
+      "effects": {
+       "salt": -1
+      }
+     },
+     {
+      "text": "Drive it on with a stick; it must keep pace",
+      "next": "well",
+      "pts": 0,
+      "set": [
+       "harsh"
+      ]
+     },
+     {
+      "text": "Take the stone out, share its slabs among the others and walk beside it",
+      "next": "well",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1,
+       "water": -1
+      }
+     }
+    ]
+   },
+   "well": {
+    "stop": 3,
+    "bg": "oasis",
+    "on": [
+     {
+      "who": "you",
+      "at": "midleft"
+     },
+     {
+      "who": "camel",
+      "at": "midright"
+     },
+     {
+      "who": "rival",
+      "at": "right"
+     }
+    ],
+    "text": "At the last well another caravan arrives at the same hour. The water is slow to rise and both sides have thirsty camels. Voices rise too.",
+    "speaker": "rival",
+    "choices": [
+     {
+      "text": "Draw first, because you arrived first",
+      "next": "market",
+      "pts": 0,
+      "effects": {
+       "goodwill": -1
+      },
+      "set": [
+       "pushed"
+      ]
+     },
+     {
+      "text": "Wait your turn quietly, and then trade a slab for extra water",
+      "next": "market",
+      "pts": 1,
+      "effects": {
+       "salt": -1,
+       "water": 1
+      }
+     },
+     {
+      "text": "Propose that the camels of both caravans drink in turns, counted together",
+      "next": "market",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1,
+       "water": 1
+      }
+     }
+    ]
+   },
+   "market": {
+    "stop": 4,
+    "bg": "market",
+    "on": [
+     {
+      "who": "you",
+      "at": "midleft"
+     },
+     {
+      "who": "camel",
+      "at": "midright"
+     },
+     {
+      "who": "buyer",
+      "at": "right"
+     }
+    ],
+    "text": "Timbuktu at last. The buyer turns a slab in his hands and spots a crack. \"Is this all good salt?\" Some of your slabs broke in the long journey.",
+    "speaker": "buyer",
+    "choices": [
+     {
+      "text": "Hide the cracked slabs between the sound ones",
+      "next": "home",
+      "pts": 0,
+      "set": [
+       "cheat"
+      ]
+     },
+     {
+      "text": "Refuse to sell until the price rises",
+      "next": "home",
+      "pts": 1
+     },
+     {
+      "text": "Show the cracked slabs openly and sell them for a lower, fair price",
+      "next": "home",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1
+      }
+     }
+    ]
+   },
+   "home": {
+    "stop": 4,
+    "bg": "market",
+    "on": [
+     {
+      "who": "you",
+      "at": "midleft",
+      "pose": "cheer"
+     },
+     {
+      "who": "camel",
+      "at": "midright"
+     }
+    ],
+    "text": "The coins are counted, the camels are fed, and the road back is already in your mind. Behind you, a new line of grey slabs waits in the sun.",
+    "end": true
+   }
+  },
+  "endings": [
+   {
+    "id": "best",
+    "stars": 3,
+    "headline": "Salt, water and good name",
+    "text": "Every camel arrives, the shares are fair and your name opens every gate on the road.",
+    "when": {
+     "min": {
+      "water": 2,
+      "salt": 3,
+      "goodwill": 3
+     },
+     "notFlags": [
+      "lost",
+      "harsh",
+      "pushed",
+      "cheat",
+      "dispute"
+     ]
+    }
+   },
+   {
+    "id": "fine",
+    "stars": 2,
+    "headline": "A caravan that arrived",
+    "text": "The salt is sold and the camels are alive, though the road taught some hard lessons.",
+    "when": {
+     "min": {
+      "salt": 2,
+      "goodwill": 1
+     }
+    }
+   },
+   {
+    "id": "thin",
+    "stars": 1,
+    "headline": "A lean arrival",
+    "text": "You reach the market thirsty, short of salt and short of friends."
+   }
+  ]
+ }
+}

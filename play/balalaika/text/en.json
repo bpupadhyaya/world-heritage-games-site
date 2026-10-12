@@ -1,0 +1,25 @@
+{
+ "title": "Balalaika",
+ "native": "Балалайка",
+ "alt": [
+  "Prima balalaika"
+ ],
+ "summary": "The balalaika is the triangular three-string lute of Russia. The common prima size is tuned E, E, A, with two strings on the same note and the third a fourth higher, and is played with quick finger strokes and strums.",
+ "howToPlay": [
+  "Eight strings are shown side by side: A, B, C and D are played on the A string, E, F and G on the E strings, and the last lane is the full strum across all strings.",
+  "Each mark that falls onto the line is one note or strum; play that lane as it arrives.",
+  "Moving along a string by frets gives the neighbouring notes, so a short run climbs up the neck."
+ ],
+ "rules": [
+  "The open strings are E, E and A; fretted notes in A minor fill in F and G on the E string and B, C and D on the A string.",
+  "Tunes are played twice through and keep one pulse: a dance tune in two, a slow waltz in three and a strum-and-answer pattern.",
+  "A note on the beat scores in full, a close one scores less, and an extra stroke costs a little."
+ ],
+ "heritageNote": "The balalaika has been played in Russia for some three centuries by peasant musicians, accompanying songs and dances, and in the nineteenth century it was refined into a family of sizes for orchestras. The prima is held across the body and sounded with the side of the index finger.",
+ "countries": [
+  "Russia"
+ ],
+ "credits": [
+  "Tune patterns: World Heritage Games (original teaching patterns)"
+ ]
+}

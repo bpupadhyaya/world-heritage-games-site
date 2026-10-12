@@ -1,0 +1,247 @@
+{
+ "engine": "pattern",
+ "params": {
+  "shape": "polar",
+  "rings": 6,
+  "rays": 24,
+  "symmetry": "rot3-mirror",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Cream",
+    "color": "#f2ead8"
+   },
+   {
+    "name": "Madder red",
+    "color": "#c8372d"
+   },
+   {
+    "name": "Heather blue",
+    "color": "#6f9bd0"
+   },
+   {
+    "name": "Moss green",
+    "color": "#4a9a63"
+   }
+  ],
+  "background": "#232a3d",
+  "grid": "#3d465e",
+  "motifs": [
+   "solid",
+   "star",
+   "diamond",
+   "cross",
+   "dot",
+   "zigzag"
+  ],
+  "designs": [
+   {
+    "name": "Star yoke",
+    "rows": [
+     "bbbbbbbbbbbbbbbbbbbbbbbb",
+     "hh.hh.hhhh.hh.hhhh.hh.hh",
+     "c.d..d.cc.d..d.cc.d..d.c",
+     "kkkkkkkkkkkkkkkkkkkkkkkk",
+     "g.i..i.gg.i..i.gg.i..i.g",
+     "jjjjjjjjjjjjjjjjjjjjjjjj"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "n": {
+      "m": 0,
+      "c": 2
+     },
+     "c": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 1,
+      "c": 1
+     },
+     "e": {
+      "m": 2,
+      "c": 0
+     },
+     "f": {
+      "m": 2,
+      "c": 2
+     },
+     "l": {
+      "m": 2,
+      "c": 1
+     },
+     "g": {
+      "m": 3,
+      "c": 0
+     },
+     "m": {
+      "m": 3,
+      "c": 1
+     },
+     "h": {
+      "m": 4,
+      "c": 0
+     },
+     "i": {
+      "m": 4,
+      "c": 1
+     },
+     "j": {
+      "m": 5,
+      "c": 2
+     },
+     "k": {
+      "m": 5,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Snowflake bands",
+    "rows": [
+     "iiiiiiiiiiiiiiiiiiiiiiii",
+     "m.eeee.mm.eeee.mm.eeee.m",
+     ".h.hh.h..h.hh.h..h.hh.h.",
+     "d..cc..dd..cc..dd..cc..d",
+     ".h.hh.h..h.hh.h..h.hh.h.",
+     "kkkkkkkkkkkkkkkkkkkkkkkk"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "n": {
+      "m": 0,
+      "c": 2
+     },
+     "c": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 1,
+      "c": 1
+     },
+     "e": {
+      "m": 2,
+      "c": 0
+     },
+     "f": {
+      "m": 2,
+      "c": 2
+     },
+     "l": {
+      "m": 2,
+      "c": 1
+     },
+     "g": {
+      "m": 3,
+      "c": 0
+     },
+     "m": {
+      "m": 3,
+      "c": 1
+     },
+     "h": {
+      "m": 4,
+      "c": 0
+     },
+     "i": {
+      "m": 4,
+      "c": 1
+     },
+     "j": {
+      "m": 5,
+      "c": 2
+     },
+     "k": {
+      "m": 5,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Cross and diamond bands",
+    "rows": [
+     "nnnnnnnnnnnnnnnnnnnnnnnn",
+     "g.g..g.gg.g..g.gg.g..g.g",
+     ".f.ff.f..f.ff.f..f.ff.f.",
+     "g.g..g.gg.g..g.gg.g..g.g",
+     "bbbbbbbbbbbbbbbbbbbbbbbb",
+     "e.e..e.ee.e..e.ee.e..e.e"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "n": {
+      "m": 0,
+      "c": 2
+     },
+     "c": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 1,
+      "c": 1
+     },
+     "e": {
+      "m": 2,
+      "c": 0
+     },
+     "f": {
+      "m": 2,
+      "c": 2
+     },
+     "l": {
+      "m": 2,
+      "c": 1
+     },
+     "g": {
+      "m": 3,
+      "c": 0
+     },
+     "m": {
+      "m": 3,
+      "c": 1
+     },
+     "h": {
+      "m": 4,
+      "c": 0
+     },
+     "i": {
+      "m": 4,
+      "c": 1
+     },
+     "j": {
+      "m": 5,
+      "c": 2
+     },
+     "k": {
+      "m": 5,
+      "c": 0
+     }
+    }
+   }
+  ]
+ }
+}

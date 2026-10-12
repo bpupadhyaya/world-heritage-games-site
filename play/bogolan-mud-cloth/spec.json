@@ -1,0 +1,198 @@
+{
+ "engine": "pattern",
+ "params": {
+  "symmetry": "mirror-xy",
+  "mode": "copy",
+  "rotateMarks": false,
+  "palette": [
+   {
+    "name": "Mud black",
+    "color": "#2b1c14"
+   },
+   {
+    "name": "River brown",
+    "color": "#7a4a28"
+   },
+   {
+    "name": "Leaf ochre",
+    "color": "#c98a2a"
+   }
+  ],
+  "background": "#efe3c8",
+  "grid": "#d2c3a0",
+  "motifs": [
+   "zigzag",
+   "checker",
+   "stripe-h",
+   "diamond",
+   "cross",
+   "dot"
+  ],
+  "cols": 9,
+  "rows": 11,
+  "designs": [
+   {
+    "name": "Zigzag and dot bands",
+    "rows": [
+     "zzzzzzzzz",
+     ".........",
+     "o.o.o.o.o",
+     "sssssssss",
+     "..e.e.e..",
+     "kkkkkkkkk",
+     "..e.e.e..",
+     "sssssssss",
+     "o.o.o.o.o",
+     ".........",
+     "zzzzzzzzz"
+    ],
+    "legend": {
+     "z": {
+      "m": 0,
+      "c": 0
+     },
+     "y": {
+      "m": 0,
+      "c": 1
+     },
+     "k": {
+      "m": 1,
+      "c": 0
+     },
+     "s": {
+      "m": 2,
+      "c": 1
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "e": {
+      "m": 3,
+      "c": 2
+     },
+     "x": {
+      "m": 4,
+      "c": 0
+     },
+     "o": {
+      "m": 5,
+      "c": 1
+     },
+     "p": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Diamond field",
+    "rows": [
+     "yyyyyyyyy",
+     ".........",
+     "..d.e.d..",
+     ".d.e.e.d.",
+     "..x.d.x..",
+     "sssssssss",
+     "..x.d.x..",
+     ".d.e.e.d.",
+     "..d.e.d..",
+     ".........",
+     "yyyyyyyyy"
+    ],
+    "legend": {
+     "z": {
+      "m": 0,
+      "c": 0
+     },
+     "y": {
+      "m": 0,
+      "c": 1
+     },
+     "k": {
+      "m": 1,
+      "c": 0
+     },
+     "s": {
+      "m": 2,
+      "c": 1
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "e": {
+      "m": 3,
+      "c": 2
+     },
+     "x": {
+      "m": 4,
+      "c": 0
+     },
+     "o": {
+      "m": 5,
+      "c": 1
+     },
+     "p": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Cross and checker strip",
+    "rows": [
+     "kkkkkkkkk",
+     ".........",
+     "x.x.x.x.x",
+     ".o.o.o.o.",
+     "zzzzzzzzz",
+     "p.p.p.p.p",
+     "zzzzzzzzz",
+     ".o.o.o.o.",
+     "x.x.x.x.x",
+     ".........",
+     "kkkkkkkkk"
+    ],
+    "legend": {
+     "z": {
+      "m": 0,
+      "c": 0
+     },
+     "y": {
+      "m": 0,
+      "c": 1
+     },
+     "k": {
+      "m": 1,
+      "c": 0
+     },
+     "s": {
+      "m": 2,
+      "c": 1
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "e": {
+      "m": 3,
+      "c": 2
+     },
+     "x": {
+      "m": 4,
+      "c": 0
+     },
+     "o": {
+      "m": 5,
+      "c": 1
+     },
+     "p": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   }
+  ]
+ }
+}

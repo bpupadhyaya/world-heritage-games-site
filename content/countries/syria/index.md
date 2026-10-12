@@ -1,20 +1,22 @@
 ---
 title: "Syria"
-description: "8 traditions from Syria."
+description: "10 traditions from Syria."
 path: "/countries/syria/"
-count: 8
+count: 10
 ---
 # Syria
 
-8 traditions from Syria.
+10 traditions from Syria.
 
 
 
-8 entries.
+10 entries.
 
 - [Buzuq Long-Neck Lute](../../games/218-buzuq-long-neck-lute/index.md): Lebanon, Syria; Musical instruments; Crossroads and Golden Ages
 - [Damascus Mother-of-Pearl Inlay](../../games/223-damascus-mother-of-pearl-inlay/index.md): Syria; Crafts and making; Living Traditions
 - [Hama Noria Waterwheels](../../games/1295-hama-noria-waterwheels/index.md): Syria; Puzzles and mind games; Modern Heritage
+- [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
+- [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md): Egypt, Syria; Crafts and making; Living Traditions
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md): Lebanon, Syria; Musical instruments; Living Traditions
 - [Tarneeb](../../games/816-tarneeb/index.md): Iraq, Syria; Card games; Age of Contact and Craft
 - [Turkish Dama](../../games/155-turkish-dama/index.md): Turkey, Turkmenistan; Board and table games; Crossroads and Golden Ages

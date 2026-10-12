@@ -1,0 +1,350 @@
+{
+ "engine": "story",
+ "params": {
+  "stage": "shadow",
+  "start": "start",
+  "cast": {
+   "karagoz": {
+    "name": "Karagöz",
+    "kind": "clown",
+    "hat": "cap",
+    "prop": "stick",
+    "build": 1.1
+   },
+   "hacivat": {
+    "name": "Hacivat",
+    "kind": "person",
+    "hat": "turban",
+    "beard": true,
+    "prop": "staff"
+   }
+  },
+  "meters": [
+   {
+    "id": "wit",
+    "label": "Wit",
+    "start": 0,
+    "max": 4
+   },
+   {
+    "id": "goodwill",
+    "label": "Goodwill",
+    "start": 0,
+    "max": 4
+   },
+   {
+    "id": "coin",
+    "label": "Coin",
+    "start": 0,
+    "max": 3
+   }
+  ],
+  "scenes": {
+   "start": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "karagoz",
+      "at": "midleft"
+     },
+     {
+      "who": "hacivat",
+      "at": "midright"
+     }
+    ],
+    "text": "Hacivat bows to the Bey. \"The scale-keeper is off to his sister's wedding, so we mind the market scale today.\" Karagöz flops down beside it: \"Easy work!\"",
+    "speaker": "hacivat",
+    "choices": [
+     {
+      "text": "Karagöz naps under the awning; the scale minds itself",
+      "next": "nap",
+      "pts": 0
+     },
+     {
+      "text": "Charge a small coin for every weighing",
+      "next": "fee",
+      "pts": 1,
+      "effects": {
+       "coin": 1
+      }
+     },
+     {
+      "text": "Chalk the rule on a board: one stone, one kilo, for everyone",
+      "next": "board",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1
+      }
+     }
+    ]
+   },
+   "nap": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "karagoz",
+      "at": "midleft",
+      "pose": "slump"
+     },
+     {
+      "who": "hacivat",
+      "at": "midright"
+     }
+    ],
+    "text": "Karagöz snores. A melon rolls onto one pan and a hen hops onto the other. Hacivat sighs and turns the hen out. Then a quarrel starts at the plum stall.",
+    "next": "cheat",
+    "cont": "Go to the plum stall"
+   },
+   "fee": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "karagoz",
+      "at": "midleft",
+      "pose": "cheer"
+     },
+     {
+      "who": "hacivat",
+      "at": "midright"
+     }
+    ],
+    "text": "Coins clink in Karagöz's cap and he sings a tune about them. The line grows long and cross. Then a quarrel starts at the plum stall.",
+    "next": "cheat",
+    "cont": "Go to the plum stall"
+   },
+   "board": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "karagoz",
+      "at": "midleft"
+     },
+     {
+      "who": "hacivat",
+      "at": "midright",
+      "pose": "cheer"
+     }
+    ],
+    "text": "The traders read the board and nod. Karagöz guards it proudly with his stick. Then a quarrel starts at the plum stall.",
+    "next": "cheat",
+    "cont": "Go to the plum stall"
+   },
+   "cheat": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "karagoz",
+      "at": "left"
+     },
+     {
+      "who": "hacivat",
+      "at": "center"
+     }
+    ],
+    "text": "A widow holds up her bag. \"A kilo of plums, yet it is light!\" The plum seller smiles too widely. Hacivat sees his thumb pressing the pan.",
+    "speaker": "hacivat",
+    "choices": [
+     {
+      "text": "Karagöz bellows \"Thief!\" across the whole market",
+      "next": "shout",
+      "pts": 0,
+      "set": [
+       "accused"
+      ]
+     },
+     {
+      "text": "Hacivat asks, very politely, for everyone to be patient",
+      "next": "ask",
+      "pts": 1,
+      "effects": {
+       "goodwill": 1
+      }
+     },
+     {
+      "text": "Weigh the plums against the kilo stone, with the crowd counting",
+      "next": "test",
+      "pts": 2,
+      "effects": {
+       "wit": 1
+      }
+     }
+    ]
+   },
+   "shout": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "karagoz",
+      "at": "midleft",
+      "pose": "slump"
+     },
+     {
+      "who": "hacivat",
+      "at": "midright"
+     }
+    ],
+    "text": "Everyone stares. The seller wails that he is wronged, a goat bolts, and a stack of baskets topples onto Karagöz. Hacivat tugs him up by the ear.",
+    "next": "riddle",
+    "cont": "The widow's riddle"
+   },
+   "ask": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "karagoz",
+      "at": "midleft"
+     },
+     {
+      "who": "hacivat",
+      "at": "midright"
+     }
+    ],
+    "text": "The seller bows and says the pan is simply old. Nobody can prove a thing, but the widow keeps her eyes on his hands. She turns to the two friends with a puzzle.",
+    "next": "riddle",
+    "cont": "The widow's riddle"
+   },
+   "test": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "karagoz",
+      "at": "midleft"
+     },
+     {
+      "who": "hacivat",
+      "at": "midright",
+      "pose": "point"
+     }
+    ],
+    "text": "Plums go on one pan, the stone on the other. The crowd counts aloud and the stone sinks the pan. The seller's thumb is plain to see. The widow raises an eyebrow.",
+    "next": "riddle",
+    "cont": "The widow's riddle"
+   },
+   "riddle": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "karagoz",
+      "at": "midleft"
+     },
+     {
+      "who": "hacivat",
+      "at": "center"
+     }
+    ],
+    "text": "The widow tests them: \"If you are so wise, which is heavier: a kilo of feathers or a kilo of figs?\" Karagöz scratches his head with the stick.",
+    "speaker": "hacivat",
+    "puzzle": {
+     "prompt": "Which is heavier?",
+     "options": [
+      "The feathers",
+      "The figs",
+      "Neither, they weigh the same"
+     ],
+     "answer": 2,
+     "right": {
+      "effects": {
+       "wit": 1
+      },
+      "pts": 2,
+      "next": "mercy"
+     },
+     "wrong": {
+      "pts": 0,
+      "next": "mercy"
+     }
+    }
+   },
+   "mercy": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "karagoz",
+      "at": "midleft"
+     },
+     {
+      "who": "hacivat",
+      "at": "midright"
+     }
+    ],
+    "text": "The seller stands red-faced among his plums. \"Well?\" says the crowd. \"What shall be done with a man who weighs light?\"",
+    "speaker": "hacivat",
+    "choices": [
+     {
+      "text": "Chase him out of the market for good",
+      "next": "finale",
+      "pts": 0
+     },
+     {
+      "text": "Let him keep his stall and fill the widow's bag again",
+      "next": "finale",
+      "pts": 1,
+      "effects": {
+       "goodwill": 1
+      }
+     },
+     {
+      "text": "Share the honest stone: he weighs fairly now and pays his fee to the widow",
+      "next": "finale",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1
+      }
+     }
+    ]
+   },
+   "finale": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "karagoz",
+      "at": "midleft",
+      "pose": "bow"
+     },
+     {
+      "who": "hacivat",
+      "at": "midright"
+     }
+    ],
+    "text": "Hacivat draws the curtain: \"Karagöz, you nearly ruined the whole affair!\" Karagöz begs pardon with a bow so deep that his cap falls off. The lamp dims.",
+    "speaker": "hacivat",
+    "end": true
+   }
+  },
+  "endings": [
+   {
+    "id": "best",
+    "stars": 3,
+    "headline": "The scale that told the truth",
+    "text": "The whole market trusts the stone, the widow smiles and the scale is mended.",
+    "when": {
+     "min": {
+      "wit": 2,
+      "goodwill": 2
+     },
+     "notFlags": [
+      "accused"
+     ]
+    }
+   },
+   {
+    "id": "fine",
+    "stars": 2,
+    "headline": "A fair enough day",
+    "text": "The plums are weighed fairly at last, though the market grumbles about the noise.",
+    "when": {
+     "min": {
+      "wit": 1,
+      "goodwill": 1
+     }
+    }
+   },
+   {
+    "id": "loud",
+    "stars": 1,
+    "headline": "Loud, but light",
+    "text": "The day ends in shouting and half the baskets are lost. The scale still hangs crooked."
+   }
+  ]
+ }
+}

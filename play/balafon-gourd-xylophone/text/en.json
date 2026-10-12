@@ -1,0 +1,30 @@
+{
+ "title": "Balafon Gourd Xylophone",
+ "native": "Bala / balafon",
+ "alt": [
+  "Bala",
+  "Balani"
+ ],
+ "summary": "The balafon is a wooden-bar instrument of the Mande peoples of Mali, Guinea and Burkina Faso. Each bar hangs over a dried gourd, and players strike the bars with two soft mallets, answering and echoing short phrases.",
+ "howToPlay": [
+  "Twelve bars lie in order of pitch, shortest and highest on the right.",
+  "Listen to the phrase the instrument plays and watch the bars light up.",
+  "Then echo it: strike the same bars in the same rhythm.",
+  "Each song has four short phrases; try the pairs, then the five-note frame."
+ ],
+ "rules": [
+  "The bars follow an almost equal division of the octave into seven steps, each about 171 cents.",
+  "Each phrase is four beats; the computer plays it, then you echo it.",
+  "A stroke on the beat is perfect, a near one is good, and extra strokes cost points.",
+  "The five-note frame leaves out two of the seven notes, as pentatonic instruments do."
+ ],
+ "heritageNote": "Balafons are played across the Mande lands of West Africa, from solo pieces to ensembles with drums and song. Makers carve bars from slowly dried hardwood and tune them by shaving the wood, and the craft passes from family to family.",
+ "countries": [
+  "Mali",
+  "Guinea",
+  "Burkina Faso"
+ ],
+ "credits": [
+  "Tradition: Mande balafon music; phrases written for this game"
+ ]
+}

@@ -7,20 +7,20 @@ path: "/countries/"
 
 Every country with entries in the encyclopedia.
 
-- [Afghanistan](../countries/afghanistan/index.md): 5 entries
+- [Afghanistan](../countries/afghanistan/index.md): 6 entries
 - [Albania](../countries/albania/index.md): 5 entries
 - [Algeria](../countries/algeria/index.md): 2 entries
 - [Andorra](../countries/andorra/index.md): 3 entries
 - [Angola](../countries/angola/index.md): 5 entries
 - [Antigua and Barbuda](../countries/antigua-and-barbuda/index.md): 6 entries
 - [Argentina](../countries/argentina/index.md): 7 entries
-- [Armenia](../countries/armenia/index.md): 7 entries
+- [Armenia](../countries/armenia/index.md): 8 entries
 - [Australia](../countries/australia/index.md): 9 entries
-- [Austria](../countries/austria/index.md): 4 entries
-- [Azerbaijan](../countries/azerbaijan/index.md): 7 entries
+- [Austria](../countries/austria/index.md): 5 entries
+- [Azerbaijan](../countries/azerbaijan/index.md): 8 entries
 - [Bahamas](../countries/bahamas/index.md): 5 entries
 - [Bahrain](../countries/bahrain/index.md): 5 entries
-- [Bangladesh](../countries/bangladesh/index.md): 16 entries
+- [Bangladesh](../countries/bangladesh/index.md): 17 entries
 - [Barbados](../countries/barbados/index.md): 8 entries
 - [Belarus](../countries/belarus/index.md): 3 entries
 - [Belgium](../countries/belgium/index.md): 8 entries
@@ -30,35 +30,35 @@ Every country with entries in the encyclopedia.
 - [Bolivia](../countries/bolivia/index.md): 7 entries
 - [Bosnia and Herzegovina](../countries/bosnia-and-herzegovina/index.md): 1 entries
 - [Botswana](../countries/botswana/index.md): 6 entries
-- [Brazil](../countries/brazil/index.md): 8 entries
+- [Brazil](../countries/brazil/index.md): 9 entries
 - [Brunei](../countries/brunei/index.md): 10 entries
-- [Bulgaria](../countries/bulgaria/index.md): 3 entries
-- [Burkina Faso](../countries/burkina-faso/index.md): 7 entries
+- [Bulgaria](../countries/bulgaria/index.md): 5 entries
+- [Burkina Faso](../countries/burkina-faso/index.md): 8 entries
 - [Burundi](../countries/burundi/index.md): 2 entries
 - [Cambodia](../countries/cambodia/index.md): 7 entries
 - [Cameroon](../countries/cameroon/index.md): 8 entries
-- [Canada](../countries/canada/index.md): 13 entries
+- [Canada](../countries/canada/index.md): 14 entries
 - [Cape Verde](../countries/cape-verde/index.md): 2 entries
 - [Central African Republic](../countries/central-african-republic/index.md): 2 entries
 - [Chad](../countries/chad/index.md): 3 entries
 - [Chile](../countries/chile/index.md): 6 entries
-- [China](../countries/china/index.md): 50 entries
-- [Colombia](../countries/colombia/index.md): 7 entries
+- [China](../countries/china/index.md): 52 entries
+- [Colombia](../countries/colombia/index.md): 8 entries
 - [Comoros](../countries/comoros/index.md): 2 entries
 - [Congo](../countries/congo/index.md): 4 entries
 - [Costa Rica](../countries/costa-rica/index.md): 4 entries
 - [Cote d'Ivoire](../countries/cote-divoire/index.md): 10 entries
-- [Croatia](../countries/croatia/index.md): 4 entries
+- [Croatia](../countries/croatia/index.md): 5 entries
 - [Cuba](../countries/cuba/index.md): 8 entries
 - [Cyprus](../countries/cyprus/index.md): 5 entries
-- [Czechia](../countries/czechia/index.md): 3 entries
+- [Czechia](../countries/czechia/index.md): 4 entries
 - [DR Congo](../countries/dr-congo/index.md): 6 entries
 - [Denmark](../countries/denmark/index.md): 7 entries
 - [Djibouti](../countries/djibouti/index.md): 6 entries
 - [Dominica](../countries/dominica/index.md): 3 entries
 - [Dominican Republic](../countries/dominican-republic/index.md): 6 entries
 - [Ecuador](../countries/ecuador/index.md): 5 entries
-- [Egypt](../countries/egypt/index.md): 12 entries
+- [Egypt](../countries/egypt/index.md): 14 entries
 - [El Salvador](../countries/el-salvador/index.md): 4 entries
 - [Equatorial Guinea](../countries/equatorial-guinea/index.md): 3 entries
 - [Eritrea](../countries/eritrea/index.md): 7 entries
@@ -70,29 +70,29 @@ Every country with entries in the encyclopedia.
 - [France](../countries/france/index.md): 15 entries
 - [Gabon](../countries/gabon/index.md): 4 entries
 - [Gambia](../countries/gambia/index.md): 4 entries
-- [Georgia](../countries/georgia/index.md): 7 entries
-- [Germany](../countries/germany/index.md): 18 entries
-- [Ghana](../countries/ghana/index.md): 12 entries
+- [Georgia](../countries/georgia/index.md): 9 entries
+- [Germany](../countries/germany/index.md): 19 entries
+- [Ghana](../countries/ghana/index.md): 13 entries
 - [Greece](../countries/greece/index.md): 8 entries
 - [Grenada](../countries/grenada/index.md): 5 entries
 - [Guatemala](../countries/guatemala/index.md): 6 entries
-- [Guinea](../countries/guinea/index.md): 4 entries
+- [Guinea](../countries/guinea/index.md): 5 entries
 - [Guinea-Bissau](../countries/guinea-bissau/index.md): 3 entries
 - [Guyana](../countries/guyana/index.md): 3 entries
 - [Haiti](../countries/haiti/index.md): 7 entries
 - [Honduras](../countries/honduras/index.md): 5 entries
 - [Hungary](../countries/hungary/index.md): 4 entries
 - [Iceland](../countries/iceland/index.md): 4 entries
-- [India](../countries/india/index.md): 49 entries
-- [Indonesia](../countries/indonesia/index.md): 24 entries
-- [Iran](../countries/iran/index.md): 16 entries
+- [India](../countries/india/index.md): 54 entries
+- [Indonesia](../countries/indonesia/index.md): 26 entries
+- [Iran](../countries/iran/index.md): 17 entries
 - [Iraq](../countries/iraq/index.md): 10 entries
 - [Ireland](../countries/ireland/index.md): 9 entries
 - [Israel](../countries/israel/index.md): 3 entries
-- [Italy](../countries/italy/index.md): 22 entries
+- [Italy](../countries/italy/index.md): 23 entries
 - [Jamaica](../countries/jamaica/index.md): 7 entries
-- [Japan](../countries/japan/index.md): 51 entries
-- [Jordan](../countries/jordan/index.md): 6 entries
+- [Japan](../countries/japan/index.md): 52 entries
+- [Jordan](../countries/jordan/index.md): 8 entries
 - [Kazakhstan](../countries/kazakhstan/index.md): 9 entries
 - [Kenya](../countries/kenya/index.md): 11 entries
 - [Kiribati](../countries/kiribati/index.md): 2 entries
@@ -101,7 +101,7 @@ Every country with entries in the encyclopedia.
 - [Kyrgyzstan](../countries/kyrgyzstan/index.md): 7 entries
 - [Laos](../countries/laos/index.md): 8 entries
 - [Latvia](../countries/latvia/index.md): 4 entries
-- [Lebanon](../countries/lebanon/index.md): 9 entries
+- [Lebanon](../countries/lebanon/index.md): 10 entries
 - [Lesotho](../countries/lesotho/index.md): 5 entries
 - [Liberia](../countries/liberia/index.md): 5 entries
 - [Libya](../countries/libya/index.md): 4 entries
@@ -112,11 +112,11 @@ Every country with entries in the encyclopedia.
 - [Malawi](../countries/malawi/index.md): 3 entries
 - [Malaysia](../countries/malaysia/index.md): 22 entries
 - [Maldives](../countries/maldives/index.md): 9 entries
-- [Mali](../countries/mali/index.md): 9 entries
+- [Mali](../countries/mali/index.md): 10 entries
 - [Malta](../countries/malta/index.md): 5 entries
 - [Marshall Islands](../countries/marshall-islands/index.md): 2 entries
 - [Mauritania](../countries/mauritania/index.md): 3 entries
-- [Mauritius](../countries/mauritius/index.md): 1 entries
+- [Mauritius](../countries/mauritius/index.md): 2 entries
 - [Mexico](../countries/mexico/index.md): 11 entries
 - [Micronesia](../countries/micronesia/index.md): 4 entries
 - [Moldova](../countries/moldova/index.md): 4 entries
@@ -128,29 +128,29 @@ Every country with entries in the encyclopedia.
 - [Myanmar](../countries/myanmar/index.md): 9 entries
 - [Namibia](../countries/namibia/index.md): 2 entries
 - [Nauru](../countries/nauru/index.md): 4 entries
-- [Nepal](../countries/nepal/index.md): 11 entries
-- [Netherlands](../countries/netherlands/index.md): 15 entries
+- [Nepal](../countries/nepal/index.md): 13 entries
+- [Netherlands](../countries/netherlands/index.md): 16 entries
 - [New Zealand](../countries/new-zealand/index.md): 9 entries
 - [Nicaragua](../countries/nicaragua/index.md): 5 entries
 - [Niger](../countries/niger/index.md): 11 entries
-- [Nigeria](../countries/nigeria/index.md): 12 entries
+- [Nigeria](../countries/nigeria/index.md): 13 entries
 - [North Korea](../countries/north-korea/index.md): 6 entries
-- [North Macedonia](../countries/north-macedonia/index.md): 3 entries
+- [North Macedonia](../countries/north-macedonia/index.md): 4 entries
 - [Norway](../countries/norway/index.md): 9 entries
 - [Oman](../countries/oman/index.md): 5 entries
-- [Pakistan](../countries/pakistan/index.md): 15 entries
+- [Pakistan](../countries/pakistan/index.md): 17 entries
 - [Palau](../countries/palau/index.md): 2 entries
-- [Palestine](../countries/palestine/index.md): 10 entries
+- [Palestine](../countries/palestine/index.md): 11 entries
 - [Panama](../countries/panama/index.md): 3 entries
 - [Papua New Guinea](../countries/papua-new-guinea/index.md): 3 entries
 - [Paraguay](../countries/paraguay/index.md): 7 entries
 - [Peru](../countries/peru/index.md): 6 entries
 - [Philippines](../countries/philippines/index.md): 15 entries
 - [Poland](../countries/poland/index.md): 7 entries
-- [Portugal](../countries/portugal/index.md): 5 entries
+- [Portugal](../countries/portugal/index.md): 7 entries
 - [Qatar](../countries/qatar/index.md): 4 entries
 - [Romania](../countries/romania/index.md): 5 entries
-- [Russia](../countries/russia/index.md): 13 entries
+- [Russia](../countries/russia/index.md): 14 entries
 - [Rwanda](../countries/rwanda/index.md): 4 entries
 - [Saint Kitts and Nevis](../countries/saint-kitts-and-nevis/index.md): 1 entries
 - [Saint Lucia](../countries/saint-lucia/index.md): 4 entries
@@ -160,7 +160,7 @@ Every country with entries in the encyclopedia.
 - [Sao Tome and Principe](../countries/sao-tome-and-principe/index.md): 2 entries
 - [Saudi Arabia](../countries/saudi-arabia/index.md): 4 entries
 - [Senegal](../countries/senegal/index.md): 6 entries
-- [Serbia](../countries/serbia/index.md): 3 entries
+- [Serbia](../countries/serbia/index.md): 4 entries
 - [Seychelles](../countries/seychelles/index.md): 1 entries
 - [Sierra Leone](../countries/sierra-leone/index.md): 3 entries
 - [Singapore](../countries/singapore/index.md): 9 entries
@@ -169,15 +169,15 @@ Every country with entries in the encyclopedia.
 - [Solomon Islands](../countries/solomon-islands/index.md): 1 entries
 - [Somalia](../countries/somalia/index.md): 4 entries
 - [South Africa](../countries/south-africa/index.md): 12 entries
-- [South Korea](../countries/south-korea/index.md): 25 entries
+- [South Korea](../countries/south-korea/index.md): 26 entries
 - [South Sudan](../countries/south-sudan/index.md): 5 entries
-- [Spain](../countries/spain/index.md): 13 entries
+- [Spain](../countries/spain/index.md): 14 entries
 - [Sri Lanka](../countries/sri-lanka/index.md): 14 entries
 - [Sudan](../countries/sudan/index.md): 3 entries
 - [Suriname](../countries/suriname/index.md): 2 entries
 - [Sweden](../countries/sweden/index.md): 9 entries
 - [Switzerland](../countries/switzerland/index.md): 4 entries
-- [Syria](../countries/syria/index.md): 8 entries
+- [Syria](../countries/syria/index.md): 10 entries
 - [Taiwan](../countries/taiwan/index.md): 6 entries
 - [Tajikistan](../countries/tajikistan/index.md): 7 entries
 - [Tanzania](../countries/tanzania/index.md): 7 entries
@@ -187,19 +187,19 @@ Every country with entries in the encyclopedia.
 - [Tonga](../countries/tonga/index.md): 7 entries
 - [Trinidad and Tobago](../countries/trinidad-and-tobago/index.md): 6 entries
 - [Tunisia](../countries/tunisia/index.md): 2 entries
-- [Turkey](../countries/turkey/index.md): 16 entries
+- [Turkey](../countries/turkey/index.md): 17 entries
 - [Turkmenistan](../countries/turkmenistan/index.md): 7 entries
 - [Tuvalu](../countries/tuvalu/index.md): 2 entries
 - [Uganda](../countries/uganda/index.md): 7 entries
 - [Ukraine](../countries/ukraine/index.md): 4 entries
 - [United Arab Emirates](../countries/united-arab-emirates/index.md): 5 entries
 - [United Kingdom](../countries/united-kingdom/index.md): 47 entries
-- [United States](../countries/united-states/index.md): 31 entries
+- [United States](../countries/united-states/index.md): 34 entries
 - [Uruguay](../countries/uruguay/index.md): 5 entries
-- [Uzbekistan](../countries/uzbekistan/index.md): 8 entries
+- [Uzbekistan](../countries/uzbekistan/index.md): 9 entries
 - [Vanuatu](../countries/vanuatu/index.md): 3 entries
 - [Venezuela](../countries/venezuela/index.md): 4 entries
-- [Vietnam](../countries/vietnam/index.md): 9 entries
+- [Vietnam](../countries/vietnam/index.md): 10 entries
 - [Yemen](../countries/yemen/index.md): 5 entries
 - [Zambia](../countries/zambia/index.md): 5 entries
 - [Zimbabwe](../countries/zimbabwe/index.md): 5 entries

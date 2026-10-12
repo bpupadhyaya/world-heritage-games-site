@@ -39,11 +39,11 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md)
+- [Elastic Jump](../../games/6-elastic-jump/index.md)
 - [Double Dutch](../../games/53-double-dutch/index.md)
 - [Woggabaliri](../../games/561-woggabaliri/index.md)
 - [Finger pulling](../../games/563-finger-pulling/index.md)
 - [Kriol traditional games](../../games/585-kriol-traditional-games/index.md)
-- [Lato-lato](../../games/316-lato-lato/index.md)
 
 ## Sources
 

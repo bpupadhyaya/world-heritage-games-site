@@ -1,0 +1,13 @@
+{
+ "slug": "water-puppet-pond-theatre",
+ "title": "Water puppet pond theatre",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

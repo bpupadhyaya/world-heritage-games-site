@@ -1,0 +1,208 @@
+{
+ "engine": "pattern",
+ "params": {
+  "symmetry": "rot2",
+  "mode": "copy",
+  "rotateMarks": true,
+  "palette": [
+   {
+    "name": "Black",
+    "color": "#1d1a17"
+   },
+   {
+    "name": "Camwood red",
+    "color": "#9a3a22"
+   },
+   {
+    "name": "Dark brown",
+    "color": "#4a2d1a"
+   },
+   {
+    "name": "Cream",
+    "color": "#f1e6c6"
+   }
+  ],
+  "background": "#d9c08f",
+  "grid": "#b99a62",
+  "motifs": [
+   "fret",
+   "zigzag",
+   "knot",
+   "diamond",
+   "checker",
+   "triangle"
+  ],
+  "cols": 9,
+  "rows": 9,
+  "designs": [
+   {
+    "name": "Fret and knot",
+    "rows": [
+     "fFfFfFfFf",
+     ".........",
+     "..n...N..",
+     ".d.k.d.k.",
+     "..z.t.z..",
+     ".k.d.k.d.",
+     "..N...n..",
+     ".........",
+     "fFfFfFfFf"
+    ],
+    "legend": {
+     "f": {
+      "m": 0,
+      "c": 0
+     },
+     "F": {
+      "m": 0,
+      "c": 1
+     },
+     "z": {
+      "m": 1,
+      "c": 0
+     },
+     "n": {
+      "m": 2,
+      "c": 1
+     },
+     "N": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "D": {
+      "m": 3,
+      "c": 2
+     },
+     "k": {
+      "m": 4,
+      "c": 0
+     },
+     "t": {
+      "m": 5,
+      "c": 2
+     },
+     "T": {
+      "m": 5,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Zigzag field",
+    "rows": [
+     "zzzzzzzzz",
+     "k.k.k.k.k",
+     ".N...n...",
+     "..d.T.D..",
+     "t.f.F.f.t",
+     "..D.T.d..",
+     "...n...N.",
+     "k.k.k.k.k",
+     "zzzzzzzzz"
+    ],
+    "legend": {
+     "f": {
+      "m": 0,
+      "c": 0
+     },
+     "F": {
+      "m": 0,
+      "c": 1
+     },
+     "z": {
+      "m": 1,
+      "c": 0
+     },
+     "n": {
+      "m": 2,
+      "c": 1
+     },
+     "N": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "D": {
+      "m": 3,
+      "c": 2
+     },
+     "k": {
+      "m": 4,
+      "c": 0
+     },
+     "t": {
+      "m": 5,
+      "c": 2
+     },
+     "T": {
+      "m": 5,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Knot rows",
+    "rows": [
+     "nNnNnNnNn",
+     ".........",
+     "f.f.f.f.f",
+     ".t.t.T.t.",
+     "..k.D.k..",
+     ".t.T.t.t.",
+     "f.f.f.f.f",
+     ".........",
+     "nNnNnNnNn"
+    ],
+    "legend": {
+     "f": {
+      "m": 0,
+      "c": 0
+     },
+     "F": {
+      "m": 0,
+      "c": 1
+     },
+     "z": {
+      "m": 1,
+      "c": 0
+     },
+     "n": {
+      "m": 2,
+      "c": 1
+     },
+     "N": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "D": {
+      "m": 3,
+      "c": 2
+     },
+     "k": {
+      "m": 4,
+      "c": 0
+     },
+     "t": {
+      "m": 5,
+      "c": 2
+     },
+     "T": {
+      "m": 5,
+      "c": 1
+     }
+    }
+   }
+  ]
+ }
+}

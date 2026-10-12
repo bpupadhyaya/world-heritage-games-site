@@ -2,7 +2,7 @@
 title: "Celtic and Atlantic Europe"
 description: "Ireland, Britain, France and the Low Countries."
 path: "/cradles/celtic-atlantic/"
-count: 72
+count: 73
 ---
 # Celtic and Atlantic Europe
 
@@ -10,7 +10,7 @@ Ireland, Britain, France and the Low Countries.
 
 
 
-72 entries.
+73 entries.
 
 - [Bagatelle](../../games/72-bagatelle/index.md): France, United Kingdom; Dexterity and skill games; Modern Heritage
 - [Basque stone lifting](../../games/479-basque-stone-lifting/index.md): France; Acrobatics and strength; Classical Worlds
@@ -19,6 +19,7 @@ Ireland, Britain, France and the Low Countries.
 - [Bobbin lace making](../../games/108-bobbin-lace-making/index.md): Belgium; Crafts and making; Living Traditions
 - [Bodhran Frame Drum](../../games/521-bodhran-frame-drum/index.md): Ireland; Musical instruments; Age of Contact and Craft
 - [Bridge Stick Race](../../games/468-bridge-stick-race/index.md): United Kingdom; Toys; Modern Heritage
+- [Canal ice-skating marathon](../../games/84-canal-ice-skating-marathon/index.md): Netherlands; Racing; Age of Contact and Craft
 - [Canal pole vault](../../games/7-canal-pole-vault/index.md): Netherlands; Water and winter sports; Modern Heritage
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md): United Kingdom, Canada; Dexterity and skill games; Age of Contact and Craft
 - [Carillon](../../games/418-carillon/index.md): Belgium, Netherlands; Musical instruments; Living Traditions

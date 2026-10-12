@@ -1,0 +1,13 @@
+{
+ "slug": "ring-tilting",
+ "title": "Ring Tilting (Sinj Alka)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

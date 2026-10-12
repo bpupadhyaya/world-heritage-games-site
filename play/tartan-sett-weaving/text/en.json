@@ -1,0 +1,27 @@
+{
+ "title": "Tartan sett weaving",
+ "native": "Breacan",
+ "alt": [
+  "Tartan",
+  "Plaid cloth"
+ ],
+ "summary": "A tartan is a woven twill cloth whose stripes of coloured thread run both ways in the same order, so that the stripes cross into blocks and blends of colour. The order and thread counts of those stripes is called the sett, and a weaver reads it like a chart.",
+ "howToPlay": [
+  "Pick a thread colour and a mark from the strip under the cloth: a solid block, a lengthwise stripe, a crosswise stripe or a blend.",
+  "Tap a square to place it: the matching squares on the other side of the cloth fill in, because a sett is mirrored about its centre.",
+  "Copy the small sett above the cloth, then press Check."
+ ],
+ "rules": [
+  "The cloth is mirrored left to right and top to bottom, as a sett turns back on itself at its pivot.",
+  "Where two stripes of the same colour cross the square is a solid block; where a stripe crosses the dark ground it shows as a line; where two colours meet they blend.",
+  "A square counts only when its mark and its colour both match the sett."
+ ],
+ "heritageNote": "Tartan cloth has been woven in the Scottish Highlands and across Ireland for centuries, and weavers there and in other countries keep the craft alive. Individual clan and district setts are registered designs, so the setts in this game are original and generic.",
+ "countries": [
+  "United Kingdom",
+  "Ireland"
+ ],
+ "credits": [
+  "Sett design: World Heritage Games (original, generic setts)"
+ ]
+}

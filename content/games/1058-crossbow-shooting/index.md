@@ -43,6 +43,6 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Bocce](../../games/830-bocce/index.md)
 - [Crossbow Target Match](../../games/1367-crossbow-target-match/index.md)
 - [Ring Tilting](../../games/65-ring-tilting/index.md)
+- [Castells](../../games/119-castells/index.md)
+- [Flag Tossing](../../games/395-flag-tossing/index.md)
 - [Euclid's Ruler and Compass](../../games/396-euclids-ruler-and-compass/index.md)
-- [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md)
-- [Gondola Rowing](../../games/401-gondola-rowing/index.md)

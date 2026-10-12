@@ -1,18 +1,19 @@
 ---
 title: "India"
-description: "49 traditions from India."
+description: "54 traditions from India."
 path: "/countries/india/"
-count: 49
+count: 54
 ---
 # India
 
-49 traditions from India.
+54 traditions from India.
 
 
 
-49 entries.
+54 entries.
 
 - [Bandhani tie-dye](../../games/258-bandhani-tie-dye/index.md): India; Crafts and making; Living Traditions
+- [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md): India, Nepal; Musical instruments; Classical Worlds
 - [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md): India; Dexterity and skill games; Modern Heritage
 - [Blacksmith's Forge](../../games/506-blacksmiths-forge/index.md): United Kingdom, Germany; Crafts and making; Living Traditions
 - [Blind Man's Buff](../../games/467-blind-mans-buff/index.md): Turkey, India; Street and playground games; Modern Heritage
@@ -27,6 +28,7 @@ count: 49
 - [Jaapi weaving](../../games/1304-jaapi-weaving/index.md): India; Crafts and making; Living Traditions
 - [Jaipur blue pottery painting](../../games/262-jaipur-blue-pottery-painting/index.md): India; Crafts and making; Living Traditions
 - [Kabaddi](../../games/789-kabaddi/index.md): India, Pakistan; Street and playground games; Modern Heritage
+- [Kambala](../../games/80-kambala/index.md): India; Racing; Age of Contact and Craft
 - [Kashmiri papier-mache painting](../../games/269-kashmiri-papier-mache-painting/index.md): India; Crafts and making; Living Traditions
 - [Kathak tatkar footwork rhythm](../../games/267-kathak-tatkar-footwork-rhythm/index.md): India, Pakistan; Other traditions; Living Traditions
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md): India; Performance and storytelling; Classical Worlds
@@ -35,6 +37,7 @@ count: 49
 - [Lagori](../../games/14-lagori/index.md): India; Street and playground games; Modern Heritage
 - [Letter Categories](../../games/472-letter-categories/index.md): Germany, India; Racing; Age of Contact and Craft
 - [Lippan kaam mud-and-mirror relief](../../games/259-lippan-kaam-mud-and-mirror-relief/index.md): India, Pakistan; Crafts and making; Living Traditions
+- [Mallakhamb](../../games/150-mallakhamb/index.md): India; Dexterity and skill games; Modern Heritage
 - [Mehndi henna pattern drawing](../../games/260-mehndi-henna-pattern-drawing/index.md): India, Pakistan; Crafts and making; Living Traditions
 - [Mithila folk painting](../../games/1337-mithila-folk-painting/index.md): Nepal, India; Crafts and making; Living Traditions
 - [Nouka Baich](../../games/42-nouka-baich/index.md): Bangladesh, India; Racing; Age of Contact and Craft
@@ -48,6 +51,8 @@ count: 49
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md): Japan, India; Crafts and making; Living Traditions
 - [Shikara paddle race](../../games/265-shikara-paddle-race/index.md): India; Racing; Age of Contact and Craft
 - [Silambam](../../games/271-silambam/index.md): India; Wrestling and martial sports; Classical Worlds
+- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md): India, Nepal; Musical instruments; Living Traditions
+- [Tent pegging](../../games/78-tent-pegging/index.md): Pakistan, India; Dexterity and skill games; Modern Heritage
 - [Thanjavur dancing doll](../../games/275-thanjavur-dancing-doll/index.md): India; Toys; Modern Heritage
 - [Veena](../../games/282-veena/index.md): India; Musical instruments; Crossroads and Golden Ages
 - [Warli painting](../../games/117-warli-painting/index.md): India; Crafts and making; Living Traditions

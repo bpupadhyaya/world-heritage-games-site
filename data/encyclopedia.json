@@ -6,6 +6,42 @@
  "generated": "2026-10-10",
  "entries": [
   {
+   "id": 1,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/1-jianzi/",
+   "name": "Jianzi",
+   "native": "毽子",
+   "alt": [],
+   "countries": [
+    "China",
+    "Vietnam",
+    "South Korea"
+   ],
+   "country_codes": [
+    "CN",
+    "VN",
+    "KR"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Dexterity and skill games",
+   "family": "Kicking and football games",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "China",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of China.",
+   "summary": "Jianzi is a dexterity and skill game tradition from China, Vietnam.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of China, Vietnam, South Korea.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Jianzi_players.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00001-jianzi.jpg",
+    "author": "Janus Bahs Jacquet from Copenhagen, Danmark",
+    "licence": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jianzi_players.jpg"
+   }
+  },
+  {
    "id": 2,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/2-pitch-pot/",
    "name": "Pitch-pot",
@@ -132,6 +168,38 @@
    }
   },
   {
+   "id": 6,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/6-elastic-jump/",
+   "name": "Elastic Jump",
+   "native": "Gummitwist / Tiao pi jin",
+   "alt": [],
+   "countries": [
+    "China"
+   ],
+   "country_codes": [
+    "CN"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Street and playground games",
+   "family": "Rhyme and hand games",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "China",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of China.",
+   "summary": "Elastic Jump is a street and playground game tradition from China.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of China.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Gummitwist-1998Kinder2.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00006-elastic-jump.jpg",
+    "author": "Werner",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gummitwist-1998Kinder2.jpg"
+   }
+  },
+  {
    "id": 7,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/7-canal-pole-vault/",
    "name": "Canal pole vault",
@@ -244,7 +312,7 @@
     "CH"
    ],
    "region": "Europe",
-   "type": "Board and table games",
+   "type": "Bat-and-ball games",
    "family": "",
    "era": "Crossroads and Golden Ages",
    "era_uncertain": true,
@@ -535,6 +603,38 @@
    }
   },
   {
+   "id": 19,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/19-camel-racing-dash/",
+   "name": "Camel racing dash",
+   "native": "Sibaq al-hajin (Arabic)",
+   "alt": [],
+   "countries": [
+    "Jordan"
+   ],
+   "country_codes": [
+    "JO"
+   ],
+   "region": "Middle East and North Africa",
+   "type": "Racing",
+   "family": "Horse and animal sports",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Mesopotamia, Levant and Arabia",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Mesopotamia, Levant and Arabia.",
+   "summary": "Camel racing dash is a racing tradition from Jordan.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Jordan. Animals are partners in this tradition; good care and local rules always come first.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Camel_Race_Training.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00019-camel-racing-dash.jpg",
+    "author": "Lintophilip (User)",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Camel_Race_Training.jpg"
+   }
+  },
+  {
    "id": 20,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/20-ebru-paper-marbling/",
    "name": "Ebru paper marbling",
@@ -793,6 +893,38 @@
    }
   },
   {
+   "id": 29,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/29-secret-puzzle-box/",
+   "name": "Secret Puzzle Box",
+   "native": "Himitsu-bako",
+   "alt": [],
+   "countries": [
+    "Japan"
+   ],
+   "country_codes": [
+    "JP"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Puzzles and mind games",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Japan and Korea",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Japan and Korea.",
+   "summary": "Secret Puzzle Box is a puzzles and mind game tradition from Japan.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Japan. Animals are partners in this tradition; good care and local rules always come first.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Japanese_Secret_Puzzle_Box.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00029-secret-puzzle-box.jpg",
+    "author": "Nipaylah",
+    "licence": "CC BY 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Japanese_Secret_Puzzle_Box.jpg"
+   }
+  },
+  {
    "id": 31,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/31-steelpan/",
    "name": "Steelpan",
@@ -921,6 +1053,44 @@
    }
   },
   {
+   "id": 35,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/35-tabla-bol-rhythm/",
+   "name": "Tabla Bol Rhythm",
+   "native": "तबला",
+   "alt": [],
+   "countries": [
+    "India",
+    "Nepal",
+    "Bangladesh",
+    "Pakistan"
+   ],
+   "country_codes": [
+    "IN",
+    "NP",
+    "BD",
+    "PK"
+   ],
+   "region": "South and Central Asia",
+   "type": "Musical instruments",
+   "family": "Drums and percussion",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of South Asia.",
+   "summary": "Tabla Bol Rhythm is a musical instrument tradition from India, Nepal.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of India, Nepal, Bangladesh. Some forms of this practice carry deep meaning for the communities who keep it; here we describe the play and the craft only, with respect for its roots.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Tabla_set_Music_Instrument.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00035-tabla-bol-rhythm.jpg",
+    "author": "Adbh266",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tabla_set_Music_Instrument.jpg"
+   }
+  },
+  {
    "id": 37,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/37-dabke-line-dance/",
    "name": "Dabke line dance",
@@ -953,6 +1123,38 @@
    }
   },
   {
+   "id": 38,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/38-karagoz/",
+   "name": "Karagoz",
+   "native": "Karagöz",
+   "alt": [],
+   "countries": [
+    "Turkey"
+   ],
+   "country_codes": [
+    "TR"
+   ],
+   "region": "Middle East and North Africa",
+   "type": "Performance and storytelling",
+   "family": "Puppetry and shadow play",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Mesopotamia, Levant and Arabia",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Mesopotamia, Levant and Arabia.",
+   "summary": "Karagoz is a performance and storytelling tradition from Turkey.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Turkey.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Karagoz_transformed_into_a_frog,_Karagoz,_Turkey_-_Museu_do_Oriente_-_Lisbon,_Portugal_-_DSC06821.JPG"
+   ],
+   "photo": {
+    "file": "img/photos/00038-karagoz.jpg",
+    "author": "Daderot",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Karagoz_transformed_into_a_frog,_Karagoz,_Turkey_-_Museu_do_Oriente_-_Lisbon,_Portugal_-_DSC06821.JPG"
+   }
+  },
+  {
    "id": 39,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/39-tea-horse-road-caravan/",
    "name": "Tea Horse Road Caravan",
@@ -982,6 +1184,38 @@
     "author": "ralph repo",
     "licence": "CC BY 2.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Men_Laden_With_Tea,_Sichuan_Sheng,_China_1908_Ernest_H._Wilson_RESTORED.jpg"
+   }
+  },
+  {
+   "id": 41,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/41-panduri/",
+   "name": "Panduri",
+   "native": "Panduri / Chonguri",
+   "alt": [],
+   "countries": [
+    "Georgia"
+   ],
+   "country_codes": [
+    "GE"
+   ],
+   "region": "Europe",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Persia, Caucasus and Central Asia",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Persia, Caucasus and Central Asia.",
+   "summary": "Panduri is a musical instrument tradition from Georgia.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Georgia.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Panduri_(9).jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00041-panduri.jpg",
+    "author": "Masha Afan (Flickr)",
+    "licence": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Panduri_(9).jpg"
    }
   },
   {
@@ -1055,6 +1289,38 @@
    }
   },
   {
+   "id": 44,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/44-ulu-maika/",
+   "name": "'Ulu Maika",
+   "native": "ʻUlu maika",
+   "alt": [],
+   "countries": [
+    "United States"
+   ],
+   "country_codes": [
+    "US"
+   ],
+   "region": "Americas",
+   "type": "Dexterity and skill games",
+   "family": "Winter sports",
+   "era": "Age of Contact and Craft",
+   "era_uncertain": true,
+   "cradle": "Pacific and Oceania",
+   "origin_note": "Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), although its exact origins are uncertain, within the cultural world of Pacific and Oceania.",
+   "summary": "Roll a smooth stone disc (maika) between two stakes set a few paces apart, and across a distance to hit a far stake.",
+   "how_played": "Roll a smooth stone disc (maika) between two stakes set a few paces apart, and across a distance to hit a far stake.",
+   "heritage_note": "Part of the living heritage of United States. Some forms of this practice carry deep meaning for the communities who keep it; here we describe the play and the craft only, with respect for its roots.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Keiki_engage_in_‘ulu_maika_--_Hawaiian_bowling_game_(48877865742).jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00044-ulu-maika.jpg",
+    "author": "Hawai'i Volcanoes NPS",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Keiki_engage_in_‘ulu_maika_--_Hawaiian_bowling_game_(48877865742).jpg"
+   }
+  },
+  {
    "id": 45,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/45-chaturanga/",
    "name": "Chaturanga",
@@ -1118,6 +1384,38 @@
     "author": "Sofi Solihah",
     "licence": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Bermain_Gobak_Sodor_di_Sumba_Barat_Daya.jpg"
+   }
+  },
+  {
+   "id": 47,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/47-wayang-shadow-puppets/",
+   "name": "Wayang Shadow Puppets",
+   "native": "Wayang kulit",
+   "alt": [],
+   "countries": [
+    "Indonesia"
+   ],
+   "country_codes": [
+    "ID"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Performance and storytelling",
+   "family": "Puppetry and shadow play",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Southeast Asia and the Islands",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Southeast Asia and the Islands.",
+   "summary": "Wayang Shadow Puppets is a performance and storytelling tradition from Indonesia.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Indonesia. Some forms of this practice carry deep meaning for the communities who keep it; here we describe the play and the craft only, with respect for its roots.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Pertunjukan_Wayang_Kulit.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00047-wayang-shadow-puppets.jpg",
+    "author": "FaizAttariqi",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pertunjukan_Wayang_Kulit.jpg"
    }
   },
   {
@@ -1477,6 +1775,40 @@
    }
   },
   {
+   "id": 59,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/59-log-rolling/",
+   "name": "Log rolling",
+   "native": "Birling / log rolling",
+   "alt": [],
+   "countries": [
+    "United States",
+    "Canada"
+   ],
+   "country_codes": [
+    "US",
+    "CA"
+   ],
+   "region": "Americas",
+   "type": "Dexterity and skill games",
+   "family": "",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "The Americas: North America",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of The Americas: North America.",
+   "summary": "Two players stand on a floating log and spin it with their feet, trying to make the other lose balance and fall in the water.",
+   "how_played": "Two players stand on a floating log and spin it with their feet, trying to make the other lose balance and fall in the water.",
+   "heritage_note": "Part of the living heritage of United States, Canada. Some forms of this practice carry deep meaning for the communities who keep it; here we describe the play and the craft only, with respect for its roots.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Lumberjack_World_Championship_Hayward_Wisconsin_Logrolling.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00059-log-rolling.jpg",
+    "author": "Guywelch2000",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lumberjack_World_Championship_Hayward_Wisconsin_Logrolling.jpg"
+   }
+  },
+  {
    "id": 60,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/60-charro-lasso-roping/",
    "name": "Charro lasso roping",
@@ -1740,6 +2072,38 @@
    }
   },
   {
+   "id": 68,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/68-string-marionette-theatre/",
+   "name": "String Marionette Theatre",
+   "native": "Loutkové divadlo",
+   "alt": [],
+   "countries": [
+    "Czechia"
+   ],
+   "country_codes": [
+    "CZ"
+   ],
+   "region": "Europe",
+   "type": "Performance and storytelling",
+   "family": "String instruments",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Northern and Eastern Europe",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Northern and Eastern Europe.",
+   "summary": "String Marionette Theatre is a performance and storytelling tradition from Czechia.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Czechia.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Marionettes_for_Sale_-_Prague_-_Czech_Republic.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00068-string-marionette-theatre.jpg",
+    "author": "Adam Jones, Ph.D.",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Marionettes_for_Sale_-_Prague_-_Czech_Republic.jpg"
+   }
+  },
+  {
    "id": 69,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/69-hoop-rolling-trundle/",
    "name": "Hoop Rolling Trundle",
@@ -1998,6 +2362,40 @@
    }
   },
   {
+   "id": 78,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/78-tent-pegging/",
+   "name": "Tent pegging",
+   "native": "نیزہ بازی",
+   "alt": [],
+   "countries": [
+    "Pakistan",
+    "India"
+   ],
+   "country_codes": [
+    "PK",
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Dexterity and skill games",
+   "family": "Winter sports",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "South Asia",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of South Asia.",
+   "summary": "Tent pegging is a dexterity and skill game tradition from Pakistan, India.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Pakistan, India. Animals are partners in this tradition; good care and local rules always come first. It is presented as sport and skill, never as real fighting.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Tent_pegging_(montage).jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00078-tent-pegging.jpg",
+    "author": "Mike Bostock",
+    "licence": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tent_pegging_(montage).jpg"
+   }
+  },
+  {
    "id": 79,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/79-kathputli-string-puppets/",
    "name": "Kathputli string puppets",
@@ -2027,6 +2425,38 @@
     "author": "Manojmeena",
     "licence": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Kathputli_(Puppet)_of_Rajasthan.jpg"
+   }
+  },
+  {
+   "id": 80,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/80-kambala/",
+   "name": "Kambala",
+   "native": "ಕಂಬಳ",
+   "alt": [],
+   "countries": [
+    "India"
+   ],
+   "country_codes": [
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Racing",
+   "family": "",
+   "era": "Age of Contact and Craft",
+   "era_uncertain": true,
+   "cradle": "South Asia",
+   "origin_note": "Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), although its exact origins are uncertain, within the cultural world of South Asia.",
+   "summary": "Kambala is a racing tradition from India.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of India. Animals are partners in this tradition; good care and local rules always come first.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Kambala_race_held_at_paivalike_,kasargod.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00080-kambala.jpg",
+    "author": "Sajith mv parappally",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kambala_race_held_at_paivalike_,kasargod.jpg"
    }
   },
   {
@@ -2127,6 +2557,38 @@
     "author": "Raffaello Sorbi",
     "licence": "Public domain",
     "source_url": "https://commons.wikimedia.org/wiki/The_game_of_morra_(unknown_date),_by_Raffaello_Sorbi.jpg"
+   }
+  },
+  {
+   "id": 84,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/84-canal-ice-skating-marathon/",
+   "name": "Canal ice-skating marathon",
+   "native": "Schaatsen op natuurijs",
+   "alt": [],
+   "countries": [
+    "Netherlands"
+   ],
+   "country_codes": [
+    "NL"
+   ],
+   "region": "Europe",
+   "type": "Racing",
+   "family": "Winter sports",
+   "era": "Age of Contact and Craft",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "Canal ice-skating marathon is a racing tradition from Netherlands.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Netherlands.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/Elfstedentocht,_reportage,_Bestanddeelnr_906-2816.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00084-canal-ice-skating-marathon.jpg",
+    "author": "Joop van Bilsen / Anefo",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/Elfstedentocht,_reportage,_Bestanddeelnr_906-2816.jpg"
    }
   },
   {
@@ -3222,6 +3684,38 @@
    }
   },
   {
+   "id": 119,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/119-castells/",
+   "name": "Castells",
+   "native": "Castells",
+   "alt": [],
+   "countries": [
+    "Spain"
+   ],
+   "country_codes": [
+    "ES"
+   ],
+   "region": "Europe",
+   "type": "Puzzles and mind games",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Mediterranean",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Mediterranean.",
+   "summary": "Castells is a puzzles and mind game tradition from Spain.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Spain.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/3d10_fm_de_vilafranca.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00119-castells.jpg",
+    "author": "Eric Sala & Tania Garcia",
+    "licence": "CC BY-SA 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/3d10_fm_de_vilafranca.jpg"
+   }
+  },
+  {
    "id": 120,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/120-rosemaling/",
    "name": "Rosemaling",
@@ -3546,6 +4040,76 @@
    }
   },
   {
+   "id": 133,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/133-balalaika/",
+   "name": "Balalaika",
+   "native": "Балалайка",
+   "alt": [],
+   "countries": [
+    "Russia"
+   ],
+   "country_codes": [
+    "RU"
+   ],
+   "region": "Europe",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Northern and Eastern Europe",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Northern and Eastern Europe.",
+   "summary": "Balalaika is a musical instrument tradition from Russia.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Russia.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:A_prima_balalaika_and_a_bass_balalaika.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00133-balalaika.jpg",
+    "author": "Cullen328",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_prima_balalaika_and_a_bass_balalaika.jpg"
+   }
+  },
+  {
+   "id": 134,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/134-balkan-kolo/",
+   "name": "Balkan Kolo",
+   "native": "Коло",
+   "alt": [],
+   "countries": [
+    "Serbia",
+    "Croatia",
+    "Bulgaria",
+    "North Macedonia"
+   ],
+   "country_codes": [
+    "RS",
+    "HR",
+    "BG",
+    "MK"
+   ],
+   "region": "Europe",
+   "type": "Dances",
+   "family": "Folk and line dances",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Northern and Eastern Europe",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Northern and Eastern Europe.",
+   "summary": "Balkan Kolo is a dance tradition from Serbia, Croatia.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Serbia, Croatia, Bulgaria.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Šopsko_kolo,_XVIII_Duna.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00134-balkan-kolo.jpg",
+    "author": "Wilfredor",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Šopsko_kolo,_XVIII_Duna.jpg"
+   }
+  },
+  {
    "id": 135,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/135-fujara/",
    "name": "Fujara",
@@ -3779,6 +4343,40 @@
    }
   },
   {
+   "id": 144,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/144-ukulele-strum-along/",
+   "name": "Ukulele strum-along",
+   "native": "'Ukulele",
+   "alt": [],
+   "countries": [
+    "United States",
+    "Portugal"
+   ],
+   "country_codes": [
+    "US",
+    "PT"
+   ],
+   "region": "Americas",
+   "type": "Musical instruments",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Pacific and Oceania",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Pacific and Oceania.",
+   "summary": "Ukulele strum-along is a musical instrument tradition from United States, Portugal.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of United States, Portugal.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Hawaiian_musician_with_ukulele._Taken_during_the_Pan-American_Exposition_held_in_Buffalo,_NY_in_1901_(PP-33-4-016)_(cropped).jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00144-ukulele-strum-along.jpg",
+    "author": "Beach Photo Studio, Buffalo, NY",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hawaiian_musician_with_ukulele._Taken_during_the_Pan-American_Exposition_held_in_Buffalo,_NY_in_1901_(PP-33-4-016)_(cropped).jpg"
+   }
+  },
+  {
    "id": 145,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/145-khene/",
    "name": "Khene",
@@ -3840,6 +4438,72 @@
     "author": "Thorn Hurdles (Pearl of the Orient: Discover Old Philippines)",
     "licence": "Public domain",
     "source_url": "https://commons.wikimedia.org/wiki/File:Luksong_Tinik.jpg"
+   }
+  },
+  {
+   "id": 149,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/149-bansuri-bamboo-flute/",
+   "name": "Bansuri bamboo flute",
+   "native": "बाँसुरी",
+   "alt": [],
+   "countries": [
+    "India",
+    "Nepal"
+   ],
+   "country_codes": [
+    "IN",
+    "NP"
+   ],
+   "region": "South and Central Asia",
+   "type": "Musical instruments",
+   "family": "Wind instruments",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "South Asia",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of South Asia.",
+   "summary": "Bansuri bamboo flute is a musical instrument tradition from India, Nepal.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of India, Nepal.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:All_scales_of_Bansuris_in_a_set.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00149-bansuri-bamboo-flute.jpg",
+    "author": "Vamsivadrevu",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:All_scales_of_Bansuris_in_a_set.jpg"
+   }
+  },
+  {
+   "id": 150,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/150-mallakhamb/",
+   "name": "Mallakhamb",
+   "native": "मल्लखांब",
+   "alt": [],
+   "countries": [
+    "India"
+   ],
+   "country_codes": [
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Dexterity and skill games",
+   "family": "Winter sports",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "South Asia",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of South Asia.",
+   "summary": "Mallakhamb is a dexterity and skill game tradition from India.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of India.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Performing_mallakhamb.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00150-mallakhamb.jpg",
+    "author": "Adarsh Upadhyay",
+    "licence": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Performing_mallakhamb.jpg"
    }
   },
   {
@@ -4254,6 +4918,42 @@
    }
   },
   {
+   "id": 165,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/165-kamancha/",
+   "name": "Kamancha",
+   "native": "Kamança / Kamānche",
+   "alt": [],
+   "countries": [
+    "Azerbaijan",
+    "Iran",
+    "Armenia"
+   ],
+   "country_codes": [
+    "AZ",
+    "IR",
+    "AM"
+   ],
+   "region": "Europe",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Persia, Caucasus and Central Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Persia, Caucasus and Central Asia.",
+   "summary": "Kamancha is a musical instrument tradition from Azerbaijan, Iran.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Azerbaijan, Iran, Armenia.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Kamancha,_1950.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00165-kamancha.jpg",
+    "author": "Toghrul R",
+    "licence": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kamancha,_1950.jpg"
+   }
+  },
+  {
    "id": 166,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/166-laamb-wrestling-bout/",
    "name": "Laamb Wrestling Bout",
@@ -4325,6 +5025,42 @@
     "author": "Esc861",
     "licence": "Public domain",
     "source_url": "https://commons.wikimedia.org/wiki/File:Yote_board.JPG"
+   }
+  },
+  {
+   "id": 168,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/168-balafon-gourd-xylophone/",
+   "name": "Balafon Gourd Xylophone",
+   "native": "Bala / balafon",
+   "alt": [],
+   "countries": [
+    "Mali",
+    "Guinea",
+    "Burkina Faso"
+   ],
+   "country_codes": [
+    "ML",
+    "GN",
+    "BF"
+   ],
+   "region": "Sub-Saharan Africa",
+   "type": "Musical instruments",
+   "family": "Drums and percussion",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Africa: Sahel, West and Central",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Africa: Sahel, West and Central.",
+   "summary": "Balafon Gourd Xylophone is a musical instrument tradition from Mali, Guinea.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Mali, Guinea, Burkina Faso. Some forms of this practice carry deep meaning for the communities who keep it; here we describe the play and the craft only, with respect for its roots.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Balafon_(Aly_Keita)_Unterfahrt_2010-03-11-001.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00168-balafon-gourd-xylophone.jpg",
+    "author": "OhWeh",
+    "licence": "CC BY-SA 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Balafon_(Aly_Keita)_Unterfahrt_2010-03-11-001.jpg"
    }
   },
   {
@@ -4525,6 +5261,40 @@
     "author": "Alexander Leisser",
     "licence": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Tiebele_village_in_Burkina_Faso_04.jpg"
+   }
+  },
+  {
+   "id": 175,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/175-fufu-pounding-rhythm/",
+   "name": "Fufu Pounding Rhythm",
+   "native": "Fufu pounding",
+   "alt": [],
+   "countries": [
+    "Ghana",
+    "Nigeria"
+   ],
+   "country_codes": [
+    "GH",
+    "NG"
+   ],
+   "region": "Sub-Saharan Africa",
+   "type": "Crafts and making",
+   "family": "",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Africa: Sahel, West and Central",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Africa: Sahel, West and Central.",
+   "summary": "Fufu Pounding Rhythm is a crafts and making tradition from Ghana, Nigeria.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Ghana, Nigeria.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Fufu_Pounding_2.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00175-fufu-pounding-rhythm.jpg",
+    "author": "daSupremo",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fufu_Pounding_2.jpg"
    }
   },
   {
@@ -5018,6 +5788,34 @@
    }
   },
   {
+   "id": 191,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/191-isukuti-drum-dance/",
+   "name": "Isukuti drum dance",
+   "native": "Isukuti",
+   "alt": [],
+   "countries": [],
+   "country_codes": [],
+   "region": "Worldwide",
+   "type": "Musical instruments",
+   "family": "Drums and percussion",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Shared across the world",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin.",
+   "summary": "Isukuti drum dance is a musical instrument tradition.",
+   "how_played": "",
+   "heritage_note": "A tradition shared by communities in many places. Some forms of this practice carry deep meaning for the communities who keep it; here we describe the play and the craft only, with respect for its roots.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Isukuti_drummers_marching_with_participants_during_The_Breastfeeding_Run.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00191-isukuti-drum-dance.jpg",
+    "author": "Lebu Ayiga",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Isukuti_drummers_marching_with_participants_during_The_Breastfeeding_Run.jpg"
+   }
+  },
+  {
    "id": 192,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/192-nubian-house-painting/",
    "name": "Nubian house painting",
@@ -5199,6 +5997,38 @@
     "author": "Zythème",
     "licence": "CC0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Planche_de_m%C3%A9moire_(lukasa).jpg"
+   }
+  },
+  {
+   "id": 199,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/199-sega-ravanne-drum/",
+   "name": "Sega ravanne drum",
+   "native": "Sega tipik / ravanne",
+   "alt": [],
+   "countries": [
+    "Mauritius"
+   ],
+   "country_codes": [
+    "MU"
+   ],
+   "region": "Sub-Saharan Africa",
+   "type": "Musical instruments",
+   "family": "Drums and percussion",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Africa: Great Lakes and Indian Ocean",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Africa: Great Lakes and Indian Ocean.",
+   "summary": "Sega ravanne drum is a musical instrument tradition from Mauritius.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Mauritius.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Ravanne.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00199-sega-ravanne-drum.jpg",
+    "author": "MU Music Contributor",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ravanne.jpg"
    }
   },
   {
@@ -5518,6 +6348,40 @@
     "author": "Ma'moun Othman",
     "licence": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File%3ACypress_trees_pattern_%28Palesti-nian_embroidery-Jaffa_area%29.jpg"
+   }
+  },
+  {
+   "id": 214,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/214-mashrabiya-lattice-joinery/",
+   "name": "Mashrabiya Lattice Joinery",
+   "native": "mashrabiya / moucharabieh",
+   "alt": [],
+   "countries": [
+    "Egypt",
+    "Syria"
+   ],
+   "country_codes": [
+    "EG",
+    "SY"
+   ],
+   "region": "Middle East and North Africa",
+   "type": "Crafts and making",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Africa: Nile and the Horn",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Africa: Nile and the Horn.",
+   "summary": "Mashrabiya Lattice Joinery is a crafts and making tradition from Egypt, Syria.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Egypt, Syria.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File%3AMashrabiya_Screen_MET_DP155281.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00214-mashrabiya-lattice-joinery.jpg",
+    "author": "Metropolitan Museum of Art",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AMashrabiya_Screen_MET_DP155281.jpg"
    }
   },
   {
@@ -5848,6 +6712,86 @@
     "author": "Adil massil",
     "licence": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File%3AAzatta_n_laures.jpg"
+   }
+  },
+  {
+   "id": 225,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/225-maamoul-cookie-moulding/",
+   "name": "Maamoul Cookie Moulding",
+   "native": "ma'amoul / معمول",
+   "alt": [],
+   "countries": [
+    "Lebanon",
+    "Syria",
+    "Jordan",
+    "Palestine",
+    "Egypt"
+   ],
+   "country_codes": [
+    "LB",
+    "SY",
+    "JO",
+    "PS",
+    "EG"
+   ],
+   "region": "Middle East and North Africa",
+   "type": "Crafts and making",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Mesopotamia, Levant and Arabia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Mesopotamia, Levant and Arabia.",
+   "summary": "Maamoul Cookie Moulding is a crafts and making tradition from Lebanon, Syria.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Lebanon, Syria, Jordan.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File%3AMolds_2016_Rami_Tareef.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00225-maamoul-cookie-moulding.jpg",
+    "author": "Rami Tareef",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AMolds_2016_Rami_Tareef.jpg"
+   }
+  },
+  {
+   "id": 226,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/226-buzkashi/",
+   "name": "Buzkashi",
+   "native": "بزکشی",
+   "alt": [
+    "Kupkari (Ulak, goat-grabbing)",
+    "Buzkashi",
+    "Ulak"
+   ],
+   "countries": [
+    "Afghanistan",
+    "Uzbekistan"
+   ],
+   "country_codes": [
+    "AF",
+    "UZ"
+   ],
+   "region": "South and Central Asia",
+   "type": "Dexterity and skill games",
+   "family": "Hunt and blockade games",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Persia, Caucasus and Central Asia",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Persia, Caucasus and Central Asia.",
+   "summary": "Ride in a chaotic scrum, scoop a heavy dummy \"calf\" from the ground without dropping it, and carry it round a flag and into the scoring circle before rivals strip it from you.",
+   "how_played": "Ride in a chaotic scrum, scoop a heavy dummy \"calf\" from the ground without dropping it, and carry it round a flag and into the scoring circle before rivals strip it from you.",
+   "heritage_note": "Part of the living heritage of Afghanistan. Animals are partners in this tradition; good care and local rules always come first.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Men_playing_Buzkashi.jpg",
+    "https://people-travels.com/countries/uzbekistan-additional/uzbek-traditional-games-and-amusements",
+    "https://www.advantour.com/uzbekistan/traditions/kupkari.htm"
+   ],
+   "photo": {
+    "file": "img/photos/00226-buzkashi.jpg",
+    "author": "Sir Percy Sykes, 1867-1945",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Men_playing_Buzkashi.jpg"
    }
   },
   {
@@ -6337,6 +7281,38 @@
    }
   },
   {
+   "id": 245,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/245-georgian-three-voice-polyphony/",
+   "name": "Georgian three-voice polyphony",
+   "native": "ქართული მრავალხმიანობა",
+   "alt": [],
+   "countries": [
+    "Georgia"
+   ],
+   "country_codes": [
+    "GE"
+   ],
+   "region": "Europe",
+   "type": "Musical instruments",
+   "family": "",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Persia, Caucasus and Central Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Persia, Caucasus and Central Asia.",
+   "summary": "Georgian three-voice polyphony is a musical instrument tradition from Georgia.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Georgia.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Ensemble_Basiani.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00245-georgian-three-voice-polyphony.jpg",
+    "author": "Anukitskvito",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ensemble_Basiani.jpg"
+   }
+  },
+  {
    "id": 246,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/246-khinkali-dumpling-pleating/",
    "name": "Khinkali dumpling pleating",
@@ -6464,6 +7440,34 @@
     "author": "unknown Tekke artisan. Photos by auctioneer",
     "licence": "Public domain",
     "source_url": "https://commons.wikimedia.org/wiki/File:Early_Tekke_Turkmen_hali_(main_carpet).jpg"
+   }
+  },
+  {
+   "id": 250,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/250-lezginka/",
+   "name": "Lezginka",
+   "native": "Лезгинка",
+   "alt": [],
+   "countries": [],
+   "country_codes": [],
+   "region": "Middle East and North Africa",
+   "type": "Dances",
+   "family": "Folk and line dances",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Shared across the world",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin.",
+   "summary": "Lezginka is a dance tradition.",
+   "how_played": "",
+   "heritage_note": "A tradition shared by communities in many places. It is presented as sport and skill, never as real fighting.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:VereshchaginVasilyVasilyevich-Lezginka(1867).jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00250-lezginka.jpg",
+    "author": "Vasily Vereshchagin",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:VereshchaginVasilyVasilyevich-Lezginka(1867).jpg"
    }
   },
   {
@@ -8599,6 +9603,38 @@
    }
   },
   {
+   "id": 326,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/326-bentengan/",
+   "name": "Bentengan",
+   "native": "Bentengan",
+   "alt": [],
+   "countries": [
+    "Indonesia"
+   ],
+   "country_codes": [
+    "ID"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Board and table games",
+   "family": "",
+   "era": "Deep Past and First Games",
+   "era_uncertain": true,
+   "cradle": "Southeast Asia and the Islands",
+   "origin_note": "Usually placed in the era of Deep Past and First Games (before about 3000 BCE), although its exact origins are uncertain, within the cultural world of Southeast Asia and the Islands.",
+   "summary": "Bentengan is a board and table game tradition from Indonesia.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Indonesia.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:ARENA_BERMAIN_PERMAINAN_BENTENGAN.png"
+   ],
+   "photo": {
+    "file": "img/photos/00326-bentengan.jpg",
+    "author": "Silvia Atriyanti Saputri",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ARENA_BERMAIN_PERMAINAN_BENTENGAN.png"
+   }
+  },
+  {
    "id": 327,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/327-pinisi/",
    "name": "Pinisi",
@@ -9749,6 +10785,41 @@
    }
   },
   {
+   "id": 372,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/372-macau-wave-pavement/",
+   "name": "Macau wave pavement",
+   "native": "calçada à portuguesa",
+   "alt": [
+    "Portuguese Pavement Mosaic"
+   ],
+   "countries": [
+    "Portugal"
+   ],
+   "country_codes": [
+    "PT"
+   ],
+   "region": "Europe",
+   "type": "Crafts and making",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Mediterranean",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Mediterranean.",
+   "summary": "Macau wave pavement is a crafts and making tradition from Portugal.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Portugal. Some forms of this practice carry deep meaning for the communities who keep it; here we describe the play and the craft only, with respect for its roots.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Senate_Square_Tiles_in_Macau.jpg",
+    "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ada_Portuguesa_Porto_01.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00372-macau-wave-pavement.jpg",
+    "author": "Pat Ferrick (English Wikipedia)",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Senate_Square_Tiles_in_Macau.jpg"
+   }
+  },
+  {
    "id": 373,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/373-mongol-bichig/",
    "name": "Mongol bichig",
@@ -10101,6 +11172,38 @@
    }
   },
   {
+   "id": 385,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/385-bulgarian-asymmetric-rhythm/",
+   "name": "Bulgarian asymmetric rhythm",
+   "native": "Ръченица",
+   "alt": [],
+   "countries": [
+    "Bulgaria"
+   ],
+   "country_codes": [
+    "BG"
+   ],
+   "region": "Europe",
+   "type": "Dances",
+   "family": "Folk and line dances",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Northern and Eastern Europe",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Northern and Eastern Europe.",
+   "summary": "Bulgarian asymmetric rhythm is a dance tradition from Bulgaria.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Bulgaria.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Ivan_Mrkvi%C4%8Dka_-_Rachenitsa.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00385-bulgarian-asymmetric-rhythm.jpg",
+    "author": "Ivan Mrkvička",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ivan_Mrkvi%C4%8Dka_-_Rachenitsa.jpg"
+   }
+  },
+  {
    "id": 386,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/386-haapsalu-lace-shawl-knitting/",
    "name": "Haapsalu lace shawl knitting",
@@ -10318,6 +11421,38 @@
     "author": "Jorge Franganillo",
     "licence": "CC BY 2.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:S%C3%A8te_water_jousting_joute_nautique_(52222049980).jpg"
+   }
+  },
+  {
+   "id": 395,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/395-flag-tossing/",
+   "name": "Flag Tossing",
+   "native": "Sbandieratori (bandierai)",
+   "alt": [],
+   "countries": [
+    "Italy"
+   ],
+   "country_codes": [
+    "IT"
+   ],
+   "region": "Europe",
+   "type": "Dexterity and skill games",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Mediterranean",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Mediterranean.",
+   "summary": "Flag Tossing is a dexterity and skill game tradition from Italy.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Italy.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:The_Bandierai_degli_Uffizi_reharsing_(8956030401).jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00395-flag-tossing.jpg",
+    "author": "European University Institute",
+    "licence": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Bandierai_degli_Uffizi_reharsing_(8956030401).jpg"
    }
   },
   {
@@ -10741,6 +11876,40 @@
    }
   },
   {
+   "id": 410,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/410-schuhplattler/",
+   "name": "Schuhplattler",
+   "native": "Schuhplattler",
+   "alt": [],
+   "countries": [
+    "Germany",
+    "Austria"
+   ],
+   "country_codes": [
+    "DE",
+    "AT"
+   ],
+   "region": "Europe",
+   "type": "Dances",
+   "family": "Folk and line dances",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Northern and Eastern Europe",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Northern and Eastern Europe.",
+   "summary": "Schuhplattler is a dance tradition from Germany, Austria.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Germany, Austria.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Schuhplattler_270217.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00410-schuhplattler.jpg",
+    "author": "Harald Bischoff",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Schuhplattler_270217.jpg"
+   }
+  },
+  {
    "id": 411,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/411-racing-pigeon-loft/",
    "name": "Racing Pigeon Loft",
@@ -10977,6 +12146,38 @@
    }
   },
   {
+   "id": 421,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/421-peteca/",
+   "name": "Peteca",
+   "native": "Peteca",
+   "alt": [],
+   "countries": [
+    "Brazil"
+   ],
+   "country_codes": [
+    "BR"
+   ],
+   "region": "Americas",
+   "type": "Dexterity and skill games",
+   "family": "Kicking and football games",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "The Americas: Andes and South America",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of The Americas: Andes and South America.",
+   "summary": "Players slap a feathered, weighted shuttle with the palm over a high net, rallying like volleyball with at most a few touches per side.",
+   "how_played": "Players slap a feathered, weighted shuttle with the palm over a high net, rallying like volleyball with at most a few touches per side.",
+   "heritage_note": "Part of the living heritage of Brazil.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Peteca_(5812874643).jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00421-peteca.jpg",
+    "author": "Bonner Springs Library",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Peteca_(5812874643).jpg"
+   }
+  },
+  {
    "id": 422,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/422-generala/",
    "name": "Generala",
@@ -11204,6 +12405,38 @@
     "author": "Rodrigo Fernández",
     "licence": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Cueca_en_la_calle_Santiago_2015_dic_f01.jpg"
+   }
+  },
+  {
+   "id": 431,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/431-vallenato-accordion-trio/",
+   "name": "Vallenato accordion trio",
+   "native": "Vallenato",
+   "alt": [],
+   "countries": [
+    "Colombia"
+   ],
+   "country_codes": [
+    "CO"
+   ],
+   "region": "Americas",
+   "type": "Musical instruments",
+   "family": "Wind instruments",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "The Americas: Andes and South America",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of The Americas: Andes and South America.",
+   "summary": "Vallenato accordion trio is a musical instrument tradition from Colombia.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Colombia.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Acorde%C3%B3n_vallenato.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00431-vallenato-accordion-trio.jpg",
+    "author": "Jdvillalobos",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Acorde%C3%B3n_vallenato.jpg"
    }
   },
   {
@@ -11748,7 +12981,7 @@
     "NE"
    ],
    "region": "Sub-Saharan Africa",
-   "type": "Crafts and making",
+   "type": "Board and table games",
    "family": "",
    "era": "Living Traditions",
    "era_uncertain": false,

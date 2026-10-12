@@ -1,0 +1,317 @@
+{
+ "engine": "rhythm",
+ "variant": "bansuri-bamboo-flute",
+ "params": {
+  "layout": "holes",
+  "mode": "follow",
+  "root": 293.7,
+  "scale": [
+   0,
+   200,
+   400,
+   500,
+   700,
+   900,
+   1100
+  ],
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Sa",
+    "degree": 0,
+    "holes": "111111",
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "dur": 0.9
+   },
+   {
+    "name": "Re",
+    "degree": 1,
+    "holes": "111110",
+    "timbre": "breath",
+    "color": "#58c27d",
+    "dur": 0.9
+   },
+   {
+    "name": "Ga",
+    "degree": 2,
+    "holes": "111100",
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "dur": 0.9
+   },
+   {
+    "name": "Ma",
+    "degree": 3,
+    "holes": "111000",
+    "timbre": "breath",
+    "color": "#7fd0c4",
+    "dur": 0.9
+   },
+   {
+    "name": "Pa",
+    "degree": 4,
+    "holes": "110000",
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "dur": 0.9
+   },
+   {
+    "name": "Dha",
+    "degree": 5,
+    "holes": "100000",
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "dur": 0.9
+   },
+   {
+    "name": "Ni",
+    "degree": 6,
+    "holes": "000000",
+    "timbre": "breath",
+    "color": "#e8a07a",
+    "dur": 0.9
+   },
+   {
+    "name": "Sa'",
+    "degree": 7,
+    "holes": "111111",
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "dur": 0.9
+   }
+  ],
+  "songs": [
+   {
+    "name": "Up and down the ladder",
+    "bpm": 60,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0,
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": 5,
+      "len": 1
+     },
+     {
+      "beat": 6,
+      "lane": 6,
+      "len": 1
+     },
+     {
+      "beat": 7,
+      "lane": 7,
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": 6,
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": 5,
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 13,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0,
+      "len": 1
+     }
+    ]
+   },
+   {
+    "name": "Hill-path tune",
+    "bpm": 72,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 2,
+      "len": 1.0
+     },
+     {
+      "beat": 1,
+      "lane": 4,
+      "len": 1.0
+     },
+     {
+      "beat": 2,
+      "lane": 4,
+      "len": 1.0
+     },
+     {
+      "beat": 3,
+      "lane": 5,
+      "len": 1.0
+     },
+     {
+      "beat": 4,
+      "lane": 4,
+      "len": 2.0
+     },
+     {
+      "beat": 6,
+      "lane": 2,
+      "len": 1.0
+     },
+     {
+      "beat": 7,
+      "lane": 3,
+      "len": 1.0
+     },
+     {
+      "beat": 8,
+      "lane": 2,
+      "len": 1.0
+     },
+     {
+      "beat": 9,
+      "lane": 0,
+      "len": 1.0
+     },
+     {
+      "beat": 10,
+      "lane": 0,
+      "len": 1.0
+     },
+     {
+      "beat": 11,
+      "lane": 1,
+      "len": 1.0
+     },
+     {
+      "beat": 12,
+      "lane": 2,
+      "len": 2.0
+     },
+     {
+      "beat": 14,
+      "lane": 4,
+      "len": 1.0
+     },
+     {
+      "beat": 15,
+      "lane": 2,
+      "len": 1.0
+     }
+    ]
+   },
+   {
+    "name": "Call across the valley",
+    "bpm": 66,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 4,
+      "len": 2.0
+     },
+     {
+      "beat": 2,
+      "lane": 7,
+      "len": 2.0
+     },
+     {
+      "beat": 4,
+      "lane": 5,
+      "len": 1.0
+     },
+     {
+      "beat": 5,
+      "lane": 4,
+      "len": 1.0
+     },
+     {
+      "beat": 6,
+      "lane": 2,
+      "len": 2.0
+     },
+     {
+      "beat": 8,
+      "lane": 0,
+      "len": 1.0
+     },
+     {
+      "beat": 9,
+      "lane": 2,
+      "len": 1.0
+     },
+     {
+      "beat": 10,
+      "lane": 4,
+      "len": 2.0
+     },
+     {
+      "beat": 12,
+      "lane": 5,
+      "len": 1.0
+     },
+     {
+      "beat": 13,
+      "lane": 4,
+      "len": 1.0
+     },
+     {
+      "beat": 14,
+      "lane": 2,
+      "len": 1.0
+     },
+     {
+      "beat": 15,
+      "lane": 0,
+      "len": 1.0
+     }
+    ]
+   }
+  ]
+ }
+}

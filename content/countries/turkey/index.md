@@ -1,21 +1,22 @@
 ---
 title: "Turkey"
-description: "16 traditions from Turkey."
+description: "17 traditions from Turkey."
 path: "/countries/turkey/"
-count: 16
+count: 17
 ---
 # Turkey
 
-16 traditions from Turkey.
+17 traditions from Turkey.
 
 
 
-16 entries.
+17 entries.
 
 - [Blind Man's Buff](../../games/467-blind-mans-buff/index.md): Turkey, India; Street and playground games; Modern Heritage
 - [Cirit](../../games/156-cirit/index.md): Turkey; Dexterity and skill games; Classical Worlds
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md): Turkey; Crafts and making; Living Traditions
 - [Iznik tile painting](../../games/244-iznik-tile-painting/index.md): Turkey; Crafts and making; Living Traditions
+- [Karagoz](../../games/38-karagoz/index.md): Turkey; Performance and storytelling; Classical Worlds
 - [Mangala](../../games/1164-mangala/index.md): Turkey; Board and table games; Deep Past and First Games
 - [Oil wrestling](../../games/480-oil-wrestling/index.md): Turkey; Wrestling and martial sports; River Valleys and First Cities
 - [Okey](../../games/1158-okey/index.md): Turkey, Cyprus; Board and table games; Classical Worlds

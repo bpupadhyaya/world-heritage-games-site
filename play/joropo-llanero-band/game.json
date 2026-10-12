@@ -1,0 +1,13 @@
+{
+ "slug": "joropo-llanero-band",
+ "title": "Joropo llanero band",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

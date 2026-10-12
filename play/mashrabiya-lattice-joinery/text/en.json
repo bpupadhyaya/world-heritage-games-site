@@ -1,0 +1,27 @@
+{
+ "title": "Mashrabiya Lattice Joinery",
+ "native": "مشربية (mashrabiya)",
+ "alt": [
+  "Moucharabieh",
+  "Lattice window screen"
+ ],
+ "summary": "Mashrabiya is the carved and turned wooden lattice of Arab windows and balconies, built from small spindles, beads and star-shaped pieces slotted together without nails so that light and breeze pass through a geometric web.",
+ "howToPlay": [
+  "Choose a wood or glass colour and a piece from the strip under the frame.",
+  "Touch a square to fit that piece: it is repeated in all matching places of the frame, because a lattice repeats around its centre.",
+  "Copy the small screen shown above the frame, then press Check."
+ ],
+ "rules": [
+  "The frame is symmetric left to right, top to bottom and along both diagonals, so every piece you fit is copied to its seven partners.",
+  "A square counts only when both the piece and the wood or glass colour match the screen.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Wooden lattice screens have shaded windows and balconies in Cairo, Damascus and many other towns of the Arab world for centuries; joiners still turn and fit the pieces by hand in workshops.",
+ "countries": [
+  "Egypt",
+  "Syria"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original lattices after traditional turned-spindle screens)"
+ ]
+}

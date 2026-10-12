@@ -1,0 +1,26 @@
+{
+ "title": "Dhaka weave pattern loom",
+ "native": "ढाका",
+ "alt": [
+  "Dhaka cloth",
+  "Dhaka topi weave"
+ ],
+ "summary": "Dhaka is a hand-woven Nepali cotton cloth in which coloured extra threads are laid in by hand, row by row, to build bold geometric bands of diamonds, stars and steps. It is best known as the cloth of the national cap and of shawls and scarves.",
+ "howToPlay": [
+  "Choose a thread colour and a motif from the strip under the cloth.",
+  "Tap a square to weave it: the same motif appears in the matching squares of every quarter, as the pattern repeats across the cloth.",
+  "Match the small design shown above the cloth, then press Check."
+ ],
+ "rules": [
+  "The cloth repeats left to right and top to bottom, so every stitch you place is copied to its three partners.",
+  "A square counts only when its motif and its thread colour both match the design.",
+  "Three stars need a nearly perfect copy; you may undo or clear as often as you like."
+ ],
+ "heritageNote": "Dhaka cloth has been woven in Nepal for several generations, with the hill town of Tansen and the Palpa district long known as its home; weavers still follow charts of geometric bands and many pieces are made on small narrow looms.",
+ "countries": [
+  "Nepal"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original, after Dhaka band layouts)"
+ ]
+}

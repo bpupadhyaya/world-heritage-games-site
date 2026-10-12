@@ -38,6 +38,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - **Cradle:** [Japan and Korea](../../cradles/japan-korea/index.md)
 - **Region:** East and Southeast Asia
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Yukigassen Snow Fort](../../games/71-yukigassen-snow-fort/index.md)

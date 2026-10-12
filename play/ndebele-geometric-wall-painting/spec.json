@@ -1,0 +1,206 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 11,
+  "rows": 11,
+  "symmetry": "mirror-xy",
+  "palette": [
+   {
+    "name": "White",
+    "color": "#f5f5f0"
+   },
+   {
+    "name": "Blue",
+    "color": "#2a5db0"
+   },
+   {
+    "name": "Green",
+    "color": "#2e9a5c"
+   },
+   {
+    "name": "Yellow",
+    "color": "#f4c430"
+   },
+   {
+    "name": "Red",
+    "color": "#d23a2a"
+   },
+   {
+    "name": "Pink",
+    "color": "#ec7fa6"
+   }
+  ],
+  "background": "#0b0b0b",
+  "grid": "#2a2a2a",
+  "motifs": [
+   "solid",
+   "triangle",
+   "diamond",
+   "stripe-h",
+   "checker",
+   "arch"
+  ],
+  "designs": [
+   {
+    "name": "Stepped frame",
+    "rows": [
+     "wwwwwwwwwww",
+     "wbbbbbbbbbw",
+     "wbTtTtTtTbw",
+     "wbtgyyygtbw",
+     "wbTyrrryTbw",
+     "wbtyrDrytbw",
+     "wbTyrrryTbw",
+     "wbtgyyygtbw",
+     "wbTtTtTtTbw",
+     "wbbbbbbbbbw",
+     "wwwwwwwwwww"
+    ],
+    "legend": {
+     "w": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "g": {
+      "m": 0,
+      "c": 2
+     },
+     "y": {
+      "m": 0,
+      "c": 3
+     },
+     "r": {
+      "m": 0,
+      "c": 4
+     },
+     "T": {
+      "m": 1,
+      "c": 4
+     },
+     "t": {
+      "m": 1,
+      "c": 3
+     },
+     "D": {
+      "m": 2,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Gateway",
+    "rows": [
+     "rwrwrwrwrwr",
+     "wcpcpcpcpcw",
+     "rpTbbbbbTpr",
+     "wcbAyyyAbcw",
+     "rpbyyDyybpr",
+     "wcbyDaDybcw",
+     "rpbyyDyybpr",
+     "wcbAyyyAbcw",
+     "rpTbbbbbTpr",
+     "wcpcpcpcpcw",
+     "rwrwrwrwrwr"
+    ],
+    "legend": {
+     "w": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "y": {
+      "m": 0,
+      "c": 3
+     },
+     "r": {
+      "m": 0,
+      "c": 4
+     },
+     "p": {
+      "m": 0,
+      "c": 5
+     },
+     "T": {
+      "m": 1,
+      "c": 4
+     },
+     "D": {
+      "m": 2,
+      "c": 0
+     },
+     "c": {
+      "m": 4,
+      "c": 1
+     },
+     "a": {
+      "m": 5,
+      "c": 3
+     },
+     "A": {
+      "m": 5,
+      "c": 5
+     }
+    }
+   },
+   {
+    "name": "Chevron steps",
+    "rows": [
+     "yyyyyyyyyyy",
+     "ytttTtTttty",
+     "yTbbbbbbbTy",
+     "ytbdHHHdbty",
+     "yTbHgggHbTy",
+     "ytbHgDgHbty",
+     "yTbHgggHbTy",
+     "ytbdHHHdbty",
+     "yTbbbbbbbTy",
+     "ytttTtTttty",
+     "yyyyyyyyyyy"
+    ],
+    "legend": {
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "g": {
+      "m": 0,
+      "c": 2
+     },
+     "y": {
+      "m": 0,
+      "c": 3
+     },
+     "T": {
+      "m": 1,
+      "c": 4
+     },
+     "t": {
+      "m": 1,
+      "c": 3
+     },
+     "d": {
+      "m": 2,
+      "c": 1
+     },
+     "D": {
+      "m": 2,
+      "c": 0
+     },
+     "H": {
+      "m": 3,
+      "c": 0
+     }
+    }
+   }
+  ],
+  "mode": "copy",
+  "rotateMarks": true
+ }
+}

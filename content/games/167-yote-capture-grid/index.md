@@ -38,6 +38,10 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - **Cradle:** [Africa: Sahel, West and Central](../../cradles/africa-west/index.md)
 - **Region:** Sub-Saharan Africa
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Queah](../../games/885-queah/index.md)

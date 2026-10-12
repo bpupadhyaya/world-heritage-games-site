@@ -1,0 +1,13 @@
+{
+ "slug": "karesansui",
+ "title": "Karesansui gravel garden",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

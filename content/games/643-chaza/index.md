@@ -42,8 +42,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Atarraya](../../games/1434-atarraya/index.md)
 - [Rana](../../games/645-rana/index.md)
 - [Yermis](../../games/646-yermis/index.md)
+- [Peteca](../../games/421-peteca/index.md)
 - [Emboque](../../games/629-emboque/index.md)
-- [Frog toss](../../games/688-frog-toss/index.md)
 
 ## Sources
 

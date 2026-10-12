@@ -41,7 +41,7 @@ path: "/a-z/H/"
 - [Horezu ceramics](../../games/384-horezu-ceramics/index.md): Romania; Crafts and making; Living Traditions
 - [Horn of Africa camel caravan](../../games/1270-horn-of-africa-camel-caravan/index.md): Djibouti; Musical instruments; Crossroads and Golden Ages
 - [Horn pulling](../../games/1103-horn-pulling/index.md): Sri Lanka; Street and playground games; Classical Worlds
-- [Hornussen](../../games/10-hornussen/index.md): Switzerland; Board and table games; Crossroads and Golden Ages
+- [Hornussen](../../games/10-hornussen/index.md): Switzerland; Bat-and-ball games; Crossroads and Golden Ages
 - [Horse race ludo](../../games/1214-horse-race-ludo/index.md): Vietnam; Board and table games; River Valleys and First Cities
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
 - [Hose-Run Fire Sport](../../games/1281-hose-run-fire-sport/index.md): Czechia, Slovakia; Dexterity and skill games; Modern Heritage

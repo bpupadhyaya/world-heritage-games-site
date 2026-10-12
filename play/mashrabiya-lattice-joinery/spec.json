@@ -1,0 +1,191 @@
+{
+ "engine": "pattern",
+ "variant": "mashrabiya-lattice-joinery",
+ "params": {
+  "cols": 11,
+  "rows": 11,
+  "symmetry": "rot4-mirror",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Walnut",
+    "color": "#4a2c14"
+   },
+   {
+    "name": "Oak",
+    "color": "#9b6b36"
+   },
+   {
+    "name": "Honey",
+    "color": "#d99d3e"
+   },
+   {
+    "name": "Glass blue",
+    "color": "#2c7088"
+   }
+  ],
+  "background": "#efe3c6",
+  "grid": "#d2bf96",
+  "motifs": [
+   "star",
+   "hexagon",
+   "diamond",
+   "ring",
+   "dot",
+   "cross"
+  ],
+  "rotateMarks": false,
+  "designs": [
+   {
+    "name": "Star and spindle screen",
+    "rows": [
+     "do...x...od",
+     "ogo..b..ogo",
+     ".odo.x.odo.",
+     "..ogobogo..",
+     "...odxdo...",
+     "xbxbxsxbxbx",
+     "...odxdo...",
+     "..ogobogo..",
+     ".odo.x.odo.",
+     "ogo..b..ogo",
+     "do...x...od"
+    ],
+    "legend": {
+     "s": {
+      "m": 0,
+      "c": 2
+     },
+     "x": {
+      "m": 5,
+      "c": 1
+     },
+     "d": {
+      "m": 2,
+      "c": 2
+     },
+     "g": {
+      "m": 1,
+      "c": 3
+     },
+     "b": {
+      "m": 4,
+      "c": 2
+     },
+     "o": {
+      "m": 3,
+      "c": 0
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     },
+     "e": {
+      "m": 0,
+      "c": 3
+     }
+    }
+   },
+   {
+    "name": "Hexagon and diamond screen",
+    "rows": [
+     "bxxxxxxxxxb",
+     "xhdhdhdhdhx",
+     "xdhdhdhdhdx",
+     "xhdhdhdhdhx",
+     "xdhdhdhdhdx",
+     "xhdhdedhdhx",
+     "xdhdhdhdhdx",
+     "xhdhdhdhdhx",
+     "xdhdhdhdhdx",
+     "xhdhdhdhdhx",
+     "bxxxxxxxxxb"
+    ],
+    "legend": {
+     "s": {
+      "m": 0,
+      "c": 2
+     },
+     "x": {
+      "m": 5,
+      "c": 1
+     },
+     "d": {
+      "m": 2,
+      "c": 2
+     },
+     "g": {
+      "m": 1,
+      "c": 3
+     },
+     "b": {
+      "m": 4,
+      "c": 2
+     },
+     "o": {
+      "m": 3,
+      "c": 0
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     },
+     "e": {
+      "m": 0,
+      "c": 3
+     }
+    }
+   },
+   {
+    "name": "Open spindle grid",
+    "rows": [
+     "ox.x.x.x.xo",
+     "xbxbxbxbxbx",
+     ".xox.x.xox.",
+     "xbxbxbxbxbx",
+     ".x.xoxox.x.",
+     "xbxbxexbxbx",
+     ".x.xoxox.x.",
+     "xbxbxbxbxbx",
+     ".xox.x.xox.",
+     "xbxbxbxbxbx",
+     "ox.x.x.x.xo"
+    ],
+    "legend": {
+     "s": {
+      "m": 0,
+      "c": 2
+     },
+     "x": {
+      "m": 5,
+      "c": 1
+     },
+     "d": {
+      "m": 2,
+      "c": 2
+     },
+     "g": {
+      "m": 1,
+      "c": 3
+     },
+     "b": {
+      "m": 4,
+      "c": 2
+     },
+     "o": {
+      "m": 3,
+      "c": 0
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     },
+     "e": {
+      "m": 0,
+      "c": 3
+     }
+    }
+   }
+  ]
+ }
+}

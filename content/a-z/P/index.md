@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with P"
-description: "73 entries beginning with P."
+description: "75 entries beginning with P."
 path: "/a-z/P/"
 ---
 # Entries beginning with P
@@ -19,6 +19,7 @@ path: "/a-z/P/"
 - [Panamanian singing rounds](../../games/1011-panamanian-singing-rounds/index.md): Panama; Performance and storytelling; Living Traditions
 - [Pancha](../../games/1108-pancha/index.md): Sri Lanka; Board and table games; River Valleys and First Cities
 - [Pandanus mat plaiting](../../games/1313-pandanus-mat-plaiting/index.md): Kiribati; Crafts and making; Living Traditions
+- [Panduri](../../games/41-panduri/index.md): Georgia; Musical instruments; Crossroads and Golden Ages
 - [Panu di Pinti Weaving](../../games/1357-panu-di-pinti-weaving/index.md): Guinea-Bissau; Crafts and making; Living Traditions
 - [Paper Fortune Teller](../../games/465-paper-fortune-teller/index.md): United Kingdom, United States; Crafts and making; Living Traditions
 - [Paper Plane Flight Contest](../../games/466-paper-plane-flight-contest/index.md): Japan; Crafts and making; Living Traditions
@@ -44,6 +45,7 @@ path: "/a-z/P/"
 - [Persian garden layout puzzle](../../games/239-persian-garden-layout-puzzle/index.md): Iran; Crafts and making; Living Traditions
 - [Pesapallo](../../games/484-pesapallo/index.md): Finland; Racing; Modern Heritage
 - [Petanque](../../games/872-petanque/index.md): Laos, France; Street and playground games; Modern Heritage
+- [Peteca](../../games/421-peteca/index.md): Brazil; Dexterity and skill games; Modern Heritage
 - [Petrykivka painting](../../games/381-petrykivka-painting/index.md): Ukraine; Crafts and making; Living Traditions
 - [Phankhon](../../games/957-phankhon/index.md): Myanmar; Street and playground games; Modern Heritage
 - [Phoenician Alphabet Trader](../../games/1359-phoenician-alphabet-trader/index.md): Lebanon; Puzzles and mind games; Modern Heritage

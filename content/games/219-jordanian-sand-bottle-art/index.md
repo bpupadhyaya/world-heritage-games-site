@@ -40,12 +40,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md)
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md)
 - [Al-Qatt Al-Asiri Wall Painting](../../games/1231-al-qatt-al-asiri-wall-painting/index.md)
 - [Keffiyeh Pattern Loom](../../games/1310-keffiyeh-pattern-loom/index.md)
 - [Qamariya Gypsum Window Designer](../../games/1368-qamariya-gypsum-window-designer/index.md)
 - [Ndebele geometric wall painting](../../games/23-ndebele-geometric-wall-painting/index.md)
-- [Chinese knotting](../../games/26-chinese-knotting/index.md)
 
 ## Sources
 

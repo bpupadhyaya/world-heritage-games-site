@@ -1,16 +1,16 @@
 ---
 title: "Japan"
-description: "51 traditions from Japan."
+description: "52 traditions from Japan."
 path: "/countries/japan/"
-count: 51
+count: 52
 ---
 # Japan
 
-51 traditions from Japan.
+52 traditions from Japan.
 
 
 
-51 entries.
+52 entries.
 
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Blacksmith's Forge](../../games/506-blacksmiths-forge/index.md): United Kingdom, Germany; Crafts and making; Living Traditions
@@ -47,6 +47,7 @@ count: 51
 - [Riichi mahjong](../../games/851-riichi-mahjong/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Sangaku Geometry Puzzles](../../games/109-sangaku-geometry-puzzles/index.md): Japan; Puzzles and mind games; Age of Contact and Craft
 - [Sashiko Stitch Patterns](../../games/27-sashiko-stitch-patterns/index.md): Japan; Crafts and making; Living Traditions
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md): Japan, India; Crafts and making; Living Traditions
 - [Shogi](../../games/852-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages

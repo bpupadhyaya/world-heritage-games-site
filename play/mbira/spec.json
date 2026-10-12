@@ -1,0 +1,264 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "keys",
+  "mode": "follow",
+  "root": 146.8,
+  "scale": [
+   0,
+   200,
+   400,
+   500,
+   700,
+   900,
+   1000
+  ],
+  "lanes": [
+   {
+    "name": "D3",
+    "id": "k0",
+    "degree": 0,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#8c6b3a"
+   },
+   {
+    "name": "E3",
+    "id": "k1",
+    "degree": 1,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#a07f45"
+   },
+   {
+    "name": "F#3",
+    "id": "k2",
+    "degree": 2,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#b5944f"
+   },
+   {
+    "name": "G3",
+    "id": "k3",
+    "degree": 3,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#c9a95c"
+   },
+   {
+    "name": "A3",
+    "id": "k4",
+    "degree": 4,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#d6b86e"
+   },
+   {
+    "name": "B3",
+    "id": "k5",
+    "degree": 5,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#e3c783"
+   },
+   {
+    "name": "C4",
+    "id": "k6",
+    "degree": 6,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#8c6b3a"
+   },
+   {
+    "name": "D4",
+    "id": "k7",
+    "degree": 7,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#a07f45"
+   },
+   {
+    "name": "E4",
+    "id": "k8",
+    "degree": 8,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#b5944f"
+   },
+   {
+    "name": "F#4",
+    "id": "k9",
+    "degree": 9,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#c9a95c"
+   },
+   {
+    "name": "G4",
+    "id": "k10",
+    "degree": 10,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#d6b86e"
+   },
+   {
+    "name": "A4",
+    "id": "k11",
+    "degree": 11,
+    "row": 1,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#e3c783"
+   }
+  ],
+  "loops": 2,
+  "tolerance": 1.25,
+  "songs": [
+   {
+    "name": "Caller cycle, 12 pulses",
+    "bpm": 120,
+    "meter": 12,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "kk0"
+     },
+     {
+      "beat": 1.0,
+      "lane": "kk4"
+     },
+     {
+      "beat": 2.0,
+      "lane": "kk8"
+     },
+     {
+      "beat": 3.0,
+      "lane": "kk1"
+     },
+     {
+      "beat": 4.0,
+      "lane": "kk5"
+     },
+     {
+      "beat": 5.0,
+      "lane": "kk9"
+     },
+     {
+      "beat": 6.0,
+      "lane": "kk2"
+     },
+     {
+      "beat": 7.0,
+      "lane": "kk6"
+     },
+     {
+      "beat": 8.0,
+      "lane": "kk10"
+     },
+     {
+      "beat": 9.0,
+      "lane": "kk3"
+     },
+     {
+      "beat": 10.0,
+      "lane": "kk7"
+     },
+     {
+      "beat": 11.0,
+      "lane": "kk5"
+     }
+    ]
+   },
+   {
+    "name": "Answer cycle, 12 pulses",
+    "bpm": 120,
+    "meter": 12,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "kk6"
+     },
+     {
+      "beat": 2.0,
+      "lane": "kk4"
+     },
+     {
+      "beat": 3.0,
+      "lane": "kk7"
+     },
+     {
+      "beat": 5.0,
+      "lane": "kk5"
+     },
+     {
+      "beat": 6.0,
+      "lane": "kk8"
+     },
+     {
+      "beat": 8.0,
+      "lane": "kk6"
+     },
+     {
+      "beat": 9.0,
+      "lane": "kk9"
+     },
+     {
+      "beat": 11.0,
+      "lane": "kk7"
+     }
+    ]
+   },
+   {
+    "name": "Bass and top, slow",
+    "bpm": 96,
+    "meter": 12,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "kk0"
+     },
+     {
+      "beat": 2.0,
+      "lane": "kk8"
+     },
+     {
+      "beat": 3.0,
+      "lane": "kk1"
+     },
+     {
+      "beat": 5.0,
+      "lane": "kk9"
+     },
+     {
+      "beat": 6.0,
+      "lane": "kk2"
+     },
+     {
+      "beat": 8.0,
+      "lane": "kk10"
+     },
+     {
+      "beat": 9.0,
+      "lane": "kk3"
+     },
+     {
+      "beat": 11.0,
+      "lane": "kk11"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "title": "Block printing",
+ "native": "छपाई",
+ "alt": [
+  "Hand block printing"
+ ],
+ "summary": "In Bagru and Sanganer in Rajasthan, cloth is printed by pressing carved wooden blocks dipped in dye, one impression after another, to build borders and fields of small flowers, leaves and lattices. Bagru is known for earthy vegetable dyes and mud resist; Sanganer for fine flowers on a white ground.",
+ "howToPlay": [
+  "Pick a dye colour and a block shape from the tray under the cloth.",
+  "Tap a square to press the block there: its twin appears at the mirrored place on the other side of the cloth.",
+  "Copy the small printed cloth shown above, then press Check."
+ ],
+ "rules": [
+  "Each block is pressed in the square you tap and again in the mirrored square on the other side of the cloth.",
+  "A square counts only when its block shape and its dye colour both match the target.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Hand block printing is practised in and around Bagru and Sanganer near Jaipur in Rajasthan, India. Printers, many from families who have worked the craft for generations, carve the blocks from wood and print on cotton in bright or earthy dyes.",
+ "countries": [
+  "India"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)",
+  "Photograph reference: Anildiggiwal, CC0, Wikimedia Commons"
+ ]
+}

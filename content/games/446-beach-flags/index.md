@@ -35,14 +35,18 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - **Cradle:** [Pacific and Oceania](../../cradles/pacific/index.md)
 - **Region:** Oceania and Pacific
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Billycart derby](../../games/445-billycart-derby/index.md)
 - [Backyard cricket](../../games/559-backyard-cricket/index.md)
 - [Two-up](../../games/560-two-up/index.md)
+- ['Ulu Maika](../../games/44-ulu-maika/index.md)
 - [Samoan cricket](../../games/1056-samoan-cricket/index.md)
 - [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md)
-- [Tongan cricket](../../games/1149-tongan-cricket/index.md)
 
 ## Sources
 

@@ -1,16 +1,16 @@
 ---
 title: "Paper, ink and painting crafts"
-description: "89 related traditions."
+description: "93 related traditions."
 path: "/families/paper-ink/"
-count: 89
+count: 93
 ---
 # Paper, ink and painting crafts
 
-89 related traditions.
+93 related traditions.
 
 
 
-89 entries.
+93 entries.
 
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md): Ghana, Cote d'Ivoire; Crafts and making; Living Traditions
 - [Ajrak block printing](../../games/1226-ajrak-block-printing/index.md): Pakistan; Crafts and making; Living Traditions
@@ -65,7 +65,10 @@ count: 89
 - [Luk chup](../../games/307-luk-chup/index.md): Thailand; Crafts and making; Living Traditions
 - [Lukasa memory board pattern game](../../games/197-lukasa-memory-board-pattern-game/index.md): Worldwide; Crafts and making; Living Traditions
 - [Luzzu Boat Painter](../../games/1330-luzzu-boat-painter/index.md): Malta; Crafts and making; Living Traditions
+- [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
+- [Macau wave pavement](../../games/372-macau-wave-pavement/index.md): Portugal; Crafts and making; Living Traditions
 - [Maedeup](../../games/1468-maedeup/index.md): South Korea; Crafts and making; Living Traditions
+- [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md): Egypt, Syria; Crafts and making; Living Traditions
 - [Masi bark-cloth stencil printing](../../games/1279-masi-bark-cloth-stencil-printing/index.md): Fiji; Crafts and making; Living Traditions
 - [Matryoshka](../../games/28-matryoshka/index.md): Russia; Crafts and making; Living Traditions
 - [Mehndi henna pattern drawing](../../games/260-mehndi-henna-pattern-drawing/index.md): India, Pakistan; Crafts and making; Living Traditions
@@ -98,6 +101,7 @@ count: 89
 - [Temari Thread-Ball Patterns](../../games/96-temari-thread-ball-patterns/index.md): Japan; Crafts and making; Living Traditions
 - [Tiebele House Painting](../../games/174-tiebele-house-painting/index.md): Burkina Faso; Crafts and making; Living Traditions
 - [Tingatinga painting](../../games/183-tingatinga-painting/index.md): Tanzania; Crafts and making; Living Traditions
+- [Ukulele strum-along](../../games/144-ukulele-strum-along/index.md): United States, Portugal; Musical instruments; Living Traditions
 - [Warli painting](../../games/117-warli-painting/index.md): India; Crafts and making; Living Traditions
 - [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md): South Africa; Crafts and making; Living Traditions
 - [Kolam](../../games/22332-kolam/index.md): India; Crafts and making; Living Traditions

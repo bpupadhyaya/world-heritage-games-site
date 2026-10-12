@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with K"
-description: "95 entries beginning with K."
+description: "98 entries beginning with K."
 path: "/a-z/K/"
 ---
 # Entries beginning with K
@@ -11,12 +11,15 @@ path: "/a-z/K/"
 - [Kale](../../games/732-kale/index.md): Gabon; Board and table games; Deep Past and First Games
 - [Kalinda Stick Duel](../../games/1467-kalinda-stick-duel/index.md): Trinidad and Tobago; Wrestling and martial sports; Classical Worlds
 - [Kalocsa floral painting](../../games/383-kalocsa-floral-painting/index.md): Hungary; Crafts and making; Living Traditions
+- [Kamancha](../../games/165-kamancha/index.md): Azerbaijan, Iran; Musical instruments; Living Traditions
+- [Kambala](../../games/80-kambala/index.md): India; Racing; Age of Contact and Craft
 - [Kamishibai](../../games/353-kamishibai/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Kampong Ayer water-taxi dash](../../games/1308-kampong-ayer-water-taxi-dash/index.md): Brunei, Malaysia; Water and winter sports; Classical Worlds
 - [Kanga cloth design](../../games/184-kanga-cloth-design/index.md): Kenya; Crafts and making; Living Traditions
 - [Kanklės](../../games/136-kankles/index.md): Lithuania; Musical instruments; Classical Worlds
 - [Kantele](../../games/152-kantele/index.md): Finland; Musical instruments; Classical Worlds
 - [Kantha running-stitch quilt](../../games/284-kantha-running-stitch-quilt/index.md): Bangladesh; Crafts and making; Living Traditions
+- [Karagoz](../../games/38-karagoz/index.md): Turkey; Performance and storytelling; Classical Worlds
 - [Karesansui](../../games/95-karesansui/index.md): Japan; Crafts and making; Living Traditions
 - [Kashmiri papier-mache painting](../../games/269-kashmiri-papier-mache-painting/index.md): India; Crafts and making; Living Traditions
 - [Kasivaki](../../games/1148-kasivaki/index.md): Tonga; Street and playground games; Modern Heritage

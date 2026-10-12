@@ -1,0 +1,30 @@
+{
+ "title": "Bandoneon and tango rhythm",
+ "native": "Bandoneón",
+ "alt": [
+  "Bandoneon"
+ ],
+ "summary": "The bandoneon is a square concertina with button keys, played by pulling and pushing the bellows. Each button gives one note when the bellows open and a different note when they close, and in the tango of Argentina and Uruguay it carries long, sighing phrases over a steady walking beat.",
+ "howToPlay": [
+  "Four notes sound as the bellows open and four as they close; the low walking beat sits on the right.",
+  "Notes travel toward a line at the bottom; strike the key just as its note arrives.",
+  "Begin with the walking beat, then play the milonga pattern of three, three and two.",
+  "Finish with the phrase that alternates the open and close notes."
+ ],
+ "rules": [
+  "Each key gives one pitch on the pull and another on the push, so two rows of notes alternate in a phrase.",
+  "A stroke within a hair of the note is perfect, a near one is good, and a missed one scores nothing.",
+  "An extra stroke while a song is running costs a few points.",
+  "Each song plays twice; three stars need roughly nine notes in ten on time.",
+  "The milonga groups eight pulses as three, three and two."
+ ],
+ "heritageNote": "The bandoneon came to the Rio de la Plata with immigrants in the later nineteenth century and became the voice of the tango. Players still gather in the cafes and dance halls of Buenos Aires and Montevideo, where the instrument is passed from teacher to student.",
+ "countries": [
+  "Argentina",
+  "Uruguay"
+ ],
+ "credits": [
+  "Tradition: tango and milonga bandoneon playing; figures written for this game",
+  "Photo of a bandoneon player in Buenos Aires from Wikimedia Commons (CC BY-SA 3.0)"
+ ]
+}

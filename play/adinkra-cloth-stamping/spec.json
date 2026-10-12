@@ -1,0 +1,248 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 6,
+  "rows": 8,
+  "symmetry": "none",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Bark dye",
+    "color": "#17100c"
+   },
+   {
+    "name": "Cream",
+    "color": "#f3e5c4"
+   },
+   {
+    "name": "Ochre",
+    "color": "#e0a53a"
+   }
+  ],
+  "background": "#a5382a",
+  "grid": "#c05a45",
+  "motifs": [
+   "ring",
+   "spiral",
+   "star",
+   "knot",
+   "fret",
+   "stripe-v"
+  ],
+  "designs": [
+   {
+    "name": "Two stamps in a chequer",
+    "rows": [
+     "ffffff",
+     "bcbcbc",
+     "cbcbcb",
+     "bcbcbc",
+     "cbcbcb",
+     "bcbcbc",
+     "cbcbcb",
+     "ffffff"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 0
+     },
+     "c": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "e": {
+      "m": 4,
+      "c": 0
+     },
+     "f": {
+      "m": 5,
+      "c": 0
+     },
+     "g": {
+      "m": 0,
+      "c": 1
+     },
+     "h": {
+      "m": 1,
+      "c": 1
+     },
+     "i": {
+      "m": 2,
+      "c": 1
+     },
+     "j": {
+      "m": 3,
+      "c": 1
+     },
+     "k": {
+      "m": 4,
+      "c": 2
+     },
+     "l": {
+      "m": 2,
+      "c": 2
+     },
+     "m": {
+      "m": 0,
+      "c": 2
+     },
+     "n": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "A row for each stamp",
+    "rows": [
+     "ffffff",
+     "aaaaaa",
+     "kkkkkk",
+     "dddddd",
+     "hhhhhh",
+     "cccccc",
+     "jjjjjj",
+     "ffffff"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 0
+     },
+     "c": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "e": {
+      "m": 4,
+      "c": 0
+     },
+     "f": {
+      "m": 5,
+      "c": 0
+     },
+     "g": {
+      "m": 0,
+      "c": 1
+     },
+     "h": {
+      "m": 1,
+      "c": 1
+     },
+     "i": {
+      "m": 2,
+      "c": 1
+     },
+     "j": {
+      "m": 3,
+      "c": 1
+     },
+     "k": {
+      "m": 4,
+      "c": 2
+     },
+     "l": {
+      "m": 2,
+      "c": 2
+     },
+     "m": {
+      "m": 0,
+      "c": 2
+     },
+     "n": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Framed centre",
+    "rows": [
+     "nnnnnn",
+     "aaaaaa",
+     "ae..ea",
+     "..cl..",
+     "..lc..",
+     "ae..ea",
+     "aaaaaa",
+     "nnnnnn"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 0
+     },
+     "c": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     },
+     "e": {
+      "m": 4,
+      "c": 0
+     },
+     "f": {
+      "m": 5,
+      "c": 0
+     },
+     "g": {
+      "m": 0,
+      "c": 1
+     },
+     "h": {
+      "m": 1,
+      "c": 1
+     },
+     "i": {
+      "m": 2,
+      "c": 1
+     },
+     "j": {
+      "m": 3,
+      "c": 1
+     },
+     "k": {
+      "m": 4,
+      "c": 2
+     },
+     "l": {
+      "m": 2,
+      "c": 2
+     },
+     "m": {
+      "m": 0,
+      "c": 2
+     },
+     "n": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   }
+  ]
+ }
+}

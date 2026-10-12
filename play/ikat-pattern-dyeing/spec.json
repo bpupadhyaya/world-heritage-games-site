@@ -1,0 +1,178 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 11,
+  "rows": 7,
+  "symmetry": "mirror-xy",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Indigo",
+    "color": "#3f63c8"
+   },
+   {
+    "name": "Madder red",
+    "color": "#c4402f"
+   },
+   {
+    "name": "Cream",
+    "color": "#efe4c8"
+   },
+   {
+    "name": "Ochre",
+    "color": "#d9a53a"
+   }
+  ],
+  "background": "#1d150f",
+  "grid": "#3a2c20",
+  "motifs": [
+   "stripe-v",
+   "diamond",
+   "zigzag",
+   "hexagon",
+   "arch",
+   "ring"
+  ],
+  "designs": [
+   {
+    "name": "Banded diamonds",
+    "rows": [
+     "aaaaaaaaaaa",
+     ".b.b.b.b.b.",
+     "c.c.c.c.c.c",
+     "dededededed",
+     "c.c.c.c.c.c",
+     ".b.b.b.b.b.",
+     "aaaaaaaaaaa"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "e": {
+      "m": 5,
+      "c": 2
+     },
+     "f": {
+      "m": 4,
+      "c": 1
+     },
+     "g": {
+      "m": 0,
+      "c": 1
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Hooked arches",
+    "rows": [
+     "ggggggggggg",
+     "f.f.f.f.f.f",
+     ".h.h.h.h.h.",
+     "ccccccccccc",
+     ".h.h.h.h.h.",
+     "f.f.f.f.f.f",
+     "ggggggggggg"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "e": {
+      "m": 5,
+      "c": 2
+     },
+     "f": {
+      "m": 4,
+      "c": 1
+     },
+     "g": {
+      "m": 0,
+      "c": 1
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Central medallion",
+    "rows": [
+     "a.a.a.a.a.a",
+     ".f.bbbbb.f.",
+     "g.bdddddb.g",
+     ".hdeeeeedh.",
+     "g.bdddddb.g",
+     ".f.bbbbb.f.",
+     "a.a.a.a.a.a"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     },
+     "e": {
+      "m": 5,
+      "c": 2
+     },
+     "f": {
+      "m": 4,
+      "c": 1
+     },
+     "g": {
+      "m": 0,
+      "c": 1
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     }
+    }
+   }
+  ],
+  "rotateMarks": true
+ }
+}

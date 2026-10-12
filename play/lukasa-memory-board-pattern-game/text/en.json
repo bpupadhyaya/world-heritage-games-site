@@ -1,0 +1,26 @@
+{
+ "title": "Lukasa memory board",
+ "native": "Lukasa",
+ "alt": [
+  "Luba memory board",
+  "The long hand"
+ ],
+ "summary": "The lukasa is a hand-sized wooden board of the Luba people of central Africa, studded with beads, shells and pins and scored with lines. Court historians read it with their fingertips as a chart of lineages, journeys and councils, recalling long histories from its patterns.",
+ "howToPlay": [
+  "Choose a bead colour and a mark from the strip under the board.",
+  "Tap a square to place it: the same mark appears on the matching squares across the board.",
+  "Copy the small board above, then press Check."
+ ],
+ "rules": [
+  "The board is a mirror image left to right and top to bottom, so you only work one corner.",
+  "A square counts only when its mark and its colour both match the board you are copying.",
+  "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+ ],
+ "heritageNote": "Lukasa boards come from the Luba kingdom in what is now the Democratic Republic of the Congo, where trained historians used them as prompts for spoken history. No two recitations were alike, and the boards are now held in museums around the world.",
+ "countries": [
+  "Democratic Republic of the Congo"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original)"
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "bowl",
+  "explicitProfile": [
+   0.42,
+   0.55,
+   0.74,
+   0.9,
+   1.0
+  ],
+  "rows": 8,
+  "steps": 12,
+  "bands": 4,
+  "guide": true,
+  "clay": "#c9805a",
+  "glazes": [
+   {
+    "name": "Cream slip",
+    "color": "#f2eadb"
+   },
+   {
+    "name": "Ishkor turquoise",
+    "color": "#1d9aa6"
+   },
+   {
+    "name": "Cobalt blue",
+    "color": "#1a3d8f"
+   },
+   {
+    "name": "Copper green",
+    "color": "#2f8f6a"
+   }
+  ],
+  "glazePattern": [
+   1,
+   0,
+   2,
+   3
+  ],
+  "variation": 0.05
+ }
+}

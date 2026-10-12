@@ -1,0 +1,31 @@
+{
+ "title": "Laamb",
+ "native": "Laamb",
+ "alt": [
+  "Laamb",
+  "Njom",
+  "Senegalese wrestling"
+ ],
+ "summary": "A wrestling sport of Senegal and the Gambia, held on a circle of sand with drummers and a loud crowd behind each champion. Two wrestlers wrap, lift, hook and drive until one is put down or driven out of the circle.",
+ "howToPlay": [
+  "Read the rival's stance: it shows the move he is about to make.",
+  "Tap the answering move while the marker is in the bright zone.",
+  "Wrap a waist hold first, then lift; throws work best on a rival who is off balance.",
+  "Win two of three rounds."
+ ],
+ "rules": [
+  "A wrestler who goes down on the sand, or is driven outside the circle, loses the round.",
+  "Each move beats two others and is beaten by two others; a good counter beats a good tap.",
+  "The waist wrap builds your grip; lifts need a grip and an unsteady rival.",
+  "A round also ends when one side leads by seven points, or when the clock runs out.",
+  "Use Breathe to recover stamina; tired moves are weak."
+ ],
+ "heritageNote": "Laamb, known to the Serer as njom, is among the most popular sports of Senegal, with champions followed by whole neighbourhoods and large stadium days. This game shows only the sport: the hold, the throw and the push-out.",
+ "countries": [
+  "Senegal",
+  "Gambia"
+ ],
+ "credits": [
+  "Game design: World Heritage Games (original)"
+ ]
+}

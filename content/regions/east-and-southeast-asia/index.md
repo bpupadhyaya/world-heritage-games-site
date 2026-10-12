@@ -1,16 +1,16 @@
 ---
 title: "East and Southeast Asia"
-description: "219 entries."
+description: "224 entries."
 path: "/regions/east-and-southeast-asia/"
-count: 219
+count: 224
 ---
 # East and Southeast Asia
 
-219 entries.
+224 entries.
 
 
 
-219 entries.
+224 entries.
 
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
@@ -23,6 +23,7 @@ count: 219
 - [Banig mat weaving](../../games/1236-banig-mat-weaving/index.md): Philippines; Crafts and making; Living Traditions
 - [Banqi](../../games/1437-banqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages
 - [Batik wax-resist pattern studio](../../games/105-batik-wax-resist-pattern-studio/index.md): Indonesia, Malaysia; Crafts and making; Living Traditions
+- [Bentengan](../../games/326-bentengan/index.md): Indonesia; Board and table games; Deep Past and First Games
 - [Bianzhong](../../games/336-bianzhong/index.md): China; Musical instruments; Living Traditions
 - [Bo Sang umbrella painting](../../games/1243-bo-sang-umbrella-painting/index.md): Thailand; Crafts and making; Living Traditions
 - [Bojagi](../../games/363-bojagi/index.md): South Korea; Crafts and making; Living Traditions
@@ -52,6 +53,7 @@ count: 219
 - [Dumpling Pleating](../../games/499-dumpling-pleating/index.md): China, Nepal; Crafts and making; Living Traditions
 - [E-sugoroku](../../games/348-e-sugoroku/index.md): Japan; Board and table games; River Valleys and First Cities
 - [Egrang](../../games/17-egrang/index.md): Indonesia, Malaysia; Racing; Classical Worlds
+- [Elastic Jump](../../games/6-elastic-jump/index.md): China; Street and playground games; Modern Heritage
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Fan-tan](../../games/900-fan-tan/index.md): China; Other traditions; Living Traditions
 - [Floating market trader](../../games/315-floating-market-trader/index.md): Thailand; Board and table games; Crossroads and Golden Ages
@@ -87,6 +89,7 @@ count: 219
 - [Intha leg rowing on the lake](../../games/304-intha-leg-rowing-on-the-lake/index.md): Myanmar; Racing; Age of Contact and Craft
 - [Jeepney painting](../../games/1306-jeepney-painting/index.md): Philippines; Crafts and making; Living Traditions
 - [Jegichagi](../../games/1082-jegichagi/index.md): South Korea, North Korea; Street and playground games; Modern Heritage
+- [Jianzi](../../games/1-jianzi/index.md): China, Vietnam; Dexterity and skill games; Modern Heritage
 - [Juldarigi](../../games/2772-juldarigi/index.md): South Korea, United Kingdom; Other traditions; Classical Worlds
 - [Kaapse Klopse](../../games/1307-kaapse-klopse/index.md): Malaysia, South Africa; Street and playground games; Modern Heritage
 - [Kamishibai](../../games/353-kamishibai/index.md): Japan; Puzzles and mind games; Modern Heritage
@@ -151,6 +154,7 @@ count: 219
 - [Sashiko Stitch Patterns](../../games/27-sashiko-stitch-patterns/index.md): Japan; Crafts and making; Living Traditions
 - [Saung gauk](../../games/306-saung-gauk/index.md): Myanmar; Musical instruments; Classical Worlds
 - [Seal carving](../../games/341-seal-carving/index.md): China; Crafts and making; Living Traditions
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Sepak takraw](../../games/802-sepak-takraw/index.md): Indonesia, Malaysia; Street and playground games; Modern Heritage
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md): Japan, India; Crafts and making; Living Traditions
@@ -186,6 +190,7 @@ count: 219
 - [Ukiyo-e Woodblock Printing](../../games/1490-ukiyo-e-woodblock-printing/index.md): Japan; Crafts and making; Living Traditions
 - [Water puppet pond theatre](../../games/303-water-puppet-pond-theatre/index.md): Vietnam; Performance and storytelling; Classical Worlds
 - [Wau bulan kite](../../games/911-wau-bulan-kite/index.md): Malaysia; Dexterity and skill games; Classical Worlds
+- [Wayang Shadow Puppets](../../games/47-wayang-shadow-puppets/index.md): Indonesia; Performance and storytelling; Classical Worlds
 - [Yoke thé](../../games/314-yoke-the/index.md): Myanmar; Performance and storytelling; Classical Worlds
 - [Yukigassen Snow Fort](../../games/71-yukigassen-snow-fort/index.md): Japan; Water and winter sports; Modern Heritage
 - [Ail ger](../../games/940-ail-ger/index.md): Mongolia; Dexterity and skill games; Modern Heritage

@@ -1,0 +1,246 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Step R",
+    "id": "r",
+    "hz": 170,
+    "timbre": "stomp",
+    "icon": "foot-r",
+    "color": "#c0392b"
+   },
+   {
+    "name": "Step L",
+    "id": "l",
+    "hz": 150,
+    "timbre": "stomp",
+    "icon": "foot-l",
+    "color": "#f2e9d8"
+   },
+   {
+    "name": "Hop",
+    "id": "hop",
+    "hz": 95,
+    "timbre": "stomp",
+    "icon": "stomp",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Close",
+    "id": "close",
+    "hz": 240,
+    "timbre": "clap",
+    "icon": "slap",
+    "color": "#3a3a3a"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Narodno kolo, 2/4",
+    "bpm": 108,
+    "meter": 2,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "r"
+     },
+     {
+      "beat": 1,
+      "lane": "l"
+     },
+     {
+      "beat": 2,
+      "lane": "r"
+     },
+     {
+      "beat": 3,
+      "lane": "hop"
+     },
+     {
+      "beat": 4,
+      "lane": "l"
+     },
+     {
+      "beat": 5,
+      "lane": "r"
+     },
+     {
+      "beat": 6,
+      "lane": "l"
+     },
+     {
+      "beat": 6.5,
+      "lane": "r"
+     },
+     {
+      "beat": 7,
+      "lane": "close"
+     },
+     {
+      "beat": 8,
+      "lane": "r"
+     },
+     {
+      "beat": 9,
+      "lane": "l"
+     },
+     {
+      "beat": 10,
+      "lane": "r"
+     },
+     {
+      "beat": 11,
+      "lane": "hop"
+     },
+     {
+      "beat": 12,
+      "lane": "l"
+     },
+     {
+      "beat": 13,
+      "lane": "r"
+     },
+     {
+      "beat": 14,
+      "lane": "l"
+     },
+     {
+      "beat": 14.5,
+      "lane": "r"
+     },
+     {
+      "beat": 15,
+      "lane": "close"
+     }
+    ]
+   },
+   {
+    "name": "Lesnoto, 7/8 (3+2+2)",
+    "bpm": 156,
+    "meter": 7,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "r"
+     },
+     {
+      "beat": 3,
+      "lane": "l"
+     },
+     {
+      "beat": 5,
+      "lane": "hop"
+     },
+     {
+      "beat": 7,
+      "lane": "l"
+     },
+     {
+      "beat": 10,
+      "lane": "r"
+     },
+     {
+      "beat": 12,
+      "lane": "close"
+     },
+     {
+      "beat": 14,
+      "lane": "r"
+     },
+     {
+      "beat": 17,
+      "lane": "l"
+     },
+     {
+      "beat": 19,
+      "lane": "hop"
+     },
+     {
+      "beat": 21,
+      "lane": "l"
+     },
+     {
+      "beat": 24,
+      "lane": "r"
+     },
+     {
+      "beat": 26,
+      "lane": "close"
+     }
+    ]
+   },
+   {
+    "name": "Račenica, 7/8 (2+2+3)",
+    "bpm": 170,
+    "meter": 7,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "r"
+     },
+     {
+      "beat": 2,
+      "lane": "l"
+     },
+     {
+      "beat": 4,
+      "lane": "hop"
+     },
+     {
+      "beat": 7,
+      "lane": "l"
+     },
+     {
+      "beat": 9,
+      "lane": "r"
+     },
+     {
+      "beat": 11,
+      "lane": "hop"
+     },
+     {
+      "beat": 13,
+      "lane": "close"
+     },
+     {
+      "beat": 14,
+      "lane": "r"
+     },
+     {
+      "beat": 16,
+      "lane": "l"
+     },
+     {
+      "beat": 18,
+      "lane": "r"
+     },
+     {
+      "beat": 19.5,
+      "lane": "l"
+     },
+     {
+      "beat": 21,
+      "lane": "l"
+     },
+     {
+      "beat": 23,
+      "lane": "r"
+     },
+     {
+      "beat": 25,
+      "lane": "hop"
+     },
+     {
+      "beat": 27,
+      "lane": "close"
+     }
+    ]
+   }
+  ]
+ }
+}

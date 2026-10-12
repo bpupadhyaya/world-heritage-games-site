@@ -38,14 +38,18 @@ A living tradition passed from person to person; it is not tied to a single date
 - **Cradle:** [South Asia](../../cradles/south-asia/index.md)
 - **Region:** South and Central Asia
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md)
 - [Santur Hammer Strings](../../games/138-santur-hammer-strings/index.md)
 - [Dan bau](../../games/143-dan-bau/index.md)
+- [Kamancha](../../games/165-kamancha/index.md)
 - [Goje One-String Fiddle](../../games/176-goje-one-string-fiddle/index.md)
 - [Masenqo and the azmari](../../games/187-masenqo-and-the-azmari/index.md)
-- [Hira gasy village troupe contest](../../games/205-hira-gasy-village-troupe-contest/index.md)
 
 ## Sources
 

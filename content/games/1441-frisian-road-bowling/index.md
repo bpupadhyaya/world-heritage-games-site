@@ -40,12 +40,12 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 ## Related entries
 
+- [Canal ice-skating marathon](../../games/84-canal-ice-skating-marathon/index.md)
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md)
+- ['Ulu Maika](../../games/44-ulu-maika/index.md)
 - [Finnish pin toss](../../games/49-finnish-pin-toss/index.md)
 - [Sled dog race](../../games/62-sled-dog-race/index.md)
 - [Kicksled Race](../../games/407-kicksled-race/index.md)
-- [Luge and toboggan run](../../games/482-luge-and-toboggan-run/index.md)
-- [Bagatelle](../../games/72-bagatelle/index.md)
 
 ## Sources
 

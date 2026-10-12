@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with G"
-description: "46 entries beginning with G."
+description: "47 entries beginning with G."
 path: "/a-z/G/"
 ---
 # Entries beginning with G
@@ -20,6 +20,7 @@ path: "/a-z/G/"
 - [Gebeta](../../games/708-gebeta/index.md): Ethiopia; Board and table games; Deep Past and First Games
 - [Generala](../../games/422-generala/index.md): Argentina, Uruguay; Board and table games; River Valleys and First Cities
 - [Geomungo](../../games/1453-geomungo/index.md): South Korea; Musical instruments; Classical Worlds
+- [Georgian three-voice polyphony](../../games/245-georgian-three-voice-polyphony/index.md): Georgia; Musical instruments; Living Traditions
 - [Ger raising](../../games/101-ger-raising/index.md): Mongolia; Puzzles and mind games; Modern Heritage
 - [Ghadames Rooftop Maze](../../games/1291-ghadames-rooftop-maze/index.md): Libya; Puzzles and mind games; Modern Heritage
 - [Giant Barriletes](../../games/1486-giant-barriletes/index.md): Guatemala; Crafts and making; Living Traditions

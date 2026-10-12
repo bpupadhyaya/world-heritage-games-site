@@ -42,10 +42,10 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 - [Dizi](../../games/132-dizi/index.md)
 - [Fujara](../../games/135-fujara/index.md)
+- [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md)
 - [Kurai](../../games/1237-kurai/index.md)
 - [Khloy bamboo duct flute](../../games/1311-khloy-bamboo-duct-flute/index.md)
 - [Khene](../../games/145-khene/index.md)
-- [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md)
 
 ## Sources
 

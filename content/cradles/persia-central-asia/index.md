@@ -2,7 +2,7 @@
 title: "Persia, Caucasus and Central Asia"
 description: "The Iranian plateau, the mountains of the Caucasus and the Silk Road oases."
 path: "/cradles/persia-central-asia/"
-count: 58
+count: 62
 ---
 # Persia, Caucasus and Central Asia
 
@@ -10,12 +10,13 @@ The Iranian plateau, the mountains of the Caucasus and the Silk Road oases.
 
 
 
-58 entries.
+62 entries.
 
 - [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md): Afghanistan; Musical instruments; Crossroads and Golden Ages
 - [Astrolabe: reading the sky](../../games/236-astrolabe-reading-the-sky/index.md): Iran; Toys; Modern Heritage
 - [Badgir windcatcher cooling puzzle](../../games/229-badgir-windcatcher-cooling-puzzle/index.md): Iran; Crafts and making; Living Traditions
 - [Bayt-bazi: verse chain](../../games/240-bayt-bazi-verse-chain/index.md): Iran; Performance and storytelling; Living Traditions
+- [Buzkashi](../../games/226-buzkashi/index.md): Afghanistan, Uzbekistan; Dexterity and skill games; Classical Worlds
 - [Chess](../../games/552-chess/index.md): Armenia, Azerbaijan; Board and table games; Crossroads and Golden Ages
 - [Chidaoba](../../games/734-chidaoba/index.md): Georgia; Street and playground games; River Valleys and First Cities
 - [Chogan](../../games/810-chogan/index.md): Iran; Street and playground games; Classical Worlds
@@ -24,8 +25,10 @@ The Iranian plateau, the mountains of the Caucasus and the Silk Road oases.
 - [Dombra](../../games/48-dombra/index.md): Kazakhstan; Musical instruments; Crossroads and Golden Ages
 - [Durak](../../games/854-durak/index.md): Kazakhstan, Turkmenistan; Card games; Age of Contact and Craft
 - [Flower or Empty](../../games/812-flower-or-empty/index.md): Iran; Street and playground games; Modern Heritage
+- [Georgian three-voice polyphony](../../games/245-georgian-three-voice-polyphony/index.md): Georgia; Musical instruments; Living Traditions
 - [Gushtingiri wrestling](../../games/1133-gushtingiri-wrestling/index.md): Tajikistan; Street and playground games; River Valleys and First Cities
 - [Ikat Pattern Dyeing](../../games/104-ikat-pattern-dyeing/index.md): Uzbekistan; Crafts and making; Living Traditions
+- [Kamancha](../../games/165-kamancha/index.md): Azerbaijan, Iran; Musical instruments; Living Traditions
 - [Khatam inlay star pattern workshop](../../games/231-khatam-inlay-star-pattern-workshop/index.md): Iran; Crafts and making; Living Traditions
 - [Khinkali dumpling pleating](../../games/246-khinkali-dumpling-pleating/index.md): Georgia; Crafts and making; Living Traditions
 - [Knucklebone game](../../games/522-knucklebone-game/index.md): Afghanistan, Mongolia; Dexterity and skill games; Deep Past and First Games
@@ -40,6 +43,7 @@ The Iranian plateau, the mountains of the Caucasus and the Silk Road oases.
 - [Nard / backgammon](../../games/1168-nard-backgammon/index.md): Turkmenistan, Tajikistan; Board and table games; River Valleys and First Cities
 - [Nardi](../../games/551-nardi/index.md): Armenia, Azerbaijan; Board and table games; River Valleys and First Cities
 - [Pamiri House Ceiling Raiser](../../games/1356-pamiri-house-ceiling-raiser/index.md): Tajikistan; Crafts and making; Living Traditions
+- [Panduri](../../games/41-panduri/index.md): Georgia; Musical instruments; Crossroads and Golden Ages
 - [Persian Carpet Knotting](../../games/161-persian-carpet-knotting/index.md): Iran, Turkey; Crafts and making; Living Traditions
 - [Persian garden layout puzzle](../../games/239-persian-garden-layout-puzzle/index.md): Iran; Crafts and making; Living Traditions
 - [Qanat Water Tunnels](../../games/160-qanat-water-tunnels/index.md): Iran; Puzzles and mind games; Modern Heritage

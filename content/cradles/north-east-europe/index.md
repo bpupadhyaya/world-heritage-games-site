@@ -2,7 +2,7 @@
 title: "Northern and Eastern Europe"
 description: "Nordic, Baltic, Slavic and central European lands."
 path: "/cradles/north-east-europe/"
-count: 84
+count: 89
 ---
 # Northern and Eastern Europe
 
@@ -10,12 +10,15 @@ Nordic, Baltic, Slavic and central European lands.
 
 
 
-84 entries.
+89 entries.
 
+- [Balalaika](../../games/133-balalaika/index.md): Russia; Musical instruments; Crossroads and Golden Ages
+- [Balkan Kolo](../../games/134-balkan-kolo/index.md): Serbia, Croatia; Dances; Living Traditions
 - [Belarusian straw weaving](../../games/387-belarusian-straw-weaving/index.md): Belarus; Crafts and making; Living Traditions
 - [Black Forest Cuckoo Clock Workshop](../../games/409-black-forest-cuckoo-clock-workshop/index.md): Germany; Crafts and making; Living Traditions
 - [Bolesławiec Stamped Pottery](../../games/1244-bolesawiec-stamped-pottery/index.md): Poland; Crafts and making; Living Traditions
 - [Brännboll](../../games/1118-brannboll/index.md): Sweden; Street and playground games; Deep Past and First Games
+- [Bulgarian asymmetric rhythm](../../games/385-bulgarian-asymmetric-rhythm/index.md): Bulgaria; Dances; Living Traditions
 - [Bulgarian Painted Pottery](../../games/1388-bulgarian-painted-pottery/index.md): Bulgaria; Crafts and making; Living Traditions
 - [Chinese Checkers](../../games/8870-chinese-checkers/index.md): Germany; Board and table games; Deep Past and First Games
 - [Čičmany House Ornament Painting](../../games/1256-cicmany-house-ornament-painting/index.md): Slovakia; Crafts and making; Living Traditions
@@ -40,7 +43,7 @@ Nordic, Baltic, Slavic and central European lands.
 - [Hardanger embroidery](../../games/1296-hardanger-embroidery/index.md): Norway; Crafts and making; Living Traditions
 - [Hardanger Fiddle Halling](../../games/520-hardanger-fiddle-halling/index.md): Norway; Musical instruments; Living Traditions
 - [Horezu ceramics](../../games/384-horezu-ceramics/index.md): Romania; Crafts and making; Living Traditions
-- [Hornussen](../../games/10-hornussen/index.md): Switzerland; Board and table games; Crossroads and Golden Ages
+- [Hornussen](../../games/10-hornussen/index.md): Switzerland; Bat-and-ball games; Crossroads and Golden Ages
 - [Hose-Run Fire Sport](../../games/1281-hose-run-fire-sport/index.md): Czechia, Slovakia; Dexterity and skill games; Modern Heritage
 - [Ice Stock Sport](../../games/1451-ice-stock-sport/index.md): Austria, Germany; Dexterity and skill games; Modern Heritage
 - [Kalocsa floral painting](../../games/383-kalocsa-floral-painting/index.md): Hungary; Crafts and making; Living Traditions
@@ -74,10 +77,12 @@ Nordic, Baltic, Slavic and central European lands.
 - [Pirot Kilim Weaver](../../games/1361-pirot-kilim-weaver/index.md): Serbia; Crafts and making; Living Traditions
 - [Ringridning](../../games/1365-ringridning/index.md): Denmark; Dexterity and skill games; Modern Heritage
 - [Rosemaling](../../games/120-rosemaling/index.md): Norway; Crafts and making; Living Traditions
+- [Schuhplattler](../../games/410-schuhplattler/index.md): Germany, Austria; Dances; Living Traditions
 - [Shashki](../../games/1177-shashki/index.md): Ukraine, Belarus; Board and table games; Crossroads and Golden Ages
 - [Skrabalai](../../games/388-skrabalai/index.md): Lithuania; Musical instruments; Living Traditions
 - [Slutsk Sash Weaving](../../games/1375-slutsk-sash-weaving/index.md): Belarus; Crafts and making; Living Traditions
 - [Stamp Designer and Perforator](../../games/1470-stamp-designer-and-perforator/index.md): Liechtenstein; Crafts and making; Living Traditions
+- [String Marionette Theatre](../../games/68-string-marionette-theatre/index.md): Czechia; Performance and storytelling; Classical Worlds
 - [Svaika](../../games/1048-svaika/index.md): Russia; Street and playground games; Modern Heritage
 - [Swiss wrestling](../../games/487-swiss-wrestling/index.md): Switzerland; Wrestling and martial sports; River Valleys and First Cities
 - [Tafl](../../games/995-tafl/index.md): Norway, Sweden; Board and table games; Crossroads and Golden Ages

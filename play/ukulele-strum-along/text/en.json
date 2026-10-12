@@ -1,0 +1,30 @@
+{
+ "title": "Ukulele strum-along",
+ "native": "'Ukulele",
+ "alt": [
+  "Ukulele"
+ ],
+ "summary": "The 'ukulele is a small four-string guitar that took its Hawaiian form in the 1880s from small guitars brought by Portuguese settlers. Its re-entrant tuning gives a bright, chiming strum that suits singing along.",
+ "howToPlay": [
+  "The four strings are on the top row and four chord strums on the lower row.",
+  "Notes travel toward a line at the bottom; strike the lane just as a note arrives.",
+  "In the first song, strum the chord named in each bar with a down, a down-up and an up-down-up.",
+  "Then pick the strings one by one in the arpeggio, and finish with the short chop strum."
+ ],
+ "rules": [
+  "The strings are tuned G, C, E, A with the G above the C, a re-entrant tuning.",
+  "A stroke within a hair of the note is perfect, a near one is good, and a missed one scores nothing.",
+  "An extra stroke while a song is running costs a few points.",
+  "Each song plays twice; three stars need roughly nine notes in ten on time.",
+  "A chord lane is one sounded note at the chord's root; strum direction is not judged."
+ ],
+ "heritageNote": "The 'ukulele grew from small guitars of Madeira that reached Hawaii in 1879. It became a staple of island music and is now played in schools, bands and living rooms around the world.",
+ "countries": [
+  "United States",
+  "Portugal"
+ ],
+ "credits": [
+  "Tradition: Hawaiian 'ukulele strumming; figures written for this game",
+  "Photo of a Hawaiian musician from the Pan-American Exposition archive (public domain)"
+ ]
+}

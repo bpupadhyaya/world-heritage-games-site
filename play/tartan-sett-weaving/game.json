@@ -1,0 +1,13 @@
+{
+ "slug": "tartan-sett-weaving",
+ "title": "Tartan sett weaving",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

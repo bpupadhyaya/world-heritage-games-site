@@ -1,0 +1,47 @@
+{
+ "engine": "aim",
+ "params": {
+  "mode": "balance",
+  "controls": "drag",
+  "showWindow": true,
+  "stack": {
+   "blocks": 6,
+   "colors": [
+    "#c9362b",
+    "#e8b52e",
+    "#3a8f4f",
+    "#2f6db5",
+    "#7a3fa0",
+    "#e8e2d0"
+   ],
+   "window": [
+    0.42,
+    0.58
+   ],
+   "load": 0.03,
+   "weak": 0.3,
+   "strong": 0.6,
+   "settle": 0.1,
+   "headBonus": 3
+  },
+  "rounds": {
+   "throws": 8,
+   "count": 3,
+   "scoring": "aggregate",
+   "scoreAt": "throw"
+  },
+  "stars": [
+   8,
+   15,
+   21
+  ],
+  "maxScore": 27,
+  "look": {
+   "surround": "#1b1620",
+   "lane": "#c49a62",
+   "edge": "#7a5530",
+   "head": "#d93b2f",
+   "mallet": "#8b5a2b"
+  }
+ }
+}

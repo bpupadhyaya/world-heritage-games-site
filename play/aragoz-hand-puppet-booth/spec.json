@@ -1,0 +1,460 @@
+{
+ "engine": "story",
+ "params": {
+  "stage": "glove",
+  "start": "start",
+  "cast": {
+   "aragoz": {
+    "name": "Aragoz",
+    "kind": "clown",
+    "color": "#c0392b",
+    "accent": "#f2c14e",
+    "hat": "pointed",
+    "hatColor": "#c0392b",
+    "mask": "none",
+    "scale": 1.0
+   },
+   "layla": {
+    "name": "Layla",
+    "kind": "person",
+    "color": "#6a3d8a",
+    "accent": "#f2c14e",
+    "hat": "none",
+    "robe": true
+   },
+   "vendor": {
+    "name": "Sweet-seller",
+    "kind": "trader",
+    "color": "#2f7a5a",
+    "accent": "#f6e7b4",
+    "hat": "cap",
+    "pack": false
+   },
+   "boy": {
+    "name": "Small boy",
+    "kind": "child",
+    "color": "#2f5d8c",
+    "accent": "#f2f2f2",
+    "hat": "cap"
+   },
+   "loud": {
+    "name": "Loud man",
+    "kind": "person",
+    "color": "#8a5a2e",
+    "accent": "#d9b26a",
+    "hat": "turban",
+    "beard": true
+   },
+   "constable": {
+    "name": "Constable",
+    "kind": "person",
+    "color": "#2a3a5a",
+    "accent": "#d9d9d9",
+    "hat": "kalpak",
+    "prop": "stick"
+   }
+  },
+  "meters": [
+   {
+    "id": "wit",
+    "label": "Wit",
+    "start": 0,
+    "max": 5
+   },
+   {
+    "id": "goodwill",
+    "label": "Goodwill",
+    "start": 0,
+    "max": 5
+   }
+  ],
+  "scenes": {
+   "start": {
+    "text": "The booth shakes and Aragoz pops up, squeaking. Behind him on the bread-seller's lane lies a fat purse. Layla gasps: \"Aragoz! Somebody has lost a month's wages!\"",
+    "bg": "street",
+    "on": [
+     {
+      "who": "aragoz",
+      "at": "midleft"
+     },
+     {
+      "who": "layla",
+      "at": "midright"
+     }
+    ],
+    "speaker": "aragoz",
+    "choices": [
+     {
+      "text": "Tuck it in his cloak and whistle at the sky",
+      "next": "hide",
+      "pts": 0,
+      "set": [
+       "hid"
+      ]
+     },
+     {
+      "text": "Count the coins aloud, to be sure they are real",
+      "next": "count",
+      "pts": 1
+     },
+     {
+      "text": "Hold it high and squeak: who has lost something?",
+      "next": "ask",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1
+      }
+     }
+    ]
+   },
+   "hide": {
+    "text": "Aragoz whistles, but the purse clinks at every hop. The whole lane turns to look, and Layla folds her arms.",
+    "bg": "street",
+    "on": [
+     {
+      "who": "aragoz",
+      "at": "left",
+      "pose": "slump"
+     },
+     {
+      "who": "layla",
+      "at": "midright"
+     }
+    ],
+    "next": "claims",
+    "cont": "Face the crowd"
+   },
+   "count": {
+    "text": "\"One, two, seven!\" squeaks Aragoz. The crowd leans in, and so do three people who suddenly remember they are poor.",
+    "bg": "street",
+    "on": [
+     {
+      "who": "aragoz",
+      "at": "midleft"
+     },
+     {
+      "who": "loud",
+      "at": "midright"
+     }
+    ],
+    "next": "claims",
+    "cont": "Hear the claims"
+   },
+   "ask": {
+    "text": "\"Who has lost something?\" The crowd goes quiet, and then everybody speaks at once.",
+    "bg": "street",
+    "on": [
+     {
+      "who": "aragoz",
+      "at": "midleft",
+      "pose": "point"
+     },
+     {
+      "who": "layla",
+      "at": "midright",
+      "pose": "cheer"
+     }
+    ],
+    "next": "claims",
+    "cont": "Hear the claims"
+   },
+   "claims": {
+    "text": "The loud man booms: \"Fifty coins, red cord, mine!\" A small boy whispers: \"There were seven, tied with blue, for my mother's medicine.\"",
+    "bg": "street",
+    "on": [
+     {
+      "who": "loud",
+      "at": "left"
+     },
+     {
+      "who": "aragoz",
+      "at": "center"
+     },
+     {
+      "who": "boy",
+      "at": "right"
+     }
+    ],
+    "speaker": "aragoz",
+    "puzzle": {
+     "prompt": "The cord on the purse is blue and the coins are seven. Whose is it?",
+     "options": [
+      "The loud man: fifty coins and a red cord",
+      "The small boy: seven coins and a blue cord",
+      "Share it out among everyone who asked"
+     ],
+     "answer": 1,
+     "right": {
+      "effects": {
+       "wit": 2
+      },
+      "pts": 2,
+      "next": "owner",
+      "set": [
+       "justice"
+      ]
+     },
+     "wrong": {
+      "pts": 0,
+      "next": "owner"
+     }
+    }
+   },
+   "owner": {
+    "text": "The constable arrives, twirling his stick. \"A purse? Hand it to me and I will keep it safe.\" The loud man nods too eagerly.",
+    "bg": "street",
+    "on": [
+     {
+      "who": "constable",
+      "at": "midleft"
+     },
+     {
+      "who": "loud",
+      "at": "left"
+     },
+     {
+      "who": "aragoz",
+      "at": "center"
+     },
+     {
+      "who": "boy",
+      "at": "right"
+     }
+    ],
+    "speaker": "constable",
+    "choices": [
+     {
+      "text": "Hand it over: the law is the law",
+      "next": "gone",
+      "pts": 0
+     },
+     {
+      "text": "Give it to the boy in front of the whole lane",
+      "next": "boy",
+      "pts": 2,
+      "effects": {
+       "goodwill": 2
+      }
+     },
+     {
+      "text": "Count it into the constable's hand, coin by coin, with the crowd counting too",
+      "next": "counted",
+      "pts": 1,
+      "effects": {
+       "wit": 1
+      }
+     }
+    ]
+   },
+   "gone": {
+    "text": "The constable pockets the purse with a cough. The boy stares at his shoes. Aragoz's squeak goes thin.",
+    "bg": "street",
+    "on": [
+     {
+      "who": "constable",
+      "at": "midleft"
+     },
+     {
+      "who": "boy",
+      "at": "right",
+      "pose": "slump"
+     },
+     {
+      "who": "aragoz",
+      "at": "center",
+      "pose": "slump"
+     }
+    ],
+    "next": "end_bad",
+    "cont": "Leave the booth"
+   },
+   "counted": {
+    "text": "Seven coins, counted out loud by the whole lane. The constable clears his throat and hands the purse to the boy himself, red to the ears.",
+    "bg": "street",
+    "on": [
+     {
+      "who": "constable",
+      "at": "midleft",
+      "pose": "bow"
+     },
+     {
+      "who": "boy",
+      "at": "right"
+     },
+     {
+      "who": "aragoz",
+      "at": "center",
+      "pose": "cheer"
+     }
+    ],
+    "next": "reward",
+    "cont": "Take a bow"
+   },
+   "boy": {
+    "text": "The boy takes it with both hands. The lane applauds, and even the constable taps his stick on the stones.",
+    "bg": "street",
+    "on": [
+     {
+      "who": "boy",
+      "at": "right",
+      "pose": "cheer"
+     },
+     {
+      "who": "aragoz",
+      "at": "center",
+      "pose": "cheer"
+     },
+     {
+      "who": "layla",
+      "at": "midright",
+      "pose": "cheer"
+     }
+    ],
+    "next": "reward",
+    "cont": "Take a bow"
+   },
+   "reward": {
+    "text": "The boy presses one coin into Aragoz's paw. \"For sweets.\" Layla grins. The sweet-seller is already holding out a tray.",
+    "bg": "street",
+    "on": [
+     {
+      "who": "boy",
+      "at": "midright"
+     },
+     {
+      "who": "aragoz",
+      "at": "center"
+     },
+     {
+      "who": "layla",
+      "at": "left"
+     },
+     {
+      "who": "vendor",
+      "at": "right"
+     }
+    ],
+    "speaker": "vendor",
+    "choices": [
+     {
+      "text": "Buy a whole tray and eat it behind the booth",
+      "next": "end_plain",
+      "pts": 0
+     },
+     {
+      "text": "Buy one honey cake and share it three ways",
+      "next": "end_good",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1
+      }
+     }
+    ]
+   },
+   "end_bad": {
+    "text": "The coins are gone, the crowd has drifted off, and the booth is quiet. Even a squeaky puppet knows when a joke has fallen flat.",
+    "bg": "street",
+    "on": [
+     {
+      "who": "aragoz",
+      "at": "center",
+      "pose": "slump"
+     }
+    ],
+    "end": true
+   },
+   "end_plain": {
+    "text": "Aragoz is sticky and happy, and Layla is not. The honest part of the evening is over, and the sweet part was short.",
+    "bg": "street",
+    "on": [
+     {
+      "who": "aragoz",
+      "at": "midleft"
+     },
+     {
+      "who": "layla",
+      "at": "midright",
+      "pose": "slump"
+     }
+    ],
+    "end": true
+   },
+   "end_good": {
+    "text": "Aragoz, Layla and the boy share one honey cake while the lane sings. It is the sweetest thing sold all day, and it cost one coin.",
+    "bg": "street",
+    "on": [
+     {
+      "who": "aragoz",
+      "at": "midleft",
+      "pose": "cheer"
+     },
+     {
+      "who": "layla",
+      "at": "center",
+      "pose": "cheer"
+     },
+     {
+      "who": "boy",
+      "at": "midright",
+      "pose": "cheer"
+     }
+    ],
+    "end": true
+   }
+  },
+  "endings": [
+   {
+    "id": "empty",
+    "stars": 0,
+    "headline": "Nothing but a squeak",
+    "text": "A joke that fell flat.",
+    "when": {
+     "flags": [
+      "hid"
+     ],
+     "max": {
+      "goodwill": 0,
+      "wit": 0
+     }
+    }
+   },
+   {
+    "id": "best",
+    "stars": 3,
+    "headline": "The whole lane cheers",
+    "text": "Honest, clever and generous, all at once.",
+    "when": {
+     "min": {
+      "wit": 2,
+      "goodwill": 3
+     }
+    }
+   },
+   {
+    "id": "good",
+    "stars": 2,
+    "headline": "The boy has his purse",
+    "text": "Justice was done, if a little late.",
+    "when": {
+     "min": {
+      "wit": 2
+     }
+    }
+   },
+   {
+    "id": "ok",
+    "stars": 1,
+    "headline": "A quiet evening",
+    "text": "The booth closes with a small joke."
+   }
+  ],
+  "look": {
+   "curtain": "#b22a1c",
+   "wall": "#2f4a4a",
+   "floor": "#6a4222",
+   "far": "#1d3332",
+   "near": "#4a6a64",
+   "glow": "#ffd777"
+  }
+ }
+}

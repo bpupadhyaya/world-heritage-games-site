@@ -1,0 +1,480 @@
+{
+ "engine": "story",
+ "params": {
+  "stage": "marionette",
+  "start": "start",
+  "cast": {
+   "anezka": {
+    "name": "Anezka",
+    "kind": "child",
+    "hat": "cap",
+    "color": "#b5446e",
+    "accent": "#f2c14e"
+   },
+   "honza": {
+    "name": "Honza the jester",
+    "kind": "clown",
+    "hat": "pointed",
+    "hatColor": "#d9a52a",
+    "color": "#2f6f9a",
+    "accent": "#f0d070"
+   },
+   "hodinar": {
+    "name": "The clockmaker",
+    "kind": "person",
+    "hat": "cap",
+    "beard": true,
+    "prop": "staff",
+    "color": "#4a5a3a",
+    "accent": "#c9b26a"
+   },
+   "purkmistr": {
+    "name": "The Mayor",
+    "kind": "ruler",
+    "hat": "plume",
+    "color": "#8a1f2a",
+    "accent": "#e8b83a",
+    "prop": "staff"
+   },
+   "husa": {
+    "name": "The goose",
+    "kind": "duck",
+    "scale": 1.0,
+    "color": "#f4efe2",
+    "accent": "#e8a030"
+   }
+  },
+  "meters": [
+   {
+    "id": "wit",
+    "label": "Wit",
+    "start": 0,
+    "max": 5
+   },
+   {
+    "id": "goodwill",
+    "label": "Goodwill",
+    "start": 0,
+    "max": 5
+   }
+  ],
+  "scenes": {
+   "start": {
+    "bg": "stage",
+    "speaker": "purkmistr",
+    "on": [
+     {
+      "who": "anezka",
+      "at": "left"
+     },
+     {
+      "who": "purkmistr",
+      "at": "center"
+     },
+     {
+      "who": "honza",
+      "at": "right"
+     }
+    ],
+    "text": "The fair bell is silent. \"No bell, no fair!\" cries the Mayor, stamping his cane. Little Anezka looks up at the tower, and the jester Honza scratches his cap.",
+    "choices": [
+     {
+      "text": "Blame the jester, he loves a prank",
+      "next": "accuse",
+      "pts": 0,
+      "set": [
+       "accused"
+      ]
+     },
+     {
+      "text": "Ask the old clockmaker how a bell is made to ring",
+      "next": "clockmaker",
+      "pts": 1
+     },
+     {
+      "text": "Climb the tower and look at the bell yourself",
+      "next": "tower",
+      "pts": 2,
+      "effects": {
+       "wit": 1
+      }
+     }
+    ]
+   },
+   "accuse": {
+    "bg": "stage",
+    "speaker": "honza",
+    "on": [
+     {
+      "who": "honza",
+      "at": "right",
+      "pose": "point"
+     },
+     {
+      "who": "purkmistr",
+      "at": "center"
+     }
+    ],
+    "text": "Honza gasps and swears on his bells that he never touched it. The crowd murmurs. Nobody is any closer to a bell that rings.",
+    "next": "tower",
+    "cont": "Climb the tower"
+   },
+   "clockmaker": {
+    "bg": "street",
+    "speaker": "hodinar",
+    "on": [
+     {
+      "who": "hodinar",
+      "at": "center"
+     },
+     {
+      "who": "anezka",
+      "at": "left"
+     }
+    ],
+    "text": "\"A bell swings on its yoke,\" says the clockmaker, \"and a clapper on a hook inside strikes it. No clapper, no voice.\" Anezka runs for the stairs.",
+    "next": "tower",
+    "cont": "Climb the tower"
+   },
+   "tower": {
+    "bg": "street",
+    "on": [
+     {
+      "who": "anezka",
+      "at": "left"
+     },
+     {
+      "who": "honza",
+      "at": "midright"
+     }
+    ],
+    "text": "The bell hangs fine, but the hook inside is empty. A few white feathers lie on the stones below. Who took the clapper, and where did they go?",
+    "choices": [
+     {
+      "text": "Shake the rope hard and hope it rings",
+      "next": "stall",
+      "pts": 0,
+      "set": [
+       "late"
+      ]
+     },
+     {
+      "text": "Ask the stall keepers who has been about",
+      "next": "stall",
+      "pts": 1
+     },
+     {
+      "text": "Follow the white feathers across the cobbles",
+      "next": "stall",
+      "pts": 2,
+      "effects": {
+       "wit": 1
+      }
+     }
+    ]
+   },
+   "stall": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "husa",
+      "at": "center"
+     },
+     {
+      "who": "anezka",
+      "at": "left"
+     },
+     {
+      "who": "honza",
+      "at": "right"
+     }
+    ],
+    "text": "The feathers end at the baker's stall. A goose sits on a nest of straw, and under her, glinting like a prize, lies the bell's clapper. She hisses.",
+    "choices": [
+     {
+      "text": "Snatch the clapper while she looks away",
+      "next": "bitten",
+      "pts": 0,
+      "set": [
+       "bitten"
+      ]
+     },
+     {
+      "text": "Send for the Mayor's guard",
+      "next": "guard",
+      "pts": 1,
+      "set": [
+       "late"
+      ]
+     },
+     {
+      "text": "Trade a handful of crumbs for it, and wait politely",
+      "next": "swap",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1
+      }
+     }
+    ]
+   },
+   "bitten": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "husa",
+      "at": "center",
+      "pose": "point"
+     },
+     {
+      "who": "honza",
+      "at": "right",
+      "pose": "slump"
+     }
+    ],
+    "text": "The goose flaps and bites. Honza yelps, the stall wobbles, and a tray of buns rolls away. In the end you calm her with crumbs anyway.",
+    "next": "riddle",
+    "cont": "Rehang the bell"
+   },
+   "guard": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "purkmistr",
+      "at": "right"
+     },
+     {
+      "who": "husa",
+      "at": "center",
+      "pose": "point"
+     }
+    ],
+    "text": "Two guards arrive, loud and slow. The goose retreats to the rooftop and takes an hour to be coaxed down. The afternoon is nearly gone.",
+    "next": "riddle",
+    "cont": "Rehang the bell"
+   },
+   "swap": {
+    "bg": "market",
+    "on": [
+     {
+      "who": "husa",
+      "at": "center",
+      "pose": "cheer"
+     },
+     {
+      "who": "anezka",
+      "at": "left",
+      "pose": "cheer"
+     },
+     {
+      "who": "honza",
+      "at": "right",
+      "pose": "cheer"
+     }
+    ],
+    "text": "The goose eyes the crumbs, stands, and nudges the clapper out with her beak. Honza cheers, and the baker laughs and tosses her a bun.",
+    "next": "riddle",
+    "cont": "Rehang the bell"
+   },
+   "riddle": {
+    "bg": "street",
+    "speaker": "hodinar",
+    "on": [
+     {
+      "who": "hodinar",
+      "at": "center"
+     },
+     {
+      "who": "anezka",
+      "at": "left"
+     }
+    ],
+    "text": "The clockmaker holds the hook. \"One more thing: what hangs by its head, speaks with its tongue, and has no mouth to eat with?\"",
+    "puzzle": {
+     "prompt": "What is the answer?",
+     "options": [
+      "A bat",
+      "A boot",
+      "A bell"
+     ],
+     "answer": 2,
+     "right": {
+      "effects": {
+       "wit": 2
+      },
+      "pts": 2,
+      "next": "reward"
+     },
+     "wrong": {
+      "pts": 0,
+      "next": "reward",
+      "set": [
+       "stumped"
+      ]
+     }
+    }
+   },
+   "reward": {
+    "bg": "stage",
+    "speaker": "purkmistr",
+    "on": [
+     {
+      "who": "purkmistr",
+      "at": "center"
+     },
+     {
+      "who": "anezka",
+      "at": "left"
+     },
+     {
+      "who": "honza",
+      "at": "right"
+     },
+     {
+      "who": "husa",
+      "at": "midright"
+     }
+    ],
+    "text": "The bell rings out and the fair begins. The Mayor presses a heavy purse into your hands. \"Spend it as you wish,\" he says.",
+    "choices": [
+     {
+      "text": "Keep the purse for yourself",
+      "next": "keep",
+      "pts": 0
+     },
+     {
+      "text": "Buy a feast for all who helped",
+      "next": "feast",
+      "pts": 1,
+      "effects": {
+       "goodwill": 1
+      }
+     },
+     {
+      "text": "Build the goose a safe nest and give the clockmaker new hooks",
+      "next": "nest",
+      "pts": 2,
+      "effects": {
+       "goodwill": 1
+      }
+     }
+    ]
+   },
+   "keep": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "purkmistr",
+      "at": "center"
+     },
+     {
+      "who": "honza",
+      "at": "right",
+      "pose": "slump"
+     }
+    ],
+    "text": "The purse is yours and the bell rings. But the baker's stall is a mess, the goose sulks, and the fair has a thin, polite feel.",
+    "end": true
+   },
+   "feast": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "purkmistr",
+      "at": "center",
+      "pose": "cheer"
+     },
+     {
+      "who": "anezka",
+      "at": "left",
+      "pose": "cheer"
+     },
+     {
+      "who": "honza",
+      "at": "right",
+      "pose": "cheer"
+     }
+    ],
+    "text": "Long tables fill the square. Bell, goose and fair are all forgiven, and the music runs late into the evening.",
+    "end": true
+   },
+   "nest": {
+    "bg": "stage",
+    "on": [
+     {
+      "who": "anezka",
+      "at": "left",
+      "pose": "cheer"
+     },
+     {
+      "who": "hodinar",
+      "at": "midleft",
+      "pose": "cheer"
+     },
+     {
+      "who": "husa",
+      "at": "center",
+      "pose": "cheer"
+     },
+     {
+      "who": "honza",
+      "at": "right",
+      "pose": "cheer"
+     },
+     {
+      "who": "purkmistr",
+      "at": "midright",
+      "pose": "cheer"
+     }
+    ],
+    "text": "A neat straw nest sits by the tower, and every bell hook is new. Years on, the town still tells how the goose rang in the fair.",
+    "end": true
+   }
+  },
+  "endings": [
+   {
+    "id": "best",
+    "when": {
+     "min": {
+      "wit": 3,
+      "goodwill": 2
+     },
+     "notFlags": [
+      "late",
+      "bitten",
+      "accused"
+     ]
+    },
+    "stars": 3,
+    "headline": "The fair's bell-ringers",
+    "text": "A sharp eye, patience with a goose and a generous heart."
+   },
+   {
+    "id": "fine",
+    "when": {
+     "min": {
+      "wit": 1,
+      "goodwill": 1
+     }
+    },
+    "stars": 2,
+    "headline": "The bell rings again",
+    "text": "The fair opens and the town is glad, though it could have gone smoother."
+   },
+   {
+    "id": "ok",
+    "stars": 1,
+    "headline": "A late opening",
+    "text": "The bell rings at last, but the fair has lost its best hours."
+   }
+  ],
+  "look": {
+   "curtain": "#8a1f2a",
+   "wall": "#2f2a4a",
+   "floor": "#7a5430",
+   "frame": "#d9a52a",
+   "far": "#262040",
+   "near": "#4a4270",
+   "glow": "#ffd777"
+  }
+ }
+}

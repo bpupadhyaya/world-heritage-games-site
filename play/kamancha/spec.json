@@ -1,0 +1,374 @@
+{
+ "engine": "rhythm",
+ "variant": "kamancha",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 220,
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "A3",
+    "id": "A3",
+    "cents": 0,
+    "row": 3,
+    "timbre": "string",
+    "dur": 1.4,
+    "color": "#b23a48"
+   },
+   {
+    "name": "B3~",
+    "id": "B3~",
+    "cents": 150,
+    "row": 3,
+    "timbre": "string",
+    "dur": 1.4,
+    "color": "#c4505c"
+   },
+   {
+    "name": "C4",
+    "id": "C4",
+    "cents": 300,
+    "row": 3,
+    "timbre": "string",
+    "dur": 1.4,
+    "color": "#d56a72"
+   },
+   {
+    "name": "D4",
+    "id": "D4",
+    "cents": 500,
+    "row": 3,
+    "timbre": "string",
+    "dur": 1.4,
+    "color": "#e38a8f"
+   },
+   {
+    "name": "E4",
+    "id": "E4",
+    "cents": 700,
+    "row": 2,
+    "timbre": "string",
+    "dur": 1.4,
+    "color": "#c98a2a"
+   },
+   {
+    "name": "F4",
+    "id": "F4",
+    "cents": 800,
+    "row": 2,
+    "timbre": "string",
+    "dur": 1.4,
+    "color": "#d8a24a"
+   },
+   {
+    "name": "G4",
+    "id": "G4",
+    "cents": 1000,
+    "row": 2,
+    "timbre": "string",
+    "dur": 1.4,
+    "color": "#e6bd6e"
+   },
+   {
+    "name": "A4",
+    "id": "A4",
+    "cents": 1200,
+    "row": 1,
+    "timbre": "string",
+    "dur": 1.4,
+    "color": "#3f8f8a"
+   },
+   {
+    "name": "B4~",
+    "id": "B4~",
+    "cents": 1350,
+    "row": 1,
+    "timbre": "string",
+    "dur": 1.4,
+    "color": "#58a8a2"
+   },
+   {
+    "name": "C5",
+    "id": "C5",
+    "cents": 1500,
+    "row": 1,
+    "timbre": "string",
+    "dur": 1.4,
+    "color": "#78c0ba"
+   },
+   {
+    "name": "D5",
+    "id": "D5",
+    "cents": 1700,
+    "row": 1,
+    "timbre": "string",
+    "dur": 1.4,
+    "color": "#9bd3ce"
+   },
+   {
+    "name": "E5",
+    "id": "E5",
+    "cents": 1900,
+    "row": 0,
+    "timbre": "string",
+    "dur": 1.4,
+    "color": "#9a7fd0"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Shur ascent and return",
+    "bpm": 72,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "A3",
+      "len": 1.5
+     },
+     {
+      "beat": 2,
+      "lane": "B3~",
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": "C4",
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": "D4",
+      "len": 1.5
+     },
+     {
+      "beat": 6,
+      "lane": "E4",
+      "len": 1
+     },
+     {
+      "beat": 7,
+      "lane": "D4",
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": "C4",
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": "B3~",
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": "A3",
+      "len": 2
+     },
+     {
+      "beat": 12,
+      "lane": "E4",
+      "len": 1
+     },
+     {
+      "beat": 13,
+      "lane": "F4",
+      "len": 1
+     },
+     {
+      "beat": 14,
+      "lane": "E4",
+      "len": 1
+     },
+     {
+      "beat": 15,
+      "lane": "D4",
+      "len": 1
+     }
+    ]
+   },
+   {
+    "name": "Upper string turn",
+    "bpm": 84,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "A4",
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": "B4~",
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": "C5",
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": "D5",
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": "C5",
+      "len": 1
+     },
+     {
+      "beat": 7,
+      "lane": "B4~",
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": "A4",
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": "G4",
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": "F4",
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": "E4",
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": "F4",
+      "len": 1
+     },
+     {
+      "beat": 13,
+      "lane": "G4",
+      "len": 1
+     },
+     {
+      "beat": 14,
+      "lane": "A4",
+      "len": 2
+     }
+    ]
+   },
+   {
+    "name": "Quick tune in six",
+    "bpm": 126,
+    "meter": 6,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "A3"
+     },
+     {
+      "beat": 1,
+      "lane": "C4"
+     },
+     {
+      "beat": 2,
+      "lane": "D4"
+     },
+     {
+      "beat": 3,
+      "lane": "E4"
+     },
+     {
+      "beat": 3.5,
+      "lane": "F4"
+     },
+     {
+      "beat": 4,
+      "lane": "E4"
+     },
+     {
+      "beat": 5,
+      "lane": "D4"
+     },
+     {
+      "beat": 6,
+      "lane": "C4"
+     },
+     {
+      "beat": 7,
+      "lane": "D4"
+     },
+     {
+      "beat": 8,
+      "lane": "E4"
+     },
+     {
+      "beat": 9,
+      "lane": "A4"
+     },
+     {
+      "beat": 10,
+      "lane": "G4"
+     },
+     {
+      "beat": 11,
+      "lane": "F4"
+     },
+     {
+      "beat": 12,
+      "lane": "E4"
+     },
+     {
+      "beat": 13,
+      "lane": "D4"
+     },
+     {
+      "beat": 14,
+      "lane": "C4"
+     },
+     {
+      "beat": 15,
+      "lane": "B3~"
+     },
+     {
+      "beat": 16,
+      "lane": "A3",
+      "len": 2
+     },
+     {
+      "beat": 18,
+      "lane": "C4"
+     },
+     {
+      "beat": 19,
+      "lane": "E4"
+     },
+     {
+      "beat": 20,
+      "lane": "A4"
+     },
+     {
+      "beat": 21,
+      "lane": "G4"
+     },
+     {
+      "beat": 22,
+      "lane": "F4"
+     },
+     {
+      "beat": 23,
+      "lane": "E4"
+     }
+    ]
+   }
+  ]
+ }
+}

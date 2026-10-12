@@ -1,0 +1,143 @@
+{
+ "engine": "bout",
+ "params": {
+  "level": 2,
+  "rounds": {
+   "count": 3,
+   "time": 32
+  },
+  "exchangeTime": 3,
+  "scoring": {
+   "fall": 4,
+   "fallEndsRound": false,
+   "fallLabel": "Opening",
+   "mercy": 10
+  },
+  "ring": {
+   "kind": "circle",
+   "pushOut": false
+  },
+  "grip": {
+   "enabled": false
+  },
+  "timing": {
+   "period": 1.3,
+   "window": 0.19,
+   "tempo": 2.5
+  },
+  "weapon": {
+   "front": "staff",
+   "back": null
+  },
+  "setting": {
+   "sky": [
+    "#f6c88a",
+    "#fde8c4"
+   ],
+   "ground": "#c49a5a",
+   "backdrop": "hills",
+   "far": "#8a6a3a",
+   "ringFill": "#e0c48a",
+   "ringEdge": "#9a3a1a",
+   "ringStyle": "none",
+   "crowd": true
+  },
+  "fighters": {
+   "you": {
+    "name": "You",
+    "color": "#f1ead6",
+    "trim": "#b8322a"
+   },
+   "rival": {
+    "name": "Asan",
+    "color": "#f1ead6",
+    "trim": "#256a8a"
+   }
+  },
+  "moves": [
+   {
+    "id": "over",
+    "name": "Overhead strike",
+    "kind": "strike",
+    "speed": 2,
+    "cost": 9,
+    "power": 17,
+    "points": 2,
+    "pose": "high",
+    "beats": [
+     "low",
+     "thrust"
+    ]
+   },
+   {
+    "id": "low",
+    "name": "Low sweep",
+    "kind": "strike",
+    "speed": 2,
+    "cost": 9,
+    "power": 14,
+    "points": 1,
+    "push": 0.1,
+    "pose": "sweep",
+    "beats": [
+     "thrust",
+     "spin"
+    ]
+   },
+   {
+    "id": "thrust",
+    "name": "Straight thrust",
+    "kind": "strike",
+    "speed": 3,
+    "cost": 7,
+    "power": 12,
+    "points": 1,
+    "pose": "thrust",
+    "beats": [
+     "spin",
+     "step"
+    ]
+   },
+   {
+    "id": "spin",
+    "name": "Parry and spin",
+    "kind": "guard",
+    "speed": 2,
+    "cost": 6,
+    "power": 14,
+    "points": 1,
+    "steady": 6,
+    "pose": "side",
+    "beats": [
+     "step",
+     "over"
+    ]
+   },
+   {
+    "id": "step",
+    "name": "Step inside",
+    "kind": "push",
+    "speed": 3,
+    "cost": 8,
+    "power": 10,
+    "points": 1,
+    "push": 0.22,
+    "pose": "step",
+    "beats": [
+     "over",
+     "low"
+    ]
+   },
+   {
+    "id": "breathe",
+    "name": "Breathe",
+    "kind": "rest",
+    "speed": 1,
+    "cost": -12,
+    "power": 0,
+    "pose": "rest",
+    "beats": []
+   }
+  ]
+ }
+}

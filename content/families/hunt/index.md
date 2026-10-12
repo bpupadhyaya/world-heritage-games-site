@@ -1,17 +1,18 @@
 ---
 title: "Hunt and blockade games"
-description: "8 related traditions."
+description: "9 related traditions."
 path: "/families/hunt/"
-count: 8
+count: 9
 ---
 # Hunt and blockade games
 
-8 related traditions.
+9 related traditions.
 
 
 
-8 entries.
+9 entries.
 
+- [Buzkashi](../../games/226-buzkashi/index.md): Afghanistan, Uzbekistan; Dexterity and skill games; Classical Worlds
 - [Kok-boru](../../games/241-kok-boru/index.md): Kyrgyzstan, Kazakhstan; Sports with animal partners; Classical Worlds
 - [Mheibes](../../games/158-mheibes/index.md): Iraq; Street and playground games; Modern Heritage
 - [Steppe eagle hunting](../../games/254-steppe-eagle-hunting/index.md): Kazakhstan; Dexterity and skill games; Modern Heritage

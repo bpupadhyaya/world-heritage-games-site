@@ -42,10 +42,10 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Burundian drum ensemble](../../games/1250-burundian-drum-ensemble/index.md)
 - [Talking drum](../../games/33-talking-drum/index.md)
+- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md)
 - [Marimba](../../games/52-marimba/index.md)
 - [Calabash Water Drum](../../games/180-calabash-water-drum/index.md)
-- [Tombak goblet drum rhythms](../../games/233-tombak-goblet-drum-rhythms/index.md)
-- [Dhol drum rhythm](../../games/263-dhol-drum-rhythm/index.md)
+- [Isukuti drum dance](../../games/191-isukuti-drum-dance/index.md)
 
 ## Sources
 

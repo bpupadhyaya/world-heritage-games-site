@@ -45,11 +45,11 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md)
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md)
 - [Yukigassen Snow Fort](../../games/71-yukigassen-snow-fort/index.md)
 - [Otedama](../../games/131-otedama/index.md)
 - [Menko](../../games/346-menko/index.md)
-- [Takoyaki-style ball flipping](../../games/352-takoyaki-style-ball-flipping/index.md)
 
 ## Sources
 

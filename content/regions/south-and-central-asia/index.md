@@ -1,16 +1,16 @@
 ---
 title: "South and Central Asia"
-description: "125 entries."
+description: "131 entries."
 path: "/regions/south-and-central-asia/"
-count: 125
+count: 131
 ---
 # South and Central Asia
 
-125 entries.
+131 entries.
 
 
 
-125 entries.
+131 entries.
 
 - [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md): Afghanistan; Musical instruments; Crossroads and Golden Ages
 - [Ajrak block printing](../../games/1226-ajrak-block-printing/index.md): Pakistan; Crafts and making; Living Traditions
@@ -18,11 +18,13 @@ count: 125
 - [Ambalangoda mask carving](../../games/299-ambalangoda-mask-carving/index.md): Sri Lanka; Crafts and making; Living Traditions
 - [Bandhani tie-dye](../../games/258-bandhani-tie-dye/index.md): India; Crafts and making; Living Traditions
 - [Bankura terracotta horse](../../games/280-bankura-terracotta-horse/index.md): Bangladesh; Crafts and making; Living Traditions
+- [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md): India, Nepal; Musical instruments; Classical Worlds
 - [Bashi](../../games/915-bashi/index.md): Maldives; Street and playground games; Modern Heritage
 - [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md): India; Dexterity and skill games; Modern Heritage
 - [Block printing](../../games/118-block-printing/index.md): India; Crafts and making; Living Traditions
 - [Boli Khela](../../games/572-boli-khela/index.md): Bangladesh; Street and playground games; River Valleys and First Cities
 - [Break the pot](../../games/1105-break-the-pot/index.md): Sri Lanka; Dexterity and skill games; Modern Heritage
+- [Buzkashi](../../games/226-buzkashi/index.md): Afghanistan, Uzbekistan; Dexterity and skill games; Classical Worlds
 - [Chamba rumal embroidery](../../games/1252-chamba-rumal-embroidery/index.md): India; Crafts and making; Living Traditions
 - [Chaturanga](../../games/45-chaturanga/index.md): India; Board and table games; Crossroads and Golden Ages
 - [Chikankari white-on-white embroidery](../../games/266-chikankari-white-on-white-embroidery/index.md): Worldwide; Crafts and making; Living Traditions
@@ -46,6 +48,7 @@ count: 125
 - [Jaipur blue pottery painting](../../games/262-jaipur-blue-pottery-painting/index.md): India; Crafts and making; Living Traditions
 - [Jamdani muslin weaving](../../games/1305-jamdani-muslin-weaving/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Kabaddi](../../games/789-kabaddi/index.md): India, Pakistan; Street and playground games; Modern Heritage
+- [Kambala](../../games/80-kambala/index.md): India; Racing; Age of Contact and Craft
 - [Kantha running-stitch quilt](../../games/284-kantha-running-stitch-quilt/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Kashmiri papier-mache painting](../../games/269-kashmiri-papier-mache-painting/index.md): India; Crafts and making; Living Traditions
 - [Kathak tatkar footwork rhythm](../../games/267-kathak-tatkar-footwork-rhythm/index.md): India, Pakistan; Other traditions; Living Traditions
@@ -64,6 +67,7 @@ count: 125
 - [Lau Kata Kati](../../games/460-lau-kata-kati/index.md): Bangladesh; Board and table games; Crossroads and Golden Ages
 - [Lippan kaam mud-and-mirror relief](../../games/259-lippan-kaam-mud-and-mirror-relief/index.md): India, Pakistan; Crafts and making; Living Traditions
 - [Maldivian lacquer work](../../games/1328-maldivian-lacquer-work/index.md): Maldives; Crafts and making; Living Traditions
+- [Mallakhamb](../../games/150-mallakhamb/index.md): India; Dexterity and skill games; Modern Heritage
 - [Mehndi henna pattern drawing](../../games/260-mehndi-henna-pattern-drawing/index.md): India, Pakistan; Crafts and making; Living Traditions
 - [Mithila folk painting](../../games/1337-mithila-folk-painting/index.md): Nepal, India; Crafts and making; Living Traditions
 - [Murchunga](../../games/290-murchunga/index.md): Nepal; Musical instruments; Classical Worlds
@@ -93,6 +97,8 @@ count: 125
 - [Stilt fishing](../../games/288-stilt-fishing/index.md): Sri Lanka; Dexterity and skill games; Classical Worlds
 - [Stone put](../../games/589-stone-put/index.md): Bhutan, Switzerland; Dexterity and skill games; Modern Heritage
 - [Suzani embroidery](../../games/248-suzani-embroidery/index.md): Uzbekistan, Tajikistan; Crafts and making; Living Traditions
+- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md): India, Nepal; Musical instruments; Living Traditions
+- [Tent pegging](../../games/78-tent-pegging/index.md): Pakistan, India; Dexterity and skill games; Modern Heritage
 - [Thanjavur dancing doll](../../games/275-thanjavur-dancing-doll/index.md): India; Toys; Modern Heritage
 - [Toguz Korgool](../../games/871-toguz-korgool/index.md): Kyrgyzstan; Board and table games; Deep Past and First Games
 - [Turkmen gul carpet](../../games/249-turkmen-gul-carpet/index.md): Turkmenistan; Crafts and making; Living Traditions

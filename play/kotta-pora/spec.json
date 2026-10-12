@@ -1,0 +1,144 @@
+{
+ "engine": "bout",
+ "params": {
+  "level": 1,
+  "rounds": {
+   "count": 3,
+   "time": 22
+  },
+  "exchangeTime": 3,
+  "scoring": {
+   "fall": 4,
+   "pushOut": 6,
+   "fallEndsRound": false,
+   "fallLabel": "Drop",
+   "mercy": 6
+  },
+  "ring": {
+   "kind": "mud",
+   "pushOut": true
+  },
+  "grip": {
+   "enabled": false
+  },
+  "timing": {
+   "period": 1.6,
+   "window": 0.23,
+   "tempo": 3.2
+  },
+  "weapon": {
+   "front": "pillow",
+   "back": null
+  },
+  "setting": {
+   "sky": [
+    "#ffe08a",
+    "#fff6d6"
+   ],
+   "ground": "#5e7f3a",
+   "water": "#6d4a2c",
+   "backdrop": "hills",
+   "far": "#6aa05a",
+   "ringFill": "#8a5a34",
+   "ringEdge": "#4a2a14",
+   "ringStyle": "none",
+   "crowd": true
+  },
+  "fighters": {
+   "you": {
+    "name": "You",
+    "color": "#f4ece0",
+    "trim": "#d8412f"
+   },
+   "rival": {
+    "name": "Cousin",
+    "color": "#f4ece0",
+    "trim": "#2a7a6a"
+   }
+  },
+  "moves": [
+   {
+    "id": "wide",
+    "name": "Big pillow swing",
+    "kind": "push",
+    "speed": 1,
+    "cost": 12,
+    "power": 18,
+    "points": 1,
+    "push": 0.5,
+    "pose": "high",
+    "beats": [
+     "tap",
+     "flick"
+    ]
+   },
+   {
+    "id": "tap",
+    "name": "Quick tap",
+    "kind": "push",
+    "speed": 3,
+    "cost": 6,
+    "power": 10,
+    "push": 0.22,
+    "pose": "thrust",
+    "beats": [
+     "flick",
+     "brace"
+    ]
+   },
+   {
+    "id": "flick",
+    "name": "Backhand flick",
+    "kind": "strike",
+    "speed": 2,
+    "cost": 8,
+    "power": 13,
+    "points": 1,
+    "push": 0.28,
+    "pose": "side",
+    "beats": [
+     "brace",
+     "sway"
+    ]
+   },
+   {
+    "id": "brace",
+    "name": "Brace low",
+    "kind": "guard",
+    "speed": 2,
+    "cost": 5,
+    "power": 8,
+    "steady": 9,
+    "pose": "low",
+    "beats": [
+     "sway",
+     "wide"
+    ]
+   },
+   {
+    "id": "sway",
+    "name": "Sway back",
+    "kind": "guard",
+    "speed": 3,
+    "cost": 5,
+    "power": 8,
+    "steady": 7,
+    "pose": "step",
+    "beats": [
+     "wide",
+     "tap"
+    ]
+   },
+   {
+    "id": "breathe",
+    "name": "Breathe",
+    "kind": "rest",
+    "speed": 1,
+    "cost": -12,
+    "power": 0,
+    "pose": "rest",
+    "beats": []
+   }
+  ]
+ }
+}

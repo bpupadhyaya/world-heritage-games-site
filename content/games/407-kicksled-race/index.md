@@ -38,14 +38,18 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - **Cradle:** [Northern and Eastern Europe](../../cradles/north-east-europe/index.md)
 - **Region:** Europe
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Finnish pin toss](../../games/49-finnish-pin-toss/index.md)
+- ['Ulu Maika](../../games/44-ulu-maika/index.md)
 - [Sled dog race](../../games/62-sled-dog-race/index.md)
+- [Canal ice-skating marathon](../../games/84-canal-ice-skating-marathon/index.md)
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md)
 - [Luge and toboggan run](../../games/482-luge-and-toboggan-run/index.md)
-- [Varpa](../../games/1396-varpa/index.md)
-- [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md)
 
 ## Sources
 

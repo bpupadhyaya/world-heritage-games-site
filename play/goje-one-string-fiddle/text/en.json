@@ -1,0 +1,30 @@
+{
+ "title": "Goje One-String Fiddle",
+ "native": "Goge / goje",
+ "alt": [
+  "Goge"
+ ],
+ "summary": "The goje, or goge, is a one-string bowed fiddle of the Hausa lands of northern Nigeria and Niger. A gourd body covered with skin carries a single horsehair string, and the bow slides along it as the fingers stop the string at different points.",
+ "howToPlay": [
+  "The top row has six lanes, from the open string to the high stop; the lower row has two drum sounds.",
+  "Notes travel toward a line at the bottom; strike the lane just as a note arrives.",
+  "Start with the slow melody, then play the fiddle line between the low and high drum strokes.",
+  "The quick runs finish the set: slide through the stops and keep the pulse."
+ ],
+ "rules": [
+  "One string gives every note: each stop shortens it to a higher pitch, from the open string up to the high stop.",
+  "A stroke within a hair of the note is perfect, a near one is good, and a missed one scores nothing.",
+  "An extra stroke while a song is running costs a few points.",
+  "Each song plays twice; three stars need roughly nine notes in ten on time.",
+  "Bowing glides and slides between notes are not shown; each stop sounds at a fixed pitch."
+ ],
+ "heritageNote": "The goje is played by Hausa musicians in Nigeria and Niger, often to accompany singers who recount family histories and local news. Players make the instrument from a gourd, skin and horsehair and keep their own style of playing.",
+ "countries": [
+  "Nigeria",
+  "Niger"
+ ],
+ "credits": [
+  "Tradition: Hausa goje playing; melodies written for this game",
+  "Photo of goje players from Wikimedia Commons (CC BY-SA 4.0)"
+ ]
+}

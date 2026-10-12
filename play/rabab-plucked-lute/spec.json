@@ -1,0 +1,344 @@
+{
+ "engine": "rhythm",
+ "variant": "rabab-plucked-lute",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 130.8,
+  "loops": 2,
+  "tolerance": 1.25,
+  "lanes": [
+   {
+    "name": "Drone low",
+    "cents": 0,
+    "row": 0,
+    "timbre": "string",
+    "dur": 0.9,
+    "color": "#8a6a3a"
+   },
+   {
+    "name": "Drone 5th",
+    "cents": 700,
+    "row": 0,
+    "timbre": "string",
+    "dur": 0.9,
+    "color": "#a58348"
+   },
+   {
+    "name": "Note 1",
+    "cents": 1200,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Note 2",
+    "cents": 1400,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#e8c25a"
+   },
+   {
+    "name": "Note 3",
+    "cents": 1500,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#8fc16a"
+   },
+   {
+    "name": "Note 4",
+    "cents": 1700,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#4fb0a6"
+   },
+   {
+    "name": "Note 5",
+    "cents": 1900,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#5b8de0"
+   },
+   {
+    "name": "Note 6",
+    "cents": 2000,
+    "row": 1,
+    "timbre": "pluck",
+    "color": "#a56bd6"
+   },
+   {
+    "name": "Strum",
+    "cents": 1200,
+    "row": 2,
+    "timbre": "string",
+    "color": "#c2552d"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Drone and melody",
+    "bpm": 80,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 1.5,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 1
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 5.5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 7,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 9,
+      "lane": 2
+     },
+     {
+      "beat": 10,
+      "lane": 3
+     },
+     {
+      "beat": 10.5,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 1
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 14.5,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     }
+    ]
+   },
+   {
+    "name": "Six-beat strum",
+    "bpm": 96,
+    "meter": 6,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 8
+     },
+     {
+      "beat": 1.5,
+      "lane": 8
+     },
+     {
+      "beat": 3,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 8
+     },
+     {
+      "beat": 4.5,
+      "lane": 8
+     },
+     {
+      "beat": 6,
+      "lane": 0
+     },
+     {
+      "beat": 7,
+      "lane": 8
+     },
+     {
+      "beat": 7.5,
+      "lane": 8
+     },
+     {
+      "beat": 9,
+      "lane": 1
+     },
+     {
+      "beat": 10,
+      "lane": 8
+     },
+     {
+      "beat": 10.5,
+      "lane": 8
+     },
+     {
+      "beat": 12,
+      "lane": 0
+     },
+     {
+      "beat": 13,
+      "lane": 2
+     },
+     {
+      "beat": 14,
+      "lane": 4
+     },
+     {
+      "beat": 15,
+      "lane": 1
+     },
+     {
+      "beat": 16,
+      "lane": 3
+     },
+     {
+      "beat": 17,
+      "lane": 8
+     },
+     {
+      "beat": 18,
+      "lane": 0
+     },
+     {
+      "beat": 19,
+      "lane": 5
+     },
+     {
+      "beat": 20,
+      "lane": 4
+     },
+     {
+      "beat": 21,
+      "lane": 1
+     },
+     {
+      "beat": 22,
+      "lane": 2
+     },
+     {
+      "beat": 23,
+      "lane": 8
+     }
+    ]
+   },
+   {
+    "name": "Rising phrase",
+    "bpm": 72,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 2
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 5
+     },
+     {
+      "beat": 4,
+      "lane": 6
+     },
+     {
+      "beat": 5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 4
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 2
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 11,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 13,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ]
+   }
+  ]
+ }
+}

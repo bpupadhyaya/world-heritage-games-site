@@ -1,0 +1,200 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 13,
+  "rows": 13,
+  "symmetry": "rot4-mirror",
+  "palette": [
+   {
+    "name": "Madder",
+    "color": "#b02a2a"
+   },
+   {
+    "name": "Indigo",
+    "color": "#2f5bb5"
+   },
+   {
+    "name": "Ivory",
+    "color": "#efe3c4"
+   },
+   {
+    "name": "Saffron",
+    "color": "#dcae2b"
+   },
+   {
+    "name": "Green",
+    "color": "#2f7d5a"
+   }
+  ],
+  "background": "#1e140f",
+  "grid": "#3a2a20",
+  "motifs": [
+   "solid",
+   "diamond",
+   "star",
+   "leaf",
+   "ring",
+   "hexagon"
+  ],
+  "designs": [
+   {
+    "name": "Medallion carpet",
+    "rows": [
+     "DdDdDdDdDdDdD",
+     "dnnnnnnnnnnnd",
+     "DnSlSlSlSlSnD",
+     "dnlDmmmmmDlnd",
+     "DnSmhmsmhmSnD",
+     "dnlmmrdrmmlnd",
+     "DnSmsdSdsmSnD",
+     "dnlmmrdrmmlnd",
+     "DnSmhmsmhmSnD",
+     "dnlDmmmmmDlnd",
+     "DnSlSlSlSlSnD",
+     "dnnnnnnnnnnnd",
+     "DdDdDdDdDdDdD"
+    ],
+    "legend": {
+     "m": {
+      "m": 0,
+      "c": 0
+     },
+     "n": {
+      "m": 0,
+      "c": 1
+     },
+     "d": {
+      "m": 1,
+      "c": 2
+     },
+     "D": {
+      "m": 1,
+      "c": 3
+     },
+     "s": {
+      "m": 2,
+      "c": 3
+     },
+     "S": {
+      "m": 2,
+      "c": 2
+     },
+     "l": {
+      "m": 3,
+      "c": 0
+     },
+     "r": {
+      "m": 4,
+      "c": 2
+     },
+     "h": {
+      "m": 5,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Garden carpet",
+    "rows": [
+     "DdDdDdndDdDdD",
+     "diiiiiniiiiid",
+     "DimmmmnmmmmiD",
+     "dimLmLnLmLmid",
+     "DimmGmnmGmmiD",
+     "dimLmHnHmLmid",
+     "nnnnnnnnnnnnn",
+     "dimLmHnHmLmid",
+     "DimmGmnmGmmiD",
+     "dimLmLnLmLmid",
+     "DimmmmnmmmmiD",
+     "diiiiiniiiiid",
+     "DdDdDdndDdDdD"
+    ],
+    "legend": {
+     "m": {
+      "m": 0,
+      "c": 0
+     },
+     "n": {
+      "m": 0,
+      "c": 1
+     },
+     "i": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 1,
+      "c": 2
+     },
+     "D": {
+      "m": 1,
+      "c": 3
+     },
+     "L": {
+      "m": 3,
+      "c": 1
+     },
+     "G": {
+      "m": 3,
+      "c": 4
+     },
+     "H": {
+      "m": 5,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Leaf field",
+    "rows": [
+     "DdDdDdDdDdDdD",
+     "dyyyyyyyyyyyd",
+     "DynnnnnnnnnyD",
+     "dynlnlnlnlnyd",
+     "DynnGnnnGnnyD",
+     "dynlnlnlnlnyd",
+     "DynnnnRnnnnyD",
+     "dynlnlnlnlnyd",
+     "DynnGnnnGnnyD",
+     "dynlnlnlnlnyd",
+     "DynnnnnnnnnyD",
+     "dyyyyyyyyyyyd",
+     "DdDdDdDdDdDdD"
+    ],
+    "legend": {
+     "n": {
+      "m": 0,
+      "c": 1
+     },
+     "y": {
+      "m": 0,
+      "c": 3
+     },
+     "d": {
+      "m": 1,
+      "c": 2
+     },
+     "D": {
+      "m": 1,
+      "c": 3
+     },
+     "l": {
+      "m": 3,
+      "c": 0
+     },
+     "G": {
+      "m": 3,
+      "c": 4
+     },
+     "R": {
+      "m": 4,
+      "c": 3
+     }
+    }
+   }
+  ],
+  "mode": "copy",
+  "rotateMarks": true
+ }
+}

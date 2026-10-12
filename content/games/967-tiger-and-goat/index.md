@@ -44,9 +44,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Lambs and Tigers](../../games/791-lambs-and-tigers/index.md)
 - [Chaturanga](../../games/45-chaturanga/index.md)
 - [Mheibes](../../games/158-mheibes/index.md)
+- [Buzkashi](../../games/226-buzkashi/index.md)
 - [Kok-boru](../../games/241-kok-boru/index.md)
 - [Steppe eagle hunting](../../games/254-steppe-eagle-hunting/index.md)
-- [Rabab plucked lute](../../games/270-rabab-plucked-lute/index.md)
 
 ## Sources
 

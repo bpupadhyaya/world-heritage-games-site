@@ -1,0 +1,30 @@
+{
+ "title": "Shibori indigo fold",
+ "native": "絞り",
+ "alt": [
+  "Shibori",
+  "Itajime",
+  "Bandhani"
+ ],
+ "countries": [
+  "Japan",
+  "India"
+ ],
+ "summary": "In shibori, cloth is folded, bound or clamped so that the dye cannot reach the pressed parts, then dipped in indigo. Opened out, the cloth shows a pattern that repeats and mirrors the way it was folded. This game is the folding that comes before the dye bath.",
+ "howToPlay": [
+  "The framed shape is the folded bundle of cloth that goes into the dye.",
+  "Choose folds: halves and corner folds that bring the cloth down to that bundle.",
+  "Layers stay where they land, so the order of folds matters; Undo takes back a fold.",
+  "Press Check when your bundle matches the frame."
+ ],
+ "rules": [
+  "Creases lie on fixed lines: across the middle, or along a diagonal.",
+  "You may use one fold more than the target needs.",
+  "Three stars need a bundle almost exactly the framed shape.",
+  "The dyeing and the unfolded pattern are told in the note below, not played."
+ ],
+ "heritageNote": "Folded and clamped resist dyeing is a long-lived craft of Japan, where Arimatsu and Narumi near Nagoya became well known for shibori, and a close cousin of the tied-dot cloth of Gujarat and Rajasthan in India. Indigo is the classic dye: the cloth comes from the vat green and turns blue as it meets the air. Every even fold gives a mirrored pattern, which is why folded shibori looks so orderly.",
+ "credits": [
+  "Craft model: World Heritage Games (original)"
+ ]
+}

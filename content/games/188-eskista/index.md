@@ -44,8 +44,8 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Tahtib](../../games/157-tahtib/index.md)
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md)
 - [Gumboot dance rhythm](../../games/123-gumboot-dance-rhythm/index.md)
-- [Cueca](../../games/430-cueca/index.md)
-- [Faroese chain dance](../../games/1276-faroese-chain-dance/index.md)
+- [Balkan Kolo](../../games/134-balkan-kolo/index.md)
+- [Lezginka](../../games/250-lezginka/index.md)
 
 ## Sources
 

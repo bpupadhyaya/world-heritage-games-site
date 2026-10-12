@@ -43,7 +43,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Tuho](../../games/1089-tuho/index.md)
 - [Haenyeo Breath Dive](../../games/1459-haenyeo-breath-dive/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
-- [Daruma Otoshi](../../games/63-daruma-otoshi/index.md)
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md)
 
 ## Sources
 

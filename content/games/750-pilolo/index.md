@@ -39,10 +39,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - [Oware](../../games/749-oware/index.md)
 - [Mheibes](../../games/158-mheibes/index.md)
+- [Buzkashi](../../games/226-buzkashi/index.md)
 - [Kok-boru](../../games/241-kok-boru/index.md)
 - [Steppe eagle hunting](../../games/254-steppe-eagle-hunting/index.md)
 - [Songo](../../games/617-songo/index.md)
-- [Kisolo](../../games/666-kisolo/index.md)
 
 ## Sources
 

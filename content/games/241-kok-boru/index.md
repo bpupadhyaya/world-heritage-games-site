@@ -38,14 +38,18 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - **Cradle:** [Persia, Caucasus and Central Asia](../../cradles/persia-central-asia/index.md)
 - **Region:** South and Central Asia
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
+- [Buzkashi](../../games/226-buzkashi/index.md)
 - [Kokpar](../../games/857-kokpar/index.md)
 - [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md)
 - [Rope pulling](../../games/855-rope-pulling/index.md)
 - [Kyz Kuu](../../games/858-kyz-kuu/index.md)
 - [Chavgonbozi](../../games/1132-chavgonbozi/index.md)
-- [Mheibes](../../games/158-mheibes/index.md)
 
 ## Sources
 

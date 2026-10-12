@@ -1,16 +1,16 @@
 ---
 title: "Bangladesh"
-description: "16 traditions from Bangladesh."
+description: "17 traditions from Bangladesh."
 path: "/countries/bangladesh/"
-count: 16
+count: 17
 ---
 # Bangladesh
 
-16 traditions from Bangladesh.
+17 traditions from Bangladesh.
 
 
 
-16 entries.
+17 entries.
 
 - [Bankura terracotta horse](../../games/280-bankura-terracotta-horse/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Boli Khela](../../games/572-boli-khela/index.md): Bangladesh; Street and playground games; River Valleys and First Cities
@@ -27,4 +27,5 @@ count: 16
 - [Shital pati cool mat weaving](../../games/1371-shital-pati-cool-mat-weaving/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Sholapith flower carving](../../games/283-sholapith-flower-carving/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Sholo Guti](../../games/461-sholo-guti/index.md): Bangladesh; Board and table games; Crossroads and Golden Ages
+- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md): India, Nepal; Musical instruments; Living Traditions
 - [Gollachut](../../games/573-gollachut/index.md): Bangladesh; Street and playground games; Modern Heritage

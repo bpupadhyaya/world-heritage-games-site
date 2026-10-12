@@ -1,0 +1,36 @@
+{
+ "title": "Dara",
+ "native": "Dara / Dili / Doki",
+ "alt": [
+  "Dili",
+  "Doki",
+  "Derrah"
+ ],
+ "summary": "A game of the Sahel and Nigerian savanna, drawn in the sand or scratched on a board of six columns and five rows. Each player has twelve small stones, set out first and then slid one square at a time to build lines of exactly three.",
+ "howToPlay": [
+  "Take turns setting your stones on empty squares until all twenty-four are down; lines made now do not count.",
+  "Then slide one of your stones to a neighbouring empty square, straight up, down, left or right.",
+  "Line up exactly three stones in a row or a column to remove one of your rival's stones.",
+  "Take stones that are not themselves in a line of three, if you can.",
+  "Keep your own stones free: you lose when only two are left, or when you cannot move."
+ ],
+ "rules": [
+  "The board has six columns and five rows; each player has twelve stones.",
+  "Stones are set one per turn on any empty square before any stone is moved.",
+  "A line of exactly three stones, across or down, is a mill; four or more in a row is not allowed.",
+  "Mills made while setting stones do not capture.",
+  "Stones move one square, never diagonally.",
+  "Making a mill removes one rival stone; stones inside a rival mill are safe unless every stone is in a mill.",
+  "Two mills made at once still remove only one stone.",
+  "You lose when you are left with two stones or cannot move.",
+  "A repeated position or a long run of moves with no capture is a draw."
+ ],
+ "heritageNote": "Dara, also called doki by Hausa speakers and dili in Niger, is played across Nigeria and Niger, often drawn in sandy ground with pebbles, twigs or pieces of dried dung as the stones. Rules differ from village to village, especially about threes made while setting out the stones.",
+ "countries": [
+  "Nigeria",
+  "Niger"
+ ],
+ "credits": [
+  "Game design: World Heritage Games (original)"
+ ]
+}

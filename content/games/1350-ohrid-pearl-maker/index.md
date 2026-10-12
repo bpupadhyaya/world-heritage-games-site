@@ -44,7 +44,7 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Azulejo tile painting](../../games/122-azulejo-tile-painting/index.md)
 - [Lefkara Lace](../../games/220-lefkara-lace/index.md)
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md)
-- [Txalaparta Duet](../../games/390-txalaparta-duet/index.md)
+- [Macau wave pavement](../../games/372-macau-wave-pavement/index.md)
 
 ## Sources
 

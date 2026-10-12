@@ -39,12 +39,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Kamancha](../../games/165-kamancha/index.md)
 - [Kochari](../../games/1315-kochari/index.md)
 - [Ikat Pattern Dyeing](../../games/104-ikat-pattern-dyeing/index.md)
 - [Santur Hammer Strings](../../games/138-santur-hammer-strings/index.md)
 - [Persian Carpet Knotting](../../games/161-persian-carpet-knotting/index.md)
 - [Muqarnas stalactite vault builder](../../games/228-muqarnas-stalactite-vault-builder/index.md)
-- [Badgir windcatcher cooling puzzle](../../games/229-badgir-windcatcher-cooling-puzzle/index.md)
 
 ## Sources
 

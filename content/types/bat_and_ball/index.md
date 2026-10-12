@@ -1,17 +1,18 @@
 ---
 title: "Bat-and-ball games"
-description: "7 traditions of this kind."
+description: "8 traditions of this kind."
 path: "/types/bat_and_ball/"
-count: 7
+count: 8
 ---
 # Bat-and-ball games
 
-7 traditions of this kind.
+8 traditions of this kind.
 
 
 
-7 entries.
+8 entries.
 
+- [Hornussen](../../games/10-hornussen/index.md): Switzerland; Bat-and-ball games; Crossroads and Golden Ages
 - [Oina](../../games/376-oina/index.md): Romania; Bat-and-ball games; Age of Contact and Craft
 - [Stickball](../../games/477-stickball/index.md): Cuba; Bat-and-ball games; Modern Heritage
 - [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage

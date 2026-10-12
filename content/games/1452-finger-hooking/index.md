@@ -44,8 +44,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Tuvan Throat Singing](../../games/508-tuvan-throat-singing/index.md)
 - [Finger pulling](../../games/563-finger-pulling/index.md)
 - [Tavern Nail and Wire Puzzles](../../games/110-tavern-nail-and-wire-puzzles/index.md)
+- [Elastic Jump](../../games/6-elastic-jump/index.md)
 - [Double Dutch](../../games/53-double-dutch/index.md)
-- [Mounted Archery Course](../../games/67-mounted-archery-course/index.md)
 
 ## Sources
 

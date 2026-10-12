@@ -1,0 +1,60 @@
+{
+ "engine": "tempo-race",
+ "params": {
+  "vehicle": {
+   "kind": "skater",
+   "topSpeed": 10.5
+  },
+  "rhythm": {
+   "bpm": 42,
+   "window": 0.11
+  },
+  "course": {
+   "length": 1000,
+   "lanes": 4,
+   "shape": "loop",
+   "lapLength": 250,
+   "terrain": "ice",
+   "scenery": "reeds",
+   "current": -0.6,
+   "obstacles": [
+    {
+     "at": 120,
+     "kind": "snowdrift"
+    },
+    {
+     "at": 560,
+     "kind": "gate"
+    }
+   ],
+   "rough": [
+    {
+     "from": 300,
+     "to": 360
+    },
+    {
+     "from": 700,
+     "to": 740
+    }
+   ],
+   "lead": {
+    "kind": "pacemaker",
+    "capture": "follow",
+    "startAhead": 12,
+    "pace": 0.97,
+    "reach": 16,
+    "label": "Pace skater"
+   }
+  },
+  "opponents": {
+   "count": 4,
+   "skill": 0.9,
+   "spread": 0.025,
+   "surge": 0.7
+  },
+  "rounds": 3,
+  "labels": {
+   "tap": "Push"
+  }
+ }
+}

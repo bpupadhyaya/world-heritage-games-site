@@ -38,14 +38,18 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - **Cradle:** [Japan and Korea](../../cradles/japan-korea/index.md)
 - **Region:** East and Southeast Asia
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md)
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md)
 - [Menko](../../games/346-menko/index.md)
 - [Kamishibai](../../games/353-kamishibai/index.md)
 - [Hashi](../../games/360-hashi/index.md)
-- [Sudoku](../../games/22340-sudoku/index.md)
 
 ## Sources
 

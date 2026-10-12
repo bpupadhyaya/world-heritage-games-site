@@ -1,0 +1,182 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 9,
+  "rows": 11,
+  "symmetry": "mirror-x",
+  "mode": "copy",
+  "rotateMarks": false,
+  "palette": [
+   {
+    "name": "Rice-paste white",
+    "color": "#f7f1e4"
+   },
+   {
+    "name": "Earth brown",
+    "color": "#4a2412"
+   }
+  ],
+  "background": "#a8512f",
+  "grid": "#8c4226",
+  "motifs": [
+   "ring",
+   "diamond",
+   "triangle",
+   "zigzag",
+   "stripe-h",
+   "dot"
+  ],
+  "designs": [
+   {
+    "name": "Trees under the sun",
+    "rows": [
+     "zzzzzzzzz",
+     ".........",
+     "....s....",
+     ".........",
+     ".t.....t.",
+     "ttt...ttt",
+     ".k.....k.",
+     ".........",
+     "bbbbbbbbb",
+     ".........",
+     "zzzzzzzzz"
+    ],
+    "legend": {
+     "z": {
+      "m": 3,
+      "c": 0
+     },
+     "s": {
+      "m": 0,
+      "c": 0
+     },
+     "o": {
+      "m": 0,
+      "c": 0
+     },
+     "t": {
+      "m": 2,
+      "c": 0
+     },
+     "k": {
+      "m": 5,
+      "c": 1
+     },
+     "b": {
+      "m": 4,
+      "c": 0
+     },
+     "c": {
+      "m": 4,
+      "c": 1
+     },
+     "d": {
+      "m": 1,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Field workers",
+    "rows": [
+     "zzzzzzzzz",
+     ".........",
+     "..o.o.o..",
+     "..d.d.d..",
+     ".........",
+     "k.k.k.k.k",
+     "bbbbbbbbb",
+     "k.k.k.k.k",
+     ".........",
+     "..o...o..",
+     "zzzzzzzzz"
+    ],
+    "legend": {
+     "z": {
+      "m": 3,
+      "c": 0
+     },
+     "s": {
+      "m": 0,
+      "c": 0
+     },
+     "o": {
+      "m": 0,
+      "c": 0
+     },
+     "t": {
+      "m": 2,
+      "c": 0
+     },
+     "k": {
+      "m": 5,
+      "c": 1
+     },
+     "b": {
+      "m": 4,
+      "c": 0
+     },
+     "c": {
+      "m": 4,
+      "c": 1
+     },
+     "d": {
+      "m": 1,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Line of dancers",
+    "rows": [
+     "zzzzzzzzz",
+     ".........",
+     "o.o.o.o.o",
+     "ccccccccc",
+     "d.d.d.d.d",
+     ".........",
+     ".t.....t.",
+     "ttt.s.ttt",
+     ".k.....k.",
+     ".........",
+     "zzzzzzzzz"
+    ],
+    "legend": {
+     "z": {
+      "m": 3,
+      "c": 0
+     },
+     "s": {
+      "m": 0,
+      "c": 0
+     },
+     "o": {
+      "m": 0,
+      "c": 0
+     },
+     "t": {
+      "m": 2,
+      "c": 0
+     },
+     "k": {
+      "m": 5,
+      "c": 1
+     },
+     "b": {
+      "m": 4,
+      "c": 0
+     },
+     "c": {
+      "m": 4,
+      "c": 1
+     },
+     "d": {
+      "m": 1,
+      "c": 0
+     }
+    }
+   }
+  ]
+ }
+}

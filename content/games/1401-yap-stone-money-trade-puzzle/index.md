@@ -44,7 +44,7 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Mu Torere](../../games/979-mu-torere/index.md)
 - [Traditional contests at Micronesian Games](../../games/937-traditional-contests-at-micronesian-games/index.md)
 - [Carolinian string figures](../../games/938-carolinian-string-figures/index.md)
-- [Wave riding](../../games/76-wave-riding/index.md)
+- ['Ulu Maika](../../games/44-ulu-maika/index.md)
 
 ## Sources
 

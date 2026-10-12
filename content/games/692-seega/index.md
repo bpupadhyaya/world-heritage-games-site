@@ -44,8 +44,8 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - [Asmara highland road race](../../games/193-asmara-highland-road-race/index.md)
 - [Tahtib](../../games/157-tahtib/index.md)
 - [Nubian house painting](../../games/192-nubian-house-painting/index.md)
+- [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md)
 - [Egyptian Fractions and Doubling](../../games/215-egyptian-fractions-and-doubling/index.md)
-- [Khayamiya Tentmaker Applique](../../games/217-khayamiya-tentmaker-applique/index.md)
 
 ## Sources
 

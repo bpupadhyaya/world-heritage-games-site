@@ -1,17 +1,18 @@
 ---
 title: "Burkina Faso"
-description: "7 traditions from Burkina Faso."
+description: "8 traditions from Burkina Faso."
 path: "/countries/burkina-faso/"
-count: 7
+count: 8
 ---
 # Burkina Faso
 
-7 traditions from Burkina Faso.
+8 traditions from Burkina Faso.
 
 
 
-7 entries.
+8 entries.
 
+- [Balafon Gourd Xylophone](../../games/168-balafon-gourd-xylophone/index.md): Mali, Guinea; Musical instruments; Crossroads and Golden Ages
 - [Faso Dan Fani Strip Weaving](../../games/1277-faso-dan-fani-strip-weaving/index.md): Burkina Faso; Crafts and making; Living Traditions
 - [Tiebele House Painting](../../games/174-tiebele-house-painting/index.md): Burkina Faso; Crafts and making; Living Traditions
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md): Senegal, Mali; Board and table games; Crossroads and Golden Ages

@@ -1,0 +1,13 @@
+{
+ "slug": "calabash-water-drum",
+ "title": "Calabash Water Drum",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

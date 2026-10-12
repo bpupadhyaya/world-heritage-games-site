@@ -1,0 +1,13 @@
+{
+ "slug": "alebrije-painting",
+ "title": "Alebrije painting",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

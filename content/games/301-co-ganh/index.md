@@ -37,6 +37,10 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - **Cradle:** [Southeast Asia and the Islands](../../cradles/southeast-asia/index.md)
 - **Region:** East and Southeast Asia
 
+## Play it
+
+[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+
 ## Related entries
 
 - [Vietnamese xiangqi](../../games/1215-vietnamese-xiangqi/index.md)

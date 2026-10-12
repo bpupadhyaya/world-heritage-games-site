@@ -43,9 +43,9 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Kok-boru](../../games/241-kok-boru/index.md)
 - [Kyz Kuu](../../games/858-kyz-kuu/index.md)
 - [Kokpar](../../games/857-kokpar/index.md)
+- [Buzkashi](../../games/226-buzkashi/index.md)
 - [Chogan](../../games/810-chogan/index.md)
 - [Chovqan](../../games/565-chovqan/index.md)
-- [Chavgonbozi](../../games/1132-chavgonbozi/index.md)
 
 ## Sources
 

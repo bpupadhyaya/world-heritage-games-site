@@ -1,0 +1,69 @@
+{
+ "engine": "aim",
+ "params": {
+  "mode": "fire",
+  "controls": "drag",
+  "face": {
+   "w": 2,
+   "h": 1.5,
+   "sway": 0.1,
+   "drop": 0,
+   "flight": 0.12,
+   "drawTime": 0.4,
+   "wind": 0.18,
+   "spread": 0.02,
+   "items": [
+    {
+     "x": 0,
+     "y": 0.9,
+     "hang": true,
+     "rail": {
+      "ax": 0.45,
+      "ay": 0.12,
+      "period": 2.2,
+      "phase": 0
+     },
+     "bands": [
+      {
+       "r": 0.1,
+       "points": 3
+      },
+      {
+       "r": 0.19,
+       "points": 2
+      },
+      {
+       "r": 0.29,
+       "points": 1
+      }
+     ]
+    }
+   ]
+  },
+  "rounds": {
+   "throws": 3,
+   "count": 3,
+   "scoring": "aggregate",
+   "scoreAt": "throw"
+  },
+  "stars": [
+   5,
+   10,
+   15
+  ],
+  "maxScore": 27,
+  "look": {
+   "skyTop": "#7a3fa0",
+   "skyLow": "#f7b267",
+   "hills": "#3b2a55",
+   "lane": "#6b4a7a",
+   "surround": "#1a1226",
+   "post": "#4a2f16",
+   "ringColors": [
+    "#e63946",
+    "#f4d35e",
+    "#2a9d8f"
+   ]
+  }
+ }
+}

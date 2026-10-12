@@ -42,9 +42,9 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Archery](../../games/591-archery/index.md)
 - [Kotta Pora](../../games/18-kotta-pora/index.md)
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md)
+- [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md)
 - [Silambam](../../games/271-silambam/index.md)
 - [Stilt fishing](../../games/288-stilt-fishing/index.md)
-- [Murchunga](../../games/290-murchunga/index.md)
 
 ## Sources
 

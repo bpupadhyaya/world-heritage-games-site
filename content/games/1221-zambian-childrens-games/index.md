@@ -36,12 +36,12 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
+- [Sega ravanne drum](../../games/199-sega-ravanne-drum/index.md)
 - [Kati](../../games/860-kati/index.md)
 - [Kwepena](../../games/1174-kwepena/index.md)
 - [Blada](../../games/862-blada/index.md)
 - [Keram](../../games/1137-keram/index.md)
 - [Duulu](../../games/1173-duulu/index.md)
-- [Nsolo](../../games/1220-nsolo/index.md)
 
 ## Sources
 

@@ -48,9 +48,9 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - [Billycart derby](../../games/445-billycart-derby/index.md)
 - [Beach flags](../../games/446-beach-flags/index.md)
 - [Backyard cricket](../../games/559-backyard-cricket/index.md)
+- ['Ulu Maika](../../games/44-ulu-maika/index.md)
 - [Sho](../../games/286-sho/index.md)
 - [Liubo](../../games/331-liubo/index.md)
-- [E-sugoroku](../../games/348-e-sugoroku/index.md)
 
 ## Sources
 

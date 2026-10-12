@@ -41,10 +41,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Hangul syllable blocks](../../games/364-hangul-syllable-blocks/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
+- [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md)
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md)
 - [Menko](../../games/346-menko/index.md)
 - [Kamishibai](../../games/353-kamishibai/index.md)
-- [Tatami room tiling puzzle](../../games/356-tatami-room-tiling-puzzle/index.md)
 
 ## Sources
 

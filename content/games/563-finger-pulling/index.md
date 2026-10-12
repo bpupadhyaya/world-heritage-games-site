@@ -37,9 +37,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
+- [Elastic Jump](../../games/6-elastic-jump/index.md)
 - [Double Dutch](../../games/53-double-dutch/index.md)
 - [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md)
 - [Dikir barat](../../games/1268-dikir-barat/index.md)
 - [Finger Hooking](../../games/1452-finger-hooking/index.md)
 - [Woggabaliri](../../games/561-woggabaliri/index.md)
-- [Kriol traditional games](../../games/585-kriol-traditional-games/index.md)

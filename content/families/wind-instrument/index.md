@@ -1,17 +1,18 @@
 ---
 title: "Wind instruments"
-description: "24 related traditions."
+description: "26 related traditions."
 path: "/families/wind-instrument/"
-count: 24
+count: 26
 ---
 # Wind instruments
 
-24 related traditions.
+26 related traditions.
 
 
 
-24 entries.
+26 entries.
 
+- [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md): India, Nepal; Musical instruments; Classical Worlds
 - [Caballito de totora](../../games/1442-caballito-de-totora/index.md): Peru; Crafts and making; Living Traditions
 - [Chinampa Gardens](../../games/1444-chinampa-gardens/index.md): Mexico; Crafts and making; Living Traditions
 - [Clay Bird Whistle Painting](../../games/1478-clay-bird-whistle-painting/index.md): Luxembourg; Musical instruments; Living Traditions
@@ -34,5 +35,6 @@ count: 24
 - [Rubboard zydeco rhythm](../../games/437-rubboard-zydeco-rhythm/index.md): United States; Musical instruments; Living Traditions
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds
 - [Trembita](../../games/1387-trembita/index.md): Ukraine; Musical instruments; Living Traditions
+- [Vallenato accordion trio](../../games/431-vallenato-accordion-trio/index.md): Colombia; Musical instruments; Living Traditions
 - [Venda team dances](../../games/1397-venda-team-dances/index.md): South Africa; Dances; Living Traditions
 - [Wazza gourd trumpet](../../games/1399-wazza-gourd-trumpet/index.md): Sudan; Musical instruments; Living Traditions

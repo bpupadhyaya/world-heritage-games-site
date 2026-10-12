@@ -2,7 +2,7 @@
 title: "The Americas: North America"
 description: "The United States and Canada."
 path: "/cradles/north-america/"
-count: 29
+count: 30
 ---
 # The Americas: North America
 
@@ -10,7 +10,7 @@ The United States and Canada.
 
 
 
-29 entries.
+30 entries.
 
 - [American patchwork quilting](../../games/6356-american-patchwork-quilting/index.md): United States; Crafts and making; Living Traditions
 - [Axe throwing](../../games/442-axe-throwing/index.md): Canada, United States; Dexterity and skill games; Modern Heritage
@@ -24,6 +24,7 @@ The United States and Canada.
 - [Four Square](../../games/471-four-square/index.md): United States; Other traditions; Living Traditions
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
 - [Ice Canoe Race](../../games/1412-ice-canoe-race/index.md): Canada; Crafts and making; Living Traditions
+- [Log rolling](../../games/59-log-rolling/index.md): United States, Canada; Dexterity and skill games; Modern Heritage
 - [Maple taffy on snow](../../games/441-maple-taffy-on-snow/index.md): Canada; Crafts and making; Living Traditions
 - [Mountain dulcimer](../../games/435-mountain-dulcimer/index.md): United States; Musical instruments; Classical Worlds
 - [Rubboard zydeco rhythm](../../games/437-rubboard-zydeco-rhythm/index.md): United States; Musical instruments; Living Traditions

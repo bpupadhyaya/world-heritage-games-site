@@ -1,0 +1,13 @@
+{
+ "slug": "moraingy-drum-and-strike-duel",
+ "title": "Moraingy",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,12 +1,13 @@
 ---
 title: "Entries beginning with T"
-description: "95 entries beginning with T."
+description: "97 entries beginning with T."
 path: "/a-z/T/"
 ---
 # Entries beginning with T
 
 - [Tab](../../games/694-tab/index.md): Egypt; Board and table games; River Valleys and First Cities
 - [Taba](../../games/594-taba/index.md): Bolivia, Bulgaria; Board and table games; Deep Past and First Games
+- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md): India, Nepal; Musical instruments; Living Traditions
 - [Table](../../games/1044-table/index.md): Romania, Moldova; Board and table games; River Valleys and First Cities
 - [Table football](../../games/5250-table-football/index.md): Spain; Team ball sports; Crossroads and Golden Ages
 - [Table shuffleboard](../../games/1199-table-shuffleboard/index.md): United States; Dexterity and skill games; Modern Heritage
@@ -47,6 +48,7 @@ path: "/a-z/T/"
 - [Tejo](../../games/57-tejo/index.md): Colombia; Archery, throwing and target games; Modern Heritage
 - [Temari Thread-Ball Patterns](../../games/96-temari-thread-ball-patterns/index.md): Japan; Crafts and making; Living Traditions
 - [Ten Ten](../../games/988-ten-ten/index.md): Nigeria; Dexterity and skill games; Modern Heritage
+- [Tent pegging](../../games/78-tent-pegging/index.md): Pakistan, India; Dexterity and skill games; Modern Heritage
 - [Tessellated Mosaic Making](../../games/500-tessellated-mosaic-making/index.md): Italy, Lebanon; Crafts and making; Living Traditions
 - [Texas 42](../../games/1195-texas-42/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Thai checkers](../../games/1142-thai-checkers/index.md): Thailand; Board and table games; Crossroads and Golden Ages

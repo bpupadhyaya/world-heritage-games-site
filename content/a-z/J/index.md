@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with J"
-description: "18 entries beginning with J."
+description: "19 entries beginning with J."
 path: "/a-z/J/"
 ---
 # Entries beginning with J
@@ -18,6 +18,7 @@ path: "/a-z/J/"
 - [Jebena coffee brewing](../../games/189-jebena-coffee-brewing/index.md): Ethiopia, Eritrea; Crafts and making; Living Traditions
 - [Jeepney painting](../../games/1306-jeepney-painting/index.md): Philippines; Crafts and making; Living Traditions
 - [Jegichagi](../../games/1082-jegichagi/index.md): South Korea, North Korea; Street and playground games; Modern Heritage
+- [Jianzi](../../games/1-jianzi/index.md): China, Vietnam; Dexterity and skill games; Modern Heritage
 - [Jordanian Sand Bottle Art](../../games/219-jordanian-sand-bottle-art/index.md): Jordan; Crafts and making; Living Traditions
 - [Joropo llanero band](../../games/130-joropo-llanero-band/index.md): Venezuela, Colombia; Musical instruments; Classical Worlds
 - [Jukskei](../../games/11-jukskei/index.md): South Africa; Archery, throwing and target games; Modern Heritage

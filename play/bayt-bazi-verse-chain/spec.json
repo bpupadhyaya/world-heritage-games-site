@@ -1,0 +1,391 @@
+{
+ "engine": "story",
+ "params": {
+  "stage": "verse",
+  "start": "start",
+  "cast": {
+   "gran": {
+    "name": "Grandmother",
+    "kind": "person",
+    "robe": true,
+    "color": "#7a3a52",
+    "accent": "#e8c27a",
+    "hat": "hood",
+    "prop": "cup"
+   },
+   "you": {
+    "name": "You",
+    "kind": "child",
+    "color": "#2f6a7a",
+    "accent": "#e8c27a",
+    "hat": "cap"
+   },
+   "uncle": {
+    "name": "Uncle",
+    "kind": "person",
+    "color": "#5a6a2a",
+    "accent": "#e8c27a",
+    "hat": "cap",
+    "beard": true
+   }
+  },
+  "meters": [
+   {
+    "id": "wit",
+    "label": "Wit",
+    "start": 0,
+    "max": 5
+   },
+   {
+    "id": "grace",
+    "label": "Grace",
+    "start": 0,
+    "max": 5
+   }
+  ],
+  "scenes": {
+   "start": {
+    "on": [
+     {
+      "who": "gran",
+      "at": "left"
+     },
+     {
+      "who": "you",
+      "at": "right"
+     }
+    ],
+    "speaker": "gran",
+    "text": "On a winter evening the family sits round the lamp with tea. Grandmother raises a glass: \"We play the verse chain. Each line must begin with the last letter of the line before it. Will you join me?\"",
+    "choices": [
+     {
+      "text": "Yawn, and ask for the sweets before the game",
+      "next": "r1",
+      "pts": 0
+     },
+     {
+      "text": "Say you will try, and ask her to open",
+      "next": "r1",
+      "pts": 1,
+      "effects": {
+       "grace": 1
+      }
+     },
+     {
+      "text": "Pour her tea first, then take your seat and ask her to open",
+      "next": "r1",
+      "pts": 2,
+      "effects": {
+       "grace": 2
+      }
+     }
+    ]
+   },
+   "r1": {
+    "on": [
+     {
+      "who": "gran",
+      "at": "left"
+     },
+     {
+      "who": "you",
+      "at": "right"
+     }
+    ],
+    "speaker": "gran",
+    "verse": "Tea steams in the glass beside the sleeping cat",
+    "text": "Grandmother opens the game: \"Tea steams in the glass beside the sleeping cat\" It ends on the letter T.",
+    "puzzle": {
+     "prompt": "Pick the line that begins with T.",
+     "addVerse": true,
+     "options": [
+      "A pomegranate splits and the evening laughs",
+      "Tall poplars bow to a quiet wind",
+      "Bread is warm and the lamp is low"
+     ],
+     "answer": 1,
+     "right": {
+      "effects": {
+       "wit": 1
+      },
+      "pts": 2,
+      "next": "r2"
+     },
+     "wrong": {
+      "pts": 0,
+      "next": "r2"
+     }
+    }
+   },
+   "r2": {
+    "on": [
+     {
+      "who": "gran",
+      "at": "left"
+     },
+     {
+      "who": "you",
+      "at": "right"
+     }
+    ],
+    "speaker": "gran",
+    "verse": "Dates and walnuts wait for the guest at the door",
+    "text": "Your line ended on D, so she answers: \"Dates and walnuts wait for the guest at the door\" It ends on the letter R.",
+    "puzzle": {
+     "prompt": "Pick the line that begins with R.",
+     "addVerse": true,
+     "options": [
+      "Windows keep the winter out",
+      "Every lamp remembers a name",
+      "Rain is a letter the roof reads aloud"
+     ],
+     "answer": 2,
+     "right": {
+      "effects": {
+       "wit": 1
+      },
+      "pts": 2,
+      "next": "hint"
+     },
+     "wrong": {
+      "pts": 0,
+      "next": "hint"
+     }
+    }
+   },
+   "hint": {
+    "on": [
+     {
+      "who": "gran",
+      "at": "left"
+     },
+     {
+      "who": "uncle",
+      "at": "midright"
+     },
+     {
+      "who": "you",
+      "at": "right"
+     }
+    ],
+    "speaker": "uncle",
+    "text": "Uncle leans over and whispers the first letters of the next lines into your ear. Grandmother raises an eyebrow and waits.",
+    "choices": [
+     {
+      "text": "Take the whispered help and use it",
+      "next": "r3",
+      "pts": 0,
+      "effects": {
+       "grace": -1
+      }
+     },
+     {
+      "text": "Smile and wave it away: your own memory will do",
+      "next": "r3",
+      "pts": 2,
+      "effects": {
+       "grace": 1
+      }
+     }
+    ]
+   },
+   "r3": {
+    "on": [
+     {
+      "who": "gran",
+      "at": "left"
+     },
+     {
+      "who": "you",
+      "at": "right"
+     }
+    ],
+    "speaker": "gran",
+    "verse": "Daylight folds itself like a shawl",
+    "text": "Your line ended on D again, so she goes on: \"Daylight folds itself like a shawl\" It ends on the letter L.",
+    "puzzle": {
+     "prompt": "Pick the line that begins with L.",
+     "addVerse": true,
+     "options": [
+      "Snow is a page nobody has read",
+      "Stars come out for the sleepless",
+      "Lanterns hang in the orchard's dark"
+     ],
+     "answer": 2,
+     "right": {
+      "effects": {
+       "wit": 1
+      },
+      "pts": 2,
+      "next": "r4"
+     },
+     "wrong": {
+      "pts": 0,
+      "next": "r4"
+     }
+    }
+   },
+   "r4": {
+    "on": [
+     {
+      "who": "gran",
+      "at": "left"
+     },
+     {
+      "who": "you",
+      "at": "right"
+     }
+    ],
+    "speaker": "gran",
+    "verse": "Kites rise over the old roofs, full of longing",
+    "text": "Your line ended on K. Grandmother smiles and sets the hardest letter: \"Kites rise over the old roofs, full of longing\" It ends on the letter G.",
+    "puzzle": {
+     "prompt": "Pick the line that begins with G.",
+     "addVerse": true,
+     "options": [
+      "Quiet nights are a kind of answer",
+      "Geese go over the glass-blue hill",
+      "Ink is the shadow a poem leaves"
+     ],
+     "answer": 1,
+     "right": {
+      "effects": {
+       "wit": 1
+      },
+      "pts": 2,
+      "next": "close"
+     },
+     "wrong": {
+      "pts": 0,
+      "next": "close"
+     }
+    }
+   },
+   "close": {
+    "on": [
+     {
+      "who": "gran",
+      "at": "left"
+     },
+     {
+      "who": "you",
+      "at": "right"
+     }
+    ],
+    "speaker": "gran",
+    "text": "The tea has gone cool and the lamp burns low. Grandmother says: \"A chain is only as long as its last player. How shall we end?\"",
+    "choices": [
+     {
+      "text": "Declare yourself the champion and ask for applause",
+      "next": "end_proud",
+      "pts": 0
+     },
+     {
+      "text": "Offer her your best line and ask for hers to close the chain",
+      "next": "end_best",
+      "pts": 2,
+      "effects": {
+       "grace": 1
+      }
+     },
+     {
+      "text": "Say nothing, and finish the tea",
+      "next": "end_quiet",
+      "pts": 1
+     }
+    ]
+   },
+   "end_proud": {
+    "on": [
+     {
+      "who": "gran",
+      "at": "left"
+     },
+     {
+      "who": "you",
+      "at": "right",
+      "pose": "bow"
+     }
+    ],
+    "text": "Grandmother nods politely and starts to tidy the glasses. The chain is broken and so is the mood.",
+    "end": true
+   },
+   "end_quiet": {
+    "on": [
+     {
+      "who": "gran",
+      "at": "left"
+     },
+     {
+      "who": "you",
+      "at": "right"
+     }
+    ],
+    "text": "You sip your tea. The chain lies quiet on the page, unfinished, and the lamp flickers.",
+    "end": true
+   },
+   "end_best": {
+    "on": [
+     {
+      "who": "gran",
+      "at": "left",
+      "pose": "cheer"
+     },
+     {
+      "who": "you",
+      "at": "right",
+      "pose": "cheer"
+     }
+    ],
+    "text": "Her last line answers yours, and the whole family claps. The chain on the page is long, and nobody wants to be the one who ends it.",
+    "end": true
+   }
+  },
+  "endings": [
+   {
+    "id": "full",
+    "stars": 3,
+    "headline": "The chain is unbroken",
+    "text": "Every line found its letter and the room was kind.",
+    "when": {
+     "min": {
+      "wit": 4,
+      "grace": 3
+     }
+    }
+   },
+   {
+    "id": "good",
+    "stars": 2,
+    "headline": "A good evening of verse",
+    "text": "A few lines slipped, but the game went on.",
+    "when": {
+     "min": {
+      "wit": 3
+     }
+    }
+   },
+   {
+    "id": "low",
+    "stars": 0,
+    "headline": "The chain falls apart",
+    "text": "Too many broken links.",
+    "when": {
+     "max": {
+      "wit": 0
+     }
+    }
+   },
+   {
+    "id": "ok",
+    "stars": 1,
+    "headline": "Tea and a short chain"
+   }
+  ],
+  "look": {
+   "wall": "#f1e6cc",
+   "floor": "#d4b98a",
+   "ink": "#3a2a1a"
+  }
+ }
+}

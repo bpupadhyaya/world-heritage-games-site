@@ -1,16 +1,16 @@
 ---
 title: "Pakistan"
-description: "15 traditions from Pakistan."
+description: "17 traditions from Pakistan."
 path: "/countries/pakistan/"
-count: 15
+count: 17
 ---
 # Pakistan
 
-15 traditions from Pakistan.
+17 traditions from Pakistan.
 
 
 
-15 entries.
+17 entries.
 
 - [Ajrak block printing](../../games/1226-ajrak-block-printing/index.md): Pakistan; Crafts and making; Living Traditions
 - [Indian club swinging](../../games/264-indian-club-swinging/index.md): India, Pakistan; Dexterity and skill games; Modern Heritage
@@ -23,6 +23,8 @@ count: 15
 - [Phulkari darn-stitch embroidery](../../games/257-phulkari-darn-stitch-embroidery/index.md): India, Pakistan; Crafts and making; Living Traditions
 - [Rabab plucked lute](../../games/270-rabab-plucked-lute/index.md): India, Pakistan; Musical instruments; Crossroads and Golden Ages
 - [Ralli patchwork quilt](../../games/1364-ralli-patchwork-quilt/index.md): Pakistan, India; Crafts and making; Living Traditions
+- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md): India, Nepal; Musical instruments; Living Traditions
+- [Tent pegging](../../games/78-tent-pegging/index.md): Pakistan, India; Dexterity and skill games; Modern Heritage
 - [Cricket](../../games/22343-cricket/index.md): United Kingdom, India; Bat-and-ball games; Age of Contact and Craft
 - [Gulli Danda](../../games/1003-gulli-danda/index.md): Pakistan; Dexterity and skill games; Modern Heritage
 - [Kite fighting](../../games/788-kite-fighting/index.md): India, Pakistan; Dexterity and skill games; Classical Worlds

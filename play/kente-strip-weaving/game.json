@@ -1,0 +1,13 @@
+{
+ "slug": "kente-strip-weaving",
+ "title": "Kente strip weaving",
+ "orientation": "any",
+ "version": "1.0.1",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

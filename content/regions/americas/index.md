@@ -1,17 +1,18 @@
 ---
 title: "Americas"
-description: "155 entries."
+description: "160 entries."
 path: "/regions/americas/"
-count: 155
+count: 160
 ---
 # Americas
 
-155 entries.
+160 entries.
 
 
 
-155 entries.
+160 entries.
 
+- ['Ulu Maika](../../games/44-ulu-maika/index.md): United States; Dexterity and skill games; Age of Contact and Craft
 - [Alebrije painting](../../games/92-alebrije-painting/index.md): Mexico; Crafts and making; Living Traditions
 - [American patchwork quilting](../../games/6356-american-patchwork-quilting/index.md): United States; Crafts and making; Living Traditions
 - [Antigua Classic Yacht Race](../../games/1433-antigua-classic-yacht-race/index.md): Antigua and Barbuda, United Kingdom; Racing; Age of Contact and Craft
@@ -68,6 +69,7 @@ count: 155
 - [Kōnane](../../games/961-konane/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Lei making](../../games/449-lei-making/index.md): United States; Crafts and making; Living Traditions
 - [Limbo](../../games/58-limbo/index.md): Trinidad and Tobago; Dexterity and skill games; Modern Heritage
+- [Log rolling](../../games/59-log-rolling/index.md): United States, Canada; Dexterity and skill games; Modern Heritage
 - [Ludo](../../games/763-ludo/index.md): Haiti, Jamaica; Board and table games; River Valleys and First Cities
 - [Malambo](../../games/1417-malambo/index.md): Argentina; Dances; Living Traditions
 - [Maple taffy on snow](../../games/441-maple-taffy-on-snow/index.md): Canada; Crafts and making; Living Traditions
@@ -84,6 +86,7 @@ count: 155
 - [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md): Paraguay; Musical instruments; Classical Worlds
 - [Patolli](../../games/454-patolli/index.md): Mexico; Board and table games; Crossroads and Golden Ages
 - [Payada](../../games/1426-payada/index.md): Argentina, Uruguay; Wrestling and martial sports; Classical Worlds
+- [Peteca](../../games/421-peteca/index.md): Brazil; Dexterity and skill games; Modern Heritage
 - [Pinata swing](../../games/61-pinata-swing/index.md): Mexico, Paraguay; Dexterity and skill games; Modern Heritage
 - [Pollera and Tembleques](../../games/1480-pollera-and-tembleques/index.md): Panama; Crafts and making; Living Traditions
 - [Puerto Rican Cuatro](../../games/1481-puerto-rican-cuatro/index.md): Worldwide; Musical instruments; Living Traditions
@@ -111,7 +114,9 @@ count: 155
 - [Tres cubano](../../games/433-tres-cubano/index.md): Cuba; Musical instruments; Living Traditions
 - [Trick Roping](../../games/1408-trick-roping/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Tuk Band](../../games/1438-tuk-band/index.md): Barbados; Other traditions; Classical Worlds
+- [Ukulele strum-along](../../games/144-ukulele-strum-along/index.md): United States, Portugal; Musical instruments; Living Traditions
 - [Uyuni Salt Harvest](../../games/1491-uyuni-salt-harvest/index.md): Bolivia; Puzzles and mind games; Modern Heritage
+- [Vallenato accordion trio](../../games/431-vallenato-accordion-trio/index.md): Colombia; Musical instruments; Living Traditions
 - [Wayfinder](../../games/43-wayfinder/index.md): United States, New Zealand; Puzzles and mind games; Crossroads and Golden Ages
 - [Yard cricket](../../games/1151-yard-cricket/index.md): Trinidad and Tobago, Barbados; Street and playground games; Age of Contact and Craft
 - [Adji-boto](../../games/1116-adji-boto/index.md): Suriname; Board and table games; Deep Past and First Games

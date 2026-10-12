@@ -39,9 +39,9 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Kotta Pora](../../games/18-kotta-pora/index.md)
 - [Stilt fishing](../../games/288-stilt-fishing/index.md)
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md)
+- [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md)
 - [Silambam](../../games/271-silambam/index.md)
 - [Murchunga](../../games/290-murchunga/index.md)
-- [Lathi Khela](../../games/298-lathi-khela/index.md)
 
 ## Sources
 

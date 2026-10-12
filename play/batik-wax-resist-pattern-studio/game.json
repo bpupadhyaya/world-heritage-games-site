@@ -1,0 +1,13 @@
+{
+ "slug": "batik-wax-resist-pattern-studio",
+ "title": "Batik pattern studio",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,13 @@
+{
+ "slug": "canal-ice-skating-marathon",
+ "title": "Canal ice-skating marathon",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

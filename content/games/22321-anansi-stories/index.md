@@ -47,9 +47,9 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Kente strip weaving](../../games/22-kente-strip-weaving/index.md)
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md)
 - [Krobo Powder-Glass Beads](../../games/173-krobo-powder-glass-beads/index.md)
+- [Fufu Pounding Rhythm](../../games/175-fufu-pounding-rhythm/index.md)
 - [Asafo Flag Appliqué](../../games/1230-asafo-flag-applique/index.md)
 - [Bolga Basket Weaver](../../games/1245-bolga-basket-weaver/index.md)
-- [Talking drum](../../games/33-talking-drum/index.md)
 
 ## Sources
 

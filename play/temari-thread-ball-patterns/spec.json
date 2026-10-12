@@ -1,0 +1,184 @@
+{
+ "engine": "pattern",
+ "params": {
+  "symmetry": "rot4",
+  "mode": "copy",
+  "rotateMarks": false,
+  "palette": [
+   {
+    "name": "Crimson",
+    "color": "#c4243e"
+   },
+   {
+    "name": "Rose",
+    "color": "#ef8aa6"
+   },
+   {
+    "name": "Gold",
+    "color": "#e8b830"
+   },
+   {
+    "name": "Leaf green",
+    "color": "#2f8f6a"
+   },
+   {
+    "name": "Indigo",
+    "color": "#2a3a7a"
+   },
+   {
+    "name": "White",
+    "color": "#fbf7ee"
+   }
+  ],
+  "background": "#3a2a3e",
+  "grid": "#5a4660",
+  "motifs": [
+   "diamond",
+   "triangle",
+   "dot",
+   "star",
+   "ring",
+   "solid"
+  ],
+  "shape": "polar",
+  "rays": 16,
+  "rings": 6,
+  "designs": [
+   {
+    "name": "Eight-part star",
+    "rows": [
+     "s.s.s.s.s.s.s.s.",
+     "t.t.t.t.t.t.t.t.",
+     ".d.d.d.d.d.d.d.d",
+     "u.u.u.u.u.u.u.u.",
+     "o.o.o.o.o.o.o.o.",
+     "d.d.d.d.d.d.d.d."
+    ],
+    "legend": {
+     "s": {
+      "m": 5,
+      "c": 0
+     },
+     "d": {
+      "m": 0,
+      "c": 2
+     },
+     "t": {
+      "m": 1,
+      "c": 4
+     },
+     "u": {
+      "m": 1,
+      "c": 3
+     },
+     "o": {
+      "m": 2,
+      "c": 5
+     },
+     "r": {
+      "m": 4,
+      "c": 1
+     },
+     "a": {
+      "m": 3,
+      "c": 2
+     },
+     "c": {
+      "m": 0,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Four-part wheel",
+    "rows": [
+     "ssssssssssssssss",
+     "d...d...d...d...",
+     ".t...t...t...t..",
+     "..u...u...u...u.",
+     "o..oo..oo..oo..o",
+     "rrrrrrrrrrrrrrrr"
+    ],
+    "legend": {
+     "s": {
+      "m": 5,
+      "c": 0
+     },
+     "d": {
+      "m": 0,
+      "c": 2
+     },
+     "t": {
+      "m": 1,
+      "c": 4
+     },
+     "u": {
+      "m": 1,
+      "c": 3
+     },
+     "o": {
+      "m": 2,
+      "c": 5
+     },
+     "r": {
+      "m": 4,
+      "c": 1
+     },
+     "a": {
+      "m": 3,
+      "c": 2
+     },
+     "c": {
+      "m": 0,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Banded ball",
+    "rows": [
+     "aaaaaaaaaaaaaaaa",
+     "cccccccccccccccc",
+     "tutututututututu",
+     "oooooooooooooooo",
+     "dddddddddddddddd",
+     "rrrrrrrrrrrrrrrr"
+    ],
+    "legend": {
+     "s": {
+      "m": 5,
+      "c": 0
+     },
+     "d": {
+      "m": 0,
+      "c": 2
+     },
+     "t": {
+      "m": 1,
+      "c": 4
+     },
+     "u": {
+      "m": 1,
+      "c": 3
+     },
+     "o": {
+      "m": 2,
+      "c": 5
+     },
+     "r": {
+      "m": 4,
+      "c": 1
+     },
+     "a": {
+      "m": 3,
+      "c": 2
+     },
+     "c": {
+      "m": 0,
+      "c": 0
+     }
+    }
+   }
+  ]
+ }
+}

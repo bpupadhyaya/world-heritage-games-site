@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with I"
-description: "17 entries beginning with I."
+description: "18 entries beginning with I."
 path: "/a-z/I/"
 ---
 # Entries beginning with I
@@ -19,6 +19,7 @@ path: "/a-z/I/"
 - [Intha leg rowing on the lake](../../games/304-intha-leg-rowing-on-the-lake/index.md): Myanmar; Racing; Age of Contact and Craft
 - [Intore dance](../../games/1302-intore-dance/index.md): Rwanda; Dances; Living Traditions
 - [Irish Handball](../../games/1464-irish-handball/index.md): Ireland; Crafts and making; Living Traditions
+- [Isukuti drum dance](../../games/191-isukuti-drum-dance/index.md): Worldwide; Musical instruments; Living Traditions
 - [Italian draughts](../../games/834-italian-draughts/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Itsibweb](../../games/965-itsibweb/index.md): Nauru; Street and playground games; Modern Heritage
 - [Iznik tile painting](../../games/244-iznik-tile-painting/index.md): Turkey; Crafts and making; Living Traditions

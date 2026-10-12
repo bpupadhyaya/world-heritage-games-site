@@ -1,0 +1,29 @@
+{
+ "title": "Bayt-bazi verse chain",
+ "native": "بیت‌بازی",
+ "alt": [
+  "Verse chain",
+  "Poetry link game"
+ ],
+ "countries": [
+  "Iran",
+  "Afghanistan"
+ ],
+ "summary": "A family evening game of memory and poetry: one player gives a line, and the next must answer with a line that begins with the last letter of the one before. It is played at home, at school and in gatherings, and it keeps old verses alive in young memories.",
+ "howToPlay": [
+  "Read grandmother's line and find its last letter.",
+  "Pick the line that begins with that letter.",
+  "Your lines are written on the page as the game goes.",
+  "Mind your manners: grace counts for as much as memory."
+ ],
+ "rules": [
+  "One line is right each time; the others begin with other letters.",
+  "The last round uses a harder letter.",
+  "Taking help costs you a little grace.",
+  "Three stars need nearly every line right and good manners."
+ ],
+ "heritageNote": "Bayt-bazi, the game of couplets, is played in homes and classrooms by Persian speakers in Iran, Afghanistan and Tajikistan and by Urdu speakers in South Asia, often on long winter evenings. Players draw on verses learned by heart, so a good player carries a whole library in memory, and a family gathering can turn into a friendly contest.",
+ "credits": [
+  "Verse lines: World Heritage Games (original)"
+ ]
+}

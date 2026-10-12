@@ -39,12 +39,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Georgian three-voice polyphony](../../games/245-georgian-three-voice-polyphony/index.md)
 - [Churchkhela](../../games/1255-churchkhela/index.md)
 - [Ikat Pattern Dyeing](../../games/104-ikat-pattern-dyeing/index.md)
 - [Santur Hammer Strings](../../games/138-santur-hammer-strings/index.md)
 - [Persian Carpet Knotting](../../games/161-persian-carpet-knotting/index.md)
 - [Lavash Baking](../../games/163-lavash-baking/index.md)
-- [Muqarnas stalactite vault builder](../../games/228-muqarnas-stalactite-vault-builder/index.md)
 
 ## Sources
 

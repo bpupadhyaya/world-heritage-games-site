@@ -1,0 +1,156 @@
+{
+ "engine": "bout",
+ "params": {
+  "level": 2,
+  "rounds": {
+   "count": 3,
+   "time": 26
+  },
+  "exchangeTime": 3,
+  "scoring": {
+   "fall": 5,
+   "pushOut": 6,
+   "fallEndsRound": false,
+   "fallLabel": "Down",
+   "mercy": 8
+  },
+  "ring": {
+   "kind": "grass",
+   "pushOut": true
+  },
+  "grip": {
+   "enabled": false
+  },
+  "timing": {
+   "period": 1.1,
+   "window": 0.2,
+   "tempo": 2.2
+  },
+  "setting": {
+   "sky": [
+    "#9be3d8",
+    "#e9f8ee"
+   ],
+   "ground": "#7fae52",
+   "backdrop": "hills",
+   "far": "#3f8a6a",
+   "ringFill": "#9cc46a",
+   "ringEdge": "#f3e2b0",
+   "ringStyle": "none",
+   "crowd": true
+  },
+  "fighters": {
+   "you": {
+    "name": "You",
+    "color": "#e5473a",
+    "trim": "#ffc94a"
+   },
+   "rival": {
+    "name": "Rival",
+    "color": "#2a6fd6",
+    "trim": "#fff6dc"
+   }
+  },
+  "moves": [
+   {
+    "id": "mitso",
+    "name": "Straight punch (mitso)",
+    "kind": "strike",
+    "speed": 3,
+    "cost": 7,
+    "power": 11,
+    "pose": "thrust",
+    "beats": [
+     "mandraoky",
+     "vangofary"
+    ],
+    "points": 1,
+    "push": 0.15
+   },
+   {
+    "id": "mandraoky",
+    "name": "Hook (mandraoky)",
+    "kind": "strike",
+    "speed": 2,
+    "cost": 9,
+    "power": 16,
+    "pose": "side",
+    "beats": [
+     "vangofary",
+     "vangomioriky"
+    ],
+    "points": 1,
+    "push": 0.2
+   },
+   {
+    "id": "vangofary",
+    "name": "Downward slant (vangofary)",
+    "kind": "strike",
+    "speed": 2,
+    "cost": 10,
+    "power": 18,
+    "pose": "high",
+    "beats": [
+     "vangomioriky",
+     "kick"
+    ],
+    "points": 2,
+    "push": 0.2
+   },
+   {
+    "id": "vangomioriky",
+    "name": "Uppercut (vangomioriky)",
+    "kind": "strike",
+    "speed": 1,
+    "cost": 13,
+    "power": 24,
+    "pose": "lift",
+    "beats": [
+     "kick",
+     "slip"
+    ],
+    "points": 2,
+    "push": 0.3
+   },
+   {
+    "id": "kick",
+    "name": "Low kick",
+    "kind": "push",
+    "speed": 3,
+    "cost": 9,
+    "power": 13,
+    "pose": "push",
+    "beats": [
+     "slip",
+     "mitso"
+    ],
+    "points": 1,
+    "push": 0.5
+   },
+   {
+    "id": "slip",
+    "name": "Slip and turn",
+    "kind": "guard",
+    "speed": 3,
+    "cost": 5,
+    "power": 9,
+    "pose": "step",
+    "beats": [
+     "mitso",
+     "mandraoky"
+    ],
+    "steady": 8
+   },
+   {
+    "id": "breathe",
+    "name": "Breathe",
+    "kind": "rest",
+    "speed": 1,
+    "cost": -12,
+    "power": 0,
+    "pose": "rest",
+    "beats": []
+   }
+  ]
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "engine": "pattern",
+ "params": {
+  "cols": 7,
+  "rows": 13,
+  "symmetry": "mirror-x",
+  "mode": "copy",
+  "palette": [
+   {
+    "name": "Gold",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Green",
+    "color": "#2f8f4e"
+   },
+   {
+    "name": "Red",
+    "color": "#c0392b"
+   },
+   {
+    "name": "Blue",
+    "color": "#2a4f9e"
+   },
+   {
+    "name": "Cream",
+    "color": "#f1e7cf"
+   }
+  ],
+  "background": "#1f1812",
+  "grid": "#3a2d20",
+  "motifs": [
+   "solid",
+   "checker",
+   "zigzag",
+   "stripe-h",
+   "diamond",
+   "stripe-v"
+  ],
+  "designs": [
+   {
+    "name": "Weft-face blocks",
+    "rows": [
+     "aaaaaaa",
+     "abbabba",
+     ".......",
+     "ddddddd",
+     "dccdccd",
+     ".......",
+     "ccgggcc",
+     ".......",
+     "dccdccd",
+     "ddddddd",
+     ".......",
+     "abbabba",
+     "aaaaaaa"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 1,
+      "c": 4
+     },
+     "e": {
+      "m": 2,
+      "c": 0
+     },
+     "f": {
+      "m": 3,
+      "c": 3
+     },
+     "g": {
+      "m": 4,
+      "c": 0
+     },
+     "h": {
+      "m": 2,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Zigzag and bands",
+    "rows": [
+     "aaaaaaa",
+     "b..b..b",
+     "eeeeeee",
+     ".ee.ee.",
+     "fffffff",
+     "cgcgcgc",
+     "gcgcgcg",
+     "cgcgcgc",
+     "fffffff",
+     ".ee.ee.",
+     "eeeeeee",
+     "b..b..b",
+     "aaaaaaa"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 1,
+      "c": 4
+     },
+     "e": {
+      "m": 2,
+      "c": 0
+     },
+     "f": {
+      "m": 3,
+      "c": 3
+     },
+     "g": {
+      "m": 4,
+      "c": 0
+     },
+     "h": {
+      "m": 2,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Chevron strip",
+    "rows": [
+     "aaaaaaa",
+     "bbbbbbb",
+     ".hh.hh.",
+     "h..h..h",
+     ".hh.hh.",
+     "ccccccc",
+     "ddddddd",
+     "ccccccc",
+     ".hh.hh.",
+     "h..h..h",
+     ".hh.hh.",
+     "bbbbbbb",
+     "aaaaaaa"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 1,
+      "c": 4
+     },
+     "e": {
+      "m": 2,
+      "c": 0
+     },
+     "f": {
+      "m": 3,
+      "c": 3
+     },
+     "g": {
+      "m": 4,
+      "c": 0
+     },
+     "h": {
+      "m": 2,
+      "c": 1
+     }
+    }
+   }
+  ],
+  "rotateMarks": true
+ }
+}
