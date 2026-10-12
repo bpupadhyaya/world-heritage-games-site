@@ -1,6 +1,8 @@
 // bend: bend a wire into a silhouette. Drag the points of each wire (and place the wheels) to match the outline.
 // Score = a partial Hausdorff distance between the player's wire and the target outline, in figure heights.
-import { clamp, shade, starsFor } from './geom.js';
+import { clamp, starsFor } from './geom.js';
+import { tint, litEdge, rgba, shadowed, rrect, shelf } from './fx.js';
+const shade = tint;
 
 export const BEND_DEFAULTS = { figure: 'car', tolerance: 0.06, wireColor: '#d9b45a', wheelColor: '#6b7480', guide: true, variation: 1 };
 
@@ -62,7 +64,8 @@ const directed = (A, B) => {
 };
 
 export function createBend(P, env) {
-  const { rng, audio } = env;
+  const { rng, audio, fx } = env;
+  let clock = 0, lastGrab = null, lastRelease = -9;
   const FIG = BEND_FIGURES[P.figure] ?? BEND_FIGURES.car;
   let target, cur, undo, done, geo = null, grab = null, moved = false, tSamples, cache = null, acc = 0, hit = 26;
 
@@ -138,59 +141,91 @@ export function createBend(P, env) {
         audio?.tone({ freq: 200 + ((nu * 4 + nv * 3) % 1) * 160, dur: 0.02, type: 'triangle', vol: 0.05 });
       }
     }
-    if (!p.down) grab = null;
+    if (!p.down) { if (grab && moved && fx && geo) { const [u, v] = objPos(grab.o), [qx, qy] = px(u, v); fx.emit('spark', qx, qy, { count: 3, color: '#fff4c8', size: 6, speed: 70, life: 0.4, gravity: 60 }); audio?.tone({ freq: 360, to: 280, dur: 0.06, type: 'triangle', vol: 0.12 }); } grab = null; }
   };
 
+  // A wheel: a dark tyre with tread, a bright rim and wire spokes, with its own shadow.
   const wheelAt = (ctx, cx, cy, rp, color, w) => {
-    ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.beginPath(); ctx.arc(cx, cy, rp, 0, Math.PI * 2); ctx.fill();
-    ctx.strokeStyle = color; ctx.lineWidth = Math.max(3, rp * 0.2); ctx.beginPath(); ctx.arc(cx, cy, rp, 0, Math.PI * 2); ctx.stroke();
-    ctx.strokeStyle = shade(color, 0.35); ctx.lineWidth = Math.max(1, rp * 0.06);
-    for (let k = 0; k < 6; k++) { const t = (k * Math.PI) / 3 + w; ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(cx + Math.cos(t) * rp * 0.9, cy + Math.sin(t) * rp * 0.9); ctx.stroke(); }
-    ctx.fillStyle = shade(color, 0.5); ctx.beginPath(); ctx.arc(cx, cy, Math.max(2, rp * 0.14), 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = 'rgba(0,0,0,0.38)'; ctx.beginPath(); ctx.ellipse(cx + rp * 0.1, cy + rp * 0.14, rp * 1.04, rp * 1.0, 0, 0, Math.PI * 2); ctx.fill();
+    const tw = Math.max(3, rp * 0.26);
+    ctx.strokeStyle = '#17191c'; ctx.lineWidth = tw; ctx.beginPath(); ctx.arc(cx, cy, rp, 0, Math.PI * 2); ctx.stroke();
+    ctx.strokeStyle = 'rgba(255,255,255,0.12)'; ctx.lineWidth = tw * 0.25; ctx.beginPath(); ctx.arc(cx, cy, rp + tw * 0.2, Math.PI * 1.1, Math.PI * 1.7); ctx.stroke();
+    ctx.setLineDash([Math.max(1.5, tw * 0.2), Math.max(2, tw * 0.5)]); ctx.strokeStyle = 'rgba(255,255,255,0.14)'; ctx.lineWidth = tw * 0.9; ctx.beginPath(); ctx.arc(cx, cy, rp, 0, Math.PI * 2); ctx.stroke(); ctx.setLineDash([]);
+    const rim = ctx.createLinearGradient(cx - rp, cy - rp, cx + rp, cy + rp); rim.addColorStop(0, shade(color, 0.5)); rim.addColorStop(1, shade(color, -0.3));
+    ctx.strokeStyle = rim; ctx.lineWidth = Math.max(1.5, rp * 0.07); ctx.beginPath(); ctx.arc(cx, cy, rp - tw * 0.52, 0, Math.PI * 2); ctx.stroke();
+    ctx.strokeStyle = shade(color, 0.35); ctx.lineWidth = Math.max(1, rp * 0.04);
+    for (let k = 0; k < 8; k++) { const t = (k * Math.PI) / 4 + w; ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(cx + Math.cos(t) * (rp - tw * 0.5), cy + Math.sin(t) * (rp - tw * 0.5)); ctx.stroke(); }
+    const hb = ctx.createRadialGradient(cx - rp * 0.04, cy - rp * 0.05, 0.5, cx, cy, Math.max(3, rp * 0.16)); hb.addColorStop(0, '#fff'); hb.addColorStop(1, shade(color, -0.2));
+    ctx.fillStyle = hb; ctx.beginPath(); ctx.arc(cx, cy, Math.max(3, rp * 0.14), 0, Math.PI * 2); ctx.fill();
   };
-  const tone = (i) => shade(P.wireColor, [0, -0.32, 0.28][i % 3]);
-  const paintFigure = (ctx, fig, X, Y, bw, bh, lw, handles, guide) => {
+  const tone = (i) => shade(P.wireColor, [0, -0.2, 0.18][i % 3]);
+  // Wire: a cast shadow, a dark underside, the metal, and a thin specular line along its upper edge.
+  const wirePath = (ctx, p, to) => {
+    ctx.beginPath();
+    p.pts.forEach((q, k) => { const [x, y] = to(q); k ? ctx.lineTo(x, y) : ctx.moveTo(x, y); });
+    if (p.closed) ctx.closePath();
+  };
+  const paintFigure = (ctx, fig, X, Y, bw, bh, lw, handles, guide, t = 0) => {
     const to = (q) => [X + q[0] * bw, Y + q[1] * bh];
     fig.paths.forEach((p, i) => {
-      ctx.beginPath();
-      p.pts.forEach((q, k) => { const [x, y] = to(q); k ? ctx.lineTo(x, y) : ctx.moveTo(x, y); });
-      if (p.closed) ctx.closePath();
       ctx.lineJoin = 'round'; ctx.lineCap = 'round';
-      if (guide) { ctx.setLineDash([lw * 2.2, lw * 2.2]); ctx.strokeStyle = 'rgba(245,200,90,0.75)'; ctx.lineWidth = lw * 0.8; }
-      else { ctx.strokeStyle = 'rgba(0,0,0,0.4)'; ctx.lineWidth = lw * 1.9; ctx.stroke(); ctx.strokeStyle = tone(i); ctx.lineWidth = lw; }
-      ctx.stroke(); ctx.setLineDash([]);
+      if (guide) { wirePath(ctx, p, to); litEdge(ctx, '#ffd36a', Math.max(1.4, lw * 0.5), t); return; }
+      wirePath(ctx, p, to); ctx.translate(lw * 0.5, lw * 0.9); ctx.strokeStyle = 'rgba(0,0,0,0.38)'; ctx.lineWidth = lw * 1.5; ctx.stroke(); ctx.translate(-lw * 0.5, -lw * 0.9);
+      wirePath(ctx, p, to); ctx.strokeStyle = shade(tone(i), -0.45); ctx.lineWidth = lw * 1.25; ctx.stroke();
+      wirePath(ctx, p, to); ctx.strokeStyle = tone(i); ctx.lineWidth = lw; ctx.stroke();
+      wirePath(ctx, p, to); ctx.translate(-lw * 0.18, -lw * 0.22); ctx.strokeStyle = 'rgba(255,255,255,0.55)'; ctx.lineWidth = lw * 0.26; ctx.stroke(); ctx.translate(lw * 0.18, lw * 0.22);
     });
     fig.wheels.forEach((w) => {
       const [cx, cy] = to([w.x, w.y]), rp = w.r * bh;
-      if (guide) { ctx.setLineDash([lw * 2.2, lw * 2.2]); ctx.strokeStyle = 'rgba(245,200,90,0.75)'; ctx.lineWidth = lw * 0.8; ctx.beginPath(); ctx.arc(cx, cy, rp, 0, Math.PI * 2); ctx.stroke(); ctx.setLineDash([]); }
+      if (guide) { ctx.beginPath(); ctx.arc(cx, cy, rp, 0, Math.PI * 2); litEdge(ctx, '#ffd36a', Math.max(1.4, lw * 0.5), t); }
       else wheelAt(ctx, cx, cy, rp, P.wheelColor, 0.3);
     });
     if (handles) {
-      const hr = Math.max(7, bh * 0.02);
+      const hr = Math.max(8, bh * 0.022);
       fig.paths.forEach((p, i) => p.pts.forEach((q) => {
         const [x, y] = to(q);
-        ctx.fillStyle = '#f6f1e6'; ctx.strokeStyle = tone(i); ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(x, y, hr, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
+        ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.beginPath(); ctx.arc(x + 2, y + 3, hr, 0, Math.PI * 2); ctx.fill();
+        const g2 = ctx.createRadialGradient(x - hr * 0.3, y - hr * 0.35, 1, x, y, hr); g2.addColorStop(0, '#ffffff'); g2.addColorStop(1, '#cfc8b8');
+        ctx.fillStyle = g2; ctx.strokeStyle = tone(i); ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(x, y, hr, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
       }));
     }
   };
+  const pegboard = (ctx, x, y, w, h) => {
+    shadowed(ctx, () => { rrect(ctx, x, y, w, h, 14); ctx.fillStyle = '#2a2c30'; ctx.fill(); }, { blur: 16, dy: 8, a: 0.5 });
+    const gr = ctx.createLinearGradient(x, y, x + w, y + h); gr.addColorStop(0, '#3a3d44'); gr.addColorStop(1, '#202226'); rrect(ctx, x, y, w, h, 14); ctx.fillStyle = gr; ctx.fill();
+    ctx.fillStyle = 'rgba(0,0,0,0.5)'; ctx.beginPath();
+    const s = Math.max(14, w / 18);
+    for (let gx = x + s; gx < x + w - 4; gx += s) for (let gy = y + s; gy < y + h - 4; gy += s) { ctx.moveTo(gx + 2.2, gy); ctx.arc(gx, gy, 2.2, 0, Math.PI * 2); }
+    ctx.fill();
+  };
 
-  const draw = (g, Rt) => {
+  const draw = (g, Rt, t) => {
     const { ctx, pal } = g;
-    const W0 = Rt.work, Wk = { x: W0.x, y: W0.y + 26, w: W0.w, h: W0.h - 26 };
+    clock = t;
+    const W0 = Rt.work, Wk = { x: W0.x, y: W0.y + 40, w: W0.w, h: W0.h - 40 };
     hit = Math.max(22, (g.px(0) * 44) / 12 * 0.5);
-    const bh = Math.min(Wk.h - 8, (Wk.w - 8) / FIG.ar), bw = bh * FIG.ar, ox = Wk.x + (Wk.w - bw) / 2, oy = Wk.y + (Wk.h - bh) / 2;
+    const bh = Math.min(Wk.h - 20, (Wk.w - 20) / FIG.ar), bw = bh * FIG.ar, ox = Wk.x + (Wk.w - bw) / 2, oy = Wk.y + (Wk.h - bh) / 2;
     geo = { ox, oy, bw, bh };
-    ctx.fillStyle = 'rgba(255,255,255,0.05)'; g.rr(ctx, ox - 6, oy - 6, bw + 12, bh + 12, 12); ctx.fill();
-    const lw = Math.max(3, bh * 0.012);
-    if (P.guide) paintFigure(ctx, target, ox, oy, bw, bh, lw, false, true);
-    // wheels first (behind the wire), then the wire with handles
+    pegboard(ctx, ox - 10, oy - 10, bw + 20, bh + 20);
+    const lw = Math.max(3.5, bh * 0.014);
+    if (P.guide) paintFigure(ctx, target, ox, oy, bw, bh, lw, false, true, t);
     cur.wheels.forEach((w) => wheelAt(ctx, ox + w.x * bw, oy + w.y * bh, w.r * bh, P.wheelColor, 0.3));
-    paintFigure(ctx, { paths: cur.paths, wheels: [] }, ox, oy, bw, bh, lw * 1.3, true, false);
-    // thumbnail: the finished figure
-    const th = Rt.thumb, tb = Math.min(th.h - 6, (th.w - 6) / FIG.ar), tw = tb * FIG.ar;
-    ctx.fillStyle = 'rgba(255,255,255,0.05)'; ctx.fillRect(th.x, th.y, th.w, th.h);
-    paintFigure(ctx, target, th.x + (th.w - tw) / 2, th.y + (th.h - tb) / 2, tw, tb, Math.max(2, tb * 0.014), false, false);
-    g.label(ctx, 'Drag the white points; drag a wheel by its rim', W0.x + W0.w / 2, W0.y + 12, g.px(17), pal.dim, 'center', '500');
+    paintFigure(ctx, { paths: cur.paths, wheels: [] }, ox, oy, bw, bh, lw * 1.3, true, false, t);
+    // a grabbed handle glows
+    if (grab && grab.o.kind === 'pt' && !done) {
+      const [u, v] = objPos(grab.o), [qx, qy] = px(u, v);
+      ctx.strokeStyle = rgba(pal.accent, 0.8); ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(qx, qy, Math.max(8, bh * 0.022) * 1.9, 0, Math.PI * 2); ctx.stroke();
+    }
+    // reference
+    const th = Rt.thumb, tb = Math.min(th.h - 24, (th.w - 24) / FIG.ar), tw = tb * FIG.ar;
+    shelf(ctx, th.x + th.w / 2, th.y + (th.h + tb) / 2 + 2, th.w * 0.36);
+    paintFigure(ctx, target, th.x + (th.w - tw) / 2, th.y + (th.h - tb) / 2, tw, tb, Math.max(2, tb * 0.016), false, false, t);
+    g.label(ctx, 'Drag the white points; drag a wheel by its rim', W0.x + W0.w / 2, W0.y + 26, g.px(22), pal.dim, 'center', '500');
+  };
+  const titleArt = (g, S, t) => {
+    const { ctx } = g;
+    const bh = Math.min(S.h * 0.7, (S.w * 0.84) / FIG.ar), bw = bh * FIG.ar, ox = S.x + (S.w - bw) / 2, oy = S.y + (S.h - bh) / 2;
+    paintFigure(ctx, target, ox, oy, bw, bh, Math.max(4, bh * 0.018), false, false, t);
   };
 
   const attract = (dt) => {
@@ -211,7 +246,7 @@ export function createBend(P, env) {
 
   const nPts = FIG.paths.reduce((s, p) => s + p.pts.length, 0);
   return {
-    init, items, control, work, draw, attract, result: () => done,
+    init, items, control, work, draw, attract, titleArt, surface: 'mat', surfaceTint: '#2f3640', result: () => done,
     score,
     info: () => [`Wire points: ${nPts}${FIG.wheels.length ? `, wheels: ${FIG.wheels.length}` : ''}`, `Gap: ${(distance() * 100).toFixed(1)} percent`],
     caption: `Bend this ${FIG.name.toLowerCase().replace('wire ', '')}`,

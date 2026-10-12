@@ -1,19 +1,26 @@
 // Face view (mode "fire"): looking at the targets from the shooter's position. Aim by dragging; the crosshair shows the
 // true point of impact (hand sway, wind and drop included); release to shoot. Targets may swing or sweep across.
+// Rendering: a receding ground plane, parallax scenery, 3D target discs with posts and shadows, a projectile that
+// flies a visible arc and shrinks with distance, wind pennants and shatter / ripple effects on every hit.
 import { DT } from './lane.js';
+import { drawBackdrop, windFlag, createFx, palFor, inferSetting, mix, dark, light, alpha, vgrad, hgrad, poly, rrect, clamp, hash } from './scenery.js';
 
 const hyp = Math.hypot;
-const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+const TAU = Math.PI * 2;
 const LIFT = 70;
 
 export function createFace(P, env, host) {
-  const F = P.face, LK = P.look, rng = env.rng;
+  const F = P.face, LK = P.look, PR = P.projectile, rng = env.rng;
   const FW = F.w, FH = F.h, M = 0.35;
+  const setting = inferSetting(P, env.text?.title);
+  const pal = palFor(setting, {});
+  const fx = createFx(env);
   let clock = 0, wind = 0, hold = 0, ptr = null, shots = [], stuck = [], floats = [], layout = null, ai = null, planCache = null, pending = 0;
+  let hits = [];
   const meter = { stage: 0, t: 0, x: 0, y: 0 };
   const tone = (o) => env.audio?.tone?.(o);
 
-  const reset = () => { clock = 0; wind = F.wind > 0 ? rng.range(-F.wind, F.wind) : 0; hold = 0; ptr = null; shots = []; stuck = []; floats = []; ai = null; planCache = null; pending = 0; meter.stage = 0; meter.t = 0; };
+  const reset = () => { clock = 0; wind = F.wind > 0 ? rng.range(-F.wind, F.wind) : 0; hold = 0; ptr = null; shots = []; stuck = []; floats = []; ai = null; planCache = null; pending = 0; meter.stage = 0; meter.t = 0; hits = []; fx.reset(); };
 
   const itemPos = (it, t) => {
     let x = it.x, y = it.y;
@@ -44,13 +51,16 @@ export function createFace(P, env, host) {
     host.thrown();
     planCache = null;
     tone({ freq: 700, to: 300, dur: 0.12, type: 'sawtooth', vol: 0.3 });
+    fx.sfx(0.02, { freq: 1500, to: 500, dur: 0.1, type: 'triangle', vol: 0.08 });
   };
 
   // tick: clock, resolution of arrows in flight and meters. Returns true when a new shot may be aimed.
   const tick = (dt) => {
     clock += dt;
+    fx.update(dt);
     for (const f of floats) f.t += dt;
     floats = floats.filter((f) => f.t < 1.4);
+    hits = hits.filter((h) => { h.t += dt; return h.t < 1.2; });
     for (const sh of shots) {
       sh.t += dt;
       if (!sh.done && clock >= sh.at) {
@@ -60,7 +70,24 @@ export function createFace(P, env, host) {
         if (r.who >= 0) { const c = itemPos(F.items[r.who], clock); rel = { who: r.who, dx: sh.x - c.x, dy: sh.y - c.y }; }
         stuck.push({ x: sh.x, y: sh.y, rel, points: r.points });
         floats.push({ x: sh.x, y: sh.y, text: r.points ? `+${r.points}` : 'miss', t: 0 });
-        tone(r.points ? { freq: 520 + r.points * 60, to: 880, dur: 0.15, type: 'triangle' } : { freq: 200, dur: 0.1, type: 'sawtooth', vol: 0.2 });
+        if (r.points) {
+          hits.push({ who: r.who, t: 0, amp: 0.12 + 0.03 * r.points, dx: sh.x - itemPos(F.items[r.who], clock).x });
+          tone({ freq: 520 + r.points * 60, to: 880, dur: 0.15, type: 'triangle', vol: 0.4 });
+          fx.sfx(0, { freq: 130, to: 70, dur: 0.12, type: 'sine', vol: 0.5 });   // the thump of the hit
+          fx.sfx(0.06, { freq: 1100 + r.points * 120, dur: 0.14, type: 'sine', vol: 0.18 });
+          if (layout) {
+            const p = toScreen(sh.x, sh.y), it = F.items[r.who], band = it.bands.find((b) => hyp(sh.x - itemPos(it, clock).x, sh.y - itemPos(it, clock).y) <= b.r) ?? it.bands[0];
+            const bi = it.bands.indexOf(band), col = LK.ringColors[(it.bands.length - 1 - bi + 3 * it.bands.length) % LK.ringColors.length];
+            fx.shards(p.x, p.y, layout.s * 0.05, [col, LK.ringColors[0], '#f3ead2'], 9 + r.points * 2);
+            fx.ring(p.x, p.y, layout.s * 0.14, layout.s * 0.14, 'rgba(255,255,255,0.85)', 0.55, 3);
+            fx.ring(p.x, p.y, layout.s * 0.26, layout.s * 0.26, alpha('#ffe27a', 0.7), 0.8, 2);
+            fx.kick(2 + r.points);
+          }
+        } else {
+          tone({ freq: 200, dur: 0.1, type: 'sawtooth', vol: 0.2 });
+          fx.sfx(0, { freq: 90, to: 60, dur: 0.1, type: 'sine', vol: 0.3 });
+          if (layout) { const p = toScreen(sh.x, sh.y); fx.dust(p.x, p.y, layout.s * 0.05, 'rgba(240,230,210,0.7)', 5); fx.kick(1.5); }
+        }
         sh.points = r.points;
       }
     }
@@ -113,8 +140,6 @@ export function createFace(P, env, host) {
     return { nT, tr, base: { x: best.c.x - sw.x - wind, y: best.c.y - sw.y + dr } };
   };
 
-  // The computer presses, holds to full draw and releases when the (swaying) crosshair sits on the best target.
-  // It works on logical values, so it runs even before the first render (store screenshots).
   const attract = (dt) => {
     if (!tick(dt)) { ai = null; return; }
     if (P.controls === 'meter') {
@@ -134,73 +159,179 @@ export function createFace(P, env, host) {
     if (ai.n === ai.nT + 1) { const pt = impact(ai.base, clock, hold); ptr = null; ai = null; shoot(pt); }
   };
 
-  const render = (g, area) => {
-    const { ctx } = g;
-    const bar = 36, s = Math.min(area.w / FW, (area.h - bar) / FH);
-    const rect = { x: area.x + (area.w - FW * s) / 2, y: area.y + (area.h - bar - FH * s) / 2, w: FW * s, h: FH * s };
-    layout = { area, s, rect };
-    const sx = (x) => rect.x + (x + FW / 2) * s, sy = (y) => rect.y + rect.h - y * s;
-    ctx.fillStyle = LK.surround; ctx.fillRect(area.x, area.y, area.w, area.h);
-    const grd = ctx.createLinearGradient(0, rect.y, 0, rect.y + rect.h);
-    grd.addColorStop(0, LK.skyTop); grd.addColorStop(1, LK.skyLow);
-    ctx.fillStyle = grd; ctx.fillRect(rect.x, rect.y, rect.w, rect.h);
-    ctx.fillStyle = LK.hills; ctx.beginPath(); ctx.moveTo(rect.x, sy(0.18));
-    for (let i = 0; i <= 24; i++) { const x = rect.x + (rect.w * i) / 24; ctx.lineTo(x, sy(0.18 + 0.09 * Math.sin(i * 0.9) + 0.05 * Math.sin(i * 2.1))); }
-    ctx.lineTo(rect.x + rect.w, rect.y + rect.h); ctx.lineTo(rect.x, rect.y + rect.h); ctx.fill();
-    ctx.fillStyle = LK.lane; ctx.fillRect(rect.x, sy(0.08), rect.w, 0.08 * s);
-    ctx.save(); ctx.beginPath(); ctx.rect(rect.x, rect.y, rect.w, rect.h); ctx.clip();
-    F.items.forEach((it, i) => {
-      const c = itemPos(it, clock), cx = sx(c.x), cy = sy(c.y);
-      const maxR = it.bands[it.bands.length - 1].r;
-      if (it.hang) { ctx.strokeStyle = LK.line; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(cx, rect.y); ctx.lineTo(cx, cy - maxR * s); ctx.stroke(); }
-      else if (it.post !== false) { ctx.strokeStyle = LK.post; ctx.lineWidth = Math.max(3, s * 0.03); ctx.beginPath(); ctx.moveTo(cx, cy + maxR * s * 0.6); ctx.lineTo(cx, sy(0.05)); ctx.stroke(); }
-      [...it.bands].reverse().forEach((b, k, arr) => {
-        ctx.fillStyle = LK.ringColors[(arr.length - 1 - k) % LK.ringColors.length];
-        ctx.beginPath(); ctx.arc(cx, cy, b.r * s, 0, 6.3); ctx.fill();
-        ctx.strokeStyle = LK.line; ctx.lineWidth = 1.5; ctx.stroke();
-      });
-      const first = it.bands[0];
-      if (first.r * s > 9) g.label(ctx, first.points, cx, cy, Math.min(first.r * s * 1.2, 24), LK.line, 'center', '800');
-    });
-    for (const st of stuck) {
-      let x = st.x, y = st.y;
-      if (st.rel) { const c = itemPos(F.items[st.rel.who], clock); x = c.x + st.rel.dx; y = c.y + st.rel.dy; }
-      ctx.fillStyle = LK.dart; ctx.strokeStyle = 'rgba(0,0,0,0.6)'; ctx.lineWidth = 1.5;
-      ctx.beginPath(); ctx.arc(sx(x), sy(y), Math.max(3.5, 0.018 * s), 0, 6.3); ctx.fill(); ctx.stroke();
-    }
-    for (const sh of shots) if (!sh.done) {
-      const u = clamp(sh.t / F.flight, 0, 1), px = sx(sh.x), py = sy(sh.y), r = 14 * (1 - u) + 3;
-      ctx.strokeStyle = LK.dart; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(px, py, r, 0, 6.3); ctx.stroke();
+  // ---- drawing ---------------------------------------------------------------------------------------------------
+  const ellipse = (ctx, x, y, rx, ry) => { ctx.beginPath(); ctx.ellipse(x, y, Math.max(0.5, rx), Math.max(0.5, ry), 0, 0, TAU); };
+
+  // an arrow, dart or pellet along direction ang at scale k
+  const drawMissile = (ctx, x, y, ang, len, col, arrow) => {
+    ctx.save(); ctx.translate(x, y); ctx.rotate(ang);
+    ctx.lineCap = 'round';
+    if (arrow) {
+      ctx.strokeStyle = dark(col, 0.2); ctx.lineWidth = Math.max(1.5, len * 0.07); ctx.beginPath(); ctx.moveTo(-len, 0); ctx.lineTo(len * 0.6, 0); ctx.stroke();
+      ctx.fillStyle = '#d6d6d6'; poly(ctx, [[len * 0.55, -len * 0.1], [len * 0.55, len * 0.1], [len, 0]]); ctx.fill();
+      ctx.fillStyle = '#e8453a'; poly(ctx, [[-len, 0], [-len * 0.8, -len * 0.18], [-len * 0.55, 0], [-len * 0.8, len * 0.18]]); ctx.fill();
+    } else {
+      ctx.strokeStyle = col; ctx.lineWidth = Math.max(1.5, len * 0.1); ctx.beginPath(); ctx.moveTo(-len * 0.8, 0); ctx.lineTo(len * 0.8, 0); ctx.stroke();
+      ctx.fillStyle = '#e8453a'; ctx.beginPath(); ctx.ellipse(-len * 0.8, 0, len * 0.28, len * 0.14, 0, 0, TAU); ctx.fill();
     }
     ctx.restore();
-    ctx.strokeStyle = LK.edge; ctx.lineWidth = 4; ctx.strokeRect(rect.x, rect.y, rect.w, rect.h);
+  };
+
+  const render = (g, area) => {
+    const { ctx } = g;
+    const bar = 36;
+    const s = Math.min(area.w / FW, (area.h - bar) * 0.74 / FH);
+    const rect = { x: area.x + (area.w - FW * s) / 2, y: area.y + (area.h - bar - FH * s) * 0.5, w: FW * s, h: FH * s };
+    layout = { area, s, rect };
+    const sx = (x) => rect.x + (x + FW / 2) * s, sy = (y) => rect.y + rect.h - y * s;
+    const baseY = sy(0.06);                                   // where posts stand: a fixed distance down the range
+    const hz = baseY - area.h * 0.1;                          // horizon
+    const cx = area.x + area.w / 2;
+    const bottom = area.y + area.h - bar;
+    const off = fx.offset();
+    ctx.save();
+    ctx.beginPath(); ctx.rect(area.x, area.y, area.w, area.h); ctx.clip();
+    ctx.translate(off.x, off.y);
+    // parallax: the far scenery slides against the aim point
+    const aimX = ptr ? clamp(ptr.x / (FW / 2), -1, 1) : P.controls === 'meter' ? clamp(meter.x / (FW / 2), -1, 1) : 0;
+    const P2 = { ...pal, skyTop: LK.skyTop && LK.skyTop !== '#7fb4d9' ? LK.skyTop : pal.skyTop, skyLow: LK.skyLow && LK.skyLow !== '#dbe9f1' ? LK.skyLow : pal.skyLow };
+    drawBackdrop(ctx, setting, { x: area.x - 20, y: area.y, w: area.w + 40, h: area.h }, hz, P2, clock, -aimX * area.w * 0.035);
+    // ground plane: lighter at the horizon, receding stripes and converging seams
+    const gnd = LK.lane && setting === 'range' ? LK.lane : pal.ground;
+    ctx.fillStyle = vgrad(ctx, hz, bottom, [[0, mix(gnd, P2.skyLow, 0.5)], [0.3, gnd], [1, dark(gnd, 0.4)]]);
+    ctx.fillRect(area.x - 20, hz, area.w + 40, bottom - hz + 40);
+    for (let i = 0; i < 9; i++) {
+      const u = Math.pow((i + 1) / 9, 1.9), y0 = hz + (bottom - hz) * u, y1 = hz + (bottom - hz) * Math.pow((i + 1.5) / 9, 1.9);
+      if (i % 2 === 0) { ctx.fillStyle = 'rgba(255,255,255,0.05)'; ctx.fillRect(area.x - 20, y0, area.w + 40, y1 - y0); }
+    }
+    ctx.strokeStyle = 'rgba(0,0,0,0.12)'; ctx.lineWidth = 1.2; ctx.beginPath();
+    for (let j = -8; j <= 8; j++) { ctx.moveTo(cx + j * 8, hz); ctx.lineTo(cx + j * area.w * 0.16, bottom + 40); }
+    ctx.stroke();
+    // pennants along the range tell the wind
+    const wmax = F.wind;
+    if (wmax > 0) {
+      windFlag(ctx, area.x + area.w * 0.07, baseY + 6, area.h * 0.2, wind, wmax, clock, '#d8453a');
+      windFlag(ctx, area.x + area.w * 0.93, baseY + 6, area.h * 0.2, wind, wmax, clock, '#2d6bb0');
+    }
+    // targets
+    F.items.forEach((it, i) => {
+      const c = itemPos(it, clock);
+      let cxp = sx(c.x), cyp = sy(c.y);
+      const maxR = it.bands[it.bands.length - 1].r, R = maxR * s;
+      // swing: a hit sets the target rocking
+      const h = hits.find((q) => q.who === i);
+      const wob = h ? h.amp * Math.sin(h.t * 22) * Math.exp(-h.t * 4.2) : 0;
+      const hang = it.hang ? 1 : 0;
+      // ground shadow
+      ctx.fillStyle = 'rgba(0,0,0,0.25)'; ellipse(ctx, cxp + R * 0.2, baseY + 3, R * 0.9, R * 0.16); ctx.fill();
+      ctx.save();
+      if (hang) {
+        const pivotY = rect.y, ang = wob + Math.sin(clock * 1.3 + i) * 0.02;
+        ctx.strokeStyle = LK.line; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.moveTo(cxp, pivotY); ctx.lineTo(cxp, cyp - R); ctx.stroke();
+        ctx.strokeStyle = 'rgba(255,255,255,0.35)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(cxp - 1, pivotY); ctx.lineTo(cxp - 1, cyp - R); ctx.stroke();
+        ctx.translate(cxp, cyp - R); ctx.rotate(ang); ctx.translate(-cxp, -(cyp - R));
+      } else if (it.post !== false) {
+        const postW = Math.max(4, s * 0.045);
+        ctx.fillStyle = hgrad(ctx, cxp - postW, cxp + postW, [[0, light(LK.post, 0.3)], [0.5, LK.post], [1, dark(LK.post, 0.4)]]);
+        ctx.fillRect(cxp - postW / 2, cyp + R * 0.5, postW, baseY - cyp - R * 0.5);
+        ctx.translate(cxp, baseY); ctx.rotate(wob * 0.5); ctx.translate(-cxp, -baseY);
+      }
+      // disc thickness, then the face with bevelled bands and a sheen
+      ctx.fillStyle = dark(LK.ringColors[0], 0.55); ctx.beginPath(); ctx.arc(cxp + R * 0.05, cyp + R * 0.06, R * 1.02, 0, TAU); ctx.fill();
+      [...it.bands].reverse().forEach((b, k, arr) => {
+        const col = LK.ringColors[(arr.length - 1 - k) % LK.ringColors.length], rr = b.r * s;
+        const gr = ctx.createRadialGradient(cxp - rr * 0.35, cyp - rr * 0.35, rr * 0.1, cxp, cyp, rr);
+        gr.addColorStop(0, light(col, 0.28)); gr.addColorStop(0.7, col); gr.addColorStop(1, dark(col, 0.25));
+        ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(cxp, cyp, rr, 0, TAU); ctx.fill();
+        ctx.strokeStyle = LK.line; ctx.lineWidth = 1.5; ctx.stroke();
+      });
+      ctx.fillStyle = 'rgba(255,255,255,0.18)'; ctx.beginPath(); ctx.ellipse(cxp - R * 0.3, cyp - R * 0.4, R * 0.5, R * 0.2, -0.6, 0, TAU); ctx.fill();
+      const first = it.bands[0];
+      if (first.r * s > 9) g.label(ctx, first.points, cxp, cyp, Math.min(first.r * s * 1.2, 24), LK.line, 'center', '800');
+      // a flash on the face right after a hit
+      if (h && h.t < 0.25) { ctx.fillStyle = `rgba(255,255,255,${0.5 * (1 - h.t / 0.25)})`; ctx.beginPath(); ctx.arc(cxp, cyp, R, 0, TAU); ctx.fill(); }
+      // stuck darts ride on the target
+      for (const st of stuck) {
+        if (!st.rel || st.rel.who !== i) continue;
+        const px = cxp + st.rel.dx * s, py = cyp - st.rel.dy * s;
+        drawMissile(ctx, px - 6, py - 5, -2.4, Math.max(8, s * 0.07), LK.dart, PR.look === 'arrow');
+      }
+      ctx.restore();
+    });
+    // misses stick in the ground or fall behind
+    for (const st of stuck) {
+      if (st.rel) continue;
+      const px = sx(st.x), py = sy(st.y);
+      ctx.fillStyle = alpha(LK.dart, 0.55); ctx.beginPath(); ctx.arc(px, py, Math.max(2.5, s * 0.02), 0, TAU); ctx.fill();
+    }
+    // projectiles in flight: a visible arc, shrinking toward the target, with a fading trail
+    for (const sh of shots) if (!sh.done) {
+      const u = clamp(sh.t / F.flight, 0, 1);
+      const tx = sx(sh.x), ty = sy(sh.y);
+      const x0 = cx + (tx - cx) * 0.25, y0 = bottom - 6;
+      const lift = Math.sin(Math.PI * u) * (s * 0.35 + Math.hypot(tx - x0, ty - y0) * 0.12);
+      const px = x0 + (tx - x0) * u, py = y0 + (ty - y0) * u - lift;
+      const k = 1.1 - 0.75 * u;
+      for (let i = 1; i <= 6; i++) {
+        const uu = Math.max(0, u - i * 0.035), l2 = Math.sin(Math.PI * uu) * (s * 0.35 + Math.hypot(tx - x0, ty - y0) * 0.12);
+        const qx = x0 + (tx - x0) * uu, qy = y0 + (ty - y0) * uu - l2;
+        ctx.fillStyle = `rgba(255,245,200,${0.5 * (1 - i / 7)})`; ctx.beginPath(); ctx.arc(qx, qy, Math.max(1, 5 * k * (1 - i / 8)), 0, TAU); ctx.fill();
+      }
+      const u2 = Math.min(1, u + 0.03), l3 = Math.sin(Math.PI * u2) * (s * 0.35 + Math.hypot(tx - x0, ty - y0) * 0.12);
+      const ang = Math.atan2((y0 + (ty - y0) * u2 - l3) - py, (x0 + (tx - x0) * u2) - px);
+      drawMissile(ctx, px, py, ang, Math.max(7, s * 0.11 * k), LK.dart, PR.look === 'arrow');
+      // its shadow runs along the ground
+      ctx.fillStyle = 'rgba(0,0,0,0.25)'; ellipse(ctx, x0 + (tx - x0) * u, baseY + (bottom - baseY) * (1 - u) * 0.5, 7 * k, 2.5 * k); ctx.fill();
+    }
+    // the shooter's weapon in the foreground
+    {
+      const bx = cx + area.w * 0.28, by = bottom + 6;
+      if (PR.look === 'arrow') {
+        ctx.strokeStyle = '#5a3a1c'; ctx.lineWidth = 7; ctx.lineCap = 'round';
+        ctx.beginPath(); ctx.moveTo(cx - area.w * 0.22, by + 10); ctx.quadraticCurveTo(cx - area.w * 0.36, bottom - area.h * 0.12, cx - area.w * 0.2, bottom - area.h * 0.28); ctx.stroke();
+        ctx.strokeStyle = 'rgba(255,255,255,0.7)'; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(cx - area.w * 0.2, bottom - area.h * 0.28); ctx.lineTo(cx - area.w * 0.22, by + 10); ctx.stroke();
+      } else {
+        ctx.fillStyle = hgrad(ctx, bx - 14, bx + 14, [[0, '#9a6a34'], [0.5, '#6a4420'], [1, '#2a1a0c']]);
+        poly(ctx, [[bx - 11, by + 30], [bx + 11, by + 30], [bx + 5, bottom - area.h * 0.17], [bx - 5, bottom - area.h * 0.17]]); ctx.fill();
+        ctx.fillStyle = '#d8c8a0'; ctx.beginPath(); ctx.ellipse(bx, bottom - area.h * 0.17, 5.5, 2.5, 0, 0, TAU); ctx.fill();
+      }
+      ctx.lineCap = 'butt';
+    }
     // crosshair at the true impact point
     let cross = null, drawLevel = 0;
     if (P.controls === 'meter') cross = meter.stage === 0 ? { x: meter.x + wind, y: FH * 0.5 } : { x: meter.x + wind, y: meter.y - dropAt(F.drawTime) };
     else if (ptr) { drawLevel = eff(hold); cross = impact(ptr, clock, hold); }
     if (cross && host.canThrow() && pending === 0 && layout) {
-      const c = { x: sx(cross.x), y: sy(cross.y) }, r = 18;
-      ctx.strokeStyle = LK.guide; ctx.lineWidth = 3;
-      ctx.beginPath(); ctx.arc(c.x, c.y, r, 0, 6.3); ctx.moveTo(c.x - r * 1.6, c.y); ctx.lineTo(c.x - r * 0.4, c.y); ctx.moveTo(c.x + r * 0.4, c.y); ctx.lineTo(c.x + r * 1.6, c.y);
-      ctx.moveTo(c.x, c.y - r * 1.6); ctx.lineTo(c.x, c.y - r * 0.4); ctx.moveTo(c.x, c.y + r * 0.4); ctx.lineTo(c.x, c.y + r * 1.6); ctx.stroke();
+      const c = { x: sx(cross.x), y: sy(cross.y) }, r = 17 + (1 - drawLevel) * 9;
+      // where the hand actually points, joined by a thin line to the true impact
+      if (ptr) { const b = { x: sx(ptr.x), y: sy(ptr.y) }; ctx.strokeStyle = 'rgba(255,255,255,0.35)'; ctx.lineWidth = 1.5; ctx.setLineDash([3, 5]); ctx.beginPath(); ctx.moveTo(b.x, b.y); ctx.lineTo(c.x, c.y); ctx.stroke(); ctx.setLineDash([]); ctx.beginPath(); ctx.arc(b.x, b.y, 3, 0, TAU); ctx.stroke(); }
+      const col = drawLevel >= 1 ? LK.good : LK.guide;
+      ctx.strokeStyle = 'rgba(0,0,0,0.5)'; ctx.lineWidth = 5.5; ctx.beginPath(); ctx.arc(c.x, c.y, r, 0, TAU); ctx.stroke();
+      ctx.strokeStyle = col; ctx.lineWidth = 3;
+      ctx.beginPath(); ctx.arc(c.x, c.y, r, 0, TAU); ctx.moveTo(c.x - r * 1.7, c.y); ctx.lineTo(c.x - r * 0.45, c.y); ctx.moveTo(c.x + r * 0.45, c.y); ctx.lineTo(c.x + r * 1.7, c.y);
+      ctx.moveTo(c.x, c.y - r * 1.7); ctx.lineTo(c.x, c.y - r * 0.45); ctx.moveTo(c.x, c.y + r * 0.45); ctx.lineTo(c.x, c.y + r * 1.7); ctx.stroke();
+      ctx.fillStyle = col; ctx.beginPath(); ctx.arc(c.x, c.y, 2.5, 0, TAU); ctx.fill();
       if (ptr && F.drawTime > 0) {
-        ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.fillRect(area.x + 14, area.y + 14, 120, 14);
-        ctx.fillStyle = drawLevel >= 1 ? LK.good : LK.guide; ctx.fillRect(area.x + 14, area.y + 14, 120 * drawLevel, 14);
-        g.label(ctx, drawLevel >= 1 ? 'Full draw: release' : 'Drawing', area.x + 144, area.y + 21, g.px(16), LK.hudText, 'left', '600');
+        rrect(ctx, area.x + 14, area.y + 14, 126, 16, 8); ctx.fillStyle = 'rgba(0,0,0,0.45)'; ctx.fill();
+        if (drawLevel > 0.02) { rrect(ctx, area.x + 14, area.y + 14, Math.max(12, 126 * drawLevel), 16, 8); ctx.fillStyle = drawLevel >= 1 ? LK.good : LK.guide; ctx.fill(); }
+        g.label(ctx, drawLevel >= 1 ? 'Full draw: release' : 'Drawing', area.x + 150, area.y + 22, g.px(16), LK.hudText, 'left', '600');
       }
     }
     if (P.controls === 'meter' && host.canThrow()) g.label(ctx, meter.stage === 0 ? 'Tap to set across' : 'Tap to set height and shoot', area.x + area.w / 2, area.y + 16, g.px(20), LK.hudText);
-    for (const f of floats) { const px = sx(f.x), py = sy(f.y); ctx.globalAlpha = 1 - f.t / 1.4; g.label(ctx, f.text, px, py - 22 - f.t * 30, g.px(30), LK.float, 'center', '800'); ctx.globalAlpha = 1; }
+    fx.draw(ctx);
+    for (const f of floats) { const px = sx(f.x), py = sy(f.y); const k = f.t / 1.4; ctx.globalAlpha = 1 - k * k; g.label(ctx, f.text, px, py - 22 - f.t * 30, g.px(30 * (1 + 0.4 * Math.max(0, 1 - f.t * 6))), LK.float, 'center', '800'); ctx.globalAlpha = 1; }
+    ctx.restore();
     // HUD
     const hy = area.y + area.h - bar / 2;
     const left = host.throwsLeft(), total = P.rounds.throws;
-    for (let i = 0; i < total; i++) { ctx.fillStyle = i < left ? LK.guide : 'rgba(255,255,255,0.18)'; ctx.beginPath(); ctx.arc(area.x + 18 + i * 20, hy, 7, 0, 6.3); ctx.fill(); }
+    for (let i = 0; i < total; i++) { ctx.fillStyle = i < left ? LK.guide : 'rgba(255,255,255,0.18)'; ctx.beginPath(); ctx.arc(area.x + 18 + i * 20, hy, 7, 0, TAU); ctx.fill(); }
     if (F.wind > 0) {
-      const cx = area.x + area.w - 60, m = wind / F.wind;
-      g.label(ctx, 'Wind', cx - 38, hy, g.px(18), LK.hudText, 'right', '600');
-      ctx.strokeStyle = LK.hudText; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(cx - m * 22, hy); ctx.lineTo(cx + m * 22, hy); ctx.stroke();
-      ctx.fillStyle = LK.hudText; ctx.beginPath(); ctx.arc(cx + m * 22, hy, 5, 0, 6.3); ctx.fill();
+      const wx = area.x + area.w - 60, m = wind / F.wind;
+      g.label(ctx, 'Wind', wx - 38, hy, g.px(16), LK.hudText, 'right', '600');
+      ctx.strokeStyle = LK.hudText; ctx.lineWidth = 3; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(wx - m * 22, hy); ctx.lineTo(wx + m * 22, hy); ctx.stroke(); ctx.lineCap = 'butt';
+      ctx.fillStyle = LK.hudText; ctx.beginPath(); ctx.arc(wx + m * 22, hy, 5, 0, TAU); ctx.fill();
     }
+    void hash;
   };
 
   const testPlan = () => {

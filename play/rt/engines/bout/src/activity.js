@@ -6,6 +6,8 @@
 // Everything about a tradition is data: moves, ring, scoring, rounds, timing, level, look. No injuries are shown: only balance, grip,
 // push-outs, touches and falls to the mat.
 
+import { hash, shade, rgba, venueOf, stageGeo, drawVenue, drawLight, drawBoat, drawFigure, groundShadow, drawDial, drawStance, drawFx } from './art.js';
+
 export const DEFAULTS = {
   level: 2,
   rounds: { count: 3, time: 30 },
@@ -16,7 +18,7 @@ export const DEFAULTS = {
   timing: { period: 1.5, window: 0.2, tempo: 2.8 },
   stamina: { regen: 4, rest: 12, mash: 7 },
   weapon: { front: null, back: null },
-  fighters: { you: { name: 'You', color: '#d64b3c', trim: '#f2c14e' }, rival: { name: 'Rival', color: '#2d7bd6', trim: '#f5f1e8' } },
+  fighters: { you: { name: 'You', color: '#d64b3c', trim: '#f2c14e', outfit: 'tunic', build: 1, skin: '#d9a679', hair: 'band' }, rival: { name: 'Rival', color: '#2d7bd6', trim: '#f5f1e8', outfit: 'tunic', build: 1, skin: '#a8714a', hair: 'none' } },
   setting: { sky: ['#bcd7ea', '#f1e7cf'], ground: '#a98b5a', backdrop: 'hills', far: '#7f9a78', ringFill: '#d9bf86', ringEdge: '#7a4a24', ringStyle: 'rope', crowd: false, water: '#3b7fa6' },
   moves: null,
 };
@@ -48,7 +50,7 @@ const POSES = {
   rest: { lean: 0.0, crouch: 0.02, hf: [0.05, -0.36], hb: [0.0, -0.38], sf: 0.06, sb: -0.06, stick: 35 },
   recoil: { lean: -0.32, crouch: 0.1, hf: [-0.04, 0.1], hb: [-0.1, 0.0], sf: -0.06, sb: -0.26, stick: 100 },
   stagger: { lean: -0.52, crouch: 0.02, hf: [-0.1, 0.22], hb: [-0.22, 0.12], sf: 0.1, sb: -0.3, stick: 120 },
-  down: { down: 1, lean: 0, crouch: 0, hf: [0, 0], hb: [0, 0], sf: 0, sb: 0, stick: 0 },
+  down: { down: 1, lean: -0.3, crouch: 0.06, hf: [-0.1, 0.25], hb: [-0.2, 0.2], sf: 0.12, sb: -0.22, stick: 100 },
 };
 const POSE_KEYS = ['lean', 'crouch', 'sf', 'sb', 'stick', 'down'];
 const poseOf = (name) => ({ down: 0, ...(POSES[name] ?? POSES.ready) });
@@ -94,6 +96,7 @@ export function createActivity(userParams, env) {
 
   // ---- state -------------------------------------------------------------------------------------------------------------
   let phase, round, wins, rpts, tpts, clock, c, you, rival, hist, bigram, tell, intent, rivalQ, gauge, R, X, B, done, msg, msgT, tip, stats, layout = null, T = 0, falls;
+  let fx = [], fxN = 0, shakeT = 0, shakeAmp = 0, pulse = 0, pickIdx = -1, pickT = 0;
   const mkFighter = (side) => ({ side, bal: 100, stam: 100, grip: P.grip.start, pose: poseOf('ready'), target: 'ready', shown: { bal: 100, stam: 100, grip: P.grip.start }, off: 0 });
   const resetRound = () => {
     c = 0; clock = 0; rpts = { you: 0, rival: 0 };
@@ -106,6 +109,7 @@ export function createActivity(userParams, env) {
     you = mkFighter(-1); rival = mkFighter(1);
     round = 0; wins = { you: 0, rival: 0 }; tpts = { you: 0, rival: 0 }; bigram = {}; done = null; msg = ''; msgT = 0; tip = '';
     stats = { landed: 0, taken: 0, attempts: 0, perfect: 0, good: 0, poor: 0, hesitated: 0, mash: 0, exchanges: 0, rounds: [] };
+    fx = []; fxN = 0; shakeT = 0; pulse = 0; pickIdx = -1; pickT = 0;
     resetRound();
     beginExchange();
   };
@@ -189,6 +193,7 @@ export function createActivity(userParams, env) {
   function commit(idx) {
     const m = idx < 0 ? NONE : moves[idx];
     const q = idx < 0 ? 0 : quality();
+    pickIdx = idx; pickT = 0.35;
     if (idx >= 0) {
       stats.attempts++; if (q === 1) stats.perfect++; else if (q === 0.7) stats.good++; else stats.poor++;
       you.stam = clamp(you.stam - Math.max(0, m.cost), 0, 100);
@@ -223,6 +228,33 @@ export function createActivity(userParams, env) {
     rpts[attSide] += pts; tpts[attSide] += pts;
     return pts;
   }
+  // Effects for the moment of contact: flash, block spark, dust, splash, a label, a shake and a roar from the crowd.
+  const spawnImpact = (plan, ym, rm, ringOut, fell) => {
+    const att = plan.you ?? plan.rival;
+    const attSide = plan.you ? 'you' : plan.rival ? 'rival' : null;
+    const cx = c * K;
+    if (attSide) {
+      const dirA = attSide === 'you' ? 1 : -1;
+      const defMove = attSide === 'you' ? rm : ym;
+      const heavy = att.dmg >= 16 || att.pts > 0;
+      const weak = att.dmg < 6 || !att.needsOK || defMove.kind === 'guard';
+      const hx = cx + dirA * 0.03;
+      if (weak) spawn('block', { x: hx, y: 0.55, dir: dirA, life: 0.4 });
+      else spawn('burst', { x: hx, y: 0.6, big: heavy, life: 0.38, color: attSide === 'you' ? '#fff3b0' : '#ffd0b8' });
+      const defX = fighterX(attSide === 'you' ? 1 : -1);
+      if (!weak) spawn('dust', { x: defX, y: 0.02, big: heavy, life: 0.7 });
+      if (att.pts) spawn('text', { x: hx, y: 1.02, text: `+${att.pts}`, color: attSide === 'you' ? '#ffe38a' : '#ffb59a', life: 0.9 });
+      else if (attSide === 'you' && att.q === 1) spawn('text', { x: hx, y: 1.02, text: 'Perfect', color: '#9be3a8', life: 0.8 });
+      shakeT = 0.35; shakeAmp = clamp(2 + att.dmg * 0.18, 2, 8);
+      if (att.pts) pulse = 1;
+    }
+    if (ringOut || fell) {
+      const loserSide = ringOut ? (ringOut === 'you' ? 1 : -1) : (fell === 'you' ? 1 : -1);
+      const lx = fighterX(loserSide);
+      if (waterVenue) spawn('splash', { x: lx, y: 0.05, life: 0.9, big: true }); else spawn('dust', { x: lx, y: 0.02, big: true, life: 0.9 });
+      shakeT = 0.35; shakeAmp = 9; pulse = 1;
+    }
+  };
   function applyExchange() {
     const plan = { you: null, rival: null };
     const ym = X.you, rm = X.rival;
@@ -298,6 +330,7 @@ export function createActivity(userParams, env) {
       X.end = { winner: w, why: 'time' };
       X.text += rpts.you === rpts.rival ? '  Time: decided on balance' : '  Time!';
     }
+    spawnImpact(plan, ym, rm, ringOut, fell);
     msg = X.text; msgT = 0;
     env.audio?.tone(X.tone === 'good' ? { freq: 330, to: 520, dur: 0.14, type: 'triangle' } : X.tone === 'bad' ? { freq: 260, to: 170, dur: 0.18, type: 'sawtooth', vol: 0.12 } : { freq: 300, dur: 0.08, type: 'square', vol: 0.08 });
   }
@@ -347,6 +380,9 @@ export function createActivity(userParams, env) {
   };
   const step = (dt, cmd) => {
     T += dt; msgT += dt;
+    for (const e of fx) e.t += dt;
+    if (fx.length && fx[0].t > fx[0].life) fx = fx.filter((e) => e.t <= e.life);
+    shakeT = Math.max(0, shakeT - dt); pulse = Math.max(0, pulse - dt * 0.7); pickT = Math.max(0, pickT - dt);
     const ease = 1 - Math.exp(-dt * 14);
     for (const f of [you, rival]) {
       f.pose = blend(f.pose, poseOf(f.target), ease);
@@ -397,210 +433,186 @@ export function createActivity(userParams, env) {
     return { land, hud, stage, msg: msgR, gauge: gaugeR, buttons };
   };
 
-  // two-bone limb: returns the middle joint for a limb from a to b of two equal segments of length s, bending toward `bend` (+1/-1 on the perpendicular)
-  const joint = (ax, ay, bx, by, s, bend) => {
-    const dx = bx - ax, dy = by - ay, d = Math.max(1e-3, Math.hypot(dx, dy)), h = Math.sqrt(Math.max(0, s * s - (d / 2) * (d / 2)));
-    return [ax + dx / 2 + (-dy / d) * h * bend, ay + dy / 2 + (dx / d) * h * bend];
-  };
-  const limb = (ctx, pts, w, color) => {
-    ctx.strokeStyle = color; ctx.lineWidth = w; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
-    ctx.beginPath(); pts.forEach(([x, y], i) => (i ? ctx.lineTo(x, y) : ctx.moveTo(x, y))); ctx.stroke();
-  };
-  const g_rr = (ctx, x, y, w, h, r) => { ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath(); };
-  const drawFigure = (ctx, f, spec, x, ground, H, dir, shade) => {
-    const p = f.pose, skin = '#e3b78c', dark = shade;
-    const body = spec.color, trim = spec.trim;
-    if (p.down > 0.5) {
-      const y = ground - 0.07 * H, hx = x - dir * 0.12 * H, sx = x - dir * 0.42 * H;
-      limb(ctx, [[hx, y], [x + dir * 0.0, ground - 0.26 * H], [x + dir * 0.22 * H, ground - 0.03 * H]], 0.06 * H, body);
-      limb(ctx, [[sx, y - 0.01 * H], [x - dir * 0.3 * H, y + 0.02 * H], [x - dir * 0.2 * H, y]], 0.05 * H, skin);
-      limb(ctx, [[hx, y], [sx, y]], 0.12 * H, body);
-      limb(ctx, [[hx - dir * 0.02 * H, y], [hx + dir * 0.02 * H, y]], 0.13 * H, trim);
-      ctx.fillStyle = skin; ctx.beginPath(); ctx.arc(x - dir * 0.52 * H, y - 0.02 * H, 0.068 * H, 0, 7); ctx.fill();
-      return;
-    }
-    const legH = 0.5 * H * (1 - p.crouch * 0.55);
-    const hipX = x + dir * Math.sin(p.lean) * 0.08 * H, hipY = ground - legH;
-    const a = p.lean, torso = 0.3 * H;
-    const shX = hipX + dir * Math.sin(a) * torso, shY = hipY - Math.cos(a) * torso;
-    const headX = shX + dir * Math.sin(a) * 0.1 * H, headY = shY - Math.cos(a) * 0.1 * H;
-    const feet = [[x + dir * p.sf * H, ground], [x + dir * p.sb * H, ground]];
-    const legSeg = 0.26 * H, armSeg = 0.17 * H;
-    const kneeF = joint(hipX, hipY, feet[0][0], ground, legSeg, dir > 0 ? -1 : 1), kneeB = joint(hipX, hipY, feet[1][0], ground, legSeg, dir > 0 ? -1 : 1);
-    const handF = [shX + dir * p.hf[0] * H, shY - p.hf[1] * H], handB = [shX + dir * p.hb[0] * H, shY - p.hb[1] * H];
-    const elbF = joint(shX, shY, handF[0], handF[1], armSeg, dir > 0 ? 1 : -1), elbB = joint(shX, shY, handB[0], handB[1], armSeg, dir > 0 ? 1 : -1);
-    // back arm and leg first (darker)
-    limb(ctx, [[shX, shY], elbB, handB], 0.055 * H, skin);
-    limb(ctx, [[hipX, hipY], kneeB, feet[1]], 0.075 * H, dark);
-    limb(ctx, [[hipX, hipY], [shX, shY]], 0.13 * H, body);
-    limb(ctx, [[hipX - dir * 0.01 * H, hipY - 0.02 * H], [hipX + dir * Math.sin(a) * 0.04 * H, hipY - 0.07 * H]], 0.14 * H, trim);
-    limb(ctx, [[hipX, hipY], kneeF, feet[0]], 0.08 * H, body);
-    ctx.fillStyle = skin; ctx.beginPath(); ctx.arc(headX, headY, 0.07 * H, 0, 7); ctx.fill();
-    ctx.fillStyle = trim; ctx.beginPath(); ctx.arc(headX - dir * 0.005 * H, headY - 0.018 * H, 0.071 * H, Math.PI * 1.05, Math.PI * 1.95); ctx.fill();
-    // weapons
-    const angle = (p.stick * Math.PI) / 180;
-    const drawStick = (hand, len, w, col, ang) => { limb(ctx, [hand, [hand[0] + dir * Math.cos(ang) * len, hand[1] - Math.sin(ang) * len]], w, col); };
-    const wf = P.weapon.front, wb = P.weapon.back;
-    if (wb === 'stick') drawStick(handB, 0.42 * H, 0.03 * H, '#b98d52', angle * 0.6 + 0.2);
-    if (wb === 'shield') { const sx = handB[0] + dir * 0.05 * H, sy = handB[1]; g_rr(ctx, sx - 0.06 * H, sy - 0.17 * H, 0.12 * H, 0.34 * H, 0.05 * H); ctx.fillStyle = '#8a5a2a'; ctx.fill(); ctx.strokeStyle = '#e8d6a8'; ctx.lineWidth = Math.max(2, 0.012 * H); ctx.stroke(); }
-    limb(ctx, [[shX, shY], elbF, handF], 0.058 * H, skin);
-    if (wf === 'staff') drawStick(handF, 0.8 * H, 0.032 * H, '#c9a56a', angle);
-    else if (wf === 'stick') drawStick(handF, 0.5 * H, 0.03 * H, '#c9a56a', angle);
-    else if (wf === 'pillow') { const e = [handF[0] + dir * Math.cos(angle) * 0.36 * H, handF[1] - Math.sin(angle) * 0.36 * H]; limb(ctx, [handF, e], 0.13 * H, '#f2ecdc'); limb(ctx, [handF, e], 0.06 * H, '#e3d5b2'); }
-    ctx.fillStyle = skin; ctx.beginPath(); ctx.arc(handF[0], handF[1], 0.03 * H, 0, 7); ctx.fill();
-  };
-
+  // ---- drawing -----------------------------------------------------------------------------------------------------------
+  const venue = venueOf(P);
+  const K = 0.72, gapN = 0.24;
+  const waterVenue = venue === 'boats' || venue === 'beam';
   const bar = (g, x, y, w, h, frac, color, back) => {
     const { ctx } = g;
     g.rr(ctx, x, y, w, h, h / 2); ctx.fillStyle = back; ctx.fill();
-    if (frac > 0.01) { g.rr(ctx, x, y, Math.max(h, w * clamp(frac, 0, 1)), h, h / 2); ctx.fillStyle = color; ctx.fill(); }
+    ctx.strokeStyle = 'rgba(255,255,255,0.14)'; ctx.lineWidth = 1; ctx.stroke();
+    if (frac > 0.01) {
+      const fw = Math.max(h, w * clamp(frac, 0, 1));
+      g.rr(ctx, x, y, fw, h, h / 2); ctx.fillStyle = lin(ctx, x, y, x, y + h, [[0, shade(color, 0.35)], [0.5, color], [1, shade(color, -0.3)]]); ctx.fill();
+      ctx.fillStyle = 'rgba(255,255,255,0.28)'; g.rr(ctx, x + h * 0.3, y + h * 0.14, fw - h * 0.6, h * 0.26, h * 0.13); ctx.fill();
+    }
   };
+  const lin = (ctx, x0, y0, x1, y1, stops) => { const gr = ctx.createLinearGradient(x0, y0, x1, y1); stops.forEach(([o, col]) => gr.addColorStop(o, col)); return gr; };
 
   const drawHud = (g, r) => {
     const { ctx } = g;
-    const mid = 74, half = (r.w - mid) / 2;
+    const mid = 84, half = (r.w - mid) / 2;
     const rows = gripOn ? 3 : 2;
     const panel = (side, x, f, name, spec) => {
       const w = half, align = side < 0 ? 'left' : 'right';
-      g.rr(ctx, x, r.y, w, r.h, 12); ctx.fillStyle = pal.panel; ctx.fill();
-      ctx.fillStyle = spec.color; ctx.fillRect(side < 0 ? x : x + w - 6, r.y + 8, 6, r.h - 16);
-      g.label(ctx, name, side < 0 ? x + 16 : x + w - 16, r.y + 16, g.px(19), pal.ink, align, '700');
-      const bx = x + 16, bw = w - 32, top = r.y + 32, bh = Math.max(10, (r.h - 40) / rows - 6);
+      g.rr(ctx, x, r.y, w, r.h, 14); ctx.fillStyle = lin(ctx, 0, r.y, 0, r.y + r.h, [[0, shade(pal.panel, 0.12)], [1, shade(pal.panel, -0.25)]]); ctx.fill();
+      ctx.strokeStyle = rgba(spec.color, 0.9); ctx.lineWidth = 2.5; ctx.stroke();
+      // emblem: a medallion in the fighter's colours
+      const ex = side < 0 ? x + 24 : x + w - 24, ey = r.y + 24;
+      ctx.fillStyle = spec.color; ctx.beginPath(); ctx.arc(ex, ey, 13, 0, 7); ctx.fill();
+      ctx.strokeStyle = spec.trim; ctx.lineWidth = 3; ctx.stroke();
+      g.label(ctx, name, side < 0 ? x + 46 : x + w - 46, ey, g.px(20), pal.ink, align, '800');
+      const bx = x + 14, bw = w - 28, top = r.y + 44, bh = Math.max(14, (r.h - 52) / rows - 6);
       const items = [['Balance', f.shown.bal / 100, f.bal < 35 ? pal.bad : pal.good], ['Stamina', f.shown.stam / 100, pal.accent]];
-      if (gripOn) items.push([P.grip.label, f.shown.grip / 100, pal.b]);
+      if (gripOn) items.push([P.grip.label, f.shown.grip / 100, '#6fb4ff']);
       items.forEach(([lab, fr, col], i) => {
         const yy = top + i * (bh + 6);
-        bar(g, bx, yy, bw, bh, fr, col, 'rgba(0,0,0,0.35)');
-        g.label(ctx, lab, bx + 8, yy + bh / 2, Math.min(g.px(13), bh), '#101820', 'left', '700');
+        bar(g, bx, yy, bw, bh, fr, col, 'rgba(0,0,0,0.45)');
+        g.label(ctx, lab, bx + 10, yy + bh / 2 + 0.5, Math.min(g.px(13), bh * 0.95), '#0c141c', 'left', '800');
       });
     };
     panel(-1, r.x, you, P.fighters.you.name, P.fighters.you);
     panel(1, r.x + half + mid, rival, P.fighters.rival.name, P.fighters.rival);
-    // score badge in the middle
     const cx = r.x + r.w / 2;
-    g.label(ctx, `${rpts.you} : ${rpts.rival}`, cx, r.y + r.h / 2 + 4, g.px(22), pal.accent, 'center', '800');
-    g.label(ctx, 'points', cx, r.y + r.h / 2 + 4 + g.px(20), g.px(12), pal.dim, 'center', '500');
-    // round pips
+    g.label(ctx, `${rpts.you} : ${rpts.rival}`, cx, r.y + r.h / 2 + 4, g.px(26), pal.accent, 'center', '900');
+    g.label(ctx, 'points', cx, r.y + r.h / 2 + 4 + g.px(24), g.px(13), pal.dim, 'center', '600');
     for (let i = 0; i < P.rounds.count; i++) {
-      const px0 = cx - (P.rounds.count - 1) * 9 + i * 18;
-      const rr = stats.rounds[i];
-      ctx.beginPath(); ctx.arc(px0, r.y + 16, 6, 0, 7);
-      ctx.fillStyle = rr ? (rr.winner === 'you' ? P.fighters.you.color : P.fighters.rival.color) : 'rgba(255,255,255,0.18)'; ctx.fill();
+      const px0 = cx - (P.rounds.count - 1) * 10 + i * 20;
+      const rr0 = stats.rounds[i];
+      ctx.beginPath(); ctx.arc(px0, r.y + 16, 7, 0, 7);
+      ctx.fillStyle = rr0 ? (rr0.winner === 'you' ? P.fighters.you.color : P.fighters.rival.color) : 'rgba(255,255,255,0.14)'; ctx.fill();
       ctx.strokeStyle = i === round ? pal.accent : 'rgba(255,255,255,0.4)'; ctx.lineWidth = 2; ctx.stroke();
     }
   };
 
-  const drawStage = (g, s) => {
+  // Spawn one effect. Units: x in ring half-widths from the centre, y in fighter heights above the ground.
+  const spawn = (kind, o) => {
+    fxN++;
+    fx.push({ kind, t: 0, life: 0.5, x: 0, y: 0.5, dir: 1, seed: hash(fxN * 7) * 6.283, seedI: fxN * 13, ...o });
+    if (fx.length > 24) fx.shift();
+  };
+  const fighterX = (side) => (side < 0 ? c * K - gapN : c * K + gapN);
+
+  const sceneFigure = (ctx, f, side, spec, x, gy, H, geo, title, titlePose) => {
+    let pose = f.pose;
+    if (title) pose = poseOf(titlePose);
+    else if (phase === 'resolve' && X?.applied) {
+      const mine = X.plan?.[side < 0 ? 'you' : 'rival'], theirs = X.plan?.[side < 0 ? 'rival' : 'you'];
+      if (theirs && !mine && f.target !== 'down' && f.target !== 'stagger') pose = blend(f.pose, poseOf('recoil'), 0.9);
+      else if (mine && f.target !== 'down') pose = blend(f.pose, hitPose((side < 0 ? X.you : X.rival).pose), 0.8);
+    }
+    const dir = side < 0 ? 1 : -1;
+    const wob = title ? 0 : f.shown.bal < 45 ? Math.sin(T * 9 + side) * (0.45 - f.shown.bal / 100) * 0.14 : 0;
+    // the one who falls into water sinks a little
+    const sink = waterVenue ? pose.down * H * 0.28 : 0;
+    if (sink > 0) { ctx.save(); ctx.globalAlpha = 1 - pose.down * 0.55; }
+    drawFigure(ctx, pose, spec, x, gy + sink, H, dir, { T: title ? titleT : T, weapon: P.weapon, wob });
+    if (sink > 0) ctx.restore();
+    void geo;
+  };
+
+  let titleT = 0;
+  const sceneRect = (g, s, title) => {
     const { ctx } = g, S = P.setting;
+    const geo = stageGeo(s, venue);
+    geo.textY = s.y + s.h * 0.93;
+    const { mid, gy, rx, H } = geo;
     ctx.save(); ctx.beginPath(); ctx.rect(s.x, s.y, s.w, s.h); ctx.clip();
-    const grd = ctx.createLinearGradient(0, s.y, 0, s.y + s.h);
-    grd.addColorStop(0, S.sky[0]); grd.addColorStop(1, S.sky[1]);
-    ctx.fillStyle = grd; ctx.fillRect(s.x, s.y, s.w, s.h);
-    const groundY = s.y + s.h * 0.8;
-    // backdrop
-    if (S.backdrop === 'hills') {
-      ctx.fillStyle = S.far;
-      ctx.beginPath(); ctx.moveTo(s.x, groundY);
-      for (let i = 0; i <= 24; i++) { const xx = s.x + (s.w * i) / 24; ctx.lineTo(xx, groundY - s.h * (0.16 + 0.1 * Math.sin(i * 0.55 + 1) + 0.05 * Math.sin(i * 1.7))); }
-      ctx.lineTo(s.x + s.w, groundY); ctx.closePath(); ctx.fill();
-    } else if (S.backdrop === 'mountains') {
-      ctx.fillStyle = S.far;
-      ctx.beginPath(); ctx.moveTo(s.x, groundY);
-      for (let i = 0; i <= 8; i++) { const xx = s.x + (s.w * i) / 8; ctx.lineTo(xx, groundY - s.h * (i % 2 ? 0.36 : 0.18)); }
-      ctx.lineTo(s.x + s.w, groundY); ctx.closePath(); ctx.fill();
-    } else if (S.backdrop === 'posts') {
-      ctx.fillStyle = S.far;
-      for (let i = 0; i < 6; i++) ctx.fillRect(s.x + s.w * (0.08 + i * 0.17), groundY - s.h * 0.36, 8, s.h * 0.36);
-      ctx.fillRect(s.x + s.w * 0.05, groundY - s.h * 0.36, s.w * 0.9, 6);
-    }
-    if (S.crowd) {
-      const cols = ['#c25b4a', '#e3b04a', '#4a8cc2', '#6aa56a', '#9a6ac2', '#e08a3a'];
-      for (let row = 0; row < 2; row++) for (let i = 0; i < 26; i++) {
-        const xx = s.x + ((i + row * 0.5) * s.w) / 25, yy = groundY - s.h * 0.1 - row * s.h * 0.075;
-        ctx.fillStyle = cols[(i * 3 + row * 2) % cols.length]; ctx.beginPath(); ctx.arc(xx, yy, s.h * 0.034, 0, 7); ctx.fill();
-        ctx.fillStyle = 'rgba(0,0,0,0.18)'; ctx.fillRect(xx - s.h * 0.034, yy + s.h * 0.02, s.h * 0.068, s.h * 0.06);
-      }
-    }
-    ctx.fillStyle = S.ground; ctx.fillRect(s.x, groundY, s.w, s.y + s.h - groundY);
-    // ring
-    const Rr = s.w * 0.43, mid = s.x + s.w / 2, ringTop = groundY - s.h * 0.035, ringBot = groundY + s.h * 0.085;
-    const kind = P.ring.kind;
-    if (kind === 'water') {
-      ctx.fillStyle = S.water ?? '#3b7fa6'; ctx.fillRect(s.x, groundY - s.h * 0.02, s.w, s.y + s.h - groundY + s.h * 0.02);
-      ctx.strokeStyle = 'rgba(255,255,255,0.45)'; ctx.lineWidth = 2;
-      for (let i = 0; i < 9; i++) { const yy = groundY + s.h * (0.02 + (i % 3) * 0.05); const xx = s.x + ((i * 0.13 + 0.03) % 1) * s.w; ctx.beginPath(); ctx.arc(xx, yy, 14, Math.PI * 1.1, Math.PI * 1.9); ctx.stroke(); }
-      ctx.fillStyle = S.ringFill; g.rr(ctx, mid - Rr * 0.98, groundY - s.h * 0.012, Rr * 1.96, s.h * 0.05, 8); ctx.fill();
-      ctx.fillStyle = S.ringEdge; ctx.fillRect(mid - Rr * 0.98, groundY + s.h * 0.036, Rr * 1.96, 5);
-    } else {
-      g.rr(ctx, mid - Rr, ringTop, Rr * 2, ringBot - ringTop, (ringBot - ringTop) / 2);
-      ctx.fillStyle = S.ringFill; ctx.fill();
-      ctx.lineWidth = 5; ctx.strokeStyle = S.ringEdge; ctx.stroke();
-      if (kind === 'mud' || kind === 'sawdust') {
-        ctx.fillStyle = 'rgba(0,0,0,0.16)';
-        for (let i = 0; i < 40; i++) { const xx = mid - Rr * 0.9 + ((i * 0.6180339) % 1) * Rr * 1.8, yy = ringTop + ((i * 0.37) % 1) * (ringBot - ringTop) * 0.9; ctx.fillRect(xx, yy, 3, 3); }
-      }
-      if (kind === 'circle' || kind === 'mat') {
-        ctx.strokeStyle = 'rgba(255,255,255,0.8)'; ctx.lineWidth = 3;
-        g.rr(ctx, mid - Rr * 0.9, ringTop + 6, Rr * 1.8, ringBot - ringTop - 12, (ringBot - ringTop) / 2 - 6); ctx.stroke();
-      }
-    }
-    // edge posts
-    ctx.fillStyle = S.ringEdge;
-    for (const sx of [-1, 1]) { ctx.fillRect(mid + sx * Rr - 5, groundY - s.h * 0.1, 10, s.h * 0.12); ctx.beginPath(); ctx.arc(mid + sx * Rr, groundY - s.h * 0.1, 8, 0, 7); ctx.fill(); }
-    if (S.ringStyle === 'rope') { ctx.strokeStyle = 'rgba(245,241,232,0.8)'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(mid - Rr, groundY - s.h * 0.08); ctx.lineTo(mid + Rr, groundY - s.h * 0.08); ctx.stroke(); }
-    // fighters
-    const H = Math.min(s.h * 0.56, s.w * 0.38);
-    const K = 0.72, gapN = 0.2;
-    const lunge = (f, side) => {
-      if (phase !== 'resolve' || !X) return 0;
+    if (!title && shakeT > 0) { const a = shakeAmp * (shakeT / 0.35); ctx.translate(Math.sin(T * 83) * a, Math.cos(T * 71) * a * 0.6); }
+    drawVenue(ctx, s, S, geo, title ? titleT : T, title ? 0 : pulse, P);
+    const lungeOf = (side) => {
+      if (title || phase !== 'resolve' || !X) return 0;
       const mm = side < 0 ? X.you : X.rival;
       if (!X.plan) return X.t < IMPACT ? -0.02 : 0;
-      const won = X.plan[side < 0 ? 'you' : 'rival'];
-      const lostTo = X.plan[side < 0 ? 'rival' : 'you'];
+      const won = X.plan[side < 0 ? 'you' : 'rival'], lostTo = X.plan[side < 0 ? 'rival' : 'you'];
       const k = clamp((X.t - IMPACT) / 0.15, 0, 1) * (1 - clamp((X.t - IMPACT - 0.2) / 0.5, 0, 1));
       return won ? 0.07 * k * (mm.power > 0 ? 1 : 0.4) : lostTo ? -0.09 * k : 0;
     };
-    const xs = [mid + (c * K - gapN + lunge(you, -1)) * Rr, mid + (c * K + gapN - lunge(rival, 1)) * Rr];
-    const gy = groundY + s.h * 0.04;
-    // shadows
-    ctx.fillStyle = 'rgba(0,0,0,0.2)';
-    for (const x of xs) { ctx.beginPath(); ctx.ellipse(x, gy + 3, H * 0.2, H * 0.035, 0, 0, 7); ctx.fill(); }
-    const poseFor = (f, side) => {
-      if (phase === 'resolve' && X?.applied) {
-        const lost = X.plan?.[side < 0 ? 'rival' : 'you'] && !(X.plan?.[side < 0 ? 'you' : 'rival']);
-        if (lost && f.target !== 'down' && f.target !== 'stagger') return { ...f, pose: blend(f.pose, poseOf('recoil'), 0.9) };
-        if (X.plan?.[side < 0 ? 'you' : 'rival'] && f.target !== 'down') return { ...f, pose: blend(f.pose, hitPose((side < 0 ? X.you : X.rival).pose), 0.8) };
+    const cc = title ? 0 : c;
+    const gap = title ? 0.31 : gapN;
+    const yd = title ? 0 : you.pose.down, rd = title ? 0 : rival.pose.down;   // a falling fighter lies out behind: keep the whole body in view
+    const xs = [clamp(mid + (cc * K - gap + lungeOf(-1)) * rx, s.x + H * (0.3 + 0.62 * yd), s.x + s.w - H * 0.3), clamp(mid + (cc * K + gap - lungeOf(1)) * rx, s.x + H * 0.3, s.x + s.w - H * (0.3 + 0.62 * rd))];
+    const fy = gy + (geo.ry * 0.0);
+    // platforms
+    if (venue === 'boats') { drawBoat(ctx, xs[0], fy + H * 0.02, H, 1, P.fighters.you.color, P.fighters.you.trim, title ? titleT : T, 0); drawBoat(ctx, xs[1], fy + H * 0.02, H, -1, P.fighters.rival.color, P.fighters.rival.trim, title ? titleT : T, 2); }
+    // shadows and stance rings
+    const youD = title ? 0 : you.pose.down, rivD = title ? 0 : rival.pose.down;
+    if (!waterVenue) { groundShadow(ctx, xs[0], fy, H, youD); groundShadow(ctx, xs[1], fy, H, rivD); }
+    if (!title) { drawStance(ctx, xs[0], fy, H, you.shown.bal / 100, T); drawStance(ctx, xs[1], fy, H, rival.shown.bal / 100, T); }
+    // draw the one attacking last so they overlap the other
+    const youAtt = !title && phase === 'resolve' && X?.plan?.you && !X.plan.rival;
+    const tp = P.weapon.front ? ['guard', 'high'] : ['ready', 'ready'];
+    const order = youAtt ? [1, 0] : [0, 1];
+    const figs = [() => sceneFigure(ctx, you, -1, P.fighters.you, xs[0], fy, H, geo, title, tp[0]), () => sceneFigure(ctx, rival, 1, P.fighters.rival, xs[1], fy, H, geo, title, tp[1])];
+    // rival first by default so the player's figure stands in front
+    if (youAtt) { figs[1](); figs[0](); } else { figs[1](); figs[0](); }
+    void order;
+    if (!title) {
+      for (const e of fx) drawFx(ctx, e, geo, S);
+    }
+    drawLight(ctx, s, geo, venue);
+    if (!title) {
+      // balance dials above the heads
+      const rD = Math.max(26, H * 0.14), dy = fy - H * 1.1;
+            const cxm = (xs[0] + xs[1]) / 2, half = Math.max((xs[1] - xs[0]) / 2, rD * 1.35);
+      const dx0 = clamp(cxm - half, s.x + rD * 1.3, s.x + s.w - rD * 1.3), dx1 = clamp(cxm + half, s.x + rD * 1.3, s.x + s.w - rD * 1.3);
+      drawDial(ctx, dx0, Math.max(s.y + rD * 1.4, dy), rD, you.shown.bal / 100, gripOn ? you.shown.grip / 100 : null, T, -1, P.fighters.you.color);
+      drawDial(ctx, dx1, Math.max(s.y + rD * 1.4, dy), rD, rival.shown.bal / 100, gripOn ? rival.shown.grip / 100 : null, T, 1, P.fighters.rival.color);
+      if (phase === 'ready') {
+        // the tell: a speech tag beside the rival
+        const tm = byId[tell], label = `${tm.name}?`, fsz = g.px(17);
+        ctx.font = `800 ${Math.round(fsz)}px system-ui, sans-serif`;
+        const tw = ctx.measureText(label).width + 26, th = fsz * 1.9;
+        const tx = clamp(xs[1] + H * 0.2, s.x + 6, s.x + s.w - tw - 6), ty = Math.max(s.y + 6, fy - H * 0.82);
+        g.rr(ctx, tx, ty, tw, th, th / 2); ctx.fillStyle = 'rgba(255,252,240,0.96)'; ctx.fill();
+        ctx.strokeStyle = P.fighters.rival.color; ctx.lineWidth = 3; ctx.stroke();
+        ctx.fillStyle = 'rgba(255,252,240,0.96)'; ctx.beginPath(); ctx.moveTo(tx + 8, ty + th - 2); ctx.lineTo(tx - 6, ty + th + 12); ctx.lineTo(tx + 24, ty + th - 2); ctx.closePath(); ctx.fill();
+        g.label(ctx, label, tx + tw / 2, ty + th / 2 + 1, fsz, '#1a1410', 'center', '800');
       }
-      return f;
-    };
-    drawFigure(ctx, poseFor(rival, 1), P.fighters.rival, xs[1], gy, H, -1, '#1c2733');
-    drawFigure(ctx, poseFor(you, -1), P.fighters.you, xs[0], gy, H, 1, '#1c2733');
-    // tell above the rival
-    if (phase === 'ready') {
-      const tm = byId[tell];
-      g.label(ctx, `${tm.name}?`, xs[1], s.y + s.h * 0.1, g.px(18), '#101820', 'center', '700');
     }
     ctx.restore();
-    ctx.strokeStyle = pal.dim; ctx.lineWidth = 1; ctx.strokeRect(s.x + 0.5, s.y + 0.5, s.w - 1, s.h - 1);
+    ctx.strokeStyle = 'rgba(0,0,0,0.5)'; ctx.lineWidth = 2; ctx.strokeRect(s.x + 1, s.y + 1, s.w - 2, s.h - 2);
+    return geo;
   };
+  const drawStage = (g, s) => sceneRect(g, s, false);
 
   const drawGauge = (g, r) => {
     const { ctx } = g;
-    g.rr(ctx, r.x, r.y, r.w, r.h, 12); ctx.fillStyle = pal.panel; ctx.fill();
-    const bx = r.x + 14, bw = r.w - 28, by = r.y + r.h * 0.5 - 4, bh = Math.max(14, r.h * 0.32);
-    g.label(ctx, phase === 'ready' ? 'Tap a move when the marker is in the bright zone' : phase === 'break' ? '' : 'Catch your breath', r.x + r.w / 2, r.y + 14, Math.min(g.px(15), r.h * 0.28), pal.dim, 'center', '500');
-    g.rr(ctx, bx, by, bw, bh, bh / 2); ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.fill();
+    g.rr(ctx, r.x, r.y, r.w, r.h, 14); ctx.fillStyle = lin(ctx, 0, r.y, 0, r.y + r.h, [[0, shade(pal.panel, 0.1)], [1, shade(pal.panel, -0.25)]]); ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,0.12)'; ctx.lineWidth = 1.5; ctx.stroke();
+    const bx = r.x + 18, bw = r.w - 36, by = r.y + r.h * 0.52, bh = Math.max(16, r.h * 0.3);
+    g.label(ctx, phase === 'ready' ? 'Tap a move when the marker is in the bright zone' : phase === 'break' ? '' : 'Catch your breath', r.x + r.w / 2, r.y + r.h * 0.2, Math.min(g.px(15), r.h * 0.26), pal.dim, 'center', '600');
+    g.rr(ctx, bx, by, bw, bh, bh / 2); ctx.fillStyle = 'rgba(0,0,0,0.5)'; ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,0.18)'; ctx.lineWidth = 1.5; ctx.stroke();
     if (gauge && phase === 'ready') {
+      ctx.save(); g.rr(ctx, bx, by, bw, bh, bh / 2); ctx.clip();
       const zx = bx + bw * (gauge.zone - P.timing.window * 1.2), zw = bw * P.timing.window * 2.4;
-      ctx.fillStyle = 'rgba(242,193,78,0.35)'; ctx.fillRect(clamp(zx, bx, bx + bw), by, Math.min(zw, bx + bw - zx), bh);
+      ctx.fillStyle = 'rgba(242,193,78,0.3)'; ctx.fillRect(zx, by, zw, bh);
       const px0 = bx + bw * (gauge.zone - P.timing.window / 2), pw = bw * P.timing.window;
-      ctx.fillStyle = pal.accent; ctx.fillRect(clamp(px0, bx, bx + bw), by, Math.min(pw, bx + bw - px0), bh);
+      ctx.fillStyle = lin(ctx, 0, by, 0, by + bh, [[0, '#fff1b0'], [0.5, pal.accent], [1, '#c8921e']]); ctx.fillRect(px0, by, pw, bh);
+      ctx.restore();
+      // glow around the bright zone, pulsing so it reads without colour alone
+      ctx.strokeStyle = `rgba(255,236,160,${0.5 + 0.3 * Math.sin(T * 8)})`; ctx.lineWidth = 2; ctx.strokeRect(px0, by - 2, pw, bh + 4);
       const mx = bx + bw * gaugePos();
-      ctx.fillStyle = '#ffffff'; ctx.fillRect(mx - 3, by - 7, 6, bh + 14);
-      // time left to decide
+      const inZone = Math.abs(gaugePos() - gauge.zone) <= P.timing.window / 2;
+      ctx.fillStyle = '#ffffff'; g.rr(ctx, mx - 3, by - 8, 6, bh + 16, 3); ctx.fill();
+      ctx.fillStyle = inZone ? '#9be3a8' : '#ffffff'; ctx.beginPath(); ctx.moveTo(mx - 9, by - 14); ctx.lineTo(mx + 9, by - 14); ctx.lineTo(mx, by - 2); ctx.closePath(); ctx.fill();
       const left = clamp(1 - R.t / tempo, 0, 1);
-      ctx.fillStyle = left < 0.25 ? pal.bad : pal.dim; ctx.fillRect(bx, r.y + r.h - 8, bw * left, 3);
+      g.rr(ctx, bx, r.y + r.h - 9, bw * left, 4, 2); ctx.fillStyle = left < 0.25 ? pal.bad : pal.dim; ctx.fill();
     }
+  };
+
+  const drawIcon = (ctx, kind, x, y, s, col) => {
+    ctx.save(); ctx.translate(x, y); ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = Math.max(2, s * 0.14); ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    switch (kind) {
+      case 'grip': ctx.beginPath(); ctx.arc(-s * 0.2, 0, s * 0.3, 0, 7); ctx.stroke(); ctx.beginPath(); ctx.arc(s * 0.2, 0, s * 0.3, 0, 7); ctx.stroke(); break;
+      case 'throw': ctx.beginPath(); ctx.arc(0, s * 0.1, s * 0.4, Math.PI * 1.1, Math.PI * 2.3); ctx.stroke(); ctx.beginPath(); ctx.moveTo(s * 0.5, s * 0.05); ctx.lineTo(s * 0.48, s * 0.4); ctx.lineTo(s * 0.18, s * 0.28); ctx.stroke(); break;
+      case 'push': ctx.beginPath(); ctx.moveTo(-s * 0.35, -s * 0.3); ctx.lineTo(0, 0); ctx.lineTo(-s * 0.35, s * 0.3); ctx.moveTo(s * 0.05, -s * 0.3); ctx.lineTo(s * 0.4, 0); ctx.lineTo(s * 0.05, s * 0.3); ctx.stroke(); break;
+      case 'guard': ctx.beginPath(); ctx.moveTo(-s * 0.35, -s * 0.35); ctx.lineTo(s * 0.35, -s * 0.35); ctx.lineTo(s * 0.35, s * 0.05); ctx.quadraticCurveTo(s * 0.3, s * 0.4, 0, s * 0.5); ctx.quadraticCurveTo(-s * 0.3, s * 0.4, -s * 0.35, s * 0.05); ctx.closePath(); ctx.stroke(); break;
+      case 'rest': ctx.beginPath(); ctx.moveTo(-s * 0.35, -s * 0.3); ctx.lineTo(s * 0.1, -s * 0.3); ctx.lineTo(-s * 0.35, s * 0.1); ctx.lineTo(s * 0.1, s * 0.1); ctx.stroke(); break;
+      default: ctx.beginPath(); for (let i = 0; i < 8; i++) { const a = (i / 8) * 6.283, rr0 = i % 2 ? s * 0.18 : s * 0.46; ctx.lineTo(Math.cos(a) * rr0, Math.sin(a) * rr0); } ctx.closePath(); ctx.stroke();
+    }
+    ctx.restore();
   };
 
   const drawButtons = (g, lay) => {
@@ -608,17 +620,27 @@ export function createActivity(userParams, env) {
     for (const b of lay.buttons) {
       const m = moves[b.i];
       const ok = affordable(you, m), live = phase === 'ready';
-      g.rr(ctx, b.x, b.y, b.w, b.h, 14);
-      ctx.fillStyle = pal.panel; ctx.globalAlpha = ok && live ? 1 : 0.5; ctx.fill();
-      ctx.strokeStyle = pal.dim; ctx.lineWidth = 2; ctx.stroke(); ctx.globalAlpha = 1;
       const kc = { grip: pal.b, throw: pal.bad, push: pal.accent, strike: pal.bad, guard: pal.good, rest: pal.dim, sidestep: pal.good }[m.kind] ?? pal.dim;
-      ctx.fillStyle = kc; g.rr(ctx, b.x + 8, b.y + 8, 7, b.h - 16, 3); ctx.fill();
+      const picked = pickIdx === b.i && pickT > 0;
+      const sc = picked ? 1 - 0.04 * (pickT / 0.35) : 1;
+      ctx.save(); ctx.translate(b.x + b.w / 2, b.y + b.h / 2); ctx.scale(sc, sc); ctx.translate(-(b.x + b.w / 2), -(b.y + b.h / 2));
+      ctx.globalAlpha = ok && live ? 1 : 0.55;
+      g.rr(ctx, b.x, b.y + 3, b.w, b.h, 15); ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.fill();
+      g.rr(ctx, b.x, b.y, b.w, b.h, 15);
+      ctx.fillStyle = lin(ctx, 0, b.y, 0, b.y + b.h, [[0, shade(picked ? kc : pal.panel, 0.18)], [1, shade(picked ? kc : pal.panel, -0.22)]]); ctx.fill();
+      ctx.strokeStyle = picked ? '#fff' : rgba(kc, 0.8); ctx.lineWidth = 2; ctx.stroke();
+      ctx.fillStyle = 'rgba(255,255,255,0.1)'; g.rr(ctx, b.x + 3, b.y + 3, b.w - 6, b.h * 0.34, 12); ctx.fill();
+      const ir = Math.min(b.h * 0.34, 26);
+      ctx.fillStyle = rgba(kc, 0.22); ctx.beginPath(); ctx.arc(b.x + 14 + ir, b.y + b.h / 2, ir, 0, 7); ctx.fill();
+      drawIcon(ctx, m.kind, b.x + 14 + ir, b.y + b.h / 2, ir * 1.1, kc);
+      const tx = b.x + 14 + ir * 2 + 12;
       const fs = Math.min(g.px(20), b.h * 0.3);
-      const lines = g.wrap(ctx, m.name, b.w - 40, fs).slice(0, 2);
-      lines.forEach((ln, i) => g.label(ctx, ln, b.x + 26, b.y + b.h * (lines.length > 1 ? 0.28 + i * 0.26 : 0.36), fs, pal.ink, 'left', '700'));
+      const lines = g.wrap(ctx, m.name, b.x + b.w - 30 - tx, fs).slice(0, 2);
+      lines.forEach((ln, i) => g.label(ctx, ln, tx, b.y + b.h * (lines.length > 1 ? 0.3 + i * 0.25 : 0.38), fs, pal.ink, 'left', '800'));
       const sub = m.kind === 'rest' ? `Recover ${Math.abs(m.cost)}` : `${m.kind}  ·  cost ${m.cost}`;
-      g.label(ctx, sub, b.x + 26, b.y + b.h - Math.min(14, b.h * 0.2), Math.min(g.px(14), b.h * 0.22), pal.dim, 'left', '500');
-      g.label(ctx, String(b.i + 1), b.x + b.w - 16, b.y + 16, g.px(14), pal.dim, 'right', '600');
+      g.label(ctx, sub, tx, b.y + b.h - Math.min(15, b.h * 0.2), Math.min(g.px(14), b.h * 0.22), pal.dim, 'left', '600');
+      g.label(ctx, String(b.i + 1), b.x + b.w - 14, b.y + 16, g.px(13), pal.dim, 'right', '700');
+      ctx.restore();
     }
   };
 
@@ -630,7 +652,11 @@ export function createActivity(userParams, env) {
     else if (X && X.tone) color = X.tone === 'good' ? pal.good : X.tone === 'bad' ? pal.bad : pal.ink;
     if (phase === 'break') color = B.winner === 'you' ? pal.good : pal.bad;
     const size = g.px(phase === 'ready' ? 19 : 24);
-    for (const [i, ln] of g.wrap(ctx, text, r.w - 16, size).slice(0, 2).entries()) g.label(ctx, ln, r.x + r.w / 2, r.y + r.h * 0.5 + (i ? size : 0) - (text.length > 40 ? size * 0.5 : 0), size, color, 'center', phase === 'ready' ? '500' : '700');
+    for (const [i, ln] of g.wrap(ctx, text, r.w - 16, size).slice(0, 2).entries()) {
+      const yy = r.y + r.h * 0.5 + (i ? size : 0) - (text.length > 40 ? size * 0.5 : 0);
+      if (phase !== 'ready') { ctx.font = `800 ${Math.round(size)}px system-ui, sans-serif`; ctx.lineWidth = 5; ctx.strokeStyle = 'rgba(0,0,0,0.55)'; ctx.lineJoin = 'round'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.strokeText(ln, r.x + r.w / 2, yy); }
+      g.label(ctx, ln, r.x + r.w / 2, yy, size, color, 'center', phase === 'ready' ? '600' : '800');
+    }
   };
 
   const act = {
@@ -682,12 +708,18 @@ export function createActivity(userParams, env) {
       drawButtons(g, layout);
       if (phase === 'break') {
         const s = layout.stage;
-        ctx.fillStyle = 'rgba(10,16,22,0.72)'; g.rr(ctx, s.x + s.w * 0.12, s.y + s.h * 0.3, s.w * 0.76, s.h * 0.4, 18); ctx.fill();
-        const won = B.winner === 'you';
-        g.label(ctx, won ? 'Round to you' : `Round to ${P.fighters.rival.name}`, s.x + s.w / 2, s.y + s.h * 0.45, g.px(28), won ? pal.good : pal.bad, 'center', '800');
-        g.label(ctx, `${wins.you} - ${wins.rival}`, s.x + s.w / 2, s.y + s.h * 0.6, g.px(30), pal.accent, 'center', '800');
+        // a compact banner on the front edge of the ring so the fighters stay in view (store screenshots stay clean)
+        const won = B.winner === 'you', txt = `${won ? 'Round to you' : `Round to ${P.fighters.rival.name}`}   ${wins.you} - ${wins.rival}`;
+        const fs = g.px(22);
+        ctx.font = `800 ${Math.round(fs)}px system-ui, sans-serif`;
+        const w = ctx.measureText(txt).width + 44, h = fs * 2, x = s.x + s.w / 2 - w / 2, y = s.y + s.h * 0.86 - h / 2;
+        g.rr(ctx, x, y, w, h, h / 2); ctx.fillStyle = 'rgba(10,16,22,0.82)'; ctx.fill();
+        ctx.strokeStyle = won ? pal.good : pal.bad; ctx.lineWidth = 3; ctx.stroke();
+        g.label(ctx, txt, s.x + s.w / 2, y + h / 2 + 1, fs, won ? pal.good : pal.bad, 'center', '800');
       }
     },
+    // Large rendering of the sport for the title screen: the venue with both competitors facing off (no HUD, no input).
+    titleArt(g, rect) { titleT += 0.016; return sceneRect(g, rect, true); },
     status() {
       const lim = Math.max(0, Math.ceil(P.rounds.time - clock));
       return { score: tpts.you, label: phase === 'over' ? 'Bout finished' : `Round ${round + 1} of ${P.rounds.count}  ·  ${lim}s  ·  first to ${need}` };

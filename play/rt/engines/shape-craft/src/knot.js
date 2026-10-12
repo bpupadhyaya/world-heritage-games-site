@@ -1,6 +1,8 @@
 // knot: tie a decorative cord knot. The cord is routed through a grid of points; wherever it crosses itself it goes over
 // then under alternately (drawn with real gaps). The target is a generated single closed cord on a lattice of crossings.
-import { shade, starsFor } from './geom.js';
+import { starsFor } from './geom.js';
+import { tint, rrect, rgba, mix, shadowed, litEdge, lum } from './fx.js';
+const shade = tint;
 
 export const KNOT_DEFAULTS = { size: 4, layout: 'square', symmetry: 'rot4', cordColor: '#c8321f', background: '#1c1410', tassel: false, density: 1, guide: true, variation: 1 };
 
@@ -187,7 +189,8 @@ export function analyseCord(route, closed) {
 }
 
 export function createKnot(P, env) {
-  const { rng, audio } = env;
+  const { rng, audio, fx } = env;
+  let clock = 0, flash = -9, flashAt = null;
   let T, route, closed, undo, done, geo = null, drag = false, snapped = false, ai = 0, acc = 0;
   const init = () => { T = generateKnot(P, rng); route = []; closed = false; undo = []; done = null; drag = false; snapped = false; ai = 0; acc = 0; };
   init();
@@ -222,12 +225,18 @@ export function createKnot(P, env) {
     if (n === cur || !adj(cur, n)) return false;
     if (n === route[0]) {
       if (route.length < 4 || used(cur, n)) return false;
-      snap(); closed = true; audio?.tone({ freq: 523, dur: 0.18, type: 'triangle', vol: 0.2 }); return true;
+      snap(); closed = true; audio?.tone({ freq: 523, dur: 0.18, type: 'triangle', vol: 0.2 }); flash = clock; sparks(); return true;
     }
     if (used(cur, n)) return false;
     snap(); route.push(n);
     audio?.tone({ freq: 240 + (route.length % 7) * 26, dur: 0.04, type: 'triangle', vol: 0.12 });
+    if (geo && fx) fx.emit('dust', geo.x + (n % T.W) * geo.cs, geo.y + ((n / T.W) | 0) * geo.cs, { count: 1, color: tint(P.cordColor, 0.4), size: geo.cs * 0.12, speed: 18, life: 0.35, gravity: -10 });
     return true;
+  };
+
+  const sparks = () => {
+    if (!geo || !fx) return;
+    for (let i = 0; i < route.length; i += Math.max(1, Math.floor(route.length / 14))) { const n = route[i]; fx.emit('spark', geo.x + (n % T.W) * geo.cs, geo.y + ((n / T.W) | 0) * geo.cs, { count: 1, color: '#fff4c8', size: geo.cs * 0.28, speed: 30, life: 0.8, gravity: -10 }); }
   };
 
   const items = () => [
@@ -282,76 +291,108 @@ export function createKnot(P, env) {
   const tassel = (ctx, x, y, cs) => {
     const col = P.cordColor;
     ctx.lineCap = 'round';
-    ctx.strokeStyle = col; ctx.lineWidth = cs * 0.14;
-    ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x, y + cs * 0.45); ctx.stroke();
-    ctx.fillStyle = shade(col, -0.15); ctx.beginPath(); ctx.arc(x, y + cs * 0.55, cs * 0.17, 0, Math.PI * 2); ctx.fill();
-    ctx.strokeStyle = shade(col, 0.1); ctx.lineWidth = Math.max(1.5, cs * 0.05);
-    for (let i = -4; i <= 4; i++) { ctx.beginPath(); ctx.moveTo(x + i * cs * 0.025, y + cs * 0.68); ctx.lineTo(x + i * cs * 0.07, y + cs * 1.25); ctx.stroke(); }
+    ctx.strokeStyle = tint(col, -0.3); ctx.lineWidth = cs * 0.18; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x, y + cs * 0.4); ctx.stroke();
+    ctx.strokeStyle = col; ctx.lineWidth = cs * 0.12; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x, y + cs * 0.4); ctx.stroke();
+    const hg = ctx.createRadialGradient(x - cs * 0.06, y + cs * 0.5, 1, x, y + cs * 0.55, cs * 0.2); hg.addColorStop(0, tint(col, 0.5)); hg.addColorStop(1, tint(col, -0.35));
+    ctx.fillStyle = hg; ctx.beginPath(); ctx.arc(x, y + cs * 0.55, cs * 0.17, 0, Math.PI * 2); ctx.fill();
+    for (let i = -6; i <= 6; i++) {
+      ctx.strokeStyle = i % 2 ? tint(col, 0.15) : tint(col, -0.15); ctx.lineWidth = Math.max(1.5, cs * 0.035);
+      ctx.beginPath(); ctx.moveTo(x + i * cs * 0.018, y + cs * 0.68); ctx.quadraticCurveTo(x + i * cs * 0.05, y + cs * 0.95, x + i * cs * 0.075, y + cs * 1.25); ctx.stroke();
+    }
+  };
+  // The cord: a soft shadow on the board, a dark underside, the body with a twist of fine bands, and a light along its upper edge.
+  const strokeCord = (ctx, buildPath, w) => {
+    buildPath(); ctx.strokeStyle = 'rgba(0,0,0,0.4)'; ctx.lineWidth = w * 1.5; ctx.translate(w * 0.18, w * 0.3); ctx.stroke(); ctx.translate(-w * 0.18, -w * 0.3);
+    buildPath(); ctx.strokeStyle = tint(P.cordColor, -0.4); ctx.lineWidth = w; ctx.stroke();
+    buildPath(); ctx.strokeStyle = P.cordColor; ctx.lineWidth = w * 0.78; ctx.stroke();
+    buildPath(); ctx.setLineDash([w * 0.16, w * 0.34]); ctx.strokeStyle = 'rgba(0,0,0,0.22)'; ctx.lineWidth = w * 0.78; ctx.lineCap = 'butt'; ctx.stroke(); ctx.setLineDash([]); ctx.lineCap = 'round';
+    buildPath(); ctx.translate(-w * 0.14, -w * 0.18); ctx.strokeStyle = 'rgba(255,255,255,0.36)'; ctx.lineWidth = w * 0.18; ctx.stroke(); ctx.translate(w * 0.14, w * 0.18);
   };
   const paintCord = (ctx, R, isClosed, gx, gy, cs, A) => {
     if (!R.length) return;
     const pts = R.map((n) => [gx + (n % T.W) * cs, gy + ((n / T.W) | 0) * cs]);
-    const w = cs * 0.26, cw = cs * 0.44, rad = cs * 0.3;
-    ctx.lineCap = 'round'; ctx.lineJoin = 'round';
-    cordPath(ctx, pts, isClosed, rad);
-    ctx.strokeStyle = P.background; ctx.lineWidth = cw; ctx.stroke();
-    ctx.strokeStyle = shade(P.cordColor, -0.18); ctx.lineWidth = w; ctx.stroke();
-    ctx.strokeStyle = P.cordColor; ctx.lineWidth = w * 0.62; ctx.stroke();
-    ctx.strokeStyle = 'rgba(255,255,255,0.22)'; ctx.lineWidth = w * 0.2; ctx.stroke();
-    const L = pts.length;
+    const w = cs * 0.3, rad = cs * 0.3, L = pts.length;
+    ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+    strokeCord(ctx, () => cordPath(ctx, pts, isClosed, rad), w);
+    // over-crossings: a soft dark halo (the gap, as a shadow on the cord below), then the cord again on top
     for (let i = 0; i < L; i++) {
       if (!A.over[i]) continue;
       const a = mid(pts[(i - 1 + L) % L], pts[i]), b = mid(pts[i], pts[(i + 1) % L]);
-      ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]);
-      ctx.strokeStyle = P.background; ctx.lineWidth = cw; ctx.stroke();
-      ctx.strokeStyle = shade(P.cordColor, -0.18); ctx.lineWidth = w; ctx.stroke();
-      ctx.strokeStyle = P.cordColor; ctx.lineWidth = w * 0.62; ctx.stroke();
-      ctx.strokeStyle = 'rgba(255,255,255,0.22)'; ctx.lineWidth = w * 0.2; ctx.stroke();
+      const seg = () => { ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); };
+      seg(); ctx.strokeStyle = 'rgba(0,0,0,0.5)'; ctx.lineWidth = w * 1.55; ctx.stroke();
+      strokeCord(ctx, seg, w);
     }
     ctx.lineCap = 'butt';
   };
+  const pin = (ctx, x, y, cs) => {
+    ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.beginPath(); ctx.arc(x + cs * 0.03, y + cs * 0.05, Math.max(2, cs * 0.075), 0, Math.PI * 2); ctx.fill();
+    const g = ctx.createRadialGradient(x - cs * 0.025, y - cs * 0.03, 0.5, x, y, Math.max(2.2, cs * 0.075));
+    g.addColorStop(0, '#ffffff'); g.addColorStop(0.5, '#aeb7c0'); g.addColorStop(1, '#545c64');
+    ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, Math.max(2.2, cs * 0.075), 0, Math.PI * 2); ctx.fill();
+  };
+  const cushion = (ctx, x, y, w, h, bg, cs) => {
+    shadowed(ctx, () => { rrect(ctx, x, y, w, h, 18); ctx.fillStyle = bg; ctx.fill(); }, { blur: 22, dy: 11, a: 0.55 });
+    const gr = ctx.createLinearGradient(x, y, x + w, y + h); gr.addColorStop(0, tint(bg, 0.16)); gr.addColorStop(0.5, bg); gr.addColorStop(1, tint(bg, -0.3));
+    rrect(ctx, x, y, w, h, 18); ctx.fillStyle = gr; ctx.fill();
+    ctx.save(); rrect(ctx, x, y, w, h, 18); ctx.clip();
+    ctx.strokeStyle = 'rgba(255,255,255,0.05)'; ctx.lineWidth = 1; ctx.beginPath();
+    for (let q = -h; q < w; q += Math.max(5, cs * 0.14)) { ctx.moveTo(x + q, y); ctx.lineTo(x + q + h, y + h); }
+    ctx.stroke();
+    const vg = ctx.createRadialGradient(x + w / 2, y + h / 2, Math.min(w, h) * 0.3, x + w / 2, y + h / 2, Math.max(w, h) * 0.7); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,0.38)');
+    ctx.fillStyle = vg; ctx.fillRect(x, y, w, h);
+    ctx.restore();
+    ctx.strokeStyle = 'rgba(255,255,255,0.18)'; ctx.lineWidth = 1.5; rrect(ctx, x + 6, y + 6, w - 12, h - 12, 14); ctx.setLineDash([cs * 0.2, cs * 0.14]); ctx.stroke(); ctx.setLineDash([]);
+  };
 
-  const draw = (g, Rt) => {
+  const draw = (g, Rt, t) => {
     const { ctx, pal } = g;
-    const W0 = Rt.work, Wk = { x: W0.x, y: W0.y + 26, w: W0.w, h: W0.h - 26 };
+    clock = t;
+    const W0 = Rt.work, Wk = { x: W0.x, y: W0.y + 40, w: W0.w, h: W0.h - 40 };
     const extraRows = P.tassel ? 1.4 : 0;
-    const cs = Math.max(8, Math.floor(Math.min((Wk.w - 10) / (T.W - 1 + 1.3), (Wk.h - 10) / (T.H - 1 + 1.3 + extraRows))));
+    const cs = Math.max(8, Math.floor(Math.min((Wk.w - 20) / (T.W - 1 + 1.6), (Wk.h - 20) / (T.H - 1 + 1.6 + extraRows))));
     const gx = Math.round(Wk.x + (Wk.w - cs * (T.W - 1)) / 2), gy = Math.round(Wk.y + (Wk.h - cs * (T.H - 1 + extraRows)) / 2);
     geo = { x: gx, y: gy, cs };
-    ctx.fillStyle = P.background; g.rr(ctx, gx - cs * 0.6, gy - cs * 0.6, cs * (T.W - 1) + cs * 1.2, cs * (T.H - 1 + extraRows) + cs * 1.2, 14); ctx.fill();
-    // guide: the target cord, faint
+    cushion(ctx, gx - cs * 0.8, gy - cs * 0.8, cs * (T.W - 1) + cs * 1.6, cs * (T.H - 1 + extraRows) + cs * 1.6, P.background, cs);
+    // guide: the target cord, ghosted with a lit edge
     if (P.guide) {
       const pts = T.route.map((n) => [gx + (n % T.W) * cs, gy + ((n / T.W) | 0) * cs]);
-      ctx.strokeStyle = 'rgba(255,255,255,0.16)'; ctx.lineWidth = Math.max(2, cs * 0.1); ctx.setLineDash([cs * 0.18, cs * 0.18]);
-      cordPath(ctx, pts, true, cs * 0.3); ctx.stroke(); ctx.setLineDash([]);
+      cordPath(ctx, pts, true, cs * 0.3); litEdge(ctx, '#e9eef5', Math.max(1.2, cs * 0.035), t);
     }
-    // points
-    for (let r = 0; r < T.H; r++) for (let c = 0; c < T.W; c++) {
-      ctx.fillStyle = 'rgba(255,255,255,0.22)'; ctx.beginPath(); ctx.arc(gx + c * cs, gy + r * cs, Math.max(1.8, cs * 0.05), 0, Math.PI * 2); ctx.fill();
-    }
+    for (let r = 0; r < T.H; r++) for (let c = 0; c < T.W; c++) pin(ctx, gx + c * cs, gy + r * cs, cs);
     const { A } = status();
     paintCord(ctx, route, closed, gx, gy, cs, A);
     if (P.tassel) tassel(ctx, gx + ((T.W - 1) * cs) / 2, gy + (T.H - 1) * cs + cs * 0.15, cs);
-    // required crossings
+    // required crossings: a gold ring that fills when made
     for (const n of T.required) {
       const x = gx + (n % T.W) * cs, y = gy + ((n / T.W) | 0) * cs, ok = A.cross.has(n);
-      ctx.beginPath(); ctx.arc(x, y, cs * 0.34, 0, Math.PI * 2);
-      if (ok) { ctx.fillStyle = 'rgba(245,200,90,0.28)'; ctx.fill(); }
-      ctx.strokeStyle = pal.accent; ctx.lineWidth = ok ? 2 : 3; ctx.stroke();
+      ctx.beginPath(); ctx.arc(x, y, cs * 0.36, 0, Math.PI * 2);
+      if (ok) { ctx.fillStyle = 'rgba(245,200,90,0.26)'; ctx.fill(); }
+      ctx.strokeStyle = pal.accent; ctx.lineWidth = ok ? 2.2 : 3; if (!ok) ctx.setLineDash([cs * 0.12, cs * 0.1]); ctx.stroke(); ctx.setLineDash([]);
     }
     // cord ends
     if (route.length && !closed) {
       const s = route[0], e = route[route.length - 1];
-      ctx.fillStyle = '#ffffff'; ctx.beginPath(); ctx.arc(gx + (s % T.W) * cs, gy + ((s / T.W) | 0) * cs, cs * 0.1, 0, Math.PI * 2); ctx.fill();
-      ctx.strokeStyle = pal.accent; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(gx + (e % T.W) * cs, gy + ((e / T.W) | 0) * cs, cs * 0.2, 0, Math.PI * 2); ctx.stroke();
+      ctx.fillStyle = '#ffffff'; ctx.beginPath(); ctx.arc(gx + (s % T.W) * cs, gy + ((s / T.W) | 0) * cs, cs * 0.12, 0, Math.PI * 2); ctx.fill();
+      const pu = 0.6 + 0.4 * Math.sin(t * 6);
+      ctx.strokeStyle = rgba(pal.accent, pu); ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(gx + (e % T.W) * cs, gy + ((e / T.W) | 0) * cs, cs * 0.24, 0, Math.PI * 2); ctx.stroke();
     }
-    // thumbnail of the target
-    const th = Rt.thumb, tcs = Math.max(3, Math.min(th.w / (T.W + 0.4), th.h / (T.H + extraRows + 0.4)));
+    if (closed && t - flash < 0.9) { const u = (t - flash) / 0.9; ctx.strokeStyle = rgba('#fff4c8', 0.6 * (1 - u)); ctx.lineWidth = cs * 0.2; const pts = route.map((n) => [gx + (n % T.W) * cs, gy + ((n / T.W) | 0) * cs]); cordPath(ctx, pts, true, cs * 0.3); ctx.stroke(); }
+    // reference
+    const th = Rt.thumb, tcs = Math.max(3, Math.min((th.w - 14) / (T.W + 0.6), (th.h - 14) / (T.H + extraRows + 0.6)));
     const tx = th.x + (th.w - tcs * (T.W - 1)) / 2, ty = th.y + (th.h - tcs * (T.H - 1 + extraRows)) / 2;
-    ctx.fillStyle = P.background; ctx.fillRect(th.x, th.y, th.w, th.h);
     paintCord(ctx, T.route, true, tx, ty, tcs, analyseCord(T.route, true));
     if (P.tassel) tassel(ctx, tx + ((T.W - 1) * tcs) / 2, ty + (T.H - 1) * tcs + tcs * 0.15, tcs);
-    g.label(ctx, closed ? 'Loop closed: press Check' : route.length ? 'Tap or drag along the points; tap the start to close' : 'Tap a plain point to begin the cord', W0.x + W0.w / 2, W0.y + 12, g.px(17), pal.dim, 'center', '500');
+    g.label(ctx, closed ? 'Loop closed: press Check' : route.length ? 'Tap or drag along the points; tap the start to close' : 'Tap a plain point to begin the cord', W0.x + W0.w / 2, W0.y + 26, g.px(22), pal.dim, 'center', '500');
+  };
+  const titleArt = (g, S, t) => {
+    const { ctx } = g;
+    const extraRows = P.tassel ? 1.4 : 0;
+    const cs = Math.min(S.w * 0.8 / (T.W - 1 + 1.2), S.h * 0.8 / (T.H - 1 + 1.2 + extraRows));
+    const gx = S.x + (S.w - cs * (T.W - 1)) / 2, gy = S.y + (S.h - cs * (T.H - 1 + extraRows)) / 2;
+    cushion(ctx, gx - cs * 0.9, gy - cs * 0.9, cs * (T.W - 1) + cs * 1.8, cs * (T.H - 1 + extraRows) + cs * 1.8, P.background, cs);
+    paintCord(ctx, T.route, true, gx, gy, cs, analyseCord(T.route, true));
+    if (P.tassel) tassel(ctx, gx + ((T.W - 1) * cs) / 2, gy + (T.H - 1) * cs + cs * 0.15, cs);
+    void t;
   };
 
   const attract = (dt) => {
@@ -365,7 +406,7 @@ export function createKnot(P, env) {
   };
 
   return {
-    init, items, control, work, draw, attract, result: () => done,
+    init, items, control, work, draw, attract, titleArt, surface: 'felt', surfaceTint: '#4a3a5a', result: () => done,
     score,
     info: () => [`Crossings to make: ${T.required.length}`, closed ? 'Cord: closed' : route.length ? `Cord: ${route.length} points` : 'Cord: not begun'],
     caption: 'Tie this knot',

@@ -41,7 +41,7 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 ## Play it
 
-[Web preview](https://bpupadhyaya.github.io/games-site/games/oche-darts-501/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Web preview](https://bpupadhyaya.github.io/games-site/games/oche-darts-501/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 

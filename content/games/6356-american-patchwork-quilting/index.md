@@ -45,7 +45,7 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Play it
 
-[Web preview](https://bpupadhyaya.github.io/games-site/games/quilt-patterns-blocks/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Web preview](https://bpupadhyaya.github.io/games-site/games/quilt-patterns-blocks/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 

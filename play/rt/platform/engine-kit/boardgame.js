@@ -33,13 +33,13 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     const autoplay = options.autoplay === true; // attract mode: both sides computer, pointer ignored (store screenshots, previews)
     const ui = createUI({ pal, meta, px, audio, config: env.config, options, name: T.title, theme });
     const firstSentence = (s) => { const m = /^.{20,}?[.!?](\s|$)/.exec(String(s)); return m ? m[0].trim() : String(s).slice(0, 140); };
-    let drag = null, maxScroll = 0, bestNew = false, shownResult = false;
+    let drag = null, maxScroll = 0;
     const state = { scene: autoplay ? 'play' : 'title', mode: autoplay ? 'watch' : 'ai', human: 0, level: 'normal', game: rules.init(params, rng.fork()), history: [], ply: 0, selected: null, msg: '', t: 0, wait: 0, overT: 0, hint: null, page: 0, scroll: 0, sceneT: 0, winner: null, moveT: -9, resT: 0 };
     
     storage.get('prefs', null).then((v) => { if (v) { if (LEVELS.some((l) => l.id === v.level)) state.level = v.level; if (v.mode === 'ai' || v.mode === 'two') state.mode = v.mode; } });
     const savePrefs = () => storage.set('prefs', { level: state.level, mode: state.mode });
 
-    const newGame = () => { Object.assign(state, { game: rules.init(params, rng.fork()), history: [], ply: 0, selected: null, msg: '', wait: AI_DELAY, overT: 0, hint: null, winner: null, moveT: -9 }); shownResult = false; };
+    const newGame = () => { Object.assign(state, { game: rules.init(params, rng.fork()), history: [], ply: 0, selected: null, msg: '', wait: AI_DELAY, overT: 0, hint: null, winner: null, moveT: -9 }); };
     const go = (scene) => { state.scene = scene; state.sceneT = 0; state.scroll = 0; };
     const humanTurn = () => state.mode === 'two' || (state.mode === 'ai' && state.game.turn === state.human);
 
@@ -63,11 +63,11 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     // ---- geometry ---------------------------------------------------------------------------------------------
     const boardRect = (aspect) => {
       const W = meta.width, H = meta.height;
-      const top = px(78) + 20, bottom = px(70) + 30;
-      const areaW = W - 24, areaH = H - top - bottom;
+      const a = ui.layout(W, H, { footer: !autoplay }).area;
+      const areaW = a.w - 8, areaH = a.h - 16;
       let w = areaW, h = w / aspect;
       if (h > areaH) { h = areaH; w = h * aspect; }
-      return { x: (W - w) / 2, y: top + (areaH - h) / 2, w, h };
+      return { x: a.x + (a.w - w) / 2, y: a.y + 8 + (areaH - h) / 2, w, h };
     };
     const nodeAt = (d, rect, x, y) => {
       let best = null, bd = Infinity;
@@ -131,6 +131,12 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
         else if (state.scene === 'rules') drag = { y: p.y, s: state.scroll };
       }
       if (drag) { if (p.down) state.scroll = Math.max(0, Math.min(maxScroll || 1e9, drag.s - (p.y - drag.y))); else drag = null; }
+      if (!autoplay && state.scene === 'rules') {   // keyboard: Enter / Space / Escape leave the rules page, arrows scroll
+        const k = input.keys?.pressed;
+        if (k && (k.has('Enter') || k.has('Space') || k.has('Escape'))) press('back');
+        else if (k?.has('ArrowDown')) press('down');
+        else if (k?.has('ArrowUp')) press('up');
+      }
       if (input.wheel && state.scene === 'rules') state.scroll = Math.max(0, Math.min(maxScroll || 1e9, state.scroll + input.wheel.dy));
       if (!autoplay && state.scene === 'title' && input.keys?.pressed?.has('Enter')) press('ai'); // keyboard: Enter starts a game against the computer
       if (state.scene !== 'play') return;
@@ -143,7 +149,7 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
         const prev = state.overT; state.overT += dt;
         const youWon = state.winner !== 'draw' && (state.mode !== 'ai' || state.winner === state.human);
         ui.resultTick(prev, state.overT, { stars: 0, win: youWon, newBest: false });
-        if (autoplay && !options.shot && state.overT > 5) { newGame(); }   // attract mode loops so previews never freeze
+        if (autoplay && !options.shot && meta.cssPerUnit && state.overT > 5) { newGame(); }   // attract mode loops so previews never freeze
         return;
       }
       state.wait -= dt;
@@ -161,143 +167,157 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     };
 
     // ---- drawing ----------------------------------------------------------------------------------------------
-    const rr = (ctx, x, y, w, h, r) => { ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath(); };
+    const rr = ui.rr;
     const label = (ctx, s, x, y, size, color = pal.ink, align = 'center', weight = '600') => { ctx.fillStyle = color; ctx.font = `${weight} ${Math.round(size)}px system-ui, sans-serif`; ctx.textAlign = align; ctx.textBaseline = 'middle'; ctx.fillText(String(s), x, y); };
-    const wrap = (ctx, s, maxW, size) => {
-      ctx.font = `400 ${Math.round(size)}px system-ui, sans-serif`;
-      const lines = []; let line = '';
-      for (const word of String(s).split(' ')) { const next = line ? `${line} ${word}` : word; if (line && ctx.measureText(next).width > maxW) { lines.push(line); line = word; } else line = next; }
-      if (line) lines.push(line); return lines;
-    };
-    const button = (ctx, id, text_, x, y, w, h, { primary = false, off = false } = {}) => {
-      hits.push({ id, x, y, w, h });
-      rr(ctx, x, y, w, h, Math.min(16, h / 2));
-      ctx.fillStyle = primary ? pal.accent : pal.panel; ctx.globalAlpha = off ? 0.45 : 1; ctx.fill();
-      ctx.strokeStyle = primary ? pal.accent : pal.dim; ctx.lineWidth = 2; ctx.stroke(); ctx.globalAlpha = 1;
-      label(ctx, text_, x + w / 2, y + h / 2, Math.min(px(26), h * 0.5), primary ? '#1b1b1b' : pal.ink);
-    };
     const playerName = (d, p) => {
       const n = d.players?.[p]?.name ?? (p === 0 ? 'Player 1' : 'Player 2');
       if (state.mode === 'ai') return p === state.human ? `${n} (you)` : `${n} (computer)`;
       return n;
     };
+    const ownerColor = (o) => (o === 1 ? pal.p1 : pal.p0);
 
     const drawBoard = (ctx, d, rect, legal) => {
-      rr(ctx, rect.x, rect.y, rect.w, rect.h, Math.min(24, rect.w * 0.04)); ctx.fillStyle = pal.board; ctx.fill();
-      ctx.strokeStyle = pal.line; ctx.lineWidth = Math.max(2, rect.w * 0.006);
-      const P = (id) => d.nodes.find((n) => n.id === id);
-      const byId = new Map(d.nodes.map((n) => [n.id, n]));
-      for (const l of d.lines ?? []) {
-        ctx.beginPath();
-        l.forEach((id, i) => { const n = byId.get(id); const x = rect.x + n.x * rect.w, y = rect.y + n.y * rect.h; if (i) ctx.lineTo(x, y); else ctx.moveTo(x, y); });
-        ctx.stroke();
-      }
       const unit = Math.min(rect.w, rect.h);
+      const corner = Math.min(24, rect.w * 0.04), frame = Math.max(3, unit * 0.012);
+      // body: soft shadow, gradient, grain, bevel
+      ctx.save();
+      ctx.shadowColor = 'rgba(0,0,0,0.55)'; ctx.shadowBlur = unit * 0.05; ctx.shadowOffsetY = unit * 0.02;
+      rr(ctx, rect.x, rect.y, rect.w, rect.h, corner); ctx.fillStyle = shade(pal.board, -0.25); ctx.fill();
+      ctx.restore();
+      rr(ctx, rect.x, rect.y, rect.w, rect.h, corner); ctx.fillStyle = ui.vgrad(ctx, rect.y, rect.y + rect.h, [[0, shade(pal.board, 0.14)], [0.5, pal.board], [1, shade(pal.board, -0.16)]]); ctx.fill();
+      ctx.save(); rr(ctx, rect.x, rect.y, rect.w, rect.h, corner); ctx.clip();
+      ui.texture(ctx, rect.x, rect.y, rect.w, rect.h, { kind: 'grain', alpha: 0.1, dark: shade(pal.board, -0.6) });
+      ctx.restore();
+      rr(ctx, rect.x + frame / 2, rect.y + frame / 2, rect.w - frame, rect.h - frame, corner); ctx.lineWidth = frame; ctx.strokeStyle = shade(pal.board, -0.42); ctx.stroke();
+      rr(ctx, rect.x + frame * 1.5, rect.y + frame * 1.5, rect.w - frame * 3, rect.h - frame * 3, Math.max(2, corner - frame)); ctx.lineWidth = 1.5; ctx.strokeStyle = 'rgba(255,255,255,0.25)'; ctx.stroke();
+      const byId = new Map(d.nodes.map((n) => [n.id, n]));
+      const lw = Math.max(2, rect.w * 0.006);
+      const strokeLines = (dx, dy, color) => {
+        ctx.beginPath();
+        for (const l of d.lines ?? []) l.forEach((id, i) => { const n = byId.get(id); const x = rect.x + n.x * rect.w + dx, y = rect.y + n.y * rect.h + dy; if (i) ctx.lineTo(x, y); else ctx.moveTo(x, y); });
+        ctx.strokeStyle = color; ctx.lineWidth = lw; ctx.lineCap = 'round'; ctx.stroke();
+      };
+      if (d.lines?.length) { strokeLines(0, lw * 0.9, 'rgba(255,255,255,0.28)'); strokeLines(0, 0, pal.line); }
       const pieces = new Map();
       for (const pc of d.pieces ?? []) { if (!pieces.has(pc.node)) pieces.set(pc.node, []); pieces.get(pc.node).push(pc); }
       const lastSet = new Set(d.last ?? []);
       for (const n of d.nodes) {
         const x = rect.x + n.x * rect.w, y = rect.y + n.y * rect.h, r = (n.r ?? 0.04) * unit;
-        if (n.shape === 'cell') { ctx.fillStyle = n.tone ? pal.cell1 : pal.cell0; ctx.fillRect(x - r, y - r, r * 2, r * 2); }
-        else if (n.shape === 'pit') { ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fillStyle = 'rgba(0,0,0,0.28)'; ctx.fill(); ctx.strokeStyle = pal.line; ctx.stroke(); }
-        else if (n.shape === 'store') { const w = (n.w ?? 0.1) * rect.w, h = (n.h ?? 0.3) * rect.h; rr(ctx, x - w / 2, y - h / 2, w, h, Math.min(w, h) / 2); ctx.fillStyle = 'rgba(0,0,0,0.28)'; ctx.fill(); ctx.strokeStyle = pal.line; ctx.stroke(); }
-        else if (n.shape !== 'none') { ctx.beginPath(); ctx.arc(x, y, Math.max(3, r * 0.22), 0, Math.PI * 2); ctx.fillStyle = pal.node; ctx.fill(); }
-        if (lastSet.has(n.id)) { ctx.strokeStyle = pal.good; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(x, y, r * 1.1, 0, Math.PI * 2); ctx.stroke(); ctx.lineWidth = Math.max(2, rect.w * 0.006); ctx.strokeStyle = pal.line; }
+        if (n.shape === 'cell') {
+          ctx.fillStyle = n.tone ? pal.cell1 : pal.cell0; ctx.fillRect(x - r, y - r, r * 2, r * 2);
+          ctx.fillStyle = ui.vgrad(ctx, y - r, y + r, [[0, 'rgba(255,255,255,0.14)'], [1, 'rgba(0,0,0,0.12)']]); ctx.fillRect(x - r, y - r, r * 2, r * 2);
+        } else if (n.shape === 'pit') {
+          ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2);
+          const gr = ctx.createRadialGradient(x, y + r * 0.2, r * 0.1, x, y, r); gr.addColorStop(0, 'rgba(0,0,0,0.5)'); gr.addColorStop(0.75, 'rgba(0,0,0,0.3)'); gr.addColorStop(1, 'rgba(0,0,0,0.15)');
+          ctx.fillStyle = gr; ctx.fill(); ctx.strokeStyle = 'rgba(255,255,255,0.22)'; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(x, y + 1.5, r, 0.1, Math.PI - 0.1); ctx.stroke();
+          ctx.strokeStyle = pal.line; ctx.lineWidth = lw; ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.stroke();
+        } else if (n.shape === 'store') {
+          const w = (n.w ?? 0.1) * rect.w, h = (n.h ?? 0.3) * rect.h; rr(ctx, x - w / 2, y - h / 2, w, h, Math.min(w, h) / 2);
+          ctx.fillStyle = ui.vgrad(ctx, y - h / 2, y + h / 2, [[0, 'rgba(0,0,0,0.5)'], [1, 'rgba(0,0,0,0.22)']]); ctx.fill(); ctx.strokeStyle = pal.line; ctx.lineWidth = lw; ctx.stroke();
+        } else if (n.shape !== 'none') {
+          const rad = Math.max(3, r * 0.22);
+          ctx.beginPath(); ctx.arc(x, y, rad, 0, Math.PI * 2); ctx.fillStyle = pal.node; ctx.fill();
+          ctx.beginPath(); ctx.arc(x - rad * 0.25, y - rad * 0.3, rad * 0.4, 0, Math.PI * 2); ctx.fillStyle = 'rgba(255,255,255,0.25)'; ctx.fill();
+        }
+        if (lastSet.has(n.id)) { ctx.strokeStyle = pal.good; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(x, y, r * 1.1, 0, Math.PI * 2); ctx.stroke(); }
       }
+      const landT = state.t - state.moveT, drop = landT < 0.28 && !ui.reduced() ? (1 - ui.easeOutBack(landT / 0.28)) : 0;
+      const ball = (x, y, rad, col, ring) => {      // glossy bead / disc with cast shadow
+        ctx.beginPath(); ctx.ellipse(x + rad * 0.12, y + rad * 0.2, rad * 1.02, rad * 0.92, 0, 0, Math.PI * 2); ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.fill();
+        const gr = ctx.createRadialGradient(x - rad * 0.35, y - rad * 0.4, rad * 0.1, x, y, rad * 1.05);
+        gr.addColorStop(0, shade(col, 0.55)); gr.addColorStop(0.45, col); gr.addColorStop(1, shade(col, -0.45));
+        ctx.beginPath(); ctx.arc(x, y, rad, 0, Math.PI * 2); ctx.fillStyle = gr; ctx.fill();
+        if (ring) { ctx.lineWidth = Math.max(1.5, rad * 0.1); ctx.strokeStyle = 'rgba(255,255,255,0.8)'; ctx.stroke(); }
+        ctx.beginPath(); ctx.ellipse(x - rad * 0.28, y - rad * 0.4, rad * 0.4, rad * 0.22, -0.5, 0, Math.PI * 2); ctx.fillStyle = 'rgba(255,255,255,0.4)'; ctx.fill();
+      };
       for (const [id, list] of pieces) {
         const n = byId.get(id), x = rect.x + n.x * rect.w, y = rect.y + n.y * rect.h, r = (n.r ?? 0.04) * unit;
         if (n.shape === 'pit' || n.shape === 'store') {
           const count = list.reduce((a, p) => a + (p.count ?? 1), 0);
+          const col = list[0].owner === 1 ? pal.p1 : list[0].owner === 0 ? pal.p0 : pal.accent;
           if (count <= 10 && n.shape === 'pit') {
-            for (let i = 0; i < count; i++) { const a = (i / Math.max(1, count)) * Math.PI * 2 + 0.5, rad = count === 1 ? 0 : r * 0.5; ctx.beginPath(); ctx.arc(x + Math.cos(a) * rad, y + Math.sin(a) * rad, Math.max(3, r * 0.2), 0, Math.PI * 2); ctx.fillStyle = list[0].owner === 1 ? pal.p1 : list[0].owner === 0 ? pal.p0 : pal.accent; ctx.fill(); ctx.strokeStyle = 'rgba(0,0,0,0.5)'; ctx.lineWidth = 1; ctx.stroke(); }
+            for (let i = 0; i < count; i++) { const a = (i / Math.max(1, count)) * Math.PI * 2 + 0.5, rad = count === 1 ? 0 : r * 0.5; ball(x + Math.cos(a) * rad, y + Math.sin(a) * rad, Math.max(3.5, r * 0.22), col, false); }
           } else label(ctx, count, x, y, Math.max(14, r * 0.9), pal.ink, 'center', '700');
           if (count && count <= 10 && n.shape === 'pit') label(ctx, count, x, y + r * (n.labelDy ?? 1.25), Math.max(11, r * 0.45), pal.dim, 'center', '600');
         } else {
           const owner = list[0].owner;
-          ctx.beginPath(); ctx.arc(x, y, r * 0.78, 0, Math.PI * 2);
-          ctx.fillStyle = owner === 1 ? pal.p1 : pal.p0; ctx.fill(); ctx.strokeStyle = 'rgba(255,255,255,0.85)'; ctx.lineWidth = 3; ctx.stroke();
-          if (list[0].kind === 'king') { ctx.beginPath(); ctx.arc(x, y, r * 0.4, 0, Math.PI * 2); ctx.strokeStyle = pal.accent; ctx.lineWidth = 3; ctx.stroke(); }
-          if (list[0].label) label(ctx, list[0].label, x, y, r * 0.9, '#fff', 'center', '700');
+          const isLast = lastSet.has(id);
+          const yy = y - (isLast ? drop * r * 0.8 : 0);
+          ball(x, yy, r * 0.78, ownerColor(owner), true);
+          if (list[0].kind === 'king') { ctx.beginPath(); ctx.arc(x, yy, r * 0.4, 0, Math.PI * 2); ctx.strokeStyle = pal.accent; ctx.lineWidth = 3; ctx.stroke(); }
+          if (list[0].label) label(ctx, list[0].label, x, yy, r * 0.9, '#fff', 'center', '700');
           if (list.length > 1 || (list[0].count ?? 1) > 1) label(ctx, list.reduce((a, p) => a + (p.count ?? 1), 0), x + r * 0.6, y - r * 0.6, Math.max(11, r * 0.5), pal.accent, 'center', '700');
         }
       }
       // interaction hints
       if (humanTurn() && state.winner === null) {
-        const pulse = 0.5 + 0.5 * Math.sin(state.t * 5);
-        const froms = new Set(legal.filter((m) => m.from !== undefined && (state.selected === null || m.from === state.selected || true)).map((m) => m.from));
+        const pulse = ui.reduced() ? 0.5 : 0.5 + 0.5 * Math.sin(state.t * 5);
+        const froms = new Set(legal.filter((m) => m.from !== undefined).map((m) => m.from));
         const tos = new Set(legal.filter((m) => m.to !== undefined && (state.selected === null ? m.from === undefined : m.from === state.selected)).map((m) => m.to));
         for (const id of state.selected === null ? froms : []) { const n = byId.get(id); if (!n) continue; ctx.beginPath(); ctx.arc(rect.x + n.x * rect.w, rect.y + n.y * rect.h, (n.r ?? 0.04) * unit * (1.05 + 0.1 * pulse), 0, Math.PI * 2); ctx.strokeStyle = pal.accent; ctx.lineWidth = 3; ctx.globalAlpha = 0.55 + 0.4 * pulse; ctx.stroke(); ctx.globalAlpha = 1; }
-        for (const id of tos) { const n = byId.get(id); if (!n) continue; ctx.beginPath(); ctx.arc(rect.x + n.x * rect.w, rect.y + n.y * rect.h, Math.max(6, (n.r ?? 0.04) * unit * 0.45), 0, Math.PI * 2); ctx.fillStyle = pal.good; ctx.globalAlpha = 0.85; ctx.fill(); ctx.globalAlpha = 1; }
+        for (const id of tos) { const n = byId.get(id); if (!n) continue; const px0 = rect.x + n.x * rect.w, py0 = rect.y + n.y * rect.h, rd = Math.max(6, (n.r ?? 0.04) * unit * (0.4 + 0.08 * pulse)); ctx.beginPath(); ctx.arc(px0, py0, rd, 0, Math.PI * 2); ctx.fillStyle = rgba(pal.good, 0.85); ctx.fill(); ctx.lineWidth = 2; ctx.strokeStyle = 'rgba(255,255,255,0.7)'; ctx.stroke(); }
         if (state.selected !== null) { const n = byId.get(state.selected); if (n) { ctx.beginPath(); ctx.arc(rect.x + n.x * rect.w, rect.y + n.y * rect.h, (n.r ?? 0.04) * unit * 1.2, 0, Math.PI * 2); ctx.strokeStyle = pal.good; ctx.lineWidth = 4; ctx.stroke(); } }
         if (state.hint) for (const id of [state.hint.from, state.hint.to]) { const n = id !== undefined ? byId.get(id) : null; if (!n) continue; ctx.beginPath(); ctx.arc(rect.x + n.x * rect.w, rect.y + n.y * rect.h, (n.r ?? 0.04) * unit * 1.3, 0, Math.PI * 2); ctx.strokeStyle = '#ffffff'; ctx.setLineDash([8, 6]); ctx.lineWidth = 3; ctx.stroke(); ctx.setLineDash([]); }
       }
     };
 
     const render = (ctx) => {
-      hits = [];
+      ui.begin();
       const W = meta.width, H = meta.height;
-      ctx.fillStyle = pal.bg; ctx.fillRect(0, 0, W, H);
-      if (state.scene === 'title') return renderTitle(ctx, W, H);
-      if (state.scene === 'rules') return renderRules(ctx, W, H);
-      const d = rules.describe(state.game);
-      const legal = rules.moves(state.game);
-      // header: names, scores, turn
-      label(ctx, T.title, W / 2, 28, px(30), pal.ink, 'center', '700');
-      const status = state.winner !== null ? '' : state.mode === 'watch' ? 'Watch and learn: the computer plays both sides' : humanTurn() ? (state.mode === 'two' ? `${playerName(d, state.game.turn)}: your move` : 'Your move') : 'Computer is thinking…';
-      label(ctx, state.msg || d.status || status, W / 2, 28 + px(34), px(22), state.msg ? pal.accent : pal.dim, 'center', '500');
-      if (d.scores) { label(ctx, `${d.scores[0]}`, 40, 28, px(34), pal.p0, 'center', '700'); label(ctx, `${d.scores[1]}`, W - 40, 28, px(34), pal.p1, 'center', '700'); }
-      const rect = boardRect(d.aspect ?? 1);
-      drawBoard(ctx, d, rect, legal);
-      // footer
-      const bw = Math.min(150, (W - 40) / 4 - 8), bh = Math.max(44 / (meta.cssPerUnit || 1), px(54)), by = H - bh - 18;
-      const names = [['menu', 'Menu'], ['undo', 'Undo'], ['hint', 'Hint'], ['new', 'New']];
-      const total = names.length * bw + (names.length - 1) * 10; let x = (W - total) / 2;
-      for (const [id, t] of names) { button(ctx, id, t, x, by, bw, bh, { off: id === 'undo' && !state.history.length }); x += bw + 10; }
-      if (state.winner !== null && state.overT > 0.4 && !options.shot) {
-        rr(ctx, W * 0.1, H * 0.34, W * 0.8, H * 0.26, 24); ctx.fillStyle = 'rgba(10,16,22,0.94)'; ctx.fill(); ctx.strokeStyle = pal.accent; ctx.lineWidth = 3; ctx.stroke();
-        const w = state.winner; const msg = w === 'draw' ? 'A draw' : state.mode === 'watch' ? `${playerName(d, w)} wins` : state.mode === 'ai' ? (w === state.human ? 'You win!' : 'The computer wins') : `${playerName(d, w)} wins`;
-        label(ctx, msg, W / 2, H * 0.34 + H * 0.08, px(46), pal.accent, 'center', '800');
-        button(ctx, 'again', 'Play again', W / 2 - 200, H * 0.34 + H * 0.15, 190, px(58), { primary: true });
-        button(ctx, 'menu', 'Menu', W / 2 + 10, H * 0.34 + H * 0.15, 190, px(58));
-      }
+      ui.background(ctx, 0, 0, W, H);
+      ui.sceneBegin(ctx, state.sceneT);
+      if (state.scene === 'title') renderTitle(ctx, W, H);
+      else if (state.scene === 'rules') renderRules(ctx, W, H);
+      else renderPlay(ctx, W, H);
+      ui.sceneEnd(ctx, W, H, state.sceneT);
     };
 
+    const renderPlay = (ctx, W, H) => {
+      const d = rules.describe(state.game);
+      const legal = rules.moves(state.game);
+      const status = state.winner !== null ? '' : state.mode === 'watch' ? 'Watch and learn: the computer plays both sides' : humanTurn() ? (state.mode === 'two' ? `${playerName(d, state.game.turn)}: your move` : 'Your move') : 'Computer is thinking…';
+      const turn = state.winner === null ? state.game.turn : -1;
+      const chips = [0, 1].map((p) => ({ label: d.scores ? String(d.scores[p]) : (state.mode === 'ai' ? (p === state.human ? 'You' : 'CPU') : `P${p + 1}`), color: ownerColor(p), active: turn === p }));
+      ui.header(ctx, W, { title: T.title, sub: state.msg || d.status || status, subAccent: !!state.msg, chips });
+      drawBoard(ctx, d, boardRect(d.aspect ?? 1), legal);
+      if (!autoplay) ui.footer(ctx, W, H, [{ id: 'menu', label: 'Menu', icon: 'menu' }, { id: 'undo', label: 'Undo', icon: 'undo', off: !state.history.length }, { id: 'hint', label: 'Hint', icon: 'hint' }, { id: 'new', label: 'New', icon: 'plus' }]);
+      if (state.winner !== null && state.overT > 0.4 && !options.shot) {
+        const w = state.winner;
+        const msg = w === 'draw' ? 'A draw' : state.mode === 'watch' ? `${playerName(d, w)} wins` : state.mode === 'ai' ? (w === state.human ? 'You win!' : 'The computer wins') : `${playerName(d, w)} wins`;
+        ui.clearHits();
+        ui.resultCard(ctx, W, H, {
+          rt: state.overT - 0.4, headline: msg, stars: null, note: T.heritage ? firstSentence(T.heritage) : '',
+          buttons: [{ id: 'again', label: 'Play again', primary: true, icon: 'restart' }, { id: 'menu', label: 'Menu', icon: 'menu' }],
+        });
+      } else ui.particles(ctx);
+    };
+
+    const titleD = rules.describe(state.game);   // opening position, captured before any move (never re-inits: rng stays untouched)
+    const titleHero = (c, r) => {
+      if (rules.titleArt) return rules.titleArt({ ctx: c, pal, ui, px, t: state.t }, r);
+      const asp = titleD.aspect ?? 1; let bw = r.w * 0.96, bh = bw / asp;
+      if (bh > r.h * 0.96) { bh = r.h * 0.96; bw = bh * asp; }
+      drawBoard(c, titleD, { x: r.cx - bw / 2, y: r.cy - bh / 2, w: bw, h: bh }, []);
+    };
     const renderTitle = (ctx, W, H) => {
-      let y = H * 0.1;
-      label(ctx, T.title, W / 2, y, px(56), pal.accent, 'center', '800'); y += px(52);
-      if (T.native) { label(ctx, T.native, W / 2, y, px(30), pal.ink, 'center', '500'); y += px(40); }
-      if (T.countries.length) { label(ctx, T.countries.slice(0, 3).join(' · '), W / 2, y, px(22), pal.dim); y += px(38); }
-      ctx.fillStyle = pal.dim;
-      for (const line of wrap(ctx, T.summary, W - 80, px(24)).slice(0, 5)) { label(ctx, line, W / 2, y, px(24), pal.ink, 'center', '400'); y += px(32); }
-      y = Math.max(y + 20, H * 0.5);
-      const bw = Math.min(460, W - 60), bh = Math.max(46 / (meta.cssPerUnit || 1), px(64));
-      button(ctx, 'ai', 'Play the computer', (W - bw) / 2, y, bw, bh, { primary: true }); y += bh + 14;
-      button(ctx, 'two', 'Two players', (W - bw) / 2, y, bw, bh); y += bh + 14;
-      button(ctx, 'watch', 'Watch and learn', (W - bw) / 2, y, bw, bh); y += bh + 14;
-      button(ctx, 'level', `Computer: ${state.level[0].toUpperCase()}${state.level.slice(1)}`, (W - bw) / 2, y, bw / 2 - 6, bh);
-      button(ctx, 'side', `You play: ${state.human === 0 ? 'first' : 'second'}`, (W - bw) / 2 + bw / 2 + 6, y, bw / 2 - 6, bh); y += bh + 14;
-      button(ctx, 'howto', 'How to play and rules', (W - bw) / 2, y, bw, bh);
+      ui.titleScreen(ctx, W, H, {
+        title: T.title, native: T.native, countries: T.countries, summary: T.summary, hero: titleHero,
+        rows: [
+          [{ id: 'ai', label: 'Play the computer', icon: 'bot', primary: true }],
+          [{ id: 'two', label: 'Two players', icon: 'people' }, { id: 'watch', label: 'Watch and learn', icon: 'eye' }],
+          [{ id: 'level', label: `Computer: ${state.level[0].toUpperCase()}${state.level.slice(1)}`, icon: 'flag' }, { id: 'side', label: `You play: ${state.human === 0 ? 'first' : 'second'}` }],
+          [{ id: 'howto', label: 'How to play and rules', icon: 'book' }],
+        ],
+      });
     };
 
     const renderRules = (ctx, W, H) => {
-      const lines = [];
-      const size = px(24);
-      ctx.font = `400 ${Math.round(size)}px system-ui, sans-serif`;
-      lines.push({ t: 'How to play', h: true });
-      T.howToPlay.forEach((s, i) => wrap(ctx, `${i + 1}. ${s}`, W - 70, size).forEach((l) => lines.push({ t: l })));
-      if (T.rules.length) { lines.push({ t: '' }, { t: 'Rules', h: true }); T.rules.forEach((s) => wrap(ctx, `• ${s}`, W - 70, size).forEach((l) => lines.push({ t: l }))); }
-      if (T.heritage) { lines.push({ t: '' }, { t: 'About the tradition', h: true }); wrap(ctx, T.heritage, W - 70, size).forEach((l) => lines.push({ t: l })); }
-      const lh = size * 1.4, top = 70, bottom = H - 110;
-      const maxScroll = Math.max(0, lines.length * lh - (bottom - top));
-      state.scroll = Math.min(state.scroll, maxScroll);
-      ctx.save(); ctx.beginPath(); ctx.rect(0, top, W, bottom - top); ctx.clip();
-      lines.forEach((l, i) => { const y = top + i * lh - state.scroll + lh / 2; if (l.h) label(ctx, l.t, 36, y, size * 1.15, pal.accent, 'left', '700'); else label(ctx, l.t, 36, y, size, pal.ink, 'left', '400'); });
-      ctx.restore();
-      label(ctx, T.title, W / 2, 34, px(30), pal.ink, 'center', '700');
-      const bh = Math.max(44 / (meta.cssPerUnit || 1), px(54));
-      button(ctx, 'back', 'Back', 20, H - bh - 18, 150, bh, { primary: true });
-      button(ctx, 'up', 'Up', W - 340, H - bh - 18, 150, bh, { off: state.scroll <= 0 });
-      button(ctx, 'down', 'Down', W - 170, H - bh - 18, 150, bh, { off: state.scroll >= maxScroll });
+      const sections = [];
+      if (T.howToPlay.length) sections.push({ h: 'How to play', steps: T.howToPlay });
+      if (T.rules.length) sections.push({ h: 'Rules', bullets: T.rules });
+      if (T.heritage) sections.push({ h: 'About the tradition', para: T.heritage, italic: true });
+      const r = ui.rulesCard(ctx, W, H, { title: T.title, sections, scroll: state.scroll });
+      maxScroll = r.maxScroll; state.scroll = r.scroll;
     };
 
     // virtual-resolution point of a board node (tests and accessibility helpers tap exactly where the player would)

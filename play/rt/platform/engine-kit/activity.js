@@ -74,11 +74,18 @@ export function createActivityEngine({ createActivity, spec = {}, theme = {}, te
       }
       if (drag) { if (p.down) state.scroll = Math.max(0, Math.min(state.maxScroll || 1e9, drag.s - (p.y - drag.y))); else drag = null; }
       if (!autoplay && state.scene === 'title' && input.keys?.pressed?.has('Enter')) press('play');
+      if (!autoplay && state.scene === 'rules') {   // keyboard: Enter / Space / Escape leave the rules page, arrows scroll
+        const k = input.keys?.pressed;
+        if (k && (k.has('Enter') || k.has('Space') || k.has('Escape'))) press('back');
+        else if (k?.has('ArrowDown')) press('down');
+        else if (k?.has('ArrowUp')) press('up');
+      }
       if (input.wheel && state.scene === 'rules') state.scroll = Math.max(0, Math.min(state.maxScroll || 1e9, state.scroll + input.wheel.dy));
       if (state.scene !== 'play') return;
       if (state.outcome) {
         const prev = state.outcomeT; state.outcomeT += dt;
         ui.resultTick(prev, state.outcomeT, { stars: state.outcome.stars ?? 0, win: (state.outcome.stars ?? 1) > 0, newBest: state.newBest });
+        if (autoplay && !options.shot && meta.cssPerUnit && state.outcomeT > 5) start(true);   // attract mode loops so live previews never freeze
         return;
       }
       if (state.watch || autoplay) act.attract ? act.attract(dt, input) : act.update(dt, input);

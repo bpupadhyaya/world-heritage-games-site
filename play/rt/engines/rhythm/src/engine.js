@@ -6,5 +6,7 @@ export const ENGINE_ID = 'rhythm';
 export { createActivity };
 
 export function createEngine(spec = {}, theme = {}, text = {}, options = {}) {
-  return createActivityEngine({ createActivity, spec, theme, text, options });
+  // the spec's `variant` (e.g. charango, carillon) picks the instrument's look; rules never read it
+  const make = (params, env) => createActivity(params, { ...env, variant: spec.variant ?? '' });
+  return createActivityEngine({ createActivity: make, spec, theme, text, options });
 }

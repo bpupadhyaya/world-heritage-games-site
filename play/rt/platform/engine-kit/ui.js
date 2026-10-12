@@ -386,7 +386,7 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
   };
 
   // header/HUD band: title (display face), sub line, score pill with count-up, optional combo and progress bar
-  ui.header = (ctx, W, { title = '', sub = '', subAccent = false, score = null, max = null, frac = null, combo = 0, scoreKey = 'score' } = {}) => {
+  ui.header = (ctx, W, { title = '', sub = '', subAccent = false, score = null, max = null, frac = null, combo = 0, scoreKey = 'score', chips = null } = {}) => {
     const ins = frameInsets;
     const top = ins.top, H0 = px(96);
     ctx.save();
@@ -395,11 +395,24 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     ctx.fillStyle = 'rgba(255,255,255,0.1)'; ctx.fillRect(0, top + H0 - 1, W, 1);
     ctx.restore();
     const left = 16 + ins.left + ins.back, right = W - 16 - ins.right;
-    // score pill
     let pillW = 0;
-    if (score !== null && score !== undefined) {
+    if (chips) {   // player chips (board games): coloured dot + value, the side to move is ringed
+      const cw = px(78), ch = px(46), py = top + px(12);
+      chips.forEach((c, i) => {
+        const cx0 = right - (chips.length - i) * (cw + 8) + 8;
+        ui.panel(ctx, cx0, py, cw, ch, { r: ch / 2, fill: shade(pal.panel, -0.1), border: c.active ? pal.accent : 'rgba(255,255,255,0.15)', shadow: false });
+        if (c.active) { ctx.save(); rr(ctx, cx0 - 2, py - 2, cw + 4, ch + 4, ch / 2 + 2); ctx.strokeStyle = rgba(pal.accent, reduced ? 0.6 : 0.35 + 0.3 * Math.sin(t * 5)); ctx.lineWidth = 3; ctx.stroke(); ctx.restore(); }
+        const dr = ch * 0.22; ctx.beginPath(); ctx.arc(cx0 + ch * 0.45, py + ch / 2, dr, 0, 6.3);
+        ctx.fillStyle = vgrad(ctx, py + ch / 2 - dr, py + ch / 2 + dr, [[0, shade(c.color, 0.4)], [1, shade(c.color, -0.3)]]); ctx.fill(); ctx.lineWidth = 1.5; ctx.strokeStyle = 'rgba(255,255,255,0.7)'; ctx.stroke();
+        const lab = String(c.label); const z = ui.fit(ctx, lab, cw - ch * 0.85 - 6, px(24), '800', true);
+        ui.text(ctx, lab, cx0 + ch * 0.8 + (cw - ch * 0.8) / 2 - 4, py + ch / 2 + 1, z, { display: true, color: c.active ? pal.accent : pal.ink });
+      });
+      pillW = chips.length * (cw + 8);
+    }
+    // score pill
+    if (!chips && score !== null && score !== undefined) {
       const shown = typeof score === 'number' ? ui.count(scoreKey, score) : score;
-      const big = px(34), small = px(20);
+      const big = px(34), small = px(22);
       setFont(ctx, big, '800', true);
       let txt = String(shown), tw = ctx.measureText(txt).width, mw = 0, mtxt = '';
       if (max) { mtxt = ` / ${max}`; setFont(ctx, small, '600'); mw = ctx.measureText(mtxt).width; }
@@ -424,7 +437,7 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     const tsz = ui.fit(ctx, title, maxW, px(32), '800', true);
     ui.text(ctx, title, left, top + px(28), tsz, { align: 'left', display: true, color: pal.ink, shadow: true });
     if (sub) {
-      const ssz = ui.fit(ctx, sub, maxW, px(21), '600');
+      const ssz = ui.fit(ctx, sub, maxW, px(24), '600');
       ui.text(ctx, sub, left, top + px(60), ssz, { align: 'left', color: subAccent ? pal.accent : pal.dim, weight: '600' });
     }
     if (frac !== null && frac !== undefined) {
@@ -484,12 +497,12 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     ctx.save(); ctx.translate(cx, cy); ctx.rotate(spin);
     if (variant === 0) {          // rosette
       for (let layer = 0; layer < 2; layer++) {
-        const pr = R * (layer ? 0.42 : 0.66), pw = R * (layer ? 0.16 : 0.2);
+        const dist = R * (layer ? 0.27 : 0.46), rx = (6.2832 * dist) / n * 0.62, ry = R * (layer ? 0.17 : 0.3);
         for (let i = 0; i < n; i++) {
           ctx.save(); ctx.rotate((i / n) * 6.2832 + (layer ? Math.PI / n : 0));
           const c = cols[(i + layer) % 3];
-          ctx.beginPath(); ctx.ellipse(0, -pr * 0.7, pw, pr * 0.42, 0, 0, 6.3);
-          ctx.fillStyle = vgrad(ctx, -pr, 0, [[0, shade(c, 0.3)], [1, shade(c, -0.25)]]); ctx.fill();
+          ctx.beginPath(); ctx.ellipse(0, -dist, rx, ry, 0, 0, 6.3);
+          ctx.fillStyle = vgrad(ctx, -dist - ry, -dist + ry, [[0, shade(c, 0.35)], [1, shade(c, -0.3)]]); ctx.fill();
           ctx.lineWidth = 1.5; ctx.strokeStyle = 'rgba(0,0,0,0.4)'; ctx.stroke();
           ctx.restore();
         }
@@ -529,21 +542,25 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
   ui.titleScreen = (ctx, W, H, { title = '', native = '', countries = [], summary = '', best = null, rows = [], hero = null, tagline = '' } = {}) => {
     const ins = frameInsets;
     const land = W > H * 1.1;
-    const bh = ui.buttonH(62), gap = 12;
+    let bh = ui.buttonH(land ? 54 : 62);
+    const gap = 12;
     const colX = land ? W * 0.5 + 10 : 24, colW = land ? W * 0.5 - 40 - ins.right : W - 48;
-    const blockH = rows.length * bh + (rows.length - 1) * gap;
     const centerX = colX + colW / 2;
-    // measure text block
-    const tsz = px(land ? 54 : 62);
+    const tsz = px(land ? 50 : 62);
     const tl = ui.wrap(ctx, title, colW, ui.fit(ctx, title, colW * (title.length > 18 ? 1.0 : 1), tsz, '800', true), { weight: '800', display: true });
-    const titleLines = Math.min(2, tl.length);
-    const titleH = titleLines * tsz * 1.08;
-    const nativeH = native ? px(40) : 0, ctyH = countries.length ? px(40) : 0;
-    const sumLines = summary ? ui.wrap(ctx, summary, colW, px(23)).slice(0, land ? 6 : 4) : [];
-    const sumH = sumLines.length * px(31);
+    const titleH = Math.min(2, tl.length) * tsz * 1.08;
+    const nativeH = native ? px(42) : 0, ctyH = countries.length ? px(46) : 0;
+    let sumLines = summary ? ui.wrap(ctx, summary, colW, px(27)).slice(0, land ? 6 : 4) : [];
     const bestH = best ? px(52) : 0;
-    const textH = titleH + nativeH + ctyH + (summary ? px(26) : 0) + sumH + bestH;
     const bottomPad = ins.bottom + 22;
+    const measure = () => titleH + nativeH + ctyH + (sumLines.length ? px(26) : 0) + sumLines.length * px(37) + bestH;
+    const blockOf = () => rows.length * bh + (rows.length - 1) * gap;
+    if (land) {   // short screens: shrink buttons to 44 css px, then drop the summary, so nothing runs off the bottom
+      const avail = H - ins.top - bottomPad - 12;
+      while (measure() + 20 + blockOf() > avail && bh > css(44)) bh = Math.max(css(44), bh - 4);
+      while (measure() + 20 + blockOf() > avail && sumLines.length) sumLines = sumLines.slice(0, sumLines.length - 1);
+    }
+    const blockH = blockOf(), sumH = sumLines.length * px(37), textH = measure();
     let heroR = 0, heroCx = W / 2, heroCy = 0, y;
     if (land) {
       heroR = Math.min(W * 0.5 * 0.4, (H - ins.top - bottomPad) * 0.36);
@@ -552,7 +569,7 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
       y = Math.max(ins.top + 14, (H - total) / 2);
     } else {
       const availH = H - ins.top - 24 - textH - 30 - blockH - bottomPad;
-      heroR = Math.max(0, Math.min(W * 0.34, availH / 2.15));
+      heroR = Math.max(0, Math.min(W * 0.4, availH / 2.15));
       const heroBlock = heroR > 70 ? heroR * 2.15 : 0;
       heroCy = ins.top + 28 + heroR; if (!heroBlock) heroR = 0;
       y = ins.top + 28 + heroBlock + (heroBlock ? 22 : 10);
@@ -564,18 +581,18 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     // title block
     ui.title(ctx, title, centerX, y, tsz, { maxW: colW, lines: 2 }); y += titleH;
     if (native) { ui.text(ctx, native, centerX, y + px(18), ui.fit(ctx, native, colW, px(32), '600', true), { display: true, italic: true, weight: '600', color: pal.ink, shadow: true }); y += nativeH; }
-    if (countries.length) { ui.text(ctx, countries.slice(0, 3).join('  ·  ').toUpperCase(), centerX, y + px(14), px(17), { color: pal.accent, weight: '700', spacing: 3 }); y += ctyH; }
-    if (summary) {
+    if (countries.length) { ui.text(ctx, countries.slice(0, 3).join('  ·  ').toUpperCase(), centerX, y + px(16), px(23), { color: pal.accent, weight: '700', spacing: 3 }); y += ctyH; }
+    if (sumLines.length) {
       y += px(6);
       const ow = Math.min(colW * 0.5, 180);
       ctx.strokeStyle = rgba(pal.accent, 0.5); ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(centerX - ow / 2, y + 4); ctx.lineTo(centerX - 12, y + 4); ctx.moveTo(centerX + 12, y + 4); ctx.lineTo(centerX + ow / 2, y + 4); ctx.stroke();
       ui.sparkle(ctx, centerX, y + 4, 8, { color: pal.accent }); y += px(20);
-      sumLines.forEach((l, i) => { ui.text(ctx, l, centerX, y + px(15) + i * px(31), px(23), { color: pal.ink, weight: '400' }); });
+      sumLines.forEach((l, i) => { ui.text(ctx, l, centerX, y + px(18) + i * px(37), px(27), { color: pal.ink, weight: '400' }); });
       y += sumH;
     }
     if (best) {
       const label = `Best  ${best.score}`;
-      setFont(ctx, px(23), '700'); const tw = ctx.measureText(label).width + (best.stars ? px(23) * 3.4 : 0) + 36, bwid = Math.min(colW, tw);
+      setFont(ctx, px(25), '700'); const tw = ctx.measureText(label).width + (best.stars ? px(25) * 3.4 : 0) + 36, bwid = Math.min(colW, tw);
       ui.panel(ctx, centerX - bwid / 2, y + 4, bwid, px(42), { r: px(21), fill: shade(pal.panel, -0.12), border: rgba(pal.accent, 0.5), shadow: false });
       ui.text(ctx, label, centerX - (best.stars ? px(23) * 1.5 : 0), y + 4 + px(21) + 1, px(23), { color: pal.accent, weight: '700' });
       if (best.stars) for (let i = 0; i < 3; i++) ui.star(ctx, centerX + bwid / 2 - px(23) * (3.0 - i * 0.95) - 6, y + 4 + px(21), px(23), { filled: i < best.stars });
@@ -609,7 +626,7 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     ctx.save(); rr(ctx, cardX, cardY, cardW, cardH, 22); ctx.clip(); ui.texture(ctx, cardX, cardY, cardW, cardH, { kind: 'paper', alpha: 0.12, dark: '#7a5f33', light: '#7a5f33' }); ctx.restore();
     rr(ctx, cardX + 8, cardY + 8, cardW - 16, cardH - 16, 15); ctx.strokeStyle = rgba(pal.accent === '#f2c14e' ? '#a9792a' : shade(pal.accent, -0.35), 0.7); ctx.lineWidth = 2; ctx.stroke();
     // content
-    const pad = 26, tx = cardX + pad + 8, tw = cardW - pad * 2 - 16, size = px(24), lh = size * 1.42;
+    const pad = 26, tx = cardX + pad + 8, tw = cardW - pad * 2 - 16, size = px(28), lh = size * 1.42;
     const innerTop = cardY + 20, innerBot = cardY + cardH - 20, viewH = innerBot - innerTop;
     // measure
     const items = [];
@@ -689,11 +706,11 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     ctx.fillStyle = `rgba(6,10,16,${0.62 * appear})`; ctx.fillRect(0, 0, W, H);
     const cardW = Math.min(W - 40, 600);
     const tsz = ui.fit(ctx, headline, cardW - 48, px(44), '800', true);
-    const detLines = detail ? ui.wrap(ctx, detail, cardW - 56, px(22)).slice(0, 3) : [];
-    const noteLines = note ? ui.wrap(ctx, note, cardW - 64, px(19), { italic: true }).slice(0, 3) : [];
+    const detLines = detail ? ui.wrap(ctx, detail, cardW - 56, px(26)).slice(0, 3) : [];
+    const noteLines = note ? ui.wrap(ctx, note, cardW - 64, px(23), { italic: true }).slice(0, 3) : [];
     const bh = ui.buttonH(58);
     const medalH = px(110);
-    const hCard = px(26) + tsz * 1.3 + medalH + (score !== null ? px(50) : 0) + detLines.length * px(30) + (best ? px(40) : 0) + (noteLines.length ? noteLines.length * px(25) + px(24) : 0) + bh + px(36);
+    const hCard = px(26) + tsz * 1.3 + medalH + (score !== null ? px(50) : 0) + detLines.length * px(34) + (best ? px(42) : 0) + (noteLines.length ? noteLines.length * px(30) + px(24) : 0) + bh + px(36);
     const x = (W - cardW) / 2;
     const yMax = H - ins.bottom - hCard - 20;
     const y = Math.max(ins.top + 10, Math.min((H - hCard) / 2 - H * 0.02, yMax));
@@ -724,19 +741,19 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
       const v = reduced ? score : Math.round(score * easeOut((rt - 0.2) / 0.9));
       ui.text(ctx, max ? `${v}  /  ${max}` : String(v), W / 2, yy + px(22), px(40), { display: true, color: pal.ink, shadow: true }); yy += px(50);
     }
-    detLines.forEach((l, i) => ui.text(ctx, l, W / 2, yy + px(15) + i * px(30), px(22), { color: pal.dim, weight: '500' })); yy += detLines.length * px(30);
+    detLines.forEach((l, i) => ui.text(ctx, l, W / 2, yy + px(17) + i * px(34), px(26), { color: pal.dim, weight: '500' })); yy += detLines.length * px(34);
     if (best) {
       const txt = newBest ? 'New best!' : `Best  ${best.score}`;
-      setFont(ctx, px(21), '700'); const pw = ctx.measureText(txt).width + 36;
+      setFont(ctx, px(24), '700'); const pw = ctx.measureText(txt).width + 36;
       ui.panel(ctx, W / 2 - pw / 2, yy + px(4), pw, px(34), { r: px(17), fill: newBest ? shade(pal.accent, -0.35) : shade(pal.panel, -0.15), border: rgba(pal.accent, 0.6), shadow: false });
-      ui.text(ctx, txt, W / 2, yy + px(21), px(21), { color: newBest ? '#fff' : pal.accent, weight: '700' });
+      ui.text(ctx, txt, W / 2, yy + px(21), px(24), { color: newBest ? '#fff' : pal.accent, weight: '700' });
       if (newBest && !reduced) ui.sparkle(ctx, W / 2 + pw / 2 - 4, yy + px(6), px(11) * (0.7 + 0.3 * Math.sin(rt * 6)), { rot: rt * 2 });
       yy += px(40);
     }
     if (noteLines.length) {
       yy += px(8);
       ctx.strokeStyle = rgba(pal.accent, 0.4); ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(W / 2 - 60, yy); ctx.lineTo(W / 2 + 60, yy); ctx.stroke();
-      noteLines.forEach((l, i) => ui.text(ctx, l, W / 2, yy + px(16) + i * px(25), px(19), { color: pal.dim, italic: true, weight: '400' })); yy += noteLines.length * px(25) + px(16);
+      noteLines.forEach((l, i) => ui.text(ctx, l, W / 2, yy + px(18) + i * px(30), px(23), { color: pal.dim, italic: true, weight: '400' })); yy += noteLines.length * px(30) + px(16);
     }
     const n = buttons.length, gap = 12, bwid = (cardW - 48 - gap * (n - 1)) / n, by = y + hCard - bh - px(20);
     buttons.forEach((b, i) => ui.button(ctx, b.id, b.label, x + 24 + i * (bwid + gap), by, bwid, bh, { primary: b.primary, icon: b.icon, size: Math.min(px(26), bh * 0.42) }));
