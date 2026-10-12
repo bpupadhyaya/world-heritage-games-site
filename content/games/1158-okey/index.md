@@ -55,5 +55,4 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 ## Sources
 
 - <https://en.wikipedia.org/wiki/Okey>
-- <https://play.google.com/store/apps/details?id=com.ahoygames.okey&hl=en_US>
 - <https://www.pagat.com/national/turkey.html>
