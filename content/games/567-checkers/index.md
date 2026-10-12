@@ -15,6 +15,10 @@ countries: ["Bahamas", "United States"]
 
 **Encyclopedia ID 567** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/567-checkers/
 
+![Checkers](../../../img/photos/00567-checkers.jpg)
+
+*Photo: Jud McCranie, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:CheckersStandard.jpg)*
+
 Common bar and park game in the Caribbean; pool-checkers (Wikipedia) is regionally associated.
 
 ## Heritage note

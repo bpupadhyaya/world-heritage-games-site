@@ -15,6 +15,10 @@ countries: ["Cameroon", "Gabon", "Equatorial Guinea", "DR Congo"]
 
 **Encyclopedia ID 617** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/617-songo/
 
+![Songo](../../../img/photos/00617-songo.jpg)
+
+*Photo: MozMozJ, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yao_People_Playing_%22Bawo%22.jpg)*
+
 Two-row, 14-house sowing game with five seeds per house, played by Ekang/Beti/Fang peoples; first to bank 40 wins.
 
 ## How it is played
@@ -45,8 +49,8 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - [Mangola](../../games/668-mangola/index.md)
 - [Local mancala variants](../../games/698-local-mancala-variants/index.md)
 - [Kale](../../games/732-kale/index.md)
+- [Oware](../../games/749-oware/index.md)
 - [Oware-family mancala](../../games/587-oware-family-mancala/index.md)
-- [Ouril](../../games/611-ouril/index.md)
 
 ## Sources
 

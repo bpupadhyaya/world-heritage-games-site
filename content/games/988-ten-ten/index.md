@@ -15,6 +15,10 @@ countries: ["Nigeria"]
 
 **Encyclopedia ID 988** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/988-ten-ten/
 
+![Ten Ten](../../../img/photos/00988-ten-ten.jpg)
+
+*Photo: anonymous, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Cosmic_Lotus_Mahakala_and_the_Ten_Sikh_Gurus.jpg)*
+
 Children face each other and jump to show one or two feet; matching feet score a point, in a rhythm closely related to Ampe.
 
 ## Heritage note

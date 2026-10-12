@@ -42,8 +42,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Yap stone money trade puzzle](../../games/1401-yap-stone-money-trade-puzzle/index.md)
 - [Gumboot throwing](../../games/448-gumboot-throwing/index.md)
 - [Kī-o-rahi](../../games/978-ki-o-rahi/index.md)
-- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md)
 - [Maori stick games](../../games/981-maori-stick-games/index.md)
+- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md)
 
 ## Sources
 

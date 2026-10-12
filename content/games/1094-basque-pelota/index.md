@@ -15,6 +15,10 @@ countries: ["Spain", "France"]
 
 **Encyclopedia ID 1094** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1094-basque-pelota/
 
+![Basque Pelota](../../../img/photos/01094-basque-pelota.jpg)
+
+*Photo: No machine-readable author provided. Harrieta171 assumed (based on copyright claims)., [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ustaritz_Fronton_Pala.jpg)*
+
 Wall-and-court ball sport played with the hand, racket or basket; frontón courts in most Basque towns.
 
 ## Heritage note
@@ -45,4 +49,4 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Euclid's Ruler and Compass](../../games/396-euclids-ruler-and-compass/index.md)
 - [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md)
 - [Gondola Rowing](../../games/401-gondola-rowing/index.md)
-- [Ghadames Rooftop Maze](../../games/1291-ghadames-rooftop-maze/index.md)
+- [Bocce](../../games/830-bocce/index.md)

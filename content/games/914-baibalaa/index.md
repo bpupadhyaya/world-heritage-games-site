@@ -36,11 +36,11 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 ## Related entries
 
 - [Hide and Seek](../../games/475-hide-and-seek/index.md)
-- [Ziziros](../../games/659-ziziros/index.md)
-- [Fijian tag](../../games/712-fijian-tag/index.md)
 - [Galah panjang](../../games/909-galah-panjang/index.md)
 - [Stick game](../../games/912-stick-game/index.md)
 - [Bashi](../../games/915-bashi/index.md)
+- [Tag](../../games/959-tag/index.md)
+- [Patintero](../../games/1021-patintero/index.md)
 
 ## Sources
 

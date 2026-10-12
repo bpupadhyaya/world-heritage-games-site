@@ -15,6 +15,10 @@ countries: ["Haiti", "Jamaica", "Cameroon", "Central African Republic", "Chad", 
 
 **Encyclopedia ID 763** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/763-ludo/
 
+![Ludo](../../../img/photos/00763-ludo.jpg)
+
+*Photo: Micha L. Rieser, Attribution, [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ludo-3.jpg)*
+
 Race four tokens round a cross-shaped track by dice throws, sending rivals home by landing on them; a simplified descendant of Pachisi.
 
 ## Heritage note
@@ -41,12 +45,12 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 
 ## Related entries
 
-- [Tavëll](../../games/527-tavell/index.md)
 - [Nardi](../../games/551-nardi/index.md)
-- [Colombian Parqués](../../games/644-colombian-parques/index.md)
 - [Tavli](../../games/656-tavli/index.md)
 - [Senet](../../games/693-senet/index.md)
-- [Egyptian backgammon](../../games/695-egyptian-backgammon/index.md)
+- [Don't Get Angry](../../games/744-dont-get-angry/index.md)
+- [Royal Game of Ur](../../games/817-royal-game-of-ur/index.md)
+- [Nard / backgammon](../../games/1168-nard-backgammon/index.md)
 
 ## Sources
 

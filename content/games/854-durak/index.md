@@ -15,6 +15,10 @@ countries: ["Kazakhstan", "Turkmenistan", "Armenia", "Azerbaijan", "Georgia", "L
 
 **Encyclopedia ID 854** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/854-durak/
 
+![Durak](../../../img/photos/00854-durak.jpg)
+
+*Photo: Gzhegozh, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Russian_card_game_Durak.jpg)*
+
 Russia's national card game: attack, defend, pile on cards, and avoid being the last holder.
 
 ## Heritage note

@@ -15,6 +15,10 @@ countries: ["United States"]
 
 **Encyclopedia ID 1193** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1193-chickenfoot/
 
+![Chickenfoot](../../../img/photos/01193-chickenfoot.jpg)
+
+*Photo: Liko81, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mexican_Train.jpg)*
+
 Spinner-hub family domino games where players build branching lines; Chickenfoot adds forked 'feet'.
 
 ## Heritage note
@@ -38,11 +42,11 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [Texas 42](../../games/1195-texas-42/index.md)
-- [Bahamian dominoes](../../games/569-bahamian-dominoes/index.md)
-- [Slam dominoes](../../games/578-slam-dominoes/index.md)
 - [Mahjong](../../games/635-mahjong/index.md)
-- [Cuban dominoes](../../games/653-cuban-dominoes/index.md)
-- [Dominoes](../../games/679-dominoes/index.md)
+- [Cafe dominoes](../../games/690-cafe-dominoes/index.md)
+- [Rummikub](../../games/826-rummikub/index.md)
+- [Riichi mahjong](../../games/851-riichi-mahjong/index.md)
+- [Bahamian dominoes](../../games/569-bahamian-dominoes/index.md)
 
 ## Sources
 

@@ -37,8 +37,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Related entries
 
-- [Czech draughts](../../games/662-czech-draughts/index.md)
 - [Shashki](../../games/1177-shashki/index.md)
+- [Czech draughts](../../games/662-czech-draughts/index.md)
 - [Turkish Dama](../../games/155-turkish-dama/index.md)
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md)
 - [Peralikatuma](../../games/287-peralikatuma/index.md)

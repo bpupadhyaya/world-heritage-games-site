@@ -13,6 +13,10 @@ countries: ["Guyana"]
 
 **Encyclopedia ID 761** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/761-rounders/
 
+![Rounders](../../../img/photos/00761-rounders.jpg)
+
+*Photo: Shale, John F., [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Game_of_rounders_on_Christmas_Day_at_Baroona,_Glamorgan_Vale,_1913.jpg)*
+
 Bat and ball.
 
 ## Heritage note
@@ -40,7 +44,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Pesapallo](../../games/484-pesapallo/index.md)
 - [Stoolball](../../games/492-stoolball/index.md)
 - [Gilli-Danda](../../games/793-gilli-danda/index.md)
-- [Taco bat game](../../games/655-taco-bat-game/index.md)
+- [Yard cricket](../../games/1151-yard-cricket/index.md)
 
 ## Sources
 

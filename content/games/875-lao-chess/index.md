@@ -46,7 +46,7 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Thai chess](../../games/1141-thai-chess/index.md)
 - [Vietnamese xiangqi](../../games/1215-vietnamese-xiangqi/index.md)
 - [Chaturanga](../../games/45-chaturanga/index.md)
-- [Mongolian chess](../../games/943-mongolian-chess/index.md)
+- [Chess](../../games/552-chess/index.md)
 
 ## Sources
 

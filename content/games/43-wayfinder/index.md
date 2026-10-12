@@ -41,9 +41,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [Dalgona](../../games/100-dalgona/index.md)
+- [Maori stick games](../../games/981-maori-stick-games/index.md)
 - [Vai Syllabary Decoder](../../games/1394-vai-syllabary-decoder/index.md)
 - [Carolinian string figures](../../games/938-carolinian-string-figures/index.md)
-- [Maori stick games](../../games/981-maori-stick-games/index.md)
 - [Whai](../../games/982-whai/index.md)
 - [Marshallese stick chart navigator](../../games/1333-marshallese-stick-chart-navigator/index.md)
 

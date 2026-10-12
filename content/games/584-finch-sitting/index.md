@@ -15,6 +15,10 @@ countries: ["Belgium"]
 
 **Encyclopedia ID 584** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/584-finch-sitting/
 
+![Finch sitting](../../../img/photos/00584-finch-sitting.jpg)
+
+*Photo: Donarreiskoffer, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vinkensport,_Deinze_03.JPG)*
+
 Chaffinch owners compete on how many songs their bird sings in an hour; 400-year-old Flemish tradition.
 
 ## Heritage note

@@ -15,6 +15,10 @@ countries: ["Japan"]
 
 **Encyclopedia ID 852** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/852-shogi/
 
+![Shogi](../../../img/photos/00852-shogi.jpg)
+
+*Photo: Oliver Orschiedt, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shogi_board_pieces_and_komadai.jpg)*
+
 Chess-like game on a 9x9 board in which captured pieces can be dropped back onto the board by the captor.
 
 ## Heritage note
@@ -45,8 +49,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Janggi](../../games/1081-janggi/index.md)
 - [Chaturanga](../../games/45-chaturanga/index.md)
 - [Sittuyin](../../games/302-sittuyin/index.md)
-- [Mongolian chess](../../games/943-mongolian-chess/index.md)
-- [Banqi](../../games/1437-banqi/index.md)
+- [Chess](../../games/552-chess/index.md)
+- [Luzhanqi](../../games/640-luzhanqi/index.md)
 
 ## Sources
 

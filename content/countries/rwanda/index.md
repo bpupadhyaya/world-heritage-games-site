@@ -13,6 +13,6 @@ count: 4
 4 entries.
 
 - [Agaseke basket weaving](../../games/89-agaseke-basket-weaving/index.md): Rwanda; Crafts and making; Living Traditions
+- [Igisoro](../../games/1049-igisoro/index.md): Rwanda, Burundi; Board and table games; Deep Past and First Games
 - [Imigongo geometric painting](../../games/182-imigongo-geometric-painting/index.md): Rwanda; Crafts and making; Living Traditions
 - [Intore dance](../../games/1302-intore-dance/index.md): Rwanda; Dances; Living Traditions
-- [Igisoro](../../games/1049-igisoro/index.md): Rwanda, Burundi; Board and table games; Deep Past and First Games

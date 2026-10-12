@@ -13,6 +13,10 @@ countries: ["Bangladesh"]
 
 **Encyclopedia ID 572** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/572-boli-khela/
 
+![Boli Khela](../../../img/photos/00572-boli-khela.jpg)
+
+*Photo: Mohammed Abdullah from Chittagong, Bangladesh, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Boli_Khela,_Pohela_Boishakh_(2014)_(19204236770).jpg)*
+
 Traditional wrestling especially of Chittagong.
 
 ## Heritage note

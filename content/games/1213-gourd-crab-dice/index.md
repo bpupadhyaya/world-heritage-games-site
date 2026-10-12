@@ -15,6 +15,10 @@ countries: ["Vietnam"]
 
 **Encyclopedia ID 1213** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1213-gourd-crab-dice/
 
+![Gourd-crab dice](../../../img/photos/01213-gourd-crab-dice.jpg)
+
+*Photo: Krestavilis ( talk ) ( Uploads ), [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bau_cua_ca_cop.jpg)*
+
 Dice with six symbols; players bet on the face-up symbol, especially at Tet.
 
 ## Heritage note

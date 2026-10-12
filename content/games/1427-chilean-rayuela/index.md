@@ -45,7 +45,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Jukskei](../../games/11-jukskei/index.md)
 - [Lagori](../../games/14-lagori/index.md)
 - [Bocce](../../games/830-bocce/index.md)
-- [Petanque](../../games/872-petanque/index.md)
+- [Kubb](../../games/1120-kubb/index.md)
 
 ## Sources
 

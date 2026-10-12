@@ -40,9 +40,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
-- [Trick Roping](../../games/1408-trick-roping/index.md)
 - [Cornhole](../../games/1194-cornhole/index.md)
 - [Table shuffleboard](../../games/1199-table-shuffleboard/index.md)
+- [Trick Roping](../../games/1408-trick-roping/index.md)
 - [Crokinole](../../games/623-crokinole/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
 - [Stone Skipping](../../games/5-stone-skipping/index.md)

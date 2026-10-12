@@ -15,6 +15,10 @@ countries: ["Bahamas"]
 
 **Encyclopedia ID 570** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/570-street-games/
 
+![Street games](../../../img/photos/00570-street-games.jpg)
+
+*Photo: James Emery from Douglasville, United States, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hopscotch_de_Cubanese.jpg)*
+
 Children's yard games: flicking marbles at targets and hopping through a chalk grid.
 
 ## Heritage note
@@ -39,10 +43,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - [Hopscotch](../../games/762-hopscotch/index.md)
 - [Street](../../games/1052-street/index.md)
+- [Pebbles](../../games/874-pebbles/index.md)
+- [Diketo](../../games/1076-diketo/index.md)
 - [Nhodo](../../games/1346-nhodo/index.md)
 - [Seed throwing](../../games/612-seed-throwing/index.md)
-- [Seven-pebble toss game](../../games/620-seven-pebble-toss-game/index.md)
-- [Gilbert Islands string figures](../../games/866-gilbert-islands-string-figures/index.md)
 
 ## Sources
 

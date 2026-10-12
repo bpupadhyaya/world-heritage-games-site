@@ -41,10 +41,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Canal pole vault](../../games/7-canal-pole-vault/index.md)
 - [Sjoelen](../../games/9-sjoelen/index.md)
-- [Balle pelote](../../games/580-balle-pelote/index.md)
 - [Krulbollen](../../games/583-krulbollen/index.md)
 - [Fierljeppen](../../games/971-fierljeppen/index.md)
-- [Frisian kaatsen](../../games/973-frisian-kaatsen/index.md)
+- [Klootschieten](../../games/975-klootschieten/index.md)
+- [Balle pelote](../../games/580-balle-pelote/index.md)
 
 ## Sources
 

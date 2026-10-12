@@ -15,6 +15,10 @@ countries: ["United States"]
 
 **Encyclopedia ID 1199** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1199-table-shuffleboard/
 
+![Table shuffleboard](../../../img/photos/01199-table-shuffleboard.jpg)
+
+*Photo: Hassocks5489 at English Wikipedia, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Deck_Shuffleboard.JPG)*
+
 Slide weighted pucks down a long waxed table (bar form) or push discs on a court (deck form).
 
 ## Heritage note
@@ -38,8 +42,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Square dance caller](../../games/129-square-dance-caller/index.md)
-- [Trick Roping](../../games/1408-trick-roping/index.md)
 - [Cornhole](../../games/1194-cornhole/index.md)
+- [Trick Roping](../../games/1408-trick-roping/index.md)
 - [Crokinole](../../games/623-crokinole/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
 - [Stone Skipping](../../games/5-stone-skipping/index.md)

@@ -38,9 +38,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Stone put](../../games/589-stone-put/index.md)
 - [Thanjavur dancing doll](../../games/275-thanjavur-dancing-doll/index.md)
 - [Chungi](../../games/297-chungi/index.md)
-- [Hill-country tea plucking](../../games/1297-hill-country-tea-plucking/index.md)
 - [Dandi Biyo](../../games/968-dandi-biyo/index.md)
-- [Gulli Danda](../../games/1003-gulli-danda/index.md)
+- [Break the pot](../../games/1105-break-the-pot/index.md)
+- [Hill-country tea plucking](../../games/1297-hill-country-tea-plucking/index.md)
 
 ## Sources
 

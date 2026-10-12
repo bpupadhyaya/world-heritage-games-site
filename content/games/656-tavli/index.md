@@ -13,6 +13,10 @@ countries: ["Cyprus", "Greece"]
 
 **Encyclopedia ID 656** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/656-tavli/
 
+![Tavli](../../../img/photos/00656-tavli.jpg)
+
+*Photo: Nikos Kitsakis, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tavli_Board_without_slots_(traditional)_C.jpg)*
+
 Backgammon-family dice game played as a match of several variants in kafeneio cafes.
 
 ## Heritage note
@@ -43,8 +47,8 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 - [Tavla](../../games/992-tavla/index.md)
 - [Parchís](../../games/1098-parchis/index.md)
 - [Nardi](../../games/551-nardi/index.md)
-- [Colombian Parqués](../../games/644-colombian-parques/index.md)
 - [Senet](../../games/693-senet/index.md)
+- [Don't Get Angry](../../games/744-dont-get-angry/index.md)
 
 ## Sources
 

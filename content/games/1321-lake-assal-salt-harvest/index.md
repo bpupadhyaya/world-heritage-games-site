@@ -41,8 +41,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [Sahel Salt Caravan](../../games/172-sahel-salt-caravan/index.md)
-- [Horn of Africa camel caravan](../../games/1270-horn-of-africa-camel-caravan/index.md)
 - [Ladu](../../games/674-ladu/index.md)
+- [Horn of Africa camel caravan](../../games/1270-horn-of-africa-camel-caravan/index.md)
 - [Wave riding](../../games/76-wave-riding/index.md)
 - [Cirit](../../games/156-cirit/index.md)
 - [Tbourida](../../games/164-tbourida/index.md)

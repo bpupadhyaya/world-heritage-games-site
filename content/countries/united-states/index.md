@@ -14,6 +14,9 @@ count: 20
 
 - [Axe throwing](../../games/442-axe-throwing/index.md): Canada, United States; Dexterity and skill games; Modern Heritage
 - [Barrel racing](../../games/439-barrel-racing/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
+- [Checkers](../../games/567-checkers/index.md): Bahamas, United States; Board and table games; Crossroads and Golden Ages
+- [Chickenfoot](../../games/1193-chickenfoot/index.md): United States; Board and table games; Crossroads and Golden Ages
+- [Cornhole](../../games/1194-cornhole/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Double Dutch](../../games/53-double-dutch/index.md): United States; Street and playground games; Modern Heritage
 - [Four Square](../../games/471-four-square/index.md): United States; Other traditions; Living Traditions
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
@@ -24,11 +27,8 @@ count: 20
 - [Sled dog race](../../games/62-sled-dog-race/index.md): United States, Canada; Racing; Age of Contact and Craft
 - [Spelling Bee](../../games/1429-spelling-bee/index.md): United States; Other traditions; Crossroads and Golden Ages
 - [Square dance caller](../../games/129-square-dance-caller/index.md): United States; Puzzles and mind games; Modern Heritage
+- [Table shuffleboard](../../games/1199-table-shuffleboard/index.md): United States; Dexterity and skill games; Modern Heritage
+- [Texas 42](../../games/1195-texas-42/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Tractor pull](../../games/440-tractor-pull/index.md): United States, Canada; Puzzles and mind games; Modern Heritage
 - [Trick Roping](../../games/1408-trick-roping/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Wayfinder](../../games/43-wayfinder/index.md): United States, New Zealand; Puzzles and mind games; Crossroads and Golden Ages
-- [Checkers](../../games/567-checkers/index.md): Bahamas, United States; Board and table games; Crossroads and Golden Ages
-- [Chickenfoot](../../games/1193-chickenfoot/index.md): United States; Board and table games; Crossroads and Golden Ages
-- [Cornhole](../../games/1194-cornhole/index.md): United States; Dexterity and skill games; Modern Heritage
-- [Table shuffleboard](../../games/1199-table-shuffleboard/index.md): United States; Dexterity and skill games; Modern Heritage
-- [Texas 42](../../games/1195-texas-42/index.md): United States; Board and table games; Crossroads and Golden Ages

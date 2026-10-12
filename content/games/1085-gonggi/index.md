@@ -15,6 +15,10 @@ countries: ["South Korea"]
 
 **Encyclopedia ID 1085** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1085-gonggi/
 
+![Gonggi](../../../img/photos/01085-gonggi.jpg)
+
+*Photo: 국립국어원, CC BY-SA 2.0 kr, [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gonggi_pebbles.jpg)*
+
 Gonggi is a dexterity and skill game tradition from South Korea.
 
 ## Heritage note

@@ -42,9 +42,9 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 ## Related entries
 
 - [Circle Dodgeball](../../games/470-circle-dodgeball/index.md)
+- [Kyz Kuu](../../games/858-kyz-kuu/index.md)
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md)
 - [Kalinda Stick Duel](../../games/1467-kalinda-stick-duel/index.md)
-- [Kyz Kuu](../../games/858-kyz-kuu/index.md)
 - [Valiha tube zither](../../games/124-valiha-tube-zither/index.md)
 - [Kwepena](../../games/1174-kwepena/index.md)
 

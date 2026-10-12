@@ -15,6 +15,10 @@ countries: ["Australia"]
 
 **Encyclopedia ID 560** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/560-two-up/
 
+![Two-up](../../../img/photos/00560-two-up.jpg)
+
+*Photo: Silverhorse, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kalgoorlie_two_up_shed.jpg)*
+
 A spinner tosses two coins from a flat board; bets are placed on two heads, two tails or odds, and odds means a rethrow.
 
 ## How it is played

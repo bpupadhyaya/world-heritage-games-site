@@ -41,8 +41,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Queah](../../games/885-queah/index.md)
 - [Draughts](../../games/576-draughts/index.md)
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md)
+- [Ampe](../../games/747-ampe/index.md)
 - [Putu](../../games/609-putu/index.md)
-- [Yuyu](../../games/610-yuyu/index.md)
 
 ## Sources
 

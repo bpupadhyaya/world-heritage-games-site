@@ -15,6 +15,10 @@ countries: ["United Kingdom"]
 
 **Encyclopedia ID 1182** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1182-pub-darts/
 
+![Pub darts](../../../img/photos/01182-pub-darts.jpg)
+
+*Photo: PeterPan23, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Darts_in_a_dartboard.jpg)*
+
 Throw darts at a numbered board, counting down from 501 to exactly zero; the standard pub and league game.
 
 ## Heritage note
@@ -46,7 +50,7 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - [Lawn bowls](../../games/74-lawn-bowls/index.md)
 - [Kyykka](../../games/715-kyykka/index.md)
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md)
-- [Change Ringing](../../games/1443-change-ringing/index.md)
+- [Regional pub games](../../games/1180-regional-pub-games/index.md)
 
 ## Sources
 

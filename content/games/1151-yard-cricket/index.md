@@ -15,6 +15,10 @@ countries: ["Trinidad and Tobago", "Barbados", "Antigua and Barbuda", "Saint Vin
 
 **Encyclopedia ID 1151** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1151-yard-cricket/
 
+![Yard cricket](../../../img/photos/01151-yard-cricket.jpg)
+
+*Photo: Prescott Pym on Flickr, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pollock_to_Hussey.jpg)*
+
 Improvised backyard cricket with a homemade bat and ball.
 
 ## Heritage note
@@ -39,8 +43,8 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 - [Taco bat game](../../games/655-taco-bat-game/index.md)
 - [Street baseball](../../games/684-street-baseball/index.md)
-- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md)
 - [Samoan cricket](../../games/1056-samoan-cricket/index.md)
+- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md)
 - [Tongan cricket](../../games/1149-tongan-cricket/index.md)
 - [Tuvaluan kilikiti](../../games/1172-tuvaluan-kilikiti/index.md)
 

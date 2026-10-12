@@ -37,12 +37,12 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 ## Related entries
 
-- [Mokoro polling](../../games/1338-mokoro-polling/index.md)
 - [Capoeira Angola](../../games/543-capoeira-angola/index.md)
+- [Mokoro polling](../../games/1338-mokoro-polling/index.md)
 - [Basotho blanket pattern designer](../../games/201-basotho-blanket-pattern-designer/index.md)
+- [Diketo](../../games/1076-diketo/index.md)
 - [Umlabalaba](../../games/881-umlabalaba/index.md)
 - [Mashonisa](../../games/882-mashonisa/index.md)
-- [Diketo](../../games/1076-diketo/index.md)
 
 ## Sources
 

@@ -40,8 +40,8 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 - [Tab](../../games/694-tab/index.md)
 - [Egyptian backgammon](../../games/695-egyptian-backgammon/index.md)
 - [Aqal Somali](../../games/190-aqal-somali/index.md)
+- [Ladu](../../games/674-ladu/index.md)
 - [Horn of Africa camel caravan](../../games/1270-horn-of-africa-camel-caravan/index.md)
-- [Lake Assal salt harvest](../../games/1321-lake-assal-salt-harvest/index.md)
 
 ## Sources
 

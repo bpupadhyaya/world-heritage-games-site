@@ -13,39 +13,86 @@ count: 214
 214 entries.
 
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
+- [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
 - [Balanta Mangrove Rice Polder](../../games/1235-balanta-mangrove-rice-polder/index.md): Guinea-Bissau; Board and table games; Crossroads and Golden Ages
 - [Banqi](../../games/1437-banqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages
+- [Bao](../../games/647-bao/index.md): Comoros; Board and table games; Deep Past and First Games
+- [Bingo](../../games/622-bingo/index.md): Canada; Board and table games; Crossroads and Golden Ages
 - [Bolas criollas](../../games/51-bolas-criollas/index.md): Venezuela; Board and table games; Age of Contact and Craft
+- [Cacho](../../games/595-cacho/index.md): Bolivia, Chile; Board and table games; River Valleys and First Cities
+- [Cafe dominoes](../../games/690-cafe-dominoes/index.md): Egypt; Board and table games; Crossroads and Golden Ages
+- [Carrom](../../games/1059-carrom/index.md): Saudi Arabia, Oman; Board and table games; Crossroads and Golden Ages
 - [Chaturanga](../../games/45-chaturanga/index.md): India; Board and table games; Crossroads and Golden Ages
+- [Checkers](../../games/567-checkers/index.md): Bahamas, United States; Board and table games; Crossroads and Golden Ages
+- [Chess](../../games/552-chess/index.md): Armenia, Azerbaijan; Board and table games; Crossroads and Golden Ages
+- [Chickenfoot](../../games/1193-chickenfoot/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Co Ganh](../../games/301-co-ganh/index.md): Vietnam; Board and table games; Crossroads and Golden Ages
+- [Congklak](../../games/803-congklak/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
 - [Croquet](../../games/81-croquet/index.md): United Kingdom, Ireland; Board and table games; Crossroads and Golden Ages
 - [Daldøs](../../games/458-dalds/index.md): Denmark, Norway; Board and table games; Crossroads and Golden Ages
+- [Don't Get Angry](../../games/744-dont-get-angry/index.md): Germany; Board and table games; River Valleys and First Cities
 - [E-sugoroku](../../games/348-e-sugoroku/index.md): Japan; Board and table games; River Valleys and First Cities
 - [Falaj Water-Turn Clock](../../games/1274-falaj-water-turn-clock/index.md): Oman; Board and table games; Classical Worlds
 - [Floating market trader](../../games/315-floating-market-trader/index.md): Thailand; Board and table games; Crossroads and Golden Ages
 - [Four-Field Kono](../../games/457-four-field-kono/index.md): South Korea; Board and table games; Crossroads and Golden Ages
 - [Game of the Goose](../../games/450-game-of-the-goose/index.md): Italy, Spain; Board and table games; River Valleys and First Cities
 - [Generala](../../games/422-generala/index.md): Argentina, Uruguay; Board and table games; River Valleys and First Cities
+- [Go](../../games/634-go/index.md): China, Japan; Board and table games; Classical Worlds
 - [Gobak Sodor](../../games/46-gobak-sodor/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
+- [Gomoku and Renju](../../games/847-gomoku-and-renju/index.md): Japan; Board and table games; Crossroads and Golden Ages
+- [Gonu](../../games/1086-gonu/index.md): South Korea; Board and table games; Deep Past and First Games
+- [Gourd-crab dice](../../games/1213-gourd-crab-dice/index.md): Vietnam; Board and table games; River Valleys and First Cities
+- [Hasami shogi](../../games/849-hasami-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Hornussen](../../games/10-hornussen/index.md): Switzerland; Board and table games; Crossroads and Golden Ages
+- [Igisoro](../../games/1049-igisoro/index.md): Rwanda, Burundi; Board and table games; Deep Past and First Games
+- [Italian draughts](../../games/834-italian-draughts/index.md): Italy; Board and table games; Crossroads and Golden Ages
+- [Katro / Katra](../../games/903-katro-katra/index.md): Madagascar; Board and table games; Deep Past and First Games
 - [Kharbaga](../../games/459-kharbaga/index.md): Morocco; Board and table games; Crossroads and Golden Ages
+- [Kisolo](../../games/666-kisolo/index.md): DR Congo, Zambia; Board and table games; Deep Past and First Games
+- [Ladu](../../games/674-ladu/index.md): Djibouti, Somalia; Board and table games; Crossroads and Golden Ages
 - [Lau Kata Kati](../../games/460-lau-kata-kati/index.md): Bangladesh; Board and table games; Crossroads and Golden Ages
 - [Liubo](../../games/331-liubo/index.md): China; Board and table games; River Valleys and First Cities
+- [Ludo](../../games/763-ludo/index.md): Haiti, Jamaica; Board and table games; River Valleys and First Cities
+- [Luzhanqi](../../games/640-luzhanqi/index.md): China; Board and table games; Crossroads and Golden Ages
+- [Mahjong](../../games/635-mahjong/index.md): China, Singapore; Board and table games; Crossroads and Golden Ages
+- [Mandarin square capturing](../../games/1216-mandarin-square-capturing/index.md): Vietnam; Board and table games; Deep Past and First Games
+- [Mangala](../../games/1164-mangala/index.md): Turkey; Board and table games; Deep Past and First Games
+- [Mexican Lotería](../../games/935-mexican-loteria/index.md): Mexico; Board and table games; Crossroads and Golden Ages
 - [Mongolian chess](../../games/943-mongolian-chess/index.md): Mongolia; Board and table games; Crossroads and Golden Ages
+- [Nard / backgammon](../../games/1168-nard-backgammon/index.md): Turkmenistan, Tajikistan; Board and table games; River Valleys and First Cities
+- [Nardi](../../games/551-nardi/index.md): Armenia, Azerbaijan; Board and table games; River Valleys and First Cities
 - [Novuss](../../games/456-novuss/index.md): Latvia, Estonia; Board and table games; Crossroads and Golden Ages
 - [Nzango](../../games/1422-nzango/index.md): Congo; Board and table games; Crossroads and Golden Ages
+- [Okey](../../games/1158-okey/index.md): Turkey, Cyprus; Board and table games; Classical Worlds
+- [Oware](../../games/749-oware/index.md): Ghana; Board and table games; Deep Past and First Games
+- [Owela](../../games/960-owela/index.md): Namibia; Board and table games; Deep Past and First Games
+- [Pallanguzhi](../../games/798-pallanguzhi/index.md): India; Board and table games; Deep Past and First Games
 - [Patolli](../../games/454-patolli/index.md): Mexico; Board and table games; Crossroads and Golden Ages
 - [Peralikatuma](../../games/287-peralikatuma/index.md): Sri Lanka; Board and table games; Crossroads and Golden Ages
 - [Pinisi](../../games/327-pinisi/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
 - [Queah](../../games/885-queah/index.md): Liberia; Board and table games; Crossroads and Golden Ages
 - [Racing Pigeon Loft](../../games/411-racing-pigeon-loft/index.md): Belgium, Netherlands; Board and table games; Crossroads and Golden Ages
+- [Riichi mahjong](../../games/851-riichi-mahjong/index.md): Japan; Board and table games; Crossroads and Golden Ages
+- [Royal Game of Ur](../../games/817-royal-game-of-ur/index.md): Iraq; Board and table games; River Valleys and First Cities
+- [Rummikub](../../games/826-rummikub/index.md): Israel; Board and table games; Crossroads and Golden Ages
 - [Sáhkku](../../games/451-sahkku/index.md): Worldwide; Board and table games; River Valleys and First Cities
+- [Senet](../../games/693-senet/index.md): Egypt; Board and table games; River Valleys and First Cities
+- [Senterej](../../games/707-senterej/index.md): Ethiopia, Eritrea; Board and table games; Crossroads and Golden Ages
+- [Shashki](../../games/1177-shashki/index.md): Ukraine, Belarus; Board and table games; Crossroads and Golden Ages
+- [Shatranj / chess](../../games/1134-shatranj-chess/index.md): Tajikistan; Board and table games; Crossroads and Golden Ages
 - [Sho](../../games/286-sho/index.md): China; Board and table games; River Valleys and First Cities
+- [Shogi](../../games/852-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Sholo Guti](../../games/461-sholo-guti/index.md): Bangladesh; Board and table games; Crossroads and Golden Ages
 - [Sittuyin](../../games/302-sittuyin/index.md): Myanmar; Board and table games; Crossroads and Golden Ages
+- [Songo](../../games/617-songo/index.md): Cameroon, Gabon; Board and table games; Deep Past and First Games
+- [Tafl](../../games/995-tafl/index.md): Norway, Sweden; Board and table games; Crossroads and Golden Ages
+- [Tavli](../../games/656-tavli/index.md): Cyprus, Greece; Board and table games; River Valleys and First Cities
 - [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md): China; Board and table games; Classical Worlds
+- [Texas 42](../../games/1195-texas-42/index.md): United States; Board and table games; Crossroads and Golden Ages
+- [Toguz Korgool](../../games/871-toguz-korgool/index.md): Kyrgyzstan; Board and table games; Deep Past and First Games
 - [Tsoro Yematatu](../../games/196-tsoro-yematatu/index.md): Zimbabwe; Board and table games; River Valleys and First Cities
 - [Turkish Dama](../../games/155-turkish-dama/index.md): Turkey, Turkmenistan; Board and table games; Crossroads and Golden Ages
+- [Two-up](../../games/560-two-up/index.md): Australia; Board and table games; Age of Contact and Craft
 - [Yap stone money trade puzzle](../../games/1401-yap-stone-money-trade-puzzle/index.md): Micronesia; Board and table games; Crossroads and Golden Ages
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md): Senegal, Mali; Board and table games; Crossroads and Golden Ages
 - [Zamma](../../games/462-zamma/index.md): Morocco; Board and table games; Crossroads and Golden Ages
@@ -62,27 +109,16 @@ count: 214
 - [Ayit](../../games/1090-ayit/index.md): South Sudan; Board and table games; Deep Past and First Games
 - [Ayo](../../games/986-ayo/index.md): Nigeria; Board and table games; Deep Past and First Games
 - [Backgammon](../../games/1159-backgammon/index.md): Turkey, Israel; Board and table games; River Valleys and First Cities
-- [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
 - [Bahamian dominoes](../../games/569-bahamian-dominoes/index.md): Bahamas; Board and table games; Crossroads and Golden Ages
-- [Bao](../../games/647-bao/index.md): Comoros; Board and table games; Deep Past and First Games
 - [Bao la Kiswahili](../../games/861-bao-la-kiswahili/index.md): Kenya, Tanzania; Board and table games; Deep Past and First Games
 - [Bawo](../../games/906-bawo/index.md): Malawi; Board and table games; Deep Past and First Games
-- [Bingo](../../games/622-bingo/index.md): Canada; Board and table games; Crossroads and Golden Ages
-- [Cacho](../../games/595-cacho/index.md): Bolivia, Chile; Board and table games; River Valleys and First Cities
-- [Cafe dominoes](../../games/690-cafe-dominoes/index.md): Egypt; Board and table games; Crossroads and Golden Ages
-- [Carrom](../../games/1059-carrom/index.md): Saudi Arabia, Oman; Board and table games; Crossroads and Golden Ages
-- [Checkers](../../games/567-checkers/index.md): Bahamas, United States; Board and table games; Crossroads and Golden Ages
-- [Chess](../../games/552-chess/index.md): Armenia, Azerbaijan; Board and table games; Crossroads and Golden Ages
-- [Chickenfoot](../../games/1193-chickenfoot/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Choko](../../games/733-choko/index.md): Gambia; Board and table games; Crossroads and Golden Ages
 - [Colombian Parqués](../../games/644-colombian-parques/index.md): Colombia; Board and table games; River Valleys and First Cities
-- [Congklak](../../games/803-congklak/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
 - [Cuban dominoes](../../games/653-cuban-dominoes/index.md): Cuba; Board and table games; Crossroads and Golden Ages
 - [Czech draughts](../../games/662-czech-draughts/index.md): Czechia; Board and table games; Crossroads and Golden Ages
 - [Dabuda](../../games/705-dabuda/index.md): Ethiopia, Djibouti; Board and table games; Deep Past and First Games
 - [Dhamet](../../games/927-dhamet/index.md): Mauritania; Board and table games; Crossroads and Golden Ages
 - [Dominoes](../../games/679-dominoes/index.md): Dominican Republic, Trinidad and Tobago; Board and table games; Crossroads and Golden Ages
-- [Don't Get Angry](../../games/744-dont-get-angry/index.md): Germany; Board and table games; River Valleys and First Cities
 - [Don't Get Mad](../../games/530-dont-get-mad/index.md): Albania; Board and table games; Crossroads and Golden Ages
 - [Draughts](../../games/576-draughts/index.md): Barbados, Antigua and Barbuda; Board and table games; Modern Heritage
 - [Dudo / Cacho](../../games/1020-dudo-cacho/index.md): Peru; Board and table games; River Valleys and First Cities
@@ -96,57 +132,39 @@ count: 214
 - [Fohr](../../games/839-fohr/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
 - [Gaple dominoes](../../games/804-gaple-dominoes/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
 - [Gebeta](../../games/708-gebeta/index.md): Ethiopia; Board and table games; Deep Past and First Games
-- [Go](../../games/634-go/index.md): China, Japan; Board and table games; Classical Worlds
-- [Gomoku and Renju](../../games/847-gomoku-and-renju/index.md): Japan; Board and table games; Crossroads and Golden Ages
-- [Gonu](../../games/1086-gonu/index.md): South Korea; Board and table games; Deep Past and First Games
-- [Gourd-crab dice](../../games/1213-gourd-crab-dice/index.md): Vietnam; Board and table games; River Valleys and First Cities
 - [Guatemalan Lotería](../../games/758-guatemalan-loteria/index.md): Guatemala; Board and table games; Crossroads and Golden Ages
 - [Haitian dominoes](../../games/765-haitian-dominoes/index.md): Haiti; Board and table games; Crossroads and Golden Ages
-- [Hasami shogi](../../games/849-hasami-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Hawalis](../../games/1001-hawalis/index.md): Oman; Board and table games; Deep Past and First Games
 - [Highland and river mancalas](../../games/863-highland-and-river-mancalas/index.md): Kenya; Board and table games; Deep Past and First Games
 - [Hong Kong mahjong](../../games/772-hong-kong-mahjong/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Horse race ludo](../../games/1214-horse-race-ludo/index.md): Vietnam; Board and table games; River Valleys and First Cities
 - [Hoyito](../../games/682-hoyito/index.md): Dominican Republic; Board and table games; Deep Past and First Games
 - [Hungarian dominoes](../../games/778-hungarian-dominoes/index.md): Hungary; Board and table games; Crossroads and Golden Ages
-- [Igisoro](../../games/1049-igisoro/index.md): Rwanda, Burundi; Board and table games; Deep Past and First Games
-- [Italian draughts](../../games/834-italian-draughts/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Jamaican dominoes](../../games/841-jamaican-dominoes/index.md): Jamaica; Board and table games; Crossroads and Golden Ages
 - [Janggi](../../games/1081-janggi/index.md): South Korea, North Korea; Board and table games; Crossroads and Golden Ages
 - [Jungle](../../games/637-jungle/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Kale](../../games/732-kale/index.md): Gabon; Board and table games; Deep Past and First Games
-- [Katro / Katra](../../games/903-katro-katra/index.md): Madagascar; Board and table games; Deep Past and First Games
 - [Kay mancala](../../games/767-kay-mancala/index.md): Haiti; Board and table games; Deep Past and First Games
 - [Khmer chess](../../games/616-khmer-chess/index.md): Cambodia; Board and table games; Crossroads and Golden Ages
 - [Kiela](../../games/544-kiela/index.md): Angola; Board and table games; Deep Past and First Games
 - [Kikouri](../../games/840-kikouri/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
-- [Kisolo](../../games/666-kisolo/index.md): DR Congo, Zambia; Board and table games; Deep Past and First Games
 - [Krur](../../games/950-krur/index.md): Morocco; Board and table games; Deep Past and First Games
-- [Ladu](../../games/674-ladu/index.md): Djibouti, Somalia; Board and table games; Crossroads and Golden Ages
 - [Lambs and Tigers](../../games/791-lambs-and-tigers/index.md): India; Board and table games; Crossroads and Golden Ages
 - [Lao chess](../../games/875-lao-chess/index.md): Laos; Board and table games; Crossroads and Golden Ages
 - [Layli Goobalay](../../games/675-layli-goobalay/index.md): Djibouti, Somalia; Board and table games; Deep Past and First Games
 - [Local mancala variants](../../games/698-local-mancala-variants/index.md): Equatorial Guinea; Board and table games; Deep Past and First Games
 - [Lotería](../../games/1211-loteria/index.md): Venezuela; Board and table games; Crossroads and Golden Ages
-- [Ludo](../../games/763-ludo/index.md): Haiti, Jamaica; Board and table games; River Valleys and First Cities
-- [Luzhanqi](../../games/640-luzhanqi/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Maghrebi 5x5 capture game](../../games/887-maghrebi-5x5-capture-game/index.md): Libya; Board and table games; Age of Contact and Craft
-- [Mahjong](../../games/635-mahjong/index.md): China, Singapore; Board and table games; Crossroads and Golden Ages
 - [Makonn](../../games/1065-makonn/index.md): Seychelles; Board and table games; Deep Past and First Games
 - [Makyek](../../games/1143-makyek/index.md): Thailand; Board and table games; Crossroads and Golden Ages
 - [Malay draughts](../../games/910-malay-draughts/index.md): Malaysia; Board and table games; Crossroads and Golden Ages
 - [Maldivian chess](../../games/917-maldivian-chess/index.md): Maldives; Board and table games; Crossroads and Golden Ages
 - [Mancala-type sowing games](../../games/626-mancala-type-sowing-games/index.md): Central African Republic; Board and table games; Deep Past and First Games
-- [Mandarin square capturing](../../games/1216-mandarin-square-capturing/index.md): Vietnam; Board and table games; Deep Past and First Games
-- [Mangala](../../games/1164-mangala/index.md): Turkey; Board and table games; Deep Past and First Games
 - [Mangola](../../games/668-mangola/index.md): DR Congo; Board and table games; Deep Past and First Games
-- [Mexican Lotería](../../games/935-mexican-loteria/index.md): Mexico; Board and table games; Crossroads and Golden Ages
 - [Mill](../../games/1061-mill/index.md): Senegal; Board and table games; River Valleys and First Cities
 - [Moruba / Ncuva](../../games/1080-moruba-ncuva/index.md): South Africa; Board and table games; Deep Past and First Games
 - [Mu Torere](../../games/979-mu-torere/index.md): New Zealand; Board and table games; Crossroads and Golden Ages
-- [Nard / backgammon](../../games/1168-nard-backgammon/index.md): Turkmenistan, Tajikistan; Board and table games; River Valleys and First Cities
 - [Nard / long backgammon](../../games/1205-nard-long-backgammon/index.md): Uzbekistan; Board and table games; River Valleys and First Cities
-- [Nardi](../../games/551-nardi/index.md): Armenia, Azerbaijan; Board and table games; River Valleys and First Cities
 - [Nardy](../../games/1047-nardy/index.md): Russia; Board and table games; River Valleys and First Cities
 - [Ngola](../../games/1042-ngola/index.md): Congo; Board and table games; Deep Past and First Games
 - [Nine Men's Morris](../../games/740-nine-mens-morris/index.md): Germany, Liechtenstein; Board and table games; River Valleys and First Cities
@@ -154,18 +172,14 @@ count: 214
 - [Ntxuva](../../games/954-ntxuva/index.md): Mozambique; Board and table games; Deep Past and First Games
 - [Odede](../../games/1175-odede/index.md): Uganda; Board and table games; Crossroads and Golden Ages
 - [Ohvalhu](../../games/916-ohvalhu/index.md): Maldives; Board and table games; Deep Past and First Games
-- [Okey](../../games/1158-okey/index.md): Turkey, Cyprus; Board and table games; Classical Worlds
 - [Olinda Keliya](../../games/1106-olinda-keliya/index.md): Sri Lanka; Board and table games; Deep Past and First Games
 - [Omok](../../games/1088-omok/index.md): South Korea; Board and table games; Classical Worlds
 - [Omweso](../../games/1176-omweso/index.md): Uganda; Board and table games; Deep Past and First Games
 - [Ouril](../../games/611-ouril/index.md): Cape Verde, Guinea-Bissau; Board and table games; Deep Past and First Games
-- [Oware](../../games/749-oware/index.md): Ghana; Board and table games; Deep Past and First Games
 - [Oware-family mancala](../../games/587-oware-family-mancala/index.md): Benin, Burkina Faso; Board and table games; Deep Past and First Games
-- [Owela](../../games/960-owela/index.md): Namibia; Board and table games; Deep Past and First Games
 - [Pachisi](../../games/797-pachisi/index.md): India; Board and table games; River Valleys and First Cities
 - [Paduk](../../games/990-paduk/index.md): North Korea; Board and table games; Classical Worlds
 - [Pai gow](../../games/771-pai-gow/index.md): China; Board and table games; Crossroads and Golden Ages
-- [Pallanguzhi](../../games/798-pallanguzhi/index.md): India; Board and table games; Deep Past and First Games
 - [Pancha](../../games/1108-pancha/index.md): Sri Lanka; Board and table games; River Valleys and First Cities
 - [Parchís](../../games/1098-parchis/index.md): Spain; Board and table games; River Valleys and First Cities
 - [Parxís](../../games/542-parxis/index.md): Andorra; Board and table games; River Valleys and First Cities
@@ -174,49 +188,35 @@ count: 214
 - [Potta](../../games/579-potta/index.md): Barbados; Board and table games; River Valleys and First Cities
 - [Pub dominoes](../../games/1183-pub-dominoes/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
 - [Puluc](../../games/757-puluc/index.md): Guatemala, Belize; Board and table games; Crossroads and Golden Ages
-- [Riichi mahjong](../../games/851-riichi-mahjong/index.md): Japan; Board and table games; Crossroads and Golden Ages
-- [Royal Game of Ur](../../games/817-royal-game-of-ur/index.md): Iraq; Board and table games; River Valleys and First Cities
-- [Rummikub](../../games/826-rummikub/index.md): Israel; Board and table games; Crossroads and Golden Ages
 - [Seega](../../games/692-seega/index.md): Egypt; Board and table games; Age of Contact and Craft
-- [Senet](../../games/693-senet/index.md): Egypt; Board and table games; River Valleys and First Cities
-- [Senterej](../../games/707-senterej/index.md): Ethiopia, Eritrea; Board and table games; Crossroads and Golden Ages
-- [Shashki](../../games/1177-shashki/index.md): Ukraine, Belarus; Board and table games; Crossroads and Golden Ages
 - [Shashki / chess](../../games/1206-shashki-chess/index.md): Uzbekistan; Board and table games; Classical Worlds
-- [Shatranj / chess](../../games/1134-shatranj-chess/index.md): Tajikistan; Board and table games; Crossroads and Golden Ages
 - [Shax](../../games/676-shax/index.md): Djibouti, Somalia; Board and table games; River Valleys and First Cities
 - [Shisima](../../games/865-shisima/index.md): Kenya; Board and table games; Crossroads and Golden Ages
-- [Shogi](../../games/852-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Sig](../../games/928-sig/index.md): Mauritania; Board and table games; Crossroads and Golden Ages
 - [Sija](../../games/627-sija/index.md): Chad; Board and table games; Deep Past and First Games
 - [Slam dominoes](../../games/578-slam-dominoes/index.md): Barbados; Board and table games; Crossroads and Golden Ages
 - [Snakes and Ladders](../../games/796-snakes-and-ladders/index.md): India; Board and table games; River Valleys and First Cities
-- [Songo](../../games/617-songo/index.md): Cameroon, Gabon; Board and table games; Deep Past and First Games
 - [Sungka](../../games/1025-sungka/index.md): Philippines; Board and table games; Deep Past and First Games
 - [Syrian mancala](../../games/1128-syrian-mancala/index.md): Syria; Board and table games; Deep Past and First Games
 - [Tab](../../games/694-tab/index.md): Egypt; Board and table games; River Valleys and First Cities
 - [Taba](../../games/594-taba/index.md): Bolivia, Bulgaria; Board and table games; Deep Past and First Games
 - [Table](../../games/1044-table/index.md): Romania, Moldova; Board and table games; River Valleys and First Cities
-- [Tafl](../../games/995-tafl/index.md): Norway, Sweden; Board and table games; Crossroads and Golden Ages
 - [Taiwanese mahjong](../../games/1131-taiwanese-mahjong/index.md): Taiwan; Board and table games; Crossroads and Golden Ages
 - [Tanzanian draughts](../../games/1135-tanzanian-draughts/index.md): Tanzania; Board and table games; Crossroads and Golden Ages
 - [Tapatan](../../games/1026-tapatan/index.md): Philippines; Board and table games; River Valleys and First Cities
 - [Tavëll](../../games/527-tavell/index.md): Albania, Kosovo; Board and table games; River Valleys and First Cities
 - [Tavla](../../games/992-tavla/index.md): North Macedonia, Montenegro; Board and table games; River Valleys and First Cities
-- [Tavli](../../games/656-tavli/index.md): Cyprus, Greece; Board and table games; River Valleys and First Cities
 - [Tawla](../../games/815-tawla/index.md): Iraq, Syria; Board and table games; River Valleys and First Cities
 - [Tawle](../../games/880-tawle/index.md): Lebanon, Palestine; Board and table games; River Valleys and First Cities
 - [Tchouba](../../games/955-tchouba/index.md): Mozambique; Board and table games; Deep Past and First Games
-- [Texas 42](../../games/1195-texas-42/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Thai checkers](../../games/1142-thai-checkers/index.md): Thailand; Board and table games; Crossroads and Golden Ages
 - [Thai chess](../../games/1141-thai-chess/index.md): Thailand; Board and table games; Crossroads and Golden Ages
 - [Thin Hama](../../games/918-thin-hama/index.md): Maldives; Board and table games; River Valleys and First Cities
 - [Tien gow](../../games/773-tien-gow/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Tiger and Goat](../../games/967-tiger-and-goat/index.md): Nepal; Board and table games; Crossroads and Golden Ages
-- [Toguz Korgool](../../games/871-toguz-korgool/index.md): Kyrgyzstan; Board and table games; Deep Past and First Games
 - [Togyz Kumalak](../../games/859-togyz-kumalak/index.md): Kazakhstan; Board and table games; Deep Past and First Games
 - [Tok Ku Rou](../../games/1091-tok-ku-rou/index.md): South Sudan; Board and table games; Deep Past and First Games
 - [Tsoro](../../games/1222-tsoro/index.md): Zimbabwe; Board and table games; Deep Past and First Games
-- [Two-up](../../games/560-two-up/index.md): Australia; Board and table games; Age of Contact and Craft
 - [Umlabalaba](../../games/881-umlabalaba/index.md): Lesotho, Eswatini; Board and table games; River Valleys and First Cities
 - [Union Jack Game](../../games/547-union-jack-game/index.md): Antigua and Barbuda; Board and table games; Crossroads and Golden Ages
 - [Vietnamese xiangqi](../../games/1215-vietnamese-xiangqi/index.md): Vietnam; Board and table games; Crossroads and Golden Ages

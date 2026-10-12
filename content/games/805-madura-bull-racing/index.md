@@ -15,6 +15,10 @@ countries: ["Indonesia"]
 
 **Encyclopedia ID 805** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/805-madura-bull-racing/
 
+![Madura bull racing](../../../img/photos/00805-madura-bull-racing.jpg)
+
+*Photo: No machine-readable author provided. Bennylin assumed (based on copyright claims)., [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Madura_bull_racing_1999-cropped.jpeg)*
+
 Pairs of bulls race pulling a wooden sled.
 
 ## Heritage note

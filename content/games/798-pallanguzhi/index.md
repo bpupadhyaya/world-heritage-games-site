@@ -15,6 +15,10 @@ countries: ["India"]
 
 **Encyclopedia ID 798** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/798-pallanguzhi/
 
+![Pallanguzhi](../../../img/photos/00798-pallanguzhi.jpg)
+
+*Photo: Fotokannan, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pallanguzhi.JPG)*
+
 Mancala sowing game on a 14-pit board with shells or seeds, played at home in the south.
 
 ## Heritage note
@@ -39,10 +43,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - [Ohvalhu](../../games/916-ohvalhu/index.md)
 - [Olinda Keliya](../../games/1106-olinda-keliya/index.md)
-- [Kiela](../../games/544-kiela/index.md)
-- [Warri](../../games/566-warri/index.md)
-- [Oware-family mancala](../../games/587-oware-family-mancala/index.md)
-- [Ouril](../../games/611-ouril/index.md)
+- [Songo](../../games/617-songo/index.md)
+- [Bao](../../games/647-bao/index.md)
+- [Kisolo](../../games/666-kisolo/index.md)
+- [Oware](../../games/749-oware/index.md)
 
 ## Sources
 

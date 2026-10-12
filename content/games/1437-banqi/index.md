@@ -40,12 +40,12 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Related entries
 
-- [Xiangqi](../../games/636-xiangqi/index.md)
 - [Luzhanqi](../../games/640-luzhanqi/index.md)
+- [Xiangqi](../../games/636-xiangqi/index.md)
 - [Chaturanga](../../games/45-chaturanga/index.md)
 - [Sittuyin](../../games/302-sittuyin/index.md)
-- [Mongolian chess](../../games/943-mongolian-chess/index.md)
 - [Chess](../../games/552-chess/index.md)
+- [Senterej](../../games/707-senterej/index.md)
 
 ## Sources
 

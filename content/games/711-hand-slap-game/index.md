@@ -15,6 +15,10 @@ countries: ["Fiji"]
 
 **Encyclopedia ID 711** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/711-hand-slap-game/
 
+![Hand-slap game](../../../img/photos/00711-hand-slap-game.jpg)
+
+*Photo: Unknown author (public domain), [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mushi-ken_(%E8%99%AB%E6%8B%B3),_Japanese_rock-paper-scissors_variant,_from_the_Kensarae_sumai_zue_(1809).jpg)*
+
 Teams line up on a field; one side delivers pre-set slaps to opponents' hands and the hardest-slapped player tries to catch the slapper for a point.
 
 ## Heritage note
@@ -41,8 +45,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md)
 - [Otedama](../../games/131-otedama/index.md)
 - [Blind Man's Buff](../../games/467-blind-mans-buff/index.md)
-- [Gollachut](../../games/573-gollachut/index.md)
-- [Burn-out](../../games/654-burn-out/index.md)
+- [Kabaddi](../../games/789-kabaddi/index.md)
+- [Stick game](../../games/912-stick-game/index.md)
 
 ## Sources
 

@@ -39,10 +39,10 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 
 - [Snakes and Ladders](../../games/796-snakes-and-ladders/index.md)
 - [Pachisi](../../games/797-pachisi/index.md)
-- [Tavëll](../../games/527-tavell/index.md)
 - [Nardi](../../games/551-nardi/index.md)
-- [Colombian Parqués](../../games/644-colombian-parques/index.md)
 - [Tavli](../../games/656-tavli/index.md)
+- [Senet](../../games/693-senet/index.md)
+- [Don't Get Angry](../../games/744-dont-get-angry/index.md)
 
 ## Sources
 

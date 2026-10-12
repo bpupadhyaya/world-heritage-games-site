@@ -41,10 +41,10 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 - [Kites](../../games/577-kites/index.md)
 - [Kalinda Stick Duel](../../games/1467-kalinda-stick-duel/index.md)
+- [Yard cricket](../../games/1151-yard-cricket/index.md)
 - [Warri](../../games/566-warri/index.md)
 - [Draughts](../../games/576-draughts/index.md)
 - [Slam dominoes](../../games/578-slam-dominoes/index.md)
-- [Potta](../../games/579-potta/index.md)
 
 ## Sources
 

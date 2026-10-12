@@ -45,8 +45,8 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - [Hoyito](../../games/682-hoyito/index.md)
 - [Kay mancala](../../games/767-kay-mancala/index.md)
 - [Adji-boto](../../games/1116-adji-boto/index.md)
-- [Kiela](../../games/544-kiela/index.md)
-- [Oware-family mancala](../../games/587-oware-family-mancala/index.md)
+- [Songo](../../games/617-songo/index.md)
+- [Bao](../../games/647-bao/index.md)
 
 ## Sources
 

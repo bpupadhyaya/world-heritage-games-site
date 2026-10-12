@@ -15,6 +15,10 @@ countries: ["Bolivia", "Chile", "Peru", "Ecuador"]
 
 **Encyclopedia ID 595** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/595-cacho/
 
+![Cacho](../../../img/photos/00595-cacho.jpg)
+
+*Photo: Achim Raschka, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:160327_White_dice_11.jpg)*
+
 Cup bluffing dice.
 
 ## Heritage note

@@ -38,9 +38,9 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 ## Related entries
 
 - [Gayageum](../../games/361-gayageum/index.md)
-- [Geomungo](../../games/1453-geomungo/index.md)
 - [Gomoku and Renju](../../games/847-gomoku-and-renju/index.md)
 - [Baduk](../../games/1084-baduk/index.md)
+- [Geomungo](../../games/1453-geomungo/index.md)
 - [Shakuhachi](../../games/349-shakuhachi/index.md)
 - [Duo](../../games/838-duo/index.md)
 

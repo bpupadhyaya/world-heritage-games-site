@@ -15,6 +15,10 @@ countries: ["Saint Lucia"]
 
 **Encyclopedia ID 1050** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1050-heritage-games/
 
+![Heritage games](../../../img/photos/01050-heritage-games.jpg)
+
+*Photo: Resolute, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2011_Heritage_Classic_faceoff.png)*
+
 Folk games during Jounen Kwéyòl.
 
 ## Heritage note
@@ -39,9 +43,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Draughts](../../games/576-draughts/index.md)
 - [Limbo](../../games/58-limbo/index.md)
 - [Stickball](../../games/477-stickball/index.md)
-- [Grenada Nutmeg Grading](../../games/1456-grenada-nutmeg-grading/index.md)
-- [Jamaican Sound System Selector](../../games/1465-jamaican-sound-system-selector/index.md)
 - [Four Corners](../../games/652-four-corners/index.md)
+- [Spinning top](../../games/678-spinning-top/index.md)
+- [Handkerchief game](../../games/683-handkerchief-game/index.md)
 
 ## Sources
 

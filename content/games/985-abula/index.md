@@ -13,6 +13,10 @@ countries: ["Nigeria"]
 
 **Encyclopedia ID 985** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/985-abula/
 
+![Abula](../../../img/photos/00985-abula.jpg)
+
+*Photo: IFaRotimi, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Amala_With_Ponmo_And_Abula.jpg)*
+
 A team bat-and-ball street game.
 
 ## Heritage note
@@ -39,7 +43,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Bozo Net Casting](../../games/169-bozo-net-casting/index.md)
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md)
 - [La Sape dress-up parade](../../games/200-la-sape-dress-up-parade/index.md)
-- [African draughts](../../games/586-african-draughts/index.md)
+- [Ampe](../../games/747-ampe/index.md)
 
 ## Sources
 

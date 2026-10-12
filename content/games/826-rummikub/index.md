@@ -13,6 +13,10 @@ countries: ["Israel"]
 
 **Encyclopedia ID 826** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/826-rummikub/
 
+![Rummikub](../../../img/photos/00826-rummikub.jpg)
+
+*Photo: ryan harvey, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rummikub_Tiles.jpg)*
+
 Tile rummy invented by Ephraim Hertzano.
 
 ## Heritage note
@@ -36,11 +40,11 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [101 Okey](../../games/1166-101-okey/index.md)
-- [Bahamian dominoes](../../games/569-bahamian-dominoes/index.md)
-- [Slam dominoes](../../games/578-slam-dominoes/index.md)
 - [Mahjong](../../games/635-mahjong/index.md)
-- [Cuban dominoes](../../games/653-cuban-dominoes/index.md)
-- [Dominoes](../../games/679-dominoes/index.md)
+- [Cafe dominoes](../../games/690-cafe-dominoes/index.md)
+- [Riichi mahjong](../../games/851-riichi-mahjong/index.md)
+- [Chickenfoot](../../games/1193-chickenfoot/index.md)
+- [Texas 42](../../games/1195-texas-42/index.md)
 
 ## Sources
 

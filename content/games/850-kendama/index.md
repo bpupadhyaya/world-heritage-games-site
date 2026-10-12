@@ -13,6 +13,10 @@ countries: ["Japan"]
 
 **Encyclopedia ID 850** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/850-kendama/
 
+![Kendama](../../../img/photos/00850-kendama.jpg)
+
+*Photo: Gallaz63, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kendama_toy.jpg)*
+
 A handle with a ball on a string; players toss the ball and catch it on the spike or in the cups, building tricks.
 
 ## Heritage note
@@ -41,8 +45,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Amidakuji](../../games/357-amidakuji/index.md)
 - [Hoop Rolling Trundle](../../games/69-hoop-rolling-trundle/index.md)
-- [Gasing uri](../../games/1289-gasing-uri/index.md)
 - [Spinning top](../../games/678-spinning-top/index.md)
+- [Gasing uri](../../games/1289-gasing-uri/index.md)
 - [Yo-yo](../../games/696-yo-yo/index.md)
 - [Gasing](../../games/908-gasing/index.md)
 

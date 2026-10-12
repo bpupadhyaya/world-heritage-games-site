@@ -42,9 +42,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Four Corners](../../games/652-four-corners/index.md)
 - [Burn-out](../../games/654-burn-out/index.md)
 - [Limbo](../../games/58-limbo/index.md)
-- [Grenada Nutmeg Grading](../../games/1456-grenada-nutmeg-grading/index.md)
-- [Jamaican Sound System Selector](../../games/1465-jamaican-sound-system-selector/index.md)
-- [Draughts](../../games/576-draughts/index.md)
+- [Spinning top](../../games/678-spinning-top/index.md)
+- [Handkerchief game](../../games/683-handkerchief-game/index.md)
+- [Rounders](../../games/761-rounders/index.md)
 
 ## Sources
 

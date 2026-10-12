@@ -15,6 +15,10 @@ countries: ["Timor-Leste"]
 
 **Encyclopedia ID 1145** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1145-regional-pony-race-meets/
 
+![Regional pony race meets](../../../img/photos/01145-regional-pony-race-meets.jpg)
+
+*Photo: Noah Salzman, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:GGF_Race5.jpg)*
+
 Regional race meets run on the small, agile Timor pony; the only traditional pastime Wikipedia names for the country.
 
 ## Heritage note
@@ -41,7 +45,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Luksong tinik](../../games/146-luksong-tinik/index.md)
 - [Lato-lato](../../games/316-lato-lato/index.md)
 - [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md)
-- [Dikir barat](../../games/1268-dikir-barat/index.md)
+- [Silat Melayu](../../games/605-silat-melayu/index.md)
 
 ## Sources
 

@@ -15,6 +15,10 @@ countries: ["Cambodia"]
 
 **Encyclopedia ID 613** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/613-buffalo-race/
 
+![Buffalo race](../../../img/photos/00613-buffalo-race.jpg)
+
+*Photo: Rayabhari, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kambala,_he-buffalo_race_at_Vandar_village,_Udupi_Dist.,_Kar._India.jpg)*
+
 Water buffalo pairs race along a road, as at the Pchum Ben pagoda event since the 1920s.
 
 ## Heritage note

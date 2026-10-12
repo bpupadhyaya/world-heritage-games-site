@@ -13,6 +13,10 @@ countries: ["Djibouti", "Somalia"]
 
 **Encyclopedia ID 674** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/674-ladu/
 
+![Ladu](../../../img/photos/00674-ladu.jpg)
+
+*Photo: Anatol Svahilec, [CC0](https://creativecommons.org/publicdomain/zero/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bez_ladu_a_skladu_-_Colours_of_Ostrava_2025_2.jpg)*
+
 One of three Somali board games named by a teaching site; I could not verify its equipment or rules (the page returned 403).
 
 ## Heritage note

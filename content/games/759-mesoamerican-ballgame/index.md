@@ -15,6 +15,10 @@ countries: ["Guatemala", "Mexico"]
 
 **Encyclopedia ID 759** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/759-mesoamerican-ballgame/
 
+![Mesoamerican ballgame](../../../img/photos/00759-mesoamerican-ballgame.jpg)
+
+*Photo: Photograph: Manuel Aguilar-Moreno / CSULA Ulama Project, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ulama_37_(Aguilar).jpg)*
+
 Heritage ballgame also linked to Maya court history.
 
 ## Heritage note

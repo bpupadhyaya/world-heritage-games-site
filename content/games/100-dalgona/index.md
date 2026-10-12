@@ -42,9 +42,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 - [Wayfinder](../../games/43-wayfinder/index.md)
 - [Hangul syllable blocks](../../games/364-hangul-syllable-blocks/index.md)
+- [Tuho](../../games/1089-tuho/index.md)
 - [Vai Syllabary Decoder](../../games/1394-vai-syllabary-decoder/index.md)
 - [Goguryeo Mural Restoration](../../games/1454-goguryeo-mural-restoration/index.md)
-- [Tuho](../../games/1089-tuho/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
 
 ## Sources

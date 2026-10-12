@@ -23,6 +23,7 @@ count: 45
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md): United Kingdom, Canada; Dexterity and skill games; Age of Contact and Craft
 - [Chinlone](../../games/16-chinlone/index.md): Myanmar; Dexterity and skill games; Modern Heritage
 - [Crossbow Target Match](../../games/1367-crossbow-target-match/index.md): Italy, San Marino; Dexterity and skill games; Modern Heritage
+- [Curling](../../games/1181-curling/index.md): United Kingdom; Street and playground games; Modern Heritage
 - [Cymbergaj](../../games/377-cymbergaj/index.md): Poland; Dexterity and skill games; Modern Heritage
 - [Dumpling Pleating](../../games/499-dumpling-pleating/index.md): China, Nepal; Crafts and making; Living Traditions
 - [Finnish pin toss](../../games/49-finnish-pin-toss/index.md): Finland; Dexterity and skill games; Age of Contact and Craft
@@ -35,6 +36,7 @@ count: 45
 - [Ice Stock Sport](../../games/1451-ice-stock-sport/index.md): Austria, Germany; Dexterity and skill games; Modern Heritage
 - [Ikpu Ite Coil Pot](../../games/1300-ikpu-ite-coil-pot/index.md): Nigeria; Crafts and making; Living Traditions
 - [Indian club swinging](../../games/264-indian-club-swinging/index.md): India, Pakistan; Dexterity and skill games; Modern Heritage
+- [Kati](../../games/860-kati/index.md): Kenya, South Africa; Street and playground games; Modern Heritage
 - [Kicksled Race](../../games/407-kicksled-race/index.md): Finland, Sweden; Racing; Age of Contact and Craft
 - [Kottabos Symposium Toss](../../games/392-kottabos-symposium-toss/index.md): Greece; Archery, throwing and target games; Classical Worlds
 - [Luge and toboggan run](../../games/482-luge-and-toboggan-run/index.md): Worldwide; Racing; Age of Contact and Craft
@@ -54,6 +56,4 @@ count: 45
 - [Wire car](../../games/85-wire-car/index.md): Worldwide; Crafts and making; Living Traditions
 - [Yukigassen Snow Fort](../../games/71-yukigassen-snow-fort/index.md): Japan; Water and winter sports; Modern Heritage
 - [Zurkhaneh strength rhythm](../../games/227-zurkhaneh-strength-rhythm/index.md): Iran; Dexterity and skill games; Modern Heritage
-- [Curling](../../games/1181-curling/index.md): United Kingdom; Street and playground games; Modern Heritage
-- [Kati](../../games/860-kati/index.md): Kenya, South Africa; Street and playground games; Modern Heritage
 - [Koi](../../games/599-koi/index.md): Botswana; Street and playground games; Modern Heritage

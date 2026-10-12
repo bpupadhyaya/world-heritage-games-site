@@ -18,12 +18,16 @@ count: 121
 - [Ambalangoda mask carving](../../games/299-ambalangoda-mask-carving/index.md): Sri Lanka; Crafts and making; Living Traditions
 - [Bandhani tie-dye](../../games/258-bandhani-tie-dye/index.md): India; Crafts and making; Living Traditions
 - [Bankura terracotta horse](../../games/280-bankura-terracotta-horse/index.md): Bangladesh; Crafts and making; Living Traditions
+- [Bashi](../../games/915-bashi/index.md): Maldives; Street and playground games; Modern Heritage
 - [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md): India; Dexterity and skill games; Modern Heritage
 - [Block printing](../../games/118-block-printing/index.md): India; Crafts and making; Living Traditions
+- [Boli Khela](../../games/572-boli-khela/index.md): Bangladesh; Street and playground games; River Valleys and First Cities
+- [Break the pot](../../games/1105-break-the-pot/index.md): Sri Lanka; Dexterity and skill games; Modern Heritage
 - [Chamba rumal embroidery](../../games/1252-chamba-rumal-embroidery/index.md): India; Crafts and making; Living Traditions
 - [Chaturanga](../../games/45-chaturanga/index.md): India; Board and table games; Crossroads and Golden Ages
 - [Chikankari white-on-white embroidery](../../games/266-chikankari-white-on-white-embroidery/index.md): Worldwide; Crafts and making; Living Traditions
 - [Chungi](../../games/297-chungi/index.md): Nepal, India; Dexterity and skill games; Modern Heritage
+- [Dandi Biyo](../../games/968-dandi-biyo/index.md): Nepal; Dexterity and skill games; Modern Heritage
 - [Dhaka rickshaw art](../../games/295-dhaka-rickshaw-art/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Dhaka weave pattern loom](../../games/115-dhaka-weave-pattern-loom/index.md): Nepal; Crafts and making; Living Traditions
 - [Dhokra lost-wax casting](../../games/278-dhokra-lost-wax-casting/index.md): Bangladesh; Crafts and making; Living Traditions
@@ -31,23 +35,30 @@ count: 121
 - [Digor](../../games/1267-digor/index.md): Bhutan; Archery, throwing and target games; Classical Worlds
 - [Doko porter trail](../../games/293-doko-porter-trail/index.md): Nepal; Dexterity and skill games; Modern Heritage
 - [Dombra](../../games/48-dombra/index.md): Kazakhstan; Musical instruments; Crossroads and Golden Ages
+- [Durak](../../games/854-durak/index.md): Kazakhstan, Turkmenistan; Card games; Age of Contact and Craft
+- [Elle](../../games/1104-elle/index.md): Sri Lanka; Street and playground games; Modern Heritage
+- [Gilli-Danda](../../games/793-gilli-danda/index.md): India; Dexterity and skill games; Modern Heritage
+- [Gushtingiri wrestling](../../games/1133-gushtingiri-wrestling/index.md): Tajikistan; Street and playground games; River Valleys and First Cities
 - [Hill-country tea plucking](../../games/1297-hill-country-tea-plucking/index.md): Sri Lanka; Puzzles and mind games; Modern Heritage
 - [Ikat Pattern Dyeing](../../games/104-ikat-pattern-dyeing/index.md): Uzbekistan; Crafts and making; Living Traditions
 - [Indian club swinging](../../games/264-indian-club-swinging/index.md): India, Pakistan; Dexterity and skill games; Modern Heritage
 - [Jaapi weaving](../../games/1304-jaapi-weaving/index.md): India; Crafts and making; Living Traditions
 - [Jaipur blue pottery painting](../../games/262-jaipur-blue-pottery-painting/index.md): India; Crafts and making; Living Traditions
 - [Jamdani muslin weaving](../../games/1305-jamdani-muslin-weaving/index.md): Bangladesh; Crafts and making; Living Traditions
+- [Kabaddi](../../games/789-kabaddi/index.md): India, Pakistan; Street and playground games; Modern Heritage
 - [Kantha running-stitch quilt](../../games/284-kantha-running-stitch-quilt/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Kashmiri papier-mache painting](../../games/269-kashmiri-papier-mache-painting/index.md): India; Crafts and making; Living Traditions
 - [Kathak tatkar footwork rhythm](../../games/267-kathak-tatkar-footwork-rhythm/index.md): India, Pakistan; Other traditions; Living Traditions
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md): India; Performance and storytelling; Classical Worlds
 - [Kho-Kho](../../games/15-kho-kho/index.md): India, Nepal; Street and playground games; Modern Heritage
 - [Kira and Kushuthara backstrap weaving](../../games/1312-kira-and-kushuthara-backstrap-weaving/index.md): Bhutan; Crafts and making; Living Traditions
+- [Knucklebone game](../../games/522-knucklebone-game/index.md): Afghanistan, Mongolia; Dexterity and skill games; Deep Past and First Games
 - [Kok-boru](../../games/241-kok-boru/index.md): Kyrgyzstan, Kazakhstan; Sports with animal partners; Classical Worlds
 - [Komuz](../../games/242-komuz/index.md): Kyrgyzstan; Musical instruments; Crossroads and Golden Ages
 - [Kotta Pora](../../games/18-kotta-pora/index.md): Sri Lanka; Wrestling and martial sports; Classical Worlds
 - [Kurash](../../games/253-kurash/index.md): Uzbekistan; Wrestling and martial sports; River Valleys and First Cities
 - [Kushti / Pehlwani mud wrestling](../../games/256-kushti-pehlwani-mud-wrestling/index.md): India, Pakistan; Wrestling and martial sports; River Valleys and First Cities
+- [Kyz Kuu](../../games/858-kyz-kuu/index.md): Kazakhstan; Street and playground games; Classical Worlds
 - [Lagori](../../games/14-lagori/index.md): India; Street and playground games; Modern Heritage
 - [Lathi Khela](../../games/298-lathi-khela/index.md): Bangladesh; Wrestling and martial sports; Classical Worlds
 - [Lau Kata Kati](../../games/460-lau-kata-kati/index.md): Bangladesh; Board and table games; Crossroads and Golden Ages
@@ -57,8 +68,10 @@ count: 121
 - [Mithila folk painting](../../games/1337-mithila-folk-painting/index.md): Nepal, India; Crafts and making; Living Traditions
 - [Murchunga](../../games/290-murchunga/index.md): Nepal; Musical instruments; Classical Worlds
 - [Nakshi Kantha embroidery](../../games/294-nakshi-kantha-embroidery/index.md): Bangladesh; Crafts and making; Living Traditions
+- [Nard / backgammon](../../games/1168-nard-backgammon/index.md): Turkmenistan, Tajikistan; Board and table games; River Valleys and First Cities
 - [Nouka Baich](../../games/42-nouka-baich/index.md): Bangladesh, India; Racing; Age of Contact and Craft
 - [Pakistani truck art](../../games/116-pakistani-truck-art/index.md): Pakistan, India; Crafts and making; Living Traditions
+- [Pallanguzhi](../../games/798-pallanguzhi/index.md): India; Board and table games; Deep Past and First Games
 - [Pamiri House Ceiling Raiser](../../games/1356-pamiri-house-ceiling-raiser/index.md): Tajikistan; Crafts and making; Living Traditions
 - [Peralikatuma](../../games/287-peralikatuma/index.md): Sri Lanka; Board and table games; Crossroads and Golden Ages
 - [Phulkari darn-stitch embroidery](../../games/257-phulkari-darn-stitch-embroidery/index.md): India, Pakistan; Crafts and making; Living Traditions
@@ -66,7 +79,9 @@ count: 121
 - [Rabab plucked lute](../../games/270-rabab-plucked-lute/index.md): India, Pakistan; Musical instruments; Crossroads and Golden Ages
 - [Ralli patchwork quilt](../../games/1364-ralli-patchwork-quilt/index.md): Pakistan, India; Crafts and making; Living Traditions
 - [Rishtan ceramics](../../games/252-rishtan-ceramics/index.md): Uzbekistan; Crafts and making; Living Traditions
+- [Rope pulling](../../games/855-rope-pulling/index.md): Kazakhstan; Street and playground games; Classical Worlds
 - [Santoor](../../games/151-santoor/index.md): India; Musical instruments; Living Traditions
+- [Shatranj / chess](../../games/1134-shatranj-chess/index.md): Tajikistan; Board and table games; Crossroads and Golden Ages
 - [Shikara paddle race](../../games/265-shikara-paddle-race/index.md): India; Racing; Age of Contact and Craft
 - [Shital pati cool mat weaving](../../games/1371-shital-pati-cool-mat-weaving/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Sholapith flower carving](../../games/283-sholapith-flower-carving/index.md): Bangladesh; Crafts and making; Living Traditions
@@ -74,9 +89,12 @@ count: 121
 - [Silambam](../../games/271-silambam/index.md): India; Wrestling and martial sports; Classical Worlds
 - [Sri Lankan batik wax-resist painting](../../games/1239-sri-lankan-batik-wax-resist-painting/index.md): Sri Lanka; Crafts and making; Living Traditions
 - [Steppe eagle hunting](../../games/254-steppe-eagle-hunting/index.md): Kazakhstan; Dexterity and skill games; Modern Heritage
+- [Stick game](../../games/912-stick-game/index.md): Maldives, New Zealand; Street and playground games; Modern Heritage
 - [Stilt fishing](../../games/288-stilt-fishing/index.md): Sri Lanka; Dexterity and skill games; Classical Worlds
+- [Stone put](../../games/589-stone-put/index.md): Bhutan, Switzerland; Dexterity and skill games; Modern Heritage
 - [Suzani embroidery](../../games/248-suzani-embroidery/index.md): Uzbekistan, Tajikistan; Crafts and making; Living Traditions
 - [Thanjavur dancing doll](../../games/275-thanjavur-dancing-doll/index.md): India; Toys; Modern Heritage
+- [Toguz Korgool](../../games/871-toguz-korgool/index.md): Kyrgyzstan; Board and table games; Deep Past and First Games
 - [Turkmen gul carpet](../../games/249-turkmen-gul-carpet/index.md): Turkmenistan; Crafts and making; Living Traditions
 - [Turkmen Silver Jewelry Designer](../../games/1392-turkmen-silver-jewelry-designer/index.md): Turkmenistan; Crafts and making; Living Traditions
 - [Veena](../../games/282-veena/index.md): India; Musical instruments; Crossroads and Golden Ages
@@ -87,48 +105,30 @@ count: 121
 - [Ashyk](../../games/1169-ashyk/index.md): Turkmenistan; Dexterity and skill games; Modern Heritage
 - [Asyk Atu](../../games/856-asyk-atu/index.md): Kazakhstan; Dexterity and skill games; Modern Heritage
 - [Baibalaa](../../games/914-baibalaa/index.md): Maldives; Street and playground games; Deep Past and First Games
-- [Bashi](../../games/915-bashi/index.md): Maldives; Street and playground games; Modern Heritage
 - [Besh Tash](../../games/869-besh-tash/index.md): Kyrgyzstan; Dexterity and skill games; Deep Past and First Games
-- [Boli Khela](../../games/572-boli-khela/index.md): Bangladesh; Street and playground games; River Valleys and First Cities
-- [Break the pot](../../games/1105-break-the-pot/index.md): Sri Lanka; Dexterity and skill games; Modern Heritage
 - [Chavgon](../../games/1204-chavgon/index.md): Uzbekistan; Street and playground games; Classical Worlds
 - [Chavgonbozi](../../games/1132-chavgonbozi/index.md): Tajikistan; Street and playground games; Classical Worlds
-- [Dandi Biyo](../../games/968-dandi-biyo/index.md): Nepal; Dexterity and skill games; Modern Heritage
 - [Dego](../../games/590-dego/index.md): Bhutan; Dexterity and skill games; Modern Heritage
-- [Durak](../../games/854-durak/index.md): Kazakhstan, Turkmenistan; Card games; Age of Contact and Craft
-- [Elle](../../games/1104-elle/index.md): Sri Lanka; Street and playground games; Modern Heritage
-- [Gilli-Danda](../../games/793-gilli-danda/index.md): India; Dexterity and skill games; Modern Heritage
 - [Gollachut](../../games/573-gollachut/index.md): Bangladesh; Street and playground games; Modern Heritage
 - [Gulli Danda](../../games/1003-gulli-danda/index.md): Pakistan; Dexterity and skill games; Modern Heritage
-- [Gushtingiri wrestling](../../games/1133-gushtingiri-wrestling/index.md): Tajikistan; Street and playground games; River Valleys and First Cities
 - [Horn pulling](../../games/1103-horn-pulling/index.md): Sri Lanka; Street and playground games; Classical Worlds
-- [Kabaddi](../../games/789-kabaddi/index.md): India, Pakistan; Street and playground games; Modern Heritage
 - [Khuru](../../games/592-khuru/index.md): Bhutan; Dexterity and skill games; Age of Contact and Craft
 - [Kite fighting](../../games/788-kite-fighting/index.md): India, Pakistan; Dexterity and skill games; Classical Worlds
-- [Knucklebone game](../../games/522-knucklebone-game/index.md): Afghanistan, Mongolia; Dexterity and skill games; Deep Past and First Games
 - [Kokpar](../../games/857-kokpar/index.md): Kazakhstan; Street and playground games; Classical Worlds
-- [Kyz Kuu](../../games/858-kyz-kuu/index.md): Kazakhstan; Street and playground games; Classical Worlds
 - [Lambs and Tigers](../../games/791-lambs-and-tigers/index.md): India; Board and table games; Crossroads and Golden Ages
 - [Maldivian chess](../../games/917-maldivian-chess/index.md): Maldives; Board and table games; Crossroads and Golden Ages
-- [Nard / backgammon](../../games/1168-nard-backgammon/index.md): Turkmenistan, Tajikistan; Board and table games; River Valleys and First Cities
 - [Nard / long backgammon](../../games/1205-nard-long-backgammon/index.md): Uzbekistan; Board and table games; River Valleys and First Cities
 - [Ohvalhu](../../games/916-ohvalhu/index.md): Maldives; Board and table games; Deep Past and First Games
 - [Olinda Keliya](../../games/1106-olinda-keliya/index.md): Sri Lanka; Board and table games; Deep Past and First Games
 - [Ordo](../../games/870-ordo/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
 - [Pachisi](../../games/797-pachisi/index.md): India; Board and table games; River Valleys and First Cities
-- [Pallanguzhi](../../games/798-pallanguzhi/index.md): India; Board and table games; Deep Past and First Games
 - [Pancha](../../games/1108-pancha/index.md): Sri Lanka; Board and table games; River Valleys and First Cities
 - [Pillow fight](../../games/1101-pillow-fight/index.md): Sri Lanka, Myanmar; Street and playground games; Modern Heritage
 - [Pitthu Garam](../../games/1004-pitthu-garam/index.md): Pakistan; Street and playground games; Modern Heritage
-- [Rope pulling](../../games/855-rope-pulling/index.md): Kazakhstan; Street and playground games; Classical Worlds
 - [Shashki / chess](../../games/1206-shashki-chess/index.md): Uzbekistan; Board and table games; Classical Worlds
-- [Shatranj / chess](../../games/1134-shatranj-chess/index.md): Tajikistan; Board and table games; Crossroads and Golden Ages
 - [Snakes and Ladders](../../games/796-snakes-and-ladders/index.md): India; Board and table games; River Valleys and First Cities
-- [Stick game](../../games/912-stick-game/index.md): Maldives, New Zealand; Street and playground games; Modern Heritage
-- [Stone put](../../games/589-stone-put/index.md): Bhutan, Switzerland; Dexterity and skill games; Modern Heritage
 - [Thin Hama](../../games/918-thin-hama/index.md): Maldives; Board and table games; River Valleys and First Cities
 - [Tiger and Goat](../../games/967-tiger-and-goat/index.md): Nepal; Board and table games; Crossroads and Golden Ages
-- [Toguz Korgool](../../games/871-toguz-korgool/index.md): Kyrgyzstan; Board and table games; Deep Past and First Games
 - [Togyz Kumalak](../../games/859-togyz-kumalak/index.md): Kazakhstan; Board and table games; Deep Past and First Games
 - [Turkmen Akhal-Teke equestrian games](../../games/1170-turkmen-akhal-teke-equestrian-games/index.md): Turkmenistan; Street and playground games; Classical Worlds
 - [White Cloth](../../games/867-white-cloth/index.md): Kyrgyzstan; Street and playground games; Modern Heritage

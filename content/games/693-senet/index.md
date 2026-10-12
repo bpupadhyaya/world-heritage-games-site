@@ -13,6 +13,10 @@ countries: ["Egypt"]
 
 **Encyclopedia ID 693** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/693-senet/
 
+![Senet](../../../img/photos/00693-senet.jpg)
+
+*Photo: Charles Edwin Wilbour Fund, No restrictions, [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gaming_Board_Inscribed_for_Amenhotep_III_with_Separate_Sliding_Drawer,_ca._1390-1353_B.C.E.,49.56a-b.jpg)*
+
 Ancient Egyptian track race using throw sticks; reconstructed rules, strong museum-icon status.
 
 ## Heritage note
@@ -40,11 +44,11 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 ## Related entries
 
 - [Egyptian backgammon](../../games/695-egyptian-backgammon/index.md)
-- [Tavëll](../../games/527-tavell/index.md)
 - [Nardi](../../games/551-nardi/index.md)
-- [Colombian Parqués](../../games/644-colombian-parques/index.md)
 - [Tavli](../../games/656-tavli/index.md)
 - [Don't Get Angry](../../games/744-dont-get-angry/index.md)
+- [Ludo](../../games/763-ludo/index.md)
+- [Royal Game of Ur](../../games/817-royal-game-of-ur/index.md)
 
 ## Sources
 

@@ -38,10 +38,10 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md)
 - [Dranyen](../../games/300-dranyen/index.md)
-- [Banqi](../../games/1437-banqi/index.md)
 - [Mahjong](../../games/635-mahjong/index.md)
-- [Xiangqi](../../games/636-xiangqi/index.md)
 - [Luzhanqi](../../games/640-luzhanqi/index.md)
+- [Banqi](../../games/1437-banqi/index.md)
+- [Xiangqi](../../games/636-xiangqi/index.md)
 
 ## Sources
 

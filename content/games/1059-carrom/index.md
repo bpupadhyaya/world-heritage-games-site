@@ -15,6 +15,10 @@ countries: ["Saudi Arabia", "Oman", "United Arab Emirates", "Qatar", "Bahrain", 
 
 **Encyclopedia ID 1059** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1059-carrom/
 
+![Carrom](../../../img/photos/01059-carrom.jpg)
+
+*Photo: Unknown author (public domain), [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Carrom.jpg)*
+
 Players flick a weighted striker across a powdered board to sink wooden discs, and the red queen, into the four corner pockets.
 
 ## Heritage note

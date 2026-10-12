@@ -25,13 +25,18 @@ From the Yellow River to the Yangtze and the highlands beyond.
 - [Dranyen](../../games/300-dranyen/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Dumpling Pleating](../../games/499-dumpling-pleating/index.md): China, Nepal; Crafts and making; Living Traditions
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md): China; Musical instruments; Crossroads and Golden Ages
+- [Fan-tan](../../games/900-fan-tan/index.md): China; Other traditions; Living Traditions
+- [Go](../../games/634-go/index.md): China, Japan; Board and table games; Classical Worlds
 - [Hmong story cloth](../../games/1298-hmong-story-cloth/index.md): China, Laos; Crafts and making; Living Traditions
 - [Hong Kong Milk Tea Pulling](../../games/1463-hong-kong-milk-tea-pulling/index.md): China; Crafts and making; Living Traditions
 - [Hoop Rolling Trundle](../../games/69-hoop-rolling-trundle/index.md): China; Street and playground games; Modern Heritage
+- [Huarong Dao](../../games/639-huarong-dao/index.md): China; Water and winter sports; Modern Heritage
 - [Lamian](../../games/340-lamian/index.md): China; Crafts and making; Living Traditions
 - [Liubo](../../games/331-liubo/index.md): China; Board and table games; River Valleys and First Cities
 - [Lo Shu Magic Square](../../games/111-lo-shu-magic-square/index.md): China; Puzzles and mind games; Age of Contact and Craft
 - [Luban lock](../../games/99-luban-lock/index.md): China; Puzzles and mind games; Modern Heritage
+- [Luzhanqi](../../games/640-luzhanqi/index.md): China; Board and table games; Crossroads and Golden Ages
+- [Mahjong](../../games/635-mahjong/index.md): China, Singapore; Board and table games; Crossroads and Golden Ages
 - [Neon sign bender](../../games/371-neon-sign-bender/index.md): China; Crafts and making; Living Traditions
 - [Oil-paper umbrella making](../../games/344-oil-paper-umbrella-making/index.md): China; Crafts and making; Living Traditions
 - [Peranakan beaded slippers](../../games/1358-peranakan-beaded-slippers/index.md): China, Singapore; Crafts and making; Living Traditions
@@ -42,15 +47,10 @@ From the Yellow River to the Yangtze and the highlands beyond.
 - [Stone Arch Bridge Builder](../../games/495-stone-arch-bridge-builder/index.md): China; Puzzles and mind games; Age of Contact and Craft
 - [Suzhou silk embroidery](../../games/345-suzhou-silk-embroidery/index.md): China; Crafts and making; Living Traditions
 - [Tanghua](../../games/64-tanghua/index.md): China; Crafts and making; Living Traditions
-- [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md): China; Board and table games; Classical Worlds
-- [Fan-tan](../../games/900-fan-tan/index.md): China; Other traditions; Living Traditions
-- [Go](../../games/634-go/index.md): China, Japan; Board and table games; Classical Worlds
-- [Hong Kong mahjong](../../games/772-hong-kong-mahjong/index.md): China; Board and table games; Crossroads and Golden Ages
-- [Huarong Dao](../../games/639-huarong-dao/index.md): China; Water and winter sports; Modern Heritage
-- [Jungle](../../games/637-jungle/index.md): China; Board and table games; Crossroads and Golden Ages
-- [Luzhanqi](../../games/640-luzhanqi/index.md): China; Board and table games; Crossroads and Golden Ages
-- [Mahjong](../../games/635-mahjong/index.md): China, Singapore; Board and table games; Crossroads and Golden Ages
-- [Pai gow](../../games/771-pai-gow/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Tangram](../../games/641-tangram/index.md): China; Puzzles and mind games; Modern Heritage
+- [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md): China; Board and table games; Classical Worlds
+- [Hong Kong mahjong](../../games/772-hong-kong-mahjong/index.md): China; Board and table games; Crossroads and Golden Ages
+- [Jungle](../../games/637-jungle/index.md): China; Board and table games; Crossroads and Golden Ages
+- [Pai gow](../../games/771-pai-gow/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Tien gow](../../games/773-tien-gow/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Xiangqi](../../games/636-xiangqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages

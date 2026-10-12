@@ -41,7 +41,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md)
 - [Gondola Rowing](../../games/401-gondola-rowing/index.md)
 - [Portolan Chart Navigator](../../games/503-portolan-chart-navigator/index.md)
-- [Ghadames Rooftop Maze](../../games/1291-ghadames-rooftop-maze/index.md)
+- [Bocce](../../games/830-bocce/index.md)
 
 ## Sources
 

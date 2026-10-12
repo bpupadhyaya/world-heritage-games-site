@@ -38,8 +38,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Jukskei](../../games/11-jukskei/index.md)
 - [Nguni stick-fighting rhythm skirmish](../../games/209-nguni-stick-fighting-rhythm-skirmish/index.md)
-- [Koi](../../games/599-koi/index.md)
 - [Mhele](../../games/600-mhele/index.md)
+- [Koi](../../games/599-koi/index.md)
 - [Lusona Sand Drawings](../../games/113-lusona-sand-drawings/index.md)
 - [Namib dune sandboarding](../../games/1345-namib-dune-sandboarding/index.md)
 

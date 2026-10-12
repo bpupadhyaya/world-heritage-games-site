@@ -41,8 +41,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Limbo](../../games/58-limbo/index.md)
-- [Cush](../../games/760-cush/index.md)
 - [Street play games](../../games/1155-street-play-games/index.md)
+- [Cush](../../games/760-cush/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
 - [Stone Skipping](../../games/5-stone-skipping/index.md)
 - [Disc-flip](../../games/8-disc-flip/index.md)

@@ -41,12 +41,12 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 ## Related entries
 
-- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md)
 - [Samoan cricket](../../games/1056-samoan-cricket/index.md)
+- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md)
 - [Tuvaluan kilikiti](../../games/1172-tuvaluan-kilikiti/index.md)
 - [Vanuatu cricket](../../games/1209-vanuatu-cricket/index.md)
+- [Yard cricket](../../games/1151-yard-cricket/index.md)
 - [Taco bat game](../../games/655-taco-bat-game/index.md)
-- [Street baseball](../../games/684-street-baseball/index.md)
 
 ## Sources
 

@@ -39,9 +39,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Guatemalan Lotería](../../games/758-guatemalan-loteria/index.md)
 - [Patolli](../../games/454-patolli/index.md)
 - [Mexican Lotería](../../games/935-mexican-loteria/index.md)
+- [Mesoamerican ballgame](../../games/759-mesoamerican-ballgame/index.md)
 - [Giant Barriletes](../../games/1486-giant-barriletes/index.md)
 - [Kriol traditional games](../../games/585-kriol-traditional-games/index.md)
-- [Mesoamerican ballgame](../../games/759-mesoamerican-ballgame/index.md)
 
 ## Sources
 

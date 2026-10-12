@@ -12,152 +12,152 @@ count: 150
 
 150 entries.
 
+- [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
+- [Bashi](../../games/915-bashi/index.md): Maldives; Street and playground games; Modern Heritage
+- [Basque Pelota](../../games/1094-basque-pelota/index.md): Spain, France; Street and playground games; Modern Heritage
 - [Blind Man's Buff](../../games/467-blind-mans-buff/index.md): Turkey, India; Street and playground games; Modern Heritage
+- [Bocce](../../games/830-bocce/index.md): Italy, San Marino; Street and playground games; Modern Heritage
+- [Boli Khela](../../games/572-boli-khela/index.md): Bangladesh; Street and playground games; River Valleys and First Cities
+- [Brännboll](../../games/1118-brannboll/index.md): Sweden; Street and playground games; Deep Past and First Games
+- [Buffalo race](../../games/613-buffalo-race/index.md): Cambodia; Street and playground games; Modern Heritage
+- [Cantabrian palm bowling](../../games/1096-cantabrian-palm-bowling/index.md): Spain; Street and playground games; Age of Contact and Craft
+- [Capoeira Angola](../../games/543-capoeira-angola/index.md): Angola; Street and playground games; Age of Contact and Craft
+- [Chaza](../../games/643-chaza/index.md): Colombia; Street and playground games; Modern Heritage
+- [Chidaoba](../../games/734-chidaoba/index.md): Georgia; Street and playground games; River Valleys and First Cities
+- [Chogan](../../games/810-chogan/index.md): Iran; Street and playground games; Classical Worlds
+- [Crossbow shooting](../../games/1058-crossbow-shooting/index.md): San Marino; Street and playground games; Modern Heritage
 - [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md): Indonesia; Street and playground games; Modern Heritage
+- [Curling](../../games/1181-curling/index.md): United Kingdom; Street and playground games; Modern Heritage
 - [Dambe](../../games/987-dambe/index.md): Nigeria, Niger; Street and playground games; Modern Heritage
+- [Danish pin billiards](../../games/671-danish-pin-billiards/index.md): Denmark; Street and playground games; Age of Contact and Craft
 - [Dikir barat](../../games/1268-dikir-barat/index.md): Malaysia; Street and playground games; Modern Heritage
 - [Double Dutch](../../games/53-double-dutch/index.md): United States; Street and playground games; Modern Heritage
+- [Elle](../../games/1104-elle/index.md): Sri Lanka; Street and playground games; Modern Heritage
+- [Fierljeppen](../../games/971-fierljeppen/index.md): Netherlands; Street and playground games; Modern Heritage
+- [Flower or Empty](../../games/812-flower-or-empty/index.md): Iran; Street and playground games; Modern Heritage
+- [Four Corners](../../games/652-four-corners/index.md): Cuba; Street and playground games; Modern Heritage
+- [Galah panjang](../../games/909-galah-panjang/index.md): Malaysia, Singapore; Street and playground games; Deep Past and First Games
+- [Gushtingiri wrestling](../../games/1133-gushtingiri-wrestling/index.md): Tajikistan; Street and playground games; River Valleys and First Cities
+- [Hand-slap game](../../games/711-hand-slap-game/index.md): Fiji; Street and playground games; Modern Heritage
+- [Handkerchief game](../../games/683-handkerchief-game/index.md): Dominican Republic; Street and playground games; Modern Heritage
+- [Heritage games](../../games/1050-heritage-games/index.md): Saint Lucia; Street and playground games; Modern Heritage
 - [Hide and Seek](../../games/475-hide-and-seek/index.md): Worldwide; Street and playground games; Deep Past and First Games
 - [Hoop Rolling Trundle](../../games/69-hoop-rolling-trundle/index.md): China; Street and playground games; Modern Heritage
+- [Hurling](../../games/821-hurling/index.md): Ireland; Street and playground games; Crossroads and Golden Ages
+- [Ibibo](../../games/964-ibibo/index.md): Nauru; Street and playground games; Modern Heritage
+- [Jegichagi](../../games/1082-jegichagi/index.md): South Korea, North Korea; Street and playground games; Modern Heritage
 - [Kaapse Klopse](../../games/1307-kaapse-klopse/index.md): Malaysia, South Africa; Street and playground games; Modern Heritage
+- [Kabaddi](../../games/789-kabaddi/index.md): India, Pakistan; Street and playground games; Modern Heritage
+- [Kati](../../games/860-kati/index.md): Kenya, South Africa; Street and playground games; Modern Heritage
 - [Kho-Kho](../../games/15-kho-kho/index.md): India, Nepal; Street and playground games; Modern Heritage
+- [Kī-o-rahi](../../games/978-ki-o-rahi/index.md): New Zealand; Street and playground games; Modern Heritage
+- [Klootschieten](../../games/975-klootschieten/index.md): Netherlands; Street and playground games; Modern Heritage
+- [Krulbollen](../../games/583-krulbollen/index.md): Belgium; Street and playground games; Modern Heritage
+- [Kubb](../../games/1120-kubb/index.md): Sweden; Street and playground games; Modern Heritage
+- [Kwepena](../../games/1174-kwepena/index.md): Uganda; Street and playground games; Modern Heritage
+- [Kyykka](../../games/715-kyykka/index.md): Finland; Street and playground games; Age of Contact and Craft
+- [Kyz Kuu](../../games/858-kyz-kuu/index.md): Kazakhstan; Street and playground games; Classical Worlds
 - [La Sape dress-up parade](../../games/200-la-sape-dress-up-parade/index.md): Congo; Street and playground games; Modern Heritage
 - [Lagori](../../games/14-lagori/index.md): India; Street and playground games; Modern Heritage
 - [Lapta](../../games/375-lapta/index.md): Russia; Street and playground games; Modern Heritage
 - [Luksong tinik](../../games/146-luksong-tinik/index.md): Philippines; Street and playground games; Modern Heritage
-- [Mheibes](../../games/158-mheibes/index.md): Iraq; Street and playground games; Modern Heritage
-- [Neolttwigi](../../games/4-neolttwigi/index.md): South Korea; Street and playground games; Modern Heritage
-- [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
-- [Archery](../../games/591-archery/index.md): Bhutan; Street and playground games; Classical Worlds
-- [Baibalaa](../../games/914-baibalaa/index.md): Maldives; Street and playground games; Deep Past and First Games
-- [Balle pelote](../../games/580-balle-pelote/index.md): Belgium; Street and playground games; Modern Heritage
-- [Bashi](../../games/915-bashi/index.md): Maldives; Street and playground games; Modern Heritage
-- [Basque Pelota](../../games/1094-basque-pelota/index.md): Spain, France; Street and playground games; Modern Heritage
-- [Bocce](../../games/830-bocce/index.md): Italy, San Marino; Street and playground games; Modern Heritage
-- [Boċċi](../../games/922-bocci/index.md): Malta; Street and playground games; Classical Worlds
-- [Boli Khela](../../games/572-boli-khela/index.md): Bangladesh; Street and playground games; River Valleys and First Cities
-- [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
-- [Brännboll](../../games/1118-brannboll/index.md): Sweden; Street and playground games; Deep Past and First Games
-- [Buffalo race](../../games/613-buffalo-race/index.md): Cambodia; Street and playground games; Modern Heritage
-- [Bulundu](../../games/667-bulundu/index.md): DR Congo; Street and playground games; Modern Heritage
-- [Burn-out](../../games/654-burn-out/index.md): Cuba; Street and playground games; Modern Heritage
-- [Cantabrian palm bowling](../../games/1096-cantabrian-palm-bowling/index.md): Spain; Street and playground games; Age of Contact and Craft
-- [Capoeira Angola](../../games/543-capoeira-angola/index.md): Angola; Street and playground games; Age of Contact and Craft
-- [Chavgon](../../games/1204-chavgon/index.md): Uzbekistan; Street and playground games; Classical Worlds
-- [Chavgonbozi](../../games/1132-chavgonbozi/index.md): Tajikistan; Street and playground games; Classical Worlds
-- [Chaza](../../games/643-chaza/index.md): Colombia; Street and playground games; Modern Heritage
-- [Chidaoba](../../games/734-chidaoba/index.md): Georgia; Street and playground games; River Valleys and First Cities
-- [Chogan](../../games/810-chogan/index.md): Iran; Street and playground games; Classical Worlds
-- [Chovqan](../../games/565-chovqan/index.md): Azerbaijan; Street and playground games; Classical Worlds
-- [Crossbow shooting](../../games/1058-crossbow-shooting/index.md): San Marino; Street and playground games; Modern Heritage
-- [Curling](../../games/1181-curling/index.md): United Kingdom; Street and playground games; Modern Heritage
-- [Danish pin billiards](../../games/671-danish-pin-billiards/index.md): Denmark; Street and playground games; Age of Contact and Craft
-- [Dart/spear throwing](../../games/1057-dart-spear-throwing/index.md): Samoa; Street and playground games; Modern Heritage
-- [Dibeke](../../games/1078-dibeke/index.md): South Africa, Botswana; Street and playground games; Modern Heritage
-- [Elle](../../games/1104-elle/index.md): Sri Lanka; Street and playground games; Modern Heritage
-- [Encang kuda](../../games/1067-encang-kuda/index.md): Singapore; Street and playground games; Classical Worlds
-- [Fierljeppen](../../games/971-fierljeppen/index.md): Netherlands; Street and playground games; Modern Heritage
-- [Fijian tag](../../games/712-fijian-tag/index.md): Fiji; Street and playground games; Deep Past and First Games
-- [Finger pulling](../../games/563-finger-pulling/index.md): Austria; Street and playground games; Modern Heritage
-- [Fireball](../../games/1016-fireball/index.md): Paraguay; Street and playground games; Modern Heritage
-- [Flower or Empty](../../games/812-flower-or-empty/index.md): Iran; Street and playground games; Modern Heritage
-- [Footy](../../games/962-footy/index.md): Nauru; Street and playground games; Modern Heritage
-- [Four Corners](../../games/652-four-corners/index.md): Cuba; Street and playground games; Modern Heritage
-- [Frisian kaatsen](../../games/973-frisian-kaatsen/index.md): Netherlands; Street and playground games; Modern Heritage
-- [Fuu Fuu Penu](../../games/1171-fuu-fuu-penu/index.md): Tuvalu; Street and playground games; Age of Contact and Craft
-- [Galah panjang](../../games/909-galah-panjang/index.md): Malaysia, Singapore; Street and playground games; Deep Past and First Games
-- [Gollachut](../../games/573-gollachut/index.md): Bangladesh; Street and playground games; Modern Heritage
-- [Gushtingiri wrestling](../../games/1133-gushtingiri-wrestling/index.md): Tajikistan; Street and playground games; River Valleys and First Cities
-- [Hajla](../../games/1009-hajla/index.md): Palestine; Street and playground games; Deep Past and First Games
-- [Hand-slap game](../../games/711-hand-slap-game/index.md): Fiji; Street and playground games; Modern Heritage
-- [Handkerchief game](../../games/683-handkerchief-game/index.md): Dominican Republic; Street and playground games; Modern Heritage
-- [Heritage games](../../games/1050-heritage-games/index.md): Saint Lucia; Street and playground games; Modern Heritage
-- [Hide the scarf](../../games/615-hide-the-scarf/index.md): Cambodia; Street and playground games; Modern Heritage
-- [Highland and coastal contests](../../games/1014-highland-and-coastal-contests/index.md): Papua New Guinea; Street and playground games; Modern Heritage
-- [Highland games](../../games/1184-highland-games/index.md): United Kingdom; Street and playground games; Modern Heritage
-- [Horn pulling](../../games/1103-horn-pulling/index.md): Sri Lanka; Street and playground games; Classical Worlds
-- [Hurling](../../games/821-hurling/index.md): Ireland; Street and playground games; Crossroads and Golden Ages
-- [Ibibo](../../games/964-ibibo/index.md): Nauru; Street and playground games; Modern Heritage
-- [Itsibweb](../../games/965-itsibweb/index.md): Nauru; Street and playground games; Modern Heritage
-- [Jegichagi](../../games/1082-jegichagi/index.md): South Korea, North Korea; Street and playground games; Modern Heritage
-- [Kabaddi](../../games/789-kabaddi/index.md): India, Pakistan; Street and playground games; Modern Heritage
-- [Kasivaki](../../games/1148-kasivaki/index.md): Tonga; Street and playground games; Modern Heritage
-- [Kastom games](../../games/1208-kastom-games/index.md): Vanuatu; Street and playground games; Modern Heritage
-- [Kataw](../../games/873-kataw/index.md): Laos; Street and playground games; Modern Heritage
-- [Kati](../../games/860-kati/index.md): Kenya, South Africa; Street and playground games; Modern Heritage
-- [Kī-o-rahi](../../games/978-ki-o-rahi/index.md): New Zealand; Street and playground games; Modern Heritage
-- [Kibao](../../games/1138-kibao/index.md): Tanzania; Street and playground games; Deep Past and First Games
-- [Klootschieten](../../games/975-klootschieten/index.md): Netherlands; Street and playground games; Modern Heritage
-- [Koi](../../games/599-koi/index.md): Botswana; Street and playground games; Modern Heritage
-- [Kokpar](../../games/857-kokpar/index.md): Kazakhstan; Street and playground games; Classical Worlds
-- [Kriol traditional games](../../games/585-kriol-traditional-games/index.md): Belize; Street and playground games; Modern Heritage
-- [Krulbollen](../../games/583-krulbollen/index.md): Belgium; Street and playground games; Modern Heritage
-- [Kubb](../../games/1120-kubb/index.md): Sweden; Street and playground games; Modern Heritage
-- [Kuli](../../games/1041-kuli/index.md): Congo; Street and playground games; Modern Heritage
-- [Kwepena](../../games/1174-kwepena/index.md): Uganda; Street and playground games; Modern Heritage
-- [Kyykka](../../games/715-kyykka/index.md): Finland; Street and playground games; Age of Contact and Craft
-- [Kyz Kuu](../../games/858-kyz-kuu/index.md): Kazakhstan; Street and playground games; Classical Worlds
-- [Lelo Burti](../../games/737-lelo-burti/index.md): Georgia; Street and playground games; Modern Heritage
-- [Ligrin](../../games/657-ligrin/index.md): Cyprus; Street and playground games; Modern Heritage
-- [Macho parado](../../games/984-macho-parado/index.md): Nicaragua; Street and playground games; Modern Heritage
 - [Madura bull racing](../../games/805-madura-bull-racing/index.md): Indonesia; Street and playground games; Modern Heritage
-- [Manteo](../../games/596-manteo/index.md): Bolivia; Street and playground games; Modern Heritage
-- [Matkot](../../games/825-matkot/index.md): Israel; Street and playground games; Modern Heritage
 - [Mesoamerican ballgame](../../games/759-mesoamerican-ballgame/index.md): Guatemala, Mexico; Street and playground games; Modern Heritage
+- [Mheibes](../../games/158-mheibes/index.md): Iraq; Street and playground games; Modern Heritage
 - [Mhele](../../games/600-mhele/index.md): Botswana; Street and playground games; Modern Heritage
-- [Mixtec ball game](../../games/936-mixtec-ball-game/index.md): Mexico; Street and playground games; Modern Heritage
-- [Nauruan wrestling](../../games/963-nauruan-wrestling/index.md): Nauru; Street and playground games; River Valleys and First Cities
-- [Palant](../../games/1031-palant/index.md): Poland; Street and playground games; Deep Past and First Games
-- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md): New Zealand; Street and playground games; Age of Contact and Craft
+- [Neolttwigi](../../games/4-neolttwigi/index.md): South Korea; Street and playground games; Modern Heritage
 - [Patintero](../../games/1021-patintero/index.md): Philippines; Street and playground games; Deep Past and First Games
-- [Petanque](../../games/872-petanque/index.md): Laos, France; Street and playground games; Modern Heritage
 - [Phankhon](../../games/957-phankhon/index.md): Myanmar; Street and playground games; Modern Heritage
-- [Piko](../../games/1022-piko/index.md): Philippines; Street and playground games; Deep Past and First Games
-- [Pillow fight](../../games/1101-pillow-fight/index.md): Sri Lanka, Myanmar; Street and playground games; Modern Heritage
-- [Pilolo](../../games/750-pilolo/index.md): Ghana; Street and playground games; Deep Past and First Games
-- [Pitthu Garam](../../games/1004-pitthu-garam/index.md): Pakistan; Street and playground games; Modern Heritage
-- [Portuguese staff fighting](../../games/1037-portuguese-staff-fighting/index.md): Portugal; Street and playground games; Classical Worlds
-- [Provencal boules](../../games/939-provencal-boules/index.md): Monaco; Street and playground games; Classical Worlds
 - [Pub darts](../../games/1182-pub-darts/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
-- [Putu](../../games/609-putu/index.md): Burkina Faso; Street and playground games; Modern Heritage
 - [Regional pony race meets](../../games/1145-regional-pony-race-meets/index.md): Timor-Leste; Street and playground games; Modern Heritage
 - [Regional pub games](../../games/1180-regional-pub-games/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
 - [Ring jousting](../../games/1017-ring-jousting/index.md): Paraguay; Street and playground games; Crossroads and Golden Ages
 - [Road bowling](../../games/819-road-bowling/index.md): Ireland; Street and playground games; Age of Contact and Craft
 - [Rope pulling](../../games/855-rope-pulling/index.md): Kazakhstan; Street and playground games; Classical Worlds
 - [Rounders](../../games/761-rounders/index.md): Guyana; Street and playground games; Modern Heritage
-- [Rugby sevens](../../games/713-rugby-sevens/index.md): Fiji; Street and playground games; Modern Heritage
 - [Samoan cricket](../../games/1056-samoan-cricket/index.md): Samoa; Street and playground games; Age of Contact and Craft
 - [Savika](../../games/905-savika/index.md): Madagascar; Street and playground games; River Valleys and First Cities
-- [Scarf-ball toss](../../games/614-scarf-ball-toss/index.md): Cambodia; Street and playground games; Modern Heritage
-- [Seed war](../../games/649-seed-war/index.md): Costa Rica; Street and playground games; Deep Past and First Games
 - [Sepak takraw](../../games/802-sepak-takraw/index.md): Indonesia, Malaysia; Street and playground games; Modern Heritage
 - [Silat Melayu](../../games/605-silat-melayu/index.md): Brunei; Street and playground games; Modern Heritage
 - [Sipa](../../games/1024-sipa/index.md): Philippines; Street and playground games; Modern Heritage
-- [Skittles](../../games/1179-skittles/index.md): United Kingdom, Germany; Street and playground games; Age of Contact and Craft
 - [Slovene quintain](../../games/1073-slovene-quintain/index.md): Slovenia; Street and playground games; Classical Worlds
+- [Stick game](../../games/912-stick-game/index.md): Maldives, New Zealand; Street and playground games; Modern Heritage
+- [Svaika](../../games/1048-svaika/index.md): Russia; Street and playground games; Modern Heritage
+- [Tag](../../games/959-tag/index.md): Myanmar; Street and playground games; Deep Past and First Games
+- [Traditional wrestling](../../games/619-traditional-wrestling/index.md): Cameroon; Street and playground games; River Valleys and First Cities
+- [Tumbang preso](../../games/1028-tumbang-preso/index.md): Philippines; Street and playground games; Modern Heritage
+- [Yard cricket](../../games/1151-yard-cricket/index.md): Trinidad and Tobago, Barbados; Street and playground games; Age of Contact and Craft
+- [Archery](../../games/591-archery/index.md): Bhutan; Street and playground games; Classical Worlds
+- [Baibalaa](../../games/914-baibalaa/index.md): Maldives; Street and playground games; Deep Past and First Games
+- [Balle pelote](../../games/580-balle-pelote/index.md): Belgium; Street and playground games; Modern Heritage
+- [Boċċi](../../games/922-bocci/index.md): Malta; Street and playground games; Classical Worlds
+- [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
+- [Bulundu](../../games/667-bulundu/index.md): DR Congo; Street and playground games; Modern Heritage
+- [Burn-out](../../games/654-burn-out/index.md): Cuba; Street and playground games; Modern Heritage
+- [Chavgon](../../games/1204-chavgon/index.md): Uzbekistan; Street and playground games; Classical Worlds
+- [Chavgonbozi](../../games/1132-chavgonbozi/index.md): Tajikistan; Street and playground games; Classical Worlds
+- [Chovqan](../../games/565-chovqan/index.md): Azerbaijan; Street and playground games; Classical Worlds
+- [Dart/spear throwing](../../games/1057-dart-spear-throwing/index.md): Samoa; Street and playground games; Modern Heritage
+- [Dibeke](../../games/1078-dibeke/index.md): South Africa, Botswana; Street and playground games; Modern Heritage
+- [Encang kuda](../../games/1067-encang-kuda/index.md): Singapore; Street and playground games; Classical Worlds
+- [Fijian tag](../../games/712-fijian-tag/index.md): Fiji; Street and playground games; Deep Past and First Games
+- [Finger pulling](../../games/563-finger-pulling/index.md): Austria; Street and playground games; Modern Heritage
+- [Fireball](../../games/1016-fireball/index.md): Paraguay; Street and playground games; Modern Heritage
+- [Footy](../../games/962-footy/index.md): Nauru; Street and playground games; Modern Heritage
+- [Frisian kaatsen](../../games/973-frisian-kaatsen/index.md): Netherlands; Street and playground games; Modern Heritage
+- [Fuu Fuu Penu](../../games/1171-fuu-fuu-penu/index.md): Tuvalu; Street and playground games; Age of Contact and Craft
+- [Gollachut](../../games/573-gollachut/index.md): Bangladesh; Street and playground games; Modern Heritage
+- [Hajla](../../games/1009-hajla/index.md): Palestine; Street and playground games; Deep Past and First Games
+- [Hide the scarf](../../games/615-hide-the-scarf/index.md): Cambodia; Street and playground games; Modern Heritage
+- [Highland and coastal contests](../../games/1014-highland-and-coastal-contests/index.md): Papua New Guinea; Street and playground games; Modern Heritage
+- [Highland games](../../games/1184-highland-games/index.md): United Kingdom; Street and playground games; Modern Heritage
+- [Horn pulling](../../games/1103-horn-pulling/index.md): Sri Lanka; Street and playground games; Classical Worlds
+- [Itsibweb](../../games/965-itsibweb/index.md): Nauru; Street and playground games; Modern Heritage
+- [Kasivaki](../../games/1148-kasivaki/index.md): Tonga; Street and playground games; Modern Heritage
+- [Kastom games](../../games/1208-kastom-games/index.md): Vanuatu; Street and playground games; Modern Heritage
+- [Kataw](../../games/873-kataw/index.md): Laos; Street and playground games; Modern Heritage
+- [Kibao](../../games/1138-kibao/index.md): Tanzania; Street and playground games; Deep Past and First Games
+- [Koi](../../games/599-koi/index.md): Botswana; Street and playground games; Modern Heritage
+- [Kokpar](../../games/857-kokpar/index.md): Kazakhstan; Street and playground games; Classical Worlds
+- [Kriol traditional games](../../games/585-kriol-traditional-games/index.md): Belize; Street and playground games; Modern Heritage
+- [Kuli](../../games/1041-kuli/index.md): Congo; Street and playground games; Modern Heritage
+- [Lelo Burti](../../games/737-lelo-burti/index.md): Georgia; Street and playground games; Modern Heritage
+- [Ligrin](../../games/657-ligrin/index.md): Cyprus; Street and playground games; Modern Heritage
+- [Macho parado](../../games/984-macho-parado/index.md): Nicaragua; Street and playground games; Modern Heritage
+- [Manteo](../../games/596-manteo/index.md): Bolivia; Street and playground games; Modern Heritage
+- [Matkot](../../games/825-matkot/index.md): Israel; Street and playground games; Modern Heritage
+- [Mixtec ball game](../../games/936-mixtec-ball-game/index.md): Mexico; Street and playground games; Modern Heritage
+- [Nauruan wrestling](../../games/963-nauruan-wrestling/index.md): Nauru; Street and playground games; River Valleys and First Cities
+- [Palant](../../games/1031-palant/index.md): Poland; Street and playground games; Deep Past and First Games
+- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md): New Zealand; Street and playground games; Age of Contact and Craft
+- [Petanque](../../games/872-petanque/index.md): Laos, France; Street and playground games; Modern Heritage
+- [Piko](../../games/1022-piko/index.md): Philippines; Street and playground games; Deep Past and First Games
+- [Pillow fight](../../games/1101-pillow-fight/index.md): Sri Lanka, Myanmar; Street and playground games; Modern Heritage
+- [Pilolo](../../games/750-pilolo/index.md): Ghana; Street and playground games; Deep Past and First Games
+- [Pitthu Garam](../../games/1004-pitthu-garam/index.md): Pakistan; Street and playground games; Modern Heritage
+- [Portuguese staff fighting](../../games/1037-portuguese-staff-fighting/index.md): Portugal; Street and playground games; Classical Worlds
+- [Provencal boules](../../games/939-provencal-boules/index.md): Monaco; Street and playground games; Classical Worlds
+- [Putu](../../games/609-putu/index.md): Burkina Faso; Street and playground games; Modern Heritage
+- [Rugby sevens](../../games/713-rugby-sevens/index.md): Fiji; Street and playground games; Modern Heritage
+- [Scarf-ball toss](../../games/614-scarf-ball-toss/index.md): Cambodia; Street and playground games; Modern Heritage
+- [Seed war](../../games/649-seed-war/index.md): Costa Rica; Street and playground games; Deep Past and First Games
+- [Skittles](../../games/1179-skittles/index.md): United Kingdom, Germany; Street and playground games; Age of Contact and Craft
 - [Snooker](../../games/1185-snooker/index.md): United Kingdom; Street and playground games; Modern Heritage
 - [Steel-and-stick](../../games/1162-steel-and-stick/index.md): Turkey; Street and playground games; Modern Heritage
 - [Stick and Cingel](../../games/529-stick-and-cingel/index.md): Albania; Street and playground games; Modern Heritage
-- [Stick game](../../games/912-stick-game/index.md): Maldives, New Zealand; Street and playground games; Modern Heritage
 - [Street baseball](../../games/684-street-baseball/index.md): Dominican Republic; Street and playground games; Age of Contact and Craft
 - [Sugar-cane spear throwing](../../games/709-sugar-cane-spear-throwing/index.md): Fiji; Street and playground games; Modern Heritage
-- [Svaika](../../games/1048-svaika/index.md): Russia; Street and playground games; Modern Heritage
 - [Taco bat game](../../games/655-taco-bat-game/index.md): Cuba; Street and playground games; Age of Contact and Craft
-- [Tag](../../games/959-tag/index.md): Myanmar; Street and playground games; Deep Past and First Games
 - [Tikhi](../../games/876-tikhi/index.md): Laos; Street and playground games; Modern Heritage
 - [Tongan cricket](../../games/1149-tongan-cricket/index.md): Tonga; Street and playground games; Age of Contact and Craft
 - [Traditional contests at Micronesian Games](../../games/937-traditional-contests-at-micronesian-games/index.md): Micronesia; Street and playground games; Modern Heritage
-- [Traditional wrestling](../../games/619-traditional-wrestling/index.md): Cameroon; Street and playground games; River Valleys and First Cities
 - [Tree-pull contest](../../games/710-tree-pull-contest/index.md): Fiji; Street and playground games; Modern Heritage
-- [Tumbang preso](../../games/1028-tumbang-preso/index.md): Philippines; Street and playground games; Modern Heritage
 - [Turkmen Akhal-Teke equestrian games](../../games/1170-turkmen-akhal-teke-equestrian-games/index.md): Turkmenistan; Street and playground games; Classical Worlds
 - [Tuvaluan kilikiti](../../games/1172-tuvaluan-kilikiti/index.md): Tuvalu; Street and playground games; Age of Contact and Craft
 - [Vanuatu cricket](../../games/1209-vanuatu-cricket/index.md): Vanuatu; Street and playground games; Age of Contact and Craft
 - [Village rugby league](../../games/1013-village-rugby-league/index.md): Papua New Guinea; Street and playground games; Modern Heritage
 - [White Cloth](../../games/867-white-cloth/index.md): Kyrgyzstan; Street and playground games; Modern Heritage
 - [Woggabaliri](../../games/561-woggabaliri/index.md): Australia; Street and playground games; Modern Heritage
-- [Yard cricket](../../games/1151-yard-cricket/index.md): Trinidad and Tobago, Barbados; Street and playground games; Age of Contact and Craft
 - [Yermis](../../games/646-yermis/index.md): Colombia; Street and playground games; Modern Heritage
 - [Yuyu](../../games/610-yuyu/index.md): Burkina Faso; Street and playground games; Modern Heritage
 - [Zambian children's games](../../games/1221-zambian-childrens-games/index.md): Zambia; Street and playground games; Modern Heritage

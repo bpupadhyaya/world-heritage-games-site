@@ -15,6 +15,10 @@ countries: ["Tajikistan"]
 
 **Encyclopedia ID 1133** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1133-gushtingiri-wrestling/
 
+![Gushtingiri wrestling](../../../img/photos/01133-gushtingiri-wrestling.jpg)
+
+*Photo: Martin Burns and the Farmer Burns School of Wrestling; scans by Gordon Anderson, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Burns03-05-70-sprawl.jpg)*
+
 Robe and belt wrestling where first throw to the back wins.
 
 ## Heritage note
@@ -38,8 +42,8 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 ## Related entries
 
 - [Kurash](../../games/253-kurash/index.md)
-- [Kokh](../../games/1317-kokh/index.md)
 - [Chidaoba](../../games/734-chidaoba/index.md)
+- [Kokh](../../games/1317-kokh/index.md)
 - [Laamb Wrestling Bout](../../games/166-laamb-wrestling-bout/index.md)
 - [Kushti / Pehlwani mud wrestling](../../games/256-kushti-pehlwani-mud-wrestling/index.md)
 - [Sumo bout](../../games/359-sumo-bout/index.md)

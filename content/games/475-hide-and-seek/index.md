@@ -40,12 +40,12 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 ## Related entries
 
-- [Ziziros](../../games/659-ziziros/index.md)
-- [Fijian tag](../../games/712-fijian-tag/index.md)
 - [Galah panjang](../../games/909-galah-panjang/index.md)
-- [Baibalaa](../../games/914-baibalaa/index.md)
 - [Tag](../../games/959-tag/index.md)
 - [Patintero](../../games/1021-patintero/index.md)
+- [Brännboll](../../games/1118-brannboll/index.md)
+- [Ziziros](../../games/659-ziziros/index.md)
+- [Fijian tag](../../games/712-fijian-tag/index.md)
 
 ## Sources
 

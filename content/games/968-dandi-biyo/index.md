@@ -13,6 +13,10 @@ countries: ["Nepal"]
 
 **Encyclopedia ID 968** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/968-dandi-biyo/
 
+![Dandi Biyo](../../../img/photos/00968-dandi-biyo.jpg)
+
+*Photo: Nirmal Dulal, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Biyo_and_Dandi.JPG)*
+
 Hit a small wooden pin with a stick, then strike it far.
 
 ## Heritage note
@@ -37,10 +41,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Chungi](../../games/297-chungi/index.md)
 - [Thanjavur dancing doll](../../games/275-thanjavur-dancing-doll/index.md)
-- [Hill-country tea plucking](../../games/1297-hill-country-tea-plucking/index.md)
 - [Stone put](../../games/589-stone-put/index.md)
+- [Break the pot](../../games/1105-break-the-pot/index.md)
+- [Hill-country tea plucking](../../games/1297-hill-country-tea-plucking/index.md)
 - [Dego](../../games/590-dego/index.md)
-- [Gulli Danda](../../games/1003-gulli-danda/index.md)
 
 ## Sources
 

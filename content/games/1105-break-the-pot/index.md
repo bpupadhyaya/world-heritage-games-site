@@ -15,6 +15,10 @@ countries: ["Sri Lanka"]
 
 **Encyclopedia ID 1105** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1105-break-the-pot/
 
+![Break the pot](../../../img/photos/01105-break-the-pot.jpg)
+
+*Photo: Md Shahriar Joy, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Break_the_pot.jpg)*
+
 Blindfolded player swings a stick at suspended clay pots.
 
 ## Heritage note
@@ -41,8 +45,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Thanjavur dancing doll](../../games/275-thanjavur-dancing-doll/index.md)
 - [Chungi](../../games/297-chungi/index.md)
 - [Stone put](../../games/589-stone-put/index.md)
-- [Dego](../../games/590-dego/index.md)
 - [Dandi Biyo](../../games/968-dandi-biyo/index.md)
+- [Dego](../../games/590-dego/index.md)
 
 ## Sources
 

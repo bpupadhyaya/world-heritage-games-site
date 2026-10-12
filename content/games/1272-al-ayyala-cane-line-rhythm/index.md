@@ -42,8 +42,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 - [Moraingy drum-and-strike duel](../../games/207-moraingy-drum-and-strike-duel/index.md)
 - [Circle Dodgeball](../../games/470-circle-dodgeball/index.md)
-- [Kalinda Stick Duel](../../games/1467-kalinda-stick-duel/index.md)
 - [Kyz Kuu](../../games/858-kyz-kuu/index.md)
+- [Kalinda Stick Duel](../../games/1467-kalinda-stick-duel/index.md)
 - [Blind Man's Buff](../../games/467-blind-mans-buff/index.md)
 - [Kho-Kho](../../games/15-kho-kho/index.md)
 

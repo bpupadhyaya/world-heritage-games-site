@@ -13,6 +13,10 @@ countries: ["Malaysia", "Singapore"]
 
 **Encyclopedia ID 909** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/909-galah-panjang/
 
+![Galah panjang](../../../img/photos/00909-galah-panjang.jpg)
+
+*Photo: Wiki Farazi, [CC0](https://creativecommons.org/publicdomain/zero/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hari_Sukan_Negara_(HSN)_2023_SMK_Seksyen_4_Kota_Damansara_20231014_091348.jpg)*
+
 Line-crossing tag game; attackers try to cross all lines and return.
 
 ## Heritage note
@@ -38,9 +42,9 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - [Tag](../../games/959-tag/index.md)
 - [Patintero](../../games/1021-patintero/index.md)
 - [Hide and Seek](../../games/475-hide-and-seek/index.md)
+- [Brännboll](../../games/1118-brannboll/index.md)
 - [Ziziros](../../games/659-ziziros/index.md)
 - [Fijian tag](../../games/712-fijian-tag/index.md)
-- [Baibalaa](../../games/914-baibalaa/index.md)
 
 ## Sources
 

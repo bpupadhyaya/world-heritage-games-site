@@ -15,6 +15,10 @@ countries: ["Ecuador"]
 
 **Encyclopedia ID 688** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/688-frog-toss/
 
+![Frog toss](../../../img/photos/00688-frog-toss.jpg)
+
+*Photo: David Berkowitz from New York, NY, USA, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Game_of_Frog_at_Chicha_Bar_in_Peru_Sacred_Valley.jpg)*
+
 Throw discs into holes of a table with a frog mouth.
 
 ## Heritage note
@@ -41,9 +45,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
+- [Emboque](../../games/629-emboque/index.md)
 - [Atarraya](../../games/1434-atarraya/index.md)
 - [Uyuni Salt Harvest](../../games/1491-uyuni-salt-harvest/index.md)
-- [Emboque](../../games/629-emboque/index.md)
 - [Rana](../../games/645-rana/index.md)
 - [Sapo](../../games/1019-sapo/index.md)
 - [Perinola](../../games/1212-perinola/index.md)

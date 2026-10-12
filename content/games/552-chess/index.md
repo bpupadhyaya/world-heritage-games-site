@@ -15,6 +15,10 @@ countries: ["Armenia", "Azerbaijan", "India", "Afghanistan"]
 
 **Encyclopedia ID 552** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/552-chess/
 
+![Chess](../../../img/photos/00552-chess.jpg)
+
+*Photo: Jesse Schupack, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Yerevan_Chess_House.jpg)*
+
 Chaturanga is the ancient Indian four-division army game from about the 7th century CE that led to chess; a historical-rules version could showcase it.
 
 ## Heritage note
@@ -44,9 +48,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Shatranj / chess](../../games/1134-shatranj-chess/index.md)
 - [Chaturanga](../../games/45-chaturanga/index.md)
 - [Sittuyin](../../games/302-sittuyin/index.md)
-- [Mongolian chess](../../games/943-mongolian-chess/index.md)
-- [Banqi](../../games/1437-banqi/index.md)
-- [Khmer chess](../../games/616-khmer-chess/index.md)
+- [Luzhanqi](../../games/640-luzhanqi/index.md)
+- [Senterej](../../games/707-senterej/index.md)
+- [Hasami shogi](../../games/849-hasami-shogi/index.md)
 
 ## Sources
 

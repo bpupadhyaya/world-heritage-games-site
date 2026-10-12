@@ -20,6 +20,7 @@ Between the rivers and along the desert trade routes, including Anatolia.
 - [Bedouin Coffee Pour](../../games/1240-bedouin-coffee-pour/index.md): Jordan; Crafts and making; Living Traditions
 - [Blind Man's Buff](../../games/467-blind-mans-buff/index.md): Turkey, India; Street and playground games; Modern Heritage
 - [Buzuq Long-Neck Lute](../../games/218-buzuq-long-neck-lute/index.md): Lebanon, Syria; Musical instruments; Crossroads and Golden Ages
+- [Carrom](../../games/1059-carrom/index.md): Saudi Arabia, Oman; Board and table games; Crossroads and Golden Ages
 - [Cirit](../../games/156-cirit/index.md): Turkey; Dexterity and skill games; Classical Worlds
 - [Cuneiform Clay Tablet Scribe](../../games/1260-cuneiform-clay-tablet-scribe/index.md): Iraq; Crafts and making; Living Traditions
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md): Lebanon; Dances; Living Traditions
@@ -33,18 +34,23 @@ Between the rivers and along the desert trade routes, including Anatolia.
 - [Iznik tile painting](../../games/244-iznik-tile-painting/index.md): Turkey; Crafts and making; Living Traditions
 - [Jordanian Sand Bottle Art](../../games/219-jordanian-sand-bottle-art/index.md): Jordan; Crafts and making; Living Traditions
 - [Keffiyeh Pattern Loom](../../games/1310-keffiyeh-pattern-loom/index.md): Palestine; Crafts and making; Living Traditions
+- [Mangala](../../games/1164-mangala/index.md): Turkey; Board and table games; Deep Past and First Games
 - [Mheibes](../../games/158-mheibes/index.md): Iraq; Street and playground games; Modern Heritage
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md): Lebanon, Syria; Musical instruments; Living Traditions
 - [Mudhif reed-arch house](../../games/230-mudhif-reed-arch-house/index.md): Iraq; Crafts and making; Living Traditions
 - [Nabulsi Soap Tower](../../games/1341-nabulsi-soap-tower/index.md): Palestine; Crafts and making; Living Traditions
 - [Oil wrestling](../../games/480-oil-wrestling/index.md): Turkey; Wrestling and martial sports; River Valleys and First Cities
+- [Okey](../../games/1158-okey/index.md): Turkey, Cyprus; Board and table games; Classical Worlds
 - [Omani Khanjar Silver Filigree](../../games/1351-omani-khanjar-silver-filigree/index.md): Oman; Crafts and making; Living Traditions
 - [Phoenician Alphabet Trader](../../games/1359-phoenician-alphabet-trader/index.md): Lebanon; Puzzles and mind games; Modern Heritage
 - [Qamariya Gypsum Window Designer](../../games/1368-qamariya-gypsum-window-designer/index.md): Yemen; Crafts and making; Living Traditions
 - [Qanun](../../games/162-qanun/index.md): Turkey, Armenia; Musical instruments; Classical Worlds
+- [Royal Game of Ur](../../games/817-royal-game-of-ur/index.md): Iraq; Board and table games; River Valleys and First Cities
+- [Rummikub](../../games/826-rummikub/index.md): Israel; Board and table games; Crossroads and Golden Ages
 - [Sadu Bedouin ground-loom weaving](../../games/238-sadu-bedouin-ground-loom-weaving/index.md): Jordan; Crafts and making; Living Traditions
 - [Saz / Bağlama](../../games/243-saz-baglama/index.md): Turkey; Musical instruments; Crossroads and Golden Ages
 - [Shibam Mud-Brick Tower Builder](../../games/1370-shibam-mud-brick-tower-builder/index.md): Yemen; Crafts and making; Living Traditions
+- [Tarneeb](../../games/816-tarneeb/index.md): Iraq, Syria; Card games; Age of Contact and Craft
 - [Tatreez Palestinian Cross-Stitch](../../games/212-tatreez-palestinian-cross-stitch/index.md): Palestine, Lebanon; Crafts and making; Living Traditions
 - [Turkish coffee in the cezve](../../games/251-turkish-coffee-in-the-cezve/index.md): Turkey; Crafts and making; Living Traditions
 - [Turkish Dama](../../games/155-turkish-dama/index.md): Turkey, Turkmenistan; Board and table games; Crossroads and Golden Ages
@@ -53,18 +59,12 @@ Between the rivers and along the desert trade routes, including Anatolia.
 - [Arabian mancala](../../games/1219-arabian-mancala/index.md): Yemen; Board and table games; Deep Past and First Games
 - [Backgammon](../../games/1159-backgammon/index.md): Turkey, Israel; Board and table games; River Valleys and First Cities
 - [Baloot](../../games/1060-baloot/index.md): Saudi Arabia, Yemen; Card games; Age of Contact and Craft
-- [Carrom](../../games/1059-carrom/index.md): Saudi Arabia, Oman; Board and table games; Crossroads and Golden Ages
 - [Edrees](../../games/1008-edrees/index.md): Palestine; Board and table games; Crossroads and Golden Ages
 - [Hajla](../../games/1009-hajla/index.md): Palestine; Street and playground games; Deep Past and First Games
 - [Hawalis](../../games/1001-hawalis/index.md): Oman; Board and table games; Deep Past and First Games
-- [Mangala](../../games/1164-mangala/index.md): Turkey; Board and table games; Deep Past and First Games
 - [Matkot](../../games/825-matkot/index.md): Israel; Street and playground games; Modern Heritage
-- [Okey](../../games/1158-okey/index.md): Turkey, Cyprus; Board and table games; Classical Worlds
-- [Royal Game of Ur](../../games/817-royal-game-of-ur/index.md): Iraq; Board and table games; River Valleys and First Cities
-- [Rummikub](../../games/826-rummikub/index.md): Israel; Board and table games; Crossroads and Golden Ages
 - [Steel-and-stick](../../games/1162-steel-and-stick/index.md): Turkey; Street and playground games; Modern Heritage
 - [Syrian mancala](../../games/1128-syrian-mancala/index.md): Syria; Board and table games; Deep Past and First Games
-- [Tarneeb](../../games/816-tarneeb/index.md): Iraq, Syria; Card games; Age of Contact and Craft
 - [Tawla](../../games/815-tawla/index.md): Iraq, Syria; Board and table games; River Valleys and First Cities
 - [Tawle](../../games/880-tawle/index.md): Lebanon, Palestine; Board and table games; River Valleys and First Cities
 - [Zarzir](../../games/1010-zarzir/index.md): Palestine; Dexterity and skill games; Deep Past and First Games

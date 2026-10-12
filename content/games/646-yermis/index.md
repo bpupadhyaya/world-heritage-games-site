@@ -35,11 +35,11 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Tejo](../../games/57-tejo/index.md)
-- [Atarraya](../../games/1434-atarraya/index.md)
 - [Chaza](../../games/643-chaza/index.md)
+- [Atarraya](../../games/1434-atarraya/index.md)
 - [Rana](../../games/645-rana/index.md)
-- [Chinchinero Drum Walk](../../games/1406-chinchinero-drum-walk/index.md)
-- [Chilean Rayuela](../../games/1427-chilean-rayuela/index.md)
+- [Emboque](../../games/629-emboque/index.md)
+- [Frog toss](../../games/688-frog-toss/index.md)
 
 ## Sources
 

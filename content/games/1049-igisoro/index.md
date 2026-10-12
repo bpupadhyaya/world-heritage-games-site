@@ -15,6 +15,10 @@ countries: ["Rwanda", "Burundi"]
 
 **Encyclopedia ID 1049** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1049-igisoro/
 
+![Igisoro](../../../img/photos/01049-igisoro.jpg)
+
+*Photo: Moongateclimber, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Omweso_players_in_kigali_rwanda.jpg)*
+
 Mancala on 4x8 board with 64 seeds meant as cows; masters play blindfolded.
 
 ## Heritage note
@@ -38,9 +42,9 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 ## Related entries
 
 - [Bao](../../games/647-bao/index.md)
+- [Katro / Katra](../../games/903-katro-katra/index.md)
 - [Bao la Kiswahili](../../games/861-bao-la-kiswahili/index.md)
 - [Highland and river mancalas](../../games/863-highland-and-river-mancalas/index.md)
-- [Katro / Katra](../../games/903-katro-katra/index.md)
 - [Bawo](../../games/906-bawo/index.md)
 - [Makonn](../../games/1065-makonn/index.md)
 

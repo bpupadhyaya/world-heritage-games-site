@@ -13645,7 +13645,12 @@
     "https://en.wikipedia.org/wiki/Shagai",
     "https://www.discovermongolia.mn/about-mongolia/culture-art-history/mongolian-toys-and-games"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00522-knucklebone-game.jpg",
+    "author": "User:Yaan",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Shagai_2x2.jpg"
+   }
   },
   {
    "id": 527,
@@ -13782,7 +13787,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Capoeira_Angola"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00543-capoeira-angola.jpg",
+    "author": "Ayres Alves de Lima Sales",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Roda_de_Capoeira_Angola.jpg"
+   }
   },
   {
    "id": 544,
@@ -13877,7 +13887,12 @@
     "https://en.wikipedia.org/wiki/Chovgan",
     "https://www.onelowerlight.com/writing/life-in-georgia-is-like-a-game-of-backgammon/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00551-nardi.jpg",
+    "author": "Ptkfgs",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Backgammon_lg.png"
+   }
   },
   {
    "id": 552,
@@ -13913,7 +13928,12 @@
     "https://en.wikipedia.org/wiki/Shatranj",
     "https://en.wikipedia.org/wiki/Traditional_games_of_India"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00552-chess.jpg",
+    "author": "Jesse Schupack",
+    "licence": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yerevan_Chess_House.jpg"
+   }
   },
   {
    "id": 560,
@@ -13944,7 +13964,12 @@
     "https://rslqld.org/news/two-up-an-anzac-day-tradition",
     "https://en.wikipedia.org/wiki/Two-up"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00560-two-up.jpg",
+    "author": "Silverhorse",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kalgoorlie_two_up_shed.jpg"
+   }
   },
   {
    "id": 561,
@@ -14090,7 +14115,12 @@
     "https://www.pagat.com/domino/line/caribbean.html",
     "https://en.wikipedia.org/wiki/English_draughts"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00567-checkers.jpg",
+    "author": "Jud McCranie",
+    "licence": "CC BY 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:CheckersStandard.jpg"
+   }
   },
   {
    "id": 569,
@@ -14144,7 +14174,12 @@
    "sources": [
     "https://www.jamrockmuseum.com/heritage/games-of-jamaica-from-street-corners-to-national-pride/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00570-street-games.jpg",
+    "author": "James Emery from Douglasville, United States",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hopscotch_de_Cubanese.jpg"
+   }
   },
   {
    "id": 572,
@@ -14171,7 +14206,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Boli_Khela"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00572-boli-khela.jpg",
+    "author": "Mohammed Abdullah from Chittagong, Bangladesh",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Boli_Khela,_Pohela_Boishakh_(2014)_(19204236770).jpg"
+   }
   },
   {
    "id": 573,
@@ -14269,7 +14309,12 @@
     "https://barbados.org/barbados-traditions.htm",
     "https://historico.elsalvador.com/historico/759235/videojuegos-juegos-infantiles-trompo-piscucha-yoyo-chibolas-jacks.html"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00577-kites.jpg",
+    "author": "Slyronit",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kites_in_the_sky,_Changzhou.jpg"
+   }
   },
   {
    "id": 578,
@@ -14384,7 +14429,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Rolle_bolle"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00583-krulbollen.jpg",
+    "author": "VlaS",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Boller1.jpg"
+   }
   },
   {
    "id": 584,
@@ -14414,7 +14464,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Vinkensport"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00584-finch-sitting.jpg",
+    "author": "Donarreiskoffer",
+    "licence": "CC BY 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vinkensport,_Deinze_03.JPG"
+   }
   },
   {
    "id": 585,
@@ -14560,7 +14615,12 @@
     "https://en.wikipedia.org/wiki/Sports_in_Bhutan",
     "https://en.wikipedia.org/wiki/Steinstossen"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00589-stone-put.jpg",
+    "author": "© James F. Perry",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stone_put_05WDBY_007.jpg"
+   }
   },
   {
    "id": 590,
@@ -14741,7 +14801,12 @@
     "https://es.wikipedia.org/wiki/Dudo_(juego)",
     "https://en.wikipedia.org/wiki/Liar%27s_dice"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00595-cacho.jpg",
+    "author": "Achim Raschka",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:160327_White_dice_11.jpg"
+   }
   },
   {
    "id": 596,
@@ -14822,7 +14887,12 @@
    "sources": [
     "https://dailynews.gov.bw/news-detail/24062"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00600-mhele.jpg",
+    "author": "Bonolo Nikita Rankaga",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mhele_traditional_game.jpg"
+   }
   },
   {
    "id": 601,
@@ -14879,7 +14949,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Sport_in_Brunei"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00605-silat-melayu.jpg",
+    "author": "Zaki Razali .",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Singaporean_female_pesilat_-_20080222.jpg"
+   }
   },
   {
    "id": 609,
@@ -15024,7 +15099,12 @@
    "sources": [
     "https://vietnamnews.vn/life-style/1695148/bull-race-celebrates-khmer-heritage-and-tradition.html"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00613-buffalo-race.jpg",
+    "author": "Rayabhari",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kambala,_he-buffalo_race_at_Vandar_village,_Udupi_Dist.,_Kar._India.jpg"
+   }
   },
   {
    "id": 614,
@@ -15147,7 +15227,12 @@
     "https://afrique.le360.ma/gabon/societe/2021/08/07/35069-video-le-songo-jeu-seculaire-populaire-africain-trait-dunion-entre-gabonais-35069/",
     "https://40.cerdotola.org/concours-jeux/finale-songoo-awale"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00617-songo.jpg",
+    "author": "MozMozJ",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Yao_People_Playing_%22Bawo%22.jpg"
+   }
   },
   {
    "id": 618,
@@ -15203,7 +15288,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Lutte_Traditionnelle"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00619-traditional-wrestling.jpg",
+    "author": "uploader Atamari has eMail-contact with the photograph „ sachara “",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_match-The_Gambia.jpg"
+   }
   },
   {
    "id": 620,
@@ -15260,7 +15350,12 @@
    "how_played": "Number-calling card game run at halls and fundraisers.",
    "heritage_note": "Part of the living heritage of Canada.",
    "sources": [],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00622-bingo.jpg",
+    "author": "Eric S. Garst",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bingo.jpg"
+   }
   },
   {
    "id": 623,
@@ -15293,7 +15388,12 @@
     "https://www.granthaven.com/post/world-crokinole-championship-celebrates-25-years-in-tavistock",
     "https://en.wikipedia.org/wiki/Pichenotte"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00623-crokinole.jpg",
+    "author": "David Victor Lagasse",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:FAMILY_OF_PICHENOTTE_GAMES.jpg"
+   }
   },
   {
    "id": 626,
@@ -15376,7 +15476,12 @@
    "sources": [
     "https://escuelahugoerrazuriz.cl/juegos-tradicionales-chilenos/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00629-emboque.jpg",
+    "author": "DC",
+    "licence": "CC BY 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bilboquet.jpg"
+   }
   },
   {
    "id": 634,
@@ -15413,7 +15518,12 @@
     "https://www.globaltimes.cn/page/202309/1298216.shtml",
     "https://en.wikipedia.org/wiki/Nihon_Ki-in"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00634-go.jpg",
+    "author": "Javierfv1212",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Setup_of_Ancient_Chinese_Weiqi_(Go).png"
+   }
   },
   {
    "id": 635,
@@ -15446,7 +15556,12 @@
     "https://en.wikipedia.org/wiki/Mahjong_culture",
     "https://wizardofmacau.com/en/games/mahjongpaigow"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00635-mahjong.jpg",
+    "author": "yui*",
+    "licence": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mahjong_game.jpg"
+   }
   },
   {
    "id": 636,
@@ -15538,7 +15653,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Klotski"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00639-huarong-dao.jpg",
+    "author": "Welt-der-Form",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Quo_Vadis-HABA.jpg"
+   }
   },
   {
    "id": 640,
@@ -15567,7 +15687,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Luzhanqi"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00640-luzhanqi.jpg",
+    "author": "en:User:Painocus Painocus",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Luzhanqi.JPG"
+   }
   },
   {
    "id": 641,
@@ -15594,7 +15719,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Tangram"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00641-tangram.jpg",
+    "author": "Nevit Dilmen",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tangram_set_00.jpg"
+   }
   },
   {
    "id": 643,
@@ -15622,7 +15752,12 @@
     "https://es.wikipedia.org/wiki/Anexo:Juegos_de_Colombia",
     "http://enciclopedia.us.es/index.php/Juegos_tradicionales_(Colombia)"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00643-chaza.jpg",
+    "author": "Jhon estrada",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chaza.jpg"
+   }
   },
   {
    "id": 644,
@@ -15734,7 +15869,12 @@
    "sources": [
     "https://mancala.fandom.com/wiki/Bao_la_Kiswahili"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00647-bao.jpg",
+    "author": "Moongateclimber",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bao_players_in_stone_town_zanzibar.jpg"
+   }
   },
   {
    "id": 648,
@@ -15855,7 +15995,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_of_Cuba"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00652-four-corners.jpg",
+    "author": "D. Benjamin Miller",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tommy_Milone_gives_up_a_home_run_to_Mike_Trout_on_May_21,_2017.jpg"
+   }
   },
   {
    "id": 653,
@@ -15971,7 +16116,12 @@
     "https://cyprustravellerguide.com/cypriot-backgammon-also-known-as-tavli/",
     "https://en.wikipedia.org/wiki/Tavli"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00656-tavli.jpg",
+    "author": "Nikos Kitsakis",
+    "licence": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tavli_Board_without_slots_(traditional)_C.jpg"
+   }
   },
   {
    "id": 657,
@@ -16085,7 +16235,12 @@
     "https://mancala.fandom.com/wiki/Isolo_I",
     "https://en.wikipedia.org/wiki/Chisolo"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00666-kisolo.jpg",
+    "author": "Eaglegrafix",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kisolo-board-1965.jpg"
+   }
   },
   {
    "id": 667,
@@ -16171,7 +16326,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Danish_pin_billiards"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00671-danish-pin-billiards.jpg",
+    "author": "Bryson Jack, Ministry of Information Photo Division Photographer",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Seven_Seas_Club-_Life_at_the_Merchant_Navy_Club,_Edinburgh,_Scotland,_1943_D13919.jpg"
+   }
   },
   {
    "id": 674,
@@ -16200,7 +16360,12 @@
    "sources": [
     "https://study.com/academy/lesson/traditional-games-in-somalia.html"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00674-ladu.jpg",
+    "author": "Anatol Svahilec",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bez_ladu_a_skladu_-_Colours_of_Ostrava_2025_2.jpg"
+   }
   },
   {
    "id": 675,
@@ -16307,7 +16472,12 @@
     "https://www.mexicodesconocido.com.mx/juguetes-tradicionales-mexicanos.html",
     "https://www.sicultura.gob.gt/juegos-tradicionales-con-charla-educativa/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00678-spinning-top.jpg",
+    "author": "Davidturnswood",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:A_tough_gang_of_Spinning_Tops.jpg"
+   }
   },
   {
    "id": 679,
@@ -16400,7 +16570,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_of_the_Dominican_Republic"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00683-handkerchief-game.jpg",
+    "author": "Johnston, Frances Benjamin, 1864-1952, photographer",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Children_playing_game_with_handkerchief_on_stick_in_school_yard,_Washington,_D.C._LCCN2001703698.jpg"
+   }
   },
   {
    "id": 684,
@@ -16482,7 +16657,12 @@
    "sources": [
     "https://es.wikipedia.org/wiki/Sapo_(juego)"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00688-frog-toss.jpg",
+    "author": "David Berkowitz from New York, NY, USA",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Game_of_Frog_at_Chicha_Bar_in_Peru_Sacred_Valley.jpg"
+   }
   },
   {
    "id": 690,
@@ -16509,7 +16689,12 @@
    "how_played": "Tile-matching game played fast in coffeehouses, often as partnerships.",
    "heritage_note": "Part of the living heritage of Egypt.",
    "sources": [],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00690-cafe-dominoes.jpg",
+    "author": "No machine-readable author provided. Peng assumed (based on copyright claims).",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dominospiel.JPG"
+   }
   },
   {
    "id": 692,
@@ -16573,7 +16758,12 @@
    "sources": [
     "https://www.metmuseum.org/perspectives/ancient-egypt-board-games"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00693-senet.jpg",
+    "author": "Charles Edwin Wilbour Fund",
+    "licence": "No restrictions",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gaming_Board_Inscribed_for_Amenhotep_III_with_Separate_Sliding_Drawer,_ca._1390-1353_B.C.E.,49.56a-b.jpg"
+   }
   },
   {
    "id": 694,
@@ -16870,7 +17060,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Senterej"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00707-senterej.jpg",
+    "author": "BeteAmora",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ethiopian_nobles_chess.jpg"
+   }
   },
   {
    "id": 708,
@@ -16984,7 +17179,12 @@
     "https://www.fijitimes.com.fj/traditional-games-of-the-past-part-3/",
     "https://en.wikipedia.org/wiki/Sport_in_Fiji"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00711-hand-slap-game.jpg",
+    "author": "Unknown author (public domain)",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mushi-ken_(%E8%99%AB%E6%8B%B3),_Japanese_rock-paper-scissors_variant,_from_the_Kensarae_sumai_zue_(1809).jpg"
+   }
   },
   {
    "id": 712,
@@ -17066,7 +17266,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Kyykk%C3%A4"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00715-kyykka.jpg",
+    "author": "Kyykka tiedotus",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Finnish_skittles_mika_peiponen_v2.jpg"
+   }
   },
   {
    "id": 730,
@@ -17179,7 +17384,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Chidaoba"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00734-chidaoba.jpg",
+    "author": "Agência Brasil Fotografias",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lasha_Talakhadze_Rio_2016c.jpg"
+   }
   },
   {
    "id": 737,
@@ -17266,7 +17476,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00744-dont-get-angry.jpg",
+    "author": "Vitavia",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mensch%C3%84rgereDichNicht_Germany1929_front.jpg"
+   }
   },
   {
    "id": 747,
@@ -17296,7 +17511,12 @@
     "https://en.wikipedia.org/wiki/Ampe_(game)",
     "https://www.pulse.com.gh/story/8-memorable-ghanaian-childhood-games-that-gen-z-might-not-know-about-2025040820424984719"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00747-ampe.jpg",
+    "author": "Ohene okai",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kids_playing_Ampe_02.jpg"
+   }
   },
   {
    "id": 748,
@@ -17357,7 +17577,12 @@
     "https://mancala.fandom.com/wiki/Oware",
     "https://sport.interactiveatlas.org/games/oware"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00749-oware.jpg",
+    "author": "No machine-readable author provided. Perrona assumed (based on copyright claims).",
+    "licence": "CC BY 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Awale.jpg"
+   }
   },
   {
    "id": 750,
@@ -17473,7 +17698,12 @@
     "https://en.wikipedia.org/wiki/Ulama_(game)",
     "https://en.wikipedia.org/wiki/Mesoamerican_ballgame"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00759-mesoamerican-ballgame.jpg",
+    "author": "Photograph: Manuel Aguilar-Moreno / CSULA Ulama Project",
+    "licence": "CC BY 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ulama_37_(Aguilar).jpg"
+   }
   },
   {
    "id": 760,
@@ -17527,7 +17757,12 @@
    "sources": [
     "https://www.stabroeknews.com/2022/02/06/sunday/marble-games-and-buttons/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00761-rounders.jpg",
+    "author": "Shale, John F.",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Game_of_rounders_on_Christmas_Day_at_Baroona,_Glamorgan_Vale,_1913.jpg"
+   }
   },
   {
    "id": 762,
@@ -17567,7 +17802,12 @@
     "https://hondurassaber.com/juegos-tradicionales-de-honduras/",
     "https://www.vivanicaragua.com.ni/2016/05/05/deportes/13-juegos-tradicionales-ninos/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00762-hopscotch.jpg",
+    "author": "Dave Parker",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hopscotch_in_California.jpg"
+   }
   },
   {
    "id": 763,
@@ -17607,7 +17847,12 @@
     "https://connectingjamaica.com/history-and-how-to-play-jamaican-ludo-or-ludi/",
     "https://www.237online.com/a-quoi-jouaient-les-camerounais-autrefois-et-aujourdhui-et-ce-que-cela-revele-sur-levolution-sociale/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00763-ludo.jpg",
+    "author": "Micha L. Rieser",
+    "licence": "Attribution",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ludo-3.jpg"
+   }
   },
   {
    "id": 765,
@@ -17721,7 +17966,12 @@
    "sources": [
     "https://hondurassaber.com/juegos-tradicionales-de-honduras/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00769-kite-flying.jpg",
+    "author": "Kritzolina",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kite_flying_over_Pasing_04.jpg"
+   }
   },
   {
    "id": 770,
@@ -17937,7 +18187,12 @@
     "https://en.wikipedia.org/wiki/Traditional_games_of_India",
     "https://en.wikipedia.org/wiki/Traditional_games_of_Pakistan"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00789-kabaddi.jpg",
+    "author": "Amir Hosseini",
+    "licence": "CC BY 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Iran_men%27s_national_kabaddi_team_13970602000432636707284535394012_98208.jpg"
+   }
   },
   {
    "id": 791,
@@ -17999,7 +18254,12 @@
     "https://en.wikipedia.org/wiki/Sport_in_India",
     "https://en.wikipedia.org/wiki/Traditional_games_of_Pakistan"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00793-gilli-danda.jpg",
+    "author": "Srvyadav",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jgp_gilli_danda.jpg"
+   }
   },
   {
    "id": 796,
@@ -18095,7 +18355,12 @@
     "https://en.wikipedia.org/wiki/Traditional_games_of_India",
     "https://en.wikipedia.org/wiki/Kuzhipara"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00798-pallanguzhi.jpg",
+    "author": "Fotokannan",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pallanguzhi.JPG"
+   }
   },
   {
    "id": 802,
@@ -18131,7 +18396,12 @@
     "https://heritage.gov.my/en/pengenalan-cawangan-adat-budaya/permainan-tradisi.html",
     "https://en.wikipedia.org/wiki/Sport_in_Brunei"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00802-sepak-takraw.jpg",
+    "author": "Republic of Korea from Seoul, Republic of Korea",
+    "licence": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Incheon_AsianGames_Sepaktakraw_09_(15291705581).jpg"
+   }
   },
   {
    "id": 803,
@@ -18168,7 +18438,12 @@
     "https://en.wikipedia.org/wiki/Congkak",
     "https://malaysiafact.com/malaysia-traditional-games/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00803-congklak.jpg",
+    "author": "Tropenmuseum",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Speelbord_voor_mancala_spel_TMnr_1585-120a.jpg"
+   }
   },
   {
    "id": 804,
@@ -18220,7 +18495,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Sport_in_Indonesia"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00805-madura-bull-racing.jpg",
+    "author": "No machine-readable author provided. Bennylin assumed (based on copyright claims).",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Madura_bull_racing_1999-cropped.jpeg"
+   }
   },
   {
    "id": 810,
@@ -18249,7 +18529,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_of_Iran"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00810-chogan.jpg",
+    "author": "Andreas Polo",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Varsity_Polo_2013.jpg"
+   }
   },
   {
    "id": 812,
@@ -18278,7 +18563,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Gol_ya_pooch"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00812-flower-or-empty.jpg",
+    "author": "Amir sibil",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gol_ya_Pooch_Game_Ready_Fists_Iran.jpg"
+   }
   },
   {
    "id": 815,
@@ -18356,7 +18646,12 @@
     "https://sandramajed.substack.com/p/world-of-arab-history-what-traditional",
     "https://www.pagat.com/national/egypt.html"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00816-tarneeb.jpg",
+    "author": "Klaus Köpplinger ( koeppiK )",
+    "licence": "CC BY 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bridge_boards_box.jpg"
+   }
   },
   {
    "id": 817,
@@ -18383,7 +18678,12 @@
    "sources": [
     "https://sandramajed.substack.com/p/world-of-arab-history-what-traditional"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00817-royal-game-of-ur.jpg",
+    "author": "Unknown author (public domain)",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:British_Museum_Royal_Game_of_Ur.jpg"
+   }
   },
   {
    "id": 819,
@@ -18413,7 +18713,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Road_bowling"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00819-road-bowling.jpg",
+    "author": "Dennisleussink",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Road_Bowling.jpg"
+   }
   },
   {
    "id": 821,
@@ -18440,7 +18745,12 @@
    "how_played": "Fast stick-and-ball field game, one of the oldest field games in Europe; GAA national sport.",
    "heritage_note": "Part of the living heritage of Ireland.",
    "sources": [],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00821-hurling.jpg",
+    "author": "Seaninryan",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:David_Collins_and_Eoin_Kelly_(Tipperary).jpg"
+   }
   },
   {
    "id": 822,
@@ -18521,7 +18831,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Rummikub"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00826-rummikub.jpg",
+    "author": "ryan harvey",
+    "licence": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rummikub_Tiles.jpg"
+   }
   },
   {
    "id": 829,
@@ -18579,7 +18894,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Bocce"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00830-bocce.jpg",
+    "author": "Jesse Kornblum",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Steve_Mariucci_Coach_Mooch_Battle_of_the_Bay_Charity_Bocce_2026_05.jpg"
+   }
   },
   {
    "id": 832,
@@ -18633,7 +18953,12 @@
    "how_played": "8x8 draughts where men cannot capture kings; played in clubs with a federation.",
    "heritage_note": "Part of the living heritage of Italy.",
    "sources": [],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00834-italian-draughts.jpg",
+    "author": "No machine-readable author provided. Jatroce~commonswiki assumed (based on copyright claims).",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Damiera.JPG"
+   }
   },
   {
    "id": 837,
@@ -18830,7 +19155,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Gomoku"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00847-gomoku-and-renju.jpg",
+    "author": "Matěj Baťha",
+    "licence": "CC BY 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Renju.jpg"
+   }
   },
   {
    "id": 849,
@@ -18857,7 +19187,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Hasami_shogi"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00849-hasami-shogi.jpg",
+    "author": "Ihardlythinkso",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hasami_Shogi_9x9_init_config.png"
+   }
   },
   {
    "id": 850,
@@ -18884,7 +19219,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Kendama"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00850-kendama.jpg",
+    "author": "Gallaz63",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kendama_toy.jpg"
+   }
   },
   {
    "id": 851,
@@ -18914,7 +19254,12 @@
     "https://en.wikipedia.org/wiki/Japanese_mahjong",
     "https://en.wikipedia.org/wiki/Mahjong_culture"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00851-riichi-mahjong.jpg",
+    "author": "Tairagi Makoto",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Riichi_Mahjong_real_autotable_session.jpg"
+   }
   },
   {
    "id": 852,
@@ -18945,7 +19290,12 @@
     "https://en.wikipedia.org/wiki/Shogi",
     "https://en.wikipedia.org/wiki/Japan_Shogi_Association"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00852-shogi.jpg",
+    "author": "Oliver Orschiedt",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Shogi_board_pieces_and_komadai.jpg"
+   }
   },
   {
    "id": 854,
@@ -18985,7 +19335,12 @@
     "https://www.onelowerlight.com/writing/life-in-georgia-is-like-a-game-of-backgammon/",
     "https://www.pagat.com/national/ukraine.html"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00854-durak.jpg",
+    "author": "Gzhegozh",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Russian_card_game_Durak.jpg"
+   }
   },
   {
    "id": 855,
@@ -19022,7 +19377,12 @@
     "https://welcome.kz/en/kazakhstan/national-games",
     "https://en.wikipedia.org/wiki/Tug_of_war"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00855-rope-pulling.jpg",
+    "author": "National Library NZ on The Commons",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Queen_Mary%27s_Auxilary_Army_Corps_tug-o-war,_3_August_1918_(cropped).jpg"
+   }
   },
   {
    "id": 856,
@@ -19111,7 +19471,12 @@
     "https://central-asia.guide/kazakhstan/kazakh-culture/kazakh-games/",
     "https://welcome.kz/en/kazakhstan/national-games"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00858-kyz-kuu.jpg",
+    "author": "SSGT JEREMY T. LOCK",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Catchthegirl.JPG"
+   }
   },
   {
    "id": 859,
@@ -19170,7 +19535,12 @@
     "https://www.dsac.gov.za/2023-Indigenous-Games-Festival",
     "https://www.sacr.fs.gov.za/?p=3266"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00860-kati.jpg",
+    "author": "Sillerkiil",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kati_Aus_at_the_Opinion_Festival_2022_in_Paide,_Estonia.jpg"
+   }
   },
   {
    "id": 861,
@@ -19462,7 +19832,12 @@
     "https://en.wikipedia.org/wiki/Togyzkumalak",
     "https://burabai.kz/kazakhstan/kazakh-national-games-traditional-sports-cultural-heritage/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00871-toguz-korgool.jpg",
+    "author": "Arthoum",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%BE%D0%B3%D1%83%D0%B7%D0%BA%D0%BE%D1%80%D0%B3%D0%BE%D0%BE%D0%BB.jpg"
+   }
   },
   {
    "id": 872,
@@ -19548,7 +19923,12 @@
    "how_played": "Lao version of stone toss and pick-up, played by children.",
    "heritage_note": "Part of the living heritage of Laos.",
    "sources": [],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00874-pebbles.jpg",
+    "author": "Francis Marion Pebbles",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Francis_Marion_Pebbles_-_88f4193bde.jpg"
+   }
   },
   {
    "id": 875,
@@ -19848,7 +20228,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Fan-tan"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00900-fan-tan.jpg",
+    "author": "Fuzheado ( talk )",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fan-Tan.jpg"
+   }
   },
   {
    "id": 901,
@@ -19935,7 +20320,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Katro"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00903-katro-katra.jpg",
+    "author": "RANDRIANADRASANA Obiniaina",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Katro.jpg"
+   }
   },
   {
    "id": 905,
@@ -19962,7 +20352,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/List_of_traditional_games_in_Africa"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00905-savika.jpg",
+    "author": "Obiniaina RANDRIANADRASANA",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SAVIKA4.jpg"
+   }
   },
   {
    "id": 906,
@@ -20088,7 +20483,12 @@
     "https://heritage.gov.my/en/pengenalan-cawangan-adat-budaya/permainan-tradisi.html",
     "https://en.wikipedia.org/wiki/Traditional_games_of_Singapore"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00909-galah-panjang.jpg",
+    "author": "Wiki Farazi",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hari_Sukan_Negara_(HSN)_2023_SMK_Seksyen_4_Kota_Damansara_20231014_091348.jpg"
+   }
   },
   {
    "id": 910,
@@ -20146,7 +20546,12 @@
     "https://heritage.gov.my/en/pengenalan-cawangan-adat-budaya/permainan-tradisi.html",
     "https://malaysiafact.com/malaysia-traditional-games/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00911-wau-bulan-kite.jpg",
+    "author": "D.W. Fisher-Freberg",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wau_bulan_Pasir_Gudang.JPG"
+   }
   },
   {
    "id": 912,
@@ -20177,7 +20582,12 @@
     "https://teara.govt.nz/en/traditional-maori-games-nga-takaro",
     "https://www.aucklandmuseum.com/discover/stories/blog/2015/how-to-play-tititorea"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00912-stick-game.jpg",
+    "author": "Press Information Department",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Land_Minister_Shamsur_Rahman_Sharif_inspecting_stick_game_Ishwardi_Pabna_2016-10-12.jpg"
+   }
   },
   {
    "id": 913,
@@ -20261,7 +20671,12 @@
     "https://lovethemaldives.com/traditional-maldivian-games/",
     "https://traditionalsportsgames.org/news/Bashi:-Rediscovering-the-Maldives%E2%80%99-Women%E2%80%99s-Only-Sand-Court-Tradition-&-Cultural-Resilience?language_id=1"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00915-bashi.jpg",
+    "author": "Leeturtle",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kishi_Bashi_at_Rockwave_Festival_2023.jpg"
+   }
   },
   {
    "id": 916,
@@ -20520,7 +20935,12 @@
     "https://en.wikipedia.org/wiki/Traditional_games_of_Mexico",
     "https://www.mexicodesconocido.com.mx/juguetes-tradicionales-mexicanos.html"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00935-mexican-loteria.jpg",
+    "author": "Unknown author (public domain)",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Loteria_boards.jpg"
+   }
   },
   {
    "id": 936,
@@ -20838,7 +21258,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_of_Myanmar"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00957-phankhon.jpg",
+    "author": "Ye Myat Tun, Discover Myanmar",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hpan_Khoun,_the_Jumping_Game,_Ye_Myat_Tun,_Discover_Myanmar.jpg"
+   }
   },
   {
    "id": 959,
@@ -20865,7 +21290,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_of_Myanmar"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00959-tag.jpg",
+    "author": "Anonymous Unknown author",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jongensspelen_10.jpg"
+   }
   },
   {
    "id": 960,
@@ -20895,7 +21325,12 @@
     "https://en.wikipedia.org/wiki/Owela",
     "https://www.namibian.com.na/owela-plays-two-inventors/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00960-owela.jpg",
+    "author": "Moongateclimber",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hus_(Omwela)_board_for_sale_in_Swakopmund,_Namibia.jpg"
+   }
   },
   {
    "id": 962,
@@ -20976,7 +21411,12 @@
    "sources": [
     "https://www.nauruair.com/about-us/blog/post/traditional-sports-making-a-comeback-in-nauru"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00964-ibibo.jpg",
+    "author": "Harriwillz",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Drummers_in_the_ibibo_land.jpg"
+   }
   },
   {
    "id": 965,
@@ -21063,7 +21503,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_of_Nepal"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00968-dandi-biyo.jpg",
+    "author": "Nirmal Dulal",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Biyo_and_Dandi.JPG"
+   }
   },
   {
    "id": 970,
@@ -21120,7 +21565,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Fierljeppen"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00971-fierljeppen.jpg",
+    "author": "Peter van der Sluijs",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fierljeppen_in_Linschoten.jpg"
+   }
   },
   {
    "id": 973,
@@ -21174,7 +21624,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Klootschieten"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00975-klootschieten.jpg",
+    "author": "Pelikana",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Werpkogels_klootschieten_PM013-01.JPG"
+   }
   },
   {
    "id": 978,
@@ -21204,7 +21659,12 @@
     "https://teara.govt.nz/en/traditional-maori-games-nga-takaro",
     "https://www.r2r.org.nz/games-activities-maori-youth/ki-o-rahi.html"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00978-ki-o-rahi.jpg",
+    "author": "Sossos",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ki_on_grass1.jpg"
+   }
   },
   {
    "id": 979,
@@ -21288,7 +21748,12 @@
     "https://en.wikipedia.org/wiki/T%C4%ABt%C4%AB_t%C5%8Drea",
     "https://digitalnz.org/stories/5e5618ad6d3909000a7b878e"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00981-maori-stick-games.jpg",
+    "author": "Archives New Zealand",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Whakarewarewa_Maori_School_-_Stick_Games.jpg"
+   }
   },
   {
    "id": 982,
@@ -21397,7 +21862,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_of_Nigeria"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00985-abula.jpg",
+    "author": "IFaRotimi",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Amala_With_Ponmo_And_Abula.jpg"
+   }
   },
   {
    "id": 986,
@@ -21498,7 +21968,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_of_Nigeria"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00988-ten-ten.jpg",
+    "author": "anonymous",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Cosmic_Lotus_Mahakala_and_the_Ten_Sikh_Gurus.jpg"
+   }
   },
   {
    "id": 990,
@@ -21630,7 +22105,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Tafl_games"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/00995-tafl.jpg",
+    "author": "Andreas Zautner",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ZHNEFA.jpg"
+   }
   },
   {
    "id": 1001,
@@ -21961,7 +22441,12 @@
    "sources": [
     "https://www.portalguarani.com/687_florentin_gimenez__/22554_juegos_tradicionales_del_paraguay__por_florentin_gimenez.html"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01017-ring-jousting.jpg",
+    "author": "User:Roberto Fiadone",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Corrida_de_Sortija.jpg"
+   }
   },
   {
    "id": 1019,
@@ -22048,7 +22533,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_in_the_Philippines"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01021-patintero.jpg",
+    "author": "Yabang Pinoy",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pinaka_Mahabang_Todo_Patintero_2012_(7732009648).jpg"
+   }
   },
   {
    "id": 1022,
@@ -22102,7 +22592,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_in_the_Philippines"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01024-sipa.jpg",
+    "author": "Benedicto Briones",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SipaQuezonCity.jpg"
+   }
   },
   {
    "id": 1025,
@@ -22184,7 +22679,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_in_the_Philippines"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01028-tumbang-preso.jpg",
+    "author": "Free2barredo",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tumbang_Preso.jpg"
+   }
   },
   {
    "id": 1031,
@@ -22433,7 +22933,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Svaika"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01048-svaika.jpg",
+    "author": "Unknown author Unknown author",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Svaika.jpg"
+   }
   },
   {
    "id": 1049,
@@ -22466,7 +22971,12 @@
     "https://mancala.fandom.com/wiki/Igisoro",
     "https://rutongoembroideries.com/artwork/igisoro-players/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01049-igisoro.jpg",
+    "author": "Moongateclimber",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Omweso_players_in_kigali_rwanda.jpg"
+   }
   },
   {
    "id": 1050,
@@ -22493,7 +23003,12 @@
    "sources": [
     "https://stlucia.org/en/blog/jounen-kweyol-and-creole-heritage-month-how-to-celebrate-in-saint-lucia/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01050-heritage-games.jpg",
+    "author": "Resolute",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2011_Heritage_Classic_faceoff.png"
+   }
   },
   {
    "id": 1051,
@@ -22578,7 +23093,12 @@
     "https://en.wikipedia.org/wiki/Kilikiti",
     "https://www.topendsports.com/world/countries/samoa.htm"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01056-samoan-cricket.jpg",
+    "author": "Chrisrob251",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bats_used_in_the_Samoan_game_of_Kilikiti_(Kirikiti).jpg"
+   }
   },
   {
    "id": 1057,
@@ -22630,7 +23150,12 @@
    "how_played": "Shooters aim crossbows at targets; San Marino keeps a crossbow tradition with historic uniformed shooters.",
    "heritage_note": "Part of the living heritage of San Marino.",
    "sources": [],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01058-crossbow-shooting.jpg",
+    "author": "Bernt Rostad from Oslo, Norway",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Crossbow_shooting_(22349664272).jpg"
+   }
   },
   {
    "id": 1059,
@@ -22671,7 +23196,12 @@
     "https://marhaba.qa/traditional-qatari-games/",
     "https://kuwaittimes.com/ramadan-perfect-time-to-reminisce-about-traditional-kuwaiti-games/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01059-carrom.jpg",
+    "author": "Unknown author (public domain)",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Carrom.jpg"
+   }
   },
   {
    "id": 1060,
@@ -22875,7 +23405,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Slovene_quintain"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01073-slovene-quintain.jpg",
+    "author": "Michael Gäbler",
+    "licence": "CC BY 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ritt_zum_Kufenstechen.jpg"
+   }
   },
   {
    "id": 1075,
@@ -22940,7 +23475,12 @@
     "https://dailynews.gov.bw/news-detail/24062",
     "https://lesotho.co.ls/2025/05/hrh-princess-senate-mohato-seeisos-shoeshoe-ea-moshoeshoe-initiative-continues-with-traditional-games-tour-at-pitseng-high-school/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01076-diketo.jpg",
+    "author": "Kiowa17",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Puca!!.jpg"
+   }
   },
   {
    "id": 1078,
@@ -23059,7 +23599,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Jegichagi"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01082-jegichagi.jpg",
+    "author": "Official U.S. Navy Page from United States of America MC2 Andrew Schneider/U.S. Navy",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sailors_play_Jegichagi_with_Korean_students_during_a_community_relations_event_(30361247131).jpg"
+   }
   },
   {
    "id": 1083,
@@ -23122,7 +23667,12 @@
     "https://en.wikipedia.org/wiki/Korea_Baduk_Association",
     "http://english.baduk.or.kr/sub02_01.htm?menu=f12"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01084-baduk.jpg",
+    "author": "theaucitron",
+    "licence": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Baduk_or_Go.jpg"
+   }
   },
   {
    "id": 1085,
@@ -23151,7 +23701,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Gonggi"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01085-gonggi.jpg",
+    "author": "국립국어원",
+    "licence": "CC BY-SA 2.0 kr",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gonggi_pebbles.jpg"
+   }
   },
   {
    "id": 1086,
@@ -23180,7 +23735,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_of_Korea"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01086-gonu.jpg",
+    "author": "UY Albert!",
+    "licence": "CC BY 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paula_Gonu_02.jpg"
+   }
   },
   {
    "id": 1088,
@@ -23235,7 +23795,12 @@
     "https://en.wikipedia.org/wiki/Pitch-pot",
     "https://en.wikipedia.org/wiki/Traditional_games_of_Korea"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01089-tuho.jpg",
+    "author": "玄史生",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taiwanese_Visitor_Playing_Tuho_in_Korean_Folk_Village_20091017.JPG"
+   }
   },
   {
    "id": 1090,
@@ -23347,7 +23912,12 @@
    "how_played": "Wall-and-court ball sport played with the hand, racket or basket; frontón courts in most Basque towns.",
    "heritage_note": "Part of the living heritage of Spain, France.",
    "sources": [],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01094-basque-pelota.jpg",
+    "author": "No machine-readable author provided. Harrieta171 assumed (based on copyright claims).",
+    "licence": "CC BY 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ustaritz_Fronton_Pala.jpg"
+   }
   },
   {
    "id": 1096,
@@ -23374,7 +23944,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Bolo_palma"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01096-cantabrian-palm-bowling.jpg",
+    "author": "Emilio Gómez Fernández",
+    "licence": "CC BY 2.5",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bolera_de_La_Helguera_-_Barrio_de_Arriba.jpg"
+   }
   },
   {
    "id": 1098,
@@ -23488,7 +24063,12 @@
    "sources": [
     "https://www.sundaytimes.lk/170409/funday-times/avurudu-games-236003.html"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01104-elle.jpg",
+    "author": "Georges Biard",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Elle_Cannes_2016_3.jpg"
+   }
   },
   {
    "id": 1105,
@@ -23515,7 +24095,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Traditional_games_of_Sri_Lanka"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01105-break-the-pot.jpg",
+    "author": "Md Shahriar Joy",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Break_the_pot.jpg"
+   }
   },
   {
    "id": 1106,
@@ -23683,7 +24268,12 @@
     "https://en.wikipedia.org/wiki/Br%C3%A4nnboll",
     "https://en.wikipedia.org/wiki/Br%C3%A4nnbollscupen"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01118-brannboll.jpg",
+    "author": "EditorInTheRye",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brannboll.png"
+   }
   },
   {
    "id": 1120,
@@ -23711,7 +24301,12 @@
     "https://en.wikipedia.org/wiki/Kubb",
     "https://www.kubb.world/the-game"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01120-kubb.jpg",
+    "author": "Joshfeathers",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:US_National_Kubb_Championship.jpg"
+   }
   },
   {
    "id": 1128,
@@ -23824,7 +24419,12 @@
     "https://eurasia.travel/tajikistan/culture/games/",
     "https://en.wikipedia.org/wiki/Buzkashi"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01133-gushtingiri-wrestling.jpg",
+    "author": "Martin Burns and the Farmer Burns School of Wrestling; scans by Gordon Anderson",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Burns03-05-70-sprawl.jpg"
+   }
   },
   {
    "id": 1134,
@@ -23851,7 +24451,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Shatranj"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01134-shatranj-chess.jpg",
+    "author": "The Shâhnâmeh (Book of Kings) is major epic work of persian poetry \"Ferdowsi Tousi\".",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bayasanghori_Shahnameh_5_(cropped).jpg"
+   }
   },
   {
    "id": 1135,
@@ -24108,7 +24713,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Culture_of_Timor-Leste"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01145-regional-pony-race-meets.jpg",
+    "author": "Noah Salzman",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:GGF_Race5.jpg"
+   }
   },
   {
    "id": 1146,
@@ -24283,7 +24893,12 @@
     "https://barbados.org/barbados-traditions.htm",
     "https://www.allatsea.net/domino-effect-in-the-caribbean/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01151-yard-cricket.jpg",
+    "author": "Prescott Pym on Flickr",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pollock_to_Hussey.jpg"
+   }
   },
   {
    "id": 1155,
@@ -24310,7 +24925,12 @@
    "sources": [
     "https://www.pagat.com/national/trinidad.html"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01155-street-play-games.jpg",
+    "author": "Mohamed Hozyen Ahmed",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Boys_playing_street_football_in_Egypt.jpg"
+   }
   },
   {
    "id": 1158,
@@ -24343,7 +24963,12 @@
     "https://play.google.com/store/apps/details?id=com.ahoygames.okey&hl=en_US",
     "https://www.pagat.com/national/turkey.html"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01158-okey.jpg",
+    "author": "Patricia Cardet",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Okey-game-yukari-konak-3.jpg"
+   }
   },
   {
    "id": 1159,
@@ -24437,7 +25062,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Mangala_(game)"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01164-mangala.jpg",
+    "author": "Johann Samuel Mock",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mock_Mangala_players.jpg"
+   }
   },
   {
    "id": 1166,
@@ -24495,7 +25125,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Nard_(game)"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01168-nard-backgammon.jpg",
+    "author": "Unknown author Unknown author",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Buzurgmihr-nard.jpg"
+   }
   },
   {
    "id": 1169,
@@ -24659,7 +25294,12 @@
    "sources": [
     "https://www.habariugandatours.com/uganda-safari-local-games/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01174-kwepena.jpg",
+    "author": "Nice Musana",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Playing_Kwepena.jpg"
+   }
   },
   {
    "id": 1175,
@@ -24747,7 +25387,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Russian_draughts"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01177-shashki.jpg",
+    "author": "Gronchih",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D1%88%D0%B0%D1%88%D0%BA%D0%B8.jpg"
+   }
   },
   {
    "id": 1179,
@@ -24811,7 +25456,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Pub_game"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01180-regional-pub-games.jpg",
+    "author": "Obscurasky",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Indoor_Quoits.jpg"
+   }
   },
   {
    "id": 1181,
@@ -24836,7 +25486,12 @@
    "how_played": "Slide stones over ice toward a target while teammates sweep; Scotland is its historic home.",
    "heritage_note": "Part of the living heritage of United Kingdom.",
    "sources": [],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01181-curling.jpg",
+    "author": "Glenlarson",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Curling,_overall_view_of_the_Tim_Hortons_Brier_venue_-_Edmonton,_Canada.jpg"
+   }
   },
   {
    "id": 1182,
@@ -24863,7 +25518,12 @@
    "sources": [
     "https://www.tradgames.org.uk/features/pub-games.htm"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01182-pub-darts.jpg",
+    "author": "PeterPan23",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Darts_in_a_dartboard.jpg"
+   }
   },
   {
    "id": 1183,
@@ -24981,7 +25641,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Mexican_Train"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01193-chickenfoot.jpg",
+    "author": "Liko81",
+    "licence": "CC BY 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mexican_Train.jpg"
+   }
   },
   {
    "id": 1194,
@@ -25013,7 +25678,12 @@
     "https://en.wikipedia.org/wiki/Cornhole",
     "https://www.wvxu.org/2026-05-21/why-one-ohio-city-claims-to-be-the-capital-of-cornhole"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01194-cornhole.jpg",
+    "author": "Michael Rivera",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cornhole,_Homerville.JPG"
+   }
   },
   {
    "id": 1195,
@@ -25044,7 +25714,12 @@
     "https://www.tshaonline.org/handbook/entries/forty-two-domino-game",
     "https://texashighways.com/state-symbols/the-texas-state-domino-game-42/"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01195-texas-42.jpg",
+    "author": "Loadmaster (David R. Tribble)",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dominoes84.jpg"
+   }
   },
   {
    "id": 1199,
@@ -25073,7 +25748,12 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Shuffleboard"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01199-table-shuffleboard.jpg",
+    "author": "Hassocks5489 at English Wikipedia",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Deck_Shuffleboard.JPG"
+   }
   },
   {
    "id": 1204,
@@ -25295,7 +25975,12 @@
     "https://vinwonders.com/en/wonderpedia/news/traditional-vietnamese-games/",
     "https://en.wikipedia.org/wiki/Bầu_Cua_Cá_Cọp"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01213-gourd-crab-dice.jpg",
+    "author": "Krestavilis ( talk ) ( Uploads )",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bau_cua_ca_cop.jpg"
+   }
   },
   {
    "id": 1214,
@@ -25379,7 +26064,12 @@
     "https://vinwonders.com/en/wonderpedia/news/traditional-vietnamese-games/",
     "https://en.wikipedia.org/wiki/Ô_ăn_quan"
    ],
-   "photo": null
+   "photo": {
+    "file": "img/photos/01216-mandarin-square-capturing.jpg",
+    "author": "Tieu ngao giang ho1970",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Oanquan0.JPG"
+   }
   },
   {
    "id": 1219,

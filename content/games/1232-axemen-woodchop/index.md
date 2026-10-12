@@ -43,8 +43,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Woggabaliri](../../games/561-woggabaliri/index.md)
 - [Wave riding](../../games/76-wave-riding/index.md)
 - [Gumboot throwing](../../games/448-gumboot-throwing/index.md)
-- [Marshallese stick chart navigator](../../games/1333-marshallese-stick-chart-navigator/index.md)
-- [Sand drawing](../../games/1395-sand-drawing/index.md)
+- [Hand-slap game](../../games/711-hand-slap-game/index.md)
+- [Ibibo](../../games/964-ibibo/index.md)
 
 ## Sources
 

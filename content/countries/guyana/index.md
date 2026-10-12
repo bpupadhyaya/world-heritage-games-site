@@ -12,6 +12,6 @@ count: 3
 
 3 entries.
 
-- [Cush](../../games/760-cush/index.md): Guyana; Dexterity and skill games; Modern Heritage
 - [Hopscotch](../../games/762-hopscotch/index.md): Haiti, Honduras; Dexterity and skill games; Deep Past and First Games
 - [Rounders](../../games/761-rounders/index.md): Guyana; Street and playground games; Modern Heritage
+- [Cush](../../games/760-cush/index.md): Guyana; Dexterity and skill games; Modern Heritage

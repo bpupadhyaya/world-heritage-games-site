@@ -15,6 +15,10 @@ countries: ["Mexico"]
 
 **Encyclopedia ID 935** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/935-mexican-loteria/
 
+![Mexican Lotería](../../../img/photos/00935-mexican-loteria.jpg)
+
+*Photo: Unknown author (public domain), [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Loteria_boards.jpg)*
+
 A caller (cantor) draws pictures from a 54-card deck, announcing each with a rhyme, and players mark matching pictures on 4x4 tablas; first to fill a line, corners or the centre shouts Lotería.
 
 ## Heritage note

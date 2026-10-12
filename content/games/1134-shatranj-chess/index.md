@@ -15,6 +15,10 @@ countries: ["Tajikistan"]
 
 **Encyclopedia ID 1134** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1134-shatranj-chess/
 
+![Shatranj / chess](../../../img/photos/01134-shatranj-chess.jpg)
+
+*Photo: The Shâhnâmeh (Book of Kings) is major epic work of persian poetry "Ferdowsi Tousi"., [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bayasanghori_Shahnameh_5_(cropped).jpg)*
+
 Ancestor chess form; Tajik/Persian heritage claim.
 
 ## Heritage note
@@ -44,9 +48,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Chess](../../games/552-chess/index.md)
 - [Chaturanga](../../games/45-chaturanga/index.md)
 - [Sittuyin](../../games/302-sittuyin/index.md)
-- [Mongolian chess](../../games/943-mongolian-chess/index.md)
-- [Banqi](../../games/1437-banqi/index.md)
-- [Khmer chess](../../games/616-khmer-chess/index.md)
+- [Luzhanqi](../../games/640-luzhanqi/index.md)
+- [Senterej](../../games/707-senterej/index.md)
+- [Hasami shogi](../../games/849-hasami-shogi/index.md)
 
 ## Sources
 

@@ -15,6 +15,10 @@ countries: ["Russia"]
 
 **Encyclopedia ID 1048** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1048-svaika/
 
+![Svaika](../../../img/photos/01048-svaika.jpg)
+
+*Photo: Unknown author Unknown author, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Svaika.jpg)*
+
 Throw a spike into a ring on the ground.
 
 ## Heritage note

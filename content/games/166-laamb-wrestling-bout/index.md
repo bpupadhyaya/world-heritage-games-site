@@ -41,8 +41,8 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 
 ## Related entries
 
-- [Kokawa Hausa Wrestling](../../games/1316-kokawa-hausa-wrestling/index.md)
 - [Traditional wrestling](../../games/619-traditional-wrestling/index.md)
+- [Kokawa Hausa Wrestling](../../games/1316-kokawa-hausa-wrestling/index.md)
 - [Kurash](../../games/253-kurash/index.md)
 - [Kushti / Pehlwani mud wrestling](../../games/256-kushti-pehlwani-mud-wrestling/index.md)
 - [Sumo bout](../../games/359-sumo-bout/index.md)

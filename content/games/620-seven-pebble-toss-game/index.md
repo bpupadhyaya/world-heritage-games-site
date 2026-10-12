@@ -41,12 +41,12 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 ## Related entries
 
-- [Nhodo](../../games/1346-nhodo/index.md)
 - [Street games](../../games/570-street-games/index.md)
-- [Seed throwing](../../games/612-seed-throwing/index.md)
 - [Hopscotch](../../games/762-hopscotch/index.md)
-- [Gilbert Islands string figures](../../games/866-gilbert-islands-string-figures/index.md)
 - [Pebbles](../../games/874-pebbles/index.md)
+- [Diketo](../../games/1076-diketo/index.md)
+- [Nhodo](../../games/1346-nhodo/index.md)
+- [Seed throwing](../../games/612-seed-throwing/index.md)
 
 ## Sources
 

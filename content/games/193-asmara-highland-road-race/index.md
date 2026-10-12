@@ -43,8 +43,8 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - [Seega](../../games/692-seega/index.md)
 - [Krar lyre](../../games/126-krar-lyre/index.md)
 - [Jebena coffee brewing](../../games/189-jebena-coffee-brewing/index.md)
+- [Senterej](../../games/707-senterej/index.md)
 - [Abalala'e](../../games/699-abalalae/index.md)
-- [Andada](../../games/700-andada/index.md)
 
 ## Sources
 

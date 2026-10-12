@@ -15,6 +15,10 @@ countries: ["Japan"]
 
 **Encyclopedia ID 847** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/847-gomoku-and-renju/
 
+![Gomoku and Renju](../../../img/photos/00847-gomoku-and-renju.jpg)
+
+*Photo: Matěj Baťha, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Renju.jpg)*
+
 Players alternate placing stones to get five in a row; Renju adds restrictions on the first player to keep balance.
 
 ## Heritage note
@@ -40,9 +44,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Duo](../../games/838-duo/index.md)
 - [Shisima](../../games/865-shisima/index.md)
 - [Fanoron-Telo](../../games/902-fanoron-telo/index.md)
-- [Tsugaru Shamisen](../../games/1489-tsugaru-shamisen/index.md)
 - [Hasami shogi](../../games/849-hasami-shogi/index.md)
 - [Riichi mahjong](../../games/851-riichi-mahjong/index.md)
+- [Shogi](../../games/852-shogi/index.md)
 
 ## Sources
 

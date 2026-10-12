@@ -13,6 +13,10 @@ countries: ["Japan"]
 
 **Encyclopedia ID 849** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/849-hasami-shogi/
 
+![Hasami shogi](../../../img/photos/00849-hasami-shogi.jpg)
+
+*Photo: Ihardlythinkso, [CC0](https://creativecommons.org/publicdomain/zero/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hasami_Shogi_9x9_init_config.png)*
+
 Single-type pieces move like rooks and capture by sandwiching an enemy piece between two of your own.
 
 ## Heritage note
@@ -39,8 +43,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Janggi](../../games/1081-janggi/index.md)
 - [Chaturanga](../../games/45-chaturanga/index.md)
 - [Sittuyin](../../games/302-sittuyin/index.md)
-- [Mongolian chess](../../games/943-mongolian-chess/index.md)
-- [Banqi](../../games/1437-banqi/index.md)
+- [Chess](../../games/552-chess/index.md)
+- [Luzhanqi](../../games/640-luzhanqi/index.md)
 
 ## Sources
 

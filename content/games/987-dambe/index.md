@@ -45,7 +45,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Ten Ten](../../games/988-ten-ten/index.md)
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md)
 - [La Sape dress-up parade](../../games/200-la-sape-dress-up-parade/index.md)
-- [African draughts](../../games/586-african-draughts/index.md)
+- [Ampe](../../games/747-ampe/index.md)
 
 ## Sources
 

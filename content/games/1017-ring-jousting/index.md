@@ -15,6 +15,10 @@ countries: ["Paraguay"]
 
 **Encyclopedia ID 1017** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1017-ring-jousting/
 
+![Ring jousting](../../../img/photos/01017-ring-jousting.jpg)
+
+*Photo: User:Roberto Fiadone, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Corrida_de_Sortija.jpg)*
+
 Riders gallop under an arch and spear a hanging ring.
 
 ## Heritage note

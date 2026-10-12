@@ -15,6 +15,10 @@ countries: ["South Africa", "Botswana", "Lesotho"]
 
 **Encyclopedia ID 1076** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1076-diketo/
 
+![Diketo](../../../img/photos/01076-diketo.jpg)
+
+*Photo: Kiowa17, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Puca!!.jpg)*
+
 Toss a stone upward and sweep pebbles from a circle before catching it; jacks-style.
 
 ## Heritage note
@@ -43,10 +47,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - [Nhodo](../../games/1346-nhodo/index.md)
 - [Street games](../../games/570-street-games/index.md)
+- [Hopscotch](../../games/762-hopscotch/index.md)
+- [Pebbles](../../games/874-pebbles/index.md)
 - [Seed throwing](../../games/612-seed-throwing/index.md)
 - [Seven-pebble toss game](../../games/620-seven-pebble-toss-game/index.md)
-- [Hopscotch](../../games/762-hopscotch/index.md)
-- [Gilbert Islands string figures](../../games/866-gilbert-islands-string-figures/index.md)
 
 ## Sources
 

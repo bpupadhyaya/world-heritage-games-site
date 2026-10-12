@@ -23,6 +23,7 @@ count: 38
 - [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md): United Kingdom; Racing; Modern Heritage
 - [Clockwork Movement Builder](../../games/502-clockwork-movement-builder/index.md): Germany, Switzerland; Puzzles and mind games; Modern Heritage
 - [Croquet](../../games/81-croquet/index.md): United Kingdom, Ireland; Board and table games; Crossroads and Golden Ages
+- [Curling](../../games/1181-curling/index.md): United Kingdom; Street and playground games; Modern Heritage
 - [Cynghanedd Poetry Puzzle](../../games/1448-cynghanedd-poetry-puzzle/index.md): United Kingdom; Puzzles and mind games; Modern Heritage
 - [Disc-flip](../../games/8-disc-flip/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
 - [Grandmother's Footsteps](../../games/469-grandmothers-footsteps/index.md): United Kingdom, France; Other traditions; Living Traditions
@@ -32,7 +33,9 @@ count: 38
 - [Netball](../../games/447-netball/index.md): Australia, United Kingdom; Team ball sports; Modern Heritage
 - [Nordic Colourwork Knitting](../../games/413-nordic-colourwork-knitting/index.md): United Kingdom, Norway; Crafts and making; Living Traditions
 - [Paper Fortune Teller](../../games/465-paper-fortune-teller/index.md): United Kingdom, United States; Crafts and making; Living Traditions
+- [Pub darts](../../games/1182-pub-darts/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
 - [Racing Pigeon Loft](../../games/411-racing-pigeon-loft/index.md): Belgium, Netherlands; Board and table games; Crossroads and Golden Ages
+- [Regional pub games](../../games/1180-regional-pub-games/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
 - [Ribbon Pole Weave](../../games/419-ribbon-pole-weave/index.md): United Kingdom, Spain; Dances; Living Traditions
 - [Ribbon-Pole Plaiting Dance](../../games/512-ribbon-pole-plaiting-dance/index.md): United Kingdom, Germany; Dances; Living Traditions
 - [Sack Race](../../games/476-sack-race/index.md): Indonesia, United Kingdom; Racing; Age of Contact and Craft
@@ -43,10 +46,7 @@ count: 38
 - [Tavern Nail and Wire Puzzles](../../games/110-tavern-nail-and-wire-puzzles/index.md): Germany, United Kingdom; Puzzles and mind games; Classical Worlds
 - [Welsh Love Spoon Carving](../../games/414-welsh-love-spoon-carving/index.md): United Kingdom; Crafts and making; Living Traditions
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
-- [Curling](../../games/1181-curling/index.md): United Kingdom; Street and playground games; Modern Heritage
 - [Highland games](../../games/1184-highland-games/index.md): United Kingdom; Street and playground games; Modern Heritage
-- [Pub darts](../../games/1182-pub-darts/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
 - [Pub dominoes](../../games/1183-pub-dominoes/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
-- [Regional pub games](../../games/1180-regional-pub-games/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
 - [Skittles](../../games/1179-skittles/index.md): United Kingdom, Germany; Street and playground games; Age of Contact and Craft
 - [Snooker](../../games/1185-snooker/index.md): United Kingdom; Street and playground games; Modern Heritage

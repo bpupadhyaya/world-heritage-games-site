@@ -40,8 +40,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
-- [Gollachut](../../games/573-gollachut/index.md)
 - [Kabaddi](../../games/789-kabaddi/index.md)
+- [Gollachut](../../games/573-gollachut/index.md)
 - [Stick game](../../games/912-stick-game/index.md)
 - [Bashi](../../games/915-bashi/index.md)
 - [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md)

@@ -15,6 +15,10 @@ countries: ["Dominican Republic", "Jamaica", "Mexico", "Guatemala", "Belize", "H
 
 **Encyclopedia ID 678** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/678-spinning-top/
 
+![Spinning top](../../../img/photos/00678-spinning-top.jpg)
+
+*Photo: Davidturnswood, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A_tough_gang_of_Spinning_Tops.jpg)*
+
 A wooden top is wound with cord, thrown to spin as long as possible or to knock others out of a ring.
 
 ## Heritage note
@@ -43,9 +47,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Hoop Rolling Trundle](../../games/69-hoop-rolling-trundle/index.md)
 - [Amidakuji](../../games/357-amidakuji/index.md)
+- [Kendama](../../games/850-kendama/index.md)
 - [Gasing uri](../../games/1289-gasing-uri/index.md)
 - [Yo-yo](../../games/696-yo-yo/index.md)
-- [Kendama](../../games/850-kendama/index.md)
 - [Gasing](../../games/908-gasing/index.md)
 
 ## Sources

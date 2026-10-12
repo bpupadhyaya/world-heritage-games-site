@@ -15,6 +15,10 @@ countries: ["Ukraine", "Belarus", "Russia"]
 
 **Encyclopedia ID 1177** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1177-shashki/
 
+![Shashki](../../../img/photos/01177-shashki.jpg)
+
+*Photo: Gronchih, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B5_%D1%88%D0%B0%D1%88%D0%BA%D0%B8.jpg)*
+
 8x8 draughts with flying kings and backwards captures; Poddavki and Bashni are popular variants.
 
 ## Heritage note

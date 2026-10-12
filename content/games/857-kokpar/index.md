@@ -42,7 +42,7 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Kyz Kuu](../../games/858-kyz-kuu/index.md)
 - [Mheibes](../../games/158-mheibes/index.md)
 - [Steppe eagle hunting](../../games/254-steppe-eagle-hunting/index.md)
-- [Chovqan](../../games/565-chovqan/index.md)
+- [Chogan](../../games/810-chogan/index.md)
 
 ## Sources
 

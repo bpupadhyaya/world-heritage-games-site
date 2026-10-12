@@ -15,6 +15,10 @@ countries: ["Norway", "Sweden", "Denmark", "Iceland"]
 
 **Encyclopedia ID 995** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/995-tafl/
 
+![Tafl](../../../img/photos/00995-tafl.jpg)
+
+*Photo: Andreas Zautner, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ZHNEFA.jpg)*
+
 An uneven-armies siege game: attackers surround the king while he races to escape.
 
 ## Heritage note
@@ -44,9 +48,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Daldøs](../../games/458-dalds/index.md)
 - [Hornussen](../../games/10-hornussen/index.md)
 - [Novuss](../../games/456-novuss/index.md)
+- [Shashki](../../games/1177-shashki/index.md)
 - [Latvian Bagpipe and Folk Pipes](../../games/1324-latvian-bagpipe-and-folk-pipes/index.md)
 - [Czech draughts](../../games/662-czech-draughts/index.md)
-- [Hungarian dominoes](../../games/778-hungarian-dominoes/index.md)
 
 ## Sources
 

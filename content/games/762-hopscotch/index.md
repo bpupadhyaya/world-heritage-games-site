@@ -15,6 +15,10 @@ countries: ["Haiti", "Honduras", "Nicaragua", "Panama", "Guyana", "Suriname"]
 
 **Encyclopedia ID 762** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/762-hopscotch/
 
+![Hopscotch](../../../img/photos/00762-hopscotch.jpg)
+
+*Photo: Dave Parker, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hopscotch_in_California.jpg)*
+
 Throw a flat stone into a chalked grid and hop through squares without touching the stone square.
 
 ## Heritage note
@@ -39,10 +43,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - [Street games](../../games/570-street-games/index.md)
 - [Street](../../games/1052-street/index.md)
+- [Pebbles](../../games/874-pebbles/index.md)
+- [Diketo](../../games/1076-diketo/index.md)
 - [Nhodo](../../games/1346-nhodo/index.md)
 - [Seed throwing](../../games/612-seed-throwing/index.md)
-- [Seven-pebble toss game](../../games/620-seven-pebble-toss-game/index.md)
-- [Cush](../../games/760-cush/index.md)
 
 ## Sources
 

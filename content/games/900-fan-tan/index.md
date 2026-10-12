@@ -13,6 +13,10 @@ countries: ["China"]
 
 **Encyclopedia ID 900** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/900-fan-tan/
 
+![Fan-tan](../../../img/photos/00900-fan-tan.jpg)
+
+*Photo: Fuzheado ( talk ), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fan-Tan.jpg)*
+
 Players bet on the remainder (1 to 4) after a pile of buttons or beads is counted off in fours.
 
 ## Heritage note

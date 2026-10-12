@@ -13,6 +13,10 @@ countries: ["Uganda"]
 
 **Encyclopedia ID 1174** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1174-kwepena/
 
+![Kwepena](../../../img/photos/01174-kwepena.jpg)
+
+*Photo: Nice Musana, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Playing_Kwepena.jpg)*
+
 Buganda dodgeball with shooters at both ends.
 
 ## Heritage note
@@ -39,8 +43,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md)
 - [Otedama](../../games/131-otedama/index.md)
 - [Blind Man's Buff](../../games/467-blind-mans-buff/index.md)
-- [Gollachut](../../games/573-gollachut/index.md)
-- [Burn-out](../../games/654-burn-out/index.md)
+- [Hand-slap game](../../games/711-hand-slap-game/index.md)
+- [Kabaddi](../../games/789-kabaddi/index.md)
 
 ## Sources
 

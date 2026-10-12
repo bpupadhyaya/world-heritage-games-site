@@ -41,8 +41,8 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 ## Related entries
 
 - [Kyykka](../../games/715-kyykka/index.md)
-- [Skittles](../../games/1179-skittles/index.md)
 - [Pub darts](../../games/1182-pub-darts/index.md)
+- [Skittles](../../games/1179-skittles/index.md)
 - [Mounted Archery Course](../../games/67-mounted-archery-course/index.md)
 - [Kubb](../../games/1120-kubb/index.md)
 - [Pitch-pot](../../games/2-pitch-pot/index.md)

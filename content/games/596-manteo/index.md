@@ -39,9 +39,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Uyuni Salt Harvest](../../games/1491-uyuni-salt-harvest/index.md)
 - [Sapo](../../games/1019-sapo/index.md)
 - [Tejo](../../games/57-tejo/index.md)
-- [Chinchinero Drum Walk](../../games/1406-chinchinero-drum-walk/index.md)
-- [Chilean Rayuela](../../games/1427-chilean-rayuela/index.md)
-- [Atarraya](../../games/1434-atarraya/index.md)
+- [Emboque](../../games/629-emboque/index.md)
+- [Chaza](../../games/643-chaza/index.md)
+- [Frog toss](../../games/688-frog-toss/index.md)
 
 ## Sources
 

@@ -13,6 +13,10 @@ countries: ["Botswana"]
 
 **Encyclopedia ID 600** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/600-mhele/
 
+![Mhele](../../../img/photos/00600-mhele.jpg)
+
+*Photo: Bonolo Nikita Rankaga, [CC0](https://creativecommons.org/publicdomain/zero/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mhele_traditional_game.jpg)*
+
 Traditional game named by Botswana press among national traditional games.
 
 ## Heritage note

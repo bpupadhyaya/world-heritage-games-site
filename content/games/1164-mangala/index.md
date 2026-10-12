@@ -15,6 +15,10 @@ countries: ["Turkey"]
 
 **Encyclopedia ID 1164** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1164-mangala/
 
+![Mangala](../../../img/photos/01164-mangala.jpg)
+
+*Photo: Johann Samuel Mock, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mock_Mangala_players.jpg)*
+
 Ottoman-era sowing game with 2x6 or 2x7 pits and capture on even counts.
 
 ## Heritage note
@@ -40,9 +44,9 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - [Hawalis](../../games/1001-hawalis/index.md)
 - [Syrian mancala](../../games/1128-syrian-mancala/index.md)
 - [Arabian mancala](../../games/1219-arabian-mancala/index.md)
-- [Kiela](../../games/544-kiela/index.md)
-- [Warri](../../games/566-warri/index.md)
-- [Oware-family mancala](../../games/587-oware-family-mancala/index.md)
+- [Songo](../../games/617-songo/index.md)
+- [Bao](../../games/647-bao/index.md)
+- [Kisolo](../../games/666-kisolo/index.md)
 
 ## Sources
 

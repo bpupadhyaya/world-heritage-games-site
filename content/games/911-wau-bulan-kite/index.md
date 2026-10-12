@@ -15,6 +15,10 @@ countries: ["Malaysia"]
 
 **Encyclopedia ID 911** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/911-wau-bulan-kite/
 
+![Wau bulan kite](../../../img/photos/00911-wau-bulan-kite.jpg)
+
+*Photo: D.W. Fisher-Freberg, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wau_bulan_Pasir_Gudang.JPG)*
+
 Decorated crescent-shaped kites flown and shown off, especially on the east coast of the peninsula.
 
 ## Heritage note
@@ -38,9 +42,9 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 ## Related entries
 
 - [Kitendawili](../../games/181-kitendawili/index.md)
-- [Gasing uri](../../games/1289-gasing-uri/index.md)
 - [Kites](../../games/577-kites/index.md)
 - [Kite flying](../../games/769-kite-flying/index.md)
+- [Gasing uri](../../games/1289-gasing-uri/index.md)
 - [Kite fighting](../../games/788-kite-fighting/index.md)
 - [Gasing](../../games/908-gasing/index.md)
 

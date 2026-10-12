@@ -41,10 +41,10 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 - [Dalgona](../../games/100-dalgona/index.md)
 - [Janggi](../../games/1081-janggi/index.md)
-- [Tsugaru Shamisen](../../games/1489-tsugaru-shamisen/index.md)
 - [Gomoku and Renju](../../games/847-gomoku-and-renju/index.md)
 - [Hasami shogi](../../games/849-hasami-shogi/index.md)
 - [Riichi mahjong](../../games/851-riichi-mahjong/index.md)
+- [Shogi](../../games/852-shogi/index.md)
 
 ## Sources
 

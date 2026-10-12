@@ -41,8 +41,8 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 ## Related entries
 
 - [Knucklebone game](../../games/522-knucklebone-game/index.md)
-- [Besh Tash](../../games/869-besh-tash/index.md)
 - [Toguz Korgool](../../games/871-toguz-korgool/index.md)
+- [Besh Tash](../../games/869-besh-tash/index.md)
 - [Dombra](../../games/48-dombra/index.md)
 - [Kok-boru](../../games/241-kok-boru/index.md)
 - [Durak](../../games/854-durak/index.md)

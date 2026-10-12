@@ -15,6 +15,10 @@ countries: ["Ireland"]
 
 **Encyclopedia ID 819** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/819-road-bowling/
 
+![Road bowling](../../../img/photos/00819-road-bowling.jpg)
+
+*Photo: Dennisleussink, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Road_Bowling.jpg)*
+
 Throw a 28 oz iron ball along country roads in fewest throws; Cork and Armagh strongholds.
 
 ## Heritage note
@@ -39,9 +43,9 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - [Bodhran Frame Drum](../../games/521-bodhran-frame-drum/index.md)
 - [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md)
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md)
-- [Change Ringing](../../games/1443-change-ringing/index.md)
-- [Skittles](../../games/1179-skittles/index.md)
 - [Regional pub games](../../games/1180-regional-pub-games/index.md)
+- [Pub darts](../../games/1182-pub-darts/index.md)
+- [Change Ringing](../../games/1443-change-ringing/index.md)
 
 ## Sources
 

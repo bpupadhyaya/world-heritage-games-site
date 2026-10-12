@@ -13,6 +13,10 @@ countries: ["Indonesia", "Malaysia", "Brunei", "Thailand"]
 
 **Encyclopedia ID 802** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/802-sepak-takraw/
 
+![Sepak takraw](../../../img/photos/00802-sepak-takraw.jpg)
+
+*Photo: Republic of Korea from Seoul, Republic of Korea, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Incheon_AsianGames_Sepaktakraw_09_(15291705581).jpg)*
+
 Circle or net game with a rattan ball played with feet and head; Malacca origins cited around the 15th century.
 
 ## Heritage note
@@ -43,8 +47,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Nohejbal](../../games/378-nohejbal/index.md)
 - [Lato-lato](../../games/316-lato-lato/index.md)
 - [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md)
-- [Dikir barat](../../games/1268-dikir-barat/index.md)
-- [Gasing uri](../../games/1289-gasing-uri/index.md)
+- [Silat Melayu](../../games/605-silat-melayu/index.md)
+- [Madura bull racing](../../games/805-madura-bull-racing/index.md)
 
 ## Sources
 

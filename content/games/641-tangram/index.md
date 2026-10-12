@@ -15,6 +15,10 @@ countries: ["China"]
 
 **Encyclopedia ID 641** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/641-tangram/
 
+![Tangram](../../../img/photos/00641-tangram.jpg)
+
+*Photo: Nevit Dilmen, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tangram_set_00.jpg)*
+
 Seven flat geometric pieces are rearranged to fill a given silhouette without overlap.
 
 ## Heritage note

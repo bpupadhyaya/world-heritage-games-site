@@ -15,6 +15,10 @@ countries: ["Canada"]
 
 **Encyclopedia ID 623** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/623-crokinole/
 
+![Crokinole](../../../img/photos/00623-crokinole.jpg)
+
+*Photo: David Victor Lagasse, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:FAMILY_OF_PICHENOTTE_GAMES.jpg)*
+
 Flick wooden discs across a board toward a 20-point center hole while avoiding pegs.
 
 ## Heritage note
@@ -42,9 +46,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Square dance caller](../../games/129-square-dance-caller/index.md)
-- [Trick Roping](../../games/1408-trick-roping/index.md)
 - [Cornhole](../../games/1194-cornhole/index.md)
 - [Table shuffleboard](../../games/1199-table-shuffleboard/index.md)
+- [Trick Roping](../../games/1408-trick-roping/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
 - [Stone Skipping](../../games/5-stone-skipping/index.md)
 

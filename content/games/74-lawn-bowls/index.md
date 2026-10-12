@@ -45,7 +45,7 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Provencal boules](../../games/939-provencal-boules/index.md)
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md)
 - [Mounted Archery Course](../../games/67-mounted-archery-course/index.md)
-- [Mongolian Bow Archery](../../games/1476-mongolian-bow-archery/index.md)
+- [Pub darts](../../games/1182-pub-darts/index.md)
 
 ## Sources
 

@@ -15,6 +15,10 @@ countries: ["Honduras"]
 
 **Encyclopedia ID 769** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/769-kite-flying/
 
+![Kite flying](../../../img/photos/00769-kite-flying.jpg)
+
+*Photo: Kritzolina, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kite_flying_over_Pasing_04.jpg)*
+
 Fly homemade kites.
 
 ## Heritage note
@@ -39,8 +43,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 - [Kitendawili](../../games/181-kitendawili/index.md)
 - [Kites](../../games/577-kites/index.md)
-- [Kite fighting](../../games/788-kite-fighting/index.md)
 - [Wau bulan kite](../../games/911-wau-bulan-kite/index.md)
+- [Kite fighting](../../games/788-kite-fighting/index.md)
 - [Yo-yo](../../games/696-yo-yo/index.md)
 - [Hoop Rolling Trundle](../../games/69-hoop-rolling-trundle/index.md)
 

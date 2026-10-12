@@ -15,6 +15,10 @@ countries: ["Iraq", "Syria", "Lebanon", "Jordan", "Palestine", "Egypt"]
 
 **Encyclopedia ID 816** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/816-tarneeb/
 
+![Tarneeb](../../../img/photos/00816-tarneeb.jpg)
+
+*Photo: Klaus Köpplinger ( koeppiK ), [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bridge_boards_box.jpg)*
+
 Four players in two teams bid for the right to name trumps, then must take at least their bid in tricks.
 
 ## Heritage note

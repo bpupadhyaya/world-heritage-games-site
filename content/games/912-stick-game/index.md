@@ -15,6 +15,10 @@ countries: ["Maldives", "New Zealand"]
 
 **Encyclopedia ID 912** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/912-stick-game/
 
+![Stick game](../../../img/photos/00912-stick-game.jpg)
+
+*Photo: Press Information Department, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Land_Minister_Shamsur_Rahman_Sharif_inspecting_stick_game_Ishwardi_Pabna_2016-10-12.jpg)*
+
 Players sit in pairs and toss and catch wooden sticks to a rhythm and song.
 
 ## Heritage note
@@ -39,8 +43,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Bashi](../../games/915-bashi/index.md)
 - [Kho-Kho](../../games/15-kho-kho/index.md)
-- [Gollachut](../../games/573-gollachut/index.md)
 - [Kabaddi](../../games/789-kabaddi/index.md)
+- [Gollachut](../../games/573-gollachut/index.md)
 - [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md)
 - [Otedama](../../games/131-otedama/index.md)
 

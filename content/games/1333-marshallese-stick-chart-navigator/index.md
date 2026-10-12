@@ -40,8 +40,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
-- [Sand drawing](../../games/1395-sand-drawing/index.md)
 - [Maori stick games](../../games/981-maori-stick-games/index.md)
+- [Sand drawing](../../games/1395-sand-drawing/index.md)
 - [Heu](../../games/1146-heu/index.md)
 - [Hiko](../../games/1147-hiko/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)

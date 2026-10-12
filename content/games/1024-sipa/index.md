@@ -13,6 +13,10 @@ countries: ["Philippines"]
 
 **Encyclopedia ID 1024** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1024-sipa/
 
+![Sipa](../../../img/photos/01024-sipa.jpg)
+
+*Photo: Benedicto Briones, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SipaQuezonCity.jpg)*
+
 Kick a washer-and-straw shuttle to keep it airborne; formerly the national sport until 2009.
 
 ## Heritage note

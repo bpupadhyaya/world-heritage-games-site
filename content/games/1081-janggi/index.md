@@ -41,8 +41,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Shogi](../../games/852-shogi/index.md)
 - [Chaturanga](../../games/45-chaturanga/index.md)
 - [Sittuyin](../../games/302-sittuyin/index.md)
-- [Mongolian chess](../../games/943-mongolian-chess/index.md)
-- [Banqi](../../games/1437-banqi/index.md)
+- [Chess](../../games/552-chess/index.md)
+- [Luzhanqi](../../games/640-luzhanqi/index.md)
 
 ## Sources
 

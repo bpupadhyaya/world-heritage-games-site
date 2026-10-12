@@ -42,9 +42,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Latvian Bagpipe and Folk Pipes](../../games/1324-latvian-bagpipe-and-folk-pipes/index.md)
 - [Hornussen](../../games/10-hornussen/index.md)
 - [Daldøs](../../games/458-dalds/index.md)
-- [Czech draughts](../../games/662-czech-draughts/index.md)
-- [Hungarian dominoes](../../games/778-hungarian-dominoes/index.md)
 - [Tafl](../../games/995-tafl/index.md)
+- [Shashki](../../games/1177-shashki/index.md)
+- [Czech draughts](../../games/662-czech-draughts/index.md)
 
 ## Sources
 

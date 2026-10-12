@@ -40,9 +40,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Lato-lato](../../games/316-lato-lato/index.md)
+- [Sepak takraw](../../games/802-sepak-takraw/index.md)
 - [Dikir barat](../../games/1268-dikir-barat/index.md)
 - [Gasing uri](../../games/1289-gasing-uri/index.md)
-- [Sepak takraw](../../games/802-sepak-takraw/index.md)
 - [Gasing](../../games/908-gasing/index.md)
 - [Chinlone](../../games/16-chinlone/index.md)
 

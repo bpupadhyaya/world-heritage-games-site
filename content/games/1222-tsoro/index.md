@@ -37,12 +37,12 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 ## Related entries
 
+- [Owela](../../games/960-owela/index.md)
 - [Kiela](../../games/544-kiela/index.md)
 - [Ntxuva](../../games/954-ntxuva/index.md)
 - [Tchouba](../../games/955-tchouba/index.md)
-- [Owela](../../games/960-owela/index.md)
 - [Moruba / Ncuva](../../games/1080-moruba-ncuva/index.md)
-- [Warri](../../games/566-warri/index.md)
+- [Songo](../../games/617-songo/index.md)
 
 ## Sources
 

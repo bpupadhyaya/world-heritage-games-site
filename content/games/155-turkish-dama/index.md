@@ -50,7 +50,7 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Kharbaga](../../games/459-kharbaga/index.md)
 - [Sholo Guti](../../games/461-sholo-guti/index.md)
 - [Zamma](../../games/462-zamma/index.md)
-- [Queah](../../games/885-queah/index.md)
+- [Checkers](../../games/567-checkers/index.md)
 
 ## Sources
 

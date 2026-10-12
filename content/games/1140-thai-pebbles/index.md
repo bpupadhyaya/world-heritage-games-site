@@ -37,12 +37,12 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 ## Related entries
 
-- [Seed throwing](../../games/612-seed-throwing/index.md)
 - [Pebbles](../../games/874-pebbles/index.md)
-- [Nhodo](../../games/1346-nhodo/index.md)
+- [Seed throwing](../../games/612-seed-throwing/index.md)
 - [Street games](../../games/570-street-games/index.md)
-- [Seven-pebble toss game](../../games/620-seven-pebble-toss-game/index.md)
 - [Hopscotch](../../games/762-hopscotch/index.md)
+- [Diketo](../../games/1076-diketo/index.md)
+- [Nhodo](../../games/1346-nhodo/index.md)
 
 ## Sources
 

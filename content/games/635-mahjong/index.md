@@ -15,6 +15,10 @@ countries: ["China", "Singapore"]
 
 **Encyclopedia ID 635** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/635-mahjong/
 
+![Mahjong](../../../img/photos/00635-mahjong.jpg)
+
+*Photo: yui*, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mahjong_game.jpg)*
+
 Four players draw and discard tiles to build four sets and a pair; mainland China plays many local rulesets, with Guobiao as the official competition standard.
 
 ## Heritage note
@@ -44,9 +48,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Pai gow](../../games/771-pai-gow/index.md)
 - [Hong Kong mahjong](../../games/772-hong-kong-mahjong/index.md)
 - [Tien gow](../../games/773-tien-gow/index.md)
-- [Bahamian dominoes](../../games/569-bahamian-dominoes/index.md)
-- [Slam dominoes](../../games/578-slam-dominoes/index.md)
-- [Cuban dominoes](../../games/653-cuban-dominoes/index.md)
+- [Cafe dominoes](../../games/690-cafe-dominoes/index.md)
+- [Rummikub](../../games/826-rummikub/index.md)
+- [Riichi mahjong](../../games/851-riichi-mahjong/index.md)
 
 ## Sources
 

@@ -42,10 +42,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - [Diketo](../../games/1076-diketo/index.md)
 - [Street games](../../games/570-street-games/index.md)
+- [Hopscotch](../../games/762-hopscotch/index.md)
+- [Pebbles](../../games/874-pebbles/index.md)
 - [Seed throwing](../../games/612-seed-throwing/index.md)
 - [Seven-pebble toss game](../../games/620-seven-pebble-toss-game/index.md)
-- [Hopscotch](../../games/762-hopscotch/index.md)
-- [Gilbert Islands string figures](../../games/866-gilbert-islands-string-figures/index.md)
 
 ## Sources
 

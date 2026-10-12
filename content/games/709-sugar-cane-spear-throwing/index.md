@@ -40,8 +40,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
-- [Tree-pull contest](../../games/710-tree-pull-contest/index.md)
 - [Hand-slap game](../../games/711-hand-slap-game/index.md)
+- [Tree-pull contest](../../games/710-tree-pull-contest/index.md)
 - [Rugby sevens](../../games/713-rugby-sevens/index.md)
 - [Wave riding](../../games/76-wave-riding/index.md)
 - [Netball](../../games/447-netball/index.md)

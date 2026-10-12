@@ -43,8 +43,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Puluc](../../games/757-puluc/index.md)
 - [Patolli](../../games/454-patolli/index.md)
 - [Mexican Lotería](../../games/935-mexican-loteria/index.md)
-- [Giant Barriletes](../../games/1486-giant-barriletes/index.md)
 - [Mesoamerican ballgame](../../games/759-mesoamerican-ballgame/index.md)
+- [Giant Barriletes](../../games/1486-giant-barriletes/index.md)
 - [Charro lasso roping](../../games/60-charro-lasso-roping/index.md)
 
 ## Sources

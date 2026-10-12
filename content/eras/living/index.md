@@ -116,10 +116,12 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Ecuavoley](../../games/1450-ecuavoley/index.md): Ecuador; Other traditions; Living Traditions
 - [Engolo](../../games/1409-engolo/index.md): Angola; Dances; Living Traditions
 - [Eskista](../../games/188-eskista/index.md): Ethiopia; Dances; Living Traditions
+- [Fan-tan](../../games/900-fan-tan/index.md): China; Other traditions; Living Traditions
 - [Faroese chain dance](../../games/1276-faroese-chain-dance/index.md): Denmark; Dances; Living Traditions
 - [Faso Dan Fani Strip Weaving](../../games/1277-faso-dan-fani-strip-weaving/index.md): Burkina Faso; Crafts and making; Living Traditions
 - [Faustball](../../games/485-faustball/index.md): Germany, Austria; Other traditions; Living Traditions
 - [Fijiri Pearl-Diver Sea Songs](../../games/1280-fijiri-pearl-diver-sea-songs/index.md): Kuwait, Bahrain; Musical instruments; Living Traditions
+- [Finch sitting](../../games/584-finch-sitting/index.md): Belgium; Other traditions; Living Traditions
 - [Four Square](../../games/471-four-square/index.md): United States; Other traditions; Living Traditions
 - [Freetown Beach Seine Haul](../../games/1282-freetown-beach-seine-haul/index.md): Sierra Leone; Performance and storytelling; Living Traditions
 - [Frevo Umbrella Dance](../../games/1411-frevo-umbrella-dance/index.md): Brazil; Dances; Living Traditions
@@ -345,7 +347,5 @@ Crafts, instruments and dances handed from hand to hand, too old or too continuo
 - [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md): South Africa; Crafts and making; Living Traditions
 - [Akuru Thaasbe](../../games/913-akuru-thaasbe/index.md): Maldives; Other traditions; Living Traditions
 - [Blind hen](../../games/983-blind-hen/index.md): Nicaragua; Other traditions; Living Traditions
-- [Fan-tan](../../games/900-fan-tan/index.md): China; Other traditions; Living Traditions
-- [Finch sitting](../../games/584-finch-sitting/index.md): Belgium; Other traditions; Living Traditions
 - [Mashonisa](../../games/882-mashonisa/index.md): Lesotho; Other traditions; Living Traditions
 - [Panamanian singing rounds](../../games/1011-panamanian-singing-rounds/index.md): Panama; Performance and storytelling; Living Traditions

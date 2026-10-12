@@ -15,6 +15,10 @@ countries: ["Trinidad and Tobago"]
 
 **Encyclopedia ID 1155** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1155-street-play-games/
 
+![Street play games](../../../img/photos/01155-street-play-games.jpg)
+
+*Photo: Mohamed Hozyen Ahmed, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Boys_playing_street_football_in_Egypt.jpg)*
+
 Children's yard games.
 
 ## Heritage note

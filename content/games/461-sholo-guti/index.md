@@ -45,7 +45,7 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md)
 - [Kharbaga](../../games/459-kharbaga/index.md)
 - [Zamma](../../games/462-zamma/index.md)
-- [Queah](../../games/885-queah/index.md)
+- [Checkers](../../games/567-checkers/index.md)
 
 ## Sources
 

@@ -15,6 +15,10 @@ countries: ["Armenia", "Azerbaijan", "Georgia", "Iran"]
 
 **Encyclopedia ID 551** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/551-nardi/
 
+![Nardi](../../../img/photos/00551-nardi.jpg)
+
+*Photo: Ptkfgs, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Backgammon_lg.png)*
+
 Persian dice-race tables game; Iranians say it is the leading board game in tea houses and homes.
 
 ## Heritage note
@@ -43,10 +47,10 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 
 - [Nard / backgammon](../../games/1168-nard-backgammon/index.md)
 - [Nard / long backgammon](../../games/1205-nard-long-backgammon/index.md)
-- [Tavëll](../../games/527-tavell/index.md)
-- [Colombian Parqués](../../games/644-colombian-parques/index.md)
 - [Tavli](../../games/656-tavli/index.md)
 - [Senet](../../games/693-senet/index.md)
+- [Don't Get Angry](../../games/744-dont-get-angry/index.md)
+- [Ludo](../../games/763-ludo/index.md)
 
 ## Sources
 

@@ -43,9 +43,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Kho-Kho](../../games/15-kho-kho/index.md)
 - [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md)
 - [Blind Man's Buff](../../games/467-blind-mans-buff/index.md)
-- [Gollachut](../../games/573-gollachut/index.md)
-- [Burn-out](../../games/654-burn-out/index.md)
-- [Ligrin](../../games/657-ligrin/index.md)
+- [Hand-slap game](../../games/711-hand-slap-game/index.md)
+- [Kabaddi](../../games/789-kabaddi/index.md)
+- [Stick game](../../games/912-stick-game/index.md)
 
 ## Sources
 

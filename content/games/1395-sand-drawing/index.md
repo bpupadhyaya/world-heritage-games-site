@@ -40,8 +40,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
-- [Marshallese stick chart navigator](../../games/1333-marshallese-stick-chart-navigator/index.md)
 - [Maori stick games](../../games/981-maori-stick-games/index.md)
+- [Marshallese stick chart navigator](../../games/1333-marshallese-stick-chart-navigator/index.md)
 - [Heu](../../games/1146-heu/index.md)
 - [Hiko](../../games/1147-hiko/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)

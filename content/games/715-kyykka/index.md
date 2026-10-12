@@ -15,6 +15,10 @@ countries: ["Finland"]
 
 **Encyclopedia ID 715** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/715-kyykka/
 
+![Kyykka](../../../img/photos/00715-kyykka.jpg)
+
+*Photo: Kyykka tiedotus, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Finnish_skittles_mika_peiponen_v2.jpg)*
+
 Throw flat bats to clear skittles from a 5x5 m square in as few throws as possible.
 
 ## Heritage note
@@ -38,8 +42,8 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 ## Related entries
 
 - [Gorodki](../../games/13-gorodki/index.md)
-- [Skittles](../../games/1179-skittles/index.md)
 - [Pub darts](../../games/1182-pub-darts/index.md)
+- [Skittles](../../games/1179-skittles/index.md)
 - [Finnish pin toss](../../games/49-finnish-pin-toss/index.md)
 - [Mounted Archery Course](../../games/67-mounted-archery-course/index.md)
 - [Partner-Carry Obstacle Race](../../games/406-partner-carry-obstacle-race/index.md)

@@ -15,6 +15,10 @@ countries: ["Chile"]
 
 **Encyclopedia ID 629** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/629-emboque/
 
+![Emboque](../../../img/photos/00629-emboque.jpg)
+
+*Photo: DC, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bilboquet.jpg)*
+
 Catch a wooden cone on a stick.
 
 ## Heritage note
@@ -37,10 +41,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
+- [Frog toss](../../games/688-frog-toss/index.md)
 - [Atarraya](../../games/1434-atarraya/index.md)
 - [Uyuni Salt Harvest](../../games/1491-uyuni-salt-harvest/index.md)
 - [Rana](../../games/645-rana/index.md)
-- [Frog toss](../../games/688-frog-toss/index.md)
 - [Sapo](../../games/1019-sapo/index.md)
 - [Perinola](../../games/1212-perinola/index.md)
 

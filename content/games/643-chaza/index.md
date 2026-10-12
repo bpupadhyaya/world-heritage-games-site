@@ -13,6 +13,10 @@ countries: ["Colombia"]
 
 **Encyclopedia ID 643** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/643-chaza/
 
+![Chaza](../../../img/photos/00643-chaza.jpg)
+
+*Photo: Jhon estrada, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chaza.jpg)*
+
 Old Colombian ball-and-board striking game said to be among the country's oldest sports.
 
 ## Heritage note
@@ -38,8 +42,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Atarraya](../../games/1434-atarraya/index.md)
 - [Rana](../../games/645-rana/index.md)
 - [Yermis](../../games/646-yermis/index.md)
-- [Chinchinero Drum Walk](../../games/1406-chinchinero-drum-walk/index.md)
-- [Chilean Rayuela](../../games/1427-chilean-rayuela/index.md)
+- [Emboque](../../games/629-emboque/index.md)
+- [Frog toss](../../games/688-frog-toss/index.md)
 
 ## Sources
 

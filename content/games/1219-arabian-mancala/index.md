@@ -41,12 +41,12 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 ## Related entries
 
+- [Mangala](../../games/1164-mangala/index.md)
 - [Hawalis](../../games/1001-hawalis/index.md)
 - [Syrian mancala](../../games/1128-syrian-mancala/index.md)
-- [Mangala](../../games/1164-mangala/index.md)
-- [Kiela](../../games/544-kiela/index.md)
-- [Warri](../../games/566-warri/index.md)
-- [Oware-family mancala](../../games/587-oware-family-mancala/index.md)
+- [Songo](../../games/617-songo/index.md)
+- [Bao](../../games/647-bao/index.md)
+- [Kisolo](../../games/666-kisolo/index.md)
 
 ## Sources
 

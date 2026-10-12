@@ -13,6 +13,10 @@ countries: ["Madagascar"]
 
 **Encyclopedia ID 905** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/905-savika/
 
+![Savika](../../../img/photos/00905-savika.jpg)
+
+*Photo: Obiniaina RANDRIANADRASANA, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SAVIKA4.jpg)*
+
 Zebu-wrestling.
 
 ## Heritage note

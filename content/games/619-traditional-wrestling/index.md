@@ -15,6 +15,10 @@ countries: ["Cameroon"]
 
 **Encyclopedia ID 619** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/619-traditional-wrestling/
 
+![Traditional wrestling](../../../img/photos/00619-traditional-wrestling.jpg)
+
+*Photo: uploader Atamari has eMail-contact with the photograph „ sachara “, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_match-The_Gambia.jpg)*
+
 Village wrestling tradition across Cameroon with its own national association.
 
 ## Heritage note

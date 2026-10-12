@@ -42,8 +42,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Egrang](../../games/17-egrang/index.md)
 - [Sasando](../../games/317-sasando/index.md)
 - [Kulintang](../../games/318-kulintang/index.md)
-- [Kampong Ayer water-taxi dash](../../games/1308-kampong-ayer-water-taxi-dash/index.md)
 - [Wau bulan kite](../../games/911-wau-bulan-kite/index.md)
+- [Kampong Ayer water-taxi dash](../../games/1308-kampong-ayer-water-taxi-dash/index.md)
 - [Encang kuda](../../games/1067-encang-kuda/index.md)
 
 ## Sources

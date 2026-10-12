@@ -42,9 +42,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Kuli](../../games/1041-kuli/index.md)
 - [Bozo Net Casting](../../games/169-bozo-net-casting/index.md)
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md)
+- [Ampe](../../games/747-ampe/index.md)
+- [Abula](../../games/985-abula/index.md)
 - [Dambe](../../games/987-dambe/index.md)
-- [African draughts](../../games/586-african-draughts/index.md)
-- [Putu](../../games/609-putu/index.md)
 
 ## Sources
 

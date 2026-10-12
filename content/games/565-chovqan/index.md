@@ -46,7 +46,7 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Kok-boru](../../games/241-kok-boru/index.md)
 - [Hurling](../../games/821-hurling/index.md)
 - [Rope pulling](../../games/855-rope-pulling/index.md)
-- [Kokpar](../../games/857-kokpar/index.md)
+- [Kyz Kuu](../../games/858-kyz-kuu/index.md)
 
 ## Sources
 

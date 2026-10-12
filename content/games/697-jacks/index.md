@@ -36,11 +36,11 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 ## Related entries
 
 - [Knucklebone game](../../games/522-knucklebone-game/index.md)
+- [Gonggi](../../games/1085-gonggi/index.md)
 - [Taba](../../games/594-taba/index.md)
 - [Jacks, Dandy Shandy, ring games](../../games/842-jacks-dandy-shandy-ring-games/index.md)
 - [Besh Tash](../../games/869-besh-tash/index.md)
 - [Five stones](../../games/907-five-stones/index.md)
-- [Zarzir](../../games/1010-zarzir/index.md)
 
 ## Sources
 

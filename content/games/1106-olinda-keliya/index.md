@@ -39,10 +39,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - [Pallanguzhi](../../games/798-pallanguzhi/index.md)
 - [Ohvalhu](../../games/916-ohvalhu/index.md)
-- [Kiela](../../games/544-kiela/index.md)
-- [Warri](../../games/566-warri/index.md)
-- [Oware-family mancala](../../games/587-oware-family-mancala/index.md)
-- [Ouril](../../games/611-ouril/index.md)
+- [Songo](../../games/617-songo/index.md)
+- [Bao](../../games/647-bao/index.md)
+- [Kisolo](../../games/666-kisolo/index.md)
+- [Oware](../../games/749-oware/index.md)
 
 ## Sources
 

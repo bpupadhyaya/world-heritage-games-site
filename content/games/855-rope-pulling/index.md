@@ -15,6 +15,10 @@ countries: ["Kazakhstan"]
 
 **Encyclopedia ID 855** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/855-rope-pulling/
 
+![Rope pulling](../../../img/photos/00855-rope-pulling.jpg)
+
+*Photo: National Library NZ on The Commons, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Queen_Mary%27s_Auxilary_Army_Corps_tug-o-war,_3_August_1918_(cropped).jpg)*
+
 Two teams pull on a rope across a line, a tug-of-war form listed among traditional Kazakh games.
 
 ## Heritage note
@@ -37,10 +41,10 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 ## Related entries
 
 - [Kok-boru](../../games/241-kok-boru/index.md)
-- [Kokpar](../../games/857-kokpar/index.md)
 - [Kyz Kuu](../../games/858-kyz-kuu/index.md)
-- [Chovqan](../../games/565-chovqan/index.md)
+- [Kokpar](../../games/857-kokpar/index.md)
 - [Chogan](../../games/810-chogan/index.md)
+- [Chovqan](../../games/565-chovqan/index.md)
 - [Chavgonbozi](../../games/1132-chavgonbozi/index.md)
 
 ## Sources

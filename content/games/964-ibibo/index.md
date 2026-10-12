@@ -13,6 +13,10 @@ countries: ["Nauru"]
 
 **Encyclopedia ID 964** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/964-ibibo/
 
+![Ibibo](../../../img/photos/00964-ibibo.jpg)
+
+*Photo: Harriwillz, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Drummers_in_the_ibibo_land.jpg)*
+
 Hand-batting game with a pandanus-wrapped stone ball.
 
 ## Heritage note
@@ -39,7 +43,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Wave riding](../../games/76-wave-riding/index.md)
 - [Netball](../../games/447-netball/index.md)
 - [Gumboot throwing](../../games/448-gumboot-throwing/index.md)
-- [Axemen woodchop](../../games/1232-axemen-woodchop/index.md)
+- [Hand-slap game](../../games/711-hand-slap-game/index.md)
 
 ## Sources
 

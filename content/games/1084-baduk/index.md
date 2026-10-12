@@ -15,6 +15,10 @@ countries: ["South Korea"]
 
 **Encyclopedia ID 1084** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1084-baduk/
 
+![Baduk](../../../img/photos/01084-baduk.jpg)
+
+*Photo: theaucitron, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Baduk_or_Go.jpg)*
+
 The Korean name for go; the Korea Baduk Association runs the professional system and tournaments.
 
 ## Heritage note

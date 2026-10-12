@@ -13,6 +13,10 @@ countries: ["Kenya", "South Africa"]
 
 **Encyclopedia ID 860** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/860-kati/
 
+![Kati](../../../img/photos/00860-kati.jpg)
+
+*Photo: Sillerkiil, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kati_Aus_at_the_Opinion_Festival_2022_in_Paide,_Estonia.jpg)*
+
 Rope-skipping game, official indigenous games code.
 
 ## Heritage note

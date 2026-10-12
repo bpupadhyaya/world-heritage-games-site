@@ -15,6 +15,10 @@ countries: ["Turkmenistan", "Tajikistan"]
 
 **Encyclopedia ID 1168** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1168-nard-backgammon/
 
+![Nard / backgammon](../../../img/photos/01168-nard-backgammon.jpg)
+
+*Photo: Unknown author Unknown author, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Buzurgmihr-nard.jpg)*
+
 Dice race board game.
 
 ## Heritage note
@@ -39,10 +43,10 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 
 - [Nardi](../../games/551-nardi/index.md)
 - [Nard / long backgammon](../../games/1205-nard-long-backgammon/index.md)
-- [Tavëll](../../games/527-tavell/index.md)
-- [Colombian Parqués](../../games/644-colombian-parques/index.md)
 - [Tavli](../../games/656-tavli/index.md)
 - [Senet](../../games/693-senet/index.md)
+- [Don't Get Angry](../../games/744-dont-get-angry/index.md)
+- [Ludo](../../games/763-ludo/index.md)
 
 ## Sources
 

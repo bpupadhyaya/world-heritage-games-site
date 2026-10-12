@@ -41,10 +41,10 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 ## Related entries
 
 - [Venetian lagoon regatta](../../games/486-venetian-lagoon-regatta/index.md)
+- [Cantabrian palm bowling](../../games/1096-cantabrian-palm-bowling/index.md)
 - [Tombola](../../games/829-tombola/index.md)
 - [Scopa](../../games/832-scopa/index.md)
 - [Maghrebi 5x5 capture game](../../games/887-maghrebi-5x5-capture-game/index.md)
-- [Cantabrian palm bowling](../../games/1096-cantabrian-palm-bowling/index.md)
 - [Ring Tilting](../../games/65-ring-tilting/index.md)
 
 ## Sources

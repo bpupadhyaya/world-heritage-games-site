@@ -15,6 +15,10 @@ countries: ["Indonesia", "Malaysia", "Brunei"]
 
 **Encyclopedia ID 803** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/803-congklak/
 
+![Congklak](../../../img/photos/00803-congklak.jpg)
+
+*Photo: Tropenmuseum, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Speelbord_voor_mancala_spel_TMnr_1585-120a.jpg)*
+
 Malay mancala board with 14 houses and 2 stores, played with shells; considered the Malay member of the mancala family.
 
 ## How it is played
@@ -45,12 +49,12 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 ## Related entries
 
-- [Sungka](../../games/1025-sungka/index.md)
 - [Mandarin square capturing](../../games/1216-mandarin-square-capturing/index.md)
-- [Kiela](../../games/544-kiela/index.md)
-- [Warri](../../games/566-warri/index.md)
-- [Oware-family mancala](../../games/587-oware-family-mancala/index.md)
-- [Ouril](../../games/611-ouril/index.md)
+- [Sungka](../../games/1025-sungka/index.md)
+- [Songo](../../games/617-songo/index.md)
+- [Bao](../../games/647-bao/index.md)
+- [Kisolo](../../games/666-kisolo/index.md)
+- [Oware](../../games/749-oware/index.md)
 
 ## Sources
 

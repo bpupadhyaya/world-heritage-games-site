@@ -40,8 +40,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 - [Daldøs](../../games/458-dalds/index.md)
 - [Sig](../../games/928-sig/index.md)
-- [Jacks](../../games/697-jacks/index.md)
 - [Mexican Lotería](../../games/935-mexican-loteria/index.md)
+- [Jacks](../../games/697-jacks/index.md)
 - [Sho](../../games/286-sho/index.md)
 - [Liubo](../../games/331-liubo/index.md)
 

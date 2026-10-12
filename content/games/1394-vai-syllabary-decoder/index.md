@@ -44,8 +44,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Dalgona](../../games/100-dalgona/index.md)
 - [Bozo Net Casting](../../games/169-bozo-net-casting/index.md)
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md)
+- [Ampe](../../games/747-ampe/index.md)
 - [Queah](../../games/885-queah/index.md)
-- [Tifinagh Letter Puzzle](../../games/1380-tifinagh-letter-puzzle/index.md)
 
 ## Sources
 

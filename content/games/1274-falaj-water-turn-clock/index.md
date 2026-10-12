@@ -41,10 +41,10 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 - [Cirit](../../games/156-cirit/index.md)
 - [Qanun](../../games/162-qanun/index.md)
-- [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md)
 - [Okey](../../games/1158-okey/index.md)
+- [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md)
+- [Carrom](../../games/1059-carrom/index.md)
 - [Omani Khanjar Silver Filigree](../../games/1351-omani-khanjar-silver-filigree/index.md)
-- [Hawalis](../../games/1001-hawalis/index.md)
 
 ## Sources
 

@@ -43,9 +43,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Highland Bagpipe Chanter and Drone](../../games/510-highland-bagpipe-chanter-and-drone/index.md)
 - [Latvian Bagpipe and Folk Pipes](../../games/1324-latvian-bagpipe-and-folk-pipes/index.md)
 - [Mezoued Bagpipe and Tabl Drum](../../games/1336-mezoued-bagpipe-and-tabl-drum/index.md)
+- [Ladu](../../games/674-ladu/index.md)
 - [Lake Assal salt harvest](../../games/1321-lake-assal-salt-harvest/index.md)
 - [Wazza gourd trumpet](../../games/1399-wazza-gourd-trumpet/index.md)
-- [Ladu](../../games/674-ladu/index.md)
 
 ## Sources
 

@@ -40,9 +40,9 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 
 ## Related entries
 
-- [Kokh](../../games/1317-kokh/index.md)
 - [Chidaoba](../../games/734-chidaoba/index.md)
 - [Gushtingiri wrestling](../../games/1133-gushtingiri-wrestling/index.md)
+- [Kokh](../../games/1317-kokh/index.md)
 - [Laamb Wrestling Bout](../../games/166-laamb-wrestling-bout/index.md)
 - [Kushti / Pehlwani mud wrestling](../../games/256-kushti-pehlwani-mud-wrestling/index.md)
 - [Sumo bout](../../games/359-sumo-bout/index.md)

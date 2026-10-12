@@ -45,8 +45,8 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - [Enkeshui](../../games/1136-enkeshui/index.md)
 - [Bao](../../games/647-bao/index.md)
 - [Katro / Katra](../../games/903-katro-katra/index.md)
-- [Bawo](../../games/906-bawo/index.md)
 - [Igisoro](../../games/1049-igisoro/index.md)
+- [Bawo](../../games/906-bawo/index.md)
 
 ## Sources
 

@@ -41,10 +41,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Amidakuji](../../games/357-amidakuji/index.md)
-- [Gasing uri](../../games/1289-gasing-uri/index.md)
 - [Spinning top](../../games/678-spinning-top/index.md)
-- [Yo-yo](../../games/696-yo-yo/index.md)
 - [Kendama](../../games/850-kendama/index.md)
+- [Gasing uri](../../games/1289-gasing-uri/index.md)
+- [Yo-yo](../../games/696-yo-yo/index.md)
 - [Gasing](../../games/908-gasing/index.md)
 
 ## Sources

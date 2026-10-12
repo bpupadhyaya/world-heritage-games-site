@@ -15,6 +15,10 @@ countries: ["Denmark"]
 
 **Encyclopedia ID 671** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/671-danish-pin-billiards/
 
+![Danish pin billiards](../../../img/photos/00671-danish-pin-billiards.jpg)
+
+*Photo: Bryson Jack, Ministry of Information Photo Division Photographer, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Seven_Seas_Club-_Life_at_the_Merchant_Navy_Club,_Edinburgh,_Scotland,_1943_D13919.jpg)*
+
 A cue sport with five pins in the middle of the table; scoring is for toppling pins with the white ball.
 
 ## Heritage note

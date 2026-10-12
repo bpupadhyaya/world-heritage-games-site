@@ -13,6 +13,10 @@ countries: ["Sweden"]
 
 **Encyclopedia ID 1120** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1120-kubb/
 
+![Kubb](../../../img/photos/01120-kubb.jpg)
+
+*Photo: Joshfeathers, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:US_National_Kubb_Championship.jpg)*
+
 Teams throw batons at wooden blocks across a pitch and finish by toppling the king.
 
 ## Heritage note
@@ -43,8 +47,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Jukskei](../../games/11-jukskei/index.md)
 - [Lagori](../../games/14-lagori/index.md)
 - [Tejo](../../games/57-tejo/index.md)
-- [Chilean Rayuela](../../games/1427-chilean-rayuela/index.md)
 - [Bocce](../../games/830-bocce/index.md)
+- [Chilean Rayuela](../../games/1427-chilean-rayuela/index.md)
 
 ## Sources
 

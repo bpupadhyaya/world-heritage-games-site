@@ -42,10 +42,10 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 - [Shakuhachi](../../games/349-shakuhachi/index.md)
 - [Gayageum](../../games/361-gayageum/index.md)
-- [Geomungo](../../games/1453-geomungo/index.md)
 - [Baduk](../../games/1084-baduk/index.md)
+- [Geomungo](../../games/1453-geomungo/index.md)
 - [Omok](../../games/1088-omok/index.md)
-- [Goguryeo Mural Restoration](../../games/1454-goguryeo-mural-restoration/index.md)
+- [Jegichagi](../../games/1082-jegichagi/index.md)
 
 ## Sources
 

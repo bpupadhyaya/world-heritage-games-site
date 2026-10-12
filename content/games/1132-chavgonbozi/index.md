@@ -39,12 +39,12 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Related entries
 
-- [Chovqan](../../games/565-chovqan/index.md)
 - [Chogan](../../games/810-chogan/index.md)
+- [Chovqan](../../games/565-chovqan/index.md)
 - [Kok-boru](../../games/241-kok-boru/index.md)
 - [Hurling](../../games/821-hurling/index.md)
 - [Rope pulling](../../games/855-rope-pulling/index.md)
-- [Kokpar](../../games/857-kokpar/index.md)
+- [Kyz Kuu](../../games/858-kyz-kuu/index.md)
 
 ## Sources
 

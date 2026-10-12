@@ -15,6 +15,10 @@ countries: ["Brunei"]
 
 **Encyclopedia ID 605** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/605-silat-melayu/
 
+![Silat Melayu](../../../img/photos/00605-silat-melayu.jpg)
+
+*Photo: Zaki Razali ., [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Singaporean_female_pesilat_-_20080222.jpg)*
+
 Malay martial art widely practiced, local variant Silat Suffian Bela Diri.
 
 ## Heritage note

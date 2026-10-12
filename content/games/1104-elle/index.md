@@ -13,6 +13,10 @@ countries: ["Sri Lanka"]
 
 **Encyclopedia ID 1104** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1104-elle/
 
+![Elle](../../../img/photos/01104-elle.jpg)
+
+*Photo: Georges Biard, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Elle_Cannes_2016_3.jpg)*
+
 Bat-and-ball team game played at village and New Year festivals; exact rules not verified here.
 
 ## Heritage note
@@ -35,9 +39,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Kho-Kho](../../games/15-kho-kho/index.md)
+- [Break the pot](../../games/1105-break-the-pot/index.md)
 - [Hill-country tea plucking](../../games/1297-hill-country-tea-plucking/index.md)
 - [Pillow fight](../../games/1101-pillow-fight/index.md)
-- [Break the pot](../../games/1105-break-the-pot/index.md)
 - [Indian club swinging](../../games/264-indian-club-swinging/index.md)
 - [Bhavai pot-balance dance](../../games/268-bhavai-pot-balance-dance/index.md)
 

@@ -15,6 +15,10 @@ countries: ["Angola"]
 
 **Encyclopedia ID 543** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/543-capoeira-angola/
 
+![Capoeira Angola](../../../img/photos/00543-capoeira-angola.jpg)
+
+*Photo: Ayres Alves de Lima Sales, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Roda_de_Capoeira_Angola.jpg)*
+
 Afro-Brazilian art/game; style named for Angola; origin debated.
 
 ## Heritage note

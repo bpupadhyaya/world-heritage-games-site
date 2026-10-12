@@ -42,8 +42,8 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 - [Bandoneon and tango rhythm](../../games/426-bandoneon-and-tango-rhythm/index.md)
 - [Bodhran Frame Drum](../../games/521-bodhran-frame-drum/index.md)
-- [Haitian Oil-Drum Metal Cut-Out Art](../../games/1460-haitian-oil-drum-metal-cut-out-art/index.md)
 - [Yard cricket](../../games/1151-yard-cricket/index.md)
+- [Haitian Oil-Drum Metal Cut-Out Art](../../games/1460-haitian-oil-drum-metal-cut-out-art/index.md)
 - [Mbira](../../games/32-mbira/index.md)
 - [Talking drum](../../games/33-talking-drum/index.md)
 

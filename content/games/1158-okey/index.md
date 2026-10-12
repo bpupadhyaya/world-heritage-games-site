@@ -15,6 +15,10 @@ countries: ["Turkey", "Cyprus"]
 
 **Encyclopedia ID 1158** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1158-okey/
 
+![Okey](../../../img/photos/01158-okey.jpg)
+
+*Photo: Patricia Cardet, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Okey-game-yukari-konak-3.jpg)*
+
 Four-player rummy played with 106 numbered tiles and a wild joker tile; make runs, sets or seven pairs to go out.
 
 ## Heritage note
@@ -45,8 +49,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Cirit](../../games/156-cirit/index.md)
 - [Qanun](../../games/162-qanun/index.md)
 - [Rummikub](../../games/826-rummikub/index.md)
-- [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md)
-- [Falaj Water-Turn Clock](../../games/1274-falaj-water-turn-clock/index.md)
+- [Mahjong](../../games/635-mahjong/index.md)
+- [Cafe dominoes](../../games/690-cafe-dominoes/index.md)
 
 ## Sources
 

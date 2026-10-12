@@ -42,8 +42,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Sjoelen](../../games/9-sjoelen/index.md)
 - [Korfball](../../games/481-korfball/index.md)
 - [Fierljeppen](../../games/971-fierljeppen/index.md)
-- [Frisian kaatsen](../../games/973-frisian-kaatsen/index.md)
 - [Klootschieten](../../games/975-klootschieten/index.md)
+- [Frisian kaatsen](../../games/973-frisian-kaatsen/index.md)
 - [Disc-flip](../../games/8-disc-flip/index.md)
 
 ## Sources

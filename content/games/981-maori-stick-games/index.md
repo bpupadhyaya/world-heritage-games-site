@@ -15,6 +15,10 @@ countries: ["New Zealand"]
 
 **Encyclopedia ID 981** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/981-maori-stick-games/
 
+![Maori stick games](../../../img/photos/00981-maori-stick-games.jpg)
+
+*Photo: Archives New Zealand, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Whakarewarewa_Maori_School_-_Stick_Games.jpg)*
+
 Rhythmic partner game passing and tossing short sticks, often with song.
 
 ## Heritage note

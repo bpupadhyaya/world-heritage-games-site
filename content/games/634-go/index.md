@@ -15,6 +15,10 @@ countries: ["China", "Japan", "Taiwan"]
 
 **Encyclopedia ID 634** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/634-go/
 
+![Go](../../../img/photos/00634-go.jpg)
+
+*Photo: Javierfv1212, [CC0](https://creativecommons.org/publicdomain/zero/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Setup_of_Ancient_Chinese_Weiqi_(Go).png)*
+
 Players alternately place stones on a 19x19 line grid to surround territory and capture enemy stones.
 
 ## Heritage note

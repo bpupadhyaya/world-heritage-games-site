@@ -41,8 +41,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md)
 - [Otedama](../../games/131-otedama/index.md)
 - [Blind Man's Buff](../../games/467-blind-mans-buff/index.md)
-- [Gollachut](../../games/573-gollachut/index.md)
-- [Ligrin](../../games/657-ligrin/index.md)
+- [Hand-slap game](../../games/711-hand-slap-game/index.md)
+- [Kabaddi](../../games/789-kabaddi/index.md)
 
 ## Sources
 

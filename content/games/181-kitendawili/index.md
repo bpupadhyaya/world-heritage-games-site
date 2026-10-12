@@ -42,8 +42,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 - [Kites](../../games/577-kites/index.md)
 - [Kite flying](../../games/769-kite-flying/index.md)
-- [Kite fighting](../../games/788-kite-fighting/index.md)
 - [Wau bulan kite](../../games/911-wau-bulan-kite/index.md)
+- [Kite fighting](../../games/788-kite-fighting/index.md)
 - [Nyatiti Luo lyre](../../games/1349-nyatiti-luo-lyre/index.md)
 - [Hoop Rolling Trundle](../../games/69-hoop-rolling-trundle/index.md)
 

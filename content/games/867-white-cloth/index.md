@@ -41,7 +41,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Qanat Water Tunnels](../../games/160-qanat-water-tunnels/index.md)
 - [Zurkhaneh strength rhythm](../../games/227-zurkhaneh-strength-rhythm/index.md)
 - [Astrolabe: reading the sky](../../games/236-astrolabe-reading-the-sky/index.md)
-- [Lelo Burti](../../games/737-lelo-burti/index.md)
+- [Flower or Empty](../../games/812-flower-or-empty/index.md)
 
 ## Sources
 

@@ -15,6 +15,10 @@ countries: ["China"]
 
 **Encyclopedia ID 639** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/639-huarong-dao/
 
+![Huarong Dao](../../../img/photos/00639-huarong-dao.jpg)
+
+*Photo: Welt-der-Form, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Quo_Vadis-HABA.jpg)*
+
 Sliding-block puzzle on a 4x5 grid where the large Cao Cao block must be walked out through the bottom exit.
 
 ## Heritage note

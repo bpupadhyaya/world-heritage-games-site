@@ -15,6 +15,10 @@ countries: ["India"]
 
 **Encyclopedia ID 793** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/793-gilli-danda/
 
+![Gilli-Danda](../../../img/photos/00793-gilli-danda.jpg)
+
+*Photo: Srvyadav, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jgp_gilli_danda.jpg)*
+
 Strike a small tapered stick with a larger one, then hit it far and avoid it being caught.
 
 ## Heritage note

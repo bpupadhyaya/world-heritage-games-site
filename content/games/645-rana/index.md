@@ -42,9 +42,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Atarraya](../../games/1434-atarraya/index.md)
-- [Uyuni Salt Harvest](../../games/1491-uyuni-salt-harvest/index.md)
 - [Emboque](../../games/629-emboque/index.md)
 - [Frog toss](../../games/688-frog-toss/index.md)
+- [Uyuni Salt Harvest](../../games/1491-uyuni-salt-harvest/index.md)
 - [Sapo](../../games/1019-sapo/index.md)
 - [Perinola](../../games/1212-perinola/index.md)
 

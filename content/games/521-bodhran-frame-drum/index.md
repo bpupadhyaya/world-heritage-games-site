@@ -43,8 +43,8 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - [Steelpan](../../games/31-steelpan/index.md)
 - [Bandoneon and tango rhythm](../../games/426-bandoneon-and-tango-rhythm/index.md)
 - [Carillon](../../games/418-carillon/index.md)
-- [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md)
 - [Road bowling](../../games/819-road-bowling/index.md)
+- [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md)
 - [Mbira](../../games/32-mbira/index.md)
 
 ## Sources

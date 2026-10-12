@@ -15,6 +15,10 @@ countries: ["Afghanistan", "Mongolia"]
 
 **Encyclopedia ID 522** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/522-knucklebone-game/
 
+![Knucklebone game](../../../img/photos/00522-knucklebone-game.jpg)
+
+*Photo: User:Yaan, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shagai_2x2.jpg)*
+
 Sheep anklebones with four sides (horse, sheep, camel, goat) are used as dice and tokens in many games, including tabletop flick races over about ten metres.
 
 ## Heritage note
@@ -42,11 +46,11 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 ## Related entries
 
 - [Besh Tash](../../games/869-besh-tash/index.md)
+- [Gonggi](../../games/1085-gonggi/index.md)
 - [Taba](../../games/594-taba/index.md)
 - [Jacks](../../games/697-jacks/index.md)
 - [Jacks, Dandy Shandy, ring games](../../games/842-jacks-dandy-shandy-ring-games/index.md)
 - [Five stones](../../games/907-five-stones/index.md)
-- [Zarzir](../../games/1010-zarzir/index.md)
 
 ## Sources
 

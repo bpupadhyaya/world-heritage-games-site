@@ -39,8 +39,8 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - [Hajla](../../games/1009-hajla/index.md)
 - [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md)
-- [Dikir barat](../../games/1268-dikir-barat/index.md)
 - [Patintero](../../games/1021-patintero/index.md)
+- [Dikir barat](../../games/1268-dikir-barat/index.md)
 - [Sungka](../../games/1025-sungka/index.md)
 - [Gobak Sodor](../../games/46-gobak-sodor/index.md)
 

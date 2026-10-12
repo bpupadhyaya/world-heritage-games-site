@@ -15,6 +15,10 @@ countries: ["United Kingdom"]
 
 **Encyclopedia ID 1180** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1180-regional-pub-games/
 
+![Regional pub games](../../../img/photos/01180-regional-pub-games.jpg)
+
+*Photo: Obscurasky, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Indoor_Quoits.jpg)*
+
 Regional pub and garden games: bat and trap (Kent), Aunt Sally (Oxfordshire), toad in the hole (Sussex), ringing the bull (Nottingham).
 
 ## Heritage note
@@ -39,9 +43,9 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 - [Pacu jawi](../../games/1354-pacu-jawi/index.md)
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md)
+- [Pub darts](../../games/1182-pub-darts/index.md)
 - [Change Ringing](../../games/1443-change-ringing/index.md)
 - [Skittles](../../games/1179-skittles/index.md)
-- [Pub darts](../../games/1182-pub-darts/index.md)
 - [Wave riding](../../games/76-wave-riding/index.md)
 
 ## Sources

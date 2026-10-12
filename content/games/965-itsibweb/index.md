@@ -34,12 +34,12 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
-- [Footy](../../games/962-footy/index.md)
 - [Ibibo](../../games/964-ibibo/index.md)
+- [Footy](../../games/962-footy/index.md)
 - [Wave riding](../../games/76-wave-riding/index.md)
 - [Netball](../../games/447-netball/index.md)
 - [Gumboot throwing](../../games/448-gumboot-throwing/index.md)
-- [Axemen woodchop](../../games/1232-axemen-woodchop/index.md)
+- [Hand-slap game](../../games/711-hand-slap-game/index.md)
 
 ## Sources
 

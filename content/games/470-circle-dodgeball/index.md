@@ -41,9 +41,9 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 ## Related entries
 
 - [Moraingy drum-and-strike duel](../../games/207-moraingy-drum-and-strike-duel/index.md)
+- [Kyz Kuu](../../games/858-kyz-kuu/index.md)
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md)
 - [Kalinda Stick Duel](../../games/1467-kalinda-stick-duel/index.md)
-- [Kyz Kuu](../../games/858-kyz-kuu/index.md)
 - [Fireball](../../games/1016-fireball/index.md)
 - [Kho-Kho](../../games/15-kho-kho/index.md)
 

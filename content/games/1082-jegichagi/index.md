@@ -13,6 +13,10 @@ countries: ["South Korea", "North Korea"]
 
 **Encyclopedia ID 1082** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1082-jegichagi/
 
+![Jegichagi](../../../img/photos/01082-jegichagi.jpg)
+
+*Photo: Official U.S. Navy Page from United States of America MC2 Andrew Schneider/U.S. Navy, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sailors_play_Jegichagi_with_Korean_students_during_a_community_relations_event_(30361247131).jpg)*
+
 Players kick a paper-and-coin shuttle (jegi) and count how many kicks they can make without letting it fall.
 
 ## Heritage note
@@ -36,8 +40,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Neolttwigi](../../games/4-neolttwigi/index.md)
 - [Hangul syllable blocks](../../games/364-hangul-syllable-blocks/index.md)
-- [Haenyeo Breath Dive](../../games/1459-haenyeo-breath-dive/index.md)
 - [Tuho](../../games/1089-tuho/index.md)
+- [Haenyeo Breath Dive](../../games/1459-haenyeo-breath-dive/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md)
 

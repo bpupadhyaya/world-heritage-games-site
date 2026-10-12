@@ -17,5 +17,5 @@ count: 7
 - [Nanduti](../../games/428-nanduti/index.md): Paraguay; Crafts and making; Living Traditions
 - [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md): Paraguay; Musical instruments; Classical Worlds
 - [Pinata swing](../../games/61-pinata-swing/index.md): Mexico, Paraguay; Dexterity and skill games; Modern Heritage
-- [Fireball](../../games/1016-fireball/index.md): Paraguay; Street and playground games; Modern Heritage
 - [Ring jousting](../../games/1017-ring-jousting/index.md): Paraguay; Street and playground games; Crossroads and Golden Ages
+- [Fireball](../../games/1016-fireball/index.md): Paraguay; Street and playground games; Modern Heritage

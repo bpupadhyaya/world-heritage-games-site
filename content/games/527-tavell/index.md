@@ -42,9 +42,9 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 - [Tavli](../../games/656-tavli/index.md)
 - [Tavla](../../games/992-tavla/index.md)
 - [Parchís](../../games/1098-parchis/index.md)
-- [Don't Get Mad](../../games/530-dont-get-mad/index.md)
 - [Nardi](../../games/551-nardi/index.md)
-- [Colombian Parqués](../../games/644-colombian-parques/index.md)
+- [Senet](../../games/693-senet/index.md)
+- [Don't Get Angry](../../games/744-dont-get-angry/index.md)
 
 ## Sources
 

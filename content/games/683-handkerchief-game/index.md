@@ -15,6 +15,10 @@ countries: ["Dominican Republic"]
 
 **Encyclopedia ID 683** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/683-handkerchief-game/
 
+![Handkerchief game](../../../img/photos/00683-handkerchief-game.jpg)
+
+*Photo: Johnston, Frances Benjamin, 1864-1952, photographer, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Children_playing_game_with_handkerchief_on_stick_in_school_yard,_Washington,_D.C._LCCN2001703698.jpg)*
+
 A steal-the-bacon type children's game.
 
 ## Heritage note
@@ -39,9 +43,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Spinning top](../../games/678-spinning-top/index.md)
 - [Limbo](../../games/58-limbo/index.md)
 - [Stickball](../../games/477-stickball/index.md)
-- [Grenada Nutmeg Grading](../../games/1456-grenada-nutmeg-grading/index.md)
-- [Jamaican Sound System Selector](../../games/1465-jamaican-sound-system-selector/index.md)
-- [Draughts](../../games/576-draughts/index.md)
+- [Four Corners](../../games/652-four-corners/index.md)
+- [Rounders](../../games/761-rounders/index.md)
+- [Heritage games](../../games/1050-heritage-games/index.md)
 
 ## Sources
 

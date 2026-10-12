@@ -38,9 +38,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [African draughts](../../games/586-african-draughts/index.md)
-- [Grenada Nutmeg Grading](../../games/1456-grenada-nutmeg-grading/index.md)
 - [Checkers](../../games/567-checkers/index.md)
 - [Heritage games](../../games/1050-heritage-games/index.md)
+- [Grenada Nutmeg Grading](../../games/1456-grenada-nutmeg-grading/index.md)
 - [Limbo](../../games/58-limbo/index.md)
 - [Turkish Dama](../../games/155-turkish-dama/index.md)
 

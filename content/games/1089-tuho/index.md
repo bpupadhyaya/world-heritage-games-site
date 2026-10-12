@@ -13,6 +13,10 @@ countries: ["South Korea"]
 
 **Encyclopedia ID 1089** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1089-tuho/
 
+![Tuho](../../../img/photos/01089-tuho.jpg)
+
+*Photo: 玄史生, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Taiwanese_Visitor_Playing_Tuho_in_Korean_Folk_Village_20091017.JPG)*
+
 Players throw arrows into a narrow-necked jar from a distance.
 
 ## Heritage note

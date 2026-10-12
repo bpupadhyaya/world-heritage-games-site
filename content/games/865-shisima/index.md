@@ -38,8 +38,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [Fanoron-Telo](../../games/902-fanoron-telo/index.md)
-- [Duo](../../games/838-duo/index.md)
 - [Gomoku and Renju](../../games/847-gomoku-and-renju/index.md)
+- [Duo](../../games/838-duo/index.md)
 - [Fanorona](../../games/901-fanorona/index.md)
 - [Omok](../../games/1088-omok/index.md)
 - [Tanzanian draughts](../../games/1135-tanzanian-draughts/index.md)

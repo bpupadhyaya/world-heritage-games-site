@@ -46,7 +46,7 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - [Lawn bowls](../../games/74-lawn-bowls/index.md)
 - [Kyykka](../../games/715-kyykka/index.md)
 - [Candlepin bowling](../../games/444-candlepin-bowling/index.md)
-- [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md)
+- [Regional pub games](../../games/1180-regional-pub-games/index.md)
 
 ## Sources
 

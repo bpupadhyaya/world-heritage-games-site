@@ -15,6 +15,10 @@ countries: ["Netherlands"]
 
 **Encyclopedia ID 975** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/975-klootschieten/
 
+![Klootschieten](../../../img/photos/00975-klootschieten.jpg)
+
+*Photo: Pelikana, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Werpkogels_klootschieten_PM013-01.JPG)*
+
 Throw a ball down a road for distance; NKB founded 1967.
 
 ## Heritage note

@@ -15,6 +15,10 @@ countries: ["Iran"]
 
 **Encyclopedia ID 810** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/810-chogan/
 
+![Chogan](../../../img/photos/00810-chogan.jpg)
+
+*Photo: Andreas Polo, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Varsity_Polo_2013.jpg)*
+
 Ancient horseback ball-and-mallet game from Iran, ancestor of polo.
 
 ## Heritage note
@@ -46,7 +50,7 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Kok-boru](../../games/241-kok-boru/index.md)
 - [Hurling](../../games/821-hurling/index.md)
 - [Rope pulling](../../games/855-rope-pulling/index.md)
-- [Kokpar](../../games/857-kokpar/index.md)
+- [Kyz Kuu](../../games/858-kyz-kuu/index.md)
 
 ## Sources
 

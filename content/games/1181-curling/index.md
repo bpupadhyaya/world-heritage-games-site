@@ -13,6 +13,10 @@ countries: ["United Kingdom"]
 
 **Encyclopedia ID 1181** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1181-curling/
 
+![Curling](../../../img/photos/01181-curling.jpg)
+
+*Photo: Glenlarson, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Curling,_overall_view_of_the_Tim_Hortons_Brier_venue_-_Edmonton,_Canada.jpg)*
+
 Slide stones over ice toward a target while teammates sweep; Scotland is its historic home.
 
 ## Heritage note

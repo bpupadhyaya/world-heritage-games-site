@@ -15,6 +15,10 @@ countries: ["Iran"]
 
 **Encyclopedia ID 812** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/812-flower-or-empty/
 
+![Flower or Empty](../../../img/photos/00812-flower-or-empty.jpg)
+
+*Photo: Amir sibil, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gol_ya_Pooch_Game_Ready_Fists_Iran.jpg)*
+
 Teams hide a small object in a fist while the other team guesses; similar to Mheibes.
 
 ## Heritage note

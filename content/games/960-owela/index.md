@@ -15,6 +15,10 @@ countries: ["Namibia"]
 
 **Encyclopedia ID 960** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/960-owela/
 
+![Owela](../../../img/photos/00960-owela.jpg)
+
+*Photo: Moongateclimber, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hus_(Omwela)_board_for_sale_in_Swakopmund,_Namibia.jpg)*
+
 Four-row mancala widely played across Namibian peoples.
 
 ## Heritage note
@@ -42,7 +46,7 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - [Tchouba](../../games/955-tchouba/index.md)
 - [Moruba / Ncuva](../../games/1080-moruba-ncuva/index.md)
 - [Tsoro](../../games/1222-tsoro/index.md)
-- [Warri](../../games/566-warri/index.md)
+- [Songo](../../games/617-songo/index.md)
 
 ## Sources
 

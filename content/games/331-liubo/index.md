@@ -45,7 +45,7 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 - [Generala](../../games/422-generala/index.md)
 - [Game of the Goose](../../games/450-game-of-the-goose/index.md)
 - [Sáhkku](../../games/451-sahkku/index.md)
-- [Parxís](../../games/542-parxis/index.md)
+- [Cacho](../../games/595-cacho/index.md)
 
 ## Sources
 

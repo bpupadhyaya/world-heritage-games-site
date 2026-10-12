@@ -43,10 +43,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - [Nsolo](../../games/1220-nsolo/index.md)
 - [Bao](../../games/647-bao/index.md)
-- [Bao la Kiswahili](../../games/861-bao-la-kiswahili/index.md)
-- [Highland and river mancalas](../../games/863-highland-and-river-mancalas/index.md)
 - [Katro / Katra](../../games/903-katro-katra/index.md)
 - [Igisoro](../../games/1049-igisoro/index.md)
+- [Bao la Kiswahili](../../games/861-bao-la-kiswahili/index.md)
+- [Highland and river mancalas](../../games/863-highland-and-river-mancalas/index.md)
 
 ## Sources
 

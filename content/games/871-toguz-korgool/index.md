@@ -13,6 +13,10 @@ countries: ["Kyrgyzstan"]
 
 **Encyclopedia ID 871** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/871-toguz-korgool/
 
+![Toguz Korgool](../../../img/photos/00871-toguz-korgool.jpg)
+
+*Photo: Arthoum, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%D0%A2%D0%BE%D0%B3%D1%83%D0%B7%D0%BA%D0%BE%D1%80%D0%B3%D0%BE%D0%BE%D0%BB.jpg)*
+
 Nine-pit mancala with a tuzdyk capture, the same game as Togyzqumalaq.
 
 ## Heritage note
@@ -39,12 +43,12 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 ## Related entries
 
-- [Kiela](../../games/544-kiela/index.md)
-- [Warri](../../games/566-warri/index.md)
-- [Oware-family mancala](../../games/587-oware-family-mancala/index.md)
-- [Ouril](../../games/611-ouril/index.md)
 - [Songo](../../games/617-songo/index.md)
-- [Mancala-type sowing games](../../games/626-mancala-type-sowing-games/index.md)
+- [Bao](../../games/647-bao/index.md)
+- [Kisolo](../../games/666-kisolo/index.md)
+- [Oware](../../games/749-oware/index.md)
+- [Pallanguzhi](../../games/798-pallanguzhi/index.md)
+- [Congklak](../../games/803-congklak/index.md)
 
 ## Sources
 

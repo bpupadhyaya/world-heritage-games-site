@@ -15,6 +15,10 @@ countries: ["India", "Pakistan", "Bangladesh", "Nepal"]
 
 **Encyclopedia ID 789** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/789-kabaddi/
 
+![Kabaddi](../../../img/photos/00789-kabaddi.jpg)
+
+*Photo: Amir Hosseini, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Iran_men%27s_national_kabaddi_team_13970602000432636707284535394012_98208.jpg)*
+
 A raider crosses into the other half, tags defenders and returns on one breath while chanting; teams of seven.
 
 ## Heritage note

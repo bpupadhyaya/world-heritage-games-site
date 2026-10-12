@@ -44,9 +44,9 @@ Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 
 - [Royal Game of Ur](../../games/817-royal-game-of-ur/index.md)
 - [Tawle](../../games/880-tawle/index.md)
 - [Backgammon](../../games/1159-backgammon/index.md)
-- [Tavëll](../../games/527-tavell/index.md)
 - [Nardi](../../games/551-nardi/index.md)
-- [Colombian Parqués](../../games/644-colombian-parques/index.md)
+- [Tavli](../../games/656-tavli/index.md)
+- [Senet](../../games/693-senet/index.md)
 
 ## Sources
 

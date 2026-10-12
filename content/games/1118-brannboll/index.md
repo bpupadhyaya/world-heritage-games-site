@@ -15,6 +15,10 @@ countries: ["Sweden"]
 
 **Encyclopedia ID 1118** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1118-brannboll/
 
+![Brännboll](../../../img/photos/01118-brannboll.jpg)
+
+*Photo: EditorInTheRye, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Brannboll.png)*
+
 A bat-and-ball game where batters run around four bases and fielders tag or catch them.
 
 ## Heritage note
@@ -39,10 +43,10 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 - [Palant](../../games/1031-palant/index.md)
 - [Hide and Seek](../../games/475-hide-and-seek/index.md)
-- [Ziziros](../../games/659-ziziros/index.md)
-- [Fijian tag](../../games/712-fijian-tag/index.md)
 - [Galah panjang](../../games/909-galah-panjang/index.md)
-- [Baibalaa](../../games/914-baibalaa/index.md)
+- [Tag](../../games/959-tag/index.md)
+- [Patintero](../../games/1021-patintero/index.md)
+- [Ziziros](../../games/659-ziziros/index.md)
 
 ## Sources
 

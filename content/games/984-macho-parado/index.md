@@ -38,9 +38,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Yo-yo](../../games/696-yo-yo/index.md)
 - [Pinata swing](../../games/61-pinata-swing/index.md)
+- [Mesoamerican ballgame](../../games/759-mesoamerican-ballgame/index.md)
 - [Kriol traditional games](../../games/585-kriol-traditional-games/index.md)
 - [Chromos](../../games/648-chromos/index.md)
-- [Mesoamerican ballgame](../../games/759-mesoamerican-ballgame/index.md)
 - [Enchute](../../games/770-enchute/index.md)
 
 ## Sources

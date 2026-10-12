@@ -15,6 +15,10 @@ countries: ["Myanmar"]
 
 **Encyclopedia ID 959** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/959-tag/
 
+![Tag](../../../img/photos/00959-tag.jpg)
+
+*Photo: Anonymous Unknown author, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jongensspelen_10.jpg)*
+
 Border-crossing tag games where raiders try to cross lines without being tagged by defenders.
 
 ## Heritage note
@@ -40,9 +44,9 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - [Galah panjang](../../games/909-galah-panjang/index.md)
 - [Patintero](../../games/1021-patintero/index.md)
 - [Hide and Seek](../../games/475-hide-and-seek/index.md)
+- [Brännboll](../../games/1118-brannboll/index.md)
 - [Ziziros](../../games/659-ziziros/index.md)
 - [Fijian tag](../../games/712-fijian-tag/index.md)
-- [Baibalaa](../../games/914-baibalaa/index.md)
 
 ## Sources
 

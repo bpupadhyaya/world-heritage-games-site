@@ -45,8 +45,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Hoop Rolling Trundle](../../games/69-hoop-rolling-trundle/index.md)
 - [Amidakuji](../../games/357-amidakuji/index.md)
 - [Spinning top](../../games/678-spinning-top/index.md)
-- [Yo-yo](../../games/696-yo-yo/index.md)
 - [Kendama](../../games/850-kendama/index.md)
+- [Wau bulan kite](../../games/911-wau-bulan-kite/index.md)
 
 ## Sources
 

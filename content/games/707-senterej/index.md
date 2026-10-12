@@ -15,6 +15,10 @@ countries: ["Ethiopia", "Eritrea"]
 
 **Encyclopedia ID 707** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/707-senterej/
 
+![Senterej](../../../img/photos/00707-senterej.jpg)
+
+*Photo: BeteAmora, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ethiopian_nobles_chess.jpg)*
+
 Regional chess variant whose opening lets each side make free moves until the first capture.
 
 ## Heritage note
@@ -39,10 +43,10 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 - [Chaturanga](../../games/45-chaturanga/index.md)
 - [Sittuyin](../../games/302-sittuyin/index.md)
-- [Mongolian chess](../../games/943-mongolian-chess/index.md)
-- [Banqi](../../games/1437-banqi/index.md)
 - [Chess](../../games/552-chess/index.md)
-- [Khmer chess](../../games/616-khmer-chess/index.md)
+- [Luzhanqi](../../games/640-luzhanqi/index.md)
+- [Hasami shogi](../../games/849-hasami-shogi/index.md)
+- [Shogi](../../games/852-shogi/index.md)
 
 ## Sources
 

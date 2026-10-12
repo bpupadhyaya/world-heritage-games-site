@@ -15,6 +15,10 @@ countries: ["Spain"]
 
 **Encyclopedia ID 1096** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1096-cantabrian-palm-bowling/
 
+![Cantabrian palm bowling](../../../img/photos/01096-cantabrian-palm-bowling.jpg)
+
+*Photo: Emilio Gómez Fernández, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bolera_de_La_Helguera_-_Barrio_de_Arriba.jpg)*
+
 Cantabrian bowling where a wooden ball is thrown at nine pins; deeply local with 16th-century records.
 
 ## Heritage note

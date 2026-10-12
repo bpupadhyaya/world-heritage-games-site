@@ -15,6 +15,10 @@ countries: ["Belgium"]
 
 **Encyclopedia ID 583** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/583-krulbollen/
 
+![Krulbollen](../../../img/photos/00583-krulbollen.jpg)
+
+*Photo: VlaS, [CC0](https://creativecommons.org/publicdomain/zero/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Boller1.jpg)*
+
 Roll a curved disc (bolle) so it curls close to a stick; ancient Flemish lawn game.
 
 ## Heritage note

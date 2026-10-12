@@ -13,6 +13,10 @@ countries: ["New Zealand"]
 
 **Encyclopedia ID 978** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/978-ki-o-rahi/
 
+![Kī-o-rahi](../../../img/photos/00978-ki-o-rahi.jpg)
+
+*Photo: Sossos, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ki_on_grass1.jpg)*
+
 Fast circular-field ball game between a defending team and an attacking team, scoring by touching a central marker.
 
 ## Heritage note
@@ -38,8 +42,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Maori stick games](../../games/981-maori-stick-games/index.md)
 - [Wave riding](../../games/76-wave-riding/index.md)
 - [Netball](../../games/447-netball/index.md)
-- [Axemen woodchop](../../games/1232-axemen-woodchop/index.md)
-- [Marshallese stick chart navigator](../../games/1333-marshallese-stick-chart-navigator/index.md)
+- [Hand-slap game](../../games/711-hand-slap-game/index.md)
+- [Ibibo](../../games/964-ibibo/index.md)
 
 ## Sources
 

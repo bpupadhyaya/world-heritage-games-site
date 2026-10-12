@@ -15,6 +15,10 @@ countries: ["Comoros"]
 
 **Encyclopedia ID 647** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/647-bao/
 
+![Bao](../../../img/photos/00647-bao.jpg)
+
+*Photo: Moongateclimber, [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bao_players_in_stone_town_zanzibar.jpg)*
+
 Swahili mancala; Comoros among regions named.
 
 ## Heritage note
@@ -41,11 +45,11 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 ## Related entries
 
+- [Katro / Katra](../../games/903-katro-katra/index.md)
+- [Igisoro](../../games/1049-igisoro/index.md)
 - [Bao la Kiswahili](../../games/861-bao-la-kiswahili/index.md)
 - [Highland and river mancalas](../../games/863-highland-and-river-mancalas/index.md)
-- [Katro / Katra](../../games/903-katro-katra/index.md)
 - [Bawo](../../games/906-bawo/index.md)
-- [Igisoro](../../games/1049-igisoro/index.md)
 - [Makonn](../../games/1065-makonn/index.md)
 
 ## Sources

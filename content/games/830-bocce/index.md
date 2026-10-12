@@ -13,6 +13,10 @@ countries: ["Italy", "San Marino"]
 
 **Encyclopedia ID 830** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/830-bocce/
 
+![Bocce](../../../img/photos/00830-bocce.jpg)
+
+*Photo: Jesse Kornblum, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Steve_Mariucci_Coach_Mooch_Battle_of_the_Bay_Charity_Bocce_2026_05.jpg)*
+
 Roll balls toward the pallino on a sand lane; world federation exists.
 
 ## Heritage note
@@ -39,8 +43,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Jukskei](../../games/11-jukskei/index.md)
 - [Lagori](../../games/14-lagori/index.md)
 - [Tejo](../../games/57-tejo/index.md)
+- [Kubb](../../games/1120-kubb/index.md)
 - [Chilean Rayuela](../../games/1427-chilean-rayuela/index.md)
-- [Petanque](../../games/872-petanque/index.md)
 
 ## Sources
 

@@ -42,8 +42,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [Tavëll](../../games/527-tavell/index.md)
-- [Çiftelia](../../games/1257-ciftelia/index.md)
 - [Tavli](../../games/656-tavli/index.md)
+- [Çiftelia](../../games/1257-ciftelia/index.md)
 - [Tavla](../../games/992-tavla/index.md)
 - [Parchís](../../games/1098-parchis/index.md)
 - [Kharbaga](../../games/459-kharbaga/index.md)

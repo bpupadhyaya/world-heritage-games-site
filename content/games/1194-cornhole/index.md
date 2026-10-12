@@ -15,6 +15,10 @@ countries: ["United States"]
 
 **Encyclopedia ID 1194** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1194-cornhole/
 
+![Cornhole](../../../img/photos/01194-cornhole.jpg)
+
+*Photo: Michael Rivera, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cornhole,_Homerville.JPG)*
+
 Lawn game of tossing bean bags at an angled board with a hole; the ubiquitous tailgate game.
 
 ## Heritage note
@@ -42,8 +46,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Square dance caller](../../games/129-square-dance-caller/index.md)
-- [Trick Roping](../../games/1408-trick-roping/index.md)
 - [Table shuffleboard](../../games/1199-table-shuffleboard/index.md)
+- [Trick Roping](../../games/1408-trick-roping/index.md)
 - [Crokinole](../../games/623-crokinole/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
 - [Stone Skipping](../../games/5-stone-skipping/index.md)

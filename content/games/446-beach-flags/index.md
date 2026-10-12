@@ -39,8 +39,8 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 - [Billycart derby](../../games/445-billycart-derby/index.md)
 - [Two-up](../../games/560-two-up/index.md)
-- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md)
 - [Samoan cricket](../../games/1056-samoan-cricket/index.md)
+- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md)
 - [Tongan cricket](../../games/1149-tongan-cricket/index.md)
 - [Fuu Fuu Penu](../../games/1171-fuu-fuu-penu/index.md)
 

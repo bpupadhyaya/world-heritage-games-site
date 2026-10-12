@@ -40,11 +40,11 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 ## Related entries
 
 - [Congklak](../../games/803-congklak/index.md)
-- [Five stones](../../games/907-five-stones/index.md)
 - [Galah panjang](../../games/909-galah-panjang/index.md)
-- [Seed throwing](../../games/612-seed-throwing/index.md)
+- [Five stones](../../games/907-five-stones/index.md)
 - [Pebbles](../../games/874-pebbles/index.md)
 - [Tag](../../games/959-tag/index.md)
+- [Patintero](../../games/1021-patintero/index.md)
 
 ## Sources
 

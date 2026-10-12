@@ -15,6 +15,10 @@ countries: ["San Marino"]
 
 **Encyclopedia ID 1058** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1058-crossbow-shooting/
 
+![Crossbow shooting](../../../img/photos/01058-crossbow-shooting.jpg)
+
+*Photo: Bernt Rostad from Oslo, Norway, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crossbow_shooting_(22349664272).jpg)*
+
 Shooters aim crossbows at targets; San Marino keeps a crossbow tradition with historic uniformed shooters.
 
 ## Heritage note
@@ -36,8 +40,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
-- [Crossbow Target Match](../../games/1367-crossbow-target-match/index.md)
 - [Bocce](../../games/830-bocce/index.md)
+- [Crossbow Target Match](../../games/1367-crossbow-target-match/index.md)
 - [Ring Tilting](../../games/65-ring-tilting/index.md)
 - [Euclid's Ruler and Compass](../../games/396-euclids-ruler-and-compass/index.md)
 - [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md)

@@ -40,9 +40,9 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Hangul syllable blocks](../../games/364-hangul-syllable-blocks/index.md)
-- [Haenyeo Breath Dive](../../games/1459-haenyeo-breath-dive/index.md)
 - [Jegichagi](../../games/1082-jegichagi/index.md)
 - [Tuho](../../games/1089-tuho/index.md)
+- [Haenyeo Breath Dive](../../games/1459-haenyeo-breath-dive/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md)
 

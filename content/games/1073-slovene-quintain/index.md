@@ -15,6 +15,10 @@ countries: ["Slovenia"]
 
 **Encyclopedia ID 1073** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/1073-slovene-quintain/
 
+![Slovene quintain](../../../img/photos/01073-slovene-quintain.jpg)
+
+*Photo: Michael Gäbler, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ritt_zum_Kufenstechen.jpg)*
+
 Costumed riders on horseback strike a hanging barrel with bats in a village festival tournament.
 
 ## Heritage note
