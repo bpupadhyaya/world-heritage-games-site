@@ -6,3 +6,5 @@ path: "/apps/"
 # Mobile apps
 
 - [String Music of the World](../apps/string-music-of-the-world/index.md): 11 playable games
+- [Drum Music of the World](../apps/drum-music-of-the-world/index.md): 10 playable games
+- [Music & Dance of the World](../apps/music-and-dance-of-the-world/index.md): 10 playable games
