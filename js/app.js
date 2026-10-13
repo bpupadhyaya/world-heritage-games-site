@@ -45,7 +45,14 @@
     var closeMenu = function (refocus) { tmenu.hidden = true; tbtn.setAttribute('aria-expanded', 'false'); if (refocus) tbtn.focus(); };
     tbtn.addEventListener('click', function () {
       var open = tmenu.hidden; tmenu.hidden = !open; tbtn.setAttribute('aria-expanded', open ? 'true' : 'false');
-      if (open) { var p = $('button[aria-pressed="true"]', tmenu) || $('button', tmenu); p.focus(); }
+      if (open) {
+        // keep the menu on screen: open toward the side with room (the button sits at the far left under the logo on most pages)
+        tmenu.style.left = tmenu.style.right = 'auto';
+        var wr = wrap.getBoundingClientRect(), mw = tmenu.offsetWidth, vw = document.documentElement.clientWidth, gap = 8;
+        var left = Math.min(Math.max(gap, wr.left), Math.max(gap, vw - mw - gap)) - wr.left;
+        tmenu.style.left = left + 'px';
+        var p = $('button[aria-pressed="true"]', tmenu) || $('button', tmenu); p.focus();
+      }
     });
     document.addEventListener('click', function (e) { if (!tmenu.hidden && !wrap.contains(e.target)) closeMenu(false); });
     wrap.addEventListener('keydown', function (e) {

@@ -370,3 +370,8 @@ main{display:block;flex:1 0 auto;min-height:60vh}
 .wmap-regions button{font:inherit;font-size:.85rem;border:1px solid var(--rule);background:var(--card);color:var(--ink);border-radius:99px;padding:.3rem .8rem;cursor:pointer}
 .wmap-regions button:hover{border-color:var(--accent)}
 .wmap-regions button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+/* header row stays on ONE line on wide screens (brand | nav | theme); below 1180px the nav folds into the Menu button, so the theme button never drops under the logo */
+@media (min-width:1181px){.site-header .wrap{flex-wrap:nowrap}.brand{flex:none}.brand .wm{white-space:nowrap}.nav{flex-wrap:nowrap;min-width:0}.nav a{white-space:nowrap;padding-inline:.45rem}.theme-wrap{flex:none}}
+@media (min-width:1400px){.nav a{padding-inline:.6rem}}
+@media (min-width:961px) and (max-width:1180px){.nav-toggle{display:inline-block}.nav{display:none;width:100%;flex-direction:column;padding-bottom:.6rem}.nav.open{display:flex}.theme-wrap{order:3}.nav-toggle{order:2}}
