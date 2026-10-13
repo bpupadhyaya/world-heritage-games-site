@@ -2240,14 +2240,12 @@ t
 r
 e
  
-G
-a
-m
-e
-s
- 
 o
 f
+ 
+t
+h
+e
  
 W
 o

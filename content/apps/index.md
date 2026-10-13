@@ -9,3 +9,4 @@ path: "/apps/"
 - [Drum Music of the World](../apps/drum-music-of-the-world/index.md): 10 playable games
 - [Music & Dance of the World](../apps/music-and-dance-of-the-world/index.md): 10 playable games
 - [Textile Crafts of the World](../apps/textile-crafts-of-the-world/index.md): 17 playable games
+- [Paper & Paint of the World](../apps/paper-and-paint-of-the-world/index.md): 20 playable games
