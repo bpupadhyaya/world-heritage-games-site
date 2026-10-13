@@ -227,7 +227,9 @@ export function createActivity(userParams, env) {
   const linG = (ctx, x0, y0, x1, y1, stops) => { const gr = ctx.createLinearGradient(x0, y0, x1, y1); stops.forEach(([o, c]) => gr.addColorStop(o, c)); return gr; };
   const pill = (g, x, y, w, h, a = 0.55) => { const { ctx } = g; g.rr(ctx, x, y, w, h, h / 2); ctx.fillStyle = linG(ctx, 0, y, 0, y + h, [[0, `rgba(30,44,58,${a})`], [1, `rgba(8,14,22,${a + 0.15})`]]); ctx.fill(); ctx.strokeStyle = 'rgba(255,255,255,0.18)'; ctx.lineWidth = 1; ctx.stroke(); };
 
+  let FLOORU = 0;   // 11 css px in virtual units, refreshed every frame (fluid layout: text stays readable on small screens)
   const renderAll = (g, area) => {
+    FLOORU = g.px(0) * 0.95;
     const { ctx } = g;
     const regH = clamp(area.h * (KIT?.regF ?? 0.27), 120, 270), gap = 6;
     const view = { x: area.x, y: area.y, w: area.w, h: area.h - regH - gap };
@@ -379,7 +381,7 @@ export function createActivity(userParams, env) {
       if (o.at < sBack || o.at > sFwd) continue;
       across(o.at, (x1, y1, x2, y2) => drawObstacle(ctx, o.kind, x1, y1, x2, y2, laneW, o.at < m.x && !title, tNow));
     }
-    if (L >= sBack && L <= sFwd + 8) across(L, (x1, y1, x2, y2) => gantry(ctx, x1, y1, x2, y2, laneW * 0.32, tNow, 'FINISH'));
+    if (L >= sBack && L <= sFwd + 8) across(L, (x1, y1, x2, y2) => gantry(ctx, x1, y1, x2, y2, laneW * 0.32, tNow, 'FINISH', FLOORU));
     // racers: trail first, then the craft, near scenery over the bank last
     const rs = laneW * (kind === 'paddle' || kind === 'sailor' ? 0.5 : kind === 'runner' || kind === 'skater' ? 0.7 : 0.58);
     const list = title ? S.racers : racerList();
@@ -497,7 +499,7 @@ export function createActivity(userParams, env) {
       const [x1, y1] = at(ang, -trackW / 2), [x2, y2] = at(ang, trackW / 2);
       drawObstacle(ctx, o.kind, x1, y1, x2, y2, laneW, false, tNow);
     }
-    { const [x1, y1] = at(0, -trackW / 2), [x2, y2] = at(0, trackW / 2); gantry(ctx, x1, y1, x2, y2, laneW * 0.32, tNow, 'START · FINISH'); }
+    { const [x1, y1] = at(0, -trackW / 2), [x2, y2] = at(0, trackW / 2); gantry(ctx, x1, y1, x2, y2, laneW * 0.32, tNow, 'START · FINISH', FLOORU); }
     // infield
     const [icx, icy] = [cx, cy];
     const laps = Math.max(1, Math.round(L / C.lapLength));

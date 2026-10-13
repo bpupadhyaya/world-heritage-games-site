@@ -448,7 +448,7 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
         if (c.active) { ctx.save(); rr(ctx, cx0 - 2, py - 2, cw + 4, ch + 4, ch / 2 + 2); ctx.strokeStyle = rgba(pal.accent, reduced ? 0.6 : 0.35 + 0.3 * Math.sin(t * 5)); ctx.lineWidth = 3; ctx.stroke(); ctx.restore(); }
         const dr = ch * 0.22; ctx.beginPath(); ctx.arc(cx0 + ch * 0.45, py + ch / 2, dr, 0, 6.3);
         ctx.fillStyle = vgrad(ctx, py + ch / 2 - dr, py + ch / 2 + dr, [[0, shade(c.color, 0.4)], [1, shade(c.color, -0.3)]]); ctx.fill(); ctx.lineWidth = 1.5; ctx.strokeStyle = 'rgba(255,255,255,0.7)'; ctx.stroke();
-        const lab = String(c.label); const z = ui.fit(ctx, lab, cw - ch * 0.85 - 6, px(24), '800', true);
+        const lab = String(c.label); const z = Math.max(ui.fit(ctx, lab, cw - ch * 0.85 - 6, px(24), '800', true), 11.5 / k());
         ui.text(ctx, lab, cx0 + ch * 0.8 + (cw - ch * 0.8) / 2 - 4, py + ch / 2 + 1, z, { display: true, color: c.active ? pal.accent : pal.ink });
       });
       pillW = chips.length * (cw + 8);
@@ -478,11 +478,21 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
       }
     }
     const maxW = Math.max(60, right - left - pillW - 12);
-    const tsz = ui.fit(ctx, title, maxW, px(32), '800', true);
-    ui.text(ctx, title, left, top + H0 * 0.29, tsz, { align: 'left', display: true, color: pal.ink, shadow: true });
+    // fitted text never drops under 11.5 css px: it is cut with an ellipsis at that size instead
+    const clip = (str, size, weight, display) => {
+      let o = String(str); setFont(ctx, size, weight, display);
+      if (ctx.measureText(o).width <= maxW) return o;
+      while (o.length > 1 && ctx.measureText(o + '\u2026').width > maxW) o = o.slice(0, -1);
+      return o.replace(/[\s,;:.\-\u00b7]+$/, '') + '\u2026';
+    };
+    const floorU = 11.5 / k();
+    let tsz = ui.fit(ctx, title, maxW, px(32), '800', true), ttxt = title;
+    if (tsz < floorU) { tsz = floorU; ttxt = clip(title, tsz, '800', true); }
+    ui.text(ctx, ttxt, left, top + H0 * 0.29, tsz, { align: 'left', display: true, color: pal.ink, shadow: true });
     if (sub) {
-      const ssz = ui.fit(ctx, sub, maxW, px(24), '600');
-      ui.text(ctx, sub, left, top + H0 * 0.625, ssz, { align: 'left', color: subAccent ? pal.accent : pal.dim, weight: '600' });
+      let ssz = ui.fit(ctx, sub, maxW, px(24), '600'), stxt = sub;
+      if (ssz < floorU) { ssz = floorU; stxt = clip(sub, ssz, '600', false); }
+      ui.text(ctx, stxt, left, top + H0 * 0.625, ssz, { align: 'left', color: subAccent ? pal.accent : pal.dim, weight: '600' });
     }
     if (frac !== null && frac !== undefined) {
       const bw = W - 32 - ins.left - ins.right, bx = 16 + ins.left, by = top + H0 - px(14), bh = Math.max(6, px(8));
@@ -659,6 +669,7 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
       ui.panel(ctx, centerX - bwid / 2, y + 4, bwid, px(42), { r: px(21), fill: shade(pal.panel, -0.12), border: rgba(pal.accent, 0.5), shadow: false });
       ui.text(ctx, label, centerX - (best.stars ? px(23) * 1.5 : 0), y + 4 + px(21) + 1, px(23), { color: pal.accent, weight: '700' });
       if (best.stars) for (let i = 0; i < 3; i++) ui.star(ctx, centerX + bwid / 2 - px(23) * (3.0 - i * 0.95) - 6, y + 4 + px(21), px(23), { filled: i < best.stars });
+      y += bestH;   // the buttons below start after the pill (landscape anchors them under the text)
     }
     // buttons anchored to the bottom (portrait) or under the text (landscape)
     let by = land ? y + px(26) : H - bottomPad - blockH;

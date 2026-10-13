@@ -454,7 +454,7 @@ export function createActivity(userParams, env) {
         const ink = o.end ? skin.plaque.inkEnd : skin.plaque.ink;
         if (opts.length > 1) {
           const br = Math.min(h * 0.3, px(17));
-          drawMedallion(ctx, skin, x + 26, y + lift + h / 2 + (pressed ? 2 : 0), br, String(i + 1), txt);
+          drawMedallion(ctx, skin, x + 26, y + lift + h / 2 + (pressed ? 2 : 0), br, String(i + 1), txt, px(0) * 0.95);
         }
         const wl = g.wrap(ctx, o.text, tw - 56, os);
         const startY = y + lift + h / 2 - ((wl.length - 1) * os * 1.26) / 2 + (pressed ? 2 : 0);

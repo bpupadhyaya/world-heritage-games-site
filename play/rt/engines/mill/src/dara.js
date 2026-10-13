@@ -140,7 +140,9 @@ export function paintDara(ctx, rect, model, pal, t = 0) {
       const row = Math.floor(i / per), col = i % per, px = x0 + col * small * 1.65 + (row % 2) * small * 0.4, py = yy + (row - (Math.ceil(n / per) - 1) / 2) * small * 1.25;
       pieceDraw(ctx, owner, px, py, small, pal, 200 + owner * 50 + i);
     }
-    ctx.font = `700 ${Math.max(11, Math.round(hs * 0.42))}px system-ui, sans-serif`; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+    let floorU = 11;   // never under 11.5 css px: convert through the live canvas transform when a real canvas is present
+    try { const k = ctx.getTransform().a * (ctx.canvas.clientWidth / ctx.canvas.width); if (k > 0 && Number.isFinite(k)) floorU = 11.5 / k; } catch { /* headless harness */ }
+    ctx.font = `700 ${Math.max(floorU, Math.round(hs * 0.42))}px system-ui, sans-serif`; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
     ctx.fillStyle = 'rgba(70,40,10,0.75)'; ctx.fillText(`x${n}`, x + w * 0.04 + hs * 0.2, yy);
   };
   reserve(1, y + (M * dy) / 2, model.hand[1]);

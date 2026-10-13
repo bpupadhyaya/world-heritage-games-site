@@ -72,3 +72,53 @@
 .gp .gbtn svg{width:1.1rem;height:1.1rem;flex:none}.gp .gbtn{white-space:nowrap}
 .gp-poster .live{display:none}
 .gp-tools[hidden]{display:none}
+
+/* ---- mobile app pages (apps/, apps/<slug>/) and the home feature ---- */
+.gp-badge.review{border-style:solid;border-color:var(--gp-gold2);background:linear-gradient(180deg,#14224d,#0b1230);cursor:default}
+.gp-badge.review small{color:var(--gp-gold)}
+.gp .gbtn.sm{font-size:.86rem;padding:.55rem 1rem;min-height:40px}
+.ap-hero .wrap{grid-template-columns:minmax(0,1fr)}
+@media (min-width:56rem){.ap-hero .wrap{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr)}}
+.ap-title{display:flex;align-items:center;gap:1rem;margin:0 0 .6rem}
+.ap-title img{width:84px;height:84px;border-radius:20px;border:2px solid var(--gp-gold2);box-shadow:0 10px 26px -10px rgba(0,0,0,.7)}
+.ap-title h1{margin:0}
+.ap-status{color:var(--gp-dim);margin:.9rem 0 0;font-size:.95rem}
+.ap-banner{margin:0}.ap-banner img{display:block;width:100%;height:auto;border-radius:1.1rem;border:2px solid var(--gp-gold2);box-shadow:0 22px 50px -18px rgba(0,0,0,.65),0 0 0 6px rgba(232,185,74,.12)}
+.ap-games,.ap-shots,.ap-how{padding-block:clamp(2rem,5vw,3.5rem)}
+.ap-games{background:var(--paper,#fff)}
+.ap-games h2,.ap-shots h2,.ap-how h2{font:800 clamp(1.5rem,3.2vw,2.1rem) "EB Garamond",var(--serif);margin:0 0 .4rem}
+.ap-sub{margin:0 0 1.4rem;color:var(--muted,inherit);opacity:.85}
+.ap-grid{list-style:none;margin:0;padding:0;display:grid;gap:1.1rem;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr))}
+@media (max-width:40rem){.ap-grid:not(.ap-apps){grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem}.ap-b{padding:.7rem .7rem .9rem}.ap-b h3{font-size:1.02rem}.ap-act .gbtn.sm{padding:.45rem .7rem;font-size:.8rem}}
+.ap-tile{display:flex;flex-direction:column;border:1px solid var(--gp-line);border-radius:1rem;overflow:hidden;background:linear-gradient(180deg,#10245a,#091030);color:var(--gp-ink)}
+.ap-ph{display:block;aspect-ratio:3/4;overflow:hidden;background:#091030}
+.ap-ph.wide{aspect-ratio:1024/500}
+.ap-ph img{display:block;width:100%;height:100%;object-fit:cover;object-position:top;transition:transform .35s}
+.ap-tile:hover .ap-ph img{transform:scale(1.04)}
+.ap-b{padding:.9rem 1rem 1.1rem;display:flex;flex-direction:column;gap:.35rem;flex:1}
+.ap-b h3{margin:0;font:800 1.2rem/1.15 "EB Garamond",var(--serif)}
+.ap-b h3 a{color:var(--gp-gold);text-decoration:none}.ap-b h3 a:hover{text-decoration:underline}
+.ap-m{margin:0;color:var(--gp-dim);font-size:.85rem}
+.ap-act{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:auto;padding-top:.6rem}
+.ap-shots{background:linear-gradient(180deg,#091030,#10245a);color:var(--gp-ink)}
+.ap-shots h2{color:var(--gp-gold)}
+.ap-shots ul{list-style:none;margin:0;padding:0;display:grid;gap:1rem;grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:44rem){.ap-shots ul{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.ap-shots img{display:block;width:100%;height:auto;border-radius:1.4rem;border:2px solid var(--gp-gold2);box-shadow:0 18px 40px -16px rgba(0,0,0,.7)}
+.ap-how ul{list-style:none;margin:1rem 0 0;padding:0;display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
+.ap-how li{border:1px solid var(--gp-line);border-radius:1rem;padding:1.1rem 1.2rem;background:linear-gradient(160deg,#10245a,#091030);color:var(--gp-ink)}
+.ap-how b{display:block;font:800 1.25rem "EB Garamond",var(--serif);color:var(--gp-gold);margin-bottom:.3rem}
+.ap-how span{color:var(--gp-dim);line-height:1.5}
+.ap-apps{grid-template-columns:repeat(auto-fill,minmax(20rem,1fr))}
+.ap-home{padding-block:clamp(1.5rem,4vw,2.5rem)}
+.ap-homecard{display:grid;gap:1.4rem;grid-template-columns:minmax(0,1fr);align-items:center;border:1px solid rgba(232,185,74,.45);border-radius:1.2rem;padding:clamp(1.2rem,3vw,2rem);color:#f4f1e4;
+ background:radial-gradient(700px 320px at 90% -10%,rgba(232,185,74,.18),transparent 60%),linear-gradient(160deg,#10245a,#091030);box-shadow:0 24px 60px -28px rgba(9,16,48,.8)}
+@media (min-width:52rem){.ap-homecard{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.ap-homecard .eyebrow{color:#fbe8a0}
+.ap-homecard h2{font:800 clamp(1.7rem,4vw,2.6rem)/1.05 "EB Garamond",var(--serif);margin:.2rem 0 .6rem;color:#fbe8a0}
+.ap-homecard .lede{color:#d6def5}
+.ap-homeart img{display:block;width:100%;height:auto;border-radius:1rem;border:2px solid #e8b94a;box-shadow:0 18px 44px -18px rgba(0,0,0,.7)}
+.ap-homecard .btn{background:linear-gradient(180deg,#fbe8a0,#e8b94a);color:#241a05;border-color:#e8b94a;font-weight:700}
+.ap-homecard .gp-badges{display:flex;flex-wrap:wrap;gap:.6rem}
+.ap-homecard .gp-badge{min-width:9.5rem;display:inline-flex;flex-direction:column;justify-content:center;padding:.4rem 1rem;border-radius:.8rem;background:#000;color:#fff;border:1px solid #e8b94a;text-decoration:none;line-height:1.15;min-height:3.2rem}
+.ap-homecard .gp-badge small{font-size:.66rem;letter-spacing:.06em;color:#e8c872}.ap-homecard .gp-badge b{font:700 1.08rem var(--sans)}

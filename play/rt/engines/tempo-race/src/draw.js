@@ -423,7 +423,7 @@ export function speedLines(ctx, rect, dir, amount, scroll, col = '255,255,255') 
 }
 
 // Finish gantry: two posts at the track edges, a checker banner and pennants. (x1,y1)-(x2,y2) is the line across the track.
-export function gantry(ctx, x1, y1, x2, y2, w, t, label = 'FINISH') {
+export function gantry(ctx, x1, y1, x2, y2, w, t, label = 'FINISH', minFont = 0) {
   const dx = x2 - x1, dy = y2 - y1, len = Math.hypot(dx, dy) || 1, ang = Math.atan2(dy, dx);
   const nx = -dy / len, ny = dx / len;             // normal on the "up" side
   const lift = Math.min(18, w * 1.2);              // the banner is overhead: offset it toward the viewer
@@ -440,12 +440,12 @@ export function gantry(ctx, x1, y1, x2, y2, w, t, label = 'FINISH') {
   }
   // overhead banner
   ctx.save(); ctx.translate(x1 + nx * lift, y1 + ny * lift); ctx.rotate(ang);
-  const bh = Math.max(14, w * 0.9);
+  const bh = Math.max(14, w * 0.9, minFont * 1.3);   // minFont: 11 css px in units, so the sign stays readable on small screens
   ctx.fillStyle = 'rgba(0,0,0,0.28)'; ctx.fillRect(2, -bh / 2 + 5, len, bh);
   ctx.fillStyle = '#f5f1e8'; ctx.fillRect(0, -bh / 2, len, bh);
   for (let i = 0; i * (bh / 2) < len; i++) for (let j = 0; j < 2; j++) { if ((i + j) % 2) { ctx.fillStyle = '#111'; ctx.fillRect(i * (bh / 2), -bh / 2 + j * (bh / 2), Math.min(bh / 2, len - i * (bh / 2)), bh / 2); } }
   ctx.fillStyle = 'rgba(200,40,40,0.95)'; ctx.fillRect(len * 0.25, -bh / 2, len * 0.5, bh);
-  ctx.fillStyle = '#fff'; ctx.font = `900 ${Math.round(bh * 0.7)}px system-ui, sans-serif`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(label, len / 2, 1);
+  ctx.fillStyle = '#fff'; ctx.font = `900 ${Math.round(Math.max(bh * 0.7, minFont))}px system-ui, sans-serif`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(label, len / 2, 1);
   // pennants along the top edge
   for (let i = 0; i < 8; i++) { const px = (len * (i + 0.5)) / 8, fl = Math.sin(t * 5 + i) * 2; ctx.fillStyle = ['#e0603a', '#f2c14e', '#58c27d', '#4fc3d9'][i % 4]; poly(ctx, [[px - 5, -bh / 2], [px + 5, -bh / 2], [px + fl, -bh / 2 - 12]]); ctx.fill(); }
   ctx.restore();

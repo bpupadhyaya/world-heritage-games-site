@@ -130,7 +130,7 @@ export function drawPlaque(ctx, sk, x, y, w, h, st) {
 }
 
 // number medallion on a choice plaque: disc | diamond | flower | seal | star
-export function drawMedallion(ctx, sk, cx, cy, r, label, txt) {
+export function drawMedallion(ctx, sk, cx, cy, r, label, txt, minSize = 0) {
   const p = sk.plaque, k = p.med;
   ctx.save(); ctx.translate(cx, cy);
   const g = ctx.createRadialGradient(-r * 0.3, -r * 0.3, 1, 0, 0, r * 1.2); g.addColorStop(0, p.medA); g.addColorStop(1, p.medB);
@@ -142,7 +142,7 @@ export function drawMedallion(ctx, sk, cx, cy, r, label, txt) {
   else if (k === 'seal') { for (let i = 0; i < 16; i++) { const a = i * TAU / 16, rr = i % 2 ? r * 0.95 : r * 1.12; i ? ctx.lineTo(Math.cos(a) * rr, Math.sin(a) * rr) : ctx.moveTo(Math.cos(a) * rr, Math.sin(a) * rr); } ctx.closePath(); }
   else ctx.arc(0, 0, r, 0, TAU);
   ctx.fill(); ctx.stroke(); ctx.restore();
-  txt(ctx, label, cx, cy, r * 1.15, p.medInk, 'center', '800', 'Georgia, "Times New Roman", serif');
+  txt(ctx, label, cx, cy, Math.max(r * 1.15, minSize), p.medInk, 'center', '800', 'Georgia, "Times New Roman", serif');
 }
 
 // meter bead: disc | diamond | coin | drop | leaf | star | lamp

@@ -7,7 +7,7 @@
 // push-outs, touches and falls to the mat.
 
 import { createSport, sportOf } from './sports.js';
-import { voice, fx } from '../../../platform/engine-kit/synth.js';
+import { voice, fx as synthFx } from '../../../platform/engine-kit/synth.js';
 import { hash, shade, rgba, venueOf, stageGeo, drawVenue, drawLight, drawBoat, drawFigure, groundShadow, drawDial, drawStance, drawFx } from './art.js';
 
 export const DEFAULTS = {
@@ -97,12 +97,12 @@ export function createActivity(userParams, env) {
   const A = env.audio, nat = !!A?.context;
   const spId = String(sportOf(P, env.text?.title) ?? '');
   const MAT = { arnis: 'wood', nguni: 'wood', silambam: 'wood', kushti: 'clay', kotta: 'skin', laamb: 'skin', moraingy: 'skin', silat: 'skin' }[spId] ?? 'skin';
-  const sTick = (q) => { if (!nat) return false; fx(A, 'whoosh', { vel: 0.35, dur: 0.14 }); if (q === 1) fx(A, 'tick', { hz: MAT === 'wood' ? 1700 : 1100, vel: 0.5 }); return true; };
+  const sTick = (q) => { if (!nat) return false; synthFx(A, 'whoosh', { vel: 0.35, dur: 0.14 }); if (q === 1) synthFx(A, 'tick', { hz: MAT === 'wood' ? 1700 : 1100, vel: 0.5 }); return true; };
   const sHit = (t) => {
     if (!nat) return false;
-    if (t === 'good') { fx(A, 'impact', { mat: MAT, vel: 0.9 }); fx(A, 'thud', { vel: 0.7, hz: 70, delay: 0.01 }); fx(A, 'ring', { hz: 1760, vel: 0.35, delay: 0.05 }); }
-    else if (t === 'bad') { fx(A, 'thud', { vel: 0.6, hz: 62 }); fx(A, 'impact', { mat: MAT, vel: 0.35, hz: 160 }); }
-    else fx(A, 'impact', { mat: MAT, vel: 0.5 });
+    if (t === 'good') { synthFx(A, 'impact', { mat: MAT, vel: 0.9 }); synthFx(A, 'thud', { vel: 0.7, hz: 70, delay: 0.01 }); synthFx(A, 'ring', { hz: 1760, vel: 0.35, delay: 0.05 }); }
+    else if (t === 'bad') { synthFx(A, 'thud', { vel: 0.6, hz: 62 }); synthFx(A, 'impact', { mat: MAT, vel: 0.35, hz: 160 }); }
+    else synthFx(A, 'impact', { mat: MAT, vel: 0.5 });
     return true;
   };
   const L = LEVELS[clamp(Math.round(P.level), 1, 3)];
@@ -364,7 +364,7 @@ export function createActivity(userParams, env) {
       phase = 'break';
       msg = X.end.winner === 'you' ? `Round ${round + 1}: you win` : `Round ${round + 1}: ${P.fighters.rival.name} wins`;
       msgT = 0;
-      if (nat) { if (X.end.winner === 'you') fx(A, 'chime', { hz: 784, vel: 0.7 }); else fx(A, 'bad', { hz: 200, vel: 0.7 }); }
+      if (nat) { if (X.end.winner === 'you') synthFx(A, 'chime', { hz: 784, vel: 0.7 }); else synthFx(A, 'bad', { hz: 200, vel: 0.7 }); }
       else env.audio?.tone({ freq: X.end.winner === 'you' ? 523 : 262, to: X.end.winner === 'you' ? 784 : 196, dur: 0.4, type: 'triangle' });
       return;
     }
@@ -395,7 +395,7 @@ export function createActivity(userParams, env) {
   }
   const tapMove = (idx) => {
     if (phase !== 'ready') return;
-    if (!affordable(you, moves[idx])) { msg = 'Too tired for that: breathe or pick a lighter move'; msgT = 0; if (nat) fx(A, 'bad', { hz: 190, vel: 0.35 }); else env.audio?.tone({ freq: 180, dur: 0.08, type: 'square', vol: 0.08 }); return; }
+    if (!affordable(you, moves[idx])) { msg = 'Too tired for that: breathe or pick a lighter move'; msgT = 0; if (nat) synthFx(A, 'bad', { hz: 190, vel: 0.35 }); else env.audio?.tone({ freq: 180, dur: 0.08, type: 'square', vol: 0.08 }); return; }
     commit(idx);
   };
   const step = (dt, cmd) => {
@@ -709,7 +709,12 @@ export function createActivity(userParams, env) {
       drawIcon(ctx, m.kind, b.x + 14 + ir, b.y + b.h / 2, ir * 1.1, kc);
       const tx = b.x + 14 + ir * 2 + 12;
       const fs = Math.max(Math.min(g.px(20), b.h * 0.3), g.px(0) * 0.95);
-      const lines = g.wrap(ctx, m.name, b.x + b.w - 30 - tx, fs).slice(0, 2);
+      const avail = b.x + b.w - 30 - tx;
+      const lines = g.wrap(ctx, m.name, avail, fs).slice(0, 2).map((ln) => {   // a single long word is cut with an ellipsis rather than leaving the card
+        ctx.save(); ctx.font = `800 ${Math.round(fs)}px system-ui, sans-serif`;
+        let o = ln; if (ctx.measureText(o).width > avail) { while (o.length > 2 && ctx.measureText(o + '\u2026').width > avail) o = o.slice(0, -1); o += '\u2026'; }
+        ctx.restore(); return o;
+      });
       lines.forEach((ln, i) => g.label(ctx, ln, tx, b.y + b.h * (lines.length > 1 ? 0.3 + i * 0.25 : 0.38), fs, pal.ink, 'left', '800'));
       const sub = m.kind === 'rest' ? `Recover ${Math.abs(m.cost)}` : `${m.kind}  ·  cost ${m.cost}`;
       const ssz = Math.min(g.px(14), b.h * 0.22);
