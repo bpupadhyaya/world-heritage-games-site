@@ -74,21 +74,42 @@ export function drawRoom(ctx, c) {
   ctx.fillStyle = 'rgba(0,0,0,0.3)'; ell(ctx, cx, baseY + 24, cw * 0.55, 14); ctx.fill();
   ctx.fillStyle = hgrad(ctx, cx - cw / 2, cx + cw / 2, [[0, '#6a1f2a'], [0.5, '#a63446'], [1, '#5a1822']]); rrect(ctx, cx - cw / 2, baseY + 6, cw, 24, 9); ctx.fill();
   ctx.strokeStyle = '#e0b04a'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(cx - cw / 2 + 12, baseY + 18); ctx.lineTo(cx + cw / 2 - 12, baseY + 18); ctx.stroke();
+  ctx.fillStyle = 'rgba(255,255,255,0.25)'; rrect(ctx, cx - cw / 2 + 10, baseY + 8, cw - 20, 3, 2); ctx.fill();
+  // vignette: the room falls into evening shade at the corners so the stack is the brightest thing
+  const vg = ctx.createRadialGradient(cx, baseY - A.h * 0.2, A.w * 0.2, cx, baseY - A.h * 0.2, Math.max(A.w, A.h) * 0.85);
+  vg.addColorStop(0, 'rgba(255,214,140,0.12)'); vg.addColorStop(0.55, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(20,8,0,0.5)');
+  ctx.fillStyle = vg; ctx.fillRect(A.x - 10, A.y, A.w + 20, A.h);
 }
 
-export function drawBlock(ctx, x, y, w, h, col, sel) {
-  const r = h * 0.22;
-  ctx.fillStyle = 'rgba(0,0,0,0.3)'; rrect(ctx, x + 3, y + 5, w, h - 2, r); ctx.fill();
-  ctx.fillStyle = hgrad(ctx, x, x + w, [[0, dark(col, 0.35)], [0.12, light(col, 0.45)], [0.35, col], [0.8, dark(col, 0.35)], [1, dark(col, 0.6)]]);
-  rrect(ctx, x, y + 1, w, h - 2, r); ctx.fill();
-  // lacquer: deep gloss band and mirrored sky glint
-  ctx.fillStyle = 'rgba(255,255,255,0.4)'; rrect(ctx, x + w * 0.08, y + h * 0.13, w * 0.84, h * 0.17, h * 0.08); ctx.fill();
-  ctx.fillStyle = 'rgba(255,255,255,0.14)'; rrect(ctx, x + w * 0.08, y + h * 0.62, w * 0.5, h * 0.1, h * 0.05); ctx.fill();
-  // gold rim lines
-  ctx.strokeStyle = '#e8c35a'; ctx.lineWidth = Math.max(1.5, h * 0.045);
-  ctx.beginPath(); ctx.moveTo(x + w * 0.05, y + h * 0.06); ctx.lineTo(x + w * 0.95, y + h * 0.06); ctx.moveTo(x + w * 0.05, y + h * 0.94); ctx.lineTo(x + w * 0.95, y + h * 0.94); ctx.stroke();
-  ctx.strokeStyle = 'rgba(0,0,0,0.5)'; ctx.lineWidth = 1.5; rrect(ctx, x, y + 1, w, h - 2, r); ctx.stroke();
-  if (sel) { ctx.strokeStyle = '#ffd24a'; ctx.lineWidth = 4; rrect(ctx, x - 4, y - 2, w + 8, h + 2, r + 3); ctx.stroke(); }
+export function drawBlock(ctx, x, y, w, h, col, sel, tilt = 0) {
+  // a lacquered disc seen from slightly above: the front arc of its base covers the cap of the piece below
+  const ry = Math.max(3, h * 0.17), cx = x + w / 2, rx = w / 2, bot = y + h;
+  const body = () => { ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x, bot); ctx.ellipse(cx, bot, rx, ry, 0, Math.PI, 0, true); ctx.lineTo(x + w, y); ctx.ellipse(cx, y, rx, ry, 0, 0, Math.PI, true); ctx.closePath(); };
+  // contact shadow on the piece below / the mat
+  ctx.fillStyle = 'rgba(0,0,0,0.28)'; ctx.beginPath(); ctx.ellipse(cx + 3, bot + ry * 1.1, rx * 1.02, ry * 1.1, 0, 0, TAU); ctx.fill();
+  body();
+  ctx.fillStyle = hgrad(ctx, x, x + w, [[0, dark(col, 0.55)], [0.1, dark(col, 0.2)], [0.28, light(col, 0.5)], [0.4, light(col, 0.15)], [0.62, col], [0.88, dark(col, 0.45)], [1, dark(col, 0.7)]]); ctx.fill();
+  // glossy vertical lacquer reflections (window light) and fine wood grain under the lacquer
+  ctx.save(); body(); ctx.clip();
+  ctx.fillStyle = 'rgba(255,255,255,0.55)'; rrect(ctx, x + w * 0.2, y + ry, w * 0.05, h - ry * 0.4, w * 0.025); ctx.fill();
+  ctx.fillStyle = 'rgba(255,255,255,0.18)'; rrect(ctx, x + w * 0.29, y + ry, w * 0.1, h - ry * 0.4, w * 0.04); ctx.fill();
+  ctx.fillStyle = 'rgba(255,255,255,0.12)'; rrect(ctx, x + w * 0.78, y + ry * 1.2, w * 0.035, h - ry * 1.4, w * 0.02); ctx.fill();
+  ctx.strokeStyle = 'rgba(0,0,0,0.09)'; ctx.lineWidth = 1; ctx.beginPath();
+  for (let k = 1; k < 4; k++) { const yy = y + ry + (h * k) / 4; ctx.moveTo(x, yy); ctx.quadraticCurveTo(cx, yy + ry * 1.6, x + w, yy); }
+  ctx.stroke();
+  // gold bands following the curve, top and bottom
+  ctx.strokeStyle = '#e8c35a'; ctx.lineWidth = Math.max(1.5, h * 0.05);
+  for (const yy of [y + h * 0.16, bot - h * 0.14]) { ctx.beginPath(); ctx.ellipse(cx, yy, rx, ry, 0, 0, Math.PI); ctx.stroke(); }
+  ctx.strokeStyle = 'rgba(255,245,200,0.7)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.ellipse(cx, y + h * 0.16 - 1.5, rx * 0.98, ry, 0, 0.2, Math.PI - 0.2); ctx.stroke();
+  // darker base where it meets the piece below
+  ctx.fillStyle = 'rgba(0,0,0,0.18)'; ctx.beginPath(); ctx.ellipse(cx, bot, rx, ry, 0, 0, Math.PI); ctx.fill();
+  ctx.restore();
+  // cap (visible only on the top piece and while a piece is knocked out)
+  ctx.fillStyle = hgrad(ctx, x, x + w, [[0, dark(col, 0.3)], [0.5, light(col, 0.3)], [1, dark(col, 0.4)]]);
+  ctx.beginPath(); ctx.ellipse(cx, y, rx, ry, 0, 0, TAU); ctx.fill();
+  ctx.strokeStyle = 'rgba(0,0,0,0.5)'; ctx.lineWidth = 1.5; body(); ctx.stroke();
+  if (sel) { ctx.strokeStyle = '#ffd24a'; ctx.lineWidth = 4; ctx.beginPath(); ctx.ellipse(cx, bot, rx + 4, ry + 3, 0, 0, Math.PI); ctx.moveTo(x - 4, y); ctx.lineTo(x - 4, bot); ctx.moveTo(x + w + 4, y); ctx.lineTo(x + w + 4, bot); ctx.stroke(); ctx.strokeStyle = 'rgba(255,210,74,0.35)'; ctx.lineWidth = 9; ctx.stroke(); }
+  void tilt;
 }
 
 // small wooden hammer (kozuchi): cylinder head with end grain, thin handle, a kimono sleeve and hand

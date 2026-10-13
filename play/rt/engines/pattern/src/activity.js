@@ -4,10 +4,12 @@
 // shape 'polar' (1.3.0): a disc of `rings` concentric rings x `rays` radial sectors; cell (c, r) = (ray c, ring r), ring 0 is innermost, ray 0 starts at the top and runs clockwise.
 //   Internally cols = rays and rows = rings, so designs, targets and boards use the same flat layout as the grid.
 // `designs`: optional hand-authored targets: [{ name, rows: ["..a..", ...], legend: { a: { m: motifIndex, c: colourIndex } } }] ('.' = empty). One is chosen per round.
-import { drawStamp, drawGround, drawThreadOverlay, drawLight, frameBefore, frameAfter, pickMaterial, hash, hashStr, rgba, mix, shade, lum, sparkle, roundRectPath, clamp, createRng, drawProp } from './art.js';
+import { drawStamp, drawGround, drawThreadOverlay, drawLight, frameBefore, frameAfter, pickMaterial, hash, hashStr, rgba, mix, shade, lum, sparkle, roundRectPath, motifPath, clamp, createRng, drawProp } from './art.js';
 import { pickScene } from './scenes.js';
-import { SND, FX, POT, drawCardBase } from './scene-kit.js';
+import { SCENES } from './scenes.js';
+import { FX, POT, drawCardBase } from './scene-kit.js';
 import { toolOf } from './scene-tools.js';
+import { makeSound } from './sound.js';
 
 export const DEFAULTS = { scene: 'auto', material: 'auto', shape: 'grid', rings: 5, rays: 16, rotateMarks: false, designs: null, cols: 7, rows: 7, symmetry: 'rot4', palette: [{ name: 'Cream', color: '#f3ead2' }, { name: 'Red', color: '#c8452d' }, { name: 'Blue', color: '#27508c' }, { name: 'Gold', color: '#e0a82e' }], background: '#2b2118', grid: '#4d3b2a', motifs: ['solid', 'diamond', 'dot', 'cross'], mode: 'copy', density: 0.45, colorsInTarget: 3 };
 
@@ -87,7 +89,8 @@ export function createActivity(userParams, env) {
   if (polar) validatePolarDesigns(P);
   const scene = pickScene(P, env.text);
   const mat = scene?.mat ?? pickMaterial(P.material === 'auto' ? null : P.material, env.text?.title, env.text?.summary);
-  const snd = SND[scene?.snd] ?? SND.default;
+  const sceneId = scene ? Object.keys(SCENES).find((k) => SCENES[k] === scene) ?? '' : '';
+  const sfx = makeSound(env.audio, scene?.snd ?? 'default', `${sceneId} ${env.text?.title ?? ''}`);
   const reduce = !!(env.config?.reduceMotion);
   const psym = polar ? parsePolarSymmetry(P.symmetry, P.rays) : null;
   const cols = polar ? P.rays : P.cols, rows = polar ? P.rings : P.rows;
@@ -131,7 +134,6 @@ export function createActivity(userParams, env) {
   };
   init();
 
-  const tone = (o) => env.audio?.tone(o);
   const paint = (c, r) => {
     undoStack.push(board.map((x) => ({ ...x })));
     const erase = sel.m === -1;
@@ -145,7 +147,7 @@ export function createActivity(userParams, env) {
     }
     // a soft thud, then a small high tick for the grain of the material
     toolHit = clock;
-    snd.paint(tone, sel.c);
+    sfx.paint(sel.c);
   };
 
   const score = () => {
@@ -170,7 +172,7 @@ export function createActivity(userParams, env) {
     revealAt = clock;
     wrongAt = [];
     if (target) for (let i = 0; i < total; i++) { const a = board[i], b = target[i]; if (!(a.m === -1 && b.m === -1) && !(a.m === b.m && a.c === b.c)) wrongAt.push(i); }
-    tone({ freq: 330, to: 660, dur: 0.32, type: 'triangle', vol: 0.14 });
+    sfx.done(stars);
   };
   const check = () => {
     const r = score();
@@ -290,6 +292,55 @@ export function createActivity(userParams, env) {
   const cellCentre = (B, c, r) => (polar ? sectorCentre(B, c, r) : { x: B.x + (c + 0.5) * B.cell, y: B.y + (r + 0.5) * B.cell });
   const cellSize = (B, r) => (polar ? Math.min(B.thick, (B.R0 + (r + 0.5) * B.thick) * step) * 0.92 : B.cell * 0.9);
 
+  // Empty cells read as shallow pockets in the ground (light top-left edge, dark bottom-right) so a blank board still has relief.
+  const drawPockets = (ctx, B, k) => {
+    if (B.cell < 14) return;
+    const dark = lum(bgc) < 0.5, m = B.cell * 0.07, w = Math.max(1, B.cell * 0.035);
+    ctx.save(); ctx.lineWidth = w; ctx.lineCap = 'butt';
+    ctx.beginPath();
+    for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
+      if (board[at(c, r)].m !== -1) continue;
+      const x0 = B.x + c * B.cell + m, y0 = B.y + r * B.cell + m, x1 = x0 + B.cell - 2 * m, y1 = y0 + B.cell - 2 * m;
+      ctx.moveTo(x0, y1); ctx.lineTo(x0, y0); ctx.lineTo(x1, y0);
+    }
+    ctx.strokeStyle = rgba('#fff', (dark ? 0.16 : 0.5) * k); ctx.stroke();
+    ctx.beginPath();
+    for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
+      if (board[at(c, r)].m !== -1) continue;
+      const x0 = B.x + c * B.cell + m, y0 = B.y + r * B.cell + m, x1 = x0 + B.cell - 2 * m, y1 = y0 + B.cell - 2 * m;
+      ctx.moveTo(x1, y0); ctx.lineTo(x1, y1); ctx.lineTo(x0, y1);
+    }
+    ctx.strokeStyle = rgba('#000', (dark ? 0.5 : 0.2) * k); ctx.stroke();
+    ctx.restore();
+  };
+
+  // Chart guide: outline of every target motif that is not yet painted, with a pip of its colour; pulses gently.
+  const drawChart = (ctx, B, k) => {
+    const dark = lum(bgc) < 0.5, chalk = dark ? '#fff4d8' : '#2a1a10';
+    const pulse = reduce ? 0.8 : 0.72 + 0.18 * Math.sin(clock * 2.2);
+    ctx.save(); ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
+      const i = at(c, r), tc = target[i];
+      if (tc.m === -1 || board[i].m !== -1) continue;
+      const p = cellCentre(B, c, r), size = cellSize(B, r), kind = cellKind(tc);
+      ctx.save(); ctx.translate(p.x, p.y);
+      if (polar) { ctx.rotate(sectorAngle(c) + Math.PI / 2); if (psym.mirror && Math.floor(((c + 0.5) * 2) / psym.step) % 2 === 1) ctx.scale(-1, 1); }
+      else if (P.rotateMarks) { const t = orient(P.symmetry, c, r, cols, rows); ctx.rotate((t.rot * Math.PI) / 2); ctx.scale(t.fx ? -1 : 1, t.fy ? -1 : 1); }
+      const sz = size * 0.82, lw = Math.max(1, size * 0.045);
+      motifPath(ctx, kind, 0, 0, sz);
+      ctx.setLineDash([Math.max(2, size * 0.1), Math.max(2, size * 0.08)]);
+      ctx.strokeStyle = rgba(dark ? '#000' : '#fff', 0.35 * k); ctx.lineWidth = lw * 2.2; ctx.stroke();
+      ctx.strokeStyle = rgba(chalk, 0.62 * pulse * k); ctx.lineWidth = lw; ctx.stroke();
+      ctx.setLineDash([]);
+      const pr = Math.max(2, size * 0.085), col = P.palette[tc.c].color;
+      ctx.fillStyle = rgba('#000', 0.5 * k); ctx.beginPath(); ctx.arc(pr * 0.2, pr * 0.3, pr * 1.25, 0, 6.2832); ctx.fill();
+      ctx.fillStyle = rgba(col, 0.95 * k); ctx.beginPath(); ctx.arc(0, 0, pr, 0, 6.2832); ctx.fill();
+      ctx.strokeStyle = rgba('#fff', 0.8 * k); ctx.lineWidth = Math.max(1, pr * 0.3); ctx.stroke();
+      ctx.restore();
+    }
+    ctx.restore();
+  };
+
   // Draws one board (the player's, the reference card's or the title art's) with every material effect.
   // o: { cells, lite, anim, grid (0..1), guides (0..1), reveal (0..1), light }
   const renderBoard = (ctx, B, o) => {
@@ -310,6 +361,10 @@ export function createActivity(userParams, env) {
       const c = i % cols, r = Math.floor(i / cols), p = cellCentre(B, c, r), k = age / 0.25;
       drawCellAt(ctx, eraseCell[i], p.x, p.y, cellSize(B, r), c, r, i, 1 - 0.25 * k, 1 - k);
     }
+    // chart guide (1.6.0): the design to copy is pricked onto the ground as a faint chalk or pencil outline with a small pip of the
+    // thread colour, like the transfer or the counted chart a maker really works from, so the work never starts as an empty slab.
+    if (o.guide && !lite && !polar) drawPockets(ctx, B, o.guide);
+    if (o.guide && target && !lite && !outcome) drawChart(ctx, B, o.guide);
     // stamps (a stamp that has just landed drops from above with a small bounce)
     for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
       const i = at(c, r), cellv = cells[i]; if (cellv.m === -1) continue;
@@ -671,10 +726,10 @@ export function createActivity(userParams, env) {
       }
       const hit = buttons(layout).find((x) => p.x >= x.x && p.x <= x.x + x.w && p.y >= x.y && p.y <= x.y + x.h);
       if (!hit) return;
-      if (hit.id.startsWith('color:')) { sel.c = Number(hit.id.slice(6)); tone({ freq: 520 + sel.c * 45, dur: 0.06, type: 'sine', vol: 0.09 }); }
-      else if (hit.id.startsWith('motif:')) { sel.m = Number(hit.id.slice(6)); tone({ freq: 400 + (sel.m + 1) * 40, dur: 0.05, type: 'triangle', vol: 0.09 }); }
-      else if (hit.id === 'undo') { if (undoStack.length) { board = undoStack.pop(); tone({ freq: 300, to: 220, dur: 0.08, type: 'triangle', vol: 0.1 }); } }
-      else if (hit.id === 'clear') { undoStack.push(board.map((x) => ({ ...x }))); board = empty(); tone({ freq: 260, to: 150, dur: 0.16, type: 'triangle', vol: 0.1 }); }
+      if (hit.id.startsWith('color:')) { sel.c = Number(hit.id.slice(6)); sfx.color(sel.c); }
+      else if (hit.id.startsWith('motif:')) { sel.m = Number(hit.id.slice(6)); sfx.motif(sel.m + 1); }
+      else if (hit.id === 'undo') { if (undoStack.length) { board = undoStack.pop(); sfx.undo(); } }
+      else if (hit.id === 'clear') { undoStack.push(board.map((x) => ({ ...x }))); board = empty(); sfx.clear(); }
       else if (hit.id === 'check') check();
     },
     attract(dt) {
@@ -693,7 +748,7 @@ export function createActivity(userParams, env) {
           sel = { m: t.m, c: t.c }; const c = i % cols, r = Math.floor(i / cols); let k = 0;
           for (const [x, y] of orbitOf(c, r)) { const j = at(x, y); board[j] = { ...script[j] }; landAt[j] = clock + k * 0.05; eraseAt[j] = -1e9; k++; }
           hover = { c, r }; hoverAt = clock;
-          toolHit = clock; snd.paint(tone, sel.c);
+          toolHit = clock; sfx.paint(sel.c, 0.7);
           return;
         }
       }
@@ -720,7 +775,7 @@ export function createActivity(userParams, env) {
       const lift = revealT >= 0 && !reduce ? rp : 0;
       ctx.save();
       if (lift > 0) { ctx.translate(bc.x, bc.y); const s = 1 + 0.012 * Math.sin(Math.PI * Math.min(1, rp * 1.0)) + 0.008 * rp; ctx.scale(s, s); ctx.translate(-bc.x, -bc.y); }
-      renderBoard(ctx, b, { cells: board, lite: false, anim: true, grid: 1 - rp, fd: L.fd, reveal: lift });
+      renderBoard(ctx, b, { cells: board, lite: false, anim: true, grid: 1 - rp, fd: L.fd, reveal: lift, guide: 1 - rp });
       drawGuides(ctx, b, (1 - rp) * (revealAt >= 0 ? 1 : 1));
       drawGhosts(ctx, b);
       drawLandingFx(ctx, b);

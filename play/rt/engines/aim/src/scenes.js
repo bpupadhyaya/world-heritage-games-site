@@ -5,6 +5,7 @@
 //   alka      - a street of stone houses, the ring gantry (spoked iron alka), a lance with pennant, horse ears
 //   steppe    - open steppe with felt tents, a rail fence and a gallop camera, square hide targets, a recurve bow
 import { mix, dark, light, alpha, vgrad, hgrad, poly, rrect, clamp, hash } from './scenery.js';
+import { SOUND } from './sound.js';
 
 const TAU = Math.PI * 2;
 const ell = (ctx, x, y, rx, ry, rot = 0) => { ctx.beginPath(); ctx.ellipse(x, y, Math.max(0.5, rx), Math.max(0.5, ry), rot, 0, TAU); };
@@ -163,7 +164,11 @@ function pinataScene(P, env, fx) {
         ctx.beginPath(); ctx.moveTo(r0, -w0); ctx.lineTo(r1, -w1);
         for (let k = 0; k < 5; k++) ctx.lineTo(r1 + (k % 2 ? R * 0.02 : R * 0.07), -w1 + (w1 * 2 * (k + 0.5)) / 5);
         ctx.lineTo(r1, w1); ctx.lineTo(r0, w0); ctx.closePath(); ctx.fill();
-        ctx.strokeStyle = 'rgba(0,0,0,0.18)'; ctx.lineWidth = 1; ctx.stroke();
+        const sh = ctx.createLinearGradient(0, -w0, 0, w0); sh.addColorStop(0, 'rgba(255,255,255,0.32)'); sh.addColorStop(0.45, 'rgba(255,255,255,0)'); sh.addColorStop(1, 'rgba(10,0,30,0.38)');
+        ctx.fillStyle = sh; ctx.fill();
+        ctx.strokeStyle = 'rgba(0,0,0,0.22)'; ctx.lineWidth = 1; ctx.stroke();
+        // crepe-paper fringe ribs
+        ctx.strokeStyle = 'rgba(255,255,255,0.22)'; ctx.lineWidth = 1; ctx.beginPath(); for (let k = 1; k < 4; k++) { ctx.moveTo(r0 + (r1 - r0) * 0.15, -w0 + (w0 * 2 * k) / 4); ctx.lineTo(r1, -w1 + (w1 * 2 * k) / 4); } ctx.stroke();
       }
       const tip = ctx.createRadialGradient(R, 0, 0, R, 0, R * 0.12); tip.addColorStop(0, '#fff7c2'); tip.addColorStop(1, 'rgba(255,220,100,0)');
       ctx.fillStyle = tip; ctx.fillRect(R - R * 0.14, -R * 0.14, R * 0.28, R * 0.28);
@@ -176,6 +181,8 @@ function pinataScene(P, env, fx) {
     for (let k = -1; k <= 1; k++) { ctx.beginPath(); ctx.ellipse(x, y + k * rb * 0.45, rb * Math.sqrt(1 - Math.pow(k * 0.45, 2)) * 0.98, rb * 0.16, 0, 0, TAU); ctx.stroke(); }
     ctx.fillStyle = '#fff7d6'; poly(ctx, Array.from({ length: 10 }, (_, i) => { const a = -Math.PI / 2 + (i / 10) * TAU, rr = i % 2 ? rb * 0.2 : rb * 0.46; return [x + Math.cos(a) * rr, y + Math.sin(a) * rr]; })); ctx.fill();
     ctx.fillStyle = 'rgba(255,255,255,0.35)'; ell(ctx, x - rb * 0.35, y - rb * 0.45, rb * 0.28, rb * 0.14, -0.6); ctx.fill();
+    const rim = ctx.createRadialGradient(x, y, rb * 0.6, x, y, rb); rim.addColorStop(0, 'rgba(0,0,0,0)'); rim.addColorStop(1, 'rgba(40,0,20,0.45)');
+    ctx.fillStyle = rim; ctx.beginPath(); ctx.arc(x, y, rb, 0, TAU); ctx.fill();
   }
 
   const target = (ctx, g, c, o) => {
@@ -195,7 +202,7 @@ function pinataScene(P, env, fx) {
     // swing about the pulley point
     const ang = (h ? h.amp * Math.sin(h.t * 20) * Math.exp(-h.t * 3.4) : 0) + wob * 0 + Math.sin(t * 2 + i) * 0.015;
     ctx.save(); ctx.translate(cx, cy); ctx.rotate(ang); ctx.translate(-cx, -cy);
-    star(ctx, cx, cy, R, t, Math.sin(t * 0.9) * 0.08, Math.min(hitsN, 4));
+    star(ctx, cx, cy, R * 1.12, t, Math.sin(t * 0.9) * 0.08, Math.min(hitsN, 4));
     // a white flash right after a hit
     if (h && h.t < 0.22) { ctx.fillStyle = `rgba(255,255,255,${0.55 * (1 - h.t / 0.22)})`; ctx.beginPath(); ctx.arc(cx, cy, R * 0.6, 0, TAU); ctx.fill(); }
     ctx.restore();
@@ -203,23 +210,20 @@ function pinataScene(P, env, fx) {
   };
 
   const onShoot = (tone, fxs) => {
-    tone({ freq: 380, to: 140, dur: 0.16, type: 'sawtooth', vol: 0.22 });     // whoosh of the stick
-    fxs.sfx(0.03, { freq: 900, to: 300, dur: 0.1, type: 'triangle', vol: 0.06 });
+    void tone; void fxs; SOUND.pinataSwing(env.audio);
   };
 
   const onResolve = (info) => {
     const { points, p, tone, fxs, s } = info;
     if (points) {
       hitsN++;
-      tone({ freq: 200, to: 90, dur: 0.1, type: 'square', vol: 0.4 });         // wood on papier-mache
-      fxs.sfx(0.02, { freq: 1700, to: 800, dur: 0.07, type: 'sawtooth', vol: 0.12 });   // paper tearing
-      for (let k = 0; k < 4 + points * 2; k++) fxs.sfx(0.08 + k * 0.045, { freq: 1500 + hash(k + hitsN * 7) * 1600, dur: 0.05, type: 'triangle', vol: 0.09 });   // candy rain on stones
+      SOUND.pinataHit(env.audio, points, hitsN);
       fxs.shards(p.x, p.y, s * 0.045, CANDY, 12 + points * 4);
       fxs.sparks(p.x, p.y, s * 0.06, '#fff2a0', 6);
       fxs.kick(2 + points);
       for (let k = 0; k < 3 + points; k++) candies.push({ x: info.x + (hash(candies.length * 5 + k) - 0.5) * 0.7, dy: hash(candies.length * 3 + k) * 22, col: CANDY[(candies.length + k) % CANDY.length], r: hash(candies.length + k) * 3 });
     } else {
-      tone({ freq: 160, to: 90, dur: 0.1, type: 'sine', vol: 0.25 });
+      SOUND.pinataMiss(env.audio);
       fxs.dust(p.x, p.y, s * 0.04, 'rgba(255,230,240,0.5)', 4);
       fxs.kick(1);
     }
@@ -376,23 +380,19 @@ function alkaScene(P, env, fx) {
   const i0 = 0;
 
   const onShoot = (tone, fxs) => {
-    tone({ freq: 220, to: 360, dur: 0.18, type: 'triangle', vol: 0.18 });         // hooves quickening
-    fxs.sfx(0.0, { freq: 120, to: 90, dur: 0.12, type: 'sine', vol: 0.3 });
-    fxs.sfx(0.06, { freq: 110, to: 85, dur: 0.1, type: 'sine', vol: 0.25 });
+    void tone; void fxs; SOUND.alkaShoot(env.audio);
   };
 
   const onResolve = (info) => {
     const { points, p, tone, fxs, s } = info;
     if (points) {
       ringsOn++; lastHit = { t: 0, x: info.x, y: info.y };
-      tone({ freq: 1760, to: 1500, dur: 0.35, type: 'sine', vol: 0.35 });      // the ring rings on the iron
-      fxs.sfx(0.02, { freq: 2637, dur: 0.3, type: 'sine', vol: 0.14 });
-      fxs.sfx(0.0, { freq: 150, to: 70, dur: 0.08, type: 'sine', vol: 0.4 });
+      SOUND.alkaHit(env.audio, points);
       fxs.sparks(p.x, p.y, s * 0.06, '#ffe9a0', 9 + points * 3);
       fxs.ring(p.x, p.y, s * 0.12, s * 0.12, 'rgba(255,240,180,0.9)', 0.5, 3);
       fxs.kick(1.5 + points);
     } else {
-      tone({ freq: 180, to: 100, dur: 0.12, type: 'sawtooth', vol: 0.2 });
+      SOUND.alkaMiss(env.audio);
       fxs.dust(p.x, p.y, s * 0.04, 'rgba(235,215,170,0.6)', 5);
       fxs.kick(1);
     }
@@ -491,10 +491,29 @@ function steppeScene(P, env, fx) {
     const tr0 = hz + (baseY - hz) * 0.6;
     ctx.fillStyle = vgrad(ctx, tr0, bottom + 40, [[0, mix(gnd, '#d8c08a', 0.4)], [1, dark(gnd, 0.25)]]);
     ctx.beginPath(); ctx.moveTo(A.x - 20, tr0 + (bottom - tr0) * 0.18); ctx.lineTo(A.x + A.w + 20, tr0 + (bottom - tr0) * 0.18); ctx.lineTo(A.x + A.w + 20, bottom + 40); ctx.lineTo(A.x - 20, bottom + 40); ctx.closePath(); ctx.fill();
-    // overhanging branches in the foreground: the lane runs under a stand of old trees, which also darkens the sky edge
-    ctx.fillStyle = 'rgba(24,36,16,0.92)'; ctx.fillRect(A.x - 10, A.y, A.w + 20, skyH * 0.16);
-    for (let i = 0; i < 16; i++) { const x = A.x + A.w * (i + 0.5) / 16 + Math.sin(t * 0.8 + i) * 3, r = skyH * (0.12 + 0.1 * hash(i + 60)); ctx.fillStyle = i % 3 ? 'rgba(30,48,20,0.95)' : 'rgba(44,66,28,0.95)'; ctx.beginPath(); ctx.arc(x, A.y + skyH * 0.16, r, 0, Math.PI); ctx.fill(); }
-    ctx.strokeStyle = 'rgba(20,14,8,0.9)'; ctx.lineWidth = 7; ctx.beginPath(); ctx.moveTo(A.x - 10, A.y + skyH * 0.05); ctx.quadraticCurveTo(A.x + A.w * 0.35, A.y + skyH * 0.2, A.x + A.w * 0.62, A.y + skyH * 0.12); ctx.stroke();
+    // overhanging branches in the foreground: the lane runs under old trees; leaves in three shades, a gnarled bough,
+    // sun shafts falling through and a darker edge at the top of the frame
+    {
+      const topH = skyH * 0.2;
+      const shaft = (x0, w0, a0) => { const gs = ctx.createLinearGradient(x0, A.y, x0 + w0 * 0.6, A.y + skyH * 0.9); gs.addColorStop(0, `rgba(255,236,170,${a0})`); gs.addColorStop(1, 'rgba(255,236,170,0)'); ctx.fillStyle = gs; poly(ctx, [[x0, A.y], [x0 + w0, A.y], [x0 + w0 * 1.9, A.y + skyH * 0.95], [x0 + w0 * 0.7, A.y + skyH * 0.95]]); ctx.fill(); };
+      shaft(A.x + A.w * 0.18, A.w * 0.06, 0.16); shaft(A.x + A.w * 0.5, A.w * 0.09, 0.12); shaft(A.x + A.w * 0.78, A.w * 0.05, 0.14);
+      ctx.fillStyle = 'rgba(18,30,12,0.97)'; ctx.fillRect(A.x - 10, A.y, A.w + 20, topH * 0.6);
+      const shades = ['rgba(26,44,16,0.97)', 'rgba(38,62,24,0.97)', 'rgba(52,82,30,0.97)', 'rgba(70,104,38,0.95)'];
+      for (let layer = 0; layer < 3; layer++) {
+        const n = 14 + layer * 4;
+        for (let i = 0; i < n; i++) {
+          const x = A.x + A.w * ((i + 0.3 + 0.6 * hash(i * 3 + layer * 31)) / n) + Math.sin(t * (0.6 + layer * 0.15) + i) * (2 + layer);
+          const r = skyH * (0.05 + 0.06 * hash(i + 60 + layer * 9)) * (1 + layer * 0.15), y = A.y + topH * (0.55 + layer * 0.22) + hash(i + 80 + layer) * topH * 0.25;
+          ctx.fillStyle = shades[(i + layer) % 3]; ctx.beginPath(); ctx.ellipse(x, y, r * 1.2, r, 0, 0, TAU); ctx.fill();
+          ctx.fillStyle = shades[3]; ctx.globalAlpha = 0.5; ctx.beginPath(); ctx.ellipse(x - r * 0.3, y - r * 0.35, r * 0.55, r * 0.35, -0.4, 0, TAU); ctx.fill(); ctx.globalAlpha = 1;
+        }
+      }
+      // gnarled bough with bark shading running in from the left edge
+      const by = A.y + topH * 0.35;
+      ctx.fillStyle = vgrad(ctx, by - 10, by + 14, [[0, '#6a4a2a'], [0.5, '#3e2a16'], [1, '#1c1208']]);
+      ctx.beginPath(); ctx.moveTo(A.x - 10, by - 14); ctx.quadraticCurveTo(A.x + A.w * 0.3, by + 4, A.x + A.w * 0.66, by - 4); ctx.lineTo(A.x + A.w * 0.66, by + 3); ctx.quadraticCurveTo(A.x + A.w * 0.3, by + 14, A.x - 10, by + 16); ctx.closePath(); ctx.fill();
+      ctx.fillStyle = 'rgba(40,64,22,0.95)'; for (let i = 0; i < 7; i++) { const x = A.x + A.w * (0.08 + i * 0.09), y = by + 8 + (i % 2) * 6; ctx.beginPath(); ctx.ellipse(x, y, 9, 5, 0.4 + i * 0.2, 0, TAU); ctx.fill(); }
+    }
     // course rope with posts along the track edge
     const ry = tr0 + (bottom - tr0) * 0.18;
     ctx.strokeStyle = '#efe6cc'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(A.x - 20, ry - 8); ctx.lineTo(A.x + A.w + 20, ry - 8); ctx.stroke();
@@ -544,22 +563,18 @@ function steppeScene(P, env, fx) {
   };
 
   const onShoot = (tone, fxs) => {
-    tone({ freq: 130, to: 90, dur: 0.07, type: 'square', vol: 0.18 });             // string slap
-    fxs.sfx(0.01, { freq: 900, to: 1500, dur: 0.12, type: 'triangle', vol: 0.12 });  // arrow hiss
-    fxs.sfx(0.0, { freq: 80, to: 60, dur: 0.12, type: 'sine', vol: 0.18 });        // hoof beat
+    void tone; void fxs; SOUND.archShoot(env.audio);
   };
 
   const onResolve = (info) => {
     const { points, p, tone, fxs, s } = info;
     if (points) {
-      tone({ freq: 140, to: 80, dur: 0.08, type: 'square', vol: 0.35 });
-      fxs.sfx(0.0, { freq: 400 + points * 90, to: 700 + points * 120, dur: 0.14, type: 'triangle', vol: 0.3 });
-      fxs.sfx(0.08, { freq: 260, to: 520, dur: 0.18, type: 'triangle', vol: 0.12 });
+      SOUND.archHit(env.audio, points);
       fxs.shards(p.x, p.y, s * 0.04, ['#f3e6c4', '#c9a85a', '#8a5a2a'], 8 + points * 2);
       fxs.sparks(p.x, p.y, s * 0.05, '#fff0b0', 5);
       fxs.kick(1.5 + points * 0.5);
     } else {
-      tone({ freq: 190, to: 120, dur: 0.1, type: 'sawtooth', vol: 0.15 });
+      SOUND.archMiss(env.audio);
       fxs.dust(p.x, p.y, s * 0.05, 'rgba(210,190,140,0.7)', 6);
       fxs.kick(1);
     }
@@ -576,13 +591,46 @@ function steppeScene(P, env, fx) {
     else aim = { x: cx - A.w * 0.1, y: bottom - A.h * 0.36 };
     const dx = aim.x - grip.x, dy = aim.y - grip.y, L = Math.hypot(dx, dy) || 1, ux = dx / L, uy = dy / L, nx = -uy, ny = ux;
     const draw = o.flight ? 0.1 : o.drawLevel ?? 0;
-    // the horse: a ruddy neck and a blowing mane sweeping across the lower left
-    const hg = ctx.createLinearGradient(A.x, bottom - A.h * 0.22, A.x + A.w * 0.3, bottom);
-    hg.addColorStop(0, '#9a5a30'); hg.addColorStop(1, '#4e2a14');
-    ctx.fillStyle = hg; ctx.beginPath(); ctx.moveTo(A.x - 10, bottom + 8); ctx.quadraticCurveTo(A.x + A.w * 0.04, bottom - A.h * 0.22, A.x + A.w * 0.2, bottom - A.h * 0.1); ctx.quadraticCurveTo(A.x + A.w * 0.26, bottom - A.h * 0.02, A.x + A.w * 0.3, bottom + 8); ctx.closePath(); ctx.fill();
-    ctx.strokeStyle = '#1e120a'; ctx.lineWidth = 3; ctx.lineCap = 'round';
-    for (let i = 0; i < 12; i++) { const f = i / 11, mx = A.x + A.w * (0.02 + f * 0.17), my = bottom - A.h * (0.2 - f * 0.09); ctx.beginPath(); ctx.moveTo(mx, my); ctx.quadraticCurveTo(mx + 14, my - 14 + Math.sin(t * 12 + i) * 4, mx + 30 + Math.sin(t * 9 + i) * 5, my - 4 + Math.sin(t * 10 + i * 2) * 6); ctx.stroke(); }
-    ctx.lineCap = 'butt';
+    // the horse: a chestnut neck rising from the saddle, ears pricked, braided headstall, mane streaming back
+    {
+      const nk = Math.sin(t * 9) * A.h * 0.006, bx = A.x, by = bottom;
+      const nw = A.w * 0.34, nh = A.h * 0.26;
+      const hg = ctx.createLinearGradient(bx, by - nh, bx + nw, by);
+      hg.addColorStop(0, '#b06a38'); hg.addColorStop(0.5, '#8a4a22'); hg.addColorStop(1, '#4a2410');
+      ctx.fillStyle = hg; ctx.beginPath(); ctx.moveTo(bx - 10, by + 8);
+      ctx.bezierCurveTo(bx + nw * 0.02, by - nh * 0.9 + nk, bx + nw * 0.1, by - nh * 1.0 + nk, bx + nw * 0.26, by - nh * 0.92 + nk);   // crest up to the poll
+      ctx.bezierCurveTo(bx + nw * 0.4, by - nh * 0.6, bx + nw * 0.52, by - nh * 0.2, bx + nw * 0.62, by + 8);                             // throat down to the withers
+      ctx.closePath(); ctx.fill();
+      // muscle highlight and shadow under the jaw
+      ctx.fillStyle = 'rgba(255,200,140,0.22)'; ctx.beginPath(); ctx.ellipse(bx + nw * 0.2, by - nh * 0.45, nw * 0.1, nh * 0.32, 0.5, 0, TAU); ctx.fill();
+      ctx.fillStyle = 'rgba(20,8,0,0.28)'; ctx.beginPath(); ctx.ellipse(bx + nw * 0.42, by - nh * 0.18, nw * 0.12, nh * 0.2, 0.4, 0, TAU); ctx.fill();
+      // head: a long chestnut shape with a pale blaze, eye and nostril, headstall straps
+      const hx = bx + nw * 0.2, hy = by - nh * 0.98 + nk;
+      ctx.save(); ctx.translate(hx, hy); ctx.rotate(0.35);
+      const hg2 = ctx.createLinearGradient(-nw * 0.1, -nh * 0.1, nw * 0.1, nh * 0.2); hg2.addColorStop(0, '#a45e30'); hg2.addColorStop(1, '#5a2e14');
+      ctx.fillStyle = hg2; ctx.beginPath(); ctx.moveTo(-nw * 0.1, -nh * 0.06); ctx.quadraticCurveTo(nw * 0.12, -nh * 0.2, nw * 0.3, -nh * 0.02); ctx.quadraticCurveTo(nw * 0.34, nh * 0.08, nw * 0.28, nh * 0.12); ctx.quadraticCurveTo(nw * 0.1, nh * 0.18, -nw * 0.08, nh * 0.1); ctx.closePath(); ctx.fill();
+      ctx.fillStyle = 'rgba(255,240,220,0.5)'; ctx.beginPath(); ctx.ellipse(nw * 0.15, -nh * 0.08, nw * 0.12, nh * 0.025, 0.1, 0, TAU); ctx.fill();
+      ctx.fillStyle = '#140a04'; ctx.beginPath(); ctx.ellipse(nw * 0.04, -nh * 0.04, nh * 0.022, nh * 0.016, 0, 0, TAU); ctx.fill();
+      ctx.fillStyle = '#ffffff'; ctx.fillRect(nw * 0.035, -nh * 0.05, 2, 2);
+      ctx.fillStyle = '#1e0e06'; ctx.beginPath(); ctx.ellipse(nw * 0.29, nh * 0.03, nh * 0.02, nh * 0.03, 0.3, 0, TAU); ctx.fill();
+      ctx.strokeStyle = '#7a1e18'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(-nw * 0.05, -nh * 0.08); ctx.lineTo(nw * 0.08, nh * 0.14); ctx.moveTo(nw * 0.22, -nh * 0.1); ctx.lineTo(nw * 0.24, nh * 0.12); ctx.stroke();
+      ctx.fillStyle = '#d8b04a'; ctx.beginPath(); ctx.arc(nw * 0.08, nh * 0.03, 3.5, 0, TAU); ctx.fill();
+      // ears
+      ctx.fillStyle = '#7a4020'; for (const [ex, er] of [[-nw * 0.07, -0.25], [nw * 0.0, 0.05]]) { ctx.save(); ctx.translate(ex, -nh * 0.07); ctx.rotate(er - 0.3); poly(ctx, [[-nh * 0.025, 0], [nh * 0.03, 0], [0, -nh * 0.16]]); ctx.fill(); ctx.restore(); }
+      ctx.restore();
+      // mane: two tones of streaming strands from the crest
+      ctx.lineCap = 'round';
+      for (let pass = 0; pass < 2; pass++) {
+        ctx.strokeStyle = pass ? '#2a160a' : '#120904'; ctx.lineWidth = pass ? 3 : 4.5;
+        for (let i = 0; i < 16; i++) {
+          const f = i / 15, mx = bx + nw * (0.0 + f * 0.26), my = by - nh * (0.55 + f * 0.4 - f * f * 0.05) + nk;
+          ctx.beginPath(); ctx.moveTo(mx, my);
+          ctx.quadraticCurveTo(mx + 14 + pass * 3, my - 10 + Math.sin(t * 12 + i) * 4, mx + 34 + Math.sin(t * 9 + i) * 6 + pass * 6, my + 6 + Math.sin(t * 10 + i * 2) * 7);
+          ctx.stroke();
+        }
+      }
+      ctx.lineCap = 'butt';
+    }
     // limbs
     const half = A.h * 0.13, bend = A.h * 0.05;
     const top = [grip.x + nx * half - ux * bend, grip.y + ny * half - uy * bend], bot = [grip.x - nx * half - ux * bend, grip.y - ny * half - uy * bend];

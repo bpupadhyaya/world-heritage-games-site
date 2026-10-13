@@ -4,7 +4,8 @@
   "vehicle": {
    "kind": "sled",
    "topSpeed": 15,
-   "startPush": 2.5
+   "startPush": 2.5,
+   "look": "tumble"
   },
   "rhythm": {
    "bpm": 120,

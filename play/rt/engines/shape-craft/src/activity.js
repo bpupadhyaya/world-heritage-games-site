@@ -10,6 +10,7 @@ import { createCoil, COIL_DEFAULTS } from './coil.js';
 import { createKnot, KNOT_DEFAULTS } from './knot.js';
 import { createBend, BEND_DEFAULTS } from './bend.js';
 import { createFx, caseGlass, shadowed, rrect, tint, rgba, mix, lum } from './fx.js';
+import { createSound } from './sound.js';
 import { resolveScene, splitWork, drawGround, drawDock, drawFrame, drawStage } from './scenes.js';
 
 export const TECHNIQUES = ['lathe', 'carve', 'cut', 'fold', 'coil', 'knot', 'bend'];
@@ -18,8 +19,9 @@ export function createActivity(userParams0, env0) {
   let userParams = userParams0;
   const technique = TECHNIQUES.includes(userParams.technique) ? userParams.technique : 'lathe';
   const fx = createFx();
-  const env = { ...env0, fx };
   const scene = resolveScene(userParams, env0.text, technique);
+  const sound = createSound(env0.audio, scene, userParams.material, technique);
+  const env = { ...env0, fx, sound };
   userParams = { ...userParams, scene };
   const make = {
     lathe: () => createLathe({ ...LATHE_DEFAULTS, ...userParams }, env),
@@ -108,7 +110,7 @@ export function createActivity(userParams0, env0) {
   const act = {
     init() { tech.init(); clock = 0; resultAt = -1; },
     update(dt, input) {
-      clock += dt; fx.update(dt);
+      clock += dt; fx.update(dt); sound.tick(clock);
       const p = input.pointer;
       if (!layout) return;
       press = p.down ? layout.ctrl.find((c) => !c.off && p.x >= c.x && p.x <= c.x + c.w && p.y >= c.y && p.y <= c.y + c.h)?.id ?? null : null;
@@ -119,7 +121,7 @@ export function createActivity(userParams0, env0) {
       }
       tech.work(p);
     },
-    attract(dt) { clock += dt; fx.update(dt); tech.attract(dt); },
+    attract(dt) { clock += dt; fx.update(dt); sound.tick(clock); tech.attract(dt); },
     render(g, area) {
       const { ctx } = g;
       layout = compute(g, area, tech.items());

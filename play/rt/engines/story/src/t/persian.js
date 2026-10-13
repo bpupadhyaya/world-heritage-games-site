@@ -103,7 +103,20 @@ function stage(g, S0, v) {
   // speakers seated on the carpet, with warm light
   const floorY = Pm.y + Pm.h * 0.95;
   for (const f of v.figs) { if (f.alpha < 0.05) continue; ctx.fillStyle = `rgba(20,6,10,${0.3 * f.alpha})`; ctx.beginPath(); ctx.ellipse(Pm.x + Pm.w * f.x, floorY + 2, Pm.h * 0.2, Pm.h * 0.03, 0, 0, TAU); ctx.fill(); }
-  place(ctx, Pm, floorY, Pm.h * 0.9, v, { style: 'color', noShadow: true });
+  // warm lamp light pooled on the carpet under the speakers: gives the seated figures a floor to sit in
+  { const lx = Pm.x + Pm.w * 0.5, ly = floorY - Pm.h * 0.08, lr = ctx.createRadialGradient(lx, ly, 4, lx, ly, Pm.w * 0.5);
+    lr.addColorStop(0, 'rgba(255,200,110,0.22)'); lr.addColorStop(0.55, 'rgba(255,160,60,0.07)'); lr.addColorStop(1, 'rgba(255,170,70,0)');
+    ctx.save(); ctx.globalCompositeOperation = 'lighter'; ctx.fillStyle = lr; ctx.beginPath(); ctx.ellipse(lx, ly, Pm.w * 0.5, Pm.h * 0.16, 0, 0, TAU); ctx.fill(); ctx.restore(); }
+  place(ctx, Pm, floorY, Pm.h * 1.0, v, { style: 'color', noShadow: true });
+  // hanging lantern, swaying, with a halo
+  { const lx = Pm.x + Pm.w * 0.5 + Math.sin(t * 0.9) * Pm.w * 0.012, ly = Pm.y + Pm.h * 0.17, halo = ctx.createRadialGradient(lx, ly + 10, 2, lx, ly + 10, Pm.h * 0.28);
+    halo.addColorStop(0, 'rgba(255,224,140,0.55)'); halo.addColorStop(1, 'rgba(255,200,100,0)'); ctx.fillStyle = halo; ctx.fillRect(lx - Pm.h * 0.3, ly - Pm.h * 0.2, Pm.h * 0.6, Pm.h * 0.5);
+    ctx.strokeStyle = GOLD; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(Pm.x + Pm.w * 0.5, Pm.y); ctx.lineTo(lx, ly - 6); ctx.stroke();
+    ctx.fillStyle = vgrad(ctx, ly - 6, ly + 22, [[0, '#f6d27a'], [1, '#b8802a']]); ctx.beginPath(); const q = Math.max(1, Pm.h / 300); ctx.moveTo(lx - 7 * q, ly + 22 * q); ctx.lineTo(lx - 10 * q, ly + 4 * q); ctx.lineTo(lx, ly - 6 * q); ctx.lineTo(lx + 10 * q, ly + 4 * q); ctx.lineTo(lx + 7 * q, ly + 22 * q); ctx.closePath(); ctx.fill();
+    ctx.fillStyle = 'rgba(255,248,210,0.9)'; ctx.beginPath(); ctx.ellipse(lx, ly + 11 * q, 4 * q, 7 * q, 0, 0, TAU); ctx.fill(); }
+  // drifting blossom petals and dust motes in the lamplight
+  for (let i = 0; i < 14; i++) { const ph = hf(i + 40), x = Pm.x + ((ph + t * (0.012 + 0.01 * hf(i + 3)) + Math.sin(t * 0.6 + i) * 0.02) % 1) * Pm.w, y = Pm.y + Pm.h * (0.15 + 0.7 * ((hf(i + 60) + t * 0.025 * (0.5 + hf(i))) % 1));
+    ctx.fillStyle = i % 3 ? 'rgba(255,214,230,0.8)' : 'rgba(255,236,170,0.7)'; ctx.beginPath(); ctx.ellipse(x, y, i % 3 ? 3 : 1.6, i % 3 ? 1.8 : 1.6, t * 0.8 + i, 0, TAU); ctx.fill(); }
   const gl = ctx.createRadialGradient(Pm.x + Pm.w * 0.5, Pm.y + Pm.h * 0.3, 4, Pm.x + Pm.w * 0.5, Pm.y + Pm.h * 0.5, Pm.w * 0.7); gl.addColorStop(0, 'rgba(255,230,140,0.18)'); gl.addColorStop(1, 'rgba(60,20,0,0.22)'); ctx.fillStyle = gl; ctx.fillRect(Pm.x, Pm.y, Pm.w, Pm.h);
   ctx.restore();
   // spandrels, frame
@@ -132,6 +145,12 @@ function stage(g, S0, v) {
     });
     y += fs * 0.3; ctx.globalAlpha = 1;
   });
+  // ruled places where the verses still to come will be written, so the page never reads as empty
+  { const slot = lh * 1.35, free = Math.max(0, Math.min(4 - nb, Math.floor((botY - y) / slot)));
+    ctx.save(); ctx.strokeStyle = alpha(GOLD, 0.55); ctx.fillStyle = alpha(GOLD, 0.7); ctx.lineWidth = 1; ctx.setLineDash([5, 5]);
+    for (let k = 0; k < free; k++) { const yy = y + slot * (k + 0.55); ctx.beginPath(); ctx.moveTo(tx0 + tw * 0.08, yy); ctx.lineTo(tx0 + tw * 0.92, yy); ctx.stroke();
+      ctx.setLineDash([]); poly(ctx, [[tx0 + 4, yy], [tx0 + 9, yy - 4], [tx0 + 14, yy], [tx0 + 9, yy + 4]]); ctx.fill(); ctx.setLineDash([5, 5]); }
+    ctx.restore(); }
   // reed pen and pen box
   const qx = S0.x + W - o1 - m * 3.6, qy = S0.y + H - o1 - m * 1.4;
   ctx.fillStyle = vgrad(ctx, qy - m, qy + m * 0.4, [[0, '#9a2a2a'], [1, '#4a1010']]); ctx.beginPath(); ctx.roundRect ? ctx.roundRect(qx - m * 1.6, qy - m * 0.5, m * 3.2, m, 3) : ctx.rect(qx - m * 1.6, qy - m * 0.5, m * 3.2, m); ctx.fill();

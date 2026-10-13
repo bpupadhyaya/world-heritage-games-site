@@ -7,7 +7,7 @@
 // push-outs, touches and falls to the mat.
 
 import { createSport, sportOf } from './sports.js';
-import { voice, fx as synthFx } from '../../../platform/engine-kit/synth.js';
+import { createSoundscape } from './soundscape.js';
 import { hash, shade, rgba, venueOf, stageGeo, drawVenue, drawLight, drawBoat, drawFigure, groundShadow, drawDial, drawStance, drawFx } from './art.js';
 
 export const DEFAULTS = {
@@ -96,15 +96,11 @@ export function createActivity(userParams, env) {
   // body on clay); the raw tone lists in sports.js stay as the fallback when the shared audio graph is missing.
   const A = env.audio, nat = !!A?.context;
   const spId = String(sportOf(P, env.text?.title) ?? '');
-  const MAT = { arnis: 'wood', nguni: 'wood', silambam: 'wood', kushti: 'clay', kotta: 'skin', laamb: 'skin', moraingy: 'skin', silat: 'skin' }[spId] ?? 'skin';
-  const sTick = (q) => { if (!nat) return false; synthFx(A, 'whoosh', { vel: 0.35, dur: 0.14 }); if (q === 1) synthFx(A, 'tick', { hz: MAT === 'wood' ? 1700 : 1100, vel: 0.5 }); return true; };
-  const sHit = (t) => {
-    if (!nat) return false;
-    if (t === 'good') { synthFx(A, 'impact', { mat: MAT, vel: 0.9 }); synthFx(A, 'thud', { vel: 0.7, hz: 70, delay: 0.01 }); synthFx(A, 'ring', { hz: 1760, vel: 0.35, delay: 0.05 }); }
-    else if (t === 'bad') { synthFx(A, 'thud', { vel: 0.6, hz: 62 }); synthFx(A, 'impact', { mat: MAT, vel: 0.35, hz: 160 }); }
-    else synthFx(A, 'impact', { mat: MAT, vel: 0.5 });
-    return true;
-  };
+  const SS = createSoundscape(nat ? A : null, spId);
+  const sTick = (q, kind) => { if (!nat) return false; SS.move(q, kind); return true; };
+  const sHit = (t, big) => { if (!nat) return false; SS.hit(t, big); return true; };
+  const lum = (h) => { const x = String(h).replace('#', ''); const v = [0, 2, 4].map((k) => parseInt(x.slice(k, k + 2), 16) || 0); return (0.3 * v[0] + 0.59 * v[1] + 0.11 * v[2]) / 255; };
+  const lightUI = !!SP && lum(SP.bg[0]) > 0.6;
   const L = LEVELS[clamp(Math.round(P.level), 1, 3)];
   const moves = (P.moves ?? DEFAULT_MOVES).map((m) => ({ speed: 2, cost: 8, power: 10, points: 0, push: 0, beats: [], kind: 'strike', pose: 'ready', ...m }));
   const byId = Object.fromEntries(moves.map((m) => [m.id, m]));
@@ -219,7 +215,7 @@ export function createActivity(userParams, env) {
       hist.push(m.id);
       const last = hist.length > 1 ? hist[hist.length - 2] : null;
       if (last) { bigram[last] = bigram[last] ?? {}; bigram[last][m.id] = (bigram[last][m.id] ?? 0) + 1; }
-      if (sTick(q)) { /* natural */ } else if (SP) tones(SP.sound.tick(q)); else env.audio?.tone({ freq: q === 1 ? 660 : 420, dur: 0.06, type: 'triangle' });
+      if (sTick(q, m.kind)) { /* natural */ } else if (SP) tones(SP.sound.tick(q)); else env.audio?.tone({ freq: q === 1 ? 660 : 420, dur: 0.06, type: 'triangle' });
     } else stats.hesitated++;
     const rm = byId[intent];
     rival.stam = clamp(rival.stam - Math.max(0, rm.cost), 0, 100);
@@ -351,7 +347,7 @@ export function createActivity(userParams, env) {
     }
     spawnImpact(plan, ym, rm, ringOut, fell);
     msg = X.text; msgT = 0;
-    if (sHit(X.tone)) { /* natural */ } else if (SP) tones(SP.sound.hit(X.tone)); else env.audio?.tone(X.tone === 'good' ? { freq: 330, to: 520, dur: 0.14, type: 'triangle' } : X.tone === 'bad' ? { freq: 260, to: 170, dur: 0.18, type: 'sawtooth', vol: 0.12 } : { freq: 300, dur: 0.08, type: 'square', vol: 0.08 });
+    if (sHit(X.tone, !!(ringOut || fell))) { /* natural */ } else if (SP) tones(SP.sound.hit(X.tone)); else env.audio?.tone(X.tone === 'good' ? { freq: 330, to: 520, dur: 0.14, type: 'triangle' } : X.tone === 'bad' ? { freq: 260, to: 170, dur: 0.18, type: 'sawtooth', vol: 0.12 } : { freq: 300, dur: 0.08, type: 'square', vol: 0.08 });
   }
 
   function afterExchange() {
@@ -364,7 +360,7 @@ export function createActivity(userParams, env) {
       phase = 'break';
       msg = X.end.winner === 'you' ? `Round ${round + 1}: you win` : `Round ${round + 1}: ${P.fighters.rival.name} wins`;
       msgT = 0;
-      if (nat) { if (X.end.winner === 'you') synthFx(A, 'chime', { hz: 784, vel: 0.7 }); else synthFx(A, 'bad', { hz: 200, vel: 0.7 }); }
+      if (nat) SS.roundEnd(X.end.winner === 'you');
       else env.audio?.tone({ freq: X.end.winner === 'you' ? 523 : 262, to: X.end.winner === 'you' ? 784 : 196, dur: 0.4, type: 'triangle' });
       return;
     }
@@ -395,13 +391,14 @@ export function createActivity(userParams, env) {
   }
   const tapMove = (idx) => {
     if (phase !== 'ready') return;
-    if (!affordable(you, moves[idx])) { msg = 'Too tired for that: breathe or pick a lighter move'; msgT = 0; if (nat) synthFx(A, 'bad', { hz: 190, vel: 0.35 }); else env.audio?.tone({ freq: 180, dur: 0.08, type: 'square', vol: 0.08 }); return; }
+    if (!affordable(you, moves[idx])) { msg = 'Too tired for that: breathe or pick a lighter move'; msgT = 0; if (nat) SS.deny(); else env.audio?.tone({ freq: 180, dur: 0.08, type: 'square', vol: 0.08 }); return; }
     commit(idx);
   };
   const step = (dt, cmd) => {
     T += dt; msgT += dt;
     for (const e of fx) e.t += dt;
     if (fx.length && fx[0].t > fx[0].life) fx = fx.filter((e) => e.t <= e.life);
+    SS.beat(dt, !done && phase !== 'break' && phase !== 'over', clamp(pulse, 0, 1));
     shakeT = Math.max(0, shakeT - dt); pulse = Math.max(0, pulse - dt * 0.7); pickT = Math.max(0, pickT - dt);
     const ease = 1 - Math.exp(-dt * 14);
     for (const f of [you, rival]) {
@@ -429,75 +426,42 @@ export function createActivity(userParams, env) {
   const geometry = (area, g) => {
     const land = area.w > area.h * 1.15;
     const n = moves.length;
+    const gap = 10;
     let hud, stage, msgR, gaugeR, btn;
     let colsO = null, order = 'hsmgb';
     if (!land) {
-      const L = SP?.layout ?? 'std';
-      const hh = clamp(area.h * (L === 'big' ? 0.115 : 0.13), 88, 130);
-      const gh = clamp(area.h * 0.075, 50, 72);
-      const A = area;
-      if (L === 'top') {
-        hud = { x: A.x, y: A.y, w: A.w, h: hh };
-        gaugeR = { x: A.x + 6, y: hud.y + hud.h + 6, w: A.w - 12, h: gh };
-        btn = { x: A.x, y: gaugeR.y + gaugeR.h + 8, w: A.w, h: A.h * 0.3 };
-        msgR = { x: A.x, y: btn.y + btn.h + 2, w: A.w, h: 38 };
-        stage = { x: A.x, y: msgR.y + msgR.h + 2, w: A.w, h: A.y + A.h - (msgR.y + msgR.h + 2) };
-      } else if (L === 'rail' || L === 'railL') {
-        const sw = Math.floor(A.w * 0.6);
-        hud = { x: A.x, y: A.y, w: A.w, h: hh };
-        const sx = L === 'rail' ? A.x : A.x + A.w - sw, rx = L === 'rail' ? A.x + sw + 8 : A.x, rw = A.w - sw - 8;
-        const sh = Math.min(A.h - hh - 4 - 42 - gh - 12, sw * 1.2);
-        stage = { x: sx, y: hud.y + hud.h + 4, w: sw, h: sh };
-        msgR = { x: sx, y: stage.y + stage.h + 2, w: sw, h: 42 };
-        gaugeR = { x: sx, y: msgR.y + msgR.h + 4, w: sw, h: gh };
-        btn = { x: rx, y: stage.y, w: rw, h: A.y + A.h - stage.y };
-        colsO = 1;
-      } else if (L === 'overlay') {
-        stage = { x: A.x, y: A.y, w: A.w, h: A.h * 0.66 };
-        hud = { x: A.x, y: A.y, w: A.w, h: hh };
-        msgR = { x: A.x, y: stage.y + stage.h + 2, w: A.w, h: 38 };
-        gaugeR = { x: A.x + 6, y: msgR.y + msgR.h + 2, w: A.w - 12, h: gh };
-        btn = { x: A.x, y: gaugeR.y + gaugeR.h + 8, w: A.w, h: A.y + A.h - (gaugeR.y + gaugeR.h + 8) };
-        order = 'smhgb';
-      } else if (L === 'foot') {
-        stage = { x: A.x, y: A.y, w: A.w, h: A.h * 0.42 };
-        msgR = { x: A.x, y: stage.y + stage.h + 2, w: A.w, h: 36 };
-        hud = { x: A.x, y: msgR.y + msgR.h + 2, w: A.w, h: hh };
-        gaugeR = { x: A.x + 6, y: hud.y + hud.h + 6, w: A.w - 12, h: gh };
-        btn = { x: A.x, y: gaugeR.y + gaugeR.h + 8, w: A.w, h: A.y + A.h - (gaugeR.y + gaugeR.h + 8) };
-      } else if (L === 'wide') {
-        hud = { x: A.x, y: A.y, w: A.w, h: hh };
-        stage = { x: A.x, y: hud.y + hud.h + 4, w: A.w, h: A.h * 0.5 };
-        msgR = { x: A.x, y: stage.y + stage.h + 2, w: A.w, h: 36 };
-        gaugeR = { x: A.x + 6, y: msgR.y + msgR.h + 2, w: A.w - 12, h: gh * 0.9 };
-        btn = { x: A.x, y: gaugeR.y + gaugeR.h + 8, w: A.w, h: A.y + A.h - (gaugeR.y + gaugeR.h + 8) };
-        colsO = 3;
-      } else if (L === 'big') {
-        hud = { x: A.x, y: A.y, w: A.w, h: hh };
-        stage = { x: A.x, y: hud.y + hud.h + 4, w: A.w, h: A.h * 0.5 };
-        msgR = { x: A.x, y: stage.y + stage.h + 2, w: A.w, h: 36 };
-        gaugeR = { x: A.x + 6, y: msgR.y + msgR.h + 2, w: A.w - 12, h: gh * 0.85 };
-        btn = { x: A.x, y: gaugeR.y + gaugeR.h + 8, w: A.w, h: A.y + A.h - (gaugeR.y + gaugeR.h + 8) };
-        colsO = 3;
-      } else {
-        hud = { x: area.x, y: area.y, w: area.w, h: hh };
-        const stageH = area.h * 0.38;
-        stage = { x: area.x, y: hud.y + hud.h + 4, w: area.w, h: stageH };
-        msgR = { x: area.x, y: stage.y + stage.h + 2, w: area.w, h: 40 };
-        gaugeR = { x: area.x + 6, y: msgR.y + msgR.h + 4, w: area.w - 12, h: gh };
-        btn = { x: area.x, y: gaugeR.y + gaugeR.h + 10, w: area.w, h: area.y + area.h - (gaugeR.y + gaugeR.h + 10) };
-      }
+      let L = SP?.layout ?? 'std';
+      if (L === 'rail') L = 'tall'; else if (L === 'railL') L = 'foot';
+      colsO = L === 'big' || L === 'wide' ? 3 : null;
+      const cols = colsO ?? (n > 6 ? 3 : 2), rows = Math.ceil(n / cols);
+      const A = area, hh = clamp(A.h * (L === 'big' ? 0.115 : 0.125), 88, 130), gh = clamp(A.h * 0.07, 50, 70), mh = 38, sp = 5;
+      // the buttons take what they need; the stage takes everything else (no dead space on any phone)
+      const bh0 = clamp(A.h * 0.082, 58, 96);
+      const seq = { top: ['hud', 'gauge', 'btn', 'msg', 'stage'], foot: ['stage', 'msg', 'hud', 'gauge', 'btn'], overlay: ['stage', 'msg', 'gauge', 'btn'] }[L] ?? ['hud', 'stage', 'msg', 'gauge', 'btn'];
+      const H = { hud: hh, gauge: gh, msg: mh, btn: rows * bh0 + (rows - 1) * gap };
+      let fixed = 0; for (const k of seq) if (k !== 'stage') fixed += H[k];
+      fixed += sp * (seq.length - 1);
+      let sh = A.h - fixed;
+      const cap = A.w * 1.18;
+      if (sh > cap) { H.btn += sh - cap; sh = cap; }   // surplus goes to bigger buttons
+      H.stage = sh;
+      let y = A.y; const R = {};
+      for (const k of seq) { R[k] = { x: A.x, y, w: A.w, h: H[k] }; y += H[k] + sp; }
+      hud = R.hud ?? { x: A.x, y: R.stage.y, w: A.w, h: hh };
+      stage = R.stage; msgR = R.msg; gaugeR = { ...R.gauge, x: A.x + 6, w: A.w - 12 }; btn = R.btn;
+      if (L === 'overlay') order = 'smhgb';
     } else {
-      const lw = Math.floor(area.w * 0.58), hh = clamp(area.h * 0.17, 80, 110);
+      const lw = Math.floor(area.w * 0.55), hh = clamp(area.h * 0.17, 80, 110);
       hud = { x: area.x, y: area.y, w: lw, h: hh };
       stage = { x: area.x, y: hud.y + hud.h + 4, w: lw, h: area.h - hh - 4 - 44 };
       msgR = { x: area.x, y: stage.y + stage.h, w: lw, h: 44 };
       const rx = area.x + lw + 12, rw = area.w - lw - 12;
       gaugeR = { x: rx, y: area.y + 6, w: rw, h: clamp(area.h * 0.14, 56, 76) };
-      btn = { x: rx, y: gaugeR.y + gaugeR.h + 12, w: rw, h: area.y + area.h - (gaugeR.y + gaugeR.h + 12) };
+      btn = { x: rx, y: gaugeR.y + gaugeR.h + 10, w: rw, h: area.y + area.h - (gaugeR.y + gaugeR.h + 10) };
+      colsO = rw >= 600 ? 2 : (btn.h / n >= 46 ? 1 : 2);
     }
-    const cols = colsO ?? (n > 6 || btn.w > 900 ? 3 : 2), rows = Math.ceil(n / cols), gap = 10;
-    const bw = (btn.w - gap * (cols - 1)) / cols, bh = clamp((btn.h - gap * (rows - 1)) / rows, 48, 108);
+    const cols = colsO ?? (n > 6 || btn.w > 900 ? 3 : 2), rows = Math.ceil(n / cols);
+    const bw = (btn.w - gap * (cols - 1)) / cols, bh = clamp((btn.h - gap * (rows - 1)) / rows, 44, 120);
     const buttons = moves.map((m, i) => ({ i, id: `move:${m.id}`, x: btn.x + (i % cols) * (bw + gap), y: btn.y + Math.floor(i / cols) * (bh + gap), w: bw, h: bh }));
     return { land, hud, stage, msg: msgR, gauge: gaugeR, buttons, order };
   };
@@ -540,7 +504,11 @@ export function createActivity(userParams, env) {
         const yy = top + i * (bh + 6);
         bar(g, bx, yy, bw, bh, fr, col, 'rgba(0,0,0,0.45)');
         const lsz = Math.min(g.px(13), bh * 0.95);
-        if (lsz >= g.px(0) * 0.95) g.label(ctx, lab, bx + 10, yy + bh / 2 + 0.5, lsz, '#0c141c', 'left', '800');   // bars carry colour; the word is dropped when it would be unreadable
+        if (lsz >= g.px(0) * 0.95) {
+          ctx.save(); ctx.font = `800 ${Math.round(lsz)}px system-ui, sans-serif`; ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.lineJoin = 'round';
+          ctx.lineWidth = 3.5; ctx.strokeStyle = 'rgba(0,0,0,0.65)'; ctx.strokeText(lab, bx + 10, yy + bh / 2 + 0.5);
+          ctx.fillStyle = '#ffffff'; ctx.fillText(lab, bx + 10, yy + bh / 2 + 0.5); ctx.restore();
+        }   // bars carry colour; the word is dropped when it would be unreadable
       });
     };
     panel(-1, r.x, you, P.fighters.you.name, P.fighters.you);
@@ -644,8 +612,20 @@ export function createActivity(userParams, env) {
         g.label(ctx, label, tx + tw / 2, ty + th / 2 + 1, fsz, '#1a1410', 'center', '800');
       }
     }
+    // inner vignette (lit centre, falling off to the corners) gives the picture depth like a lit diorama
+    {
+      const vg = ctx.createRadialGradient(s.x + s.w / 2, s.y + s.h * 0.55, Math.min(s.w, s.h) * 0.35, s.x + s.w / 2, s.y + s.h * 0.55, Math.max(s.w, s.h) * 0.78);
+      vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,0.38)');
+      ctx.fillStyle = vg; ctx.fillRect(s.x, s.y, s.w, s.h);
+      const eg = ctx.createLinearGradient(0, s.y, 0, s.y + s.h * 0.1); eg.addColorStop(0, 'rgba(0,0,0,0.35)'); eg.addColorStop(1, 'rgba(0,0,0,0)');
+      ctx.fillStyle = eg; ctx.fillRect(s.x, s.y, s.w, s.h * 0.1);
+    }
     ctx.restore();
-    ctx.strokeStyle = 'rgba(0,0,0,0.5)'; ctx.lineWidth = 2; ctx.strokeRect(s.x + 1, s.y + 1, s.w - 2, s.h - 2);
+    // bezel: dark outer line, a metal-gold rim and a highlight, so the stage reads as a framed window and not a flat picture
+    ctx.strokeStyle = 'rgba(0,0,0,0.7)'; ctx.lineWidth = 3; ctx.strokeRect(s.x + 1.5, s.y + 1.5, s.w - 3, s.h - 3);
+    const rg = ctx.createLinearGradient(s.x, s.y, s.x + s.w, s.y + s.h); rg.addColorStop(0, shade(pal.accent, 0.35)); rg.addColorStop(0.5, shade(pal.accent, -0.15)); rg.addColorStop(1, shade(pal.accent, -0.5));
+    ctx.strokeStyle = rg; ctx.lineWidth = 2; ctx.strokeRect(s.x + 4, s.y + 4, s.w - 8, s.h - 8);
+    ctx.strokeStyle = 'rgba(255,255,255,0.18)'; ctx.lineWidth = 1; ctx.strokeRect(s.x + 6, s.y + 6, s.w - 12, s.h - 12);
     return geo;
   };
   const drawStage = (g, s) => sceneRect(g, s, false);
@@ -698,7 +678,7 @@ export function createActivity(userParams, env) {
       const picked = pickIdx === b.i && pickT > 0;
       const sc = picked ? 1 - 0.04 * (pickT / 0.35) : 1;
       ctx.save(); ctx.translate(b.x + b.w / 2, b.y + b.h / 2); ctx.scale(sc, sc); ctx.translate(-(b.x + b.w / 2), -(b.y + b.h / 2));
-      ctx.globalAlpha = ok && live ? 1 : 0.55;
+      ctx.globalAlpha = !ok ? 0.5 : live ? 1 : 0.82;
       g.rr(ctx, b.x, b.y + 3, b.w, b.h, 15); ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.fill();
       g.rr(ctx, b.x, b.y, b.w, b.h, 15);
       ctx.fillStyle = lin(ctx, 0, b.y, 0, b.y + b.h, [[0, shade(picked ? kc : pal.panel, 0.18)], [1, shade(picked ? kc : pal.panel, -0.22)]]); ctx.fill();
@@ -708,8 +688,10 @@ export function createActivity(userParams, env) {
       ctx.fillStyle = rgba(kc, 0.22); ctx.beginPath(); ctx.arc(b.x + 14 + ir, b.y + b.h / 2, ir, 0, 7); ctx.fill();
       drawIcon(ctx, m.kind, b.x + 14 + ir, b.y + b.h / 2, ir * 1.1, kc);
       const tx = b.x + 14 + ir * 2 + 12;
-      const fs = Math.max(Math.min(g.px(20), b.h * 0.3), g.px(0) * 0.95);
+      let fs = Math.max(Math.min(g.px(20), b.h * 0.3), g.px(0) * 0.95);
       const avail = b.x + b.w - 30 - tx;
+      // shrink the name a little (never below the large-text floor) so long move names fit in two lines without cutting
+      for (let k = 0; k < 4 && g.wrap(ctx, m.name, avail, fs).length > 2 && fs * 0.9 >= g.px(0) * 0.95; k++) fs *= 0.9;
       const lines = g.wrap(ctx, m.name, avail, fs).slice(0, 2).map((ln) => {   // a single long word is cut with an ellipsis rather than leaving the card
         ctx.save(); ctx.font = `800 ${Math.round(fs)}px system-ui, sans-serif`;
         let o = ln; if (ctx.measureText(o).width > avail) { while (o.length > 2 && ctx.measureText(o + '\u2026').width > avail) o = o.slice(0, -1); o += '\u2026'; }
@@ -731,10 +713,11 @@ export function createActivity(userParams, env) {
     else if (phase === 'resolve' && X && !X.applied) { text = ''; }
     else if (X && X.tone) color = X.tone === 'good' ? pal.good : X.tone === 'bad' ? pal.bad : pal.ink;
     if (phase === 'break') color = B.winner === 'you' ? pal.good : pal.bad;
+    if (lightUI && color !== pal.dim) color = shade(color, -0.3);
     const size = g.px(phase === 'ready' ? 19 : 24);
     for (const [i, ln] of g.wrap(ctx, text, r.w - 16, size).slice(0, 2).entries()) {
       const yy = r.y + r.h * 0.5 + (i ? size : 0) - (text.length > 40 ? size * 0.5 : 0);
-      if (phase !== 'ready') { ctx.font = `800 ${Math.round(size)}px system-ui, sans-serif`; ctx.lineWidth = 5; ctx.strokeStyle = 'rgba(0,0,0,0.55)'; ctx.lineJoin = 'round'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.strokeText(ln, r.x + r.w / 2, yy); }
+      if (phase !== 'ready' && !lightUI) { ctx.font = `800 ${Math.round(size)}px system-ui, sans-serif`; ctx.lineWidth = 5; ctx.strokeStyle = 'rgba(0,0,0,0.55)'; ctx.lineJoin = 'round'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.strokeText(ln, r.x + r.w / 2, yy); }
       g.label(ctx, ln, r.x + r.w / 2, yy, size, color, 'center', phase === 'ready' ? '600' : '800');
     }
   };

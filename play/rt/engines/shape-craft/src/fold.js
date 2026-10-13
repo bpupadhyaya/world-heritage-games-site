@@ -47,9 +47,10 @@ export function raster(layers) {
 const sameRaster = (a, b) => a.every((v, i) => v === b[i]);
 
 export function createFold(P, env) {
-  const { rng, audio, fx } = env;
+  const { rng, audio, fx, sound } = env;
   const SC = P.scene ?? {}, PM = SC.pitch ?? 1, WV = SC.wave ?? 'triangle';
-  let flight = null, creaseAt = -9, creaseOp = null, clock = 0;
+  let flight = null, creaseAt = -9, creaseOp = null, clock = 0, doneAt = -1, resist = null;
+  const isCloth = SC.sheet === 'cloth';
   let layers, history, targetLayers, targetSeq, targetMask, done, rects = null, geo = null, acc = 0, anim = 0;
   const fresh = () => [{ pts: unit.map((p) => p.slice()), back: false }];
   const maxFolds = () => targetSeq.length + P.maxExtra;
@@ -68,13 +69,19 @@ export function createFold(P, env) {
     }
     targetLayers = cur; targetSeq = seq; targetMask = mask;
   };
-  const init = () => { makeTarget(); layers = fresh(); history = []; done = null; acc = 0; anim = 0; };
+  const init = () => { makeTarget(); layers = fresh(); history = []; done = null; acc = 0; anim = 0; doneAt = -1; resist = null; };
   init();
 
   const mask = () => raster(layers);
   const score = () => normIoU(mask(), targetMask, P.tolerance);
   const finish = () => {
     const r = score(), stars = starsFor(r.score);
+    doneAt = clock;
+    if (isCloth) { // open the dyed cloth: the packet's silhouette, unfolded back through every fold, is what the dye never reached
+      let pieces = layers.map((L) => L.pts);
+      for (let i = history.length - 1; i >= 0; i--) { const m = OPS[history[i].id].m; pieces = pieces.concat(pieces.map((pts) => pts.map((p) => reflect(m, p)).reverse())); }
+      resist = pieces;
+    }
     done = { score: r.score, max: 100, stars, headline: stars === 3 ? 'Crisp folds' : stars ? 'Nearly there' : 'Unfold and try again', detail: `${history.length} folds made; the target needs ${targetSeq.length}` };
   };
   const canFold = () => history.length < maxFolds();
@@ -84,7 +91,7 @@ export function createFold(P, env) {
     flight = { before: layers, id, t0: clock, dur: 0.42 };
     creaseOp = id; creaseAt = clock;
     history.push({ layers, id }); layers = next; anim = 0.35;
-    audio?.tone({ freq: 300 * PM, to: 220 * PM, dur: 0.1, type: WV, vol: 0.2 });
+    sound?.fold(history.length % 2 ? 1 : -1);
   };
 
   const items = () => {
@@ -146,10 +153,29 @@ export function createFold(P, env) {
     moved.reverse().forEach((L, i) => sheet(ctx, L, ox, oy, s, keep.length + i + Math.sin(th) * 3, false, 0.6 + Math.sin(th) * 0.8));
   };
 
+  // The opened cloth: white cotton where the dye never reached, indigo where it crept in from the edges of the folded packet.
+  // Unfolding the packet's outline through every fold gives the geometric ring-and-diagonal pattern of real itajime shibori.
+  const drawDyed = (ctx, ox, oy, s, alpha, big) => {
+    if (!resist || alpha <= 0) return;
+    ctx.save(); ctx.globalAlpha = alpha;
+    if (big) shadowed(ctx, () => { ctx.fillStyle = '#e9e5da'; ctx.fillRect(ox, oy, s, s); }, { blur: s * 0.06, dy: s * 0.025, a: 0.55 });
+    rrect(ctx, ox, oy, s, s, 3); ctx.clip();
+    const g0 = ctx.createLinearGradient(ox, oy, ox + s, oy + s); g0.addColorStop(0, '#f7f4ec'); g0.addColorStop(1, '#e4dfd2');
+    ctx.fillStyle = g0; ctx.fillRect(ox, oy, s, s);
+    const pathAll = () => { ctx.beginPath(); for (const pts of resist) { pts.forEach((p, i) => (i ? ctx.lineTo(ox + p[0] * s, oy + p[1] * s) : ctx.moveTo(ox + p[0] * s, oy + p[1] * s))); ctx.closePath(); } };
+    ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+    for (const [w, col, a] of [[0.24, '74,111,208', 0.1], [0.17, '54,88,190', 0.2], [0.11, '30,58,150', 0.4], [0.06, '16,36,104', 0.75], [0.028, '8,20,72', 0.9]]) { pathAll(); ctx.strokeStyle = `rgba(${col},${a})`; ctx.lineWidth = s * w; ctx.stroke(); }
+    // uneven dye: pale mottling and darker pooling
+    for (let q = 0; q < 30; q++) { const px = ox + hash(q, 1, 77) * s, py = oy + hash(q, 2, 77) * s, rr = s * (0.03 + 0.07 * hash(q, 3, 77)); const gr = ctx.createRadialGradient(px, py, 0, px, py, rr); const c = q % 2 ? '200,215,250' : '4,10,50'; gr.addColorStop(0, `rgba(${c},0.18)`); gr.addColorStop(1, `rgba(${c},0)`); ctx.fillStyle = gr; ctx.fillRect(px - rr, py - rr, rr * 2, rr * 2); }
+    ctx.strokeStyle = 'rgba(255,255,255,0.12)'; ctx.lineWidth = 1; ctx.beginPath(); for (let q = 0; q < s; q += 3) { ctx.moveTo(ox + q, oy); ctx.lineTo(ox + q, oy + s); } ctx.stroke();
+    ctx.strokeStyle = 'rgba(0,0,0,0.07)'; ctx.beginPath(); for (let q = 1; q < s; q += 3) { ctx.moveTo(ox, oy + q); ctx.lineTo(ox + s, oy + q); } ctx.stroke();
+    ctx.restore();
+  };
+
   const draw = (g, R, t) => {
     const { ctx, pal } = g;
     rects = R; clock = t;
-    const W0 = R.work, lift = wallLift(W0) * 0.7, W = { x: W0.x, y: W0.y + lift, w: W0.w, h: W0.h - lift }, s = Math.min(W.w, W.h) * 0.72, ox = W.x + (W.w - s) / 2, oy = W.y + (W.h - s) / 2 + 14;
+    const W0 = R.work, lift = wallLift(W0), W = { x: W0.x, y: W0.y + lift, w: W0.w, h: W0.h - lift }, s = Math.min(W.w * 0.9, (W.h - 44) * 0.96), ox = W.x + (W.w - s) / 2, oy = W.y + 8 + (W.h - 44 - s) / 2;
     geo = { ox, oy, s };
     // original sheet outline and candidate crease lines
     ctx.setLineDash([5, 6]); ctx.strokeStyle = 'rgba(255,255,255,0.2)'; ctx.lineWidth = 1.5; ctx.strokeRect(ox, oy, s, s);
@@ -163,7 +189,9 @@ export function createFold(P, env) {
       paintFlight(ctx, flight, ox, oy, s, ease(u));
       if (!flight.puffed && u > 0.9) { flight.puffed = true; if (fx) fx.emit('dust', ox + s * 0.5, oy + s * 0.5, { count: 4, color: '#ffffff', size: s * 0.03, speed: 70, life: 0.45, gravity: -10 }); }
     } else {
-      paint(ctx, layers, ox, oy, s, false);
+      const du = isCloth && doneAt >= 0 ? Math.min(1, Math.max(0, (t - doneAt - 0.5) / 1.3)) : 0;
+      if (du < 1) { ctx.save(); ctx.globalAlpha = 1 - du; paint(ctx, layers, ox, oy, s, false); ctx.restore(); }
+      if (du > 0) drawDyed(ctx, ox, oy, s, du, true);
       // a freshly pressed crease: a pale and a dark line along the fold, fading
       if (creaseOp && t - creaseAt < 1.6) {
         const [a, b, c] = OPS[creaseOp].m, k = 1 - (t - creaseAt) / 1.6;
@@ -175,12 +203,12 @@ export function createFold(P, env) {
         ctx.restore();
       }
     }
-    if (P.guide) paintTargetOutline(ctx, ox, oy, s, pal.accent, t);
+    if (P.guide && !(isCloth && doneAt >= 0)) paintTargetOutline(ctx, ox, oy, s, pal.accent, t);
     // reference
     const th = R.thumb, ts = Math.min(th.w, th.h) * 0.72, tx0 = th.x + (th.w - ts) / 2, ty0 = th.y + (th.h - ts) / 2 - th.h * 0.04;
     shelf(ctx, th.x + th.w / 2, ty0 + ts + 6, th.w * 0.34);
     paint(ctx, targetLayers, tx0, ty0, ts, false);
-    g.label(ctx, `Folds made: ${history.length} of about ${targetSeq.length}`, W0.x + W0.w / 2, W0.y + 26, g.px(22), pal.ink, 'center', '600');
+    g.label(ctx, isCloth && doneAt >= 0 && t - doneAt > 1 ? 'The cloth opened: white where the folds shielded it' : `Folds made: ${history.length} of about ${targetSeq.length}`, W0.x + W0.w / 2, W.y + W.h - 14, g.px(22), pal.ink, 'center', '600');
   };
   const titleArt = (g, S, t) => {
     const { ctx } = g;

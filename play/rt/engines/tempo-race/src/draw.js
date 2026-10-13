@@ -251,15 +251,28 @@ export function racer(ctx, kind, x, y, ang, s, col, ph, ex = {}) {
         // two buffalo yoked together, a plough board behind them and the runner standing on it
         softShadow(ctx, -s * 0.1, s * 0.18, s * 1.6, s * 0.9, 0.22);
         const bu = (by, fur, k) => {
-          legs(0, by, s * 0.8, s * 0.8, s * 0.24, '#1d1d22');
-          const bg = ctx.createLinearGradient(0, by - s * 0.3, 0, by + s * 0.3); bg.addColorStop(0, shade(fur, 0.3)); bg.addColorStop(1, shade(fur, -0.35));
-          ctx.fillStyle = bg; ell(ctx, 0, by, s * 0.82, s * 0.31); ctx.fill();
-          ctx.fillStyle = shade(fur, 0.1); ell(ctx, s * 0.78, by + Math.sin(ph * 1.3 + k) * s * 0.03, s * 0.28, s * 0.2); ctx.fill();
-          ctx.strokeStyle = '#d8d0b8'; ctx.lineWidth = Math.max(2, s * 0.06); ctx.beginPath(); ctx.arc(s * 0.82, by, s * 0.28, -1.3, -0.2); ctx.moveTo(s * 0.82 + 0, by); ctx.arc(s * 0.82, by, s * 0.28, 1.3, 0.2, true); ctx.stroke();
-          ctx.strokeStyle = fur; ctx.lineWidth = Math.max(2, s * 0.06); ctx.beginPath(); ctx.moveTo(-s * 0.8, by); ctx.lineTo(-s * 1.0, by + Math.sin(ph * 2 + k) * s * 0.15); ctx.stroke();
+          const sp = Math.sin(ph * 1.3 + k);
+          legs(0, by, s * 0.8, s * 0.8, s * 0.24, '#141418');
+          const bg = ctx.createLinearGradient(0, by - s * 0.32, 0, by + s * 0.32); bg.addColorStop(0, shade(fur, 0.55)); bg.addColorStop(0.35, shade(fur, 0.15)); bg.addColorStop(1, shade(fur, -0.5));
+          ctx.fillStyle = bg; ell(ctx, 0, by, s * 0.84, s * 0.32); ctx.fill();
+          ctx.fillStyle = 'rgba(255,255,255,0.22)'; ell(ctx, s * 0.1, by - s * 0.14, s * 0.5, s * 0.07); ctx.fill();   // wet sheen on the back
+          ctx.fillStyle = shade(fur, 0.05); ell(ctx, s * 0.5, by, s * 0.26, s * 0.27); ctx.fill();   // shoulder hump
+          const hg = ctx.createLinearGradient(0, by - s * 0.2, 0, by + s * 0.2); hg.addColorStop(0, shade(fur, 0.3)); hg.addColorStop(1, shade(fur, -0.4));
+          ctx.fillStyle = hg; ell(ctx, s * 0.8, by + sp * s * 0.03, s * 0.3, s * 0.2); ctx.fill();
+          ctx.fillStyle = '#1a1416'; ell(ctx, s * 1.04, by + sp * s * 0.03, s * 0.1, s * 0.12); ctx.fill();
+          ctx.fillStyle = '#c9a0a0'; ctx.beginPath(); ctx.arc(s * 1.08, by - s * 0.05 + sp * s * 0.03, Math.max(1.5, s * 0.025), 0, TAU); ctx.arc(s * 1.08, by + s * 0.05 + sp * s * 0.03, Math.max(1.5, s * 0.025), 0, TAU); ctx.fill();
+          ctx.strokeStyle = '#e4dcc2'; ctx.lineWidth = Math.max(2.5, s * 0.07); ctx.beginPath(); ctx.arc(s * 0.78, by - s * 0.02, s * 0.2, -2.3, -0.5); ctx.stroke(); ctx.beginPath(); ctx.arc(s * 0.78, by + s * 0.02, s * 0.2, 2.3, 0.5, true); ctx.stroke();
+          ctx.fillStyle = shade(fur, -0.3); ell(ctx, s * 0.62, by - s * 0.24, s * 0.1, s * 0.05, -0.4); ctx.fill(); ell(ctx, s * 0.62, by + s * 0.24, s * 0.1, s * 0.05, 0.4); ctx.fill();
+          ctx.strokeStyle = fur; ctx.lineWidth = Math.max(2, s * 0.06); ctx.beginPath(); ctx.moveTo(-s * 0.82, by); ctx.quadraticCurveTo(-s * 0.95, by + Math.sin(ph * 2 + k) * s * 0.14, -s * 1.02, by + Math.sin(ph * 2 + k + 1) * s * 0.18); ctx.stroke();
+          // mud kicked up by the hooves
+          const v = ex.v ?? 0.5;
+          if (v > 0.35) for (let j = 0; j < 4; j++) { const q = ((t * 3 + j * 0.25 + k * 0.13) % 1); ctx.fillStyle = `rgba(70,48,28,${0.55 * (1 - q) * v})`; ctx.beginPath(); ctx.arc(-s * (0.9 + q * 0.9), by + (hash(j * 5 + k * 9) - 0.5) * s * 0.6, s * (0.05 + 0.04 * (1 - q)), 0, TAU); ctx.fill(); }
         };
         bu(-s * 0.48, '#34353d', 0); bu(s * 0.48, '#3f4048', 1.5);
-        ctx.strokeStyle = '#7a5a2a'; ctx.lineWidth = Math.max(3, s * 0.1); ctx.beginPath(); ctx.moveTo(s * 0.45, -s * 0.5); ctx.lineTo(s * 0.45, s * 0.5); ctx.stroke();
+        ctx.strokeStyle = 'rgba(0,0,0,0.3)'; ctx.lineWidth = Math.max(4, s * 0.13); ctx.beginPath(); ctx.moveTo(s * 0.47, -s * 0.5); ctx.lineTo(s * 0.47, s * 0.5); ctx.stroke();
+        ctx.strokeStyle = '#8a6a34'; ctx.lineWidth = Math.max(3, s * 0.1); ctx.beginPath(); ctx.moveTo(s * 0.45, -s * 0.5); ctx.lineTo(s * 0.45, s * 0.5); ctx.stroke();
+        ctx.strokeStyle = '#d6b36a'; ctx.lineWidth = Math.max(1.5, s * 0.035); ctx.beginPath(); ctx.moveTo(s * 0.43, -s * 0.5); ctx.lineTo(s * 0.43, s * 0.5); ctx.stroke();
+        ctx.strokeStyle = '#7a5a2a'; ctx.lineWidth = Math.max(3, s * 0.08);
         ctx.beginPath(); ctx.moveTo(s * 0.45, 0); ctx.lineTo(-s * 1.15, 0); ctx.stroke();
         ctx.fillStyle = '#6b4a2a'; ctx.fillRect(-s * 1.55, -s * 0.34, s * 0.5, s * 0.68);
         const sw = Math.sin(ph * 1.3);
@@ -295,19 +308,44 @@ export function racer(ctx, kind, x, y, ang, s, col, ph, ex = {}) {
         ctx.strokeStyle = '#a89570'; ctx.lineWidth = Math.max(2, s * 0.045); ctx.beginPath(); ctx.moveTo(-s * 0.5, 0); ctx.quadraticCurveTo(-s * 0.8, Math.sin(ph * 2) * s * 0.1, -s * 0.95, 0); ctx.stroke();
         ctx.fillStyle = '#6b5a3c'; ctx.beginPath(); ctx.moveTo(s * 0.55 + stretch * 0.4, -s * 0.08); ctx.lineTo(s * 0.4 + stretch * 0.4, -s * 0.2 - Math.sin(ph * 2) * s * 0.04); ctx.lineTo(s * 0.45 + stretch * 0.4, -s * 0.04); ctx.fill();
       } else {
-        // camel with a rider: hump, neck stretched forward, legs flicking, silk and headscarf
-        softShadow(ctx, s * 0.05, s * 0.18, s * 1.25, s * 0.5, 0.22);
-        legs(0, 0, s * 0.95, s * 0.95, s * 0.28, '#6b4a2a');
-        const bg = ctx.createLinearGradient(0, -s * 0.38, 0, s * 0.38); bg.addColorStop(0, '#d8b480'); bg.addColorStop(1, '#8a6a3a');
-        ctx.fillStyle = bg; ell(ctx, 0, 0, s * 0.92, s * 0.36); ctx.fill();
-        ctx.strokeStyle = '#b08a5a'; ctx.lineWidth = Math.max(4, s * 0.2); ctx.beginPath(); ctx.moveTo(s * 0.7, 0); ctx.quadraticCurveTo(s * 1.15, Math.sin(ph * 1.3) * s * 0.1, s * 1.5, Math.sin(ph * 1.3 + 1) * s * 0.06); ctx.stroke();
-        ctx.fillStyle = '#c9a070'; ell(ctx, s * 1.62, Math.sin(ph * 1.3 + 1) * s * 0.06, s * 0.2, s * 0.13); ctx.fill();
-        ctx.fillStyle = '#8f6b3e'; ell(ctx, s * 0.12, 0, s * 0.3, s * 0.3); ctx.fill();   // hump
-        ctx.fillStyle = 'rgba(255,255,255,0.18)'; ell(ctx, s * 0.05, -s * 0.1, s * 0.14, s * 0.1); ctx.fill();
-        ctx.fillStyle = col; ell(ctx, s * 0.05, 0, s * 0.2, s * 0.26); ctx.fill();   // rider's silks
-        ctx.fillStyle = '#f5f1e8'; ctx.beginPath(); ctx.arc(s * 0.18, 0, s * 0.11, 0, TAU); ctx.fill();
-        ctx.strokeStyle = '#a02c2c'; ctx.lineWidth = Math.max(2, s * 0.05); ctx.beginPath(); ctx.arc(s * 0.18, 0, s * 0.1, Math.PI * 0.6, Math.PI * 1.4); ctx.stroke();
-        ctx.strokeStyle = '#6b4a2a'; ctx.lineWidth = Math.max(2, s * 0.05); ctx.beginPath(); ctx.moveTo(-s * 0.85, 0); ctx.lineTo(-s * 1.0, Math.sin(ph * 2) * s * 0.12); ctx.stroke();
+        // camel with a rider (lit from the upper left): long legs scissoring, a modelled hump under a woven saddle cloth,
+        // an arched neck and a head with ear, eye and bridle, and a jockey leaning low with a headcloth and a whip
+        const st = Math.sin(ph * 1.3), st2 = Math.sin(ph * 1.3 + 1);
+        softShadow(ctx, s * 0.22, s * 0.36, s * 1.4, s * 0.5, 0.34);
+        const leg = (bx, side, p0) => {
+          const off = Math.sin(ph * 1.3 + p0) * s * 0.34 * g, lift = Math.max(0, Math.cos(ph * 1.3 + p0)) * g;
+          ctx.strokeStyle = 'rgba(0,0,0,0.25)'; ctx.lineWidth = Math.max(3, s * 0.13); ctx.beginPath(); ctx.moveTo(bx, side * s * 0.2 + s * 0.05); ctx.lineTo(bx + off, side * s * 0.62 + s * 0.08); ctx.stroke();
+          ctx.strokeStyle = side < 0 ? '#9a7444' : '#6e4e2a'; ctx.lineWidth = Math.max(4, s * 0.17); ctx.beginPath(); ctx.moveTo(bx, side * s * 0.2); ctx.lineTo(bx + off, side * s * (0.6 + lift * 0.04)); ctx.stroke();
+          ctx.fillStyle = '#2e2014'; ell(ctx, bx + off, side * s * 0.64, s * 0.14, s * 0.08); ctx.fill();
+        };
+        [[0.62, 1, 0], [0.55, -1, 3.1], [-0.55, 1, 3.1], [-0.62, -1, 0]].forEach(([bx, sd, p0]) => leg(bx * s, sd, p0));
+        // tail
+        ctx.strokeStyle = '#6b4a2a'; ctx.lineWidth = Math.max(2, s * 0.06); ctx.beginPath(); ctx.moveTo(-s * 0.85, 0); ctx.quadraticCurveTo(-s * 1.0, Math.sin(ph * 2) * s * 0.14, -s * 1.12, Math.sin(ph * 2 + 1) * s * 0.18); ctx.stroke();
+        // body
+        const bg = ctx.createLinearGradient(0, -s * 0.4, 0, s * 0.4); bg.addColorStop(0, '#f0d3a0'); bg.addColorStop(0.45, '#cfa468'); bg.addColorStop(1, '#7a5630');
+        ctx.fillStyle = bg; ell(ctx, 0, 0, s * 0.92, s * 0.42); ctx.fill();
+        ctx.strokeStyle = 'rgba(60,35,10,0.45)'; ctx.lineWidth = 1.2; ctx.stroke();
+        // neck with a lit upper edge, then the head
+        const hy = st2 * s * 0.07, hx = s * 1.52;
+        ctx.strokeStyle = '#8a6636'; ctx.lineWidth = Math.max(5, s * 0.26); ctx.beginPath(); ctx.moveTo(s * 0.62, 0); ctx.quadraticCurveTo(s * 1.0, st * s * 0.08, hx - s * 0.12, hy); ctx.stroke();
+        ctx.strokeStyle = '#d9b27a'; ctx.lineWidth = Math.max(3, s * 0.15); ctx.beginPath(); ctx.moveTo(s * 0.62, -s * 0.05); ctx.quadraticCurveTo(s * 1.0, st * s * 0.08 - s * 0.05, hx - s * 0.12, hy - s * 0.04); ctx.stroke();
+        const hg = ctx.createLinearGradient(0, hy - s * 0.16, 0, hy + s * 0.16); hg.addColorStop(0, '#e6c892'); hg.addColorStop(1, '#8a6636');
+        ctx.fillStyle = hg; ell(ctx, hx + s * 0.1, hy, s * 0.3, s * 0.15); ctx.fill();
+        ctx.fillStyle = '#6b4a2a'; ell(ctx, hx + s * 0.34, hy, s * 0.1, s * 0.09); ctx.fill();
+        ctx.fillStyle = '#2a1a0c'; ctx.beginPath(); ctx.arc(hx + s * 0.1, hy - s * 0.08, Math.max(1.5, s * 0.03), 0, TAU); ctx.arc(hx + s * 0.1, hy + s * 0.08, Math.max(1.5, s * 0.03), 0, TAU); ctx.fill();
+        ctx.fillStyle = '#7a5630'; ell(ctx, hx - s * 0.08, hy - s * 0.15, s * 0.07, s * 0.04, -0.3); ctx.fill(); ell(ctx, hx - s * 0.08, hy + s * 0.15, s * 0.07, s * 0.04, 0.3); ctx.fill();
+        ctx.strokeStyle = '#c8452d'; ctx.lineWidth = Math.max(1.5, s * 0.035); ctx.beginPath(); ctx.moveTo(hx + s * 0.02, hy - s * 0.15); ctx.lineTo(hx + s * 0.02, hy + s * 0.15); ctx.moveTo(hx + s * 0.22, hy - s * 0.1); ctx.lineTo(hx + s * 0.22, hy + s * 0.1); ctx.stroke();
+        // hump, saddle cloth with a woven border, then the jockey
+        const hu = ctx.createRadialGradient(-s * 0.02, -s * 0.12, s * 0.02, s * 0.1, 0, s * 0.42); hu.addColorStop(0, '#f2d6a2'); hu.addColorStop(0.6, '#b8894a'); hu.addColorStop(1, '#6e4e2a');
+        ctx.fillStyle = hu; ell(ctx, s * 0.1, 0, s * 0.36, s * 0.34); ctx.fill();
+        { ctx.save(); ctx.translate(s * 0.08, 0); ctx.fillStyle = shade(col, -0.25); ell(ctx, 0, 0, s * 0.3, s * 0.36); ctx.fill(); ctx.fillStyle = '#f2c14e'; ell(ctx, 0, 0, s * 0.24, s * 0.3); ctx.fill(); ctx.fillStyle = col; ell(ctx, 0, 0, s * 0.2, s * 0.26); ctx.fill(); ctx.restore(); }
+        const lean = 0.05 + (ex.v ?? 0.5) * 0.1;
+        ctx.strokeStyle = SKINS[2]; ctx.lineWidth = Math.max(2, s * 0.06); ctx.beginPath(); ctx.moveTo(s * 0.16, -s * 0.12); ctx.lineTo(s * 0.62, -s * 0.06); ctx.moveTo(s * 0.16, s * 0.12); ctx.lineTo(s * 0.62, s * 0.06); ctx.stroke();
+        const tg2 = ctx.createLinearGradient(0, -s * 0.2, 0, s * 0.2); tg2.addColorStop(0, shade(col, 0.45)); tg2.addColorStop(1, shade(col, -0.2));
+        ctx.fillStyle = tg2; ell(ctx, s * (0.04 + lean), 0, s * 0.2, s * 0.17); ctx.fill();
+        ctx.fillStyle = '#f5f1e8'; ctx.beginPath(); ctx.arc(s * (0.24 + lean), 0, s * 0.11, 0, TAU); ctx.fill();
+        ctx.strokeStyle = '#a02c2c'; ctx.lineWidth = Math.max(2, s * 0.045); ctx.beginPath(); ctx.arc(s * (0.24 + lean), 0, s * 0.1, Math.PI * 0.6, Math.PI * 1.4); ctx.stroke();
+        ctx.fillStyle = 'rgba(255,255,255,0.5)'; ctx.beginPath(); ctx.arc(s * (0.21 + lean), -s * 0.04, s * 0.035, 0, TAU); ctx.fill();
       }
       if (ex.whip && look !== 'buffalo') { ctx.strokeStyle = 'rgba(255,255,255,0.85)'; ctx.lineWidth = 2; for (let i = 0; i < 3; i++) { ctx.beginPath(); ctx.moveTo(-s * 1.3, (i - 1) * s * 0.3); ctx.lineTo(-s * 2.0, (i - 1) * s * 0.3); ctx.stroke(); } }
       break; }
@@ -491,12 +529,15 @@ export function leadObject(ctx, kind, x, y, ang, s, color, roll, hop = 0, ex = {
   const bx = x - lift * 0.25, by = y - lift;
   switch (kind) {
     case 'cheese': {
-      // a round of cheese seen face-on, turning as it rolls: rind, eyes and a cut wedge that shows it spinning
-      ctx.fillStyle = color; ctx.beginPath(); ctx.arc(bx, by, s, 0, 7); ctx.fill();
-      ctx.strokeStyle = '#b9791f'; ctx.lineWidth = Math.max(2, s * 0.2); ctx.beginPath(); ctx.arc(bx, by, s * 0.93, 0, 7); ctx.stroke();
+      // a round of cheese turning as it rolls: ground shadow, a lit spherical body, waxed rind, eyes and a cut wedge
+      ctx.fillStyle = 'rgba(0,0,0,0.3)'; ctx.beginPath(); ctx.ellipse(bx + s * 0.22, by + s * 0.3, s * 1.0, s * 0.8, 0, 0, 7); ctx.fill();
+      const cg = ctx.createRadialGradient(bx - s * 0.35, by - s * 0.4, s * 0.1, bx, by, s * 1.05); cg.addColorStop(0, '#ffe9a6'); cg.addColorStop(0.55, color); cg.addColorStop(1, '#8a5a10');
+      ctx.fillStyle = cg; ctx.beginPath(); ctx.arc(bx, by, s, 0, 7); ctx.fill();
+      ctx.strokeStyle = '#a8671a'; ctx.lineWidth = Math.max(2.5, s * 0.22); ctx.beginPath(); ctx.arc(bx, by, s * 0.92, 0, 7); ctx.stroke();
+      ctx.strokeStyle = 'rgba(255,230,160,0.55)'; ctx.lineWidth = Math.max(1.5, s * 0.07); ctx.beginPath(); ctx.arc(bx, by, s * 0.99, Math.PI * 1.05, Math.PI * 1.65); ctx.stroke();
       ctx.fillStyle = 'rgba(150,90,10,0.45)';
-      for (let i = 0; i < 3; i++) { const a = roll + i * 2.1 + 0.4; ctx.beginPath(); ctx.arc(bx + Math.cos(a) * s * 0.5, by + Math.sin(a) * s * 0.5, s * (0.1 + 0.03 * i), 0, 7); ctx.fill(); }
-      ctx.fillStyle = '#7a4d0c'; ctx.beginPath(); ctx.moveTo(bx, by); ctx.arc(bx, by, s * 0.96, roll, roll + 0.95); ctx.closePath(); ctx.fill();
+      for (let i = 0; i < 4; i++) { const a2 = roll + i * 1.6 + 0.4; ctx.beginPath(); ctx.arc(bx + Math.cos(a2) * s * 0.5, by + Math.sin(a2) * s * 0.5, s * (0.09 + 0.03 * (i % 3)), 0, 7); ctx.fill(); }
+      ctx.fillStyle = '#6a3d08'; ctx.beginPath(); ctx.moveTo(bx, by); ctx.arc(bx, by, s * 0.96, roll, roll + 0.95); ctx.closePath(); ctx.fill();
       ctx.fillStyle = '#ffe7a3'; ctx.beginPath(); ctx.moveTo(bx, by); ctx.arc(bx, by, s * 0.72, roll + 0.08, roll + 0.87); ctx.closePath(); ctx.fill();
       ctx.strokeStyle = 'rgba(255,255,255,0.7)'; ctx.lineWidth = Math.max(1.5, s * 0.07); ctx.beginPath(); ctx.arc(bx, by, s * 0.6, 3.4, 4.3); ctx.stroke();
       break; }
@@ -533,6 +574,39 @@ export function leadObject(ctx, kind, x, y, ang, s, color, roll, hop = 0, ex = {
       ctx.restore();
       break; }
     default: break;
+  }
+  ctx.restore();
+}
+
+// ---- atmosphere --------------------------------------------------------------------------------------------------------
+// A final lighting pass over the course view: warm key light from the upper left, a cool fall-off towards the lower right,
+// slow light shafts, a vignette that pulls the eye to the racers and drifting motes (dust, pollen, snow or water glints).
+export function atmosphere(ctx, rect, terrain, t, power = 1) {
+  const { x, y, w, h } = rect;
+  const cold = terrain === 'snow' || terrain === 'ice', wet = terrain === 'water', dry = terrain === 'sand' || terrain === 'track';
+  const warm = cold ? '215,232,255' : wet ? '255,246,220' : dry ? '255,222,160' : '255,236,180';
+  ctx.save(); ctx.beginPath(); ctx.rect(x, y, w, h); ctx.clip();
+  let g = ctx.createLinearGradient(x, y, x + w * 0.75, y + h * 0.9);
+  g.addColorStop(0, `rgba(${warm},${0.22 * power})`); g.addColorStop(0.45, `rgba(${warm},0)`); g.addColorStop(1, `rgba(8,14,34,${0.24 * power})`);
+  ctx.fillStyle = g; ctx.fillRect(x, y, w, h);
+  // light shafts
+  for (let i = 0; i < 3; i++) {
+    const cx = x + w * (0.1 + i * 0.36) + Math.sin(t * 0.15 + i * 2) * w * 0.04, wd = w * 0.1;
+    g = ctx.createLinearGradient(cx, y, cx + wd * 2, y + h * 0.6);
+    g.addColorStop(0, `rgba(${warm},${0.09 * power})`); g.addColorStop(1, `rgba(${warm},0)`);
+    ctx.fillStyle = g; ctx.beginPath(); ctx.moveTo(cx, y); ctx.lineTo(cx + wd, y); ctx.lineTo(cx + wd * 2.4, y + h * 0.6); ctx.lineTo(cx + wd * 1.2, y + h * 0.6); ctx.closePath(); ctx.fill();
+  }
+  // vignette
+  const r = Math.hypot(w, h) / 2;
+  g = ctx.createRadialGradient(x + w / 2, y + h * 0.55, r * 0.5, x + w / 2, y + h * 0.55, r * 1.02);
+  g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, `rgba(4,8,18,${0.42 * power})`);
+  ctx.fillStyle = g; ctx.fillRect(x, y, w, h);
+  // motes
+  const col = cold ? '255,255,255' : wet ? '255,255,255' : dry ? '255,235,190' : '255,248,210';
+  for (let i = 0; i < 22; i++) {
+    const px = x + (((hash(i * 3 + 1) + t * (0.012 + hash(i) * 0.02)) % 1) * w), py = y + (((hash(i * 7 + 5) + t * (0.02 + hash(i + 9) * 0.03) * (cold ? 1.6 : 0.6)) % 1) * h);
+    const tw = 0.5 + 0.5 * Math.sin(t * 2 + i * 1.7);
+    ctx.fillStyle = `rgba(${col},${(wet ? 0.28 : 0.2) * tw * power})`; ctx.beginPath(); ctx.arc(px, py, 1 + hash(i * 11) * (cold ? 2.2 : 1.6), 0, TAU); ctx.fill();
   }
   ctx.restore();
 }

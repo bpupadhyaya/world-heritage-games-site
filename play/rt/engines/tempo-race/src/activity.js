@@ -3,7 +3,7 @@
 import { resolve, createPlayer, createBot, createLead, reference, createRivals, placePoints, heatStars, heatScore, qualityOf, leadShare, windShift, curveAt, bendAt, roughAt } from './model.js';
 import { kitOf, createKit, padSurface } from './kits.js';
 import { voice, fx } from '../../../platform/engine-kit/synth.js';
-import { hash, shade, scenery, texture, racer, checker, leadObject, trail, speedLines, gantry, confetti } from './draw.js';
+import { hash, shade, scenery, texture, racer, checker, leadObject, trail, speedLines, gantry, confetti, atmosphere } from './draw.js';
 
 const RIVAL_COLORS = ['#e0603a', '#f2c14e', '#58c27d', '#b07be0', '#ef8fb5', '#4fc3d9', '#d8d8d8'];
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
@@ -55,6 +55,42 @@ export function createActivity(userParams, env) {
     }
     return true;
   };
+  // The beat the player follows, played by the instrument that belongs to the sport (not one generic thud).
+  let beatN = 0, stepN = 0;
+  const beat = () => {
+    const acc = beatN++ % 4 === 0;
+    if (!nat()) { tone({ freq: 96, dur: 0.09, type: 'sine', vol: 0.35 }); return; }
+    switch (kitId) {
+      case 'bakiak': fx(A, 'tick', { hz: acc ? 1150 : 860, vel: acc ? 0.5 : 0.32 }); break;                     // wooden clapper counting the clogs
+      case 'camel': voice(A, 'drum', { style: 'frame', hz: acc ? 150 : 120, vel: acc ? 0.4 : 0.28 }); break;    // desert frame drum
+      case 'skate': fx(A, 'tick', { hz: acc ? 2100 : 1700, vel: acc ? 0.28 : 0.16 }); break;                   // a soft count, ice carries sound
+      case 'cheese': voice(A, 'clap', { vel: acc ? 0.4 : 0.26 }); break;                                        // the crowd claps the pace
+      case 'kambala': voice(A, 'drum', { style: 'bass', hz: acc ? 82 : 68, vel: acc ? 0.6 : 0.42 }); break;     // field drum
+      case 'nouka': voice(A, 'drum', { style: 'bass', hz: acc ? 95 : 80, vel: acc ? 0.62 : 0.44 }); if (acc) fx(A, 'tick', { hz: 1400, vel: 0.2, delay: 0.02 }); break;   // boat-race drum
+      default: fx(A, 'thud', { hz: 78, vel: 0.35 });
+    }
+  };
+  const mishap = () => {
+    if (!nat()) { tone({ freq: 140, dur: 0.18, type: 'sawtooth', vol: 0.5 }); return; }
+    switch (kitId) {
+      case 'bakiak': fx(A, 'impact', { mat: 'wood', hz: 180, vel: 0.9 }); fx(A, 'impact', { mat: 'wood', hz: 260, vel: 0.6, delay: 0.07 }); fx(A, 'bad', { hz: 160, vel: 0.4, delay: 0.1 }); break;
+      case 'nouka': case 'kambala': fx(A, 'splash', { vel: 0.9 }); fx(A, 'thud', { hz: 60, vel: 0.6, delay: 0.02 }); break;
+      case 'skate': fx(A, 'scrape', { hz: 2400, dur: 0.3, vel: 0.9 }); fx(A, 'thud', { hz: 70, vel: 0.5, delay: 0.12 }); break;
+      case 'camel': fx(A, 'thud', { hz: 70, vel: 0.8 }); fx(A, 'scrape', { hz: 700, dur: 0.2, vel: 0.6, delay: 0.03 }); break;
+      default: fx(A, 'impact', { mat: 'stone', vel: 0.9 }); fx(A, 'thud', { hz: 60, vel: 0.7, delay: 0.01 });
+    }
+  };
+  const cheer = () => { if (nat()) { fx(A, 'murmur', { hz: 430, dur: 1.6, vel: 0.9, rate: 3 }); fx(A, 'murmur', { hz: 700, dur: 1.2, vel: 0.5, delay: 0.1 }); } };
+  const footfall = (m) => {
+    // hooves: one step per stride of distance; the sound follows the ground (sand, mud-water)
+    if (kind !== 'animal' || !nat() || m.v < 1) return;
+    const n = Math.floor(m.x / (kitId === 'kambala' ? 1.5 : 1.9));
+    if (n === stepN) return;
+    stepN = n;
+    const vel = clamp(m.v / V.topSpeed, 0.2, 1) * 0.5;
+    if (kitId === 'kambala') { fx(A, 'splash', { vel: vel * 0.7 }); fx(A, 'thud', { hz: 64, vel: vel, delay: 0.01 }); }
+    else voice(A, 'step', { hz: 62 + (n % 2) * 14, vel });
+  };
   const placeNow = () => {
     const m = pl.m; let p = 1;
     for (const r of rivals) { if (r.fin !== null || r.pos(m.rt) > m.x) p++; }
@@ -91,7 +127,7 @@ export function createActivity(userParams, env) {
     const score = time === null ? Math.round(10 * quality) : heatScore(P, place, N, rhythm, share);
     heats[heat] = { place, time, rhythm, stars, score, clean: m.clean, hits: m.stumbles, lead: share, caught: m.caught };
     phase = 'finish'; linger = 2.4;
-    if (nat()) { fx(A, 'chime', { hz: 784, vel: 0.8 }); fx(A, 'sparkle', { hz: 1320, vel: 0.6, delay: 0.2 }); } else tone({ freq: 523, to: 784, dur: 0.3, type: 'triangle' });
+    if (nat()) { fx(A, 'chime', { hz: 784, vel: 0.8 }); fx(A, 'sparkle', { hz: 1320, vel: 0.6, delay: 0.2 }); if (time !== null) cheer(); } else tone({ freq: 523, to: 784, dur: 0.3, type: 'triangle' });
   };
 
   const idle = { stroke: 0, down: false, pressed: false, released: false, side: 0 };
@@ -122,7 +158,7 @@ export function createActivity(userParams, env) {
     if (phase === 'ready') {
       const before = cd; cd -= dt;
       for (const mark of [1.8, 1.0, 0.2]) if (before > mark && cd <= mark) { if (nat()) fx(A, 'tick', { hz: 900, vel: 0.8 }); else tone({ freq: 330, dur: 0.1, type: 'triangle', vol: 0.5 }); }
-      if (cd <= 0) { phase = 'race'; if (nat()) { voice(A, 'bell', { hz: 880, dur: 0.8, vel: 0.7 }); fx(A, 'whoosh', { vel: 0.4, dur: 0.3 }); } else tone({ freq: 660, dur: 0.25, type: 'triangle' }); }
+      if (cd <= 0) { phase = 'race'; beatN = 0; stepN = 0; if (nat()) { if (kitId === 'kambala' || kitId === 'nouka' || kitId === 'camel') { voice(A, 'drum', { style: 'taiko', hz: 70, vel: 0.9 }); fx(A, 'whoosh', { vel: 0.3, dur: 0.25 }); } else if (kitId === 'bakiak' || kitId === 'cheese') { voice(A, 'clap', { vel: 0.8 }); fx(A, 'impact', { mat: 'wood', hz: 330, vel: 0.7 }); } else { voice(A, 'bell', { hz: 880, dur: 0.8, vel: 0.7 }); fx(A, 'whoosh', { vel: 0.4, dur: 0.3 }); } } else tone({ freq: 660, dur: 0.25, type: 'triangle' }); }
       return;
     }
     if (phase === 'between') {
@@ -141,14 +177,15 @@ export function createActivity(userParams, env) {
       if (m.event.grade === 'perfect' || m.event.grade === 'good') { streak++; streakT = 0; } else streak = 0;
     } else if (m.event?.type === 'hit') streak = 0;
     if (m.leadEvent === 'caught') { caughtFlash = 1.8; if (nat()) fx(A, 'sparkle', { hz: 1175, vel: 0.7 }); else tone({ freq: 523, to: 1047, dur: 0.35, type: 'triangle' }); }
-    if (m.event?.type === 'hit') { if (nat()) { fx(A, 'impact', { mat: 'stone', vel: 0.9 }); fx(A, 'thud', { hz: 60, vel: 0.7, delay: 0.01 }); } else tone({ freq: 140, dur: 0.18, type: 'sawtooth', vol: 0.5 }); }
+    if (m.event?.type === 'hit') mishap();
     else if (m.event?.type === 'stroke' && stroke(m.event.grade)) { /* natural */ }
     else if (m.event?.type === 'stroke' && KIT) tone(KIT.tone.stroke(m.event.grade));
     else if (m.event?.type === 'stroke') tone({ freq: m.event.grade === 'perfect' ? 620 : m.event.grade === 'miss' ? 150 : 460, dur: 0.06, type: 'triangle', vol: 0.5 });
     if (playing && P.rhythm.drum && kind !== 'sailor') {
       const b = Math.floor(m.rt / pl.T);
-      if (b > lastBeat) { lastBeat = b; if (nat()) fx(A, 'thud', { hz: 78, vel: 0.35 }); else tone({ freq: 96, dur: 0.09, type: 'sine', vol: 0.35 }); }
+      if (b > lastBeat) { lastBeat = b; beat(); }
     }
+    if (playing) footfall(m);
     if (playing) {
       if (m.finished) finishHeat(m.rt - (m.x - L) / Math.max(1, m.v));
       else if (rivals.every((r) => r.fin !== null) && m.rt > Math.max(...rivals.map((r) => r.fin)) + 0.6 * ref.time) finishHeat(null);
@@ -343,6 +380,18 @@ export function createActivity(userParams, env) {
         ctx.fillStyle = C.terrain === 'water' ? 'rgba(255,255,255,0.025)' : C.terrain === 'ice' ? 'rgba(255,255,255,0.06)' : 'rgba(255,255,255,0.07)';
         ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.lineTo(c2[0], c2[1]); ctx.lineTo(d[0], d[1]); ctx.closePath(); ctx.fill();
       }
+      if (C.terrain === 'water') {
+        // depth: darker towards the banks, drifting light bands and glints on the surface
+        ctx.fillStyle = linG(ctx, x1, y1, x2, y2, [[0, 'rgba(0,20,30,0.22)'], [0.25, 'rgba(0,0,0,0)'], [0.75, 'rgba(0,0,0,0)'], [1, 'rgba(0,20,30,0.22)']]); ctx.fillRect(V0.x, V0.y, V0.w, V0.h);
+        ctx.lineWidth = Math.max(2, laneW * 0.05);
+        for (let i = 0; i < 14; i++) {
+          const ph0 = hash(i * 7 + 3), yy = (((ph0 + tNow * (0.025 + hash(i) * 0.02)) % 1) + 1) % 1;
+          const px = portrait ? V0.x + hash(i * 5 + 1) * V0.w : V0.x + yy * V0.w, py = portrait ? V0.y + (1 - yy) * V0.h : V0.y + hash(i * 5 + 1) * V0.h;
+          const len = laneW * (0.6 + hash(i * 3) * 0.8);
+          ctx.strokeStyle = `rgba(255,255,255,${0.1 + 0.1 * Math.sin(tNow * 2 + i)})`;
+          ctx.beginPath(); if (portrait) { ctx.moveTo(px - len, py); ctx.quadraticCurveTo(px, py - laneW * 0.1, px + len, py); } else { ctx.moveTo(px, py - len); ctx.quadraticCurveTo(px - laneW * 0.1, py, px, py + len); } ctx.stroke();
+        }
+      }
       if (C.terrain === 'ice') {
         // a long glossy sheen and fine cracks
         ctx.fillStyle = linG(ctx, V0.x, V0.y, V0.x + V0.w, V0.y + V0.h, [[0, 'rgba(255,255,255,0)'], [0.45, 'rgba(255,255,255,0.28)'], [0.55, 'rgba(255,255,255,0.05)'], [1, 'rgba(255,255,255,0)']]); ctx.fillRect(V0.x, V0.y, V0.w, V0.h);
@@ -414,6 +463,7 @@ export function createActivity(userParams, env) {
         ctx.beginPath(); if (portrait) { ctx.moveTo(x, y - 14); ctx.lineTo(x - 12, y + 6); ctx.lineTo(x + 12, y + 6); } else { ctx.moveTo(x + 14, y); ctx.lineTo(x - 6, y - 12); ctx.lineTo(x - 6, y + 12); } ctx.closePath(); ctx.fill(); ctx.stroke();
       }
     }
+    atmosphere(ctx, V0, C.terrain, tNow, (KIT?.light ?? 1) * (C.terrain === 'water' ? 0.65 : 1));
     // speed lines at the sides of the view, stronger during a burst
     const amt = title ? 0.35 : clamp((m.v / V.topSpeed - 0.55) * 2.2, 0, 1) + (m.burst > 0 ? 0.35 : 0);
     if (phase === 'race' || title) speedLines(ctx, V0, portrait ? 'up' : 'right', clamp(amt, 0, 1), title ? tNow * 0.25 : camS * 0.012, C.terrain === 'snow' || C.terrain === 'ice' ? '120,160,200' : '255,255,255');
@@ -450,8 +500,8 @@ export function createActivity(userParams, env) {
     const Wc = portrait ? V0.h : V0.w, Hc = portrait ? V0.w : V0.h;
     const laneW = Math.max(10, Math.min((Hc - 80) / 2 / lanes, 64));
     const trackW = laneW * lanes;
-    const rho = Math.max(20, (Hc - trackW - 56) / 2);
-    const a = Math.max(rho * 0.2, (Wc - 2 * rho - trackW - 56) / 2);
+    const rho = Math.max(20, (Hc - trackW - 92) / 2);
+    const a = Math.max(rho * 0.2, (Wc - 2 * rho - trackW - 92) / 2);
     const Lc = 4 * a + 2 * Math.PI * rho;
     const cx = V0.x + V0.w / 2, cy = V0.y + V0.h / 2;
     const toScreen = (xc, yc) => (portrait ? [cx - yc, cy + xc] : [cx + xc, cy + yc]);
@@ -470,14 +520,22 @@ export function createActivity(userParams, env) {
     const tNow = m.rt;
     ctx.fillStyle = cols.bank; ctx.fillRect(V0.x, V0.y, V0.w, V0.h);
     ctx.fillStyle = linG(ctx, 0, V0.y, 0, V0.y + V0.h, [[0, 'rgba(255,255,255,0.08)'], [1, 'rgba(0,0,0,0.22)']]); ctx.fillRect(V0.x, V0.y, V0.w, V0.h);
-    // spectators and scenery on the outer bank
+    // snow drifts, spectators and scenery on the outer bank (denser, with a second ring of trees behind)
     {
-      const n = 26;
+      const snowy = C.terrain === 'ice' || C.terrain === 'snow';
+      for (let n = 0; n < 90; n++) {
+        const r = hash(n * 17 + 4), r2 = hash(n * 29 + 8);
+        const [x, y] = at(r * C.lapLength, trackW / 2 + laneW * (0.5 + r2 * 2.4));
+        ctx.fillStyle = snowy ? `rgba(255,255,255,${0.35 + r2 * 0.3})` : 'rgba(0,0,0,0.12)'; ctx.beginPath(); ctx.ellipse(x, y, laneW * (0.3 + r * 0.5), laneW * (0.12 + r2 * 0.14), r * 3, 0, 7); ctx.fill();
+      }
+      const n = 44;
       for (let i = 0; i < n; i++) {
         const f = (i + 0.5) / n; const r = hash(i * 5 + 1);
         const sOut = (f * C.lapLength * 1.0);
-        const [x, y] = at(sOut, trackW / 2 + laneW * (0.9 + r * 0.5));
-        scenery(ctx, i % 4 === 0 ? 'crowd' : C.scenery, x, y, laneW * (i % 4 === 0 ? 0.9 : 0.8), r, tNow);
+        const ring = i % 2 ? 0.75 : 1.5;
+        const [x, y] = at(sOut, trackW / 2 + laneW * (ring + r * 0.4));
+        const piece = i % 9 === 0 ? 'windmill' : i % 4 === 0 ? 'crowd' : snowy && i % 3 === 0 ? 'pines' : C.scenery;
+        scenery(ctx, piece, x, y, laneW * (piece === 'crowd' ? 0.9 : 0.85), r, tNow);
       }
     }
     ctx.save(); ctx.translate(cx, cy); if (portrait) ctx.rotate(Math.PI / 2);
@@ -506,6 +564,16 @@ export function createActivity(userParams, env) {
     const lapNow = Math.min(laps, Math.floor(Math.min(m.x, L - 0.01) / C.lapLength) + 1);
     const inner = Math.max(0, rho - trackW / 2);
     if (inner > laneW) { const n = Math.min(4, Math.floor((a * 2 + inner) / (laneW * 1.4))); for (let i = 0; i < n; i++) { const r = hash(i * 3 + 9); const off = (i - (n - 1) / 2) * laneW * 1.4; scenery(ctx, i === 0 ? C.scenery : C.scenery, portrait ? icx : icx + off, portrait ? icy + off : icy - inner * 0.45, laneW * 0.8, r, tNow); } }
+    if (inner > 14) {
+      const snowy = C.terrain === 'ice' || C.terrain === 'snow';
+      for (let i = 0; i < 12; i++) {
+        const xx = (hash(i * 3 + 2) - 0.5) * 2 * a * 0.95, yy = (hash(i * 5 + 1) - 0.5) * inner * 1.4;
+        if (Math.abs(xx) < laneW * 1.3 && Math.abs(yy) < laneW * 0.9) continue;
+        const [x, y] = toScreen(xx, yy);
+        if (snowy) { ctx.fillStyle = 'rgba(255,255,255,0.8)'; ctx.beginPath(); ctx.ellipse(x, y + laneW * 0.2, laneW * 0.7, laneW * 0.22, 0, 0, 7); ctx.fill(); ctx.fillStyle = 'rgba(120,150,190,0.25)'; ctx.beginPath(); ctx.ellipse(x + laneW * 0.1, y + laneW * 0.28, laneW * 0.6, laneW * 0.1, 0, 0, 7); ctx.fill(); }
+        scenery(ctx, i % 5 === 0 ? 'windmill' : snowy ? 'pines' : C.scenery, x, y, laneW * 0.75, hash(i * 7), tNow);
+      }
+    }
     g.rr(ctx, icx - 52, icy + (inner > laneW ? inner * 0.25 : 0) - 16, 104, 32, 16); ctx.fillStyle = 'rgba(8,14,22,0.55)'; ctx.fill();
     g.label(ctx, `Lap ${lapNow} / ${laps}`, icx, icy + (inner > laneW ? inner * 0.25 : 0), g.px(20), '#fff', 'center', '800');
     const rs = laneW * 0.95;
@@ -527,6 +595,7 @@ export function createActivity(userParams, env) {
       const [x, y, ang] = at(lx, off);
       leadDraw(ctx, x, y, ang, rs, 0);
     }
+    atmosphere(ctx, V0, C.terrain, tNow, (KIT?.light ?? 1) * (C.terrain === 'water' ? 0.65 : 1));
   };
 
   const drawHud = (g, V0) => {

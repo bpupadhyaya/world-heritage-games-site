@@ -5,7 +5,8 @@
 import { mix, dark, light, alpha, vgrad, rrPath } from './figures.js';
 import { drawSceneArt } from './stages.js';
 import { THEATRES } from './theatres.js';
-import { resolveSkin, soundSet, drawCard, drawNamePlate, drawPlaque, drawMedallion, drawBead } from './skins.js';
+import { makeSoundscape } from './sound.js';
+import { resolveSkin, pattern, drawCard, drawNamePlate, drawPlaque, drawMedallion, drawBead } from './skins.js';
 import { voice, fx } from '../../../platform/engine-kit/synth.js';
 
 export const STAGES = ['shadow', 'marionette', 'glove', 'water', 'mask', 'caravan', 'verse'];
@@ -62,7 +63,7 @@ export function createActivity(userParams, env) {
   P.look = { ...STAGE_LOOK[P.stage] ?? STAGE_LOOK.marionette, ...(TH?.look ?? {}), ...(P.look ?? {}) };
   const { palette: pal, audio } = env;
   const skin = resolveSkin(TH?.skin, pal);
-  const snd = soundSet(skin.snd);
+  const snd = makeSoundscape(P.setting, skin.snd);
   const scenes = P.scenes;
   const meterDefs = P.meters;
   const tone = (o) => { try { audio?.tone(o); } catch { /* sound is optional */ } };
@@ -165,7 +166,7 @@ export function createActivity(userParams, env) {
       V.crowd.cheer = n > 0 ? 1 : 0.4; V.crowd.mood = n > 0 ? 1 : -1;
       if (n > 0) burst(14, 'star', ['#ffe27a', '#fff3b0', '#ffb23a']);
     } else {
-      for (const e of snd.scene(S.steps)) sfx(e.at, e.o, e.v);
+      for (const e of snd.scene()) sfx(e.at, e.o, e.v);
     }
   };
 
@@ -189,7 +190,6 @@ export function createActivity(userParams, env) {
       if (real) {
         net += real;
         V.flash.push({ m, d: real, age: 0 });
-        sfx(0.12, { freq: real > 0 ? 600 : 220, to: real > 0 ? 900 : 160, dur: 0.14, type: 'triangle', vol: 0.22 }, real > 0 ? { fx: 'good', p: { hz: 700, vel: 0.6 } } : { fx: 'bad', p: { hz: 230, vel: 0.6 } });
       }
     }
     for (const f of o.set ?? []) if (!S.flags.includes(f)) S.flags.push(f);
@@ -210,6 +210,7 @@ export function createActivity(userParams, env) {
       done = { score: S.pts, max: Math.max(maxPts, S.pts), stars: clamp(e.stars ?? 0, 0, 3), headline: e.headline ?? 'The end', detail: `${S.pts} of ${Math.max(maxPts, S.pts)} wise points` };
       return;
     }
+    for (const e of snd.tap()) sfx(0, e.o, e.v);
     S.steps++;
     S.log.push(o.text);
     const net = apply(o);
@@ -222,7 +223,6 @@ export function createActivity(userParams, env) {
     if (good) {
       burst(10 + Math.min(8, (o.pts ?? 0) * 2), 'star', ['#ffe27a', '#fff3b0', '#ffb23a']);
       burst(4, 'heart', ['#ff7a8a', '#ff9eb0']);
-      sfx(0.05, { freq: 1200, dur: 0.03, type: 'square', vol: 0.05 }, { fx: 'sparkle', p: { hz: 1400 + hash(V.pc) * 700, vel: 0.6 } });
       for (const e of snd.good(o.pts ?? 0)) sfx(e.at, e.o, e.v);
     } else if (bad) {
       burst(3, 'puff', ['#e0a0a0']);
@@ -253,7 +253,17 @@ export function createActivity(userParams, env) {
     V.t += dt; V.revealT += dt; V.endT += dt; V.lineAge += dt;
     if (skin.voice && V.revealT > 0) { // the speaking voice: a quiet blip every few typed characters
       const n = Math.min(Math.floor(V.revealT * P.speed), totalChars()), step = Math.floor(n / skin.voice);
-      if (step > V.voiceN) { V.voiceN = step; for (const e of snd.voice(step)) sfx(e.at, e.o, e.v); }
+      if (step > V.voiceN) { V.voiceN = step; for (const e of snd.voice(step, scenes[S.scene]?.speaker ?? '')) sfx(e.at, e.o, e.v); }
+    }
+    // the tradition's ensemble: a quiet looping pattern that fades in over the first seconds of the play
+    if (audio?.context) {
+      if (V.beat === undefined || V.t - V.beatAt > 2) { V.beat = V.beat === undefined ? 0 : V.beat; V.beatAt = V.t; }
+      let guard = 0;
+      while (V.t >= V.beatAt && guard++ < 4) {
+        const gain = clamp(V.t / 5, 0, 1) * (done ? 0.5 : 1) * (V.revealT * P.speed < totalChars() ? 0.7 : 1);
+        for (const e of snd.ambient(V.beat, gain)) play(e);
+        V.beat++; V.beatAt += snd.step;
+      }
     }
     V.trans = Math.max(0, V.trans - dt * 3.2);
     V.crowd.cheer = Math.max(0, V.crowd.cheer - dt * 0.55);
@@ -359,14 +369,28 @@ export function createActivity(userParams, env) {
       Object.assign(lowerRect, { x: area.x + lw + gap, y: area.y, w: area.w - lw - gap, h: area.h });
     }
     const tw = (landscape ? lowerRect.w : area.w) - 34;
-    const fs = px(22), os = px(19);
-    const lines = g.wrap(ctx, body.text, tw, fs);
-    const plines = body.prompt ? g.wrap(ctx, body.prompt, tw * 0.92, px(21)) : [];
-    const nameH = body.name ? px(34) : 0;
-    const textH = nameH + lines.length * fs * 1.34 + (plines.length ? plines.length * px(21) * 1.34 + 10 : 0) + 26;
-    const optH = opts.map((o) => Math.max(px(52), g.wrap(ctx, o.text, tw - 56, os).length * os * 1.26 + px(22)));
-    const optsH = optH.reduce((a, b) => a + b + gap + 1, 0);
-    const contentH = textH + gap + optsH;
+    // text block metrics at scale k; in landscape the column grows (up to 1.4x) so it fills the height instead of leaving a void
+    const meas = (k) => {
+      const fs = px(22) * k, os = px(19) * k;
+      const lines = g.wrap(ctx, body.text, tw, fs);
+      let plines = [];
+      if (body.prompt) { // the prompt is set in bold serif: measure with that font so it never runs off the card
+        ctx.save(); ctx.font = `700 ${Math.round(px(21) * k)}px ${SERIF}`;
+        let cur = '';
+        for (const w of body.prompt.split(/\s+/)) { const tr = cur ? `${cur} ${w}` : w; if (cur && ctx.measureText(tr).width > tw - 8) { plines.push(cur); cur = w; } else cur = tr; }
+        if (cur) plines.push(cur);
+        ctx.restore();
+      }
+      const nameH = body.name ? px(34) * k : 0;
+      const textH = nameH + lines.length * fs * 1.34 + (plines.length ? plines.length * px(21) * k * 1.34 + 10 : 0) + 26;
+      const optH = opts.map((o) => Math.max(px(52) * k, g.wrap(ctx, o.text, tw - 56, os).length * os * 1.26 + px(22) * k));
+      const optsH = optH.reduce((a, b) => a + b + gap + 1, 0);
+      return { k, fs, os, lines, plines, nameH, textH, optH, optsH, contentH: textH + gap + optsH };
+    };
+    let M = meas(1);
+    if (landscape) { for (let k = 1.4; k > 1.01; k -= 0.06) { const c = meas(k); if (c.contentH <= area.h * 0.9) { M = c; break; } } }
+    const { fs, os, lines, plines, nameH, textH, optH, contentH } = M;
+    const ks = M.k;
     if (!landscape) {
       const metersH = px(34);
       const minStage = Math.min(area.h * 0.32, 230);
@@ -407,9 +431,18 @@ export function createActivity(userParams, env) {
       for (const fl of V.flash) if (fl.m === m.id) { ctx.globalAlpha = clamp(1.4 - fl.age, 0, 1); txt(ctx, `${fl.d > 0 ? '+' : ''}${fl.d}`, x + cw - 20, metersRect.y - fl.age * 16, px(20), fl.d > 0 ? pal.good : pal.bad, 'center', '800'); ctx.globalAlpha = 1; }
     });
 
+    if (landscape) { // lectern panel behind the column: tinted velvet with the tradition's pattern, so the side never reads as a void
+      ctx.save(); rrPath(ctx, lowerRect.x, lowerRect.y, lowerRect.w, lowerRect.h, 14); ctx.clip();
+      ctx.fillStyle = vgrad(ctx, lowerRect.y, lowerRect.y + lowerRect.h, [[0, alpha(skin.card.top, 0.2)], [1, alpha(skin.card.bot, 0.5)]]); ctx.fillRect(lowerRect.x, lowerRect.y, lowerRect.w, lowerRect.h);
+      if (skin.card.pattern) pattern(ctx, skin.card.pattern, lowerRect.x, lowerRect.y, lowerRect.w, lowerRect.h, skin.card.patCol ?? skin.card.edge, 0.07);
+      const lg = ctx.createRadialGradient(lowerRect.x + lowerRect.w / 2, lowerRect.y + lowerRect.h * 0.45, 10, lowerRect.x + lowerRect.w / 2, lowerRect.y + lowerRect.h * 0.45, lowerRect.h * 0.8);
+      lg.addColorStop(0, 'rgba(255,230,170,0.08)'); lg.addColorStop(1, 'rgba(0,0,0,0.3)'); ctx.fillStyle = lg; ctx.fillRect(lowerRect.x, lowerRect.y, lowerRect.w, lowerRect.h);
+      ctx.restore();
+      rrPath(ctx, lowerRect.x + 0.5, lowerRect.y + 0.5, lowerRect.w - 1, lowerRect.h - 1, 14); ctx.strokeStyle = alpha(skin.card.edge, 0.35); ctx.lineWidth = 1; ctx.stroke();
+    }
     // lower block: dialogue card and lacquered choice plaques, scrollable
     ctx.save(); ctx.beginPath(); ctx.rect(lowerRect.x - 4, lowerRect.y, lowerRect.w + 8, lowerRect.h); ctx.clip();
-    let y = lowerRect.y - V.scroll;
+    let y = lowerRect.y - V.scroll + (landscape && contentH < lowerRect.h ? Math.floor((lowerRect.h - contentH) * 0.42) : 0);
     const cardX = lowerRect.x + 2, cardW = lowerRect.w - 4;
     // card
     drawCard(ctx, skin, cardX, y, cardW, textH, V.t);
@@ -418,9 +451,9 @@ export function createActivity(userParams, env) {
     const tx = cardX + 16;
     let ty = y + 12;
     if (body.name) {
-      const nw = Math.min(cardW - 32, (body.name.length * px(18) * 0.62) + 28);
+      const nw = Math.min(cardW - 32, (body.name.length * px(18) * ks * 0.62) + 28);
       drawNamePlate(ctx, skin, tx - 4, ty - 2, nw, nameH - 6, body.ending);
-      txt(ctx, body.name, tx + 10, ty + (nameH - 6) / 2 - 2, px(18), body.ending ? '#1b1206' : skin.name.ink, 'left', '800', SERIF);
+      txt(ctx, body.name, tx + 10, ty + (nameH - 6) / 2 - 2, px(18) * ks, body.ending ? '#1b1206' : skin.name.ink, 'left', '800', SERIF);
       ty += nameH;
     }
     for (const ln of lines) {
@@ -430,7 +463,7 @@ export function createActivity(userParams, env) {
     }
     if (plines.length) {
       ty += 6;
-      for (const ln of plines) { const part = ln.slice(0, Math.max(0, shown)); shown -= ln.length + 1; if (part) txt(ctx, part, tx, ty + px(21) * 0.66, px(21), hiC, 'left', '700', SERIF); ty += px(21) * 1.34; }
+      for (const ln of plines) { const part = ln.slice(0, Math.max(0, shown)); shown -= ln.length + 1; if (part) txt(ctx, part, tx, ty + px(21) * ks * 0.66, px(21) * ks, hiC, 'left', '700', SERIF); ty += px(21) * ks * 1.34; }
     }
     if (!revealed()) { // small "skip" hint caret while the voice is typing
       const bl = 0.5 + 0.5 * Math.sin(V.t * 8);
@@ -453,12 +486,12 @@ export function createActivity(userParams, env) {
         drawPlaque(ctx, skin, x, y + lift, w, h, { hot, pressed, end: o.end });
         const ink = o.end ? skin.plaque.inkEnd : skin.plaque.ink;
         if (opts.length > 1) {
-          const br = Math.min(h * 0.3, px(17));
+          const br = Math.min(h * 0.3, px(17) * ks);
           drawMedallion(ctx, skin, x + 26, y + lift + h / 2 + (pressed ? 2 : 0), br, String(i + 1), txt, px(0) * 0.95);
         }
         const wl = g.wrap(ctx, o.text, tw - 56, os);
         const startY = y + lift + h / 2 - ((wl.length - 1) * os * 1.26) / 2 + (pressed ? 2 : 0);
-        wl.forEach((l, k) => txt(ctx, l, opts.length > 1 ? x + 26 + Math.min(h * 0.3, px(17)) + 12 : x + w / 2, startY + k * os * 1.26, os, ink, opts.length > 1 ? 'left' : 'center', '600'));
+        wl.forEach((l, k) => txt(ctx, l, opts.length > 1 ? x + 26 + Math.min(h * 0.3, px(17) * ks) + 12 : x + w / 2, startY + k * os * 1.26, os, ink, opts.length > 1 ? 'left' : 'center', '600'));
         ctx.globalAlpha = 1;
       }
       y += h + gap + 1;

@@ -172,19 +172,29 @@ function gunungan(ctx, cx, base, h, lamp, t, dim) {
 
 function gamelan(ctx, R, y0, h, t) {
   const col = '#0b0503', warm = 'rgba(255,196,96,0.55)';
-  const beat = Math.sin(t * 3.2), hit = Math.max(0, beat), u = h / 100;
+  // visuals follow the audio colotomy (sound.js: 0.56 s per saron beat, gong ageng every 16th): the struck key and the gong light up
+  const BAL = [2, 3, 4, 3, 2, 3, 4, 2, 1, 2, 3, 2, 0, 1, 2, 0], bi = Math.floor(t / 0.56), fr = (t / 0.56) % 1, sKey = BAL[bi % 16] + 1;
+  const strike = Math.max(0, 1 - fr * 3), gongHit = bi % 16 === 0 ? Math.max(0, 1 - fr * 0.9) : bi % 16 === 8 ? Math.max(0, 0.5 - fr * 0.5) : 0;
+  const beat = Math.sin(t * 3.2), hit = strike, u = h / 100;
   const fg = ctx.createLinearGradient(0, y0, 0, y0 + h); fg.addColorStop(0, 'rgba(120,60,10,0.35)'); fg.addColorStop(1, 'rgba(0,0,0,0)'); ctx.fillStyle = fg; ctx.fillRect(R.x, y0, R.w, h);
   const gx = R.x + R.w * 0.84, gy = y0 + h * 0.5;
   ctx.fillStyle = col; ctx.fillRect(gx - R.w * 0.095, gy - h * 0.55, R.w * 0.016, h * 1.1); ctx.fillRect(gx + R.w * 0.08, gy - h * 0.55, R.w * 0.016, h * 1.1); ctx.fillRect(gx - R.w * 0.1, gy - h * 0.58, R.w * 0.2, 5 * u);
   const gr = Math.min(R.w * 0.075, h * 0.42), gsw = hit * 0.8;
   const gg = ctx.createRadialGradient(gx - gr * 0.3, gy - gr * 0.2, gr * 0.1, gx, gy, gr);
   gg.addColorStop(0, '#6a4410'); gg.addColorStop(0.55, '#2a1806'); gg.addColorStop(1, '#0e0703');
-  ctx.fillStyle = gg; ctx.beginPath(); ctx.arc(gx + gsw, gy, gr, 0, TAU); ctx.fill();
+  if (gongHit > 0) { const hl = ctx.createRadialGradient(gx, gy, gr * 0.5, gx, gy, gr * 2.2); hl.addColorStop(0, `rgba(255,190,80,${0.45 * gongHit})`); hl.addColorStop(1, 'rgba(255,190,80,0)'); ctx.fillStyle = hl; ctx.fillRect(gx - gr * 2.3, gy - gr * 2.3, gr * 4.6, gr * 4.6); }
+  const gsw2 = gongHit * Math.sin(t * 38) * 1.5;
+  ctx.fillStyle = gg; ctx.beginPath(); ctx.arc(gx + gsw2, gy, gr, 0, TAU); ctx.fill();
   ctx.strokeStyle = warm; ctx.lineWidth = 2; ctx.stroke();
-  ctx.fillStyle = '#c28a24'; ctx.beginPath(); ctx.arc(gx + gsw, gy, gr * 0.28, 0, TAU); ctx.fill();
+  for (let k = 1; k <= 3; k++) { ctx.strokeStyle = `rgba(255,200,110,${0.12 + 0.06 * k})`; ctx.lineWidth = 1; ctx.beginPath(); ctx.arc(gx + gsw2, gy, gr * (0.35 + k * 0.17), 0, TAU); ctx.stroke(); }
+  const bg2 = ctx.createRadialGradient(gx + gsw2 - gr * 0.08, gy - gr * 0.08, 1, gx + gsw2, gy, gr * 0.3); bg2.addColorStop(0, '#ffe9a8'); bg2.addColorStop(0.5, '#d89a30'); bg2.addColorStop(1, '#7a4c0e');
+  ctx.fillStyle = bg2; ctx.beginPath(); ctx.arc(gx + gsw2, gy, gr * 0.28, 0, TAU); ctx.fill();
   const sx = R.x + R.w * 0.36;
   ctx.fillStyle = col; rrPath(ctx, sx - R.w * 0.16, y0 + h * 0.62, R.w * 0.32, h * 0.2, 4); ctx.fill();
-  for (let i = 0; i < 7; i++) { const bx = sx - R.w * 0.14 + i * R.w * 0.04; ctx.fillStyle = '#7a5416'; ctx.fillRect(bx, y0 + h * 0.56, R.w * 0.033, h * 0.07); ctx.fillStyle = 'rgba(255,220,130,0.6)'; ctx.fillRect(bx, y0 + h * 0.56, R.w * 0.033, 2); }
+  for (let i = 0; i < 7; i++) { const bx = sx - R.w * 0.14 + i * R.w * 0.04, on = i === sKey ? strike : 0, ky = y0 + h * 0.56 + on * 2;
+    const kg = ctx.createLinearGradient(0, ky, 0, ky + h * 0.07); kg.addColorStop(0, on ? '#ffe7a0' : '#c9a050'); kg.addColorStop(1, on ? '#c08a30' : '#5a3a0c');
+    ctx.fillStyle = kg; ctx.fillRect(bx, ky, R.w * 0.033, h * 0.07); ctx.fillStyle = 'rgba(255,230,150,0.7)'; ctx.fillRect(bx, ky, R.w * 0.033, 2);
+    if (on > 0.05) { ctx.fillStyle = `rgba(255,214,120,${0.35 * on})`; ctx.beginPath(); ctx.ellipse(bx + R.w * 0.0165, ky + 2, R.w * 0.03, h * 0.08, 0, 0, TAU); ctx.fill(); } }
   ctx.strokeStyle = warm; ctx.lineWidth = 1.5; rrPath(ctx, sx - R.w * 0.16, y0 + h * 0.62, R.w * 0.32, h * 0.2, 4); ctx.stroke();
   const person = (px, py, sc, mallet) => {
     ctx.fillStyle = col;

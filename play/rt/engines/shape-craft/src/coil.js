@@ -5,7 +5,7 @@ import { tint, rrect, rgba, mix, shadowed, shelf, litEdge } from './fx.js';
 export const COIL_DEFAULTS = { profile: 'basket', rows: 10, stitches: 12, motif: 'triangles', style: 'coil', palette: [{ name: 'Sisal', color: '#d9b878' }, { name: 'Dark', color: '#2d1d14' }, { name: 'Rust', color: '#a8472a' }], colors: 2, period: 6, guide: true, tolerance: 0, variation: 0.03 };
 
 export function createCoil(P, env) {
-  const { rng, audio, fx } = env;
+  const { rng, audio, fx, sound } = env;
   const SC = P.scene ?? {};
   let clock = 0, laidAt = [];
   const R = P.rows, N = P.stitches, total = R * N;
@@ -62,7 +62,7 @@ export function createCoil(P, env) {
     if (id.startsWith('stitch:')) {
       if (cursor >= total) return;
       const c = Number(id.slice(7)); lastLaid = cursor; lastLaidAt = clock; board[cursor++] = c;
-      audio?.tone({ freq: 300 + c * 110, dur: 0.05, type: 'triangle', vol: 0.18 });
+      sound?.stitch(c);
       burst(lastLaid);
     } else if (id === 'undo') { if (cursor > 0) board[--cursor] = -1; }
     else if (id === 'check') finish();
@@ -145,7 +145,7 @@ export function createCoil(P, env) {
     if (done) return;
     acc += dt;
     if (acc < 0.05) return; acc = 0;
-    if (cursor < total) { board[cursor] = target[cursor]; cursor++; audio?.tone({ freq: 300 + target[cursor - 1] * 110, dur: 0.04, vol: 0.12 }); }
+    if (cursor < total) { board[cursor] = target[cursor]; cursor++; sound?.stitch(target[cursor - 1]); }
     else finish();
   };
 

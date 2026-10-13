@@ -2,16 +2,17 @@
 import { clamp, hash, rasterFigure, orbit, normIoU, starsFor } from './geom.js';
 import { tint, litEdge, rrect, rgba, mix, shadowed, shelf, lum } from './fx.js';
 import { drawSeat, drawTool, wallLift } from './scenes.js';
+import { contourLoops, tracePath } from './relief.js';
 
 export const CARVE_DEFAULTS = { mode: 'figure', figure: 'elephant', cols: 16, rows: 16, material: 'stone', color: '#8a8f86', cavity: '#14181d', symmetry: 'none', snips: 7, tolerance: 0.06, guide: true, chisels: 2, variation: 1 };
 
 export function createCarve(P, env) {
-  const { rng, audio, fx } = env;
+  const { rng, audio, fx, sound } = env;
   const SC = P.scene ?? {}, BK = SC.block ?? P.material, PM = SC.pitch ?? 1, WV = SC.wave ?? 'triangle';
   const FXK = SC.fx ?? { kind: P.mode === 'cut' ? 'flake' : 'chip', c: null };
   let flashes = [], lastPtr = null;
   const { cols, rows } = P, total = cols * rows, cut = P.mode === 'cut';
-  let kept, target, undo, done, geo = null, rects = null, tool = 1, drag = false, last = null, strokeRestore = false, acc = 0, clock = 0;
+  let castAt = -1, kept, target, undo, done, geo = null, rects = null, tool = 1, drag = false, last = null, strokeRestore = false, acc = 0, clock = 0;
   const at = (c, r) => r * cols + c;
 
   const makeTarget = () => {
@@ -33,12 +34,13 @@ export function createCarve(P, env) {
     if (!holes.some((h) => h)) holes[at(Math.floor(cols / 2), Math.floor(rows / 2))] = 1;
     return holes.map((h) => (h ? 0 : 1));
   };
-  const init = () => { target = makeTarget(); kept = new Array(total).fill(1); undo = []; done = null; tool = 1; drag = false; last = null; acc = 0; };
+  const init = () => { castAt = -1; target = makeTarget(); kept = new Array(total).fill(1); undo = []; done = null; tool = 1; drag = false; last = null; acc = 0; };
   init();
 
   const score = () => normIoU(kept, target, P.tolerance);
   const finish = () => {
     const r = score(), stars = starsFor(r.score);
+    if (SC.id === 'lostwax') { castAt = clock; sound?.cast(); }
     const wrong = kept.reduce((n, k, i) => n + (k !== target[i] ? 1 : 0), 0);
     done = { score: r.score, max: 100, stars, headline: stars === 3 ? (cut ? 'A clean cut-out' : 'A fine carving') : stars ? 'Well shaped' : 'Keep chipping', detail: wrong ? `${wrong} cells differ from the design` : 'Every cell matches the design' };
   };
@@ -68,8 +70,9 @@ export function createCarve(P, env) {
       for (const [x, y] of orbit(cut ? P.symmetry : 'none', cc, rr, cols, rows)) { const v = remove ? 0 : 1; if (kept[at(x, y)] !== v) { kept[at(x, y)] = v; changed = true; } }
     }
     if (changed) {
-      audio?.tone({ freq: (150 + hash(c, r) * 90) * PM, to: 90 * PM, dur: 0.05, type: WV, vol: 0.14 });
-      audio?.tone({ freq: (1500 + hash(c, r, 2) * 900) * PM, dur: 0.02, type: 'square', vol: 0.025 });
+      if (!remove) sound?.mend();
+      else if (cut && SC.cavity === 'mirror') sound?.mirror(hash(c, r));
+      else sound?.chip(hash(c, r), sz > 1);
       if (geo && fx) {
         const col = cut ? P.color : cellColor(c, r), x = geo.x + (c + 0.5 * sz) * geo.cs, y = geo.y + (r + 0.5 * sz) * geo.cs;
         const pc = FXK.c ?? col;
@@ -111,17 +114,120 @@ export function createCarve(P, env) {
     else f = (h - 0.5) * 0.03;
     return tint(P.color, f);
   };
+
+  // The block as one smooth solid: rounded contour, material painted in block coordinates (so veins, grain and glints run on
+  // across cells), a soft cast shadow into the cavity, inner light and shade that give it thickness.
+  const drawSmooth = (ctx, mask, x, y, cs, { detail, t = 0, cast = 0 }) => {
+    const loops = contourLoops(mask, cols, rows, { k: cs >= 9 ? 4 : 3 });
+    if (!loops.length) return;
+    const W = cs * cols, Hh = cs * rows, base = cast > 0 ? mix(P.color, '#7c4518', Math.min(1, cast)) : P.color;
+    const path = () => { ctx.beginPath(); tracePath(ctx, loops, x, y, cs); };
+    const ringFill = (fn) => { // paints the area OUTSIDE the shape; used for inner shadows (call inside a clip)
+      ctx.beginPath(); ctx.rect(x - cs * 3, y - cs * 3, W + cs * 6, Hh + cs * 6); tracePath(ctx, loops, x, y, cs); fn();
+    };
+    ctx.save(); ctx.beginPath(); ctx.rect(x, y, W, Hh); ctx.clip();
+    if (detail) { // cast shadow into the cavity: a contact core and a long soft one
+      ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.55)'; ctx.shadowBlur = cs * 0.55; ctx.shadowOffsetX = cs * 0.12; ctx.shadowOffsetY = cs * 0.2; path(); ctx.fillStyle = tint(base, -0.6); ctx.fill('evenodd'); ctx.restore();
+      ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.4)'; ctx.shadowBlur = cs * 1.3; ctx.shadowOffsetX = cs * 0.45; ctx.shadowOffsetY = cs * 0.7; path(); ctx.fillStyle = tint(base, -0.6); ctx.fill('evenodd'); ctx.restore();
+    }
+    if (detail) { // the thickness of the slab: side wall seen below and to the right of the lit top face
+      const steps = 6, dx = cs * 0.09, dy = cs * 0.13;
+      for (let q = steps; q >= 1; q--) { ctx.save(); ctx.translate(dx * q, dy * q); path(); ctx.fillStyle = tint(base, -0.35 - 0.3 * (q / steps)); ctx.fill('evenodd'); ctx.restore(); }
+    }
+    const gb = ctx.createLinearGradient(x, y, x + W * 0.7, y + Hh);
+    gb.addColorStop(0, tint(base, 0.14)); gb.addColorStop(0.55, base); gb.addColorStop(1, tint(base, -0.2));
+    path(); ctx.fillStyle = gb; ctx.fill('evenodd');
+    if (!detail) { ctx.restore(); return; }
+    ctx.save(); path(); ctx.clip('evenodd');
+    const R = (i, j = 0, s2 = 0) => hash(i, j, s2 + 300), u = (f) => x + f * W, v = (f) => y + f * Hh;
+    const blot = (n, rmin, rmax, col, a) => {
+      for (let q = 0; q < n; q++) {
+        const px = u(R(q, 1)), py = v(R(q, 2)), rr = cs * (rmin + (rmax - rmin) * R(q, 3)), cc = typeof col === 'function' ? col(q) : col;
+        const gr = ctx.createRadialGradient(px, py, 0, px, py, rr); gr.addColorStop(0, rgba(cc, a)); gr.addColorStop(1, rgba(cc, 0));
+        ctx.fillStyle = gr; ctx.fillRect(px - rr, py - rr, rr * 2, rr * 2);
+      }
+    };
+    const dots = (n, col, a, size) => { ctx.fillStyle = rgba(col, a); ctx.beginPath(); for (let q = 0; q < n; q++) { const sz = Math.max(0.8, cs * size * (0.5 + R(q, 5))); ctx.rect(u(R(q, 6)), v(R(q, 7)), sz, sz); } ctx.fill(); };
+    const wander = (n, col, a, w, amp, ySpan = 1) => {
+      ctx.lineCap = 'round'; ctx.strokeStyle = rgba(col, a); ctx.lineWidth = w;
+      for (let q = 0; q < n; q++) {
+        const x0 = u(R(q, 11) * 0.5 - 0.1), y0 = v(R(q, 12) * ySpan), L = W * (0.35 + R(q, 13) * 0.5);
+        ctx.beginPath(); ctx.moveTo(x0, y0);
+        ctx.bezierCurveTo(x0 + L * 0.3, y0 + (R(q, 14) - 0.5) * amp * cs, x0 + L * 0.65, y0 + (R(q, 15) - 0.5) * amp * cs, x0 + L, y0 + (R(q, 16) - 0.5) * amp * cs * 1.4);
+        ctx.stroke();
+      }
+    };
+    const k = cast > 0.5 ? 'metal' : BK === 'soapstone' ? 'stone' : BK;
+    if (k === 'stone') {
+      blot(11, 2.2, 4.8, (q) => (q % 3 === 0 ? '#9a4a56' : q % 3 === 1 ? '#5a5f78' : '#f6ece4'), 0.2);
+      wander(7, '#6f3a3a', 0.2, Math.max(1, cs * 0.07), 6);
+      wander(7, '#ffffff', 0.18, Math.max(0.8, cs * 0.035), 6);
+      dots(140, '#ffffff', 0.14, 0.07); dots(110, '#000000', 0.1, 0.07);
+    } else if (k === 'wax') {
+      blot(7, 3, 6, '#fff0b0', 0.28); blot(6, 2, 4, '#9a5a10', 0.16);
+      wander(9, '#fff8d8', 0.28, Math.max(1, cs * 0.05), 3);
+      wander(7, '#7a4408', 0.16, Math.max(1, cs * 0.06), 3);
+      for (let q = 0; q < 18; q++) { // tool strokes: short arcs where the loop has scraped
+        ctx.strokeStyle = 'rgba(110,60,5,0.22)'; ctx.lineWidth = Math.max(1, cs * 0.05); ctx.beginPath();
+        ctx.arc(u(R(q, 21)), v(R(q, 22)), cs * (0.7 + R(q, 23) * 1.2), R(q, 24) * 6, R(q, 24) * 6 + 1.2); ctx.stroke();
+      }
+    } else if (k === 'mud') {
+      blot(26, 1.0, 2.6, (q) => (q % 2 ? '#fff0d8' : '#4a2a14'), 0.24);
+      dots(150, '#3a2010', 0.3, 0.1); dots(90, '#ffe8c8', 0.26, 0.09);
+      wander(8, '#3a2010', 0.3, Math.max(1, cs * 0.05), 2.4);
+      ctx.fillStyle = 'rgba(255,235,205,0.18)'; for (let q = 0; q < 22; q++) { ctx.beginPath(); ctx.ellipse(u(R(q, 31)), v(R(q, 32)), cs * (0.25 + R(q, 33) * 0.35), cs * 0.18, R(q, 34) * 3, 0, 6.2832); ctx.fill(); }
+    } else if (k === 'wood') {
+      ctx.lineWidth = Math.max(1, cs * 0.055);
+      for (let q = 0; q < rows * 1.6; q++) {
+        const yy = v((q + 0.5) / (rows * 1.6)), ph = R(q, 41) * 6;
+        ctx.strokeStyle = `rgba(${q % 3 ? '70,36,12' : '30,14,4'},${0.12 + 0.12 * R(q, 42)})`; ctx.beginPath();
+        for (let s2 = 0; s2 <= 24; s2++) { const px = x + (s2 / 24) * W; const py = yy + Math.sin(s2 * 0.5 + ph) * cs * 0.35 + Math.sin(s2 * 0.17 + q) * cs * 0.5; if (s2) ctx.lineTo(px, py); else ctx.moveTo(px, py); }
+        ctx.stroke();
+      }
+      const kx = u(0.3 + R(1, 51) * 0.4), ky = v(0.3 + R(2, 52) * 0.4);
+      for (let q = 4; q > 0; q--) { ctx.strokeStyle = `rgba(50,22,6,${0.14 + 0.04 * q})`; ctx.lineWidth = Math.max(1, cs * 0.05); ctx.beginPath(); ctx.ellipse(kx, ky, cs * q * 0.55, cs * q * 0.3, 0.2, 0, 6.2832); ctx.stroke(); }
+      blot(8, 3, 6, '#ffe2a8', 0.12);
+    } else if (k === 'metal') {
+      ctx.lineWidth = 1;
+      for (let q = 0; q < rows * 3; q++) { const yy = v(q / (rows * 3)); ctx.strokeStyle = q % 2 ? 'rgba(255,255,255,0.09)' : 'rgba(0,0,0,0.09)'; ctx.beginPath(); ctx.moveTo(x, yy); ctx.lineTo(x + W, yy + cs * (R(q, 61) - 0.5) * 0.3); ctx.stroke(); }
+      blot(6, 3, 6, '#ffffff', 0.12);
+    } else if (k === 'candy') {
+      blot(9, 2, 5, '#fff2a0', 0.3); blot(7, 1.5, 3.5, '#a03800', 0.18);
+      for (let q = 0; q < 16; q++) { ctx.fillStyle = 'rgba(255,255,255,0.28)'; ctx.beginPath(); ctx.ellipse(u(R(q, 71)), v(R(q, 72)), cs * 0.2, cs * 0.1, -0.6, 0, 6.2832); ctx.fill(); }
+    } else if (k === 'paper') {
+      dots(200, '#ffffff', 0.1, 0.06); wander(10, '#ffffff', 0.08, 1, 3); wander(10, '#000000', 0.05, 1, 3);
+    } else {
+      blot(14, 1.8, 4, (q) => (q % 2 ? '#fff1dc' : '#3a1c0a'), 0.16);
+      dots(90, '#000000', 0.12, 0.08); dots(70, '#ffffff', 0.1, 0.07);
+    }
+    // thickness: ambient shade all round, a dark lower-right face, a bright upper-left lip
+    ringFill(() => { ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = cs * 0.5; ctx.shadowOffsetX = 0; ctx.shadowOffsetY = 0; ctx.fillStyle = '#000'; ctx.fill('evenodd'); ctx.restore(); });
+    ringFill(() => { ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.65)'; ctx.shadowBlur = cs * 0.55; ctx.shadowOffsetX = -cs * 0.28; ctx.shadowOffsetY = -cs * 0.38; ctx.fillStyle = '#000'; ctx.fill('evenodd'); ctx.restore(); });
+    ringFill(() => { ctx.save(); ctx.shadowColor = k === 'metal' || k === 'candy' || k === 'wax' ? 'rgba(255,255,255,0.85)' : 'rgba(255,255,255,0.6)'; ctx.shadowBlur = cs * 0.3; ctx.shadowOffsetX = cs * 0.16; ctx.shadowOffsetY = cs * 0.22; ctx.fillStyle = '#000'; ctx.fill('evenodd'); ctx.restore(); });
+    // overall key light and a broad sheen
+    const lg = ctx.createLinearGradient(x, y, x + W, y + Hh);
+    lg.addColorStop(0, 'rgba(255,255,255,0.2)'); lg.addColorStop(0.45, 'rgba(255,255,255,0)'); lg.addColorStop(1, 'rgba(0,0,0,0.26)');
+    ctx.fillStyle = lg; ctx.fillRect(x, y, W, Hh);
+    if (k === 'metal' || k === 'candy' || k === 'wax' || k === 'stone') {
+      const sw = ((t * 0.18) % 2.2) - 0.6, sg = ctx.createLinearGradient(x + W * sw, y, x + W * (sw + 0.22), y + Hh * 0.35);
+      sg.addColorStop(0, 'rgba(255,255,255,0)'); sg.addColorStop(0.5, `rgba(255,255,255,${k === 'stone' ? 0.1 : 0.22})`); sg.addColorStop(1, 'rgba(255,255,255,0)');
+      ctx.fillStyle = sg; ctx.fillRect(x, y, W, Hh);
+    }
+    ctx.restore();
+    path(); ctx.lineJoin = 'round'; ctx.strokeStyle = rgba(tint(base, -0.7), 0.75); ctx.lineWidth = Math.max(1, cs * 0.06); ctx.stroke();
+    ctx.restore();
+  };
   // One block drawn with form: cells with a texture of their material, bevelled cut edges and cast shadows into the cavity.
-  const drawBlock = (ctx, mask, x, y, cs, { detail, fillCavity, t = 0 }) => {
+  const drawBlock = (ctx, mask, x, y, cs, opt) => {
+    const { detail, fillCavity, t = 0 } = opt;
     const k = P.material, W = cs * cols, Hh = cs * rows;
     if (fillCavity) {
       const cv = SC.cavity ?? 'dark';
-      const base0 = cv === 'dust' ? '#d9c4b4' : cv === 'mat' ? '#2a4434' : cv === 'mirror' ? '#a9c3d0' : P.cavity;
+      const base0 = cv === 'dust' ? '#8f7c6e' : cv === 'mat' ? '#2a4434' : cv === 'mirror' ? '#a9c3d0' : P.cavity;
       const cg = ctx.createLinearGradient(x, y, x + W, y + Hh); cg.addColorStop(0, tint(base0, 0.12)); cg.addColorStop(1, tint(base0, -0.25));
       ctx.fillStyle = cg; ctx.fillRect(x, y, W, Hh);
       if (cv === 'mirror') {
         for (let rr = 0; rr < rows; rr++) for (let c0 = 0; c0 < cols; c0++) {
-          if (mask[at(c0, rr)]) continue;
           const px = x + c0 * cs, py = y + rr * cs, h1 = hash(c0, rr, 90);
           const fg = ctx.createLinearGradient(px, py, px + cs, py + cs);
           fg.addColorStop(0, h1 > 0.5 ? '#ffffff' : '#e3f1f8'); fg.addColorStop(0.5, h1 > 0.5 ? '#9dc0d2' : '#c8e0ec'); fg.addColorStop(1, h1 > 0.5 ? '#e6f3fa' : '#7ea1b6');
@@ -133,6 +239,7 @@ export function createCarve(P, env) {
         ctx.strokeStyle = 'rgba(255,255,255,0.1)'; ctx.lineWidth = 1; ctx.beginPath(); for (let q = 0; q <= cols; q++) { ctx.moveTo(x + q * cs, y); ctx.lineTo(x + q * cs, y + Hh); } for (let q = 0; q <= rows; q++) { ctx.moveTo(x, y + q * cs); ctx.lineTo(x + W, y + q * cs); } ctx.stroke();
       }
     }
+    if (cs >= 3) { drawSmooth(ctx, mask, x, y, cs, { detail, t, cast: opt.cast ?? 0 }); return; }
     const open = (cc, rr) => cc < 0 || rr < 0 || cc >= cols || rr >= rows || !mask[at(cc, rr)];
     // shadows cast by raised material into the cavity (light from the upper left)
     if (detail) {
@@ -202,6 +309,7 @@ export function createCarve(P, env) {
   };
 
   const outlinePath = (ctx, bx, by, cs) => {
+    if (cs >= 3) { ctx.beginPath(); tracePath(ctx, contourLoops(target, cols, rows, { k: cs >= 9 ? 4 : 3 }), bx, by, cs); return; }
     ctx.beginPath();
     for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
       const here = target[at(c, r)];
@@ -237,7 +345,8 @@ export function createCarve(P, env) {
     shadowed(ctx, () => { ctx.fillStyle = cut ? '#0b0e12' : tint(P.color, -0.55); ctx.fillRect(bx - 4, by - 4, cs * cols + 8 + dp * 0.6, cs * rows + 8 + dp); }, { blur: 16, dy: 9, a: 0.5 });
     ctx.fillStyle = cut ? '#0b0e12' : tint(P.color, -0.5); ctx.fillRect(bx - 5, by - 5, cs * cols + 10, cs * rows + 10);
     ctx.strokeStyle = 'rgba(255,255,255,0.22)'; ctx.lineWidth = 1.5; ctx.strokeRect(bx - 4.5, by - 4.5, cs * cols + 9, cs * rows + 9);
-    drawBlock(ctx, kept, bx, by, cs, { detail: true, fillCavity: true, t });
+    const castU = SC.id === 'lostwax' && done && castAt >= 0 ? Math.min(1, Math.max(0, (t - castAt - 0.2) / 1.6)) : 0;
+    drawBlock(ctx, kept, bx, by, cs, { detail: true, fillCavity: true, t, cast: castU });
     // strike flashes
     flashes = flashes.filter((f) => t - f.t < 0.18);
     for (const f of flashes) { const a = 1 - (t - f.t) / 0.18; ctx.fillStyle = `rgba(255,248,220,${0.55 * a})`; ctx.fillRect(bx + f.c * cs, by + f.r * cs, cs * f.sz, cs * f.sz); }
@@ -248,8 +357,16 @@ export function createCarve(P, env) {
       ctx.setLineDash([]);
     }
     if (P.guide) {
-      ctx.fillStyle = 'rgba(224,96,58,0.5)';
-      for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) { const i = at(c, r); if (!kept[i] && target[i]) ctx.fillRect(bx + c * cs, by + r * cs, cs, cs); }
+      // material still to remove (kept, outside the figure) is tinted; over-cut places show red inside the lit outline
+      const kl = contourLoops(kept, cols, rows, { k: cs >= 9 ? 4 : 3 }), tl = contourLoops(target, cols, rows, { k: cs >= 9 ? 4 : 3 });
+      ctx.save(); ctx.beginPath(); ctx.rect(bx, by, cs * cols, cs * rows); ctx.clip();
+      ctx.save(); ctx.beginPath(); tracePath(ctx, kl, bx, by, cs); ctx.clip('evenodd');
+      ctx.beginPath(); ctx.rect(bx - cs, by - cs, cs * (cols + 2), cs * (rows + 2)); tracePath(ctx, tl, bx, by, cs);
+      ctx.fillStyle = 'rgba(20,10,5,0.22)'; ctx.fill('evenodd'); ctx.restore();
+      ctx.save(); ctx.beginPath(); tracePath(ctx, tl, bx, by, cs); ctx.clip('evenodd');
+      ctx.beginPath(); ctx.rect(bx - cs, by - cs, cs * (cols + 2), cs * (rows + 2)); tracePath(ctx, kl, bx, by, cs);
+      ctx.fillStyle = 'rgba(224,70,40,0.5)'; ctx.fill('evenodd'); ctx.restore();
+      ctx.restore();
       outlinePath(ctx, bx, by, cs); litEdge(ctx, pal.accent, Math.max(1.6, cs * 0.1), t);
     }
     // the working tool
@@ -267,11 +384,6 @@ export function createCarve(P, env) {
     const cs = Math.max(4, Math.floor(Math.min(S.w * 0.74 / cols, S.h * 0.74 / rows))), bx = S.x + (S.w - cs * cols) / 2, by = S.y + (S.h - cs * rows) / 2;
     drawSeat(ctx, SC.seat ?? 'bench', bx, by, cs * cols, cs * rows, cs, P.color, t);
     if (cut) shadowed(ctx, () => { ctx.fillStyle = P.cavity; ctx.fillRect(bx, by, cs * cols, cs * rows); }, { blur: 28, dy: 16, a: 0.6 });
-    else shadowed(ctx, () => {
-      ctx.fillStyle = tint(P.color, -0.3); ctx.beginPath();
-      for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) if (target[at(c, r)]) ctx.rect(bx + c * cs, by + r * cs, cs + 0.5, cs + 0.5);
-      ctx.fill();
-    }, { blur: 24, dy: 14, a: 0.6 });
     drawBlock(ctx, target, bx, by, cs, { detail: true, fillCavity: cut, t });
   };
 
@@ -284,7 +396,7 @@ export function createCarve(P, env) {
       const c = i % cols, r = Math.floor(i / cols);
       for (const [x, y] of orbit(cut ? P.symmetry : 'none', c, r, cols, rows)) if (!target[at(x, y)]) { kept[at(x, y)] = 0; if (geo && fx) { const col = cut ? P.color : cellColor(x, y); fx.emit(cut ? 'flake' : 'chip', geo.x + (x + 0.5) * geo.cs, geo.y + (y + 0.5) * geo.cs, { count: 3, color: col, size: Math.max(2.5, geo.cs * 0.2), speed: 140, life: 0.55, gravity: 600, spread: 3.4, angle: -1.2 }); flashes.push({ c: x, r: y, t: clock, sz: 1 }); } }
       if (flashes.length > 24) flashes.splice(0, flashes.length - 24);
-      audio?.tone({ freq: 150 + hash(c, r) * 90, to: 90, dur: 0.05, type: 'triangle', vol: 0.1 });
+      if (cut && SC.cavity === 'mirror') sound?.mirror(hash(c, r)); else sound?.chip(hash(c, r), false);
       return;
     }
     for (let i = 0; i < total; i++) if (!kept[i] && target[i]) { kept[i] = 1; return; }

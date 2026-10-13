@@ -33,7 +33,7 @@ export function stageGeo(s, venue) {
   const mid = s.x + s.w / 2;
   const rx = Math.min(s.w * 0.43, s.h * 1.15);
   const ry = Math.min(rx * 0.25, s.h * 0.12);
-  const H = Math.min(s.h * 0.62, s.w * 0.42);
+  const H = Math.min(s.h * 0.66, s.w * 0.5);
   const hy = s.y + s.h * 0.5;
   return { gy, mid, rx, ry, H, hy, venue };
 }
@@ -337,13 +337,26 @@ const seg = (ctx, ax, ay, bx, by, w0, w1) => {
   ctx.arc(bx, by, w1 / 2, a - Math.PI / 2, a + Math.PI / 2);
   ctx.closePath();
 };
+// cylindrical shading: the key light is upper left, so each limb is lit on the side facing it, with a soft shadow core and a thin
+// warm bounce on the far edge. This is what turns the flat vector blocks into rounded, lit volumes.
+const vfill = (ctx, ax, ay, bx, by, w0, w1, col, edge = 0.34) => {
+  const dx = bx - ax, dy = by - ay, d = Math.max(1e-3, Math.hypot(dx, dy));
+  let nx = -dy / d, ny = dx / d;
+  if (nx * -0.6 + ny * -0.8 < 0) { nx = -nx; ny = -ny; }
+  const mx = (ax + bx) / 2, my = (ay + by) / 2, w = Math.max(w0, w1) / 2 + 0.5;
+  seg(ctx, ax, ay, bx, by, w0, w1);
+  ctx.fillStyle = lin(ctx, mx + nx * w, my + ny * w, mx - nx * w, my - ny * w, [[0, shade(col, 0.3)], [0.28, shade(col, 0.1)], [0.62, shade(col, -0.16)], [0.9, shade(col, -0.4)], [1, shade(col, -0.28)]]);
+  ctx.fill();
+  if (edge > 0) { ctx.strokeStyle = rgba(shade(col, -0.7), edge * 0.55); ctx.lineWidth = Math.max(0.8, w * 0.1); ctx.stroke(); }
+};
 const limb = (ctx, a, m, b, w0, wm, w1, c0, c1 = c0) => {
-  ctx.fillStyle = c0; seg(ctx, a[0], a[1], m[0], m[1], w0, wm); ctx.fill();
-  ctx.fillStyle = c1; seg(ctx, m[0], m[1], b[0], b[1], wm, w1); ctx.fill();
-  ctx.fillStyle = c0 === c1 ? c0 : c1; ctx.beginPath(); ctx.arc(m[0], m[1], wm / 2, 0, TAU); ctx.fill();
-  // soft highlight toward the light
-  ctx.strokeStyle = 'rgba(255,255,255,0.16)'; ctx.lineCap = 'round'; ctx.lineWidth = Math.max(1, wm * 0.28);
-  const o = -wm * 0.18; ctx.beginPath(); ctx.moveTo(a[0] + o, a[1] + o); ctx.lineTo(m[0] + o, m[1] + o); ctx.lineTo(b[0] + o, b[1] + o); ctx.stroke();
+  vfill(ctx, a[0], a[1], m[0], m[1], w0, wm, c0);
+  vfill(ctx, m[0], m[1], b[0], b[1], wm, w1, c1);
+  // joint cap and a specular streak along the lit edge
+  ctx.fillStyle = rad(ctx, m[0] - wm * 0.15, m[1] - wm * 0.15, 0, wm * 0.62, [[0, shade(c1, 0.22)], [1, shade(c1, -0.18)]]);
+  ctx.beginPath(); ctx.arc(m[0], m[1], wm / 2, 0, TAU); ctx.fill();
+  ctx.strokeStyle = 'rgba(255,255,255,0.2)'; ctx.lineCap = 'round'; ctx.lineWidth = Math.max(1, wm * 0.16);
+  const o = -wm * 0.2; ctx.beginPath(); ctx.moveTo(a[0] + o, a[1] + o); ctx.lineTo(m[0] + o, m[1] + o); ctx.lineTo(b[0] + o, b[1] + o); ctx.stroke();
 };
 const joint = (ax, ay, bx, by, s, bend) => {
   const dx = bx - ax, dy = by - ay, d = Math.max(1e-3, Math.hypot(dx, dy)), h = Math.sqrt(Math.max(0, s * s - (d / 2) * (d / 2)));
@@ -390,8 +403,7 @@ export function drawFigure(ctx, pose, spec, x, ground, H, dir, o) {
 
   // torso
   const tw0 = 0.19 * H * build, tw1 = 0.21 * H * build;
-  ctx.fillStyle = outfit === 'jacket' || outfit === 'tunic' || outfit === 'robe' ? body : skin;
-  seg(ctx, hipX, hipY, shX, shY, tw0, tw1); ctx.fill();
+  vfill(ctx, hipX, hipY, shX, shY, tw0, tw1, outfit === 'jacket' || outfit === 'tunic' || outfit === 'robe' ? body : skin);
   if (build > 1.1) { // belly
     ctx.fillStyle = outfit === 'mawashi' ? skin : body;
     ell(ctx, (hipX + shX) / 2 + dir * 0.035 * H * build, (hipY + shY) / 2 + torso * 0.08, 0.1 * H * build * 0.8, torso * 0.46); ctx.fill();
@@ -424,8 +436,10 @@ export function drawFigure(ctx, pose, spec, x, ground, H, dir, o) {
   // neck and head
   ctx.fillStyle = skin; seg(ctx, nkX, nkY, headX, headY + 0.02 * H, 0.055 * H, 0.05 * H); ctx.fill();
   const hr = 0.075 * H;
-  ctx.fillStyle = skin; ctx.beginPath(); ctx.arc(headX, headY, hr, 0, TAU); ctx.fill();
-  ctx.fillStyle = 'rgba(255,255,255,0.14)'; ctx.beginPath(); ctx.arc(headX - hr * 0.25, headY - hr * 0.25, hr * 0.55, 0, TAU); ctx.fill();
+  ctx.fillStyle = rad(ctx, headX - hr * 0.35, headY - hr * 0.4, hr * 0.1, hr * 1.25, [[0, shade(skin, 0.3)], [0.5, skin], [1, shade(skin, -0.42)]]);
+  ctx.beginPath(); ctx.arc(headX, headY, hr, 0, TAU); ctx.fill();
+  ctx.strokeStyle = rgba(shade(skin, -0.7), 0.35); ctx.lineWidth = Math.max(0.8, hr * 0.07); ctx.stroke();
+  ctx.fillStyle = shade(skin, -0.2); ell(ctx, headX - dir * hr * 0.55, headY + hr * 0.05, hr * 0.14, hr * 0.22); ctx.fill();
   // face looks toward the opponent
   ctx.fillStyle = '#2a1a10'; ctx.beginPath(); ctx.arc(headX + dir * hr * 0.45, headY - hr * 0.05, Math.max(1.2, hr * 0.1), 0, TAU); ctx.fill();
   ctx.strokeStyle = '#2a1a10'; ctx.lineWidth = Math.max(1, hr * 0.1); ctx.beginPath(); ctx.moveTo(headX + dir * hr * 0.28, headY - hr * 0.25); ctx.lineTo(headX + dir * hr * 0.68, headY - hr * 0.22 + (p.stick < 0 ? 0 : 0)); ctx.stroke();
@@ -454,8 +468,10 @@ export function drawFigure(ctx, pose, spec, x, ground, H, dir, o) {
   const stickBetween = (hand, len, w, col, ang, ends) => {
     const e = [hand[0] + dir * Math.cos(ang) * len, hand[1] - Math.sin(ang) * len];
     const t = [hand[0] - dir * Math.cos(ang) * len * 0.15, hand[1] + Math.sin(ang) * len * 0.15];
-    ctx.fillStyle = col; seg(ctx, t[0], t[1], e[0], e[1], w * 1.1, w * 0.9); ctx.fill();
-    ctx.strokeStyle = 'rgba(255,255,255,0.35)'; ctx.lineWidth = Math.max(1, w * 0.25); ctx.beginPath(); ctx.moveTo(t[0] - w * 0.15, t[1] - w * 0.15); ctx.lineTo(e[0] - w * 0.15, e[1] - w * 0.15); ctx.stroke();
+    vfill(ctx, t[0], t[1], e[0], e[1], w * 1.1, w * 0.9, col, 0.5);
+    ctx.strokeStyle = 'rgba(70,40,15,0.35)'; ctx.lineWidth = Math.max(1, w * 0.12);
+    for (const q of [0.2, 0.55, 0.85]) { const px = t[0] + (e[0] - t[0]) * q, py = t[1] + (e[1] - t[1]) * q, nn = Math.hypot(e[0] - t[0], e[1] - t[1]) || 1, nx = -(e[1] - t[1]) / nn, ny = (e[0] - t[0]) / nn; ctx.beginPath(); ctx.moveTo(px + nx * w * 0.5, py + ny * w * 0.5); ctx.lineTo(px - nx * w * 0.5, py - ny * w * 0.5); ctx.stroke(); }
+    ctx.strokeStyle = 'rgba(255,255,255,0.45)'; ctx.lineWidth = Math.max(1, w * 0.25); ctx.beginPath(); ctx.moveTo(t[0] - w * 0.15, t[1] - w * 0.15); ctx.lineTo(e[0] - w * 0.15, e[1] - w * 0.15); ctx.stroke();
     if (ends) { ctx.fillStyle = '#6a5a3a'; for (const q of [t, e]) { ctx.beginPath(); ctx.arc(q[0], q[1], w * 0.62, 0, TAU); ctx.fill(); } }
   };
   const wf = o.weapon?.front, wb = o.weapon?.back;
@@ -486,10 +502,16 @@ export function drawFigure(ctx, pose, spec, x, ground, H, dir, o) {
 export function groundShadow(ctx, x, gy, H, down) {
   const w = H * (0.2 + down * 0.45);
   ctx.save();
-  ctx.translate(x + H * 0.05, gy + 2);
-  ctx.scale(1, 0.2);
-  ctx.fillStyle = rad(ctx, 0, 0, 0, w, [[0, 'rgba(0,0,0,0.4)'], [1, 'rgba(0,0,0,0)']]);
-  ctx.beginPath(); ctx.arc(0, 0, w, 0, TAU); ctx.fill();
+  // long soft cast shadow away from the key light, then a tight dark contact patch under the feet (ambient occlusion)
+  ctx.translate(x + H * 0.12, gy + 2);
+  ctx.scale(1, 0.18);
+  ctx.fillStyle = rad(ctx, 0, 0, 0, w * 1.7, [[0, 'rgba(0,0,0,0.34)'], [1, 'rgba(0,0,0,0)']]);
+  ctx.beginPath(); ctx.arc(0, 0, w * 1.7, 0, TAU); ctx.fill();
+  ctx.restore();
+  ctx.save();
+  ctx.translate(x + H * 0.03, gy + 1); ctx.scale(1, 0.16);
+  ctx.fillStyle = rad(ctx, 0, 0, 0, w * 0.9, [[0, 'rgba(0,0,0,0.6)'], [1, 'rgba(0,0,0,0)']]);
+  ctx.beginPath(); ctx.arc(0, 0, w * 0.9, 0, TAU); ctx.fill();
   ctx.restore();
 }
 

@@ -3,13 +3,7 @@
  "params": {
   "technique": "lathe",
   "profile": "bowl",
-  "explicitProfile": [
-   0.42,
-   0.55,
-   0.74,
-   0.9,
-   1.0
-  ],
+  "explicitProfile": [0.4, 0.42, 0.62, 0.82, 0.95, 1.0, 0.99, 0.93],
   "rows": 8,
   "steps": 12,
   "bands": 4,

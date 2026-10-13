@@ -55,15 +55,28 @@ const DECOR = {
     // bunting rope along the track edge
     strip(c, laneW * 0.03, laneW * 0.12, 2.5, (a, b, e, d, side, k) => { ctx.fillStyle = k % 2 ? '#e8453a' : '#f4f0e4'; quad(ctx, a, b, e, d); ctx.fill(); });
   },
-  // racecourse: white rail with posts, a long tent canopy and haze
+  // desert racecourse: white rail with posts, packed-sand verge, striped pavilions with robed spectators and dune shadows
   camel(c) {
-    const { ctx, laneW } = c;
-    strip(c, laneW * 0.1, laneW * 0.25, 20, (a, b, e, d) => { ctx.strokeStyle = '#fffaf0'; ctx.lineWidth = Math.max(3, laneW * 0.08); ctx.beginPath(); ctx.moveTo((a[0] + d[0]) / 2, (a[1] + d[1]) / 2); ctx.lineTo((b[0] + e[0]) / 2, (b[1] + e[1]) / 2); ctx.stroke(); });
-    strip(c, laneW * 0.1, laneW * 0.25, 4, (a, b, e, d) => { ctx.fillStyle = '#c8452d'; ctx.beginPath(); ctx.arc((a[0] + d[0]) / 2, (a[1] + d[1]) / 2, laneW * 0.07, 0, TAU); ctx.fill(); });
-    strip(c, laneW * 0.7, laneW * 1.8, 24, (a, b, e, d, side, k) => {
-      ctx.fillStyle = k % 2 ? '#f6ecd0' : '#c8452d'; quad(ctx, a, b, e, d); ctx.fill();
-      ctx.strokeStyle = 'rgba(60,30,10,0.4)'; ctx.lineWidth = 2; quad(ctx, a, b, e, d); ctx.stroke();
-      ctx.fillStyle = 'rgba(0,0,0,0.12)'; ctx.fillRect(Math.min(a[0], e[0]), Math.min(a[1], e[1]), Math.abs(e[0] - a[0]) * 0.1, Math.abs(e[1] - a[1]) * 0.1);
+    const { ctx, laneW, t } = c;
+    // darker packed-sand verge and the long shadow the rail casts
+    strip(c, 0, laneW * 0.9, 20, (a, b, e, d) => { ctx.fillStyle = 'rgba(120,80,30,0.22)'; quad(ctx, a, b, e, d); ctx.fill(); });
+    strip(c, laneW * 0.1, laneW * 0.25, 20, (a, b, e, d) => { ctx.strokeStyle = 'rgba(0,0,0,0.25)'; ctx.lineWidth = Math.max(3, laneW * 0.1); ctx.beginPath(); ctx.moveTo((a[0] + d[0]) / 2 + 3, (a[1] + d[1]) / 2 + 5); ctx.lineTo((b[0] + e[0]) / 2 + 3, (b[1] + e[1]) / 2 + 5); ctx.stroke(); ctx.strokeStyle = '#fffaf0'; ctx.lineWidth = Math.max(3, laneW * 0.08); ctx.beginPath(); ctx.moveTo((a[0] + d[0]) / 2, (a[1] + d[1]) / 2); ctx.lineTo((b[0] + e[0]) / 2, (b[1] + e[1]) / 2); ctx.stroke(); });
+    strip(c, laneW * 0.1, laneW * 0.25, 4, (a, b, e, d) => { ctx.fillStyle = '#b8382a'; ctx.beginPath(); ctx.arc((a[0] + d[0]) / 2, (a[1] + d[1]) / 2, laneW * 0.07, 0, TAU); ctx.fill(); ctx.fillStyle = 'rgba(255,255,255,0.5)'; ctx.beginPath(); ctx.arc((a[0] + d[0]) / 2 - 1, (a[1] + d[1]) / 2 - 1, laneW * 0.025, 0, TAU); ctx.fill(); });
+    // pavilions every 36 m: a striped canopy seen from above with a hard shadow and a row of spectators
+    strip(c, laneW * 0.55, laneW * 1.9, 36, (a, b, e, d, side, k) => {
+      const x0 = (a[0] + d[0]) / 2 + (b[0] - a[0]) * 0.15, y0 = (a[1] + d[1]) / 2 + (b[1] - a[1]) * 0.15, x1 = (b[0] + e[0]) / 2 - (b[0] - a[0]) * 0.15, y1 = (b[1] + e[1]) / 2 - (b[1] - a[1]) * 0.15;
+      const nx = (d[0] - a[0]) * 0.32, ny = (d[1] - a[1]) * 0.32;
+      ctx.fillStyle = 'rgba(0,0,0,0.25)'; quad(ctx, [x0 + 6, y0 + 8], [x1 + 6, y1 + 8], [x1 + nx + 6, y1 + ny + 8], [x0 + nx + 6, y0 + ny + 8]); ctx.fill();
+      const N = 7;
+      for (let i = 0; i < N; i++) {
+        const u0 = i / N, u1 = (i + 1) / N;
+        ctx.fillStyle = i % 2 ? '#f6ecd0' : (k % 2 ? '#c8452d' : '#2d7a8a');
+        quad(ctx, [x0 + (x1 - x0) * u0, y0 + (y1 - y0) * u0], [x0 + (x1 - x0) * u1, y0 + (y1 - y0) * u1], [x0 + (x1 - x0) * u1 + nx, y0 + (y1 - y0) * u1 + ny], [x0 + (x1 - x0) * u0 + nx, y0 + (y1 - y0) * u0 + ny]); ctx.fill();
+      }
+      ctx.strokeStyle = 'rgba(255,255,255,0.45)'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1, y1); ctx.stroke();
+      const px = (x0 + x1) / 2 - nx * 0.25, py = (y0 + y1) / 2 - ny * 0.25;
+      crowdDots(ctx, [x0 - nx * 0.25, y0 - ny * 0.25], [x1 - nx * 0.25, y1 - ny * 0.25], 6, laneW * 0.1, k * 5 + side, t, 1);
+      void px; void py;
     });
   },
   // frozen canal: snow banks, a windmill-lit towpath, tall reeds and stalls with striped awnings
@@ -84,7 +97,15 @@ const DECOR = {
       ctx.fillStyle = k % 2 ? 'rgba(120,190,150,0.55)' : 'rgba(150,210,170,0.5)'; quad(ctx, a, b, e, d); ctx.fill();
       ctx.strokeStyle = 'rgba(255,255,255,0.35)'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo((a[0] + d[0]) / 2 + Math.sin(t + k) * 2, (a[1] + d[1]) / 2); ctx.lineTo((b[0] + e[0]) / 2, (b[1] + e[1]) / 2); ctx.stroke();
       ctx.strokeStyle = '#8a6a3a'; ctx.lineWidth = Math.max(3, laneW * 0.12); ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.stroke();
-      if (k % 2 === 0) { const x = (a[0] + b[0]) / 2 + (d[0] - a[0]) * 0.1, y = (a[1] + b[1]) / 2 + (d[1] - a[1]) * 0.1; ctx.fillStyle = ['#e8453a', '#f2c14e', '#2d7bd6'][Math.abs(k + side) % 3]; ctx.beginPath(); ctx.arc(x, y, laneW * 0.28, Math.PI, 0); ctx.fill(); ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.beginPath(); ctx.arc(x, y + laneW * 0.1, laneW * 0.07, 0, TAU); ctx.fill(); }
+      if (k % 2 === 0) {
+        const x = (a[0] + b[0]) / 2 + (d[0] - a[0]) * 0.18, y = (a[1] + b[1]) / 2 + (d[1] - a[1]) * 0.18, r = laneW * 0.34;
+        const c1 = ['#e8453a', '#f2c14e', '#2d7bd6'][Math.abs(k + side) % 3];
+        crowdDots(ctx, [x - r * 1.4, y + r * 0.9], [x + r * 1.1, y + r * 1.2], 3, laneW * 0.09, k + 3, t, 0.5);
+        ctx.fillStyle = 'rgba(0,0,0,0.28)'; ctx.beginPath(); ctx.ellipse(x + r * 0.35, y + r * 0.55, r, r * 0.75, 0, 0, TAU); ctx.fill();
+        for (let i = 0; i < 8; i++) { ctx.fillStyle = i % 2 ? c1 : '#fff7e0'; ctx.beginPath(); ctx.moveTo(x, y); ctx.arc(x, y, r, (i / 8) * TAU, ((i + 1) / 8) * TAU); ctx.closePath(); ctx.fill(); }
+        ctx.fillStyle = 'rgba(255,255,255,0.22)'; ctx.beginPath(); ctx.arc(x - r * 0.25, y - r * 0.25, r * 0.55, 0, TAU); ctx.fill();
+        ctx.fillStyle = '#3a2a18'; ctx.beginPath(); ctx.arc(x, y, r * 0.1, 0, TAU); ctx.fill();
+      }
     });
   },
   // river: wide reed banks, moored fishing boats and village huts on stilts
@@ -114,7 +135,7 @@ const PAD = {
 const KITS = {
   bakiak: { orient: 'up', regF: 0.3, colors: { ground: '#8f5f30', ground2: '#a87440', bank: '#4f9a3a', edge: '#fff8e0' }, scenery: 'banners', tone: { stroke: (g) => ({ freq: g === 'perfect' ? 300 : 220, to: 160, dur: 0.07, type: 'square', vol: 0.18 }) } },
   camel: { orient: 'right', regF: 0.24, colors: { ground: '#dcb272', ground2: '#ecc88c', bank: '#caa066' }, scenery: 'dunes', tone: { stroke: (g) => ({ freq: g === 'perfect' ? 180 : 140, to: 90, dur: 0.12, type: 'triangle', vol: 0.3 }) } },
-  skate: { orient: 'up', regF: 0.2, colors: { bank: '#eef3f8' }, scenery: 'windmill', tone: { stroke: (g) => ({ freq: g === 'perfect' ? 1800 : 1300, to: 900, dur: 0.1, type: 'sawtooth', vol: 0.06 }) } },
+  skate: { orient: 'up', regF: 0.2, colors: { bank: '#dbe7f2' }, scenery: 'windmill', tone: { stroke: (g) => ({ freq: g === 'perfect' ? 1800 : 1300, to: 900, dur: 0.1, type: 'sawtooth', vol: 0.06 }) } },
   cheese: { orient: 'up', regF: 0.27, colors: { bank: '#2f5a1f' }, scenery: 'trees', tone: { stroke: (g) => ({ freq: g === 'perfect' ? 520 : 380, dur: 0.05, type: 'square', vol: 0.12 }) } },
   kambala: { orient: 'up', regF: 0.3, colors: { bank: '#4d8a52' }, scenery: 'palms', tone: { stroke: (g) => ({ freq: g === 'perfect' ? 130 : 100, to: 60, dur: 0.15, type: 'sine', vol: 0.45 }) } },
   nouka: { orient: 'right', regF: 0.32, colors: {}, scenery: 'huts', tone: { stroke: (g) => ({ freq: g === 'perfect' ? 200 : 160, to: 110, dur: 0.1, type: 'triangle', vol: 0.4 }) } },
@@ -124,10 +145,16 @@ const KITS = {
 const UNDER = {
   bakiak(ctx, x, y, ang, rs) {
     ctx.save(); ctx.translate(x, y); ctx.rotate(ang);
-    ctx.fillStyle = 'rgba(0,0,0,0.25)'; ctx.fillRect(-rs * 1.6 + 3, -rs * 0.28 + 4, rs * 3.4, rs * 0.56);
-    ctx.fillStyle = '#b9854a'; ctx.fillRect(-rs * 1.6, -rs * 0.28, rs * 3.4, rs * 0.56);
-    ctx.strokeStyle = 'rgba(60,30,8,0.6)'; ctx.lineWidth = 1.5; ctx.strokeRect(-rs * 1.6, -rs * 0.28, rs * 3.4, rs * 0.56);
-    ctx.fillStyle = '#7a4a1e'; for (const f of [-1, 0, 1]) ctx.fillRect(f * rs * 0.9 - rs * 0.12, -rs * 0.3, rs * 0.24, rs * 0.6);
+    const L = rs * 1.7, H = rs * 0.3;
+    ctx.fillStyle = 'rgba(0,0,0,0.3)'; ctx.fillRect(-L + 5, -H + 6, L * 2, H * 2);
+    const pg = ctx.createLinearGradient(0, -H, 0, H); pg.addColorStop(0, '#e1ad6c'); pg.addColorStop(0.5, '#c08a4c'); pg.addColorStop(1, '#8a5a2a');
+    ctx.fillStyle = pg; ctx.fillRect(-L, -H, L * 2, H * 2);
+    ctx.strokeStyle = 'rgba(70,36,10,0.35)'; ctx.lineWidth = 1;
+    for (let i = 1; i < 5; i++) { ctx.beginPath(); ctx.moveTo(-L, -H + (H * 2 * i) / 5); ctx.lineTo(L, -H + (H * 2 * i) / 5 + (i % 2 ? 1.5 : -1.5)); ctx.stroke(); }
+    ctx.fillStyle = 'rgba(255,240,200,0.35)'; ctx.fillRect(-L, -H, L * 2, 2);
+    ctx.strokeStyle = 'rgba(50,25,6,0.7)'; ctx.lineWidth = 1.5; ctx.strokeRect(-L, -H, L * 2, H * 2);
+    ctx.fillStyle = '#5a3414'; for (const f of [-1, 1]) { ctx.fillRect(f * L * 0.62 - rs * 0.1, -H - 1, rs * 0.2, H * 2 + 2); }
+    ctx.strokeStyle = '#e8d8a8'; ctx.lineWidth = Math.max(2, rs * 0.06); for (const f of [-0.3, 0.3]) { ctx.beginPath(); ctx.moveTo(f * L, -H * 0.4); ctx.lineTo(f * L * 0.2, -H * 0.1); ctx.moveTo(f * L, H * 0.4); ctx.lineTo(f * L * 0.2, H * 0.1); ctx.stroke(); }
     ctx.restore();
   },
 };

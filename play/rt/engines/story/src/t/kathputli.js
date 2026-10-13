@@ -138,6 +138,18 @@ function stage(g, S0, v) {
   const ax = X(0.5), aw = Math.min(W * 0.4, cH * 0.5), ay = floorY, ah = cH * 0.78;
   ctx.fillStyle = '#1d5a58'; ctx.beginPath(); ctx.moveTo(ax - aw, ay); ctx.lineTo(ax - aw, ay - ah * 0.55); ctx.quadraticCurveTo(ax - aw, ay - ah * 0.85, ax, ay - ah); ctx.quadraticCurveTo(ax + aw, ay - ah * 0.85, ax + aw, ay - ah * 0.55); ctx.lineTo(ax + aw, ay); ctx.closePath(); ctx.fill();
   ctx.strokeStyle = '#ffd24a'; ctx.lineWidth = 3; ctx.stroke();
+  // painted scene inside the arch: a rayed sun over a Rajasthani haveli, domed chhatris and a camel train
+  ctx.save(); ctx.beginPath(); ctx.moveTo(ax - aw, ay); ctx.lineTo(ax - aw, ay - ah * 0.55); ctx.quadraticCurveTo(ax - aw, ay - ah * 0.85, ax, ay - ah); ctx.quadraticCurveTo(ax + aw, ay - ah * 0.85, ax + aw, ay - ah * 0.55); ctx.lineTo(ax + aw, ay); ctx.closePath(); ctx.clip();
+  ctx.fillStyle = vgrad(ctx, ay - ah, ay, [[0, '#0f4a50'], [0.55, '#2a8a82'], [1, '#e8b05a']]); ctx.fillRect(ax - aw, ay - ah, aw * 2, ah);
+  const sunY = ay - ah * 0.6, sunR = aw * 0.3;
+  ctx.fillStyle = 'rgba(255,214,120,0.35)'; for (let k = 0; k < 16; k++) { const a0 = k * TAU / 16 + t * 0.05; ctx.beginPath(); ctx.moveTo(ax, sunY); ctx.arc(ax, sunY, aw * 1.3, a0, a0 + TAU / 32); ctx.closePath(); ctx.fill(); }
+  const sg = ctx.createRadialGradient(ax, sunY, sunR * 0.2, ax, sunY, sunR); sg.addColorStop(0, '#fff3b0'); sg.addColorStop(1, '#f0a020'); ctx.fillStyle = sg; ctx.beginPath(); ctx.arc(ax, sunY, sunR, 0, TAU); ctx.fill();
+  const hy = ay - ah * 0.3;
+  ctx.fillStyle = '#f4e2b8'; ctx.fillRect(ax - aw * 0.6, hy, aw * 1.2, ay - hy);
+  for (const dx of [-0.5, 0, 0.5]) { const cx = ax + aw * dx, dh = ah * (dx === 0 ? 0.2 : 0.13); ctx.fillStyle = '#e8d0a0'; ctx.fillRect(cx - aw * 0.12, hy - dh * 0.5, aw * 0.24, dh * 0.5 + 1); ctx.fillStyle = '#d8402a'; ctx.beginPath(); ctx.ellipse(cx, hy - dh * 0.5, aw * 0.14, dh * 0.6, 0, Math.PI, TAU); ctx.fill(); ctx.fillStyle = '#ffd24a'; ctx.fillRect(cx - 1, hy - dh * 1.2, 2, dh * 0.3); }
+  ctx.fillStyle = '#c0844a'; for (let i = 0; i < 5; i++) { const wx = ax - aw * 0.5 + i * aw * 0.25; ctx.beginPath(); ctx.moveTo(wx - aw * 0.05, hy + ah * 0.16); ctx.lineTo(wx - aw * 0.05, hy + ah * 0.07); ctx.quadraticCurveTo(wx, hy + ah * 0.01, wx + aw * 0.05, hy + ah * 0.07); ctx.lineTo(wx + aw * 0.05, hy + ah * 0.16); ctx.fill(); }
+  ctx.restore();
+  ctx.strokeStyle = '#ffd24a'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(ax - aw, ay); ctx.lineTo(ax - aw, ay - ah * 0.55); ctx.quadraticCurveTo(ax - aw, ay - ah * 0.85, ax, ay - ah); ctx.quadraticCurveTo(ax + aw, ay - ah * 0.85, ax + aw, ay - ah * 0.55); ctx.lineTo(ax + aw, ay); ctx.stroke();
   glow(ctx, ax, ay - ah * 0.45, aw * 1.3, '#ffe0a0', 0.22);
   for (let i = 0; i < 46; i++) {
     const a = Math.PI + (i / 45) * Math.PI, rr = aw * 0.88, mx = ax + Math.cos(a) * rr, my = ay - ah * 0.55 + Math.sin(a) * ah * 0.42, tw = 0.5 + 0.5 * Math.sin(t * 3 + i * 1.7);

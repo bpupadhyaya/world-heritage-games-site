@@ -65,7 +65,7 @@ const directed = (A, B) => {
 };
 
 export function createBend(P, env) {
-  const { rng, audio, fx } = env;
+  const { rng, audio, fx, sound } = env;
   const SC = P.scene ?? {}, PM = SC.pitch ?? 1, WV = SC.wave ?? 'triangle';
   let clock = 0, lastGrab = null, lastRelease = -9;
   const FIG = BEND_FIGURES[P.figure] ?? BEND_FIGURES.car;
@@ -130,7 +130,7 @@ export function createBend(P, env) {
       const o = pick(p.x, p.y);
       if (o) {
         const [u, v] = objPos(o), [ox, oy] = px(u, v);
-        grab = { o, dx: ox - p.x, dy: oy - p.y, snap: snapshot() }; moved = false;
+        grab = { o, dx: ox - p.x, dy: oy - p.y, snap: snapshot() }; moved = false; sound?.wireGrab();
       }
       if (p.released && !p.down) grab = null;
       return;
@@ -140,10 +140,10 @@ export function createBend(P, env) {
       if (Math.abs(nu - u) > 1e-4 || Math.abs(nv - v) > 1e-4) {
         if (!moved) { undo.push(grab.snap); moved = true; }
         setPos(grab.o, nu, nv);
-        audio?.tone({ freq: (200 + ((nu * 4 + nv * 3) % 1) * 160) * PM, dur: 0.02, type: WV, vol: 0.05 });
+        sound?.wireMove((nu * 4 + nv * 3) % 1);
       }
     }
-    if (!p.down) { if (grab && moved && fx && geo) { const [u, v] = objPos(grab.o), [qx, qy] = px(u, v); fx.emit('spark', qx, qy, { count: 3, color: '#fff4c8', size: 6, speed: 70, life: 0.4, gravity: 60 }); audio?.tone({ freq: 360 * PM, to: 280 * PM, dur: 0.06, type: WV, vol: 0.12 }); } grab = null; }
+    if (!p.down) { if (grab && moved && fx && geo) { const [u, v] = objPos(grab.o), [qx, qy] = px(u, v); fx.emit('spark', qx, qy, { count: 3, color: '#fff4c8', size: 6, speed: 70, life: 0.4, gravity: 60 }); sound?.wireSet(); } grab = null; }
   };
 
   // A wheel: a dark tyre with tread, a bright rim and wire spokes, with its own shadow.
@@ -177,17 +177,26 @@ export function createBend(P, env) {
       wirePath(ctx, p, to); ctx.strokeStyle = tone(i); ctx.lineWidth = lw; ctx.stroke();
       wirePath(ctx, p, to); ctx.translate(-lw * 0.18, -lw * 0.22); ctx.strokeStyle = 'rgba(255,255,255,0.55)'; ctx.lineWidth = lw * 0.26; ctx.stroke(); ctx.translate(lw * 0.18, lw * 0.22);
     });
+    if (!guide) { // twisted binding wire where the points are
+      ctx.lineWidth = Math.max(1.2, lw * 0.5);
+      fig.paths.forEach((p, i) => p.pts.forEach((q, k) => {
+        if (!handles && !p.closed && k > 0 && k < p.pts.length - 1) return;
+        const [x, y] = to(q); const r2 = lw * 0.95;
+        ctx.strokeStyle = shade(tone(i), 0.28); ctx.beginPath(); ctx.arc(x, y, r2, 0, Math.PI * 2); ctx.stroke();
+        ctx.strokeStyle = shade(tone(i), -0.5); ctx.beginPath(); ctx.arc(x + 0.7, y + 0.9, r2, 0.2, 2.4); ctx.stroke();
+      }));
+    }
     fig.wheels.forEach((w) => {
       const [cx, cy] = to([w.x, w.y]), rp = w.r * bh;
       if (guide) { ctx.beginPath(); ctx.arc(cx, cy, rp, 0, Math.PI * 2); litEdge(ctx, '#ffd36a', Math.max(1.4, lw * 0.5), t); }
       else wheelAt(ctx, cx, cy, rp, P.wheelColor, 0.3);
     });
     if (handles) {
-      const hr = Math.max(8, bh * 0.022);
+      const hr = Math.max(7, bh * 0.017);
       fig.paths.forEach((p, i) => p.pts.forEach((q) => {
         const [x, y] = to(q);
         ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.beginPath(); ctx.arc(x + 2, y + 3, hr, 0, Math.PI * 2); ctx.fill();
-        const g2 = ctx.createRadialGradient(x - hr * 0.3, y - hr * 0.35, 1, x, y, hr); g2.addColorStop(0, '#ffffff'); g2.addColorStop(1, '#cfc8b8');
+        const g2 = ctx.createRadialGradient(x - hr * 0.3, y - hr * 0.35, 1, x, y, hr); g2.addColorStop(0, 'rgba(255,255,255,0.95)'); g2.addColorStop(1, 'rgba(214,206,186,0.75)');
         ctx.fillStyle = g2; ctx.strokeStyle = tone(i); ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(x, y, hr, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
       }));
     }
@@ -225,6 +234,14 @@ export function createBend(P, env) {
     if (SC.board === 'jig') jig(ctx, ox - 10, oy - 10, bw + 20, bh + 20, bh); else pegboard(ctx, ox - 10, oy - 10, bw + 20, bh + 20);
     const lw = Math.max(3.5, bh * 0.014);
     if (P.guide) paintFigure(ctx, target, ox, oy, bw, bh, lw, false, true, t);
+    if (P.guide) { // steel nails driven at the target's bend points, as on a real bending jig
+      target.paths.forEach((p) => p.pts.forEach((q) => {
+        const x = ox + q[0] * bw, y = oy + q[1] * bh, nr = Math.max(3, lw * 0.9);
+        ctx.fillStyle = 'rgba(0,0,0,0.45)'; ctx.beginPath(); ctx.ellipse(x + nr * 0.5, y + nr * 0.8, nr * 1.1, nr * 0.8, 0, 0, Math.PI * 2); ctx.fill();
+        const ng = ctx.createRadialGradient(x - nr * 0.3, y - nr * 0.35, 0.5, x, y, nr * 1.1); ng.addColorStop(0, '#ffffff'); ng.addColorStop(0.5, '#aeb6bf'); ng.addColorStop(1, '#4e555d');
+        ctx.fillStyle = ng; ctx.beginPath(); ctx.arc(x, y, nr, 0, Math.PI * 2); ctx.fill();
+      }));
+    }
     cur.wheels.forEach((w) => wheelAt(ctx, ox + w.x * bw, oy + w.y * bh, w.r * bh, P.wheelColor, 0.3));
     paintFigure(ctx, { paths: cur.paths, wheels: [] }, ox, oy, bw, bh, lw * 1.3, true, false, t);
     // a grabbed handle glows, and the pliers hold it

@@ -2,6 +2,7 @@
 // Power comes from pulling the mallet back (drag) or a meter. A clean strike falls inside the piece's window.
 // Rendering: a room with a lit floor, lacquered pieces shaded like turned wood, a painted head, a mallet that swings,
 // a struck piece that flies and bounces, and dust and a little shake on every strike.
+import { SOUND } from './sound.js';
 import { isTatami, drawRoom, drawBlock, drawMallet, drawDaruma } from './tatami.js';
 import { drawBackdrop, createFx, palFor, inferSetting, mix, dark, light, alpha, vgrad, hgrad, poly, rrect, clamp } from './scenery.js';
 
@@ -15,6 +16,7 @@ export function createBalance(P, env, host) {
   const fx = createFx(env);
   const TA = isTatami(P, env.text?.title);
   const tone = (o) => env.audio?.tone?.(o);
+  const snd = (k, ...a) => { try { SOUND[k](env.audio, ...a); } catch { /* sound is optional */ } };
   let blocks = [], flying = [], wobble = 0, head = null, layout = null, aim = null, floats = [], sel = -1, ai = null, over = false, clock = 0;
   let swing = null, planCache = null;
   const meter = { t: 0, power: 0 };
@@ -36,29 +38,26 @@ export function createBalance(P, env, host) {
     const hitY = layout ? layout.baseY - (i + 0.5) * layout.bh : 0, hitX = layout ? layout.cx - 0.5 * layout.bw : 0;
     swing = { t: 0, level: i, power };
     if (power < lo) {
-      wobble += B.weak; note = 'too soft'; tone({ freq: 160, dur: 0.1, type: 'square', vol: 0.3 });
+      wobble += B.weak; note = 'too soft'; snd('darumaSoft');
       if (layout) { fx.dust(hitX, hitY, layout.bh * 0.15, 'rgba(230,215,180,0.6)', 3); fx.kick(2); }
     } else if (power > hi) {
       wobble += B.strong; note = 'too hard';
       const b = blocks.splice(i, 1)[0]; flying.push({ ...b, x: 0, y: 0, vx: 6, vy: -4, rot: 0 });
       if (i < blocks.length) { const n = blocks.splice(i, 1)[0]; flying.push({ ...n, x: 0, y: 0, vx: 4, vy: -3, rot: 0 }); }
-      tone({ freq: 140, to: 80, dur: 0.2, type: 'sawtooth', vol: 0.4 });
-      fx.sfx(0.05, { freq: 90, to: 50, dur: 0.15, type: 'sine', vol: 0.5 });
+      snd('darumaHard');
       if (layout) { fx.dust(hitX, hitY, layout.bh * 0.25, 'rgba(230,215,180,0.7)', 8); fx.shards(hitX, hitY, layout.bh * 0.1, [b.c, '#f3e2b4'], 8); fx.kick(7); }
     } else {
       const b = blocks.splice(i, 1)[0]; flying.push({ ...b, x: 0, y: 0, vx: 4 + power * 6, vy: -2.2 - power * 2, rot: 0 });
       gain = 1; note = 'clean'; wobble = wobble * 0.5 + B.settle;
-      tone({ freq: 520, to: 880, dur: 0.15, type: 'triangle' });
-      fx.sfx(0, { freq: 150, to: 80, dur: 0.1, type: 'sine', vol: 0.5 });   // wood on wood
-      fx.sfx(0.03, { freq: 1500, dur: 0.03, type: 'square', vol: 0.1 });
+      snd('darumaClean', power);
       if (layout) { fx.sparks(hitX, hitY, layout.bh * 0.12); fx.dust(hitX, hitY, layout.bh * 0.15, 'rgba(255,240,200,0.6)', 4); fx.kick(4); }
     }
     blocks.forEach((b, k) => { b.y = k; });
     head.y = blocks.length;
     floats.push({ text: gain ? '+1' : note, t: 0, y: i });
     let end = false;
-    if (wobble >= 1) { over = true; end = true; head.fall = 1; note = 'toppled'; floats.push({ text: 'The stack falls', t: 0, y: 2 }); tone({ freq: 200, to: 60, dur: 0.5, type: 'sawtooth' }); fx.kick(9); }
-    else if (blocks.length === 0) { over = true; end = true; gain += B.headBonus; floats.push({ text: `Head home +${B.headBonus}`, t: 0, y: 1 }); fx.sfx(0.15, { freq: 880, to: 1320, dur: 0.25, type: 'triangle', vol: 0.35 }); }
+    if (wobble >= 1) { over = true; end = true; head.fall = 1; note = 'toppled'; floats.push({ text: 'The stack falls', t: 0, y: 2 }); snd('darumaTopple'); fx.kick(9); }
+    else if (blocks.length === 0) { over = true; end = true; gain += B.headBonus; floats.push({ text: `Head home +${B.headBonus}`, t: 0, y: 1 }); snd('darumaHome'); }
     host.settle(gain, { over: end });
     planCache = null; ai = null; sel = -1;
   };
@@ -92,7 +91,7 @@ export function createBalance(P, env, host) {
     const inside = p.x >= a.x && p.x <= a.x + a.w && p.y >= a.y && p.y <= a.y + a.h;
     if (P.controls === 'meter') {
       if (p.pressed && inside) {
-        if (sel < 0) { const l = levelAt(p.y); if (l >= 0) { sel = l; meter.t = 0; tone({ freq: 480, dur: 0.05 }); } }
+        if (sel < 0) { const l = levelAt(p.y); if (l >= 0) { sel = l; meter.t = 0; snd('darumaSwing'); } }
         else strike(sel, meter.power);
       }
       return;
@@ -138,8 +137,8 @@ export function createBalance(P, env, host) {
   const render = (g, area) => {
     const { ctx } = g;
     const bar = 40;
-    const bh = Math.min((area.h - bar - 80) / (B.blocks + 2.2), area.w / 6, 64), bw = Math.min(area.w * 0.42, bh * 3.2);
-    const baseY = area.y + area.h - bar - 24, cx = area.x + area.w * 0.55;
+    const bh = Math.min((area.h - bar - 80) / (B.blocks + (TA ? 3.4 : 2.2)), area.w / (TA ? 4.6 : 6), TA ? 92 : 64), bw = Math.min(area.w * (TA ? 0.5 : 0.42), bh * 3.2);
+    const baseY = area.y + area.h - bar - 24, cx = area.x + area.w * (TA ? 0.6 : 0.55);
     layout = { area, bh, bw, baseY, cx };
     const off = fx.offset();
     ctx.save();
@@ -186,8 +185,8 @@ export function createBalance(P, env, host) {
     });
     // the head: red face with a white mask, painted eyes, brows and moustache
     {
-      const hx = cx + sway * (1 + blocks.length * 0.3) + (head.fall ? head.fy * bw * 0.6 : 0), hr = bh * 0.7;
-      const hy2 = blockY(head.vis) - hr * 0.55 + (head.fall ? head.fy * head.fy * bh * 0.8 : 0);
+      const hx = cx + sway * (1 + blocks.length * 0.3) + (head.fall ? head.fy * bw * 0.6 : 0), hr = bh * (TA ? 1.0 : 0.7);
+      const hy2 = blockY(head.vis - 1) - hr * (TA ? 0.86 : 0.7) + (head.fall ? head.fy * head.fy * bh * 0.8 : 0);
       ctx.save(); ctx.translate(hx, hy2); ctx.rotate(head.fall ? head.fr * 2.2 : 0);
       ctx.fillStyle = 'rgba(0,0,0,0.25)'; ctx.beginPath(); ctx.ellipse(0, hr * 0.95, hr * 0.9, hr * 0.18, 0, 0, TAU); ctx.fill();
       const gr = ctx.createRadialGradient(-hr * 0.35, -hr * 0.4, hr * 0.1, 0, 0, hr * 1.15);
@@ -206,6 +205,7 @@ export function createBalance(P, env, host) {
     }
     // the struck pieces fly off, tumbling and bouncing, with a short motion streak
     for (const b of flying) {
+      if (TA) { ctx.save(); ctx.translate(cx + b.x * bh * 0.9, blockY(0) + bh / 2 + b.y * bh); ctx.rotate(b.rot); drawBlock(ctx, -bw / 2, -bh / 2, bw, bh, b.c, false); ctx.restore(); continue; }
       for (let k = 3; k >= 0; k--) {
         ctx.save(); ctx.globalAlpha = k === 0 ? 1 : 0.18 * (4 - k) * 0.5;
         ctx.translate(cx + (b.x - k * 0.25) * bh * 0.9, blockY(0) + bh / 2 + b.y * bh); ctx.rotate(b.rot - k * 0.2);
@@ -220,9 +220,9 @@ export function createBalance(P, env, host) {
     let pullV = pullAim;
     let swingAng = 0;
     if (swing) { const k = clamp(swing.t / 0.12, 0, 1); pullV = swing.power * (1 - k) + (-0.25) * k * (swing.t < 0.12 ? 1 : 1 - clamp((swing.t - 0.12) / 0.3, 0, 1)); swingAng = -0.5 * (1 - k); }
-    const mx = cx - bw / 2 - 26 - pullV * 90;
+    const mx = cx - bw / 2 - 26 - pullV * 90 * (TA ? clamp(bh / 56, 0.9, 1.6) : 1);
     ctx.save(); ctx.translate(mx, my); ctx.rotate(swingAng - pullAim * 0.15);
-    if (TA) { drawMallet(ctx, bh, 0, LK.mallet); ctx.restore(); } else {
+    if (TA) { const mk = clamp(bh / 56, 0.9, 1.6); ctx.scale(mk, mk); drawMallet(ctx, bh / mk, 0, LK.mallet); ctx.restore(); } else {
     ctx.fillStyle = hgrad(ctx, -140, -40, [[0, light(LK.mallet, 0.2)], [1, dark(LK.mallet, 0.3)]]);
     rrect(ctx, -135, -5, 100, 10, 4); ctx.fill();
     ctx.fillStyle = vgrad(ctx, -bh * 0.3, bh * 0.3, [[0, light(LK.mallet, 0.35)], [0.5, LK.mallet], [1, dark(LK.mallet, 0.45)]]);
@@ -240,8 +240,8 @@ export function createBalance(P, env, host) {
       g.label(ctx, 'Strike strength', gx, gy - 12, g.px(16), LK.hudText, 'left', '600');
     } else if (!over) g.label(ctx, P.controls === 'meter' ? 'Tap a piece, then tap to strike' : 'Press a piece, pull back, release', area.x + area.w / 2, area.y + 18, g.px(20), LK.hudText);
     // wobble gauge
-    const wx = area.x + area.w - 66;
-    rrect(ctx, wx - 26, area.y + 12, 58, 130, 10); ctx.fillStyle = 'rgba(12,8,6,0.55)'; ctx.fill();
+    const wx = area.x + area.w - 56;
+    rrect(ctx, wx - 38, area.y + 12, 82, 130, 10); ctx.fillStyle = 'rgba(12,8,6,0.55)'; ctx.fill();
     rrect(ctx, wx, area.y + 20, 14, 90, 7); ctx.fillStyle = 'rgba(0,0,0,0.45)'; ctx.fill();
     const wh = 90 * Math.min(1, wobble);
     if (wh > 2) { rrect(ctx, wx, area.y + 20 + 90 - wh, 14, wh, 7); ctx.fillStyle = wobble > 0.6 ? '#e0603a' : LK.guide; ctx.fill(); }

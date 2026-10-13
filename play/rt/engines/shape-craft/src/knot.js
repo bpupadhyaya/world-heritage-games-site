@@ -190,7 +190,7 @@ export function analyseCord(route, closed) {
 }
 
 export function createKnot(P, env) {
-  const { rng, audio, fx } = env;
+  const { rng, audio, fx, sound } = env;
   const SC = P.scene ?? {}, PM = SC.pitch ?? 1, WV = SC.wave ?? 'triangle';
   let clock = 0, flash = -9, flashAt = null;
   let T, route, closed, undo, done, geo = null, drag = false, snapped = false, ai = 0, acc = 0;
@@ -222,16 +222,16 @@ export function createKnot(P, env) {
   const snap = () => { if (!snapped) { undo.push({ route: route.slice(), closed }); snapped = true; } };
   const extend = (n) => {
     if (closed || done) return false;
-    if (!route.length) { snap(); route.push(n); audio?.tone({ freq: 330 * PM, dur: 0.05, type: WV, vol: 0.15 }); return true; }
+    if (!route.length) { snap(); route.push(n); sound?.pin(); return true; }
     const cur = route[route.length - 1];
     if (n === cur || !adj(cur, n)) return false;
     if (n === route[0]) {
       if (route.length < 4 || used(cur, n)) return false;
-      snap(); closed = true; audio?.tone({ freq: 523 * PM, dur: 0.18, type: WV, vol: 0.2 }); flash = clock; sparks(); return true;
+      snap(); closed = true; sound?.close(); flash = clock; sparks(); return true;
     }
     if (used(cur, n)) return false;
     snap(); route.push(n);
-    audio?.tone({ freq: (240 + (route.length % 7) * 26) * PM, dur: 0.04, type: WV, vol: 0.12 });
+    sound?.cord(route.length);
     if (geo && fx) fx.emit('dust', geo.x + (n % T.W) * geo.cs, geo.y + ((n / T.W) | 0) * geo.cs, { count: 1, color: tint(P.cordColor, 0.4), size: geo.cs * 0.12, speed: 18, life: 0.35, gravity: -10 });
     return true;
   };
