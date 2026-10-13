@@ -5,8 +5,11 @@
 //   Internally cols = rays and rows = rings, so designs, targets and boards use the same flat layout as the grid.
 // `designs`: optional hand-authored targets: [{ name, rows: ["..a..", ...], legend: { a: { m: motifIndex, c: colourIndex } } }] ('.' = empty). One is chosen per round.
 import { drawStamp, drawGround, drawThreadOverlay, drawLight, frameBefore, frameAfter, pickMaterial, hash, hashStr, rgba, mix, shade, lum, sparkle, roundRectPath, clamp, createRng, drawProp } from './art.js';
+import { pickScene } from './scenes.js';
+import { SND, FX, POT, drawCardBase } from './scene-kit.js';
+import { toolOf } from './scene-tools.js';
 
-export const DEFAULTS = { material: 'auto', shape: 'grid', rings: 5, rays: 16, rotateMarks: false, designs: null, cols: 7, rows: 7, symmetry: 'rot4', palette: [{ name: 'Cream', color: '#f3ead2' }, { name: 'Red', color: '#c8452d' }, { name: 'Blue', color: '#27508c' }, { name: 'Gold', color: '#e0a82e' }], background: '#2b2118', grid: '#4d3b2a', motifs: ['solid', 'diamond', 'dot', 'cross'], mode: 'copy', density: 0.45, colorsInTarget: 3 };
+export const DEFAULTS = { scene: 'auto', material: 'auto', shape: 'grid', rings: 5, rays: 16, rotateMarks: false, designs: null, cols: 7, rows: 7, symmetry: 'rot4', palette: [{ name: 'Cream', color: '#f3ead2' }, { name: 'Red', color: '#c8452d' }, { name: 'Blue', color: '#27508c' }, { name: 'Gold', color: '#e0a82e' }], background: '#2b2118', grid: '#4d3b2a', motifs: ['solid', 'diamond', 'dot', 'cross'], mode: 'copy', density: 0.45, colorsInTarget: 3 };
 
 // Symmetry groups (each a proper group, so orbits partition the grid): identity plus the listed transforms.
 const orbit = (sym, c, r, cols, rows) => {
@@ -82,7 +85,9 @@ export function createActivity(userParams, env) {
   const { rng, palette: pal } = env;
   const polar = P.shape === 'polar';
   if (polar) validatePolarDesigns(P);
-  const mat = pickMaterial(P.material === 'auto' ? null : P.material, env.text?.title, env.text?.summary);
+  const scene = pickScene(P, env.text);
+  const mat = scene?.mat ?? pickMaterial(P.material === 'auto' ? null : P.material, env.text?.title, env.text?.summary);
+  const snd = SND[scene?.snd] ?? SND.default;
   const reduce = !!(env.config?.reduceMotion);
   const psym = polar ? parsePolarSymmetry(P.symmetry, P.rays) : null;
   const cols = polar ? P.rays : P.cols, rows = polar ? P.rings : P.rows;
@@ -90,7 +95,8 @@ export function createActivity(userParams, env) {
   const orbitOf = (c, r) => (polar ? polarOrbit(psym, c, cols).map((x) => [x, r]) : orbit(P.symmetry, c, r, cols, rows));
   const bgc = P.background;
   const titleSeed = hashStr(String(env.text?.title ?? 'pattern'));
-  let board, target, targetName, sel, undoStack, tip, done, outcome, layout = null;
+  let board, target, targetName, sel, undoStack, tip, done, outcome, layout = null, curS = null, curArea = null;
+  let toolX = 0, toolY = 0, toolHit = -1e9, toolInit = false, curBox = null;
   let clock = 0, landAt, eraseAt, eraseCell, revealAt, wrongAt, hoverAt, hover, hintAt, hintCell, shown, pulseAt, lastScore, pressId, lastPtr, attractT;
   const empty = () => Array.from({ length: total }, () => ({ m: -1, c: 0 }));
   const at = (c, r) => r * cols + c;
@@ -138,8 +144,8 @@ export function createActivity(userParams, env) {
       board[i] = next; k++;
     }
     // a soft thud, then a small high tick for the grain of the material
-    tone({ freq: 210 + sel.c * 26, to: 120, dur: 0.1, type: 'triangle', vol: 0.16 });
-    tone({ freq: 880 + sel.c * 90, dur: 0.035, type: 'sine', vol: 0.04 });
+    toolHit = clock;
+    snd.paint(tone, sel.c);
   };
 
   const score = () => {
@@ -200,6 +206,7 @@ export function createActivity(userParams, env) {
     const nColor = P.palette.length, nMotif = P.motifs.length + 1;
     const touch = 46 * u;
     const out = { landscape, u };
+    const order = scene?.order ?? ['card', 'board', 'pal'], flip = !!scene?.flip;
     let sw, palArea, boardBox, cardBox = null, actH = Math.min(touch, 76);
     if (landscape) {
       const per = 4;
@@ -208,27 +215,38 @@ export function createActivity(userParams, env) {
       sw = Math.min(sw, Math.floor((a.h - actH - 30) / rowsN) - 6);
       sw = Math.max(40, sw);
       const colW = per * (sw + 6) + 14;
-      palArea = { x: a.x + a.w - colW, y: a.y, w: colW, h: a.h, per };
       const left = a.w - colW - gap;
+      const cw = target ? Math.round(clamp(left * 0.3, 170 * u / 1.85, 340 * u / 1.85)) : 0;
+      // flip: palette on the left, reference card on the right
+      const palX = flip ? a.x : a.x + a.w - colW;
+      palArea = { x: palX, y: a.y, w: colW, h: a.h, per };
+      const midX = flip ? a.x + colW + gap : a.x;
       if (target) {
-        const cw = Math.round(clamp(left * 0.3, 170 * u / 1.85, 340 * u / 1.85));
-        cardBox = { x: a.x + 4, y: a.y + 4, w: cw, h: a.h - 8, column: true };
-        boardBox = { x: a.x + cw + gap, y: a.y, w: left - cw - gap, h: a.h };
-      } else boardBox = { x: a.x, y: a.y, w: left, h: a.h };
+        const cardX = flip ? a.x + a.w - cw - 4 : a.x + 4;
+        cardBox = { x: cardX, y: a.y + 4, w: cw, h: a.h - 8, column: true };
+        boardBox = flip ? { x: midX, y: a.y, w: left - cw - gap, h: a.h } : { x: a.x + cw + gap, y: a.y, w: left - cw - gap, h: a.h };
+      } else boardBox = { x: midX, y: a.y, w: left, h: a.h };
     } else {
       const per = Math.max(nColor, nMotif);
       sw = Math.max(40, Math.min(touch, Math.floor((a.w - 8) / per) - 6));
       const palH = (sw + 8) * 2 + actH + 14;
-      palArea = { x: a.x, y: a.y + a.h - palH, w: a.w, h: palH, per };
       const rest = a.h - palH - gap;
-      if (target) {
-        const ch = Math.round(clamp(rest * 0.3, 150, Math.min(a.w * 0.5, 380)));
-        cardBox = { x: a.x + 6, y: a.y + 4, w: a.w - 12, h: ch, column: false };
-        boardBox = { x: a.x, y: a.y + ch + gap + 4, w: a.w, h: rest - ch - gap - 4 };
-      } else boardBox = { x: a.x, y: a.y, w: a.w, h: rest };
+      const ch = target ? Math.round(clamp(rest * 0.3, 150, Math.min(a.w * 0.5, 380))) : 0;
+      const bh = target ? rest - ch - gap - 4 : rest;
+      const sizes = { card: target ? ch + gap + 4 : 0, board: bh, pal: palH };
+      let y = a.y; const pos = {};
+      for (const k of order) { if (k === 'card' && !target) continue; pos[k] = y; y += sizes[k]; if (k === 'board' || k === 'card') y += 0; }
+      // gaps: the card carries its own gap in `sizes`; add one gap between board and palette when the palette is not adjacent to the card
+      palArea = { x: a.x, y: pos.pal, w: a.w, h: palH, per };
+      if (target) cardBox = { x: a.x + 6, y: pos.card + (order[0] === 'card' ? 4 : 0), w: a.w - 12, h: ch, column: false };
+      boardBox = { x: a.x, y: pos.board, w: a.w, h: bh };
     }
-    const fd = clamp(Math.min(boardBox.w, boardBox.h) / (Math.max(cols, rows) * 3.2), 9 * u / 1.85, 24 * u / 1.85) + 4;
-    const b = fitBoard(boardBox, fd + (mat === 'weave' ? 8 : 0));
+    let fd = clamp(Math.min(boardBox.w, boardBox.h) / (Math.max(cols, rows) * 3.2), 9 * u / 1.85, 24 * u / 1.85) + 4;
+    fd *= scene?.fd ?? 1;
+    const inset = Math.round(Math.min(boardBox.w, boardBox.h) * (scene?.pad ?? 0));
+    const px0 = Math.round(Math.min(boardBox.w, boardBox.h) * (scene?.padX ?? 0)), py0 = Math.round(Math.min(boardBox.w, boardBox.h) * (scene?.padY ?? 0));
+    const fitBox = { x: boardBox.x + inset + px0, y: boardBox.y + inset + py0, w: boardBox.w - 2 * (inset + px0), h: boardBox.h - 2 * (inset + py0) };
+    const b = fitBoard(fitBox, fd + (mat === 'weave' && !scene ? 8 : 0));
     return { ...out, sw, actH, board: b, fd, card: cardBox, pal: palArea, boardBox };
   };
 
@@ -265,7 +283,8 @@ export function createActivity(userParams, env) {
       const t = orient(P.symmetry, c, r, cols, rows);
       ctx.rotate((t.rot * Math.PI) / 2); ctx.scale(t.fx ? -1 : 1, t.fy ? -1 : 1);
     }
-    drawStamp(ctx, mat, kind, 0, 0, size, col, i * 13 + c, bgc);
+    if (scene?.cell && curS) scene.cell(ctx, curS, { kind, col, x: 0, y: 0, s: size, key: i * 13 + c, bg: bgc, c, r, i });
+    else drawStamp(ctx, mat, kind, 0, 0, size, col, i * 13 + c, bgc);
     ctx.restore();
   };
   const cellCentre = (B, c, r) => (polar ? sectorCentre(B, c, r) : { x: B.x + (c + 0.5) * B.cell, y: B.y + (r + 0.5) * B.cell });
@@ -277,10 +296,14 @@ export function createActivity(userParams, env) {
     const cells = o.cells, lite = !!o.lite;
     const rect = polar ? { x: B.cx - B.R, y: B.cy - B.R, w: B.R * 2, h: B.R * 2 } : { x: B.x, y: B.y, w: B.w, h: B.h };
     const cell = polar ? B.thick : B.cell, fd = o.fd ?? Math.max(5, cell * 0.28);
-    frameBefore(ctx, mat, rect, fd, polar, bgc, o.reveal ?? 0);
+    const S = mkS(ctx, B, rect, cell, fd, o);
+    curS = S;
+    if (scene && !lite && scene.under) scene.under(ctx, S);
+    if (scene?.base) scene.base(ctx, S); else frameBefore(ctx, mat, rect, fd, polar, bgc, o.reveal ?? 0);
     ctx.save();
     if (polar) { ctx.beginPath(); ctx.arc(B.cx, B.cy, B.R, 0, Math.PI * 2); ctx.clip(); }
-    drawGround(ctx, mat, rect, bgc, cell, polar ? 0 : cols, polar ? 0 : rows, lite);
+    else if (scene?.clipRect) { ctx.beginPath(); ctx.rect(rect.x, rect.y, rect.w, rect.h); ctx.clip(); }
+    if (scene?.ground) scene.ground(ctx, S); else drawGround(ctx, mat, rect, bgc, cell, polar ? 0 : cols, polar ? 0 : rows, lite);
     // erased stamps fade away
     if (o.anim && !reduce) for (let i = 0; i < total; i++) {
       const age = clock - eraseAt[i]; if (age < 0 || age > 0.25 || !eraseCell[i]) continue;
@@ -303,11 +326,12 @@ export function createActivity(userParams, env) {
       }
       drawCellAt(ctx, cellv, p.x, p.y, size, c, r, i, sc, a);
     }
-    drawThreadOverlay(ctx, mat, rect, cell, 1, lite);
+    if (scene?.over) scene.over(ctx, S); else if (!scene) drawThreadOverlay(ctx, mat, rect, cell, 1, lite);
     // ruled cell lines: a faint stitched guide that fades away when the work is done
     const ga = o.grid ?? 1;
-    if (ga > 0.02 && mat !== 'tile') {
-      ctx.save(); ctx.globalAlpha = ga * (mat === 'bead' ? 0.5 : 0.85); ctx.strokeStyle = P.grid; ctx.lineWidth = lite ? 1 : Math.max(1, cell * 0.022);
+    const gridOn = scene?.grid === false ? false : mat !== 'tile' || scene?.grid;
+    if (ga > 0.02 && gridOn) {
+      ctx.save(); ctx.globalAlpha = ga * (scene?.gridAlpha ?? (mat === 'bead' ? 0.5 : 0.85)); ctx.strokeStyle = scene?.gridColor ?? P.grid; ctx.lineWidth = lite ? 1 : Math.max(1, cell * 0.022);
       ctx.setLineDash([Math.max(3, cell * 0.12), Math.max(3, cell * 0.1)]); ctx.beginPath();
       if (polar) {
         for (let r = 0; r <= rows; r++) { ctx.moveTo(B.cx + B.R0 + r * B.thick, B.cy); ctx.arc(B.cx, B.cy, B.R0 + r * B.thick, 0, 6.2832); }
@@ -322,10 +346,15 @@ export function createActivity(userParams, env) {
       const hr = B.R0 * 0.9; const gr = ctx.createRadialGradient(B.cx - hr * 0.3, B.cy - hr * 0.3, 1, B.cx, B.cy, hr);
       gr.addColorStop(0, shade(bgc, 0.4)); gr.addColorStop(1, shade(bgc, -0.5)); ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(B.cx, B.cy, hr, 0, 6.2832); ctx.fill();
     }
-    drawLight(ctx, rect, polar, (o.light ?? 1) * (lite ? 0.8 : 1));
+    if (scene?.light !== false) drawLight(ctx, rect, polar, (o.light ?? 1) * (lite ? 0.8 : 1) * (scene?.light ?? 1));
     ctx.restore();
-    frameAfter(ctx, mat, rect, fd, polar, bgc, pal.accent, cell);
+    if (scene?.frame) scene.frame(ctx, S); else frameAfter(ctx, mat, rect, fd, polar, bgc, pal.accent, cell);
   };
+  // scene context handed to every scene hook: geometry of the board, the surface box around it, the clock and the palette
+  const mkS = (ctx, B, rect, cell, fd, o) => ({
+    ctx, B, polar, cols, rows, cell, fd, rect, box: o.box ?? curBox ?? rect, area: o.area ?? curArea ?? rect, t: clock, pal, P, bg: bgc,
+    colors: P.palette.map((p) => p.color), lite: !!o.lite, reveal: o.reveal ?? 0, anim: !!o.anim, outcome: !!outcome, sel,
+  });
 
   // Symmetry guides: fine glowing axes with small diamond ends, a rosette where the turns meet.
   const drawGuides = (ctx, B, alpha) => {
@@ -385,6 +414,7 @@ export function createActivity(userParams, env) {
       if (age < 0 || age > 0.6 || boardCell(i).m === -1) continue;
       const c = i % cols, r = Math.floor(i / cols), p = cellCentre(B, c, r), size = cellSize(B, r), u = age / 0.6;
       const col = P.palette[boardCell(i).c].color;
+      if (scene) { const d = { x: p.x, y: p.y, s: size, col, i, c, r }; for (const nm of [].concat(scene.place ?? 'ring')) (FX[nm] ?? FX.ring)(ctx, curS ?? { cell: size, pal }, d, u); continue; }
       // ink spreading outward
       ctx.strokeStyle = rgba(col, 0.5 * (1 - u)); ctx.lineWidth = Math.max(1, size * 0.07 * (1 - u)); ctx.beginPath(); ctx.arc(p.x, p.y, size * (0.3 + 0.42 * Math.sqrt(u)), 0, 6.2832); ctx.stroke();
       // dust motes
@@ -435,14 +465,9 @@ export function createActivity(userParams, env) {
     const c = L.card; if (!c || !target) return;
     const css = L.u, lite = true;
     // shadow + paper
-    ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = 16; ctx.shadowOffsetY = 6;
-    roundRectPath(ctx, c.x, c.y, c.w, c.h, 14 * css / 1.85); ctx.fillStyle = '#f1e7d0'; ctx.fill(); ctx.restore();
-    const gr = ctx.createLinearGradient(c.x, c.y, c.x, c.y + c.h); gr.addColorStop(0, 'rgba(255,255,255,0.35)'); gr.addColorStop(1, 'rgba(120,90,40,0.18)');
-    roundRectPath(ctx, c.x, c.y, c.w, c.h, 14 * css / 1.85); ctx.fillStyle = gr; ctx.fill();
-    ctx.strokeStyle = rgba(pal.accent, 0.9); ctx.lineWidth = 2.5; roundRectPath(ctx, c.x + 5, c.y + 5, c.w - 10, c.h - 10, 10 * css / 1.85); ctx.stroke();
-    ctx.strokeStyle = 'rgba(80,55,20,0.35)'; ctx.lineWidth = 1; roundRectPath(ctx, c.x + 10, c.y + 10, c.w - 20, c.h - 20, 7 * css / 1.85); ctx.stroke();
-    // corner studs
-    ctx.fillStyle = rgba(pal.accent, 0.95); for (const [qx, qy] of [[c.x + 5, c.y + 5], [c.x + c.w - 5, c.y + 5], [c.x + 5, c.y + c.h - 5], [c.x + c.w - 5, c.y + c.h - 5]]) { ctx.beginPath(); ctx.arc(qx, qy, 4.5, 0, 6.2832); ctx.fill(); }
+    const cs = scene?.card ?? {};
+    drawCardBase(ctx, c, css, cs, pal);
+    const INK = cs.ink ?? '#3a2810', CAPC = cs.cap ?? '#6b4a1f', SUBC = cs.sub ?? '#6b5a40';
     // mini reference, drawn with the same material as the work
     const padI = 16 * css / 1.85;
     let mini, textBox;
@@ -455,13 +480,13 @@ export function createActivity(userParams, env) {
     }
     const mfd = Math.max(5, Math.min(mini.w, mini.h) / (Math.max(cols, rows) * 3.4)) + 2;
     const mb = fitBoard(mini, mfd);
-    renderBoard(ctx, mb, { cells: target, lite, anim: false, grid: 0.55, fd: mfd, light: 0.8 });
+    renderBoard(ctx, mb, { cells: target, lite, anim: false, grid: 0.55, fd: mfd, light: 0.8, box: mini, area: mini });
     // text (caption 13 css px, name 16 css px, numbers 18 css px at the reference scale)
     const cx0 = c.column ? c.x + c.w / 2 : textBox.x, al = c.column ? 'center' : 'left';
     const CAP = g.px(24), NAME = g.px(30);
     let ty = textBox.y + CAP * 0.6;
     ctx.save(); try { ctx.letterSpacing = '3px'; } catch (e) { /* older canvas */ }
-    g.label(ctx, 'REFERENCE', cx0, ty, CAP, '#6b4a1f', al, '700');
+    g.label(ctx, scene?.card?.label ?? 'REFERENCE', cx0, ty, CAP, CAPC, al, '700');
     try { ctx.letterSpacing = '0px'; } catch (e) { /* ignore */ }
     ctx.restore();
     ty += CAP * 1.25;
@@ -469,11 +494,11 @@ export function createActivity(userParams, env) {
     ctx.font = `700 ${Math.round(NAME)}px Georgia, 'Times New Roman', serif`;
     const lines = [];
     { let line = ''; for (const word of String(name).split(' ')) { const nx = line ? `${line} ${word}` : word; if (line && ctx.measureText(nx).width > textBox.w) { lines.push(line); line = word; } else line = nx; } if (line) lines.push(line); }
-    ctx.save(); ctx.font = `700 ${Math.round(NAME)}px Georgia, 'Times New Roman', serif`; ctx.fillStyle = '#3a2810'; ctx.textAlign = al; ctx.textBaseline = 'middle';
+    ctx.save(); ctx.font = `700 ${Math.round(NAME)}px Georgia, 'Times New Roman', serif`; ctx.fillStyle = INK; ctx.textAlign = al; ctx.textBaseline = 'middle';
     lines.slice(0, 2).forEach((l, i) => ctx.fillText(l, cx0, ty + i * NAME * 1.15));
     ctx.restore();
     ty += (Math.min(2, lines.length) - 0.2) * NAME * 1.15;
-    if (targetName) { g.label(ctx, symName(P.symmetry), cx0, ty + CAP * 0.4, CAP, '#6b5a40', al, '500'); ty += CAP * 1.2; }
+    if (targetName) { g.label(ctx, symName(P.symmetry), cx0, ty + CAP * 0.4, CAP, SUBC, al, '500'); ty += CAP * 1.2; }
     // the colours of the tradition, named
     const mhh = Math.max(16, g.px(20)), mTop = textBox.y + textBox.h - mhh - CAP * 2.2;
     {
@@ -484,7 +509,7 @@ export function createActivity(userParams, env) {
         if (px0 + w > textBox.x + textBox.w && px0 > textBox.x) { px0 = textBox.x; py0 += CAP * 1.15; }
         if (py0 + CAP * 0.5 > mTop) break;
         ctx.fillStyle = pc.color; ctx.strokeStyle = 'rgba(60,40,10,0.55)'; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.arc(px0 + rad, py0, rad, 0, 6.2832); ctx.fill(); ctx.stroke();
-        ctx.fillStyle = '#5a4a30'; ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillText(pc.name, px0 + rad * 2 + 6, py0 + 1);
+        ctx.fillStyle = SUBC; ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillText(pc.name, px0 + rad * 2 + 6, py0 + 1);
         px0 += w + 6;
       }
       ctx.restore();
@@ -493,8 +518,8 @@ export function createActivity(userParams, env) {
     const mh = Math.max(16, g.px(20)), mw = textBox.w, my = textBox.y + textBox.h - mh;
     const k = clamp(shown / 100, 0, 1);
     const pulse = clock - pulseAt < 0.5 ? 1 - (clock - pulseAt) / 0.5 : 0;
-    g.label(ctx, 'Match', textBox.x, my - CAP * 0.85, CAP, '#6b5a40', 'left', '600');
-    g.label(ctx, `${Math.round(shown)}%`, textBox.x + mw, my - CAP * 0.9, g.px(32) * (1 + pulse * 0.18), pulse > 0 ? '#9a5d00' : '#3a2810', 'right', '800');
+    g.label(ctx, 'Match', textBox.x, my - CAP * 0.85, CAP, SUBC, 'left', '600');
+    g.label(ctx, `${Math.round(shown)}%`, textBox.x + mw, my - CAP * 0.9, g.px(32) * (1 + pulse * 0.18), pulse > 0 ? '#9a5d00' : INK, 'right', '800');
     roundRectPath(ctx, textBox.x, my, mw, mh, mh / 2); ctx.fillStyle = 'rgba(60,40,10,0.25)'; ctx.fill();
     if (k > 0.005) {
       const fw = Math.max(mh, mw * k), mg = ctx.createLinearGradient(textBox.x, 0, textBox.x + mw, 0);
@@ -511,7 +536,10 @@ export function createActivity(userParams, env) {
       const pressed = pressId === btn.id && !outcome;
       const sc = pressed ? 0.93 : 1, cx = btn.x + btn.w / 2, cy = btn.y + btn.h / 2;
       ctx.save(); ctx.translate(cx, cy); ctx.scale(sc, sc); ctx.translate(-cx, -cy);
-      if (btn.id.startsWith('color:')) {
+      if (btn.id.startsWith('color:') && scene?.pot) {
+        const i = Number(btn.id.slice(6));
+        (POT[scene.pot] ?? POT.pot)(ctx, { pal, cell: btn.w * 0.5 }, btn, P.palette[i].color, sel.c === i, i);
+      } else if (btn.id.startsWith('color:')) {
         const i = Number(btn.id.slice(6)), on = sel.c === i, col = P.palette[i].color, lift = on ? 4 : 0;
         // a pot of dye: glossy cap and a body that catches the light
         ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = on ? 14 : 6; ctx.shadowOffsetY = on ? 7 : 3;
@@ -530,22 +558,26 @@ export function createActivity(userParams, env) {
         roundRectPath(ctx, btn.x, btn.y - lift, btn.w, btn.h, 12 * css); ctx.fillStyle = mix(bgc, '#000', 0.15); ctx.fill(); ctx.restore();
         // a little swatch of the ground so the stamp is seen as it will print
         ctx.save(); roundRectPath(ctx, btn.x, btn.y - lift, btn.w, btn.h, 12 * css); ctx.clip();
-        drawGround(ctx, mat === 'tile' ? 'paint' : mat, { x: btn.x, y: btn.y - lift, w: btn.w, h: btn.h }, bgc, btn.w * 0.5, 1, 1, true);
+        const sr = { x: btn.x, y: btn.y - lift, w: btn.w, h: btn.h };
+        if (scene?.ground) { const S2 = { ...mkS(ctx, { cx: 0, cy: 0, R: 0, thick: 1, cell: btn.w * 0.5 }, sr, btn.w * 0.5, 4, { lite: true, box: sr, area: sr }), polar: false, cols: 1, rows: 1 }; ctx.fillStyle = bgc; ctx.fillRect(sr.x, sr.y, sr.w, sr.h); scene.ground(ctx, S2); }
+        else drawGround(ctx, mat === 'tile' ? 'paint' : mat, sr, bgc, btn.w * 0.5, 1, 1, true);
         ctx.restore();
         if (mi === -1) {
           ctx.strokeStyle = pal.ink; ctx.lineWidth = Math.max(3, btn.w * 0.08); ctx.lineCap = 'round'; ctx.beginPath();
           ctx.moveTo(cx - btn.w * 0.2, cy - lift - btn.w * 0.2); ctx.lineTo(cx + btn.w * 0.2, cy - lift + btn.w * 0.2); ctx.moveTo(cx + btn.w * 0.2, cy - lift - btn.w * 0.2); ctx.lineTo(cx - btn.w * 0.2, cy - lift + btn.w * 0.2); ctx.stroke();
-        } else drawStamp(ctx, mat, P.motifs[mi], cx, cy - lift, btn.w * 0.76, P.palette[sel.c].color, mi + 3, bgc);
+        } else if (scene?.cell) { const S2 = { ...mkS(ctx, { cx: 0, cy: 0, R: 0, thick: 1, cell: btn.w * 0.5 }, { x: btn.x, y: btn.y, w: btn.w, h: btn.h }, btn.w * 0.5, 4, { lite: true }), polar: false, cols: 1, rows: 1 }; scene.cell(ctx, S2, { kind: P.motifs[mi], col: P.palette[sel.c].color, x: cx, y: cy - lift, s: btn.w * 0.7, key: mi + 3, bg: bgc, c: 0, r: 0, i: mi }); }
+        else drawStamp(ctx, mat, P.motifs[mi], cx, cy - lift, btn.w * 0.76, P.palette[sel.c].color, mi + 3, bgc);
         ctx.strokeStyle = on ? pal.accent : 'rgba(255,255,255,0.25)'; ctx.lineWidth = on ? 4 : 1.5; roundRectPath(ctx, btn.x, btn.y - lift, btn.w, btn.h, 12 * css); ctx.stroke();
       } else {
         const primary = btn.id === 'check';
         const off = !!outcome;
         ctx.save(); ctx.globalAlpha = off ? 0.5 : 1; ctx.shadowColor = 'rgba(0,0,0,0.45)'; ctx.shadowBlur = 8; ctx.shadowOffsetY = 3;
-        roundRectPath(ctx, btn.x, btn.y, btn.w, btn.h, Math.min(18, btn.h / 2)); ctx.fillStyle = primary ? pal.accent : pal.panel; ctx.fill(); ctx.restore();
+        const bs = scene?.btn ?? {};
+        roundRectPath(ctx, btn.x, btn.y, btn.w, btn.h, Math.min(18, btn.h / 2)); ctx.fillStyle = primary ? (bs.primary ?? pal.accent) : (bs.fill ?? pal.panel); ctx.fill(); ctx.restore();
         const gr = ctx.createLinearGradient(0, btn.y, 0, btn.y + btn.h); gr.addColorStop(0, 'rgba(255,255,255,0.28)'); gr.addColorStop(0.5, 'rgba(255,255,255,0)'); gr.addColorStop(1, 'rgba(0,0,0,0.22)');
         roundRectPath(ctx, btn.x, btn.y, btn.w, btn.h, Math.min(18, btn.h / 2)); ctx.fillStyle = gr; ctx.fill();
-        ctx.strokeStyle = primary ? shade(pal.accent, 0.3) : pal.dim; ctx.lineWidth = 2; ctx.stroke();
-        g.label(ctx, btn.label, cx, cy + 1, Math.min(g.px(26), btn.h * 0.46), primary ? '#1b1b1b' : pal.ink, 'center', '700');
+        ctx.strokeStyle = primary ? shade(bs.primary ?? pal.accent, 0.3) : (bs.edge ?? pal.dim); ctx.lineWidth = 2; ctx.stroke();
+        g.label(ctx, btn.label, cx, cy + 1, Math.min(g.px(26), btn.h * 0.46), primary ? (bs.primaryText ?? '#1b1b1b') : (bs.text ?? pal.ink), 'center', '700');
       }
       ctx.restore();
     }
@@ -560,6 +592,26 @@ export function createActivity(userParams, env) {
     return artCache;
   };
 
+  // ---- the maker's tool: follows the last cell touched, hops to a rest spot when idle -----------------------------------------------
+  const trackTool = (dt) => {
+    if (!scene || !layout) return;
+    const b = layout.board, bb = layout.boardBox;
+    let gx, gy;
+    if (hover && clock - hoverAt < 1.3) { const q = cellCentre(b, hover.c, hover.r); gx = q.x; gy = q.y; }
+    else { const id = scene.idle ?? [0.9, 0.96]; gx = bb.x + bb.w * id[0]; gy = bb.y + bb.h * id[1]; }
+    if (!toolInit) { toolX = gx; toolY = gy; toolInit = true; }
+    const k = 1 - Math.exp(-dt * 11); toolX += (gx - toolX) * k; toolY += (gy - toolY) * k;
+  };
+  const drawTool = (ctx, S) => {
+    if (!scene?.tool || !toolInit) return;
+    const [name, o] = Array.isArray(scene.tool) ? scene.tool : [scene.tool, {}];
+    const T = { x: toolX, y: toolY, a: clock - toolHit, t: clock, col: P.palette[Math.min(sel.c, P.palette.length - 1)].color, u: S.cell, ...o };
+    ctx.save();
+    if (outcome) ctx.globalAlpha = Math.max(0, 1 - (clock - revealAt) * 2);
+    if (ctx.globalAlpha > 0.02) toolOf(name)(ctx, S, T, o);
+    ctx.restore();
+  };
+
   const act = {
     init,
     point(id) {
@@ -570,6 +622,7 @@ export function createActivity(userParams, env) {
     },
     update(dt, input) {
       clock += dt;
+      trackTool(dt);
       if (!layout) return;
       const p = input.pointer;
       shown += (score().score - shown) * Math.min(1, dt * 9);
@@ -609,6 +662,7 @@ export function createActivity(userParams, env) {
     attract(dt) {
       // Watch and learn: the computer paints the target one symmetric orbit at a time, then checks the work.
       clock += dt;
+      trackTool(dt);
       shown += (score().score - shown) * Math.min(1, dt * 9);
       if (Math.abs(shown - score().score) < 0.4) shown = score().score;
       if (outcome) { if (!done && clock - revealAt >= REVEAL_SECONDS + REVEAL_HOLD) done = outcome; return; }
@@ -621,7 +675,7 @@ export function createActivity(userParams, env) {
           sel = { m: t.m, c: t.c }; const c = i % cols, r = Math.floor(i / cols); let k = 0;
           for (const [x, y] of orbitOf(c, r)) { const j = at(x, y); board[j] = { ...script[j] }; landAt[j] = clock + k * 0.05; eraseAt[j] = -1e9; k++; }
           hover = { c, r }; hoverAt = clock;
-          tone({ freq: 210 + sel.c * 26, to: 120, dur: 0.1, type: 'triangle', vol: 0.12 });
+          toolHit = clock; snd.paint(tone, sel.c);
           return;
         }
       }
@@ -635,9 +689,14 @@ export function createActivity(userParams, env) {
       const L = layout, b = L.board;
       // the work table: a pool of light behind the cloth
       const bc = { x: b.x + (polar ? b.w / 2 : b.w / 2), y: b.y + b.h / 2 };
-      const bgG = ctx.createRadialGradient(bc.x, bc.y, 10, bc.x, bc.y, Math.max(area.w, area.h) * 0.75);
-      bgG.addColorStop(0, rgba(mix(pal.bg, pal.accent, 0.16), 1)); bgG.addColorStop(1, rgba(pal.bg, 1));
-      ctx.fillStyle = bgG; ctx.fillRect(area.x - 12, area.y, area.w + 24, area.h);
+      curArea = area; curBox = L.boardBox;
+      if (scene?.env) scene.env(ctx, { ctx, area, cell: b.cell ?? b.thick, rect: { x: b.x, y: b.y, w: b.w, h: b.h }, box: L.boardBox, t: clock, pal, P, bg: bgc, colors: P.palette.map((p) => p.color), cols, rows, polar, B: b });
+      else {
+        const bgG = ctx.createRadialGradient(bc.x, bc.y, 10, bc.x, bc.y, Math.max(area.w, area.h) * 0.75);
+        bgG.addColorStop(0, rgba(mix(pal.bg, pal.accent, 0.16), 1)); bgG.addColorStop(1, rgba(pal.bg, 1));
+        ctx.fillStyle = bgG; ctx.fillRect(area.x - 12, area.y, area.w + 24, area.h);
+      }
+      { const tn = scene?.tone ?? 0; if (scene?.env && tn) { ctx.fillStyle = tn > 0 ? `rgba(0,0,0,${tn})` : `rgba(255,248,230,${-tn})`; ctx.fillRect(area.x - 12, area.y, area.w + 24, area.h); } } // ambient light of the scene
       const revealT = revealAt >= 0 ? clock - revealAt : -1;
       const rp = revealT >= 0 ? ease(revealT / REVEAL_SECONDS) : 0;
       const lift = revealT >= 0 && !reduce ? rp : 0;
@@ -656,6 +715,7 @@ export function createActivity(userParams, env) {
         ctx.globalAlpha = 1;
       }
       ctx.restore();
+      if (scene?.tool) { ctx.save(); ctx.beginPath(); ctx.rect(area.x, area.y, area.w, area.h); ctx.clip(); drawTool(ctx, curS ?? mkS(ctx, b, { x: b.x, y: b.y, w: b.w, h: b.h }, b.cell ?? b.thick, L.fd, { box: L.boardBox })); ctx.restore(); }
       drawCard(ctx, g, L);
       drawControls(ctx, g, L);
     },
@@ -663,6 +723,32 @@ export function createActivity(userParams, env) {
     titleArt(g, rect, t) {
       const { ctx } = g, tt = t ?? clock;
       const cells = artDesign();
+      if (scene) {
+        // the scene itself: the craft's environment, the work in its frame, the tool at work on it
+        const side = Math.min(rect.w, rect.h) * 1.02, hero = { x: rect.cx - side / 2, y: rect.cy - side / 2, w: side, h: side };
+        ctx.save();
+        ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = side * 0.05; ctx.shadowOffsetY = side * 0.02; roundRectPath(ctx, hero.x, hero.y, hero.w, hero.h, side * 0.06); ctx.fillStyle = '#000'; ctx.fill();
+        ctx.shadowColor = 'transparent'; roundRectPath(ctx, hero.x, hero.y, hero.w, hero.h, side * 0.06); ctx.clip();
+        const keepA = curArea, keepB = curBox; curArea = hero; curBox = hero;
+        const pd = Math.max(scene.pad ?? 0, 0.07), fd = clamp(side * 0.035, 7, 22) * (scene.fd ?? 1);
+        const ins = side * pd;
+        const B = fitBoard({ x: hero.x + ins + side * (scene.padX ?? 0), y: hero.y + ins + side * (scene.padY ?? 0), w: hero.w - 2 * (ins + side * (scene.padX ?? 0)), h: hero.h - 2 * (ins + side * (scene.padY ?? 0)) }, fd);
+        const cellU = polar ? B.thick : B.cell;
+        if (scene.env) scene.env(ctx, { ctx, area: hero, cell: cellU, rect: { x: B.x, y: B.y, w: B.w, h: B.h }, box: hero, t: tt, pal, P, bg: bgc, colors: P.palette.map((p) => p.color), cols, rows, polar, B });
+        const keepClock = clock; clock = tt;
+        renderBoard(ctx, B, { cells, lite: false, anim: false, grid: 0.3, fd, light: 1.05, reveal: 0.5, box: hero, area: hero });
+        const list = []; cells.forEach((c, i) => { if (c.m !== -1) list.push(i); });
+        if (scene.tool && list.length) {
+          const sp = 1.1, k = tt * sp, i0 = list[Math.floor(k) % list.length], i1 = list[(Math.floor(k) + 1) % list.length], f = k - Math.floor(k);
+          const q0 = cellCentre(B, i0 % cols, Math.floor(i0 / cols)), q1 = cellCentre(B, i1 % cols, Math.floor(i1 / cols)), e = f * f * (3 - 2 * f);
+          const [name, o] = Array.isArray(scene.tool) ? scene.tool : [scene.tool, {}];
+          const T = { x: q0.x + (q1.x - q0.x) * e, y: q0.y + (q1.y - q0.y) * e, a: f < 0.5 ? f * 0.2 : 0.6, t: tt, col: P.palette[cells[i0].c]?.color ?? '#fff', u: cellU, ...o };
+          toolOf(name)(ctx, curS, T, o);
+        }
+        clock = keepClock; curArea = keepA; curBox = keepB;
+        ctx.restore();
+        return;
+      }
       ctx.save();
       const cx = rect.x + rect.w / 2, cy = rect.y + rect.h / 2, S = Math.min(rect.w, rect.h);
       const glow = ctx.createRadialGradient(cx, cy, S * 0.05, cx, cy, S * 0.62);

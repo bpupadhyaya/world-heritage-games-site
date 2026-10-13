@@ -395,6 +395,227 @@
       "lane": 4
      }
     ]
+   },
+   {
+    "id": "landler-plattler",
+    "name": "Landler plattler round",
+    "bpm": 126,
+    "meter": 3,
+    "length": 48,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Austro-Bavarian Landler dance",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 1,
+      "lane": "Clap"
+     },
+     {
+      "beat": 2,
+      "lane": "Thigh"
+     },
+     {
+      "beat": 3,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 4,
+      "lane": "Clap"
+     },
+     {
+      "beat": 5,
+      "lane": "Knee"
+     },
+     {
+      "beat": 6,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 7,
+      "lane": "Thigh"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Knee"
+     },
+     {
+      "beat": 8,
+      "lane": "Heel"
+     },
+     {
+      "beat": 9,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 10,
+      "lane": "Clap"
+     },
+     {
+      "beat": 11,
+      "lane": "Clap"
+     },
+     {
+      "beat": 12,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 13,
+      "lane": "Clap"
+     },
+     {
+      "beat": 14,
+      "lane": "Thigh"
+     },
+     {
+      "beat": 15,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 16,
+      "lane": "Clap"
+     },
+     {
+      "beat": 17,
+      "lane": "Knee"
+     },
+     {
+      "beat": 18,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 19,
+      "lane": "Thigh"
+     },
+     {
+      "beat": 19.5,
+      "lane": "Knee"
+     },
+     {
+      "beat": 20,
+      "lane": "Heel"
+     },
+     {
+      "beat": 21,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 22,
+      "lane": "Clap"
+     },
+     {
+      "beat": 23,
+      "lane": "Clap"
+     },
+     {
+      "beat": 24,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 25,
+      "lane": "Clap"
+     },
+     {
+      "beat": 26,
+      "lane": "Thigh"
+     },
+     {
+      "beat": 27,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 28,
+      "lane": "Clap"
+     },
+     {
+      "beat": 29,
+      "lane": "Knee"
+     },
+     {
+      "beat": 30,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 31,
+      "lane": "Thigh"
+     },
+     {
+      "beat": 31.5,
+      "lane": "Knee"
+     },
+     {
+      "beat": 32,
+      "lane": "Heel"
+     },
+     {
+      "beat": 33,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 34,
+      "lane": "Clap"
+     },
+     {
+      "beat": 35,
+      "lane": "Clap"
+     },
+     {
+      "beat": 36,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 37,
+      "lane": "Clap"
+     },
+     {
+      "beat": 38,
+      "lane": "Thigh"
+     },
+     {
+      "beat": 39,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 40,
+      "lane": "Clap"
+     },
+     {
+      "beat": 41,
+      "lane": "Knee"
+     },
+     {
+      "beat": 42,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 43,
+      "lane": "Thigh"
+     },
+     {
+      "beat": 43.5,
+      "lane": "Knee"
+     },
+     {
+      "beat": 44,
+      "lane": "Heel"
+     },
+     {
+      "beat": 45,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 46,
+      "lane": "Clap"
+     },
+     {
+      "beat": 47,
+      "lane": "Clap"
+     }
+    ],
+    "note": "A Landler in 3/4 with the slapping figure of the plattler: stamp on the first beat of each bar, with clap, thigh, knee and heel slaps filling the others. The round ends with a stamp and two claps."
    }
   ]
  }

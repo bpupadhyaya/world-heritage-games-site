@@ -338,6 +338,98 @@
       "lane": 0
      }
     ]
+   },
+   {
+    "id": "pashtun-phrase",
+    "name": "Rising phrase over the drone",
+    "bpm": 80,
+    "meter": 4,
+    "length": 24,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Afghan folk music",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Note 1"
+     },
+     {
+      "beat": 1,
+      "lane": "Note 2"
+     },
+     {
+      "beat": 2,
+      "lane": "Note 3"
+     },
+     {
+      "beat": 3,
+      "lane": "Note 4"
+     },
+     {
+      "beat": 4,
+      "lane": "Note 5",
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": "Note 6"
+     },
+     {
+      "beat": 7,
+      "lane": "Note 5"
+     },
+     {
+      "beat": 8,
+      "lane": "Note 4"
+     },
+     {
+      "beat": 9,
+      "lane": "Note 3"
+     },
+     {
+      "beat": 10,
+      "lane": "Note 2"
+     },
+     {
+      "beat": 11,
+      "lane": "Note 1"
+     },
+     {
+      "beat": 12,
+      "lane": "Note 3"
+     },
+     {
+      "beat": 13,
+      "lane": "Note 2"
+     },
+     {
+      "beat": 14,
+      "lane": "Note 1",
+      "len": 2
+     },
+     {
+      "beat": 16,
+      "lane": "Note 5"
+     },
+     {
+      "beat": 17,
+      "lane": "Note 4"
+     },
+     {
+      "beat": 18,
+      "lane": "Note 3"
+     },
+     {
+      "beat": 19,
+      "lane": "Note 2"
+     },
+     {
+      "beat": 20,
+      "lane": "Note 1",
+      "len": 4
+     }
+    ],
+    "note": "A teaching figure for the rabab, the plucked lute of Afghan music: a drone note sounds under a melody that climbs the scale and falls back. The sympathetic ring of the strings fills the long notes."
    }
   ]
  }

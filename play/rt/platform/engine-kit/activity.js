@@ -21,6 +21,7 @@
 const PALETTE = { bg: '#17212b', panel: '#223140', accent: '#f2c14e', ink: '#f5f1e8', dim: '#9fb0c3', good: '#58c27d', bad: '#e0603a', line: '#4a3820', a: '#d64b3c', b: '#2d7bd6' };
 
 import { createUI } from './ui.js';
+import { createMenu } from './menu.js';
 
 export function createActivityEngine({ createActivity, spec = {}, theme = {}, text = {}, title = null, options = {} }) {
   const params = spec.params ?? {};
@@ -38,6 +39,11 @@ export function createActivityEngine({ createActivity, spec = {}, theme = {}, te
     const act = createActivity(params, { rng, text, palette: pal, theme, audio, config: env.config, ui });
     const state = { scene: autoplay ? 'play' : 'title', watch: autoplay, best: null, t: 0, sceneT: 0, scroll: 0, maxScroll: 0, outcome: null, outcomeT: 0, newBest: false, tip: '', st: null };
     let drag = null;
+    const menu = createMenu({
+      ui, env, T, text, quiet: autoplay || options.shot === true,
+      extraRules: () => act.rules?.() ?? [], extras: () => act.menuItems?.() ?? [],
+      best: () => state.best, resetBest: () => { state.best = null; storage.set('best', null); },
+    });
     storage.get('best', null).then((v) => { if (v && typeof v.score === 'number') state.best = v; });
 
     const start = (watch = false) => { act.init(); state.watch = watch; state.outcome = null; state.outcomeT = 0; state.newBest = false; state.tip = ''; ui.countReset('score', 0); go('play'); };
@@ -49,17 +55,21 @@ export function createActivityEngine({ createActivity, spec = {}, theme = {}, te
     const press = (id) => {
       ui.press(id);
       if (id === 'back' || id === 'menu') ui.sfx.back(); else if (id === 'up' || id === 'down') ui.sfx.whoosh(); else ui.sfx.tap();
-      if (id === 'play') start(false);
+      const m = menu.press(id);
+      if (m === 'open') go('rules');   // every menu page keeps the scene name 'rules' (card pages share one scene)
+      else if (m === 'stay') { /* a setting changed on the current page */ }
+      else if (id === 'play') start(false);
       else if (id === 'watch') start(true);
-      else if (id === 'howto') go('rules');
       else if (id === 'menu') go('title');
-      else if (id === 'back') go('title');
+      else if (id === 'back') { menu.close(); go('title'); }
       else if (id === 'again' || id === 'restart') start(state.watch);
       else if (id === 'hint') state.tip = act.hint?.() ?? 'Take your time: there is no clock on the first try.';
       else if (id === 'up') state.scroll = Math.max(0, state.scroll - 220);
       else if (id === 'down') state.scroll = Math.min(state.maxScroll || 1e9, state.scroll + 220);
     };
 
+    // QA hook (tools/whg fluid): jump to the result card without playing a whole round.
+    try { globalThis.__whgForce = (what) => { if (what === 'result' && state.scene === 'play' && !state.outcome) finish({ score: 2, max: 3, stars: 2, headline: 'Well done', detail: '' }); }; } catch { /* no globalThis */ }
     if (options.begin === true && !autoplay) start(false); // bucket apps: the page that links here already showed About + How to play
 
     const update = (dt, input) => {
@@ -141,23 +151,21 @@ export function createActivityEngine({ createActivity, spec = {}, theme = {}, te
     const renderTitle = (ctx, W, H) => {
       ui.titleScreen(ctx, W, H, {
         title: T.title, native: T.native, countries: T.countries, summary: T.summary, best: state.best, hero: heroArt,
-        rows: [[{ id: 'play', label: 'Play', icon: 'play', primary: true }], [{ id: 'watch', label: 'Watch and learn', icon: 'eye' }, { id: 'howto', label: 'How to play', icon: 'book' }]],
+        rows: [[{ id: 'play', label: 'Play', icon: 'play', primary: true }]],
+        grid: [{ id: 'watch', label: 'Watch and learn', icon: 'eye' }, ...(T.howToPlay.length ? [{ id: 'howto', label: 'How to play', icon: 'book' }] : []), ...menu.items()],
       });
     };
 
     const renderRules = (ctx, W, H) => {
-      const rules = [...T.rules, ...(act.rules?.() ?? [])];
-      const sections = [];
-      if (T.howToPlay.length) sections.push({ h: 'How to play', steps: T.howToPlay });
-      if (rules.length) sections.push({ h: 'Rules', bullets: rules });
-      if (T.heritage) sections.push({ h: 'About the tradition', para: T.heritage, italic: true });
-      const r = ui.rulesCard(ctx, W, H, { title: T.title, sections, scroll: state.scroll });
+      const r = menu.render(ctx, W, H, state.scroll);
       state.maxScroll = r.maxScroll; state.scroll = r.scroll;
     };
 
     return {
       update, render,
       point: (id) => act.point?.(id) ?? null,   // tests tap exactly where a player would
+      // Free-preview timer (kit preview.js): only real play counts. Title, menu pages, "Watch and learn" and the result card are free.
+      isPreviewExempt: () => state.scene !== 'play' || state.watch || autoplay || !!state.outcome,
       getState: () => ({ scene: state.scene, watch: state.watch, outcome: state.outcome, best: state.best, activity: act.getState?.() ?? null }),
     };
   }

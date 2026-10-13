@@ -368,6 +368,98 @@
       "lane": "E4"
      }
     ]
+   },
+   {
+    "id": "shur-phrase",
+    "name": "Shur phrase with the lowered second",
+    "bpm": 70,
+    "meter": 4,
+    "length": 24,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Azerbaijani mugham",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "A3"
+     },
+     {
+      "beat": 1,
+      "lane": "B3~"
+     },
+     {
+      "beat": 2,
+      "lane": "C4",
+      "len": 2
+     },
+     {
+      "beat": 4,
+      "lane": "D4"
+     },
+     {
+      "beat": 5,
+      "lane": "C4"
+     },
+     {
+      "beat": 6,
+      "lane": "B3~"
+     },
+     {
+      "beat": 7,
+      "lane": "A3"
+     },
+     {
+      "beat": 8,
+      "lane": "C4"
+     },
+     {
+      "beat": 9,
+      "lane": "D4"
+     },
+     {
+      "beat": 10,
+      "lane": "E4",
+      "len": 2
+     },
+     {
+      "beat": 12,
+      "lane": "F4"
+     },
+     {
+      "beat": 13,
+      "lane": "E4"
+     },
+     {
+      "beat": 14,
+      "lane": "D4"
+     },
+     {
+      "beat": 15,
+      "lane": "C4"
+     },
+     {
+      "beat": 16,
+      "lane": "B3~"
+     },
+     {
+      "beat": 17,
+      "lane": "C4"
+     },
+     {
+      "beat": 18,
+      "lane": "B3~"
+     },
+     {
+      "beat": 19,
+      "lane": "A3"
+     },
+     {
+      "beat": 20,
+      "lane": "A3",
+      "len": 4
+     }
+    ],
+    "note": "A teaching figure in the Shur mode, a mode of Azerbaijani music with a slightly lowered second step. On the kamancha the bow lingers on the long notes and the line settles on the home tone."
    }
   ]
  }

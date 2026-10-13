@@ -1,7 +1,8 @@
 // knot: tie a decorative cord knot. The cord is routed through a grid of points; wherever it crosses itself it goes over
 // then under alternately (drawn with real gaps). The target is a generated single closed cord on a lattice of crossings.
-import { starsFor } from './geom.js';
+import { starsFor, hash } from './geom.js';
 import { tint, rrect, rgba, mix, shadowed, litEdge, lum } from './fx.js';
+import { wallLift } from './scenes.js';
 const shade = tint;
 
 export const KNOT_DEFAULTS = { size: 4, layout: 'square', symmetry: 'rot4', cordColor: '#c8321f', background: '#1c1410', tassel: false, density: 1, guide: true, variation: 1 };
@@ -190,6 +191,7 @@ export function analyseCord(route, closed) {
 
 export function createKnot(P, env) {
   const { rng, audio, fx } = env;
+  const SC = P.scene ?? {}, PM = SC.pitch ?? 1, WV = SC.wave ?? 'triangle';
   let clock = 0, flash = -9, flashAt = null;
   let T, route, closed, undo, done, geo = null, drag = false, snapped = false, ai = 0, acc = 0;
   const init = () => { T = generateKnot(P, rng); route = []; closed = false; undo = []; done = null; drag = false; snapped = false; ai = 0; acc = 0; };
@@ -220,16 +222,16 @@ export function createKnot(P, env) {
   const snap = () => { if (!snapped) { undo.push({ route: route.slice(), closed }); snapped = true; } };
   const extend = (n) => {
     if (closed || done) return false;
-    if (!route.length) { snap(); route.push(n); audio?.tone({ freq: 330, dur: 0.05, type: 'triangle', vol: 0.15 }); return true; }
+    if (!route.length) { snap(); route.push(n); audio?.tone({ freq: 330 * PM, dur: 0.05, type: WV, vol: 0.15 }); return true; }
     const cur = route[route.length - 1];
     if (n === cur || !adj(cur, n)) return false;
     if (n === route[0]) {
       if (route.length < 4 || used(cur, n)) return false;
-      snap(); closed = true; audio?.tone({ freq: 523, dur: 0.18, type: 'triangle', vol: 0.2 }); flash = clock; sparks(); return true;
+      snap(); closed = true; audio?.tone({ freq: 523 * PM, dur: 0.18, type: WV, vol: 0.2 }); flash = clock; sparks(); return true;
     }
     if (used(cur, n)) return false;
     snap(); route.push(n);
-    audio?.tone({ freq: 240 + (route.length % 7) * 26, dur: 0.04, type: 'triangle', vol: 0.12 });
+    audio?.tone({ freq: (240 + (route.length % 7) * 26) * PM, dur: 0.04, type: WV, vol: 0.12 });
     if (geo && fx) fx.emit('dust', geo.x + (n % T.W) * geo.cs, geo.y + ((n / T.W) | 0) * geo.cs, { count: 1, color: tint(P.cordColor, 0.4), size: geo.cs * 0.12, speed: 18, life: 0.35, gravity: -10 });
     return true;
   };
@@ -330,7 +332,33 @@ export function createKnot(P, env) {
     g.addColorStop(0, '#ffffff'); g.addColorStop(0.5, '#aeb7c0'); g.addColorStop(1, '#545c64');
     ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, Math.max(2.2, cs * 0.075), 0, Math.PI * 2); ctx.fill();
   };
+  // The board the cord is worked on, per workshop: pinning cork, vellum, washi on tatami, a tarred timber.
+  const boardBg = (ctx, kind, x, y, w, h, cs) => {
+    const base = { cork: '#c79a62', parchment: '#e6d3a0', washi: '#f4eddc', spar: '#6a5a44' }[kind];
+    shadowed(ctx, () => { rrect(ctx, x, y, w, h, 14); ctx.fillStyle = tint(base, -0.5); ctx.fill(); }, { blur: 22, dy: 11, a: 0.55 });
+    const gr = ctx.createLinearGradient(x, y, x + w, y + h); gr.addColorStop(0, tint(base, 0.15)); gr.addColorStop(1, tint(base, -0.22));
+    rrect(ctx, x, y, w, h, 14); ctx.fillStyle = gr; ctx.fill();
+    ctx.save(); rrect(ctx, x, y, w, h, 14); ctx.clip();
+    if (kind === 'cork') {
+      for (let k = 0; k < 260; k++) { ctx.fillStyle = k % 3 ? 'rgba(90,50,15,0.28)' : 'rgba(255,225,170,0.3)'; const q = 1.5 + hash(k, 2) * 4; ctx.beginPath(); ctx.ellipse(x + hash(k, 1) * w, y + hash(k, 3) * h, q, q * 0.7, hash(k, 4) * 3, 0, 6.2832); ctx.fill(); }
+    } else if (kind === 'parchment') {
+      for (let k = 0; k < 120; k++) { ctx.fillStyle = 'rgba(100,70,20,0.12)'; ctx.fillRect(x + hash(k, 1) * w, y + hash(k, 3) * h, 2 + hash(k, 2) * 4, 1.5); }
+      ctx.strokeStyle = 'rgba(120,70,20,0.35)'; ctx.lineWidth = 3; ctx.strokeRect(x + 6, y + 6, w - 12, h - 12); ctx.strokeStyle = 'rgba(40,90,50,0.4)'; ctx.lineWidth = 1.5; ctx.strokeRect(x + 12, y + 12, w - 24, h - 24);
+    } else if (kind === 'washi') {
+      ctx.strokeStyle = 'rgba(150,120,80,0.2)'; ctx.lineWidth = 1; for (let k = 0; k < 80; k++) { const px = x + hash(k, 1) * w, py = y + hash(k, 3) * h; ctx.beginPath(); ctx.moveTo(px, py); ctx.lineTo(px + 6 + hash(k, 2) * 14, py + (hash(k, 5) - 0.5) * 6); ctx.stroke(); }
+    } else {
+      ctx.strokeStyle = 'rgba(0,0,0,0.3)'; ctx.lineWidth = 1; for (let k = 0; k < 18; k++) { const gy = y + ((k + 0.5) / 18) * h; ctx.beginPath(); ctx.moveTo(x, gy); ctx.bezierCurveTo(x + w * 0.3, gy + 3, x + w * 0.6, gy - 3, x + w, gy); ctx.stroke(); }
+      for (const [bx, by] of [[x + 14, y + 14], [x + w - 14, y + 14], [x + 14, y + h - 14], [x + w - 14, y + h - 14]]) { ctx.fillStyle = rg0(ctx, bx, by); ctx.beginPath(); ctx.arc(bx, by, 6, 0, 6.2832); ctx.fill(); }
+    }
+    const vg = ctx.createRadialGradient(x + w / 2, y + h / 2, Math.min(w, h) * 0.3, x + w / 2, y + h / 2, Math.max(w, h) * 0.7); vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,0.3)');
+    ctx.fillStyle = vg; ctx.fillRect(x, y, w, h);
+    ctx.restore();
+    ctx.strokeStyle = kind === 'cork' ? '#5a3a1c' : 'rgba(0,0,0,0.4)'; ctx.lineWidth = kind === 'cork' ? 8 : 2; rrect(ctx, x, y, w, h, 14); ctx.stroke();
+    void cs;
+  };
+  const rg0 = (ctx, x, y) => { const g = ctx.createRadialGradient(x - 2, y - 2, 0.5, x, y, 7); g.addColorStop(0, '#e8e8e8'); g.addColorStop(1, '#3c3c3c'); return g; };
   const cushion = (ctx, x, y, w, h, bg, cs) => {
+    if (SC.board && SC.board !== 'jig') return boardBg(ctx, SC.board, x, y, w, h, cs);
     shadowed(ctx, () => { rrect(ctx, x, y, w, h, 18); ctx.fillStyle = bg; ctx.fill(); }, { blur: 22, dy: 11, a: 0.55 });
     const gr = ctx.createLinearGradient(x, y, x + w, y + h); gr.addColorStop(0, tint(bg, 0.16)); gr.addColorStop(0.5, bg); gr.addColorStop(1, tint(bg, -0.3));
     rrect(ctx, x, y, w, h, 18); ctx.fillStyle = gr; ctx.fill();
@@ -347,7 +375,7 @@ export function createKnot(P, env) {
   const draw = (g, Rt, t) => {
     const { ctx, pal } = g;
     clock = t;
-    const W0 = Rt.work, Wk = { x: W0.x, y: W0.y + 40, w: W0.w, h: W0.h - 40 };
+    const W0 = Rt.work, lift = SC.wall ? wallLift(W0) : 0, Wk = { x: W0.x, y: W0.y + 40 + lift, w: W0.w, h: W0.h - 40 - lift };
     const extraRows = P.tassel ? 1.4 : 0;
     const cs = Math.max(8, Math.floor(Math.min((Wk.w - 20) / (T.W - 1 + 1.6), (Wk.h - 20) / (T.H - 1 + 1.6 + extraRows))));
     const gx = Math.round(Wk.x + (Wk.w - cs * (T.W - 1)) / 2), gy = Math.round(Wk.y + (Wk.h - cs * (T.H - 1 + extraRows)) / 2);
@@ -382,7 +410,7 @@ export function createKnot(P, env) {
     const tx = th.x + (th.w - tcs * (T.W - 1)) / 2, ty = th.y + (th.h - tcs * (T.H - 1 + extraRows)) / 2;
     paintCord(ctx, T.route, true, tx, ty, tcs, analyseCord(T.route, true));
     if (P.tassel) tassel(ctx, tx + ((T.W - 1) * tcs) / 2, ty + (T.H - 1) * tcs + tcs * 0.15, tcs);
-    g.label(ctx, closed ? 'Loop closed: press Check' : route.length ? 'Tap or drag along the points; tap the start to close' : 'Tap a plain point to begin the cord', W0.x + W0.w / 2, W0.y + 26, g.px(22), pal.dim, 'center', '500');
+    g.label(ctx, closed ? 'Loop closed: press Check' : route.length ? 'Tap or drag along the points; tap the start to close' : 'Tap a plain point to begin the cord', W0.x + W0.w / 2, W0.y + 26, g.px(22), pal.ink, 'center', '600');
   };
   const titleArt = (g, S, t) => {
     const { ctx } = g;
@@ -406,7 +434,7 @@ export function createKnot(P, env) {
   };
 
   return {
-    init, items, control, work, draw, attract, titleArt, surface: 'felt', surfaceTint: '#4a3a5a', result: () => done,
+    init, items, control, work, draw, attract, titleArt, result: () => done,
     score,
     info: () => [`Crossings to make: ${T.required.length}`, closed ? 'Cord: closed' : route.length ? `Cord: ${route.length} points` : 'Cord: not begun'],
     caption: 'Tie this knot',

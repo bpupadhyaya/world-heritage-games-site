@@ -1,30 +1,30 @@
 {
- "title": "Calabash Water Drum",
- "native": "Water drum (tinde / water calabashes)",
- "alt": [
-  "Water drum"
- ],
- "summary": "Water drums of the Sahel are made from half-gourds floated upside down in a basin or pot of water. Players strike the curved back with mallets or the hand, and the water around and under the gourd lends a deep, rounded boom; pressing or lifting the gourd bends the tone.",
- "howToPlay": [
-  "Four pads stand for the strokes: a deep one, a middle one, a lifted one and a sharp rim stroke.",
-  "Listen as the drum plays a four-beat phrase and the pads light up in order.",
-  "Then answer it: strike the same pads in the same rhythm.",
-  "Play the three songs in turn; each holds four short phrases."
- ],
- "rules": [
-  "The drum plays a phrase of four beats, then you answer it, in turn through the song.",
-  "A stroke within a hair of the beat is perfect, a near one is good, and a missed one scores nothing.",
-  "An extra stroke while you answer costs a few points.",
-  "The deep, middle and lifted strokes stand for the gourd sunk, held and raised in the water; the rim stroke is on the edge.",
-  "Three stars need roughly nine notes in ten on time."
- ],
- "heritageNote": "Water drums are played by women in several Sahel communities of Niger and Nigeria, often in groups with one gourd each in a shared basin. The gourds are cut by hand and the amount of water is adjusted to taste to tune the drum.",
- "countries": [
-  "Niger",
-  "Nigeria"
- ],
- "credits": [
-  "Tradition: Sahel water drum music; phrases written for this game",
-  "Photo of water drums from Wikimedia Commons (free use)"
- ]
+  "title": "Calabash Water Drum",
+  "native": "Water drum (tinde / water calabashes)",
+  "alt": [
+    "Water drum"
+  ],
+  "summary": "Water drums of the Sahel are made from half-gourds floated upside down in a basin or pot of water. Players strike the curved back with mallets or the hand, and the water around and under the gourd lends a deep, rounded boom; pressing or lifting the gourd bends the tone.",
+  "howToPlay": [
+    "Four pads stand for the strokes: a deep one, a middle one, a lifted one and a sharp rim stroke.",
+    "Listen as the drum plays a four-beat phrase and the pads light up in order.",
+    "Then answer it: strike the same pads in the same rhythm.",
+    "Play the three songs in turn; each holds four short phrases."
+  ],
+  "rules": [
+    "The drum plays a phrase of four beats, then you answer it, in turn through the song.",
+    "A stroke within a hair of the beat is perfect, a near one is good, and a missed one scores nothing.",
+    "An extra stroke while you answer costs a few points.",
+    "The deep, middle and lifted strokes stand for the gourd sunk, held and raised in the water; the rim stroke is on the edge.",
+    "Three stars need roughly nine notes in ten on time."
+  ],
+  "heritageNote": "Water drums are played by women in several Sahel communities of Niger and Nigeria, often in groups with one gourd each in a shared basin. The gourds are cut by hand and the amount of water is adjusted to taste to tune the drum.",
+  "countries": [
+    "Niger",
+    "Nigeria"
+  ],
+  "credits": [
+    "Tradition: Sahel water drum music; phrases written for this game",
+    "Photo of water drums from Wikimedia Commons (free use)"
+  ]
 }

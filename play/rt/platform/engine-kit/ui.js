@@ -5,6 +5,7 @@
 //
 // Engines receive this object as `g.ui` in createActivity(...).render(g, area). See docs/ENGINE-CONTRACT.md ("Shared chrome").
 import { hostBackVisible } from '../kit/host.js';
+import { voice, fx, install as installSynth } from './synth.js';
 
 // ---- colour helpers ---------------------------------------------------------------------------------------------
 const clamp = (v, a = 0, b = 1) => (v < a ? a : v > b ? b : v);
@@ -54,19 +55,25 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
   const counts = new Map();
   let frameInsets = { top: 0, bottom: 0, left: 0, right: 0, back: 0 };
 
-  // ---- sounds: audio.tone only, quiet and tuned --------------------------------------------------------------------
+  // ---- sounds: natural voices from synth.js (soft wood, bell, marimba), audio.tone as the fallback --------------------------------
+  try { installSynth(audio); } catch { /* audio is optional */ }
   const tone = (o) => { try { audio?.tone?.(o); } catch { /* audio is optional */ } };
+  const playFx = (kind, p, fallback) => { let ok = false; try { ok = !!audio?.context && fx(audio, kind, p); } catch { /* optional */ } if (!ok && !audio?.context) fallback?.(); };
+  const playVoice = (kind, p, fallback) => { let ok = false; try { ok = !!audio?.context && voice(audio, kind, p); } catch { /* optional */ } if (!ok && !audio?.context) fallback?.(); };
   ui.sfx = {
-    tap: () => tone({ freq: 640, to: 560, dur: 0.05, type: 'triangle', vol: 0.12 }),
-    select: () => tone({ freq: 520, to: 700, dur: 0.08, type: 'triangle', vol: 0.12 }),
-    back: () => tone({ freq: 420, to: 300, dur: 0.08, type: 'triangle', vol: 0.1 }),
-    hit: () => tone({ freq: 740, to: 880, dur: 0.07, type: 'sine', vol: 0.14 }),
-    miss: () => tone({ freq: 240, to: 170, dur: 0.12, type: 'triangle', vol: 0.1 }),
-    good: () => { tone({ freq: 660, dur: 0.07, type: 'triangle', vol: 0.12 }); tone({ freq: 990, dur: 0.1, type: 'sine', vol: 0.08 }); },
-    star: (i = 0) => { const f = [523, 659, 784][i % 3]; tone({ freq: f, dur: 0.3, type: 'triangle', vol: 0.16 }); tone({ freq: f * 2, dur: 0.22, type: 'sine', vol: 0.07 }); },
-    win: () => { tone({ freq: 392, to: 784, dur: 0.35, type: 'triangle', vol: 0.16 }); tone({ freq: 784, to: 1175, dur: 0.4, type: 'sine', vol: 0.07 }); },
-    lose: () => tone({ freq: 330, to: 196, dur: 0.4, type: 'triangle', vol: 0.12 }),
-    whoosh: () => tone({ freq: 300, to: 620, dur: 0.12, type: 'sine', vol: 0.05 }),
+    tap: () => playFx('pop', { hz: 640, vel: 0.5 }, () => tone({ freq: 640, to: 560, dur: 0.05, type: 'triangle', vol: 0.12 })),
+    select: () => playFx('pop', { hz: 800, vel: 0.55 }, () => tone({ freq: 520, to: 700, dur: 0.08, type: 'triangle', vol: 0.12 })),
+    back: () => playFx('pop', { hz: 430, vel: 0.5 }, () => tone({ freq: 420, to: 300, dur: 0.08, type: 'triangle', vol: 0.1 })),
+    hit: () => playVoice('bar', { hz: 740, dur: 0.3, vel: 0.6 }, () => tone({ freq: 740, to: 880, dur: 0.07, type: 'sine', vol: 0.14 })),
+    miss: () => playFx('bad', { hz: 240, vel: 0.5 }, () => tone({ freq: 240, to: 170, dur: 0.12, type: 'triangle', vol: 0.1 })),
+    good: () => playFx('good', { hz: 660, vel: 0.6 }, () => { tone({ freq: 660, dur: 0.07, type: 'triangle', vol: 0.12 }); tone({ freq: 990, dur: 0.1, type: 'sine', vol: 0.08 }); }),
+    star: (i = 0) => { const f = [523, 659, 784][i % 3]; playVoice('bell', { hz: f, dur: 0.9, vel: 0.55 }, () => { tone({ freq: f, dur: 0.3, type: 'triangle', vol: 0.16 }); tone({ freq: f * 2, dur: 0.22, type: 'sine', vol: 0.07 }); }); },
+    win: () => {
+      if (audio?.context) { [[392, 0], [523, 0.1], [659, 0.2], [784, 0.3]].forEach(([hz, delay]) => playVoice('bell', { hz, delay, dur: 1.1, vel: 0.5 })); return; }
+      tone({ freq: 392, to: 784, dur: 0.35, type: 'triangle', vol: 0.16 }); tone({ freq: 784, to: 1175, dur: 0.4, type: 'sine', vol: 0.07 });
+    },
+    lose: () => playFx('bad', { hz: 200, vel: 0.7 }, () => tone({ freq: 330, to: 196, dur: 0.4, type: 'triangle', vol: 0.12 })),
+    whoosh: () => playFx('whoosh', { vel: 0.4, dur: 0.18 }, () => tone({ freq: 300, to: 620, dur: 0.12, type: 'sine', vol: 0.05 })),
   };
 
   // ---- frame lifecycle ---------------------------------------------------------------------------------------------
@@ -80,6 +87,8 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     };
   };
   ui.insets = () => frameInsets;
+  // QA hook (tools/whg fluid): hit rects in virtual units + live meta, read by the layout audit. Harmless in production.
+  try { globalThis.__whgDebug = { meta, hits: () => hits.map((h) => ({ id: h.id, x: h.x, y: h.y, w: h.w, h: h.h })) }; } catch { /* no globalThis */ }
   ui.begin = () => { hits = []; readInsets(); };
   ui.clearHits = () => { hits = []; };
   ui.now = () => t;
@@ -317,6 +326,21 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     else if (kind === 'people') { ctx.arc(-h * 0.45, -h * 0.35, h * 0.3, 0, 6.3); ctx.moveTo(h * 0.95, -h * 0.35); ctx.arc(h * 0.45, -h * 0.35, h * 0.3, 0, 6.3); ctx.moveTo(-h * 0.95, h * 0.7); ctx.quadraticCurveTo(-h * 0.45, -h * 0.1, 0, h * 0.7); ctx.moveTo(0, h * 0.7); ctx.quadraticCurveTo(h * 0.45, -h * 0.1, h * 0.95, h * 0.7); ctx.stroke(); }
     else if (kind === 'bot') { rr(ctx, -h * 0.8, -h * 0.55, h * 1.6, h * 1.2, h * 0.3); ctx.stroke(); ctx.beginPath(); ctx.arc(-h * 0.35, 0, h * 0.14, 0, 6.3); ctx.arc(h * 0.35, 0, h * 0.14, 0, 6.3); ctx.fill(); ctx.beginPath(); ctx.moveTo(0, -h * 0.55); ctx.lineTo(0, -h * 0.9); ctx.stroke(); }
     else if (kind === 'flag') { ctx.moveTo(-h * 0.6, h * 0.9); ctx.lineTo(-h * 0.6, -h * 0.9); ctx.lineTo(h * 0.8, -h * 0.5); ctx.lineTo(-h * 0.6, -h * 0.1); ctx.stroke(); }
+    else if (kind === 'list') { for (const yy of [-0.6, 0, 0.6]) { ctx.moveTo(-h * 0.35, h * yy); ctx.lineTo(h * 0.9, h * yy); } ctx.stroke(); ctx.beginPath(); for (const yy of [-0.6, 0, 0.6]) { ctx.moveTo(-h * 0.9 + h * 0.18, h * yy); ctx.arc(-h * 0.9, h * yy, h * 0.1, 0, 6.3); } ctx.fill(); }
+    else if (kind === 'info') { ctx.arc(0, 0, h * 0.9, 0, 6.3); ctx.stroke(); ctx.beginPath(); ctx.moveTo(0, -h * 0.05); ctx.lineTo(0, h * 0.5); ctx.stroke(); ctx.beginPath(); ctx.arc(0, -h * 0.42, h * 0.12, 0, 6.3); ctx.fill(); }
+    else if (kind === 'star') { for (let i = 0; i < 10; i++) { const r = i % 2 ? h * 0.4 : h * 0.95, a = -Math.PI / 2 + (i * Math.PI) / 5; ctx[i ? 'lineTo' : 'moveTo'](Math.cos(a) * r, Math.sin(a) * r); } ctx.closePath(); ctx.stroke(); }
+    else if (kind === 'gear') { ctx.arc(0, 0, h * 0.4, 0, 6.3); ctx.stroke(); ctx.beginPath(); for (let i = 0; i < 8; i++) { const a = (i * Math.PI) / 4; ctx.moveTo(Math.cos(a) * h * 0.62, Math.sin(a) * h * 0.62); ctx.lineTo(Math.cos(a) * h * 0.95, Math.sin(a) * h * 0.95); } ctx.stroke(); }
+    else if (kind === 'sound' || kind === 'mute') {
+      ctx.moveTo(-h * 0.9, -h * 0.3); ctx.lineTo(-h * 0.45, -h * 0.3); ctx.lineTo(0, -h * 0.75); ctx.lineTo(0, h * 0.75); ctx.lineTo(-h * 0.45, h * 0.3); ctx.lineTo(-h * 0.9, h * 0.3); ctx.closePath(); ctx.fill();
+      ctx.beginPath();
+      if (kind === 'sound') { ctx.arc(0, 0, h * 0.5, -0.9, 0.9); ctx.moveTo(Math.cos(0.9) * h * 0.85, -Math.sin(0.9) * h * 0.85); ctx.arc(0, 0, h * 0.85, -0.9, 0.9); }
+      else { ctx.moveTo(h * 0.3, -h * 0.4); ctx.lineTo(h * 0.95, h * 0.4); ctx.moveTo(h * 0.95, -h * 0.4); ctx.lineTo(h * 0.3, h * 0.4); }
+      ctx.stroke();
+    }
+    else if (kind === 'text') { ctx.moveTo(-h * 0.9, h * 0.8); ctx.lineTo(-h * 0.3, -h * 0.8); ctx.lineTo(h * 0.3, h * 0.8); ctx.moveTo(-h * 0.62, h * 0.2); ctx.lineTo(h * 0.02, h * 0.2); ctx.moveTo(h * 0.55, -h * 0.1); ctx.lineTo(h * 0.95, -h * 0.1); ctx.moveTo(h * 0.75, -h * 0.3); ctx.lineTo(h * 0.75, h * 0.1); ctx.stroke(); }
+    else if (kind === 'trash') { ctx.moveTo(-h * 0.8, -h * 0.5); ctx.lineTo(h * 0.8, -h * 0.5); ctx.moveTo(-h * 0.3, -h * 0.5); ctx.lineTo(-h * 0.3, -h * 0.8); ctx.lineTo(h * 0.3, -h * 0.8); ctx.lineTo(h * 0.3, -h * 0.5); ctx.moveTo(-h * 0.6, -h * 0.5); ctx.lineTo(-h * 0.5, h * 0.85); ctx.lineTo(h * 0.5, h * 0.85); ctx.lineTo(h * 0.6, -h * 0.5); ctx.stroke(); }
+    else if (kind === 'note') { ctx.arc(-h * 0.4, h * 0.55, h * 0.3, 0, 6.3); ctx.fill(); ctx.beginPath(); ctx.moveTo(-h * 0.1, h * 0.55); ctx.lineTo(-h * 0.1, -h * 0.8); ctx.lineTo(h * 0.7, -h * 0.55); ctx.stroke(); }
+    else if (kind === 'tool') { ctx.moveTo(-h * 0.8, h * 0.8); ctx.lineTo(h * 0.3, -h * 0.3); ctx.stroke(); ctx.beginPath(); ctx.arc(h * 0.45, -h * 0.45, h * 0.4, 0, 6.3); ctx.stroke(); }
     ctx.restore();
   };
 
@@ -539,26 +563,34 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
   };
 
   // Title screen. rows = [[{id,label,icon,primary}], [...]] laid out as rows of equal-width buttons.
-  ui.titleScreen = (ctx, W, H, { title = '', native = '', countries = [], summary = '', best = null, rows = [], hero = null, tagline = '' } = {}) => {
+  ui.titleScreen = (ctx, W, H, { title = '', native = '', countries = [], summary = '', best = null, rows: rows0 = [], grid = null, hero = null, tagline = '' } = {}) => {
     const ins = frameInsets;
     const land = W > H * 1.1;
+    // grid: [{id,label,icon,off}] after the given rows, 2 columns portrait / 3 landscape; an odd last item spans the row
+    const rows = rows0.slice();
+    if (grid?.length) { const cols = land ? 3 : 2; for (let i = 0; i < grid.length; i += cols) rows.push(grid.slice(i, i + cols)); }
     let bh = ui.buttonH(land ? 54 : 62);
     const gap = 12;
     const colX = land ? W * 0.5 + 10 : 24, colW = land ? W * 0.5 - 40 - ins.right : W - 48;
     const centerX = colX + colW / 2;
     const tsz = px(land ? 50 : 62);
-    const tl = ui.wrap(ctx, title, colW, ui.fit(ctx, title, colW * (title.length > 18 ? 1.0 : 1), tsz, '800', true), { weight: '800', display: true });
-    const titleH = Math.min(2, tl.length) * tsz * 1.08;
+    // measure the title exactly as ui.title draws it (same wrap, same shrink loop) so the lines below never collide with it
+    let tz = tsz, tl = ui.wrap(ctx, title, colW, tz, { weight: '800', display: true });
+    while (tl.length > 2 && tz > tsz * 0.6) { tz *= 0.92; tl = ui.wrap(ctx, title, colW, tz, { weight: '800', display: true }); }
+    const titleH = Math.min(2, tl.length) * tz * 1.08 + px(6);
     const nativeH = native ? px(42) : 0, ctyH = countries.length ? px(46) : 0;
-    let sumLines = summary ? ui.wrap(ctx, summary, colW, px(27)).slice(0, land ? 6 : 4) : [];
+    const sumAll = summary ? ui.wrap(ctx, summary, colW, px(27)) : [];
+    let sumLines = sumAll.slice(0, land ? 6 : 4);
     const bestH = best ? px(52) : 0;
     const bottomPad = ins.bottom + 22;
-    const measure = () => titleH + nativeH + ctyH + (sumLines.length ? px(26) : 0) + sumLines.length * px(37) + bestH;
+    const measure = () => titleH + nativeH + ctyH + (sumLines.length ? px(6) + px(20) : 0) + sumLines.length * px(37) + bestH;
     const blockOf = () => rows.length * bh + (rows.length - 1) * gap;
-    if (land) {   // short screens: shrink buttons to 44 css px, then drop the summary, so nothing runs off the bottom
-      const avail = H - ins.top - bottomPad - 12;
+    {   // keep every button on screen: shrink buttons to 44 css px, then drop summary lines (portrait keeps room for a small hero)
+      const reserve = land ? 0 : Math.min(W * 0.2, 130) * 2.15;
+      const avail = H - ins.top - bottomPad - 12 - (land ? 0 : 52) - reserve;
       while (measure() + 20 + blockOf() > avail && bh > css(44)) bh = Math.max(css(44), bh - 4);
       while (measure() + 20 + blockOf() > avail && sumLines.length) sumLines = sumLines.slice(0, sumLines.length - 1);
+      if (sumLines.length === 1 && sumAll.length > 1) sumLines = [];   // one orphan line reads as a cut sentence: show none
     }
     const blockH = blockOf(), sumH = sumLines.length * px(37), textH = measure();
     let heroR = 0, heroCx = W / 2, heroCy = 0, y;
@@ -568,7 +600,7 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
       const total = textH + 26 + blockH;
       y = Math.max(ins.top + 14, (H - total) / 2);
     } else {
-      const availH = H - ins.top - 24 - textH - 30 - blockH - bottomPad;
+      const availH = H - ins.top - 24 - textH - 48 - blockH - bottomPad;
       heroR = Math.max(0, Math.min(W * 0.4, availH / 2.15));
       const heroBlock = heroR > 70 ? heroR * 2.15 : 0;
       heroCy = ins.top + 28 + heroR; if (!heroBlock) heroR = 0;
@@ -587,7 +619,8 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
       const ow = Math.min(colW * 0.5, 180);
       ctx.strokeStyle = rgba(pal.accent, 0.5); ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(centerX - ow / 2, y + 4); ctx.lineTo(centerX - 12, y + 4); ctx.moveTo(centerX + 12, y + 4); ctx.lineTo(centerX + ow / 2, y + 4); ctx.stroke();
       ui.sparkle(ctx, centerX, y + 4, 8, { color: pal.accent }); y += px(20);
-      sumLines.forEach((l, i) => { ui.text(ctx, l, centerX, y + px(18) + i * px(37), px(27), { color: pal.ink, weight: '400' }); });
+      const cut = sumLines.length < sumAll.length;
+      sumLines.forEach((l, i) => { if (cut && i === sumLines.length - 1) l = l.replace(/[\s,;:.\-]+$/, '') + '\u2026'; ui.text(ctx, l, centerX, y + px(18) + i * px(37), px(27), { color: pal.ink, weight: '400' }); });
       y += sumH;
     }
     if (best) {
@@ -637,6 +670,8 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
       (sec.steps ?? []).forEach((s, i) => { const ls = ui.wrap(ctx, s, tw - px(52), size); items.push({ k: 'step', n: i + 1, ls, y: hgt }); hgt += Math.max(ls.length * lh, px(40)) + px(10); });
       (sec.bullets ?? []).forEach((s) => { const ls = ui.wrap(ctx, s, tw - px(30), size); items.push({ k: 'bul', ls, y: hgt }); hgt += ls.length * lh + px(8); });
       if (sec.para) { const ls = ui.wrap(ctx, sec.para, tw, size, { italic: sec.italic === true }); items.push({ k: 'para', ls, y: hgt, italic: sec.italic === true }); hgt += ls.length * lh + px(8); }
+      (sec.facts ?? []).forEach(([lab, val]) => { const ls = ui.wrap(ctx, String(val), tw, size); items.push({ k: 'fact', lab, ls, y: hgt }); hgt += px(30) + ls.length * lh + px(10); });
+      if (sec.buttons?.length) { items.push({ k: 'btns', list: sec.buttons, y: hgt }); hgt += bh + px(14); }
       hgt += px(16);
     }
     const maxScroll = Math.max(0, hgt - viewH);
@@ -662,7 +697,15 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
         ctx.beginPath(); ctx.arc(tx + 7, y + lh / 2, 4, 0, 6.3); ctx.fillStyle = shade(pal.accent, -0.2); ctx.fill();
         setFont(ctx, size, '400'); ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillStyle = ink;
         it.ls.forEach((l, i) => ctx.fillText(l, tx + px(30), y + lh / 2 + i * lh));
-      } else {
+      } else if (it.k === 'fact') {
+        setFont(ctx, size * 0.68, '800'); ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillStyle = shade(pal.accent, -0.35); ctx.letterSpacing = '2px';
+        ctx.fillText(String(it.lab).toUpperCase(), tx, y + px(12)); ctx.letterSpacing = '0px';
+        setFont(ctx, size, '400'); ctx.fillStyle = ink;
+        it.ls.forEach((l, i) => ctx.fillText(l, tx, y + px(30) + lh / 2 + i * lh));
+      } else if (it.k === 'btns') {
+        const n = it.list.length, g2 = 12, bw2 = (tw - g2 * (n - 1)) / n, vis = y >= innerTop - 2 && y + bh <= innerBot + 2;
+        it.list.forEach((b, i) => ui.button(ctx, b.id, b.label, tx + i * (bw2 + g2), y, bw2, bh, { primary: b.primary, icon: b.icon, off: b.off || !vis, size: Math.min(px(24), bh * 0.42) }));
+      } else if (it.k === 'para') {
         setFont(ctx, size, '400', false, it.italic); ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillStyle = it.italic ? mute : ink;
         it.ls.forEach((l, i) => ctx.fillText(l, tx, y + lh / 2 + i * lh));
       }
@@ -683,6 +726,14 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     ui.button(ctx, 'up', '', cardX + cardW - sm * 2 - gap, footTop, sm, bh, { icon: 'up', off: scroll <= 0 });
     return { maxScroll, scroll };
   };
+
+  // ui.cardPage(ctx, W, H, { title, blocks, scroll, backId }) -> { maxScroll, scroll }
+  // One printed-card page for any menu content. blocks (or plain strings = paragraphs), in this order inside one block:
+  //   { h: 'Heading', steps: [..], bullets: [..], para: '..', italic: true, facts: [['Label', 'Value'], ..],
+  //     buttons: [{ id, label, icon, primary, off }] }   // buttons: one row of equal-width controls; the shell routes `id`
+  // Registers Back / up / down hits (backId, default 'back').
+  ui.cardPage = (ctx, W, H, { title = '', blocks = [], scroll = 0, backId = 'back' } = {}) =>
+    ui.rulesCard(ctx, W, H, { title, scroll, backId, sections: blocks.map((b) => (typeof b === 'string' ? { para: b } : b)) });
 
   // ---- result card -------------------------------------------------------------------------------------------------------------
   // Result sequence time `rt` (seconds since the round ended). ui.resultTick fires sounds and bursts exactly once per beat.

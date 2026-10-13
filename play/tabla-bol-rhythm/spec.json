@@ -1,199 +1,739 @@
 {
- "engine": "rhythm",
- "params": {
-  "layout": "pads",
-  "mode": "learn",
-  "tolerance": 1.25,
-  "phrase": 5,
-  "notes": {
-   "Dha": {
-    "hz": 138,
-    "timbre": "bass"
-   },
-   "Dhin": {
-    "hz": 150,
-    "timbre": "bass"
-   },
-   "Tin": {
-    "hz": 554,
-    "timbre": "bell"
-   },
-   "Na": {
-    "hz": 277,
-    "timbre": "tone"
-   },
-   "Ge": {
-    "hz": 98,
-    "timbre": "bass"
-   },
-   "Ka": {
-    "hz": 170,
-    "timbre": "slap"
-   },
-   "Ti": {
-    "hz": 330,
-    "timbre": "rim"
-   }
-  },
-  "lanes": [
-   {
-    "name": "Dha",
-    "note": "Dha",
-    "color": "#d9822b"
-   },
-   {
-    "name": "Dhin",
-    "note": "Dhin",
-    "color": "#c2452d"
-   },
-   {
-    "name": "Tin",
-    "note": "Tin",
-    "color": "#e8b020"
-   },
-   {
-    "name": "Na",
-    "note": "Na",
-    "color": "#3d8f7a"
-   },
-   {
-    "name": "Ge",
-    "note": "Ge",
-    "color": "#7a5ab0"
-   },
-   {
-    "name": "Ka",
-    "note": "Ka",
-    "color": "#4f7fd1"
-   },
-   {
-    "name": "Ti",
-    "note": "Ti",
-    "color": "#c76ea0"
-   }
-  ],
-  "songs": [
-   {
-    "name": "Jhaptal theka, 10 beats (2+3+2+3)",
-    "bpm": 70,
-    "meter": 5,
-    "steps": [
-     {
-      "beat": 0.0,
-      "lane": "Dhin"
-     },
-     {
-      "beat": 1.0,
-      "lane": "Na"
-     },
-     {
-      "beat": 2.0,
-      "lane": "Dhin"
-     },
-     {
-      "beat": 3.0,
-      "lane": "Dhin"
-     },
-     {
-      "beat": 4.0,
-      "lane": "Na"
-     },
-     {
-      "beat": 5.0,
-      "lane": "Tin"
-     },
-     {
-      "beat": 6.0,
-      "lane": "Na"
-     },
-     {
-      "beat": 7.0,
-      "lane": "Dhin"
-     },
-     {
-      "beat": 8.0,
-      "lane": "Dhin"
-     },
-     {
-      "beat": 9.0,
-      "lane": "Na"
-     }
+  "engine": "rhythm",
+  "params": {
+    "layout": "pads",
+    "mode": "learn",
+    "tolerance": 1.25,
+    "phrase": 5,
+    "notes": {
+      "Dha": {
+        "hz": 138,
+        "timbre": "bass"
+      },
+      "Dhin": {
+        "hz": 150,
+        "timbre": "bass"
+      },
+      "Tin": {
+        "hz": 554,
+        "timbre": "bell"
+      },
+      "Na": {
+        "hz": 277,
+        "timbre": "tone"
+      },
+      "Ge": {
+        "hz": 98,
+        "timbre": "bass"
+      },
+      "Ka": {
+        "hz": 170,
+        "timbre": "slap"
+      },
+      "Ti": {
+        "hz": 330,
+        "timbre": "rim"
+      }
+    },
+    "lanes": [
+      {
+        "name": "Dha",
+        "note": "Dha",
+        "color": "#d9822b"
+      },
+      {
+        "name": "Dhin",
+        "note": "Dhin",
+        "color": "#c2452d"
+      },
+      {
+        "name": "Tin",
+        "note": "Tin",
+        "color": "#e8b020"
+      },
+      {
+        "name": "Na",
+        "note": "Na",
+        "color": "#3d8f7a"
+      },
+      {
+        "name": "Ge",
+        "note": "Ge",
+        "color": "#7a5ab0"
+      },
+      {
+        "name": "Ka",
+        "note": "Ka",
+        "color": "#4f7fd1"
+      },
+      {
+        "name": "Ti",
+        "note": "Ti",
+        "color": "#c76ea0"
+      }
+    ],
+    "songs": [
+      {
+        "name": "Jhaptal theka, 10 beats (2+3+2+3)",
+        "bpm": 70,
+        "meter": 5,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 1,
+            "lane": "Na"
+          },
+          {
+            "beat": 2,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 3,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 4,
+            "lane": "Na"
+          },
+          {
+            "beat": 5,
+            "lane": "Tin"
+          },
+          {
+            "beat": 6,
+            "lane": "Na"
+          },
+          {
+            "beat": 7,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 8,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 9,
+            "lane": "Na"
+          }
+        ]
+      },
+      {
+        "name": "Rupak theka, 7 beats (3+2+2)",
+        "bpm": 78,
+        "meter": 7,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Tin"
+          },
+          {
+            "beat": 1,
+            "lane": "Tin"
+          },
+          {
+            "beat": 2,
+            "lane": "Na"
+          },
+          {
+            "beat": 3,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 4,
+            "lane": "Na"
+          },
+          {
+            "beat": 5,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 6,
+            "lane": "Na"
+          }
+        ]
+      },
+      {
+        "name": "Keherwa theka, 8 beats",
+        "bpm": 92,
+        "meter": 4,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Dha"
+          },
+          {
+            "beat": 1,
+            "lane": "Ge"
+          },
+          {
+            "beat": 2,
+            "lane": "Na"
+          },
+          {
+            "beat": 3,
+            "lane": "Tin"
+          },
+          {
+            "beat": 4,
+            "lane": "Na"
+          },
+          {
+            "beat": 5,
+            "lane": "Ka"
+          },
+          {
+            "beat": 6,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 7,
+            "lane": "Na"
+          }
+        ]
+      },
+      {
+        "id": "teental-theka-tihai",
+        "name": "Teental theka with a closing tihai",
+        "bpm": 90,
+        "meter": 4,
+        "length": 68,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "Hindustani tabla",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Dha"
+          },
+          {
+            "beat": 1,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 2,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 3,
+            "lane": "Dha"
+          },
+          {
+            "beat": 4,
+            "lane": "Dha"
+          },
+          {
+            "beat": 5,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 6,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 7,
+            "lane": "Dha"
+          },
+          {
+            "beat": 8,
+            "lane": "Dha"
+          },
+          {
+            "beat": 9,
+            "lane": "Tin"
+          },
+          {
+            "beat": 10,
+            "lane": "Tin"
+          },
+          {
+            "beat": 11,
+            "lane": "Na"
+          },
+          {
+            "beat": 12,
+            "lane": "Na"
+          },
+          {
+            "beat": 13,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 14,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 15,
+            "lane": "Dha"
+          },
+          {
+            "beat": 16,
+            "lane": "Dha"
+          },
+          {
+            "beat": 17,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 18,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 19,
+            "lane": "Dha"
+          },
+          {
+            "beat": 20,
+            "lane": "Dha"
+          },
+          {
+            "beat": 21,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 22,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 23,
+            "lane": "Dha"
+          },
+          {
+            "beat": 24,
+            "lane": "Dha"
+          },
+          {
+            "beat": 25,
+            "lane": "Tin"
+          },
+          {
+            "beat": 26,
+            "lane": "Tin"
+          },
+          {
+            "beat": 27,
+            "lane": "Na"
+          },
+          {
+            "beat": 28,
+            "lane": "Na"
+          },
+          {
+            "beat": 29,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 30,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 31,
+            "lane": "Dha"
+          },
+          {
+            "beat": 32,
+            "lane": "Dha"
+          },
+          {
+            "beat": 33,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 34,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 35,
+            "lane": "Dha"
+          },
+          {
+            "beat": 36,
+            "lane": "Dha"
+          },
+          {
+            "beat": 37,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 38,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 39,
+            "lane": "Dha"
+          },
+          {
+            "beat": 40,
+            "lane": "Dha"
+          },
+          {
+            "beat": 41,
+            "lane": "Tin"
+          },
+          {
+            "beat": 42,
+            "lane": "Tin"
+          },
+          {
+            "beat": 43,
+            "lane": "Na"
+          },
+          {
+            "beat": 44,
+            "lane": "Na"
+          },
+          {
+            "beat": 45,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 46,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 47,
+            "lane": "Dha"
+          },
+          {
+            "beat": 48,
+            "lane": "Dha"
+          },
+          {
+            "beat": 49,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 50,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 51,
+            "lane": "Dha"
+          },
+          {
+            "beat": 52,
+            "lane": "Dha"
+          },
+          {
+            "beat": 53,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 54,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 55,
+            "lane": "Dha"
+          },
+          {
+            "beat": 56,
+            "lane": "Dha"
+          },
+          {
+            "beat": 57,
+            "lane": "Dha"
+          },
+          {
+            "beat": 57.5,
+            "lane": "Ge"
+          },
+          {
+            "beat": 58,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 58.5,
+            "lane": "Dha"
+          },
+          {
+            "beat": 59.5,
+            "lane": "Dha"
+          },
+          {
+            "beat": 60,
+            "lane": "Ge"
+          },
+          {
+            "beat": 60.5,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 61,
+            "lane": "Dha"
+          },
+          {
+            "beat": 62,
+            "lane": "Dha"
+          },
+          {
+            "beat": 62.5,
+            "lane": "Ge"
+          },
+          {
+            "beat": 63,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 63.5,
+            "lane": "Dha"
+          },
+          {
+            "beat": 64,
+            "lane": "Dha",
+            "len": 4
+          }
+        ],
+        "note": "Teental is the sixteen-beat cycle of north Indian drumming, spoken as Dha Dhin Dhin Dha, Dha Dhin Dhin Dha, Dha Tin Tin Ta, Ta Dhin Dhin Dha. After three full cycles a short tihai, one phrase played three times, brings the player back to the first beat."
+      },
+      {
+        "id": "dadra-theka-variation",
+        "name": "Dadra theka with a quick variation",
+        "bpm": 100,
+        "meter": 3,
+        "length": 48,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "Hindustani tabla",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Dha"
+          },
+          {
+            "beat": 1,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 2,
+            "lane": "Na"
+          },
+          {
+            "beat": 3,
+            "lane": "Dha"
+          },
+          {
+            "beat": 4,
+            "lane": "Tin"
+          },
+          {
+            "beat": 5,
+            "lane": "Na"
+          },
+          {
+            "beat": 6,
+            "lane": "Dha"
+          },
+          {
+            "beat": 7,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 8,
+            "lane": "Na"
+          },
+          {
+            "beat": 9,
+            "lane": "Dha"
+          },
+          {
+            "beat": 10,
+            "lane": "Tin"
+          },
+          {
+            "beat": 11,
+            "lane": "Na"
+          },
+          {
+            "beat": 12,
+            "lane": "Dha"
+          },
+          {
+            "beat": 13,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 14,
+            "lane": "Na"
+          },
+          {
+            "beat": 15,
+            "lane": "Dha"
+          },
+          {
+            "beat": 16,
+            "lane": "Tin"
+          },
+          {
+            "beat": 17,
+            "lane": "Na"
+          },
+          {
+            "beat": 18,
+            "lane": "Dha"
+          },
+          {
+            "beat": 18.5,
+            "lane": "Ge"
+          },
+          {
+            "beat": 19,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 19.5,
+            "lane": "Na"
+          },
+          {
+            "beat": 20,
+            "lane": "Ti"
+          },
+          {
+            "beat": 20.5,
+            "lane": "Ka"
+          },
+          {
+            "beat": 21,
+            "lane": "Dha"
+          },
+          {
+            "beat": 21.5,
+            "lane": "Ge"
+          },
+          {
+            "beat": 22,
+            "lane": "Tin"
+          },
+          {
+            "beat": 22.5,
+            "lane": "Na"
+          },
+          {
+            "beat": 23,
+            "lane": "Ge"
+          },
+          {
+            "beat": 23.5,
+            "lane": "Na"
+          },
+          {
+            "beat": 24,
+            "lane": "Dha"
+          },
+          {
+            "beat": 24.5,
+            "lane": "Ge"
+          },
+          {
+            "beat": 25,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 25.5,
+            "lane": "Na"
+          },
+          {
+            "beat": 26,
+            "lane": "Ti"
+          },
+          {
+            "beat": 26.5,
+            "lane": "Ka"
+          },
+          {
+            "beat": 27,
+            "lane": "Dha"
+          },
+          {
+            "beat": 27.5,
+            "lane": "Ge"
+          },
+          {
+            "beat": 28,
+            "lane": "Tin"
+          },
+          {
+            "beat": 28.5,
+            "lane": "Na"
+          },
+          {
+            "beat": 29,
+            "lane": "Ge"
+          },
+          {
+            "beat": 29.5,
+            "lane": "Na"
+          },
+          {
+            "beat": 30,
+            "lane": "Dha"
+          },
+          {
+            "beat": 31,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 32,
+            "lane": "Na"
+          },
+          {
+            "beat": 33,
+            "lane": "Dha"
+          },
+          {
+            "beat": 34,
+            "lane": "Tin"
+          },
+          {
+            "beat": 35,
+            "lane": "Na"
+          },
+          {
+            "beat": 36,
+            "lane": "Dha"
+          },
+          {
+            "beat": 37,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 38,
+            "lane": "Na"
+          },
+          {
+            "beat": 39,
+            "lane": "Dha"
+          },
+          {
+            "beat": 40,
+            "lane": "Tin"
+          },
+          {
+            "beat": 41,
+            "lane": "Na"
+          },
+          {
+            "beat": 42,
+            "lane": "Dha"
+          },
+          {
+            "beat": 43,
+            "lane": "Dhin"
+          },
+          {
+            "beat": 44,
+            "lane": "Na"
+          },
+          {
+            "beat": 45,
+            "lane": "Dha",
+            "len": 3
+          }
+        ],
+        "note": "Dadra is a six-beat cycle in two groups of three, used in light classical and folk songs: Dha Dhin Na, Dha Tin Na. The middle cycles play it in half-beats before returning to the plain pattern."
+      }
     ]
-   },
-   {
-    "name": "Rupak theka, 7 beats (3+2+2)",
-    "bpm": 78,
-    "meter": 7,
-    "steps": [
-     {
-      "beat": 0.0,
-      "lane": "Tin"
-     },
-     {
-      "beat": 1.0,
-      "lane": "Tin"
-     },
-     {
-      "beat": 2.0,
-      "lane": "Na"
-     },
-     {
-      "beat": 3.0,
-      "lane": "Dhin"
-     },
-     {
-      "beat": 4.0,
-      "lane": "Na"
-     },
-     {
-      "beat": 5.0,
-      "lane": "Dhin"
-     },
-     {
-      "beat": 6.0,
-      "lane": "Na"
-     }
-    ]
-   },
-   {
-    "name": "Keherwa theka, 8 beats",
-    "bpm": 92,
-    "meter": 4,
-    "steps": [
-     {
-      "beat": 0.0,
-      "lane": "Dha"
-     },
-     {
-      "beat": 1.0,
-      "lane": "Ge"
-     },
-     {
-      "beat": 2.0,
-      "lane": "Na"
-     },
-     {
-      "beat": 3.0,
-      "lane": "Tin"
-     },
-     {
-      "beat": 4.0,
-      "lane": "Na"
-     },
-     {
-      "beat": 5.0,
-      "lane": "Ka"
-     },
-     {
-      "beat": 6.0,
-      "lane": "Dhin"
-     },
-     {
-      "beat": 7.0,
-      "lane": "Na"
-     }
-    ]
-   }
-  ]
- }
+  }
 }

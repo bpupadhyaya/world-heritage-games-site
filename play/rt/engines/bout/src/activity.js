@@ -6,6 +6,8 @@
 // Everything about a tradition is data: moves, ring, scoring, rounds, timing, level, look. No injuries are shown: only balance, grip,
 // push-outs, touches and falls to the mat.
 
+import { createSport, sportOf } from './sports.js';
+import { voice, fx } from '../../../platform/engine-kit/synth.js';
 import { hash, shade, rgba, venueOf, stageGeo, drawVenue, drawLight, drawBoat, drawFigure, groundShadow, drawDial, drawStance, drawFx } from './art.js';
 
 export const DEFAULTS = {
@@ -85,7 +87,24 @@ export function createActivity(userParams, env) {
     setting: { ...DEFAULTS.setting, ...userParams.setting },
     fighters: { you: { ...DEFAULTS.fighters.you, ...userParams.fighters?.you }, rival: { ...DEFAULTS.fighters.rival, ...userParams.fighters?.rival } },
   };
-  const { rng, palette: pal } = env;
+  const { rng } = env;
+  const SP = createSport(sportOf(P, env.text?.title));
+  const pal = SP ? { ...env.palette, ...SP.pal } : env.palette;
+  if (SP) for (const side of ['you', 'rival']) P.fighters[side] = { ...DEFAULTS.fighters[side], ...SP.fighters[side], ...userParams.fighters?.[side] };
+  const tones = (list) => { for (const o of list) env.audio?.tone(o); };
+  // Natural sounds (platform/engine-kit/synth.js): the material struck depends on the tradition (stick on stick, hand on skin,
+  // body on clay); the raw tone lists in sports.js stay as the fallback when the shared audio graph is missing.
+  const A = env.audio, nat = !!A?.context;
+  const spId = String(sportOf(P, env.text?.title) ?? '');
+  const MAT = { arnis: 'wood', nguni: 'wood', silambam: 'wood', kushti: 'clay', kotta: 'skin', laamb: 'skin', moraingy: 'skin', silat: 'skin' }[spId] ?? 'skin';
+  const sTick = (q) => { if (!nat) return false; fx(A, 'whoosh', { vel: 0.35, dur: 0.14 }); if (q === 1) fx(A, 'tick', { hz: MAT === 'wood' ? 1700 : 1100, vel: 0.5 }); return true; };
+  const sHit = (t) => {
+    if (!nat) return false;
+    if (t === 'good') { fx(A, 'impact', { mat: MAT, vel: 0.9 }); fx(A, 'thud', { vel: 0.7, hz: 70, delay: 0.01 }); fx(A, 'ring', { hz: 1760, vel: 0.35, delay: 0.05 }); }
+    else if (t === 'bad') { fx(A, 'thud', { vel: 0.6, hz: 62 }); fx(A, 'impact', { mat: MAT, vel: 0.35, hz: 160 }); }
+    else fx(A, 'impact', { mat: MAT, vel: 0.5 });
+    return true;
+  };
   const L = LEVELS[clamp(Math.round(P.level), 1, 3)];
   const moves = (P.moves ?? DEFAULT_MOVES).map((m) => ({ speed: 2, cost: 8, power: 10, points: 0, push: 0, beats: [], kind: 'strike', pose: 'ready', ...m }));
   const byId = Object.fromEntries(moves.map((m) => [m.id, m]));
@@ -200,7 +219,7 @@ export function createActivity(userParams, env) {
       hist.push(m.id);
       const last = hist.length > 1 ? hist[hist.length - 2] : null;
       if (last) { bigram[last] = bigram[last] ?? {}; bigram[last][m.id] = (bigram[last][m.id] ?? 0) + 1; }
-      env.audio?.tone({ freq: q === 1 ? 660 : 420, dur: 0.06, type: 'triangle' });
+      if (sTick(q)) { /* natural */ } else if (SP) tones(SP.sound.tick(q)); else env.audio?.tone({ freq: q === 1 ? 660 : 420, dur: 0.06, type: 'triangle' });
     } else stats.hesitated++;
     const rm = byId[intent];
     rival.stam = clamp(rival.stam - Math.max(0, rm.cost), 0, 100);
@@ -332,7 +351,7 @@ export function createActivity(userParams, env) {
     }
     spawnImpact(plan, ym, rm, ringOut, fell);
     msg = X.text; msgT = 0;
-    env.audio?.tone(X.tone === 'good' ? { freq: 330, to: 520, dur: 0.14, type: 'triangle' } : X.tone === 'bad' ? { freq: 260, to: 170, dur: 0.18, type: 'sawtooth', vol: 0.12 } : { freq: 300, dur: 0.08, type: 'square', vol: 0.08 });
+    if (sHit(X.tone)) { /* natural */ } else if (SP) tones(SP.sound.hit(X.tone)); else env.audio?.tone(X.tone === 'good' ? { freq: 330, to: 520, dur: 0.14, type: 'triangle' } : X.tone === 'bad' ? { freq: 260, to: 170, dur: 0.18, type: 'sawtooth', vol: 0.12 } : { freq: 300, dur: 0.08, type: 'square', vol: 0.08 });
   }
 
   function afterExchange() {
@@ -345,7 +364,8 @@ export function createActivity(userParams, env) {
       phase = 'break';
       msg = X.end.winner === 'you' ? `Round ${round + 1}: you win` : `Round ${round + 1}: ${P.fighters.rival.name} wins`;
       msgT = 0;
-      env.audio?.tone({ freq: X.end.winner === 'you' ? 523 : 262, to: X.end.winner === 'you' ? 784 : 196, dur: 0.4, type: 'triangle' });
+      if (nat) { if (X.end.winner === 'you') fx(A, 'chime', { hz: 784, vel: 0.7 }); else fx(A, 'bad', { hz: 200, vel: 0.7 }); }
+      else env.audio?.tone({ freq: X.end.winner === 'you' ? 523 : 262, to: X.end.winner === 'you' ? 784 : 196, dur: 0.4, type: 'triangle' });
       return;
     }
     beginExchange();
@@ -375,7 +395,7 @@ export function createActivity(userParams, env) {
   }
   const tapMove = (idx) => {
     if (phase !== 'ready') return;
-    if (!affordable(you, moves[idx])) { msg = 'Too tired for that: breathe or pick a lighter move'; msgT = 0; env.audio?.tone({ freq: 180, dur: 0.08, type: 'square', vol: 0.08 }); return; }
+    if (!affordable(you, moves[idx])) { msg = 'Too tired for that: breathe or pick a lighter move'; msgT = 0; if (nat) fx(A, 'bad', { hz: 190, vel: 0.35 }); else env.audio?.tone({ freq: 180, dur: 0.08, type: 'square', vol: 0.08 }); return; }
     commit(idx);
   };
   const step = (dt, cmd) => {
@@ -410,14 +430,63 @@ export function createActivity(userParams, env) {
     const land = area.w > area.h * 1.15;
     const n = moves.length;
     let hud, stage, msgR, gaugeR, btn;
+    let colsO = null, order = 'hsmgb';
     if (!land) {
-      const hh = clamp(area.h * 0.13, 92, 130);
-      hud = { x: area.x, y: area.y, w: area.w, h: hh };
-      const stageH = area.h * 0.38;
-      stage = { x: area.x, y: hud.y + hud.h + 4, w: area.w, h: stageH };
-      msgR = { x: area.x, y: stage.y + stage.h + 2, w: area.w, h: 40 };
-      gaugeR = { x: area.x + 6, y: msgR.y + msgR.h + 4, w: area.w - 12, h: clamp(area.h * 0.075, 52, 72) };
-      btn = { x: area.x, y: gaugeR.y + gaugeR.h + 10, w: area.w, h: area.y + area.h - (gaugeR.y + gaugeR.h + 10) };
+      const L = SP?.layout ?? 'std';
+      const hh = clamp(area.h * (L === 'big' ? 0.115 : 0.13), 88, 130);
+      const gh = clamp(area.h * 0.075, 50, 72);
+      const A = area;
+      if (L === 'top') {
+        hud = { x: A.x, y: A.y, w: A.w, h: hh };
+        gaugeR = { x: A.x + 6, y: hud.y + hud.h + 6, w: A.w - 12, h: gh };
+        btn = { x: A.x, y: gaugeR.y + gaugeR.h + 8, w: A.w, h: A.h * 0.3 };
+        msgR = { x: A.x, y: btn.y + btn.h + 2, w: A.w, h: 38 };
+        stage = { x: A.x, y: msgR.y + msgR.h + 2, w: A.w, h: A.y + A.h - (msgR.y + msgR.h + 2) };
+      } else if (L === 'rail' || L === 'railL') {
+        const sw = Math.floor(A.w * 0.6);
+        hud = { x: A.x, y: A.y, w: A.w, h: hh };
+        const sx = L === 'rail' ? A.x : A.x + A.w - sw, rx = L === 'rail' ? A.x + sw + 8 : A.x, rw = A.w - sw - 8;
+        const sh = Math.min(A.h - hh - 4 - 42 - gh - 12, sw * 1.2);
+        stage = { x: sx, y: hud.y + hud.h + 4, w: sw, h: sh };
+        msgR = { x: sx, y: stage.y + stage.h + 2, w: sw, h: 42 };
+        gaugeR = { x: sx, y: msgR.y + msgR.h + 4, w: sw, h: gh };
+        btn = { x: rx, y: stage.y, w: rw, h: A.y + A.h - stage.y };
+        colsO = 1;
+      } else if (L === 'overlay') {
+        stage = { x: A.x, y: A.y, w: A.w, h: A.h * 0.66 };
+        hud = { x: A.x, y: A.y, w: A.w, h: hh };
+        msgR = { x: A.x, y: stage.y + stage.h + 2, w: A.w, h: 38 };
+        gaugeR = { x: A.x + 6, y: msgR.y + msgR.h + 2, w: A.w - 12, h: gh };
+        btn = { x: A.x, y: gaugeR.y + gaugeR.h + 8, w: A.w, h: A.y + A.h - (gaugeR.y + gaugeR.h + 8) };
+        order = 'smhgb';
+      } else if (L === 'foot') {
+        stage = { x: A.x, y: A.y, w: A.w, h: A.h * 0.42 };
+        msgR = { x: A.x, y: stage.y + stage.h + 2, w: A.w, h: 36 };
+        hud = { x: A.x, y: msgR.y + msgR.h + 2, w: A.w, h: hh };
+        gaugeR = { x: A.x + 6, y: hud.y + hud.h + 6, w: A.w - 12, h: gh };
+        btn = { x: A.x, y: gaugeR.y + gaugeR.h + 8, w: A.w, h: A.y + A.h - (gaugeR.y + gaugeR.h + 8) };
+      } else if (L === 'wide') {
+        hud = { x: A.x, y: A.y, w: A.w, h: hh };
+        stage = { x: A.x, y: hud.y + hud.h + 4, w: A.w, h: A.h * 0.5 };
+        msgR = { x: A.x, y: stage.y + stage.h + 2, w: A.w, h: 36 };
+        gaugeR = { x: A.x + 6, y: msgR.y + msgR.h + 2, w: A.w - 12, h: gh * 0.9 };
+        btn = { x: A.x, y: gaugeR.y + gaugeR.h + 8, w: A.w, h: A.y + A.h - (gaugeR.y + gaugeR.h + 8) };
+        colsO = 3;
+      } else if (L === 'big') {
+        hud = { x: A.x, y: A.y, w: A.w, h: hh };
+        stage = { x: A.x, y: hud.y + hud.h + 4, w: A.w, h: A.h * 0.5 };
+        msgR = { x: A.x, y: stage.y + stage.h + 2, w: A.w, h: 36 };
+        gaugeR = { x: A.x + 6, y: msgR.y + msgR.h + 2, w: A.w - 12, h: gh * 0.85 };
+        btn = { x: A.x, y: gaugeR.y + gaugeR.h + 8, w: A.w, h: A.y + A.h - (gaugeR.y + gaugeR.h + 8) };
+        colsO = 3;
+      } else {
+        hud = { x: area.x, y: area.y, w: area.w, h: hh };
+        const stageH = area.h * 0.38;
+        stage = { x: area.x, y: hud.y + hud.h + 4, w: area.w, h: stageH };
+        msgR = { x: area.x, y: stage.y + stage.h + 2, w: area.w, h: 40 };
+        gaugeR = { x: area.x + 6, y: msgR.y + msgR.h + 4, w: area.w - 12, h: gh };
+        btn = { x: area.x, y: gaugeR.y + gaugeR.h + 10, w: area.w, h: area.y + area.h - (gaugeR.y + gaugeR.h + 10) };
+      }
     } else {
       const lw = Math.floor(area.w * 0.58), hh = clamp(area.h * 0.17, 80, 110);
       hud = { x: area.x, y: area.y, w: lw, h: hh };
@@ -427,16 +496,16 @@ export function createActivity(userParams, env) {
       gaugeR = { x: rx, y: area.y + 6, w: rw, h: clamp(area.h * 0.14, 56, 76) };
       btn = { x: rx, y: gaugeR.y + gaugeR.h + 12, w: rw, h: area.y + area.h - (gaugeR.y + gaugeR.h + 12) };
     }
-    const cols = n > 6 || btn.w > 900 ? 3 : 2, rows = Math.ceil(n / cols), gap = 10;
+    const cols = colsO ?? (n > 6 || btn.w > 900 ? 3 : 2), rows = Math.ceil(n / cols), gap = 10;
     const bw = (btn.w - gap * (cols - 1)) / cols, bh = clamp((btn.h - gap * (rows - 1)) / rows, 48, 108);
     const buttons = moves.map((m, i) => ({ i, id: `move:${m.id}`, x: btn.x + (i % cols) * (bw + gap), y: btn.y + Math.floor(i / cols) * (bh + gap), w: bw, h: bh }));
-    return { land, hud, stage, msg: msgR, gauge: gaugeR, buttons };
+    return { land, hud, stage, msg: msgR, gauge: gaugeR, buttons, order };
   };
 
   // ---- drawing -----------------------------------------------------------------------------------------------------------
   const venue = venueOf(P);
   const K = 0.72, gapN = 0.24;
-  const waterVenue = venue === 'boats' || venue === 'beam';
+  const waterVenue = venue === 'boats' || venue === 'beam' || !!SP?.waterVenue;
   const bar = (g, x, y, w, h, frac, color, back) => {
     const { ctx } = g;
     g.rr(ctx, x, y, w, h, h / 2); ctx.fillStyle = back; ctx.fill();
@@ -459,8 +528,10 @@ export function createActivity(userParams, env) {
       ctx.strokeStyle = rgba(spec.color, 0.9); ctx.lineWidth = 2.5; ctx.stroke();
       // emblem: a medallion in the fighter's colours
       const ex = side < 0 ? x + 24 : x + w - 24, ey = r.y + 24;
+      if (SP) SP.emblem(ctx, ex, ey, 13, spec); else {
       ctx.fillStyle = spec.color; ctx.beginPath(); ctx.arc(ex, ey, 13, 0, 7); ctx.fill();
       ctx.strokeStyle = spec.trim; ctx.lineWidth = 3; ctx.stroke();
+      }
       g.label(ctx, name, side < 0 ? x + 46 : x + w - 46, ey, g.px(20), pal.ink, align, '800');
       const bx = x + 14, bw = w - 28, top = r.y + 44, bh = Math.max(14, (r.h - 52) / rows - 6);
       const items = [['Balance', f.shown.bal / 100, f.bal < 35 ? pal.bad : pal.good], ['Stamina', f.shown.stam / 100, pal.accent]];
@@ -506,7 +577,8 @@ export function createActivity(userParams, env) {
     // the one who falls into water sinks a little
     const sink = waterVenue ? pose.down * H * 0.28 : 0;
     if (sink > 0) { ctx.save(); ctx.globalAlpha = 1 - pose.down * 0.55; }
-    drawFigure(ctx, pose, spec, x, gy + sink, H, dir, { T: title ? titleT : T, weapon: P.weapon, wob });
+    const anc = drawFigure(ctx, pose, spec, x, gy + sink, H, dir, { T: title ? titleT : T, weapon: P.weapon, wob });
+    if (SP && pose.down < 0.05) SP.adorn(ctx, anc, spec, H, dir, title ? titleT : T);
     if (sink > 0) ctx.restore();
     void geo;
   };
@@ -519,7 +591,7 @@ export function createActivity(userParams, env) {
     const { mid, gy, rx, H } = geo;
     ctx.save(); ctx.beginPath(); ctx.rect(s.x, s.y, s.w, s.h); ctx.clip();
     if (!title && shakeT > 0) { const a = shakeAmp * (shakeT / 0.35); ctx.translate(Math.sin(T * 83) * a, Math.cos(T * 71) * a * 0.6); }
-    drawVenue(ctx, s, S, geo, title ? titleT : T, title ? 0 : pulse, P);
+    if (SP) SP.drawVenue(ctx, s, geo, title ? titleT : T, title ? 0 : pulse); else drawVenue(ctx, s, S, geo, title ? titleT : T, title ? 0 : pulse, P);
     const lungeOf = (side) => {
       if (title || phase !== 'resolve' || !X) return 0;
       const mm = side < 0 ? X.you : X.rival;
@@ -548,7 +620,7 @@ export function createActivity(userParams, env) {
     if (youAtt) { figs[1](); figs[0](); } else { figs[1](); figs[0](); }
     void order;
     if (!title) {
-      for (const e of fx) drawFx(ctx, e, geo, S);
+      for (const e of fx) { if (!(SP && SP.fx(ctx, e, geo, S))) drawFx(ctx, e, geo, S); }
     }
     drawLight(ctx, s, geo, venue);
     if (!title) {
@@ -556,8 +628,9 @@ export function createActivity(userParams, env) {
       const rD = Math.max(26, H * 0.14), dy = fy - H * 1.1;
             const cxm = (xs[0] + xs[1]) / 2, half = Math.max((xs[1] - xs[0]) / 2, rD * 1.35);
       const dx0 = clamp(cxm - half, s.x + rD * 1.3, s.x + s.w - rD * 1.3), dx1 = clamp(cxm + half, s.x + rD * 1.3, s.x + s.w - rD * 1.3);
-      drawDial(ctx, dx0, Math.max(s.y + rD * 1.4, dy), rD, you.shown.bal / 100, gripOn ? you.shown.grip / 100 : null, T, -1, P.fighters.you.color);
-      drawDial(ctx, dx1, Math.max(s.y + rD * 1.4, dy), rD, rival.shown.bal / 100, gripOn ? rival.shown.grip / 100 : null, T, 1, P.fighters.rival.color);
+      const dl = SP ? SP.dial : drawDial;
+      dl(ctx, dx0, Math.max(s.y + rD * 1.4, dy), rD, you.shown.bal / 100, gripOn ? you.shown.grip / 100 : null, T, -1, P.fighters.you.color);
+      dl(ctx, dx1, Math.max(s.y + rD * 1.4, dy), rD, rival.shown.bal / 100, gripOn ? rival.shown.grip / 100 : null, T, 1, P.fighters.rival.color);
       if (phase === 'ready') {
         // the tell: a speech tag beside the rival
         const tm = byId[tell], label = `${tm.name}?`, fsz = g.px(17);
@@ -701,8 +774,8 @@ export function createActivity(userParams, env) {
     render(g, area) {
       const { ctx } = g;
       layout = geometry(area, g);
-      drawHud(g, layout.hud);
-      drawStage(g, layout.stage);
+      if (SP) { ctx.fillStyle = lin(ctx, 0, area.y, 0, area.y + area.h, [[0, SP.bg[0]], [1, SP.bg[1]]]); ctx.fillRect(area.x, area.y, area.w, area.h); }
+      if (layout.order === 'smhgb') { drawStage(g, layout.stage); drawHud(g, layout.hud); } else { drawHud(g, layout.hud); drawStage(g, layout.stage); }
       drawMessage(g, layout.msg);
       drawGauge(g, layout.gauge);
       drawButtons(g, layout);

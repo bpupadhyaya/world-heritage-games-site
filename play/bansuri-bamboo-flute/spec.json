@@ -175,72 +175,72 @@
      {
       "beat": 0,
       "lane": 2,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 1,
       "lane": 4,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 2,
       "lane": 4,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 3,
       "lane": 5,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 4,
       "lane": 4,
-      "len": 2.0
+      "len": 2
      },
      {
       "beat": 6,
       "lane": 2,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 7,
       "lane": 3,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 8,
       "lane": 2,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 9,
       "lane": 0,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 10,
       "lane": 0,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 11,
       "lane": 1,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 12,
       "lane": 2,
-      "len": 2.0
+      "len": 2
      },
      {
       "beat": 14,
       "lane": 4,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 15,
       "lane": 2,
-      "len": 1.0
+      "len": 1
      }
     ]
    },
@@ -253,62 +253,167 @@
      {
       "beat": 0,
       "lane": 4,
-      "len": 2.0
+      "len": 2
      },
      {
       "beat": 2,
       "lane": 7,
-      "len": 2.0
+      "len": 2
      },
      {
       "beat": 4,
       "lane": 5,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 5,
       "lane": 4,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 6,
       "lane": 2,
-      "len": 2.0
+      "len": 2
      },
      {
       "beat": 8,
       "lane": 0,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 9,
       "lane": 2,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 10,
       "lane": 4,
-      "len": 2.0
+      "len": 2
      },
      {
       "beat": 12,
       "lane": 5,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 13,
       "lane": 4,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 14,
       "lane": 2,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 15,
       "lane": 0,
-      "len": 1.0
+      "len": 1
+     }
+    ]
+   },
+   {
+    "id": "bhupali-phrases",
+    "name": "Raga Bhupali, phrase figure (teaching figure)",
+    "bpm": 60,
+    "meter": 4,
+    "length": 28,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "North Indian raga",
+    "note": "Bhupali is an evening raga built on five notes only: Sa, Re, Ga, Pa and Dha. This figure walks through its typical rising and falling phrases, the way a teacher would show them on the bansuri; it is a teaching exercise, not a fixed composition.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Sa"
+     },
+     {
+      "beat": 1,
+      "lane": "Re"
+     },
+     {
+      "beat": 2,
+      "lane": "Ga",
+      "len": 2
+     },
+     {
+      "beat": 4,
+      "lane": "Pa"
+     },
+     {
+      "beat": 5,
+      "lane": "Ga"
+     },
+     {
+      "beat": 6,
+      "lane": "Dha",
+      "len": 2
+     },
+     {
+      "beat": 8,
+      "lane": "Pa"
+     },
+     {
+      "beat": 9,
+      "lane": "Ga"
+     },
+     {
+      "beat": 10,
+      "lane": "Re"
+     },
+     {
+      "beat": 11,
+      "lane": "Sa"
+     },
+     {
+      "beat": 12,
+      "lane": "Re"
+     },
+     {
+      "beat": 13,
+      "lane": "Ga"
+     },
+     {
+      "beat": 14,
+      "lane": "Pa"
+     },
+     {
+      "beat": 15,
+      "lane": "Dha"
+     },
+     {
+      "beat": 16,
+      "lane": "Sa'",
+      "len": 2
+     },
+     {
+      "beat": 18,
+      "lane": "Dha"
+     },
+     {
+      "beat": 19,
+      "lane": "Pa"
+     },
+     {
+      "beat": 20,
+      "lane": "Ga"
+     },
+     {
+      "beat": 21,
+      "lane": "Pa"
+     },
+     {
+      "beat": 22,
+      "lane": "Ga"
+     },
+     {
+      "beat": 23,
+      "lane": "Re"
+     },
+     {
+      "beat": 24,
+      "lane": "Sa",
+      "len": 4
      }
     ]
    }

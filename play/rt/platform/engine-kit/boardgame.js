@@ -7,6 +7,7 @@
 // Everything drawn is derived from describe(); all timing comes from dt, all randomness from env.rng (kit contract).
 import { chooseMove, LEVELS } from './ai.js';
 import { createUI, shade, rgba } from './ui.js';
+import { createMenu } from './menu.js';
 
 const PALETTE = { bg: '#17212b', panel: '#223140', board: '#c9a86a', line: '#4a3820', cell0: '#d9bb82', cell1: '#b8935a', node: '#4a3820', p0: '#d64b3c', p1: '#2d7bd6', accent: '#f2c14e', ink: '#f5f1e8', dim: '#9fb0c3', good: '#58c27d' };
 const AI_DELAY = 0.55;
@@ -38,6 +39,13 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     
     storage.get('prefs', null).then((v) => { if (v) { if (LEVELS.some((l) => l.id === v.level)) state.level = v.level; if (v.mode === 'ai' || v.mode === 'two') state.mode = v.mode; } });
     const savePrefs = () => storage.set('prefs', { level: state.level, mode: state.mode });
+
+    const levelLabel = () => `${state.level[0].toUpperCase()}${state.level.slice(1)}`;
+    const menu = createMenu({
+      ui, env, T, text, quiet: autoplay || options.shot === true,
+      extras: () => rules.menuItems?.() ?? [],
+      settingsBlocks: () => [{ h: 'Game', buttons: [{ id: 'level', label: `Computer: ${levelLabel()}`, icon: 'flag' }, { id: 'side', label: `You play: ${state.human === 0 ? 'first' : 'second'}` }] }],
+    });
 
     const newGame = () => { Object.assign(state, { game: rules.init(params, rng.fork()), history: [], ply: 0, selected: null, msg: '', wait: AI_DELAY, overT: 0, hint: null, winner: null, moveT: -9 }); };
     const go = (scene) => { state.scene = scene; state.sceneT = 0; state.scroll = 0; };
@@ -101,14 +109,16 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     const press = (id) => {
       ui.press(id);
       if (id === 'back' || id === 'menu') ui.sfx.back(); else if (id === 'up' || id === 'down') ui.sfx.whoosh(); else ui.sfx.tap();
-      if (id === 'ai') { state.mode = 'ai'; savePrefs(); newGame(); go('play'); }
+      const m = menu.press(id);
+      if (m === 'open') { state.page = 0; go('rules'); }   // every menu page keeps the scene name 'rules'
+      else if (m === 'stay') { /* a setting changed */ }
+      else if (id === 'ai') { state.mode = 'ai'; savePrefs(); newGame(); go('play'); }
       else if (id === 'two') { state.mode = 'two'; savePrefs(); newGame(); go('play'); }
       else if (id === 'watch') { state.mode = 'watch'; newGame(); go('play'); }
       else if (id === 'level') { const i = LEVELS.findIndex((l) => l.id === state.level); state.level = LEVELS[(i + 1) % LEVELS.length].id; savePrefs(); }
       else if (id === 'side') { state.human = 1 - state.human; }
-      else if (id === 'howto') { state.page = 0; go('rules'); }
-      else if (id === 'menu') go('title');
-      else if (id === 'back') go(state.history.length || state.ply ? 'play' : 'title');
+      else if (id === 'menu') { menu.close(); go('title'); }
+      else if (id === 'back') { menu.close(); go('title'); }
       else if (id === 'undo') undo();
       else if (id === 'new' || id === 'again') { newGame(); go('play'); }
       else if (id === 'hint') {
@@ -118,6 +128,7 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     };
 
     // ---- flow -------------------------------------------------------------------------------------------------
+    try { globalThis.__whgForce = (what) => { if (what === 'result' && state.scene === 'play' && state.winner === null) { state.winner = 0; state.overT = 0; state.resT = 0; } }; } catch { /* no globalThis */ }
     if (options.begin === true && !autoplay) press('ai'); // bucket apps: About + How to play were shown on the previous page
 
     const update = (dt, input) => {
@@ -302,21 +313,18 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     const renderTitle = (ctx, W, H) => {
       ui.titleScreen(ctx, W, H, {
         title: T.title, native: T.native, countries: T.countries, summary: T.summary, hero: titleHero,
-        rows: [
-          [{ id: 'ai', label: 'Play the computer', icon: 'bot', primary: true }],
-          [{ id: 'two', label: 'Two players', icon: 'people' }, { id: 'watch', label: 'Watch and learn', icon: 'eye' }],
-          [{ id: 'level', label: `Computer: ${state.level[0].toUpperCase()}${state.level.slice(1)}`, icon: 'flag' }, { id: 'side', label: `You play: ${state.human === 0 ? 'first' : 'second'}` }],
-          [{ id: 'howto', label: 'How to play and rules', icon: 'book' }],
+        rows: [[{ id: 'ai', label: 'Play the computer', icon: 'bot', primary: true }]],
+        grid: [
+          { id: 'two', label: 'Two players', icon: 'people' }, { id: 'watch', label: 'Watch and learn', icon: 'eye' },
+          { id: 'level', label: `Computer: ${levelLabel()}`, icon: 'flag' },
+          ...(T.howToPlay.length ? [{ id: 'howto', label: 'How to play', icon: 'book' }] : []),
+          ...menu.items(),
         ],
       });
     };
 
     const renderRules = (ctx, W, H) => {
-      const sections = [];
-      if (T.howToPlay.length) sections.push({ h: 'How to play', steps: T.howToPlay });
-      if (T.rules.length) sections.push({ h: 'Rules', bullets: T.rules });
-      if (T.heritage) sections.push({ h: 'About the tradition', para: T.heritage, italic: true });
-      const r = ui.rulesCard(ctx, W, H, { title: T.title, sections, scroll: state.scroll });
+      const r = menu.render(ctx, W, H, state.scroll);
       maxScroll = r.maxScroll; state.scroll = r.scroll;
     };
 
@@ -329,6 +337,8 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
       update,
       render,
       nodePoint,
+      // Free-preview timer (kit preview.js): only a real game against the computer or a friend counts; title, menus, watch mode and the finished board are free.
+      isPreviewExempt: () => state.scene !== 'play' || state.mode === 'watch' || autoplay || state.winner !== null,
       getState: () => ({ scene: state.scene, mode: state.mode, level: state.level, human: state.human, ply: state.ply, winner: state.winner, turn: state.game.turn, game: state.game }),
     };
   }

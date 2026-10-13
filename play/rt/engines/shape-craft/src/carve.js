@@ -1,11 +1,14 @@
 // carve: remove cells from a block to reveal a figure (subtractive), or cut (snip a folded sheet; symmetric partners go too).
 import { clamp, hash, rasterFigure, orbit, normIoU, starsFor } from './geom.js';
 import { tint, litEdge, rrect, rgba, mix, shadowed, shelf, lum } from './fx.js';
+import { drawSeat, drawTool, wallLift } from './scenes.js';
 
 export const CARVE_DEFAULTS = { mode: 'figure', figure: 'elephant', cols: 16, rows: 16, material: 'stone', color: '#8a8f86', cavity: '#14181d', symmetry: 'none', snips: 7, tolerance: 0.06, guide: true, chisels: 2, variation: 1 };
 
 export function createCarve(P, env) {
   const { rng, audio, fx } = env;
+  const SC = P.scene ?? {}, BK = SC.block ?? P.material, PM = SC.pitch ?? 1, WV = SC.wave ?? 'triangle';
+  const FXK = SC.fx ?? { kind: P.mode === 'cut' ? 'flake' : 'chip', c: null };
   let flashes = [], lastPtr = null;
   const { cols, rows } = P, total = cols * rows, cut = P.mode === 'cut';
   let kept, target, undo, done, geo = null, rects = null, tool = 1, drag = false, last = null, strokeRestore = false, acc = 0, clock = 0;
@@ -65,12 +68,14 @@ export function createCarve(P, env) {
       for (const [x, y] of orbit(cut ? P.symmetry : 'none', cc, rr, cols, rows)) { const v = remove ? 0 : 1; if (kept[at(x, y)] !== v) { kept[at(x, y)] = v; changed = true; } }
     }
     if (changed) {
-      audio?.tone({ freq: 150 + hash(c, r) * 90, to: 90, dur: 0.05, type: 'triangle', vol: 0.14 });
-      audio?.tone({ freq: 1500 + hash(c, r, 2) * 900, dur: 0.02, type: 'square', vol: 0.025 });
+      audio?.tone({ freq: (150 + hash(c, r) * 90) * PM, to: 90 * PM, dur: 0.05, type: WV, vol: 0.14 });
+      audio?.tone({ freq: (1500 + hash(c, r, 2) * 900) * PM, dur: 0.02, type: 'square', vol: 0.025 });
       if (geo && fx) {
         const col = cut ? P.color : cellColor(c, r), x = geo.x + (c + 0.5 * sz) * geo.cs, y = geo.y + (r + 0.5 * sz) * geo.cs;
-        fx.emit(cut ? 'flake' : 'chip', x, y, { count: cut ? 3 : 5, color: col, size: Math.max(2.5, geo.cs * 0.2), speed: 150, life: 0.6, gravity: 620, spread: 3.6, angle: -1.2 });
-        if (!cut) fx.emit('dust', x, y, { count: 2, color: tint(col, 0.2), size: Math.max(3, geo.cs * 0.3), speed: 40, life: 0.5, gravity: -20 });
+        const pc = FXK.c ?? col;
+        if (FXK.kind === 'dust') { fx.emit('dust', x, y, { count: 5, color: pc, size: Math.max(3, geo.cs * 0.45), speed: 55, life: 0.8, gravity: -14 }); fx.emit('chip', x, y, { count: 2, color: col, size: Math.max(2, geo.cs * 0.14), speed: 120, life: 0.5, gravity: 620, spread: 3.2, angle: -1.2 }); }
+        else { fx.emit(FXK.kind, x, y, { count: cut ? 3 : 5, color: pc, size: Math.max(2.5, geo.cs * 0.2), speed: 150, life: 0.6, gravity: FXK.kind === 'spark' ? 120 : 620, spread: 3.6, angle: -1.2 });
+          if (!cut && FXK.kind === 'chip') fx.emit('dust', x, y, { count: 2, color: tint(col, 0.2), size: Math.max(3, geo.cs * 0.3), speed: 40, life: 0.5, gravity: -20 }); }
         flashes.push({ c, r, t: clock, sz });
         if (flashes.length > 24) flashes.shift();
       }
@@ -94,9 +99,11 @@ export function createCarve(P, env) {
   };
 
   const cellColor = (c, r) => {
-    const h = hash(c, r), k = P.material;
+    const h = hash(c, r), k = BK === 'soapstone' ? 'stone' : BK;
     let f = 0;
-    if (k === 'wood') f = 0.1 * Math.sin(r * 1.1 + Math.sin(c * 0.35) * 1.6) + (h - 0.5) * 0.05;
+    if (k === 'wax') f = (h - 0.5) * 0.03 + 0.07 * Math.sin(r * 0.45 + c * 0.2);
+    else if (k === 'mud') f = (h - 0.5) * 0.14 + 0.05 * Math.sin(c * 1.3) * Math.cos(r * 1.1);
+    else if (k === 'wood') f = 0.1 * Math.sin(r * 1.1 + Math.sin(c * 0.35) * 1.6) + (h - 0.5) * 0.05;
     else if (k === 'stone') f = (h - 0.5) * 0.05 + 0.03 * Math.sin(c * 0.45 + r * 0.3) + (h > 0.96 ? -0.1 : 0);
     else if (k === 'metal') f = 0.15 * Math.sin((c + r) * 0.55) + (h - 0.5) * 0.04;
     else if (k === 'candy') f = (h - 0.5) * 0.06 + (h > 0.9 ? 0.12 : 0);
@@ -108,8 +115,23 @@ export function createCarve(P, env) {
   const drawBlock = (ctx, mask, x, y, cs, { detail, fillCavity, t = 0 }) => {
     const k = P.material, W = cs * cols, Hh = cs * rows;
     if (fillCavity) {
-      const cg = ctx.createLinearGradient(x, y, x + W, y + Hh); cg.addColorStop(0, tint(P.cavity, 0.12)); cg.addColorStop(1, tint(P.cavity, -0.25));
+      const cv = SC.cavity ?? 'dark';
+      const base0 = cv === 'dust' ? '#d9c4b4' : cv === 'mat' ? '#2a4434' : cv === 'mirror' ? '#a9c3d0' : P.cavity;
+      const cg = ctx.createLinearGradient(x, y, x + W, y + Hh); cg.addColorStop(0, tint(base0, 0.12)); cg.addColorStop(1, tint(base0, -0.25));
       ctx.fillStyle = cg; ctx.fillRect(x, y, W, Hh);
+      if (cv === 'mirror') {
+        for (let rr = 0; rr < rows; rr++) for (let c0 = 0; c0 < cols; c0++) {
+          if (mask[at(c0, rr)]) continue;
+          const px = x + c0 * cs, py = y + rr * cs, h1 = hash(c0, rr, 90);
+          const fg = ctx.createLinearGradient(px, py, px + cs, py + cs);
+          fg.addColorStop(0, h1 > 0.5 ? '#ffffff' : '#e3f1f8'); fg.addColorStop(0.5, h1 > 0.5 ? '#9dc0d2' : '#c8e0ec'); fg.addColorStop(1, h1 > 0.5 ? '#e6f3fa' : '#7ea1b6');
+          ctx.fillStyle = fg; ctx.fillRect(px, py, cs + 0.6, cs + 0.6);
+          if (detail) { ctx.strokeStyle = 'rgba(40,70,90,0.35)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(px + cs * h1, py); ctx.lineTo(px + cs * (1 - h1), py + cs); ctx.stroke(); }
+        }
+        if (detail) { const gx = x + ((t * 0.18) % 1.6 - 0.3) * W; const gl = ctx.createLinearGradient(gx, y, gx + W * 0.2, y + Hh * 0.4); gl.addColorStop(0, 'rgba(255,255,255,0)'); gl.addColorStop(0.5, 'rgba(255,255,255,0.5)'); gl.addColorStop(1, 'rgba(255,255,255,0)'); ctx.save(); ctx.beginPath(); for (let rr = 0; rr < rows; rr++) for (let c0 = 0; c0 < cols; c0++) if (!mask[at(c0, rr)]) ctx.rect(x + c0 * cs, y + rr * cs, cs, cs); ctx.clip(); ctx.fillStyle = gl; ctx.fillRect(x, y, W, Hh); ctx.restore(); }
+      } else if (cv === 'mat') {
+        ctx.strokeStyle = 'rgba(255,255,255,0.1)'; ctx.lineWidth = 1; ctx.beginPath(); for (let q = 0; q <= cols; q++) { ctx.moveTo(x + q * cs, y); ctx.lineTo(x + q * cs, y + Hh); } for (let q = 0; q <= rows; q++) { ctx.moveTo(x, y + q * cs); ctx.lineTo(x + W, y + q * cs); } ctx.stroke();
+      }
     }
     const open = (cc, rr) => cc < 0 || rr < 0 || cc >= cols || rr >= rows || !mask[at(cc, rr)];
     // shadows cast by raised material into the cavity (light from the upper left)
@@ -129,7 +151,21 @@ export function createCarve(P, env) {
       ctx.fillStyle = base; ctx.fillRect(px, py, cs + 0.6, cs + 0.6);
       if (!detail) continue;
       // material texture, continuous from cell to cell
-      if (k === 'wood') {
+      if (BK === 'wax') {
+        ctx.fillStyle = 'rgba(255,240,190,0.16)'; ctx.fillRect(px, py, cs, cs * 0.45);
+        ctx.fillStyle = 'rgba(120,60,0,0.10)'; ctx.fillRect(px + hash(c, r, 5) * cs * 0.5, py + cs * 0.55, cs * 0.5, cs * 0.3);
+        if (hash(c, r, 8) > 0.82) { ctx.fillStyle = 'rgba(255,255,255,0.35)'; ctx.fillRect(px + cs * 0.2, py + cs * 0.15, cs * 0.5, Math.max(1, cs * 0.08)); }
+      } else if (BK === 'mud') {
+        ctx.fillStyle = 'rgba(255,240,215,0.2)'; ctx.beginPath(); ctx.arc(px + cs * (0.25 + hash(c, r, 3) * 0.3), py + cs * (0.25 + hash(c, r, 4) * 0.3), cs * 0.2, 0, 6.2832); ctx.fill();
+        ctx.fillStyle = 'rgba(60,30,10,0.22)'; ctx.beginPath(); ctx.arc(px + cs * (0.55 + hash(c, r, 5) * 0.3), py + cs * (0.6 + hash(c, r, 6) * 0.3), cs * 0.18, 0, 6.2832); ctx.fill();
+        if (hash(c, r, 9) > 0.7) { ctx.strokeStyle = 'rgba(70,40,20,0.35)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(px + cs * 0.1, py + cs * 0.3); ctx.lineTo(px + cs * 0.9, py + cs * 0.4); ctx.stroke(); }
+      } else if (BK === 'soapstone') {
+        ctx.fillStyle = 'rgba(255,255,255,0.1)'; for (let q = 0; q < 2; q++) ctx.fillRect(px + hash(c, r, q + 20) * cs * 0.8, py + hash(c, r, q + 30) * cs * 0.8, Math.max(1, cs * 0.08), Math.max(1, cs * 0.08));
+        const v = Math.sin((c + r * 0.7) * 0.55) + Math.sin((c * 0.3 - r) * 0.8);
+        if (v > 1.2) { ctx.fillStyle = 'rgba(150,60,70,0.16)'; ctx.fillRect(px, py, cs, cs); }
+        else if (v < -1.35) { ctx.fillStyle = 'rgba(70,70,80,0.14)'; ctx.fillRect(px, py, cs, cs); }
+        ctx.strokeStyle = 'rgba(90,50,40,0.12)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(px, py + cs * hash(c, r, 12)); ctx.lineTo(px + cs, py + cs * hash(c, r, 13)); ctx.stroke();
+      } else if (k === 'wood') {
         ctx.strokeStyle = 'rgba(60,30,10,0.22)'; ctx.lineWidth = Math.max(0.8, cs * 0.05); ctx.beginPath();
         for (let g2 = 0; g2 < 3; g2++) { const gy = py + cs * (0.2 + g2 * 0.3) + Math.sin((c + g2 * 1.7) * 0.5 + r * 0.8) * cs * 0.12; ctx.moveTo(px, gy); ctx.lineTo(px + cs, gy + Math.sin((c + 1 + g2 * 1.7) * 0.5 + r * 0.8) * cs * 0.12 - Math.sin((c + g2 * 1.7) * 0.5 + r * 0.8) * cs * 0.12 + 0.01); }
         ctx.stroke();
@@ -192,12 +228,13 @@ export function createCarve(P, env) {
   const draw = (g, R, t) => {
     const { ctx, pal } = g;
     rects = R; clock = t;
-    const W0 = R.work, W = { x: W0.x, y: W0.y + 40, w: W0.w, h: W0.h - 40 }, cs = Math.max(4, Math.floor(Math.min((W.w - 24) / cols, (W.h - 24) / rows)));
+    const W0 = R.work, lift = SC.wall ? wallLift(W0) : 0, W = { x: W0.x, y: W0.y + 40 + lift, w: W0.w, h: W0.h - 40 - lift }, cs = Math.max(4, Math.floor(Math.min((W.w - 24) / (cols + 2), (W.h - 24) / (rows + 2))));
     const bx = Math.round(W.x + (W.w - cs * cols) / 2), by = Math.round(W.y + (W.h - cs * rows) / 2);
     geo = { x: bx, y: by, cs };
     // the block sits on the bench with a body (a plinth edge below and to the right) and a soft shadow
     const dp = Math.max(4, cs * 0.5);
-    shadowed(ctx, () => { ctx.fillStyle = cut ? '#0b0e12' : tint(P.color, -0.55); ctx.fillRect(bx - 4, by - 4, cs * cols + 8 + dp * 0.6, cs * rows + 8 + dp); }, { blur: 22, dy: 12, a: 0.55 });
+    drawSeat(ctx, SC.seat ?? 'bench', bx, by, cs * cols, cs * rows, cs, P.color, t);
+    shadowed(ctx, () => { ctx.fillStyle = cut ? '#0b0e12' : tint(P.color, -0.55); ctx.fillRect(bx - 4, by - 4, cs * cols + 8 + dp * 0.6, cs * rows + 8 + dp); }, { blur: 16, dy: 9, a: 0.5 });
     ctx.fillStyle = cut ? '#0b0e12' : tint(P.color, -0.5); ctx.fillRect(bx - 5, by - 5, cs * cols + 10, cs * rows + 10);
     ctx.strokeStyle = 'rgba(255,255,255,0.22)'; ctx.lineWidth = 1.5; ctx.strokeRect(bx - 4.5, by - 4.5, cs * cols + 9, cs * rows + 9);
     drawBlock(ctx, kept, bx, by, cs, { detail: true, fillCavity: true, t });
@@ -216,17 +253,19 @@ export function createCarve(P, env) {
       outlinePath(ctx, bx, by, cs); litEdge(ctx, pal.accent, Math.max(1.6, cs * 0.1), t);
     }
     // the working tool
-    if (!done && lastPtr && lastPtr.down && t - lastPtr.t < 0.25) drawChisel(ctx, lastPtr.x, lastPtr.y, t);
+    if (!done && lastPtr && lastPtr.down && t - lastPtr.t < 0.25) { if (SC.tool) drawTool(ctx, SC, SC.tool, lastPtr.x, lastPtr.y, Math.max(90, Math.min(150, cs * 9)), t, { c: SC.fx?.c, t }); else drawChisel(ctx, lastPtr.x, lastPtr.y, t); }
     // the reference
     const th = R.thumb, tcs = Math.max(2, Math.floor(Math.min((th.w - 16) / cols, (th.h - 16) / rows))), tx = th.x + (th.w - tcs * cols) / 2, ty = th.y + (th.h - tcs * rows) / 2;
     shadowed(ctx, () => { ctx.fillStyle = '#000'; ctx.fillRect(tx, ty, tcs * cols, tcs * rows); }, { blur: 10, dy: 5, a: 0.5 });
     drawBlock(ctx, target, tx, ty, tcs, { detail: tcs >= 5, fillCavity: true, t });
-    g.label(ctx, cut ? 'Tap cells to snip: partners on the fold are cut too' : P.guide ? 'Remove what lies outside the lit outline' : 'Remove everything that is not the figure', W0.x + W0.w / 2, W0.y + 26, g.px(24), pal.dim, 'center', '500');
+    const wd = SC.words ?? {};
+    g.label(ctx, cut ? (wd.hint ?? 'Tap cells to snip: partners on the fold are cut too') : P.guide ? (wd.hint ?? 'Remove what lies outside the lit outline') : (wd.hintBlind ?? 'Remove everything that is not the figure'), W0.x + W0.w / 2, W0.y + 26, g.px(22), pal.ink, 'center', '600');
   };
 
   const titleArt = (g, S, t) => {
     const { ctx } = g;
-    const cs = Math.max(4, Math.floor(Math.min(S.w * 0.84 / cols, S.h * 0.84 / rows))), bx = S.x + (S.w - cs * cols) / 2, by = S.y + (S.h - cs * rows) / 2;
+    const cs = Math.max(4, Math.floor(Math.min(S.w * 0.74 / cols, S.h * 0.74 / rows))), bx = S.x + (S.w - cs * cols) / 2, by = S.y + (S.h - cs * rows) / 2;
+    drawSeat(ctx, SC.seat ?? 'bench', bx, by, cs * cols, cs * rows, cs, P.color, t);
     if (cut) shadowed(ctx, () => { ctx.fillStyle = P.cavity; ctx.fillRect(bx, by, cs * cols, cs * rows); }, { blur: 28, dy: 16, a: 0.6 });
     else shadowed(ctx, () => {
       ctx.fillStyle = tint(P.color, -0.3); ctx.beginPath();
@@ -253,10 +292,10 @@ export function createCarve(P, env) {
   };
 
   return {
-    init, items, control, work, draw, attract, titleArt, surface: cut ? 'mat' : 'wood', surfaceTint: cut ? '#2f4a3a' : '#8a5f38', result: () => done,
+    init, items, control, work, draw, attract, titleArt, result: () => done,
     score: () => score().score,
     info: () => [`Block: ${cols} by ${rows}`, cut ? `Fold: ${P.symmetry}` : (P.chisels > 1 ? 'Chisels: fine and broad' : 'One chisel')],
-    caption: cut ? 'Cut this design' : 'Carve this figure',
+    caption: SC.words?.caption ?? (cut ? 'Cut this design' : 'Carve this figure'),
     hint() {
       const c = target.findIndex((v, i) => kept[i] && !v);
       if (c >= 0) return `Remove the cell in column ${(c % cols) + 1}, row ${Math.floor(c / cols) + 1}.`;

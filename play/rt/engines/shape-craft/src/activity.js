@@ -9,14 +9,18 @@ import { createFold, FOLD_DEFAULTS, drawFoldIcon } from './fold.js';
 import { createCoil, COIL_DEFAULTS } from './coil.js';
 import { createKnot, KNOT_DEFAULTS } from './knot.js';
 import { createBend, BEND_DEFAULTS } from './bend.js';
-import { createFx, surface, displayCase, caseGlass, shadowed, rrect, tint, rgba, mix, lum } from './fx.js';
+import { createFx, caseGlass, shadowed, rrect, tint, rgba, mix, lum } from './fx.js';
+import { resolveScene, splitWork, drawGround, drawDock, drawFrame, drawStage } from './scenes.js';
 
 export const TECHNIQUES = ['lathe', 'carve', 'cut', 'fold', 'coil', 'knot', 'bend'];
 
-export function createActivity(userParams, env0) {
+export function createActivity(userParams0, env0) {
+  let userParams = userParams0;
   const technique = TECHNIQUES.includes(userParams.technique) ? userParams.technique : 'lathe';
   const fx = createFx();
   const env = { ...env0, fx };
+  const scene = resolveScene(userParams, env0.text, technique);
+  userParams = { ...userParams, scene };
   const make = {
     lathe: () => createLathe({ ...LATHE_DEFAULTS, ...userParams }, env),
     carve: () => createCarve({ ...CARVE_DEFAULTS, ...userParams, mode: 'figure' }, env),
@@ -122,12 +126,14 @@ export function createActivity(userParams, env0) {
       const L = layout;
       // work surface and the display case that holds the reference
       const wk = { x: L.work.x + 2, y: L.work.y + 2, w: L.work.w - 4, h: L.work.h - 4 };
-      surface(ctx, wk, tech.surface ?? 'wood', mix(pal.bg, tech.surfaceTint ?? '#7a5a38', 0.45));
-      const inner = displayCase(ctx, L.thumb, pal.accent, pal.bg);
-      tech.draw(g, { work: L.work, thumb: inner }, clock);
-      caseGlass(ctx, inner);
+      const parts = splitWork(wk);
+      drawGround(ctx, scene, wk, clock);
+      drawDock(ctx, scene, parts.dock, clock);
+      const fr = drawFrame(ctx, scene, L.thumb, pal);
+      tech.draw(g, { work: parts.work, thumb: fr.inner }, clock);
+      if (fr.glass) caseGlass(ctx, fr.inner);
       fx.draw(ctx);
-      g.label(ctx, tech.caption, L.thumb.x - 4, L.thumb.y - 26, g.px(24), pal.accent, 'left', '700');
+      g.label(ctx, scene.words?.caption ?? tech.caption, L.thumb.x - 4, L.thumb.y - 26, g.px(24), pal.accent, 'left', '700');
       let y = L.info.y + g.px(14);
       for (const line of tech.info()) { for (const l of g.wrap(ctx, line, L.info.w, g.px(26))) { g.label(ctx, l, L.info.x, y, g.px(26), pal.ink, 'left', '500'); y += g.px(34); } }
       for (const b of L.ctrl) drawItem(g, b, press === b.id);
@@ -137,10 +143,13 @@ export function createActivity(userParams, env0) {
       const { ctx } = g, tt = t ?? clock;
       ctx.save();
       const cx = rect.x + rect.w / 2, cy = rect.y + rect.h / 2, S = Math.min(rect.w, rect.h);
-      const glow = ctx.createRadialGradient(cx, cy - S * 0.1, S * 0.05, cx, cy, S * 0.65);
-      glow.addColorStop(0, rgba(pal.accent, 0.32)); glow.addColorStop(1, rgba(pal.accent, 0));
-      ctx.fillStyle = glow; ctx.fillRect(rect.x - S * 0.1, rect.y - S * 0.1, rect.w + S * 0.2, rect.h + S * 0.2);
-      tech.titleArt?.(g, { x: cx - S / 2, y: cy - S / 2, w: S, h: S }, tt);
+      const sw = Math.min(rect.w, rect.h * 1.15), sh = Math.min(rect.h, sw * 1.05);
+      const st = drawStage(ctx, scene, { x: cx - sw / 2, y: cy - sh / 2, w: sw, h: sh }, tt);
+      const A = Math.min(st.w, st.h) * 0.96;
+      ctx.save(); rrect(ctx, st.x, st.y, st.w, st.h, 16); ctx.clip();
+      tech.titleArt?.(g, { x: st.x + (st.w - A) / 2, y: st.y + (st.h - A) / 2 + st.h * 0.02, w: A, h: A }, tt);
+      ctx.restore();
+      void S;
       ctx.restore();
     },
     status: () => ({ score: tech.score(), max: 100, label: tech.caption }),

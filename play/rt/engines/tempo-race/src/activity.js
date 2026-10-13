@@ -1,6 +1,8 @@
 // Tempo Race activity (docs/ENGINE-CONTRACT.md "Activity engines"): real-time races where timing, rhythm and pacing decide
 // the result. Model in model.js, drawing in draw.js. Deterministic: randomness only via env.rng, time only via dt.
 import { resolve, createPlayer, createBot, createLead, reference, createRivals, placePoints, heatStars, heatScore, qualityOf, leadShare, windShift, curveAt, bendAt, roughAt } from './model.js';
+import { kitOf, createKit, padSurface } from './kits.js';
+import { voice, fx } from '../../../platform/engine-kit/synth.js';
 import { hash, shade, scenery, texture, racer, checker, leadObject, trail, speedLines, gantry, confetti } from './draw.js';
 
 const RIVAL_COLORS = ['#e0603a', '#f2c14e', '#58c27d', '#b07be0', '#ef8fb5', '#4fc3d9', '#d8d8d8'];
@@ -11,7 +13,9 @@ const fmtTime = (t) => (t >= 60 ? `${Math.floor(t / 60)}:${(t % 60).toFixed(1).p
 export function createActivity(userParams, env) {
   const P = resolve(userParams);
   const { rng, palette: pal } = env;
-  const C = P.course, V = P.vehicle, kind = V.kind, N = P.opponents.count, L = C.length, cols = P.colors;
+  const KIT = createKit(kitOf(P, env.text?.title));
+  const C = KIT ? { ...P.course, scenery: KIT.scenery } : P.course;
+  const V = P.vehicle, kind = V.kind, N = P.opponents.count, L = C.length, cols = KIT ? { ...P.colors, ...KIT.colors, ...(userParams.colors ?? {}) } : P.colors;
   const lanes = C.lanes, playerLane = Math.floor(lanes / 2);
   let pl, bot, rivals, ref, heat, heats, phase, cd, linger, between, done, layout = null, padDown, prevKey, lastBeat, tip, lead = null, caughtFlash = 0;
   let finT = 0, streak = 0, streakT = 0, strokeFx = null, lastSide = 0, titleT = 0;
@@ -32,6 +36,25 @@ export function createActivity(userParams, env) {
   init();
 
   const tone = (o) => env.audio?.tone?.(o);
+  // Natural race sounds (platform/engine-kit/synth.js), by what the racer touches: clogs clop, hooves thud, blades scrape,
+  // wheels roll, buffalo splash through mud, paddles dip. The kit's raw tone stays as the fallback.
+  const A = env.audio, nat = () => !!A?.context;
+  const kitId = KIT ? kitOf(P, env.text?.title) : '';
+  const stroke = (grade) => {
+    if (!nat()) return false;
+    const v = grade === 'perfect' ? 0.85 : grade === 'miss' ? 0.4 : 0.65;
+    if (grade === 'miss') { fx(A, 'bad', { hz: 170, vel: 0.35 }); return true; }
+    switch (kitId) {
+      case 'bakiak': fx(A, 'impact', { mat: 'wood', hz: grade === 'perfect' ? 300 : 230, vel: v }); break;
+      case 'camel': fx(A, 'thud', { hz: 85, vel: v }); fx(A, 'scrape', { hz: 900, dur: 0.1, vel: 0.5, delay: 0.02 }); break;
+      case 'skate': fx(A, 'scrape', { hz: grade === 'perfect' ? 3800 : 3000, dur: 0.16, vel: v * 1.2 }); fx(A, 'tick', { hz: 2400, vel: 0.3 }); break;
+      case 'cheese': fx(A, 'impact', { mat: 'stone', vel: v * 0.8 }); fx(A, 'scrape', { hz: 700, dur: 0.12, vel: 0.5 }); break;
+      case 'kambala': fx(A, 'splash', { vel: v * 0.8 }); fx(A, 'thud', { hz: 75, vel: v * 0.8 }); break;
+      case 'nouka': fx(A, 'splash', { vel: v * 0.55 }); fx(A, 'scrape', { hz: 1500, dur: 0.14, vel: 0.5 }); break;
+      default: fx(A, 'impact', { mat: 'wood', vel: v });
+    }
+    return true;
+  };
   const placeNow = () => {
     const m = pl.m; let p = 1;
     for (const r of rivals) { if (r.fin !== null || r.pos(m.rt) > m.x) p++; }
@@ -68,7 +91,7 @@ export function createActivity(userParams, env) {
     const score = time === null ? Math.round(10 * quality) : heatScore(P, place, N, rhythm, share);
     heats[heat] = { place, time, rhythm, stars, score, clean: m.clean, hits: m.stumbles, lead: share, caught: m.caught };
     phase = 'finish'; linger = 2.4;
-    tone({ freq: 523, to: 784, dur: 0.3, type: 'triangle' });
+    if (nat()) { fx(A, 'chime', { hz: 784, vel: 0.8 }); fx(A, 'sparkle', { hz: 1320, vel: 0.6, delay: 0.2 }); } else tone({ freq: 523, to: 784, dur: 0.3, type: 'triangle' });
   };
 
   const idle = { stroke: 0, down: false, pressed: false, released: false, side: 0 };
@@ -98,8 +121,8 @@ export function createActivity(userParams, env) {
     const m = pl.m;
     if (phase === 'ready') {
       const before = cd; cd -= dt;
-      for (const mark of [1.8, 1.0, 0.2]) if (before > mark && cd <= mark) tone({ freq: 330, dur: 0.1, type: 'triangle', vol: 0.5 });
-      if (cd <= 0) { phase = 'race'; tone({ freq: 660, dur: 0.25, type: 'triangle' }); }
+      for (const mark of [1.8, 1.0, 0.2]) if (before > mark && cd <= mark) { if (nat()) fx(A, 'tick', { hz: 900, vel: 0.8 }); else tone({ freq: 330, dur: 0.1, type: 'triangle', vol: 0.5 }); }
+      if (cd <= 0) { phase = 'race'; if (nat()) { voice(A, 'bell', { hz: 880, dur: 0.8, vel: 0.7 }); fx(A, 'whoosh', { vel: 0.4, dur: 0.3 }); } else tone({ freq: 660, dur: 0.25, type: 'triangle' }); }
       return;
     }
     if (phase === 'between') {
@@ -117,12 +140,14 @@ export function createActivity(userParams, env) {
       strokeFx = { t: 0, grade: m.event.grade, pad: m.event.side === 1 ? 1 : 0 };
       if (m.event.grade === 'perfect' || m.event.grade === 'good') { streak++; streakT = 0; } else streak = 0;
     } else if (m.event?.type === 'hit') streak = 0;
-    if (m.leadEvent === 'caught') { caughtFlash = 1.8; tone({ freq: 523, to: 1047, dur: 0.35, type: 'triangle' }); }
-    if (m.event?.type === 'hit') tone({ freq: 140, dur: 0.18, type: 'sawtooth', vol: 0.5 });
+    if (m.leadEvent === 'caught') { caughtFlash = 1.8; if (nat()) fx(A, 'sparkle', { hz: 1175, vel: 0.7 }); else tone({ freq: 523, to: 1047, dur: 0.35, type: 'triangle' }); }
+    if (m.event?.type === 'hit') { if (nat()) { fx(A, 'impact', { mat: 'stone', vel: 0.9 }); fx(A, 'thud', { hz: 60, vel: 0.7, delay: 0.01 }); } else tone({ freq: 140, dur: 0.18, type: 'sawtooth', vol: 0.5 }); }
+    else if (m.event?.type === 'stroke' && stroke(m.event.grade)) { /* natural */ }
+    else if (m.event?.type === 'stroke' && KIT) tone(KIT.tone.stroke(m.event.grade));
     else if (m.event?.type === 'stroke') tone({ freq: m.event.grade === 'perfect' ? 620 : m.event.grade === 'miss' ? 150 : 460, dur: 0.06, type: 'triangle', vol: 0.5 });
     if (playing && P.rhythm.drum && kind !== 'sailor') {
       const b = Math.floor(m.rt / pl.T);
-      if (b > lastBeat) { lastBeat = b; tone({ freq: 96, dur: 0.09, type: 'sine', vol: 0.35 }); }
+      if (b > lastBeat) { lastBeat = b; if (nat()) fx(A, 'thud', { hz: 78, vel: 0.35 }); else tone({ freq: 96, dur: 0.09, type: 'sine', vol: 0.35 }); }
     }
     if (playing) {
       if (m.finished) finishHeat(m.rt - (m.x - L) / Math.max(1, m.v));
@@ -204,7 +229,7 @@ export function createActivity(userParams, env) {
 
   const renderAll = (g, area) => {
     const { ctx } = g;
-    const regH = clamp(area.h * 0.27, 150, 270), gap = 6;
+    const regH = clamp(area.h * (KIT?.regF ?? 0.27), 120, 270), gap = 6;
     const view = { x: area.x, y: area.y, w: area.w, h: area.h - regH - gap };
     const rowH = 38, padY = area.y + view.h + gap + rowH, padH = regH - rowH;
     const two = V.pads === 2;
@@ -251,7 +276,7 @@ export function createActivity(userParams, env) {
     const m = pl.m;
     const title = !!S;
     const tNow = title ? titleT : m.rt;
-    const portrait = V0.h >= V0.w * 0.9;
+    const portrait = KIT?.orient === 'right' ? false : V0.h >= V0.w * 0.9;
     const along = portrait ? V0.h : V0.w, cross = portrait ? V0.w : V0.h;
     const laneW = Math.min((cross * 0.78) / lanes, along * 0.2, 150);
     const trackW = laneW * lanes;
@@ -282,6 +307,7 @@ export function createActivity(userParams, env) {
         texture(ctx, 'grass', x, y, laneW * 0.5, r, tuft);
       }
     }
+    if (KIT?.decor) KIT.decor({ ctx, g, proj, sBack, sFwd, trackW, laneW, t: tNow });
     // far parallax scenery (smaller, slower, lighter), then the near layer after the track
     const layer = (par, spacing, off0, sizeMul, seed, haze) => {
       const first = Math.floor((camS + (sBack - camS) / par) / spacing) - 1, last = Math.ceil((camS + (sFwd - camS) / par) / spacing) + 1;
@@ -370,6 +396,7 @@ export function createActivity(userParams, env) {
       const off = (r.lane + 0.5 - lanes / 2 + r.lat) * laneW;
       const [x, y] = proj(r.s, off), [x0, y0] = proj(r.s - 0.6, off), [x1, y1] = proj(r.s + 0.6, off);
       const ang = Math.atan2(y1 - y0, x1 - x0);
+      if (KIT?.under) KIT.under(ctx, x, y, ang, rs);
       if (r.me && !title) drawMarker(ctx, x, y, rs);
       racer(ctx, kind, x, y, ang, rs, r.color, phaseOf(r) + (title ? tNow * 4 : 0), exFor(r, tNow));
     }
@@ -602,15 +629,17 @@ export function createActivity(userParams, env) {
     const names = V.pads === 2 ? [P.labels.left, P.labels.right] : [P.labels.tap];
     pads.forEach((pd, i) => {
       const side = V.pads === 2 ? (i === 0 ? -1 : 1) : 0;
-      const base = side === -1 ? '#2b4a66' : side === 1 ? '#5a3a66' : '#2d4a58';
+      const base = KIT ? KIT.pad.colors[side === -1 ? 0 : side === 1 ? 1 : 2] : side === -1 ? '#2b4a66' : side === 1 ? '#5a3a66' : '#2d4a58';
+      const prad = KIT ? KIT.pad.radius : 18;
       const lit = padDown && (side === 0 || (lastSide === side));
-      g.rr(ctx, pd.x, pd.y + 3, pd.w, pd.h, 18); ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.fill();
-      g.rr(ctx, pd.x, pd.y, pd.w, pd.h, 18);
+      g.rr(ctx, pd.x, pd.y + 3, pd.w, pd.h, prad); ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.fill();
+      g.rr(ctx, pd.x, pd.y, pd.w, pd.h, prad);
       ctx.fillStyle = linG(ctx, 0, pd.y, 0, pd.y + pd.h, [[0, shade(base, lit ? 0.5 : 0.28)], [1, shade(base, lit ? 0 : -0.3)]]); ctx.fill();
       ctx.strokeStyle = 'rgba(255,255,255,0.35)'; ctx.lineWidth = 2; ctx.stroke();
       // fine diagonal weave, like a drum skin
-      ctx.save(); g.rr(ctx, pd.x, pd.y, pd.w, pd.h, 18); ctx.clip(); ctx.strokeStyle = 'rgba(255,255,255,0.05)'; ctx.lineWidth = 1;
-      for (let x = pd.x - pd.h; x < pd.x + pd.w; x += 14) { ctx.beginPath(); ctx.moveTo(x, pd.y + pd.h); ctx.lineTo(x + pd.h, pd.y); ctx.stroke(); }
+      ctx.save(); g.rr(ctx, pd.x, pd.y, pd.w, pd.h, prad); ctx.clip(); ctx.strokeStyle = 'rgba(255,255,255,0.05)'; ctx.lineWidth = 1;
+      if (KIT) padSurface(ctx, KIT.pad.weave, pd.x, pd.y, pd.w, pd.h, m.rt);
+      else for (let x = pd.x - pd.h; x < pd.x + pd.w; x += 14) { ctx.beginPath(); ctx.moveTo(x, pd.y + pd.h); ctx.lineTo(x + pd.h, pd.y); ctx.stroke(); }
       ctx.restore();
       g.label(ctx, names[i] ?? '', pd.x + pd.w / 2, pd.y + pd.h - 22, g.px(22), '#fff', 'center', '800');
     });

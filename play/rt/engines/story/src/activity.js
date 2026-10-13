@@ -4,6 +4,9 @@
 // scene graph ends in an ending that sets 0-3 stars. All art is drawn from primitives; all text comes from params.
 import { mix, dark, light, alpha, vgrad, rrPath } from './figures.js';
 import { drawSceneArt } from './stages.js';
+import { THEATRES } from './theatres.js';
+import { resolveSkin, soundSet, drawCard, drawNamePlate, drawPlaque, drawMedallion, drawBead } from './skins.js';
+import { voice, fx } from '../../../platform/engine-kit/synth.js';
 
 export const STAGES = ['shadow', 'marionette', 'glove', 'water', 'mask', 'caravan', 'verse'];
 export const SLOTS = { left: 0.2, midleft: 0.36, center: 0.5, midright: 0.64, right: 0.8 };
@@ -37,7 +40,7 @@ const hash = (n) => fract(Math.sin(n * 127.1 + 311.7) * 43758.5453);
 
 // The setting picks props and dressing (gunungan, tulip arch, marigold garlands, bamboo pavilion ...). It is read from
 // params.setting, or guessed from the title / cast so that games written before it existed still look distinct.
-const SETTINGS = ['generic', 'wayang', 'karagoz', 'kathputli', 'yokethe', 'bohemian', 'aragoz', 'vietnam', 'commedia', 'silkroad', 'sahel', 'persian', 'malagasy'];
+export const SETTINGS = ['generic', 'wayang', 'karagoz', 'kathputli', 'yokethe', 'bohemian', 'aragoz', 'vietnam', 'commedia', 'silkroad', 'sahel', 'persian', 'malagasy'];
 function inferSetting(P, title) {
   if (P.setting && SETTINGS.includes(P.setting)) return P.setting;
   const hay = `${title ?? ''} ${Object.values(P.cast ?? {}).map((c) => c.name).join(' ')} ${Object.keys(P.cast ?? {}).join(' ')}`.toLowerCase();
@@ -55,11 +58,21 @@ function inferSetting(P, title) {
 export function createActivity(userParams, env) {
   const P = { ...DEFAULTS, ...userParams };
   P.setting = inferSetting(P, env.text?.title);
-  P.look = { ...STAGE_LOOK[P.stage] ?? STAGE_LOOK.marionette, ...(P.look ?? {}) };
+  const TH = THEATRES[P.setting] ?? null;
+  P.look = { ...STAGE_LOOK[P.stage] ?? STAGE_LOOK.marionette, ...(TH?.look ?? {}), ...(P.look ?? {}) };
   const { palette: pal, audio } = env;
+  const skin = resolveSkin(TH?.skin, pal);
+  const snd = soundSet(skin.snd);
   const scenes = P.scenes;
   const meterDefs = P.meters;
   const tone = (o) => { try { audio?.tone(o); } catch { /* sound is optional */ } };
+  // natural voice when the shared synth graph exists (platform/engine-kit/synth.js), the plain tone otherwise
+  const play = (e) => {
+    try {
+      if (e.v && audio?.context) { if (e.v.fx ? fx(audio, e.v.fx, e.v.p) : voice(audio, e.v.voice, e.v.p)) return; }
+    } catch { /* sound is optional */ }
+    if (!audio?.context) tone(e.o);
+  };
 
   // ---- story graph helpers -------------------------------------------------------------------------------------
   const optionsOf = (scene) => {
@@ -122,7 +135,7 @@ export function createActivity(userParams, env) {
     return opts.map((o, i) => ({ ...o, enabled: any ? en[i] : true }));
   };
 
-  const sfx = (delay, o) => { V.sfx.push({ at: V.t + delay, o }); };
+  const sfx = (delay, o, v = null) => { V.sfx.push({ at: V.t + delay, o, v }); };
   const burst = (n, type, cols, y = 0.82) => {
     for (let i = 0; i < n; i++) {
       const h = hash(V.pc++);
@@ -134,7 +147,7 @@ export function createActivity(userParams, env) {
   const enterScene = (id) => {
     S.scene = id;
     const sc = scenes[id];
-    V.revealT = 0; V.scroll = 0; V.hover = -1; V.wait = 0; V.trans = S.steps > 0 ? 1 : 0; V.endT = 0;
+    V.revealT = 0; V.voiceN = 0; V.scroll = 0; V.hover = -1; V.wait = 0; V.trans = S.steps > 0 ? 1 : 0; V.endT = 0;
     if (sc?.verse) { S.poem.push(sc.verse); V.lineAge = 0; }
     if (sc?.stop != null) S.stop = sc.stop;
     const on = new Set((sc?.on ?? []).map((e) => e.who));
@@ -147,20 +160,19 @@ export function createActivity(userParams, env) {
     if (isEnd(id)) {
       S.ending = P.endings.find((e) => meetsWhen(e.when, S)) ?? P.endings[P.endings.length - 1];
       const n = clamp(S.ending.stars ?? 0, 0, 3);
-      for (let k = 0; k < n; k++) sfx(0.35 + 0.42 * k + 0.5, { freq: 523 * Math.pow(1.26, k), to: 523 * Math.pow(1.26, k) * 1.5, dur: 0.28, type: 'triangle', vol: 0.4 });
-      sfx(0.2, { freq: 330, to: 660, dur: 0.3, type: 'triangle', vol: 0.4 });
+      for (let k = 0; k < n; k++) for (const e of snd.star(k)) sfx(0.85 + 0.42 * k + e.at, e.o, e.v);
+      for (const e of (n > 0 ? snd.good(2) : snd.bad())) sfx(0.2 + e.at, e.o, e.v);
       V.crowd.cheer = n > 0 ? 1 : 0.4; V.crowd.mood = n > 0 ? 1 : -1;
       if (n > 0) burst(14, 'star', ['#ffe27a', '#fff3b0', '#ffb23a']);
     } else {
-      const shadowy = P.stage === 'shadow';
-      tone({ freq: shadowy ? 196 : 523, to: shadowy ? 160 : 392, dur: 0.12, type: shadowy ? 'triangle' : 'square', vol: 0.18 });
+      for (const e of snd.scene(S.steps)) sfx(e.at, e.o, e.v);
     }
   };
 
   const init = () => {
     S = { scene: P.start, meters: {}, flags: [], pts: 0, poem: [], stop: 0, steps: 0, ending: null, log: [] };
     for (const m of meterDefs) S.meters[m.id] = m.start ?? 0;
-    V = { t: 0, revealT: 0, scroll: 0, hover: -1, wait: 0, figs: {}, flash: [], down: null, ready: false, trans: 0, endT: 0, lineAge: 9, crowd: { cheer: 0, mood: 0 }, parts: [], pc: 1, sfx: [], ptr: null };
+    V = { voiceN: 0, t: 0, revealT: 0, scroll: 0, hover: -1, wait: 0, figs: {}, flash: [], down: null, ready: false, trans: 0, endT: 0, lineAge: 9, crowd: { cheer: 0, mood: 0 }, parts: [], pc: 1, sfx: [], ptr: null };
     done = null; tip = '';
     enterScene(P.start);
   };
@@ -177,7 +189,7 @@ export function createActivity(userParams, env) {
       if (real) {
         net += real;
         V.flash.push({ m, d: real, age: 0 });
-        sfx(0.12, { freq: real > 0 ? 600 : 220, to: real > 0 ? 900 : 160, dur: 0.14, type: 'triangle', vol: 0.22 });
+        sfx(0.12, { freq: real > 0 ? 600 : 220, to: real > 0 ? 900 : 160, dur: 0.14, type: 'triangle', vol: 0.22 }, real > 0 ? { fx: 'good', p: { hz: 700, vel: 0.6 } } : { fx: 'bad', p: { hz: 230, vel: 0.6 } });
       }
     }
     for (const f of o.set ?? []) if (!S.flags.includes(f)) S.flags.push(f);
@@ -210,12 +222,12 @@ export function createActivity(userParams, env) {
     if (good) {
       burst(10 + Math.min(8, (o.pts ?? 0) * 2), 'star', ['#ffe27a', '#fff3b0', '#ffb23a']);
       burst(4, 'heart', ['#ff7a8a', '#ff9eb0']);
-      for (let k = 0; k < 7; k++) sfx(0.05 + k * 0.045, { freq: 900 + hash(V.pc + k) * 900, dur: 0.03, type: 'square', vol: 0.05 });
-      sfx(0, { freq: 523, to: 784, dur: 0.14, type: 'triangle', vol: 0.3 });
+      sfx(0.05, { freq: 1200, dur: 0.03, type: 'square', vol: 0.05 }, { fx: 'sparkle', p: { hz: 1400 + hash(V.pc) * 700, vel: 0.6 } });
+      for (const e of snd.good(o.pts ?? 0)) sfx(e.at, e.o, e.v);
     } else if (bad) {
       burst(3, 'puff', ['#e0a0a0']);
-      sfx(0, { freq: 260, to: 170, dur: 0.22, type: 'triangle', vol: 0.3 });
-    } else tone({ freq: 440, dur: 0.05, type: 'triangle', vol: 0.25 });
+      for (const e of snd.bad()) sfx(e.at, e.o, e.v);
+    } else for (const e of snd.neutral()) sfx(e.at, e.o, e.v);
     enterScene(o.next);
   };
 
@@ -239,6 +251,10 @@ export function createActivity(userParams, env) {
 
   const tick = (dt) => {
     V.t += dt; V.revealT += dt; V.endT += dt; V.lineAge += dt;
+    if (skin.voice && V.revealT > 0) { // the speaking voice: a quiet blip every few typed characters
+      const n = Math.min(Math.floor(V.revealT * P.speed), totalChars()), step = Math.floor(n / skin.voice);
+      if (step > V.voiceN) { V.voiceN = step; for (const e of snd.voice(step)) sfx(e.at, e.o, e.v); }
+    }
     V.trans = Math.max(0, V.trans - dt * 3.2);
     V.crowd.cheer = Math.max(0, V.crowd.cheer - dt * 0.55);
     const sc = scenes[S.scene] ?? {};
@@ -258,7 +274,7 @@ export function createActivity(userParams, env) {
     V.parts = V.parts.filter((p) => p.age < p.life);
     if (V.sfx.length) {
       const due = V.sfx.filter((e) => e.at <= V.t);
-      if (due.length) { V.sfx = V.sfx.filter((e) => e.at > V.t); for (const e of due) tone(e.o); }
+      if (due.length) { V.sfx = V.sfx.filter((e) => e.at > V.t); for (const e of due) play(e); }
     }
   };
 
@@ -290,7 +306,7 @@ export function createActivity(userParams, env) {
       kind: P.stage, setting: P.setting, L: P.look, bg: sc.bg ?? 'stage', t: V.t, figs, poem: S.poem, route: P.route, stop: S.stop,
       spotX: spk && !spk.out ? clamp(spk.x, 0.1, 0.9) : null, crowd: V.crowd, parts: V.parts,
       endStars: isEnd(S.scene) && S.ending ? { n: clamp(S.ending.stars ?? 0, 0, 3), age: V.endT } : null,
-      trans: V.trans, lineAge: V.lineAge, opening: S.steps === 0 || isEnd(S.scene),
+      trans: V.trans, transKind: skin.trans, transCol: skin.transCol, lineAge: V.lineAge, opening: S.steps === 0 || isEnd(S.scene), speakerName: sc.speaker ?? null,
     };
   };
 
@@ -371,21 +387,17 @@ export function createActivity(userParams, env) {
     meterDefs.forEach((m, i) => {
       const x = metersRect.x + i * (cw + 6), v = S.meters[m.id] ?? 0, mx = m.max ?? 5;
       const cy = metersRect.y + metersRect.h / 2;
-      lacquer(ctx, x, metersRect.y, cw, metersRect.h, metersRect.h / 2, mix(pal.panel, '#000000', 0.15), { shadow: false, inner: 'rgba(255,255,255,0.08)' });
+      lacquer(ctx, x, metersRect.y, cw, metersRect.h, metersRect.h / 2, skin.meter.fill, { shadow: false, inner: skin.meter.edge });
       const lab = px(15);
       const label = m.label ?? m.id;
-      txt(ctx, label, x + 12, cy, lab, pal.ink, 'left', '700');
+      txt(ctx, label, x + 12, cy, lab, skin.meter.ink, 'left', '700');
       const bx = x + 12 + Math.min(cw * 0.42, label.length * lab * 0.62 + 8), bw = x + cw - 12 - bx;
       if (bw > 20) {
         if (mx <= 8) {
           const pw = bw / mx;
           for (let k = 0; k < mx; k++) {
             const bxk = bx + pw * (k + 0.5), r = Math.min(pw * 0.34, metersRect.h * 0.26);
-            if (k < v) {
-              const gg = ctx.createRadialGradient(bxk, cy, 0, bxk, cy, r * 2.2); gg.addColorStop(0, alpha(pal.accent, 0.4)); gg.addColorStop(1, alpha(pal.accent, 0)); ctx.fillStyle = gg; ctx.fillRect(bxk - r * 2.2, cy - r * 2.2, r * 4.4, r * 4.4);
-              const bg2 = ctx.createRadialGradient(bxk - r * 0.3, cy - r * 0.3, 0, bxk, cy, r); bg2.addColorStop(0, light(pal.accent, 0.6)); bg2.addColorStop(1, dark(pal.accent, 0.15)); ctx.fillStyle = bg2;
-            } else ctx.fillStyle = 'rgba(255,255,255,0.14)';
-            ctx.beginPath(); ctx.arc(bxk, cy, r, 0, Math.PI * 2); ctx.fill();
+            drawBead(ctx, skin, bxk, cy, r, k < v, V.t);
           }
         } else {
           rrPath(ctx, bx, cy - 5, bw, 10, 5); ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.fill();
@@ -400,31 +412,29 @@ export function createActivity(userParams, env) {
     let y = lowerRect.y - V.scroll;
     const cardX = lowerRect.x + 2, cardW = lowerRect.w - 4;
     // card
-    rrPath(ctx, cardX + 1, y + 3, cardW, textH, 16); ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.fill();
-    rrPath(ctx, cardX, y, cardW, textH, 16); ctx.fillStyle = vgrad(ctx, y, y + textH, [[0, light(pal.panel, 0.1)], [1, dark(pal.panel, 0.25)]]); ctx.fill();
-    rrPath(ctx, cardX + 0.75, y + 0.75, cardW - 1.5, textH - 1.5, 16); ctx.strokeStyle = alpha(pal.accent, 0.5); ctx.lineWidth = 1.5; ctx.stroke();
-    rrPath(ctx, cardX + 4, y + 4, cardW - 8, textH - 8, 12); ctx.strokeStyle = 'rgba(255,255,255,0.07)'; ctx.lineWidth = 1; ctx.stroke();
+    drawCard(ctx, skin, cardX, y, cardW, textH, V.t);
+    const inkC = skin.card.ink, hiC = skin.card.accent;
     let shown = Math.floor(V.revealT * P.speed);
     const tx = cardX + 16;
     let ty = y + 12;
     if (body.name) {
       const nw = Math.min(cardW - 32, (body.name.length * px(18) * 0.62) + 28);
-      lacquer(ctx, tx - 4, ty - 2, nw, nameH - 6, (nameH - 6) / 2, body.ending ? dark(pal.accent, 0.1) : mix('#7a3a18', pal.accent, 0.25), { shadow: false, inner: 'rgba(255,230,160,0.5)' });
-      txt(ctx, body.name, tx + 10, ty + (nameH - 6) / 2 - 2, px(18), body.ending ? '#1b1206' : '#fff1c8', 'left', '800', SERIF);
+      drawNamePlate(ctx, skin, tx - 4, ty - 2, nw, nameH - 6, body.ending);
+      txt(ctx, body.name, tx + 10, ty + (nameH - 6) / 2 - 2, px(18), body.ending ? '#1b1206' : skin.name.ink, 'left', '800', SERIF);
       ty += nameH;
     }
     for (const ln of lines) {
       const part = ln.slice(0, Math.max(0, shown)); shown -= ln.length + 1;
-      if (part) txt(ctx, part, tx, ty + fs * 0.66, fs, pal.ink, 'left', '400');
+      if (part) txt(ctx, part, tx, ty + fs * 0.66, fs, inkC, 'left', '400');
       ty += fs * 1.34;
     }
     if (plines.length) {
       ty += 6;
-      for (const ln of plines) { const part = ln.slice(0, Math.max(0, shown)); shown -= ln.length + 1; if (part) txt(ctx, part, tx, ty + px(21) * 0.66, px(21), pal.accent, 'left', '700', SERIF); ty += px(21) * 1.34; }
+      for (const ln of plines) { const part = ln.slice(0, Math.max(0, shown)); shown -= ln.length + 1; if (part) txt(ctx, part, tx, ty + px(21) * 0.66, px(21), hiC, 'left', '700', SERIF); ty += px(21) * 1.34; }
     }
     if (!revealed()) { // small "skip" hint caret while the voice is typing
       const bl = 0.5 + 0.5 * Math.sin(V.t * 8);
-      ctx.globalAlpha = 0.4 + 0.5 * bl; txt(ctx, '▾', cardX + cardW - 20, y + textH - 16, px(16), pal.accent, 'center', '700'); ctx.globalAlpha = 1;
+      ctx.globalAlpha = 0.4 + 0.5 * bl; txt(ctx, '▾', cardX + cardW - 20, y + textH - 16, px(16), hiC, 'center', '700'); ctx.globalAlpha = 1;
     }
     y += textH + gap;
     const hits = [];
@@ -440,17 +450,11 @@ export function createActivity(userParams, env) {
         const appear = clamp((V.revealT * P.speed - totalChars()) / 1 + 1, 0, 1); // plaques settle in once the voice finishes
         const lift = (1 - clamp((V.revealT - totalChars() / P.speed) * 5 - i * 0.4, 0, 1)) * 8;
         ctx.globalAlpha = (o.enabled ? 1 : 0.42) * (appear > 0 ? 1 : 0);
-        const base = o.end ? mix(pal.accent, '#8a5208', 0.15) : hot ? mix(pal.panel, pal.accent, 0.38) : mix(pal.panel, '#5a1c14', 0.3);
-        lacquer(ctx, x, y + lift, w, h, Math.min(18, h / 2), base, { hot, pressed, edge: o.end ? 'rgba(80,40,0,0.8)' : 'rgba(0,0,0,0.6)', inner: hot || o.end ? 'rgba(255,240,180,0.7)' : 'rgba(240,200,120,0.4)' });
-        const dk = o.end;
-        const ink = dk ? '#1b1206' : '#fff6e0';
+        drawPlaque(ctx, skin, x, y + lift, w, h, { hot, pressed, end: o.end });
+        const ink = o.end ? skin.plaque.inkEnd : skin.plaque.ink;
         if (opts.length > 1) {
           const br = Math.min(h * 0.3, px(17));
-          const bgd = ctx.createRadialGradient(x + 26 - br * 0.3, y + lift + h / 2 - br * 0.3, 1, x + 26, y + lift + h / 2, br);
-          bgd.addColorStop(0, '#fff0b8'); bgd.addColorStop(1, '#c48a1e');
-          ctx.fillStyle = bgd; ctx.beginPath(); ctx.arc(x + 26, y + lift + h / 2 + (pressed ? 2 : 0), br, 0, Math.PI * 2); ctx.fill();
-          ctx.strokeStyle = '#6a4208'; ctx.lineWidth = 1.5; ctx.stroke();
-          txt(ctx, String(i + 1), x + 26, y + lift + h / 2 + (pressed ? 2 : 0), br * 1.15, '#3a2204', 'center', '800', SERIF);
+          drawMedallion(ctx, skin, x + 26, y + lift + h / 2 + (pressed ? 2 : 0), br, String(i + 1), txt);
         }
         const wl = g.wrap(ctx, o.text, tw - 56, os);
         const startY = y + lift + h / 2 - ((wl.length - 1) * os * 1.26) / 2 + (pressed ? 2 : 0);

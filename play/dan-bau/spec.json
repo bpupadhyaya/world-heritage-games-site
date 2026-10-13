@@ -1,319 +1,452 @@
 {
- "engine": "rhythm",
- "params": {
-  "layout": "strings",
-  "mode": "follow",
-  "root": 131,
-  "scale": "pentatonic",
-  "loops": 2,
-  "tolerance": 1.35,
-  "lanes": [
-   {
-    "name": "H2 C4",
-    "id": "h2",
-    "cents": 1200,
-    "timbre": "string",
-    "wave": "triangle",
-    "dur": 1.4,
-    "color": "#7fb7c9",
-    "row": 0
-   },
-   {
-    "name": "H3 G4",
-    "id": "h3",
-    "cents": 1902,
-    "timbre": "string",
-    "wave": "triangle",
-    "dur": 1.4,
-    "color": "#8fc4a2",
-    "row": 0
-   },
-   {
-    "name": "H4 C5",
-    "id": "h4",
-    "cents": 2400,
-    "timbre": "string",
-    "wave": "triangle",
-    "dur": 1.4,
-    "color": "#c8d98a",
-    "row": 0
-   },
-   {
-    "name": "H5 E5",
-    "id": "h5",
-    "cents": 2786,
-    "timbre": "string",
-    "wave": "triangle",
-    "dur": 1.4,
-    "color": "#f0c75e",
-    "row": 0
-   },
-   {
-    "name": "H6 G5",
-    "id": "h6",
-    "cents": 3102,
-    "timbre": "string",
-    "wave": "triangle",
-    "dur": 1.4,
-    "color": "#f2a65a",
-    "row": 0
-   },
-   {
-    "name": "H7 Bb5",
-    "id": "h7",
-    "cents": 3369,
-    "timbre": "string",
-    "wave": "triangle",
-    "dur": 1.4,
-    "color": "#e7805f",
-    "row": 0
-   },
-   {
-    "name": "H8 C6",
-    "id": "h8",
-    "cents": 3600,
-    "timbre": "string",
-    "wave": "triangle",
-    "dur": 1.4,
-    "color": "#d65f7a",
-    "row": 0
-   },
-   {
-    "name": "H3 dn F4",
-    "id": "b3d",
-    "cents": 1700,
-    "timbre": "string",
-    "wave": "triangle",
-    "dur": 1.6,
-    "color": "#9d8bd6",
-    "row": 1
-   },
-   {
-    "name": "H4 up D5",
-    "id": "b4u",
-    "cents": 2600,
-    "timbre": "string",
-    "wave": "triangle",
-    "dur": 1.6,
-    "color": "#b58be0",
-    "row": 1
-   },
-   {
-    "name": "H6 up A5",
-    "id": "b6u",
-    "cents": 3300,
-    "timbre": "string",
-    "wave": "triangle",
-    "dur": 1.6,
-    "color": "#d68bd0",
-    "row": 1
-   }
-  ],
-  "songs": [
-   {
-    "name": "Harmonic ladder",
-    "bpm": 66,
-    "meter": 4,
-    "steps": [
-     {
-      "beat": 0,
-      "lane": "h2"
-     },
-     {
-      "beat": 1,
-      "lane": "h3"
-     },
-     {
-      "beat": 2,
-      "lane": "h4"
-     },
-     {
-      "beat": 3,
-      "lane": "h5"
-     },
-     {
-      "beat": 4,
-      "lane": "h6"
-     },
-     {
-      "beat": 5,
-      "lane": "h8"
-     },
-     {
-      "beat": 6,
-      "lane": "h6"
-     },
-     {
-      "beat": 7,
-      "lane": "h5"
-     },
-     {
-      "beat": 8,
-      "lane": "h4"
-     },
-     {
-      "beat": 9,
-      "lane": "h3"
-     },
-     {
-      "beat": 10,
-      "lane": "h2"
-     },
-     {
-      "beat": 11,
-      "lane": "h2"
-     }
+  "engine": "rhythm",
+  "params": {
+    "layout": "strings",
+    "mode": "follow",
+    "root": 131,
+    "scale": "pentatonic",
+    "loops": 2,
+    "tolerance": 1.35,
+    "lanes": [
+      {
+        "name": "H2 C4",
+        "id": "h2",
+        "cents": 1200,
+        "timbre": "string",
+        "wave": "triangle",
+        "dur": 1.4,
+        "color": "#7fb7c9",
+        "row": 0
+      },
+      {
+        "name": "H3 G4",
+        "id": "h3",
+        "cents": 1902,
+        "timbre": "string",
+        "wave": "triangle",
+        "dur": 1.4,
+        "color": "#8fc4a2",
+        "row": 0
+      },
+      {
+        "name": "H4 C5",
+        "id": "h4",
+        "cents": 2400,
+        "timbre": "string",
+        "wave": "triangle",
+        "dur": 1.4,
+        "color": "#c8d98a",
+        "row": 0
+      },
+      {
+        "name": "H5 E5",
+        "id": "h5",
+        "cents": 2786,
+        "timbre": "string",
+        "wave": "triangle",
+        "dur": 1.4,
+        "color": "#f0c75e",
+        "row": 0
+      },
+      {
+        "name": "H6 G5",
+        "id": "h6",
+        "cents": 3102,
+        "timbre": "string",
+        "wave": "triangle",
+        "dur": 1.4,
+        "color": "#f2a65a",
+        "row": 0
+      },
+      {
+        "name": "H7 Bb5",
+        "id": "h7",
+        "cents": 3369,
+        "timbre": "string",
+        "wave": "triangle",
+        "dur": 1.4,
+        "color": "#e7805f",
+        "row": 0
+      },
+      {
+        "name": "H8 C6",
+        "id": "h8",
+        "cents": 3600,
+        "timbre": "string",
+        "wave": "triangle",
+        "dur": 1.4,
+        "color": "#d65f7a",
+        "row": 0
+      },
+      {
+        "name": "H3 dn F4",
+        "id": "b3d",
+        "cents": 1700,
+        "timbre": "string",
+        "wave": "triangle",
+        "dur": 1.6,
+        "color": "#9d8bd6",
+        "row": 1
+      },
+      {
+        "name": "H4 up D5",
+        "id": "b4u",
+        "cents": 2600,
+        "timbre": "string",
+        "wave": "triangle",
+        "dur": 1.6,
+        "color": "#b58be0",
+        "row": 1
+      },
+      {
+        "name": "H6 up A5",
+        "id": "b6u",
+        "cents": 3300,
+        "timbre": "string",
+        "wave": "triangle",
+        "dur": 1.6,
+        "color": "#d68bd0",
+        "row": 1
+      }
+    ],
+    "songs": [
+      {
+        "name": "Harmonic ladder",
+        "bpm": 66,
+        "meter": 4,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "h2"
+          },
+          {
+            "beat": 1,
+            "lane": "h3"
+          },
+          {
+            "beat": 2,
+            "lane": "h4"
+          },
+          {
+            "beat": 3,
+            "lane": "h5"
+          },
+          {
+            "beat": 4,
+            "lane": "h6"
+          },
+          {
+            "beat": 5,
+            "lane": "h8"
+          },
+          {
+            "beat": 6,
+            "lane": "h6"
+          },
+          {
+            "beat": 7,
+            "lane": "h5"
+          },
+          {
+            "beat": 8,
+            "lane": "h4"
+          },
+          {
+            "beat": 9,
+            "lane": "h3"
+          },
+          {
+            "beat": 10,
+            "lane": "h2"
+          },
+          {
+            "beat": 11,
+            "lane": "h2"
+          }
+        ]
+      },
+      {
+        "name": "Lullaby-style line, free and slow",
+        "bpm": 54,
+        "meter": 4,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "h4",
+            "len": 2
+          },
+          {
+            "beat": 2,
+            "lane": "h6",
+            "len": 1
+          },
+          {
+            "beat": 3,
+            "lane": "b6u",
+            "len": 1
+          },
+          {
+            "beat": 4,
+            "lane": "h6",
+            "len": 1
+          },
+          {
+            "beat": 5,
+            "lane": "h5",
+            "len": 1
+          },
+          {
+            "beat": 6,
+            "lane": "h4",
+            "len": 2
+          },
+          {
+            "beat": 8,
+            "lane": "b4u",
+            "len": 1
+          },
+          {
+            "beat": 9,
+            "lane": "h4",
+            "len": 1
+          },
+          {
+            "beat": 10,
+            "lane": "h3",
+            "len": 1
+          },
+          {
+            "beat": 11,
+            "lane": "b3d",
+            "len": 1
+          },
+          {
+            "beat": 12,
+            "lane": "h2",
+            "len": 2
+          }
+        ]
+      },
+      {
+        "name": "Folk-song style with bends",
+        "bpm": 76,
+        "meter": 4,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "h4"
+          },
+          {
+            "beat": 0.5,
+            "lane": "b4u"
+          },
+          {
+            "beat": 1,
+            "lane": "h4"
+          },
+          {
+            "beat": 1.5,
+            "lane": "h5"
+          },
+          {
+            "beat": 2,
+            "lane": "h6"
+          },
+          {
+            "beat": 3,
+            "lane": "b6u"
+          },
+          {
+            "beat": 3.5,
+            "lane": "h6"
+          },
+          {
+            "beat": 4,
+            "lane": "h5"
+          },
+          {
+            "beat": 4.5,
+            "lane": "h4"
+          },
+          {
+            "beat": 5,
+            "lane": "b4u"
+          },
+          {
+            "beat": 6,
+            "lane": "h4"
+          },
+          {
+            "beat": 6.5,
+            "lane": "h3"
+          },
+          {
+            "beat": 7,
+            "lane": "b3d"
+          },
+          {
+            "beat": 7.5,
+            "lane": "h3"
+          },
+          {
+            "beat": 8,
+            "lane": "h2"
+          },
+          {
+            "beat": 9,
+            "lane": "h3"
+          },
+          {
+            "beat": 9.5,
+            "lane": "h4"
+          },
+          {
+            "beat": 10,
+            "lane": "h5"
+          },
+          {
+            "beat": 11,
+            "lane": "h6"
+          },
+          {
+            "beat": 12,
+            "lane": "h8"
+          }
+        ]
+      },
+      {
+        "id": "pentatonic-lullaby",
+        "name": "Pentatonic lullaby phrase, teaching figure",
+        "bpm": 60,
+        "meter": 4,
+        "length": 16,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "Vietnamese folk-music figure",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "H4 C5",
+            "len": 2
+          },
+          {
+            "beat": 2,
+            "lane": "H3 G4"
+          },
+          {
+            "beat": 3,
+            "lane": "H4 C5"
+          },
+          {
+            "beat": 4,
+            "lane": "H4 up D5",
+            "len": 2
+          },
+          {
+            "beat": 6,
+            "lane": "H4 C5"
+          },
+          {
+            "beat": 7,
+            "lane": "H3 G4"
+          },
+          {
+            "beat": 8,
+            "lane": "H3 dn F4"
+          },
+          {
+            "beat": 9,
+            "lane": "H3 G4"
+          },
+          {
+            "beat": 10,
+            "lane": "H2 C4",
+            "len": 2
+          },
+          {
+            "beat": 12,
+            "lane": "H3 G4",
+            "len": 2
+          },
+          {
+            "beat": 14,
+            "lane": "H2 C4",
+            "len": 2
+          }
+        ],
+        "note": "A slow phrase in the five-note scale used in Vietnamese folk singing, in the manner of a cradle song, with the single string bent up and down to colour the notes."
+      },
+      {
+        "id": "harmonic-call",
+        "name": "Harmonic call and answer, teaching figure",
+        "bpm": 72,
+        "meter": 4,
+        "length": 16,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "Vietnamese folk-music figure",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "H2 C4"
+          },
+          {
+            "beat": 1,
+            "lane": "H3 G4"
+          },
+          {
+            "beat": 2,
+            "lane": "H4 C5"
+          },
+          {
+            "beat": 3,
+            "lane": "H5 E5"
+          },
+          {
+            "beat": 4,
+            "lane": "H6 G5",
+            "len": 2
+          },
+          {
+            "beat": 6,
+            "lane": "H5 E5"
+          },
+          {
+            "beat": 7,
+            "lane": "H4 C5"
+          },
+          {
+            "beat": 8,
+            "lane": "H3 G4"
+          },
+          {
+            "beat": 9,
+            "lane": "H4 C5"
+          },
+          {
+            "beat": 10,
+            "lane": "H6 G5",
+            "len": 2
+          },
+          {
+            "beat": 12,
+            "lane": "H5 E5"
+          },
+          {
+            "beat": 13,
+            "lane": "H4 C5"
+          },
+          {
+            "beat": 14,
+            "lane": "H3 G4"
+          },
+          {
+            "beat": 15,
+            "lane": "H2 C4"
+          }
+        ],
+        "note": "A bright figure on the natural harmonics of the single string, rising up the harmonic series and then settling back to the open note."
+      }
     ]
-   },
-   {
-    "name": "Lullaby-style line, free and slow",
-    "bpm": 54,
-    "meter": 4,
-    "steps": [
-     {
-      "beat": 0,
-      "lane": "h4",
-      "len": 2
-     },
-     {
-      "beat": 2,
-      "lane": "h6",
-      "len": 1
-     },
-     {
-      "beat": 3,
-      "lane": "b6u",
-      "len": 1
-     },
-     {
-      "beat": 4,
-      "lane": "h6",
-      "len": 1
-     },
-     {
-      "beat": 5,
-      "lane": "h5",
-      "len": 1
-     },
-     {
-      "beat": 6,
-      "lane": "h4",
-      "len": 2
-     },
-     {
-      "beat": 8,
-      "lane": "b4u",
-      "len": 1
-     },
-     {
-      "beat": 9,
-      "lane": "h4",
-      "len": 1
-     },
-     {
-      "beat": 10,
-      "lane": "h3",
-      "len": 1
-     },
-     {
-      "beat": 11,
-      "lane": "b3d",
-      "len": 1
-     },
-     {
-      "beat": 12,
-      "lane": "h2",
-      "len": 2
-     }
-    ]
-   },
-   {
-    "name": "Folk-song style with bends",
-    "bpm": 76,
-    "meter": 4,
-    "steps": [
-     {
-      "beat": 0,
-      "lane": "h4"
-     },
-     {
-      "beat": 0.5,
-      "lane": "b4u"
-     },
-     {
-      "beat": 1,
-      "lane": "h4"
-     },
-     {
-      "beat": 1.5,
-      "lane": "h5"
-     },
-     {
-      "beat": 2,
-      "lane": "h6"
-     },
-     {
-      "beat": 3,
-      "lane": "b6u"
-     },
-     {
-      "beat": 3.5,
-      "lane": "h6"
-     },
-     {
-      "beat": 4,
-      "lane": "h5"
-     },
-     {
-      "beat": 4.5,
-      "lane": "h4"
-     },
-     {
-      "beat": 5,
-      "lane": "b4u"
-     },
-     {
-      "beat": 6,
-      "lane": "h4"
-     },
-     {
-      "beat": 6.5,
-      "lane": "h3"
-     },
-     {
-      "beat": 7,
-      "lane": "b3d"
-     },
-     {
-      "beat": 7.5,
-      "lane": "h3"
-     },
-     {
-      "beat": 8,
-      "lane": "h2"
-     },
-     {
-      "beat": 9,
-      "lane": "h3"
-     },
-     {
-      "beat": 9.5,
-      "lane": "h4"
-     },
-     {
-      "beat": 10,
-      "lane": "h5"
-     },
-     {
-      "beat": 11,
-      "lane": "h6"
-     },
-     {
-      "beat": 12,
-      "lane": "h8"
-     }
-    ]
-   }
-  ]
- }
+  }
 }

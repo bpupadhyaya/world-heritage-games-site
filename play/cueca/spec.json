@@ -288,6 +288,325 @@
       "lane": "pal"
      }
     ]
+   },
+   {
+    "id": "cueca-estructura",
+    "name": "Cueca, walk, brush and stamp",
+    "bpm": 160,
+    "meter": 6,
+    "length": 96,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Chilean national dance",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 1,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 3,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 4,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 5,
+      "lane": "Palmas"
+     },
+     {
+      "beat": 6,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 7,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 9,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 10,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 11,
+      "lane": "Palmas"
+     },
+     {
+      "beat": 12,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 13,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 15,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 16,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 17,
+      "lane": "Palmas"
+     },
+     {
+      "beat": 18,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 19,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 21,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 22,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 23,
+      "lane": "Palmas"
+     },
+     {
+      "beat": 24,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 25,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 27,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 28,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 30,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 31,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 33,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 34,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 36,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 37,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 38,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 39,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 40,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 41,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 42,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 43,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 44,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 45,
+      "lane": "Palmas",
+      "len": 3
+     },
+     {
+      "beat": 48,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 49,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 51,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 52,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 53,
+      "lane": "Palmas"
+     },
+     {
+      "beat": 54,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 55,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 57,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 58,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 59,
+      "lane": "Palmas"
+     },
+     {
+      "beat": 60,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 61,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 63,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 64,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 65,
+      "lane": "Palmas"
+     },
+     {
+      "beat": 66,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 67,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 69,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 70,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 71,
+      "lane": "Palmas"
+     },
+     {
+      "beat": 72,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 73,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 75,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 76,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 78,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 79,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 81,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 82,
+      "lane": "Escobillado"
+     },
+     {
+      "beat": 84,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 85,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 86,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 87,
+      "lane": "Paso izq"
+     },
+     {
+      "beat": 88,
+      "lane": "Paso der"
+     },
+     {
+      "beat": 89,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 90,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 91,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 92,
+      "lane": "Zapateo"
+     },
+     {
+      "beat": 93,
+      "lane": "Palmas",
+      "len": 3
+     }
+    ],
+    "note": "A cueca figure in 6/8 with its 3+3 swing: four bars of walking steps with hand claps, two bars of brushing the floor (escobillado), then a stamping bar (zapateo) and a closing clap. The whole eight-bar round is danced twice."
    }
   ]
  }

@@ -138,6 +138,7 @@ export function createFx() {
           for (let i = 0; i < 8; i++) { const ang = (i * Math.PI) / 4, rad = i % 2 ? r * 0.22 : r; ctx.lineTo(Math.cos(ang) * rad, Math.sin(ang) * rad); }
           ctx.closePath(); ctx.fill();
         } else if (p.kind === 'drop') { ctx.fillStyle = p.color; ctx.beginPath(); ctx.ellipse(0, 0, p.s * 0.7, p.s, 0, 0, 6.2832); ctx.fill(); ctx.fillStyle = 'rgba(255,255,255,0.5)'; ctx.fillRect(-p.s * 0.25, -p.s * 0.5, p.s * 0.2, p.s * 0.4); }
+        else if (p.kind === 'curl') { ctx.strokeStyle = p.color; ctx.lineWidth = Math.max(1.5, p.s * 0.45); ctx.lineCap = 'round'; ctx.beginPath(); ctx.arc(0, 0, p.s * 0.9, 0.5, 5.2); ctx.stroke(); ctx.strokeStyle = 'rgba(255,255,255,0.55)'; ctx.lineWidth = Math.max(1, p.s * 0.15); ctx.beginPath(); ctx.arc(0, 0, p.s * 0.9, 3.6, 4.8); ctx.stroke(); }
         else { // chip, flake
           ctx.fillStyle = p.color; ctx.beginPath(); ctx.moveTo(-p.s, -p.s * 0.6); ctx.lineTo(p.s * 0.9, -p.s * 0.3); ctx.lineTo(p.s * 0.4, p.s * 0.8); ctx.lineTo(-p.s * 0.6, p.s * 0.5); ctx.closePath(); ctx.fill();
           ctx.fillStyle = 'rgba(255,255,255,0.35)'; ctx.fillRect(-p.s, -p.s * 0.6, p.s * 1.2, p.s * 0.25);

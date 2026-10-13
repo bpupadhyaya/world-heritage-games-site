@@ -1,266 +1,908 @@
 {
- "engine": "rhythm",
- "params": {
-  "layout": "pads",
-  "mode": "follow",
-  "loops": 2,
-  "tolerance": 1.2,
-  "lanes": [
-   {
-    "name": "Lead",
-    "hz": 85,
-    "timbre": "bass",
-    "color": "#d9532b"
-   },
-   {
-    "name": "Answer",
-    "hz": 140,
-    "timbre": "tone",
-    "color": "#e8b23a"
-   },
-   {
-    "name": "High",
-    "hz": 230,
-    "timbre": "slap",
-    "color": "#6bbf8a"
-   },
-   {
-    "name": "Stick",
-    "hz": 420,
-    "timbre": "rim",
-    "color": "#4f9fd6"
-   }
-  ],
-  "songs": [
-   {
-    "name": "Warm-up",
-    "bpm": 66,
-    "meter": 2,
-    "steps": [
-     {
-      "beat": 0.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 1.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 2.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 3.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 4.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 4.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 5.6667,
-      "lane": "High"
-     },
-     {
-      "beat": 6.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 6.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 7.0,
-      "lane": "Stick"
-     },
-     {
-      "beat": 7.6667,
-      "lane": "Stick"
-     }
+  "engine": "rhythm",
+  "params": {
+    "layout": "pads",
+    "mode": "follow",
+    "loops": 2,
+    "tolerance": 1.2,
+    "lanes": [
+      {
+        "name": "Lead",
+        "hz": 85,
+        "timbre": "bass",
+        "color": "#d9532b"
+      },
+      {
+        "name": "Answer",
+        "hz": 140,
+        "timbre": "tone",
+        "color": "#e8b23a"
+      },
+      {
+        "name": "High",
+        "hz": 230,
+        "timbre": "slap",
+        "color": "#6bbf8a"
+      },
+      {
+        "name": "Stick",
+        "hz": 420,
+        "timbre": "rim",
+        "color": "#4f9fd6"
+      }
+    ],
+    "songs": [
+      {
+        "name": "Warm-up",
+        "bpm": 66,
+        "meter": 2,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Lead"
+          },
+          {
+            "beat": 1.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 2,
+            "lane": "Lead"
+          },
+          {
+            "beat": 3.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 4,
+            "lane": "Lead"
+          },
+          {
+            "beat": 4.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 5.6667,
+            "lane": "High"
+          },
+          {
+            "beat": 6,
+            "lane": "Lead"
+          },
+          {
+            "beat": 6.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 7,
+            "lane": "Stick"
+          },
+          {
+            "beat": 7.6667,
+            "lane": "Stick"
+          }
+        ]
+      },
+      {
+        "name": "Steady march",
+        "bpm": 78,
+        "meter": 2,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Lead"
+          },
+          {
+            "beat": 0.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 1,
+            "lane": "Lead"
+          },
+          {
+            "beat": 1.3333,
+            "lane": "High"
+          },
+          {
+            "beat": 1.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 2,
+            "lane": "Lead"
+          },
+          {
+            "beat": 2.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 3,
+            "lane": "Lead"
+          },
+          {
+            "beat": 3.3333,
+            "lane": "High"
+          },
+          {
+            "beat": 3.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 4,
+            "lane": "Lead"
+          },
+          {
+            "beat": 4.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 5,
+            "lane": "Lead"
+          },
+          {
+            "beat": 5.3333,
+            "lane": "High"
+          },
+          {
+            "beat": 5.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 6,
+            "lane": "Lead"
+          },
+          {
+            "beat": 6.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 7,
+            "lane": "Stick"
+          },
+          {
+            "beat": 7.6667,
+            "lane": "Stick"
+          }
+        ]
+      },
+      {
+        "name": "Fast layers",
+        "bpm": 90,
+        "meter": 2,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Lead"
+          },
+          {
+            "beat": 0.3333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 0.6667,
+            "lane": "High"
+          },
+          {
+            "beat": 1,
+            "lane": "Lead"
+          },
+          {
+            "beat": 1.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 2,
+            "lane": "Lead"
+          },
+          {
+            "beat": 2.3333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 2.6667,
+            "lane": "High"
+          },
+          {
+            "beat": 3,
+            "lane": "Lead"
+          },
+          {
+            "beat": 3.3333,
+            "lane": "Stick"
+          },
+          {
+            "beat": 3.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 4,
+            "lane": "Lead"
+          },
+          {
+            "beat": 4.3333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 4.6667,
+            "lane": "High"
+          },
+          {
+            "beat": 5,
+            "lane": "Lead"
+          },
+          {
+            "beat": 5.6667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 6,
+            "lane": "Lead"
+          },
+          {
+            "beat": 6.3333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 6.6667,
+            "lane": "High"
+          },
+          {
+            "beat": 7,
+            "lane": "Lead"
+          },
+          {
+            "beat": 7.3333,
+            "lane": "Stick"
+          },
+          {
+            "beat": 7.6667,
+            "lane": "Answer"
+          }
+        ]
+      },
+      {
+        "id": "call-and-answer-march",
+        "name": "Isukuti call and answer, slow march",
+        "bpm": 78,
+        "meter": 2,
+        "length": 32,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "Luhya isukuti drumming, Kenya",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Lead"
+          },
+          {
+            "beat": 0.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 1,
+            "lane": "Lead"
+          },
+          {
+            "beat": 1.667,
+            "lane": "High"
+          },
+          {
+            "beat": 2,
+            "lane": "Lead"
+          },
+          {
+            "beat": 2.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 3,
+            "lane": "Lead"
+          },
+          {
+            "beat": 3.667,
+            "lane": "High"
+          },
+          {
+            "beat": 4,
+            "lane": "Lead"
+          },
+          {
+            "beat": 5.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 5.667,
+            "lane": "High"
+          },
+          {
+            "beat": 6,
+            "lane": "Lead"
+          },
+          {
+            "beat": 6.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 7,
+            "lane": "Lead"
+          },
+          {
+            "beat": 7.667,
+            "lane": "High"
+          },
+          {
+            "beat": 8,
+            "lane": "Lead"
+          },
+          {
+            "beat": 8.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 9,
+            "lane": "Lead"
+          },
+          {
+            "beat": 9.667,
+            "lane": "High"
+          },
+          {
+            "beat": 10,
+            "lane": "Lead"
+          },
+          {
+            "beat": 10.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 11,
+            "lane": "Lead"
+          },
+          {
+            "beat": 11.667,
+            "lane": "High"
+          },
+          {
+            "beat": 12,
+            "lane": "Lead"
+          },
+          {
+            "beat": 13.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 13.667,
+            "lane": "High"
+          },
+          {
+            "beat": 14,
+            "lane": "Stick"
+          },
+          {
+            "beat": 14.333,
+            "lane": "Stick"
+          },
+          {
+            "beat": 14.667,
+            "lane": "Stick"
+          },
+          {
+            "beat": 15,
+            "lane": "Lead"
+          },
+          {
+            "beat": 16,
+            "lane": "Lead"
+          },
+          {
+            "beat": 16.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 17,
+            "lane": "Lead"
+          },
+          {
+            "beat": 17.667,
+            "lane": "High"
+          },
+          {
+            "beat": 18,
+            "lane": "Lead"
+          },
+          {
+            "beat": 19.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 19.667,
+            "lane": "High"
+          },
+          {
+            "beat": 20,
+            "lane": "Lead"
+          },
+          {
+            "beat": 20.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 21,
+            "lane": "Lead"
+          },
+          {
+            "beat": 21.667,
+            "lane": "High"
+          },
+          {
+            "beat": 22,
+            "lane": "Lead"
+          },
+          {
+            "beat": 22.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 23,
+            "lane": "Lead"
+          },
+          {
+            "beat": 23.667,
+            "lane": "High"
+          },
+          {
+            "beat": 24,
+            "lane": "Lead"
+          },
+          {
+            "beat": 24.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 25,
+            "lane": "Lead"
+          },
+          {
+            "beat": 25.667,
+            "lane": "High"
+          },
+          {
+            "beat": 26,
+            "lane": "Lead"
+          },
+          {
+            "beat": 26.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 27,
+            "lane": "Lead"
+          },
+          {
+            "beat": 27.667,
+            "lane": "High"
+          },
+          {
+            "beat": 28,
+            "lane": "Answer"
+          },
+          {
+            "beat": 28.333,
+            "lane": "High"
+          },
+          {
+            "beat": 28.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 29,
+            "lane": "High"
+          },
+          {
+            "beat": 29.333,
+            "lane": "Lead"
+          },
+          {
+            "beat": 30,
+            "lane": "Stick"
+          },
+          {
+            "beat": 30.333,
+            "lane": "Stick"
+          },
+          {
+            "beat": 30.667,
+            "lane": "Stick"
+          },
+          {
+            "beat": 31,
+            "lane": "Lead"
+          }
+        ],
+        "note": "Isukuti is a Luhya dance of western Kenya in which a large lead drum and a smaller answering drum play interlocking figures in a rolling three-against-two feel. The lead drum calls, the answer follows, and short stick patterns mark the end of each phrase."
+      },
+      {
+        "id": "fast-layers-dance",
+        "name": "Isukuti fast layers",
+        "bpm": 96,
+        "meter": 2,
+        "length": 40,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "Luhya isukuti drumming, Kenya",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Lead"
+          },
+          {
+            "beat": 0.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 0.667,
+            "lane": "High"
+          },
+          {
+            "beat": 1,
+            "lane": "Lead"
+          },
+          {
+            "beat": 1.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 2,
+            "lane": "Lead"
+          },
+          {
+            "beat": 2.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 2.667,
+            "lane": "High"
+          },
+          {
+            "beat": 3,
+            "lane": "Lead"
+          },
+          {
+            "beat": 3.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 4,
+            "lane": "Lead"
+          },
+          {
+            "beat": 4.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 4.667,
+            "lane": "High"
+          },
+          {
+            "beat": 5,
+            "lane": "Lead"
+          },
+          {
+            "beat": 5.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 6,
+            "lane": "Stick"
+          },
+          {
+            "beat": 6.333,
+            "lane": "Stick"
+          },
+          {
+            "beat": 6.667,
+            "lane": "Stick"
+          },
+          {
+            "beat": 7,
+            "lane": "Lead"
+          },
+          {
+            "beat": 8,
+            "lane": "Lead"
+          },
+          {
+            "beat": 8.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 8.667,
+            "lane": "High"
+          },
+          {
+            "beat": 9,
+            "lane": "Lead"
+          },
+          {
+            "beat": 9.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 10,
+            "lane": "Lead"
+          },
+          {
+            "beat": 10.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 10.667,
+            "lane": "High"
+          },
+          {
+            "beat": 11,
+            "lane": "Lead"
+          },
+          {
+            "beat": 11.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 12,
+            "lane": "Answer"
+          },
+          {
+            "beat": 12.333,
+            "lane": "High"
+          },
+          {
+            "beat": 12.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 13,
+            "lane": "High"
+          },
+          {
+            "beat": 13.333,
+            "lane": "Lead"
+          },
+          {
+            "beat": 14,
+            "lane": "Stick"
+          },
+          {
+            "beat": 14.333,
+            "lane": "Stick"
+          },
+          {
+            "beat": 14.667,
+            "lane": "Stick"
+          },
+          {
+            "beat": 15,
+            "lane": "Lead"
+          },
+          {
+            "beat": 16,
+            "lane": "Lead"
+          },
+          {
+            "beat": 16.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 16.667,
+            "lane": "High"
+          },
+          {
+            "beat": 17,
+            "lane": "Lead"
+          },
+          {
+            "beat": 17.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 18,
+            "lane": "Lead"
+          },
+          {
+            "beat": 18.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 19,
+            "lane": "Lead"
+          },
+          {
+            "beat": 19.667,
+            "lane": "High"
+          },
+          {
+            "beat": 20,
+            "lane": "Lead"
+          },
+          {
+            "beat": 20.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 20.667,
+            "lane": "High"
+          },
+          {
+            "beat": 21,
+            "lane": "Lead"
+          },
+          {
+            "beat": 21.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 22,
+            "lane": "Lead"
+          },
+          {
+            "beat": 22.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 22.667,
+            "lane": "High"
+          },
+          {
+            "beat": 23,
+            "lane": "Lead"
+          },
+          {
+            "beat": 23.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 24,
+            "lane": "Lead"
+          },
+          {
+            "beat": 24.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 24.667,
+            "lane": "High"
+          },
+          {
+            "beat": 25,
+            "lane": "Lead"
+          },
+          {
+            "beat": 25.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 26,
+            "lane": "Lead"
+          },
+          {
+            "beat": 26.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 26.667,
+            "lane": "High"
+          },
+          {
+            "beat": 27,
+            "lane": "Lead"
+          },
+          {
+            "beat": 27.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 28,
+            "lane": "Answer"
+          },
+          {
+            "beat": 28.333,
+            "lane": "High"
+          },
+          {
+            "beat": 28.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 29,
+            "lane": "High"
+          },
+          {
+            "beat": 29.333,
+            "lane": "Lead"
+          },
+          {
+            "beat": 30,
+            "lane": "Stick"
+          },
+          {
+            "beat": 30.333,
+            "lane": "Stick"
+          },
+          {
+            "beat": 30.667,
+            "lane": "Stick"
+          },
+          {
+            "beat": 31,
+            "lane": "Lead"
+          },
+          {
+            "beat": 32,
+            "lane": "Lead"
+          },
+          {
+            "beat": 32.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 32.667,
+            "lane": "High"
+          },
+          {
+            "beat": 33,
+            "lane": "Lead"
+          },
+          {
+            "beat": 33.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 34,
+            "lane": "Lead"
+          },
+          {
+            "beat": 35.333,
+            "lane": "Answer"
+          },
+          {
+            "beat": 35.667,
+            "lane": "High"
+          },
+          {
+            "beat": 36,
+            "lane": "Lead"
+          },
+          {
+            "beat": 36.667,
+            "lane": "Answer"
+          },
+          {
+            "beat": 37,
+            "lane": "Lead"
+          },
+          {
+            "beat": 37.667,
+            "lane": "High"
+          },
+          {
+            "beat": 38,
+            "lane": "Stick"
+          },
+          {
+            "beat": 38.333,
+            "lane": "Stick"
+          },
+          {
+            "beat": 38.667,
+            "lane": "Stick"
+          },
+          {
+            "beat": 39,
+            "lane": "Lead"
+          }
+        ],
+        "note": "In the faster dance the drums add more notes in each bar: the lead drum, the answering drum and the high slap sound lock together in a running pattern, finishing each phrase with a stick roll."
+      }
     ]
-   },
-   {
-    "name": "Steady march",
-    "bpm": 78,
-    "meter": 2,
-    "steps": [
-     {
-      "beat": 0.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 0.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 1.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 1.3333,
-      "lane": "High"
-     },
-     {
-      "beat": 1.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 2.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 2.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 3.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 3.3333,
-      "lane": "High"
-     },
-     {
-      "beat": 3.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 4.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 4.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 5.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 5.3333,
-      "lane": "High"
-     },
-     {
-      "beat": 5.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 6.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 6.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 7.0,
-      "lane": "Stick"
-     },
-     {
-      "beat": 7.6667,
-      "lane": "Stick"
-     }
-    ]
-   },
-   {
-    "name": "Fast layers",
-    "bpm": 90,
-    "meter": 2,
-    "steps": [
-     {
-      "beat": 0.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 0.3333,
-      "lane": "Answer"
-     },
-     {
-      "beat": 0.6667,
-      "lane": "High"
-     },
-     {
-      "beat": 1.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 1.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 2.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 2.3333,
-      "lane": "Answer"
-     },
-     {
-      "beat": 2.6667,
-      "lane": "High"
-     },
-     {
-      "beat": 3.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 3.3333,
-      "lane": "Stick"
-     },
-     {
-      "beat": 3.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 4.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 4.3333,
-      "lane": "Answer"
-     },
-     {
-      "beat": 4.6667,
-      "lane": "High"
-     },
-     {
-      "beat": 5.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 5.6667,
-      "lane": "Answer"
-     },
-     {
-      "beat": 6.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 6.3333,
-      "lane": "Answer"
-     },
-     {
-      "beat": 6.6667,
-      "lane": "High"
-     },
-     {
-      "beat": 7.0,
-      "lane": "Lead"
-     },
-     {
-      "beat": 7.3333,
-      "lane": "Stick"
-     },
-     {
-      "beat": 7.6667,
-      "lane": "Answer"
-     }
-    ]
-   }
-  ]
- }
+  }
 }

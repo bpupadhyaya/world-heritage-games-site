@@ -313,6 +313,125 @@
       "lane": "Strum"
      }
     ]
+   },
+   {
+    "id": "russian-dance-figure",
+    "name": "Russian dance figure in A minor",
+    "bpm": 100,
+    "meter": 2,
+    "length": 16,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Russian folk dance",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "E"
+     },
+     {
+      "beat": 0.5,
+      "lane": "E"
+     },
+     {
+      "beat": 1,
+      "lane": "A"
+     },
+     {
+      "beat": 1.5,
+      "lane": "A"
+     },
+     {
+      "beat": 2,
+      "lane": "B"
+     },
+     {
+      "beat": 2.5,
+      "lane": "C"
+     },
+     {
+      "beat": 3,
+      "lane": "B"
+     },
+     {
+      "beat": 3.5,
+      "lane": "A"
+     },
+     {
+      "beat": 4,
+      "lane": "G"
+     },
+     {
+      "beat": 4.5,
+      "lane": "G"
+     },
+     {
+      "beat": 5,
+      "lane": "E"
+     },
+     {
+      "beat": 5.5,
+      "lane": "G"
+     },
+     {
+      "beat": 6,
+      "lane": "A",
+      "len": 1.5
+     },
+     {
+      "beat": 8,
+      "lane": "C"
+     },
+     {
+      "beat": 8.5,
+      "lane": "C"
+     },
+     {
+      "beat": 9,
+      "lane": "D"
+     },
+     {
+      "beat": 9.5,
+      "lane": "C"
+     },
+     {
+      "beat": 10,
+      "lane": "B"
+     },
+     {
+      "beat": 10.5,
+      "lane": "A"
+     },
+     {
+      "beat": 11,
+      "lane": "G"
+     },
+     {
+      "beat": 11.5,
+      "lane": "B"
+     },
+     {
+      "beat": 12,
+      "lane": "A"
+     },
+     {
+      "beat": 12.5,
+      "lane": "G"
+     },
+     {
+      "beat": 13,
+      "lane": "F"
+     },
+     {
+      "beat": 13.5,
+      "lane": "E"
+     },
+     {
+      "beat": 14,
+      "lane": "A",
+      "len": 1.5
+     }
+    ],
+    "note": "A teaching figure in the lively two-beat pulse of Russian village dance tunes, built from repeated notes and a quick turn around the tonic. On the balalaika the repeated notes are the plucked or strummed drive of the tune."
    }
   ]
  }

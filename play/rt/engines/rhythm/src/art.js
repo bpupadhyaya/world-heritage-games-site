@@ -2,7 +2,7 @@
 // Pure drawing: no DOM, no randomness, no clocks (time arrives as an argument). Everything is a function of (ctx, geometry, style, state).
 
 export const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
-const TAU = Math.PI * 2;
+export const TAU = Math.PI * 2;
 
 // ---- colour ---------------------------------------------------------------------------------------------------------
 const rgbOf = (c) => {
@@ -39,8 +39,8 @@ export function rrect(ctx, x, y, w, h, r) {
   r = Math.max(0, Math.min(r, w / 2, h / 2));
   ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath();
 }
-const ell = (ctx, x, y, rx, ry) => { ctx.beginPath(); ctx.ellipse(x, y, Math.max(0.1, rx), Math.max(0.1, ry), 0, 0, TAU); };
-const circ = (ctx, x, y, r) => { ctx.beginPath(); ctx.arc(x, y, Math.max(0.1, r), 0, TAU); };
+export const ell = (ctx, x, y, rx, ry) => { ctx.beginPath(); ctx.ellipse(x, y, Math.max(0.1, rx), Math.max(0.1, ry), 0, 0, TAU); };
+export const circ = (ctx, x, y, r) => { ctx.beginPath(); ctx.arc(x, y, Math.max(0.1, r), 0, TAU); };
 
 export function text(ctx, s, x, y, size, col, o = {}) {
   const { weight = '700', align = 'center', outline = null, lw = 3, family = 'system-ui, -apple-system, "Segoe UI", sans-serif' } = o;
@@ -350,27 +350,6 @@ export function gong(ctx, S, cx, cy, r, col, f) {
   if (f > 0.02) { ctx.strokeStyle = rgba('#fff2c0', 0.8 * f); ctx.lineWidth = 3; circ(ctx, cx, cy, r * (0.8 + 0.5 * (1 - f))); ctx.stroke(); glow(ctx, cx, cy, r * 1.6, '#ffcf6a', 0.55 * f); }
 }
 
-// ---- xylophone bars, bells, tines, buttons ---------------------------------------------------------------------------------------
-export function bar(ctx, S, x, y, w, h, col, f, seed, gourdY) {
-  const wood = mix(S.wood, col, 0.28);
-  if (gourdY != null) { // resonator mouth beneath the bar
-    const gr = w * 0.5;
-    ctx.fillStyle = rgrad(ctx, x + w / 2, gourdY, 0, gr * 1.1, [[0, '#2a150a'], [0.75, '#5a3416'], [1, '#8a5a2a']]); ell(ctx, x + w / 2, gourdY, gr, gr * 0.7); ctx.fill();
-    ctx.strokeStyle = 'rgba(255,220,160,0.45)'; ctx.lineWidth = 1.5; ctx.stroke();
-  }
-  ctx.fillStyle = 'rgba(0,0,0,0.4)'; rrect(ctx, x + 2, y + 4, w, h, w * 0.18); ctx.fill();
-  ctx.fillStyle = hgrad(ctx, x, x + w, [[0, darker(wood, 0.35)], [0.3, lighter(wood, 0.28)], [0.6, wood], [1, darker(wood, 0.5)]]);
-  rrect(ctx, x, y, w, h, w * 0.18); ctx.fill();
-  ctx.save(); rrect(ctx, x, y, w, h, w * 0.18); ctx.clip();
-  grain(ctx, x, y, w, h, darker(wood, 0.6), 0.28, seed, true, Math.max(4, Math.round(w / 6)));
-  if (f > 0.02) { ctx.fillStyle = rgba(lighter(col, 0.5), 0.55 * f); ctx.fillRect(x, y, w, h); }
-  ctx.restore();
-  ctx.strokeStyle = rgba(lighter(wood, 0.6), 0.55); ctx.lineWidth = 1.5; rrect(ctx, x, y, w, h, w * 0.18); ctx.stroke();
-  ctx.fillStyle = 'rgba(15,8,2,0.7)'; circ(ctx, x + w / 2, y + h * 0.18, Math.max(1.8, w * 0.05)); ctx.fill(); circ(ctx, x + w / 2, y + h * 0.82, Math.max(1.8, w * 0.05)); ctx.fill();
-  ctx.fillStyle = rgba(col, 0.9); rrect(ctx, x + w * 0.2, y + h * 0.04, w * 0.6, Math.max(3, h * 0.045), 2); ctx.fill();
-  if (f > 0.02) glow(ctx, x + w / 2, y + h / 2, h * 0.7, col, 0.5 * f);
-}
-
 export function bell(ctx, S, cx, top, w, h, col, f, swing) {
   const metal = '#b48a3a';
   ctx.save(); ctx.translate(cx, top); ctx.rotate(swing);
@@ -395,211 +374,3 @@ export function bell(ctx, S, cx, top, w, h, col, f, swing) {
   if (f > 0.02) glow(ctx, cx, top + h * 0.6, h * 0.9, '#ffd98a', 0.5 * f);
 }
 
-export function tine(ctx, S, x, y, w, h, col, f, seed, shake) {
-  const cx = x + w / 2 + shake;
-  ctx.fillStyle = 'rgba(0,0,0,0.4)'; rrect(ctx, cx - w * 0.2 + 2, y + 3, w * 0.4, h, w * 0.2); ctx.fill();
-  ctx.fillStyle = hgrad(ctx, cx - w * 0.22, cx + w * 0.22, [[0, '#6c747e'], [0.35, '#eef2f6'], [0.7, '#a2abb6'], [1, '#4a525c']]);
-  rrect(ctx, cx - w * 0.22, y, w * 0.44, h, w * 0.22); ctx.fill();
-  ctx.fillStyle = rgba(col, 0.9); circ(ctx, cx, y + h * 0.12, Math.max(2, w * 0.1)); ctx.fill();
-  if (f > 0.02) glow(ctx, cx, y + h * 0.5, h * 0.6, col, 0.5 * f);
-  void seed;
-}
-
-export function pearlButton(ctx, S, cx, cy, r, col, f) {
-  ctx.fillStyle = 'rgba(0,0,0,0.5)'; circ(ctx, cx + 1, cy + 3, r * 1.05); ctx.fill();
-  ctx.fillStyle = rgrad(ctx, cx, cy, 0, r * 1.2, [[0, '#9aa0a8'], [0.5, '#5a606a'], [1, '#22262c']], cx - r * 0.3, cy - r * 0.3); circ(ctx, cx, cy, r * 1.05); ctx.fill();
-  ctx.fillStyle = rgrad(ctx, cx, cy, 0, r, [[0, f > 0.02 ? lighter(col, 0.75) : '#ffffff'], [0.6, f > 0.02 ? lighter(col, 0.3) : '#e4ddd0'], [1, f > 0.02 ? col : '#a79e8c']], cx - r * 0.3, cy - r * 0.35); circ(ctx, cx, cy, r * 0.82); ctx.fill();
-  ctx.strokeStyle = rgba(col, 0.9); ctx.lineWidth = Math.max(1.5, r * 0.12); circ(ctx, cx, cy, r * 0.82); ctx.stroke();
-}
-
-// ---- flute pipe --------------------------------------------------------------------------------------------------------------------
-export function pipe(ctx, S, x, y, w, h, col, f, holes, t, seed) {
-  const body = mix(S.pipe, col, 0.18), hl = lighter(body, 0.55), dk = darker(body, 0.5);
-  ctx.fillStyle = 'rgba(0,0,0,0.4)'; rrect(ctx, x + 3, y + 4, w, h, w * 0.3); ctx.fill();
-  ctx.fillStyle = hgrad(ctx, x, x + w, [[0, dk], [0.25, hl], [0.5, body], [0.85, darker(body, 0.35)], [1, dk]]);
-  rrect(ctx, x, y, w, h, w * 0.32); ctx.fill();
-  ctx.strokeStyle = rgba(lighter(body, 0.7), 0.5); ctx.lineWidth = 1.5; ctx.stroke();
-  // nodes of the cane and binding
-  for (const k of [0.07, 0.62]) { ctx.fillStyle = rgba(darker(body, 0.6), 0.55); ctx.fillRect(x, y + h * k, w, 3); ctx.fillStyle = rgba(hl, 0.35); ctx.fillRect(x, y + h * k + 3, w, 1.5); }
-  ctx.fillStyle = S.wrap; ctx.fillRect(x, y + h * 0.16, w, Math.max(4, h * 0.035)); ctx.fillStyle = rgba('#ffffff', 0.25); ctx.fillRect(x, y + h * 0.16, w, 1.5);
-  // blowing edge
-  ctx.fillStyle = '#1b0f06'; ell(ctx, x + w / 2, y + h * 0.045, w * 0.2, w * 0.1); ctx.fill();
-  const hs = holes || '', n = hs.length;
-  if (n) {
-    const y0 = y + h * 0.28, y1 = y + h * 0.9, hr = Math.min(w * 0.3, (y1 - y0) / n * 0.4);
-    for (let k = 0; k < n; k++) {
-      const hy = y0 + (k + 0.5) * ((y1 - y0) / n), hx = x + w / 2;
-      ctx.fillStyle = '#120a04'; circ(ctx, hx, hy, hr); ctx.fill();
-      ctx.strokeStyle = rgba(hl, 0.9); ctx.lineWidth = 1.5; ctx.stroke();
-      if (hs[k] === '1') { // finger pad covering the hole
-        ctx.fillStyle = rgrad(ctx, hx, hy, 0, hr * 1.5, [[0, '#f2c9a2'], [1, '#b98159']], hx - hr * 0.3, hy - hr * 0.3); circ(ctx, hx, hy, hr * 1.35); ctx.fill();
-        ctx.strokeStyle = 'rgba(80,40,10,0.5)'; ctx.lineWidth = 1; ctx.stroke();
-      }
-    }
-  }
-  if (f > 0.02) {
-    glow(ctx, x + w / 2, y + h * 0.5, h * 0.7, col, 0.5 * f);
-    ctx.strokeStyle = rgba('#ffffff', 0.5 * f); ctx.lineWidth = 2;
-    for (let k = 0; k < 2; k++) { ctx.beginPath(); const yy = y - 6 - k * 9 - (1 - f) * 10; ctx.moveTo(x + w * 0.2, yy); ctx.quadraticCurveTo(x + w / 2, yy - 6 + Math.sin(t * 9 + k + seed) * 3, x + w * 0.8, yy); ctx.stroke(); }
-  }
-}
-
-// ---- instrument body for plucked strings ------------------------------------------------------------------------------------------
-export function bodyPath(ctx, kind, X0, X1, Y0, Y1) {
-  const w = X1 - X0, cx = (X0 + X1) / 2, h = Y1 - Y0;
-  ctx.beginPath();
-  if (kind === 'tri') {
-    ctx.moveTo(X0 + w * 0.02, Y0); ctx.lineTo(X1 - w * 0.02, Y0); ctx.lineTo(cx + w * 0.3, Y1 - 6); ctx.quadraticCurveTo(cx, Y1 + 4, cx - w * 0.3, Y1 - 6); ctx.closePath();
-  } else if (kind === 'trap') {
-    ctx.moveTo(X0, Y0); ctx.lineTo(X1, Y0); ctx.lineTo(X1 - w * 0.12, Y1 - 4); ctx.lineTo(X0 + w * 0.12, Y1 - 4); ctx.closePath();
-  } else if (kind === 'eight') {
-    ctx.moveTo(X0, Y0); ctx.lineTo(X1, Y0);
-    ctx.bezierCurveTo(X1 + w * 0.01, Y0 + h * 0.25, X1 - w * 0.08, Y0 + h * 0.35, X1 - w * 0.08, Y0 + h * 0.5);
-    ctx.bezierCurveTo(X1 - w * 0.08, Y0 + h * 0.64, X1 - w * 0.0, Y0 + h * 0.72, X1 - w * 0.06, Y0 + h * 0.88);
-    ctx.quadraticCurveTo(X1 - w * 0.1, Y1, cx, Y1);
-    ctx.quadraticCurveTo(X0 + w * 0.1, Y1, X0 + w * 0.06, Y0 + h * 0.88);
-    ctx.bezierCurveTo(X0 + w * 0.0, Y0 + h * 0.72, X0 + w * 0.08, Y0 + h * 0.64, X0 + w * 0.08, Y0 + h * 0.5);
-    ctx.bezierCurveTo(X0 + w * 0.08, Y0 + h * 0.35, X0 - w * 0.01, Y0 + h * 0.25, X0, Y0); ctx.closePath();
-  } else if (kind === 'gourd') {
-    ctx.moveTo(X0 + w * 0.05, Y0); ctx.lineTo(X1 - w * 0.05, Y0);
-    ctx.bezierCurveTo(X1 + w * 0.02, Y0 + h * 0.4, X1 - w * 0.02, Y1, cx, Y1); ctx.bezierCurveTo(X0 + w * 0.02, Y1, X0 - w * 0.02, Y0 + h * 0.4, X0 + w * 0.05, Y0); ctx.closePath();
-  } else { // round / pear
-    ctx.moveTo(X0, Y0); ctx.lineTo(X1, Y0);
-    ctx.bezierCurveTo(X1, Y0 + h * 0.7, X1 - w * 0.1, Y1, cx, Y1); ctx.bezierCurveTo(X0 + w * 0.1, Y1, X0, Y0 + h * 0.7, X0, Y0); ctx.closePath();
-  }
-}
-const BRIDGE_SCALE = { tri: 0.62, trap: 0.82, eight: 0.8, gourd: 0.8, round: 0.9, pear: 0.9 };
-export const bridgeScale = (kind) => BRIDGE_SCALE[kind] ?? 0.9;
-
-export function drawBody(ctx, S, pal, X0, X1, Y0, Y1, accent) {
-  const w = X1 - X0, cx = (X0 + X1) / 2, h = Y1 - Y0, wood = S.wood;
-  // shadow, then the shell
-  ctx.save(); ctx.translate(4, 6); bodyPath(ctx, S.body, X0, X1, Y0, Y1); ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.fill(); ctx.restore();
-  bodyPath(ctx, S.body, X0, X1, Y0, Y1);
-  if (S.face === 'skin') ctx.fillStyle = hgrad(ctx, X0, X1, [[0, darker('#d8c6a0', 0.35)], [0.35, '#f3e8cc'], [0.65, '#e3d3ac'], [1, darker('#d8c6a0', 0.4)]]);
-  else ctx.fillStyle = hgrad(ctx, X0, X1, [[0, darker(wood, 0.45)], [0.28, lighter(wood, 0.28)], [0.55, wood], [0.85, darker(wood, 0.3)], [1, darker(wood, 0.55)]]);
-  ctx.fill();
-  ctx.save(); bodyPath(ctx, S.body, X0, X1, Y0, Y1); ctx.clip();
-  if (S.face !== 'skin') grain(ctx, X0, Y0, w, h, darker(wood, 0.7), 0.3, 11, true, Math.max(12, Math.round(w / 14)));
-  ctx.fillStyle = vgrad(ctx, Y0, Y1, [[0, 'rgba(0,0,0,0.35)'], [0.18, 'rgba(0,0,0,0)'], [1, 'rgba(0,0,0,0.3)']]); ctx.fillRect(X0, Y0, w, h);
-  // binding (purfling) as a clipped wide stroke
-  bodyPath(ctx, S.body, X0, X1, Y0, Y1);
-  ctx.strokeStyle = S.face === 'skin' ? darker(wood, 0.2) : '#f0e0b8'; ctx.lineWidth = 9; ctx.stroke();
-  ctx.strokeStyle = darker(wood, 0.6); ctx.lineWidth = 4; ctx.stroke();
-  ctx.restore();
-  // face detail
-  const hy = Y0 + 30 + (h - 30) * 0.4, hr = clamp(Math.min((h - 30) * 0.2, w * 0.09), 10, 60);
-  if (S.hole === 'round' && S.face !== 'skin') {
-    for (const [k, c] of [[1.5, '#e8d4a0'], [1.28, '#3a2210'], [1.14, '#c9a35a']]) { circ(ctx, cx, hy, hr * k); ctx.fillStyle = c; ctx.fill(); }
-    ctx.fillStyle = rgrad(ctx, cx, hy, 0, hr, [[0, '#000'], [0.8, '#1a0d05'], [1, '#3a2210']]); circ(ctx, cx, hy, hr); ctx.fill();
-    ctx.strokeStyle = rgba(accent, 0.5); ctx.lineWidth = 2; circ(ctx, cx, hy, hr * 1.5); ctx.stroke();
-  } else if (S.hole === 'rosettes') {
-    for (const dx of [-0.2, 0, 0.2]) { const rx = cx + dx * w, ry = hy + (dx ? 6 : -4); circ(ctx, rx, ry, hr * 0.55); ctx.fillStyle = '#1a0d05'; ctx.fill(); ctx.strokeStyle = '#e8d4a0'; ctx.lineWidth = 3; ctx.stroke(); circ(ctx, rx, ry, hr * 0.28); ctx.fillStyle = rgba(accent, 0.6); ctx.fill(); }
-  } else if (S.face === 'skin') {
-    ctx.strokeStyle = rgba('#8a6a3a', 0.4); ctx.lineWidth = 1.5; circ(ctx, cx, Y0 + h * 0.5, Math.min(h * 0.38, w * 0.2)); ctx.stroke();
-    ctx.fillStyle = 'rgba(70,40,20,0.7)'; for (let k = 0; k < 18; k++) { const a = (k / 18) * TAU, rr = Math.min(h * 0.38, w * 0.2); circ(ctx, cx + Math.cos(a) * rr, Y0 + h * 0.5 + Math.sin(a) * rr, 2.2); ctx.fill(); }
-  }
-}
-
-// ---- hero art for the title scene -----------------------------------------------------------------------------------------
-export function drawHero(ctx, S, pal, R, colors, t = 0) {
-  const { x, y, w, h } = R, cx = x + w / 2, cy = y + h / 2, u = Math.min(w, h);
-  ctx.save();
-  // stage glow and floor ellipse
-  glow(ctx, cx, cy, u * 0.8, pal.accent, 0.22);
-  ctx.fillStyle = rgba('#000000', 0.3); ell(ctx, cx, cy + u * 0.46, u * 0.42, u * 0.05); ctx.fill();
-  const col = (i) => colors[i % colors.length];
-  switch (S.hero) {
-    case 'lute': {
-      ctx.translate(cx + u * 0.05, cy + u * 0.1); ctx.rotate(-0.4);
-      const bw = u * 0.62, bh = u * 0.62, nl = u * 0.5, nw = bw * 0.17, wood = S.wood;
-      ctx.fillStyle = 'rgba(0,0,0,0.3)'; ell(ctx, 8, 10, bw * 0.52, bh * 0.52); ctx.fill();
-      // neck and peg head
-      ctx.fillStyle = hgrad(ctx, -nw / 2, nw / 2, [[0, '#1c0e06'], [0.45, '#6a3f1d'], [1, '#1c0e06']]);
-      ctx.fillRect(-nw / 2, -bh * 0.4 - nl, nw, nl + bh * 0.1);
-      ctx.fillStyle = hgrad(ctx, -nw, nw, [[0, '#2a160a'], [0.5, '#5a3418'], [1, '#2a160a']]); rrect(ctx, -nw * 1.0, -bh * 0.4 - nl - u * 0.13, nw * 2, u * 0.15, 10); ctx.fill();
-      ctx.strokeStyle = 'rgba(255,230,190,0.5)'; ctx.lineWidth = 1.5; ctx.stroke();
-      for (const d of [-1, 1]) for (let k = 0; k < 4; k++) { circ(ctx, d * nw * 1.25, -bh * 0.4 - nl - u * 0.1 + k * u * 0.032, u * 0.017); ctx.fillStyle = '#efe0b8'; ctx.fill(); ctx.strokeStyle = '#5a3418'; ctx.lineWidth = 1; ctx.stroke(); }
-      for (let k = 0; k < 7; k++) { ctx.strokeStyle = 'rgba(235,230,215,0.85)'; ctx.lineWidth = 2; const fy = -bh * 0.4 - nl * (0.1 + k * 0.13); ctx.beginPath(); ctx.moveTo(-nw / 2, fy); ctx.lineTo(nw / 2, fy); ctx.stroke(); }
-      // pear-shaped back and soundboard
-      const pear = () => { ctx.beginPath(); ctx.ellipse(0, -bh * 0.18, bw * 0.34, bh * 0.3, 0, 0, TAU); ctx.moveTo(bw * 0.5, bh * 0.14); ctx.ellipse(0, bh * 0.14, bw * 0.5, bh * 0.4, 0, 0, TAU); };
-      pear(); ctx.strokeStyle = darker(wood, 0.65); ctx.lineWidth = 14; ctx.stroke();
-      pear(); ctx.strokeStyle = '#f0e0b8'; ctx.lineWidth = 9; ctx.stroke();
-      pear(); ctx.fillStyle = hgrad(ctx, -bw / 2, bw / 2, [[0, darker(wood, 0.5)], [0.3, lighter(wood, 0.35)], [0.6, wood], [1, darker(wood, 0.55)]]); ctx.fill();
-      ctx.save(); pear(); ctx.clip(); grain(ctx, -bw / 2, -bh / 2, bw, bh, darker(wood, 0.7), 0.3, 13, true, 22); ctx.restore();
-      const hr = bw * 0.1, hy = bh * 0.12;
-      for (const [k, c] of [[1.55, '#e8d4a0'], [1.3, '#3a2210'], [1.15, '#c9a35a']]) { circ(ctx, 0, hy, hr * k); ctx.fillStyle = c; ctx.fill(); }
-      ctx.fillStyle = rgrad(ctx, 0, hy, 0, hr, [[0, '#000'], [1, '#2a160a']]); circ(ctx, 0, hy, hr); ctx.fill();
-      // strings over the face to the bridge
-      ctx.fillStyle = '#1c0e06'; rrect(ctx, -bw * 0.24, bh * 0.38, bw * 0.48, 12, 5); ctx.fill();
-      for (let k = -2; k <= 2; k++) for (const o of [-1.4, 1.4]) { ctx.strokeStyle = 'rgba(245,240,225,0.9)'; ctx.lineWidth = 1.3; ctx.beginPath(); ctx.moveTo(k * nw * 0.17 + o, -bh * 0.4 - nl); ctx.lineTo(k * nw * 0.17 + o, -bh * 0.4); ctx.lineTo(k * bw * 0.085 + o, bh * 0.4); ctx.stroke(); }
-      glow(ctx, bw * 0.1, bh * 0.0, bw * 0.5, '#ffe0a0', 0.18);
-      break;
-    }
-    case 'bars': {
-      if (S.key === 'bells') {
-        ctx.fillStyle = hgrad(ctx, 0, 1, [[0, '#4a2c14'], [1, '#2a170a']]); ctx.fillStyle = vgrad(ctx, cy - u * 0.36, cy - u * 0.28, [[0, '#7a4a22'], [1, '#3a200e']]);
-        rrect(ctx, cx - u * 0.5, cy - u * 0.36, u, u * 0.08, 6); ctx.fill();
-        for (let k = 0; k < 5; k++) { const bw = u * (0.2 - 0.022 * k), bh = u * (0.36 - 0.04 * k); bell(ctx, S, cx - u * 0.38 + k * u * 0.19, cy - u * 0.28, bw, bh, col(k), 0, Math.sin(t * 1.5 + k) * 0.04); }
-        break;
-      }
-      if (S.key === 'tines' || S.key === 'buttons') {
-        ctx.fillStyle = vgrad(ctx, cy - u * 0.3, cy + u * 0.3, [[0, lighter(S.wood, 0.2)], [1, darker(S.wood, 0.4)]]);
-        rrect(ctx, cx - u * 0.42, cy - u * 0.3, u * 0.84, u * 0.6, 18); ctx.fill(); ctx.strokeStyle = 'rgba(255,230,180,0.4)'; ctx.lineWidth = 2; ctx.stroke();
-        for (let k = 0; k < 9; k++) {
-          const px = cx - u * 0.36 + k * u * 0.09;
-          if (S.key === 'tines') tine(ctx, S, px, cy - u * 0.22 + Math.abs(k - 4) * u * 0.015, u * 0.06, u * (0.42 - Math.abs(k - 4) * 0.03), col(k), 0, k, 0);
-          else pearlButton(ctx, S, px + u * 0.03, cy - u * 0.12 + (k % 3) * u * 0.14, u * 0.035, col(k), 0);
-        }
-        break;
-      }
-      const n = 8, bw = u * 0.085, gap = bw * 0.28;
-      const x0 = cx - (n * (bw + gap)) / 2;
-      ctx.strokeStyle = '#4a2a12'; ctx.lineWidth = 10; ctx.lineCap = 'round';
-      for (const yy of [cy - u * 0.12, cy + u * 0.17]) { ctx.beginPath(); ctx.moveTo(x0 - 8, yy); ctx.lineTo(x0 + n * (bw + gap) + 8, yy); ctx.stroke(); }
-      for (let k = 0; k < n; k++) {
-        const bh = u * (0.52 - 0.28 * (k / (n - 1)));
-        bar(ctx, S, x0 + k * (bw + gap), cy + u * 0.24 - bh, bw, bh, col(k), 0, k * 3, cy + u * 0.3);
-      }
-      // mallets
-      for (const d of [-1, 1]) { ctx.save(); ctx.translate(cx + d * u * 0.2, cy - u * 0.26); ctx.rotate(d * 0.5); ctx.strokeStyle = '#d9b27a'; ctx.lineWidth = 5; ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(0, u * 0.3); ctx.stroke(); circ(ctx, 0, 0, u * 0.035); ctx.fillStyle = '#7a2c1a'; ctx.fill(); ctx.restore(); }
-      break;
-    }
-    case 'pipe': {
-      ctx.translate(cx, cy); ctx.rotate(-0.7);
-      const L = u * 0.95, pw = u * 0.085;
-      pipe(ctx, S, -pw / 2, -L / 2, pw, L, col(0), 0, '110101110', t, 1);
-      if (S.twin) pipe(ctx, S, pw * 0.7, -L / 2 + 6, pw, L - 10, col(1), 0, '1010110', t, 2);
-      ctx.strokeStyle = '#a3262a'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(0, L / 2); ctx.quadraticCurveTo(10, L / 2 + 18, -8, L / 2 + 36); ctx.stroke();
-      break;
-    }
-    case 'feet': {
-      const fl = S.floor;
-      ctx.fillStyle = vgrad(ctx, y, y + h, [[0, rgba(fl, 0)], [1, rgba(fl, 0.9)]]);
-      ctx.beginPath(); ctx.moveTo(cx - u * 0.25, y + h * 0.1); ctx.lineTo(cx + u * 0.25, y + h * 0.1); ctx.lineTo(cx + u * 0.62, y + h * 0.95); ctx.lineTo(cx - u * 0.62, y + h * 0.95); ctx.closePath(); ctx.fill();
-      ctx.strokeStyle = 'rgba(255,230,190,0.18)'; ctx.lineWidth = 1.5;
-      for (let k = -3; k <= 3; k++) { ctx.beginPath(); ctx.moveTo(cx + k * u * 0.08, y + h * 0.1); ctx.lineTo(cx + k * u * 0.2, y + h * 0.95); ctx.stroke(); }
-      for (let k = 0; k < 6; k++) {
-        const p = k / 5, s = u * (0.07 + 0.07 * p), fx = cx + (k % 2 ? 1 : -1) * u * (0.08 + 0.1 * p) + Math.sin(k) * 6, fy = y + h * (0.22 + 0.62 * p);
-        footprint(ctx, fx, fy, s, k % 2 === 0, rgba(col(k), 0.55 + 0.4 * p), rgba('#ffffff', 0.5), 1);
-      }
-      if (S.dancer === 'kerchief') {
-        kerchief(ctx, cx - u * 0.36, cy - u * 0.3, u * 0.2, col(0), t, -0.5);
-        kerchief(ctx, cx + u * 0.2, cy - u * 0.34, u * 0.2, col(1), t + 1, -0.2);
-      }
-      break;
-    }
-    case 'gongs': {
-      ctx.strokeStyle = '#3a2410'; ctx.lineWidth = 6; ctx.lineCap = 'round';
-      for (const yy of [cy - u * 0.04, cy + u * 0.2]) { ctx.beginPath(); ctx.moveTo(cx - u * 0.52, yy); ctx.lineTo(cx + u * 0.52, yy); ctx.stroke(); }
-      const n = 5;
-      for (let k = 0; k < n; k++) { const r = u * (0.16 - 0.015 * k); gong(ctx, S, cx - u * 0.42 + k * (u * 0.21), cy + u * 0.08 - Math.sin((k / (n - 1)) * 3.14) * u * 0.09, r, col(k), 0); }
-      break;
-    }
-    default: { // drum with sticks (or a bell frame when keys are bells)
-      drumHead(ctx, S, cx, cy + u * 0.03, u * 0.36, col(0), 0, t, 3);
-      for (const d of [-1, 1]) { ctx.save(); ctx.translate(cx + d * u * 0.34, cy - u * 0.34); ctx.rotate(d * -0.5); ctx.strokeStyle = '#e4c493'; ctx.lineWidth = 6; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(0, u * 0.38); ctx.stroke(); circ(ctx, 0, u * 0.38, 7); ctx.fillStyle = '#c9a063'; ctx.fill(); ctx.restore(); }
-    }
-  }
-  ctx.restore();
-}

@@ -1,264 +1,748 @@
 {
- "engine": "rhythm",
- "variant": "fufu-pounding-rhythm",
- "params": {
-  "layout": "pads",
-  "mode": "follow",
-  "loops": 2,
-  "tolerance": 1.25,
-  "lanes": [
-   {
-    "name": "Pound",
-    "hz": 70,
-    "timbre": "bass",
-    "color": "#b5733a"
-   },
-   {
-    "name": "Turn",
-    "hz": 280,
-    "timbre": "rim",
-    "color": "#c98a2e"
-   },
-   {
-    "name": "Partner",
-    "hz": 105,
-    "timbre": "tone",
-    "color": "#6fae7a"
-   }
-  ],
-  "songs": [
-   {
-    "name": "Steady pounding",
-    "bpm": 84,
-    "meter": 4,
-    "length": 16,
-    "steps": [
-     {
-      "beat": 0,
-      "lane": 0
-     },
-     {
-      "beat": 1,
-      "lane": 1
-     },
-     {
-      "beat": 2,
-      "lane": 2
-     },
-     {
-      "beat": 3,
-      "lane": 1
-     },
-     {
-      "beat": 4,
-      "lane": 0
-     },
-     {
-      "beat": 5,
-      "lane": 1
-     },
-     {
-      "beat": 6,
-      "lane": 2
-     },
-     {
-      "beat": 7,
-      "lane": 1
-     },
-     {
-      "beat": 8,
-      "lane": 0
-     },
-     {
-      "beat": 9,
-      "lane": 1
-     },
-     {
-      "beat": 10,
-      "lane": 2
-     },
-     {
-      "beat": 11,
-      "lane": 1
-     },
-     {
-      "beat": 12,
-      "lane": 0
-     },
-     {
-      "beat": 13,
-      "lane": 1
-     },
-     {
-      "beat": 14,
-      "lane": 2
-     },
-     {
-      "beat": 15,
-      "lane": 1
-     }
+  "engine": "rhythm",
+  "variant": "fufu-pounding-rhythm",
+  "params": {
+    "layout": "pads",
+    "mode": "follow",
+    "loops": 2,
+    "tolerance": 1.25,
+    "lanes": [
+      {
+        "name": "Pound",
+        "hz": 70,
+        "timbre": "bass",
+        "color": "#b5733a"
+      },
+      {
+        "name": "Turn",
+        "hz": 280,
+        "timbre": "rim",
+        "color": "#c98a2e"
+      },
+      {
+        "name": "Partner",
+        "hz": 105,
+        "timbre": "tone",
+        "color": "#6fae7a"
+      }
+    ],
+    "songs": [
+      {
+        "name": "Steady pounding",
+        "bpm": 84,
+        "meter": 4,
+        "length": 16,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": 0
+          },
+          {
+            "beat": 1,
+            "lane": 1
+          },
+          {
+            "beat": 2,
+            "lane": 2
+          },
+          {
+            "beat": 3,
+            "lane": 1
+          },
+          {
+            "beat": 4,
+            "lane": 0
+          },
+          {
+            "beat": 5,
+            "lane": 1
+          },
+          {
+            "beat": 6,
+            "lane": 2
+          },
+          {
+            "beat": 7,
+            "lane": 1
+          },
+          {
+            "beat": 8,
+            "lane": 0
+          },
+          {
+            "beat": 9,
+            "lane": 1
+          },
+          {
+            "beat": 10,
+            "lane": 2
+          },
+          {
+            "beat": 11,
+            "lane": 1
+          },
+          {
+            "beat": 12,
+            "lane": 0
+          },
+          {
+            "beat": 13,
+            "lane": 1
+          },
+          {
+            "beat": 14,
+            "lane": 2
+          },
+          {
+            "beat": 15,
+            "lane": 1
+          }
+        ]
+      },
+      {
+        "name": "Quick pestles",
+        "bpm": 100,
+        "meter": 4,
+        "length": 16,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": 0
+          },
+          {
+            "beat": 0.5,
+            "lane": 2
+          },
+          {
+            "beat": 1,
+            "lane": 1
+          },
+          {
+            "beat": 2,
+            "lane": 0
+          },
+          {
+            "beat": 2.5,
+            "lane": 2
+          },
+          {
+            "beat": 3,
+            "lane": 1
+          },
+          {
+            "beat": 4,
+            "lane": 0
+          },
+          {
+            "beat": 4.5,
+            "lane": 2
+          },
+          {
+            "beat": 5,
+            "lane": 1
+          },
+          {
+            "beat": 6,
+            "lane": 0
+          },
+          {
+            "beat": 6.5,
+            "lane": 2
+          },
+          {
+            "beat": 7,
+            "lane": 1
+          },
+          {
+            "beat": 8,
+            "lane": 0
+          },
+          {
+            "beat": 8.5,
+            "lane": 2
+          },
+          {
+            "beat": 9,
+            "lane": 1
+          },
+          {
+            "beat": 10,
+            "lane": 0
+          },
+          {
+            "beat": 10.5,
+            "lane": 2
+          },
+          {
+            "beat": 11,
+            "lane": 1
+          },
+          {
+            "beat": 12,
+            "lane": 0
+          },
+          {
+            "beat": 12.5,
+            "lane": 2
+          },
+          {
+            "beat": 13,
+            "lane": 1
+          },
+          {
+            "beat": 14,
+            "lane": 0
+          },
+          {
+            "beat": 14.5,
+            "lane": 2
+          },
+          {
+            "beat": 15,
+            "lane": 1
+          }
+        ]
+      },
+      {
+        "name": "Pound, pound, turn",
+        "bpm": 90,
+        "meter": 3,
+        "length": 12,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": 0
+          },
+          {
+            "beat": 1,
+            "lane": 2
+          },
+          {
+            "beat": 2,
+            "lane": 1
+          },
+          {
+            "beat": 3,
+            "lane": 0
+          },
+          {
+            "beat": 4,
+            "lane": 2
+          },
+          {
+            "beat": 5,
+            "lane": 1
+          },
+          {
+            "beat": 6,
+            "lane": 0
+          },
+          {
+            "beat": 7,
+            "lane": 2
+          },
+          {
+            "beat": 8,
+            "lane": 1
+          },
+          {
+            "beat": 9,
+            "lane": 0
+          },
+          {
+            "beat": 10,
+            "lane": 2
+          },
+          {
+            "beat": 11,
+            "lane": 1
+          }
+        ]
+      },
+      {
+        "id": "two-pestles",
+        "name": "Two pestles in turn",
+        "bpm": 90,
+        "meter": 4,
+        "length": 52,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "West African fufu pounding",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Pound"
+          },
+          {
+            "beat": 1,
+            "lane": "Partner"
+          },
+          {
+            "beat": 2,
+            "lane": "Pound"
+          },
+          {
+            "beat": 3,
+            "lane": "Turn"
+          },
+          {
+            "beat": 4,
+            "lane": "Pound"
+          },
+          {
+            "beat": 5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 6,
+            "lane": "Pound"
+          },
+          {
+            "beat": 7,
+            "lane": "Turn"
+          },
+          {
+            "beat": 8,
+            "lane": "Pound"
+          },
+          {
+            "beat": 9,
+            "lane": "Partner"
+          },
+          {
+            "beat": 10,
+            "lane": "Pound"
+          },
+          {
+            "beat": 11,
+            "lane": "Turn"
+          },
+          {
+            "beat": 12,
+            "lane": "Pound"
+          },
+          {
+            "beat": 13,
+            "lane": "Partner"
+          },
+          {
+            "beat": 14,
+            "lane": "Pound"
+          },
+          {
+            "beat": 15,
+            "lane": "Turn"
+          },
+          {
+            "beat": 16,
+            "lane": "Pound"
+          },
+          {
+            "beat": 16.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 17,
+            "lane": "Pound"
+          },
+          {
+            "beat": 17.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 18,
+            "lane": "Pound"
+          },
+          {
+            "beat": 19,
+            "lane": "Turn"
+          },
+          {
+            "beat": 20,
+            "lane": "Pound"
+          },
+          {
+            "beat": 20.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 21,
+            "lane": "Pound"
+          },
+          {
+            "beat": 21.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 22,
+            "lane": "Pound"
+          },
+          {
+            "beat": 23,
+            "lane": "Turn"
+          },
+          {
+            "beat": 24,
+            "lane": "Pound"
+          },
+          {
+            "beat": 24.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 25,
+            "lane": "Pound"
+          },
+          {
+            "beat": 25.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 26,
+            "lane": "Pound"
+          },
+          {
+            "beat": 27,
+            "lane": "Turn"
+          },
+          {
+            "beat": 28,
+            "lane": "Pound"
+          },
+          {
+            "beat": 28.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 29,
+            "lane": "Pound"
+          },
+          {
+            "beat": 29.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 30,
+            "lane": "Pound"
+          },
+          {
+            "beat": 31,
+            "lane": "Turn"
+          },
+          {
+            "beat": 32,
+            "lane": "Pound"
+          },
+          {
+            "beat": 33,
+            "lane": "Partner"
+          },
+          {
+            "beat": 34,
+            "lane": "Pound"
+          },
+          {
+            "beat": 34.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 35,
+            "lane": "Turn"
+          },
+          {
+            "beat": 36,
+            "lane": "Pound"
+          },
+          {
+            "beat": 37,
+            "lane": "Partner"
+          },
+          {
+            "beat": 38,
+            "lane": "Pound"
+          },
+          {
+            "beat": 38.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 39,
+            "lane": "Turn"
+          },
+          {
+            "beat": 40,
+            "lane": "Pound"
+          },
+          {
+            "beat": 40.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 41,
+            "lane": "Pound"
+          },
+          {
+            "beat": 41.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 42,
+            "lane": "Pound"
+          },
+          {
+            "beat": 43,
+            "lane": "Turn"
+          },
+          {
+            "beat": 44,
+            "lane": "Pound"
+          },
+          {
+            "beat": 44.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 45,
+            "lane": "Pound"
+          },
+          {
+            "beat": 45.5,
+            "lane": "Partner"
+          },
+          {
+            "beat": 46,
+            "lane": "Pound"
+          },
+          {
+            "beat": 47,
+            "lane": "Turn"
+          },
+          {
+            "beat": 48,
+            "lane": "Pound"
+          },
+          {
+            "beat": 49,
+            "lane": "Partner"
+          },
+          {
+            "beat": 50,
+            "lane": "Pound",
+            "len": 2
+          }
+        ],
+        "note": "Two people pound cooked yam or plantain in a large mortar, one pestle after the other, while the dough is turned by hand between strokes. The rhythm starts evenly and then quickens as the pounders warm up."
+      },
+      {
+        "id": "triple-pound-cycle",
+        "name": "Triple pound cycle, six pulses",
+        "bpm": 110,
+        "meter": 6,
+        "length": 66,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "West African fufu pounding",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Pound"
+          },
+          {
+            "beat": 2,
+            "lane": "Partner"
+          },
+          {
+            "beat": 3,
+            "lane": "Pound"
+          },
+          {
+            "beat": 5,
+            "lane": "Turn"
+          },
+          {
+            "beat": 6,
+            "lane": "Pound"
+          },
+          {
+            "beat": 8,
+            "lane": "Partner"
+          },
+          {
+            "beat": 9,
+            "lane": "Pound"
+          },
+          {
+            "beat": 11,
+            "lane": "Turn"
+          },
+          {
+            "beat": 12,
+            "lane": "Pound"
+          },
+          {
+            "beat": 14,
+            "lane": "Partner"
+          },
+          {
+            "beat": 15,
+            "lane": "Pound"
+          },
+          {
+            "beat": 17,
+            "lane": "Turn"
+          },
+          {
+            "beat": 18,
+            "lane": "Pound"
+          },
+          {
+            "beat": 20,
+            "lane": "Partner"
+          },
+          {
+            "beat": 21,
+            "lane": "Pound"
+          },
+          {
+            "beat": 23,
+            "lane": "Turn"
+          },
+          {
+            "beat": 24,
+            "lane": "Pound"
+          },
+          {
+            "beat": 25,
+            "lane": "Partner"
+          },
+          {
+            "beat": 26,
+            "lane": "Partner"
+          },
+          {
+            "beat": 27,
+            "lane": "Pound"
+          },
+          {
+            "beat": 29,
+            "lane": "Turn"
+          },
+          {
+            "beat": 30,
+            "lane": "Pound"
+          },
+          {
+            "beat": 31,
+            "lane": "Partner"
+          },
+          {
+            "beat": 32,
+            "lane": "Partner"
+          },
+          {
+            "beat": 33,
+            "lane": "Pound"
+          },
+          {
+            "beat": 35,
+            "lane": "Turn"
+          },
+          {
+            "beat": 36,
+            "lane": "Pound"
+          },
+          {
+            "beat": 37,
+            "lane": "Partner"
+          },
+          {
+            "beat": 38,
+            "lane": "Partner"
+          },
+          {
+            "beat": 39,
+            "lane": "Pound"
+          },
+          {
+            "beat": 41,
+            "lane": "Turn"
+          },
+          {
+            "beat": 42,
+            "lane": "Pound"
+          },
+          {
+            "beat": 43,
+            "lane": "Partner"
+          },
+          {
+            "beat": 44,
+            "lane": "Partner"
+          },
+          {
+            "beat": 45,
+            "lane": "Pound"
+          },
+          {
+            "beat": 47,
+            "lane": "Turn"
+          },
+          {
+            "beat": 48,
+            "lane": "Pound"
+          },
+          {
+            "beat": 50,
+            "lane": "Partner"
+          },
+          {
+            "beat": 51,
+            "lane": "Pound"
+          },
+          {
+            "beat": 52,
+            "lane": "Partner"
+          },
+          {
+            "beat": 53,
+            "lane": "Turn"
+          },
+          {
+            "beat": 54,
+            "lane": "Pound"
+          },
+          {
+            "beat": 56,
+            "lane": "Partner"
+          },
+          {
+            "beat": 57,
+            "lane": "Pound"
+          },
+          {
+            "beat": 58,
+            "lane": "Partner"
+          },
+          {
+            "beat": 59,
+            "lane": "Turn"
+          },
+          {
+            "beat": 60,
+            "lane": "Pound"
+          },
+          {
+            "beat": 62,
+            "lane": "Partner"
+          },
+          {
+            "beat": 63,
+            "lane": "Pound",
+            "len": 3
+          }
+        ],
+        "note": "Pounding songs are often felt in six pulses. The main pestle strikes on the first and fourth pulse, the partner fills in, and the turning stroke closes each bar before the dough is folded over."
+      }
     ]
-   },
-   {
-    "name": "Quick pestles",
-    "bpm": 100,
-    "meter": 4,
-    "length": 16,
-    "steps": [
-     {
-      "beat": 0,
-      "lane": 0
-     },
-     {
-      "beat": 0.5,
-      "lane": 2
-     },
-     {
-      "beat": 1,
-      "lane": 1
-     },
-     {
-      "beat": 2,
-      "lane": 0
-     },
-     {
-      "beat": 2.5,
-      "lane": 2
-     },
-     {
-      "beat": 3,
-      "lane": 1
-     },
-     {
-      "beat": 4,
-      "lane": 0
-     },
-     {
-      "beat": 4.5,
-      "lane": 2
-     },
-     {
-      "beat": 5,
-      "lane": 1
-     },
-     {
-      "beat": 6,
-      "lane": 0
-     },
-     {
-      "beat": 6.5,
-      "lane": 2
-     },
-     {
-      "beat": 7,
-      "lane": 1
-     },
-     {
-      "beat": 8,
-      "lane": 0
-     },
-     {
-      "beat": 8.5,
-      "lane": 2
-     },
-     {
-      "beat": 9,
-      "lane": 1
-     },
-     {
-      "beat": 10,
-      "lane": 0
-     },
-     {
-      "beat": 10.5,
-      "lane": 2
-     },
-     {
-      "beat": 11,
-      "lane": 1
-     },
-     {
-      "beat": 12,
-      "lane": 0
-     },
-     {
-      "beat": 12.5,
-      "lane": 2
-     },
-     {
-      "beat": 13,
-      "lane": 1
-     },
-     {
-      "beat": 14,
-      "lane": 0
-     },
-     {
-      "beat": 14.5,
-      "lane": 2
-     },
-     {
-      "beat": 15,
-      "lane": 1
-     }
-    ]
-   },
-   {
-    "name": "Pound, pound, turn",
-    "bpm": 90,
-    "meter": 3,
-    "length": 12,
-    "steps": [
-     {
-      "beat": 0,
-      "lane": 0
-     },
-     {
-      "beat": 1,
-      "lane": 2
-     },
-     {
-      "beat": 2,
-      "lane": 1
-     },
-     {
-      "beat": 3,
-      "lane": 0
-     },
-     {
-      "beat": 4,
-      "lane": 2
-     },
-     {
-      "beat": 5,
-      "lane": 1
-     },
-     {
-      "beat": 6,
-      "lane": 0
-     },
-     {
-      "beat": 7,
-      "lane": 2
-     },
-     {
-      "beat": 8,
-      "lane": 1
-     },
-     {
-      "beat": 9,
-      "lane": 0
-     },
-     {
-      "beat": 10,
-      "lane": 2
-     },
-     {
-      "beat": 11,
-      "lane": 1
-     }
-    ]
-   }
-  ]
- }
+  }
 }

@@ -3,6 +3,7 @@
 // Rendering: a receding ground plane, parallax scenery, 3D target discs with posts and shadows, a projectile that
 // flies a visible arc and shrinks with distance, wind pennants and shatter / ripple effects on every hit.
 import { DT } from './lane.js';
+import { faceSceneId, createFaceScene } from './scenes.js';
 import { drawBackdrop, windFlag, createFx, palFor, inferSetting, mix, dark, light, alpha, vgrad, hgrad, poly, rrect, clamp, hash } from './scenery.js';
 
 const hyp = Math.hypot;
@@ -15,12 +16,13 @@ export function createFace(P, env, host) {
   const setting = inferSetting(P, env.text?.title);
   const pal = palFor(setting, {});
   const fx = createFx(env);
+  const SC = createFaceScene(faceSceneId(P, env.text?.title), P, env, fx);
   let clock = 0, wind = 0, hold = 0, ptr = null, shots = [], stuck = [], floats = [], layout = null, ai = null, planCache = null, pending = 0;
   let hits = [];
   const meter = { stage: 0, t: 0, x: 0, y: 0 };
   const tone = (o) => env.audio?.tone?.(o);
 
-  const reset = () => { clock = 0; wind = F.wind > 0 ? rng.range(-F.wind, F.wind) : 0; hold = 0; ptr = null; shots = []; stuck = []; floats = []; ai = null; planCache = null; pending = 0; meter.stage = 0; meter.t = 0; hits = []; fx.reset(); };
+  const reset = () => { clock = 0; wind = F.wind > 0 ? rng.range(-F.wind, F.wind) : 0; hold = 0; ptr = null; shots = []; stuck = []; floats = []; ai = null; planCache = null; pending = 0; meter.stage = 0; meter.t = 0; hits = []; fx.reset(); SC?.reset(); };
 
   const itemPos = (it, t) => {
     let x = it.x, y = it.y;
@@ -50,14 +52,15 @@ export function createFace(P, env, host) {
     pending++;
     host.thrown();
     planCache = null;
-    tone({ freq: 700, to: 300, dur: 0.12, type: 'sawtooth', vol: 0.3 });
-    fx.sfx(0.02, { freq: 1500, to: 500, dur: 0.1, type: 'triangle', vol: 0.08 });
+    if (SC) SC.onShoot(tone, fx);
+    else { tone({ freq: 700, to: 300, dur: 0.12, type: 'sawtooth', vol: 0.3 }); fx.sfx(0.02, { freq: 1500, to: 500, dur: 0.1, type: 'triangle', vol: 0.08 }); }
   };
 
   // tick: clock, resolution of arrows in flight and meters. Returns true when a new shot may be aimed.
   const tick = (dt) => {
     clock += dt;
     fx.update(dt);
+    SC?.tickHit?.(dt);
     for (const f of floats) f.t += dt;
     floats = floats.filter((f) => f.t < 1.4);
     hits = hits.filter((h) => { h.t += dt; return h.t < 1.2; });
@@ -70,7 +73,8 @@ export function createFace(P, env, host) {
         if (r.who >= 0) { const c = itemPos(F.items[r.who], clock); rel = { who: r.who, dx: sh.x - c.x, dy: sh.y - c.y }; }
         stuck.push({ x: sh.x, y: sh.y, rel, points: r.points });
         floats.push({ x: sh.x, y: sh.y, text: r.points ? `+${r.points}` : 'miss', t: 0 });
-        if (r.points) {
+        if (SC && layout) { const pp = toScreen(sh.x, sh.y); if (r.points) hits.push({ who: r.who, t: 0, amp: 0.12 + 0.03 * r.points, dx: sh.x - itemPos(F.items[r.who], clock).x }); SC.onResolve({ points: r.points, p: pp, x: sh.x, y: sh.y, tone, fxs: fx, s: layout.s }); }
+        else if (r.points) {
           hits.push({ who: r.who, t: 0, amp: 0.12 + 0.03 * r.points, dx: sh.x - itemPos(F.items[r.who], clock).x });
           tone({ freq: 520 + r.points * 60, to: 880, dur: 0.15, type: 'triangle', vol: 0.4 });
           fx.sfx(0, { freq: 130, to: 70, dur: 0.12, type: 'sine', vol: 0.5 });   // the thump of the hit
@@ -192,12 +196,16 @@ export function createFace(P, env, host) {
     ctx.save();
     ctx.beginPath(); ctx.rect(area.x, area.y, area.w, area.h); ctx.clip();
     ctx.translate(off.x, off.y);
+    if (SC?.bob) ctx.translate(0, Math.sin(clock * 9.5) * 2.2 + Math.sin(clock * 4.1) * 1.2);
     // parallax: the far scenery slides against the aim point
     const aimX = ptr ? clamp(ptr.x / (FW / 2), -1, 1) : P.controls === 'meter' ? clamp(meter.x / (FW / 2), -1, 1) : 0;
     const P2 = { ...pal, skyTop: LK.skyTop && LK.skyTop !== '#7fb4d9' ? LK.skyTop : pal.skyTop, skyLow: LK.skyLow && LK.skyLow !== '#dbe9f1' ? LK.skyLow : pal.skyLow };
-    drawBackdrop(ctx, setting, { x: area.x - 20, y: area.y, w: area.w + 40, h: area.h }, hz, P2, clock, -aimX * area.w * 0.035);
+    const SCc = { A: area, hz, bottom, baseY, cx, t: clock, aimX, s, rect, LK, F, sx, sy };
+    if (SC) SC.backdrop(ctx, SCc);
+    else drawBackdrop(ctx, setting, { x: area.x - 20, y: area.y, w: area.w + 40, h: area.h }, hz, P2, clock, -aimX * area.w * 0.035);
     // ground plane: lighter at the horizon, receding stripes and converging seams
     const gnd = LK.lane && setting === 'range' ? LK.lane : pal.ground;
+    if (!SC) {
     ctx.fillStyle = vgrad(ctx, hz, bottom, [[0, mix(gnd, P2.skyLow, 0.5)], [0.3, gnd], [1, dark(gnd, 0.4)]]);
     ctx.fillRect(area.x - 20, hz, area.w + 40, bottom - hz + 40);
     for (let i = 0; i < 9; i++) {
@@ -207,9 +215,10 @@ export function createFace(P, env, host) {
     ctx.strokeStyle = 'rgba(0,0,0,0.12)'; ctx.lineWidth = 1.2; ctx.beginPath();
     for (let j = -8; j <= 8; j++) { ctx.moveTo(cx + j * 8, hz); ctx.lineTo(cx + j * area.w * 0.16, bottom + 40); }
     ctx.stroke();
+    }
     // pennants along the range tell the wind
     const wmax = F.wind;
-    if (wmax > 0) {
+    if (wmax > 0 && !SC) {
       windFlag(ctx, area.x + area.w * 0.07, baseY + 6, area.h * 0.2, wind, wmax, clock, '#d8453a');
       windFlag(ctx, area.x + area.w * 0.93, baseY + 6, area.h * 0.2, wind, wmax, clock, '#2d6bb0');
     }
@@ -222,6 +231,11 @@ export function createFace(P, env, host) {
       const h = hits.find((q) => q.who === i);
       const wob = h ? h.amp * Math.sin(h.t * 22) * Math.exp(-h.t * 4.2) : 0;
       const hang = it.hang ? 1 : 0;
+      if (SC) {
+        const hh = hits.find((q) => q.who === i);
+        SC.target(ctx, g, SCc, { it, i, pos: { cx: cxp, cy: cyp, R }, wob, h: hh, baseY, stuck: stuck.filter((st) => st.rel && st.rel.who === i) });
+        return;
+      }
       // ground shadow
       ctx.fillStyle = 'rgba(0,0,0,0.25)'; ellipse(ctx, cxp + R * 0.2, baseY + 3, R * 0.9, R * 0.16); ctx.fill();
       ctx.save();
@@ -260,12 +274,12 @@ export function createFace(P, env, host) {
     });
     // misses stick in the ground or fall behind
     for (const st of stuck) {
-      if (st.rel) continue;
+      if (st.rel || SC?.hideMissile) continue;
       const px = sx(st.x), py = sy(st.y);
       ctx.fillStyle = alpha(LK.dart, 0.55); ctx.beginPath(); ctx.arc(px, py, Math.max(2.5, s * 0.02), 0, TAU); ctx.fill();
     }
     // projectiles in flight: a visible arc, shrinking toward the target, with a fading trail
-    for (const sh of shots) if (!sh.done) {
+    for (const sh of shots) if (!sh.done && !SC?.hideMissile) {
       const u = clamp(sh.t / F.flight, 0, 1);
       const tx = sx(sh.x), ty = sy(sh.y);
       const x0 = cx + (tx - cx) * 0.25, y0 = bottom - 6;
@@ -283,8 +297,23 @@ export function createFace(P, env, host) {
       // its shadow runs along the ground
       ctx.fillStyle = 'rgba(0,0,0,0.25)'; ellipse(ctx, x0 + (tx - x0) * u, baseY + (bottom - baseY) * (1 - u) * 0.5, 7 * k, 2.5 * k); ctx.fill();
     }
+    let cross = null, drawLevel = 0;
+    if (P.controls === 'meter') cross = meter.stage === 0 ? { x: meter.x + wind, y: FH * 0.5 } : { x: meter.x + wind, y: meter.y - dropAt(F.drawTime) };
+    else if (ptr) { drawLevel = eff(hold); cross = impact(ptr, clock, hold); }
+    if (SC) {
+      const aiming = cross && host.canThrow() && pending === 0;
+      const live = shots.find((q) => !q.done);
+      const flight = live ? { u: clamp(live.t / F.flight, 0, 1), e: Math.min(1, live.t / (F.flight * 0.8)), tx: sx(live.x), ty: sy(live.y) } : null;
+      SC.tool(ctx, g, SCc, { cross: aiming ? { x: sx(cross.x), y: sy(cross.y) } : null, ptr: ptr ? { x: sx(ptr.x), y: sy(ptr.y) } : null, drawLevel, flight });
+      if (aiming && ptr) { const b = { x: sx(ptr.x), y: sy(ptr.y) }, c2 = { x: sx(cross.x), y: sy(cross.y) }; ctx.strokeStyle = 'rgba(255,255,255,0.35)'; ctx.lineWidth = 1.5; ctx.setLineDash([3, 5]); ctx.beginPath(); ctx.moveTo(b.x, b.y); ctx.lineTo(c2.x, c2.y); ctx.stroke(); ctx.setLineDash([]); }
+      if (aiming && ptr && F.drawTime > 0) {
+        rrect(ctx, area.x + 14, area.y + 14, 126, 16, 8); ctx.fillStyle = 'rgba(0,0,0,0.45)'; ctx.fill();
+        if (drawLevel > 0.02) { rrect(ctx, area.x + 14, area.y + 14, Math.max(12, 126 * drawLevel), 16, 8); ctx.fillStyle = drawLevel >= 1 ? LK.good : LK.guide; ctx.fill(); }
+        g.label(ctx, drawLevel >= 1 ? SC.labels.full : SC.labels.draw, area.x + 150, area.y + 22, g.px(16), LK.hudText, 'left', '600');
+      }
+    }
     // the shooter's weapon in the foreground
-    {
+    if (!SC) {
       const bx = cx + area.w * 0.28, by = bottom + 6;
       if (PR.look === 'arrow') {
         ctx.strokeStyle = '#5a3a1c'; ctx.lineWidth = 7; ctx.lineCap = 'round';
@@ -298,10 +327,7 @@ export function createFace(P, env, host) {
       ctx.lineCap = 'butt';
     }
     // crosshair at the true impact point
-    let cross = null, drawLevel = 0;
-    if (P.controls === 'meter') cross = meter.stage === 0 ? { x: meter.x + wind, y: FH * 0.5 } : { x: meter.x + wind, y: meter.y - dropAt(F.drawTime) };
-    else if (ptr) { drawLevel = eff(hold); cross = impact(ptr, clock, hold); }
-    if (cross && host.canThrow() && pending === 0 && layout) {
+    if (!SC && cross && host.canThrow() && pending === 0 && layout) {
       const c = { x: sx(cross.x), y: sy(cross.y) }, r = 17 + (1 - drawLevel) * 9;
       // where the hand actually points, joined by a thin line to the true impact
       if (ptr) { const b = { x: sx(ptr.x), y: sy(ptr.y) }; ctx.strokeStyle = 'rgba(255,255,255,0.35)'; ctx.lineWidth = 1.5; ctx.setLineDash([3, 5]); ctx.beginPath(); ctx.moveTo(b.x, b.y); ctx.lineTo(c.x, c.y); ctx.stroke(); ctx.setLineDash([]); ctx.beginPath(); ctx.arc(b.x, b.y, 3, 0, TAU); ctx.stroke(); }
@@ -324,7 +350,7 @@ export function createFace(P, env, host) {
     // HUD
     const hy = area.y + area.h - bar / 2;
     const left = host.throwsLeft(), total = P.rounds.throws;
-    for (let i = 0; i < total; i++) { ctx.fillStyle = i < left ? LK.guide : 'rgba(255,255,255,0.18)'; ctx.beginPath(); ctx.arc(area.x + 18 + i * 20, hy, 7, 0, TAU); ctx.fill(); }
+    for (let i = 0; i < total; i++) { if (SC?.hudIcon) { SC.hudIcon(ctx, area.x + 20 + i * 24, hy, i < left); continue; } ctx.fillStyle = i < left ? LK.guide : 'rgba(255,255,255,0.18)'; ctx.beginPath(); ctx.arc(area.x + 18 + i * 20, hy, 7, 0, TAU); ctx.fill(); }
     if (F.wind > 0) {
       const wx = area.x + area.w - 60, m = wind / F.wind;
       g.label(ctx, 'Wind', wx - 38, hy, g.px(16), LK.hudText, 'right', '600');
@@ -351,7 +377,7 @@ export function createFace(P, env, host) {
       if (id === 'aim') return testPlan();
       return null;
     },
-    hint: () => (P.controls === 'meter' ? 'Tap to stop the sweep across, then tap again to set the height.' : 'Press to draw, watch the crosshair drift with your hand, and release when it sits on the target.'),
+    hint: () => SC?.hint ?? (P.controls === 'meter' ? 'Tap to stop the sweep across, then tap again to set the height.' : 'Press to draw, watch the crosshair drift with your hand, and release when it sits on the target.'),
     state: () => ({ clock: Math.round(clock * 100) / 100, wind: Math.round(wind * 100) / 100, pending, stuck: stuck.map((s) => [Math.round(s.x * 100) / 100, Math.round(s.y * 100) / 100, s.points]) }),
   };
 }

@@ -369,6 +369,250 @@
       "len": 2
      }
     ]
+   },
+   {
+    "id": "mo-li-hua",
+    "name": "Mo Li Hua (Jasmine Flower)",
+    "bpm": 96,
+    "meter": 4,
+    "length": 48,
+    "watch": true,
+    "kind": "song",
+    "heritage": "Jiangsu folk song, China",
+    "note": "A well-loved folk song from the lower Yangtze region, known since the 18th century and sung about a fragrant jasmine flower. On the dizi it is played as one smooth line, with the small slurred pairs of notes gliding together in a single breath.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "3 mid"
+     },
+     {
+      "beat": 1,
+      "lane": "3 mid"
+     },
+     {
+      "beat": 1.5,
+      "lane": "5 mid"
+     },
+     {
+      "beat": 2,
+      "lane": "6 mid"
+     },
+     {
+      "beat": 2.5,
+      "lane": "1 hi"
+     },
+     {
+      "beat": 3,
+      "lane": "1 hi"
+     },
+     {
+      "beat": 3.5,
+      "lane": "6 mid"
+     },
+     {
+      "beat": 4,
+      "lane": "5 mid"
+     },
+     {
+      "beat": 5,
+      "lane": "5 mid"
+     },
+     {
+      "beat": 5.5,
+      "lane": "6 mid"
+     },
+     {
+      "beat": 6,
+      "lane": "5 mid"
+     },
+     {
+      "beat": 8,
+      "lane": "5 mid"
+     },
+     {
+      "beat": 9,
+      "lane": "5 mid"
+     },
+     {
+      "beat": 10,
+      "lane": "5 mid"
+     },
+     {
+      "beat": 11,
+      "lane": "3 mid"
+     },
+     {
+      "beat": 11.5,
+      "lane": "5 mid"
+     },
+     {
+      "beat": 12,
+      "lane": "6 mid"
+     },
+     {
+      "beat": 13,
+      "lane": "6 mid"
+     },
+     {
+      "beat": 14,
+      "lane": "5 mid",
+      "len": 2
+     },
+     {
+      "beat": 16,
+      "lane": "3 mid"
+     },
+     {
+      "beat": 17,
+      "lane": "2 mid"
+     },
+     {
+      "beat": 17.5,
+      "lane": "3 mid"
+     },
+     {
+      "beat": 18,
+      "lane": "5 mid"
+     },
+     {
+      "beat": 19,
+      "lane": "3 mid"
+     },
+     {
+      "beat": 19.5,
+      "lane": "2 mid"
+     },
+     {
+      "beat": 20,
+      "lane": "1 mid"
+     },
+     {
+      "beat": 21,
+      "lane": "1 mid"
+     },
+     {
+      "beat": 21.5,
+      "lane": "2 mid"
+     },
+     {
+      "beat": 22,
+      "lane": "1 mid",
+      "len": 2
+     },
+     {
+      "beat": 24,
+      "lane": "3 mid"
+     },
+     {
+      "beat": 24.5,
+      "lane": "2 mid"
+     },
+     {
+      "beat": 25,
+      "lane": "1 mid"
+     },
+     {
+      "beat": 25.5,
+      "lane": "3 mid"
+     },
+     {
+      "beat": 26,
+      "lane": "2 mid",
+      "len": 1.5
+     },
+     {
+      "beat": 27.5,
+      "lane": "3 mid"
+     },
+     {
+      "beat": 28,
+      "lane": "5 mid"
+     },
+     {
+      "beat": 29,
+      "lane": "6 mid"
+     },
+     {
+      "beat": 29.5,
+      "lane": "1 hi"
+     },
+     {
+      "beat": 30,
+      "lane": "5 mid",
+      "len": 2
+     },
+     {
+      "beat": 32,
+      "lane": "2 mid"
+     },
+     {
+      "beat": 33,
+      "lane": "3 mid"
+     },
+     {
+      "beat": 33.5,
+      "lane": "5 mid"
+     },
+     {
+      "beat": 34,
+      "lane": "2 mid"
+     },
+     {
+      "beat": 34.5,
+      "lane": "3 mid"
+     },
+     {
+      "beat": 35,
+      "lane": "1 mid"
+     },
+     {
+      "beat": 35.5,
+      "lane": "6 lo"
+     },
+     {
+      "beat": 36,
+      "lane": "5 lo",
+      "len": 2
+     },
+     {
+      "beat": 38,
+      "lane": "6 lo"
+     },
+     {
+      "beat": 39,
+      "lane": "1 mid"
+     },
+     {
+      "beat": 40,
+      "lane": "2 mid",
+      "len": 1.5
+     },
+     {
+      "beat": 41.5,
+      "lane": "3 mid"
+     },
+     {
+      "beat": 42,
+      "lane": "1 mid"
+     },
+     {
+      "beat": 42.5,
+      "lane": "2 mid"
+     },
+     {
+      "beat": 43,
+      "lane": "1 mid"
+     },
+     {
+      "beat": 43.5,
+      "lane": "6 lo"
+     },
+     {
+      "beat": 44,
+      "lane": "5 lo",
+      "len": 2
+     }
+    ]
    }
   ]
  }

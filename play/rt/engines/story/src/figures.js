@@ -158,6 +158,9 @@ function drawProp(ctx, kind, x, y, s, col, acc, t) {
   }
 }
 
+/** Registry of per-tradition puppet makers: PUPPETS[setting](T) draws one figure and returns true. */
+export const PUPPETS = {};
+
 // ---- animal species picked from the cast name when the recipe does not say --------------------------------------
 const speciesOf = (c) => {
   if (c.species) return c.species;
@@ -217,7 +220,10 @@ export function drawFigure(ctx, c, x, base, H, o) {
   const outline = () => { ctx.strokeStyle = lineC; ctx.lineWidth = ol; ctx.stroke(); };
   const sheen = (px, py, rx, ry, rot) => { if (shadow) return; ctx.fillStyle = 'rgba(255,255,255,0.18)'; ctx.beginPath(); ctx.ellipse(px, py, rx, ry, rot ?? 0, 0, TAU); ctx.fill(); };
 
-  if (kind === 'camel') {
+  // a tradition may draw its own puppet (silhouette, costume, mechanism); it returns true when it did
+  const custom = o.trad && PUPPETS[o.trad];
+  const handled = !!custom && custom({ ctx, c, o, kind, s, t, phase, talk, breath, walk, shadow, glove, bodyC, accC, skinC, cut, hands, knees, head, shoulders, eye, fillBody, outline, sheen, ol, lineC }) === true;
+  if (handled) { /* drawn by the tradition's puppet maker */ } else if (kind === 'camel') {
     const bob = Math.sin(t * 2.4 + phase) * s * 0.01;
     const sw = o.walk ? Math.sin(t * 6 + phase) * s * 0.05 : Math.sin(t * 1.2 + phase) * s * 0.012;
     ctx.strokeStyle = shadow ? body : dark(bodyC, 0.2); ctx.lineWidth = s * 0.045;

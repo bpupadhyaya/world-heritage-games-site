@@ -175,7 +175,7 @@
     ]
    },
    {
-    "name": "Račenica, 7/8 (2+2+3)",
+    "name": "Ra\u010denica, 7/8 (2+2+3)",
     "bpm": 170,
     "meter": 7,
     "steps": [
@@ -240,6 +240,332 @@
       "lane": "close"
      }
     ]
+   },
+   {
+    "id": "kolo-six-step",
+    "name": "Narodno kolo six-step figure",
+    "bpm": 100,
+    "meter": 2,
+    "length": 40,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Serbian and Balkan circle dance",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Step R"
+     },
+     {
+      "beat": 1,
+      "lane": "Step L"
+     },
+     {
+      "beat": 2,
+      "lane": "Step R"
+     },
+     {
+      "beat": 3,
+      "lane": "Hop"
+     },
+     {
+      "beat": 4,
+      "lane": "Step L"
+     },
+     {
+      "beat": 5,
+      "lane": "Step R"
+     },
+     {
+      "beat": 6,
+      "lane": "Step L"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Step R"
+     },
+     {
+      "beat": 7,
+      "lane": "Close"
+     },
+     {
+      "beat": 8,
+      "lane": "Step R"
+     },
+     {
+      "beat": 9,
+      "lane": "Step L"
+     },
+     {
+      "beat": 10,
+      "lane": "Step R"
+     },
+     {
+      "beat": 11,
+      "lane": "Hop"
+     },
+     {
+      "beat": 12,
+      "lane": "Step L"
+     },
+     {
+      "beat": 13,
+      "lane": "Step R"
+     },
+     {
+      "beat": 14,
+      "lane": "Step L"
+     },
+     {
+      "beat": 14.5,
+      "lane": "Step R"
+     },
+     {
+      "beat": 15,
+      "lane": "Close"
+     },
+     {
+      "beat": 16,
+      "lane": "Step R"
+     },
+     {
+      "beat": 17,
+      "lane": "Step L"
+     },
+     {
+      "beat": 18,
+      "lane": "Step R"
+     },
+     {
+      "beat": 19,
+      "lane": "Hop"
+     },
+     {
+      "beat": 20,
+      "lane": "Step L"
+     },
+     {
+      "beat": 21,
+      "lane": "Step R"
+     },
+     {
+      "beat": 22,
+      "lane": "Step L"
+     },
+     {
+      "beat": 22.5,
+      "lane": "Step R"
+     },
+     {
+      "beat": 23,
+      "lane": "Close"
+     },
+     {
+      "beat": 24,
+      "lane": "Step R"
+     },
+     {
+      "beat": 25,
+      "lane": "Step L"
+     },
+     {
+      "beat": 26,
+      "lane": "Step R"
+     },
+     {
+      "beat": 27,
+      "lane": "Hop"
+     },
+     {
+      "beat": 28,
+      "lane": "Step L"
+     },
+     {
+      "beat": 29,
+      "lane": "Step R"
+     },
+     {
+      "beat": 30,
+      "lane": "Step L"
+     },
+     {
+      "beat": 30.5,
+      "lane": "Step R"
+     },
+     {
+      "beat": 31,
+      "lane": "Close"
+     },
+     {
+      "beat": 32,
+      "lane": "Step R"
+     },
+     {
+      "beat": 33,
+      "lane": "Step L"
+     },
+     {
+      "beat": 34,
+      "lane": "Step R"
+     },
+     {
+      "beat": 35,
+      "lane": "Hop"
+     },
+     {
+      "beat": 36,
+      "lane": "Step L"
+     },
+     {
+      "beat": 37,
+      "lane": "Step R"
+     },
+     {
+      "beat": 38,
+      "lane": "Step L"
+     },
+     {
+      "beat": 38.5,
+      "lane": "Step R"
+     },
+     {
+      "beat": 39,
+      "lane": "Close"
+     }
+    ],
+    "note": "The long figure of the Serbian circle dance (kolo) in 2/4: right, left, right and a small hop, then left, right, a quick left-right and a close of the feet, repeated round the circle. Step R and Step L are the travelling steps, Hop is the lift, Close brings the feet together."
+   },
+   {
+    "id": "lesnoto-long",
+    "name": "Lesnoto, slow-quick-quick (3+2+2)",
+    "bpm": 150,
+    "meter": 7,
+    "length": 56,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Macedonian circle dance in 7/8",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Step R",
+      "len": 3
+     },
+     {
+      "beat": 3,
+      "lane": "Step L",
+      "len": 2
+     },
+     {
+      "beat": 5,
+      "lane": "Hop",
+      "len": 2
+     },
+     {
+      "beat": 7,
+      "lane": "Step L",
+      "len": 3
+     },
+     {
+      "beat": 10,
+      "lane": "Step R",
+      "len": 2
+     },
+     {
+      "beat": 12,
+      "lane": "Close",
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": "Step R",
+      "len": 3
+     },
+     {
+      "beat": 17,
+      "lane": "Step L",
+      "len": 2
+     },
+     {
+      "beat": 19,
+      "lane": "Hop",
+      "len": 2
+     },
+     {
+      "beat": 21,
+      "lane": "Step L",
+      "len": 3
+     },
+     {
+      "beat": 24,
+      "lane": "Step R",
+      "len": 2
+     },
+     {
+      "beat": 26,
+      "lane": "Close",
+      "len": 2
+     },
+     {
+      "beat": 28,
+      "lane": "Step R",
+      "len": 3
+     },
+     {
+      "beat": 31,
+      "lane": "Step L",
+      "len": 2
+     },
+     {
+      "beat": 33,
+      "lane": "Hop",
+      "len": 2
+     },
+     {
+      "beat": 35,
+      "lane": "Step L",
+      "len": 3
+     },
+     {
+      "beat": 38,
+      "lane": "Step R",
+      "len": 2
+     },
+     {
+      "beat": 40,
+      "lane": "Close",
+      "len": 2
+     },
+     {
+      "beat": 42,
+      "lane": "Step R",
+      "len": 3
+     },
+     {
+      "beat": 45,
+      "lane": "Step L",
+      "len": 2
+     },
+     {
+      "beat": 47,
+      "lane": "Hop",
+      "len": 2
+     },
+     {
+      "beat": 49,
+      "lane": "Step L",
+      "len": 3
+     },
+     {
+      "beat": 52,
+      "lane": "Step R",
+      "len": 2
+     },
+     {
+      "beat": 54,
+      "lane": "Close",
+      "len": 2
+     }
+    ],
+    "note": "The Macedonian Lesnoto counts seven pulses as 3+2+2: a long step, then two shorter ones. Here the dancers step right for three, left for two and hop for two, then mirror it with a long left, a right and a close of the feet."
    }
   ]
  }

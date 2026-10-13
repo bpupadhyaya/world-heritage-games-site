@@ -1,678 +1,934 @@
 {
- "engine": "rhythm",
- "variant": "joropo-llanero-band",
- "params": {
-  "layout": "strings",
-  "mode": "follow",
-  "root": 98,
-  "loops": 2,
-  "tolerance": 1.25,
-  "lanes": [
-   {
-    "name": "Bass G",
-    "cents": 0,
-    "row": 0,
-    "timbre": "pluck",
-    "color": "#8a4b2a"
-   },
-   {
-    "name": "Bass D",
-    "cents": 700,
-    "row": 0,
-    "timbre": "pluck",
-    "color": "#a35f33"
-   },
-   {
-    "name": "Bass C",
-    "cents": 500,
-    "row": 0,
-    "timbre": "pluck",
-    "color": "#b87a40"
-   },
-   {
-    "name": "Harp G",
-    "cents": 2400,
-    "row": 1,
-    "timbre": "pluck",
-    "color": "#d9a03a"
-   },
-   {
-    "name": "Harp B",
-    "cents": 2800,
-    "row": 1,
-    "timbre": "pluck",
-    "color": "#e6bb52"
-   },
-   {
-    "name": "Harp D",
-    "cents": 3100,
-    "row": 1,
-    "timbre": "pluck",
-    "color": "#8fc16a"
-   },
-   {
-    "name": "Harp E",
-    "cents": 3300,
-    "row": 1,
-    "timbre": "pluck",
-    "color": "#4f9fd6"
-   },
-   {
-    "name": "Cuatro",
-    "cents": 1900,
-    "row": 2,
-    "timbre": "string",
-    "color": "#c2552d"
-   },
-   {
-    "name": "Maracas",
-    "hz": 2500,
-    "row": 3,
-    "timbre": "clap",
-    "color": "#e9dcc0"
-   }
-  ],
-  "songs": [
-   {
-    "name": "Maracas and cuatro",
-    "bpm": 112,
-    "meter": 2,
-    "length": 16,
-    "steps": [
-     {
-      "beat": 0,
-      "lane": 8
-     },
-     {
-      "beat": 0.333,
-      "lane": 7
-     },
-     {
-      "beat": 0.667,
-      "lane": 7
-     },
-     {
-      "beat": 1,
-      "lane": 8
-     },
-     {
-      "beat": 1.333,
-      "lane": 7
-     },
-     {
-      "beat": 1.667,
-      "lane": 7
-     },
-     {
-      "beat": 2,
-      "lane": 8
-     },
-     {
-      "beat": 2.333,
-      "lane": 7
-     },
-     {
-      "beat": 2.667,
-      "lane": 7
-     },
-     {
-      "beat": 3,
-      "lane": 8
-     },
-     {
-      "beat": 3.333,
-      "lane": 7
-     },
-     {
-      "beat": 3.667,
-      "lane": 7
-     },
-     {
-      "beat": 4,
-      "lane": 8
-     },
-     {
-      "beat": 4.333,
-      "lane": 7
-     },
-     {
-      "beat": 4.667,
-      "lane": 7
-     },
-     {
-      "beat": 5,
-      "lane": 8
-     },
-     {
-      "beat": 5.333,
-      "lane": 7
-     },
-     {
-      "beat": 5.667,
-      "lane": 7
-     },
-     {
-      "beat": 6,
-      "lane": 8
-     },
-     {
-      "beat": 6.333,
-      "lane": 7
-     },
-     {
-      "beat": 6.667,
-      "lane": 7
-     },
-     {
-      "beat": 7,
-      "lane": 8
-     },
-     {
-      "beat": 7.333,
-      "lane": 7
-     },
-     {
-      "beat": 7.667,
-      "lane": 7
-     },
-     {
-      "beat": 8,
-      "lane": 8
-     },
-     {
-      "beat": 8.333,
-      "lane": 7
-     },
-     {
-      "beat": 8.667,
-      "lane": 7
-     },
-     {
-      "beat": 9,
-      "lane": 8
-     },
-     {
-      "beat": 9.333,
-      "lane": 7
-     },
-     {
-      "beat": 9.667,
-      "lane": 7
-     },
-     {
-      "beat": 10,
-      "lane": 8
-     },
-     {
-      "beat": 10.333,
-      "lane": 7
-     },
-     {
-      "beat": 10.667,
-      "lane": 7
-     },
-     {
-      "beat": 11,
-      "lane": 8
-     },
-     {
-      "beat": 11.333,
-      "lane": 7
-     },
-     {
-      "beat": 11.667,
-      "lane": 7
-     },
-     {
-      "beat": 12,
-      "lane": 8
-     },
-     {
-      "beat": 12.333,
-      "lane": 7
-     },
-     {
-      "beat": 12.667,
-      "lane": 7
-     },
-     {
-      "beat": 13,
-      "lane": 8
-     },
-     {
-      "beat": 13.333,
-      "lane": 7
-     },
-     {
-      "beat": 13.667,
-      "lane": 7
-     },
-     {
-      "beat": 14,
-      "lane": 8
-     },
-     {
-      "beat": 14.333,
-      "lane": 7
-     },
-     {
-      "beat": 14.667,
-      "lane": 7
-     },
-     {
-      "beat": 15,
-      "lane": 8
-     },
-     {
-      "beat": 15.333,
-      "lane": 7
-     },
-     {
-      "beat": 15.667,
-      "lane": 7
-     }
+  "engine": "rhythm",
+  "variant": "joropo-llanero-band",
+  "params": {
+    "layout": "strings",
+    "mode": "follow",
+    "root": 98,
+    "loops": 2,
+    "tolerance": 1.25,
+    "lanes": [
+      {
+        "name": "Bass G",
+        "cents": 0,
+        "row": 0,
+        "timbre": "pluck",
+        "color": "#8a4b2a"
+      },
+      {
+        "name": "Bass D",
+        "cents": 700,
+        "row": 0,
+        "timbre": "pluck",
+        "color": "#a35f33"
+      },
+      {
+        "name": "Bass C",
+        "cents": 500,
+        "row": 0,
+        "timbre": "pluck",
+        "color": "#b87a40"
+      },
+      {
+        "name": "Harp G",
+        "cents": 2400,
+        "row": 1,
+        "timbre": "pluck",
+        "color": "#d9a03a"
+      },
+      {
+        "name": "Harp B",
+        "cents": 2800,
+        "row": 1,
+        "timbre": "pluck",
+        "color": "#e6bb52"
+      },
+      {
+        "name": "Harp D",
+        "cents": 3100,
+        "row": 1,
+        "timbre": "pluck",
+        "color": "#8fc16a"
+      },
+      {
+        "name": "Harp E",
+        "cents": 3300,
+        "row": 1,
+        "timbre": "pluck",
+        "color": "#4f9fd6"
+      },
+      {
+        "name": "Cuatro",
+        "cents": 1900,
+        "row": 2,
+        "timbre": "string",
+        "color": "#c2552d"
+      },
+      {
+        "name": "Maracas",
+        "hz": 2500,
+        "row": 3,
+        "timbre": "clap",
+        "color": "#e9dcc0"
+      }
+    ],
+    "songs": [
+      {
+        "name": "Maracas and cuatro",
+        "bpm": 112,
+        "meter": 2,
+        "length": 16,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": 8
+          },
+          {
+            "beat": 0.333,
+            "lane": 7
+          },
+          {
+            "beat": 0.667,
+            "lane": 7
+          },
+          {
+            "beat": 1,
+            "lane": 8
+          },
+          {
+            "beat": 1.333,
+            "lane": 7
+          },
+          {
+            "beat": 1.667,
+            "lane": 7
+          },
+          {
+            "beat": 2,
+            "lane": 8
+          },
+          {
+            "beat": 2.333,
+            "lane": 7
+          },
+          {
+            "beat": 2.667,
+            "lane": 7
+          },
+          {
+            "beat": 3,
+            "lane": 8
+          },
+          {
+            "beat": 3.333,
+            "lane": 7
+          },
+          {
+            "beat": 3.667,
+            "lane": 7
+          },
+          {
+            "beat": 4,
+            "lane": 8
+          },
+          {
+            "beat": 4.333,
+            "lane": 7
+          },
+          {
+            "beat": 4.667,
+            "lane": 7
+          },
+          {
+            "beat": 5,
+            "lane": 8
+          },
+          {
+            "beat": 5.333,
+            "lane": 7
+          },
+          {
+            "beat": 5.667,
+            "lane": 7
+          },
+          {
+            "beat": 6,
+            "lane": 8
+          },
+          {
+            "beat": 6.333,
+            "lane": 7
+          },
+          {
+            "beat": 6.667,
+            "lane": 7
+          },
+          {
+            "beat": 7,
+            "lane": 8
+          },
+          {
+            "beat": 7.333,
+            "lane": 7
+          },
+          {
+            "beat": 7.667,
+            "lane": 7
+          },
+          {
+            "beat": 8,
+            "lane": 8
+          },
+          {
+            "beat": 8.333,
+            "lane": 7
+          },
+          {
+            "beat": 8.667,
+            "lane": 7
+          },
+          {
+            "beat": 9,
+            "lane": 8
+          },
+          {
+            "beat": 9.333,
+            "lane": 7
+          },
+          {
+            "beat": 9.667,
+            "lane": 7
+          },
+          {
+            "beat": 10,
+            "lane": 8
+          },
+          {
+            "beat": 10.333,
+            "lane": 7
+          },
+          {
+            "beat": 10.667,
+            "lane": 7
+          },
+          {
+            "beat": 11,
+            "lane": 8
+          },
+          {
+            "beat": 11.333,
+            "lane": 7
+          },
+          {
+            "beat": 11.667,
+            "lane": 7
+          },
+          {
+            "beat": 12,
+            "lane": 8
+          },
+          {
+            "beat": 12.333,
+            "lane": 7
+          },
+          {
+            "beat": 12.667,
+            "lane": 7
+          },
+          {
+            "beat": 13,
+            "lane": 8
+          },
+          {
+            "beat": 13.333,
+            "lane": 7
+          },
+          {
+            "beat": 13.667,
+            "lane": 7
+          },
+          {
+            "beat": 14,
+            "lane": 8
+          },
+          {
+            "beat": 14.333,
+            "lane": 7
+          },
+          {
+            "beat": 14.667,
+            "lane": 7
+          },
+          {
+            "beat": 15,
+            "lane": 8
+          },
+          {
+            "beat": 15.333,
+            "lane": 7
+          },
+          {
+            "beat": 15.667,
+            "lane": 7
+          }
+        ]
+      },
+      {
+        "name": "Harp bass walks in",
+        "bpm": 108,
+        "meter": 2,
+        "length": 16,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": 0
+          },
+          {
+            "beat": 0.333,
+            "lane": 7
+          },
+          {
+            "beat": 0.667,
+            "lane": 7
+          },
+          {
+            "beat": 1,
+            "lane": 1
+          },
+          {
+            "beat": 1.333,
+            "lane": 7
+          },
+          {
+            "beat": 1.667,
+            "lane": 7
+          },
+          {
+            "beat": 2,
+            "lane": 0
+          },
+          {
+            "beat": 2.333,
+            "lane": 7
+          },
+          {
+            "beat": 2.667,
+            "lane": 7
+          },
+          {
+            "beat": 3,
+            "lane": 1
+          },
+          {
+            "beat": 3.333,
+            "lane": 7
+          },
+          {
+            "beat": 3.667,
+            "lane": 7
+          },
+          {
+            "beat": 4,
+            "lane": 2
+          },
+          {
+            "beat": 4.333,
+            "lane": 7
+          },
+          {
+            "beat": 4.667,
+            "lane": 7
+          },
+          {
+            "beat": 5,
+            "lane": 0
+          },
+          {
+            "beat": 5.333,
+            "lane": 7
+          },
+          {
+            "beat": 5.667,
+            "lane": 7
+          },
+          {
+            "beat": 6,
+            "lane": 1
+          },
+          {
+            "beat": 6.333,
+            "lane": 7
+          },
+          {
+            "beat": 6.667,
+            "lane": 7
+          },
+          {
+            "beat": 7,
+            "lane": 0
+          },
+          {
+            "beat": 7.333,
+            "lane": 7
+          },
+          {
+            "beat": 7.667,
+            "lane": 7
+          },
+          {
+            "beat": 8,
+            "lane": 0
+          },
+          {
+            "beat": 8.333,
+            "lane": 7
+          },
+          {
+            "beat": 8.667,
+            "lane": 7
+          },
+          {
+            "beat": 9,
+            "lane": 1
+          },
+          {
+            "beat": 9.333,
+            "lane": 7
+          },
+          {
+            "beat": 9.667,
+            "lane": 7
+          },
+          {
+            "beat": 10,
+            "lane": 0
+          },
+          {
+            "beat": 10.333,
+            "lane": 7
+          },
+          {
+            "beat": 10.667,
+            "lane": 7
+          },
+          {
+            "beat": 11,
+            "lane": 1
+          },
+          {
+            "beat": 11.333,
+            "lane": 7
+          },
+          {
+            "beat": 11.667,
+            "lane": 7
+          },
+          {
+            "beat": 12,
+            "lane": 2
+          },
+          {
+            "beat": 12.333,
+            "lane": 7
+          },
+          {
+            "beat": 12.667,
+            "lane": 7
+          },
+          {
+            "beat": 13,
+            "lane": 1
+          },
+          {
+            "beat": 13.333,
+            "lane": 7
+          },
+          {
+            "beat": 13.667,
+            "lane": 7
+          },
+          {
+            "beat": 14,
+            "lane": 0
+          },
+          {
+            "beat": 14.333,
+            "lane": 7
+          },
+          {
+            "beat": 14.667,
+            "lane": 7
+          },
+          {
+            "beat": 15,
+            "lane": 0
+          },
+          {
+            "beat": 15.333,
+            "lane": 7
+          },
+          {
+            "beat": 15.667,
+            "lane": 7
+          }
+        ]
+      },
+      {
+        "name": "The whole band",
+        "bpm": 104,
+        "meter": 2,
+        "length": 16,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": 0
+          },
+          {
+            "beat": 0.333,
+            "lane": 8
+          },
+          {
+            "beat": 0.667,
+            "lane": 3
+          },
+          {
+            "beat": 1,
+            "lane": 1
+          },
+          {
+            "beat": 1.333,
+            "lane": 8
+          },
+          {
+            "beat": 1.667,
+            "lane": 4
+          },
+          {
+            "beat": 2,
+            "lane": 0
+          },
+          {
+            "beat": 2.333,
+            "lane": 8
+          },
+          {
+            "beat": 2.667,
+            "lane": 5
+          },
+          {
+            "beat": 3,
+            "lane": 1
+          },
+          {
+            "beat": 3.333,
+            "lane": 8
+          },
+          {
+            "beat": 3.667,
+            "lane": 4
+          },
+          {
+            "beat": 4,
+            "lane": 2
+          },
+          {
+            "beat": 4.333,
+            "lane": 8
+          },
+          {
+            "beat": 4.667,
+            "lane": 6
+          },
+          {
+            "beat": 5,
+            "lane": 0
+          },
+          {
+            "beat": 5.333,
+            "lane": 8
+          },
+          {
+            "beat": 5.667,
+            "lane": 5
+          },
+          {
+            "beat": 6,
+            "lane": 1
+          },
+          {
+            "beat": 6.333,
+            "lane": 8
+          },
+          {
+            "beat": 6.667,
+            "lane": 4
+          },
+          {
+            "beat": 7,
+            "lane": 0
+          },
+          {
+            "beat": 7.333,
+            "lane": 8
+          },
+          {
+            "beat": 7.667,
+            "lane": 3
+          },
+          {
+            "beat": 8,
+            "lane": 0
+          },
+          {
+            "beat": 8.333,
+            "lane": 8
+          },
+          {
+            "beat": 8.667,
+            "lane": 4
+          },
+          {
+            "beat": 9,
+            "lane": 1
+          },
+          {
+            "beat": 9.333,
+            "lane": 8
+          },
+          {
+            "beat": 9.667,
+            "lane": 5
+          },
+          {
+            "beat": 10,
+            "lane": 0
+          },
+          {
+            "beat": 10.333,
+            "lane": 8
+          },
+          {
+            "beat": 10.667,
+            "lane": 6
+          },
+          {
+            "beat": 11,
+            "lane": 1
+          },
+          {
+            "beat": 11.333,
+            "lane": 8
+          },
+          {
+            "beat": 11.667,
+            "lane": 5
+          },
+          {
+            "beat": 12,
+            "lane": 2
+          },
+          {
+            "beat": 12.333,
+            "lane": 8
+          },
+          {
+            "beat": 12.667,
+            "lane": 4
+          },
+          {
+            "beat": 13,
+            "lane": 1
+          },
+          {
+            "beat": 13.333,
+            "lane": 8
+          },
+          {
+            "beat": 13.667,
+            "lane": 3
+          },
+          {
+            "beat": 14,
+            "lane": 0
+          },
+          {
+            "beat": 14.333,
+            "lane": 8
+          },
+          {
+            "beat": 14.667,
+            "lane": 3
+          },
+          {
+            "beat": 15,
+            "lane": 0
+          },
+          {
+            "beat": 15.333,
+            "lane": 8
+          },
+          {
+            "beat": 15.667,
+            "lane": 3
+          }
+        ]
+      },
+      {
+        "id": "joropo-walk",
+        "name": "Joropo bass walk, teaching figure",
+        "bpm": 96,
+        "meter": 6,
+        "length": 24,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "Venezuelan plains joropo figure",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Bass G"
+          },
+          {
+            "beat": 0,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 1,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 2,
+            "lane": "Cuatro"
+          },
+          {
+            "beat": 2,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 3,
+            "lane": "Bass D"
+          },
+          {
+            "beat": 3,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 4,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 5,
+            "lane": "Cuatro"
+          },
+          {
+            "beat": 5,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 6,
+            "lane": "Bass G"
+          },
+          {
+            "beat": 6,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 7,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 8,
+            "lane": "Cuatro"
+          },
+          {
+            "beat": 8,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 9,
+            "lane": "Bass C"
+          },
+          {
+            "beat": 9,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 10,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 11,
+            "lane": "Cuatro"
+          },
+          {
+            "beat": 11,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 12,
+            "lane": "Bass D"
+          },
+          {
+            "beat": 12,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 13,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 14,
+            "lane": "Cuatro"
+          },
+          {
+            "beat": 14,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 15,
+            "lane": "Bass D"
+          },
+          {
+            "beat": 15,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 16,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 17,
+            "lane": "Cuatro"
+          },
+          {
+            "beat": 17,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 18,
+            "lane": "Bass G"
+          },
+          {
+            "beat": 18,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 19,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 20,
+            "lane": "Cuatro"
+          },
+          {
+            "beat": 20,
+            "lane": "Maracas"
+          },
+          {
+            "beat": 21,
+            "lane": "Bass G",
+            "len": 3
+          },
+          {
+            "beat": 21,
+            "lane": "Maracas",
+            "len": 3
+          }
+        ],
+        "note": "The walking bass of the plains harp over six pulses, with the cuatro strumming on the off beats and the maracas shaking steadily, the heart of the joropo sound."
+      },
+      {
+        "id": "joropo-harp-run",
+        "name": "Joropo harp run, teaching figure",
+        "bpm": 96,
+        "meter": 6,
+        "length": 24,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "Venezuelan plains joropo figure",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Harp G"
+          },
+          {
+            "beat": 1,
+            "lane": "Harp B"
+          },
+          {
+            "beat": 2,
+            "lane": "Harp D"
+          },
+          {
+            "beat": 3,
+            "lane": "Harp E",
+            "len": 1.5
+          },
+          {
+            "beat": 4.5,
+            "lane": "Harp D"
+          },
+          {
+            "beat": 5,
+            "lane": "Harp B"
+          },
+          {
+            "beat": 6,
+            "lane": "Harp G"
+          },
+          {
+            "beat": 7,
+            "lane": "Harp B"
+          },
+          {
+            "beat": 8,
+            "lane": "Harp D"
+          },
+          {
+            "beat": 9,
+            "lane": "Harp E"
+          },
+          {
+            "beat": 10,
+            "lane": "Harp D"
+          },
+          {
+            "beat": 11,
+            "lane": "Harp B"
+          },
+          {
+            "beat": 12,
+            "lane": "Harp D"
+          },
+          {
+            "beat": 13,
+            "lane": "Harp E"
+          },
+          {
+            "beat": 14,
+            "lane": "Harp D"
+          },
+          {
+            "beat": 15,
+            "lane": "Harp B"
+          },
+          {
+            "beat": 16,
+            "lane": "Harp G",
+            "len": 2
+          },
+          {
+            "beat": 18,
+            "lane": "Bass G",
+            "len": 6
+          },
+          {
+            "beat": 18,
+            "lane": "Harp G",
+            "len": 6
+          }
+        ],
+        "note": "A quick running figure up and down the harp strings of the plains joropo, in the rocking feel of six pulses that can be counted as two groups of three or three groups of two."
+      }
     ]
-   },
-   {
-    "name": "Harp bass walks in",
-    "bpm": 108,
-    "meter": 2,
-    "length": 16,
-    "steps": [
-     {
-      "beat": 0,
-      "lane": 0
-     },
-     {
-      "beat": 0.333,
-      "lane": 7
-     },
-     {
-      "beat": 0.667,
-      "lane": 7
-     },
-     {
-      "beat": 1,
-      "lane": 1
-     },
-     {
-      "beat": 1.333,
-      "lane": 7
-     },
-     {
-      "beat": 1.667,
-      "lane": 7
-     },
-     {
-      "beat": 2,
-      "lane": 0
-     },
-     {
-      "beat": 2.333,
-      "lane": 7
-     },
-     {
-      "beat": 2.667,
-      "lane": 7
-     },
-     {
-      "beat": 3,
-      "lane": 1
-     },
-     {
-      "beat": 3.333,
-      "lane": 7
-     },
-     {
-      "beat": 3.667,
-      "lane": 7
-     },
-     {
-      "beat": 4,
-      "lane": 2
-     },
-     {
-      "beat": 4.333,
-      "lane": 7
-     },
-     {
-      "beat": 4.667,
-      "lane": 7
-     },
-     {
-      "beat": 5,
-      "lane": 0
-     },
-     {
-      "beat": 5.333,
-      "lane": 7
-     },
-     {
-      "beat": 5.667,
-      "lane": 7
-     },
-     {
-      "beat": 6,
-      "lane": 1
-     },
-     {
-      "beat": 6.333,
-      "lane": 7
-     },
-     {
-      "beat": 6.667,
-      "lane": 7
-     },
-     {
-      "beat": 7,
-      "lane": 0
-     },
-     {
-      "beat": 7.333,
-      "lane": 7
-     },
-     {
-      "beat": 7.667,
-      "lane": 7
-     },
-     {
-      "beat": 8,
-      "lane": 0
-     },
-     {
-      "beat": 8.333,
-      "lane": 7
-     },
-     {
-      "beat": 8.667,
-      "lane": 7
-     },
-     {
-      "beat": 9,
-      "lane": 1
-     },
-     {
-      "beat": 9.333,
-      "lane": 7
-     },
-     {
-      "beat": 9.667,
-      "lane": 7
-     },
-     {
-      "beat": 10,
-      "lane": 0
-     },
-     {
-      "beat": 10.333,
-      "lane": 7
-     },
-     {
-      "beat": 10.667,
-      "lane": 7
-     },
-     {
-      "beat": 11,
-      "lane": 1
-     },
-     {
-      "beat": 11.333,
-      "lane": 7
-     },
-     {
-      "beat": 11.667,
-      "lane": 7
-     },
-     {
-      "beat": 12,
-      "lane": 2
-     },
-     {
-      "beat": 12.333,
-      "lane": 7
-     },
-     {
-      "beat": 12.667,
-      "lane": 7
-     },
-     {
-      "beat": 13,
-      "lane": 1
-     },
-     {
-      "beat": 13.333,
-      "lane": 7
-     },
-     {
-      "beat": 13.667,
-      "lane": 7
-     },
-     {
-      "beat": 14,
-      "lane": 0
-     },
-     {
-      "beat": 14.333,
-      "lane": 7
-     },
-     {
-      "beat": 14.667,
-      "lane": 7
-     },
-     {
-      "beat": 15,
-      "lane": 0
-     },
-     {
-      "beat": 15.333,
-      "lane": 7
-     },
-     {
-      "beat": 15.667,
-      "lane": 7
-     }
-    ]
-   },
-   {
-    "name": "The whole band",
-    "bpm": 104,
-    "meter": 2,
-    "length": 16,
-    "steps": [
-     {
-      "beat": 0,
-      "lane": 0
-     },
-     {
-      "beat": 0.333,
-      "lane": 8
-     },
-     {
-      "beat": 0.667,
-      "lane": 3
-     },
-     {
-      "beat": 1,
-      "lane": 1
-     },
-     {
-      "beat": 1.333,
-      "lane": 8
-     },
-     {
-      "beat": 1.667,
-      "lane": 4
-     },
-     {
-      "beat": 2,
-      "lane": 0
-     },
-     {
-      "beat": 2.333,
-      "lane": 8
-     },
-     {
-      "beat": 2.667,
-      "lane": 5
-     },
-     {
-      "beat": 3,
-      "lane": 1
-     },
-     {
-      "beat": 3.333,
-      "lane": 8
-     },
-     {
-      "beat": 3.667,
-      "lane": 4
-     },
-     {
-      "beat": 4,
-      "lane": 2
-     },
-     {
-      "beat": 4.333,
-      "lane": 8
-     },
-     {
-      "beat": 4.667,
-      "lane": 6
-     },
-     {
-      "beat": 5,
-      "lane": 0
-     },
-     {
-      "beat": 5.333,
-      "lane": 8
-     },
-     {
-      "beat": 5.667,
-      "lane": 5
-     },
-     {
-      "beat": 6,
-      "lane": 1
-     },
-     {
-      "beat": 6.333,
-      "lane": 8
-     },
-     {
-      "beat": 6.667,
-      "lane": 4
-     },
-     {
-      "beat": 7,
-      "lane": 0
-     },
-     {
-      "beat": 7.333,
-      "lane": 8
-     },
-     {
-      "beat": 7.667,
-      "lane": 3
-     },
-     {
-      "beat": 8,
-      "lane": 0
-     },
-     {
-      "beat": 8.333,
-      "lane": 8
-     },
-     {
-      "beat": 8.667,
-      "lane": 4
-     },
-     {
-      "beat": 9,
-      "lane": 1
-     },
-     {
-      "beat": 9.333,
-      "lane": 8
-     },
-     {
-      "beat": 9.667,
-      "lane": 5
-     },
-     {
-      "beat": 10,
-      "lane": 0
-     },
-     {
-      "beat": 10.333,
-      "lane": 8
-     },
-     {
-      "beat": 10.667,
-      "lane": 6
-     },
-     {
-      "beat": 11,
-      "lane": 1
-     },
-     {
-      "beat": 11.333,
-      "lane": 8
-     },
-     {
-      "beat": 11.667,
-      "lane": 5
-     },
-     {
-      "beat": 12,
-      "lane": 2
-     },
-     {
-      "beat": 12.333,
-      "lane": 8
-     },
-     {
-      "beat": 12.667,
-      "lane": 4
-     },
-     {
-      "beat": 13,
-      "lane": 1
-     },
-     {
-      "beat": 13.333,
-      "lane": 8
-     },
-     {
-      "beat": 13.667,
-      "lane": 3
-     },
-     {
-      "beat": 14,
-      "lane": 0
-     },
-     {
-      "beat": 14.333,
-      "lane": 8
-     },
-     {
-      "beat": 14.667,
-      "lane": 3
-     },
-     {
-      "beat": 15,
-      "lane": 0
-     },
-     {
-      "beat": 15.333,
-      "lane": 8
-     },
-     {
-      "beat": 15.667,
-      "lane": 3
-     }
-    ]
-   }
-  ]
- }
+  }
 }

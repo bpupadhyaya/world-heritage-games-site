@@ -6,6 +6,7 @@ export const COIL_DEFAULTS = { profile: 'basket', rows: 10, stitches: 12, motif:
 
 export function createCoil(P, env) {
   const { rng, audio, fx } = env;
+  const SC = P.scene ?? {};
   let clock = 0, laidAt = [];
   const R = P.rows, N = P.stitches, total = R * N;
   const nColors = clamp(P.colors, 2, P.palette.length);
@@ -149,7 +150,7 @@ export function createCoil(P, env) {
   };
 
   return {
-    init, items, control, work: () => {}, draw, attract, titleArt, surface: 'weave', surfaceTint: '#7a6240', result: () => done,
+    init, items, control, work: () => {}, draw, attract, titleArt, result: () => done,
     score: () => score().score,
     info: () => [`Rows: ${R}`, `Stitches per row: ${N}`],
     caption: 'Coil this basket',

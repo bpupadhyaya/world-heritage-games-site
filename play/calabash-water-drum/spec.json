@@ -1,306 +1,870 @@
 {
- "engine": "rhythm",
- "variant": "calabash-water-drum",
- "params": {
-  "layout": "pads",
-  "mode": "learn",
-  "phrase": 4,
-  "loops": 1,
-  "tolerance": 1.3,
-  "lanes": [
-   {
-    "name": "Deep",
-    "hz": 80,
-    "timbre": "bass",
-    "color": "#2f7fb5",
-    "dur": 0.45
-   },
-   {
-    "name": "Middle",
-    "hz": 125,
-    "timbre": "tone",
-    "color": "#4fb0a6",
-    "dur": 0.35
-   },
-   {
-    "name": "Lifted",
-    "hz": 190,
-    "timbre": "tone",
-    "color": "#8fc16a",
-    "dur": 0.3
-   },
-   {
-    "name": "Rim",
-    "hz": 420,
-    "timbre": "rim",
-    "color": "#e6a23c"
-   }
-  ],
-  "songs": [
-   {
-    "name": "Call and answer",
-    "bpm": 90,
-    "meter": 4,
-    "length": 16,
-    "steps": [
-     {
-      "beat": 0,
-      "lane": 0
-     },
-     {
-      "beat": 1,
-      "lane": 1
-     },
-     {
-      "beat": 2,
-      "lane": 0
-     },
-     {
-      "beat": 3,
-      "lane": 2
-     },
-     {
-      "beat": 4,
-      "lane": 1
-     },
-     {
-      "beat": 5,
-      "lane": 2
-     },
-     {
-      "beat": 6,
-      "lane": 1
-     },
-     {
-      "beat": 7,
-      "lane": 0
-     },
-     {
-      "beat": 8,
-      "lane": 0
-     },
-     {
-      "beat": 9,
-      "lane": 0
-     },
-     {
-      "beat": 10,
-      "lane": 1
-     },
-     {
-      "beat": 11,
-      "lane": 2
-     },
-     {
-      "beat": 12,
-      "lane": 2
-     },
-     {
-      "beat": 13,
-      "lane": 1
-     },
-     {
-      "beat": 14,
-      "lane": 0
-     },
-     {
-      "beat": 15,
-      "lane": 0
-     }
+  "engine": "rhythm",
+  "variant": "calabash-water-drum",
+  "params": {
+    "layout": "pads",
+    "mode": "learn",
+    "phrase": 4,
+    "loops": 1,
+    "tolerance": 1.3,
+    "lanes": [
+      {
+        "name": "Deep",
+        "hz": 80,
+        "timbre": "bass",
+        "color": "#2f7fb5",
+        "dur": 0.45
+      },
+      {
+        "name": "Middle",
+        "hz": 125,
+        "timbre": "tone",
+        "color": "#4fb0a6",
+        "dur": 0.35
+      },
+      {
+        "name": "Lifted",
+        "hz": 190,
+        "timbre": "tone",
+        "color": "#8fc16a",
+        "dur": 0.3
+      },
+      {
+        "name": "Rim",
+        "hz": 420,
+        "timbre": "rim",
+        "color": "#e6a23c"
+      }
+    ],
+    "songs": [
+      {
+        "name": "Call and answer",
+        "bpm": 90,
+        "meter": 4,
+        "length": 16,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": 0
+          },
+          {
+            "beat": 1,
+            "lane": 1
+          },
+          {
+            "beat": 2,
+            "lane": 0
+          },
+          {
+            "beat": 3,
+            "lane": 2
+          },
+          {
+            "beat": 4,
+            "lane": 1
+          },
+          {
+            "beat": 5,
+            "lane": 2
+          },
+          {
+            "beat": 6,
+            "lane": 1
+          },
+          {
+            "beat": 7,
+            "lane": 0
+          },
+          {
+            "beat": 8,
+            "lane": 0
+          },
+          {
+            "beat": 9,
+            "lane": 0
+          },
+          {
+            "beat": 10,
+            "lane": 1
+          },
+          {
+            "beat": 11,
+            "lane": 2
+          },
+          {
+            "beat": 12,
+            "lane": 2
+          },
+          {
+            "beat": 13,
+            "lane": 1
+          },
+          {
+            "beat": 14,
+            "lane": 0
+          },
+          {
+            "beat": 15,
+            "lane": 0
+          }
+        ]
+      },
+      {
+        "name": "Two bowls trade",
+        "bpm": 96,
+        "meter": 4,
+        "length": 16,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": 0
+          },
+          {
+            "beat": 0.5,
+            "lane": 1
+          },
+          {
+            "beat": 1,
+            "lane": 2
+          },
+          {
+            "beat": 2,
+            "lane": 3
+          },
+          {
+            "beat": 2.5,
+            "lane": 1
+          },
+          {
+            "beat": 3,
+            "lane": 0
+          },
+          {
+            "beat": 4,
+            "lane": 1
+          },
+          {
+            "beat": 4.5,
+            "lane": 2
+          },
+          {
+            "beat": 5,
+            "lane": 0
+          },
+          {
+            "beat": 6,
+            "lane": 3
+          },
+          {
+            "beat": 6.5,
+            "lane": 2
+          },
+          {
+            "beat": 7,
+            "lane": 1
+          },
+          {
+            "beat": 8,
+            "lane": 0
+          },
+          {
+            "beat": 8.5,
+            "lane": 0
+          },
+          {
+            "beat": 9,
+            "lane": 1
+          },
+          {
+            "beat": 10,
+            "lane": 2
+          },
+          {
+            "beat": 10.5,
+            "lane": 3
+          },
+          {
+            "beat": 11,
+            "lane": 3
+          },
+          {
+            "beat": 12,
+            "lane": 2
+          },
+          {
+            "beat": 12.5,
+            "lane": 1
+          },
+          {
+            "beat": 13,
+            "lane": 0
+          },
+          {
+            "beat": 14,
+            "lane": 1
+          },
+          {
+            "beat": 14.5,
+            "lane": 0
+          },
+          {
+            "beat": 15,
+            "lane": 0
+          }
+        ]
+      },
+      {
+        "name": "Rim and bowl",
+        "bpm": 100,
+        "meter": 4,
+        "length": 16,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": 3
+          },
+          {
+            "beat": 0.5,
+            "lane": 3
+          },
+          {
+            "beat": 1,
+            "lane": 0
+          },
+          {
+            "beat": 2,
+            "lane": 3
+          },
+          {
+            "beat": 3,
+            "lane": 1
+          },
+          {
+            "beat": 4,
+            "lane": 3
+          },
+          {
+            "beat": 4.5,
+            "lane": 3
+          },
+          {
+            "beat": 5,
+            "lane": 2
+          },
+          {
+            "beat": 6,
+            "lane": 3
+          },
+          {
+            "beat": 7,
+            "lane": 0
+          },
+          {
+            "beat": 8,
+            "lane": 3
+          },
+          {
+            "beat": 9,
+            "lane": 1
+          },
+          {
+            "beat": 9.5,
+            "lane": 2
+          },
+          {
+            "beat": 10,
+            "lane": 3
+          },
+          {
+            "beat": 11,
+            "lane": 0
+          },
+          {
+            "beat": 12,
+            "lane": 3
+          },
+          {
+            "beat": 12.5,
+            "lane": 3
+          },
+          {
+            "beat": 13,
+            "lane": 3
+          },
+          {
+            "beat": 14,
+            "lane": 0
+          },
+          {
+            "beat": 15,
+            "lane": 0
+          }
+        ]
+      },
+      {
+        "id": "caller-answer-figure",
+        "name": "Caller and answer, water drum figure",
+        "bpm": 90,
+        "meter": 4,
+        "length": 64,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "West African calabash water drum",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Deep"
+          },
+          {
+            "beat": 1,
+            "lane": "Middle"
+          },
+          {
+            "beat": 1.5,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 2,
+            "lane": "Deep"
+          },
+          {
+            "beat": 4,
+            "lane": "Rim"
+          },
+          {
+            "beat": 4.5,
+            "lane": "Rim"
+          },
+          {
+            "beat": 5,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 6,
+            "lane": "Middle"
+          },
+          {
+            "beat": 7,
+            "lane": "Deep"
+          },
+          {
+            "beat": 8,
+            "lane": "Deep"
+          },
+          {
+            "beat": 9,
+            "lane": "Middle"
+          },
+          {
+            "beat": 9.5,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 10,
+            "lane": "Deep"
+          },
+          {
+            "beat": 12,
+            "lane": "Rim"
+          },
+          {
+            "beat": 12.5,
+            "lane": "Rim"
+          },
+          {
+            "beat": 13,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 14,
+            "lane": "Middle"
+          },
+          {
+            "beat": 15,
+            "lane": "Deep"
+          },
+          {
+            "beat": 16,
+            "lane": "Deep"
+          },
+          {
+            "beat": 17,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 17.5,
+            "lane": "Middle"
+          },
+          {
+            "beat": 18,
+            "lane": "Deep"
+          },
+          {
+            "beat": 18.5,
+            "lane": "Deep"
+          },
+          {
+            "beat": 19,
+            "lane": "Middle"
+          },
+          {
+            "beat": 20,
+            "lane": "Rim"
+          },
+          {
+            "beat": 20.5,
+            "lane": "Rim"
+          },
+          {
+            "beat": 21,
+            "lane": "Rim"
+          },
+          {
+            "beat": 22,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 22.5,
+            "lane": "Middle"
+          },
+          {
+            "beat": 23,
+            "lane": "Deep"
+          },
+          {
+            "beat": 24,
+            "lane": "Deep"
+          },
+          {
+            "beat": 25,
+            "lane": "Middle"
+          },
+          {
+            "beat": 25.5,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 26,
+            "lane": "Deep"
+          },
+          {
+            "beat": 28,
+            "lane": "Rim"
+          },
+          {
+            "beat": 28.5,
+            "lane": "Rim"
+          },
+          {
+            "beat": 29,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 30,
+            "lane": "Middle"
+          },
+          {
+            "beat": 31,
+            "lane": "Deep"
+          },
+          {
+            "beat": 32,
+            "lane": "Deep"
+          },
+          {
+            "beat": 33,
+            "lane": "Middle"
+          },
+          {
+            "beat": 33.5,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 34,
+            "lane": "Deep"
+          },
+          {
+            "beat": 36,
+            "lane": "Rim"
+          },
+          {
+            "beat": 36.5,
+            "lane": "Rim"
+          },
+          {
+            "beat": 37,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 38,
+            "lane": "Middle"
+          },
+          {
+            "beat": 39,
+            "lane": "Deep"
+          },
+          {
+            "beat": 40,
+            "lane": "Deep"
+          },
+          {
+            "beat": 41,
+            "lane": "Middle"
+          },
+          {
+            "beat": 41.5,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 42,
+            "lane": "Deep"
+          },
+          {
+            "beat": 44,
+            "lane": "Rim"
+          },
+          {
+            "beat": 44.5,
+            "lane": "Rim"
+          },
+          {
+            "beat": 45,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 46,
+            "lane": "Middle"
+          },
+          {
+            "beat": 47,
+            "lane": "Deep"
+          },
+          {
+            "beat": 48,
+            "lane": "Deep"
+          },
+          {
+            "beat": 49,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 49.5,
+            "lane": "Middle"
+          },
+          {
+            "beat": 50,
+            "lane": "Deep"
+          },
+          {
+            "beat": 50.5,
+            "lane": "Deep"
+          },
+          {
+            "beat": 51,
+            "lane": "Middle"
+          },
+          {
+            "beat": 52,
+            "lane": "Rim"
+          },
+          {
+            "beat": 52.5,
+            "lane": "Rim"
+          },
+          {
+            "beat": 53,
+            "lane": "Rim"
+          },
+          {
+            "beat": 54,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 54.5,
+            "lane": "Middle"
+          },
+          {
+            "beat": 55,
+            "lane": "Deep"
+          },
+          {
+            "beat": 56,
+            "lane": "Deep"
+          },
+          {
+            "beat": 57,
+            "lane": "Middle"
+          },
+          {
+            "beat": 57.5,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 58,
+            "lane": "Deep"
+          },
+          {
+            "beat": 60,
+            "lane": "Rim"
+          },
+          {
+            "beat": 60.5,
+            "lane": "Rim"
+          },
+          {
+            "beat": 61,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 62,
+            "lane": "Middle"
+          },
+          {
+            "beat": 63,
+            "lane": "Deep"
+          }
+        ],
+        "note": "A bowl-shaped gourd floats on water and is struck with the hands or small sticks, so that pitch changes as the bowl is pressed down. Here one phrase on the deep and middle sounds is answered by a phrase that opens on the rim, a pattern common to calling and answering music."
+      },
+      {
+        "id": "twelve-pulse-timeline",
+        "name": "Twelve-pulse timeline with bowl pulse",
+        "bpm": 120,
+        "meter": 12,
+        "length": 72,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "West African calabash water drum",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "Rim"
+          },
+          {
+            "beat": 0,
+            "lane": "Deep"
+          },
+          {
+            "beat": 2,
+            "lane": "Rim"
+          },
+          {
+            "beat": 4,
+            "lane": "Rim"
+          },
+          {
+            "beat": 4,
+            "lane": "Middle"
+          },
+          {
+            "beat": 5,
+            "lane": "Rim"
+          },
+          {
+            "beat": 7,
+            "lane": "Rim"
+          },
+          {
+            "beat": 7,
+            "lane": "Deep"
+          },
+          {
+            "beat": 9,
+            "lane": "Rim"
+          },
+          {
+            "beat": 11,
+            "lane": "Rim"
+          },
+          {
+            "beat": 12,
+            "lane": "Rim"
+          },
+          {
+            "beat": 12,
+            "lane": "Deep"
+          },
+          {
+            "beat": 14,
+            "lane": "Rim"
+          },
+          {
+            "beat": 16,
+            "lane": "Rim"
+          },
+          {
+            "beat": 16,
+            "lane": "Middle"
+          },
+          {
+            "beat": 17,
+            "lane": "Rim"
+          },
+          {
+            "beat": 19,
+            "lane": "Rim"
+          },
+          {
+            "beat": 19,
+            "lane": "Deep"
+          },
+          {
+            "beat": 21,
+            "lane": "Rim"
+          },
+          {
+            "beat": 23,
+            "lane": "Rim"
+          },
+          {
+            "beat": 24,
+            "lane": "Rim"
+          },
+          {
+            "beat": 24,
+            "lane": "Deep"
+          },
+          {
+            "beat": 26,
+            "lane": "Rim"
+          },
+          {
+            "beat": 28,
+            "lane": "Rim"
+          },
+          {
+            "beat": 28,
+            "lane": "Middle"
+          },
+          {
+            "beat": 29,
+            "lane": "Rim"
+          },
+          {
+            "beat": 31,
+            "lane": "Rim"
+          },
+          {
+            "beat": 31,
+            "lane": "Deep"
+          },
+          {
+            "beat": 33,
+            "lane": "Rim"
+          },
+          {
+            "beat": 35,
+            "lane": "Rim"
+          },
+          {
+            "beat": 36,
+            "lane": "Rim"
+          },
+          {
+            "beat": 36,
+            "lane": "Deep"
+          },
+          {
+            "beat": 38,
+            "lane": "Rim"
+          },
+          {
+            "beat": 40,
+            "lane": "Rim"
+          },
+          {
+            "beat": 40,
+            "lane": "Middle"
+          },
+          {
+            "beat": 41,
+            "lane": "Rim"
+          },
+          {
+            "beat": 43,
+            "lane": "Rim"
+          },
+          {
+            "beat": 43,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 45,
+            "lane": "Rim"
+          },
+          {
+            "beat": 45,
+            "lane": "Middle"
+          },
+          {
+            "beat": 47,
+            "lane": "Rim"
+          },
+          {
+            "beat": 47,
+            "lane": "Deep"
+          },
+          {
+            "beat": 48,
+            "lane": "Rim"
+          },
+          {
+            "beat": 48,
+            "lane": "Deep"
+          },
+          {
+            "beat": 50,
+            "lane": "Rim"
+          },
+          {
+            "beat": 52,
+            "lane": "Rim"
+          },
+          {
+            "beat": 52,
+            "lane": "Middle"
+          },
+          {
+            "beat": 53,
+            "lane": "Rim"
+          },
+          {
+            "beat": 55,
+            "lane": "Rim"
+          },
+          {
+            "beat": 55,
+            "lane": "Lifted"
+          },
+          {
+            "beat": 57,
+            "lane": "Rim"
+          },
+          {
+            "beat": 57,
+            "lane": "Middle"
+          },
+          {
+            "beat": 59,
+            "lane": "Rim"
+          },
+          {
+            "beat": 59,
+            "lane": "Deep"
+          },
+          {
+            "beat": 60,
+            "lane": "Rim",
+            "len": 8
+          },
+          {
+            "beat": 60,
+            "lane": "Deep",
+            "len": 8
+          }
+        ],
+        "note": "A twelve-pulse cycle is a widely shared West African pattern: seven struck points in groups of 2, 2, 1, 2, 2, 2, 1. Here the rim carries the timeline while the deep and middle sounds mark the main pulse beneath it."
+      }
     ]
-   },
-   {
-    "name": "Two bowls trade",
-    "bpm": 96,
-    "meter": 4,
-    "length": 16,
-    "steps": [
-     {
-      "beat": 0,
-      "lane": 0
-     },
-     {
-      "beat": 0.5,
-      "lane": 1
-     },
-     {
-      "beat": 1,
-      "lane": 2
-     },
-     {
-      "beat": 2,
-      "lane": 3
-     },
-     {
-      "beat": 2.5,
-      "lane": 1
-     },
-     {
-      "beat": 3,
-      "lane": 0
-     },
-     {
-      "beat": 4,
-      "lane": 1
-     },
-     {
-      "beat": 4.5,
-      "lane": 2
-     },
-     {
-      "beat": 5,
-      "lane": 0
-     },
-     {
-      "beat": 6,
-      "lane": 3
-     },
-     {
-      "beat": 6.5,
-      "lane": 2
-     },
-     {
-      "beat": 7,
-      "lane": 1
-     },
-     {
-      "beat": 8,
-      "lane": 0
-     },
-     {
-      "beat": 8.5,
-      "lane": 0
-     },
-     {
-      "beat": 9,
-      "lane": 1
-     },
-     {
-      "beat": 10,
-      "lane": 2
-     },
-     {
-      "beat": 10.5,
-      "lane": 3
-     },
-     {
-      "beat": 11,
-      "lane": 3
-     },
-     {
-      "beat": 12,
-      "lane": 2
-     },
-     {
-      "beat": 12.5,
-      "lane": 1
-     },
-     {
-      "beat": 13,
-      "lane": 0
-     },
-     {
-      "beat": 14,
-      "lane": 1
-     },
-     {
-      "beat": 14.5,
-      "lane": 0
-     },
-     {
-      "beat": 15,
-      "lane": 0
-     }
-    ]
-   },
-   {
-    "name": "Rim and bowl",
-    "bpm": 100,
-    "meter": 4,
-    "length": 16,
-    "steps": [
-     {
-      "beat": 0,
-      "lane": 3
-     },
-     {
-      "beat": 0.5,
-      "lane": 3
-     },
-     {
-      "beat": 1,
-      "lane": 0
-     },
-     {
-      "beat": 2,
-      "lane": 3
-     },
-     {
-      "beat": 3,
-      "lane": 1
-     },
-     {
-      "beat": 4,
-      "lane": 3
-     },
-     {
-      "beat": 4.5,
-      "lane": 3
-     },
-     {
-      "beat": 5,
-      "lane": 2
-     },
-     {
-      "beat": 6,
-      "lane": 3
-     },
-     {
-      "beat": 7,
-      "lane": 0
-     },
-     {
-      "beat": 8,
-      "lane": 3
-     },
-     {
-      "beat": 9,
-      "lane": 1
-     },
-     {
-      "beat": 9.5,
-      "lane": 2
-     },
-     {
-      "beat": 10,
-      "lane": 3
-     },
-     {
-      "beat": 11,
-      "lane": 0
-     },
-     {
-      "beat": 12,
-      "lane": 3
-     },
-     {
-      "beat": 12.5,
-      "lane": 3
-     },
-     {
-      "beat": 13,
-      "lane": 3
-     },
-     {
-      "beat": 14,
-      "lane": 0
-     },
-     {
-      "beat": 15,
-      "lane": 0
-     }
-    ]
-   }
-  ]
- }
+  }
 }

@@ -329,6 +329,135 @@
       "len": 4
      }
     ]
+   },
+   {
+    "id": "bayati-route",
+    "name": "Maqam Bayati, rising and falling route (teaching figure)",
+    "bpm": 70,
+    "meter": 4,
+    "length": 32,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Levantine maqam",
+    "note": "Bayati is a favourite mode for the dabke in the Levant, recognised by its half-flat second note. The figure rises from the tonic to the octave and comes back down through the half-flat note to settle on the tonic, as a player would shape a phrase on the mijwiz.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "D",
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": "E half-b"
+     },
+     {
+      "beat": 3,
+      "lane": "F"
+     },
+     {
+      "beat": 4,
+      "lane": "G",
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": "F"
+     },
+     {
+      "beat": 7,
+      "lane": "E half-b"
+     },
+     {
+      "beat": 8,
+      "lane": "F"
+     },
+     {
+      "beat": 9,
+      "lane": "G"
+     },
+     {
+      "beat": 10,
+      "lane": "A"
+     },
+     {
+      "beat": 11,
+      "lane": "Bb"
+     },
+     {
+      "beat": 12,
+      "lane": "A",
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": "G"
+     },
+     {
+      "beat": 15,
+      "lane": "F"
+     },
+     {
+      "beat": 16,
+      "lane": "G"
+     },
+     {
+      "beat": 17,
+      "lane": "A"
+     },
+     {
+      "beat": 18,
+      "lane": "C"
+     },
+     {
+      "beat": 19,
+      "lane": "D high"
+     },
+     {
+      "beat": 20,
+      "lane": "C"
+     },
+     {
+      "beat": 21,
+      "lane": "Bb"
+     },
+     {
+      "beat": 22,
+      "lane": "A"
+     },
+     {
+      "beat": 23,
+      "lane": "G"
+     },
+     {
+      "beat": 24,
+      "lane": "F"
+     },
+     {
+      "beat": 25,
+      "lane": "E half-b"
+     },
+     {
+      "beat": 26,
+      "lane": "F"
+     },
+     {
+      "beat": 27,
+      "lane": "G"
+     },
+     {
+      "beat": 28,
+      "lane": "F"
+     },
+     {
+      "beat": 29,
+      "lane": "E half-b"
+     },
+     {
+      "beat": 30,
+      "lane": "D",
+      "len": 2
+     }
+    ]
    }
   ]
  }

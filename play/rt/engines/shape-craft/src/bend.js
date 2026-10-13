@@ -2,6 +2,7 @@
 // Score = a partial Hausdorff distance between the player's wire and the target outline, in figure heights.
 import { clamp, starsFor } from './geom.js';
 import { tint, litEdge, rgba, shadowed, rrect, shelf } from './fx.js';
+import { drawTool, wallLift } from './scenes.js';
 const shade = tint;
 
 export const BEND_DEFAULTS = { figure: 'car', tolerance: 0.06, wireColor: '#d9b45a', wheelColor: '#6b7480', guide: true, variation: 1 };
@@ -65,6 +66,7 @@ const directed = (A, B) => {
 
 export function createBend(P, env) {
   const { rng, audio, fx } = env;
+  const SC = P.scene ?? {}, PM = SC.pitch ?? 1, WV = SC.wave ?? 'triangle';
   let clock = 0, lastGrab = null, lastRelease = -9;
   const FIG = BEND_FIGURES[P.figure] ?? BEND_FIGURES.car;
   let target, cur, undo, done, geo = null, grab = null, moved = false, tSamples, cache = null, acc = 0, hit = 26;
@@ -138,10 +140,10 @@ export function createBend(P, env) {
       if (Math.abs(nu - u) > 1e-4 || Math.abs(nv - v) > 1e-4) {
         if (!moved) { undo.push(grab.snap); moved = true; }
         setPos(grab.o, nu, nv);
-        audio?.tone({ freq: 200 + ((nu * 4 + nv * 3) % 1) * 160, dur: 0.02, type: 'triangle', vol: 0.05 });
+        audio?.tone({ freq: (200 + ((nu * 4 + nv * 3) % 1) * 160) * PM, dur: 0.02, type: WV, vol: 0.05 });
       }
     }
-    if (!p.down) { if (grab && moved && fx && geo) { const [u, v] = objPos(grab.o), [qx, qy] = px(u, v); fx.emit('spark', qx, qy, { count: 3, color: '#fff4c8', size: 6, speed: 70, life: 0.4, gravity: 60 }); audio?.tone({ freq: 360, to: 280, dur: 0.06, type: 'triangle', vol: 0.12 }); } grab = null; }
+    if (!p.down) { if (grab && moved && fx && geo) { const [u, v] = objPos(grab.o), [qx, qy] = px(u, v); fx.emit('spark', qx, qy, { count: 3, color: '#fff4c8', size: 6, speed: 70, life: 0.4, gravity: 60 }); audio?.tone({ freq: 360 * PM, to: 280 * PM, dur: 0.06, type: WV, vol: 0.12 }); } grab = null; }
   };
 
   // A wheel: a dark tyre with tread, a bright rim and wire spokes, with its own shadow.
@@ -190,6 +192,20 @@ export function createBend(P, env) {
       }));
     }
   };
+  // A bending jig: a plank with rows of nail heads that the wire is bent around.
+  const jig = (ctx, x, y, w, h, bhh) => {
+    shadowed(ctx, () => { rrect(ctx, x, y, w, h, 10); ctx.fillStyle = '#3a2410'; ctx.fill(); }, { blur: 16, dy: 8, a: 0.55 });
+    const gr = ctx.createLinearGradient(x, y, x + w, y + h); gr.addColorStop(0, '#c89a5e'); gr.addColorStop(0.5, '#a67a42'); gr.addColorStop(1, '#6e4c26');
+    rrect(ctx, x, y, w, h, 10); ctx.fillStyle = gr; ctx.fill();
+    ctx.save(); rrect(ctx, x, y, w, h, 10); ctx.clip();
+    ctx.strokeStyle = 'rgba(60,30,10,0.28)'; ctx.lineWidth = 1; ctx.beginPath();
+    for (let k = 0; k < 26; k++) { const gy = y + ((k + 0.5) / 26) * h; ctx.moveTo(x, gy); ctx.bezierCurveTo(x + w * 0.3, gy + (k % 3 - 1) * 3, x + w * 0.6, gy - (k % 3 - 1) * 3, x + w, gy + 1); }
+    ctx.stroke();
+    const s = Math.max(18, bhh / 11); ctx.fillStyle = '#dfe4e8';
+    for (let gx = x + s; gx < x + w - 6; gx += s) for (let gy = y + s; gy < y + h - 6; gy += s) { ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.fillRect(gx + 1, gy + 1.5, 3, 3); ctx.fillStyle = '#d5dade'; ctx.fillRect(gx, gy, 3, 3); }
+    ctx.restore();
+    ctx.strokeStyle = 'rgba(0,0,0,0.5)'; ctx.lineWidth = 2; rrect(ctx, x, y, w, h, 10); ctx.stroke();
+  };
   const pegboard = (ctx, x, y, w, h) => {
     shadowed(ctx, () => { rrect(ctx, x, y, w, h, 14); ctx.fillStyle = '#2a2c30'; ctx.fill(); }, { blur: 16, dy: 8, a: 0.5 });
     const gr = ctx.createLinearGradient(x, y, x + w, y + h); gr.addColorStop(0, '#3a3d44'); gr.addColorStop(1, '#202226'); rrect(ctx, x, y, w, h, 14); ctx.fillStyle = gr; ctx.fill();
@@ -202,25 +218,26 @@ export function createBend(P, env) {
   const draw = (g, Rt, t) => {
     const { ctx, pal } = g;
     clock = t;
-    const W0 = Rt.work, Wk = { x: W0.x, y: W0.y + 40, w: W0.w, h: W0.h - 40 };
+    const W0 = Rt.work, lift = SC.wall ? wallLift(W0) : 0, Wk = { x: W0.x, y: W0.y + 40 + lift, w: W0.w, h: W0.h - 40 - lift };
     hit = Math.max(22, (g.px(0) * 44) / 12 * 0.5);
     const bh = Math.min(Wk.h - 20, (Wk.w - 20) / FIG.ar), bw = bh * FIG.ar, ox = Wk.x + (Wk.w - bw) / 2, oy = Wk.y + (Wk.h - bh) / 2;
     geo = { ox, oy, bw, bh };
-    pegboard(ctx, ox - 10, oy - 10, bw + 20, bh + 20);
+    if (SC.board === 'jig') jig(ctx, ox - 10, oy - 10, bw + 20, bh + 20, bh); else pegboard(ctx, ox - 10, oy - 10, bw + 20, bh + 20);
     const lw = Math.max(3.5, bh * 0.014);
     if (P.guide) paintFigure(ctx, target, ox, oy, bw, bh, lw, false, true, t);
     cur.wheels.forEach((w) => wheelAt(ctx, ox + w.x * bw, oy + w.y * bh, w.r * bh, P.wheelColor, 0.3));
     paintFigure(ctx, { paths: cur.paths, wheels: [] }, ox, oy, bw, bh, lw * 1.3, true, false, t);
-    // a grabbed handle glows
+    // a grabbed handle glows, and the pliers hold it
     if (grab && grab.o.kind === 'pt' && !done) {
       const [u, v] = objPos(grab.o), [qx, qy] = px(u, v);
+      if (SC.tool) drawTool(ctx, SC, SC.tool, qx, qy, Math.max(90, bh * 0.3), t);
       ctx.strokeStyle = rgba(pal.accent, 0.8); ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(qx, qy, Math.max(8, bh * 0.022) * 1.9, 0, Math.PI * 2); ctx.stroke();
     }
     // reference
     const th = Rt.thumb, tb = Math.min(th.h - 24, (th.w - 24) / FIG.ar), tw = tb * FIG.ar;
     shelf(ctx, th.x + th.w / 2, th.y + (th.h + tb) / 2 + 2, th.w * 0.36);
     paintFigure(ctx, target, th.x + (th.w - tw) / 2, th.y + (th.h - tb) / 2, tw, tb, Math.max(2, tb * 0.016), false, false, t);
-    g.label(ctx, 'Drag the white points; drag a wheel by its rim', W0.x + W0.w / 2, W0.y + 26, g.px(22), pal.dim, 'center', '500');
+    g.label(ctx, SC.words?.hint ?? 'Drag the white points; drag a wheel by its rim', W0.x + W0.w / 2, W0.y + 26, g.px(22), pal.ink, 'center', '600');
   };
   const titleArt = (g, S, t) => {
     const { ctx } = g;
@@ -246,10 +263,10 @@ export function createBend(P, env) {
 
   const nPts = FIG.paths.reduce((s, p) => s + p.pts.length, 0);
   return {
-    init, items, control, work, draw, attract, titleArt, surface: 'mat', surfaceTint: '#2f3640', result: () => done,
+    init, items, control, work, draw, attract, titleArt, result: () => done,
     score,
     info: () => [`Wire points: ${nPts}${FIG.wheels.length ? `, wheels: ${FIG.wheels.length}` : ''}`, `Gap: ${(distance() * 100).toFixed(1)} percent`],
-    caption: `Bend this ${FIG.name.toLowerCase().replace('wire ', '')}`,
+    caption: SC.words?.caption ?? `Bend this ${FIG.name.toLowerCase().replace('wire ', '')}`,
     hint() {
       let best = null, bd = 0;
       cur.paths.forEach((p, pi) => p.pts.forEach((q, i) => { const t = target.paths[pi].pts[i], d = Math.hypot((q[0] - t[0]) * FIG.ar, q[1] - t[1]); if (d > bd) { bd = d; best = { pi, i, q, t }; } }));

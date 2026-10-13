@@ -52,7 +52,7 @@ export const isFilled = (kind) => FILLED.has(kind);
 const LW = { ring: 0.12, wave: 0.14, zigzag: 0.14, spiral: 0.12, fret: 0.13, xstitch: 0.16, knot: 0.18 };
 export const lineWidthOf = (kind, s) => Math.max(3, s * (LW[kind] ?? 0.12));
 // Builds the path of one stamp (no fill or stroke). Returns nothing; use isFilled(kind) and lineWidthOf(kind, s).
-function motifPath(ctx, kind, x, y, s) {
+export function motifPath(ctx, kind, x, y, s) {
   const h = s / 2, q = s * 0.14;
   const poly = (pts) => { ctx.beginPath(); pts.forEach(([px, py], i) => (i ? ctx.lineTo(px, py) : ctx.moveTo(px, py))); ctx.closePath(); };
   ctx.beginPath();

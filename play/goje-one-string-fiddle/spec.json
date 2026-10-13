@@ -81,62 +81,62 @@
      {
       "beat": 0,
       "lane": 0,
-      "len": 2.0
+      "len": 2
      },
      {
       "beat": 2,
       "lane": 1,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 3,
       "lane": 2,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 4,
       "lane": 3,
-      "len": 2.0
+      "len": 2
      },
      {
       "beat": 6,
       "lane": 2,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 7,
       "lane": 1,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 8,
       "lane": 0,
-      "len": 2.0
+      "len": 2
      },
      {
       "beat": 10,
       "lane": 4,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 11,
       "lane": 3,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 12,
       "lane": 2,
-      "len": 2.0
+      "len": 2
      },
      {
       "beat": 14,
       "lane": 1,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 15,
       "lane": 0,
-      "len": 1.0
+      "len": 1
      }
     ]
    },
@@ -321,7 +321,7 @@
      {
       "beat": 6,
       "lane": 5,
-      "len": 1.0
+      "len": 1
      },
      {
       "beat": 7,
@@ -366,9 +366,99 @@
      {
       "beat": 15,
       "lane": 0,
-      "len": 1.0
+      "len": 1
      }
     ]
+   },
+   {
+    "id": "savannah-fiddle-figure",
+    "name": "Savannah fiddle figure",
+    "bpm": 80,
+    "meter": 4,
+    "length": 16,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Hausa fiddle music",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Open"
+     },
+     {
+      "beat": 1,
+      "lane": "Stop 1"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Stop 2"
+     },
+     {
+      "beat": 2,
+      "lane": "Stop 3"
+     },
+     {
+      "beat": 3,
+      "lane": "Stop 2"
+     },
+     {
+      "beat": 4,
+      "lane": "Stop 4"
+     },
+     {
+      "beat": 5,
+      "lane": "Stop 3"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Stop 2"
+     },
+     {
+      "beat": 6,
+      "lane": "Stop 1"
+     },
+     {
+      "beat": 7,
+      "lane": "Open"
+     },
+     {
+      "beat": 8,
+      "lane": "High"
+     },
+     {
+      "beat": 9,
+      "lane": "Stop 4"
+     },
+     {
+      "beat": 9.5,
+      "lane": "Stop 3"
+     },
+     {
+      "beat": 10,
+      "lane": "Stop 2"
+     },
+     {
+      "beat": 11,
+      "lane": "Stop 1"
+     },
+     {
+      "beat": 12,
+      "lane": "Stop 2"
+     },
+     {
+      "beat": 12.5,
+      "lane": "Stop 1"
+     },
+     {
+      "beat": 13,
+      "lane": "Open"
+     },
+     {
+      "beat": 14,
+      "lane": "Open",
+      "len": 2
+     }
+    ],
+    "note": "A teaching figure in the style of West African savannah fiddle playing: a repeated call, a short run down the string and a return to the open note. The goje is bowed with a steady, driving pulse."
    }
   ]
  }

@@ -368,9 +368,99 @@
      {
       "beat": 15,
       "lane": 3,
-      "len": 1.0
+      "len": 1
      }
     ]
+   },
+   {
+    "id": "huayno-figure",
+    "name": "Huayno figure in A minor",
+    "bpm": 90,
+    "meter": 2,
+    "length": 10,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Andean huayno",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "3 E"
+     },
+     {
+      "beat": 0.5,
+      "lane": "4 C"
+     },
+     {
+      "beat": 0.75,
+      "lane": "4 C"
+     },
+     {
+      "beat": 1,
+      "lane": "2 A"
+     },
+     {
+      "beat": 1.5,
+      "lane": "2 A"
+     },
+     {
+      "beat": 2,
+      "lane": "4 C"
+     },
+     {
+      "beat": 2.5,
+      "lane": "2 A"
+     },
+     {
+      "beat": 2.75,
+      "lane": "2 A"
+     },
+     {
+      "beat": 3,
+      "lane": "5 G"
+     },
+     {
+      "beat": 3.5,
+      "lane": "5 G"
+     },
+     {
+      "beat": 4,
+      "lane": "5 G"
+     },
+     {
+      "beat": 4.5,
+      "lane": "2 A"
+     },
+     {
+      "beat": 4.75,
+      "lane": "2 A"
+     },
+     {
+      "beat": 5,
+      "lane": "4 C"
+     },
+     {
+      "beat": 5.5,
+      "lane": "3 E"
+     },
+     {
+      "beat": 6,
+      "lane": "4 C"
+     },
+     {
+      "beat": 6.5,
+      "lane": "2 A"
+     },
+     {
+      "beat": 6.75,
+      "lane": "2 A"
+     },
+     {
+      "beat": 7,
+      "lane": "2 A",
+      "len": 1.5
+     }
+    ],
+    "note": "A short teaching figure in the long-short-short step rhythm that drives the Andean huayno dance. On the charango it is played with a quick, bright pluck, the line stepping down a minor pentatonic scale and coming back to rest."
    }
   ]
  }

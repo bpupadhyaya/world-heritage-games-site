@@ -280,6 +280,211 @@
       "lane": "Clap"
      }
     ]
+   },
+   {
+    "id": "plait-unplait",
+    "name": "Maypole plait and unplait",
+    "bpm": 104,
+    "meter": 2,
+    "length": 48,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "European maypole dance",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Over"
+     },
+     {
+      "beat": 1,
+      "lane": "Under"
+     },
+     {
+      "beat": 2,
+      "lane": "Over"
+     },
+     {
+      "beat": 3,
+      "lane": "Under"
+     },
+     {
+      "beat": 4,
+      "lane": "Over"
+     },
+     {
+      "beat": 5,
+      "lane": "Under"
+     },
+     {
+      "beat": 6,
+      "lane": "Over"
+     },
+     {
+      "beat": 7,
+      "lane": "Clap"
+     },
+     {
+      "beat": 8,
+      "lane": "Under"
+     },
+     {
+      "beat": 9,
+      "lane": "Over"
+     },
+     {
+      "beat": 10,
+      "lane": "Under"
+     },
+     {
+      "beat": 11,
+      "lane": "Over"
+     },
+     {
+      "beat": 12,
+      "lane": "Under"
+     },
+     {
+      "beat": 13,
+      "lane": "Over"
+     },
+     {
+      "beat": 14,
+      "lane": "Under"
+     },
+     {
+      "beat": 15,
+      "lane": "Clap"
+     },
+     {
+      "beat": 16,
+      "lane": "Over"
+     },
+     {
+      "beat": 17,
+      "lane": "Under"
+     },
+     {
+      "beat": 18,
+      "lane": "Over"
+     },
+     {
+      "beat": 19,
+      "lane": "Under"
+     },
+     {
+      "beat": 20,
+      "lane": "Over"
+     },
+     {
+      "beat": 21,
+      "lane": "Under"
+     },
+     {
+      "beat": 22,
+      "lane": "Over"
+     },
+     {
+      "beat": 23,
+      "lane": "Clap"
+     },
+     {
+      "beat": 24,
+      "lane": "Under"
+     },
+     {
+      "beat": 25,
+      "lane": "Over"
+     },
+     {
+      "beat": 26,
+      "lane": "Under"
+     },
+     {
+      "beat": 27,
+      "lane": "Over"
+     },
+     {
+      "beat": 28,
+      "lane": "Under"
+     },
+     {
+      "beat": 29,
+      "lane": "Over"
+     },
+     {
+      "beat": 30,
+      "lane": "Under"
+     },
+     {
+      "beat": 31,
+      "lane": "Clap"
+     },
+     {
+      "beat": 32,
+      "lane": "Over"
+     },
+     {
+      "beat": 33,
+      "lane": "Under"
+     },
+     {
+      "beat": 34,
+      "lane": "Over"
+     },
+     {
+      "beat": 35,
+      "lane": "Under"
+     },
+     {
+      "beat": 36,
+      "lane": "Over"
+     },
+     {
+      "beat": 37,
+      "lane": "Under"
+     },
+     {
+      "beat": 38,
+      "lane": "Over"
+     },
+     {
+      "beat": 39,
+      "lane": "Clap"
+     },
+     {
+      "beat": 40,
+      "lane": "Under"
+     },
+     {
+      "beat": 41,
+      "lane": "Over"
+     },
+     {
+      "beat": 42,
+      "lane": "Under"
+     },
+     {
+      "beat": 43,
+      "lane": "Over"
+     },
+     {
+      "beat": 44,
+      "lane": "Under"
+     },
+     {
+      "beat": 45,
+      "lane": "Over"
+     },
+     {
+      "beat": 46,
+      "lane": "Under"
+     },
+     {
+      "beat": 47,
+      "lane": "Clap"
+     }
+    ],
+    "note": "Dancers circle a pole holding ribbons, passing alternately in front of and behind each other to weave a plait. Over and Under are the passes; the clap marks the turn at the end of a phrase, after which the plait is unwound by starting on Under."
    }
   ]
  }

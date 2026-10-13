@@ -1,252 +1,419 @@
 {
- "engine": "rhythm",
- "params": {
-  "layout": "strings",
-  "mode": "follow",
-  "root": 196,
-  "scale": "heptatonic",
-  "lanes": [
-   {
-    "name": "G3",
-    "id": "g0",
-    "hz": 196.0,
-    "row": 0,
-    "timbre": "pluck",
-    "color": "#c98a3c"
-   },
-   {
-    "name": "A3",
-    "id": "g1",
-    "hz": 220.0,
-    "row": 0,
-    "timbre": "pluck",
-    "color": "#d9a24a"
-   },
-   {
-    "name": "B3",
-    "id": "g2",
-    "hz": 246.9,
-    "row": 0,
-    "timbre": "pluck",
-    "color": "#e8bc6a"
-   },
-   {
-    "name": "A3",
-    "id": "a0",
-    "hz": 220.0,
-    "row": 1,
-    "timbre": "pluck",
-    "color": "#a8693a"
-   },
-   {
-    "name": "B3",
-    "id": "a1",
-    "hz": 246.9,
-    "row": 1,
-    "timbre": "pluck",
-    "color": "#bd7d44"
-   },
-   {
-    "name": "C4",
-    "id": "a2",
-    "hz": 261.6,
-    "row": 1,
-    "timbre": "pluck",
-    "color": "#d29353"
-   },
-   {
-    "name": "C4",
-    "id": "c0",
-    "hz": 261.6,
-    "row": 2,
-    "timbre": "pluck",
-    "color": "#7aa37a"
-   },
-   {
-    "name": "D4",
-    "id": "c1",
-    "hz": 293.7,
-    "row": 2,
-    "timbre": "pluck",
-    "color": "#8fba8d"
-   },
-   {
-    "name": "E4",
-    "id": "c2",
-    "hz": 329.6,
-    "row": 2,
-    "timbre": "pluck",
-    "color": "#a6cfa0"
-   }
-  ],
-  "loops": 2,
-  "tolerance": 1.2,
-  "songs": [
-   {
-    "name": "Kartuli dance, 6/8 feel",
-    "bpm": 126,
-    "meter": 6,
-    "steps": [
-     {
-      "beat": 0.0,
-      "lane": "g0"
-     },
-     {
-      "beat": 2.0,
-      "lane": "c0"
-     },
-     {
-      "beat": 3.0,
-      "lane": "c1"
-     },
-     {
-      "beat": 4.0,
-      "lane": "c2"
-     },
-     {
-      "beat": 5.0,
-      "lane": "c1"
-     },
-     {
-      "beat": 6.0,
-      "lane": "g0"
-     },
-     {
-      "beat": 8.0,
-      "lane": "a2"
-     },
-     {
-      "beat": 9.0,
-      "lane": "c1"
-     },
-     {
-      "beat": 10.0,
-      "lane": "c0"
-     },
-     {
-      "beat": 11.0,
-      "lane": "a1"
-     }
+  "engine": "rhythm",
+  "params": {
+    "layout": "strings",
+    "mode": "follow",
+    "root": 196,
+    "scale": "heptatonic",
+    "lanes": [
+      {
+        "name": "G3",
+        "id": "g0",
+        "hz": 196,
+        "row": 0,
+        "timbre": "pluck",
+        "color": "#c98a3c"
+      },
+      {
+        "name": "A3",
+        "id": "g1",
+        "hz": 220,
+        "row": 0,
+        "timbre": "pluck",
+        "color": "#d9a24a"
+      },
+      {
+        "name": "B3",
+        "id": "g2",
+        "hz": 246.9,
+        "row": 0,
+        "timbre": "pluck",
+        "color": "#e8bc6a"
+      },
+      {
+        "name": "A3",
+        "id": "a0",
+        "hz": 220,
+        "row": 1,
+        "timbre": "pluck",
+        "color": "#a8693a"
+      },
+      {
+        "name": "B3",
+        "id": "a1",
+        "hz": 246.9,
+        "row": 1,
+        "timbre": "pluck",
+        "color": "#bd7d44"
+      },
+      {
+        "name": "C4",
+        "id": "a2",
+        "hz": 261.6,
+        "row": 1,
+        "timbre": "pluck",
+        "color": "#d29353"
+      },
+      {
+        "name": "C4",
+        "id": "c0",
+        "hz": 261.6,
+        "row": 2,
+        "timbre": "pluck",
+        "color": "#7aa37a"
+      },
+      {
+        "name": "D4",
+        "id": "c1",
+        "hz": 293.7,
+        "row": 2,
+        "timbre": "pluck",
+        "color": "#8fba8d"
+      },
+      {
+        "name": "E4",
+        "id": "c2",
+        "hz": 329.6,
+        "row": 2,
+        "timbre": "pluck",
+        "color": "#a6cfa0"
+      }
+    ],
+    "loops": 2,
+    "tolerance": 1.2,
+    "songs": [
+      {
+        "name": "Kartuli dance, 6/8 feel",
+        "bpm": 126,
+        "meter": 6,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "g0"
+          },
+          {
+            "beat": 2,
+            "lane": "c0"
+          },
+          {
+            "beat": 3,
+            "lane": "c1"
+          },
+          {
+            "beat": 4,
+            "lane": "c2"
+          },
+          {
+            "beat": 5,
+            "lane": "c1"
+          },
+          {
+            "beat": 6,
+            "lane": "g0"
+          },
+          {
+            "beat": 8,
+            "lane": "a2"
+          },
+          {
+            "beat": 9,
+            "lane": "c1"
+          },
+          {
+            "beat": 10,
+            "lane": "c0"
+          },
+          {
+            "beat": 11,
+            "lane": "a1"
+          }
+        ]
+      },
+      {
+        "name": "Khorumi, 5/8 (3+2)",
+        "bpm": 150,
+        "meter": 5,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "g0"
+          },
+          {
+            "beat": 1,
+            "lane": "c0"
+          },
+          {
+            "beat": 2,
+            "lane": "c1"
+          },
+          {
+            "beat": 3,
+            "lane": "c2"
+          },
+          {
+            "beat": 4,
+            "lane": "c1"
+          },
+          {
+            "beat": 5,
+            "lane": "g0"
+          },
+          {
+            "beat": 6,
+            "lane": "a1"
+          },
+          {
+            "beat": 7,
+            "lane": "a2"
+          },
+          {
+            "beat": 8,
+            "lane": "c1"
+          },
+          {
+            "beat": 9,
+            "lane": "c0"
+          }
+        ]
+      },
+      {
+        "name": "Slow song accompaniment",
+        "bpm": 72,
+        "meter": 4,
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "g0"
+          },
+          {
+            "beat": 1,
+            "lane": "c0"
+          },
+          {
+            "beat": 2,
+            "lane": "c1"
+          },
+          {
+            "beat": 3,
+            "lane": "c0"
+          },
+          {
+            "beat": 4,
+            "lane": "g1"
+          },
+          {
+            "beat": 5,
+            "lane": "c0"
+          },
+          {
+            "beat": 6,
+            "lane": "c2"
+          },
+          {
+            "beat": 7,
+            "lane": "c1"
+          },
+          {
+            "beat": 8,
+            "lane": "g0"
+          },
+          {
+            "beat": 9,
+            "lane": "a1"
+          },
+          {
+            "beat": 10,
+            "lane": "a2"
+          },
+          {
+            "beat": 11,
+            "lane": "c1"
+          },
+          {
+            "beat": 12,
+            "lane": "c0"
+          },
+          {
+            "beat": 13,
+            "lane": "a2"
+          },
+          {
+            "beat": 14,
+            "lane": "a1"
+          },
+          {
+            "beat": 15,
+            "lane": "g1"
+          }
+        ]
+      },
+      {
+        "id": "bass-and-answer",
+        "name": "Bass and answer, teaching figure",
+        "bpm": 100,
+        "meter": 6,
+        "length": 24,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "Georgian panduri figure",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "G3"
+          },
+          {
+            "beat": 1,
+            "lane": "G3"
+          },
+          {
+            "beat": 2,
+            "lane": 2
+          },
+          {
+            "beat": 3,
+            "lane": 1
+          },
+          {
+            "beat": 4,
+            "lane": 2
+          },
+          {
+            "beat": 5,
+            "lane": 5
+          },
+          {
+            "beat": 6,
+            "lane": "G3"
+          },
+          {
+            "beat": 7,
+            "lane": "G3"
+          },
+          {
+            "beat": 8,
+            "lane": "D4"
+          },
+          {
+            "beat": 9,
+            "lane": 5
+          },
+          {
+            "beat": 10,
+            "lane": 2
+          },
+          {
+            "beat": 11,
+            "lane": 1
+          },
+          {
+            "beat": 12,
+            "lane": "G3"
+          },
+          {
+            "beat": 13,
+            "lane": 2
+          },
+          {
+            "beat": 14,
+            "lane": "D4"
+          },
+          {
+            "beat": 15,
+            "lane": "E4",
+            "len": 2
+          },
+          {
+            "beat": 17,
+            "lane": "D4"
+          },
+          {
+            "beat": 18,
+            "lane": 5
+          },
+          {
+            "beat": 19,
+            "lane": 2
+          },
+          {
+            "beat": 20,
+            "lane": 1
+          },
+          {
+            "beat": 21,
+            "lane": "G3",
+            "len": 3
+          }
+        ],
+        "note": "A rolling six-pulse figure in which the low string keeps the drone and the upper strings answer, the way the panduri accompanies a sung line in Georgian village music."
+      },
+      {
+        "id": "falling-sung-line",
+        "name": "Falling line over the drone, teaching figure",
+        "bpm": 72,
+        "meter": 4,
+        "length": 16,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "Georgian panduri figure",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": "E4",
+            "len": 2
+          },
+          {
+            "beat": 2,
+            "lane": "D4"
+          },
+          {
+            "beat": 3,
+            "lane": 5
+          },
+          {
+            "beat": 4,
+            "lane": 2,
+            "len": 2
+          },
+          {
+            "beat": 6,
+            "lane": 1
+          },
+          {
+            "beat": 7,
+            "lane": 2
+          },
+          {
+            "beat": 8,
+            "lane": 5
+          },
+          {
+            "beat": 9,
+            "lane": 2
+          },
+          {
+            "beat": 10,
+            "lane": 1
+          },
+          {
+            "beat": 11,
+            "lane": "G3"
+          },
+          {
+            "beat": 12,
+            "lane": "G3",
+            "len": 2
+          },
+          {
+            "beat": 14,
+            "lane": "G3"
+          },
+          {
+            "beat": 15,
+            "lane": "G3"
+          }
+        ],
+        "note": "A slow line that steps down the scale from the top string to the low one, played the way a singer's phrase is doubled on the panduri, with the tonic drone returning at the end."
+      }
     ]
-   },
-   {
-    "name": "Khorumi, 5/8 (3+2)",
-    "bpm": 150,
-    "meter": 5,
-    "steps": [
-     {
-      "beat": 0.0,
-      "lane": "g0"
-     },
-     {
-      "beat": 1.0,
-      "lane": "c0"
-     },
-     {
-      "beat": 2.0,
-      "lane": "c1"
-     },
-     {
-      "beat": 3.0,
-      "lane": "c2"
-     },
-     {
-      "beat": 4.0,
-      "lane": "c1"
-     },
-     {
-      "beat": 5.0,
-      "lane": "g0"
-     },
-     {
-      "beat": 6.0,
-      "lane": "a1"
-     },
-     {
-      "beat": 7.0,
-      "lane": "a2"
-     },
-     {
-      "beat": 8.0,
-      "lane": "c1"
-     },
-     {
-      "beat": 9.0,
-      "lane": "c0"
-     }
-    ]
-   },
-   {
-    "name": "Slow song accompaniment",
-    "bpm": 72,
-    "meter": 4,
-    "steps": [
-     {
-      "beat": 0.0,
-      "lane": "g0"
-     },
-     {
-      "beat": 1.0,
-      "lane": "c0"
-     },
-     {
-      "beat": 2.0,
-      "lane": "c1"
-     },
-     {
-      "beat": 3.0,
-      "lane": "c0"
-     },
-     {
-      "beat": 4.0,
-      "lane": "g1"
-     },
-     {
-      "beat": 5.0,
-      "lane": "c0"
-     },
-     {
-      "beat": 6.0,
-      "lane": "c2"
-     },
-     {
-      "beat": 7.0,
-      "lane": "c1"
-     },
-     {
-      "beat": 8.0,
-      "lane": "g0"
-     },
-     {
-      "beat": 9.0,
-      "lane": "a1"
-     },
-     {
-      "beat": 10.0,
-      "lane": "a2"
-     },
-     {
-      "beat": 11.0,
-      "lane": "c1"
-     },
-     {
-      "beat": 12.0,
-      "lane": "c0"
-     },
-     {
-      "beat": 13.0,
-      "lane": "a2"
-     },
-     {
-      "beat": 14.0,
-      "lane": "a1"
-     },
-     {
-      "beat": 15.0,
-      "lane": "g1"
-     }
-    ]
-   }
-  ]
- }
+  }
 }

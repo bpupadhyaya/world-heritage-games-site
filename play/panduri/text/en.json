@@ -1,27 +1,27 @@
 {
- "title": "Panduri",
- "native": "ფანდური",
- "alt": [
-  "Panduri",
-  "Chonguri (a related lute)"
- ],
- "summary": "The panduri is a long-necked three-string lute of Georgia in the Caucasus, with a pear-shaped body and wooden frets. It often accompanies a singer, and its strings are tuned close together so that tunes and rippling accompaniments sit under the fingers.",
- "howToPlay": [
-  "Nine lanes stand for the three strings, three notes each: amber is the low string, brown the middle string, green the high string.",
-  "Notes fall toward the line; pluck each lane as its note reaches it.",
-  "Choose among a six-eight dance, a five-eight dance and a slow song accompaniment.",
-  "Everything repeats twice, so the second time through is your chance to tidy up."
- ],
- "rules": [
-  "Three strings carry three fretted notes each, tuned about G, A and C and used in a seven-note scale.",
-  "A stroke within a fraction of a beat is perfect; a close one is good; an extra stroke costs points.",
-  "Three stars need nearly every note on time."
- ],
- "heritageNote": "The panduri has long accompanied songs and dances in the mountain and valley regions of Georgia, where it is played by singers and by dance bands. Similar lutes with two or three strings belong to several Caucasus communities.",
- "countries": [
-  "Georgia"
- ],
- "credits": [
-  "Instrument and tunes: Georgian folk tradition, simplified patterns written for this game"
- ]
+  "title": "Panduri",
+  "native": "ფანდური",
+  "alt": [
+    "Panduri",
+    "Chonguri (a related lute)"
+  ],
+  "summary": "The panduri is a long-necked three-string lute of Georgia in the Caucasus, with a pear-shaped body and wooden frets. It often accompanies a singer, and its strings are tuned close together so that tunes and rippling accompaniments sit under the fingers.",
+  "howToPlay": [
+    "Nine lanes stand for the three strings, three notes each: amber is the low string, brown the middle string, green the high string.",
+    "Notes fall toward the line; pluck each lane as its note reaches it.",
+    "Choose among a six-eight dance, a five-eight dance and a slow song accompaniment.",
+    "Everything repeats twice, so the second time through is your chance to tidy up."
+  ],
+  "rules": [
+    "Three strings carry three fretted notes each, tuned about G, A and C and used in a seven-note scale.",
+    "A stroke within a fraction of a beat is perfect; a close one is good; an extra stroke costs points.",
+    "Three stars need nearly every note on time."
+  ],
+  "heritageNote": "The panduri has long accompanied songs and dances in the mountain and valley regions of Georgia, where it is played by singers and by dance bands. Similar lutes with two or three strings belong to several Caucasus communities.",
+  "countries": [
+    "Georgia"
+  ],
+  "credits": [
+    "Instrument and tunes: Georgian folk tradition, simplified patterns written for this game"
+  ]
 }

@@ -382,6 +382,217 @@
       "lane": "g6"
      }
     ]
+   },
+   {
+    "id": "tidtu-figure",
+    "name": "Tidtu mode, teaching figure",
+    "bpm": 100,
+    "meter": 4,
+    "length": 16,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Maguindanao kulintang",
+    "note": "Tidtu is one of the named rhythmic modes of Maguindanao kulintang music, which is learned by ear and varied freely by each player. This is a simple teaching figure for the whole ensemble, not a transcription of a particular performance.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Agung"
+     },
+     {
+      "beat": 1,
+      "lane": "4"
+     },
+     {
+      "beat": 1.5,
+      "lane": "5"
+     },
+     {
+      "beat": 2,
+      "lane": "6"
+     },
+     {
+      "beat": 2.5,
+      "lane": "5"
+     },
+     {
+      "beat": 3,
+      "lane": "Dabakan"
+     },
+     {
+      "beat": 4,
+      "lane": "5"
+     },
+     {
+      "beat": 4.5,
+      "lane": "4"
+     },
+     {
+      "beat": 5,
+      "lane": "3"
+     },
+     {
+      "beat": 5.5,
+      "lane": "4"
+     },
+     {
+      "beat": 6,
+      "lane": "Babandil"
+     },
+     {
+      "beat": 7,
+      "lane": "2"
+     },
+     {
+      "beat": 8,
+      "lane": "Agung"
+     },
+     {
+      "beat": 9,
+      "lane": "3"
+     },
+     {
+      "beat": 9.5,
+      "lane": "4"
+     },
+     {
+      "beat": 10,
+      "lane": "5"
+     },
+     {
+      "beat": 10.5,
+      "lane": "6"
+     },
+     {
+      "beat": 11,
+      "lane": "Dabakan"
+     },
+     {
+      "beat": 12,
+      "lane": "7"
+     },
+     {
+      "beat": 12.5,
+      "lane": "6"
+     },
+     {
+      "beat": 13,
+      "lane": "5"
+     },
+     {
+      "beat": 13.5,
+      "lane": "4"
+     },
+     {
+      "beat": 14,
+      "lane": "3"
+     },
+     {
+      "beat": 15,
+      "lane": "Agung"
+     }
+    ]
+   },
+   {
+    "id": "duyug-figure",
+    "name": "Duyug mode, teaching figure",
+    "bpm": 80,
+    "meter": 4,
+    "length": 16,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Maguindanao kulintang",
+    "note": "Duyug is the slow, dignified mode usually played first at gatherings, with the agung marking the pulse and the dabakan answering. This is a simple teaching figure, not a transcription, since the music is passed on by ear.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Agung"
+     },
+     {
+      "beat": 1,
+      "lane": "5"
+     },
+     {
+      "beat": 1.5,
+      "lane": "3"
+     },
+     {
+      "beat": 2,
+      "lane": "5"
+     },
+     {
+      "beat": 2.5,
+      "lane": "3"
+     },
+     {
+      "beat": 3,
+      "lane": "Dabakan"
+     },
+     {
+      "beat": 4,
+      "lane": "4"
+     },
+     {
+      "beat": 4.5,
+      "lane": "3"
+     },
+     {
+      "beat": 5,
+      "lane": "2"
+     },
+     {
+      "beat": 6,
+      "lane": "Agung"
+     },
+     {
+      "beat": 7,
+      "lane": "1"
+     },
+     {
+      "beat": 8,
+      "lane": "Agung"
+     },
+     {
+      "beat": 9,
+      "lane": "6"
+     },
+     {
+      "beat": 9.5,
+      "lane": "5"
+     },
+     {
+      "beat": 10,
+      "lane": "6"
+     },
+     {
+      "beat": 10.5,
+      "lane": "5"
+     },
+     {
+      "beat": 11,
+      "lane": "Dabakan"
+     },
+     {
+      "beat": 12,
+      "lane": "4"
+     },
+     {
+      "beat": 12.5,
+      "lane": "3"
+     },
+     {
+      "beat": 13,
+      "lane": "2"
+     },
+     {
+      "beat": 13.5,
+      "lane": "3"
+     },
+     {
+      "beat": 14,
+      "lane": "1",
+      "len": 2
+     }
+    ]
    }
   ]
  }

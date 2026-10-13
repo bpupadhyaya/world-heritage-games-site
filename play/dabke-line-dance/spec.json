@@ -188,6 +188,211 @@
       "lane": "Stomp"
      }
     ]
+   },
+   {
+    "id": "dabke-shamali",
+    "name": "Dabke line, right-left-cross and stomps",
+    "bpm": 100,
+    "meter": 2,
+    "length": 48,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Levantine line dance",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Right"
+     },
+     {
+      "beat": 1,
+      "lane": "Left"
+     },
+     {
+      "beat": 2,
+      "lane": "Right"
+     },
+     {
+      "beat": 3,
+      "lane": "Cross"
+     },
+     {
+      "beat": 4,
+      "lane": "Left"
+     },
+     {
+      "beat": 5,
+      "lane": "Right"
+     },
+     {
+      "beat": 6,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 7,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 8,
+      "lane": "Right"
+     },
+     {
+      "beat": 9,
+      "lane": "Left"
+     },
+     {
+      "beat": 10,
+      "lane": "Right"
+     },
+     {
+      "beat": 11,
+      "lane": "Cross"
+     },
+     {
+      "beat": 12,
+      "lane": "Left"
+     },
+     {
+      "beat": 13,
+      "lane": "Right"
+     },
+     {
+      "beat": 14,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 15,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 16,
+      "lane": "Right"
+     },
+     {
+      "beat": 17,
+      "lane": "Left"
+     },
+     {
+      "beat": 18,
+      "lane": "Right"
+     },
+     {
+      "beat": 19,
+      "lane": "Cross"
+     },
+     {
+      "beat": 20,
+      "lane": "Left"
+     },
+     {
+      "beat": 21,
+      "lane": "Right"
+     },
+     {
+      "beat": 22,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 23,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 24,
+      "lane": "Right"
+     },
+     {
+      "beat": 25,
+      "lane": "Left"
+     },
+     {
+      "beat": 26,
+      "lane": "Right"
+     },
+     {
+      "beat": 27,
+      "lane": "Cross"
+     },
+     {
+      "beat": 28,
+      "lane": "Left"
+     },
+     {
+      "beat": 29,
+      "lane": "Right"
+     },
+     {
+      "beat": 30,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 31,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 32,
+      "lane": "Right"
+     },
+     {
+      "beat": 33,
+      "lane": "Left"
+     },
+     {
+      "beat": 34,
+      "lane": "Right"
+     },
+     {
+      "beat": 35,
+      "lane": "Cross"
+     },
+     {
+      "beat": 36,
+      "lane": "Left"
+     },
+     {
+      "beat": 37,
+      "lane": "Right"
+     },
+     {
+      "beat": 38,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 39,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 40,
+      "lane": "Right"
+     },
+     {
+      "beat": 41,
+      "lane": "Left"
+     },
+     {
+      "beat": 42,
+      "lane": "Right"
+     },
+     {
+      "beat": 43,
+      "lane": "Cross"
+     },
+     {
+      "beat": 44,
+      "lane": "Left"
+     },
+     {
+      "beat": 45,
+      "lane": "Right"
+     },
+     {
+      "beat": 46,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 47,
+      "lane": "Stomp"
+     }
+    ],
+    "note": "A dabke line figure in 2/4: the line steps right, left, right, crosses, then left, right and finishes with two firm stomps. The leader of the line repeats it around the open circle. It is often danced to tunes such as Ala Dal'ouna, but the notes here are the steps."
    }
   ]
  }

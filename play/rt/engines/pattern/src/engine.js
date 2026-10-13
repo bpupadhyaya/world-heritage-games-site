@@ -6,5 +6,8 @@ export const ENGINE_ID = 'pattern';
 export { createActivity };
 
 export function createEngine(spec = {}, theme = {}, text = {}, options = {}) {
-  return createActivityEngine({ createActivity, spec, theme, text, options });
+  // The scene table (scenes.js) is keyed by params.scene, then by spec.variant / spec.scene, then by the title; games need no changes.
+  const hint = spec.scene ?? spec.variant ?? null;
+  const factory = hint ? (params, env) => createActivity({ ...params, __hint: hint }, env) : createActivity;
+  return createActivityEngine({ createActivity: factory, spec, theme, text, options });
 }

@@ -1,6 +1,7 @@
 // lathe: shape a vessel on the wheel by setting its radius row by row, then glaze its bands from the tradition's palette.
 import { clamp, profileRadii, smoothThrough, hash } from './geom.js';
 import { tint, litEdge, rrect, rgba, mix, shadowed, shelf } from './fx.js';
+import { drawTool } from './scenes.js';
 
 export const LATHE_DEFAULTS = { profile: 'vase', rows: 10, steps: 10, variation: 0.05, tolerance: 0.32, bands: 5, clay: '#b9744a', glazes: [{ name: 'White', color: '#f1ede2' }, { name: 'Cobalt', color: '#1f4aa8' }, { name: 'Turquoise', color: '#2aa6a0' }], glazePattern: null, guide: true, wheelColor: '#6e6a66' };
 
@@ -12,6 +13,9 @@ function vesselPoints(cx, base, H, unit, radii) {
   return { left, right, top, rowH };
 }
 
+const lgT = (ctx, x0, x1, a, b) => { const g = ctx.createLinearGradient(x0, 0, x1, 0); g.addColorStop(0, a); g.addColorStop(1, b); return g; };
+const guideDots = (ctx, cx, base, H, unit, steps, guide) => { if (guide) { ctx.strokeStyle = 'rgba(255,255,255,0.05)'; ctx.lineWidth = 1; for (let k = -steps; k <= steps; k++) { ctx.beginPath(); ctx.moveTo(cx + k * unit, base - H - 6); ctx.lineTo(cx + k * unit, base); ctx.stroke(); } } };
+const rg0 = (ctx, cx, cy, r, c) => { const g = ctx.createRadialGradient(cx - r * 0.2, cy - 2, 1, cx, cy, Math.max(2, r)); g.addColorStop(0, tint(c, 0.35)); g.addColorStop(1, tint(c, -0.1)); return g; };
 export function drawVessel(ctx, o) {
   const { cx, base, H, unit, radii, bands = 0, colors = [], clay, t = null, outlineOnly = false, accent = '#f2c14e', steps = 10, wet = 0 } = o;
   const { left, right, top, rowH } = vesselPoints(cx, base, H, unit, radii);
@@ -63,8 +67,15 @@ export function drawVessel(ctx, o) {
   }
   ctx.restore();
   path(); ctx.strokeStyle = 'rgba(20,10,5,0.7)'; ctx.lineWidth = 1.8; ctx.stroke();
-  // rim: a lip with an inner shadow
+  // rim: a lip with an inner shadow (or, on turned wood, the flat end grain)
   const rt = radii[n - 1] * unit, ry = Math.max(3, rt * 0.2);
+  if (o.solid) {
+    ctx.beginPath(); ctx.ellipse(cx, top, rt, ry, 0, 0, 6.2832);
+    ctx.fillStyle = rg0(ctx, cx, top, rt, clay); ctx.fill(); ctx.strokeStyle = tint(clay, -0.35); ctx.lineWidth = 1.5; ctx.stroke();
+    ctx.strokeStyle = 'rgba(90,50,20,0.35)'; ctx.lineWidth = 1;
+    for (let k = 1; k < 4; k++) { ctx.beginPath(); ctx.ellipse(cx, top, rt * k / 4, ry * k / 4, 0, 0, 6.2832); ctx.stroke(); }
+    return;
+  }
   ctx.beginPath(); ctx.ellipse(cx, top, rt, ry, 0, 0, 6.2832);
   const ig = ctx.createLinearGradient(0, top - ry, 0, top + ry); ig.addColorStop(0, '#0a0503'); ig.addColorStop(1, '#3a1d10');
   ctx.fillStyle = ig; ctx.fill(); ctx.strokeStyle = tint(clay, 0.25); ctx.lineWidth = 2.2; ctx.stroke();
@@ -73,6 +84,7 @@ export function drawVessel(ctx, o) {
 
 export function createLathe(P, env) {
   const { rng, audio, fx } = env;
+  const SC = P.scene ?? {}, WD = SC.words ?? {}, PM = SC.pitch ?? 1, WV = SC.wave ?? 'triangle';
   let toolAt = null, lastPtr = null, wetUntil = 0;
   const n = P.rows, steps = P.steps;
   const hasGlaze = P.bands > 0;
@@ -124,15 +136,15 @@ export function createLathe(P, env) {
   };
   const finish = () => {
     const r = score(), stars = r.score >= 88 ? 3 : r.score >= 65 ? 2 : r.score >= 40 ? 1 : 0;
-    done = { score: r.score, max: 100, stars, headline: stars === 3 ? 'A fine vessel' : stars ? 'A good pot' : 'Back to the wheel', detail: r.detail };
+    done = { score: r.score, max: 100, stars, headline: stars === 3 ? (WD.win ?? 'A fine vessel') : stars ? (WD.ok ?? 'A good pot') : (WD.retry ?? 'Back to the wheel'), detail: r.detail };
   };
 
   const rowAt = (y) => clamp(Math.floor((geo.base - y) / geo.rowH), 0, n - 1);
   const setRow = (i, r) => {
     r = clamp(r, 1, steps);
     if (radii[i] !== r) {
-      radii[i] = r; audio?.tone({ freq: 140 + r * 18, dur: 0.04, type: 'triangle', vol: 0.15 }); wetUntil = clock + 2.5;
-      if (geo && fx) { const y = geo.base - (i + 0.5) * geo.rowH; fx.emit('drop', geo.cx + r * geo.unit, y, { count: 2, color: tint(P.clay, -0.05), size: 3.4, speed: 90, life: 0.5, gravity: 520, spread: 2.2, angle: -0.6 }); }
+      radii[i] = r; audio?.tone({ freq: (140 + r * 18) * PM, dur: 0.04, type: WV, vol: 0.15 }); wetUntil = clock + 2.5;
+      if (geo && fx) { const y = geo.base - (i + 0.5) * geo.rowH; if (SC.rig === 'woodlathe') fx.emit('curl', geo.cx + r * geo.unit, y, { count: 2, color: tint(P.clay, -0.1), size: 5, speed: 110, life: 0.7, gravity: 420, spread: 2.4, angle: -0.3 }); else fx.emit('drop', geo.cx + r * geo.unit, y, { count: 2, color: tint(P.clay, -0.05), size: 3.4, speed: 90, life: 0.5, gravity: 520, spread: 2.2, angle: -0.6 }); }
     }
   };
   const work = (p) => {
@@ -149,12 +161,43 @@ export function createLathe(P, env) {
     if (phase === 'shape') setRow(i, Math.round(Math.abs(p.x - geo.cx) / geo.unit));
     else {
       const k = Math.floor((i * P.bands) / n);
-      if (colors[k] !== sel) { colors[k] = sel; audio?.tone({ freq: 400 + sel * 90, dur: 0.06 }); }
+      if (colors[k] !== sel) { colors[k] = sel; audio?.tone({ freq: (400 + sel * 90) * PM, dur: 0.06, type: WV }); }
     }
   };
 
   const wheelAndVessel = (ctx, pal, cx, base, H, unit, W, radiiArr, colorsArr, t, guide, wet) => {
     const wr = Math.min(steps * unit * 1.2, W.w / 2 - 2), ry = Math.max(8, wr * 0.14);
+    if (SC.rig === 'woodlathe') { // a vertical turning lathe: headstock and chuck below, tailstock centre above, tool rest at the side
+      const top = base - H, rr = Math.max(radiiArr[0] * unit, 10);
+      const hs = Math.max(30, W.h * 0.1);
+      ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.beginPath(); ctx.ellipse(cx, base + hs * 0.9, wr * 1.5, ry * 1.5, 0, 0, 6.2832); ctx.fill();
+      const hb = ctx.createLinearGradient(cx - wr * 1.2, 0, cx + wr * 1.2, 0); hb.addColorStop(0, '#2c2118'); hb.addColorStop(0.4, '#6a4a2c'); hb.addColorStop(1, '#2a1c10');
+      rrect(ctx, cx - wr * 1.25, base + 12, wr * 2.5, hs, 8); ctx.fillStyle = hb; ctx.fill(); ctx.strokeStyle = 'rgba(0,0,0,0.5)'; ctx.lineWidth = 2; ctx.stroke();
+      const cg = ctx.createLinearGradient(cx - rr, 0, cx + rr, 0); cg.addColorStop(0, '#5c646c'); cg.addColorStop(0.35, '#e9eef2'); cg.addColorStop(1, '#4a525a');
+      ctx.fillStyle = cg; ctx.fillRect(cx - rr * 0.7, base - 2, rr * 1.4, 16);
+      for (let k = 0; k < 6; k++) { const a = t * 3 + k * 1.047; if (Math.cos(a) > 0) { ctx.fillStyle = 'rgba(0,0,0,0.3)'; ctx.fillRect(cx + Math.sin(a) * rr * 0.65 - 1, base - 2, 2, 16); } }
+      const tcx = cx, ty = top - 14;
+      ctx.fillStyle = lgT(ctx, tcx - 6, tcx + 6, '#e9eef2', '#555d66'); ctx.beginPath(); ctx.moveTo(tcx - 7, ty); ctx.lineTo(tcx + 7, ty); ctx.lineTo(tcx, top + 2); ctx.closePath(); ctx.fill();
+      const arm = ctx.createLinearGradient(0, ty - 18, 0, ty); arm.addColorStop(0, '#8a5f38'); arm.addColorStop(1, '#4a2f18');
+      ctx.fillStyle = arm; ctx.fillRect(tcx - 8, ty - 16, W.x + W.w - tcx - 4, 16);
+      // tool rest: a bar at the side with a gouge laid on it
+      const rx = cx + Math.max(radiiArr[Math.floor(n / 2)] * unit + 22, wr * 0.9);
+      ctx.fillStyle = '#7a8088'; ctx.fillRect(Math.min(rx, W.x + W.w - 20), top + H * 0.2, 6, H * 0.7);
+      guideDots(ctx, cx, base, H, unit, steps, guide);
+      drawVessel(ctx, { cx, base, H, unit, radii: radiiArr, bands: P.bands, colors: colorsArr, glazes: P.glazes, clay: P.clay, t: done ? null : t, steps, wet, solid: true });
+      return;
+    }
+    if (SC.rig === 'kick') { // a low Uzbek kick wheel: a heavy flywheel under the wheel head, a clay trough around it
+      ctx.save(); ctx.beginPath(); ctx.rect(W.x, W.y, W.w, W.h); ctx.clip();
+      const fy = base + ry * 3.4, fr = Math.min(wr * 1.7, W.w * 0.46);
+      const fg = ctx.createLinearGradient(cx - fr, 0, cx + fr, 0); fg.addColorStop(0, '#5a3a22'); fg.addColorStop(0.45, '#b98a54'); fg.addColorStop(1, '#4a2e1a');
+      ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.beginPath(); ctx.ellipse(cx, fy + ry * 1.4, fr * 1.05, ry * 1.5, 0, 0, 6.2832); ctx.fill();
+      ctx.fillStyle = fg; ctx.beginPath(); ctx.ellipse(cx, fy + ry * 0.6, fr, ry * 1.5, 0, 0, Math.PI); ctx.lineTo(cx - fr, fy); ctx.ellipse(cx, fy, fr, ry * 1.5, 0, Math.PI, 0, true); ctx.closePath(); ctx.fill();
+      ctx.fillStyle = '#d5a56a'; ctx.beginPath(); ctx.ellipse(cx, fy, fr, ry * 1.5, 0, 0, 6.2832); ctx.fill();
+      ctx.strokeStyle = 'rgba(0,0,0,0.35)'; ctx.lineWidth = 2; ctx.beginPath(); ctx.ellipse(cx, fy, fr * 0.7, ry * 1.05, 0, 0, 6.2832); ctx.stroke();
+      ctx.fillStyle = 'rgba(40,20,8,0.7)'; ctx.fillRect(cx - 7, base + ry, 14, fy - base - ry);
+      ctx.restore();
+    }
     // splash pan and wheel head
     ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.beginPath(); ctx.ellipse(cx, base + ry * 0.9, wr * 1.28, ry * 1.55, 0, 0, 6.2832); ctx.fill();
     const pan = ctx.createLinearGradient(cx - wr * 1.3, 0, cx + wr * 1.3, 0); pan.addColorStop(0, '#2a2724'); pan.addColorStop(0.5, '#4a4540'); pan.addColorStop(1, '#25221f');
@@ -166,8 +209,8 @@ export function createLathe(P, env) {
     ctx.strokeStyle = 'rgba(255,255,255,0.3)'; ctx.lineWidth = 1.5; ctx.stroke();
     for (let k = 1; k < 4; k++) { ctx.strokeStyle = 'rgba(0,0,0,0.18)'; ctx.beginPath(); ctx.ellipse(cx, base + 2, wr * (k / 4), ry * (k / 4), 0, 0, 6.2832); ctx.stroke(); }
     for (let k = 0; k < 11; k++) { const a = t * 1.6 + (k * Math.PI * 2) / 11; if (Math.sin(a) > -0.1) { ctx.fillStyle = 'rgba(255,255,255,0.55)'; ctx.fillRect(cx + Math.cos(a) * wr * 0.9 - 2, base + 2 + Math.sin(a) * ry * 0.9 - 1, 4, 3); } }
-    if (guide) { ctx.strokeStyle = 'rgba(255,255,255,0.05)'; ctx.lineWidth = 1; for (let k = -steps; k <= steps; k++) { ctx.beginPath(); ctx.moveTo(cx + k * unit, base - H - 6); ctx.lineTo(cx + k * unit, base); ctx.stroke(); } }
-    drawVessel(ctx, { cx, base, H, unit, radii: radiiArr, bands: P.bands, colors: colorsArr, glazes: P.glazes, clay: P.clay, t: done ? null : t, steps, wet });
+    guideDots(ctx, cx, base, H, unit, steps, guide);
+    drawVessel(ctx, { cx, base, H, unit, radii: radiiArr, bands: P.bands, colors: colorsArr, glazes: P.glazes, clay: P.clay, t: done ? null : t, steps, wet, solid: SC.top === 'solid' });
   };
 
   const draw = (g, R, t) => {
@@ -177,11 +220,12 @@ export function createLathe(P, env) {
     // the reference on its shelf
     const th = R.thumb, tH = th.h * 0.78, tUnit = Math.min((th.w * 0.44) / steps, tH / 11), tb = th.y + th.h * 0.88;
     shelf(ctx, th.x + th.w / 2, tb, th.w * 0.36);
-    drawVessel(ctx, { cx: th.x + th.w / 2, base: tb, H: tH, unit: tUnit, radii: target, bands: P.bands, colors: targetColors, glazes: P.glazes, clay: P.clay, steps });
+    drawVessel(ctx, { cx: th.x + th.w / 2, base: tb, H: tH, unit: tUnit, radii: target, bands: P.bands, colors: targetColors, glazes: P.glazes, clay: P.clay, steps, solid: SC.top === 'solid' });
     // wheel + work vessel
-    const unit = Math.min((W.w * 0.46) / steps, (W.h * 0.7) / (n * 1.1));
-    const base = W.y + W.h * 0.86, cx = W.x + W.w / 2;
-    const H = Math.min(W.h * 0.7, W.w * 1.0, base - W.y - 56 - steps * unit * 0.2);
+    const kq = SC.rig === 'kick' || SC.rig === 'woodlathe' ? 0.8 : 1;
+    const unit = Math.min((W.w * 0.46) / steps, (W.h * 0.7) / (n * 1.1)) * kq;
+    const base = W.y + W.h * (SC.rig === 'kick' ? 0.74 : 0.86), cx = W.x + W.w / 2;
+    const H = Math.min(W.h * 0.7 * kq, W.w * 1.0 * kq, base - W.y - 56 - steps * unit * 0.2);
     geo = { cx, base, unit, H, rowH: H / n };
     if (P.guide) drawVessel(ctx, { cx, base, H, unit, radii: target, outlineOnly: true, accent: pal.accent, t });
     const wet = clamp((wetUntil - t) / 2.5, 0, 1);
@@ -190,13 +234,15 @@ export function createLathe(P, env) {
     // the rib tool where the finger is working
     if (!done && lastPtr && lastPtr.down && t - lastPtr.t < 0.3) {
       const i = rowAt(lastPtr.y), ex = geo.cx + radii[i] * geo.unit, ey = geo.base - (i + 0.5) * geo.rowH;
-      ctx.save(); ctx.translate(ex + 4, ey); ctx.rotate(0.25);
+      if (phase === 'glaze') drawTool(ctx, SC, 'brush', ex, ey, 96, t, { c: P.glazes[sel]?.color });
+      else if (SC.tool === 'gouge' || SC.tool === 'sponge') drawTool(ctx, SC, SC.tool, ex, ey, 110, t);
+      else { ctx.save(); ctx.translate(ex + 4, ey); ctx.rotate(0.25);
       shadowed(ctx, () => { const gr = ctx.createLinearGradient(0, -22, 0, 22); gr.addColorStop(0, '#e2b878'); gr.addColorStop(1, '#8a5b2d'); rrect(ctx, 0, -20, 46, 40, 14); ctx.fillStyle = gr; ctx.fill(); }, { blur: 8, dx: 3, dy: 4, a: 0.5 });
       ctx.strokeStyle = 'rgba(0,0,0,0.35)'; ctx.lineWidth = 1.5; rrect(ctx, 0, -20, 46, 40, 14); ctx.stroke();
       ctx.fillStyle = 'rgba(0,0,0,0.5)'; ctx.beginPath(); ctx.arc(30, 0, 5, 0, 6.2832); ctx.fill();
-      ctx.restore();
+      ctx.restore(); }
     }
-    g.label(ctx, phase === 'shape' ? 'Drag across the clay to set its width' : 'Tap a band to glaze it', cx, W.y + 26, g.px(24), pal.dim, 'center', '500');
+    g.label(ctx, phase === 'shape' ? (WD.shape ?? 'Drag across the clay to set its width') : (WD.glaze ?? 'Tap a band to glaze it'), cx, W.y + 26, g.px(22), pal.ink, 'center', '600');
   };
 
   const titleArt = (g, S, t) => {
@@ -219,10 +265,10 @@ export function createLathe(P, env) {
   };
 
   return {
-    init, items, control, work, draw, attract, titleArt, surface: 'slate', surfaceTint: '#5c5148', result: () => done,
+    init, items, control, work, draw, attract, titleArt, result: () => done,
     score: () => score().score,
     info: () => [`Rows: ${n}`, hasGlaze ? `Bands to glaze: ${P.bands}` : 'Bare clay'],
-    caption: 'Make this vessel',
+    caption: WD.caption ?? 'Make this vessel',
     hint() {
       if (phase === 'shape') { for (let i = n - 1; i >= 0; i--) if (radii[i] !== target[i]) return `Row ${n - i} from the top should be ${target[i] > radii[i] ? 'wider' : 'narrower'}.`; return 'The shape matches: press Glaze.'; }
       for (let k = 0; k < P.bands; k++) if (colors[k] !== targetColors[k]) return `Band ${k + 1} from the bottom needs ${P.glazes[targetColors[k]].name}.`;

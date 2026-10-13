@@ -1,6 +1,7 @@
 // fold: paper folding as a sequence of fold operations on a square sheet, matched to a target silhouette.
 import { clipHalf, inConvex, polyArea, normIoU, starsFor, hash } from './geom.js';
 import { tint, litEdge, rrect, rgba, mix, shadowed, shelf, ease } from './fx.js';
+import { wallLift } from './scenes.js';
 
 const S2 = Math.SQRT1_2;
 // Each op: the points with a*x+b*y+c < 0 move (they are reflected over the line a*x+b*y+c = 0); the others stay.
@@ -47,6 +48,7 @@ const sameRaster = (a, b) => a.every((v, i) => v === b[i]);
 
 export function createFold(P, env) {
   const { rng, audio, fx } = env;
+  const SC = P.scene ?? {}, PM = SC.pitch ?? 1, WV = SC.wave ?? 'triangle';
   let flight = null, creaseAt = -9, creaseOp = null, clock = 0;
   let layers, history, targetLayers, targetSeq, targetMask, done, rects = null, geo = null, acc = 0, anim = 0;
   const fresh = () => [{ pts: unit.map((p) => p.slice()), back: false }];
@@ -82,7 +84,7 @@ export function createFold(P, env) {
     flight = { before: layers, id, t0: clock, dur: 0.42 };
     creaseOp = id; creaseAt = clock;
     history.push({ layers, id }); layers = next; anim = 0.35;
-    audio?.tone({ freq: 300, to: 220, dur: 0.1, type: 'triangle', vol: 0.2 });
+    audio?.tone({ freq: 300 * PM, to: 220 * PM, dur: 0.1, type: WV, vol: 0.2 });
   };
 
   const items = () => {
@@ -110,6 +112,15 @@ export function createFold(P, env) {
     const g = ctx.createLinearGradient(Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys));
     g.addColorStop(0, tint(col, 0.1)); g.addColorStop(0.55, col); g.addColorStop(1, tint(col, -0.12));
     ctx.fillStyle = g; ctx.fill();
+    if (SC.sheet === 'cloth') { // cotton: a woven grain, and indigo creeping in from the folded edges
+      ctx.save(); poly(ctx, L.pts, ox, oy, s); ctx.clip();
+      ctx.strokeStyle = L.back ? 'rgba(10,30,90,0.18)' : 'rgba(40,50,90,0.10)'; ctx.lineWidth = 1; ctx.beginPath();
+      for (let q = 0; q < s; q += 4) { ctx.moveTo(ox + q, oy); ctx.lineTo(ox + q, oy + s); ctx.moveTo(ox, oy + q); ctx.lineTo(ox + s, oy + q); }
+      ctx.stroke();
+      poly(ctx, L.pts, ox, oy, s); ctx.strokeStyle = 'rgba(18,44,120,0.5)'; ctx.lineWidth = s * 0.16; ctx.lineJoin = 'round'; ctx.stroke();
+      poly(ctx, L.pts, ox, oy, s); ctx.strokeStyle = 'rgba(10,28,90,0.45)'; ctx.lineWidth = s * 0.05; ctx.stroke();
+      ctx.restore();
+    }
     ctx.save(); poly(ctx, L.pts, ox, oy, s); ctx.clip();
     ctx.strokeStyle = 'rgba(255,255,255,0.07)'; ctx.lineWidth = 1; ctx.beginPath();
     for (let k = 0; k < 14; k++) { const yy = oy + hash(k, 1, 9) * s, xx = ox + hash(k, 2, 9) * s; ctx.moveTo(xx, yy); ctx.lineTo(xx + s * 0.08 * (hash(k, 3, 9) + 0.3), yy + 1.5); }
@@ -138,7 +149,7 @@ export function createFold(P, env) {
   const draw = (g, R, t) => {
     const { ctx, pal } = g;
     rects = R; clock = t;
-    const W = R.work, s = Math.min(W.w, W.h) * 0.74, ox = W.x + (W.w - s) / 2, oy = W.y + (W.h - s) / 2 + 14;
+    const W0 = R.work, lift = wallLift(W0) * 0.7, W = { x: W0.x, y: W0.y + lift, w: W0.w, h: W0.h - lift }, s = Math.min(W.w, W.h) * 0.72, ox = W.x + (W.w - s) / 2, oy = W.y + (W.h - s) / 2 + 14;
     geo = { ox, oy, s };
     // original sheet outline and candidate crease lines
     ctx.setLineDash([5, 6]); ctx.strokeStyle = 'rgba(255,255,255,0.2)'; ctx.lineWidth = 1.5; ctx.strokeRect(ox, oy, s, s);
@@ -169,7 +180,7 @@ export function createFold(P, env) {
     const th = R.thumb, ts = Math.min(th.w, th.h) * 0.72, tx0 = th.x + (th.w - ts) / 2, ty0 = th.y + (th.h - ts) / 2 - th.h * 0.04;
     shelf(ctx, th.x + th.w / 2, ty0 + ts + 6, th.w * 0.34);
     paint(ctx, targetLayers, tx0, ty0, ts, false);
-    g.label(ctx, `Folds made: ${history.length} of about ${targetSeq.length}`, W.x + W.w / 2, W.y + 26, g.px(24), pal.dim, 'center', '500');
+    g.label(ctx, `Folds made: ${history.length} of about ${targetSeq.length}`, W0.x + W0.w / 2, W0.y + 26, g.px(22), pal.ink, 'center', '600');
   };
   const titleArt = (g, S, t) => {
     const { ctx } = g;
@@ -192,10 +203,10 @@ export function createFold(P, env) {
   };
 
   return {
-    init, items, control, work: () => {}, draw, attract, titleArt, surface: 'mat', surfaceTint: '#3a5a4a', result: () => done,
+    init, items, control, work: () => {}, draw, attract, titleArt, result: () => done,
     score: () => score().score,
     info: () => [`Folds needed: about ${targetSeq.length}`, `Allowed: ${maxFolds()}`],
-    caption: 'Fold the paper into this shape',
+    caption: SC.words?.caption ?? 'Fold the paper into this shape',
     hint() {
       if (history.length < targetSeq.length && history.every((h, i) => h.id === targetSeq[i])) return `Next: ${OPS[targetSeq[history.length]].name}.`;
       if (history.length >= targetSeq.length && score().score >= 99) return 'The shape matches: press Check.';

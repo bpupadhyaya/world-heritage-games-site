@@ -13,7 +13,7 @@
     "row": 0,
     "timbre": "string",
     "color": "#8b5a2b",
-    "dur": 1.0
+    "dur": 1
    },
    {
     "name": "Ab3",
@@ -22,7 +22,7 @@
     "row": 0,
     "timbre": "string",
     "color": "#a56a33",
-    "dur": 1.0
+    "dur": 1
    },
    {
     "name": "Bb3",
@@ -31,7 +31,7 @@
     "row": 0,
     "timbre": "string",
     "color": "#bd7f42",
-    "dur": 1.0
+    "dur": 1
    },
    {
     "name": "C4",
@@ -40,7 +40,7 @@
     "row": 1,
     "timbre": "string",
     "color": "#c9a04a",
-    "dur": 1.0
+    "dur": 1
    },
    {
     "name": "Eb4",
@@ -49,7 +49,7 @@
     "row": 1,
     "timbre": "string",
     "color": "#dbb663",
-    "dur": 1.0
+    "dur": 1
    },
    {
     "name": "F4",
@@ -58,7 +58,7 @@
     "row": 1,
     "timbre": "string",
     "color": "#ebcb82",
-    "dur": 1.0
+    "dur": 1
    },
    {
     "name": "Ab4",
@@ -67,7 +67,7 @@
     "row": 1,
     "timbre": "string",
     "color": "#f5dca3",
-    "dur": 1.0
+    "dur": 1
    }
   ],
   "duration": 60,
@@ -82,42 +82,42 @@
     "meter": 4,
     "steps": [
      {
-      "beat": 0.0,
+      "beat": 0,
       "lane": "f3",
       "len": 1.6
      },
      {
-      "beat": 2.0,
+      "beat": 2,
       "lane": "ab3",
       "len": 1.6
      },
      {
-      "beat": 4.0,
+      "beat": 4,
       "lane": "bb3",
       "len": 1.6
      },
      {
-      "beat": 6.0,
+      "beat": 6,
       "lane": "c4",
       "len": 1.6
      },
      {
-      "beat": 8.0,
+      "beat": 8,
       "lane": "eb4",
       "len": 1.6
      },
      {
-      "beat": 10.0,
+      "beat": 10,
       "lane": "c4",
       "len": 1.6
      },
      {
-      "beat": 12.0,
+      "beat": 12,
       "lane": "bb3",
       "len": 1.6
      },
      {
-      "beat": 14.0,
+      "beat": 14,
       "lane": "f3",
       "len": 1.6
      }
@@ -129,7 +129,7 @@
     "meter": 4,
     "steps": [
      {
-      "beat": 0.0,
+      "beat": 0,
       "lane": "c4"
      },
      {
@@ -137,11 +137,11 @@
       "lane": "c4"
      },
      {
-      "beat": 1.0,
+      "beat": 1,
       "lane": "eb4"
      },
      {
-      "beat": 2.0,
+      "beat": 2,
       "lane": "c4"
      },
      {
@@ -149,11 +149,11 @@
       "lane": "c4"
      },
      {
-      "beat": 3.0,
+      "beat": 3,
       "lane": "f4"
      },
      {
-      "beat": 4.0,
+      "beat": 4,
       "lane": "c4"
      },
      {
@@ -161,11 +161,11 @@
       "lane": "c4"
      },
      {
-      "beat": 5.0,
+      "beat": 5,
       "lane": "ab3"
      },
      {
-      "beat": 6.0,
+      "beat": 6,
       "lane": "bb3"
      },
      {
@@ -173,7 +173,7 @@
       "lane": "bb3"
      },
      {
-      "beat": 7.0,
+      "beat": 7,
       "lane": "f3"
      }
     ]
@@ -184,38 +184,116 @@
     "meter": 4,
     "steps": [
      {
-      "beat": 0.0,
+      "beat": 0,
       "lane": "f3"
      },
      {
-      "beat": 1.0,
+      "beat": 1,
       "lane": "c4"
      },
      {
-      "beat": 2.0,
+      "beat": 2,
       "lane": "eb4"
      },
      {
-      "beat": 3.0,
+      "beat": 3,
       "lane": "c4"
      },
      {
-      "beat": 4.0,
+      "beat": 4,
       "lane": "bb3"
      },
      {
-      "beat": 5.0,
+      "beat": 5,
       "lane": "c4"
      },
      {
-      "beat": 6.0,
+      "beat": 6,
       "lane": "ab4"
      },
      {
-      "beat": 7.0,
+      "beat": 7,
       "lane": "f4"
      }
     ]
+   },
+   {
+    "id": "steppe-melody",
+    "name": "Steppe melody figure",
+    "bpm": 60,
+    "meter": 4,
+    "length": 24,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Mongolian steppe music",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "F3",
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": "Ab3"
+     },
+     {
+      "beat": 3,
+      "lane": "Bb3"
+     },
+     {
+      "beat": 4,
+      "lane": "C4",
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": "Bb3",
+      "len": 2
+     },
+     {
+      "beat": 8,
+      "lane": "Ab3"
+     },
+     {
+      "beat": 9,
+      "lane": "Bb3"
+     },
+     {
+      "beat": 10,
+      "lane": "C4"
+     },
+     {
+      "beat": 11,
+      "lane": "Eb4"
+     },
+     {
+      "beat": 12,
+      "lane": "F4",
+      "len": 3
+     },
+     {
+      "beat": 16,
+      "lane": "Eb4"
+     },
+     {
+      "beat": 17,
+      "lane": "C4"
+     },
+     {
+      "beat": 18,
+      "lane": "Bb3"
+     },
+     {
+      "beat": 19,
+      "lane": "Ab3"
+     },
+     {
+      "beat": 20,
+      "lane": "F3",
+      "len": 4
+     }
+    ],
+    "note": "A teaching figure in the five-note scale of Mongolian steppe music, with long drawn notes that rise and fall like the open land. On the morin khuur the bow is drawn slowly and the notes swell and fade."
    }
   ]
  }

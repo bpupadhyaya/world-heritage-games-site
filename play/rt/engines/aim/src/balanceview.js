@@ -2,6 +2,7 @@
 // Power comes from pulling the mallet back (drag) or a meter. A clean strike falls inside the piece's window.
 // Rendering: a room with a lit floor, lacquered pieces shaded like turned wood, a painted head, a mallet that swings,
 // a struck piece that flies and bounces, and dust and a little shake on every strike.
+import { isTatami, drawRoom, drawBlock, drawMallet, drawDaruma } from './tatami.js';
 import { drawBackdrop, createFx, palFor, inferSetting, mix, dark, light, alpha, vgrad, hgrad, poly, rrect, clamp } from './scenery.js';
 
 const TAU = Math.PI * 2;
@@ -12,6 +13,7 @@ export function createBalance(P, env, host) {
   const setting = inferSetting(P, env.text?.title);
   const pal = palFor(setting, {});
   const fx = createFx(env);
+  const TA = isTatami(P, env.text?.title);
   const tone = (o) => env.audio?.tone?.(o);
   let blocks = [], flying = [], wobble = 0, head = null, layout = null, aim = null, floats = [], sel = -1, ai = null, over = false, clock = 0;
   let swing = null, planCache = null;
@@ -145,6 +147,8 @@ export function createBalance(P, env, host) {
     ctx.translate(off.x, off.y);
     // room, floor and a lamp pool of light on the mat
     const hy = area.y + (baseY - area.y) * 0.5;
+    if (TA) drawRoom(ctx, { A: area, hy, bottom: area.y + area.h, cx, baseY, t: clock });
+    else {
     const P2 = { ...pal };
     drawBackdrop(ctx, setting === 'dojo' || setting === 'hall' ? setting : 'dojo', { x: area.x - 10, y: area.y, w: area.w + 20, h: area.h }, hy, P2, clock, 0);
     const fl = LK.lane ?? pal.ground;
@@ -161,12 +165,14 @@ export function createBalance(P, env, host) {
     ctx.fillStyle = hgrad(ctx, cx - bw * 0.8, cx + bw * 0.8, [[0, light(LK.edge, 0.25)], [0.5, LK.edge], [1, dark(LK.edge, 0.4)]]);
     rrect(ctx, cx - bw * 0.75, baseY, bw * 1.5, 14, 5); ctx.fill();
     ctx.fillStyle = 'rgba(255,255,255,0.25)'; ctx.fillRect(cx - bw * 0.7, baseY + 1, bw * 1.4, 2);
+    }
 
     const sway = Math.sin(clock * 9) * Math.min(1, wobble) * wobble * bw * 0.08;
     const blockY = (v) => baseY - (v + 1) * bh;
     // pieces: turned wood, lit from the upper left, with a lacquer band and a thin glint
     blocks.forEach((b, i) => {
       const y = blockY(b.vis), x = cx - bw / 2 + sway * (1 + i * 0.3);
+      if (TA) { drawBlock(ctx, x, y, bw, bh, b.c, sel === i || (aim && aim.level === i)); return; }
       ctx.fillStyle = 'rgba(0,0,0,0.25)'; rrect(ctx, x + 3, y + 5, bw, bh - 2, bh * 0.3); ctx.fill();
       ctx.fillStyle = hgrad(ctx, x, x + bw, [[0, dark(b.c, 0.25)], [0.18, light(b.c, 0.3)], [0.5, b.c], [1, dark(b.c, 0.5)]]);
       rrect(ctx, x, y + 1, bw, bh - 2, bh * 0.28); ctx.fill();
@@ -186,6 +192,7 @@ export function createBalance(P, env, host) {
       ctx.fillStyle = 'rgba(0,0,0,0.25)'; ctx.beginPath(); ctx.ellipse(0, hr * 0.95, hr * 0.9, hr * 0.18, 0, 0, TAU); ctx.fill();
       const gr = ctx.createRadialGradient(-hr * 0.35, -hr * 0.4, hr * 0.1, 0, 0, hr * 1.15);
       gr.addColorStop(0, light(LK.head, 0.35)); gr.addColorStop(0.6, LK.head); gr.addColorStop(1, dark(LK.head, 0.45));
+      if (TA) drawDaruma(ctx, hr, LK.head, clock); else {
       ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(0, 0, hr, 0, TAU); ctx.fill(); ctx.strokeStyle = 'rgba(0,0,0,0.55)'; ctx.lineWidth = 2; ctx.stroke();
       ctx.fillStyle = '#f6efde'; ctx.beginPath(); ctx.ellipse(0, hr * 0.05, hr * 0.7, hr * 0.5, 0, 0, TAU); ctx.fill();
       ctx.strokeStyle = '#1a1a1a'; ctx.lineWidth = Math.max(2, hr * 0.1); ctx.lineCap = 'round';
@@ -193,6 +200,7 @@ export function createBalance(P, env, host) {
       ctx.fillStyle = '#1a1a1a'; ctx.beginPath(); ctx.arc(-hr * 0.28, -hr * 0.1, hr * 0.1, 0, TAU); ctx.arc(hr * 0.28, -hr * 0.1, hr * 0.1, 0, TAU); ctx.fill();
       ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(-hr * 0.31, -hr * 0.13, hr * 0.035, 0, TAU); ctx.arc(hr * 0.25, -hr * 0.13, hr * 0.035, 0, TAU); ctx.fill();
       ctx.strokeStyle = '#1a1a1a'; ctx.lineWidth = Math.max(1.5, hr * 0.07); ctx.beginPath(); ctx.moveTo(-hr * 0.32, hr * 0.2); ctx.quadraticCurveTo(0, hr * 0.38, hr * 0.32, hr * 0.2); ctx.stroke();
+      }
       ctx.restore();
       ctx.lineCap = 'butt';
     }
@@ -214,12 +222,13 @@ export function createBalance(P, env, host) {
     if (swing) { const k = clamp(swing.t / 0.12, 0, 1); pullV = swing.power * (1 - k) + (-0.25) * k * (swing.t < 0.12 ? 1 : 1 - clamp((swing.t - 0.12) / 0.3, 0, 1)); swingAng = -0.5 * (1 - k); }
     const mx = cx - bw / 2 - 26 - pullV * 90;
     ctx.save(); ctx.translate(mx, my); ctx.rotate(swingAng - pullAim * 0.15);
+    if (TA) { drawMallet(ctx, bh, 0, LK.mallet); ctx.restore(); } else {
     ctx.fillStyle = hgrad(ctx, -140, -40, [[0, light(LK.mallet, 0.2)], [1, dark(LK.mallet, 0.3)]]);
     rrect(ctx, -135, -5, 100, 10, 4); ctx.fill();
     ctx.fillStyle = vgrad(ctx, -bh * 0.3, bh * 0.3, [[0, light(LK.mallet, 0.35)], [0.5, LK.mallet], [1, dark(LK.mallet, 0.45)]]);
     rrect(ctx, -46, -bh * 0.3, 52, bh * 0.6, 8); ctx.fill(); ctx.strokeStyle = 'rgba(0,0,0,0.5)'; ctx.lineWidth = 2; ctx.stroke();
     ctx.fillStyle = 'rgba(255,255,255,0.3)'; ctx.fillRect(-40, -bh * 0.24, 40, 4);
-    ctx.restore();
+    ctx.restore(); }
     // power gauge with the clean window of the chosen piece
     const lv = aim && aim.level >= 0 ? aim.level : sel;
     const gx = area.x + 16, gw = Math.min(190, area.w * 0.42), gy = area.y + 26;
@@ -231,7 +240,7 @@ export function createBalance(P, env, host) {
       g.label(ctx, 'Strike strength', gx, gy - 12, g.px(16), LK.hudText, 'left', '600');
     } else if (!over) g.label(ctx, P.controls === 'meter' ? 'Tap a piece, then tap to strike' : 'Press a piece, pull back, release', area.x + area.w / 2, area.y + 18, g.px(20), LK.hudText);
     // wobble gauge
-    const wx = area.x + area.w - 54;
+    const wx = area.x + area.w - 66;
     rrect(ctx, wx - 26, area.y + 12, 58, 130, 10); ctx.fillStyle = 'rgba(12,8,6,0.55)'; ctx.fill();
     rrect(ctx, wx, area.y + 20, 14, 90, 7); ctx.fillStyle = 'rgba(0,0,0,0.45)'; ctx.fill();
     const wh = 90 * Math.min(1, wobble);

@@ -1,30 +1,30 @@
 {
- "title": "Buzuq Long-Neck Lute",
- "native": "بزق / buzuq",
- "alt": [
-  "Buzuk",
-  "Bouzouk"
- ],
- "summary": "The buzuq is a long-necked lute of the Levant, played with a plectrum on paired metal strings. Its movable frets give the quarter-tone steps of Arab modes, and fast tremolo holds the long notes.",
- "howToPlay": [
-  "Ten lanes in order of pitch: three on the low string course, six on the higher course, and a tremolo lane for quick repeats.",
-  "Notes arrive at the line; strike the matching lane as each one lands.",
-  "Begin with the mode run up and down, then try the tremolo line and the lively dance-song line.",
-  "A tilde marks a quarter-tone note, between a flat and a natural."
- ],
- "rules": [
-  "The strings are tuned in fourths from a low G, and the notes follow a Rast-like mode with a neutral third and seventh.",
-  "The neutral third is 350 cents and the neutral seventh 1050 cents above the root.",
-  "The tremolo lane repeats two quick strokes; each is judged separately.",
-  "A stroke on the pulse is perfect, a near one is good, and extra strokes cost points."
- ],
- "heritageNote": "The buzuq has long been played in Lebanon, Syria and Palestine, and many players know it from folk songs and the music of the twentieth-century Lebanese stage. Its frets are tied on and are often moved to suit the mode being played.",
- "countries": [
-  "Lebanon",
-  "Syria",
-  "Palestine"
- ],
- "credits": [
-  "Tradition: buzuq music of the Levant; lines written for this game"
- ]
+  "title": "Buzuq Long-Neck Lute",
+  "native": "بزق / buzuq",
+  "alt": [
+    "Buzuk",
+    "Bouzouk"
+  ],
+  "summary": "The buzuq is a long-necked lute of the Levant, played with a plectrum on paired metal strings. Its movable frets give the quarter-tone steps of Arab modes, and fast tremolo holds the long notes.",
+  "howToPlay": [
+    "Ten lanes in order of pitch: three on the low string course, six on the higher course, and a tremolo lane for quick repeats.",
+    "Notes arrive at the line; strike the matching lane as each one lands.",
+    "Begin with the mode run up and down, then try the tremolo line and the lively dance-song line.",
+    "A tilde marks a quarter-tone note, between a flat and a natural."
+  ],
+  "rules": [
+    "The strings are tuned in fourths from a low G, and the notes follow a Rast-like mode with a neutral third and seventh.",
+    "The neutral third is 350 cents and the neutral seventh 1050 cents above the root.",
+    "The tremolo lane repeats two quick strokes; each is judged separately.",
+    "A stroke on the pulse is perfect, a near one is good, and extra strokes cost points."
+  ],
+  "heritageNote": "The buzuq has long been played in Lebanon, Syria and Palestine, and many players know it from folk songs and the music of the twentieth-century Lebanese stage. Its frets are tied on and are often moved to suit the mode being played.",
+  "countries": [
+    "Lebanon",
+    "Syria",
+    "Palestine"
+  ],
+  "credits": [
+    "Tradition: buzuq music of the Levant; lines written for this game"
+  ]
 }
