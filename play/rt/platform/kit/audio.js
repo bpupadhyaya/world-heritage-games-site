@@ -71,6 +71,7 @@ export function createAudio() {
 
   const ensure = () => {
     if (!AudioCtx) return null;
+    if (globalThis.document?.hidden) return ctx;   // never start or resume output while the page is hidden
     if (!ctx) {
       try {
         ctx = new AudioCtx({ latencyHint: 'interactive' });
@@ -98,8 +99,12 @@ export function createAudio() {
   const doc = globalThis.document;
   if (AudioCtx && doc?.addEventListener) {
     for (const ev of ['touchend', 'pointerup', 'click', 'mousedown', 'keydown']) doc.addEventListener(ev, onGesture, { capture: true, passive: true });
-    doc.addEventListener('visibilitychange', () => { if (!doc.hidden && ctx && ctx.state !== 'running') ensure(); });
-    globalThis.addEventListener?.('pageshow', () => { if (ctx && ctx.state !== 'running') ensure(); });
+    // Go silent whenever the page is hidden (app backgrounded, screen locked, tab switched) and come back on return.
+    const hush = () => { try { ctx?.suspend?.(); } catch { /* optional */ } };
+    doc.addEventListener('visibilitychange', () => { if (doc.hidden) hush(); else if (ctx && ctx.state !== 'running') ensure(); });
+    globalThis.addEventListener?.('pagehide', hush);
+    globalThis.addEventListener?.('blur', () => { if (doc.hidden) hush(); });
+    globalThis.addEventListener?.('pageshow', () => { if (ctx && ctx.state !== 'running' && !doc.hidden) ensure(); });
   }
 
   const audio = {

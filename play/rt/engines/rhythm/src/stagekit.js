@@ -90,7 +90,7 @@ let heroMode = false;
 export const setHero = (v) => { heroMode = !!v; };
 export function pill(ctx, s, cx, cy, maxW, size, col, f = 0, o = {}) {
   if (heroMode) return { w: 0, h: 0 };
-  const fs = fitSize(ctx, s, maxW - 10, size, '800', size * 0.74);
+  const fs = fitSize(ctx, s, maxW - 10, size, '800', size * 0.96);   // never below ~11 css px (size is >= 12 css px)
   ctx.font = `800 ${Math.round(fs)}px system-ui, -apple-system, "Segoe UI", sans-serif`;
   const tw = ctx.measureText(String(s)).width, w = Math.max(o.minW ?? 0, tw + 14), h = fs + 9;
   ctx.save();

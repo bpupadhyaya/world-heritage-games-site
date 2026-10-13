@@ -87,6 +87,8 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     };
   };
   ui.insets = () => frameInsets;
+  // header band height: 96 units normally; grows when the 12 css px text floor inflates the lines (tiny live previews)
+  const hdrH = () => Math.max(px(96), px(32) * 1.12 + px(24) * 1.2 + px(26));
   // QA hook (tools/whg fluid): hit rects in virtual units + live meta, read by the layout audit. Harmless in production.
   try { globalThis.__whgDebug = { meta, hits: () => hits.map((h) => ({ id: h.id, x: h.x, y: h.y, w: h.w, h: h.h })) }; } catch { /* no globalThis */ }
   ui.begin = () => { hits = []; readInsets(); };
@@ -383,17 +385,35 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     }
     const fg = primary ? onColor(body) : pal.ink;
     const fs = size ?? Math.min(px(26), h * 0.44);
+    const minFs = 11.5 / k();   // never draw a label below 11.5 css px: drop the icon, then wrap onto two lines
+    let ic = icon;
     setFont(ctx, fs, '700');
-    const tw = ctx.measureText(String(label)).width, iw = icon ? fs * 1.15 : 0, gap = icon ? fs * 0.4 : 0;
-    const maxTw = w - 24 - iw - gap;
-    const fs2 = tw > maxTw && maxTw > 10 ? fs * (maxTw / tw) : fs;
-    setFont(ctx, fs2, '700');
-    const tw2 = ctx.measureText(String(label)).width;
-    const total = tw2 + iw + gap, sx0 = cx - total / 2;
-    if (icon) ui.icon(ctx, icon, sx0 + iw / 2, cy, fs2 * 0.95, fg);
-    ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
-    if (!primary) { ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.fillText(String(label), sx0 + iw + gap, cy + 1.5); }
-    ctx.fillStyle = fg; ctx.fillText(String(label), sx0 + iw + gap, cy + 1);
+    const tw = ctx.measureText(String(label)).width;
+    let iw = ic ? fs * 1.15 : 0, gap = ic ? fs * 0.4 : 0;
+    let maxTw = w - 24 - iw - gap;
+    let fs2 = tw > maxTw && maxTw > 10 ? fs * (maxTw / tw) : fs;
+    if (fs2 < minFs && ic) { ic = null; iw = 0; gap = 0; maxTw = w - 24; fs2 = tw > maxTw && maxTw > 10 ? fs * (maxTw / tw) : fs; }
+    const words = String(label).split(' ');
+    if (fs2 < minFs && words.length > 1 && h >= css(40)) {
+      // two lines, split near the middle
+      let best = 1, bd = 1e9; for (let i = 1; i < words.length; i++) { const d = Math.abs(words.slice(0, i).join(' ').length - words.slice(i).join(' ').length); if (d < bd) { bd = d; best = i; } }
+      const l1 = words.slice(0, best).join(' '), l2 = words.slice(best).join(' ');
+      let f = Math.min(fs, h * 0.3);
+      setFont(ctx, f, '700');
+      const wide = Math.max(ctx.measureText(l1).width, ctx.measureText(l2).width);
+      if (wide > w - 16) f *= (w - 16) / wide;
+      f = Math.max(f, Math.min(minFs, f * 1.4));
+      setFont(ctx, f, '700'); ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      for (const [i, l] of [l1, l2].entries()) { const yy = cy + (i - 0.5) * f * 1.15; if (!primary) { ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.fillText(l, cx, yy + 1.5); } ctx.fillStyle = fg; ctx.fillText(l, cx, yy + 1); }
+    } else {
+      setFont(ctx, fs2, '700');
+      const tw2 = ctx.measureText(String(label)).width;
+      const total = tw2 + iw + gap, sx0 = cx - total / 2;
+      if (ic) ui.icon(ctx, ic, sx0 + iw / 2, cy, fs2 * 0.95, fg);
+      ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+      if (!primary) { ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.fillText(String(label), sx0 + iw + gap, cy + 1.5); }
+      ctx.fillStyle = fg; ctx.fillText(String(label), sx0 + iw + gap, cy + 1);
+    }
     ctx.restore();
   };
   // min button height in virtual units (>= 44 css px)
@@ -404,15 +424,15 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
   ui.layout = (W, H, { footer = true, header = true } = {}) => {
     const ins = frameInsets;
     const bh = ui.buttonH(54);
-    const top = ins.top + (header ? px(96) : 8);
+    const top = ins.top + (header ? hdrH() : 8);
     const footH = footer ? bh + 28 + ins.bottom : ins.bottom + 8;
-    return { headerBottom: top, footerTop: H - footH, bh, area: { x: 12, y: top, w: W - 24, h: Math.max(40, H - top - footH) } };
+    return { headerBottom: top, footerTop: H - footH, bh, area: { x: 12 + ins.left, y: top, w: W - 24 - ins.left - ins.right, h: Math.max(40, H - top - footH) } };
   };
 
   // header/HUD band: title (display face), sub line, score pill with count-up, optional combo and progress bar
   ui.header = (ctx, W, { title = '', sub = '', subAccent = false, score = null, max = null, frac = null, combo = 0, scoreKey = 'score', chips = null } = {}) => {
     const ins = frameInsets;
-    const top = ins.top, H0 = px(96);
+    const top = ins.top, H0 = hdrH();
     ctx.save();
     ctx.fillStyle = vgrad(ctx, 0, top + H0, [[0, 'rgba(0,0,0,0.55)'], [1, 'rgba(0,0,0,0.12)']]);
     ctx.fillRect(0, 0, W, top + H0);
@@ -459,10 +479,10 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     }
     const maxW = Math.max(60, right - left - pillW - 12);
     const tsz = ui.fit(ctx, title, maxW, px(32), '800', true);
-    ui.text(ctx, title, left, top + px(28), tsz, { align: 'left', display: true, color: pal.ink, shadow: true });
+    ui.text(ctx, title, left, top + H0 * 0.29, tsz, { align: 'left', display: true, color: pal.ink, shadow: true });
     if (sub) {
       const ssz = ui.fit(ctx, sub, maxW, px(24), '600');
-      ui.text(ctx, sub, left, top + px(60), ssz, { align: 'left', color: subAccent ? pal.accent : pal.dim, weight: '600' });
+      ui.text(ctx, sub, left, top + H0 * 0.625, ssz, { align: 'left', color: subAccent ? pal.accent : pal.dim, weight: '600' });
     }
     if (frac !== null && frac !== undefined) {
       const bw = W - 32 - ins.left - ins.right, bx = 16 + ins.left, by = top + H0 - px(14), bh = Math.max(6, px(8));
@@ -568,21 +588,21 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     const land = W > H * 1.1;
     // grid: [{id,label,icon,off}] after the given rows, 2 columns portrait / 3 landscape; an odd last item spans the row
     const rows = rows0.slice();
-    if (grid?.length) { const cols = land ? 3 : 2; for (let i = 0; i < grid.length; i += cols) rows.push(grid.slice(i, i + cols)); }
+    if (grid?.length) { const cols = land ? (H * k() < 440 && grid.length > 4 ? 4 : 3) : 2; for (let i = 0; i < grid.length; i += cols) rows.push(grid.slice(i, i + cols)); }
     let bh = ui.buttonH(land ? 54 : 62);
     const gap = 12;
-    const colX = land ? W * 0.5 + 10 : 24, colW = land ? W * 0.5 - 40 - ins.right : W - 48;
+    const colX = land ? W * 0.5 + 10 : 24 + ins.left, colW = land ? W * 0.5 - 40 - ins.right : W - 48 - ins.left - ins.right;
     const centerX = colX + colW / 2;
     const tsz = px(land ? 50 : 62);
     // measure the title exactly as ui.title draws it (same wrap, same shrink loop) so the lines below never collide with it
     let tz = tsz, tl = ui.wrap(ctx, title, colW, tz, { weight: '800', display: true });
     while (tl.length > 2 && tz > tsz * 0.6) { tz *= 0.92; tl = ui.wrap(ctx, title, colW, tz, { weight: '800', display: true }); }
     const titleH = Math.min(2, tl.length) * tz * 1.08 + px(6);
-    const nativeH = native ? px(42) : 0, ctyH = countries.length ? px(46) : 0;
+    let nativeH = native ? px(42) : 0, ctyH = countries.length ? px(46) : 0, dropNative = false, dropCty = false;
     const sumAll = summary ? ui.wrap(ctx, summary, colW, px(27)) : [];
     let sumLines = sumAll.slice(0, land ? 6 : 4);
     const bestH = best ? px(52) : 0;
-    const bottomPad = ins.bottom + 22;
+    const bottomPad = ins.bottom + 30;
     const measure = () => titleH + nativeH + ctyH + (sumLines.length ? px(6) + px(20) : 0) + sumLines.length * px(37) + bestH;
     const blockOf = () => rows.length * bh + (rows.length - 1) * gap;
     {   // keep every button on screen: shrink buttons to 44 css px, then drop summary lines (portrait keeps room for a small hero)
@@ -591,6 +611,9 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
       while (measure() + 20 + blockOf() > avail && bh > css(44)) bh = Math.max(css(44), bh - 4);
       while (measure() + 20 + blockOf() > avail && sumLines.length) sumLines = sumLines.slice(0, sumLines.length - 1);
       if (sumLines.length === 1 && sumAll.length > 1) sumLines = [];   // one orphan line reads as a cut sentence: show none
+      // still too tall (short landscape phones): drop the country line, then the native name, so the buttons stay clear of the home indicator
+      if (measure() + 20 + blockOf() > avail && ctyH) { ctyH = 0; dropCty = true; }
+      if (measure() + 20 + blockOf() > avail && nativeH) { nativeH = 0; dropNative = true; }
     }
     const blockH = blockOf(), sumH = sumLines.length * px(37), textH = measure();
     let heroR = 0, heroCx = W / 2, heroCy = 0, y;
@@ -612,8 +635,15 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     }
     // title block
     ui.title(ctx, title, centerX, y, tsz, { maxW: colW, lines: 2 }); y += titleH;
-    if (native) { ui.text(ctx, native, centerX, y + px(18), ui.fit(ctx, native, colW, px(32), '600', true), { display: true, italic: true, weight: '600', color: pal.ink, shadow: true }); y += nativeH; }
-    if (countries.length) { ui.text(ctx, countries.slice(0, 3).join('  ·  ').toUpperCase(), centerX, y + px(16), px(23), { color: pal.accent, weight: '700', spacing: 3 }); y += ctyH; }
+    if (native && !dropNative) { ui.text(ctx, native, centerX, y + px(18), ui.fit(ctx, native, colW, px(32), '600', true), { display: true, italic: true, weight: '600', color: pal.ink, shadow: true }); y += nativeH; }
+    if (countries.length && !dropCty) {
+      const cs = countries.slice(0, 3).join('  ·  ').toUpperCase();
+      let csz = px(23);
+      ctx.save(); setFont(ctx, csz, '700'); try { ctx.letterSpacing = '3px'; } catch { /* older canvas */ }
+      const cw = ctx.measureText(cs).width; ctx.restore();
+      if (cw > colW) csz = Math.max(csz * colW / cw, 10 / k());   // never wider than the column (long country lists)
+      ui.text(ctx, cs, centerX, y + px(16), csz, { color: pal.accent, weight: '700', spacing: 3 }); y += ctyH;
+    }
     if (sumLines.length) {
       y += px(6);
       const ow = Math.min(colW * 0.5, 180);
@@ -666,8 +696,8 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
     let hgt = 0;
     for (const sec of sections) {
       if (!sec) continue;
-      if (sec.h) { items.push({ k: 'h', t: sec.h, y: hgt }); hgt += px(46); }
-      (sec.steps ?? []).forEach((s, i) => { const ls = ui.wrap(ctx, s, tw - px(52), size); items.push({ k: 'step', n: i + 1, ls, y: hgt }); hgt += Math.max(ls.length * lh, px(40)) + px(10); });
+      if (sec.h) { items.push({ k: 'h', t: sec.h, y: hgt }); hgt += Math.max(px(46), size * 1.75); }
+      (sec.steps ?? []).forEach((s, i) => { const stepOff = Math.max(px(52), 2 * px(18) + px(14)); const ls = ui.wrap(ctx, s, tw - stepOff, size); items.push({ k: 'step', n: i + 1, ls, y: hgt }); hgt += Math.max(ls.length * lh, px(40)) + px(10); });
       (sec.bullets ?? []).forEach((s) => { const ls = ui.wrap(ctx, s, tw - px(30), size); items.push({ k: 'bul', ls, y: hgt }); hgt += ls.length * lh + px(8); });
       if (sec.para) { const ls = ui.wrap(ctx, sec.para, tw, size, { italic: sec.italic === true }); items.push({ k: 'para', ls, y: hgt, italic: sec.italic === true }); hgt += ls.length * lh + px(8); }
       (sec.facts ?? []).forEach(([lab, val]) => { const ls = ui.wrap(ctx, String(val), tw, size); items.push({ k: 'fact', lab, ls, y: hgt }); hgt += px(30) + ls.length * lh + px(10); });
@@ -683,16 +713,16 @@ export function createUI({ pal, meta, px, audio = null, config = {}, options = {
       if (y > innerBot + 40 || y < innerTop - 400) continue;
       if (it.k === 'h') {
         setFont(ctx, size * 1.2, '800', true); ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillStyle = ink;
-        ctx.fillText(it.t, tx, y + px(18));
+        ctx.fillText(it.t, tx, y + Math.max(px(18), size * 0.72));
         const w2 = ctx.measureText(it.t).width;
-        ctx.fillStyle = shade(pal.accent, -0.25); ctx.fillRect(tx, y + px(36), Math.min(w2, tw), 3);
+        ctx.fillStyle = shade(pal.accent, -0.25); ctx.fillRect(tx, y + Math.max(px(36), size * 1.45), Math.min(w2, tw), 3);
       } else if (it.k === 'step') {
         const r = px(18), cy = y + r + 2;
         ctx.beginPath(); ctx.arc(tx + r, cy, r, 0, 6.3); ctx.fillStyle = vgrad(ctx, cy - r, cy + r, [[0, shade(accentDeep, 0.25)], [1, shade(accentDeep, -0.25)]]); ctx.fill();
         ctx.lineWidth = 1.5; ctx.strokeStyle = 'rgba(0,0,0,0.45)'; ctx.stroke();
         ui.text(ctx, it.n, tx + r, cy + 1, r * 1.15, { color: numFg, weight: '800', display: true });
         setFont(ctx, size, '400'); ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillStyle = ink;
-        it.ls.forEach((l, i) => ctx.fillText(l, tx + px(52), y + lh / 2 + i * lh));
+        it.ls.forEach((l, i) => ctx.fillText(l, tx + Math.max(px(52), 2 * px(18) + px(14)), y + lh / 2 + i * lh));
       } else if (it.k === 'bul') {
         ctx.beginPath(); ctx.arc(tx + 7, y + lh / 2, 4, 0, 6.3); ctx.fillStyle = shade(pal.accent, -0.2); ctx.fill();
         setFont(ctx, size, '400'); ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillStyle = ink;

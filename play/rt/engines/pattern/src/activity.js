@@ -483,7 +483,25 @@ export function createActivity(userParams, env) {
     renderBoard(ctx, mb, { cells: target, lite, anim: false, grid: 0.55, fd: mfd, light: 0.8, box: mini, area: mini });
     // text (caption 13 css px, name 16 css px, numbers 18 css px at the reference scale)
     const cx0 = c.column ? c.x + c.w / 2 : textBox.x, al = c.column ? 'center' : 'left';
-    const CAP = g.px(24), NAME = g.px(30);
+    // Fluid layout: the card may be short (wide portrait tablets) or narrow (landscape column), so budget the stack: shrink caption and name
+    // together (never below 0.72), then drop the sub line and the palette chips, so nothing overlaps the match meter at any screen size.
+    const nameLines = (() => {
+      const nm = targetName || symName(P.symmetry);
+      return (n) => { const ls = []; let line = ''; ctx.save(); ctx.font = `700 ${Math.round(n)}px Georgia, 'Times New Roman', serif`; for (const word of String(nm).split(' ')) { const nx = line ? `${line} ${word}` : word; if (line && ctx.measureText(nx).width > textBox.w) { ls.push(line); line = word; } else line = nx; } if (line) ls.push(line); ctx.restore(); return ls; };
+    })();
+    const fitLabel = (ctx2, str, x, y, size, color, align, weight, maxW) => {
+      ctx2.save(); ctx2.font = `${weight} ${Math.round(size)}px system-ui, sans-serif`;
+      const w = ctx2.measureText(String(str)).width; ctx2.restore();
+      g.label(ctx2, str, x, y, w > maxW ? size * maxW / w : size, color, align, weight);
+    };
+    let fs = 1, showSub = !!targetName, showChips = true, maxLines = 2;
+    const floorU = g.px(0) * 0.96;   // 11.5 css px in virtual units: text never goes below it
+    const budget = () => { const C = Math.max(g.px(24) * fs, floorU), N = Math.max(g.px(30) * fs, floorU); const nl = Math.min(maxLines, nameLines(N).length); return C * 0.6 + C * 1.25 + (nl - 0.2) * N * 1.15 + N * 0.6 + (showSub ? C * 1.2 : 0) + Math.max(16, g.px(20)) + C * 1.5 + (showChips ? C * 1.6 : 0); };
+    while (budget() > textBox.h && fs > 0.72) fs -= 0.05;
+    if (budget() > textBox.h && showChips) { showChips = false; while (budget() > textBox.h && fs > 0.72) fs -= 0.05; }
+    if (budget() > textBox.h && showSub) showSub = false;
+    if (budget() > textBox.h) maxLines = 1;
+    const CAP = Math.max(g.px(24) * fs, floorU), NAME = Math.max(g.px(30) * fs, floorU);
     let ty = textBox.y + CAP * 0.6;
     ctx.save(); try { ctx.letterSpacing = '3px'; } catch (e) { /* older canvas */ }
     g.label(ctx, scene?.card?.label ?? 'REFERENCE', cx0, ty, CAP, CAPC, al, '700');
@@ -495,15 +513,15 @@ export function createActivity(userParams, env) {
     const lines = [];
     { let line = ''; for (const word of String(name).split(' ')) { const nx = line ? `${line} ${word}` : word; if (line && ctx.measureText(nx).width > textBox.w) { lines.push(line); line = word; } else line = nx; } if (line) lines.push(line); }
     ctx.save(); ctx.font = `700 ${Math.round(NAME)}px Georgia, 'Times New Roman', serif`; ctx.fillStyle = INK; ctx.textAlign = al; ctx.textBaseline = 'middle';
-    lines.slice(0, 2).forEach((l, i) => ctx.fillText(l, cx0, ty + i * NAME * 1.15));
+    lines.slice(0, maxLines).forEach((l, i) => ctx.fillText(l, cx0, ty + i * NAME * 1.15));
     ctx.restore();
-    ty += (Math.min(2, lines.length) - 0.2) * NAME * 1.15;
-    if (targetName) { g.label(ctx, symName(P.symmetry), cx0, ty + CAP * 0.4, CAP, SUBC, al, '500'); ty += CAP * 1.2; }
+    ty += (Math.min(maxLines, lines.length) - 0.2) * NAME * 1.15;
+    if (targetName && showSub) { fitLabel(ctx, symName(P.symmetry), cx0, ty + CAP * 0.4, CAP, SUBC, al, '500', textBox.w); ty += CAP * 1.2; }
     // the colours of the tradition, named
     const mhh = Math.max(16, g.px(20)), mTop = textBox.y + textBox.h - mhh - CAP * 2.2;
-    {
+    if (showChips) {
       let px0 = textBox.x, py0 = ty + CAP * 0.9; const rad = CAP * 0.36;
-      ctx.save(); ctx.font = `500 ${Math.round(CAP * 0.92)}px system-ui, sans-serif`;
+      ctx.save(); ctx.font = `500 ${Math.round(Math.max(CAP * 0.92, floorU))}px system-ui, sans-serif`;
       for (const pc of P.palette) {
         const w = ctx.measureText(pc.name).width + rad * 2 + 14;
         if (px0 + w > textBox.x + textBox.w && px0 > textBox.x) { px0 = textBox.x; py0 += CAP * 1.15; }

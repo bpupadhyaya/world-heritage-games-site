@@ -352,8 +352,8 @@ export function createActivity(userParams, env) {
   const geometry = (a) => {
     const landscape = a.w > a.h * 1.15;
     const cw = Math.min(a.w / N, 200), x0 = a.x + (a.w - cw * N) / 2;
-    let surfaceH = clamp(a.h * (landscape ? 0.36 : 0.34), 104, 300);
-    if (P.layout === 'circle') surfaceH = clamp(a.h * 0.27, 120, 210);
+    let surfaceH = landscape ? clamp(a.h * 0.5, 104, 420) : clamp(a.h * 0.34, 104, 300);   // fluid: wide screens give the instrument more height (short side is the scarce one)
+    if (P.layout === 'circle') surfaceH = landscape ? clamp(a.h * 0.46, 150, 420) : clamp(a.h * 0.27, 120, 210);   // fluid: a wide screen has the height to give the drum a real size
     if (MODE === 'learn') { // no highway: the chart takes what it needs and the instrument gets the rest
       const cols0 = Math.min(8, Math.max(2, meter)), need = Math.ceil(songBeats / cols0) * 50 + 56;
       surfaceH = clamp(a.h - need, 150, a.h * 0.74);
@@ -721,7 +721,7 @@ export function createActivity(userParams, env) {
       for (const p of pops) {
         const big = p.lane < 0, an = big ? { x: L.mid, y: L.top + (L.hitY - L.top) * 0.45 } : anchor(L, p.lane), u = p.age / 0.8, sp = u < 0.18 ? 0.6 + 2.2 * u : 1;
         ctx.globalAlpha = clamp(1.6 - 1.6 * u, 0, 1);
-        text(ctx, p.text, clamp(an.x, area.x + 50, area.x + area.w - 50), an.y - (big ? 10 : 30) - u * (big ? 30 : 46), g.px(big ? 34 : 22) * sp, p.color, { weight: '800', outline: 'rgba(0,0,0,0.75)', lw: 4 });
+        text(ctx, p.text, clamp(an.x, area.x + 50, area.x + area.w - 50), an.y - (big ? 10 : 30) - u * (big ? 30 : 46), Math.max(g.px(big ? 34 : 22) * sp, g.px(0) * 0.95), p.color, { weight: '800', outline: 'rgba(0,0,0,0.75)', lw: 4 });
         ctx.globalAlpha = 1;
       }
       // streak pill

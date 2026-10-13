@@ -539,7 +539,8 @@ export function createActivity(userParams, env) {
       items.forEach(([lab, fr, col], i) => {
         const yy = top + i * (bh + 6);
         bar(g, bx, yy, bw, bh, fr, col, 'rgba(0,0,0,0.45)');
-        g.label(ctx, lab, bx + 10, yy + bh / 2 + 0.5, Math.min(g.px(13), bh * 0.95), '#0c141c', 'left', '800');
+        const lsz = Math.min(g.px(13), bh * 0.95);
+        if (lsz >= g.px(0) * 0.95) g.label(ctx, lab, bx + 10, yy + bh / 2 + 0.5, lsz, '#0c141c', 'left', '800');   // bars carry colour; the word is dropped when it would be unreadable
       });
     };
     panel(-1, r.x, you, P.fighters.you.name, P.fighters.you);
@@ -654,7 +655,7 @@ export function createActivity(userParams, env) {
     g.rr(ctx, r.x, r.y, r.w, r.h, 14); ctx.fillStyle = lin(ctx, 0, r.y, 0, r.y + r.h, [[0, shade(pal.panel, 0.1)], [1, shade(pal.panel, -0.25)]]); ctx.fill();
     ctx.strokeStyle = 'rgba(255,255,255,0.12)'; ctx.lineWidth = 1.5; ctx.stroke();
     const bx = r.x + 18, bw = r.w - 36, by = r.y + r.h * 0.52, bh = Math.max(16, r.h * 0.3);
-    g.label(ctx, phase === 'ready' ? 'Tap a move when the marker is in the bright zone' : phase === 'break' ? '' : 'Catch your breath', r.x + r.w / 2, r.y + r.h * 0.2, Math.min(g.px(15), r.h * 0.26), pal.dim, 'center', '600');
+    g.label(ctx, phase === 'ready' ? 'Tap a move when the marker is in the bright zone' : phase === 'break' ? '' : 'Catch your breath', r.x + r.w / 2, r.y + r.h * 0.2, Math.max(Math.min(g.px(15), r.h * 0.26), g.px(0) * 0.95), pal.dim, 'center', '600');
     g.rr(ctx, bx, by, bw, bh, bh / 2); ctx.fillStyle = 'rgba(0,0,0,0.5)'; ctx.fill();
     ctx.strokeStyle = 'rgba(255,255,255,0.18)'; ctx.lineWidth = 1.5; ctx.stroke();
     if (gauge && phase === 'ready') {
@@ -707,11 +708,12 @@ export function createActivity(userParams, env) {
       ctx.fillStyle = rgba(kc, 0.22); ctx.beginPath(); ctx.arc(b.x + 14 + ir, b.y + b.h / 2, ir, 0, 7); ctx.fill();
       drawIcon(ctx, m.kind, b.x + 14 + ir, b.y + b.h / 2, ir * 1.1, kc);
       const tx = b.x + 14 + ir * 2 + 12;
-      const fs = Math.min(g.px(20), b.h * 0.3);
+      const fs = Math.max(Math.min(g.px(20), b.h * 0.3), g.px(0) * 0.95);
       const lines = g.wrap(ctx, m.name, b.x + b.w - 30 - tx, fs).slice(0, 2);
       lines.forEach((ln, i) => g.label(ctx, ln, tx, b.y + b.h * (lines.length > 1 ? 0.3 + i * 0.25 : 0.38), fs, pal.ink, 'left', '800'));
       const sub = m.kind === 'rest' ? `Recover ${Math.abs(m.cost)}` : `${m.kind}  ·  cost ${m.cost}`;
-      g.label(ctx, sub, tx, b.y + b.h - Math.min(15, b.h * 0.2), Math.min(g.px(14), b.h * 0.22), pal.dim, 'left', '600');
+      const ssz = Math.min(g.px(14), b.h * 0.22);
+      if (ssz >= g.px(0) * 0.95) g.label(ctx, sub, tx, b.y + b.h - Math.min(15, b.h * 0.2), ssz, pal.dim, 'left', '600');
       g.label(ctx, String(b.i + 1), b.x + b.w - 14, b.y + 16, g.px(13), pal.dim, 'right', '700');
       ctx.restore();
     }
