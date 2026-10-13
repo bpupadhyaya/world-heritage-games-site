@@ -96,7 +96,8 @@
 .ap-ph img{display:block;width:100%;height:100%;object-fit:cover;object-position:top;transition:transform .35s}
 .ap-tile:hover .ap-ph img{transform:scale(1.04)}
 .ap-b{padding:.9rem 1rem 1.1rem;display:flex;flex-direction:column;gap:.35rem;flex:1}
-.ap-b h3{margin:0;font:800 1.2rem/1.15 "EB Garamond",var(--serif)}
+.ap-b h3{margin:0;font:800 1.2rem/1.15 "EB Garamond",var(--serif);display:flex;align-items:center;gap:.6rem}
+.ap-ic{flex:none;width:44px;height:44px;filter:drop-shadow(0 3px 5px rgba(0,0,0,.5))}
 .ap-b h3 a{color:var(--gp-gold);text-decoration:none}.ap-b h3 a:hover{text-decoration:underline}
 .ap-m{margin:0;color:var(--gp-dim);font-size:.85rem}
 .ap-act{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:auto;padding-top:.6rem}
