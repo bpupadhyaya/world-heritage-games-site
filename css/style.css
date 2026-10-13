@@ -74,7 +74,7 @@
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
-body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.62 var(--sans);position:relative}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.62 var(--sans);position:relative;display:flex;flex-direction:column;min-height:100vh;min-height:100dvh}
 body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:var(--era);opacity:var(--wash);transition:background-color .9s ease}
 a{color:var(--link);text-underline-offset:.18em;text-decoration-thickness:1px}
 a:hover{text-decoration-thickness:2px}
@@ -109,7 +109,7 @@ p{margin:0 0 1em}
 .nav-toggle,.theme{background:none;border:1px solid var(--hdr-line);color:var(--hdr-ink);border-radius:.5rem;padding:.4rem .6rem;font:inherit;font-size:.85rem;cursor:pointer}
 .nav-toggle{display:none}
 @media (max-width:960px){.nav-toggle{display:inline-block}.nav{display:none;width:100%;flex-direction:column;padding-bottom:.6rem}.nav.open{display:flex}}
-main{display:block;min-height:60vh}
+main{display:block;flex:1 0 auto;min-height:60vh}
 /* buttons / chips */
 .btn{display:inline-flex;align-items:center;gap:.5rem;background:var(--accent);color:var(--accent-ink);border:0;border-radius:var(--btn-r);padding:.7rem 1.1rem;font:600 .95rem var(--sans);text-decoration:none;cursor:pointer}
 .btn:hover{filter:brightness(1.07)} .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--rule)}
