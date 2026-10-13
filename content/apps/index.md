@@ -12,3 +12,4 @@ path: "/apps/"
 - [Paper & Paint of the World](../apps/paper-and-paint-of-the-world/index.md): 20 playable games
 - [Craft Designs of the World](../apps/craft-designs-of-the-world/index.md): 8 playable games
 - [Sports & Skill of the World](../apps/sports-and-skill-of-the-world/index.md): 18 playable games
+- [Story & Theatre of the World](../apps/story-and-theatre-of-the-world/index.md): 10 playable games
