@@ -3,7 +3,7 @@
 import { clamp, mix, rgba, lighter, darker, glow, rrect, grain, hgrad, vgrad, rgrad, hash, ell, circ, TAU, drumHead } from './art.js';
 import { makeBox, finishSpots, hitSpots, pill, lerp } from './stagekit.js';
 
-const VIEW = { bodhran: { dx: -0.2, dy: -0.2, zoom: 0.72 }, steelpan: { dx: 0.0, dy: 0.1, zoom: 1.0 }, water: { dx: 0.1, dy: 0.2, zoom: 0.9, tilt: 0.2 }, isukuti: { tilt: 0.2, dy: 0.18 }, tabla: { tilt: 0.12 }, taiko: { dx: 0.08, zoom: 0.95 }, djembe: { dx: -0.1, zoom: 0.95 }, mortar: { tilt: -0.15, dy: 0.1 }, multi: {} };
+const VIEW = { bodhran: { zoom: 0.96 }, steelpan: { dx: 0.0, dy: 0.1, zoom: 1.0 }, water: { dx: 0.1, dy: 0.2, zoom: 0.9, tilt: 0.2 }, isukuti: { tilt: 0.2, dy: 0.18 }, tabla: { tilt: 0.12 }, taiko: { dx: 0.08, zoom: 0.95 }, djembe: { dx: -0.1, zoom: 0.95 }, mortar: { tilt: -0.15, dy: 0.1 }, multi: {} };
 const IDS = [
   [/tabla|dayan|bayan/, 'tabla'], [/taiko/, 'taiko'], [/bodhr|frame drum|daf\b|riq\b/, 'bodhran'], [/isukuti/, 'isukuti'],
   [/calabash|water drum|water/, 'water'], [/steel.?pan|pan\b/, 'steelpan'], [/fufu|mortar|pound/, 'mortar'], [/djembe|dunun|conga|cajon|candombe/, 'djembe'],

@@ -41,7 +41,11 @@ export function makeBox(area, refW, refH, o = {}) {
   const th = wide ? 0 : o.tilt || 0, c = Math.cos(th), sn = Math.sin(th), ac = Math.abs(c), as = Math.abs(sn);
   if (wide) { o = { ...o, dx: 0, dy: 0 }; }
   const s = Math.min(availW / (refW * ac + refH * as), availH / (refW * as + refH * ac), maxS) * (o.zoom || 1);
-  const mx = area.x + area.w / 2 + (o.dx || 0) * area.w, my = area.y + top + availH / 2 + (o.dy || 0) * area.h;
+  let mx = area.x + area.w / 2 + (o.dx || 0) * area.w, my = area.y + top + availH / 2 + (o.dy || 0) * area.h;
+  // composition offsets and tilts may nudge the instrument but never push any part of it past the edges of its area
+  const hx = (refW * ac + refH * as) * s / 2, hy = (refW * as + refH * ac) * s / 2;
+  if (2 * hx <= availW + 0.5) mx = Math.min(Math.max(mx, area.x + side + hx), area.x + area.w - side - hx);
+  if (2 * hy <= availH + 0.5) my = Math.min(Math.max(my, area.y + top + hy), area.y + top + availH - hy);
   // design point (v,u) with the box centre at (0, refH/2) maps to the screen centre (mx,my), rotated by th
   const map = (v, u) => { const p = v * s, q = (u - refH / 2) * s; return [mx + p * c - q * sn, my + p * sn + q * c]; };
   const inv = (x, y) => { const dx = x - mx, dy = y - my; return [(dx * c + dy * sn) / s, (-dx * sn + dy * c) / s + refH / 2]; };
