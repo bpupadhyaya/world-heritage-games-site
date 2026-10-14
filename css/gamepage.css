@@ -80,7 +80,7 @@
 .ap-hero .wrap{grid-template-columns:minmax(0,1fr)}
 @media (min-width:56rem){.ap-hero .wrap{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr)}}
 .ap-title{display:flex;align-items:center;gap:1rem;margin:0 0 .6rem}
-.ap-title img{width:84px;height:84px;border-radius:20px;border:2px solid var(--gp-gold2);box-shadow:0 10px 26px -10px rgba(0,0,0,.7)}
+.ap-title img{width:84px;height:84px;border:0;border-radius:0;box-shadow:none;filter:drop-shadow(0 8px 14px rgba(0,0,0,.55))}
 .ap-title h1{margin:0}
 .ap-status{color:var(--gp-dim);margin:.9rem 0 0;font-size:.95rem}
 .ap-banner{margin:0}.ap-banner img{display:block;width:100%;height:auto;border-radius:1.1rem;border:2px solid var(--gp-gold2);box-shadow:0 22px 50px -18px rgba(0,0,0,.65),0 0 0 6px rgba(232,185,74,.12)}
