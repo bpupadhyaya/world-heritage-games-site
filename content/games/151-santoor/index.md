@@ -40,7 +40,7 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Play it
 
-[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/santoor/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/santoor/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · App Store (coming soon)
 
 ## Related entries
 

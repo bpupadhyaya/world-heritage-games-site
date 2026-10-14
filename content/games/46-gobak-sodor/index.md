@@ -39,7 +39,7 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 
 ## Play it
 
-[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/gobak-sodor/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/gobak-sodor/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · App Store (coming soon)
 
 ## Related entries
 
