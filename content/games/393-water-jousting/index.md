@@ -43,8 +43,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Racing Pigeon Loft](../../games/411-racing-pigeon-loft/index.md)
 - [Highland Bagpipe Chanter and Drone](../../games/510-highland-bagpipe-chanter-and-drone/index.md)
 - [Hurling](../../games/821-hurling/index.md)
+- [Fox and Geese](../../games/4615-fox-and-geese/index.md)
 - [Dutch draughts](../../games/970-dutch-draughts/index.md)
-- [Pub dominoes](../../games/1183-pub-dominoes/index.md)
 
 ## Sources
 

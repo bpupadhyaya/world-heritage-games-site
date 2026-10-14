@@ -37,7 +37,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Play it
 
-[Web preview](https://bpupadhyaya.github.io/games-site/games/dame-ghana-draughts/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/dame-ghana-draughts/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
@@ -46,7 +46,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Draughts](../../games/576-draughts/index.md)
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md)
 - [Ampe](../../games/747-ampe/index.md)
-- [Putu](../../games/609-putu/index.md)
+- [Djembe](../../games/2189-djembe/index.md)
 
 ## Sources
 

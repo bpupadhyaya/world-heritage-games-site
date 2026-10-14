@@ -1,16 +1,16 @@
 ---
 title: "Italy"
-description: "23 traditions from Italy."
+description: "24 traditions from Italy."
 path: "/countries/italy/"
-count: 23
+count: 24
 ---
 # Italy
 
-23 traditions from Italy.
+24 traditions from Italy.
 
 
 
-23 entries.
+24 entries.
 
 - [Bocce](../../games/830-bocce/index.md): Italy, San Marino; Street and playground games; Modern Heritage
 - [Circle Dodgeball](../../games/470-circle-dodgeball/index.md): Brazil, Germany; Archery, throwing and target games; Classical Worlds
@@ -23,6 +23,7 @@ count: 23
 - [Gondola Rowing](../../games/401-gondola-rowing/index.md): Italy; Dexterity and skill games; Modern Heritage
 - [Italian draughts](../../games/834-italian-draughts/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Launeddas Triple Pipe](../../games/400-launeddas-triple-pipe/index.md): Italy; Musical instruments; Living Traditions
+- [Ludus Latrunculorum](../../games/4756-ludus-latrunculorum/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Morra](../../games/83-morra/index.md): Italy; Archery, throwing and target games; Classical Worlds
 - [Portolan Chart Navigator](../../games/503-portolan-chart-navigator/index.md): Italy, Spain; Puzzles and mind games; Modern Heritage
 - [Ribbon-Pole Plaiting Dance](../../games/512-ribbon-pole-plaiting-dance/index.md): United Kingdom, Germany; Dances; Living Traditions

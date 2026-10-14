@@ -39,16 +39,16 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Play it
 
-[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/pinisi/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
 - [Gaple dominoes](../../games/804-gaple-dominoes/index.md)
+- [Surakarta](../../games/4940-surakarta/index.md)
 - [Co Ganh](../../games/301-co-ganh/index.md)
 - [Sittuyin](../../games/302-sittuyin/index.md)
 - [Floating market trader](../../games/315-floating-market-trader/index.md)
 - [Khmer chess](../../games/616-khmer-chess/index.md)
-- [Lao chess](../../games/875-lao-chess/index.md)
 
 ## Sources
 

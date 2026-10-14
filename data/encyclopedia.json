@@ -34513,6 +34513,104 @@
    }
   },
   {
+   "id": 1987,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/1987-chinese-paper-cutting/",
+   "name": "Chinese paper cutting",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "China"
+   ],
+   "country_codes": [
+    "CN"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Crafts and making",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "China",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of China.",
+   "summary": "Fold coloured paper in half, quarters or twelfths, snip the wedge with scissors or punches, then unfold it in real 3D to reveal the pattern.",
+   "how_played": "Pick a fold: the paper folds itself into one small wedge. A cut on a fold edge opens into one whole shape; a cut at the centre becomes the middle.",
+   "heritage_note": "Part of the living heritage of China.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chinese_paper_cutting"
+   ],
+   "photo": {
+    "file": "img/photos/01987-chinese-paper-cutting.jpg",
+    "author": "Lanneixi",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_Paper_Cutting.png"
+   }
+  },
+  {
+   "id": 2047,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/2047-conkers/",
+   "name": "Conkers",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United Kingdom"
+   ],
+   "country_codes": [
+    "GB"
+   ],
+   "region": "Europe",
+   "type": "Street and playground games",
+   "family": "Horse and animal sports",
+   "era": "Deep Past and First Games",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Deep Past and First Games (before about 3000 BCE), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "England's autumn playground game with real pendulum physics.",
+   "how_played": "Press on the scene, drag back and let go to swing your conker. Raise or lower your hand to hit their pale patch: the soft spot. Watch the guide and the timing strip, then release at a good moment.",
+   "heritage_note": "Part of the living heritage of United Kingdom.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Conkers"
+   ],
+   "photo": {
+    "file": "img/photos/02047-conkers.jpg",
+    "author": "Kevin Doncaster",
+    "licence": "CC BY 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Conker_(248814699).jpeg"
+   }
+  },
+  {
+   "id": 2189,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/2189-djembe/",
+   "name": "Djembe",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Guinea",
+    "Mali"
+   ],
+   "country_codes": [
+    "GN",
+    "ML"
+   ],
+   "region": "Sub-Saharan Africa",
+   "type": "Musical instruments",
+   "family": "Drums and percussion",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Africa: Sahel, West and Central",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Africa: Sahel, West and Central.",
+   "summary": "Notes slide toward the glowing line: top row Slap, middle row Tone, bottom row Bass.",
+   "how_played": "Notes slide toward the glowing line: top row Slap, middle row Tone, bottom row Bass. Strike as a note arrives. Echo: the lead drummer plays one bar, then you play it back. Eight rounds, growing each time.",
+   "heritage_note": "Part of the living heritage of Guinea, Mali.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Djembe"
+   ],
+   "photo": {
+    "file": "img/photos/02189-djembe.jpg",
+    "author": "Djembe Art",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lenke_djembe_from_Mali.jpeg"
+   }
+  },
+  {
    "id": 2772,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/2772-juldarigi/",
    "name": "Juldarigi",
@@ -34552,6 +34650,525 @@
     "author": "Steve46814 at English Wikipedia",
     "licence": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Korea-Hi_Seoul_Festival-2006-09.jpg"
+   }
+  },
+  {
+   "id": 2937,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/2937-koto/",
+   "name": "Koto",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Japan"
+   ],
+   "country_codes": [
+    "JP"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Japan and Korea",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Japan and Korea.",
+   "summary": "A calm music game for the Japanese long zither. Slide the ivory bridges to tune thirteen silk strings, pluck with your fingertips, sweep across the strings and press behind a bridge to bend a note upward.",
+   "how_played": "Pick a piece and start with Learn: a short phrase is played, then you play it back. Red discs slide along the strings towards you. A gold ring means press: hold the same string behind its bridge. Close to the bridge bends a half step, further back a whole step.",
+   "heritage_note": "Part of the living heritage of Japan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Koto_(instrument)"
+   ],
+   "photo": null
+  },
+  {
+   "id": 3332,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3332-origami/",
+   "name": "Origami",
+   "native": "",
+   "alt": [
+    "Modular origami"
+   ],
+   "countries": [
+    "Japan"
+   ],
+   "country_codes": [
+    "JP"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Crafts and making",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Japan and Korea",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Japan and Korea.",
+   "summary": "Real, curling, layered paper in 3D. Grab a flap, drag it across and feel the crease snap flat, then watch your kite, puppy, fish or paper dart stand up.",
+   "how_played": "Each model is a short list of folds. The caption tells you the next one. Grab the glowing corner and drag it across the dashed crease to the ring. Let go past halfway and it lands flat; let go early and it springs back.",
+   "heritage_note": "Part of the living heritage of Japan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Origami",
+    "https://en.wikipedia.org/wiki/Modular_origami"
+   ],
+   "photo": {
+    "file": "img/photos/03332-origami.jpg",
+    "author": "Laitche",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cranes_made_by_Origami_paper.jpg"
+   }
+  },
+  {
+   "id": 3348,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3348-oud/",
+   "name": "Oud",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Iraq",
+    "Egypt",
+    "Syria"
+   ],
+   "country_codes": [
+    "IQ",
+    "EG",
+    "SY"
+   ],
+   "region": "Middle East and North Africa",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain.",
+   "summary": "Play the oud, the fretless pear-shaped lute of the Arab world. Slide a finger along the bare neck to land on the right pitch, including the quarter-tones of Rast and Bayati, and pluck in time over rhythm cycles.",
+   "how_played": "Rings on the neck show where each note is. Keep your finger down and slide to bend the note or land on a second ring.",
+   "heritage_note": "A tradition shared by communities in many places.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Oud"
+   ],
+   "photo": {
+    "file": "img/photos/03348-oud.jpg",
+    "author": "Creator:Manol (Emmanuel Venios)",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%C5%AAd_MET_DP340079.jpg"
+   }
+  },
+  {
+   "id": 3686,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3686-rugby-football/",
+   "name": "Rugby football",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United Kingdom",
+    "New Zealand",
+    "South Africa"
+   ],
+   "country_codes": [
+    "GB",
+    "NZ",
+    "ZA"
+   ],
+   "region": "Europe",
+   "type": "Team ball sports",
+   "family": "Kicking and football games",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "The goal-kicking game of the conversion kick.",
+   "how_played": "Read the wind dial and the flag on the posts, then aim into the wind. Pick Upright, Leaning or Flat and set the power. Press Kick and watch the three beats of the run-up.",
+   "heritage_note": "Part of the living heritage of United Kingdom.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rugby_football"
+   ],
+   "photo": {
+    "file": "img/photos/03686-rugby-football.jpg",
+    "author": "Unknown author Unknown author",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Foot_Ball,_Kingston-upon-Thames,_Shrove_Tuesday,_Feb._24th,_1846.jpg"
+   }
+  },
+  {
+   "id": 3840,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3840-ski-jumping/",
+   "name": "Ski jumping",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Norway"
+   ],
+   "country_codes": [
+    "NO"
+   ],
+   "region": "Europe",
+   "type": "Water and winter sports",
+   "family": "Winter sports",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Northern and Eastern Europe",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Northern and Eastern Europe.",
+   "summary": "Crouch down the ice track, jump on the lip, hold your skis in the green band against the wind and land a telemark above a 3D fjord.",
+   "how_played": "Hold to crouch on the in-run, lift your finger as the ring closes on the lip. Lift again as the ring closes on the snow to land in a telemark.",
+   "heritage_note": "Part of the living heritage of Norway.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ski_jumping"
+   ],
+   "photo": null
+  },
+  {
+   "id": 4485,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4485-alquerque/",
+   "name": "Alquerque",
+   "native": "",
+   "alt": [
+    "Alquerque de doce"
+   ],
+   "countries": [
+    "Spain"
+   ],
+   "country_codes": [
+    "ES"
+   ],
+   "region": "Middle East and North Africa",
+   "type": "Board and table games",
+   "family": "Draughts and capture games",
+   "era": "River Valleys and First Cities",
+   "era_uncertain": true,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 BCE), although its exact origins are uncertain.",
+   "summary": "An old board game of Spain and the Arab world, often described as a forerunner of draughts, made beautiful.",
+   "how_played": "Each side has 12 pieces on a board of 25 points joined by lines. Light moves first, from the bottom, into the empty centre. Step one point along a line, forward or sideways, never backward. Diagonal lines pass only through every other point.",
+   "heritage_note": "A tradition shared by communities in many places.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Alquerque"
+   ],
+   "photo": null
+  },
+  {
+   "id": 4551,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4551-chinese-rings/",
+   "name": "Chinese Rings",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "China"
+   ],
+   "country_codes": [
+    "CN"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Puzzles and mind games",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "China",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of China.",
+   "summary": "The classic ring-and-bar puzzle from China. Take three to nine real metal rings on and off a steel bar following one rule, and free them all.",
+   "how_played": "New here? Glowing rings can move right now. Ring 1, next to the free end, always moves.",
+   "heritage_note": "Part of the living heritage of China.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chinese_Rings"
+   ],
+   "photo": null
+  },
+  {
+   "id": 4615,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4615-fox-and-geese/",
+   "name": "Fox and Geese",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United Kingdom"
+   ],
+   "country_codes": [
+    "GB"
+   ],
+   "region": "Europe",
+   "type": "Board and table games",
+   "family": "Hunt and blockade games",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "Fox and Geese is the classic hunt game, played on a cross of 33 points across Europe for centuries.",
+   "how_played": "New here? The geese move first. The fox steps one point up, down, left or right, or jumps over a goose to the empty point behind it and captures it.",
+   "heritage_note": "Part of the living heritage of United Kingdom.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Fox_and_Geese"
+   ],
+   "photo": {
+    "file": "img/photos/04615-fox-and-geese.jpg",
+    "author": "The Boy's own paper [author]",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bodleian_Libraries,_Combined_solitaire_and_Fox_and_geese_board.jpg"
+   }
+  },
+  {
+   "id": 4647,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4647-hare-and-hounds/",
+   "name": "Hare and Hounds",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United Kingdom"
+   ],
+   "country_codes": [
+    "GB"
+   ],
+   "region": "Europe",
+   "type": "Board and table games",
+   "family": "Hunt and blockade games",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "Hare and Hounds is a traditional hunt game for two sides on a tiny board of eleven points.",
+   "how_played": "New here? One hare against three hounds. One step along a line per turn. Hounds win by leaving the hare no move.",
+   "heritage_note": "Part of the living heritage of United Kingdom.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hare_and_Hounds"
+   ],
+   "photo": null
+  },
+  {
+   "id": 4756,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4756-ludus-latrunculorum/",
+   "name": "Ludus Latrunculorum",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Italy"
+   ],
+   "country_codes": [
+    "IT"
+   ],
+   "region": "Europe",
+   "type": "Board and table games",
+   "family": "",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Mediterranean",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Mediterranean.",
+   "summary": "The Roman game of little soldiers on a marble board with pieces of bone and glass.",
+   "how_played": "Each side has 15 soldiers and a dux. Ivory moves first. Slide one piece a turn along its row or column over empty squares, like a rook. Sandwich an enemy soldier between two of your pieces, in a row or column, to take it.",
+   "heritage_note": "Part of the living heritage of Italy.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ludus_Latrunculorum"
+   ],
+   "photo": {
+    "file": "img/photos/04756-ludus-latrunculorum.jpg",
+    "author": "Wolfgang Sauber",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Museum_Quintana_-_R%C3%A4uberspiel.jpg"
+   }
+  },
+  {
+   "id": 4785,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4785-mehen/",
+   "name": "Mehen",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Egypt"
+   ],
+   "country_codes": [
+    "EG"
+   ],
+   "region": "Middle East and North Africa",
+   "type": "Board and table games",
+   "family": "Race and cross games",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Africa: Nile and the Horn",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Africa: Nile and the Horn.",
+   "summary": "Race carved lions along a coiled snake of stone from its tail to its head. Throw four sticks, choose a lion, spend a marble to nudge the throw, rest on the carved stones and knock rivals back to the start.",
+   "how_played": "Throw four sticks: the flat sides facing up are your steps (none up counts as 5). A 4 or 5 earns another throw. Spend a marble to make a throw one more or one less. Marbles are also won by capturing and by bringing a lion home.",
+   "heritage_note": "Part of the living heritage of Egypt.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mehen_(game)"
+   ],
+   "photo": {
+    "file": "img/photos/04785-mehen.jpg",
+    "author": "Waltros",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:British_Museum_Mehen_Board.jpg"
+   }
+  },
+  {
+   "id": 4827,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4827-nonogram/",
+   "name": "Nonogram",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Japan"
+   ],
+   "country_codes": [
+    "JP"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Puzzles and mind games",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Japan and Korea",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Japan and Korea.",
+   "summary": "A calm logic picture puzzle: use the numbers beside the grid to decide which squares are filled and a small illustration appears.",
+   "how_played": "The numbers beside each row and above each column give the lengths of the runs of filled squares in that line. Use Cross to mark squares you know are empty. Think finds the next square that logic proves and explains why. Use Zoom and Move on big boards.",
+   "heritage_note": "Part of the living heritage of Japan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nonogram"
+   ],
+   "photo": null
+  },
+  {
+   "id": 4849,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4849-peg-solitaire/",
+   "name": "Peg solitaire",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "France"
+   ],
+   "country_codes": [
+    "FR"
+   ],
+   "region": "Europe",
+   "type": "Puzzles and mind games",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "The classic jumping puzzle from the French court, on a lit wooden board with glass pegs.",
+   "how_played": "A jump goes in a straight line over one neighbouring peg into an empty hole. The peg you jumped is removed. On the Triangle board pegs can also jump along both diagonals.",
+   "heritage_note": "Part of the living heritage of France.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Peg_solitaire"
+   ],
+   "photo": {
+    "file": "img/photos/04849-peg-solitaire.jpg",
+    "author": "Claude Auguste Berey",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Peg_Solitaire_1687_on_Portrait_of_Princess_Soubise_by_Claude-Auguste_Berey.jpg"
+   }
+  },
+  {
+   "id": 4915,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4915-shut-the-box/",
+   "name": "Shut the Box",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "France"
+   ],
+   "country_codes": [
+    "FR"
+   ],
+   "region": "Europe",
+   "type": "Board and table games",
+   "family": "Dice and knucklebone games",
+   "era": "River Valleys and First Cities",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of River Valleys and First Cities (about 3000 to 1000 BCE), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "The classic tavern dice game of England and France on a lit oak box with brass hinges and bone tiles.",
+   "how_played": "When they match, they flip down by themselves. Keep rolling and shutting. If no open tiles can make the roll, the box is over.",
+   "heritage_note": "Part of the living heritage of France.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Shut_the_box"
+   ],
+   "photo": {
+    "file": "img/photos/04915-shut-the-box.jpg",
+    "author": "Roland Scheicher / Roland Scheicher at German Wikipedia",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Shut_the_box.jpg"
+   }
+  },
+  {
+   "id": 4940,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4940-surakarta/",
+   "name": "Surakarta",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Indonesia"
+   ],
+   "country_codes": [
+    "ID"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Board and table games",
+   "family": "Draughts and capture games",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Southeast Asia and the Islands",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Southeast Asia and the Islands.",
+   "summary": "A Javanese-named strategy game on a carved board of looping tracks. Pieces step one point but capture by racing round the circuits and the corner loops, with every legal route drawn as a glowing trail.",
+   "how_played": "Each side has 12 pieces. Light plays from the bottom and moves first. Capture every enemy piece to win. To capture, select a piece: glowing trails show routes along the circuits, round a corner loop.",
+   "heritage_note": "Part of the living heritage of Indonesia.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Surakarta_(game)"
+   ],
+   "photo": null
+  },
+  {
+   "id": 4957,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4957-tennis/",
+   "name": "Tennis",
+   "native": "",
+   "alt": [
+    "Lawn tennis"
+   ],
+   "countries": [
+    "United Kingdom"
+   ],
+   "country_codes": [
+    "GB"
+   ],
+   "region": "Europe",
+   "type": "Bat-and-ball games",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain.",
+   "summary": "Lawn tennis, born in England, in real 3D. Press and drag on the court to choose where the ball lands, release as the ring closes, and play games, sets and tiebreaks on lawn, clay or hard courts.",
+   "how_played": "Your player runs to the ball; you choose the shot. Press and drag on the court: far up is a drive, short is a drop, down is a lob. Release as the ring closes for a clean strike.",
+   "heritage_note": "A tradition shared by communities in many places.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tennis_(paper-and-pencil_game)"
+   ],
+   "photo": null
+  },
+  {
+   "id": 4976,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4976-tower-of-hanoi/",
+   "name": "Tower of Hanoi",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "France"
+   ],
+   "country_codes": [
+    "FR"
+   ],
+   "region": "Europe",
+   "type": "Puzzles and mind games",
+   "family": "Puzzle and dexterity toys",
+   "era": "Modern Heritage",
+   "era_uncertain": true,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.",
+   "summary": "The classic disc-stacking puzzle, made to feel wonderful: lit, lacquered discs on carved pegs that lift, slide and drop with a satisfying thud.",
+   "how_played": "Move the whole tower of discs from the first peg to the gold peg, one disc at a time. Or drag the disc and let go. A larger disc may never rest on a smaller one. Such a move is refused and does not count.",
+   "heritage_note": "Part of the living heritage of France.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
+   ],
+   "photo": {
+    "file": "img/photos/04976-tower-of-hanoi.jpg",
+    "author": "AlejandroLinaresGarcia",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:UniversumUNAM34.JPG"
    }
   },
   {

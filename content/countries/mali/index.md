@@ -1,20 +1,21 @@
 ---
 title: "Mali"
-description: "10 traditions from Mali."
+description: "11 traditions from Mali."
 path: "/countries/mali/"
-count: 10
+count: 11
 ---
 # Mali
 
-10 traditions from Mali.
+11 traditions from Mali.
 
 
 
-10 entries.
+11 entries.
 
 - [Balafon Gourd Xylophone](../../games/168-balafon-gourd-xylophone/index.md): Mali, Guinea; Musical instruments; Crossroads and Golden Ages
 - [Bogolan mud cloth](../../games/86-bogolan-mud-cloth/index.md): Mali; Crafts and making; Living Traditions
 - [Bozo Net Casting](../../games/169-bozo-net-casting/index.md): Niger, Mali; Puzzles and mind games; Modern Heritage
+- [Djembe](../../games/2189-djembe/index.md): Guinea, Mali; Musical instruments; Modern Heritage
 - [Dogon Granary Builder](../../games/177-dogon-granary-builder/index.md): Mali; Crafts and making; Living Traditions
 - [Imzad Fiddle](../../games/1301-imzad-fiddle/index.md): Niger, Mali; Musical instruments; Classical Worlds
 - [Kora](../../games/7176-kora/index.md): Gambia, Mali; Musical instruments; Classical Worlds

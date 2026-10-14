@@ -2,7 +2,7 @@
 title: "Shared across the world"
 description: "Pastimes found in many cultures at once."
 path: "/cradles/worldwide/"
-count: 44
+count: 47
 ---
 # Shared across the world
 
@@ -10,7 +10,7 @@ Pastimes found in many cultures at once.
 
 
 
-44 entries.
+47 entries.
 
 - [Aranmula metal mirror](../../games/285-aranmula-metal-mirror/index.md): Worldwide; Crafts and making; Living Traditions
 - [Bamboo Copter](../../games/12-bamboo-copter/index.md): Worldwide; Toys; Modern Heritage
@@ -36,6 +36,7 @@ Pastimes found in many cultures at once.
 - [Malagasy lamba silk weaving](../../games/206-malagasy-lamba-silk-weaving/index.md): Worldwide; Crafts and making; Living Traditions
 - [Marimba](../../games/52-marimba/index.md): Worldwide; Musical instruments; Living Traditions
 - [Maze](../../games/6640-maze/index.md): Greece; Puzzles and mind games; Modern Heritage
+- [Oud](../../games/3348-oud/index.md): Iraq, Egypt; Musical instruments; Crossroads and Golden Ages
 - [Perfumer's Organ](../../games/402-perfumers-organ/index.md): Worldwide; Crafts and making; Living Traditions
 - [Pirogue coastal canoe race](../../games/56-pirogue-coastal-canoe-race/index.md): Worldwide; Racing; Age of Contact and Craft
 - [Pottery](../../games/6593-pottery/index.md): Worldwide; Crafts and making; Living Traditions
@@ -48,11 +49,13 @@ Pastimes found in many cultures at once.
 - [Tarakasi silver filigree](../../games/279-tarakasi-silver-filigree/index.md): Worldwide; Crafts and making; Living Traditions
 - [Whistled Language Relay](../../games/403-whistled-language-relay/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Wire car](../../games/85-wire-car/index.md): Worldwide; Crafts and making; Living Traditions
+- [Alquerque](../../games/4485-alquerque/index.md): Spain; Board and table games; River Valleys and First Cities
 - [Bulls and Cows](../../games/9038-bulls-and-cows/index.md): Worldwide; Street and playground games; Age of Contact and Craft
 - [Crown Fields](../../games/22327-crown-fields/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Golden Sling](../../games/22331-golden-sling/index.md): Worldwide; Dexterity and skill games; Modern Heritage
 - [Minesweeper](../../games/22341-minesweeper/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Perch](../../games/22335-perch/index.md): Worldwide; Dexterity and skill games; Modern Heritage
 - [Table football](../../games/5250-table-football/index.md): Spain; Team ball sports; Crossroads and Golden Ages
+- [Tennis](../../games/4957-tennis/index.md): United Kingdom; Bat-and-ball games; Modern Heritage
 - [Word Game](../../games/22346-word-game/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [World Weave](../../games/22347-world-weave/index.md): Worldwide; Crafts and making; Modern Heritage

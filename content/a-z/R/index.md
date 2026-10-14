@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with R"
-description: "28 entries beginning with R."
+description: "29 entries beginning with R."
 path: "/a-z/R/"
 ---
 # Entries beginning with R
@@ -30,6 +30,7 @@ path: "/a-z/R/"
 - [Rounders](../../games/761-rounders/index.md): Guyana; Street and playground games; Modern Heritage
 - [Royal Game of Ur](../../games/817-royal-game-of-ur/index.md): Iraq; Board and table games; River Valleys and First Cities
 - [Rubboard zydeco rhythm](../../games/437-rubboard-zydeco-rhythm/index.md): United States; Musical instruments; Living Traditions
+- [Rugby football](../../games/3686-rugby-football/index.md): United Kingdom, New Zealand; Team ball sports; Modern Heritage
 - [Rugby sevens](../../games/713-rugby-sevens/index.md): Fiji; Street and playground games; Modern Heritage
 - [Rummikub](../../games/826-rummikub/index.md): Israel; Board and table games; Crossroads and Golden Ages
 - [Russian Loto](../../games/22338-russian-loto/index.md): Russia; Board and table games; Crossroads and Golden Ages

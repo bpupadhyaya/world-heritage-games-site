@@ -1,20 +1,21 @@
 ---
 title: "Horse and animal sports"
-description: "16 related traditions."
+description: "17 related traditions."
 path: "/families/horse-animal/"
-count: 16
+count: 17
 ---
 # Horse and animal sports
 
-16 related traditions.
+17 related traditions.
 
 
 
-16 entries.
+17 entries.
 
 - [Camel racing dash](../../games/19-camel-racing-dash/index.md): Jordan; Racing; Crossroads and Golden Ages
 - [Champ de Mars turf](../../games/1253-champ-de-mars-turf/index.md): Mauritius; Sports with animal partners; Classical Worlds
 - [Cirit](../../games/156-cirit/index.md): Turkey; Dexterity and skill games; Classical Worlds
+- [Conkers](../../games/2047-conkers/index.md): United Kingdom; Street and playground games; Deep Past and First Games
 - [Equestrian vaulting](../../games/488-equestrian-vaulting/index.md): Worldwide; Sports with animal partners; Classical Worlds
 - [Lake Assal salt harvest](../../games/1321-lake-assal-salt-harvest/index.md): Djibouti; Sports with animal partners; Crossroads and Golden Ages
 - [Madura bull racing](../../games/805-madura-bull-racing/index.md): Indonesia; Street and playground games; Modern Heritage

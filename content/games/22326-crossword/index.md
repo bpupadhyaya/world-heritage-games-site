@@ -39,7 +39,7 @@ Usually placed in the era of Modern Heritage (1800 to today), within the cultura
 
 ## Play it
 
-[Web preview](https://bpupadhyaya.github.io/games-site/games/crossword-grid-clues/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/crossword-grid-clues/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
@@ -47,8 +47,8 @@ Usually placed in the era of Modern Heritage (1800 to today), within the cultura
 - [Shove ha'penny](../../games/54-shove-hapenny/index.md)
 - [Cynghanedd Poetry Puzzle](../../games/1448-cynghanedd-poetry-puzzle/index.md)
 - [Sjoelen](../../games/9-sjoelen/index.md)
-- [Diabolo](../../games/5023-diabolo/index.md)
-- [Pitch and toss](../../games/822-pitch-and-toss/index.md)
+- [Peg solitaire](../../games/4849-peg-solitaire/index.md)
+- [Tower of Hanoi](../../games/4976-tower-of-hanoi/index.md)
 
 ## Sources
 

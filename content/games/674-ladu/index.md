@@ -42,8 +42,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Lake Assal salt harvest](../../games/1321-lake-assal-salt-harvest/index.md)
 - [Cafe dominoes](../../games/690-cafe-dominoes/index.md)
 - [Senterej](../../games/707-senterej/index.md)
+- [Mehen](../../games/4785-mehen/index.md)
 - [Aqal Somali](../../games/190-aqal-somali/index.md)
-- [Layli Goobalay](../../games/675-layli-goobalay/index.md)
 
 ## Sources
 

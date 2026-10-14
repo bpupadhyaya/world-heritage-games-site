@@ -44,8 +44,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Shove ha'penny](../../games/54-shove-hapenny/index.md)
 - [Crossword](../../games/22326-crossword/index.md)
 - [Sjoelen](../../games/9-sjoelen/index.md)
-- [Diabolo](../../games/5023-diabolo/index.md)
-- [Pitch and toss](../../games/822-pitch-and-toss/index.md)
+- [Peg solitaire](../../games/4849-peg-solitaire/index.md)
+- [Tower of Hanoi](../../games/4976-tower-of-hanoi/index.md)
 
 ## Sources
 

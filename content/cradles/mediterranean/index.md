@@ -2,7 +2,7 @@
 title: "Mediterranean"
 description: "Greece, Rome, Iberia, Italy and the Maghreb around the inland sea."
 path: "/cradles/mediterranean/"
-count: 69
+count: 70
 ---
 # Mediterranean
 
@@ -10,7 +10,7 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 
 
 
-69 entries.
+70 entries.
 
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md): Morocco; Crafts and making; Living Traditions
 - [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md): Greece; Puzzles and mind games; Modern Heritage
@@ -40,6 +40,7 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Launeddas Triple Pipe](../../games/400-launeddas-triple-pipe/index.md): Italy; Musical instruments; Living Traditions
 - [Lefkara Lace](../../games/220-lefkara-lace/index.md): Cyprus; Crafts and making; Living Traditions
 - [Licitar Heart Decorator](../../games/1326-licitar-heart-decorator/index.md): Croatia; Crafts and making; Living Traditions
+- [Ludus Latrunculorum](../../games/4756-ludus-latrunculorum/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Luzzu Boat Painter](../../games/1330-luzzu-boat-painter/index.md): Malta; Crafts and making; Living Traditions
 - [Macau Portuguese Custard Tart Bake](../../games/1471-macau-portuguese-custard-tart-bake/index.md): Portugal, China; Crafts and making; Living Traditions
 - [Macau wave pavement](../../games/372-macau-wave-pavement/index.md): Portugal; Crafts and making; Living Traditions

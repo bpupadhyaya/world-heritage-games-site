@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with N"
-description: "32 entries beginning with N."
+description: "33 entries beginning with N."
 path: "/a-z/N/"
 ---
 # Entries beginning with N
@@ -28,6 +28,7 @@ path: "/a-z/N/"
 - [Nile Felucca Sailing](../../games/216-nile-felucca-sailing/index.md): Egypt; Racing; Age of Contact and Craft
 - [Nine Men's Morris](../../games/740-nine-mens-morris/index.md): Germany, Liechtenstein; Board and table games; River Valleys and First Cities
 - [Nohejbal](../../games/378-nohejbal/index.md): Czechia; Team ball sports; Modern Heritage
+- [Nonogram](../../games/4827-nonogram/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Nordic Colourwork Knitting](../../games/413-nordic-colourwork-knitting/index.md): United Kingdom, Norway; Crafts and making; Living Traditions
 - [Nouka Baich](../../games/42-nouka-baich/index.md): Bangladesh, India; Racing; Age of Contact and Craft
 - [Novuss](../../games/456-novuss/index.md): Latvia, Estonia; Board and table games; Crossroads and Golden Ages

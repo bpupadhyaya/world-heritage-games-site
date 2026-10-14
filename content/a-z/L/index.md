@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with L"
-description: "51 entries beginning with L."
+description: "52 entries beginning with L."
 path: "/a-z/L/"
 ---
 # Entries beginning with L
@@ -47,6 +47,7 @@ path: "/a-z/L/"
 - [Lotería](../../games/1211-loteria/index.md): Venezuela; Board and table games; Crossroads and Golden Ages
 - [Luban lock](../../games/99-luban-lock/index.md): China; Puzzles and mind games; Modern Heritage
 - [Ludo](../../games/763-ludo/index.md): Haiti, Jamaica; Board and table games; River Valleys and First Cities
+- [Ludus Latrunculorum](../../games/4756-ludus-latrunculorum/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Luge and toboggan run](../../games/482-luge-and-toboggan-run/index.md): Worldwide; Racing; Age of Contact and Craft
 - [Luk chup](../../games/307-luk-chup/index.md): Thailand; Crafts and making; Living Traditions
 - [Lukasa memory board pattern game](../../games/197-lukasa-memory-board-pattern-game/index.md): Worldwide; Crafts and making; Living Traditions

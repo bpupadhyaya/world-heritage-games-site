@@ -1,16 +1,16 @@
 ---
 title: "France"
-description: "15 traditions from France."
+description: "18 traditions from France."
 path: "/countries/france/"
-count: 15
+count: 18
 ---
 # France
 
-15 traditions from France.
+18 traditions from France.
 
 
 
-15 entries.
+18 entries.
 
 - [Bagatelle](../../games/72-bagatelle/index.md): France, United Kingdom; Dexterity and skill games; Modern Heritage
 - [Basque Pelota](../../games/1094-basque-pelota/index.md): Spain, France; Street and playground games; Modern Heritage
@@ -22,8 +22,11 @@ count: 15
 - [Grandmother's Footsteps](../../games/469-grandmothers-footsteps/index.md): United Kingdom, France; Other traditions; Living Traditions
 - [Hurdy-gurdy](../../games/153-hurdy-gurdy/index.md): France; Musical instruments; Living Traditions
 - [Letter Categories](../../games/472-letter-categories/index.md): Germany, India; Racing; Age of Contact and Craft
+- [Peg solitaire](../../games/4849-peg-solitaire/index.md): France; Puzzles and mind games; Modern Heritage
 - [Ribbon-Pole Plaiting Dance](../../games/512-ribbon-pole-plaiting-dance/index.md): United Kingdom, Germany; Dances; Living Traditions
+- [Shut the Box](../../games/4915-shut-the-box/index.md): France; Board and table games; River Valleys and First Cities
 - [Tamburello](../../games/489-tamburello/index.md): Italy, France; Crafts and making; Living Traditions
+- [Tower of Hanoi](../../games/4976-tower-of-hanoi/index.md): France; Puzzles and mind games; Modern Heritage
 - [Water Jousting](../../games/393-water-jousting/index.md): France; Wrestling and martial sports; Crossroads and Golden Ages
 - [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
 - [Petanque](../../games/872-petanque/index.md): Laos, France; Street and playground games; Modern Heritage

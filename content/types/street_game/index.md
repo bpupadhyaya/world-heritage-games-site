@@ -1,16 +1,16 @@
 ---
 title: "Street and playground games"
-description: "153 traditions of this kind."
+description: "154 traditions of this kind."
 path: "/types/street_game/"
-count: 153
+count: 154
 ---
 # Street and playground games
 
-153 traditions of this kind.
+154 traditions of this kind.
 
 
 
-153 entries.
+154 entries.
 
 - [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
 - [Backyard cricket](../../games/559-backyard-cricket/index.md): Australia; Street and playground games; Age of Contact and Craft
@@ -26,6 +26,7 @@ count: 153
 - [Chaza](../../games/643-chaza/index.md): Colombia; Street and playground games; Modern Heritage
 - [Chidaoba](../../games/734-chidaoba/index.md): Georgia; Street and playground games; River Valleys and First Cities
 - [Chogan](../../games/810-chogan/index.md): Iran; Street and playground games; Classical Worlds
+- [Conkers](../../games/2047-conkers/index.md): United Kingdom; Street and playground games; Deep Past and First Games
 - [Crossbow shooting](../../games/1058-crossbow-shooting/index.md): San Marino; Street and playground games; Modern Heritage
 - [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md): Indonesia; Street and playground games; Modern Heritage
 - [Curling](../../games/1181-curling/index.md): United Kingdom; Street and playground games; Modern Heritage

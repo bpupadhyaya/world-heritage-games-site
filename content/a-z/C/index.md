@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with C"
-description: "86 entries beginning with C."
+description: "89 entries beginning with C."
 path: "/a-z/C/"
 ---
 # Entries beginning with C
@@ -47,6 +47,8 @@ path: "/a-z/C/"
 - [Chinchinero Drum Walk](../../games/1406-chinchinero-drum-walk/index.md): Chile; Performance and storytelling; Modern Heritage
 - [Chinese Checkers](../../games/8870-chinese-checkers/index.md): Germany; Board and table games; Deep Past and First Games
 - [Chinese knotting](../../games/26-chinese-knotting/index.md): China; Crafts and making; Living Traditions
+- [Chinese paper cutting](../../games/1987-chinese-paper-cutting/index.md): China; Crafts and making; Living Traditions
+- [Chinese Rings](../../games/4551-chinese-rings/index.md): China; Puzzles and mind games; Modern Heritage
 - [Chinlone](../../games/16-chinlone/index.md): Myanmar; Dexterity and skill games; Modern Heritage
 - [Chogan](../../games/810-chogan/index.md): Iran; Street and playground games; Classical Worlds
 - [Choko](../../games/733-choko/index.md): Gambia; Board and table games; Crossroads and Golden Ages
@@ -70,6 +72,7 @@ path: "/a-z/C/"
 - [Colombian Parqués](../../games/644-colombian-parques/index.md): Colombia; Board and table games; River Valleys and First Cities
 - [Commedia Mask Stock Characters](../../games/515-commedia-mask-stock-characters/index.md): Italy; Performance and storytelling; Living Traditions
 - [Congklak](../../games/803-congklak/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
+- [Conkers](../../games/2047-conkers/index.md): United Kingdom; Street and playground games; Deep Past and First Games
 - [Cornhole](../../games/1194-cornhole/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Costa Rican painted oxcart](../../games/427-costa-rican-painted-oxcart/index.md): Costa Rica; Crafts and making; Living Traditions
 - [Cricket](../../games/22343-cricket/index.md): United Kingdom, India; Bat-and-ball games; Age of Contact and Craft

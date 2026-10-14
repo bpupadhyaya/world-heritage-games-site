@@ -37,16 +37,16 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Play it
 
-[Web preview](https://bpupadhyaya.github.io/games-site/games/tiger-and-goat/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442) · [Bagh-Chal: Tiger & Goat on Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.tigerandgoat.app) · Bagh-Chal: Tiger & Goat on the App Store (coming soon)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/tiger-and-goat/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442) · [Bagh-Chal: Tiger & Goat on Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.tigerandgoat.app) · Bagh-Chal: Tiger & Goat on the App Store (coming soon)
 
 ## Related entries
 
 - [Lambs and Tigers](../../games/791-lambs-and-tigers/index.md)
+- [Fox and Geese](../../games/4615-fox-and-geese/index.md)
+- [Hare and Hounds](../../games/4647-hare-and-hounds/index.md)
 - [Chaturanga](../../games/45-chaturanga/index.md)
 - [Mheibes](../../games/158-mheibes/index.md)
 - [Buzkashi](../../games/226-buzkashi/index.md)
-- [Kok-boru](../../games/241-kok-boru/index.md)
-- [Steppe eagle hunting](../../games/254-steppe-eagle-hunting/index.md)
 
 ## Sources
 

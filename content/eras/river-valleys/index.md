@@ -2,7 +2,7 @@
 title: "River Valleys and First Cities"
 description: "Games came with the first cities: boards for kings, dice for markets, and rules written down."
 path: "/eras/river-valleys/"
-count: 65
+count: 67
 ---
 # River Valleys and First Cities
 
@@ -10,7 +10,7 @@ Games came with the first cities: boards for kings, dice for markets, and rules 
 
 
 
-65 entries.
+67 entries.
 
 - [Bökh](../../games/374-bokh/index.md): Mongolia; Wrestling and martial sports; River Valleys and First Cities
 - [Boli Khela](../../games/572-boli-khela/index.md): Bangladesh; Street and playground games; River Valleys and First Cities
@@ -41,6 +41,7 @@ Games came with the first cities: boards for kings, dice for markets, and rules 
 - [Savika](../../games/905-savika/index.md): Madagascar; Street and playground games; River Valleys and First Cities
 - [Senet](../../games/693-senet/index.md): Egypt; Board and table games; River Valleys and First Cities
 - [Sho](../../games/286-sho/index.md): China; Board and table games; River Valleys and First Cities
+- [Shut the Box](../../games/4915-shut-the-box/index.md): France; Board and table games; River Valleys and First Cities
 - [Ssireum](../../games/366-ssireum/index.md): South Korea; Wrestling and martial sports; River Valleys and First Cities
 - [Sumo bout](../../games/359-sumo-bout/index.md): Japan; Wrestling and martial sports; River Valleys and First Cities
 - [Swiss wrestling](../../games/487-swiss-wrestling/index.md): Switzerland; Wrestling and martial sports; River Valleys and First Cities
@@ -49,6 +50,7 @@ Games came with the first cities: boards for kings, dice for markets, and rules 
 - [Trânta](../../games/1386-tranta/index.md): Moldova, Romania; Wrestling and martial sports; River Valleys and First Cities
 - [Tsoro Yematatu](../../games/196-tsoro-yematatu/index.md): Zimbabwe; Board and table games; River Valleys and First Cities
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
+- [Alquerque](../../games/4485-alquerque/index.md): Spain; Board and table games; River Valleys and First Cities
 - [Backgammon](../../games/1159-backgammon/index.md): Turkey, Israel; Board and table games; River Valleys and First Cities
 - [Colombian Parqués](../../games/644-colombian-parques/index.md): Colombia; Board and table games; River Valleys and First Cities
 - [Dudo / Cacho](../../games/1020-dudo-cacho/index.md): Peru; Board and table games; River Valleys and First Cities

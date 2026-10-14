@@ -37,16 +37,16 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Play it
 
-[Web preview](https://bpupadhyaya.github.io/games-site/games/pachisi-cowries-and-cross/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/pachisi-cowries-and-cross/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
+- [Mehen](../../games/4785-mehen/index.md)
 - [Tavëll](../../games/527-tavell/index.md)
 - [Tavli](../../games/656-tavli/index.md)
 - [Çiftelia](../../games/1257-ciftelia/index.md)
 - [Tavla](../../games/992-tavla/index.md)
 - [Parchís](../../games/1098-parchis/index.md)
-- [Kharbaga](../../games/459-kharbaga/index.md)
 
 ## Sources
 

@@ -45,7 +45,7 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md)
 - [Kurai](../../games/1237-kurai/index.md)
 - [Khloy bamboo duct flute](../../games/1311-khloy-bamboo-duct-flute/index.md)
-- [Khene](../../games/145-khene/index.md)
+- [Koto](../../games/2937-koto/index.md)
 
 ## Sources
 

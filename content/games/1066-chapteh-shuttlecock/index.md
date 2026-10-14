@@ -41,8 +41,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Jianzi](../../games/1-jianzi/index.md)
 - [Nohejbal](../../games/378-nohejbal/index.md)
 - [Peteca](../../games/421-peteca/index.md)
+- [Rugby football](../../games/3686-rugby-football/index.md)
 - [Traditional football](../../games/10068-traditional-football/index.md)
-- [American football](../../games/22320-american-football/index.md)
 
 ## Sources
 

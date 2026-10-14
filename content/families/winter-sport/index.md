@@ -1,16 +1,16 @@
 ---
 title: "Winter sports"
-description: "49 related traditions."
+description: "50 related traditions."
 path: "/families/winter-sport/"
-count: 49
+count: 50
 ---
 # Winter sports
 
-49 related traditions.
+50 related traditions.
 
 
 
-49 entries.
+50 entries.
 
 - ['Ulu Maika](../../games/44-ulu-maika/index.md): United States; Dexterity and skill games; Age of Contact and Craft
 - [Axe throwing](../../games/442-axe-throwing/index.md): Canada, United States; Dexterity and skill games; Modern Heritage
@@ -61,3 +61,4 @@ count: 49
 - [Yukigassen Snow Fort](../../games/71-yukigassen-snow-fort/index.md): Japan; Water and winter sports; Modern Heritage
 - [Zurkhaneh strength rhythm](../../games/227-zurkhaneh-strength-rhythm/index.md): Iran; Dexterity and skill games; Modern Heritage
 - [Koi](../../games/599-koi/index.md): Botswana; Street and playground games; Modern Heritage
+- [Ski jumping](../../games/3840-ski-jumping/index.md): Norway; Water and winter sports; Modern Heritage

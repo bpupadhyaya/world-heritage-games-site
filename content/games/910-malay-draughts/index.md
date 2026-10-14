@@ -38,11 +38,11 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [Thai checkers](../../games/1142-thai-checkers/index.md)
+- [Surakarta](../../games/4940-surakarta/index.md)
 - [Turkish Dama](../../games/155-turkish-dama/index.md)
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md)
 - [Peralikatuma](../../games/287-peralikatuma/index.md)
 - [Kharbaga](../../games/459-kharbaga/index.md)
-- [Sholo Guti](../../games/461-sholo-guti/index.md)
 
 ## Sources
 

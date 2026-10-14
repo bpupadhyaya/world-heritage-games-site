@@ -2,7 +2,7 @@
 title: "Africa: Sahel, West and Central"
 description: "The Sahel, the Guinea coast and the forests of central Africa."
 path: "/cradles/africa-west/"
-count: 91
+count: 92
 ---
 # Africa: Sahel, West and Central
 
@@ -10,7 +10,7 @@ The Sahel, the Guinea coast and the forests of central Africa.
 
 
 
-91 entries.
+92 entries.
 
 - [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
@@ -32,6 +32,7 @@ The Sahel, the Guinea coast and the forests of central Africa.
 - [Dakar Car Rapide Livery Painter](../../games/1263-dakar-car-rapide-livery-painter/index.md): Senegal; Crafts and making; Living Traditions
 - [Dambe](../../games/987-dambe/index.md): Nigeria, Niger; Street and playground games; Modern Heritage
 - [Dara](../../games/452-dara/index.md): Nigeria, Niger; Board and table games; Living Traditions
+- [Djembe](../../games/2189-djembe/index.md): Guinea, Mali; Musical instruments; Modern Heritage
 - [Dogon Granary Builder](../../games/177-dogon-granary-builder/index.md): Mali; Crafts and making; Living Traditions
 - [Faso Dan Fani Strip Weaving](../../games/1277-faso-dan-fani-strip-weaving/index.md): Burkina Faso; Crafts and making; Living Traditions
 - [Freetown Beach Seine Haul](../../games/1282-freetown-beach-seine-haul/index.md): Sierra Leone; Performance and storytelling; Living Traditions

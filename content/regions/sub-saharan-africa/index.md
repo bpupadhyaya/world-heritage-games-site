@@ -1,16 +1,16 @@
 ---
 title: "Sub-Saharan Africa"
-description: "192 entries."
+description: "193 entries."
 path: "/regions/sub-saharan-africa/"
-count: 192
+count: 193
 ---
 # Sub-Saharan Africa
 
-192 entries.
+193 entries.
 
 
 
-192 entries.
+193 entries.
 
 - [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
@@ -49,6 +49,7 @@ count: 192
 - [Dara](../../games/452-dara/index.md): Nigeria, Niger; Board and table games; Living Traditions
 - [Diketo](../../games/1076-diketo/index.md): South Africa, Botswana; Dexterity and skill games; Deep Past and First Games
 - [Dinka beaded corset beadwork](../../games/1269-dinka-beaded-corset-beadwork/index.md): South Sudan; Crafts and making; Living Traditions
+- [Djembe](../../games/2189-djembe/index.md): Guinea, Mali; Musical instruments; Modern Heritage
 - [Dogon Granary Builder](../../games/177-dogon-granary-builder/index.md): Mali; Crafts and making; Living Traditions
 - [Dorze cotton weaving](../../games/1271-dorze-cotton-weaving/index.md): Ethiopia; Crafts and making; Living Traditions
 - [Engolo](../../games/1409-engolo/index.md): Angola; Dances; Living Traditions

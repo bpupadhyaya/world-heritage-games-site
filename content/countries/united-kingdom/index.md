@@ -1,16 +1,16 @@
 ---
 title: "United Kingdom"
-description: "47 traditions from United Kingdom."
+description: "52 traditions from United Kingdom."
 path: "/countries/united-kingdom/"
-count: 47
+count: 52
 ---
 # United Kingdom
 
-47 traditions from United Kingdom.
+52 traditions from United Kingdom.
 
 
 
-47 entries.
+52 entries.
 
 - [Antigua Classic Yacht Race](../../games/1433-antigua-classic-yacht-race/index.md): Antigua and Barbuda, United Kingdom; Racing; Age of Contact and Craft
 - [Bagatelle](../../games/72-bagatelle/index.md): France, United Kingdom; Dexterity and skill games; Modern Heritage
@@ -22,10 +22,12 @@ count: 47
 - [Change Ringing](../../games/1443-change-ringing/index.md): United Kingdom; Puzzles and mind games; Age of Contact and Craft
 - [Cheese Rolling Hill](../../games/70-cheese-rolling-hill/index.md): United Kingdom; Racing; Modern Heritage
 - [Clockwork Movement Builder](../../games/502-clockwork-movement-builder/index.md): Germany, Switzerland; Puzzles and mind games; Modern Heritage
+- [Conkers](../../games/2047-conkers/index.md): United Kingdom; Street and playground games; Deep Past and First Games
 - [Croquet](../../games/81-croquet/index.md): United Kingdom, Ireland; Board and table games; Crossroads and Golden Ages
 - [Curling](../../games/1181-curling/index.md): United Kingdom; Street and playground games; Modern Heritage
 - [Cynghanedd Poetry Puzzle](../../games/1448-cynghanedd-poetry-puzzle/index.md): United Kingdom; Puzzles and mind games; Modern Heritage
 - [Disc-flip](../../games/8-disc-flip/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
+- [Fox and Geese](../../games/4615-fox-and-geese/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
 - [Grandmother's Footsteps](../../games/469-grandmothers-footsteps/index.md): United Kingdom, France; Other traditions; Living Traditions
 - [Gumboot throwing](../../games/448-gumboot-throwing/index.md): New Zealand, United Kingdom; Puzzles and mind games; Modern Heritage
 - [Highland Bagpipe Chanter and Drone](../../games/510-highland-bagpipe-chanter-and-drone/index.md): United Kingdom; Musical instruments; Crossroads and Golden Ages
@@ -39,6 +41,7 @@ count: 47
 - [Regional pub games](../../games/1180-regional-pub-games/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
 - [Ribbon Pole Weave](../../games/419-ribbon-pole-weave/index.md): United Kingdom, Spain; Dances; Living Traditions
 - [Ribbon-Pole Plaiting Dance](../../games/512-ribbon-pole-plaiting-dance/index.md): United Kingdom, Germany; Dances; Living Traditions
+- [Rugby football](../../games/3686-rugby-football/index.md): United Kingdom, New Zealand; Team ball sports; Modern Heritage
 - [Sack Race](../../games/476-sack-race/index.md): Indonesia, United Kingdom; Racing; Age of Contact and Craft
 - [Shove ha'penny](../../games/54-shove-hapenny/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
 - [Sprouts](../../games/473-sprouts/index.md): United Kingdom; Crafts and making; Living Traditions
@@ -50,6 +53,7 @@ count: 47
 - [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
 - [Cricket](../../games/22343-cricket/index.md): United Kingdom, India; Bat-and-ball games; Age of Contact and Craft
 - [Crossword](../../games/22326-crossword/index.md): United Kingdom, United States; Puzzles and mind games; Modern Heritage
+- [Hare and Hounds](../../games/4647-hare-and-hounds/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
 - [Highland games](../../games/1184-highland-games/index.md): United Kingdom; Street and playground games; Modern Heritage
 - [Miniature golf](../../games/22333-miniature-golf/index.md): United Kingdom, United States; Dexterity and skill games; Modern Heritage
 - [Pub dominoes](../../games/1183-pub-dominoes/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
@@ -58,4 +62,5 @@ count: 47
 - [Skittles](../../games/1179-skittles/index.md): United Kingdom, Germany; Street and playground games; Age of Contact and Craft
 - [Snooker](../../games/1185-snooker/index.md): United Kingdom; Street and playground games; Modern Heritage
 - [Table tennis](../../games/22342-table-tennis/index.md): United Kingdom, China; Bat-and-ball games; Age of Contact and Craft
+- [Tennis](../../games/4957-tennis/index.md): United Kingdom; Bat-and-ball games; Modern Heritage
 - [Traditional football](../../games/10068-traditional-football/index.md): United Kingdom; Team ball sports; Modern Heritage

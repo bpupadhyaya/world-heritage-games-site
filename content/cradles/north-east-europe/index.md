@@ -2,7 +2,7 @@
 title: "Northern and Eastern Europe"
 description: "Nordic, Baltic, Slavic and central European lands."
 path: "/cradles/north-east-europe/"
-count: 89
+count: 90
 ---
 # Northern and Eastern Europe
 
@@ -10,7 +10,7 @@ Nordic, Baltic, Slavic and central European lands.
 
 
 
-89 entries.
+90 entries.
 
 - [Balalaika](../../games/133-balalaika/index.md): Russia; Musical instruments; Crossroads and Golden Ages
 - [Balkan Kolo](../../games/134-balkan-kolo/index.md): Serbia, Croatia; Dances; Living Traditions
@@ -100,4 +100,5 @@ Nordic, Baltic, Slavic and central European lands.
 - [Palant](../../games/1031-palant/index.md): Poland; Street and playground games; Deep Past and First Games
 - [Polish draughts](../../games/1034-polish-draughts/index.md): Poland; Board and table games; Crossroads and Golden Ages
 - [Russian Loto](../../games/22338-russian-loto/index.md): Russia; Board and table games; Crossroads and Golden Ages
+- [Ski jumping](../../games/3840-ski-jumping/index.md): Norway; Water and winter sports; Modern Heritage
 - [Table](../../games/1044-table/index.md): Romania, Moldova; Board and table games; River Valleys and First Cities

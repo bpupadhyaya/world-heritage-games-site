@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with K"
-description: "98 entries beginning with K."
+description: "99 entries beginning with K."
 path: "/a-z/K/"
 ---
 # Entries beginning with K
@@ -82,6 +82,7 @@ path: "/a-z/K/"
 - [Kora](../../games/7176-kora/index.md): Gambia, Mali; Musical instruments; Classical Worlds
 - [Korfball](../../games/481-korfball/index.md): Netherlands, Belgium; Team ball sports; Modern Heritage
 - [Korhogo Painted Cloth Studio](../../games/1318-korhogo-painted-cloth-studio/index.md): Cote d'Ivoire; Crafts and making; Living Traditions
+- [Koto](../../games/2937-koto/index.md): Japan; Musical instruments; Classical Worlds
 - [Kotta Pora](../../games/18-kotta-pora/index.md): Sri Lanka; Wrestling and martial sports; Classical Worlds
 - [Kottabos Symposium Toss](../../games/392-kottabos-symposium-toss/index.md): Greece; Archery, throwing and target games; Classical Worlds
 - [Krar lyre](../../games/126-krar-lyre/index.md): Ethiopia, Eritrea; Musical instruments; Classical Worlds

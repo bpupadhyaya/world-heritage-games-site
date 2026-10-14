@@ -2,7 +2,7 @@
 title: "China"
 description: "From the Yellow River to the Yangtze and the highlands beyond."
 path: "/cradles/china/"
-count: 47
+count: 49
 ---
 # China
 
@@ -10,13 +10,14 @@ From the Yellow River to the Yangtze and the highlands beyond.
 
 
 
-47 entries.
+49 entries.
 
 - [Bamboo scaffold builder](../../games/369-bamboo-scaffold-builder/index.md): China; Crafts and making; Living Traditions
 - [Banqi](../../games/1437-banqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages
 - [Bianzhong](../../games/336-bianzhong/index.md): China; Musical instruments; Living Traditions
 - [Cheongsam Tailor Shop](../../games/1462-cheongsam-tailor-shop/index.md): China; Crafts and making; Living Traditions
 - [Chinese knotting](../../games/26-chinese-knotting/index.md): China; Crafts and making; Living Traditions
+- [Chinese paper cutting](../../games/1987-chinese-paper-cutting/index.md): China; Crafts and making; Living Traditions
 - [Chuiwan](../../games/332-chuiwan/index.md): China; Other traditions; Living Traditions
 - [Cloisonne](../../games/343-cloisonne/index.md): China; Crafts and making; Living Traditions
 - [Cuju](../../games/333-cuju/index.md): China; Dexterity and skill games; Classical Worlds
@@ -52,6 +53,7 @@ From the Yellow River to the Yangtze and the highlands beyond.
 - [Tanghua](../../games/64-tanghua/index.md): China; Crafts and making; Living Traditions
 - [Tangram](../../games/641-tangram/index.md): China; Puzzles and mind games; Modern Heritage
 - [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md): China; Board and table games; Classical Worlds
+- [Chinese Rings](../../games/4551-chinese-rings/index.md): China; Puzzles and mind games; Modern Heritage
 - [Hong Kong mahjong](../../games/772-hong-kong-mahjong/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Jungle](../../games/637-jungle/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Kongzhu](../../games/5289-kongzhu/index.md): China; Dexterity and skill games; Modern Heritage

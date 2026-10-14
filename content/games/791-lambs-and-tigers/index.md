@@ -38,11 +38,11 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [Tiger and Goat](../../games/967-tiger-and-goat/index.md)
+- [Fox and Geese](../../games/4615-fox-and-geese/index.md)
+- [Hare and Hounds](../../games/4647-hare-and-hounds/index.md)
 - [Chaturanga](../../games/45-chaturanga/index.md)
 - [Rabab plucked lute](../../games/270-rabab-plucked-lute/index.md)
 - [Veena](../../games/282-veena/index.md)
-- [Mheibes](../../games/158-mheibes/index.md)
-- [Buzkashi](../../games/226-buzkashi/index.md)
 
 ## Sources
 

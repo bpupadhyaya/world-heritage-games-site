@@ -41,16 +41,16 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Play it
 
-[Web preview](https://bpupadhyaya.github.io/games-site/games/huarong-dao-sliding-puzzle/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/huarong-dao-sliding-puzzle/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
 - [Luban lock](../../games/99-luban-lock/index.md)
 - [Tangram](../../games/641-tangram/index.md)
+- [Chinese Rings](../../games/4551-chinese-rings/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
 - [Stone Skipping](../../games/5-stone-skipping/index.md)
 - [Disc-flip](../../games/8-disc-flip/index.md)
-- [Sjoelen](../../games/9-sjoelen/index.md)
 
 ## Sources
 

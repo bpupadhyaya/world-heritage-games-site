@@ -1,16 +1,16 @@
 ---
 title: "China"
-description: "52 traditions from China."
+description: "54 traditions from China."
 path: "/countries/china/"
-count: 52
+count: 54
 ---
 # China
 
-52 traditions from China.
+54 traditions from China.
 
 
 
-52 entries.
+54 entries.
 
 - [Bamboo scaffold builder](../../games/369-bamboo-scaffold-builder/index.md): China; Crafts and making; Living Traditions
 - [Banqi](../../games/1437-banqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages
@@ -18,6 +18,7 @@ count: 52
 - [Calligraphy](../../games/6621-calligraphy/index.md): China; Crafts and making; Living Traditions
 - [Cheongsam Tailor Shop](../../games/1462-cheongsam-tailor-shop/index.md): China; Crafts and making; Living Traditions
 - [Chinese knotting](../../games/26-chinese-knotting/index.md): China; Crafts and making; Living Traditions
+- [Chinese paper cutting](../../games/1987-chinese-paper-cutting/index.md): China; Crafts and making; Living Traditions
 - [Chuiwan](../../games/332-chuiwan/index.md): China; Other traditions; Living Traditions
 - [Cloisonne](../../games/343-cloisonne/index.md): China; Crafts and making; Living Traditions
 - [Cuju](../../games/333-cuju/index.md): China; Dexterity and skill games; Classical Worlds
@@ -56,6 +57,7 @@ count: 52
 - [Tangram](../../games/641-tangram/index.md): China; Puzzles and mind games; Modern Heritage
 - [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md): China; Board and table games; Classical Worlds
 - [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
+- [Chinese Rings](../../games/4551-chinese-rings/index.md): China; Puzzles and mind games; Modern Heritage
 - [Hong Kong mahjong](../../games/772-hong-kong-mahjong/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Jungle](../../games/637-jungle/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Kongzhu](../../games/5289-kongzhu/index.md): China; Dexterity and skill games; Modern Heritage

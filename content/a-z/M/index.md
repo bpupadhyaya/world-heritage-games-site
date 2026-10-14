@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with M"
-description: "75 entries beginning with M."
+description: "76 entries beginning with M."
 path: "/a-z/M/"
 ---
 # Entries beginning with M
@@ -46,6 +46,7 @@ path: "/a-z/M/"
 - [Matryoshka](../../games/28-matryoshka/index.md): Russia; Crafts and making; Living Traditions
 - [Maze](../../games/6640-maze/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Mbira](../../games/32-mbira/index.md): Zimbabwe; Musical instruments; Crossroads and Golden Ages
+- [Mehen](../../games/4785-mehen/index.md): Egypt; Board and table games; Crossroads and Golden Ages
 - [Mehndi henna pattern drawing](../../games/260-mehndi-henna-pattern-drawing/index.md): India, Pakistan; Crafts and making; Living Traditions
 - [Menko](../../games/346-menko/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Mento band](../../games/432-mento-band/index.md): Jamaica; Musical instruments; Living Traditions

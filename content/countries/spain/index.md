@@ -1,16 +1,16 @@
 ---
 title: "Spain"
-description: "14 traditions from Spain."
+description: "15 traditions from Spain."
 path: "/countries/spain/"
-count: 14
+count: 15
 ---
 # Spain
 
-14 traditions from Spain.
+15 traditions from Spain.
 
 
 
-14 entries.
+15 entries.
 
 - [Basque Pelota](../../games/1094-basque-pelota/index.md): Spain, France; Street and playground games; Modern Heritage
 - [Bottle Dance](../../games/1424-bottle-dance/index.md): Paraguay, Spain; Dances; Living Traditions
@@ -24,5 +24,6 @@ count: 14
 - [Steal the Flag](../../games/474-steal-the-flag/index.md): Italy, Brazil; Other traditions; Living Traditions
 - [Txalaparta Duet](../../games/390-txalaparta-duet/index.md): Spain; Musical instruments; Living Traditions
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
+- [Alquerque](../../games/4485-alquerque/index.md): Spain; Board and table games; River Valleys and First Cities
 - [Parchís](../../games/1098-parchis/index.md): Spain; Board and table games; River Valleys and First Cities
 - [Table football](../../games/5250-table-football/index.md): Spain; Team ball sports; Crossroads and Golden Ages

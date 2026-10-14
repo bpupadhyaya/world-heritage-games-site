@@ -42,10 +42,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Huarong Dao](../../games/639-huarong-dao/index.md)
 - [Tangram](../../games/641-tangram/index.md)
+- [Chinese Rings](../../games/4551-chinese-rings/index.md)
 - [Kingyo-sukui](../../games/3-kingyo-sukui/index.md)
 - [Stone Skipping](../../games/5-stone-skipping/index.md)
 - [Disc-flip](../../games/8-disc-flip/index.md)
-- [Sjoelen](../../games/9-sjoelen/index.md)
 
 ## Sources
 

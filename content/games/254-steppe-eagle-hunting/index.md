@@ -40,7 +40,7 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Play it
 
-[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/steppe-eagle-hunting/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
@@ -48,8 +48,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Ger raising](../../games/101-ger-raising/index.md)
 - [Buzkashi](../../games/226-buzkashi/index.md)
 - [Kok-boru](../../games/241-kok-boru/index.md)
+- [Fox and Geese](../../games/4615-fox-and-geese/index.md)
 - [Pilolo](../../games/750-pilolo/index.md)
-- [Lambs and Tigers](../../games/791-lambs-and-tigers/index.md)
 
 ## Sources
 

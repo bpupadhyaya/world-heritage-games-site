@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with D"
-description: "49 entries beginning with D."
+description: "50 entries beginning with D."
 path: "/a-z/D/"
 ---
 # Entries beginning with D
@@ -34,6 +34,7 @@ path: "/a-z/D/"
 - [Dinka beaded corset beadwork](../../games/1269-dinka-beaded-corset-beadwork/index.md): South Sudan; Crafts and making; Living Traditions
 - [Disc-flip](../../games/8-disc-flip/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
 - [Dizi](../../games/132-dizi/index.md): China; Musical instruments; Classical Worlds
+- [Djembe](../../games/2189-djembe/index.md): Guinea, Mali; Musical instruments; Modern Heritage
 - [Dogon Granary Builder](../../games/177-dogon-granary-builder/index.md): Mali; Crafts and making; Living Traditions
 - [Doko porter trail](../../games/293-doko-porter-trail/index.md): Nepal; Dexterity and skill games; Modern Heritage
 - [Dombra](../../games/48-dombra/index.md): Kazakhstan; Musical instruments; Crossroads and Golden Ages

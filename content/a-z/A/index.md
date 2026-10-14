@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with A"
-description: "59 entries beginning with A."
+description: "60 entries beginning with A."
 path: "/a-z/A/"
 ---
 # Entries beginning with A
@@ -31,6 +31,7 @@ path: "/a-z/A/"
 - [Alchik](../../games/868-alchik/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
 - [Alebrije painting](../../games/92-alebrije-painting/index.md): Mexico; Crafts and making; Living Traditions
 - [Allo nettle fibre weaving](../../games/1228-allo-nettle-fibre-weaving/index.md): Nepal; Crafts and making; Living Traditions
+- [Alquerque](../../games/4485-alquerque/index.md): Spain; Board and table games; River Valleys and First Cities
 - [Amadinda and embaire](../../games/185-amadinda-and-embaire/index.md): Uganda; Musical instruments; Living Traditions
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md): Morocco; Crafts and making; Living Traditions
 - [Ambalangoda mask carving](../../games/299-ambalangoda-mask-carving/index.md): Sri Lanka; Crafts and making; Living Traditions

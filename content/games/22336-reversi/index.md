@@ -38,16 +38,16 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Play it
 
-[Web preview](https://bpupadhyaya.github.io/games-site/games/reversi-flip-board/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/reversi-flip-board/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
 - [Croquet](../../games/81-croquet/index.md)
 - [Racing Pigeon Loft](../../games/411-racing-pigeon-loft/index.md)
 - [Highland Bagpipe Chanter and Drone](../../games/510-highland-bagpipe-chanter-and-drone/index.md)
+- [Fox and Geese](../../games/4615-fox-and-geese/index.md)
 - [Pub dominoes](../../games/1183-pub-dominoes/index.md)
-- [Water Jousting](../../games/393-water-jousting/index.md)
-- [Hurling](../../games/821-hurling/index.md)
+- [Hare and Hounds](../../games/4647-hare-and-hounds/index.md)
 
 ## Sources
 

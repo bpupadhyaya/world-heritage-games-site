@@ -44,8 +44,8 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Cloisonne](../../games/343-cloisonne/index.md)
 - [Oil-paper umbrella making](../../games/344-oil-paper-umbrella-making/index.md)
 - [Cheongsam Tailor Shop](../../games/1462-cheongsam-tailor-shop/index.md)
+- [Chinese paper cutting](../../games/1987-chinese-paper-cutting/index.md)
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md)
-- [Ndebele geometric wall painting](../../games/23-ndebele-geometric-wall-painting/index.md)
 
 ## Sources
 

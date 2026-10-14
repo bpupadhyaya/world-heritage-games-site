@@ -1,16 +1,16 @@
 ---
 title: "Middle East and North Africa"
-description: "100 entries."
+description: "103 entries."
 path: "/regions/middle-east-and-north-africa/"
-count: 100
+count: 103
 ---
 # Middle East and North Africa
 
-100 entries.
+103 entries.
 
 
 
-100 entries.
+103 entries.
 
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
 - [Al Talli Braid Embroidery](../../games/1273-al-talli-braid-embroidery/index.md): United Arab Emirates; Crafts and making; Living Traditions
@@ -54,6 +54,7 @@ count: 100
 - [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
 - [Mangala](../../games/1164-mangala/index.md): Turkey; Board and table games; Deep Past and First Games
 - [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md): Egypt, Syria; Crafts and making; Living Traditions
+- [Mehen](../../games/4785-mehen/index.md): Egypt; Board and table games; Crossroads and Golden Ages
 - [Mezoued Bagpipe and Tabl Drum](../../games/1336-mezoued-bagpipe-and-tabl-drum/index.md): Tunisia; Musical instruments; Crossroads and Golden Ages
 - [Mheibes](../../games/158-mheibes/index.md): Iraq; Street and playground games; Modern Heritage
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md): Lebanon, Syria; Musical instruments; Living Traditions
@@ -65,6 +66,7 @@ count: 100
 - [Oil wrestling](../../games/480-oil-wrestling/index.md): Turkey; Wrestling and martial sports; River Valleys and First Cities
 - [Okey](../../games/1158-okey/index.md): Turkey, Cyprus; Board and table games; Classical Worlds
 - [Omani Khanjar Silver Filigree](../../games/1351-omani-khanjar-silver-filigree/index.md): Oman; Crafts and making; Living Traditions
+- [Oud](../../games/3348-oud/index.md): Iraq, Egypt; Musical instruments; Crossroads and Golden Ages
 - [Persian Carpet Knotting](../../games/161-persian-carpet-knotting/index.md): Iran, Turkey; Crafts and making; Living Traditions
 - [Persian garden layout puzzle](../../games/239-persian-garden-layout-puzzle/index.md): Iran; Crafts and making; Living Traditions
 - [Phoenician Alphabet Trader](../../games/1359-phoenician-alphabet-trader/index.md): Lebanon; Puzzles and mind games; Modern Heritage
@@ -91,6 +93,7 @@ count: 100
 - [Zurkhaneh strength rhythm](../../games/227-zurkhaneh-strength-rhythm/index.md): Iran; Dexterity and skill games; Modern Heritage
 - [101 Okey](../../games/1166-101-okey/index.md): Turkey; Board and table games; Crossroads and Golden Ages
 - [Al Laqfa](../../games/1038-al-laqfa/index.md): Qatar; Dexterity and skill games; Modern Heritage
+- [Alquerque](../../games/4485-alquerque/index.md): Spain; Board and table games; River Valleys and First Cities
 - [Anywoli](../../games/1109-anywoli/index.md): Sudan; Board and table games; Deep Past and First Games
 - [Arabian mancala](../../games/1219-arabian-mancala/index.md): Yemen; Board and table games; Deep Past and First Games
 - [Aweet](../../games/1110-aweet/index.md): Sudan; Board and table games; Deep Past and First Games

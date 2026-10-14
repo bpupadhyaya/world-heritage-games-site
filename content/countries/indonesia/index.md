@@ -1,16 +1,16 @@
 ---
 title: "Indonesia"
-description: "26 traditions from Indonesia."
+description: "27 traditions from Indonesia."
 path: "/countries/indonesia/"
-count: 26
+count: 27
 ---
 # Indonesia
 
-26 traditions from Indonesia.
+27 traditions from Indonesia.
 
 
 
-26 entries.
+27 entries.
 
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
 - [Bakiak](../../games/324-bakiak/index.md): Indonesia, Malaysia; Racing; Age of Contact and Craft
@@ -38,3 +38,4 @@ count: 26
 - [Gamelan](../../games/22329-gamelan/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Gaple dominoes](../../games/804-gaple-dominoes/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
 - [Rice terrace farming](../../games/22337-rice-terrace-farming/index.md): Philippines, Indonesia; Other traditions; Living Traditions
+- [Surakarta](../../games/4940-surakarta/index.md): Indonesia; Board and table games; Crossroads and Golden Ages

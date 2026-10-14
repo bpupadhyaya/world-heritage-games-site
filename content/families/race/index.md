@@ -1,19 +1,20 @@
 ---
 title: "Race and cross games"
-description: "23 related traditions."
+description: "24 related traditions."
 path: "/families/race/"
-count: 23
+count: 24
 ---
 # Race and cross games
 
-23 related traditions.
+24 related traditions.
 
 
 
-23 entries.
+24 entries.
 
 - [Don't Get Angry](../../games/744-dont-get-angry/index.md): Germany; Board and table games; River Valleys and First Cities
 - [Ludo](../../games/763-ludo/index.md): Haiti, Jamaica; Board and table games; River Valleys and First Cities
+- [Mehen](../../games/4785-mehen/index.md): Egypt; Board and table games; Crossroads and Golden Ages
 - [Nard / backgammon](../../games/1168-nard-backgammon/index.md): Turkmenistan, Tajikistan; Board and table games; River Valleys and First Cities
 - [Nardi](../../games/551-nardi/index.md): Armenia, Azerbaijan; Board and table games; River Valleys and First Cities
 - [Royal Game of Ur](../../games/817-royal-game-of-ur/index.md): Iraq; Board and table games; River Valleys and First Cities

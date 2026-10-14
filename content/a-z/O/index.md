@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with O"
-description: "20 entries beginning with O."
+description: "22 entries beginning with O."
 path: "/a-z/O/"
 ---
 # Entries beginning with O
@@ -19,8 +19,10 @@ path: "/a-z/O/"
 - [Omweso](../../games/1176-omweso/index.md): Uganda; Board and table games; Deep Past and First Games
 - [One Arrow Oath](../../games/22334-one-arrow-oath/index.md): India; Other traditions; Modern Heritage
 - [Ordo](../../games/870-ordo/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
+- [Origami](../../games/3332-origami/index.md): Japan; Crafts and making; Living Traditions
 - [Otedama](../../games/131-otedama/index.md): Japan; Dexterity and skill games; Modern Heritage
 - [Oualata Wall Painting](../../games/1352-oualata-wall-painting/index.md): Mauritania; Crafts and making; Living Traditions
+- [Oud](../../games/3348-oud/index.md): Iraq, Egypt; Musical instruments; Crossroads and Golden Ages
 - [Ouril](../../games/611-ouril/index.md): Cape Verde, Guinea-Bissau; Board and table games; Deep Past and First Games
 - [Oware](../../games/749-oware/index.md): Ghana; Board and table games; Deep Past and First Games
 - [Oware-family mancala](../../games/587-oware-family-mancala/index.md): Benin, Burkina Faso; Board and table games; Deep Past and First Games
