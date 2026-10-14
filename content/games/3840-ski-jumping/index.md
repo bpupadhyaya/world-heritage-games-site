@@ -1,6 +1,6 @@
 ---
 title: "Ski jumping"
-description: "Crouch down the ice track, jump on the lip, hold your skis in the green band against the wind and land a telemark above a 3D fjord."
+description: "Ski jumping is a winter sport born in the snowy hills of Norway, where skiers jump from a ramp and are judged on both how far they fly and how cleanly they land. Competition jumping developed in the…"
 path: "/games/3840-ski-jumping/"
 id: 3840
 type: "water_winter"
@@ -13,19 +13,19 @@ countries: ["Norway"]
 
 **Encyclopedia ID 3840** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/3840-ski-jumping/
 
-Crouch down the ice track, jump on the lip, hold your skis in the green band against the wind and land a telemark above a 3D fjord.
+Ski jumping is a winter sport born in the snowy hills of Norway, where skiers jump from a ramp and are judged on both how far they fly and how cleanly they land. Competition jumping developed in the Telemark region in the 1800s, and Sondre Norheim of Morgedal became a legendary figure for his long jumps and his new style of binding. The first public jumping contests are recorded in the early 1860s, and the Holmenkollen hill above Oslo has hosted a national festival since 1892.
 
 ## How it is played
 
-Hold to crouch on the in-run, lift your finger as the ring closes on the lip. Lift again as the ring closes on the snow to land in a telemark.
+The jumper crouches on the in-run of a long, icy track, picks up speed, and extends from the take-off lip into a flight position with the skis spread forward and apart in a V. Five judges award marks for style, taking points off for poor balance, bent skis in flight or a rough landing, and the distance is measured from the take-off to the landing. The jumper lands in the telemark pose, with one foot placed ahead of the other and the knees bent, and holds it to the end of the run-out. Points are then adjusted for wind and for the height of the starting gate.
 
 ## Heritage note
 
-Part of the living heritage of Norway.
+Ski jumping is a national passion in Norway and also in Finland, Austria, Germany, Poland, Slovenia and Japan. The telemark landing, named for the region where skiing was developed as a sport, is a living link to the earliest jumpers and is still required by the rules. The sport was part of the first Winter Olympic Games at Chamonix in 1924, and women's competitions joined the Olympic programme in 2014. The modern V-style, in which the skis are held apart in flight, was introduced by the Swedish jumper Jan Boklov in the 1980s and quickly replaced the older parallel style.
 
 ## Origins
 
-Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Northern and Eastern Europe.
+Developed in Norway in the 1800s, especially in the Telemark district, and carried abroad by Norwegian emigrants and sports-minded travellers in the late 1800s.
 
 ## Facts
 

@@ -1,6 +1,6 @@
 ---
 title: "Mehen"
-description: "Race carved lions along a coiled snake of stone from its tail to its head. Throw four sticks, choose a lion, spend a marble to nudge the throw, rest on the carved stones and knock rivals back to the…"
+description: "Mehen is an ancient Egyptian board game played on a circular board carved as a coiled snake, with the head at the centre and the body divided into spaces. It takes its name from the serpent of…"
 path: "/games/4785-mehen/"
 id: 4785
 type: "board_game"
@@ -17,19 +17,19 @@ countries: ["Egypt"]
 
 *Photo: Waltros, [CC0](https://creativecommons.org/publicdomain/zero/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:British_Museum_Mehen_Board.jpg)*
 
-Race carved lions along a coiled snake of stone from its tail to its head. Throw four sticks, choose a lion, spend a marble to nudge the throw, rest on the carved stones and knock rivals back to the start.
+Mehen is an ancient Egyptian board game played on a circular board carved as a coiled snake, with the head at the centre and the body divided into spaces. It takes its name from the serpent of Egyptian myth that coiled around the sun's journey to protect it. The game was popular in the early dynasties and the Old Kingdom, from about 3000 to 2300 BCE, and then disappeared from the record, and it has been found in tombs in Egypt as well as at sites in the Levant.
 
 ## How it is played
 
-Throw four sticks: the flat sides facing up are your steps (none up counts as 5). A 4 or 5 earns another throw. Spend a marble to make a throw one more or one less. Marbles are also won by capturing and by bringing a lion home.
+Players race pieces shaped as lions and lionesses, with marbles also used in play, from the tail of the snake to the head at the centre. Moves were probably decided by throwing sticks or dice, though the exact method is not known, and pieces move along the segments of the coiled body toward the centre. Reconstructions, based on tomb scenes and the finds of boards, pieces and marbles, use captures that send a rival back to the start. The first to bring home all pieces wins.
 
 ## Heritage note
 
-Part of the living heritage of Egypt.
+Stone mehen boards have been found in cemeteries, and several tomb paintings at Saqqara show people playing the game, usually seated on the ground with the board between them. The game appears in Egyptian funerary texts alongside the senet game, which suggests it carried meaning beyond play. It is one of the oldest board games known and also one of the most puzzling, because the original rules were never written down, and different modern researchers have proposed different reconstructions based on the evidence.
 
 ## Origins
 
-Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Africa: Nile and the Horn.
+Attested in Egypt from the Predynastic and Early Dynastic periods, through the Old Kingdom; boards and pieces have also been found in the Levant.
 
 ## Facts
 

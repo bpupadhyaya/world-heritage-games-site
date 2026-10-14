@@ -1,6 +1,6 @@
 ---
 title: "Djembe"
-description: "Notes slide toward the glowing line: top row Slap, middle row Tone, bottom row Bass."
+description: "The djembe is a goblet-shaped hand drum from West Africa, carved from a single piece of hardwood and covered with a goatskin head. It originated among the Mandinka (Maninka) and Bambara peoples of…"
 path: "/games/2189-djembe/"
 id: 2189
 type: "instrument"
@@ -17,19 +17,19 @@ countries: ["Guinea", "Mali"]
 
 *Photo: Djembe Art, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lenke_djembe_from_Mali.jpeg)*
 
-Notes slide toward the glowing line: top row Slap, middle row Tone, bottom row Bass.
+The djembe is a goblet-shaped hand drum from West Africa, carved from a single piece of hardwood and covered with a goatskin head. It originated among the Mandinka (Maninka) and Bambara peoples of the old Mali Empire, today's Mali, Guinea and neighbouring countries. A familiar Maninka saying explains its name: 'anke djé, anke bé', meaning 'everyone gather together in peace'. Its sounds range from deep bass to ringing tone and sharp slap, which are all produced by the bare hands.
 
 ## How it is played
 
-Notes slide toward the glowing line: top row Slap, middle row Tone, bottom row Bass. Strike as a note arrives. Echo: the lead drummer plays one bar, then you play it back. Eight rounds, growing each time.
+The drummer wears the djembe from a strap or holds it between the knees and strikes the head with both hands. Striking the centre of the skin with the whole hand gives the deep bass, striking near the rim with the fingers together gives an open tone, and striking at the very edge with relaxed fingers gives the slap. In an ensemble the djembe players are joined by bass drums called dunun, and a lead drummer plays calls and solos over repeating patterns while accompanists hold the rhythm. The group answers, repeats and develops phrases in turn.
 
 ## Heritage note
 
-Part of the living heritage of Guinea, Mali.
+In the Mande world, the making of drums traditionally belongs to the blacksmith families, and the drum is played at weddings, naming days, harvests and community celebrations as well as at big dances. Each rhythm, such as Kuku or Djole, is linked to a particular occasion, dance or group, and mastering the repertoire requires years of apprenticeship. In the 1950s the Guinean company Les Ballets Africains, founded by Fodeba Keita, brought the djembe to international stages, and drummers such as Mamady Keita and Famoudou Konate carried it around the world. Djembe circles are now found in cities across the globe.
 
 ## Origins
 
-Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Africa: Sahel, West and Central.
+A Mande instrument from the Mali Empire region of West Africa, with its history before the 20th century known mainly through oral tradition.
 
 ## Facts
 

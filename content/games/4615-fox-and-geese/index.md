@@ -1,6 +1,6 @@
 ---
 title: "Fox and Geese"
-description: "Fox and Geese is the classic hunt game, played on a cross of 33 points across Europe for centuries."
+description: "Fox and Geese is a hunt game, one of the oldest kinds of board game in Europe, in which one strong piece, the fox, tries to capture a flock of weaker pieces, the geese, which try to trap it. It has…"
 path: "/games/4615-fox-and-geese/"
 id: 4615
 type: "board_game"
@@ -17,19 +17,19 @@ countries: ["United Kingdom"]
 
 *Photo: The Boy's own paper [author], [Public domain](https://creativecommons.org/publicdomain/mark/1.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bodleian_Libraries,_Combined_solitaire_and_Fox_and_geese_board.jpg)*
 
-Fox and Geese is the classic hunt game, played on a cross of 33 points across Europe for centuries.
+Fox and Geese is a hunt game, one of the oldest kinds of board game in Europe, in which one strong piece, the fox, tries to capture a flock of weaker pieces, the geese, which try to trap it. It has been played on the 33-point cross-shaped board in many countries, under names such as Fuchs und Gaense in Germany and Ræv og Gæs in Denmark, and is also related to older hunt games from Scandinavia. Records show it was familiar in England by the 1500s and it remained a children's and farm-kitchen favourite for centuries.
 
 ## How it is played
 
-New here? The geese move first. The fox steps one point up, down, left or right, or jumps over a goose to the empty point behind it and captures it.
+One player controls the fox and the other controls a flock of thirteen to seventeen geese. The geese start at one end of the board and may step one point forward or sideways, but never backward. The fox may move one step in any allowed direction and captures by jumping over a goose into the empty point behind it. The geese win by pinning the fox so that it cannot move, and the fox wins by capturing enough geese that they can no longer block it.
 
 ## Heritage note
 
-Part of the living heritage of United Kingdom.
+Fox and Geese is typically scratched or carved into wood, painted on cloth or drawn on slate, and appears across northern Europe on household boards, in taverns and on school benches. Its balance changes with each rule variation: with the geese allowed diagonal moves or compulsory capture for the fox, the game tips one way or the other, and families developed their own house rules. The same idea of a lone predator against many weaker pieces turns up in Asia and Africa, as in the tiger and goat games, which makes it a good starting point for comparing hunt games around the world.
 
 ## Origins
 
-Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.
+Documented in England and Scandinavia from the late Middle Ages, with possible links to the older Norse hunt game known as Halatafl; the 33-point cross board is the classic form of the English and German tradition.
 
 ## Facts
 

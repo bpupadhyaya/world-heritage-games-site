@@ -1,6 +1,6 @@
 ---
 title: "Tower of Hanoi"
-description: "The classic disc-stacking puzzle, made to feel wonderful: lit, lacquered discs on carved pegs that lift, slide and drop with a satisfying thud."
+description: "The Tower of Hanoi was invented in 1883 by the French mathematician Edouard Lucas, who published it under the pseudonym 'N. Claus de Siam', an anagram of 'Lucas d'Amiens', after his home town. It…"
 path: "/games/4976-tower-of-hanoi/"
 id: 4976
 type: "puzzle"
@@ -17,19 +17,19 @@ countries: ["France"]
 
 *Photo: AlejandroLinaresGarcia, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:UniversumUNAM34.JPG)*
 
-The classic disc-stacking puzzle, made to feel wonderful: lit, lacquered discs on carved pegs that lift, slide and drop with a satisfying thud.
+The Tower of Hanoi was invented in 1883 by the French mathematician Edouard Lucas, who published it under the pseudonym 'N. Claus de Siam', an anagram of 'Lucas d'Amiens', after his home town. It was sold as a toy with a printed legend of 64 golden discs moved by patient attendants in a far-off tower, and the name refers to Hanoi, then a city of French Indochina. Lucas was a leader of the recreational mathematics movement, and the puzzle quickly became a favourite of teachers and parents.
 
 ## How it is played
 
-Move the whole tower of discs from the first peg to the gold peg, one disc at a time. Or drag the disc and let go. A larger disc may never rest on a smaller one. Such a move is refused and does not count.
+Three pegs stand in a row, and a stack of discs of different sizes starts on the first, with the smallest on top. The player must move the whole stack to another peg, one disc at a time, never placing a larger disc on a smaller one. The smallest number of moves for a stack of n discs is 2 to the power n, minus 1, so three discs need 7 moves, and the legendary 64 would need about 18 quintillion. The strategy is to move the stack above the largest disc away, move that disc, then rebuild on top of it.
 
 ## Heritage note
 
-Part of the living heritage of France.
+The puzzle is among the most studied in mathematics and computing. It is a standard classroom example of recursion, because the solution for n discs uses the solution for n minus 1 discs twice. Its sequence of moves follows the binary Gray code, and psychologists have used it to study planning and problem solving in children and in patients recovering from brain injury. Wooden versions with coloured discs are sold around the world, and it has appeared in stories and films as a symbol of patient, step-by-step effort.
 
 ## Origins
 
-Usually placed in the era of Modern Heritage (1800 to today), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.
+Invented and patented in Paris in 1883 by Edouard Lucas, a French mathematician, and sold under a Tonkin-inspired fictional legend.
 
 ## Facts
 

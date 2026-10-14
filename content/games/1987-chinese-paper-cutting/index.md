@@ -1,6 +1,6 @@
 ---
 title: "Chinese paper cutting"
-description: "Fold coloured paper in half, quarters or twelfths, snip the wedge with scissors or punches, then unfold it in real 3D to reveal the pattern."
+description: "Chinese paper cutting, or jianzhi, is the art of making patterns and pictures by cutting folded or flat paper with scissors or a small knife. Paper was invented in China about two thousand years…"
 path: "/games/1987-chinese-paper-cutting/"
 id: 1987
 type: "craft"
@@ -17,19 +17,19 @@ countries: ["China"]
 
 *Photo: Lanneixi, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chinese_Paper_Cutting.png)*
 
-Fold coloured paper in half, quarters or twelfths, snip the wedge with scissors or punches, then unfold it in real 3D to reveal the pattern.
+Chinese paper cutting, or jianzhi, is the art of making patterns and pictures by cutting folded or flat paper with scissors or a small knife. Paper was invented in China about two thousand years ago, and the oldest surviving paper-cuts, found in tombs at Turpan in Xinjiang, are symmetrical circles and animals from the fifth and sixth centuries. The art flourished under later dynasties, and was inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2009.
 
 ## How it is played
 
-Pick a fold: the paper folds itself into one small wedge. A cut on a fold edge opens into one whole shape; a cut at the centre becomes the middle.
+The cutter folds a square of thin paper, often red, in half, quarters or more, so that the design repeats on unfolding. Cuts are made along the folded edges and into the body of the folded wedge using small sharp scissors or a knife, with a pattern drawn or mentally planned. A cut on a fold edge opens into a whole shape when the paper is unfolded, and a cut at the centre becomes the heart of the design. The cutter then opens the paper carefully to reveal the symmetrical pattern.
 
 ## Heritage note
 
-Part of the living heritage of China.
+Paper-cuts are pasted on windows and doors for the Spring Festival, given at weddings and birthdays and used as embroidery patterns, and each region has its own style. Cuts from Yu County in Hebei are coloured, cuts from northern Shaanxi are bold and expressive, and those from Foshan in Guangdong use metal foil. Typical subjects include flowers, fish, the twelve zodiac animals and characters of good fortune, with red the colour of luck. Skills are passed down within families, and especially from mothers and grandmothers to girls.
 
 ## Origins
 
-A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of China.
+Developed in China after the invention of paper, with the earliest surviving examples from the Northern Dynasties period (5th to 6th century CE) and a continuous tradition since.
 
 ## Facts
 

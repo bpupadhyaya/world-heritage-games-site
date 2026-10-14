@@ -1,6 +1,6 @@
 ---
 title: "Surakarta"
-description: "A Javanese-named strategy game on a carved board of looping tracks. Pieces step one point but capture by racing round the circuits and the corner loops, with every legal route drawn as a glowing…"
+description: "Surakarta is a two-player strategy game on a six-by-six grid whose special feature is a pair of looping tracks that run around the board and circle back through the corners. It is named after the…"
 path: "/games/4940-surakarta/"
 id: 4940
 type: "board_game"
@@ -13,19 +13,19 @@ countries: ["Indonesia"]
 
 **Encyclopedia ID 4940** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/4940-surakarta/
 
-A Javanese-named strategy game on a carved board of looping tracks. Pieces step one point but capture by racing round the circuits and the corner loops, with every legal route drawn as a glowing trail.
+Surakarta is a two-player strategy game on a six-by-six grid whose special feature is a pair of looping tracks that run around the board and circle back through the corners. It is named after the city of Surakarta, also called Solo, in central Java in Indonesia, and the game has also been published in Europe under the name Roundabout. The history of its early play is thinly documented, but the game has become a favourite of strategy-game collectors for its striking board.
 
 ## How it is played
 
-Each side has 12 pieces. Light plays from the bottom and moves first. Capture every enemy piece to win. To capture, select a piece: glowing trails show routes along the circuits, round a corner loop.
+Each player has twelve pieces, placed on the two rows nearest to them. A piece may step one point in any direction, including diagonally, onto an empty point. To capture, a piece must travel along one of the two circuits, passing through at least one of the curved corner loops, over empty points and any number of its own side's vacated points, and land on an enemy piece. The captured piece is removed, and the player who takes all of the opponent's pieces wins.
 
 ## Heritage note
 
-Part of the living heritage of Indonesia.
+The board's circuits are drawn as two bold circles, called the inner and outer rings, in contrasting colours, and the tension between the quiet, cautious step moves and the sweeping long-range captures gives the game its character. Javanese court culture is known for its refined arts, and a board game named after one of its great cities fits within that heritage. The game is played today in Indonesia and by hobbyists abroad, in particular as a game that rewards seeing a long path before the opponent does.
 
 ## Origins
 
-Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Southeast Asia and the Islands.
+Traditionally associated with Java in Indonesia and named after the city of Surakarta; the earliest firm records come from the 20th century.
 
 ## Facts
 

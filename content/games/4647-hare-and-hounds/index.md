@@ -1,6 +1,6 @@
 ---
 title: "Hare and Hounds"
-description: "Hare and Hounds is a traditional hunt game for two sides on a tiny board of eleven points."
+description: "Hare and Hounds is a small hunt game for two players on a board of only eleven points, in which three hounds try to trap a single hare. It is a traditional pastime in Britain and is named after the…"
 path: "/games/4647-hare-and-hounds/"
 id: 4647
 type: "board_game"
@@ -13,19 +13,19 @@ countries: ["United Kingdom"]
 
 **Encyclopedia ID 4647** (permanent) · https://bpupadhyaya.github.io/world-heritage-games-site/games/4647-hare-and-hounds/
 
-Hare and Hounds is a traditional hunt game for two sides on a tiny board of eleven points.
+Hare and Hounds is a small hunt game for two players on a board of only eleven points, in which three hounds try to trap a single hare. It is a traditional pastime in Britain and is named after the outdoor chasing game in which runners follow a trail laid by one of their number. Games of this kind are found throughout the world, and small boards like this one are easy to draw on a table or a slate.
 
 ## How it is played
 
-New here? One hare against three hounds. One step along a line per turn. Hounds win by leaving the hare no move.
+One player has three hounds and the other has one hare, and each turn a single piece steps along a line to an empty point. The hounds may move only forward or sideways, never backward, and they cannot capture. The hounds win by leaving the hare with no legal move. The hare wins by slipping past the hounds to the far side, or by outlasting them until they can no longer make progress.
 
 ## Heritage note
 
-Part of the living heritage of United Kingdom.
+Because the board is so small the game has been completely analysed, and the hounds can always force a win if they play correctly, which makes the game a gentle exercise in careful planning and teamwork rather than a long struggle. The name was borrowed from the running game that became a fixture of Victorian English schools and gave its name to cross-country clubs such as the Thames Hare and Hounds, founded in 1868. In Britain the board game was played at home by children, and variants with other numbers of hounds and different board shapes appear in books of traditional games.
 
 ## Origins
 
-Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Celtic and Atlantic Europe.
+Recorded in Britain in the 1800s and probably older; related to hunt games such as Fox and Geese that were played across Europe for centuries.
 
 ## Facts
 
