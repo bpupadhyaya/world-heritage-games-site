@@ -16,6 +16,7 @@
     { id: 'light', name: 'Parchment light', note: 'Always light', mode: 'light', bar: '#f4efe4', sw: 'linear-gradient(135deg,#fbf8f0 50%,#b4431f 50%)' },
     { id: 'dark', name: 'Parchment dark', note: 'Always dark', mode: 'dark', bar: '#0f151e', sw: 'linear-gradient(135deg,#0f151e 50%,#f08a5d 50%)' },
     { id: 'midnight', name: 'Midnight gold', note: 'Navy and warm gold', mode: 'dark', bar: '#080d22', sw: 'linear-gradient(135deg,#0b1226 50%,#e0b64a 50%)' },
+    { id: 'teal', name: 'Deep teal', note: 'Calm teal-slate, easy on the eyes', mode: 'dark', bar: '#394f54', sw: 'linear-gradient(135deg,#1b343a 50%,#394f54 50%)' },
     { id: 'contrast', name: 'High contrast', note: 'Black, white and yellow', mode: 'dark', bar: '#000000', sw: 'linear-gradient(135deg,#000 50%,#ffd60a 50%)' }
   ];
   var DEFAULT_THEME = 'nutrisize', dq = window.matchMedia ? matchMedia('(prefers-color-scheme: dark)') : null;
