@@ -91,6 +91,8 @@ export function createActivity(userParams, env) {
   const mat = scene?.mat ?? pickMaterial(P.material === 'auto' ? null : P.material, env.text?.title, env.text?.summary);
   const sceneId = scene ? Object.keys(SCENES).find((k) => SCENES[k] === scene) ?? '' : '';
   const sfx = makeSound(env.audio, scene?.snd ?? 'default', `${sceneId} ${env.text?.title ?? ''}`);
+  if (env.options?.soundLog) for (const k of Object.keys(sfx)) { const f = sfx[k]; sfx[k] = (...a) => { env.options.soundLog.push({ kind: k }); return f(...a); }; }   // audits
+  let attractSndAt = -9;
   const reduce = !!(env.config?.reduceMotion);
   const psym = polar ? parsePolarSymmetry(P.symmetry, P.rays) : null;
   const cols = polar ? P.rays : P.cols, rows = polar ? P.rings : P.rows;
@@ -748,7 +750,8 @@ export function createActivity(userParams, env) {
           sel = { m: t.m, c: t.c }; const c = i % cols, r = Math.floor(i / cols); let k = 0;
           for (const [x, y] of orbitOf(c, r)) { const j = at(x, y); board[j] = { ...script[j] }; landAt[j] = clock + k * 0.05; eraseAt[j] = -1e9; k++; }
           hover = { c, r }; hoverAt = clock;
-          toolHit = clock; sfx.paint(sel.c, 0.7);
+          toolHit = clock;
+          if (clock - attractSndAt >= 0.38) { attractSndAt = clock; sfx.paint(sel.c, 0.5); }   // the demonstration is a slow tune, not a machine gun (1.6.1)
           return;
         }
       }

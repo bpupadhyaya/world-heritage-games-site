@@ -6,5 +6,9 @@ export const ENGINE_ID = 'story';
 export { createActivity };
 
 export function createEngine(spec = {}, theme = {}, text = {}, options = {}) {
-  return createActivityEngine({ createActivity, spec, theme, text, options });
+  // Audio start rule (1.4.2): previews and store shots (?autoplay=1 / ?shot=1) are silent; engines get no audio graph, and
+// options.soundLog (an array) records every sound an engine asks for (audits: nothing may sound before the first input).
+  const quiet = options.autoplay === true || options.shot === true;
+  const wrapped = (params, env) => createActivity(params, { ...env, audio: quiet ? null : env.audio, options });
+  return createActivityEngine({ createActivity: wrapped, spec, theme, text, options });
 }

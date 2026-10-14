@@ -96,7 +96,7 @@ export function createActivity(userParams, env) {
   // body on clay); the raw tone lists in sports.js stay as the fallback when the shared audio graph is missing.
   const A = env.audio, nat = !!A?.context;
   const spId = String(sportOf(P, env.text?.title) ?? '');
-  const SS = createSoundscape(nat ? A : null, spId);
+  const SS = createSoundscape(nat ? A : null, spId, env.options?.soundLog);
   const sTick = (q, kind) => { if (!nat) return false; SS.move(q, kind); return true; };
   const sHit = (t, big) => { if (!nat) return false; SS.hit(t, big); return true; };
   const lum = (h) => { const x = String(h).replace('#', ''); const v = [0, 2, 4].map((k) => parseInt(x.slice(k, k + 2), 16) || 0); return (0.3 * v[0] + 0.59 * v[1] + 0.11 * v[2]) / 255; };
@@ -111,6 +111,7 @@ export function createActivity(userParams, env) {
 
   // ---- state -------------------------------------------------------------------------------------------------------------
   let phase, round, wins, rpts, tpts, clock, c, you, rival, hist, bigram, tell, intent, rivalQ, gauge, R, X, B, done, msg, msgT, tip, stats, layout = null, T = 0, falls;
+  let beatT0 = null;
   let fx = [], fxN = 0, shakeT = 0, shakeAmp = 0, pulse = 0, pickIdx = -1, pickT = 0;
   const mkFighter = (side) => ({ side, bal: 100, stam: 100, grip: P.grip.start, pose: poseOf('ready'), target: 'ready', shown: { bal: 100, stam: 100, grip: P.grip.start }, off: 0 });
   const resetRound = () => {
@@ -121,6 +122,7 @@ export function createActivity(userParams, env) {
   };
 
   const init = () => {
+    beatT0 = null;
     you = mkFighter(-1); rival = mkFighter(1);
     round = 0; wins = { you: 0, rival: 0 }; tpts = { you: 0, rival: 0 }; bigram = {}; done = null; msg = ''; msgT = 0; tip = '';
     stats = { landed: 0, taken: 0, attempts: 0, perfect: 0, good: 0, poor: 0, hesitated: 0, mash: 0, exchanges: 0, rounds: [] };
@@ -392,13 +394,14 @@ export function createActivity(userParams, env) {
   const tapMove = (idx) => {
     if (phase !== 'ready') return;
     if (!affordable(you, moves[idx])) { msg = 'Too tired for that: breathe or pick a lighter move'; msgT = 0; if (nat) SS.deny(); else env.audio?.tone({ freq: 180, dur: 0.08, type: 'square', vol: 0.08 }); return; }
+    if (beatT0 === null) beatT0 = T;   // the first real move starts the accompaniment (1.4.1)
     commit(idx);
   };
   const step = (dt, cmd) => {
     T += dt; msgT += dt;
     for (const e of fx) e.t += dt;
     if (fx.length && fx[0].t > fx[0].life) fx = fx.filter((e) => e.t <= e.life);
-    SS.beat(dt, !done && phase !== 'break' && phase !== 'over', clamp(pulse, 0, 1));
+    SS.beat(dt, !done && phase !== 'break' && phase !== 'over', clamp(pulse, 0, 1), beatT0 === null ? 0 : clamp((T - beatT0) / 4, 0, 1) * 0.7);   // silent until the first move, 4 s fade-in, below the cues
     shakeT = Math.max(0, shakeT - dt); pulse = Math.max(0, pulse - dt * 0.7); pickT = Math.max(0, pickT - dt);
     const ease = 1 - Math.exp(-dt * 14);
     for (const f of [you, rival]) {

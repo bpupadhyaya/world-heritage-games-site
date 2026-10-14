@@ -78,3 +78,7 @@ export const SOUND = {
   },
   archMiss: (a) => { fx(a, 'thud', { hz: 95, vel: 0.35 }); later(a, 0.05, 'scrape', { hz: 1800, dur: 0.1, vel: 0.3 }); },
 };
+
+// audits (options.soundLog): every SOUND.* call is recorded when the engine was created with a log array (1.3.1)
+export const soundTap = { log: null };
+for (const k of Object.keys(SOUND)) { const f = SOUND[k]; SOUND[k] = (...a) => { soundTap.log?.push({ kind: k }); return f(...a); }; }

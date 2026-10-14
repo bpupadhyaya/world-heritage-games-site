@@ -52,13 +52,15 @@ const KITS = {
 };
 KITS.default = KITS.nguni;
 
-export function createSoundscape(A, spId) {
+export function createSoundscape(A, spId, log = null) {
   const K = KITS[spId] ?? KITS.default;
-  const ok = !!A?.context;
+  const ok = !!A?.context, live = ok || !!log;   // with a log array the accompaniment is requested (and logged) even without an audio graph
   let acc = 0, idx = 0;
   const play = (e, delay = 0, k = 1) => {
-    if (!ok || !e) return;
+    if (!e) return;
     const [kind, a, b] = e;
+    log?.push({ kind: kind === 'fx' ? a : kind });
+    if (!ok) return;
     if (kind === 'drum') voice(A, 'drum', { ...a, vel: (a.vel ?? 0.5) * k, delay });
     else if (kind === 'fx') fx(A, a, { ...b, vel: (b.vel ?? 0.5) * k, delay });
     else if (kind === 'gong') voice(A, 'gong', { ...a, vel: (a.vel ?? 0.4) * k, delay });
@@ -72,13 +74,14 @@ export function createSoundscape(A, spId) {
   return {
     mat: K.mat,
     // accompaniment: call every frame with the time step; `energy` 0..1 raises the volume as the crowd gets excited
-    beat(dt, active, energy = 0) {
-      if (!ok || !active) { acc = 0; return; }
+    // `level` 0..1 is the fade-in after the first player move; at 0 nothing sounds (1.4.1)
+    beat(dt, active, energy = 0, level = 1) {
+      if (!live || !active || level <= 0) { acc = 0; return; }
       acc += Math.min(dt, 0.2);
       let n = 0;
       while (acc >= stepDur && n++ < 3) {
         acc -= stepDur;
-        for (const e of K.pat[idx % K.pat.length]) step(e, 0, 0.55 + 0.45 * energy);
+        for (const e of K.pat[idx % K.pat.length]) step(e, 0, (0.55 + 0.45 * energy) * level);
         idx++;
       }
     },

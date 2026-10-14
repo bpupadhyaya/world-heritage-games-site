@@ -336,17 +336,26 @@ export function drumHead(ctx, S, cx, cy, r, col, f, t, seed = 0) {
 
 // ---- gongs (bossed, lying on cords) --------------------------------------------------------------------------------------
 export function gong(ctx, S, cx, cy, r, col, f) {
-  ctx.fillStyle = 'rgba(0,0,0,0.4)'; circ(ctx, cx + r * 0.06, cy + r * 0.16, r * 1.02); ctx.fill();
-  ctx.fillStyle = rgrad(ctx, cx, cy, r * 0.5, r, [[0, '#d7a550'], [0.6, '#9a6420'], [1, '#4e2e0b']], cx - r * 0.3, cy - r * 0.35);
+  // a bossed bronze gong seen from above: turned-down rim, hammered field, a ringed boss, lit from the upper left
+  ctx.fillStyle = 'rgba(0,0,0,0.42)'; circ(ctx, cx + r * 0.08, cy + r * 0.18, r * 1.04); ctx.fill();
+  ctx.fillStyle = rgrad(ctx, cx, cy, r * 0.5, r, [[0, '#d7a550'], [0.6, '#8a5818'], [1, '#3e2208']], cx - r * 0.3, cy - r * 0.35);
   circ(ctx, cx, cy, r); ctx.fill();
-  ctx.strokeStyle = 'rgba(255,225,150,0.8)'; ctx.lineWidth = Math.max(1.5, r * 0.06); circ(ctx, cx, cy, r * 0.95); ctx.stroke();
-  ctx.fillStyle = rgrad(ctx, cx, cy, 0, r * 0.78, [[0, '#f6d584'], [0.6, '#c58c34'], [1, '#7a4c14']], cx - r * 0.25, cy - r * 0.3);
-  circ(ctx, cx, cy, r * 0.76); ctx.fill();
-  ctx.strokeStyle = rgba(darker(col, 0.2), 0.7); ctx.lineWidth = Math.max(1.5, r * 0.06); circ(ctx, cx, cy, r * 0.58); ctx.stroke();
+  ctx.strokeStyle = 'rgba(255,225,150,0.85)'; ctx.lineWidth = Math.max(1.5, r * 0.06); circ(ctx, cx, cy, r * 0.95); ctx.stroke();
+  ctx.strokeStyle = 'rgba(40,20,4,0.6)'; ctx.lineWidth = Math.max(1, r * 0.03); circ(ctx, cx, cy, r * 0.88); ctx.stroke();
+  ctx.fillStyle = rgrad(ctx, cx, cy, 0, r * 0.8, [[0, '#f8d98a'], [0.55, '#c58c34'], [1, '#6a4010']], cx - r * 0.28, cy - r * 0.32);
+  circ(ctx, cx, cy, r * 0.8); ctx.fill();
+  // hammer marks
+  ctx.save(); circ(ctx, cx, cy, r * 0.8); ctx.clip();
+  for (let k = 0; k < 26; k++) { const a = hash(k * 3 + r) * TAU, d = 0.35 + 0.45 * Math.sqrt(hash(k * 5 + 2)); ctx.fillStyle = 'rgba(60,30,6,0.16)'; ell(ctx, cx + Math.cos(a) * d * r, cy + Math.sin(a) * d * r, r * 0.07, r * 0.05); ctx.fill(); ctx.fillStyle = 'rgba(255,240,180,0.2)'; ell(ctx, cx + Math.cos(a) * d * r - r * 0.02, cy + Math.sin(a) * d * r - r * 0.02, r * 0.04, r * 0.025); ctx.fill(); }
+  ctx.restore();
+  ctx.strokeStyle = rgba(darker(col, 0.2), 0.75); ctx.lineWidth = Math.max(1.5, r * 0.06); circ(ctx, cx, cy, r * 0.6); ctx.stroke();
+  ctx.strokeStyle = 'rgba(255,240,190,0.5)'; ctx.lineWidth = Math.max(1, r * 0.025); circ(ctx, cx, cy, r * 0.5); ctx.stroke();
   // boss
-  ctx.fillStyle = rgrad(ctx, cx, cy, 0, r * 0.4, [[0, '#fff1bd'], [0.45, lighter(col, 0.25)], [1, darker(col, 0.5)]], cx - r * 0.12, cy - r * 0.14);
+  ctx.fillStyle = 'rgba(0,0,0,0.3)'; circ(ctx, cx + r * 0.05, cy + r * 0.07, r * 0.34); ctx.fill();
+  ctx.fillStyle = rgrad(ctx, cx, cy, 0, r * 0.4, [[0, '#fff6c8'], [0.45, lighter(col, 0.3)], [1, darker(col, 0.55)]], cx - r * 0.12, cy - r * 0.14);
   circ(ctx, cx, cy, r * 0.34); ctx.fill();
-  ctx.strokeStyle = 'rgba(255,255,255,0.45)'; ctx.lineWidth = 1.2; ctx.stroke();
+  ctx.strokeStyle = 'rgba(255,255,255,0.5)'; ctx.lineWidth = 1.2; ctx.stroke();
+  ctx.fillStyle = 'rgba(255,255,255,0.55)'; ell(ctx, cx - r * 0.12, cy - r * 0.16, r * 0.1, r * 0.05); ctx.fill();
   if (f > 0.02) { ctx.strokeStyle = rgba('#fff2c0', 0.8 * f); ctx.lineWidth = 3; circ(ctx, cx, cy, r * (0.8 + 0.5 * (1 - f))); ctx.stroke(); glow(ctx, cx, cy, r * 1.6, '#ffcf6a', 0.55 * f); }
 }
 

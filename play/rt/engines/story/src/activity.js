@@ -70,6 +70,7 @@ export function createActivity(userParams, env) {
   // natural voice when the shared synth graph exists (platform/engine-kit/synth.js), the plain tone otherwise
   const play = (e) => {
     try {
+      env.options?.soundLog?.push({ t: Math.round((V?.t ?? 0) * 1000) / 1000, kind: e.v ? (e.v.fx ?? e.v.voice) : 'tone' });
       if (e.v && audio?.context) { if (e.v.fx ? fx(audio, e.v.fx, e.v.p) : voice(audio, e.v.voice, e.v.p)) return; }
     } catch { /* sound is optional */ }
     if (!audio?.context) tone(e.o);
@@ -166,7 +167,7 @@ export function createActivity(userParams, env) {
       V.crowd.cheer = n > 0 ? 1 : 0.4; V.crowd.mood = n > 0 ? 1 : -1;
       if (n > 0) burst(14, 'star', ['#ffe27a', '#fff3b0', '#ffb23a']);
     } else {
-      for (const e of snd.scene()) sfx(e.at, e.o, e.v);
+      if (V.startT !== undefined) for (const e of snd.scene()) sfx(e.at, e.o, e.v);   // the opening scene is silent (1.4.2)
     }
   };
 
@@ -204,6 +205,7 @@ export function createActivity(userParams, env) {
     const o = opts[i];
     if (!o) return;
     if (!o.enabled) { tip = 'You cannot do that yet.'; return; }
+    if (V.startT === undefined) { V.startT = V.t; V.beat = 0; V.beatAt = V.t; }   // the first real choice starts the ensemble (1.4.2)
     tip = '';
     if (o.end) {
       const e = S.ending ?? P.endings[P.endings.length - 1];
@@ -251,16 +253,13 @@ export function createActivity(userParams, env) {
 
   const tick = (dt) => {
     V.t += dt; V.revealT += dt; V.endT += dt; V.lineAge += dt;
-    if (skin.voice && V.revealT > 0) { // the speaking voice: a quiet blip every few typed characters
-      const n = Math.min(Math.floor(V.revealT * P.speed), totalChars()), step = Math.floor(n / skin.voice);
-      if (step > V.voiceN) { V.voiceN = step; for (const e of snd.voice(step, scenes[S.scene]?.speaker ?? '')) sfx(e.at, e.o, e.v); }
-    }
+    // no talking blips while the text types out (1.4.1): the readout is silent; the tradition's ensemble and the event cues carry the sound
     // the tradition's ensemble: a quiet looping pattern that fades in over the first seconds of the play
-    if (audio?.context) {
-      if (V.beat === undefined || V.t - V.beatAt > 2) { V.beat = V.beat === undefined ? 0 : V.beat; V.beatAt = V.t; }
+    // 1.4.2: silent until the first choice; then it fades in over 6 s, sits well below the cues (x0.6), and stops when the story ends
+    if (audio?.context && V.startT !== undefined && !done) {
       let guard = 0;
       while (V.t >= V.beatAt && guard++ < 4) {
-        const gain = clamp(V.t / 5, 0, 1) * (done ? 0.5 : 1) * (V.revealT * P.speed < totalChars() ? 0.7 : 1);
+        const gain = clamp((V.t - V.startT) / 6, 0, 1) * 0.6 * (V.revealT * P.speed < totalChars() ? 0.7 : 1);
         for (const e of snd.ambient(V.beat, gain)) play(e);
         V.beat++; V.beatAt += snd.step;
       }

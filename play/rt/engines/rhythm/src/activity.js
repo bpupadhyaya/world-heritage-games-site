@@ -111,6 +111,7 @@ export function createActivity(userParams, env) {
 
   // ---- state --------------------------------------------------------------------------------------------------------
   let clock, targets, demos, guide, sections, pts, strays, combo, maxCombo, counts, done, flash, pops, endT, nextBeat, nextDemo, lastTip;
+  let firstStroke = null;
   let free, lastSlot, droneT, layout = null, attractIdx, auto = false;
   let sus = [], hold = [], voices = [], ptr = { x: 0, y: 0, down: false };
   // presentation-only state (never read by the rules or by getState)
@@ -160,7 +161,7 @@ export function createActivity(userParams, env) {
     comboPop = 0; missFlash = 0; anim = 0; for (const p of part) p.on = false;
     sus = lanes.map(() => 0); hold = lanes.map(() => 0); voices = [];
     counts = { perfect: 0, good: 0, miss: 0, off: 0, strokes: 0 };
-    nextBeat = -leadBeats; nextDemo = 0; lastTip = ''; droneT = 0; lastSlot = null; attractIdx = 0; auto = false;
+    nextBeat = -leadBeats; nextDemo = 0; lastTip = ''; droneT = 0; firstStroke = null; lastSlot = null; attractIdx = 0; auto = false;
     build();
     free = { want: Math.max(4, Math.floor((P.duration / spb) * 0.3)) };
   };
@@ -188,31 +189,62 @@ export function createActivity(userParams, env) {
       case 'string': return stage.bowed ? 'bow' : P.layout === 'strings' ? 'drone' : 'bow';
       case 'mallet': return 'bar';
       case 'bell': return P.layout === 'circle' ? 'gong' : P.layout === 'pads' ? (stage.id === 'steelpan' ? 'pan' : 'drum') : stage.voice === 'tine' ? 'tine' : 'bell';
+      case 'bass': return stage.id === 'mortar' ? 'wood' : stage.id === 'bandoneon' ? 'reed' : 'drum';
+      case 'tone': return stage.id === 'mortar' ? 'wood' : 'drum';
+      case 'rim': return stage.id === 'mortar' ? 'soft' : 'drum';
       case 'breath': return 'breath';
       case 'reed': return /dizi|flute|bansuri|pipe|whistle|fife|ney|quena/i.test(instName) ? 'breath' : 'reed';
       case 'gong': return 'gong';
       case 'clap': return 'clap';
-      case 'slap': return P.layout === 'steps' ? 'slap' : 'drum';
-      case 'stomp': return P.layout === 'steps' ? (/dabke|kolo|schuh|clog|zapateado|flamenco|cueca|tap|stomp/i.test(instName) ? 'boot' : 'step') : 'drum';
+      case 'slap':
+        if (P.layout !== 'steps') return 'drum';
+        if (/escob|brush|rasp|scrape/i.test(l.name)) return 'brush';
+        if (stage.id === 'pole') return 'ribbon';
+        return 'bodyslap';
+      case 'stomp': return P.layout === 'steps' ? (stage.id === 'pole' ? 'ribbon' : /dabke/i.test(instName) && /stomp/i.test(l.name) ? 'stomp' : /dabke|kolo|schuh|clog|zapateado|flamenco|cueca|tap|stomp/i.test(instName) ? 'boot' : 'step') : stage.id === 'mortar' ? 'wood' : 'drum';
       default: return 'drum';
     }
   };
   const drumStyle = (l) => {
     const id = stage.id ?? '';
-    if (id === 'tabla') return l.timName === 'bass' ? 'bayan' : l.timName === 'bell' ? 'dayan' : l.timName === 'tone' ? 'dayan' : l.timName;
     if (id === 'taiko') return l.timName === 'bass' ? 'taiko' : l.timName;
-    if (id === 'water') return l.timName === 'bass' ? 'water' : l.timName;
+    if (id === 'water') return l.timName === 'rim' ? 'rim' : 'water';
     if (id === 'bodhran') return l.timName === 'rim' ? 'rim' : 'frame';
+    if (id === 'kulintang') return 'tone';
     return l.timName === 'stomp' ? 'bass' : l.timName;
   };
+  const laneHz = {};
+  lanes.forEach((l) => { laneHz[String(l.name).toLowerCase()] = l.hz; });
+  // tabla: each bol is its own sound. Right hand (dayan): na = sharp edge ring, tin = resonant centre, ti = closed light tap.
+  // Left hand (bayan): ge = open bass that rises in pitch, ka = closed slap. Dha = na + ge, dhin = tin + ge, played together.
+  const tablaBol = (l, base) => {
+    const n = String(l.name).toLowerCase(), hzOf = (re, d) => { for (const k of Object.keys(laneHz)) if (re.test(k)) return laneHz[k]; return d; };
+    const geHz = hzOf(/^(ge|ga|ghe|gha)$/, l.hz * 0.5), naHz = hzOf(/^(na|ta|naa)$/, l.hz), tinHz = hzOf(/^(tin|tun|tu)$/, l.hz * 1.5);
+    const dayan = (hz, dur, vel) => voice(audio, 'drum', { ...base, hz, style: 'dayan', dur, vel });
+    const bayan = (hz, dur, vel) => voice(audio, 'drum', { ...base, hz, style: 'bayan', dur, vel });
+    if (/^(dha|dhaa)$/.test(n)) { dayan(naHz, 0.3, 0.7); return bayan(geHz, 0.55, 0.9); }
+    if (/^(dhin|dhi|din)$/.test(n)) { dayan(tinHz, 0.6, 0.75); return bayan(geHz, 0.55, 0.9); }
+    if (/^(na|ta|naa)$/.test(n)) return dayan(naHz, 0.24, 0.85);
+    if (/^(tin|tun|tu)$/.test(n)) return dayan(tinHz, 0.7, 0.9);
+    if (/^(ti|te|tet|tit)$/.test(n)) return dayan(l.hz * 1.15, 0.1, 0.6);
+    if (/^(ge|ga|ghe|gha)$/.test(n)) return bayan(geHz, 0.6, 0.95);
+    if (/^(ka|ke|kat|kha)$/.test(n)) return voice(audio, 'drum', { ...base, hz: l.hz * 0.8, style: 'slap', dur: 0.09, vel: 0.7 });
+    return voice(audio, 'drum', { ...base, style: 'dayan', dur: 0.3 });
+  };
+  let lastDrone = -9;
   const strike = (i, len = 0) => {
     const l = lanes[i];
     if (!l) return;
     const hz = l.hz, dur = len > 0 ? Math.max(l.dur, len * spb) : l.dur, kind = voiceKind(i), vel = VEL[l.timName] ?? 0.75;
     sus[i] = Math.max(sus[i] ?? 0, kind === 'bow' || kind === 'breath' || kind === 'reed' ? dur : Math.min(dur, 0.7));
+    env.options?.voiceLog?.push({ lane: l.name, tim: l.timName, kind, hz: Math.round(hz), stage: stage.id });   // audits (tools): which voice every lane triggers
     if (!audio) return;
     const base = { hz, vel, dur, inst: instName };
     let ok = true;
+    if (stage.id === 'tabla') { ok = tablaBol(l, base); if (!ok && !audio.context) audio.tone({ freq: hz, dur, type: l.wave, vol: l.tim.vol }); return; }
+    if (stage.id === 'mijwiz' && audio) {   // one pipe drones on the tonic while the other carries the tune (breath is continuous)
+      if (clock - lastDrone > 0.9) { lastDrone = clock; const low = Math.min(...lanes.map((q) => q.hz)); voice(audio, 'reed', { hz: low, vel: 0.2, dur: 1.2, inst: instName }); }
+    }
     switch (kind) {
       case 'pluck':
         ok = /dan.?bau|monochord/i.test(instName) ? voice(audio, 'monochord', { ...base, dur: Math.max(0.8, dur) }) : voice(audio, 'pluck', { ...base, dur: Math.max(0.6, dur) });
@@ -229,15 +261,40 @@ export function createActivity(userParams, env) {
       case 'pan': ok = voice(audio, 'steelpan', { ...base, dur: Math.max(0.6, dur) }); break;
       case 'tine': ok = voice(audio, 'tine', { ...base, dur: Math.max(0.7, dur) }); break;
       case 'bell': ok = voice(audio, 'bell', { ...base, dur: 1.4 }); break;
-      case 'gong': ok = voice(audio, 'gong', { ...base, dur: 1.4 }); break;
-      case 'breath': ok = voice(audio, 'breath', { ...base, dur: Math.max(0.5, dur) }); break;
-      case 'reed': ok = voice(audio, 'reed', { ...base, dur: Math.max(0.5, dur) }); break;
-      case 'step': case 'boot': case 'clap': case 'slap': ok = voice(audio, kind, base); break;
+      case 'gong': ok = voice(audio, 'gong', { ...base, dur: /agung|gong|ageng/i.test(l.name) ? 2.2 : /babandil|bandil/i.test(l.name) ? 1.1 : 0.9 }); break;
+      case 'breath':
+        ok = voice(audio, 'breath', { ...base, dur: Math.max(0.5, dur) });
+        if (stage.id === 'dizi') voice(audio, 'reed', { ...base, vel: vel * 0.2, dur: Math.max(0.4, dur * 0.9) });   // the dimo membrane buzzes against the air column
+        break;
+      case 'reed':
+        ok = voice(audio, 'reed', { ...base, dur: Math.max(0.5, dur) });
+        if (stage.id === 'bandoneon') { voice(audio, 'reed', { ...base, hz: hz * 2.005, vel: vel * 0.4, dur: Math.max(0.5, dur) }); voice(audio, 'reed', { ...base, hz: hz * 1.004, vel: vel * 0.5, dur: Math.max(0.5, dur) }); }
+        break;
+      case 'step': case 'boot': case 'clap': case 'slap': case 'stomp': ok = voice(audio, kind, base); break;
+      case 'bodyslap': // a hand on leather shorts, a knee, a heel: three different pitches of the same slap
+        ok = voice(audio, 'drum', { ...base, style: 'slap', hz: hz * 0.9, dur: 0.12, vel: 0.85 });
+        fx(audio, 'impact', { mat: /heel|boot/i.test(l.name) ? 'wood' : 'skin', hz: hz * 1.1, vel: 0.5 });
+        break;
+      case 'brush': ok = fx(audio, 'scrape', { hz: 2600, dur: 0.16, vel: 0.8 }); break;
+      case 'ribbon': // ribbons swish past the pole while the feet patter
+        ok = voice(audio, 'step', { ...base, hz: hz * 0.9, vel: vel * 0.7 });
+        fx(audio, 'whoosh', { dur: 0.22, down: i % 2 === 0, vel: 0.35 });
+        break;
+      case 'wood': // pestle on a wooden mortar: a woody knock with a low body
+        ok = fx(audio, 'impact', { mat: 'wood', hz: hz * 2.2, vel: 0.9 });
+        voice(audio, 'stomp', { ...base, hz: hz * 0.8, vel: 0.6 });
+        break;
+      case 'soft': ok = fx(audio, 'thud', { hz: hz * 0.5, vel: 0.5 }); break;
       default: ok = voice(audio, 'drum', { ...base, style: drumStyle(l) });
     }
     if (!ok && !audio.context) audio.tone({ freq: hz, to: l.tim.to ? hz * l.tim.to : null, dur, type: l.wave, vol: l.tim.vol }); // host without the synth graph
   };
-  const tick = (downbeat) => { if (audio && !fx(audio, 'tick', { hz: downbeat ? 1900 : 1350, vel: downbeat ? 0.55 : 0.4 })) audio.tone?.({ freq: downbeat ? 1320 : 880, dur: 0.03, type: 'square', vol: 0.06 }); };
+  // soft: the steady pulse is quieter than the count-in; both are logged in options.soundLog (audits)
+  const tick = (downbeat, soft = false) => {
+    env.options?.soundLog?.push({ kind: soft ? 'pulse' : 'countin' });
+    const k = soft ? 0.6 : 1;
+    if (audio && !fx(audio, 'tick', { hz: downbeat ? 1900 : 1350, vel: (downbeat ? 0.55 : 0.4) * k })) audio.tone?.({ freq: downbeat ? 1320 : 880, dur: 0.03, type: 'square', vol: 0.06 * k });
+  };
 
   // ---- judging -------------------------------------------------------------------------------------------------------
   const pop = (i, text, color) => pops.push({ lane: i, text, color, age: 0 });
@@ -256,6 +313,7 @@ export function createActivity(userParams, env) {
   };
 
   const hitLane = (i) => {
+    if (firstStroke === null && clock >= -spb * 0.5) { firstStroke = clock; droneT = 0; }
     strike(i);
     flash[i] = 1;
     if (clock < -spb * 0.5) return;
@@ -331,12 +389,19 @@ export function createActivity(userParams, env) {
     ambient(dt);
     // pulse
     while (clock >= nextBeat * spb) {
-      if (showTick || nextBeat < 0) tick(((nextBeat % meter) + meter) % meter === 0);
+      // free play: the pulse (and the drone below) wait for the player's first stroke; the count-in is always heard (gentle)
+      if (nextBeat < 0) tick(((nextBeat % meter) + meter) % meter === 0);
+      else if (showTick && (MODE !== 'free' || firstStroke !== null)) tick(((nextBeat % meter) + meter) % meter === 0, true);
       nextBeat++;
     }
-    if (P.drone && MODE === 'free') {
+    if (P.drone && MODE === 'free' && firstStroke !== null) {   // silent until the first stroke, then fades in over 3 s at a low level
       droneT -= dt;
-      if (droneT <= 0) { droneT = 2; if (audio) { voice(audio, 'pad', { hz: P.root / 2, dur: 2.4, vel: 0.5 }); voice(audio, 'pad', { hz: (P.root / 2) * 1.5, dur: 2.4, vel: 0.3 }); } }
+      if (droneT <= 0) {
+        droneT = 2;
+        const lv = clamp((clock - firstStroke) / 3, 0.15, 1) * 0.5;
+        env.options?.soundLog?.push({ kind: 'drone' });
+        if (audio) { voice(audio, 'pad', { hz: P.root / 2, dur: 2.4, vel: 0.5 * lv }); voice(audio, 'pad', { hz: (P.root / 2) * 1.5, dur: 2.4, vel: 0.3 * lv }); }
+      }
     }
     // computer demonstration in learn mode
     while (nextDemo < demos.length && demos[nextDemo].t <= clock) { const d = demos[nextDemo++]; strike(d.lane, d.len); flash[d.lane] = 1; }
@@ -574,7 +639,7 @@ export function createActivity(userParams, env) {
     if (env.options?.autoplay && !env.options?.songControls) {   // previews, store shots and the distinctness gate: just the instrument playing the song
       text(ctx, info(), area.x + area.w / 2, area.y + 16, g.px(20), pal.dim, { weight: '600', outline: 'rgba(0,0,0,0.5)', lw: 3 });
       ctl.inst = area; ctl.bar = null; ctl.btn = {};
-      rt.list = targets; rt.soft = false; rt.clock = clock; rt.look = look; rt.spb = spb; rt.anim = anim; rt.pul = pul; rt.flash = flash; rt.hold = hold; rt.ptr = ptr; rt.pal = pal; rt.lanes = lanes;
+      rt.demos = EMPTY; rt.list = targets; rt.soft = false; rt.clock = clock; rt.look = look; rt.spb = spb; rt.anim = anim; rt.pul = pul; rt.flash = flash; rt.hold = hold; rt.ptr = ptr; rt.pal = pal; rt.lanes = lanes;
       { const pb = clock < 0 ? 0 : clock / spb; rt.cycle = { beats: cycleBeats, meter, pos: ((pb % cycleBeats) + cycleBeats) % cycleBeats }; }
       stage.layout(area); stage.draw(g, rt);
       if (clock < 0) text(ctx, String(Math.ceil(-clock / spb)), area.x + area.w / 2, area.y + area.h * 0.4, Math.min(area.h, 220) * 0.5, rgba(pal.accent, 0.55 + 0.35 * pul), { weight: '900', outline: 'rgba(0,0,0,0.45)', lw: 6, family: 'Georgia, serif' });
@@ -608,7 +673,7 @@ export function createActivity(userParams, env) {
     // instrument
     const inst = land ? { x: area.x, y: area.y, w: area.w - colW, h: area.h } : { x: area.x, y: ty + bh0 + m * 0.5, w: area.w, h: area.y + area.h - ctlH - 2 * m - (ty + bh0) };
     ctl.inst = inst;
-    rt.list = targets; rt.soft = false; rt.clock = clock; rt.look = look; rt.spb = spb; rt.anim = anim; rt.pul = pul; rt.flash = flash; rt.hold = hold; rt.ptr = ptr; rt.pal = pal; rt.lanes = lanes;
+    rt.demos = EMPTY; rt.list = targets; rt.soft = false; rt.clock = clock; rt.look = look; rt.spb = spb; rt.anim = anim; rt.pul = pul; rt.flash = flash; rt.hold = hold; rt.ptr = ptr; rt.pal = pal; rt.lanes = lanes;
     { const pb = clock < 0 ? 0 : clock / spb; rt.cycle = { beats: cycleBeats, meter, pos: ((pb % cycleBeats) + cycleBeats) % cycleBeats }; }
     stage.layout(inst);
     stage.draw(g, rt);
@@ -706,9 +771,12 @@ export function createActivity(userParams, env) {
           if (MODE === 'learn') drawSheet(g, Ls); else drawFreeCells(g, Ls);
         }
         rt.list = MODE === 'follow' ? targets : MODE === 'free' && !sheet ? guide : EMPTY;
-        rt.soft = MODE === 'free'; rt.clock = clock; rt.look = look; rt.spb = spb; rt.anim = anim; rt.pul = pul; rt.flash = flash; rt.hold = hold; rt.ptr = ptr; rt.pal = pal; rt.lanes = lanes;
+        rt.demos = MODE === 'learn' ? demos.slice(nextDemo, nextDemo + 6) : EMPTY; rt.soft = MODE === 'free'; rt.clock = clock; rt.look = look; rt.spb = spb; rt.anim = anim; rt.pul = pul; rt.flash = flash; rt.hold = hold; rt.ptr = ptr; rt.pal = pal; rt.lanes = lanes;
         { const pb = clock < 0 ? 0 : clock / spb; rt.cycle = { beats: cycleBeats, meter, pos: ((pb % cycleBeats) + cycleBeats) % cycleBeats }; }
-        stage.layout(sa);
+        // wide screens: the shell's Menu / Hint / Restart row floats over the bottom of the play area, so the instrument keeps clear of it
+        // (the floor and backdrop still run to the edge: `bleed`)
+        const foot = L.landscape && P.layout !== 'strings' ? Math.round(g.px(46)) : 0;   // string instruments keep their own fit
+        stage.layout(foot ? { ...sa, h: sa.h - foot, bleed: foot } : sa);
         stage.draw(g, rt);
       }
       // count-in numeral and streak watermark

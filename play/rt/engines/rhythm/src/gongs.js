@@ -2,7 +2,8 @@
 // and the accompanying drum. Cues are rings closing on each boss; the cycle cursor sweeps around the big gong.
 import { clamp, mix, rgba, lighter, darker, glow, rrect, grain, hgrad, vgrad, rgrad, ell, circ, TAU, gong as gongArt } from './art.js';
 import { makeBox, circleSpot, finishSpots, hitSpots, pill } from './stagekit.js';
-import { stick } from './pads.js';
+import { stick, createPlayer } from './performer.js';
+import { setting } from './set.js';
 
 export function gongId(key) { return /kulintang|kolintang|kolintan/.test(String(key || '').toLowerCase()) ? 'kulintang' : 'gamelan'; }
 
@@ -17,23 +18,26 @@ export function createGongStage(id, S, lanes, P) {
   const row = lanes.map((_, i) => i).filter((i) => !big.includes(i) && !drum.includes(i) && !small.includes(i)).sort((a, b) => lanes[a].hz - lanes[b].hz);
   const ref = { w: 1000, h: 760 };
   let variant = '';
+  const dress = { kind: 'planks', base: '#8a6a3a', rugKind: 'zigzag', rugBase: '#7a1f1a', rugA: '#f0c040', rugB: '#1f6a3a', light: '#ffd9a0', vig: 0.55 };
+  const player = createPlayer({ key: 'kulintang', tool: 'stick', toolLen: 120, toolW: 13, wood: '#d9b27a', head: '#8a5a2a', headR: 1.15, side: 'bottom', hands: 2, shirt: '#9a1f2a', trim: '#f0d060', sleeve: 'long', shoulder: 1.2,
+    aim: (i, sp, G) => (sp.big || sp.drum ? [] : [{ h: sp.x < G.cx ? 0 : 1, x: sp.x, y: sp.y }]) });
   const place = (portrait) => {
     if (variant === (portrait ? 'p' : 'l')) return;
     variant = portrait ? 'p' : 'l';
-    ref.w = portrait ? 780 : 1000; ref.h = portrait ? 1000 : 600;
+    ref.w = portrait ? 660 : 1000; ref.h = portrait ? 880 : 600;
     const two = row.length > 6 && id !== 'kulintang';
     const perRow = two ? Math.ceil(row.length / 2) : row.length;
-    const rowU = portrait ? (id === 'kulintang' ? 640 : 600) : (id === 'kulintang' ? 440 : 400);
-    const pitch = portrait ? Math.min(96, (ref.w - 80) / Math.max(1, perRow)) : 108;
+    const rowU = portrait ? (id === 'kulintang' ? 560 : 520) : (id === 'kulintang' ? 440 : 400);
+    const pitch = portrait ? Math.min(96, (ref.w - 60) / Math.max(1, perRow)) : 108;
     row.forEach((i, k) => {
       const r = two ? Math.floor(k / perRow) : 0, c = two ? k % perRow : k;
       const n = two ? (r === 1 ? row.length - perRow : perRow) : row.length;
-      const t = row.length > 1 ? k / (row.length - 1) : 0, rad = Math.min(pitch * 0.46, id === 'kulintang' ? 66 - 24 * t : 72 - 14 * t);
-      spots[i] = circleSpot((c - (n - 1) / 2) * (two ? Math.max(pitch, 120) : pitch) + (!portrait && id === 'kulintang' ? 40 : 0), rowU + (r ? 140 : 0), rad, { gong: true, rad });
+      const t = row.length > 1 ? k / (row.length - 1) : 0, rad = Math.min(pitch * (portrait && id === 'kulintang' ? 0.52 : 0.46), id === 'kulintang' ? 66 - 20 * t : 72 - 14 * t), stag = portrait && id === 'kulintang' ? (k % 2 ? 24 : -24) : 0;
+      spots[i] = circleSpot((c - (n - 1) / 2) * (two ? Math.max(pitch, 120) : pitch) + (!portrait && id === 'kulintang' ? 40 : 0), rowU + (r ? 140 : 0) + stag, Math.min(rad, portrait ? 50 : 66), { gong: true, rad: Math.min(rad, portrait ? 50 : 66) });
     });
-    big.forEach((i, k) => { const rad = 120 - 24 * (k > 0); spots[i] = circleSpot(portrait ? -170 + k * 250 : -300 + k * 150, portrait ? 250 : 190, rad, { big: true, rad, cycle: k === 0 }); });
-    drum.forEach((i, k) => { spots[i] = circleSpot(portrait ? 250 + k * 30 : 330 + k * 40, portrait ? 300 : 150, 80, { drum: true, rad: 80 }); });
-    small.forEach((i, k) => { spots[i] = circleSpot((portrait ? -90 : -60) + k * 150, portrait ? 860 : 540, 58, { gong: true, rad: 58 }); });
+    big.forEach((i, k) => { const rad = 120 - 24 * (k > 0); spots[i] = circleSpot(portrait ? -150 + k * 220 : -300 + k * 150, portrait ? 230 : 190, rad, { big: true, rad, cycle: k === 0 }); });
+    drum.forEach((i, k) => { spots[i] = circleSpot(portrait ? 200 + k * 30 : 330 + k * 40, portrait ? 270 : 150, 80, { drum: true, rad: 80 }); });
+    small.forEach((i, k) => { spots[i] = circleSpot((portrait ? -90 : -60) + k * 150, portrait ? 740 : 540, 58, { gong: true, rad: 58 }); });
     for (let i = 0; i < N; i++) if (!spots[i]) spots[i] = circleSpot(0, 60 + 50 * i, 34, { gong: true, rad: 34 });
   };
   place(false);
@@ -45,6 +49,7 @@ export function createGongStage(id, S, lanes, P) {
   st.draw = (g, rt) => {
     const { ctx } = g, F = st.F;
     if (!F) return;
+    setting(ctx, F, dress.kind, S, rt, dress);
     ctx.save(); F.apply(ctx);
     const frameW = 960;
     // carved wooden stand for the hanging gongs
@@ -95,7 +100,6 @@ export function createGongStage(id, S, lanes, P) {
     [...row, ...small].forEach((i) => {
       const sp = spots[i], l = lanes[i], f = rt.flash[i];
       gongArt(ctx, S, sp.v, sp.u, sp.rad, l.color, f);
-      if (f > 0.04) { const d = (i % 2 ? 1 : -1); stick(ctx, sp.v + d * 8, sp.u - 10 - 100 * (1 - f), d * 0.25, 230, 13, '#d9b27a', '#7a2c1a', f * 1.7); }
     });
     // approach rings
     for (let k = rt.list.length - 1; k >= 0; k--) {
@@ -111,6 +115,7 @@ export function createGongStage(id, S, lanes, P) {
     }
     void frameW;
     ctx.restore();
+    player.update(F, rt, spots, lanes); player.front(ctx, F, rt);
     const size = g.px(15);
     lanes.forEach((l, i) => { const sp = spots[i], [x, y] = F.map(sp.v, sp.u + (sp.big ? sp.rad * 0.0 : 0)); pill(ctx, l.name, x, y + (sp.gong ? sp.rad * F.scale * 1.15 : 0), 84, size, l.color, rt.flash[i]); });
   };

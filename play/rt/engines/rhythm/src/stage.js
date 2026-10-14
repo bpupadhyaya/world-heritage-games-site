@@ -12,6 +12,6 @@ export function createStage(layout, key, S, lanes, P) {
   if (layout === 'holes') return createWindStage(windId(key), S, lanes, P);
   if (layout === 'keys') return createKeyStage(keyId(key), S, lanes, P);
   if (layout === 'circle') return createGongStage(gongId(key), S, lanes, P);
-  if (layout === 'steps') return createDanceStage(danceId(key), S, lanes, P);
+  if (layout === 'steps') return createDanceStage(danceId(key), S, lanes, P, key);
   return createPadStage('multi', S, lanes, P);
 }

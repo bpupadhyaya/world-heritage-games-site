@@ -2,7 +2,7 @@
 // the result. Model in model.js, drawing in draw.js. Deterministic: randomness only via env.rng, time only via dt.
 import { resolve, createPlayer, createBot, createLead, reference, createRivals, placePoints, heatStars, heatScore, qualityOf, leadShare, windShift, curveAt, bendAt, roughAt } from './model.js';
 import { kitOf, createKit, padSurface } from './kits.js';
-import { voice, fx } from '../../../platform/engine-kit/synth.js';
+import { voice as voice0, fx as fx0 } from '../../../platform/engine-kit/synth.js';
 import { hash, shade, scenery, texture, racer, checker, leadObject, trail, speedLines, gantry, confetti, atmosphere } from './draw.js';
 
 const RIVAL_COLORS = ['#e0603a', '#f2c14e', '#58c27d', '#b07be0', '#ef8fb5', '#4fc3d9', '#d8d8d8'];
@@ -35,7 +35,10 @@ export function createActivity(userParams, env) {
   const init = () => { heat = 0; heats = []; done = null; tip = ''; startHeat(); };
   init();
 
-  const tone = (o) => env.audio?.tone?.(o);
+  const SL = env.options?.soundLog;   // audits: every requested sound (options.soundLog)
+  const voice = (a, k, p) => { SL?.push({ kind: k }); return voice0(a, k, p); };
+  const fx = (a, k, p) => { SL?.push({ kind: k }); return fx0(a, k, p); };
+  const tone = (o) => { SL?.push({ kind: 'tone' }); return env.audio?.tone?.(o); };
   // Natural race sounds (platform/engine-kit/synth.js), by what the racer touches: clogs clop, hooves thud, blades scrape,
   // wheels roll, buffalo splash through mud, paddles dip. The kit's raw tone stays as the fallback.
   const A = env.audio, nat = () => !!A?.context;
@@ -56,18 +59,20 @@ export function createActivity(userParams, env) {
     return true;
   };
   // The beat the player follows, played by the instrument that belongs to the sport (not one generic thud).
-  let beatN = 0, stepN = 0;
+  let beatN = 0, stepN = 0, beatOn = false;
   const beat = () => {
     const acc = beatN++ % 4 === 0;
-    if (!nat()) { tone({ freq: 96, dur: 0.09, type: 'sine', vol: 0.35 }); return; }
+    SL?.push({ kind: 'beat' });
+    const L = Math.min(1, 0.3 + beatN * 0.18) * 0.8;   // fades in over the first four beats and stays under the stroke sounds
+    if (!nat()) { tone({ freq: 96, dur: 0.09, type: 'sine', vol: 0.35 * L }); return; }
     switch (kitId) {
-      case 'bakiak': fx(A, 'tick', { hz: acc ? 1150 : 860, vel: acc ? 0.5 : 0.32 }); break;                     // wooden clapper counting the clogs
-      case 'camel': voice(A, 'drum', { style: 'frame', hz: acc ? 150 : 120, vel: acc ? 0.4 : 0.28 }); break;    // desert frame drum
-      case 'skate': fx(A, 'tick', { hz: acc ? 2100 : 1700, vel: acc ? 0.28 : 0.16 }); break;                   // a soft count, ice carries sound
-      case 'cheese': voice(A, 'clap', { vel: acc ? 0.4 : 0.26 }); break;                                        // the crowd claps the pace
-      case 'kambala': voice(A, 'drum', { style: 'bass', hz: acc ? 82 : 68, vel: acc ? 0.6 : 0.42 }); break;     // field drum
-      case 'nouka': voice(A, 'drum', { style: 'bass', hz: acc ? 95 : 80, vel: acc ? 0.62 : 0.44 }); if (acc) fx(A, 'tick', { hz: 1400, vel: 0.2, delay: 0.02 }); break;   // boat-race drum
-      default: fx(A, 'thud', { hz: 78, vel: 0.35 });
+      case 'bakiak': fx(A, 'tick', { hz: acc ? 1150 : 860, vel: (acc ? 0.5 : 0.32) * L }); break;                     // wooden clapper counting the clogs
+      case 'camel': voice(A, 'drum', { style: 'frame', hz: acc ? 150 : 120, vel: (acc ? 0.4 : 0.28) * L }); break;    // desert frame drum
+      case 'skate': fx(A, 'tick', { hz: acc ? 2100 : 1700, vel: (acc ? 0.28 : 0.16) * L }); break;                   // a soft count, ice carries sound
+      case 'cheese': voice(A, 'clap', { vel: (acc ? 0.4 : 0.26) * L }); break;                                        // the crowd claps the pace
+      case 'kambala': voice(A, 'drum', { style: 'bass', hz: acc ? 82 : 68, vel: (acc ? 0.6 : 0.42) * L }); break;     // field drum
+      case 'nouka': voice(A, 'drum', { style: 'bass', hz: acc ? 95 : 80, vel: (acc ? 0.62 : 0.44) * L }); if (acc) fx(A, 'tick', { hz: 1400, vel: 0.2, delay: 0.02 }); break;   // boat-race drum
+      default: fx(A, 'thud', { hz: 78, vel: 0.35 * L });
     }
   };
   const mishap = () => {
@@ -157,8 +162,8 @@ export function createActivity(userParams, env) {
     const m = pl.m;
     if (phase === 'ready') {
       const before = cd; cd -= dt;
-      for (const mark of [1.8, 1.0, 0.2]) if (before > mark && cd <= mark) { if (nat()) fx(A, 'tick', { hz: 900, vel: 0.8 }); else tone({ freq: 330, dur: 0.1, type: 'triangle', vol: 0.5 }); }
-      if (cd <= 0) { phase = 'race'; beatN = 0; stepN = 0; if (nat()) { if (kitId === 'kambala' || kitId === 'nouka' || kitId === 'camel') { voice(A, 'drum', { style: 'taiko', hz: 70, vel: 0.9 }); fx(A, 'whoosh', { vel: 0.3, dur: 0.25 }); } else if (kitId === 'bakiak' || kitId === 'cheese') { voice(A, 'clap', { vel: 0.8 }); fx(A, 'impact', { mat: 'wood', hz: 330, vel: 0.7 }); } else { voice(A, 'bell', { hz: 880, dur: 0.8, vel: 0.7 }); fx(A, 'whoosh', { vel: 0.4, dur: 0.3 }); } } else tone({ freq: 660, dur: 0.25, type: 'triangle' }); }
+      for (const mark of [1.8, 1.0, 0.2]) if (before > mark && cd <= mark) { if (nat()) fx(A, 'tick', { hz: 900, vel: 0.45 }); else tone({ freq: 330, dur: 0.1, type: 'triangle', vol: 0.5 }); }
+      if (cd <= 0) { phase = 'race'; beatN = 0; stepN = 0; beatOn = false; if (nat()) { if (kitId === 'kambala' || kitId === 'nouka' || kitId === 'camel') { voice(A, 'drum', { style: 'taiko', hz: 70, vel: 0.55 }); fx(A, 'whoosh', { vel: 0.3, dur: 0.25 }); } else if (kitId === 'bakiak' || kitId === 'cheese') { voice(A, 'clap', { vel: 0.5 }); fx(A, 'impact', { mat: 'wood', hz: 330, vel: 0.45 }); } else { voice(A, 'bell', { hz: 880, dur: 0.8, vel: 0.45 }); fx(A, 'whoosh', { vel: 0.4, dur: 0.3 }); } } else tone({ freq: 660, dur: 0.25, type: 'triangle' }); }
       return;
     }
     if (phase === 'between') {
@@ -181,7 +186,8 @@ export function createActivity(userParams, env) {
     else if (m.event?.type === 'stroke' && stroke(m.event.grade)) { /* natural */ }
     else if (m.event?.type === 'stroke' && KIT) tone(KIT.tone.stroke(m.event.grade));
     else if (m.event?.type === 'stroke') tone({ freq: m.event.grade === 'perfect' ? 620 : m.event.grade === 'miss' ? 150 : 460, dur: 0.06, type: 'triangle', vol: 0.5 });
-    if (playing && P.rhythm.drum && kind !== 'sailor') {
+    if (m.event?.type === 'stroke') beatOn = true;   // the beat starts with the first stroke (or after 3 s of racing: the race is on screen)
+    if (playing && P.rhythm.drum && kind !== 'sailor' && (beatOn || m.rt > 3)) {
       const b = Math.floor(m.rt / pl.T);
       if (b > lastBeat) { lastBeat = b; beat(); }
     }

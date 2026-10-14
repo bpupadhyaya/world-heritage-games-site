@@ -21,6 +21,8 @@ export function createActivity(userParams0, env0) {
   const fx = createFx();
   const scene = resolveScene(userParams, env0.text, technique);
   const sound = createSound(env0.audio, scene, userParams.material, technique);
+  const SL = env0.options?.soundLog;
+  if (SL) for (const k of Object.keys(sound)) if (typeof sound[k] === 'function' && k !== 'tick') { const f = sound[k]; sound[k] = (...a) => { SL.push({ kind: k }); return f(...a); }; }   // audits
   const env = { ...env0, fx, sound };
   userParams = { ...userParams, scene };
   const make = {
