@@ -1,0 +1,31 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "scene": "deruta",
+  "profile": "tazzafoot",
+  "rows": 12,
+  "bands": 5,
+  "clay": "#d8b890",
+  "glazes": [
+   {
+    "name": "Cream",
+    "color": "#f0e6c8"
+   },
+   {
+    "name": "Ochre yellow",
+    "color": "#e0a830"
+   },
+   {
+    "name": "Cobalt",
+    "color": "#2a5db8"
+   },
+   {
+    "name": "Copper green",
+    "color": "#3a8a5a"
+   }
+  ],
+  "variation": 0.05,
+  "steps": 12
+ }
+}

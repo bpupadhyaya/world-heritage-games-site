@@ -1,0 +1,160 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "pitloom",
+    "cols": 7,
+    "rows": 7,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Indigo",
+        "color": "#25386a"
+      },
+      {
+        "name": "Saffron",
+        "color": "#e0a226"
+      },
+      {
+        "name": "Cotton white",
+        "color": "#f2ead6"
+      },
+      {
+        "name": "Rust",
+        "color": "#a8452a"
+      },
+      {
+        "name": "Leaf green",
+        "color": "#3f7a46"
+      }
+    ],
+    "background": "#e8d9b2",
+    "grid": "#a89868",
+    "motifs": [
+      "stripe-h",
+      "stripe-v",
+      "checker",
+      "triangle",
+      "diamond",
+      "zigzag"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Indigo and saffron strip",
+        "rows": [
+          "abcdcba",
+          "e.f.f.e",
+          "abcdcba",
+          "g.g.g.g",
+          "abcdcba",
+          "e.f.f.e",
+          "abcdcba"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 0,
+            "c": 1
+          },
+          "c": {
+            "m": 0,
+            "c": 2
+          },
+          "d": {
+            "m": 4,
+            "c": 3
+          },
+          "e": {
+            "m": 2,
+            "c": 0
+          },
+          "f": {
+            "m": 3,
+            "c": 4
+          },
+          "g": {
+            "m": 1,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Checker strip",
+        "rows": [
+          "aaaaaaa",
+          "b.b.b.b",
+          "cdcdcdc",
+          "e.f.f.e",
+          "cdcdcdc",
+          "b.b.b.b",
+          "aaaaaaa"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 3,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 2
+          },
+          "d": {
+            "m": 2,
+            "c": 3
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Diamonds in bands",
+        "rows": [
+          "ggggggg",
+          "..h.h..",
+          "i.....i",
+          "..jkj..",
+          "i.....i",
+          "..h.h..",
+          "ggggggg"
+        ],
+        "legend": {
+          "g": {
+            "m": 1,
+            "c": 3
+          },
+          "h": {
+            "m": 4,
+            "c": 1
+          },
+          "i": {
+            "m": 3,
+            "c": 0
+          },
+          "j": {
+            "m": 5,
+            "c": 2
+          },
+          "k": {
+            "m": 4,
+            "c": 4
+          }
+        }
+      }
+    ]
+  }
+}

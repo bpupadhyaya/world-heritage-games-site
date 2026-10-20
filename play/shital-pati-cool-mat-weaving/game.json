@@ -1,0 +1,13 @@
+{
+ "slug": "shital-pati-cool-mat-weaving",
+ "title": "Shital pati",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

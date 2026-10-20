@@ -1,0 +1,215 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "stamping tubes",
+  "lanes": [
+   {
+    "name": "Low",
+    "hz": 150,
+    "timbre": "bass",
+    "color": "#ff7a4a"
+   },
+   {
+    "name": "Mid low",
+    "hz": 180,
+    "timbre": "tone",
+    "color": "#f0a850"
+   },
+   {
+    "name": "Middle",
+    "hz": 215,
+    "timbre": "tone",
+    "color": "#f0d24a"
+   },
+   {
+    "name": "Mid high",
+    "hz": 260,
+    "timbre": "tone",
+    "color": "#8fd068"
+   },
+   {
+    "name": "High",
+    "hz": 320,
+    "timbre": "tone",
+    "color": "#4fc6d6"
+   },
+   {
+    "name": "Top",
+    "hz": 390,
+    "timbre": "tone",
+    "color": "#c9a0ff"
+   }
+  ],
+  "songs": [
+   {
+    "id": "rise",
+    "name": "Rising line",
+    "bpm": 88,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A line that climbs from the longest tube to the shortest.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Low"
+     },
+     {
+      "beat": 1,
+      "lane": "Mid low"
+     },
+     {
+      "beat": 2,
+      "lane": "Middle"
+     },
+     {
+      "beat": 3,
+      "lane": "Mid high"
+     },
+     {
+      "beat": 4,
+      "lane": "High"
+     },
+     {
+      "beat": 5,
+      "lane": "Top"
+     },
+     {
+      "beat": 6,
+      "lane": "High"
+     },
+     {
+      "beat": 7,
+      "lane": "Mid high"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "share",
+    "name": "Sharing a tune",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A tune shared out between the tubes.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Middle"
+     },
+     {
+      "beat": 1,
+      "lane": "Mid high"
+     },
+     {
+      "beat": 2,
+      "lane": "High"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Mid high"
+     },
+     {
+      "beat": 3,
+      "lane": "Middle"
+     },
+     {
+      "beat": 4,
+      "lane": "Mid low"
+     },
+     {
+      "beat": 5,
+      "lane": "Middle"
+     },
+     {
+      "beat": 6,
+      "lane": "Mid high"
+     },
+     {
+      "beat": 6.5,
+      "lane": "High"
+     },
+     {
+      "beat": 7,
+      "lane": "Top"
+     }
+    ]
+   },
+   {
+    "id": "stamp",
+    "name": "Deep and bright",
+    "bpm": 84,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Deep strokes underneath, bright ones on top.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Low"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Top"
+     },
+     {
+      "beat": 1,
+      "lane": "Low"
+     },
+     {
+      "beat": 1.5,
+      "lane": "High"
+     },
+     {
+      "beat": 2,
+      "lane": "Mid low"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Top"
+     },
+     {
+      "beat": 3,
+      "lane": "Middle"
+     },
+     {
+      "beat": 4,
+      "lane": "Low"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Top"
+     },
+     {
+      "beat": 5,
+      "lane": "Low"
+     },
+     {
+      "beat": 5.5,
+      "lane": "High"
+     },
+     {
+      "beat": 6,
+      "lane": "Mid low"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Mid high"
+     },
+     {
+      "beat": 7,
+      "lane": "Top"
+     }
+    ]
+   }
+  ]
+ }
+}

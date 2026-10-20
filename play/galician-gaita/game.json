@@ -1,0 +1,13 @@
+{
+ "slug": "galician-gaita",
+ "title": "Gaita (Galician bagpipe)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

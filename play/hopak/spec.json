@@ -1,0 +1,191 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "lanes": [
+   {
+    "name": "Left",
+    "hz": 150,
+    "timbre": "stomp",
+    "icon": "foot-l",
+    "color": "#2d7bd6"
+   },
+   {
+    "name": "Right",
+    "hz": 170,
+    "timbre": "stomp",
+    "icon": "foot-r",
+    "color": "#d64b3c"
+   },
+   {
+    "name": "Kick",
+    "hz": 95,
+    "timbre": "stomp",
+    "icon": "stomp",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Clap",
+    "hz": 1500,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#58c27d"
+   }
+  ],
+  "songs": [
+   {
+    "id": "hopak-steps",
+    "name": "Steps and stamps",
+    "bpm": 108,
+    "meter": 2,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Hopak, Ukraine",
+    "note": "A teaching figure: four alternating steps, two squat kicks, two claps.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Left"
+     },
+     {
+      "beat": 1,
+      "lane": "Right"
+     },
+     {
+      "beat": 2,
+      "lane": "Left"
+     },
+     {
+      "beat": 3,
+      "lane": "Right"
+     },
+     {
+      "beat": 4,
+      "lane": "Kick"
+     },
+     {
+      "beat": 5,
+      "lane": "Kick"
+     },
+     {
+      "beat": 6,
+      "lane": "Clap"
+     },
+     {
+      "beat": 7,
+      "lane": "Clap"
+     }
+    ]
+   },
+   {
+    "id": "hopak-squat",
+    "name": "Squat and clap",
+    "bpm": 120,
+    "meter": 2,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Hopak, Ukraine",
+    "note": "The squat kick answered by a clap, then two stamps.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Kick"
+     },
+     {
+      "beat": 1,
+      "lane": "Clap"
+     },
+     {
+      "beat": 2,
+      "lane": "Kick"
+     },
+     {
+      "beat": 3,
+      "lane": "Clap"
+     },
+     {
+      "beat": 4,
+      "lane": "Left"
+     },
+     {
+      "beat": 5,
+      "lane": "Right"
+     },
+     {
+      "beat": 6,
+      "lane": "Kick"
+     },
+     {
+      "beat": 7,
+      "lane": "Clap"
+     }
+    ]
+   },
+   {
+    "id": "hopak-round",
+    "name": "Cossack round",
+    "bpm": 132,
+    "meter": 2,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Hopak, Ukraine",
+    "note": "A quicker round with a stamp between the figures.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Left"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Right"
+     },
+     {
+      "beat": 1,
+      "lane": "Kick"
+     },
+     {
+      "beat": 2,
+      "lane": "Clap"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Left"
+     },
+     {
+      "beat": 3,
+      "lane": "Right"
+     },
+     {
+      "beat": 4,
+      "lane": "Kick"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Clap"
+     },
+     {
+      "beat": 5,
+      "lane": "Kick"
+     },
+     {
+      "beat": 6,
+      "lane": "Left"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Right"
+     },
+     {
+      "beat": 7,
+      "lane": "Clap"
+     }
+    ]
+   }
+  ],
+  "instrument": "hopak dancer"
+ }
+}

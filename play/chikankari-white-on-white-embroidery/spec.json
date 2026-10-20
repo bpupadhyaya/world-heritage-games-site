@@ -1,0 +1,193 @@
+{
+ "engine": "pattern",
+ "params": {
+  "scene": "chikankari",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "mirror-xy",
+  "palette": [
+   {
+    "name": "White",
+    "color": "#ffffff"
+   },
+   {
+    "name": "Cream",
+    "color": "#f1e6c8"
+   },
+   {
+    "name": "Pearl",
+    "color": "#cfd3d6"
+   }
+  ],
+  "background": "#c9bb9d",
+  "grid": "#a89c80",
+  "motifs": [
+   "leaf",
+   "flower",
+   "dot",
+   "ring",
+   "diamond",
+   "vine"
+  ],
+  "mode": "copy",
+  "rotateMarks": true,
+  "designs": [
+   {
+    "name": "Buti with leaves",
+    "rows": [
+     "..d.v.d..",
+     ".l.....l.",
+     "d..L.L..d",
+     ".l..r..l.",
+     "v.f.k.f.v",
+     ".l..r..l.",
+     "d..L.L..d",
+     ".l.....l.",
+     "..d.v.d.."
+    ],
+    "legend": {
+     "l": {
+      "m": 0,
+      "c": 0
+     },
+     "L": {
+      "m": 0,
+      "c": 1
+     },
+     "f": {
+      "m": 1,
+      "c": 0
+     },
+     "F": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 2,
+      "c": 0
+     },
+     "D": {
+      "m": 2,
+      "c": 2
+     },
+     "r": {
+      "m": 3,
+      "c": 0
+     },
+     "k": {
+      "m": 4,
+      "c": 2
+     },
+     "v": {
+      "m": 5,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Jali lattice",
+    "rows": [
+     "r.r.r.r.r",
+     ".d.d.d.d.",
+     "r.k.r.k.r",
+     ".d.D.D.d.",
+     "r.r.f.r.r",
+     ".d.D.D.d.",
+     "r.k.r.k.r",
+     ".d.d.d.d.",
+     "r.r.r.r.r"
+    ],
+    "legend": {
+     "l": {
+      "m": 0,
+      "c": 0
+     },
+     "L": {
+      "m": 0,
+      "c": 1
+     },
+     "f": {
+      "m": 1,
+      "c": 0
+     },
+     "F": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 2,
+      "c": 0
+     },
+     "D": {
+      "m": 2,
+      "c": 2
+     },
+     "r": {
+      "m": 3,
+      "c": 0
+     },
+     "k": {
+      "m": 4,
+      "c": 2
+     },
+     "v": {
+      "m": 5,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Murri border",
+    "rows": [
+     "lDlDlDlDl",
+     "d.......d",
+     "L..f.f..L",
+     "d.......d",
+     "L.F.k.F.L",
+     "d.......d",
+     "L..f.f..L",
+     "d.......d",
+     "lDlDlDlDl"
+    ],
+    "legend": {
+     "l": {
+      "m": 0,
+      "c": 0
+     },
+     "L": {
+      "m": 0,
+      "c": 1
+     },
+     "f": {
+      "m": 1,
+      "c": 0
+     },
+     "F": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 2,
+      "c": 0
+     },
+     "D": {
+      "m": 2,
+      "c": 2
+     },
+     "r": {
+      "m": 3,
+      "c": 0
+     },
+     "k": {
+      "m": 4,
+      "c": 2
+     },
+     "v": {
+      "m": 5,
+      "c": 1
+     }
+    }
+   }
+  ]
+ }
+}

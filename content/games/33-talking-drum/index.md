@@ -41,11 +41,11 @@ A living tradition passed from person to person; it is not tied to a single date
 ## Related entries
 
 - [Calabash Water Drum](../../games/180-calabash-water-drum/index.md)
-- [Batuque Cloth-Drum Circle](../../games/1251-batuque-cloth-drum-circle/index.md)
-- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md)
-- [Marimba](../../games/52-marimba/index.md)
-- [Amadinda and embaire](../../games/185-amadinda-and-embaire/index.md)
-- [Isukuti drum dance](../../games/191-isukuti-drum-dance/index.md)
+- [Ikoro](../../games/7189-ikoro/index.md)
+- [Obrom slit drum](../../games/7192-obrom-slit-drum/index.md)
+- [Cigogo iron bell](../../games/21362-cigogo-iron-bell/index.md)
+- [Ogwumgwu board lamellophone](../../games/21365-ogwumgwu-board-lamellophone/index.md)
+- [Ekpili seed-shell rattle](../../games/21377-ekpili-seed-shell-rattle/index.md)
 
 ## Sources
 

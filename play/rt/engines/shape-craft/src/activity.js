@@ -11,9 +11,12 @@ import { createKnot, KNOT_DEFAULTS } from './knot.js';
 import { createBend, BEND_DEFAULTS } from './bend.js';
 import { createFx, caseGlass, shadowed, rrect, tint, rgba, mix, lum } from './fx.js';
 import { createSound } from './sound.js';
+import { EXT, TECHNIQUE_LIST } from './registry.js';
+import './ext.js';   // 1.5.0: extension manifest (techniques, figures, scenes added by registration)
 import { resolveScene, splitWork, drawGround, drawDock, drawFrame, drawStage } from './scenes.js';
 
-export const TECHNIQUES = ['lathe', 'carve', 'cut', 'fold', 'coil', 'knot', 'bend'];
+TECHNIQUE_LIST.unshift('lathe', 'carve', 'cut', 'fold', 'coil', 'knot', 'bend');
+export const TECHNIQUES = TECHNIQUE_LIST;   // live: registerTechnique (registry.js) appends
 
 export function createActivity(userParams0, env0) {
   let userParams = userParams0;
@@ -33,7 +36,7 @@ export function createActivity(userParams0, env0) {
     coil: () => createCoil({ ...COIL_DEFAULTS, ...userParams }, env),
     knot: () => createKnot({ ...KNOT_DEFAULTS, ...userParams }, env),
     bend: () => createBend({ ...BEND_DEFAULTS, ...userParams }, env),
-  }[technique];
+  }[technique] ?? (() => EXT.techniques.get(technique).make({ ...(EXT.techniques.get(technique).defaults ?? {}), ...userParams }, env));
   const tech = make();
   const pal = env.palette;
   let clock = 0, layout = null, press = null, resultAt = -1;
@@ -62,7 +65,7 @@ export function createActivity(userParams0, env0) {
       ctrlTop = area.y + area.h - ctrlH; ctrlX = area.x + area.w - colW + 4;
       work = { x: area.x, y: area.y, w: area.w - colW - 8, h: area.h };
     } else {
-      const th = Math.min(Math.max(110, area.h * 0.24), 250);
+      const th = tech.compact ? Math.min(Math.max(96, area.h * 0.15), 200) : Math.min(Math.max(110, area.h * 0.24), 250);
       thumb = { x: area.x + 14, y: area.y + 54, w: th, h: th };
       info = { x: thumb.x + th + 24, y: thumb.y + 4, w: area.w - th - 48 };
       ctrlTop = area.y + area.h - ctrlH; ctrlX = area.x + 4;
@@ -112,7 +115,7 @@ export function createActivity(userParams0, env0) {
   const act = {
     init() { tech.init(); clock = 0; resultAt = -1; },
     update(dt, input) {
-      clock += dt; fx.update(dt); sound.tick(clock);
+      clock += dt; fx.update(dt); sound.tick(clock); tech.tick?.(dt);
       const p = input.pointer;
       if (!layout) return;
       press = p.down ? layout.ctrl.find((c) => !c.off && p.x >= c.x && p.x <= c.x + c.w && p.y >= c.y && p.y <= c.y + c.h)?.id ?? null : null;
@@ -121,9 +124,9 @@ export function createActivity(userParams0, env0) {
         const b = layout.ctrl.find((c) => p.x >= c.x && p.x <= c.x + c.w && p.y >= c.y && p.y <= c.y + c.h);
         if (b) { if (!b.off) tech.control(b.id); return; }
       }
-      tech.work(p);
+      tech.work(p, dt);
     },
-    attract(dt) { clock += dt; fx.update(dt); sound.tick(clock); tech.attract(dt); },
+    attract(dt) { clock += dt; fx.update(dt); sound.tick(clock); tech.tick?.(dt); tech.attract(dt); },
     render(g, area) {
       const { ctx } = g;
       layout = compute(g, area, tech.items());

@@ -1,0 +1,13 @@
+{
+ "slug": "yomyom-brass-pellet-rattle",
+ "title": "Yomyom (brass pellet bells)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

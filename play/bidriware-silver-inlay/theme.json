@@ -1,0 +1,11 @@
+{
+  "palette": {
+    "bg": "#14161a",
+    "panel": "#24282e",
+    "accent": "#d8dfe6",
+    "line": "#3a4048",
+    "ink": "#f2efe8",
+    "dim": "#9aa3ad",
+    "good": "#c8d4de"
+  }
+}

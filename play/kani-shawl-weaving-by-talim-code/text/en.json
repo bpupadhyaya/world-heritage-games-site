@@ -1,0 +1,28 @@
+{
+  "title": "Kani shawl weaving by talim code",
+  "native": "کانی · تعلیم",
+  "alt": [
+    "Kani shawl",
+    "Kanihama weaving"
+  ],
+  "summary": "In the Kashmir valley, weavers build a fine goat-wool shawl on a frame loom with dozens of small wooden bobbins, one for each patch of colour. A coded chart called talim is read aloud row by row, and the pattern grows in the cloth itself.",
+  "howToPlay": [
+    "Look at the chart card: it shows the motif and thread colour wanted in each square.",
+    "Pick a thread colour from the spools, then a motif.",
+    "Touch a square to weave it. The shawl is a mirror of itself left to right, so the partner square is woven too.",
+    "Press Check to compare your cloth with the chart and earn up to three stars."
+  ],
+  "rules": [
+    "The shawl pattern is symmetric left to right: every stitch you place appears on its mirror square.",
+    "Placing the same motif and colour again on a square removes it.",
+    "One colour patch belongs to one bobbin, so each square must match the colour of the chart exactly.",
+    "Score is the share of squares that match the chart; 98 percent or more earns three stars, 85 percent two, 60 percent one."
+  ],
+  "heritageNote": "Kani weaving comes from Kanihama and nearby villages in Kashmir, India, where weavers, chart writers and dyers each hold a part of the craft. A single shawl can take many months to finish.",
+  "countries": [
+    "India"
+  ],
+  "credits": [
+    "Chart designs are our own simplified patterns after boteh, jaal and leaf borders of the tradition."
+  ]
+}

@@ -46,10 +46,10 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 - [Italian draughts](../../games/834-italian-draughts/index.md)
 - [Ludus Latrunculorum](../../games/4756-ludus-latrunculorum/index.md)
+- [Zampogna](../../games/10240-zampogna/index.md)
 - [Kharbaga](../../games/459-kharbaga/index.md)
 - [Zamma](../../games/462-zamma/index.md)
 - [Çiftelia](../../games/1257-ciftelia/index.md)
-- [Mezoued Bagpipe and Tabl Drum](../../games/1336-mezoued-bagpipe-and-tabl-drum/index.md)
 
 ## Sources
 

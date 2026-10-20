@@ -1,0 +1,125 @@
+{
+ "engine": "pattern",
+ "params": {
+  "scene": "siapo",
+  "cols": 7,
+  "rows": 7,
+  "symmetry": "mirror-xy",
+  "palette": [
+   {
+    "name": "Brown",
+    "color": "#5a2e14"
+   },
+   {
+    "name": "Dark",
+    "color": "#2a160a"
+   },
+   {
+    "name": "Umber",
+    "color": "#8a4a22"
+   }
+  ],
+  "background": "#ecdcb6",
+  "grid": "#b9a27a",
+  "motifs": [
+   "flower",
+   "leaf",
+   "vine",
+   "dot",
+   "diamond",
+   "star"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 2,
+  "designs": [
+   {
+    "name": "Flowers and leaves",
+    "rows": [
+     "d.d.d.d",
+     ".......",
+     ".b.a.b.",
+     "d..e..d",
+     ".b.a.b.",
+     ".......",
+     "d.d.d.d"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 2
+     },
+     "e": {
+      "m": 2,
+      "c": 1
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Leaf vines",
+    "rows": [
+     ".b...b.",
+     ".......",
+     "b.a.a.b",
+     "...e...",
+     "b.a.a.b",
+     ".......",
+     ".b...b."
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 1
+     },
+     "b": {
+      "m": 1,
+      "c": 2
+     },
+     "e": {
+      "m": 2,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Star blossoms",
+    "rows": [
+     "...c...",
+     ".d...d.",
+     "..a.a..",
+     "c..b..c",
+     "..a.a..",
+     ".d...d.",
+     "...c..."
+    ],
+    "legend": {
+     "a": {
+      "m": 4,
+      "c": 2
+     },
+     "b": {
+      "m": 0,
+      "c": 0
+     },
+     "c": {
+      "m": 5,
+      "c": 1
+     },
+     "d": {
+      "m": 3,
+      "c": 0
+     }
+    }
+   }
+  ]
+ },
+ "variant": "siapo"
+}

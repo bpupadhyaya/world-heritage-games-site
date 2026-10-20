@@ -1,0 +1,13 @@
+{
+ "slug": "wajima-nuri",
+ "title": "Wajima chinkin bowl",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

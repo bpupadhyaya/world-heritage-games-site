@@ -2,6 +2,7 @@
 // Every prop is drawn centred on the origin, long axis along +x, nominal length s. Pure canvas 2D: no DOM, no Math.random, no clocks
 // (time arrives as an argument). Used by scenes.js for the tool dock, the wall and the tool held at the pointer.
 import { hash } from './geom.js';
+import { EXT } from './registry.js';
 import { tint, mix, rgba, rrect } from './fx.js';
 
 export const TAU = Math.PI * 2;
@@ -281,7 +282,7 @@ export const PROPS = {
 
 // Draw a prop with its centre at (x, y), long axis rotated by rot.
 export function drawProp(ctx, name, x, y, s, rot = 0, o = {}) {
-  const f = PROPS[name]; if (!f) return;
+  const f = PROPS[name] ?? EXT.props[name]; if (!f) return;
   ctx.save(); ctx.translate(x, y); ctx.rotate(rot);
   ctx.shadowColor = 'rgba(0,0,0,0.35)'; ctx.shadowBlur = Math.max(2, s * 0.05); ctx.shadowOffsetY = Math.max(1, s * 0.03);
   f(ctx, s, o);
@@ -291,7 +292,7 @@ export function drawProp(ctx, name, x, y, s, rot = 0, o = {}) {
 export function drawHeld(ctx, name, x, y, s, t = 0, o = {}) {
   ctx.save(); ctx.translate(x, y); ctx.rotate(-2.3 + Math.sin(t * 22) * 0.04); ctx.translate(-s / 2, 0);
   ctx.shadowColor = 'rgba(0,0,0,0.45)'; ctx.shadowBlur = 8; ctx.shadowOffsetX = 4; ctx.shadowOffsetY = 5;
-  (PROPS[name] ?? PROPS.chisel)(ctx, s, o);
+  (PROPS[name] ?? EXT.props[name] ?? PROPS.chisel)(ctx, s, o);
   ctx.restore();
 }
 export const PROP_NAMES = Object.keys(PROPS);

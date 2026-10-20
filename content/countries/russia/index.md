@@ -1,21 +1,21 @@
 ---
 title: "Russia"
-description: "14 traditions from Russia."
+description: "15 traditions from Russia."
 path: "/countries/russia/"
-count: 14
+count: 15
 ---
 # Russia
 
-14 traditions from Russia.
+15 traditions from Russia.
 
 
 
-14 entries.
+15 entries.
 
 - [Balalaika](../../games/133-balalaika/index.md): Russia; Musical instruments; Crossroads and Golden Ages
 - [Gorodki](../../games/13-gorodki/index.md): Russia; Dexterity and skill games; Age of Contact and Craft
+- [Jouhikko](../../games/2760-jouhikko/index.md): Finland, Russia; Musical instruments; Classical Worlds
 - [Khokhloma Pattern Painting](../../games/102-khokhloma-pattern-painting/index.md): Russia; Crafts and making; Living Traditions
-- [Khomus](../../games/379-khomus/index.md): Russia; Musical instruments; Classical Worlds
 - [Kurai](../../games/1237-kurai/index.md): Russia; Musical instruments; Classical Worlds
 - [Lapta](../../games/375-lapta/index.md): Russia; Street and playground games; Modern Heritage
 - [Mas-wrestling](../../games/380-mas-wrestling/index.md): Russia; Wrestling and martial sports; River Valleys and First Cities
@@ -26,3 +26,4 @@ count: 14
 - [Tuvan Throat Singing](../../games/508-tuvan-throat-singing/index.md): Mongolia, Russia; Archery, throwing and target games; Classical Worlds
 - [Nardy](../../games/1047-nardy/index.md): Russia; Board and table games; River Valleys and First Cities
 - [Russian Loto](../../games/22338-russian-loto/index.md): Russia; Board and table games; Crossroads and Golden Ages
+- [Vanka-vstanka](../../games/9264-vanka-vstanka/index.md): Russia; Toys; Modern Heritage

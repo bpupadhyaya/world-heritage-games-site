@@ -1,0 +1,325 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 110.0,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "guitarron",
+  "lanes": [
+   {
+    "name": "A2",
+    "cents": 0,
+    "id": "a2-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8403c",
+    "string": 0,
+    "fret": 0
+   },
+   {
+    "name": "B2",
+    "cents": 200,
+    "id": "b2-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d05e47",
+    "string": 0,
+    "fret": 2
+   },
+   {
+    "name": "D3",
+    "cents": 500,
+    "id": "d3-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d87c52",
+    "string": 1,
+    "fret": 0
+   },
+   {
+    "name": "E3",
+    "cents": 700,
+    "id": "e3-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e09a5d",
+    "string": 1,
+    "fret": 2
+   },
+   {
+    "name": "G3",
+    "cents": 1000,
+    "id": "g3-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d4c780",
+    "string": 2,
+    "fret": 0
+   },
+   {
+    "name": "A3",
+    "cents": 1200,
+    "id": "a3-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#9cc4a0",
+    "string": 2,
+    "fret": 2
+   },
+   {
+    "name": "C4",
+    "cents": 1500,
+    "id": "c4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7ca6a4",
+    "string": 3,
+    "fret": 0
+   },
+   {
+    "name": "D4",
+    "cents": 1700,
+    "id": "d4-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#58a0b8",
+    "string": 3,
+    "fret": 2
+   },
+   {
+    "name": "E4",
+    "cents": 1900,
+    "id": "e4-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#5a8cc8",
+    "string": 4,
+    "fret": 0
+   },
+   {
+    "name": "A4",
+    "cents": 2400,
+    "id": "a4-9",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7a78c8",
+    "string": 5,
+    "fret": 0
+   },
+   {
+    "name": "Chord A",
+    "cents": 0,
+    "id": "chord-a-10",
+    "timbre": "pluck",
+    "dur": 1.4,
+    "color": "#a070b8",
+    "row": 3
+   }
+  ],
+  "songs": [
+   {
+    "id": "bass-walk",
+    "name": "Bass walk",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A walking bass line that fills out the band",
+    "bpm": 84,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 0
+     },
+     {
+      "beat": 5,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 11,
+      "lane": 4
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 1
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ],
+    "note": "A steady, walking line up and down the strings."
+   },
+   {
+    "id": "octave-leaps",
+    "name": "Octave leaps",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Leaps between a low note and its octave",
+    "bpm": 100,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 5
+     },
+     {
+      "beat": 2,
+      "lane": 0
+     },
+     {
+      "beat": 3,
+      "lane": 5
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 7
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 7
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 9
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 9
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 7
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     },
+     {
+      "beat": 15,
+      "lane": 10
+     }
+    ],
+    "note": "Each low note is answered by the same note an octave higher."
+   },
+   {
+    "id": "slow-march",
+    "name": "Slow march",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A slow marching line of long notes",
+    "bpm": 66,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 8,
+      "lane": 8
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     }
+    ],
+    "note": "Long, deep notes step up the strings and back down again."
+   }
+  ]
+ },
+ "variant": "guitarron-mexicano",
+ "players": "1"
+}

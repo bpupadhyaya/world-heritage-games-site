@@ -1,0 +1,13 @@
+{
+ "slug": "amazigh-rug-weaving",
+ "title": "Amazigh Rug Weaving",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

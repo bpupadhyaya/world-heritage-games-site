@@ -1,0 +1,25 @@
+{
+  "title": "Tingatinga painting",
+  "native": "Tingatinga",
+  "alt": [
+    "Tinga Tinga"
+  ],
+  "summary": "Tingatinga is the bright enamel painting of Dar es Salaam: a single animal or bird, drawn big and flat on a square board against one bold colour. Each shape is flooded with glossy colour first, and the black outline and small details come last.",
+  "howToPlay": [
+    "Look at the framed picture: it shows the finished board.",
+    "Dip the brush in a colour, then press and drag along the lit guide lines. Slow, steady strokes lay a fat line; the line thins as the paint runs out, so dip again.",
+    "Where a step has shapes, tap a shape to flood it with the right colour.",
+    "Press Next when a step is done. The black outline comes last and the score shows how closely you followed the picture."
+  ],
+  "rules": [
+    "Each step names the colours to use: the sky, the bird and the branch are flooded first, then the outline and details are painted in black.",
+    "A stroke counts when it follows the guide line in the right colour; paint far from the guide counts against you.",
+    "A shape counts as filled for the share of it that holds the right colour; paint stays inside the outline.",
+    "Undo takes back the last stroke. Three stars need a close match, and doing nothing scores nothing."
+  ],
+  "heritageNote": "Tingatinga painting began in Dar es Salaam in the 1960s and takes its name from its first painter, Edward Said Tingatinga. Artists work in glossy enamel on square boards, with a bold background and a black outline that reads from across the street; studios in Tanzania and Kenya keep the style alive today.",
+  "countries": [
+    "Tanzania"
+  ],
+  "credits": []
+}

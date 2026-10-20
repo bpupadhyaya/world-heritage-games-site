@@ -1,0 +1,13 @@
+{
+ "slug": "khene",
+ "title": "Khene (Lao bamboo mouth organ)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,134 @@
+{
+  "engine": "rhythm",
+  "variant": "tuvan-throat-singing",
+  "players": "1",
+  "params": {
+    "layout": "voice",
+    "mode": "follow",
+    "root": 110,
+    "scale": "pentatonic",
+    "tolerance": 1.3,
+    "leadIn": 4,
+    "drone": "vocal",
+    "instrument": "throat singing",
+    "vocal": {
+      "style": "throat",
+      "fundamental": 110
+    },
+    "lanes": [
+      {
+        "name": "6th",
+        "hz": 660,
+        "timbre": "vocal",
+        "color": "#e0a82e"
+      },
+      {
+        "name": "8th",
+        "hz": 880,
+        "timbre": "vocal",
+        "color": "#f08a3c"
+      },
+      {
+        "name": "9th",
+        "hz": 990,
+        "timbre": "vocal",
+        "color": "#e87fa0"
+      },
+      {
+        "name": "10th",
+        "hz": 1100,
+        "timbre": "vocal",
+        "color": "#58c27d"
+      },
+      {
+        "name": "12th",
+        "hz": 1320,
+        "timbre": "vocal",
+        "color": "#4f9fd6"
+      }
+    ],
+    "songs": [
+      {
+        "id": "steppe-melody",
+        "name": "Steppe melody",
+        "bpm": 54,
+        "meter": 4,
+        "length": 16,
+        "watch": true,
+        "kind": "figure",
+        "heritage": "Khoomei, Tuva",
+        "note": "A teaching figure on the natural overtones of one low fundamental: the singer holds the drone and shapes a high, flute-like melody above it.",
+        "steps": [
+          {
+            "beat": 0,
+            "lane": 1,
+            "len": 1
+          },
+          {
+            "beat": 1,
+            "lane": 2,
+            "len": 1
+          },
+          {
+            "beat": 2,
+            "lane": 3,
+            "len": 1
+          },
+          {
+            "beat": 3,
+            "lane": 4,
+            "len": 2
+          },
+          {
+            "beat": 5,
+            "lane": 3,
+            "len": 1
+          },
+          {
+            "beat": 6,
+            "lane": 2,
+            "len": 1
+          },
+          {
+            "beat": 7,
+            "lane": 1,
+            "len": 2
+          },
+          {
+            "beat": 9,
+            "lane": 0,
+            "len": 1
+          },
+          {
+            "beat": 10,
+            "lane": 1,
+            "len": 1
+          },
+          {
+            "beat": 11,
+            "lane": 2,
+            "len": 1
+          },
+          {
+            "beat": 12,
+            "lane": 3,
+            "len": 2
+          },
+          {
+            "beat": 14,
+            "lane": 2,
+            "len": 1
+          },
+          {
+            "beat": 15,
+            "lane": 1,
+            "len": 1
+          }
+        ]
+      }
+    ]
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

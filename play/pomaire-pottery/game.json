@@ -1,0 +1,13 @@
+{
+ "slug": "pomaire-pottery",
+ "title": "Red clay casserole",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

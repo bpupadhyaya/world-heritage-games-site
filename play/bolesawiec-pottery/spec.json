@@ -1,0 +1,31 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "scene": "boleslawiec",
+  "profile": "bolmug",
+  "rows": 12,
+  "bands": 5,
+  "clay": "#e8dcc4",
+  "glazes": [
+   {
+    "name": "Cream",
+    "color": "#f2ead8"
+   },
+   {
+    "name": "Cobalt",
+    "color": "#1f4aa8"
+   },
+   {
+    "name": "Green",
+    "color": "#2a8a5a"
+   },
+   {
+    "name": "Ochre",
+    "color": "#d9a03a"
+   }
+  ],
+  "variation": 0.05,
+  "steps": 12
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "basket",
+  "scene": "bk-peace",
+  "form": "peace",
+  "style": "coil",
+  "motif": "steps",
+  "palette": [
+   {
+    "name": "Sisal",
+    "color": "#e0c383"
+   },
+   {
+    "name": "Black raffia",
+    "color": "#251c17"
+   },
+   {
+    "name": "Madder brown",
+    "color": "#a0462a"
+   }
+  ],
+  "colors": 3,
+  "stitches": 13,
+  "period": 6,
+  "rows": 9
+ }
+}

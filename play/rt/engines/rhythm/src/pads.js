@@ -1,18 +1,19 @@
 // Drums as the play surface: the real drum (or pair, or set) is drawn large and each lane is a zone of its head or body.
 // A seated performer reaches for the notes that are about to fall due and strikes them (performer.js); the instrument stands on
 // a dressed surface (set.js). Cues are approach rings closing on the zone; ripples spread on the skin when it is struck.
-import { clamp, mix, rgba, lighter, darker, glow, rrect, grain, hgrad, vgrad, rgrad, hash, ell, circ, TAU } from './art.js';
+import { clamp, mix, rgba, lighter, darker, glow, rrect, grain, hgrad, vgrad, rgrad, hash, ell, circ, text, TAU } from './art.js';
+import { stageIdFor } from './registry.js';
 import { makeBox, finishSpots, hitSpots, pill } from './stagekit.js';
 import { setting } from './set.js';
 import { createPlayer, hand, stick } from './performer.js';
 export { hand, stick };
 
-const VIEW = { bodhran: { zoom: 1.0 }, steelpan: { zoom: 1.0 }, water: { zoom: 1.0 }, isukuti: { zoom: 1.0 }, tabla: { zoom: 1.0 }, taiko: { dx: 0.0, zoom: 1.0 }, djembe: { zoom: 1.0 }, mortar: { zoom: 1.0 }, multi: {} };
-const IDS = [
-  [/tabla|dayan|bayan/, 'tabla'], [/taiko/, 'taiko'], [/bodhr|frame drum|daf\b|riq\b/, 'bodhran'], [/isukuti/, 'isukuti'],
+export const VIEW = { bodhran: { zoom: 1.0 }, steelpan: { zoom: 1.0 }, water: { zoom: 1.0 }, isukuti: { zoom: 1.0 }, tabla: { zoom: 1.0 }, taiko: { dx: 0.0, zoom: 1.0 }, djembe: { zoom: 1.0 }, mortar: { zoom: 1.0 }, rubboard: { zoom: 1.0 }, multi: {} };
+export const IDS = [
+  [/rub.?board|wash.?board|frottoir|zydeco|scrape/, 'rubboard'], [/tabla|dayan|bayan/, 'tabla'], [/taiko/, 'taiko'], [/bodhr|frame drum|daf\b|riq\b/, 'bodhran'], [/isukuti/, 'isukuti'],
   [/calabash|water drum|water/, 'water'], [/steel.?pan|pan\b/, 'steelpan'], [/fufu|mortar|pound/, 'mortar'], [/djembe|dunun|conga|cajon|candombe/, 'djembe'],
 ];
-export function padId(key) { const k = String(key || '').toLowerCase(); for (const [re, id] of IDS) if (re.test(k)) return id; return 'multi'; }
+export const padId = (key) => stageIdFor('pads', key);   // routes live in registry.js; new drums: registerDrumStage
 
 const disc = (cx, cy, rx, ry = rx, o = {}) => ({ v: cx, u: cy, r: Math.min(rx, ry), ar: Math.min(rx, ry) * 0.85, dist: (lv, lu) => Math.hypot((lv - cx) / rx, (lu - cy) / ry), path: (c) => { c.beginPath(); c.ellipse(cx, cy, rx, ry, 0, 0, TAU); }, ...o });
 const annulus = (cx, cy, r0, r1, sq = 1, ang = 0.6, o = {}) => {
@@ -102,6 +103,16 @@ export function createPadStage(id, S, lanes, P) {
     for (let k = 0; k < 3; k++) { const p = clamp((1 - f) * 1.3 - k * 0.16, 0, 1); if (p <= 0) continue; ctx.strokeStyle = rgba('#ffffff', 0.6 * (1 - p)); ctx.lineWidth = 3.5 - k; ctx.beginPath(); ctx.ellipse(sp.v, sp.u, sp.r * (0.55 + 1.5 * p), sp.r * (0.55 + 1.5 * p) * sq, 0, 0, TAU); ctx.stroke(); }
   };
   const approach = (ctx, sp, col, tau, a, sq = 1) => {
+    if (sp.rect) {   // a long zone (rubboard): a frame closes on it from outside
+      const g2 = 3 + 14 * clamp(tau, 0, 1.1), k = 1 - clamp(tau, 0, 1), r = Math.min(sp.hw, sp.hh) * 0.3 + g2;
+      ctx.save(); ctx.globalAlpha = a;
+      ctx.strokeStyle = 'rgba(0,0,0,0.35)'; ctx.lineWidth = 9; rrect(ctx, sp.v - sp.hw - g2 + 1.5, sp.u - sp.hh - g2 + 2, 2 * (sp.hw + g2), 2 * (sp.hh + g2), r); ctx.stroke();
+      ctx.strokeStyle = rgba(lighter(col, 0.5), 0.98); ctx.lineWidth = 4.5; rrect(ctx, sp.v - sp.hw - g2, sp.u - sp.hh - g2, 2 * (sp.hw + g2), 2 * (sp.hh + g2), r); ctx.stroke();
+      ctx.strokeStyle = rgba(col, 0.5); ctx.lineWidth = 10; ctx.stroke();
+      glow(ctx, sp.v, sp.u, Math.max(sp.hw, sp.hh) * (0.7 + 0.5 * k), col, 0.12 + 0.3 * k);
+      ctx.restore();
+      return;
+    }
     const R = sp.ar * (1 + 1.1 * clamp(tau, 0, 1.1));
     ctx.save(); ctx.globalAlpha = a;
     ctx.strokeStyle = 'rgba(0,0,0,0.35)'; ctx.lineWidth = 9; ctx.beginPath(); ctx.ellipse(sp.v + 1.5, sp.u + 2, R, R * sq, 0, 0, TAU); ctx.stroke();
@@ -462,6 +473,84 @@ export function createPadStage(id, S, lanes, P) {
     };
   }
 
+
+  // rubboard (frottoir): the ridged steel vest of zydeco, played with two spoons or bottle openers (no face: the player stands behind it)
+  function sceneRub() {
+    dress = { kind: 'planks', base: '#3e2616', rugKind: 'zigzag', rugBase: '#2a1620', rugA: '#e8a030', rugB: '#2a8a5a', light: '#ffd49a', rugPad: 0.02 };
+    const rbox = (cx, cy, hw, hh, o = {}) => ({ v: cx, u: cy, r: Math.min(hw, hh), ar: Math.min(hw, hh) * 0.9, rect: true, hw, hh, dist: (lv, lu) => Math.max(Math.abs(lv - cx) / hw, Math.abs(lu - cy) / hh), path: (c) => rrect(c, cx - hw, cy - hh, hw * 2, hh * 2, Math.min(hw, hh) * 0.28), ...o });
+    const kindOf = (i) => (/up/.test(nm(i)) ? 'up' : /tick|click|tap|dig|rim|beat|pop|clack/.test(nm(i)) ? 'tick' : 'down');
+    const scr = lanes.map((_, i) => i).filter((i) => kindOf(i) !== 'tick').sort((a, b) => (kindOf(a) === 'up') - (kindOf(b) === 'up'));
+    const tix = lanes.map((_, i) => i).filter((i) => kindOf(i) === 'tick');
+    const colW = 340 / Math.max(1, scr.length), wideBoard = !tall;
+    // zones are laid out in the board's own frame (lx across, ly from the neck to the hem); on a wide screen the board lies on its side, neck to the left
+    const Z = (lx0, lx1, ly0, ly1, o) => (wideBoard ? rbox((ly0 + ly1) / 2 - 430, 270 + (lx0 + lx1) / 2, (ly1 - ly0) / 2, (lx1 - lx0) / 2, { ...o, horiz: true }) : rbox((lx0 + lx1) / 2, (ly0 + ly1) / 2, (lx1 - lx0) / 2, (ly1 - ly0) / 2, o));
+    ref = wideBoard ? { w: 940, h: 540 } : { w: 700, h: 900 };
+    scr.forEach((i, k) => { spots[i] = Z(-170 + colW * k + 8, -170 + colW * (k + 1) - 8, 170, tix.length ? 630 : 690, { dir: kindOf(i) === 'up' ? -1 : 1 }); });
+    tix.forEach((i, k) => { const w = 340 / tix.length; spots[i] = Z(-170 + w * k + 8, -170 + w * (k + 1) - 8, 682, 766, { dir: 0 }); });
+    plr = { tool: 'spoon', toolLen: 118, toolW: 8, headR: 1.55, wood: '#c8ccd4', head: '#d6dae2', shirt: '#7a2a22', trim: '#e8c060', sleeve: 'long', cuff: true, hands: 2, noHead: true, reach: 0.6, side: tall ? 'top' : 'left', sit: tall ? 0 : 0.12, shoulder: tall ? 0.8 : 0.9, slim: tall ? 1 : 0.5 };
+    const vest = (c) => {
+      c.beginPath(); c.moveTo(-170, 34); c.lineTo(-64, 34); c.quadraticCurveTo(0, 190, 64, 34); c.lineTo(170, 34);
+      c.bezierCurveTo(175, 140, 130, 232, 208, 346); c.lineTo(204, 782); c.quadraticCurveTo(204, 826, 160, 826); c.lineTo(-160, 826); c.quadraticCurveTo(-204, 826, -204, 782); c.lineTo(-208, 346);
+      c.bezierCurveTo(-130, 232, -175, 140, -170, 34); c.closePath();
+    };
+    drawScene = (ctx, rt) => {
+      // shadow and the steel body with its ridges
+      ctx.save();
+      if (wideBoard) ctx.transform(0, 1, 1, 0, -430, 270);
+      ctx.save(); ctx.translate(14, 20); vest(ctx); ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.fill(); ctx.restore();
+      vest(ctx); ctx.fillStyle = hgrad(ctx, -210, 210, [[0, '#6a7080'], [0.18, '#c4cad6'], [0.42, '#f2f5fa'], [0.62, '#aeb5c4'], [0.85, '#d4d9e4'], [1, '#585e6e']]); ctx.fill();
+      ctx.save(); vest(ctx); ctx.clip();
+      for (let y = 30; y < 830; y += 11) {
+        ctx.strokeStyle = 'rgba(40,48,66,0.55)'; ctx.lineWidth = 3.2; ctx.beginPath(); ctx.moveTo(-215, y); ctx.lineTo(215, y); ctx.stroke();
+        ctx.strokeStyle = 'rgba(255,255,255,0.75)'; ctx.lineWidth = 2.2; ctx.beginPath(); ctx.moveTo(-215, y + 4.5); ctx.lineTo(215, y + 4.5); ctx.stroke();
+      }
+      // roundness (the board curves around the body): shade the edges, light the middle, a soft diagonal glint, wear marks where spoons rub
+      ctx.fillStyle = hgrad(ctx, -210, 210, [[0, 'rgba(10,14,28,0.62)'], [0.2, 'rgba(10,14,28,0.05)'], [0.5, 'rgba(255,255,255,0.12)'], [0.8, 'rgba(10,14,28,0.08)'], [1, 'rgba(10,14,28,0.6)']]); ctx.fillRect(-215, 20, 430, 820);
+      ctx.fillStyle = vgrad(ctx, 30, 830, [[0, 'rgba(255,255,255,0.22)'], [0.4, 'rgba(255,255,255,0)'], [1, 'rgba(10,14,28,0.32)']]); ctx.fillRect(-215, 20, 430, 820);
+      ctx.save(); ctx.rotate(-0.5); ctx.fillStyle = 'rgba(255,255,255,0.1)'; ctx.fillRect(-60, 100, 38, 900); ctx.fillRect(10, 100, 12, 900); ctx.restore();
+      ctx.fillStyle = 'rgba(70,60,50,0.1)'; for (let k = 0; k < 40; k++) { const x = -190 + hash(k) * 380, y = 260 + hash(k + 9) * 480; ell(ctx, x, y, 10 + hash(k + 3) * 24, 2 + hash(k + 5) * 4); ctx.fill(); }
+      ctx.restore();
+      // folded steel edge and rivets at the shoulders, hem and sides
+      vest(ctx); ctx.strokeStyle = 'rgba(20,24,36,0.85)'; ctx.lineWidth = 12; ctx.lineJoin = 'round'; ctx.stroke();
+      ctx.strokeStyle = 'rgba(230,236,246,0.9)'; ctx.lineWidth = 4; ctx.save(); ctx.translate(-1.5, -1.5); ctx.stroke(); ctx.restore();
+      for (const [x, y] of [[-150, 60], [150, 60], [-190, 330], [190, 330], [-186, 790], [186, 790], [-80, 806], [0, 806], [80, 806]]) { ctx.fillStyle = 'rgba(0,0,0,0.4)'; circ(ctx, x + 1.5, y + 2.5, 6); ctx.fill(); ctx.fillStyle = rgrad(ctx, x, y, 0, 7, [[0, '#ffffff'], [0.6, '#aeb4c2'], [1, '#4a5060']], x - 2, y - 2); circ(ctx, x, y, 6); ctx.fill(); }
+      ctx.restore();
+      lanes.forEach((l, i) => {
+        const sp = spots[i], f = rt.flash[i];
+        sp.path(ctx); ctx.fillStyle = rgba(l.color, 0.2); ctx.fill();
+        zoneStyle(ctx, sp, l.color, f, rt);
+        // the stroke made visible: chevrons running the way the spoon travels (down, up) or beads for a tick
+        ctx.save(); sp.path(ctx); ctx.clip();
+        if (sp.dir && sp.horiz) {
+          const n = Math.max(3, Math.floor(sp.hw / 52)), ph = (rt.anim * 0.7) % 1;
+          for (let k = -1; k <= n; k++) {
+            const q = (k + ph) / n, xx = sp.dir > 0 ? sp.v - sp.hw + q * sp.hw * 2 : sp.v + sp.hw - q * sp.hw * 2;
+            ctx.strokeStyle = rgba(lighter(l.color, 0.4), 0.38 + 0.5 * f); ctx.lineWidth = 6; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+            ctx.beginPath(); ctx.moveTo(xx - sp.dir * 10, sp.u - 22); ctx.lineTo(xx + sp.dir * 10, sp.u); ctx.lineTo(xx - sp.dir * 10, sp.u + 22); ctx.stroke();
+          }
+          if (f > 0.04) { const p = 1 - f, xx = sp.dir > 0 ? sp.v - sp.hw + p * sp.hw * 2 : sp.v + sp.hw - p * sp.hw * 2; ctx.fillStyle = hgrad(ctx, xx - 60, xx + 60, [[0, 'rgba(255,255,255,0)'], [0.5, rgba('#ffffff', 0.7 * f)], [1, 'rgba(255,255,255,0)']]); ctx.fillRect(xx - 60, sp.u - sp.hh, 120, sp.hh * 2); }
+        } else if (sp.dir) {
+          const n = Math.max(3, Math.floor(sp.hh / 52)), ph = (rt.anim * 0.7) % 1;
+          for (let k = -1; k <= n; k++) {
+            const q = (k + ph) / n, y = sp.u + sp.dir * (-sp.hh + q * sp.hh * 2) * (sp.dir > 0 ? 1 : -1) * -1;
+            const yy = sp.dir > 0 ? sp.u - sp.hh + q * sp.hh * 2 : sp.u + sp.hh - q * sp.hh * 2;
+            void y;
+            ctx.strokeStyle = rgba(lighter(l.color, 0.4), 0.38 + 0.5 * f); ctx.lineWidth = 6; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+            ctx.beginPath(); ctx.moveTo(sp.v - 22, yy - sp.dir * 10); ctx.lineTo(sp.v, yy + sp.dir * 10); ctx.lineTo(sp.v + 22, yy - sp.dir * 10); ctx.stroke();
+          }
+          if (f > 0.04) { // a bright sweep along the zone as the spoon travels over the ridges
+            const p = 1 - f, yy = sp.dir > 0 ? sp.u - sp.hh + p * sp.hh * 2 : sp.u + sp.hh - p * sp.hh * 2;
+            ctx.fillStyle = vgrad(ctx, yy - 60, yy + 60, [[0, 'rgba(255,255,255,0)'], [0.5, rgba('#ffffff', 0.7 * f)], [1, 'rgba(255,255,255,0)']]); ctx.fillRect(sp.v - sp.hw, yy - 60, sp.hw * 2, 120);
+          }
+        } else {
+          for (let k = 0; k < 7; k++) { ctx.fillStyle = rgba(lighter(l.color, 0.5), 0.3 + 0.6 * f); circ(ctx, sp.v - sp.hw + 22 + k * (sp.hw * 2 - 44) / 6, sp.u, 4); ctx.fill(); }
+        }
+        ctx.restore();
+        ripple(ctx, sp, l.color, f, 1);
+      });
+    };
+  }
+
   function sceneMulti() {
     const cols = N <= 3 ? N : N === 4 ? 2 : Math.min(4, Math.ceil(N / 2)), rows = Math.ceil(N / cols);
     const cell = 250;
@@ -486,7 +575,7 @@ export function createPadStage(id, S, lanes, P) {
     };
   }
 
-  const BUILD = { djembe: sceneDjembe, taiko: sceneTaiko, bodhran: sceneBodhran, isukuti: sceneIsukuti, water: sceneWater, steelpan: scenePan, mortar: sceneMortar, tabla: sceneTabla, multi: sceneMulti };
+  const BUILD = { djembe: sceneDjembe, taiko: sceneTaiko, bodhran: sceneBodhran, isukuti: sceneIsukuti, water: sceneWater, steelpan: scenePan, mortar: sceneMortar, tabla: sceneTabla, rubboard: sceneRub, multi: sceneMulti };
   const build = () => {
     for (let i = 0; i < N; i++) spots[i] = null;
     (BUILD[id] ?? sceneMulti)();
@@ -498,13 +587,13 @@ export function createPadStage(id, S, lanes, P) {
 
   st.layout = (area) => {
     const nt = area.h > area.w * 1.05;
-    if ((nt !== tall || !built) && (id === 'tabla' || id === 'isukuti')) { tall = nt; built = true; build(); } else { tall = nt; built = true; }
+    if ((nt !== tall || !built) && (id === 'tabla' || id === 'isukuti' || id === 'rubboard')) { tall = nt; built = true; build(); } else { tall = nt; built = true; }
     st.F = makeBox(area, ref.w, ref.h, { top: 40, bottom: 10, side: 12, ...(VIEW[id] ?? {}) });
     finishSpots(st.F, spots);
   };
   st.hit = (x, y) => (st.F ? hitSpots(st.F, spots, x, y) : -1);
   st.anchor = (i) => ({ x: spots[i]?.x ?? 0, y: spots[i]?.y ?? 0 });
-  st.voiceOf = (i) => (id === 'steelpan' && lanes[i].timName !== 'bass' ? 'pan' : null);
+  st.voiceOf = (i) => (id === 'steelpan' && lanes[i].timName !== 'bass' ? 'pan' : id === 'rubboard' ? 'scrape' : null);
 
   st.draw = (g, rt) => {
     const { ctx } = g, F = st.F;

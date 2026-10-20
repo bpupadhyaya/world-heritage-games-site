@@ -43,8 +43,8 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Batik wax-resist pattern studio](../../games/105-batik-wax-resist-pattern-studio/index.md)
 - [Songket](../../games/320-songket/index.md)
 - [Ketupat](../../games/322-ketupat/index.md)
-- [Rice terrace farming](../../games/22337-rice-terrace-farming/index.md)
-- [Thai fruit and vegetable carving](../../games/114-thai-fruit-and-vegetable-carving/index.md)
+- [Kendang](../../games/10163-kendang/index.md)
+- [Gender](../../games/18923-gender/index.md)
 
 ## Sources
 

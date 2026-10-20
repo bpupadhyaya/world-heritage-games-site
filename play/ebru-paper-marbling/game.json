@@ -1,0 +1,13 @@
+{
+ "slug": "ebru-paper-marbling",
+ "title": "Ebru marbling",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

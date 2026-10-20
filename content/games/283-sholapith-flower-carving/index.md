@@ -45,7 +45,7 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Jaipur blue pottery painting](../../games/262-jaipur-blue-pottery-painting/index.md)
 - [Ambalangoda mask carving](../../games/299-ambalangoda-mask-carving/index.md)
 - [Maldivian lacquer work](../../games/1328-maldivian-lacquer-work/index.md)
-- [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
+- [Meenakari](../../games/5793-meenakari/index.md)
 
 ## Sources
 

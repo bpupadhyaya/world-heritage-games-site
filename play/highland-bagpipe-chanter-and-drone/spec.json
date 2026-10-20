@@ -1,0 +1,366 @@
+{
+ "engine": "rhythm",
+ "variant": "highland-bagpipe-chanter-and-drone",
+ "params": {
+  "layout": "holes",
+  "mode": "follow",
+  "root": 480,
+  "scale": [
+   0,
+   204,
+   386,
+   498,
+   702,
+   884,
+   996
+  ],
+  "tolerance": 1.4,
+  "loops": 2,
+  "instrument": "highland bagpipe",
+  "lanes": [
+   {
+    "name": "Low G",
+    "cents": -204,
+    "holes": "11111111",
+    "timbre": "reed",
+    "color": "#7fb069",
+    "dur": 0.9
+   },
+   {
+    "name": "Low A",
+    "cents": 0,
+    "holes": "11111110",
+    "timbre": "reed",
+    "color": "#d9b44a",
+    "dur": 0.9
+   },
+   {
+    "name": "B",
+    "cents": 204,
+    "holes": "11111100",
+    "timbre": "reed",
+    "color": "#e08a3a",
+    "dur": 0.9
+   },
+   {
+    "name": "C",
+    "cents": 386,
+    "holes": "11111000",
+    "timbre": "reed",
+    "color": "#d6584a",
+    "dur": 0.9
+   },
+   {
+    "name": "D",
+    "cents": 498,
+    "holes": "11110000",
+    "timbre": "reed",
+    "color": "#b24fa0",
+    "dur": 0.9
+   },
+   {
+    "name": "E",
+    "cents": 702,
+    "holes": "11100000",
+    "timbre": "reed",
+    "color": "#5f7fd8",
+    "dur": 0.9
+   },
+   {
+    "name": "F",
+    "cents": 884,
+    "holes": "11000000",
+    "timbre": "reed",
+    "color": "#3fa7b8",
+    "dur": 0.9
+   },
+   {
+    "name": "High G",
+    "cents": 996,
+    "holes": "10000000",
+    "timbre": "reed",
+    "color": "#8fcf7a",
+    "dur": 0.9
+   },
+   {
+    "name": "High A",
+    "cents": 1200,
+    "holes": "00000000",
+    "timbre": "reed",
+    "color": "#f1d98a",
+    "dur": 0.9
+   }
+  ],
+  "songs": [
+   {
+    "id": "march-figure",
+    "name": "March phrase",
+    "bpm": 76,
+    "meter": 4,
+    "kind": "figure",
+    "watch": true,
+    "heritage": "Pipe march, Scotland",
+    "note": "A teaching figure in the swing of a pipe march, two beats to the bar in a steady stride. Not a named tune.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 6,
+      "lane": "E",
+      "len": 0.5
+     },
+     {
+      "beat": 6.5,
+      "lane": "High G",
+      "len": 0.5
+     },
+     {
+      "beat": 7,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": "Low A",
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 13,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 14,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 15,
+      "lane": "B",
+      "len": 1
+     }
+    ]
+   },
+   {
+    "id": "slow-air",
+    "name": "Slow air",
+    "bpm": 52,
+    "meter": 4,
+    "kind": "figure",
+    "watch": true,
+    "heritage": "Slow air, Scotland",
+    "note": "A teaching figure in the manner of a slow air: long, singing notes with room to breathe. Not a named tune.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Low A",
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": "E",
+      "len": 3
+     },
+     {
+      "beat": 7,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": "B",
+      "len": 2
+     },
+     {
+      "beat": 10,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": "High A",
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 15,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 16,
+      "lane": "B",
+      "len": 2
+     },
+     {
+      "beat": 18,
+      "lane": "Low A",
+      "len": 2
+     }
+    ]
+   },
+   {
+    "id": "cutting-figure",
+    "name": "Cuts and doubling",
+    "bpm": 64,
+    "meter": 4,
+    "kind": "figure",
+    "watch": true,
+    "heritage": "Piping technique, Scotland",
+    "note": "Piping has no gaps in the sound, so a note is repeated by tapping a quick high note between. This figure shows the cut in slow motion.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "High G",
+      "len": 0.5
+     },
+     {
+      "beat": 0.5,
+      "lane": "E",
+      "len": 1.5
+     },
+     {
+      "beat": 2,
+      "lane": "High G",
+      "len": 0.5
+     },
+     {
+      "beat": 2.5,
+      "lane": "E",
+      "len": 1.5
+     },
+     {
+      "beat": 4,
+      "lane": "High G",
+      "len": 0.5
+     },
+     {
+      "beat": 4.5,
+      "lane": "D",
+      "len": 1.5
+     },
+     {
+      "beat": 6,
+      "lane": "High G",
+      "len": 0.5
+     },
+     {
+      "beat": 6.5,
+      "lane": "D",
+      "len": 1.5
+     },
+     {
+      "beat": 8,
+      "lane": "High G",
+      "len": 0.5
+     },
+     {
+      "beat": 8.5,
+      "lane": "B",
+      "len": 1.5
+     },
+     {
+      "beat": 10,
+      "lane": "High G",
+      "len": 0.5
+     },
+     {
+      "beat": 10.5,
+      "lane": "B",
+      "len": 1.5
+     },
+     {
+      "beat": 12,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 13,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 14,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 15,
+      "lane": "Low A",
+      "len": 1
+     }
+    ]
+   }
+  ],
+  "song": 0,
+  "drone": "reed",
+  "grace": true
+ }
+}

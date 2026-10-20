@@ -1,0 +1,408 @@
+{
+ "engine": "rhythm",
+ "variant": "kantele",
+ "players": "1",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 293.66,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "kantele",
+  "lanes": [
+   {
+    "name": "D4",
+    "cents": 0,
+    "id": "d4-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7ab8e0"
+   },
+   {
+    "name": "E4",
+    "cents": 200,
+    "id": "e4-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a1cfe8"
+   },
+   {
+    "name": "F4",
+    "cents": 300,
+    "id": "f4-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8e6f0"
+   },
+   {
+    "name": "G4",
+    "cents": 500,
+    "id": "g4-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d7d4b5"
+   },
+   {
+    "name": "A4",
+    "cents": 700,
+    "id": "a4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e6c27a"
+   }
+  ],
+  "songs": [
+   {
+    "id": "runo-line",
+    "name": "Story-song line in five beats",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Story singing, Finland and Karelia",
+    "bpm": 100,
+    "meter": 5,
+    "length": 30,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 0
+     },
+     {
+      "beat": 5,
+      "lane": 1
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 2
+     },
+     {
+      "beat": 9,
+      "lane": 1
+     },
+     {
+      "beat": 10,
+      "lane": 2
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 13,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 3
+     },
+     {
+      "beat": 16,
+      "lane": 2
+     },
+     {
+      "beat": 17,
+      "lane": 1
+     },
+     {
+      "beat": 18,
+      "lane": 2
+     },
+     {
+      "beat": 19,
+      "lane": 0
+     },
+     {
+      "beat": 20,
+      "lane": 1
+     },
+     {
+      "beat": 21,
+      "lane": 2
+     },
+     {
+      "beat": 22,
+      "lane": 1
+     },
+     {
+      "beat": 23,
+      "lane": 0
+     },
+     {
+      "beat": 24,
+      "lane": 1
+     },
+     {
+      "beat": 25,
+      "lane": 0
+     },
+     {
+      "beat": 26,
+      "lane": 1
+     },
+     {
+      "beat": 27,
+      "lane": 2
+     },
+     {
+      "beat": 28,
+      "lane": 1
+     },
+     {
+      "beat": 29,
+      "lane": 0
+     }
+    ],
+    "note": "A teaching figure in the five-beat swing of Finnish and Karelian story singing; the melody is written for this game."
+   },
+   {
+    "id": "lullaby",
+    "name": "Lullaby in three",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Cradle song, Finland",
+    "bpm": 72,
+    "meter": 3,
+    "length": 12,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1.5,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 1
+     },
+     {
+      "beat": 4.5,
+      "lane": 0
+     },
+     {
+      "beat": 5,
+      "lane": 1
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 7.5,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 3
+     },
+     {
+      "beat": 10,
+      "lane": 2
+     },
+     {
+      "beat": 11,
+      "lane": 0
+     }
+    ],
+    "note": "A slow rocking figure in three, written for this game, leaning on the two lowest strings."
+   },
+   {
+    "id": "dance-tune",
+    "name": "Dance tune in four",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Village dance, Finland",
+    "bpm": 112,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 1
+     },
+     {
+      "beat": 7,
+      "lane": 2
+     },
+     {
+      "beat": 8,
+      "lane": 3
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 3
+     },
+     {
+      "beat": 11,
+      "lane": 2
+     },
+     {
+      "beat": 12,
+      "lane": 1
+     },
+     {
+      "beat": 13,
+      "lane": 0
+     },
+     {
+      "beat": 14,
+      "lane": 1
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ],
+    "note": "A quick figure in four in the manner of village dance tunes, written for this game."
+   },
+   {
+    "id": "drone-and-turn",
+    "name": "Open-string drone and turn",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Accompaniment style, Finland",
+    "bpm": 88,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 0
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 0
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 0
+     },
+     {
+      "beat": 7,
+      "lane": 4
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 9,
+      "lane": 3
+     },
+     {
+      "beat": 10,
+      "lane": 0
+     },
+     {
+      "beat": 11,
+      "lane": 2
+     },
+     {
+      "beat": 12,
+      "lane": 0
+     },
+     {
+      "beat": 13,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ],
+    "note": "The low string rings under a melody that turns above it, the way a player lets one open string hum."
+   }
+  ]
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

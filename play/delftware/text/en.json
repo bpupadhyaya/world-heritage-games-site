@@ -1,0 +1,28 @@
+{
+ "title": "Delftware tile painting",
+ "native": "Delfts blauw",
+ "alt": [
+  "Delft blue",
+  "Delft tiles"
+ ],
+ "summary": "Delftware is Dutch tin-glazed pottery painted in cobalt blue on a white ground. Here four tiles carry one picture, a vase of tulips inside a double ring with fans in the corners, painted in two blues.",
+ "howToPlay": [
+  "Look at the small panel at the top: it shows the finished four tiles.",
+  "Dip the brush in cobalt and drag along the lit lines to draw the double ring, the vase, the stems and the tulips; press Next.",
+  "Wash the vase and the tulips with pale blue by tapping each shape.",
+  "Shade with fine cobalt lines and dots, then press Check to see your stars. Mirror repeats each stroke on the other half of the picture."
+ ],
+ "rules": [
+  "The panel has three steps in order: outlines, washes, shading.",
+  "The brush carries a limited load of paint; dip it again when it runs dry.",
+  "A line scores by how closely it follows the guide; a wash scores by how much of the shape holds the right blue.",
+  "Paint that lands outside an outline counts against you; undo takes back the last stroke.",
+  "With Mirror on, each stroke is repeated on the other half of the picture.",
+  "Three stars for a close, clean, evenly painted panel."
+ ],
+ "heritageNote": "Delft in the Netherlands became known from the seventeenth century for blue-and-white earthenware and tiles, painted in cobalt over a white tin glaze and fired. Flowers, ships, landscapes and fan-shaped corner motifs lined kitchens and hearths, and a few workshops in Delft still paint by hand.",
+ "countries": [
+  "Netherlands"
+ ],
+ "credits": []
+}

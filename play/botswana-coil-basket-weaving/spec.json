@@ -1,0 +1,28 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "basket",
+  "scene": "bk-okavango",
+  "form": "bowl",
+  "style": "coil",
+  "motif": "diamonds",
+  "palette": [
+   {
+    "name": "Palm",
+    "color": "#dcc48c"
+   },
+   {
+    "name": "Mophane brown",
+    "color": "#4f2c1d"
+   },
+   {
+    "name": "Plum",
+    "color": "#7a3047"
+   }
+  ],
+  "colors": 3,
+  "stitches": 14,
+  "period": 8,
+  "rows": 8
+ }
+}

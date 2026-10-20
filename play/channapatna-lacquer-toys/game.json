@@ -1,0 +1,13 @@
+{
+ "slug": "channapatna-lacquer-toys",
+ "title": "Channapatna lacquered toys",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

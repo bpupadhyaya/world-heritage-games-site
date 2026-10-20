@@ -1,0 +1,393 @@
+{
+ "engine": "rhythm",
+ "variant": "ranat",
+ "players": "1",
+ "params": {
+  "layout": "keys",
+  "mode": "follow",
+  "instrument": "ranat",
+  "root": 262,
+  "scale": "equi-heptatonic",
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "1",
+    "id": "1",
+    "degree": 0,
+    "timbre": "mallet",
+    "dur": 0.9,
+    "color": "#d8a24c"
+   },
+   {
+    "name": "2",
+    "id": "2",
+    "degree": 1,
+    "timbre": "mallet",
+    "dur": 0.9,
+    "color": "#c98f3c"
+   },
+   {
+    "name": "3",
+    "id": "3",
+    "degree": 2,
+    "timbre": "mallet",
+    "dur": 0.9,
+    "color": "#d8a24c"
+   },
+   {
+    "name": "4",
+    "id": "4",
+    "degree": 3,
+    "timbre": "mallet",
+    "dur": 0.9,
+    "color": "#c98f3c"
+   },
+   {
+    "name": "5",
+    "id": "5",
+    "degree": 4,
+    "timbre": "mallet",
+    "dur": 0.9,
+    "color": "#d8a24c"
+   },
+   {
+    "name": "6",
+    "id": "6",
+    "degree": 5,
+    "timbre": "mallet",
+    "dur": 0.9,
+    "color": "#c98f3c"
+   },
+   {
+    "name": "7",
+    "id": "7",
+    "degree": 6,
+    "timbre": "mallet",
+    "dur": 0.9,
+    "color": "#d8a24c"
+   },
+   {
+    "name": "1'",
+    "id": "1'",
+    "degree": 7,
+    "timbre": "mallet",
+    "dur": 0.9,
+    "color": "#c98f3c"
+   },
+   {
+    "name": "2'",
+    "id": "2'",
+    "degree": 8,
+    "timbre": "mallet",
+    "dur": 0.9,
+    "color": "#d8a24c"
+   },
+   {
+    "name": "3'",
+    "id": "3'",
+    "degree": 9,
+    "timbre": "mallet",
+    "dur": 0.9,
+    "color": "#c98f3c"
+   }
+  ],
+  "songs": [
+   {
+    "id": "running-figure",
+    "name": "Running figure",
+    "bpm": 92,
+    "meter": 4,
+    "length": 16,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Thai classical music",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "1"
+     },
+     {
+      "beat": 0.5,
+      "lane": "2"
+     },
+     {
+      "beat": 1,
+      "lane": "3"
+     },
+     {
+      "beat": 1.5,
+      "lane": "4"
+     },
+     {
+      "beat": 2,
+      "lane": "5"
+     },
+     {
+      "beat": 2.5,
+      "lane": "6"
+     },
+     {
+      "beat": 3,
+      "lane": "7"
+     },
+     {
+      "beat": 3.5,
+      "lane": "1'"
+     },
+     {
+      "beat": 4,
+      "lane": "2'"
+     },
+     {
+      "beat": 4.5,
+      "lane": "1'"
+     },
+     {
+      "beat": 5,
+      "lane": "7"
+     },
+     {
+      "beat": 5.5,
+      "lane": "6"
+     },
+     {
+      "beat": 6,
+      "lane": "5"
+     },
+     {
+      "beat": 6.5,
+      "lane": "4"
+     },
+     {
+      "beat": 7,
+      "lane": "3"
+     },
+     {
+      "beat": 7.5,
+      "lane": "2"
+     },
+     {
+      "beat": 8,
+      "lane": "3"
+     },
+     {
+      "beat": 8.5,
+      "lane": "4"
+     },
+     {
+      "beat": 9,
+      "lane": "5"
+     },
+     {
+      "beat": 9.5,
+      "lane": "3"
+     },
+     {
+      "beat": 10,
+      "lane": "4"
+     },
+     {
+      "beat": 10.5,
+      "lane": "5"
+     },
+     {
+      "beat": 11,
+      "lane": "6"
+     },
+     {
+      "beat": 11.5,
+      "lane": "4"
+     },
+     {
+      "beat": 12,
+      "lane": "5"
+     },
+     {
+      "beat": 12.5,
+      "lane": "6"
+     },
+     {
+      "beat": 13,
+      "lane": "7"
+     },
+     {
+      "beat": 13.5,
+      "lane": "5"
+     },
+     {
+      "beat": 14,
+      "lane": "1'"
+     },
+     {
+      "beat": 15,
+      "lane": "1"
+     }
+    ],
+    "note": "A figure of running eighth notes that climbs the seven steps and comes back down, then circles through the middle bars."
+   },
+   {
+    "id": "octave-doubling",
+    "name": "Octave doubling",
+    "bpm": 80,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Thai classical music",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "1"
+     },
+     {
+      "beat": 0.5,
+      "lane": "1'"
+     },
+     {
+      "beat": 1,
+      "lane": "2"
+     },
+     {
+      "beat": 1.5,
+      "lane": "2'"
+     },
+     {
+      "beat": 2,
+      "lane": "3"
+     },
+     {
+      "beat": 2.5,
+      "lane": "3'"
+     },
+     {
+      "beat": 3,
+      "lane": "2"
+     },
+     {
+      "beat": 3.5,
+      "lane": "2'"
+     },
+     {
+      "beat": 4,
+      "lane": "1"
+     },
+     {
+      "beat": 4.5,
+      "lane": "1'"
+     },
+     {
+      "beat": 5,
+      "lane": "3"
+     },
+     {
+      "beat": 5.5,
+      "lane": "3'"
+     },
+     {
+      "beat": 6,
+      "lane": "2"
+     },
+     {
+      "beat": 6.5,
+      "lane": "2'"
+     },
+     {
+      "beat": 7,
+      "lane": "1"
+     },
+     {
+      "beat": 7.5,
+      "lane": "1'"
+     }
+    ],
+    "note": "Each note is followed at once by the same note an octave higher, a doubling typical of ranat playing."
+   },
+   {
+    "id": "rolled-repeats",
+    "name": "Rolled repeats",
+    "bpm": 72,
+    "meter": 4,
+    "length": 8,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "5"
+     },
+     {
+      "beat": 0.25,
+      "lane": "5"
+     },
+     {
+      "beat": 0.5,
+      "lane": "5"
+     },
+     {
+      "beat": 0.75,
+      "lane": "5"
+     },
+     {
+      "beat": 1,
+      "lane": "6"
+     },
+     {
+      "beat": 1.5,
+      "lane": "5"
+     },
+     {
+      "beat": 2,
+      "lane": "3"
+     },
+     {
+      "beat": 3,
+      "lane": "4"
+     },
+     {
+      "beat": 3.25,
+      "lane": "4"
+     },
+     {
+      "beat": 3.5,
+      "lane": "4"
+     },
+     {
+      "beat": 3.75,
+      "lane": "4"
+     },
+     {
+      "beat": 4,
+      "lane": "5"
+     },
+     {
+      "beat": 4.5,
+      "lane": "3"
+     },
+     {
+      "beat": 5,
+      "lane": "2"
+     },
+     {
+      "beat": 6,
+      "lane": "1"
+     },
+     {
+      "beat": 6.25,
+      "lane": "1"
+     },
+     {
+      "beat": 6.5,
+      "lane": "1"
+     },
+     {
+      "beat": 6.75,
+      "lane": "1"
+     },
+     {
+      "beat": 7,
+      "lane": "2"
+     }
+    ]
+   }
+  ]
+ }
+}

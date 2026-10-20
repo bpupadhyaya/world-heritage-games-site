@@ -1,0 +1,199 @@
+{
+ "engine": "pattern",
+ "variant": "turkmen-gul-carpet",
+ "players": "1",
+ "params": {
+  "scene": "gul",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "rot4-mirror",
+  "palette": [
+   {
+    "name": "Ivory",
+    "color": "#efe2c0"
+   },
+   {
+    "name": "Indigo",
+    "color": "#1d2a52"
+   },
+   {
+    "name": "Brown",
+    "color": "#3a1c12"
+   },
+   {
+    "name": "Madder",
+    "color": "#c2461f"
+   }
+  ],
+  "background": "#5a0f0e",
+  "grid": "#3a0807",
+  "motifs": [
+   "diamond",
+   "star",
+   "hexagon",
+   "cross",
+   "solid",
+   "ring"
+  ],
+  "mode": "copy",
+  "density": 0.55,
+  "colorsInTarget": 3,
+  "designs": [
+   {
+    "name": "Tekke gul and minor gul",
+    "rows": [
+     "ABCADACBA",
+     "BEFGHGFEB",
+     "CFIAJAIFC",
+     "AGAKHKAGA",
+     "DHJHFHJHD",
+     "AGAKHKAGA",
+     "CFIAJAIFC",
+     "BEFGHGFEB",
+     "ABCADACBA"
+    ],
+    "legend": {
+     "A": {
+      "m": 0,
+      "c": 0
+     },
+     "B": {
+      "m": 0,
+      "c": 1
+     },
+     "C": {
+      "m": 3,
+      "c": 0
+     },
+     "D": {
+      "m": 5,
+      "c": 0
+     },
+     "E": {
+      "m": 2,
+      "c": 2
+     },
+     "F": {
+      "m": 1,
+      "c": 0
+     },
+     "G": {
+      "m": 4,
+      "c": 3
+     },
+     "H": {
+      "m": 0,
+      "c": 2
+     },
+     "I": {
+      "m": 2,
+      "c": 0
+     },
+     "J": {
+      "m": 3,
+      "c": 1
+     },
+     "K": {
+      "m": 4,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Yomut diamond gul",
+    "rows": [
+     "A.B.C.B.A",
+     ".DEAFAED.",
+     "BECBCBCEB",
+     ".ABAFABA.",
+     "CFCFCFCFC",
+     ".ABAFABA.",
+     "BECBCBCEB",
+     ".DEAFAED.",
+     "A.B.C.B.A"
+    ],
+    "legend": {
+     "A": {
+      "m": 0,
+      "c": 2
+     },
+     "B": {
+      "m": 4,
+      "c": 1
+     },
+     "C": {
+      "m": 0,
+      "c": 0
+     },
+     "D": {
+      "m": 0,
+      "c": 1
+     },
+     "E": {
+      "m": 5,
+      "c": 0
+     },
+     "F": {
+      "m": 3,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Ersari wide gul",
+    "rows": [
+     "A.BCDCB.A",
+     ".EDBCBDE.",
+     "BDFGBGFDB",
+     "CBGHIHGBC",
+     "DCBIAIBCD",
+     "CBGHIHGBC",
+     "BDFGBGFDB",
+     ".EDBCBDE.",
+     "A.BCDCB.A"
+    ],
+    "legend": {
+     "A": {
+      "m": 2,
+      "c": 0
+     },
+     "B": {
+      "m": 0,
+      "c": 0
+     },
+     "C": {
+      "m": 4,
+      "c": 1
+     },
+     "D": {
+      "m": 0,
+      "c": 2
+     },
+     "E": {
+      "m": 5,
+      "c": 0
+     },
+     "F": {
+      "m": 1,
+      "c": 0
+     },
+     "G": {
+      "m": 5,
+      "c": 1
+     },
+     "H": {
+      "m": 4,
+      "c": 2
+     },
+     "I": {
+      "m": 1,
+      "c": 1
+     }
+    }
+   }
+  ]
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

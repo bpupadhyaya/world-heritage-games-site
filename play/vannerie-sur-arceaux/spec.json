@@ -1,0 +1,29 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "basket",
+  "scene": "bk-orchard",
+  "form": "hooped",
+  "style": "hoop",
+  "motif": "chevron",
+  "stitches": 15,
+  "rows": 9,
+  "period": 6,
+  "colors": 3,
+  "leather": "#5a3a1a",
+  "palette": [
+   {
+    "name": "Willow",
+    "color": "#c99a52"
+   },
+   {
+    "name": "Brown",
+    "color": "#6a3e1e"
+   },
+   {
+    "name": "White",
+    "color": "#ecd8aa"
+   }
+  ]
+ }
+}

@@ -1,0 +1,152 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "chanderi",
+    "cols": 7,
+    "rows": 7,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Gold zari",
+        "color": "#c9981f"
+      },
+      {
+        "name": "Silver zari",
+        "color": "#8895a3"
+      },
+      {
+        "name": "Blush rose",
+        "color": "#d9768c"
+      },
+      {
+        "name": "Mint green",
+        "color": "#4fa886"
+      },
+      {
+        "name": "Lemon",
+        "color": "#d9bc2c"
+      }
+    ],
+    "background": "#d3e8e3",
+    "grid": "#9db8b0",
+    "motifs": [
+      "dot",
+      "flower",
+      "leaf",
+      "diamond",
+      "star",
+      "ring"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 5,
+    "designs": [
+      {
+        "name": "Butis on water-green gauze",
+        "rows": [
+          "a.c.c.a",
+          ".d.b.d.",
+          "c.e.e.c",
+          "g.beb.g",
+          "c.e.e.c",
+          ".d.b.d.",
+          "a.c.c.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 2
+          },
+          "c": {
+            "m": 2,
+            "c": 3
+          },
+          "d": {
+            "m": 3,
+            "c": 1
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          },
+          "g": {
+            "m": 5,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Star buti field",
+        "rows": [
+          "b.b.b.b",
+          ".a.c.a.",
+          "b.d.d.b",
+          ".c.e.c.",
+          "b.d.d.b",
+          ".a.c.a.",
+          "b.b.b.b"
+        ],
+        "legend": {
+          "a": {
+            "m": 4,
+            "c": 0
+          },
+          "b": {
+            "m": 0,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 3
+          },
+          "d": {
+            "m": 1,
+            "c": 2
+          },
+          "e": {
+            "m": 5,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Ring and diamond border",
+        "rows": [
+          "abababa",
+          "c.c.c.c",
+          "a.d.d.a",
+          "cdcecdc",
+          "a.d.d.a",
+          "c.c.c.c",
+          "abababa"
+        ],
+        "legend": {
+          "a": {
+            "m": 5,
+            "c": 0
+          },
+          "b": {
+            "m": 3,
+            "c": 1
+          },
+          "c": {
+            "m": 0,
+            "c": 3
+          },
+          "d": {
+            "m": 4,
+            "c": 2
+          },
+          "e": {
+            "m": 1,
+            "c": 4
+          }
+        }
+      }
+    ]
+  }
+}

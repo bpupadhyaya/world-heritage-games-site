@@ -1,0 +1,205 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "tavil",
+  "lanes": [
+   {
+    "name": "Paste",
+    "hz": 140,
+    "timbre": "bass",
+    "color": "#ff9a4a"
+   },
+   {
+    "name": "Open",
+    "hz": 260,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Slap",
+    "hz": 620,
+    "timbre": "slap",
+    "color": "#4fd0c0"
+   },
+   {
+    "name": "Rim",
+    "hz": 1400,
+    "timbre": "rim",
+    "color": "#c9a0ff"
+   },
+   {
+    "name": "Leather",
+    "hz": 520,
+    "timbre": "rim",
+    "color": "#8fd0a3"
+   }
+  ],
+  "songs": [
+   {
+    "id": "call",
+    "name": "Call and answer",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A phrase and its answer on the same beats.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Open"
+     },
+     {
+      "beat": 1,
+      "lane": "Slap"
+     },
+     {
+      "beat": 2,
+      "lane": "Open"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 3,
+      "lane": "Paste"
+     },
+     {
+      "beat": 4,
+      "lane": "Open"
+     },
+     {
+      "beat": 5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 6,
+      "lane": "Open"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 7,
+      "lane": "Paste"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "run",
+    "name": "Running strokes",
+    "bpm": 88,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Quick strokes on the edge between slow ones.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Paste"
+     },
+     {
+      "beat": 1,
+      "lane": "Open"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 2,
+      "lane": "Slap"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 3,
+      "lane": "Open"
+     },
+     {
+      "beat": 4,
+      "lane": "Paste"
+     },
+     {
+      "beat": 5,
+      "lane": "Open"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 6,
+      "lane": "Rim"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Rim"
+     },
+     {
+      "beat": 7,
+      "lane": "Open"
+     }
+    ]
+   },
+   {
+    "id": "procession",
+    "name": "Procession",
+    "bpm": 84,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A heavy, even march.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Paste"
+     },
+     {
+      "beat": 1,
+      "lane": "Leather"
+     },
+     {
+      "beat": 2,
+      "lane": "Open"
+     },
+     {
+      "beat": 3,
+      "lane": "Leather"
+     },
+     {
+      "beat": 4,
+      "lane": "Paste"
+     },
+     {
+      "beat": 5,
+      "lane": "Leather"
+     },
+     {
+      "beat": 6,
+      "lane": "Open"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 7,
+      "lane": "Slap"
+     }
+    ]
+   }
+  ]
+ }
+}

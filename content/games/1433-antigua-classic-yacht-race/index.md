@@ -40,12 +40,12 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 ## Related entries
 
+- [Family Island Regatta](../../games/8179-family-island-regatta/index.md)
 - [Nouka Baich](../../games/42-nouka-baich/index.md)
 - [Pirogue coastal canoe race](../../games/56-pirogue-coastal-canoe-race/index.md)
 - [Nile Felucca Sailing](../../games/216-nile-felucca-sailing/index.md)
 - [Shikara paddle race](../../games/265-shikara-paddle-race/index.md)
 - [Hanetsuki](../../games/347-hanetsuki/index.md)
-- [Venetian lagoon regatta](../../games/486-venetian-lagoon-regatta/index.md)
 
 ## Sources
 

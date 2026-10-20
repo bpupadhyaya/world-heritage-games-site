@@ -45,7 +45,7 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Rosemaling](../../games/120-rosemaling/index.md)
 - [Petrykivka painting](../../games/381-petrykivka-painting/index.md)
 - [Kalocsa floral painting](../../games/383-kalocsa-floral-painting/index.md)
-- [Dala Horse Painting](../../games/415-dala-horse-painting/index.md)
+- [Paper Soccer](../../games/464-paper-soccer/index.md)
 
 ## Sources
 

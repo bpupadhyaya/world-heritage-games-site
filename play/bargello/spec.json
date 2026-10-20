@@ -1,0 +1,148 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "bargello",
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "cols": 7,
+    "rows": 7,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Crimson wool",
+        "color": "#a3202e"
+      },
+      {
+        "name": "Burnt orange",
+        "color": "#d46a1e"
+      },
+      {
+        "name": "Gold",
+        "color": "#e0a82a"
+      },
+      {
+        "name": "Teal",
+        "color": "#1f7a78"
+      },
+      {
+        "name": "Indigo",
+        "color": "#2c3a8a"
+      }
+    ],
+    "background": "#d6c292",
+    "grid": "#a8946a",
+    "motifs": [
+      "solid",
+      "diamond",
+      "triangle",
+      "hexagon",
+      "arch",
+      "star"
+    ],
+    "designs": [
+      {
+        "name": "Flame panel in graded wool",
+        "rows": [
+          "e.c.c.e",
+          ".a.b.a.",
+          "c.d.d.c",
+          ".b.a.b.",
+          "c.d.d.c",
+          ".a.b.a.",
+          "e.c.c.e"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 2
+          },
+          "d": {
+            "m": 3,
+            "c": 3
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Teal and indigo waves",
+        "rows": [
+          "d.b.b.d",
+          ".c.a.c.",
+          "b.e.e.b",
+          ".a.d.a.",
+          "b.e.e.b",
+          ".c.a.c.",
+          "d.b.b.d"
+        ],
+        "legend": {
+          "a": {
+            "m": 3,
+            "c": 3
+          },
+          "b": {
+            "m": 0,
+            "c": 4
+          },
+          "c": {
+            "m": 1,
+            "c": 2
+          },
+          "d": {
+            "m": 2,
+            "c": 1
+          },
+          "e": {
+            "m": 5,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Crimson arches",
+        "rows": [
+          "a.a.a.a",
+          ".b.c.b.",
+          "c.d.d.c",
+          ".b.e.b.",
+          "c.d.d.c",
+          ".b.c.b.",
+          "a.a.a.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 4,
+            "c": 0
+          },
+          "b": {
+            "m": 4,
+            "c": 1
+          },
+          "c": {
+            "m": 1,
+            "c": 2
+          },
+          "d": {
+            "m": 0,
+            "c": 3
+          },
+          "e": {
+            "m": 5,
+            "c": 4
+          }
+        }
+      }
+    ]
+  }
+}

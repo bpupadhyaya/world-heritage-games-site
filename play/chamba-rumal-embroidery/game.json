@@ -1,0 +1,13 @@
+{
+ "slug": "chamba-rumal-embroidery",
+ "title": "Chamba rumal embroidery",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

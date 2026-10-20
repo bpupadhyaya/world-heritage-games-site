@@ -1,0 +1,39 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "vanka",
+  "scene": "izba",
+  "rows": 14,
+  "steps": 16,
+  "bands": 6,
+  "clay": "#e9d9bc",
+  "glazes": [
+   {
+    "name": "Red",
+    "color": "#c8282c"
+   },
+   {
+    "name": "Blue",
+    "color": "#2457b0"
+   },
+   {
+    "name": "Yellow",
+    "color": "#f0c23a"
+   },
+   {
+    "name": "White",
+    "color": "#faf4e8"
+   }
+  ],
+  "glazePattern": [
+   1,
+   0,
+   0,
+   0,
+   3,
+   1
+  ],
+  "variation": 0.03
+ }
+}

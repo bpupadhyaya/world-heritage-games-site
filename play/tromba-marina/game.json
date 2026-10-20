@@ -1,0 +1,13 @@
+{
+ "slug": "tromba-marina",
+ "title": "Tromba marina (marine trumpet)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

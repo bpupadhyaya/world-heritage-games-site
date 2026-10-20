@@ -49,8 +49,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md)
 - [Dizi](../../games/132-dizi/index.md)
 - [Cuju](../../games/333-cuju/index.md)
+- [Guzheng](../../games/334-guzheng/index.md)
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md)
-- [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md)
 
 ## Sources
 

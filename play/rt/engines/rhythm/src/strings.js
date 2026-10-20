@@ -1,19 +1,23 @@
 // String instruments as the play surface: lutes and fiddles (neck, frets, body, bridge), the monochord (rod, gourd, harmonics)
 // and harp-like zithers (qanun, harp, kora) whose strings ARE the lanes. Notes travel along the real string to the finger position.
 import { clamp, mix, rgba, lighter, darker, glow, rrect, text, grain, hgrad, vgrad, rgrad, hash, gem, ell, circ, TAU } from './art.js';
+import { stageIdFor } from './registry.js';
 import { makeFrame, circleSpot, rectSpot, finishSpots, hitSpots, pill, stringLine, lerp } from './stagekit.js';
 
+// 1.10.0 extension points (stage files add bodies, heads, soundboard details and extras; see stage-necks.js)
+export const EXT = { bodies: {}, heads: {}, faces: {}, extras: {} };
+
 // ---- which instrument is it? -----------------------------------------------------------------------------------------
-const IDS = [
+export const IDS = [
   [/dan.?bau|monochord/, 'danbau'], [/kamancha|kemanche|spike fiddle/, 'kamancha'], [/morin|khuur|matouqin|horse.?head/, 'morin'],
   [/goje|goge|one.?string/, 'goje'], [/qanun|kanun|kanoon/, 'qanun'], [/joropo|llanero|arpa|harp/, 'harp'], [/\bkora\b/, 'kora'],
   [/charango/, 'charango'], [/balalaika/, 'balalaika'], [/ukulele/, 'ukulele'], [/buzuq|bouzouki|bozuk/, 'buzuq'],
   [/rabab|rubab|rebab/, 'rabab'], [/panduri|chonguri/, 'panduri'], [/dombra|dombyra|komuz|saz|baglama/, 'dombra'],
 ];
-export function stringId(key) { const k = String(key || '').toLowerCase(); for (const [re, id] of IDS) if (re.test(k)) return id; return 'lute'; }
+export const stringId = (key) => stageIdFor('strings', key);   // routes live in registry.js; new profiles: registerStringStage
 
 // n = courses (physical strings the player can use), per = strings per course, fr = frets drawn (0 = fretless)
-const PROF = {
+export const PROF = {
   charango: { tilt: 0.12, dx: -0.12, zoom: 0.9, type: 'lute', n: 5, per: 2, fr: 12, body: 'charango', head: 'flat', pegs: 10, hole: 'round', wood: '#d3a050', edge: '#4a2a12', fb: '#2b1a0c', headF: 0.11, neckF: 0.38, bwr: 0.92, nutW: 0.30, brW: 0.50, gut: true, lps: false, tag: 'finger' },
   balalaika: { tilt: 0.55, dx: -0.1, zoom: 0.92, type: 'lute', n: 3, per: 1, fr: 14, body: 'tri', head: 'bent', pegs: 3, hole: 'round', wood: '#dba85a', edge: '#6a3a14', fb: '#241407', headF: 0.10, neckF: 0.44, bwr: 1.02, nutW: 0.15, brW: 0.30, gut: true, tag: 'finger' },
   ukulele: { tilt: 0.1, dx: -0.06, zoom: 0.98, type: 'lute', n: 4, per: 1, fr: 12, body: 'eight', head: 'round', pegs: 4, hole: 'round', wood: '#c4793a', edge: '#3a1d0a', fb: '#2a170a', headF: 0.10, neckF: 0.31, bwr: 0.72, nutW: 0.22, brW: 0.34, gut: true, lps: true, tag: 'finger' },
@@ -35,9 +39,12 @@ export function createStringStage(id, S, lanes, P) {
   const prof = PROF[id] ?? PROF.lute;
   const N = lanes.length;
   const spots = new Array(N).fill(null);
-  const cls = lanes.map((l) => SPECIAL.find(([re]) => re.test(l.name))?.[1] ?? 'note');
+  const cls = lanes.map((l) => (prof.footRe && prof.footRe.test(l.name) ? 'tap' : SPECIAL.find(([re]) => re.test(l.name))?.[1] ?? 'note'));
   const st = { id, kind: 'strings', spots, voice: prof.bow ? 'bow' : 'pluck', bowed: !!prof.bow, strumLanes: [], F: null, G: null };
+  st.neck = prof.type === 'lute' || prof.type === 'fiddle';   // 1.18.0: the title picture lays a neck instrument out in its own tall frame (no squeezed neck)
   cls.forEach((c, i) => { if (c === 'strum') st.strumLanes.push(i); });
+  if (prof.vk) st.voiceOf = (i) => (cls[i] === 'tap' ? prof.tapVk ?? null : prof.vk);
+  if (prof.vk && prof.bow) st.sustained = true;
 
   // ---- lane -> string assignment (neck instruments) ---------------------------------------------------------------------
   const noteIdx = lanes.map((_, i) => i).filter((i) => cls[i] === 'note');
@@ -87,12 +94,13 @@ export function createStringStage(id, S, lanes, P) {
     const { W, H } = F, n = st.nStr;
     const headH = H * prof.headF, nutU = headH;
     const spikeH = prof.spike ? H * 0.06 : 0;
-    const bodyU = H * (prof.headF + prof.neckF), bl = H - bodyU - 10 - spikeH;
+    const bodyU = H * (prof.headF + prof.neckF), bl = H * (1 - (prof.padF || 0)) - bodyU - 10 - spikeH;
     const bw = Math.min(W * 0.94, bl * prof.bwr);
-    const bridgeU = bodyU + bl * (prof.body === 'tri' ? 0.80 : prof.body === 'eight' ? 0.80 : prof.body === 'bowl' || prof.body === 'gourd' ? 0.70 : prof.body === 'trap' ? 0.78 : 0.82);
-    const fbEnd = prof.fr ? bodyU + bl * (prof.body === 'eight' ? 0.30 : 0.22) : bodyU + bl * 0.02;
-    const nutW = Math.max(n > 1 ? 54 * (n - 1) : 0, bw * prof.nutW), brW = Math.max(n > 1 ? 66 * (n - 1) : 0, bw * prof.brW);
-    const holeU = bodyU + bl * (prof.body === 'tri' ? 0.52 : prof.body === 'eight' ? 0.52 : 0.46);
+    const bridgeU = bodyU + bl * (prof.bridgeF ?? (prof.body === 'tri' ? 0.80 : prof.body === 'eight' ? 0.80 : prof.body === 'bowl' || prof.body === 'gourd' ? 0.70 : prof.body === 'trap' ? 0.78 : 0.82));
+    const fbEnd = prof.fbEndF != null ? bodyU + bl * prof.fbEndF : prof.fr ? bodyU + bl * (prof.body === 'eight' ? 0.30 : 0.22) : bodyU + bl * 0.02;
+    const [minNut, minBr] = prof.spread ?? [54, 66];   // 1.15.0: `spread` widens the least string spacing (screen labels and rings never touch)
+    const nutW = Math.max(n > 1 ? minNut * (n - 1) : 0, bw * prof.nutW), brW = Math.max(n > 1 ? minBr * (n - 1) : 0, bw * prof.brW);
+    const holeU = bodyU + bl * (prof.holeF ?? (prof.body === 'tri' ? 0.52 : prof.body === 'eight' ? 0.52 : 0.46));
     const G = { W, H, headH, nutU, bodyU, bl, bw, bridgeU, fbEnd, nutW, brW, holeU, n, spikeH, tailU: bodyU + bl };
     st.G = G;
     const vNut = (i) => (n > 1 ? (i - (n - 1) / 2) * (nutW / (n - 1)) : 0);
@@ -100,12 +108,12 @@ export function createStringStage(id, S, lanes, P) {
     G.vAt = (i, u) => lerp(vNut(i), vBr(i), (u - nutU) / (bridgeU - nutU));
     G.vNut = vNut; G.vBr = vBr;
     const fretCurve = (k) => 1 - 2 ** (-k / (12 * 1.6));
-    const maxSemi = Math.max(prof.fr || 0, 7, ...groups.map((g) => (g.idx.length ? Math.round(semis(g.idx[g.idx.length - 1], lanes[g.idx[0]].hz)) : 0)));
+    const maxSemi = Math.max(prof.fr || 0, 7, ...lanes.filter((l) => Number.isInteger(l.fret)).map((l) => l.fret), ...groups.map((g) => (g.idx.length ? Math.round(semis(g.idx[g.idx.length - 1], lanes[g.idx[0]].hz)) : 0)));
     G.nf = prof.fr ? Math.max(prof.fr, maxSemi > prof.fr ? prof.fr : 0) : 0;
-    G.fretU = (k) => nutU + (fbEnd - nutU) * (fretCurve(k) / fretCurve(Math.max(G.nf || 12, 12)));
+    G.fretU = (k) => nutU + (fbEnd - nutU) * (fretCurve(k) / fretCurve(Math.max(G.nf || 12, prof.fcap ?? 12)));   // 1.16.0: `fcap` = the semitone span of the fingerboard (a four-fret biwa spreads its frets over the whole board)
     const posU = (sm) => (prof.fr ? (G.fretU(Math.max(0, Math.floor(sm) - 1)) + G.fretU(Math.floor(sm))) / 2 + (sm % 1) * 0 : nutU + (fbEnd - nutU) * (fretCurve(sm) / fretCurve(Math.max(maxSemi, 8))));
     const spacing = n > 1 ? brW / (n - 1) : 80, R = clamp(spacing * 0.5, 26, 36);
-    const gap = 50;
+    const gap = prof.gap ?? 50;
     for (const g of groups) {
       const open = lanes[g.idx[0]].hz;
       let prev = -1;
@@ -123,7 +131,7 @@ export function createStringStage(id, S, lanes, P) {
       const limit = bridgeU - 12 - (prof.fr ? 0 : 0);
       if (last.u > limit && g.idx.length > 1) {
         const first = nutU + 2 * 0, span = limit - first;
-        g.idx.forEach((i, k) => { if (k === 0) return; const u = first + (span * k) / (g.idx.length - 1) * 1.0; spots[i].u = Math.min(u + 20, limit); spots[i].v = G.vAt(g.s, spots[i].u); });
+        g.idx.forEach((i, k) => { if (k === 0) return; const u = first + (span * k) / (g.idx.length - 1) * 1.0; spots[i].u = Math.min(u + 20, limit); spots[i].v = G.vAt(g.s, spots[i].u); const sp = spots[i]; sp.dist = (lv, lu) => Math.hypot(lv - sp.v, lu - sp.u) / sp.r; });   // 1.22.0: the hit test follows the moved spot
       }
     }
     // special lanes: strum bands over the sound hole (stacked), shakers and body taps
@@ -144,6 +152,7 @@ export function createStringStage(id, S, lanes, P) {
     // anything left over (unknown names) gets a place on the lower bout
     let extra = 0;
     for (let i = 0; i < N; i++) if (!spots[i]) { spots[i] = circleSpot(((extra % 3) - 1) * bw * 0.28, bodyU + bl * (0.6 + 0.12 * Math.floor(extra / 3)), 30, { tap: true }); extra++; }
+    EXT.extras[prof.extra]?.layout?.(G, spots, lanes, cls, X);
   }
 
   function layoutMono(F) {
@@ -310,11 +319,11 @@ export function createStringStage(id, S, lanes, P) {
   };
 
   const paintBody = (ctx, G) => {
-    const { bw, bl } = G, kind = prof.body, out = OUT[kind] ?? OUT.pear;
+    const { bw, bl } = G, kind = prof.body, out = OUT[kind] ?? EXT.bodies[kind] ?? OUT.pear;
     ctx.save(); ctx.translate(G.W * 0 + 0, G.bodyU);
     // drop shadow
     ctx.save(); ctx.translate(6, 9); out(ctx, bw, bl); ctx.fillStyle = 'rgba(0,0,0,0.38)'; ctx.fill(); ctx.restore();
-    const skin = prof.skin && (kind === 'bowl' || kind === 'gourd' || kind === 'trap');
+    const skin = prof.skin && (kind === 'bowl' || kind === 'gourd' || kind === 'trap' || !!EXT.bodies[kind]);
     // shell rim visible around a skin face
     out(ctx, bw, bl);
     ctx.fillStyle = woodGrad(ctx, -bw / 2, bw / 2, prof.wood); ctx.fill();
@@ -385,6 +394,7 @@ export function createStringStage(id, S, lanes, P) {
     } else if (prof.hole === 'f') { // morin khuur: two f-shaped sound holes
       for (const d of [-1, 1]) { ctx.save(); ctx.translate(d * bw * 0.2, bl * 0.4); ctx.rotate(-d * 0.15); ctx.fillStyle = '#1a0d05'; rrect(ctx, -4, -bl * 0.1, 8, bl * 0.2, 4); ctx.fill(); circ(ctx, d * -4, -bl * 0.1, 6); ctx.fill(); circ(ctx, d * 4, bl * 0.1, 6); ctx.fill(); ctx.restore(); }
     }
+    if (EXT.faces[prof.hole]) EXT.faces[prof.hole](ctx, G, { hole, hr, hu, prof, id, out: OUT[prof.body] ?? EXT.bodies[prof.body] ?? OUT.pear, X });
     if (id === 'kamancha') { // mother-of-pearl dots round the skin, and the spike beneath
       ctx.fillStyle = 'rgba(255,248,230,0.92)';
       for (let k = 0; k < 30; k++) { const a = (k / 30) * TAU; circ(ctx, Math.cos(a) * bw * 0.485, bl * 0.5 + Math.sin(a) * bl * 0.485, 2.6); ctx.fill(); }
@@ -419,6 +429,8 @@ export function createStringStage(id, S, lanes, P) {
         rrect(ctx, -w0 * 0.78, 2, w0 * 1.56, headH - 2, 14);
       } else if (prof.head === 'small') {
         ctx.moveTo(-w0 * 0.45, nutU); ctx.lineTo(-w0 * 0.6, headH * 0.3); ctx.quadraticCurveTo(0, -6, w0 * 0.6, headH * 0.3); ctx.lineTo(w0 * 0.45, nutU); ctx.closePath();
+      } else if (EXT.heads[prof.head]) {
+        EXT.heads[prof.head].path(ctx, { nutU, headH, w0, G });
       } else { // round
         ctx.moveTo(-w0 * 0.44, nutU); ctx.bezierCurveTo(-w0 * 0.8, headH * 0.7, -w0 * 0.6, 0, 0, 0); ctx.bezierCurveTo(w0 * 0.6, 0, w0 * 0.8, headH * 0.7, w0 * 0.44, nutU); ctx.closePath();
       }
@@ -430,6 +442,8 @@ export function createStringStage(id, S, lanes, P) {
       circ(ctx, 14, headH * 0.26, 3); ctx.fillStyle = '#f0e0c0'; ctx.fill(); circ(ctx, 14, headH * 0.26, 1.6); ctx.fillStyle = '#100800'; ctx.fill();
       ctx.strokeStyle = '#d8c6a0'; ctx.lineWidth = 2; for (let k = 0; k < 7; k++) { ctx.beginPath(); ctx.moveTo(-24 + k * 0.5, headH * 0.14 + k * headH * 0.07); ctx.lineTo(-40, headH * 0.2 + k * headH * 0.08); ctx.stroke(); }
       peg(ctx, -30, headH * 0.66, 14, '#e8d2a0', true); peg(ctx, 30, headH * 0.72, 14, '#e8d2a0', true);
+    } else if (EXT.heads[prof.head]?.deco) {
+      EXT.heads[prof.head].deco(ctx, { nutU, headH, w0, G, peg, prof });
     } else {
       const per = Math.ceil(prof.pegs / 2);
       for (let k = 0; k < prof.pegs; k++) {
@@ -445,6 +459,7 @@ export function createStringStage(id, S, lanes, P) {
   };
 
   const neckDraw = (ctx, G) => {
+    if (prof.noBoard) return;   // 1.22.0: a bowed lyre has no fingerboard (the hand reaches behind the strings)
     const { nutU, fbEnd, bridgeU, nutW, brW } = G, ext = prof.fr ? 0 : 0;
     const wAt = (u) => lerp(nutW, brW, (u - nutU) / (bridgeU - nutU)) + 26;
     const end = fbEnd + ext;
@@ -462,7 +477,8 @@ export function createStringStage(id, S, lanes, P) {
       const nf = G.nf;
       for (let k = 1; k <= nf; k++) {
         const u = G.fretU(k), w = wAt(u) / 2 - 2;
-        ctx.strokeStyle = prof.frets === 'moving' ? '#a08a60' : '#e8e2d0'; ctx.lineWidth = prof.frets === 'moving' ? 2.2 : 3; ctx.beginPath(); ctx.moveTo(-w, u); ctx.lineTo(w, u); ctx.stroke();
+        if (prof.frets === 'raised') { ctx.strokeStyle = 'rgba(0,0,0,0.5)'; ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(-w, u + 2); ctx.lineTo(w, u + 2); ctx.stroke(); }
+        ctx.strokeStyle = prof.frets === 'moving' ? '#a08a60' : prof.frets === 'raised' ? '#f4e6bc' : '#e8e2d0'; ctx.lineWidth = prof.frets === 'moving' ? 2.2 : prof.frets === 'raised' ? 4.4 : 3; ctx.beginPath(); ctx.moveTo(-w, u); ctx.lineTo(w, u); ctx.stroke();
         if (prof.frets !== 'moving') { ctx.strokeStyle = 'rgba(255,255,255,0.75)'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(-w, u - 1.5); ctx.lineTo(w, u - 1.5); ctx.stroke(); }
       }
       ctx.fillStyle = 'rgba(245,235,205,0.75)';
@@ -485,7 +501,8 @@ export function createStringStage(id, S, lanes, P) {
 
   const strStyle = (i, n) => {
     const f = n > 1 ? i / (n - 1) : 0.5;
-    if (prof.bow) return { w: 2.8 - 0.7 * f, c: STR_COL.hair };
+    const sw = prof.strW ?? 1;   // 1.15.0: a bolder string for the one-string fiddles (horsehair)
+    if (prof.bow) return { w: (2.8 - 0.7 * f) * sw, c: STR_COL.hair };
     if (prof.gut) return { w: 2.6 - 1.2 * f, c: f < 0.45 ? STR_COL.bronze : STR_COL.gut };
     return { w: 2.8 - 1.4 * f, c: f < 0.35 ? STR_COL.bronze : STR_COL.steel };
   };
@@ -582,7 +599,8 @@ export function createStringStage(id, S, lanes, P) {
 
   const bowDraw = (ctx, G, rt, e, activeV, u) => {
     // a long bow lying across the strings, drawn along v; slides with the sounding string
-    const len = Math.min(Math.max(G.bw * 1.5, 260), G.W * 0.96), hold = Math.max(...e, 0);
+    const len = prof.bowL ? Math.min(Math.max(G.bw * prof.bowL, 260), G.W * 0.62) : Math.min(Math.max(G.bw * 1.5, 260), G.W * 0.96), hold = Math.max(...e, 0);   // 1.15.0: `bowL` keeps the sway of a big instrument's bow on screen
+    
     const sway = Math.sin(rt.anim * (5.2 + bowSpeed * 0.12)) * len * (0.16 + Math.min(0.1, bowSpeed * 0.01)) * Math.min(1, hold * 1.6 + bowSpeed * 0.05);
     const drag = 0;
     const tilt = activeV * 0.0006, x0 = -len / 2 + sway + drag, x1 = len / 2 + sway + drag, y = u + activeV * 0.04 * 0;
@@ -606,8 +624,10 @@ export function createStringStage(id, S, lanes, P) {
     }
   };
 
+  const X = { prof, lanes, spots, cls, st, hash, peg, finger, pick, bowDraw, strokeCol: strStyle, labels: null, STR_COL };
   function drawNeckInstrument(ctx, g, rt, G, labels) {
-    const n = G.n, e = stringEnergy(rt, n);
+    X.labels = labels; X.energy = stringEnergy(rt, G.n);
+    const n = G.n, e = X.energy;
     const fiddle = prof.type === 'fiddle';
     // sympathetic strings of the rabab run beside the neck
     neckDraw(ctx, G);
@@ -624,7 +644,8 @@ export function createStringStage(id, S, lanes, P) {
       ctx.beginPath(); ctx.moveTo(-G.brW / 2, G.bridgeU + 8); ctx.lineTo(-G.brW * 0.1, tu); ctx.lineTo(G.brW * 0.1, tu); ctx.lineTo(G.brW / 2, G.bridgeU + 8); ctx.stroke();
       if (n === 1) { ctx.beginPath(); ctx.moveTo(0, G.bridgeU + 8); ctx.lineTo(0, tu); ctx.stroke(); }
     }
-    if (prof.sympa) { // a row of fine sympathetic strings with their own small pegs down the left of the neck
+    EXT.extras[prof.extra]?.under?.(ctx, G, rt, X);
+    if (prof.sympa && !(EXT.extras[prof.extra]?.noSympa)) { // a row of fine sympathetic strings with their own small pegs down the left of the neck
       const ns = prof.sympa, u0 = G.nutU + 18, u1 = G.fbEnd + (G.bridgeU - G.fbEnd) * 0.35;
       for (let k = 0; k < ns; k++) {
         const pu = lerp(u0, u1, k / (ns - 1)), pv = -(lerp(G.nutW, G.brW, (pu - G.nutU) / (G.bridgeU - G.nutU)) / 2 + 40);
@@ -642,6 +663,7 @@ export function createStringStage(id, S, lanes, P) {
       }
       if (e[i] > 0.05) glow(ctx, G.vAt(i, (G.nutU + G.bridgeU) / 2), (G.nutU + G.bridgeU) / 2, 70, '#ffe4a8', 0.18 * e[i]);
     }
+    EXT.extras[prof.extra]?.over?.(ctx, G, rt, X, e);
     // marks where each lane sounds: closing outlines and gems from the head to the finger position
     cues(ctx, rt, G, labels, cueNeck);
     // static receptors (a dim ring that lights when the lane sounds) and the left-hand fingers
@@ -678,10 +700,10 @@ export function createStringStage(id, S, lanes, P) {
     // the playing hand: bow for fiddles, plectrum / finger near the sound hole otherwise
     const act = e.reduce((b, v, i) => (v > e[b] ? i : b), 0);
     const pu = fiddle ? G.bridgeU - Math.max(40, G.bl * 0.16) : (G.holeU + G.bridgeU) / 2 - 6;
-    if (fiddle) bowDraw(ctx, G, rt, e, G.vAt(act, pu), pu);
+    if (fiddle) { const bx = EXT.extras[prof.extra]; if (bx?.bow) bx.bow(ctx, G, rt, e, G.vAt(act, pu), pu, X); else bowDraw(ctx, G, rt, e, G.vAt(act, pu), pu); }
     else if (e[act] > 0.04) {
       const f = e[act], dv = (1 - f) * 18 * Math.sin(rt.anim * 40);
-      if (prof.tag === 'mizrab') pick(ctx, G.vAt(act, pu) + 12 + dv, pu, 0.9 - 0.5 * f, '#f0e6d0'); else finger(ctx, G.vAt(act, pu) + 10 + dv, pu + 6, f);
+      if (prof.tag === 'none') { /* 1.16.0: the stage draws its own plectrum (bachi) in extras.over */ } else if (prof.tag === 'mizrab') pick(ctx, G.vAt(act, pu) + 12 + dv, pu, 0.9 - 0.5 * f, '#f0e6d0'); else finger(ctx, G.vAt(act, pu) + 10 + dv, pu + 6, f);
     }
   }
 

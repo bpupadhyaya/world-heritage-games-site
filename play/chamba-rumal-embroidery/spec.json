@@ -1,0 +1,172 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "chamba",
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "process": "pen-dye",
+    "pen": 0,
+    "bath": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "palette": [
+      {
+        "name": "Ink",
+        "color": "#1a1620"
+      },
+      {
+        "name": "Vermilion",
+        "color": "#d8341e"
+      },
+      {
+        "name": "Leaf green",
+        "color": "#2f8a4a"
+      },
+      {
+        "name": "Mustard",
+        "color": "#e6b230"
+      },
+      {
+        "name": "Blue",
+        "color": "#2c5aa8"
+      }
+    ],
+    "background": "#f4eddb",
+    "grid": "#c8bfa4",
+    "motifs": [
+      "flower",
+      "leaf",
+      "kalka",
+      "dot",
+      "ring",
+      "star"
+    ],
+    "designs": [
+      {
+        "name": "Flowering tree",
+        "rows": [
+          "....a....",
+          "..b.c.b..",
+          ".d.e.e.d.",
+          "..f.a.f..",
+          "b..e.e..b",
+          "..f.a.f..",
+          ".d.e.e.d.",
+          "..b.c.b..",
+          "....a...."
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 2
+          },
+          "b": {
+            "m": 3,
+            "c": 3
+          },
+          "c": {
+            "m": 0,
+            "c": 1
+          },
+          "d": {
+            "m": 4,
+            "c": 0
+          },
+          "e": {
+            "m": 2,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 3
+          }
+        }
+      },
+      {
+        "name": "Twin birds in blossom",
+        "rows": [
+          "..a...a..",
+          ".b.c.c.b.",
+          "d.e.d.e.d",
+          ".f.a.a.f.",
+          "b.c.b.c.b",
+          ".f.a.a.f.",
+          "d.e.d.e.d",
+          ".b.c.c.b.",
+          "..a...a.."
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 2
+          },
+          "b": {
+            "m": 3,
+            "c": 3
+          },
+          "c": {
+            "m": 0,
+            "c": 1
+          },
+          "d": {
+            "m": 4,
+            "c": 0
+          },
+          "e": {
+            "m": 2,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 3
+          }
+        }
+      },
+      {
+        "name": "Border of lotus and leaf",
+        "rows": [
+          "a.b.a.b.a",
+          ".c.c.c.c.",
+          "b.d.b.d.b",
+          ".c.c.c.c.",
+          "a.e.a.e.a",
+          ".c.c.c.c.",
+          "b.d.b.d.b",
+          ".c.c.c.c.",
+          "a.b.a.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 1
+          },
+          "b": {
+            "m": 1,
+            "c": 2
+          },
+          "c": {
+            "m": 3,
+            "c": 3
+          },
+          "d": {
+            "m": 5,
+            "c": 4
+          },
+          "e": {
+            "m": 2,
+            "c": 1
+          }
+        }
+      }
+    ]
+  },
+  "variant": "chamba-rumal-embroidery",
+  "players": "1"
+}

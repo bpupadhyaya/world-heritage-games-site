@@ -1,0 +1,240 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 146.83,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "gayageum",
+  "lanes": [
+   {
+    "name": "D3",
+    "cents": 0,
+    "id": "d3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8403a"
+   },
+   {
+    "name": "F3",
+    "cents": 300,
+    "id": "f3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#ce5b4e"
+   },
+   {
+    "name": "G3",
+    "cents": 500,
+    "id": "g3-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d47762"
+   },
+   {
+    "name": "A3",
+    "cents": 700,
+    "id": "a3-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d99276"
+   },
+   {
+    "name": "C4",
+    "cents": 1000,
+    "id": "c4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#dfad8a"
+   },
+   {
+    "name": "D4",
+    "cents": 1200,
+    "id": "d4-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e5c89e"
+   },
+   {
+    "name": "F4",
+    "cents": 1500,
+    "id": "f4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#dacfa9"
+   },
+   {
+    "name": "G4",
+    "cents": 1700,
+    "id": "g4-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#bdc1aa"
+   },
+   {
+    "name": "A4",
+    "cents": 1900,
+    "id": "a4-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a0b3ac"
+   },
+   {
+    "name": "C5",
+    "cents": 2200,
+    "id": "c5-9",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#83a6ad"
+   },
+   {
+    "name": "D5",
+    "cents": 2400,
+    "id": "d5-10",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#6798af"
+   },
+   {
+    "name": "F5",
+    "cents": 2700,
+    "id": "f5-11",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#4a8ab0"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Jungmori, 12 beats (3+3+3+3)",
+    "bpm": 76,
+    "meter": 12,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 5
+     },
+     {
+      "beat": 14,
+      "lane": 6
+     },
+     {
+      "beat": 15,
+      "lane": 7
+     },
+     {
+      "beat": 18,
+      "lane": 6
+     },
+     {
+      "beat": 21,
+      "lane": 4
+     },
+     {
+      "beat": 24,
+      "lane": 2
+     },
+     {
+      "beat": 27,
+      "lane": 3
+     },
+     {
+      "beat": 29,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "name": "Jajinmori, 12 beats, faster",
+    "bpm": 104,
+    "meter": 12,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1.5,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4.5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 4
+     },
+     {
+      "beat": 7.5,
+      "lane": 3
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10.5,
+      "lane": 7
+     },
+     {
+      "beat": 12,
+      "lane": 8
+     },
+     {
+      "beat": 13.5,
+      "lane": 7
+     },
+     {
+      "beat": 15,
+      "lane": 5
+     },
+     {
+      "beat": 16.5,
+      "lane": 3
+     },
+     {
+      "beat": 18,
+      "lane": 4
+     },
+     {
+      "beat": 19.5,
+      "lane": 3
+     },
+     {
+      "beat": 21,
+      "lane": 2
+     },
+     {
+      "beat": 22.5,
+      "lane": 0
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "gayageum"
+}

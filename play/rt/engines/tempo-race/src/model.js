@@ -74,6 +74,7 @@ export function resolve(user = {}) {
   const opponents = { count: clamp(Math.round(num(oIn.count, 4)), 1, 7), skill: clamp(num(oIn.skill, 0.88), 0.5, 0.97), spread: clamp(num(oIn.spread, 0.025), 0, 0.1), surge: clamp(num(oIn.surge, 1), 0, 1.6), mistakes: clamp(num(oIn.mistakes, 1), 0, 3) };
   return {
     vehicle, course, rhythm, opponents,
+    craft: user.craft ?? null,
     rounds: clamp(Math.round(num(user.rounds, 1)), 1, 5),
     rhythmStars: clamp(num(user.rhythmStars, 0.8), 0.2, 0.95),
     colors: { ...TERRAINS[terrain], ...(user.colors ?? {}) },

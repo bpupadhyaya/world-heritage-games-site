@@ -1,0 +1,13 @@
+{
+ "slug": "masi-bark-cloth-stencil-printing",
+ "title": "Masi bark cloth stencil printing",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -49,12 +49,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Kakko](../../games/2789-kakko/index.md)
+- [Janggu](../../games/5397-janggu/index.md)
 - [Talking drum](../../games/33-talking-drum/index.md)
 - [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md)
 - [Marimba](../../games/52-marimba/index.md)
-- [Calabash Water Drum](../../games/180-calabash-water-drum/index.md)
-- [Amadinda and embaire](../../games/185-amadinda-and-embaire/index.md)
-- [Isukuti drum dance](../../games/191-isukuti-drum-dance/index.md)
+- [Shekere gourd rattle](../../games/125-shekere-gourd-rattle/index.md)
 
 ## Sources
 

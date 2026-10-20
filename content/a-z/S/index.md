@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with S"
-description: "114 entries beginning with S."
+description: "123 entries beginning with S."
 path: "/a-z/S/"
 ---
 # Entries beginning with S
@@ -13,6 +13,7 @@ path: "/a-z/S/"
 - [Samoan cricket](../../games/1056-samoan-cricket/index.md): Samoa; Street and playground games; Age of Contact and Craft
 - [Sand drawing](../../games/1395-sand-drawing/index.md): Vanuatu; Puzzles and mind games; Modern Heritage
 - [Sangaku Geometry Puzzles](../../games/109-sangaku-geometry-puzzles/index.md): Japan; Puzzles and mind games; Age of Contact and Craft
+- [Sanshin](../../games/5365-sanshin/index.md): Japan; Musical instruments; Crossroads and Golden Ages
 - [Santoor](../../games/151-santoor/index.md): India; Musical instruments; Living Traditions
 - [Santur Hammer Strings](../../games/138-santur-hammer-strings/index.md): Iran, Iraq; Musical instruments; Living Traditions
 - [São Tomé cocoa and chocolate maker](../../games/1428-sao-tome-cocoa-and-chocolate-maker/index.md): Sao Tome and Principe; Crafts and making; Living Traditions
@@ -37,11 +38,14 @@ path: "/a-z/S/"
 - [Seven-Key Cabinet Puzzle](../../games/1432-seven-key-cabinet-puzzle/index.md): Andorra; Performance and storytelling; Living Traditions
 - [Seven-pebble toss game](../../games/620-seven-pebble-toss-game/index.md): Cameroon; Dexterity and skill games; Deep Past and First Games
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds
+- [Shan seed-treadle loom](../../games/18903-shan-seed-treadle-loom/index.md): Myanmar; Crafts and making; Living Traditions
 - [Shashki](../../games/1177-shashki/index.md): Ukraine, Belarus; Board and table games; Crossroads and Golden Ages
 - [Shashki / chess](../../games/1206-shashki-chess/index.md): Uzbekistan; Board and table games; Classical Worlds
 - [Shatranj / chess](../../games/1134-shatranj-chess/index.md): Tajikistan; Board and table games; Crossroads and Golden Ages
 - [Shax](../../games/676-shax/index.md): Djibouti, Somalia; Board and table games; River Valleys and First Cities
 - [Sheepdog trials](../../games/5047-sheepdog-trials/index.md): United Kingdom; Sports with animal partners; Classical Worlds
+- [Shehnai](../../games/5708-shehnai/index.md): India; Musical instruments; Living Traditions
+- [Shekere gourd rattle](../../games/125-shekere-gourd-rattle/index.md): Worldwide; Musical instruments; Living Traditions
 - [Shepherd's Leap](../../games/391-shepherds-leap/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Shibam Mud-Brick Tower Builder](../../games/1370-shibam-mud-brick-tower-builder/index.md): Yemen; Crafts and making; Living Traditions
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md): Japan, India; Crafts and making; Living Traditions
@@ -53,10 +57,10 @@ path: "/a-z/S/"
 - [Shogi](../../games/852-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Sholapith flower carving](../../games/283-sholapith-flower-carving/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Sholo Guti](../../games/461-sholo-guti/index.md): Bangladesh; Board and table games; Crossroads and Golden Ages
-- [Shona stone sculpture carving](../../games/203-shona-stone-sculpture-carving/index.md): Zimbabwe; Crafts and making; Living Traditions
 - [Shophouse facade builder](../../games/1373-shophouse-facade-builder/index.md): Singapore, China; Crafts and making; Living Traditions
 - [Shove ha'penny](../../games/54-shove-hapenny/index.md): United Kingdom; Dexterity and skill games; Modern Heritage
 - [Shut the Box](../../games/4915-shut-the-box/index.md): France; Board and table games; River Valleys and First Cities
+- [Siapo](../../games/7151-siapo/index.md): Samoa; Crafts and making; Living Traditions
 - [Sicilian Cart Painting](../../games/399-sicilian-cart-painting/index.md): Italy; Crafts and making; Living Traditions
 - [Sicilian Puppet Knights](../../games/514-sicilian-puppet-knights/index.md): Italy; Performance and storytelling; Classical Worlds
 - [Sierra Leone Country Cloth Strip Loom](../../games/1372-sierra-leone-country-cloth-strip-loom/index.md): Sierra Leone; Crafts and making; Living Traditions
@@ -64,9 +68,12 @@ path: "/a-z/S/"
 - [Sija](../../games/627-sija/index.md): Chad; Board and table games; Deep Past and First Games
 - [Silambam](../../games/271-silambam/index.md): India; Wrestling and martial sports; Classical Worlds
 - [Silat Melayu](../../games/605-silat-melayu/index.md): Brunei; Street and playground games; Modern Heritage
+- [Silimba](../../games/7920-silimba/index.md): Zambia; Musical instruments; Living Traditions
 - [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md): China, Uzbekistan; Other traditions; Classical Worlds
+- [Simsimiyya](../../games/6047-simsimiyya/index.md): Egypt; Musical instruments; Classical Worlds
 - [Sipa](../../games/1024-sipa/index.md): Philippines; Street and playground games; Modern Heritage
 - [Sittuyin](../../games/302-sittuyin/index.md): Myanmar; Board and table games; Crossroads and Golden Ages
+- [Siwa horn](../../games/7212-siwa-horn/index.md): Kenya; Musical instruments; Living Traditions
 - [Sjoelen](../../games/9-sjoelen/index.md): Netherlands; Dexterity and skill games; Modern Heritage
 - [Ski jumping](../../games/3840-ski-jumping/index.md): Norway; Water and winter sports; Modern Heritage
 - [Skijoring](../../games/490-skijoring/index.md): Worldwide; Sports with animal partners; Classical Worlds
@@ -111,11 +118,13 @@ path: "/a-z/S/"
 - [Sugar-cane spear throwing](../../games/709-sugar-cane-spear-throwing/index.md): Fiji; Street and playground games; Modern Heritage
 - [Sumo bout](../../games/359-sumo-bout/index.md): Japan; Wrestling and martial sports; River Valleys and First Cities
 - [Sungka](../../games/1025-sungka/index.md): Philippines; Board and table games; Deep Past and First Games
+- [Suona](../../games/3977-suona/index.md): China; Musical instruments; Living Traditions
 - [Surakarta](../../games/4940-surakarta/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
+- [Surdo](../../games/3987-surdo/index.md): Brazil; Musical instruments; Age of Contact and Craft
 - [Suzani embroidery](../../games/248-suzani-embroidery/index.md): Uzbekistan, Tajikistan; Crafts and making; Living Traditions
 - [Suzhou silk embroidery](../../games/345-suzhou-silk-embroidery/index.md): China; Crafts and making; Living Traditions
 - [Svaika](../../games/1048-svaika/index.md): Russia; Street and playground games; Modern Heritage
-- [Swahili carved door](../../games/90-swahili-carved-door/index.md): Kenya; Crafts and making; Living Traditions
 - [Swazi carved figures and craft market](../../games/1377-swazi-carved-figures-and-craft-market/index.md): Eswatini; Crafts and making; Living Traditions
 - [Swiss wrestling](../../games/487-swiss-wrestling/index.md): Switzerland; Wrestling and martial sports; River Valleys and First Cities
 - [Syrian mancala](../../games/1128-syrian-mancala/index.md): Syria; Board and table games; Deep Past and First Games
+- [Székelykapu](../../games/11025-szekelykapu/index.md): Hungary; Crafts and making; Living Traditions

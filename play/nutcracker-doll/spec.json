@@ -1,0 +1,41 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "nutcracker",
+  "scene": "seiffen",
+  "rows": 16,
+  "steps": 16,
+  "bands": 8,
+  "clay": "#e8c88a",
+  "glazes": [
+   {
+    "name": "Black lac",
+    "color": "#16120f"
+   },
+   {
+    "name": "White",
+    "color": "#f4efe4"
+   },
+   {
+    "name": "Red",
+    "color": "#b8241c"
+   },
+   {
+    "name": "Bare wood",
+    "color": "#f0d4b0"
+   }
+  ],
+  "glazePattern": [
+   0,
+   1,
+   1,
+   2,
+   2,
+   2,
+   3,
+   0
+  ],
+  "variation": 0.03
+ }
+}

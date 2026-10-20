@@ -1,0 +1,171 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "dongson",
+  "lanes": [
+   {
+    "name": "Star",
+    "hz": 150,
+    "timbre": "bass",
+    "color": "#ffb35a"
+   },
+   {
+    "name": "Band",
+    "hz": 230,
+    "timbre": "tone",
+    "color": "#4fd0c0"
+   },
+   {
+    "name": "Edge",
+    "hz": 430,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Side",
+    "hz": 600,
+    "timbre": "rim",
+    "color": "#c9a0ff"
+   }
+  ],
+  "songs": [
+   {
+    "id": "dawn",
+    "name": "Dawn strokes",
+    "bpm": 66,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Slow rings that overlap and fade.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Star"
+     },
+     {
+      "beat": 2,
+      "lane": "Band"
+     },
+     {
+      "beat": 4,
+      "lane": "Star"
+     },
+     {
+      "beat": 6,
+      "lane": "Edge"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "river",
+    "name": "River pulse",
+    "bpm": 72,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A steady pulse with the edge answering.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Star"
+     },
+     {
+      "beat": 1,
+      "lane": "Band"
+     },
+     {
+      "beat": 2,
+      "lane": "Edge"
+     },
+     {
+      "beat": 3,
+      "lane": "Band"
+     },
+     {
+      "beat": 4,
+      "lane": "Star"
+     },
+     {
+      "beat": 5,
+      "lane": "Band"
+     },
+     {
+      "beat": 6,
+      "lane": "Edge"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 7,
+      "lane": "Side"
+     }
+    ]
+   },
+   {
+    "id": "gathering",
+    "name": "Gathering",
+    "bpm": 78,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The side knocks lead into the star.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Side"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Side"
+     },
+     {
+      "beat": 1,
+      "lane": "Star"
+     },
+     {
+      "beat": 2,
+      "lane": "Band"
+     },
+     {
+      "beat": 3,
+      "lane": "Edge"
+     },
+     {
+      "beat": 4,
+      "lane": "Side"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Side"
+     },
+     {
+      "beat": 5,
+      "lane": "Star"
+     },
+     {
+      "beat": 6,
+      "lane": "Band"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 7,
+      "lane": "Edge"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -41,7 +41,7 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Cueca](../../games/430-cueca/index.md)
 - [Malambo](../../games/1417-malambo/index.md)
-- [Toquilla straw hat weaving](../../games/93-toquilla-straw-hat-weaving/index.md)
+- [Rawhide braiding](../../games/6262-rawhide-braiding/index.md)
 - [Nanduti](../../games/428-nanduti/index.md)
 - [Vallenato accordion trio](../../games/431-vallenato-accordion-trio/index.md)
 - [Frevo Umbrella Dance](../../games/1411-frevo-umbrella-dance/index.md)

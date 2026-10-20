@@ -1,0 +1,20 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "carve",
+  "figure": "zafimaniry",
+  "scene": "mada",
+  "cols": 32,
+  "rows": 42,
+  "material": "wood",
+  "color": "#8a4a2a",
+  "cavity": "#100804",
+  "chisels": 2,
+  "guide": true,
+  "variation": 0.5,
+  "relief": true,
+  "zoom": true,
+  "wax": true,
+  "grain": "across"
+ }
+}

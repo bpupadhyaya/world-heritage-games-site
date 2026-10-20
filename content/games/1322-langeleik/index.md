@@ -44,8 +44,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Kanklės](../../games/136-kankles/index.md)
 - [Kantele](../../games/152-kantele/index.md)
 - [Nyckelharpa](../../games/408-nyckelharpa/index.md)
+- [Jouhikko](../../games/2760-jouhikko/index.md)
 - [Morin khuur](../../games/34-morin-khuur/index.md)
-- [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md)
 
 ## Sources
 

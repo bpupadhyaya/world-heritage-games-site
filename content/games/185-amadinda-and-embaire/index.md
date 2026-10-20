@@ -41,11 +41,11 @@ A living tradition passed from person to person; it is not tied to a single date
 ## Related entries
 
 - [Burundian drum ensemble](../../games/1250-burundian-drum-ensemble/index.md)
+- [Namalwa friction drum](../../games/7919-namalwa-friction-drum/index.md)
+- [Silimba](../../games/7920-silimba/index.md)
+- [Kamba musya bell dance](../../games/17976-kamba-musya-bell-dance/index.md)
+- [Kankobele](../../games/18085-kankobele/index.md)
 - [Talking drum](../../games/33-talking-drum/index.md)
-- [Tabla Bol Rhythm](../../games/35-tabla-bol-rhythm/index.md)
-- [Marimba](../../games/52-marimba/index.md)
-- [Calabash Water Drum](../../games/180-calabash-water-drum/index.md)
-- [Isukuti drum dance](../../games/191-isukuti-drum-dance/index.md)
 
 ## Sources
 

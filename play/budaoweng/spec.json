@@ -1,0 +1,39 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "budao",
+  "scene": "tumbler",
+  "rows": 14,
+  "steps": 16,
+  "bands": 6,
+  "clay": "#e9d9bc",
+  "glazes": [
+   {
+    "name": "Gold",
+    "color": "#e6b830"
+   },
+   {
+    "name": "Blue",
+    "color": "#2a6aa0"
+   },
+   {
+    "name": "Red",
+    "color": "#bd2a24"
+   },
+   {
+    "name": "Cream",
+    "color": "#f8e2c4"
+   }
+  ],
+  "glazePattern": [
+   1,
+   0,
+   0,
+   0,
+   0,
+   3
+  ],
+  "variation": 0.03
+ }
+}

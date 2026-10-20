@@ -1,0 +1,13 @@
+{
+ "slug": "baluchari-sari",
+ "title": "Baluchari sari",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

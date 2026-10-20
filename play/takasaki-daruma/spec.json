@@ -1,0 +1,39 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "daruma",
+  "scene": "darumashop",
+  "rows": 14,
+  "steps": 16,
+  "bands": 6,
+  "clay": "#e9d9bc",
+  "glazes": [
+   {
+    "name": "Red lacquer",
+    "color": "#c41f26"
+   },
+   {
+    "name": "Gold",
+    "color": "#e2ab35"
+   },
+   {
+    "name": "Black",
+    "color": "#14100e"
+   },
+   {
+    "name": "White",
+    "color": "#f7efe2"
+   }
+  ],
+  "glazePattern": [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "variation": 0.03
+ }
+}

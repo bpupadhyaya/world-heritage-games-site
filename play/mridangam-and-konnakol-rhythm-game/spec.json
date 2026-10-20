@@ -1,0 +1,161 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "mridangam",
+  "lanes": [
+   {
+    "name": "Thom",
+    "hz": 96,
+    "timbre": "bass",
+    "color": "#b83a2a"
+   },
+   {
+    "name": "Ki",
+    "hz": 260,
+    "timbre": "tone",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Din",
+    "hz": 330,
+    "timbre": "bell",
+    "color": "#4fa86a"
+   },
+   {
+    "name": "Ta",
+    "hz": 560,
+    "timbre": "slap",
+    "color": "#4f8fd6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "mridangam-adi-tala",
+    "name": "Eight-beat cycle",
+    "bpm": 84,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Mridangam rhythm, South India",
+    "note": "A teaching pattern over an eight-beat cycle: ta ki ta, din, thom.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Ta"
+     },
+     {
+      "beat": 1,
+      "lane": "Ki"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Ta"
+     },
+     {
+      "beat": 2,
+      "lane": "Din"
+     },
+     {
+      "beat": 3,
+      "lane": "Thom"
+     },
+     {
+      "beat": 4,
+      "lane": "Ta"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Ki"
+     },
+     {
+      "beat": 5,
+      "lane": "Ta"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Ki"
+     },
+     {
+      "beat": 6,
+      "lane": "Din"
+     },
+     {
+      "beat": 7,
+      "lane": "Thom"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Thom"
+     }
+    ]
+   },
+   {
+    "id": "mridangam-tisra",
+    "name": "Triplet figure",
+    "bpm": 96,
+    "meter": 6,
+    "length": 12,
+    "kind": "figure",
+    "heritage": "Mridangam rhythm, South India",
+    "note": "A flowing figure in three: ta ki ta, din ki ta.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Ta"
+     },
+     {
+      "beat": 1,
+      "lane": "Ki"
+     },
+     {
+      "beat": 2,
+      "lane": "Ta"
+     },
+     {
+      "beat": 3,
+      "lane": "Din"
+     },
+     {
+      "beat": 4,
+      "lane": "Ki"
+     },
+     {
+      "beat": 5,
+      "lane": "Ta"
+     },
+     {
+      "beat": 6,
+      "lane": "Ta"
+     },
+     {
+      "beat": 7,
+      "lane": "Ki"
+     },
+     {
+      "beat": 8,
+      "lane": "Ta"
+     },
+     {
+      "beat": 9,
+      "lane": "Din"
+     },
+     {
+      "beat": 10,
+      "lane": "Thom"
+     },
+     {
+      "beat": 11,
+      "lane": "Thom"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "mridangam-and-konnakol-rhythm-game",
+ "players": "1"
+}

@@ -1,0 +1,284 @@
+{
+ "engine": "rhythm",
+ "variant": "dranyen",
+ "players": "1",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 146.83,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "dranyen",
+  "lanes": [
+   {
+    "name": "D3",
+    "cents": 0,
+    "id": "d3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d8483a",
+    "string": 0,
+    "fret": 3
+   },
+   {
+    "name": "E3",
+    "cents": 200,
+    "id": "e3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e27f4a",
+    "string": 0,
+    "fret": 6
+   },
+   {
+    "name": "F#3",
+    "cents": 400,
+    "id": "fs3-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#edb65b",
+    "string": 0,
+    "fret": 9
+   },
+   {
+    "name": "A3",
+    "cents": 700,
+    "id": "a3-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d4c772",
+    "string": 1,
+    "fret": 5
+   },
+   {
+    "name": "B3",
+    "cents": 900,
+    "id": "b3-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#abc58e",
+    "string": 1,
+    "fret": 8
+   },
+   {
+    "name": "D4",
+    "cents": 1200,
+    "id": "d4-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#8ac0a7",
+    "string": 2,
+    "fret": 4
+   },
+   {
+    "name": "E4",
+    "cents": 1400,
+    "id": "e4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7ab4bb",
+    "string": 2,
+    "fret": 7
+   },
+   {
+    "name": "F#4",
+    "cents": 1600,
+    "id": "fs4-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#6aa8d0",
+    "string": 2,
+    "fret": 10
+   }
+  ],
+  "songs": [
+   {
+    "id": "dance-song-3-3",
+    "name": "Dance song in 3 + 3",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Six-beat dance song, Himalayan highlands",
+    "bpm": 108,
+    "meter": 6,
+    "length": 12,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 5
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 1
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 6
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     }
+    ],
+    "note": "A swinging dance song counted in two groups of three, with a lift to the high notes in the middle."
+   },
+   {
+    "id": "circle-dance",
+    "name": "Circle dance",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Four-beat circle dance",
+    "bpm": 92,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 5
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 7
+     },
+     {
+      "beat": 7,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 3
+     },
+     {
+      "beat": 9,
+      "lane": 3
+     },
+     {
+      "beat": 10,
+      "lane": 2
+     },
+     {
+      "beat": 11,
+      "lane": 1
+     },
+     {
+      "beat": 12,
+      "lane": 0
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     }
+    ],
+    "note": "A steady four-beat figure with repeated notes, like steps going round in a ring."
+   },
+   {
+    "id": "call-and-answer",
+    "name": "Call and answer",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Sung verse answered on the strings",
+    "bpm": 72,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 5
+     },
+     {
+      "beat": 1,
+      "lane": 6
+     },
+     {
+      "beat": 2,
+      "lane": 7
+     },
+     {
+      "beat": 4,
+      "lane": 6
+     },
+     {
+      "beat": 5,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 3
+     },
+     {
+      "beat": 9,
+      "lane": 2
+     },
+     {
+      "beat": 10,
+      "lane": 1
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     }
+    ],
+    "note": "A high call followed by a low answer, the way a sung line and the lute reply to each other."
+   }
+  ]
+ }
+}

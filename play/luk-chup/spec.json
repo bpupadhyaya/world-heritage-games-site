@@ -1,0 +1,11 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "paint",
+  "design": "lukchup",
+  "scene": "lukchup",
+  "guideMode": "trace",
+  "snap": true,
+  "variation": 0.6
+ }
+}

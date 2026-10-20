@@ -1,0 +1,28 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "basket",
+  "scene": "bk-skep",
+  "form": "skep",
+  "style": "skep",
+  "motif": "spiral",
+  "palette": [
+   {
+    "name": "Straw",
+    "color": "#e6d08e"
+   },
+   {
+    "name": "Bramble",
+    "color": "#4a2e17"
+   },
+   {
+    "name": "Smoked straw",
+    "color": "#b4682c"
+   }
+  ],
+  "colors": 3,
+  "stitches": 14,
+  "period": 5,
+  "rows": 9
+ }
+}

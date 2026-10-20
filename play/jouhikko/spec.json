@@ -1,0 +1,287 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 196.0,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "jouhikko",
+  "lanes": [
+   {
+    "name": "G3",
+    "cents": 0,
+    "id": "g3-0",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#d2aa6e",
+    "string": 0,
+    "fret": 0
+   },
+   {
+    "name": "A3",
+    "cents": 200,
+    "id": "a3-1",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#c6ac7a",
+    "string": 0,
+    "fret": 2
+   },
+   {
+    "name": "B3",
+    "cents": 400,
+    "id": "b3-2",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#bbaf87",
+    "string": 0,
+    "fret": 4
+   },
+   {
+    "name": "D4",
+    "cents": 700,
+    "id": "d4-3",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#afb294",
+    "string": 1,
+    "fret": 0
+   },
+   {
+    "name": "E4",
+    "cents": 900,
+    "id": "e4-4",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#a4b5a1",
+    "string": 1,
+    "fret": 2
+   },
+   {
+    "name": "F#4",
+    "cents": 1000,
+    "id": "fs4-5",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#98b8ae",
+    "string": 1,
+    "fret": 3
+   },
+   {
+    "name": "G4",
+    "cents": 1200,
+    "id": "g4-6",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#8dbbbb",
+    "string": 2,
+    "fret": 0
+   },
+   {
+    "name": "A4",
+    "cents": 1400,
+    "id": "a4-7",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#82bec8",
+    "string": 2,
+    "fret": 2
+   }
+  ],
+  "songs": [
+   {
+    "id": "runo-line",
+    "name": "Rune line",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A narrow-ranged sung line in the style of Finland",
+    "bpm": 72,
+    "meter": 8,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 0
+     },
+     {
+      "beat": 3,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 1
+     },
+     {
+      "beat": 6,
+      "lane": 0
+     },
+     {
+      "beat": 8,
+      "lane": 1
+     },
+     {
+      "beat": 9,
+      "lane": 2
+     },
+     {
+      "beat": 10,
+      "lane": 1
+     },
+     {
+      "beat": 11,
+      "lane": 0
+     },
+     {
+      "beat": 12,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "id": "drone-and-turn",
+    "name": "Drone and turn",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A turn with the bowed drone beneath it",
+    "bpm": 80,
+    "meter": 8,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 4
+     },
+     {
+      "beat": 2,
+      "lane": 5
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 7,
+      "lane": 6
+     },
+     {
+      "beat": 8,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     }
+    ]
+   },
+   {
+    "id": "wedding-step",
+    "name": "Walking step",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A steady walking figure",
+    "bpm": 92,
+    "meter": 8,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 0
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 1
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "slug": "warp-weighted-loom",
+ "title": "Warp-weighted loom",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

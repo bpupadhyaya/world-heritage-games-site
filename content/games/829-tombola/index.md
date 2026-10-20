@@ -36,10 +36,10 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 - [Venetian lagoon regatta](../../games/486-venetian-lagoon-regatta/index.md)
 - [Scopa](../../games/832-scopa/index.md)
+- [Flamenco palmas](../../games/154-flamenco-palmas/index.md)
 - [Cantabrian palm bowling](../../games/1096-cantabrian-palm-bowling/index.md)
 - [Maghrebi 5x5 capture game](../../games/887-maghrebi-5x5-capture-game/index.md)
 - [Remi](../../games/993-remi/index.md)
-- [Morra](../../games/83-morra/index.md)
 
 ## Sources
 

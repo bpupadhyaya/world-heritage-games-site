@@ -1,0 +1,237 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "conga",
+  "lanes": [
+   {
+    "name": "Tumba open",
+    "hz": 130,
+    "timbre": "bass",
+    "color": "#c9a0ff"
+   },
+   {
+    "name": "Conga open",
+    "hz": 210,
+    "timbre": "tone",
+    "color": "#ef476f"
+   },
+   {
+    "name": "Conga slap",
+    "hz": 520,
+    "timbre": "slap",
+    "color": "#ff8a3c"
+   },
+   {
+    "name": "Quinto open",
+    "hz": 340,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Quinto slap",
+    "hz": 760,
+    "timbre": "slap",
+    "color": "#4fc6d6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "tumbao",
+    "name": "Tumbao, 4 beats",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The steady pattern the dancers step to.",
+    "watch": true,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Conga slap"
+     },
+     {
+      "beat": 1,
+      "lane": "Tumba open"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Conga open"
+     },
+     {
+      "beat": 2,
+      "lane": "Conga open"
+     },
+     {
+      "beat": 3,
+      "lane": "Tumba open"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Conga open"
+     },
+     {
+      "beat": 4,
+      "lane": "Conga slap"
+     },
+     {
+      "beat": 5,
+      "lane": "Tumba open"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Conga open"
+     },
+     {
+      "beat": 6,
+      "lane": "Conga open"
+     },
+     {
+      "beat": 7,
+      "lane": "Tumba open"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Conga open"
+     }
+    ]
+   },
+   {
+    "id": "quinto-calls",
+    "name": "Quinto calls, 4 beats",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The quinto answers the pair.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Tumba open"
+     },
+     {
+      "beat": 1,
+      "lane": "Conga open"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Quinto open"
+     },
+     {
+      "beat": 2,
+      "lane": "Quinto slap"
+     },
+     {
+      "beat": 3,
+      "lane": "Tumba open"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Conga slap"
+     },
+     {
+      "beat": 4,
+      "lane": "Quinto open"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Quinto open"
+     },
+     {
+      "beat": 5,
+      "lane": "Conga open"
+     },
+     {
+      "beat": 6,
+      "lane": "Quinto slap"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Quinto open"
+     },
+     {
+      "beat": 7,
+      "lane": "Tumba open"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Conga slap"
+     }
+    ]
+   },
+   {
+    "id": "slap-and-bass",
+    "name": "Slaps and bass, 4 beats",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Bass tones under bright slaps.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Tumba open"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Quinto slap"
+     },
+     {
+      "beat": 1,
+      "lane": "Conga slap"
+     },
+     {
+      "beat": 2,
+      "lane": "Tumba open"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Quinto open"
+     },
+     {
+      "beat": 3,
+      "lane": "Conga open"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Conga slap"
+     },
+     {
+      "beat": 4,
+      "lane": "Tumba open"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Quinto slap"
+     },
+     {
+      "beat": 5,
+      "lane": "Conga slap"
+     },
+     {
+      "beat": 6,
+      "lane": "Tumba open"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Quinto open"
+     },
+     {
+      "beat": 7,
+      "lane": "Conga open"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Quinto slap"
+     }
+    ]
+   }
+  ]
+ }
+}

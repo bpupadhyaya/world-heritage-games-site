@@ -37,7 +37,7 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 ## Play it
 
-[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/billycart-derby/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · App Store (coming soon)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/billycart-derby/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
@@ -46,7 +46,7 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 - [Two-up](../../games/560-two-up/index.md)
 - ['Ulu Maika](../../games/44-ulu-maika/index.md)
 - [Samoan cricket](../../games/1056-samoan-cricket/index.md)
-- [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md)
+- [Hawaiian outrigger canoe racing](../../games/6388-hawaiian-outrigger-canoe-racing/index.md)
 
 ## Sources
 

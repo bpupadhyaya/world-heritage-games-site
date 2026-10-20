@@ -2,7 +2,7 @@
 title: "Mediterranean"
 description: "Greece, Rome, Iberia, Italy and the Maghreb around the inland sea."
 path: "/cradles/mediterranean/"
-count: 70
+count: 80
 ---
 # Mediterranean
 
@@ -10,8 +10,9 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 
 
 
-70 entries.
+80 entries.
 
+- [Albanian filigree](../../games/5102-albanian-filigree/index.md): Albania; Crafts and making; Living Traditions
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md): Morocco; Crafts and making; Living Traditions
 - [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Azulejo tile painting](../../games/122-azulejo-tile-painting/index.md): Portugal; Crafts and making; Living Traditions
@@ -29,12 +30,15 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Dry Stone Wall Builder](../../games/404-dry-stone-wall-builder/index.md): Croatia, Spain; Crafts and making; Living Traditions
 - [Euclid's Ruler and Compass](../../games/396-euclids-ruler-and-compass/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Flag Tossing](../../games/395-flag-tossing/index.md): Italy; Dexterity and skill games; Modern Heritage
+- [Flamenco palmas](../../games/154-flamenco-palmas/index.md): Spain; Street and playground games; Age of Contact and Craft
+- [Galician gaita](../../games/2436-galician-gaita/index.md): Spain; Musical instruments; Classical Worlds
 - [Gallarija Balcony Builder](../../games/1286-gallarija-balcony-builder/index.md): Malta; Crafts and making; Living Traditions
 - [Game of the Goose](../../games/450-game-of-the-goose/index.md): Italy, Spain; Board and table games; River Valleys and First Cities
 - [Ghadames Rooftop Maze](../../games/1291-ghadames-rooftop-maze/index.md): Libya; Puzzles and mind games; Modern Heritage
 - [Glassblowing](../../games/121-glassblowing/index.md): Italy; Crafts and making; Living Traditions
 - [Gondola Rowing](../../games/401-gondola-rowing/index.md): Italy; Dexterity and skill games; Modern Heritage
 - [Italian draughts](../../games/834-italian-draughts/index.md): Italy; Board and table games; Crossroads and Golden Ages
+- [Kabyle Enamel Jewellery](../../games/6086-kabyle-enamel-jewellery/index.md): Algeria; Crafts and making; Living Traditions
 - [Kharbaga](../../games/459-kharbaga/index.md): Morocco; Board and table games; Crossroads and Golden Ages
 - [Kottabos Symposium Toss](../../games/392-kottabos-symposium-toss/index.md): Greece; Archery, throwing and target games; Classical Worlds
 - [Launeddas Triple Pipe](../../games/400-launeddas-triple-pipe/index.md): Italy; Musical instruments; Living Traditions
@@ -48,9 +52,11 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Mezoued Bagpipe and Tabl Drum](../../games/1336-mezoued-bagpipe-and-tabl-drum/index.md): Tunisia; Musical instruments; Crossroads and Golden Ages
 - [Morra](../../games/83-morra/index.md): Italy; Archery, throwing and target games; Classical Worlds
 - [Ohrid Pearl Maker](../../games/1350-ohrid-pearl-maker/index.md): North Macedonia; Crafts and making; Living Traditions
+- [Peg Wooden Doll](../../games/8695-peg-wooden-doll/index.md): Italy; Toys; Modern Heritage
 - [Plis Cap Felter](../../games/1362-plis-cap-felter/index.md): Albania, Kosovo; Crafts and making; Living Traditions
 - [Portolan Chart Navigator](../../games/503-portolan-chart-navigator/index.md): Italy, Spain; Puzzles and mind games; Modern Heritage
 - [Portuguese Guitar](../../games/1457-portuguese-guitar/index.md): Portugal; Musical instruments; Classical Worlds
+- [Rhaita](../../games/3631-rhaita/index.md): Morocco; Musical instruments; Living Traditions
 - [Ring Tilting](../../games/65-ring-tilting/index.md): Croatia; Dexterity and skill games; Modern Heritage
 - [Seven-Key Cabinet Puzzle](../../games/1432-seven-key-cabinet-puzzle/index.md): Andorra; Performance and storytelling; Living Traditions
 - [Sicilian Cart Painting](../../games/399-sicilian-cart-painting/index.md): Italy; Crafts and making; Living Traditions
@@ -66,8 +72,11 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Water Polo Sprint](../../games/1398-water-polo-sprint/index.md): Montenegro; Crafts and making; Living Traditions
 - [Zamma](../../games/462-zamma/index.md): Morocco; Board and table games; Crossroads and Golden Ages
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md): Morocco; Crafts and making; Living Traditions
+- [Assisi embroidery](../../games/1623-assisi-embroidery/index.md): Italy; Crafts and making; Living Traditions
 - [Boċċi](../../games/922-bocci/index.md): Malta; Street and playground games; Classical Worlds
+- [Deruta ceramics](../../games/10441-deruta-ceramics/index.md): Italy; Crafts and making; Living Traditions
 - [Don't Get Mad](../../games/530-dont-get-mad/index.md): Albania; Board and table games; Crossroads and Golden Ages
+- [Kalamatianos](../../games/5066-kalamatianos/index.md): Greece; Dances; Living Traditions
 - [Krur](../../games/950-krur/index.md): Morocco; Board and table games; Deep Past and First Games
 - [Ligrin](../../games/657-ligrin/index.md): Cyprus; Street and playground games; Modern Heritage
 - [Maghrebi 5x5 capture game](../../games/887-maghrebi-5x5-capture-game/index.md): Libya; Board and table games; Age of Contact and Craft
@@ -81,4 +90,5 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Tavëll](../../games/527-tavell/index.md): Albania, Kosovo; Board and table games; River Valleys and First Cities
 - [Tavla](../../games/992-tavla/index.md): North Macedonia, Montenegro; Board and table games; River Valleys and First Cities
 - [Tombola](../../games/829-tombola/index.md): Italy, Malta; Racing; Age of Contact and Craft
+- [Zampogna](../../games/10240-zampogna/index.md): Italy; Musical instruments; Crossroads and Golden Ages
 - [Ziziros](../../games/659-ziziros/index.md): Cyprus; Street and playground games; Deep Past and First Games

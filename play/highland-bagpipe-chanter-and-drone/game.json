@@ -1,0 +1,13 @@
+{
+ "slug": "highland-bagpipe-chanter-and-drone",
+ "title": "Highland Bagpipe Chanter and Drone",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

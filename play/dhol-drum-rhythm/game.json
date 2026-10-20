@@ -1,0 +1,13 @@
+{
+ "slug": "dhol-drum-rhythm",
+ "title": "Dhol (Punjabi barrel drum)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

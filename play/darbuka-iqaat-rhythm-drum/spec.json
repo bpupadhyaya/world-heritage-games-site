@@ -1,0 +1,155 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "darbuka",
+  "lanes": [
+   {
+    "name": "Dum",
+    "hz": 120,
+    "timbre": "bass",
+    "color": "#d9622b"
+   },
+   {
+    "name": "Tek",
+    "hz": 420,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Ka",
+    "hz": 560,
+    "timbre": "slap",
+    "color": "#58b878"
+   },
+   {
+    "name": "Rim",
+    "hz": 840,
+    "timbre": "rim",
+    "color": "#4f9fd6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "darbuka-maqsum",
+    "name": "Maqsum, 4 beats",
+    "bpm": 104,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Iqa'at, Egypt and the Levant",
+    "note": "The most common cycle: Dum, Tek, a rest, Tek, Dum, a rest, Tek.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dum"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Tek"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Tek"
+     },
+     {
+      "beat": 2,
+      "lane": "Dum"
+     },
+     {
+      "beat": 3,
+      "lane": "Tek"
+     },
+     {
+      "beat": 4,
+      "lane": "Dum"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Tek"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Tek"
+     },
+     {
+      "beat": 6,
+      "lane": "Dum"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Ka"
+     },
+     {
+      "beat": 7,
+      "lane": "Tek"
+     }
+    ]
+   },
+   {
+    "id": "darbuka-baladi",
+    "name": "Baladi, 4 beats",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Iqa'at, Egypt",
+    "note": "A heavier village cycle: two Dums at the start, then Tek.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dum"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Dum"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Tek"
+     },
+     {
+      "beat": 2,
+      "lane": "Dum"
+     },
+     {
+      "beat": 3,
+      "lane": "Tek"
+     },
+     {
+      "beat": 4,
+      "lane": "Dum"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Dum"
+     },
+     {
+      "beat": 5,
+      "lane": "Ka"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Tek"
+     },
+     {
+      "beat": 6,
+      "lane": "Dum"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Rim"
+     },
+     {
+      "beat": 7,
+      "lane": "Tek"
+     }
+    ]
+   }
+  ]
+ }
+}

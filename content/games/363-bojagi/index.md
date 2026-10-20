@@ -41,11 +41,11 @@ A living tradition passed from person to person; it is not tied to a single date
 ## Related entries
 
 - [Maedeup](../../games/1468-maedeup/index.md)
+- [Hanji paper making](../../games/14592-hanji-paper-making/index.md)
 - [Temari Thread-Ball Patterns](../../games/96-temari-thread-ball-patterns/index.md)
 - [Kumiko lattice](../../games/97-kumiko-lattice/index.md)
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md)
 - [Kumihimo Braid Disk](../../games/107-kumihimo-braid-disk/index.md)
-- [Kokeshi doll painting](../../games/355-kokeshi-doll-painting/index.md)
 
 ## Sources
 

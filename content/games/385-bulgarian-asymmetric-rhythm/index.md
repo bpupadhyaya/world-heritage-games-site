@@ -40,16 +40,16 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Play it
 
-[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/bulgarian-asymmetric-rhythm/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · App Store (coming soon)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/bulgarian-asymmetric-rhythm/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
 - [Balkan Kolo](../../games/134-balkan-kolo/index.md)
+- [Hopak](../../games/382-hopak/index.md)
 - [Schuhplattler](../../games/410-schuhplattler/index.md)
 - [Faroese chain dance](../../games/1276-faroese-chain-dance/index.md)
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md)
 - [Gumboot dance rhythm](../../games/123-gumboot-dance-rhythm/index.md)
-- [Tahtib](../../games/157-tahtib/index.md)
 
 ## Sources
 

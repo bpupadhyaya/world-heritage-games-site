@@ -1,0 +1,23 @@
+{
+ "title": "Gayageum (twelve-string zither)",
+ "native": "가야금",
+ "alt": [],
+ "summary": "The gayageum is a Korean long zither with twelve silk strings, each lifted on its own movable bridge. The player plucks with the right hand and presses, bends and shakes the string with the left, giving the swaying, voice-like tone of Korean court and folk music.",
+ "howToPlay": [
+  "Twelve strings run from low on the left to high on the right; each string is one lane.",
+  "Notes slide down a string. Pluck the string as the note reaches the bridge end.",
+  "Count the long cycles in twelve beats, felt as four groups of three.",
+  "Listen for the rests: in this music the silence between notes is part of the phrase."
+ ],
+ "rules": [
+  "The twelve strings are tuned to a five-note scale: D, F, G, A and C, over several octaves.",
+  "Each tune is a cycle of twelve beats, counted as four groups of three.",
+  "A stroke exactly on the beat scores as perfect, a near stroke as good, and a stray stroke costs points.",
+  "Each tune is played through twice."
+ ],
+ "heritageNote": "The gayageum has been played in Korea for some fifteen centuries and stands at the centre of Korean string music. Its silk strings carry slow, bending phrases and, in the folk tradition, quick rolling runs.",
+ "countries": [
+  "South Korea"
+ ],
+ "credits": []
+}

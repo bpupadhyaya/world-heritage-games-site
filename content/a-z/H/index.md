@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with H"
-description: "46 entries beginning with H."
+description: "54 entries beginning with H."
 path: "/a-z/H/"
 ---
 # Entries beginning with H
@@ -16,21 +16,27 @@ path: "/a-z/H/"
 - [Handkerchief game](../../games/683-handkerchief-game/index.md): Dominican Republic; Street and playground games; Modern Heritage
 - [Hanetsuki](../../games/347-hanetsuki/index.md): Japan; Racing; Age of Contact and Craft
 - [Hangul syllable blocks](../../games/364-hangul-syllable-blocks/index.md): South Korea; Puzzles and mind games; Modern Heritage
+- [Hanji paper making](../../games/14592-hanji-paper-making/index.md): South Korea; Crafts and making; Living Traditions
 - [Harbour Street Circuit Time Trial](../../games/1475-harbour-street-circuit-time-trial/index.md): Monaco; Racing; Modern Heritage
 - [Hardanger embroidery](../../games/1296-hardanger-embroidery/index.md): Norway; Crafts and making; Living Traditions
 - [Hardanger Fiddle Halling](../../games/520-hardanger-fiddle-halling/index.md): Norway; Musical instruments; Living Traditions
 - [Hare and Hounds](../../games/4647-hare-and-hounds/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
 - [Hasami shogi](../../games/849-hasami-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Hashi](../../games/360-hashi/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Hawaiian outrigger canoe racing](../../games/6388-hawaiian-outrigger-canoe-racing/index.md): United States; Racing; Age of Contact and Craft
 - [Hawalis](../../games/1001-hawalis/index.md): Oman; Board and table games; Deep Past and First Games
+- [Hebron Glassblowing](../../games/6034-hebron-glassblowing/index.md): Palestine; Crafts and making; Living Traditions
 - [Heritage games](../../games/1050-heritage-games/index.md): Saint Lucia; Street and playground games; Modern Heritage
 - [Heu](../../games/1146-heu/index.md): Tonga; Dexterity and skill games; Modern Heritage
+- [Hichiriki](../../games/2620-hichiriki/index.md): Japan; Musical instruments; Classical Worlds
+- [Hida shunkei lacquerware](../../games/14555-hida-shunkei-lacquerware/index.md): Japan; Crafts and making; Living Traditions
 - [Hide and Seek](../../games/475-hide-and-seek/index.md): Worldwide; Street and playground games; Deep Past and First Games
 - [Hide the scarf](../../games/615-hide-the-scarf/index.md): Cambodia; Street and playground games; Modern Heritage
 - [Highland and coastal contests](../../games/1014-highland-and-coastal-contests/index.md): Papua New Guinea; Street and playground games; Modern Heritage
 - [Highland and river mancalas](../../games/863-highland-and-river-mancalas/index.md): Kenya; Board and table games; Deep Past and First Games
 - [Highland Bagpipe Chanter and Drone](../../games/510-highland-bagpipe-chanter-and-drone/index.md): United Kingdom; Musical instruments; Crossroads and Golden Ages
 - [Highland games](../../games/1184-highland-games/index.md): United Kingdom; Street and playground games; Modern Heritage
+- [Highland Sword Dance](../../games/417-highland-sword-dance/index.md): United Kingdom; Dances; Living Traditions
 - [Hiko](../../games/1147-hiko/index.md): Tonga; Dexterity and skill games; Modern Heritage
 - [Hill-country tea plucking](../../games/1297-hill-country-tea-plucking/index.md): Sri Lanka; Puzzles and mind games; Modern Heritage
 - [Hira gasy village troupe contest](../../games/205-hira-gasy-village-troupe-contest/index.md): Madagascar; Performance and storytelling; Living Traditions
@@ -38,6 +44,7 @@ path: "/a-z/H/"
 - [Hong Kong mahjong](../../games/772-hong-kong-mahjong/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Hong Kong Milk Tea Pulling](../../games/1463-hong-kong-milk-tea-pulling/index.md): China; Crafts and making; Living Traditions
 - [Hoop Rolling Trundle](../../games/69-hoop-rolling-trundle/index.md): China; Street and playground games; Modern Heritage
+- [Hopak](../../games/382-hopak/index.md): Ukraine; Dances; Living Traditions
 - [Hopscotch](../../games/762-hopscotch/index.md): Haiti, Honduras; Dexterity and skill games; Deep Past and First Games
 - [Horezu ceramics](../../games/384-horezu-ceramics/index.md): Romania; Crafts and making; Living Traditions
 - [Horn of Africa camel caravan](../../games/1270-horn-of-africa-camel-caravan/index.md): Djibouti; Musical instruments; Crossroads and Golden Ages
@@ -46,6 +53,7 @@ path: "/a-z/H/"
 - [Horse race ludo](../../games/1214-horse-race-ludo/index.md): Vietnam; Board and table games; River Valleys and First Cities
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
 - [Hose-Run Fire Sport](../../games/1281-hose-run-fire-sport/index.md): Czechia, Slovakia; Dexterity and skill games; Modern Heritage
+- [Hosszú furulya](../../games/11018-hosszu-furulya/index.md): Hungary; Musical instruments; Classical Worlds
 - [Hoyito](../../games/682-hoyito/index.md): Dominican Republic; Board and table games; Deep Past and First Games
 - [Huarong Dao](../../games/639-huarong-dao/index.md): China; Water and winter sports; Modern Heritage
 - [Hungarian dominoes](../../games/778-hungarian-dominoes/index.md): Hungary; Board and table games; Crossroads and Golden Ages

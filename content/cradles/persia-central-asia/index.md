@@ -2,7 +2,7 @@
 title: "Persia, Caucasus and Central Asia"
 description: "The Iranian plateau, the mountains of the Caucasus and the Silk Road oases."
 path: "/cradles/persia-central-asia/"
-count: 62
+count: 67
 ---
 # Persia, Caucasus and Central Asia
 
@@ -10,10 +10,11 @@ The Iranian plateau, the mountains of the Caucasus and the Silk Road oases.
 
 
 
-62 entries.
+67 entries.
 
 - [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md): Afghanistan; Musical instruments; Crossroads and Golden Ages
 - [Astrolabe: reading the sky](../../games/236-astrolabe-reading-the-sky/index.md): Iran; Toys; Modern Heritage
+- [Attan circle dance](../../games/234-attan-circle-dance/index.md): Afghanistan; Dances; Living Traditions
 - [Badgir windcatcher cooling puzzle](../../games/229-badgir-windcatcher-cooling-puzzle/index.md): Iran; Crafts and making; Living Traditions
 - [Bayt-bazi: verse chain](../../games/240-bayt-bazi-verse-chain/index.md): Iran; Performance and storytelling; Living Traditions
 - [Buzkashi](../../games/226-buzkashi/index.md): Afghanistan, Uzbekistan; Dexterity and skill games; Classical Worlds
@@ -22,7 +23,9 @@ The Iranian plateau, the mountains of the Caucasus and the Silk Road oases.
 - [Chogan](../../games/810-chogan/index.md): Iran; Street and playground games; Classical Worlds
 - [Chonguri](../../games/255-chonguri/index.md): Georgia; Musical instruments; Crossroads and Golden Ages
 - [Churchkhela](../../games/1255-churchkhela/index.md): Georgia; Crafts and making; Living Traditions
+- [Daf](../../games/2120-daf/index.md): Iran; Musical instruments; Living Traditions
 - [Dombra](../../games/48-dombra/index.md): Kazakhstan; Musical instruments; Crossroads and Golden Ages
+- [Duduk](../../games/159-duduk/index.md): Armenia; Musical instruments; Crossroads and Golden Ages
 - [Durak](../../games/854-durak/index.md): Kazakhstan, Turkmenistan; Card games; Age of Contact and Craft
 - [Flower or Empty](../../games/812-flower-or-empty/index.md): Iran; Street and playground games; Modern Heritage
 - [Georgian three-voice polyphony](../../games/245-georgian-three-voice-polyphony/index.md): Georgia; Musical instruments; Living Traditions
@@ -40,6 +43,7 @@ The Iranian plateau, the mountains of the Caucasus and the Silk Road oases.
 - [Kyz Kuu](../../games/858-kyz-kuu/index.md): Kazakhstan; Street and playground games; Classical Worlds
 - [Lavash Baking](../../games/163-lavash-baking/index.md): Armenia; Crafts and making; Living Traditions
 - [Muqarnas stalactite vault builder](../../games/228-muqarnas-stalactite-vault-builder/index.md): Iran; Crafts and making; Living Traditions
+- [Naqareh](../../games/3233-naqareh/index.md): Iran; Musical instruments; Living Traditions
 - [Nard / backgammon](../../games/1168-nard-backgammon/index.md): Turkmenistan, Tajikistan; Board and table games; River Valleys and First Cities
 - [Nardi](../../games/551-nardi/index.md): Armenia, Azerbaijan; Board and table games; River Valleys and First Cities
 - [Pamiri House Ceiling Raiser](../../games/1356-pamiri-house-ceiling-raiser/index.md): Tajikistan; Crafts and making; Living Traditions
@@ -68,6 +72,7 @@ The Iranian plateau, the mountains of the Caucasus and the Silk Road oases.
 - [Chovqan](../../games/565-chovqan/index.md): Azerbaijan; Street and playground games; Classical Worlds
 - [Kokpar](../../games/857-kokpar/index.md): Kazakhstan; Street and playground games; Classical Worlds
 - [Lelo Burti](../../games/737-lelo-burti/index.md): Georgia; Street and playground games; Modern Heritage
+- [Minakari](../../games/6007-minakari/index.md): Iran; Crafts and making; Living Traditions
 - [Nard / long backgammon](../../games/1205-nard-long-backgammon/index.md): Uzbekistan; Board and table games; River Valleys and First Cities
 - [Ordo](../../games/870-ordo/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
 - [Shashki / chess](../../games/1206-shashki-chess/index.md): Uzbekistan; Board and table games; Classical Worlds

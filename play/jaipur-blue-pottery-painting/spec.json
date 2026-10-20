@@ -1,0 +1,27 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "jaipurvase",
+  "rows": 12,
+  "bands": 5,
+  "clay": "#e6dcc6",
+  "glazes": [
+   {
+    "name": "Quartz white",
+    "color": "#f3efe4"
+   },
+   {
+    "name": "Cobalt blue",
+    "color": "#1d4cb0"
+   },
+   {
+    "name": "Turquoise",
+    "color": "#2aa5a6"
+   }
+  ],
+  "variation": 0.06,
+  "scene": "jaipur",
+  "steps": 12
+ }
+}

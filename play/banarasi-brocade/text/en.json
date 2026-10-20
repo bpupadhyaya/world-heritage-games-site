@@ -1,0 +1,25 @@
+{
+  "title": "Banarasi brocade",
+  "native": "बनारसी",
+  "alt": [
+    "Banarasi sari"
+  ],
+  "summary": "In Varanasi, weavers lay gold and silver thread over glossy silk so that flowers, paisleys and trellis patterns seem to float on the cloth. A chain of punched cards above the loom tells the warp which threads to lift, and the metallic thread is carried only where the pattern needs it.",
+  "howToPlay": [
+    "Pick a thread colour and a pattern shape from the tray.",
+    "Touch a square on the cloth to weave that shape there; it is mirrored on the other side of the centre line.",
+    "Copy the panel shown on the card, then press Check."
+  ],
+  "rules": [
+    "The panel is mirrored left and right, so every shape you place also appears on its partner square.",
+    "A square counts only when its shape and its thread colour both match the pattern you are copying.",
+    "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+  ],
+  "heritageNote": "Brocade has been woven in Varanasi for centuries, and the city is known across India for silk cloth worked with gold and silver thread. The designs, such as the paisley and the flowering trellis, are passed down in families of weavers.",
+  "countries": [
+    "India"
+  ],
+  "credits": [
+    "Pattern design: World Heritage Games (original, in the style of the tradition)"
+  ]
+}

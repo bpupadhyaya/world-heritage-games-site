@@ -1,0 +1,27 @@
+{
+ "title": "Dumbara mat",
+ "native": "දුම්බර",
+ "alt": [
+  "Dumbara rataviyana"
+ ],
+ "summary": "Weave a geometric mat on a frame loom, packing each weft row with the comb.",
+ "howToPlay": [
+  "Look at the lit mat in its frame: it shows the pattern the finished mat must have.",
+  "Tap a colour to lay the next crossing along the row; the gold square marks the place, and the reed comb rides against the last woven row.",
+  "The cotton threads not yet woven hang bare below the comb. Undo takes back the last crossing.",
+  "Press Check to see your stars, or Watch and learn to see a mat woven for you."
+ ],
+ "rules": [
+  "Each crossing is laid in the colour you choose; rows run left to right, from the start of the work.",
+  "The weave goes over two, under one, so the colours step across the rows.",
+  "The score counts the crossings that match the lit target, beyond what the plain fibre colour alone would give.",
+  "Undo takes back the last crossing.",
+  "Three stars for 88 or more, two stars for 65 and one star for 40.",
+  "Watch and learn plays a whole round for you."
+ ],
+ "heritageNote": "In the hills of the Dumbara valley in Sri Lanka, weavers build mats on a simple frame loom. Plant fibre is passed across a warp of dyed thread and beaten tight with a comb, and the stepped geometric patterns appear in black, red and natural colours as the rows are added.",
+ "countries": [
+  "Sri Lanka"
+ ],
+ "credits": []
+}

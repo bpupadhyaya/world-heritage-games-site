@@ -41,11 +41,11 @@ A living tradition passed from person to person; it is not tied to a single date
 ## Related entries
 
 - [Suzhou silk embroidery](../../games/345-suzhou-silk-embroidery/index.md)
+- [Maonan flower bamboo hat](../../games/16277-maonan-flower-bamboo-hat/index.md)
 - [Kente strip weaving](../../games/22-kente-strip-weaving/index.md)
 - [Celtic knot weave](../../games/25-celtic-knot-weave/index.md)
 - [Sashiko Stitch Patterns](../../games/27-sashiko-stitch-patterns/index.md)
 - [Adire indigo resist dyeing](../../games/87-adire-indigo-resist-dyeing/index.md)
-- [Agaseke basket weaving](../../games/89-agaseke-basket-weaving/index.md)
 
 ## Sources
 

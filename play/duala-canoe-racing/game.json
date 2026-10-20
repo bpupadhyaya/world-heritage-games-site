@@ -1,0 +1,13 @@
+{
+ "slug": "duala-canoe-racing",
+ "title": "Duala Canoe Race",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

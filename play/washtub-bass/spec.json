@@ -1,0 +1,145 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "washtub bass",
+  "lanes": [
+   {
+    "name": "Low",
+    "hz": 82.4,
+    "timbre": "pluck",
+    "color": "#f28c60"
+   },
+   {
+    "name": "Mid",
+    "hz": 98.0,
+    "timbre": "pluck",
+    "color": "#f2a060"
+   },
+   {
+    "name": "Upper",
+    "hz": 110.0,
+    "timbre": "pluck",
+    "color": "#f2b360"
+   },
+   {
+    "name": "High",
+    "hz": 123.5,
+    "timbre": "pluck",
+    "color": "#f2c760"
+   },
+   {
+    "name": "Slap",
+    "hz": 150.0,
+    "timbre": "pluck",
+    "color": "#f2da60"
+   }
+  ],
+  "songs": [
+   {
+    "id": "tub-walk",
+    "name": "Walking bass",
+    "bpm": 112,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Washtub bass",
+    "note": "A walking bass line with a slap on the off-beat.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Mid"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Upper"
+     },
+     {
+      "beat": 3.0,
+      "lane": "High"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Upper"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Mid"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Low"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "tub-two",
+    "name": "Two-beat",
+    "bpm": 120,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Washtub bass",
+    "note": "A steady two-beat bounce.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Slap"
+     },
+     {
+      "beat": 2.0,
+      "lane": "High"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Slap"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Slap"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Upper"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Slap"
+     }
+    ]
+   }
+  ]
+ }
+}

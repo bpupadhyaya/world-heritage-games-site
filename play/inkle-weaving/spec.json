@@ -1,0 +1,154 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "inkle",
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Sage green",
+        "color": "#8cb88a"
+      },
+      {
+        "name": "Cream",
+        "color": "#efe5c6"
+      },
+      {
+        "name": "Berry",
+        "color": "#c0405a"
+      },
+      {
+        "name": "Gold",
+        "color": "#e0b040"
+      },
+      {
+        "name": "Sky blue",
+        "color": "#5a8ac8"
+      }
+    ],
+    "background": "#2c4a3c",
+    "grid": "#5a7a66",
+    "motifs": [
+      "diamond",
+      "dot",
+      "stripe-h",
+      "triangle",
+      "cross",
+      "zigzag"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Picked-up diamond band",
+        "rows": [
+          "ggggggggg",
+          "....a....",
+          "...aba...",
+          "..abeba..",
+          "...aba...",
+          "....a....",
+          "ggggggggg",
+          "d.d.d.d.d",
+          "fffffffff"
+        ],
+        "legend": {
+          "g": {
+            "m": 2,
+            "c": 3
+          },
+          "a": {
+            "m": 0,
+            "c": 2
+          },
+          "b": {
+            "m": 0,
+            "c": 1
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          },
+          "d": {
+            "m": 1,
+            "c": 0
+          },
+          "f": {
+            "m": 5,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Zigzag and dots",
+        "rows": [
+          "fffffffff",
+          "a.a.a.a.a",
+          "ggggggggg",
+          "..c...c..",
+          "...c.c...",
+          "....b....",
+          "...c.c...",
+          "..c...c..",
+          "ggggggggg"
+        ],
+        "legend": {
+          "f": {
+            "m": 5,
+            "c": 3
+          },
+          "a": {
+            "m": 1,
+            "c": 1
+          },
+          "g": {
+            "m": 2,
+            "c": 2
+          },
+          "c": {
+            "m": 3,
+            "c": 4
+          },
+          "b": {
+            "m": 4,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Plain borders with diamonds",
+        "rows": [
+          "bbbbbbbbb",
+          "...a.a...",
+          "..a.c.a..",
+          "...a.a...",
+          "....e....",
+          "...a.a...",
+          "..a.c.a..",
+          "...a.a...",
+          "bbbbbbbbb"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 2
+          },
+          "b": {
+            "m": 2,
+            "c": 0
+          },
+          "c": {
+            "m": 0,
+            "c": 1
+          },
+          "e": {
+            "m": 4,
+            "c": 3
+          }
+        }
+      }
+    ]
+  }
+}

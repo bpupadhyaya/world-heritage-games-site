@@ -1,0 +1,27 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "jar",
+  "scene": "liyelaa",
+  "rows": 12,
+  "bands": 4,
+  "clay": "#d9b27c",
+  "glazes": [
+   {
+    "name": "Lac red",
+    "color": "#b5241c"
+   },
+   {
+    "name": "Lac black",
+    "color": "#241a14"
+   },
+   {
+    "name": "Lac yellow",
+    "color": "#e8b020"
+   }
+  ],
+  "variation": 0.04,
+  "engrave": true
+ }
+}

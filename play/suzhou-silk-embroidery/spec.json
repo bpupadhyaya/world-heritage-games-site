@@ -1,0 +1,191 @@
+{
+ "engine": "pattern",
+ "variant": "suzhou-silk-embroidery",
+ "params": {
+  "scene": "suzhou",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "mirror-x",
+  "palette": [
+   {
+    "name": "Peony pink",
+    "color": "#e0708a"
+   },
+   {
+    "name": "Jade",
+    "color": "#3a9a7a"
+   },
+   {
+    "name": "Gold",
+    "color": "#e0b04a"
+   },
+   {
+    "name": "Sky",
+    "color": "#4a8ac0"
+   },
+   {
+    "name": "Deep red",
+    "color": "#b0283a"
+   }
+  ],
+  "background": "#d9e4dc",
+  "grid": "#a8bcae",
+  "motifs": [
+   "leaf",
+   "bird",
+   "flower",
+   "vine",
+   "dot",
+   "star"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 4,
+  "designs": [
+   {
+    "name": "Birds on a flowering branch",
+    "rows": [
+     "..a...a..",
+     ".b.b.b.b.",
+     "c..d.d..c",
+     ".e..f..e.",
+     "..g.h.g..",
+     ".d..a..d.",
+     "i.e.c.e.i",
+     "..j...j..",
+     "k.a.d.a.k"
+    ],
+    "legend": {
+     "a": {
+      "m": 2,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 3,
+      "c": 1
+     },
+     "d": {
+      "m": 1,
+      "c": 3
+     },
+     "e": {
+      "m": 0,
+      "c": 2
+     },
+     "f": {
+      "m": 4,
+      "c": 4
+     },
+     "g": {
+      "m": 2,
+      "c": 2
+     },
+     "h": {
+      "m": 5,
+      "c": 0
+     },
+     "i": {
+      "m": 3,
+      "c": 1
+     },
+     "j": {
+      "m": 4,
+      "c": 0
+     },
+     "k": {
+      "m": 3,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Peony spray",
+    "rows": [
+     "....s....",
+     ".l.....l.",
+     "..p.d.p..",
+     "v.......v",
+     "..r.f.r..",
+     "v.......v",
+     "..p.d.p..",
+     ".l.....l.",
+     "....s...."
+    ],
+    "legend": {
+     "s": {
+      "m": 5,
+      "c": 2
+     },
+     "l": {
+      "m": 0,
+      "c": 1
+     },
+     "p": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 4,
+      "c": 2
+     },
+     "v": {
+      "m": 3,
+      "c": 1
+     },
+     "r": {
+      "m": 2,
+      "c": 4
+     },
+     "f": {
+      "m": 2,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Willow and birds",
+    "rows": [
+     "..v...v..",
+     ".v.....v.",
+     "..b...b..",
+     ".l..f..l.",
+     "..d.s.d..",
+     ".l..f..l.",
+     "..b...b..",
+     ".v.....v.",
+     "..v...v.."
+    ],
+    "legend": {
+     "v": {
+      "m": 3,
+      "c": 1
+     },
+     "b": {
+      "m": 1,
+      "c": 3
+     },
+     "l": {
+      "m": 0,
+      "c": 1
+     },
+     "f": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 4,
+      "c": 4
+     },
+     "s": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   }
+  ]
+ }
+}

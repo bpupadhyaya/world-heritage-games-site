@@ -1,0 +1,13 @@
+{
+ "slug": "mesob-basket-weaving",
+ "title": "Mesob basket weaving",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

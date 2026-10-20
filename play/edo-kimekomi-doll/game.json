@@ -1,0 +1,13 @@
+{
+ "slug": "edo-kimekomi-doll",
+ "title": "Edo kimekomi doll",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

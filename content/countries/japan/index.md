@@ -1,16 +1,16 @@
 ---
 title: "Japan"
-description: "55 traditions from Japan."
+description: "66 traditions from Japan."
 path: "/countries/japan/"
-count: 55
+count: 66
 ---
 # Japan
 
-55 traditions from Japan.
+66 traditions from Japan.
 
 
 
-55 entries.
+66 entries.
 
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Blacksmith's Forge](../../games/506-blacksmiths-forge/index.md): United Kingdom, Germany; Crafts and making; Living Traditions
@@ -28,6 +28,7 @@ count: 55
 - [Hasami shogi](../../games/849-hasami-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Hashi](../../games/360-hashi/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Ikebana](../../games/98-ikebana/index.md): Japan; Crafts and making; Living Traditions
+- [Kakko](../../games/2789-kakko/index.md): Japan; Musical instruments; Living Traditions
 - [Kamishibai](../../games/353-kamishibai/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Karesansui](../../games/95-karesansui/index.md): Japan; Crafts and making; Living Traditions
 - [Kendama](../../games/850-kendama/index.md): Japan; Dexterity and skill games; Modern Heritage
@@ -59,11 +60,21 @@ count: 55
 - [Temari Thread-Ball Patterns](../../games/96-temari-thread-ball-patterns/index.md): Japan; Crafts and making; Living Traditions
 - [Tsugaru Shamisen](../../games/1489-tsugaru-shamisen/index.md): Japan; Musical instruments; Crossroads and Golden Ages
 - [Ukiyo-e Woodblock Printing](../../games/1490-ukiyo-e-woodblock-printing/index.md): Japan; Crafts and making; Living Traditions
+- [Washi Papermaking](../../games/497-washi-papermaking/index.md): Japan, Nepal; Crafts and making; Living Traditions
 - [Yukigassen Snow Fort](../../games/71-yukigassen-snow-fort/index.md): Japan; Water and winter sports; Modern Heritage
 - [Baseball](../../games/22323-baseball/index.md): United States, Cuba; Bat-and-ball games; Modern Heritage
+- [Edo kimekomi doll](../../games/11625-edo-kimekomi-doll/index.md): Japan; Crafts and making; Living Traditions
+- [Hichiriki](../../games/2620-hichiriki/index.md): Japan; Musical instruments; Classical Worlds
+- [Hida shunkei lacquerware](../../games/14555-hida-shunkei-lacquerware/index.md): Japan; Crafts and making; Living Traditions
 - [Koto](../../games/2937-koto/index.md): Japan; Musical instruments; Classical Worlds
+- [Naruko and Togatta kokeshi](../../games/19537-naruko-and-togatta-kokeshi/index.md): Japan; Toys; Modern Heritage
 - [Nonogram](../../games/4827-nonogram/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Reversi](../../games/22336-reversi/index.md): United Kingdom, Japan; Board and table games; Crossroads and Golden Ages
+- [Sanshin](../../games/5365-sanshin/index.md): Japan; Musical instruments; Crossroads and Golden Ages
 - [Soroban](../../games/22319-soroban/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Sudoku](../../games/22340-sudoku/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Takasaki daruma](../../games/15602-takasaki-daruma/index.md): Japan; Toys; Modern Heritage
+- [Tsuchiyu kokeshi](../../games/19542-tsuchiyu-kokeshi/index.md): Japan; Toys; Modern Heritage
+- [Tsugaru-nuri lacquerware](../../games/14554-tsugaru-nuri-lacquerware/index.md): Japan; Crafts and making; Living Traditions
 - [Volleyball](../../games/22345-volleyball/index.md): United States, Brazil; Team ball sports; Modern Heritage
+- [Wajima-nuri](../../games/11615-wajima-nuri/index.md): Japan; Crafts and making; Living Traditions

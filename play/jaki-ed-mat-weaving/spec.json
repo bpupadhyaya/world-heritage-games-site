@@ -1,0 +1,127 @@
+{
+ "engine": "pattern",
+ "params": {
+  "scene": "jakied",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "mirror-x",
+  "palette": [
+   {
+    "name": "Brown",
+    "color": "#6a3f20"
+   },
+   {
+    "name": "Black",
+    "color": "#26180e"
+   },
+   {
+    "name": "Rust",
+    "color": "#a2552e"
+   },
+   {
+    "name": "Bleached",
+    "color": "#fffaf0"
+   }
+  ],
+  "background": "#efe2c2",
+  "grid": "#bfa87a",
+  "motifs": [
+   "solid",
+   "diamond",
+   "triangle",
+   "zigzag",
+   "star",
+   "dot"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 3,
+  "designs": [
+   {
+    "name": "Diamond field",
+    "rows": [
+     "....a....",
+     "...a.a...",
+     "..a.b.a..",
+     ".a.b.b.a.",
+     "a.b.c.b.a",
+     ".a.b.b.a.",
+     "..a.b.a..",
+     "...a.a...",
+     "....a...."
+    ],
+    "legend": {
+     "a": {
+      "m": 1,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 4,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Banded mat",
+    "rows": [
+     "aaaaaaaaa",
+     ".........",
+     "c.c.c.c.c",
+     ".........",
+     "..b.d.b..",
+     ".........",
+     "c.c.c.c.c",
+     ".........",
+     "aaaaaaaaa"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "c": {
+      "m": 2,
+      "c": 1
+     },
+     "b": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 4,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Zigzag bands",
+    "rows": [
+     ".........",
+     "ddddddddd",
+     ".........",
+     "a.a.a.a.a",
+     ".........",
+     "ddddddddd",
+     ".........",
+     "a.a.a.a.a",
+     "........."
+    ],
+    "legend": {
+     "d": {
+      "m": 3,
+      "c": 1
+     },
+     "a": {
+      "m": 1,
+      "c": 2
+     }
+    }
+   }
+  ]
+ },
+ "variant": "jaki-ed-mat-weaving"
+}

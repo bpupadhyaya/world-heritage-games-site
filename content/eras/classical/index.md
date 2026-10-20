@@ -2,7 +2,7 @@
 title: "Classical Worlds"
 description: "Empires and academies turned play into sport, strategy and art."
 path: "/eras/classical/"
-count: 114
+count: 133
 ---
 # Classical Worlds
 
@@ -10,16 +10,18 @@ Empires and academies turned play into sport, strategy and art.
 
 
 
-114 entries.
+133 entries.
 
 - [Adungu](../../games/186-adungu/index.md): Uganda; Musical instruments; Classical Worlds
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
+- [Alpine Yodel](../../games/509-alpine-yodel/index.md): Switzerland, Austria; Archery, throwing and target games; Classical Worlds
 - [Aragoz Hand-Puppet Booth](../../games/222-aragoz-hand-puppet-booth/index.md): Egypt; Performance and storytelling; Classical Worlds
 - [Arnis / Eskrima](../../games/323-arnis-eskrima/index.md): Philippines, Timor-Leste; Wrestling and martial sports; Classical Worlds
 - [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
 - [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md): India, Nepal; Musical instruments; Classical Worlds
 - [Barrel racing](../../games/439-barrel-racing/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
 - [Basque stone lifting](../../games/479-basque-stone-lifting/index.md): France; Acrobatics and strength; Classical Worlds
+- [Begena](../../games/7301-begena/index.md): Ethiopia; Musical instruments; Classical Worlds
 - [Buzkashi](../../games/226-buzkashi/index.md): Afghanistan, Uzbekistan; Dexterity and skill games; Classical Worlds
 - [Champ de Mars turf](../../games/1253-champ-de-mars-turf/index.md): Mauritius; Sports with animal partners; Classical Worlds
 - [Chogan](../../games/810-chogan/index.md): Iran; Street and playground games; Classical Worlds
@@ -29,18 +31,23 @@ Empires and academies turned play into sport, strategy and art.
 - [Digor](../../games/1267-digor/index.md): Bhutan; Archery, throwing and target games; Classical Worlds
 - [Dizi](../../games/132-dizi/index.md): China; Musical instruments; Classical Worlds
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md): China, South Korea; Puzzles and mind games; Classical Worlds
+- [Dvoyanka](../../games/2230-dvoyanka/index.md): Bulgaria; Musical instruments; Classical Worlds
 - [Egrang](../../games/17-egrang/index.md): Indonesia, Malaysia; Racing; Classical Worlds
 - [Equestrian vaulting](../../games/488-equestrian-vaulting/index.md): Worldwide; Sports with animal partners; Classical Worlds
 - [Falaj Water-Turn Clock](../../games/1274-falaj-water-turn-clock/index.md): Oman; Board and table games; Classical Worlds
 - [Finger Hooking](../../games/1452-finger-hooking/index.md): Germany, Austria; Wrestling and martial sports; Classical Worlds
 - [Fujara](../../games/135-fujara/index.md): Slovakia; Musical instruments; Classical Worlds
 - [Fula Riti One-String Fiddle](../../games/1283-fula-riti-one-string-fiddle/index.md): Guinea; Musical instruments; Classical Worlds
+- [Galician gaita](../../games/2436-galician-gaita/index.md): Spain; Musical instruments; Classical Worlds
 - [Gayageum](../../games/361-gayageum/index.md): South Korea; Musical instruments; Classical Worlds
 - [Geomungo](../../games/1453-geomungo/index.md): South Korea; Musical instruments; Classical Worlds
 - [Go](../../games/634-go/index.md): China, Japan; Board and table games; Classical Worlds
+- [Gong ageng](../../games/2500-gong-ageng/index.md): Indonesia; Musical instruments; Classical Worlds
+- [Guzheng](../../games/334-guzheng/index.md): China; Musical instruments; Classical Worlds
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
 - [Imzad Fiddle](../../games/1301-imzad-fiddle/index.md): Niger, Mali; Musical instruments; Classical Worlds
 - [Joropo llanero band](../../games/130-joropo-llanero-band/index.md): Venezuela, Colombia; Musical instruments; Classical Worlds
+- [Jouhikko](../../games/2760-jouhikko/index.md): Finland, Russia; Musical instruments; Classical Worlds
 - [Juldarigi](../../games/2772-juldarigi/index.md): South Korea, United Kingdom; Other traditions; Classical Worlds
 - [Kalinda Stick Duel](../../games/1467-kalinda-stick-duel/index.md): Trinidad and Tobago; Wrestling and martial sports; Classical Worlds
 - [Kampong Ayer water-taxi dash](../../games/1308-kampong-ayer-water-taxi-dash/index.md): Brunei, Malaysia; Water and winter sports; Classical Worlds
@@ -49,7 +56,6 @@ Empires and academies turned play into sport, strategy and art.
 - [Karagoz](../../games/38-karagoz/index.md): Turkey; Performance and storytelling; Classical Worlds
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md): India; Performance and storytelling; Classical Worlds
 - [Khloy bamboo duct flute](../../games/1311-khloy-bamboo-duct-flute/index.md): Cambodia; Musical instruments; Classical Worlds
-- [Khomus](../../games/379-khomus/index.md): Russia; Musical instruments; Classical Worlds
 - [Kite flying](../../games/769-kite-flying/index.md): Honduras; Dexterity and skill games; Classical Worlds
 - [Kitendawili](../../games/181-kitendawili/index.md): Kenya; Puzzles and mind games; Classical Worlds
 - [Kites](../../games/577-kites/index.md): Barbados, El Salvador; Dexterity and skill games; Classical Worlds
@@ -75,9 +81,12 @@ Empires and academies turned play into sport, strategy and art.
 - [Mountain dulcimer](../../games/435-mountain-dulcimer/index.md): United States; Musical instruments; Classical Worlds
 - [Mounted Archery Course](../../games/67-mounted-archery-course/index.md): Hungary; Dexterity and skill games; Classical Worlds
 - [Murchunga](../../games/290-murchunga/index.md): Nepal; Musical instruments; Classical Worlds
+- [Musical glasses](../../games/6534-musical-glasses/index.md): Worldwide; Musical instruments; Classical Worlds
 - [Mvet](../../games/1420-mvet/index.md): Gabon, Cameroon; Musical instruments; Classical Worlds
+- [Nai](../../games/1342-nai/index.md): Romania; Musical instruments; Classical Worlds
 - [Nyatiti Luo lyre](../../games/1349-nyatiti-luo-lyre/index.md): Kenya; Musical instruments; Classical Worlds
 - [Nyckelharpa](../../games/408-nyckelharpa/index.md): Sweden; Musical instruments; Classical Worlds
+- [Ocarina](../../games/6501-ocarina/index.md): Worldwide; Musical instruments; Classical Worlds
 - [Okey](../../games/1158-okey/index.md): Turkey, Cyprus; Board and table games; Classical Worlds
 - [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md): Paraguay; Musical instruments; Classical Worlds
 - [Payada](../../games/1426-payada/index.md): Argentina, Uruguay; Wrestling and martial sports; Classical Worlds
@@ -90,33 +99,43 @@ Empires and academies turned play into sport, strategy and art.
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds
 - [Sicilian Puppet Knights](../../games/514-sicilian-puppet-knights/index.md): Italy; Performance and storytelling; Classical Worlds
 - [Silambam](../../games/271-silambam/index.md): India; Wrestling and martial sports; Classical Worlds
+- [Simsimiyya](../../games/6047-simsimiyya/index.md): Egypt; Musical instruments; Classical Worlds
 - [Skijoring](../../games/490-skijoring/index.md): Worldwide; Sports with animal partners; Classical Worlds
 - [Slovene quintain](../../games/1073-slovene-quintain/index.md): Slovenia; Street and playground games; Classical Worlds
 - [Stilt fishing](../../games/288-stilt-fishing/index.md): Sri Lanka; Dexterity and skill games; Classical Worlds
 - [String Marionette Theatre](../../games/68-string-marionette-theatre/index.md): Czechia; Performance and storytelling; Classical Worlds
+- [Tanbura](../../games/6048-tanbura/index.md): Sudan; Musical instruments; Classical Worlds
 - [Tavern Nail and Wire Puzzles](../../games/110-tavern-nail-and-wire-puzzles/index.md): Germany, United Kingdom; Puzzles and mind games; Classical Worlds
+- [Tavil](../../games/5714-tavil/index.md): India; Musical instruments; Classical Worlds
 - [Tbourida](../../games/164-tbourida/index.md): Morocco; Sports with animal partners; Classical Worlds
 - [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md): China; Board and table games; Classical Worlds
 - [Tuk Band](../../games/1438-tuk-band/index.md): Barbados; Other traditions; Classical Worlds
 - [Tuvan Throat Singing](../../games/508-tuvan-throat-singing/index.md): Mongolia, Russia; Archery, throwing and target games; Classical Worlds
+- [Udu](../../games/7187-udu/index.md): Nigeria; Musical instruments; Classical Worlds
 - [Valiha tube zither](../../games/124-valiha-tube-zither/index.md): Madagascar; Musical instruments; Classical Worlds
 - [Water puppet pond theatre](../../games/303-water-puppet-pond-theatre/index.md): Vietnam; Performance and storytelling; Classical Worlds
 - [Wau bulan kite](../../games/911-wau-bulan-kite/index.md): Malaysia; Dexterity and skill games; Classical Worlds
 - [Wayang Shadow Puppets](../../games/47-wayang-shadow-puppets/index.md): Indonesia; Performance and storytelling; Classical Worlds
 - [Yoke thé](../../games/314-yoke-the/index.md): Myanmar; Performance and storytelling; Classical Worlds
+- [Yunluo](../../games/4446-yunluo/index.md): China; Musical instruments; Classical Worlds
 - [Zande kundi arched harp](../../games/1319-zande-kundi-arched-harp/index.md): South Sudan; Musical instruments; Classical Worlds
 - [Archery](../../games/591-archery/index.md): Bhutan; Archery, throwing and target games; Classical Worlds
 - [Boċċi](../../games/922-bocci/index.md): Malta; Street and playground games; Classical Worlds
+- [Bonang](../../games/15166-bonang/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
 - [Chavgon](../../games/1204-chavgon/index.md): Uzbekistan; Street and playground games; Classical Worlds
 - [Chavgonbozi](../../games/1132-chavgonbozi/index.md): Tajikistan; Street and playground games; Classical Worlds
 - [Chovqan](../../games/565-chovqan/index.md): Azerbaijan; Street and playground games; Classical Worlds
 - [Encang kuda](../../games/1067-encang-kuda/index.md): Singapore; Street and playground games; Classical Worlds
 - [Gamelan](../../games/22329-gamelan/index.md): Indonesia; Musical instruments; Classical Worlds
+- [Glass harmonica](../../games/10143-glass-harmonica/index.md): United States; Musical instruments; Classical Worlds
+- [Hichiriki](../../games/2620-hichiriki/index.md): Japan; Musical instruments; Classical Worlds
 - [Horn pulling](../../games/1103-horn-pulling/index.md): Sri Lanka; Street and playground games; Classical Worlds
+- [Hosszú furulya](../../games/11018-hosszu-furulya/index.md): Hungary; Musical instruments; Classical Worlds
 - [Kite fighting](../../games/788-kite-fighting/index.md): India, Pakistan; Dexterity and skill games; Classical Worlds
 - [Kokpar](../../games/857-kokpar/index.md): Kazakhstan; Street and playground games; Classical Worlds
 - [Koto](../../games/2937-koto/index.md): Japan; Musical instruments; Classical Worlds
+- [Kyi waing](../../games/5490-kyi-waing/index.md): Myanmar; Musical instruments; Classical Worlds
 - [Omok](../../games/1088-omok/index.md): South Korea; Board and table games; Classical Worlds
 - [Paduk](../../games/990-paduk/index.md): North Korea; Board and table games; Classical Worlds
 - [Portuguese staff fighting](../../games/1037-portuguese-staff-fighting/index.md): Portugal; Street and playground games; Classical Worlds

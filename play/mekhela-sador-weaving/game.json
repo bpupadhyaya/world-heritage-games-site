@@ -1,0 +1,13 @@
+{
+ "slug": "mekhela-sador-weaving",
+ "title": "Mekhela sador weaving",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

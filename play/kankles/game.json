@@ -1,0 +1,13 @@
+{
+ "slug": "kankles",
+ "title": "Kankl\u0117s (Baltic Zither)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

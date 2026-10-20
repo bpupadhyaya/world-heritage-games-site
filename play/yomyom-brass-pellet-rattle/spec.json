@@ -1,0 +1,154 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "yomyom brass pellet rattle",
+  "lanes": [
+   {
+    "name": "High",
+    "hz": 700,
+    "timbre": "clap",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Mid",
+    "hz": 500,
+    "timbre": "clap",
+    "color": "#e8884a"
+   },
+   {
+    "name": "Low",
+    "hz": 340,
+    "timbre": "clap",
+    "color": "#d9623a"
+   }
+  ],
+  "songs": [
+   {
+    "id": "yomyom-jingle",
+    "name": "Jingle, 4 beats",
+    "bpm": 104,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Yomyom brass pellet bells, Igbo tradition",
+    "note": "A teaching pattern: the low row on the beat and the bright rows between.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Mid"
+     },
+     {
+      "beat": 2.0,
+      "lane": "High"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Mid"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Mid"
+     },
+     {
+      "beat": 6.0,
+      "lane": "High"
+     },
+     {
+      "beat": 6.5,
+      "lane": "High"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Mid"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "yomyom-run",
+    "name": "Bright run",
+    "bpm": 118,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Yomyom brass pellet bells, Igbo tradition",
+    "note": "A quicker run across the three rows.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 0.5,
+      "lane": "High"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Mid"
+     },
+     {
+      "beat": 1.5,
+      "lane": "High"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 2.5,
+      "lane": "High"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Mid"
+     },
+     {
+      "beat": 3.5,
+      "lane": "High"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 5.0,
+      "lane": "High"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Mid"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Mid"
+     },
+     {
+      "beat": 7.0,
+      "lane": "High"
+     },
+     {
+      "beat": 7.5,
+      "lane": "High"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "yomyom-brass-pellet-rattle"
+}

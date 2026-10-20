@@ -1,0 +1,28 @@
+{
+ "title": "Nyckelharpa (key fiddle)",
+ "native": "Nyckelharpa",
+ "alt": [
+  "Key fiddle",
+  "Keyed fiddle"
+ ],
+ "summary": "The nyckelharpa is a Swedish fiddle played with the bow in one hand and a row of wooden keys in the other. Each key lifts a small wedge that presses a string at exactly the right place, while extra strings underneath ring in sympathy and give the sound its shimmer.",
+ "howToPlay": [
+  "Strings run past a box of wooden keys; each lane marks one key and the note it plays.",
+  "A bead slides down its string toward the key. Press that key and bow as the bead lands.",
+  "Longer notes show a tail: keep the bow moving until it ends.",
+  "Begin with the polska in three, then try the slow polska and the walking tune in two."
+ ],
+ "rules": [
+  "The keys give the notes of D with a flattened seventh above, in steps a fiddler can feel by touch.",
+  "A polska is felt in three beats, with the weight often falling on the second.",
+  "A stroke on the beat is perfect, a near one is good, and extra strokes cost points.",
+  "Every tune is played through twice."
+ ],
+ "heritageNote": "Pictures of keyed fiddles in Sweden go back to the fourteenth century, and the instrument was kept alive in the province of Uppland. Its players gather at spelmansstämma folk music gatherings, and makers still build new instruments by hand.",
+ "countries": [
+  "Sweden"
+ ],
+ "credits": [
+  "Tradition: the Swedish nyckelharpa; melodies written for this game"
+ ]
+}

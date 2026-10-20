@@ -1,0 +1,306 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 220.0,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "dutar",
+  "lanes": [
+   {
+    "name": "A3",
+    "cents": 0,
+    "id": "a3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8403c",
+    "string": 0,
+    "fret": 0
+   },
+   {
+    "name": "B3",
+    "cents": 200,
+    "id": "b3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d05e47",
+    "string": 0,
+    "fret": 2
+   },
+   {
+    "name": "C4",
+    "cents": 300,
+    "id": "c4-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e09a5d",
+    "string": 0,
+    "fret": 3
+   },
+   {
+    "name": "D4",
+    "cents": 500,
+    "id": "d4-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d4c780",
+    "string": 1,
+    "fret": 0
+   },
+   {
+    "name": "E4",
+    "cents": 700,
+    "id": "e4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#9cc4a0",
+    "string": 1,
+    "fret": 2
+   },
+   {
+    "name": "F4",
+    "cents": 800,
+    "id": "f4-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7ca6a4",
+    "string": 1,
+    "fret": 3
+   },
+   {
+    "name": "G4",
+    "cents": 1000,
+    "id": "g4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#58a0b8",
+    "string": 1,
+    "fret": 5
+   },
+   {
+    "name": "A4",
+    "cents": 1200,
+    "id": "a4-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7a78c8",
+    "string": 1,
+    "fret": 7
+   },
+   {
+    "name": "B4",
+    "cents": 1400,
+    "id": "b4-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a070b8",
+    "string": 1,
+    "fret": 9
+   }
+  ],
+  "songs": [
+   {
+    "id": "caravan-line",
+    "name": "Caravan line",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A steady line in the manner of long-neck lute song",
+    "bpm": 80,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 8
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 14,
+      "lane": 4
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     }
+    ],
+    "note": "Walks steadily upward with a pause on each beat, like a camel train crossing a plain."
+   },
+   {
+    "id": "quick-tapping",
+    "name": "Quick tapping",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A quick two-beat figure over both strings",
+    "bpm": 118,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 0.5,
+      "lane": 4
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 1.5,
+      "lane": 4
+     },
+     {
+      "beat": 2,
+      "lane": 5
+     },
+     {
+      "beat": 2.5,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 3.5,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 4.5,
+      "lane": 4
+     },
+     {
+      "beat": 5,
+      "lane": 5
+     },
+     {
+      "beat": 5.5,
+      "lane": 6
+     },
+     {
+      "beat": 6,
+      "lane": 7
+     },
+     {
+      "beat": 6.5,
+      "lane": 6
+     },
+     {
+      "beat": 7,
+      "lane": 5
+     },
+     {
+      "beat": 7.5,
+      "lane": 3
+     }
+    ],
+    "note": "Tight, tapping notes alternate between the two strings."
+   },
+   {
+    "id": "slow-sigh",
+    "name": "Slow sigh",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A slow three-beat song-like line",
+    "bpm": 62,
+    "meter": 3,
+    "length": 18,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 1
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 11,
+      "lane": 8
+     },
+     {
+      "beat": 12,
+      "lane": 7
+     },
+     {
+      "beat": 14,
+      "lane": 5
+     },
+     {
+      "beat": 15,
+      "lane": 3
+     },
+     {
+      "beat": 17,
+      "lane": 0
+     }
+    ],
+    "note": "A long, falling and rising line made for a singer to follow."
+   }
+  ]
+ },
+ "variant": "dutar",
+ "players": "1"
+}

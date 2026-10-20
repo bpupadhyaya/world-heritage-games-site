@@ -1,0 +1,237 @@
+{
+ "engine": "pattern",
+ "params": {
+  "scene": "rickshaw",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "mirror-x",
+  "palette": [
+   {
+    "name": "Pink",
+    "color": "#f0508a"
+   },
+   {
+    "name": "Yellow",
+    "color": "#f6d020"
+   },
+   {
+    "name": "Green",
+    "color": "#20b060"
+   },
+   {
+    "name": "Orange",
+    "color": "#f08020"
+   },
+   {
+    "name": "Cyan",
+    "color": "#20b0e0"
+   }
+  ],
+  "background": "#1a2a6a",
+  "grid": "#3a4a9a",
+  "motifs": [
+   "flower",
+   "bird",
+   "star",
+   "wave",
+   "dot",
+   "diamond"
+  ],
+  "mode": "copy",
+  "rotateMarks": true,
+  "designs": [
+   {
+    "name": "Tin panel flowers",
+    "rows": [
+     "..d.W.d..",
+     "w.F.s.F.w",
+     "d...k...d",
+     ".w.B.B.w.",
+     "W.d.F.d.W",
+     "K.s.k.s.K",
+     ".w.f.f.w.",
+     "d...D...d",
+     "k.W.k.W.k"
+    ],
+    "legend": {
+     "F": {
+      "m": 0,
+      "c": 0
+     },
+     "f": {
+      "m": 0,
+      "c": 3
+     },
+     "B": {
+      "m": 1,
+      "c": 1
+     },
+     "b": {
+      "m": 1,
+      "c": 4
+     },
+     "s": {
+      "m": 2,
+      "c": 1
+     },
+     "S": {
+      "m": 2,
+      "c": 4
+     },
+     "w": {
+      "m": 3,
+      "c": 2
+     },
+     "W": {
+      "m": 3,
+      "c": 0
+     },
+     "d": {
+      "m": 4,
+      "c": 3
+     },
+     "D": {
+      "m": 4,
+      "c": 1
+     },
+     "k": {
+      "m": 5,
+      "c": 0
+     },
+     "K": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Tinsel frame",
+    "rows": [
+     "kKkKkKkKk",
+     "d...d...d",
+     "w.s.w.s.w",
+     "w.F.w.F.w",
+     "D.B.D.B.D",
+     "w.f.w.f.w",
+     "w.S.w.S.w",
+     "d...d...d",
+     "kKkKkKkKk"
+    ],
+    "legend": {
+     "F": {
+      "m": 0,
+      "c": 0
+     },
+     "f": {
+      "m": 0,
+      "c": 3
+     },
+     "B": {
+      "m": 1,
+      "c": 1
+     },
+     "b": {
+      "m": 1,
+      "c": 4
+     },
+     "s": {
+      "m": 2,
+      "c": 1
+     },
+     "S": {
+      "m": 2,
+      "c": 4
+     },
+     "w": {
+      "m": 3,
+      "c": 2
+     },
+     "W": {
+      "m": 3,
+      "c": 0
+     },
+     "d": {
+      "m": 4,
+      "c": 3
+     },
+     "D": {
+      "m": 4,
+      "c": 1
+     },
+     "k": {
+      "m": 5,
+      "c": 0
+     },
+     "K": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Garden and ripples",
+    "rows": [
+     "s.d.d.d.s",
+     "..F.w.F..",
+     "d.k.K.k.d",
+     ".b.w.w.b.",
+     "w.B.W.B.w",
+     "K.w.k.w.K",
+     "d.d.d.d.d",
+     "W...w...W",
+     "kKkdkdkKk"
+    ],
+    "legend": {
+     "F": {
+      "m": 0,
+      "c": 0
+     },
+     "f": {
+      "m": 0,
+      "c": 3
+     },
+     "B": {
+      "m": 1,
+      "c": 1
+     },
+     "b": {
+      "m": 1,
+      "c": 4
+     },
+     "s": {
+      "m": 2,
+      "c": 1
+     },
+     "S": {
+      "m": 2,
+      "c": 4
+     },
+     "w": {
+      "m": 3,
+      "c": 2
+     },
+     "W": {
+      "m": 3,
+      "c": 0
+     },
+     "d": {
+      "m": 4,
+      "c": 3
+     },
+     "D": {
+      "m": 4,
+      "c": 1
+     },
+     "k": {
+      "m": 5,
+      "c": 0
+     },
+     "K": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   }
+  ]
+ }
+}

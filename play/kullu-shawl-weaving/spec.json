@@ -1,0 +1,156 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "shawl",
+    "cols": 7,
+    "rows": 7,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Himalayan red",
+        "color": "#b8262c"
+      },
+      {
+        "name": "Natural white",
+        "color": "#efe7d6"
+      },
+      {
+        "name": "Pine green",
+        "color": "#2f6a43"
+      },
+      {
+        "name": "Mustard",
+        "color": "#d9a02a"
+      },
+      {
+        "name": "Deep indigo",
+        "color": "#2a3f78"
+      }
+    ],
+    "background": "#c9b392",
+    "grid": "#8f7a58",
+    "motifs": [
+      "triangle",
+      "diamond",
+      "zigzag",
+      "fret",
+      "stripe-h",
+      "checker"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 5,
+    "designs": [
+      {
+        "name": "Patti bands in red, green and mustard",
+        "rows": [
+          "a.a.a.a",
+          "bcbcbcb",
+          "eeeeeee",
+          "dfbfbfd",
+          "eeeeeee",
+          "bcbcbcb",
+          "a.a.a.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 2
+          },
+          "d": {
+            "m": 3,
+            "c": 3
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Diamond patti",
+        "rows": [
+          "abababa",
+          "eeeeeee",
+          "d.c.c.d",
+          "cfdfdfc",
+          "d.c.c.d",
+          "eeeeeee",
+          "abababa"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 0,
+            "c": 1
+          },
+          "c": {
+            "m": 1,
+            "c": 2
+          },
+          "d": {
+            "m": 1,
+            "c": 3
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          },
+          "f": {
+            "m": 3,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Fret and check band",
+        "rows": [
+          "aaaaaaa",
+          "bcbcbcb",
+          "ddddddd",
+          "eaeaeae",
+          "ddddddd",
+          "bcbcbcb",
+          "aaaaaaa"
+        ],
+        "legend": {
+          "a": {
+            "m": 3,
+            "c": 2
+          },
+          "b": {
+            "m": 5,
+            "c": 0
+          },
+          "c": {
+            "m": 5,
+            "c": 1
+          },
+          "d": {
+            "m": 2,
+            "c": 3
+          },
+          "e": {
+            "m": 0,
+            "c": 4
+          }
+        }
+      }
+    ]
+  }
+}

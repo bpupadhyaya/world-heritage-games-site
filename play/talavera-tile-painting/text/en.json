@@ -1,0 +1,30 @@
+{
+ "title": "Talavera tile painting",
+ "native": "Talavera poblana",
+ "alt": [
+  "Talavera de Puebla",
+  "Mexican Talavera"
+ ],
+ "summary": "Talavera tiles from Puebla are painted in cobalt blue, yellow, orange and green over a thick white glaze. Here four large tiles meet in one flower, and you draw it, flood the colours and dab the dots.",
+ "howToPlay": [
+  "Look at the small panel at the top: it shows the finished four tiles.",
+  "Dip the brush in cobalt and drag along the lit lines to draw the diamond, the heart and the petals; press Next.",
+  "Pick a glaze and tap each shape to flood it: yellow petals, an orange heart, green leaves.",
+  "Dab the dots, then press Check to see your stars. The design turns a quarter at a time, so Mirror repeats each stroke into all four corners."
+ ],
+ "rules": [
+  "The panel has three steps in order: outlines, glaze fills, dots.",
+  "The brush carries a limited load of paint; dip it again when it runs dry.",
+  "A line scores by how closely it follows the guide; a fill scores by how much of the shape holds the right glaze.",
+  "Paint that lands outside an outline counts against you; undo takes back the last stroke.",
+  "With Mirror on, each stroke is repeated in all four quarters of the panel.",
+  "Three stars for a close, clean, well-coloured panel."
+ ],
+ "heritageNote": "Talavera poblana is the tin-glazed earthenware of Puebla and nearby towns in Mexico, shaped by Spanish potters from Talavera de la Reina and by local workshops from the sixteenth century on. Makers still follow regulated methods with local clays and mineral colours, and four tiles are often painted to form one large flower.",
+ "countries": [
+  "Mexico"
+ ],
+ "credits": [
+  "Photo: Rick-Al-Fo, Wikimedia Commons"
+ ]
+}

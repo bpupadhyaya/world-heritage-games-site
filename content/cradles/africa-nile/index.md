@@ -2,7 +2,7 @@
 title: "Africa: Nile and the Horn"
 description: "Egypt, Sudan, Ethiopia and the Horn of Africa."
 path: "/cradles/africa-nile/"
-count: 39
+count: 44
 ---
 # Africa: Nile and the Horn
 
@@ -10,12 +10,14 @@ Egypt, Sudan, Ethiopia and the Horn of Africa.
 
 
 
-39 entries.
+44 entries.
 
 - [Aqal Somali](../../games/190-aqal-somali/index.md): Somalia; Crafts and making; Living Traditions
 - [Aragoz Hand-Puppet Booth](../../games/222-aragoz-hand-puppet-booth/index.md): Egypt; Performance and storytelling; Classical Worlds
 - [Asmara highland road race](../../games/193-asmara-highland-road-race/index.md): Eritrea; Racing; Age of Contact and Craft
+- [Begena](../../games/7301-begena/index.md): Ethiopia; Musical instruments; Classical Worlds
 - [Cafe dominoes](../../games/690-cafe-dominoes/index.md): Egypt; Board and table games; Crossroads and Golden Ages
+- [Darbuka Iqa'at Rhythm Drum](../../games/213-darbuka-iqaat-rhythm-drum/index.md): Egypt; Musical instruments; Living Traditions
 - [Dinka beaded corset beadwork](../../games/1269-dinka-beaded-corset-beadwork/index.md): South Sudan; Crafts and making; Living Traditions
 - [Dorze cotton weaving](../../games/1271-dorze-cotton-weaving/index.md): Ethiopia; Crafts and making; Living Traditions
 - [Egyptian Fractions and Doubling](../../games/215-egyptian-fractions-and-doubling/index.md): Egypt; Puzzles and mind games; Modern Heritage
@@ -34,7 +36,9 @@ Egypt, Sudan, Ethiopia and the Horn of Africa.
 - [Nubian house painting](../../games/192-nubian-house-painting/index.md): Egypt; Crafts and making; Living Traditions
 - [Senet](../../games/693-senet/index.md): Egypt; Board and table games; River Valleys and First Cities
 - [Senterej](../../games/707-senterej/index.md): Ethiopia, Eritrea; Board and table games; Crossroads and Golden Ages
+- [Simsimiyya](../../games/6047-simsimiyya/index.md): Egypt; Musical instruments; Classical Worlds
 - [Tahtib](../../games/157-tahtib/index.md): Egypt; Dances; Living Traditions
+- [Tanbura](../../games/6048-tanbura/index.md): Sudan; Musical instruments; Classical Worlds
 - [Wazza gourd trumpet](../../games/1399-wazza-gourd-trumpet/index.md): Sudan; Musical instruments; Living Traditions
 - [Zande kundi arched harp](../../games/1319-zande-kundi-arched-harp/index.md): South Sudan; Musical instruments; Classical Worlds
 - [Abalala'e](../../games/699-abalalae/index.md): Eritrea; Board and table games; Deep Past and First Games
@@ -46,6 +50,7 @@ Egypt, Sudan, Ethiopia and the Horn of Africa.
 - [Egyptian backgammon](../../games/695-egyptian-backgammon/index.md): Egypt; Board and table games; River Valleys and First Cities
 - [Gebeta](../../games/708-gebeta/index.md): Ethiopia; Board and table games; Deep Past and First Games
 - [Layli Goobalay](../../games/675-layli-goobalay/index.md): Djibouti, Somalia; Board and table games; Deep Past and First Games
+- [Riq](../../games/6045-riq/index.md): Egypt; Musical instruments; Living Traditions
 - [Seega](../../games/692-seega/index.md): Egypt; Board and table games; Age of Contact and Craft
 - [Shax](../../games/676-shax/index.md): Djibouti, Somalia; Board and table games; River Valleys and First Cities
 - [Tab](../../games/694-tab/index.md): Egypt; Board and table games; River Valleys and First Cities

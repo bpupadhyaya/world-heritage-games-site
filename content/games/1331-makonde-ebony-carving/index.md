@@ -40,12 +40,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
-- [Swahili carved door](../../games/90-swahili-carved-door/index.md)
+- [Zafimaniry woodcarving](../../games/7311-zafimaniry-woodcarving/index.md)
+- [Maasai beadwork](../../games/7320-maasai-beadwork/index.md)
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
 - [Thai fruit and vegetable carving](../../games/114-thai-fruit-and-vegetable-carving/index.md)
 - [Glassblowing](../../games/121-glassblowing/index.md)
 - [Azulejo tile painting](../../games/122-azulejo-tile-painting/index.md)
-- [Krobo Powder-Glass Beads](../../games/173-krobo-powder-glass-beads/index.md)
 
 ## Sources
 

@@ -1,26 +1,37 @@
 ---
 title: "Entries beginning with K"
-description: "99 entries beginning with K."
+description: "115 entries beginning with K."
 path: "/a-z/K/"
 ---
 # Entries beginning with K
 
 - [Kaapse Klopse](../../games/1307-kaapse-klopse/index.md): Malaysia, South Africa; Street and playground games; Modern Heritage
 - [Kabaddi](../../games/789-kabaddi/index.md): India, Pakistan; Street and playground games; Modern Heritage
+- [Kabyle Enamel Jewellery](../../games/6086-kabyle-enamel-jewellery/index.md): Algeria; Crafts and making; Living Traditions
+- [Kakaki trumpet](../../games/6917-kakaki-trumpet/index.md): Chad; Musical instruments; Living Traditions
+- [Kakko](../../games/2789-kakko/index.md): Japan; Musical instruments; Living Traditions
+- [Kakradaa cog rattle](../../games/21420-kakradaa-cog-rattle/index.md): Ghana; Musical instruments; Living Traditions
+- [Kalamatianos](../../games/5066-kalamatianos/index.md): Greece; Dances; Living Traditions
 - [Kalamkari pen painting](../../games/273-kalamkari-pen-painting/index.md): Worldwide; Crafts and making; Living Traditions
 - [Kale](../../games/732-kale/index.md): Gabon; Board and table games; Deep Past and First Games
 - [Kalinda Stick Duel](../../games/1467-kalinda-stick-duel/index.md): Trinidad and Tobago; Wrestling and martial sports; Classical Worlds
 - [Kalocsa floral painting](../../games/383-kalocsa-floral-painting/index.md): Hungary; Crafts and making; Living Traditions
 - [Kamancha](../../games/165-kamancha/index.md): Azerbaijan, Iran; Musical instruments; Living Traditions
+- [Kamba funnel trumpet](../../games/17972-kamba-funnel-trumpet/index.md): Kenya; Musical instruments; Living Traditions
+- [Kamba musya bell dance](../../games/17976-kamba-musya-bell-dance/index.md): Kenya; Dances; Living Traditions
 - [Kambala](../../games/80-kambala/index.md): India; Racing; Age of Contact and Craft
 - [Kamishibai](../../games/353-kamishibai/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Kampong Ayer water-taxi dash](../../games/1308-kampong-ayer-water-taxi-dash/index.md): Brunei, Malaysia; Water and winter sports; Classical Worlds
+- [Kanchipuram Silk Sari](../../games/5756-kanchipuram-silk-sari/index.md): India; Crafts and making; Living Traditions
 - [Kanga cloth design](../../games/184-kanga-cloth-design/index.md): Kenya; Crafts and making; Living Traditions
+- [Kani shawl weaving by talim code](../../games/261-kani-shawl-weaving-by-talim-code/index.md): India; Crafts and making; Living Traditions
 - [Kanklės](../../games/136-kankles/index.md): Lithuania; Musical instruments; Classical Worlds
+- [Kankobele](../../games/18085-kankobele/index.md): Zambia; Musical instruments; Living Traditions
 - [Kantele](../../games/152-kantele/index.md): Finland; Musical instruments; Classical Worlds
 - [Kantha running-stitch quilt](../../games/284-kantha-running-stitch-quilt/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Karagoz](../../games/38-karagoz/index.md): Turkey; Performance and storytelling; Classical Worlds
 - [Karesansui](../../games/95-karesansui/index.md): Japan; Crafts and making; Living Traditions
+- [Kashaka](../../games/7183-kashaka/index.md): Gambia; Musical instruments; Living Traditions
 - [Kashmiri papier-mache painting](../../games/269-kashmiri-papier-mache-painting/index.md): India; Crafts and making; Living Traditions
 - [Kasivaki](../../games/1148-kasivaki/index.md): Tonga; Street and playground games; Modern Heritage
 - [Kastom games](../../games/1208-kastom-games/index.md): Vanuatu; Street and playground games; Modern Heritage
@@ -32,6 +43,7 @@ path: "/a-z/K/"
 - [Kay mancala](../../games/767-kay-mancala/index.md): Haiti; Board and table games; Deep Past and First Games
 - [Keffiyeh Pattern Loom](../../games/1310-keffiyeh-pattern-loom/index.md): Palestine; Crafts and making; Living Traditions
 - [Kendama](../../games/850-kendama/index.md): Japan; Dexterity and skill games; Modern Heritage
+- [Kendang](../../games/10163-kendang/index.md): Indonesia; Musical instruments; Living Traditions
 - [Kente strip weaving](../../games/22-kente-strip-weaving/index.md): Ghana; Crafts and making; Living Traditions
 - [Keram](../../games/1137-keram/index.md): Tanzania; Dexterity and skill games; Modern Heritage
 - [Ketupat](../../games/322-ketupat/index.md): Malaysia, Indonesia; Crafts and making; Living Traditions
@@ -44,7 +56,6 @@ path: "/a-z/K/"
 - [Khmer chess](../../games/616-khmer-chess/index.md): Cambodia; Board and table games; Crossroads and Golden Ages
 - [Kho-Kho](../../games/15-kho-kho/index.md): India, Nepal; Street and playground games; Modern Heritage
 - [Khokhloma Pattern Painting](../../games/102-khokhloma-pattern-painting/index.md): Russia; Crafts and making; Living Traditions
-- [Khomus](../../games/379-khomus/index.md): Russia; Musical instruments; Classical Worlds
 - [Khuru](../../games/592-khuru/index.md): Bhutan; Dexterity and skill games; Age of Contact and Craft
 - [Kī-o-rahi](../../games/978-ki-o-rahi/index.md): New Zealand; Street and playground games; Modern Heritage
 - [Kibao](../../games/1138-kibao/index.md): Tanzania; Street and playground games; Deep Past and First Games
@@ -75,6 +86,7 @@ path: "/a-z/K/"
 - [Kokpar](../../games/857-kokpar/index.md): Kazakhstan; Street and playground games; Classical Worlds
 - [Kolam](../../games/22332-kolam/index.md): India; Crafts and making; Living Traditions
 - [Kolf](../../games/491-kolf/index.md): Netherlands; Archery, throwing and target games; Classical Worlds
+- [Kombu](../../games/2918-kombu/index.md): India; Musical instruments; Living Traditions
 - [Komuz](../../games/242-komuz/index.md): Kyrgyzstan; Musical instruments; Crossroads and Golden Ages
 - [Kōnane](../../games/961-konane/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Kondapalli village toys](../../games/276-kondapalli-village-toys/index.md): Worldwide; Crafts and making; Living Traditions
@@ -95,12 +107,16 @@ path: "/a-z/K/"
 - [Kubb](../../games/1120-kubb/index.md): Sweden; Street and playground games; Modern Heritage
 - [Kuli](../../games/1041-kuli/index.md): Congo; Street and playground games; Modern Heritage
 - [Kulintang](../../games/318-kulintang/index.md): Philippines, Malaysia; Musical instruments; Classical Worlds
+- [Kullu shawl weaving](../../games/19700-kullu-shawl-weaving/index.md): India; Crafts and making; Living Traditions
 - [Kumihimo Braid Disk](../../games/107-kumihimo-braid-disk/index.md): Japan; Crafts and making; Living Traditions
 - [Kumiko lattice](../../games/97-kumiko-lattice/index.md): Japan; Crafts and making; Living Traditions
+- [Kundu drum](../../games/6417-kundu-drum/index.md): Papua New Guinea; Musical instruments; Modern Heritage
 - [Kurai](../../games/1237-kurai/index.md): Russia; Musical instruments; Classical Worlds
 - [Kurash](../../games/253-kurash/index.md): Uzbekistan; Wrestling and martial sports; River Valleys and First Cities
 - [Kurpie Layered Paper Cutting](../../games/1320-kurpie-layered-paper-cutting/index.md): Poland; Crafts and making; Living Traditions
 - [Kushti / Pehlwani mud wrestling](../../games/256-kushti-pehlwani-mud-wrestling/index.md): India, Pakistan; Wrestling and martial sports; River Valleys and First Cities
+- [Kutch Embroidery](../../games/5761-kutch-embroidery/index.md): India; Crafts and making; Living Traditions
 - [Kwepena](../../games/1174-kwepena/index.md): Uganda; Street and playground games; Modern Heritage
+- [Kyi waing](../../games/5490-kyi-waing/index.md): Myanmar; Musical instruments; Classical Worlds
 - [Kyykka](../../games/715-kyykka/index.md): Finland; Street and playground games; Age of Contact and Craft
 - [Kyz Kuu](../../games/858-kyz-kuu/index.md): Kazakhstan; Street and playground games; Classical Worlds

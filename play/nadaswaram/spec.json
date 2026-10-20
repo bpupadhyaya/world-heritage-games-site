@@ -1,0 +1,263 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "nadaswaram",
+  "mode": "follow",
+  "root": 220.0,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Sa",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "1111111"
+   },
+   {
+    "name": "Ri",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "1111110"
+   },
+   {
+    "name": "Ga",
+    "cents": 400,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "1111100"
+   },
+   {
+    "name": "Pa",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "1111000"
+   },
+   {
+    "name": "Da",
+    "cents": 900,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "1110000"
+   },
+   {
+    "name": "Sa'",
+    "cents": 1200,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "1100000"
+   }
+  ],
+  "songs": [
+   {
+    "id": "nadaswaram-sweep",
+    "name": "Rising phrase",
+    "bpm": 66,
+    "meter": 4,
+    "length": 29.0,
+    "kind": "figure",
+    "heritage": "Nadaswaram, southern India",
+    "note": "A teaching phrase that sweeps up the five-note mode and settles on the tonic.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Sa",
+      "len": 2
+     },
+     {
+      "beat": 2.0,
+      "lane": "Ga",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Pa",
+      "len": 2
+     },
+     {
+      "beat": 5.0,
+      "lane": "Da",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "Sa'",
+      "len": 3
+     },
+     {
+      "beat": 9.0,
+      "lane": "Da",
+      "len": 1
+     },
+     {
+      "beat": 10.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "Ga",
+      "len": 2
+     },
+     {
+      "beat": 13.0,
+      "lane": "Ri",
+      "len": 1
+     },
+     {
+      "beat": 14.0,
+      "lane": "Sa",
+      "len": 4
+     },
+     {
+      "beat": 18.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 19.0,
+      "lane": "Da",
+      "len": 1
+     },
+     {
+      "beat": 20.0,
+      "lane": "Sa'",
+      "len": 2
+     },
+     {
+      "beat": 22.0,
+      "lane": "Da",
+      "len": 1
+     },
+     {
+      "beat": 23.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 24.0,
+      "lane": "Ga",
+      "len": 1
+     },
+     {
+      "beat": 25.0,
+      "lane": "Ri",
+      "len": 1
+     },
+     {
+      "beat": 26.0,
+      "lane": "Sa",
+      "len": 3
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "nadaswaram-run",
+    "name": "Fast run",
+    "bpm": 80,
+    "meter": 4,
+    "length": 23.0,
+    "kind": "figure",
+    "heritage": "Nadaswaram, southern India",
+    "note": "A run up and down the mode.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Sa",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "Ri",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "Ga",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "Da",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "Sa'",
+      "len": 2
+     },
+     {
+      "beat": 7.0,
+      "lane": "Da",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 9.0,
+      "lane": "Ga",
+      "len": 1
+     },
+     {
+      "beat": 10.0,
+      "lane": "Ri",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "Sa",
+      "len": 3
+     },
+     {
+      "beat": 14.0,
+      "lane": "Ga",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "Da",
+      "len": 1
+     },
+     {
+      "beat": 17.0,
+      "lane": "Sa'",
+      "len": 1
+     },
+     {
+      "beat": 18.0,
+      "lane": "Da",
+      "len": 1
+     },
+     {
+      "beat": 19.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 20.0,
+      "lane": "Sa",
+      "len": 3
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "nadaswaram"
+}

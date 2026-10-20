@@ -1,15 +1,16 @@
 ---
 title: "Entries beginning with D"
-description: "50 entries beginning with D."
+description: "62 entries beginning with D."
 path: "/a-z/D/"
 ---
 # Entries beginning with D
 
+- [Dabakan](../../games/2118-dabakan/index.md): Philippines; Musical instruments; Living Traditions
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md): Lebanon; Dances; Living Traditions
 - [Dabuda](../../games/705-dabuda/index.md): Ethiopia, Djibouti; Board and table games; Deep Past and First Games
+- [Daf](../../games/2120-daf/index.md): Iran; Musical instruments; Living Traditions
 - [Dahomey Appliqué Panel Studio](../../games/1262-dahomey-applique-panel-studio/index.md): Benin; Crafts and making; Living Traditions
 - [Dakar Car Rapide Livery Painter](../../games/1263-dakar-car-rapide-livery-painter/index.md): Senegal; Crafts and making; Living Traditions
-- [Dala Horse Painting](../../games/415-dala-horse-painting/index.md): Sweden; Crafts and making; Living Traditions
 - [Daldøs](../../games/458-dalds/index.md): Denmark, Norway; Board and table games; Crossroads and Golden Ages
 - [Dalgona](../../games/100-dalgona/index.md): South Korea; Dexterity and skill games; Crossroads and Golden Ages
 - [Damascus Mother-of-Pearl Inlay](../../games/223-damascus-mother-of-pearl-inlay/index.md): Syria; Crafts and making; Living Traditions
@@ -18,9 +19,13 @@ path: "/a-z/D/"
 - [Dandi Biyo](../../games/968-dandi-biyo/index.md): Nepal; Dexterity and skill games; Modern Heritage
 - [Danish pin billiards](../../games/671-danish-pin-billiards/index.md): Denmark; Street and playground games; Age of Contact and Craft
 - [Dara](../../games/452-dara/index.md): Nigeria, Niger; Board and table games; Living Traditions
+- [Darbuka Iqa'at Rhythm Drum](../../games/213-darbuka-iqaat-rhythm-drum/index.md): Egypt; Musical instruments; Living Traditions
 - [Dart/spear throwing](../../games/1057-dart-spear-throwing/index.md): Samoa; Street and playground games; Modern Heritage
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Decoy carving](../../games/6360-decoy-carving/index.md): United States; Crafts and making; Living Traditions
 - [Dego](../../games/590-dego/index.md): Bhutan; Dexterity and skill games; Modern Heritage
+- [Delftware](../../games/5267-delftware/index.md): Netherlands; Crafts and making; Living Traditions
+- [Deruta ceramics](../../games/10441-deruta-ceramics/index.md): Italy; Crafts and making; Living Traditions
 - [Dhaka rickshaw art](../../games/295-dhaka-rickshaw-art/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Dhaka weave pattern loom](../../games/115-dhaka-weave-pattern-loom/index.md): Nepal; Crafts and making; Living Traditions
 - [Dhamet](../../games/927-dhamet/index.md): Mauritania; Board and table games; Crossroads and Golden Ages
@@ -41,6 +46,7 @@ path: "/a-z/D/"
 - [Dominoes](../../games/679-dominoes/index.md): Dominican Republic, Trinidad and Tobago; Board and table games; Crossroads and Golden Ages
 - [Don't Get Angry](../../games/744-dont-get-angry/index.md): Germany; Board and table games; River Valleys and First Cities
 - [Don't Get Mad](../../games/530-dont-get-mad/index.md): Albania; Board and table games; Crossroads and Golden Ages
+- [Dong Son drum](../../games/10330-dong-son-drum/index.md): Vietnam; Musical instruments; Living Traditions
 - [Dorze cotton weaving](../../games/1271-dorze-cotton-weaving/index.md): Ethiopia; Crafts and making; Living Traditions
 - [Dots and Boxes](../../games/463-dots-and-boxes/index.md): France; Crafts and making; Living Traditions
 - [Double Dutch](../../games/53-double-dutch/index.md): United States; Street and playground games; Modern Heritage
@@ -48,10 +54,16 @@ path: "/a-z/D/"
 - [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md): China; Racing; Crossroads and Golden Ages
 - [Dranyen](../../games/300-dranyen/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Draughts](../../games/576-draughts/index.md): Barbados, Antigua and Barbuda; Board and table games; Modern Heritage
+- [Drawloom](../../games/6602-drawloom/index.md): Worldwide; Crafts and making; Living Traditions
 - [Dry Stone Wall Builder](../../games/404-dry-stone-wall-builder/index.md): Croatia, Spain; Crafts and making; Living Traditions
+- [Duala canoe racing](../../games/7350-duala-canoe-racing/index.md): Cameroon; Racing; Age of Contact and Craft
 - [Dudo / Cacho](../../games/1020-dudo-cacho/index.md): Peru; Board and table games; River Valleys and First Cities
+- [Duduk](../../games/159-duduk/index.md): Armenia; Musical instruments; Crossroads and Golden Ages
+- [Dumbara Mats](../../games/5702-dumbara-mats/index.md): Sri Lanka; Crafts and making; Living Traditions
 - [Dumpling Pleating](../../games/499-dumpling-pleating/index.md): China, Nepal; Crafts and making; Living Traditions
 - [Duo](../../games/838-duo/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
 - [Durak](../../games/854-durak/index.md): Kazakhstan, Turkmenistan; Card games; Age of Contact and Craft
+- [Dutar](../../games/5312-dutar/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Dutch draughts](../../games/970-dutch-draughts/index.md): Netherlands; Board and table games; Crossroads and Golden Ages
 - [Duulu](../../games/1173-duulu/index.md): Uganda; Dexterity and skill games; Modern Heritage
+- [Dvoyanka](../../games/2230-dvoyanka/index.md): Bulgaria; Musical instruments; Classical Worlds

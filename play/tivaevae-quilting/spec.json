@@ -1,0 +1,135 @@
+{
+ "engine": "pattern",
+ "params": {
+  "scene": "tivaevae",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "mirror-xy",
+  "palette": [
+   {
+    "name": "Hibiscus red",
+    "color": "#c4283a"
+   },
+   {
+    "name": "Sunflower",
+    "color": "#f0b82a"
+   },
+   {
+    "name": "Leaf green",
+    "color": "#2f8f4a"
+   },
+   {
+    "name": "Ocean blue",
+    "color": "#2a5ea8"
+   }
+  ],
+  "background": "#fbf8ef",
+  "grid": "#cfc8b4",
+  "motifs": [
+   "flower",
+   "leaf",
+   "petal",
+   "star",
+   "diamond",
+   "dot"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 3,
+  "designs": [
+   {
+    "name": "Hibiscus medallion",
+    "rows": [
+     "c...b...c",
+     ".d.....d.",
+     "..c...c..",
+     "...a.a...",
+     "b...a...b",
+     "...a.a...",
+     "..c...c..",
+     ".d.....d.",
+     "c...b...c"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 2,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 5,
+      "c": 3
+     }
+    }
+   },
+   {
+    "name": "Four flowers",
+    "rows": [
+     ".........",
+     ".a.....a.",
+     "..b...b..",
+     "...c.c...",
+     "....d....",
+     "...c.c...",
+     "..b...b..",
+     ".a.....a.",
+     "........."
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 2
+     },
+     "c": {
+      "m": 2,
+      "c": 1
+     },
+     "d": {
+      "m": 3,
+      "c": 3
+     }
+    }
+   },
+   {
+    "name": "Border of leaves",
+    "rows": [
+     "b.b.b.b.b",
+     ".........",
+     "b...a...b",
+     ".........",
+     "..a.d.a..",
+     ".........",
+     "b...a...b",
+     ".........",
+     "b.b.b.b.b"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 1
+     }
+    }
+   }
+  ]
+ },
+ "variant": "tivaevae-quilting"
+}

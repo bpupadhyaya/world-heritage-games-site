@@ -1,0 +1,14 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "sheet",
+  "scene": "himal",
+  "form": "spread",
+  "finish": "pound",
+  "mould": "mesh",
+  "pulp": "#e6d4a8",
+  "water": "#7a9aa0",
+  "vat": "stone",
+  "hero": "lokta"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "title": "Blacksmith's Forge",
+ "native": "Schmiedekunst",
+ "alt": [
+  "Forging",
+  "Smithing"
+ ],
+ "summary": "A blacksmith heats an iron bar in the fire until it glows the right colour, then draws it out on the anvil with a steady rhythm of hammer blows. The same craft makes hooks, candlesticks, tools and blades across Europe, Japan and India.",
+ "howToPlay": [
+  "The outline beside the bar shows the shape to reach: a hook with its curled tip.",
+  "Pump the bellows to heat the bar until the heat gauge sits in the lit working band.",
+  "Carry the bar to the anvil and strike it on the beat; heavy blows draw the iron out and make it longer, light blows finish it.",
+  "Switch to Bend and strike again to turn the hot tip over the anvil. When the iron cools, return it to the fire; if it turns white it burns. Press Check when the bar matches the outline."
+ ],
+ "rules": [
+  "Iron moves only while it is hot: cherry red and brighter. Cold iron barely changes shape.",
+  "Blows land at full strength only on the beat; off-beat blows are weaker.",
+  "A thin place is longer than a thick one: drawing the iron out lengthens the bar.",
+  "In Bend mode each blow turns the hot bar a little over the anvil; the hook is judged on both its shape and its curl.",
+  "Iron held white-hot burns and loses metal, and each burn costs 8 points. Three stars need a close match."
+ ],
+ "heritageNote": "Smiths in Britain, Germany and Sweden, in Japan and in India have shaped iron by fire and hammer for centuries, and the craft is still practised in village forges and workshops. The glow of the metal tells the smith when it is ready to work.",
+ "countries": [
+  "United Kingdom",
+  "Germany",
+  "Sweden",
+  "Japan",
+  "India"
+ ],
+ "credits": [
+  "Craft model: World Heritage Games (original)"
+ ]
+}

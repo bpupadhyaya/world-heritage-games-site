@@ -1,0 +1,15 @@
+{
+  "engine": "shape-craft",
+  "variant": "bidriware-silver-inlay",
+  "players": "1",
+  "params": {
+    "technique": "inlay",
+    "design": "bidri",
+    "scene": "bidri",
+    "tolerance": 0.032,
+    "variation": 0.3
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

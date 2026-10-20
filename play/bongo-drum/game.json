@@ -1,0 +1,13 @@
+{
+ "slug": "bongo-drum",
+ "title": "Bongo (paired drums)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

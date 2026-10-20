@@ -1,0 +1,215 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "dabakan",
+  "lanes": [
+   {
+    "name": "Open",
+    "hz": 120,
+    "timbre": "bass",
+    "color": "#ff8a4a"
+   },
+   {
+    "name": "Slap",
+    "hz": 420,
+    "timbre": "slap",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Rim",
+    "hz": 1300,
+    "timbre": "rim",
+    "color": "#4fc6d6"
+   },
+   {
+    "name": "Knock",
+    "hz": 700,
+    "timbre": "rim",
+    "color": "#c9a0ff"
+   }
+  ],
+  "songs": [
+   {
+    "id": "steady",
+    "name": "Steady beat",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Open strokes on the beat with the slap between.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Open"
+     },
+     {
+      "beat": 1,
+      "lane": "Slap"
+     },
+     {
+      "beat": 2,
+      "lane": "Open"
+     },
+     {
+      "beat": 3,
+      "lane": "Slap"
+     },
+     {
+      "beat": 4,
+      "lane": "Open"
+     },
+     {
+      "beat": 5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 6,
+      "lane": "Open"
+     },
+     {
+      "beat": 7,
+      "lane": "Slap"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "answer",
+    "name": "Gong answer",
+    "bpm": 86,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The knock and the rim answer the open stroke.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Open"
+     },
+     {
+      "beat": 1,
+      "lane": "Slap"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 2,
+      "lane": "Open"
+     },
+     {
+      "beat": 3,
+      "lane": "Knock"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Rim"
+     },
+     {
+      "beat": 4,
+      "lane": "Open"
+     },
+     {
+      "beat": 5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 6,
+      "lane": "Open"
+     },
+     {
+      "beat": 7,
+      "lane": "Knock"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Rim"
+     }
+    ]
+   },
+   {
+    "id": "dance",
+    "name": "Dance pattern",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A quick pattern that keeps the dancers moving.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Open"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 1,
+      "lane": "Open"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 2,
+      "lane": "Knock"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Rim"
+     },
+     {
+      "beat": 3,
+      "lane": "Open"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 4,
+      "lane": "Open"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 5,
+      "lane": "Open"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 6,
+      "lane": "Knock"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Rim"
+     },
+     {
+      "beat": 7,
+      "lane": "Open"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Tablet weaving",
+  "native": "",
+  "alt": [
+    "Card weaving"
+  ],
+  "summary": "Tablet weaving uses small square cards, each with a hole at every corner and a thread through each hole. Turn the whole set a quarter turn and the threads twist into a new row, so a narrow, strong band grows with a pattern that depends on how the cards are threaded and turned.",
+  "howToPlay": [
+    "Pick a thread colour from the cones and a pattern shape from the tray.",
+    "Touch a square on the band to weave that shape there; it is mirrored on the other half of the band.",
+    "Copy the pattern shown on the card, then press Check."
+  ],
+  "rules": [
+    "The band is mirrored left and right, so every shape you weave is also woven on its partner square.",
+    "A square counts only when its shape and its thread colour both match the pattern you are copying.",
+    "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+  ],
+  "heritageNote": "Bands woven with tablets turn up in Iron Age graves in central Europe and in Viking-age finds in Norway, and the craft is still practised in Finland and across Europe for belts, straps and trims. The tools are cheap and portable, which is a large part of why it has lasted.",
+  "countries": [
+    "Germany",
+    "Norway",
+    "Finland"
+  ],
+  "credits": [
+    "Pattern design: World Heritage Games (original, in the style of the tradition)"
+  ]
+}

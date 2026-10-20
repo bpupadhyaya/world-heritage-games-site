@@ -1,0 +1,154 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "backstrap",
+    "cols": 7,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Cochineal red",
+        "color": "#a8202a"
+      },
+      {
+        "name": "Indigo",
+        "color": "#25407a"
+      },
+      {
+        "name": "Marigold",
+        "color": "#e8a92a"
+      },
+      {
+        "name": "Natural white",
+        "color": "#f1ead6"
+      },
+      {
+        "name": "Charcoal",
+        "color": "#2a2420"
+      }
+    ],
+    "background": "#b69a74",
+    "grid": "#7a6040",
+    "motifs": [
+      "diamond",
+      "triangle",
+      "zigzag",
+      "stripe-v",
+      "checker",
+      "cross"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Diamond belt",
+        "rows": [
+          "d.d.d.d",
+          ".a.b.a.",
+          "c.e.e.c",
+          "..a.a..",
+          "b.c.c.b",
+          "..a.a..",
+          "c.e.e.c",
+          ".a.b.a.",
+          "d.d.d.d"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 3,
+            "c": 2
+          },
+          "d": {
+            "m": 2,
+            "c": 3
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Zigzag band",
+        "rows": [
+          "d.d.d.d",
+          ".c.c.c.",
+          "a.a.a.a",
+          ".b.e.b.",
+          "c.d.d.c",
+          ".b.e.b.",
+          "a.a.a.a",
+          ".c.c.c.",
+          "d.d.d.d"
+        ],
+        "legend": {
+          "a": {
+            "m": 2,
+            "c": 2
+          },
+          "b": {
+            "m": 5,
+            "c": 0
+          },
+          "c": {
+            "m": 1,
+            "c": 1
+          },
+          "d": {
+            "m": 3,
+            "c": 3
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Crosses and diamonds",
+        "rows": [
+          "e.e.e.e",
+          ".d.d.d.",
+          "c.a.a.c",
+          "..b.b..",
+          "a.c.c.a",
+          "..b.b..",
+          "c.a.a.c",
+          ".d.d.d.",
+          "e.e.e.e"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 2
+          },
+          "b": {
+            "m": 5,
+            "c": 3
+          },
+          "c": {
+            "m": 4,
+            "c": 1
+          },
+          "d": {
+            "m": 1,
+            "c": 0
+          },
+          "e": {
+            "m": 2,
+            "c": 4
+          }
+        }
+      }
+    ]
+  }
+}

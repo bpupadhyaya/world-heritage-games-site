@@ -1,0 +1,171 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "kombu",
+  "mode": "follow",
+  "root": 233.1,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "A#3",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "F4",
+    "cents": 702,
+    "timbre": "breath",
+    "color": "#58c27d"
+   },
+   {
+    "name": "A#4",
+    "cents": 1200,
+    "timbre": "breath",
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "D5",
+    "cents": 1586,
+    "timbre": "breath",
+    "color": "#a56bd6"
+   },
+   {
+    "name": "F5",
+    "cents": 1902,
+    "timbre": "breath",
+    "color": "#e87fa0"
+   }
+  ],
+  "songs": [
+   {
+    "id": "kombu-call",
+    "name": "Opening call",
+    "bpm": 56,
+    "meter": 4,
+    "length": 22.0,
+    "kind": "figure",
+    "heritage": "Kombu, southern India",
+    "note": "A teaching call that climbs the overtone series and falls back to the low note.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "A#3",
+      "len": 3
+     },
+     {
+      "beat": 3.0,
+      "lane": "F4",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "A#4",
+      "len": 3
+     },
+     {
+      "beat": 7.0,
+      "lane": "F4",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "A#4",
+      "len": 2
+     },
+     {
+      "beat": 10.0,
+      "lane": "D5",
+      "len": 2
+     },
+     {
+      "beat": 12.0,
+      "lane": "F5",
+      "len": 3
+     },
+     {
+      "beat": 15.0,
+      "lane": "A#4",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "F4",
+      "len": 2
+     },
+     {
+      "beat": 18.0,
+      "lane": "A#3",
+      "len": 4
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "kombu-fanfare",
+    "name": "Fanfare",
+    "bpm": 70,
+    "meter": 4,
+    "length": 15.0,
+    "kind": "figure",
+    "heritage": "Kombu, southern India",
+    "note": "A brighter fanfare with shorter notes.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "A#3",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "A#4",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "D5",
+      "len": 2
+     },
+     {
+      "beat": 4.0,
+      "lane": "A#4",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "D5",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "F5",
+      "len": 2
+     },
+     {
+      "beat": 8.0,
+      "lane": "D5",
+      "len": 1
+     },
+     {
+      "beat": 9.0,
+      "lane": "A#4",
+      "len": 1
+     },
+     {
+      "beat": 10.0,
+      "lane": "F4",
+      "len": 2
+     },
+     {
+      "beat": 12.0,
+      "lane": "A#3",
+      "len": 3
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "kombu"
+}

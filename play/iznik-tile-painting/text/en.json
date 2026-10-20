@@ -1,0 +1,30 @@
+{
+ "title": "Iznik tile painting",
+ "native": "İznik çinisi",
+ "alt": [
+  "Iznik tiles",
+  "Nicaea tiles"
+ ],
+ "summary": "Iznik tiles are painted by hand on a white body in cobalt blue, clear turquoise and a raised tomato red. Here you draw a tulip, a carnation and a long saw-edged leaf across a panel of nine tiles, then flood them with glaze.",
+ "howToPlay": [
+  "Look at the small panel at the top: it shows the finished tiles.",
+  "Pick cobalt and drag along the lit lines to draw the outlines; press Next when the drawing is done.",
+  "Pick a glaze and tap a shape to flood it: tomato red for the tulip and carnation, turquoise for the leaf.",
+  "Add the fine cobalt veins, then press Check to see your stars. Mirror repeats each stroke on the other half of the panel."
+ ],
+ "rules": [
+  "The panel has three steps in order: outlines, glaze fills, veins.",
+  "The brush carries a limited load of paint; dip it again when the line runs dry.",
+  "A line scores by how closely it follows the guide; a fill scores by how much of the shape holds the right glaze.",
+  "Glaze that spills outside an outline counts against you; undo takes back the last stroke.",
+  "With Mirror on, each stroke is repeated on the other half of the panel.",
+  "Three stars for a close, clean, well-coloured panel."
+ ],
+ "heritageNote": "Iznik, the old town of Nicaea in north-west Turkey, was the centre of a famous tile and pottery industry from the late fifteenth to the seventeenth century. Its quartz-rich white body, cobalt, turquoise and raised red glazes decorated palaces and public buildings across the Ottoman world, and potters in Iznik and Kutahya keep the craft alive today.",
+ "countries": [
+  "Turkey"
+ ],
+ "credits": [
+  "Photo: Iznik tile, 1560, public domain, Wikimedia Commons"
+ ]
+}

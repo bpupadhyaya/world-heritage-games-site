@@ -1,0 +1,143 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "gankogui double iron bell",
+  "lanes": [
+   {
+    "name": "Low",
+    "hz": 520,
+    "timbre": "bell",
+    "color": "#f25d48"
+   },
+   {
+    "name": "High",
+    "hz": 720,
+    "timbre": "bell",
+    "color": "#f27e48"
+   },
+   {
+    "name": "Low edge",
+    "hz": 780,
+    "timbre": "bell",
+    "color": "#f2a048"
+   },
+   {
+    "name": "High edge",
+    "hz": 1000,
+    "timbre": "bell",
+    "color": "#f2c248"
+   }
+  ],
+  "songs": [
+   {
+    "id": "gankogui-line",
+    "name": "Twelve-beat bell line",
+    "bpm": 108,
+    "meter": 6,
+    "length": 12.0,
+    "kind": "figure",
+    "heritage": "Gankogui, Ewe tradition",
+    "note": "A teaching bell line: long and short strokes over twelve pulses.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 1.0,
+      "lane": "High"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 4.0,
+      "lane": "High"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 7.0,
+      "lane": "High"
+     },
+     {
+      "beat": 9.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 10.0,
+      "lane": "High"
+     },
+     {
+      "beat": 11.0,
+      "lane": "High edge"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "gankogui-answer",
+    "name": "Bell and rim",
+    "bpm": 120,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Gankogui, Ewe tradition",
+    "note": "The cones answer each other, the rims add the tick.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 1.0,
+      "lane": "High"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Low edge"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 3.0,
+      "lane": "High"
+     },
+     {
+      "beat": 3.5,
+      "lane": "High edge"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 5.0,
+      "lane": "High"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Low edge"
+     },
+     {
+      "beat": 7.0,
+      "lane": "High"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,199 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "kakko",
+  "lanes": [
+   {
+    "name": "Centre",
+    "hz": 620,
+    "timbre": "tone",
+    "color": "#ff9a5a"
+   },
+   {
+    "name": "Edge",
+    "hz": 900,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Rim",
+    "hz": 1500,
+    "timbre": "rim",
+    "color": "#7fd4e0"
+   },
+   {
+    "name": "Side",
+    "hz": 420,
+    "timbre": "slap",
+    "color": "#c9a0ff"
+   }
+  ],
+  "songs": [
+   {
+    "id": "pulse",
+    "name": "Steady pulse",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "An even run of strokes that holds the tempo.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Centre"
+     },
+     {
+      "beat": 1,
+      "lane": "Centre"
+     },
+     {
+      "beat": 2,
+      "lane": "Centre"
+     },
+     {
+      "beat": 3,
+      "lane": "Centre"
+     },
+     {
+      "beat": 4,
+      "lane": "Centre"
+     },
+     {
+      "beat": 5,
+      "lane": "Centre"
+     },
+     {
+      "beat": 6,
+      "lane": "Centre"
+     },
+     {
+      "beat": 7,
+      "lane": "Centre"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "lead-in",
+    "name": "Lead-in",
+    "bpm": 84,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Strokes tighten toward the entry.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Centre"
+     },
+     {
+      "beat": 1,
+      "lane": "Centre"
+     },
+     {
+      "beat": 2,
+      "lane": "Centre"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 3,
+      "lane": "Centre"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 4,
+      "lane": "Centre"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 5,
+      "lane": "Centre"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 6,
+      "lane": "Rim"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Rim"
+     },
+     {
+      "beat": 7,
+      "lane": "Centre"
+     }
+    ]
+   },
+   {
+    "id": "answer",
+    "name": "Edge answer",
+    "bpm": 88,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The side and the rim answer the centre.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Centre"
+     },
+     {
+      "beat": 1,
+      "lane": "Side"
+     },
+     {
+      "beat": 2,
+      "lane": "Centre"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 3,
+      "lane": "Rim"
+     },
+     {
+      "beat": 4,
+      "lane": "Centre"
+     },
+     {
+      "beat": 5,
+      "lane": "Side"
+     },
+     {
+      "beat": 6,
+      "lane": "Edge"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 7,
+      "lane": "Rim"
+     }
+    ]
+   }
+  ]
+ }
+}

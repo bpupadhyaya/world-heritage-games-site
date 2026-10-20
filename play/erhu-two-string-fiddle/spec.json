@@ -1,0 +1,372 @@
+{
+ "engine": "rhythm",
+ "variant": "erhu",
+ "players": "1",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 293.66,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "erhu",
+  "lanes": [
+   {
+    "name": "D4",
+    "cents": 0,
+    "dur": 1.4,
+    "id": "d4-0",
+    "timbre": "string",
+    "color": "#c84040",
+    "string": 0,
+    "fret": 5
+   },
+   {
+    "name": "E4",
+    "cents": 200,
+    "dur": 1.4,
+    "id": "e4-1",
+    "timbre": "string",
+    "color": "#d15e4b",
+    "string": 0,
+    "fret": 7
+   },
+   {
+    "name": "F#4",
+    "cents": 400,
+    "dur": 1.4,
+    "id": "f#4-2",
+    "timbre": "string",
+    "color": "#da7c55",
+    "string": 0,
+    "fret": 9
+   },
+   {
+    "name": "G4",
+    "cents": 500,
+    "dur": 1.4,
+    "id": "g4-3",
+    "timbre": "string",
+    "color": "#e39b60",
+    "string": 0,
+    "fret": 10
+   },
+   {
+    "name": "A4",
+    "cents": 700,
+    "dur": 1.4,
+    "id": "a4-4",
+    "timbre": "string",
+    "color": "#ecb96b",
+    "string": 0,
+    "fret": 12
+   },
+   {
+    "name": "B4",
+    "cents": 900,
+    "dur": 1.4,
+    "id": "b4-5",
+    "timbre": "string",
+    "color": "#dfc477",
+    "string": 1,
+    "fret": 6
+   },
+   {
+    "name": "C#5",
+    "cents": 1100,
+    "dur": 1.4,
+    "id": "c#5-6",
+    "timbre": "string",
+    "color": "#bdbd85",
+    "string": 1,
+    "fret": 8
+   },
+   {
+    "name": "D5",
+    "cents": 1200,
+    "dur": 1.4,
+    "id": "d5-7",
+    "timbre": "string",
+    "color": "#9cb694",
+    "string": 1,
+    "fret": 9
+   },
+   {
+    "name": "E5",
+    "cents": 1400,
+    "dur": 1.4,
+    "id": "e5-8",
+    "timbre": "string",
+    "color": "#7aafa2",
+    "string": 1,
+    "fret": 11
+   },
+   {
+    "name": "F#5",
+    "cents": 1600,
+    "dur": 1.4,
+    "id": "f#5-9",
+    "timbre": "string",
+    "color": "#58a8b0",
+    "string": 1,
+    "fret": 13
+   }
+  ],
+  "songs": [
+   {
+    "id": "sighing-line",
+    "name": "Sighing line",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Slow lyrical melody, China",
+    "bpm": 62,
+    "meter": 4,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 4,
+      "len": 1.8
+     },
+     {
+      "beat": 2,
+      "lane": 5
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 2,
+      "len": 1.8
+     },
+     {
+      "beat": 6,
+      "lane": 1
+     },
+     {
+      "beat": 7,
+      "lane": 0
+     },
+     {
+      "beat": 8,
+      "lane": 4,
+      "len": 1.8
+     },
+     {
+      "beat": 10,
+      "lane": 7,
+      "len": 1.8
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 13,
+      "lane": 5
+     },
+     {
+      "beat": 14,
+      "lane": 4,
+      "len": 1.8
+     },
+     {
+      "beat": 16,
+      "lane": 2,
+      "len": 1.8
+     },
+     {
+      "beat": 18,
+      "lane": 1
+     },
+     {
+      "beat": 19,
+      "lane": 0
+     },
+     {
+      "beat": 20,
+      "lane": 0,
+      "len": 1.8
+     }
+    ]
+   },
+   {
+    "id": "galloping-hooves",
+    "name": "Galloping hooves",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Horse-race tune, northern China",
+    "bpm": 112,
+    "meter": 2,
+    "length": 18,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 4
+     },
+     {
+      "beat": 0.5,
+      "lane": 4
+     },
+     {
+      "beat": 1,
+      "lane": 5
+     },
+     {
+      "beat": 2,
+      "lane": 7
+     },
+     {
+      "beat": 2.5,
+      "lane": 7
+     },
+     {
+      "beat": 3,
+      "lane": 8
+     },
+     {
+      "beat": 4,
+      "lane": 9
+     },
+     {
+      "beat": 5,
+      "lane": 8
+     },
+     {
+      "beat": 5.5,
+      "lane": 7
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 6.5,
+      "lane": 4
+     },
+     {
+      "beat": 7,
+      "lane": 2
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 8.5,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 11,
+      "lane": 8
+     },
+     {
+      "beat": 11.5,
+      "lane": 7
+     },
+     {
+      "beat": 12,
+      "lane": 5
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 13.5,
+      "lane": 2
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "id": "rise-and-fall",
+    "name": "Rise and fall",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Scale-climbing exercise figure",
+    "bpm": 76,
+    "meter": 4,
+    "length": 20,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 5,
+      "len": 1.8
+     },
+     {
+      "beat": 6,
+      "lane": 7,
+      "len": 1.8
+     },
+     {
+      "beat": 8,
+      "lane": 8
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 11,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 4,
+      "len": 1.8
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 1
+     },
+     {
+      "beat": 16,
+      "lane": 0,
+      "len": 3.8
+     }
+    ]
+   }
+  ]
+ }
+}

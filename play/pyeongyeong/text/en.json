@@ -1,0 +1,25 @@
+{
+ "title": "Pyeongyeong",
+ "native": "Pyeongyeong",
+ "alt": [
+  "Stone chimes"
+ ],
+ "summary": "The pyeongyeong is a court instrument of bent, L-shaped stone chimes hung in two rows from a painted frame. A player strikes each stone on its long arm with a horn mallet and it gives one clear, high note.",
+ "howToPlay": [
+  "Eight stones are lit: four on the lower row, four on the upper row.",
+  "Strike the stone a closing ring marks, on its long arm.",
+  "Thick stones ring lower, thin stones higher. The notes are short and clear, so strike on time."
+ ],
+ "rules": [
+  "A stroke on the beat is perfect, a near one is good, and extra strokes cost points.",
+  "Each pattern repeats twice.",
+  "The round ends when the last stroke has been judged; the score is the share of the best possible."
+ ],
+ "countries": [
+  "South Korea"
+ ],
+ "heritageNote": "All the stones are cut to the same shape and tuned by thickness, so the player sees a tidy row of notes. The frame is painted in the colours of a court hall.",
+ "credits": [
+  "Tradition: the pyeongyeong of Korea; patterns written for this game"
+ ]
+}

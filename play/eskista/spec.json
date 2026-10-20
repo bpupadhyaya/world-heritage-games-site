@@ -1,0 +1,145 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "shoulder dance",
+  "lanes": [
+   {
+    "name": "Chest",
+    "hz": 110,
+    "timbre": "stomp",
+    "color": "#d9622b"
+   },
+   {
+    "name": "Back",
+    "hz": 130,
+    "timbre": "stomp",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Left",
+    "hz": 150,
+    "timbre": "slap",
+    "color": "#58b878"
+   },
+   {
+    "name": "Right",
+    "hz": 190,
+    "timbre": "slap",
+    "color": "#4fa8d6"
+   },
+   {
+    "name": "Neck",
+    "hz": 260,
+    "timbre": "slap",
+    "color": "#b86ad6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "eskista-shiver",
+    "name": "Shoulder shiver, 3 beats",
+    "bpm": 96,
+    "meter": 3,
+    "length": 6,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Eskista, Ethiopia",
+    "note": "A teaching figure in the manner of the northern style: the shoulders answer each other, and the chest marks the end of each bar.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Left"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Right"
+     },
+     {
+      "beat": 1,
+      "lane": "Left"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Right"
+     },
+     {
+      "beat": 2,
+      "lane": "Chest"
+     },
+     {
+      "beat": 3,
+      "lane": "Right"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Left"
+     },
+     {
+      "beat": 4,
+      "lane": "Right"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Left"
+     },
+     {
+      "beat": 5,
+      "lane": "Chest"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Neck"
+     }
+    ]
+   },
+   {
+    "id": "eskista-roll",
+    "name": "Chest and neck",
+    "bpm": 88,
+    "meter": 3,
+    "length": 6,
+    "kind": "figure",
+    "heritage": "Eskista, Ethiopia",
+    "note": "A slower figure of the chest roll and the neck.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Chest"
+     },
+     {
+      "beat": 1,
+      "lane": "Back"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Neck"
+     },
+     {
+      "beat": 2,
+      "lane": "Left"
+     },
+     {
+      "beat": 3,
+      "lane": "Chest"
+     },
+     {
+      "beat": 4,
+      "lane": "Back"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Neck"
+     },
+     {
+      "beat": 5,
+      "lane": "Right"
+     }
+    ]
+   }
+  ]
+ }
+}

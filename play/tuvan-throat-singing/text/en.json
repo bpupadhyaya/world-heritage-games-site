@@ -1,0 +1,30 @@
+{
+  "title": "Tuvan Throat Singing (khoomei)",
+  "native": "Хөөмей / Khoomei",
+  "alt": [
+    "Khoomei",
+    "Hoomii",
+    "Overtone singing"
+  ],
+  "summary": "One singer, two sounds at once: a low steady hum in the chest and, above it, a clear whistle-like melody picked from the hum's overtones by shaping the mouth. A heritage of Tuvan herding families.",
+  "howToPlay": [
+    "Listen to the low drone. It is one held pitch and it never stops.",
+    "A frame closes around the overtone to sing next. Each band of the ladder is one natural overtone of the drone.",
+    "Sing that overtone on the beat: a glowing lens slides up and down the ladder to the band you choose.",
+    "Follow the melody to the end of the figure. Steady timing earns the score; stray extra notes cost points."
+  ],
+  "rules": [
+    "The drone (the fundamental) is held constant from the last half beat of the count-in to the end of the piece.",
+    "Five overtones of the drone are available: the 6th, 8th, 9th, 10th and 12th harmonics, from low to high.",
+    "Only one overtone sounds at a time; a new note ends the previous one.",
+    "A note scores when it is sung close to its beat; the timing window is generous at the start and tightens with practice.",
+    "Notes between the beats of the melody cost points.",
+    "Watch and learn plays the melody for you first; you can pause it and follow along."
+  ],
+  "heritageNote": "Khoomei is a living vocal art of the Tuvan people of southern Siberia and of neighbouring Mongolia, practised by herders for imitating wind, water and echoing hills. The voice in this game is our own synthesis, not a recording of any singer.",
+  "countries": [
+    "Russia (Tuva)",
+    "Mongolia"
+  ],
+  "credits": []
+}

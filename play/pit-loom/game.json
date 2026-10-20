@@ -1,0 +1,13 @@
+{
+ "slug": "pit-loom",
+ "title": "Pit loom",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

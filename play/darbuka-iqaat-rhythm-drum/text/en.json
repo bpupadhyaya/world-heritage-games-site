@@ -1,0 +1,22 @@
+{
+ "title": "Darbuka (goblet drum)",
+ "native": "درابكة (Darbuka)",
+ "summary": "The darbuka is a goblet-shaped hand drum of Egypt, the Levant and Turkey, today usually pressed from metal. Held across the lap, it is played with both hands: the deep Dum in the middle of the head, the sharp Tek with the fingertips near the edge, and the light Ka with the other hand.",
+ "howToPlay": [
+  "Three places on the head are lit: the centre for Dum, an inner ring for Tek and an outer ring for Ka. The hoop makes a Rim click.",
+  "A ring closes on the place to strike. The rhythms are played as a chain of Dum, Tek and Ka.",
+  "The cycles are called iqa'at: maqsum is the best known.",
+  "Say the names Dum, Tek and Ka as you play, in time with the lit places."
+ ],
+ "rules": [
+  "A stroke on the beat is perfect, a near one is good, and extra strokes cost points.",
+  "Each pattern repeats twice.",
+  "The three cycles are played in turn, each with its own count of beats to the bar."
+ ],
+ "countries": [
+  "Egypt",
+  "Lebanon",
+  "Turkey"
+ ],
+ "heritageNote": "Egyptian and Levantine players name their cycles, called iqa'at, by the arrangement of Dum and Tek. Maqsum and baladi are heard in dance music from Cairo to Beirut."
+}

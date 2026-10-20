@@ -1,0 +1,357 @@
+{
+ "engine": "rhythm",
+ "variant": "marimba",
+ "players": "1",
+ "params": {
+  "layout": "keys",
+  "mode": "follow",
+  "instrument": "marimba",
+  "root": 262,
+  "scale": "heptatonic",
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "C",
+    "id": "C",
+    "degree": 0,
+    "timbre": "mallet",
+    "dur": 1.1,
+    "color": "#b4553a"
+   },
+   {
+    "name": "D",
+    "id": "D",
+    "degree": 1,
+    "timbre": "mallet",
+    "dur": 1.1,
+    "color": "#a24a30"
+   },
+   {
+    "name": "E",
+    "id": "E",
+    "degree": 2,
+    "timbre": "mallet",
+    "dur": 1.1,
+    "color": "#b4553a"
+   },
+   {
+    "name": "F",
+    "id": "F",
+    "degree": 3,
+    "timbre": "mallet",
+    "dur": 1.1,
+    "color": "#a24a30"
+   },
+   {
+    "name": "G",
+    "id": "G",
+    "degree": 4,
+    "timbre": "mallet",
+    "dur": 1.1,
+    "color": "#b4553a"
+   },
+   {
+    "name": "A",
+    "id": "A",
+    "degree": 5,
+    "timbre": "mallet",
+    "dur": 1.1,
+    "color": "#a24a30"
+   },
+   {
+    "name": "B",
+    "id": "B",
+    "degree": 6,
+    "timbre": "mallet",
+    "dur": 1.1,
+    "color": "#b4553a"
+   },
+   {
+    "name": "C'",
+    "id": "C'",
+    "degree": 7,
+    "timbre": "mallet",
+    "dur": 1.1,
+    "color": "#a24a30"
+   },
+   {
+    "name": "D'",
+    "id": "D'",
+    "degree": 8,
+    "timbre": "mallet",
+    "dur": 1.1,
+    "color": "#b4553a"
+   },
+   {
+    "name": "E'",
+    "id": "E'",
+    "degree": 9,
+    "timbre": "mallet",
+    "dur": 1.1,
+    "color": "#a24a30"
+   }
+  ],
+  "songs": [
+   {
+    "id": "son-in-six",
+    "name": "Son in six",
+    "bpm": 132,
+    "meter": 6,
+    "length": 12,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Marimba music, Guatemala",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "E"
+     },
+     {
+      "beat": 1,
+      "lane": "G"
+     },
+     {
+      "beat": 2,
+      "lane": "E"
+     },
+     {
+      "beat": 3,
+      "lane": "C'"
+     },
+     {
+      "beat": 4,
+      "lane": "G"
+     },
+     {
+      "beat": 5,
+      "lane": "E"
+     },
+     {
+      "beat": 6,
+      "lane": "F"
+     },
+     {
+      "beat": 7,
+      "lane": "A"
+     },
+     {
+      "beat": 8,
+      "lane": "F"
+     },
+     {
+      "beat": 9,
+      "lane": "D'"
+     },
+     {
+      "beat": 10,
+      "lane": "A"
+     },
+     {
+      "beat": 11,
+      "lane": "G"
+     }
+    ],
+    "note": "A figure in the lilting six-pulse count of the Guatemalan son: three notes against two, rising and settling on the home note."
+   },
+   {
+    "id": "rolled-melody",
+    "name": "Rolled melody",
+    "bpm": 84,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Marimba music, Guatemala",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "E"
+     },
+     {
+      "beat": 0.25,
+      "lane": "E"
+     },
+     {
+      "beat": 0.5,
+      "lane": "E"
+     },
+     {
+      "beat": 0.75,
+      "lane": "E"
+     },
+     {
+      "beat": 1,
+      "lane": "G"
+     },
+     {
+      "beat": 2,
+      "lane": "A"
+     },
+     {
+      "beat": 2.25,
+      "lane": "A"
+     },
+     {
+      "beat": 2.5,
+      "lane": "A"
+     },
+     {
+      "beat": 2.75,
+      "lane": "A"
+     },
+     {
+      "beat": 3,
+      "lane": "G"
+     },
+     {
+      "beat": 4,
+      "lane": "F"
+     },
+     {
+      "beat": 4.25,
+      "lane": "F"
+     },
+     {
+      "beat": 4.5,
+      "lane": "F"
+     },
+     {
+      "beat": 4.75,
+      "lane": "F"
+     },
+     {
+      "beat": 5,
+      "lane": "E"
+     },
+     {
+      "beat": 6,
+      "lane": "D"
+     },
+     {
+      "beat": 6.25,
+      "lane": "D"
+     },
+     {
+      "beat": 6.5,
+      "lane": "D"
+     },
+     {
+      "beat": 6.75,
+      "lane": "D"
+     },
+     {
+      "beat": 7,
+      "lane": "C"
+     }
+    ],
+    "note": "Each long note is made of quick repeats, the roll that lets wooden bars sing a sustained tune."
+   },
+   {
+    "id": "bass-and-tune",
+    "name": "Bass and tune",
+    "bpm": 96,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "C"
+     },
+     {
+      "beat": 1,
+      "lane": "E"
+     },
+     {
+      "beat": 1.5,
+      "lane": "G"
+     },
+     {
+      "beat": 2,
+      "lane": "C"
+     },
+     {
+      "beat": 3,
+      "lane": "G"
+     },
+     {
+      "beat": 3.5,
+      "lane": "E"
+     },
+     {
+      "beat": 4,
+      "lane": "D"
+     },
+     {
+      "beat": 5,
+      "lane": "F"
+     },
+     {
+      "beat": 5.5,
+      "lane": "A"
+     },
+     {
+      "beat": 6,
+      "lane": "D"
+     },
+     {
+      "beat": 7,
+      "lane": "A"
+     },
+     {
+      "beat": 7.5,
+      "lane": "F"
+     },
+     {
+      "beat": 8,
+      "lane": "E"
+     },
+     {
+      "beat": 9,
+      "lane": "G"
+     },
+     {
+      "beat": 9.5,
+      "lane": "B"
+     },
+     {
+      "beat": 10,
+      "lane": "E"
+     },
+     {
+      "beat": 11,
+      "lane": "C'"
+     },
+     {
+      "beat": 11.5,
+      "lane": "B"
+     },
+     {
+      "beat": 12,
+      "lane": "G"
+     },
+     {
+      "beat": 13,
+      "lane": "D'"
+     },
+     {
+      "beat": 13.5,
+      "lane": "C'"
+     },
+     {
+      "beat": 14,
+      "lane": "B"
+     },
+     {
+      "beat": 14.5,
+      "lane": "A"
+     },
+     {
+      "beat": 15,
+      "lane": "C'"
+     }
+    ]
+   }
+  ]
+ }
+}

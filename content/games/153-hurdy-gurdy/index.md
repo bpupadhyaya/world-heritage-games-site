@@ -42,9 +42,9 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Dots and Boxes](../../games/463-dots-and-boxes/index.md)
 - [Grandmother's Footsteps](../../games/469-grandmothers-footsteps/index.md)
 - [Ribbon-Pole Plaiting Dance](../../games/512-ribbon-pole-plaiting-dance/index.md)
-- [Celtic knot weave](../../games/25-celtic-knot-weave/index.md)
-- [Bobbin lace making](../../games/108-bobbin-lace-making/index.md)
-- [Nordic Colourwork Knitting](../../games/413-nordic-colourwork-knitting/index.md)
+- [Filet lace](../../games/2318-filet-lace/index.md)
+- [Aubusson tapestry](../../games/10370-aubusson-tapestry/index.md)
+- [Vannerie sur arceaux](../../games/13768-vannerie-sur-arceaux/index.md)
 
 ## Sources
 

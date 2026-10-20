@@ -45,7 +45,7 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Banig mat weaving](../../games/1236-banig-mat-weaving/index.md)
 - [Lao silk brocade weaving](../../games/311-lao-silk-brocade-weaving/index.md)
 - [Tais](../../games/321-tais/index.md)
-- [Kente strip weaving](../../games/22-kente-strip-weaving/index.md)
+- [Shan seed-treadle loom](../../games/18903-shan-seed-treadle-loom/index.md)
 
 ## Sources
 

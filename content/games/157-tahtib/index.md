@@ -45,7 +45,7 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md)
 - [Gumboot dance rhythm](../../games/123-gumboot-dance-rhythm/index.md)
 - [Balkan Kolo](../../games/134-balkan-kolo/index.md)
-- [Lezginka](../../games/250-lezginka/index.md)
+- [Attan circle dance](../../games/234-attan-circle-dance/index.md)
 
 ## Sources
 

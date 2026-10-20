@@ -1,0 +1,25 @@
+{
+ "title": "Amazigh Rug Weaving",
+ "native": "azetta, Beni Ourain",
+ "alt": [
+  "Berber rug weaving",
+  "hanbel"
+ ],
+ "summary": "Amazigh women of the Moroccan Atlas weave wool rugs on upright looms, building diamonds, zigzags and lozenges in rust, ochre, indigo and ivory. Many pieces are flat-woven, with the weft packed down by a wooden comb, and the design grows row by row.",
+ "howToPlay": [
+  "Study the reference rug and its named wool colours.",
+  "Choose a wool colour and a woven shape, then place it on the loom; its half-turn partner appears at once.",
+  "Press Check to compare your rug with the reference and earn up to three stars."
+ ],
+ "rules": [
+  "Each stamp pairs a shape with a wool colour; both must match the reference for a cell to count.",
+  "The rug is symmetric under a half turn: placing a cell also weaves its partner on the opposite side.",
+  "Placing the same shape and colour again, or using the eraser, removes the cell and its partner.",
+  "Score is matching cells divided by cells filled in either rug: 98 percent for three stars, 85 for two, 60 for one."
+ ],
+ "heritageNote": "Rugs and blankets woven by Amazigh (Berber) families in the Atlas mountains of Morocco are made from local wool and plant or mineral dyes, and each weaving group has its own habits of pattern and colour. The craft is handed down mostly from woman to woman.",
+ "countries": [
+  "Morocco"
+ ],
+ "credits": []
+}

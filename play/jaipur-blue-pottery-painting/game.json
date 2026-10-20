@@ -1,0 +1,13 @@
+{
+ "slug": "jaipur-blue-pottery-painting",
+ "title": "Jaipur blue pottery",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,13 @@
+{
+ "slug": "chip-carving",
+ "title": "Chip carving",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

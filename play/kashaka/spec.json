@@ -1,0 +1,154 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "kashaka",
+  "lanes": [
+   {
+    "name": "Held",
+    "hz": 300,
+    "timbre": "clap",
+    "color": "#f0b84a"
+   },
+   {
+    "name": "Spin",
+    "hz": 430,
+    "timbre": "clap",
+    "color": "#58b878"
+   },
+   {
+    "name": "Catch",
+    "hz": 220,
+    "timbre": "clap",
+    "color": "#d9623a"
+   }
+  ],
+  "songs": [
+   {
+    "id": "kashaka-swing",
+    "name": "Swing and catch, 4 beats",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Kashaka, The Gambia",
+    "note": "A teaching pattern: a held shake, the spinning gourd carried round, and a catch to close.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Held"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Spin"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Spin"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Catch"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Held"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Spin"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Spin"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Spin"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Catch"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "kashaka-whirl",
+    "name": "Whirl",
+    "bpm": 108,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Kashaka, The Gambia",
+    "note": "A longer whirl with the catch at the end of each bar.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Held"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Spin"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Spin"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Spin"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Held"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Spin"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Spin"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Catch"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Held"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Spin"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Spin"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Spin"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Spin"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Spin"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Catch"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "kashaka"
+}

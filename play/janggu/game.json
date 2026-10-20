@@ -1,0 +1,13 @@
+{
+ "slug": "janggu",
+ "title": "Janggu (hourglass drum)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

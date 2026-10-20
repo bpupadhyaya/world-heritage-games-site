@@ -1,0 +1,13 @@
+{
+ "slug": "hopak",
+ "title": "Hopak (Ukrainian folk dance)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

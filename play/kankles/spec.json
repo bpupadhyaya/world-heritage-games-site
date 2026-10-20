@@ -1,0 +1,249 @@
+{
+ "engine": "rhythm",
+ "variant": "kankles",
+ "players": "1",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 196.0,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "kankles",
+  "lanes": [
+   {
+    "name": "G3",
+    "cents": 0,
+    "id": "g3-0",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#d9a45a"
+   },
+   {
+    "name": "A3",
+    "cents": 200,
+    "id": "a3-1",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#dcb064"
+   },
+   {
+    "name": "B3",
+    "cents": 400,
+    "id": "b3-2",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#dfbb70"
+   },
+   {
+    "name": "C4",
+    "cents": 500,
+    "id": "c4-3",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#d8c47e"
+   },
+   {
+    "name": "D4",
+    "cents": 700,
+    "id": "d4-4",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#cdc98c"
+   },
+   {
+    "name": "E4",
+    "cents": 900,
+    "id": "e4-5",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#b8c79a"
+   },
+   {
+    "name": "F#4",
+    "cents": 1100,
+    "id": "fs4-6",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#9fc0a6"
+   },
+   {
+    "name": "G4",
+    "cents": 1200,
+    "id": "g4-7",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#86b8b0"
+   },
+   {
+    "name": "A4",
+    "cents": 1400,
+    "id": "a4-8",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#6fb0b8"
+   },
+   {
+    "name": "B4",
+    "cents": 1600,
+    "id": "b4-9",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#5aa8c0"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Slow village song, 4 beats",
+    "bpm": 88,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 4
+     },
+     {
+      "beat": 1,
+      "lane": 5
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 1
+     },
+     {
+      "beat": 7,
+      "lane": 0
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 6
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 11,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 5
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "name": "Close seconds, 3 beats",
+    "bpm": 78,
+    "meter": 3,
+    "length": 18,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 4
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 4
+     },
+     {
+      "beat": 8,
+      "lane": 5
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 5
+     },
+     {
+      "beat": 11,
+      "lane": 4
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     },
+     {
+      "beat": 16,
+      "lane": 3
+     },
+     {
+      "beat": 17,
+      "lane": 3
+     }
+    ]
+   }
+  ]
+ }
+}

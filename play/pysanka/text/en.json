@@ -1,0 +1,28 @@
+{
+  "title": "Pysanka",
+  "native": "Писанка",
+  "alt": [
+    "Pysanky",
+    "Ukrainian decorated eggs",
+    "Wax-resist eggs"
+  ],
+  "summary": "Pysanka is the Ukrainian art of writing a pattern on an egg in hot beeswax, one colour at a time. Wherever wax lies, the dye cannot reach, so the finished egg keeps every colour that was sealed under a layer of wax.",
+  "howToPlay": [
+    "The framed egg shows the finished piece. Look at it first.",
+    "Tap a colour to load the tool. Press and drag along the lit guide lines; slow, steady strokes lay a fat line, and the line thins as the wax runs out.",
+    "When the first wax is down, press Dye to lower the egg into the yellow bath, then lay wax again to keep the yellow.",
+    "Repeat for red and the dark bath, then check: the wax melts away and every colour appears."
+  ],
+  "rules": [
+    "The egg is waxed and dyed in three rounds, from the lightest dye to the darkest: yellow, red, then dark.",
+    "Wax laid in a round keeps the colour the egg has at that moment, so each round protects the shade beneath it.",
+    "Lines are written with a stylus that holds only a little wax; dip again when the line goes dry.",
+    "The pattern is mirrored left and right, so the Mirror switch repeats each stroke on the other half.",
+    "Score: how closely your lines follow the guide, in the right round, and how evenly both halves are written. Lines outside the guide count against you; undo takes back the last stroke."
+  ],
+  "heritageNote": "The name comes from the Ukrainian verb for writing, because the pattern is written in wax rather than painted. Families in Ukraine and in communities abroad keep the craft alive, passing the stylus, the dye order and the regional patterns from hand to hand.",
+  "countries": [
+    "Ukraine"
+  ],
+  "credits": []
+}

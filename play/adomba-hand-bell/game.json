@@ -1,0 +1,13 @@
+{
+ "slug": "adomba-hand-bell",
+ "title": "Adomba (brass cup bells)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -40,16 +40,16 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Play it
 
-[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/sega-ravanne-drum/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · App Store (coming soon)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/sega-ravanne-drum/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
 - [Chinchinero Drum Walk](../../games/1406-chinchinero-drum-walk/index.md)
 - [Djembe](../../games/2189-djembe/index.md)
+- [Kundu drum](../../games/6417-kundu-drum/index.md)
 - [Amadinda and embaire](../../games/185-amadinda-and-embaire/index.md)
 - [Burundian drum ensemble](../../games/1250-burundian-drum-ensemble/index.md)
-- [Steelpan](../../games/31-steelpan/index.md)
-- [Mbira](../../games/32-mbira/index.md)
+- [Namalwa friction drum](../../games/7919-namalwa-friction-drum/index.md)
 
 ## Sources
 

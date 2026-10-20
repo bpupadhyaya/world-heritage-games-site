@@ -1,0 +1,159 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "palmas",
+  "lanes": [
+   {
+    "name": "Golpe",
+    "hz": 150,
+    "timbre": "slap",
+    "color": "#d9622b"
+   },
+   {
+    "name": "Sorda",
+    "hz": 420,
+    "timbre": "clap",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Pitos",
+    "hz": 1500,
+    "timbre": "clap",
+    "color": "#4fa8d6"
+   },
+   {
+    "name": "Clara",
+    "hz": 1800,
+    "timbre": "clap",
+    "color": "#58b878"
+   }
+  ],
+  "songs": [
+   {
+    "id": "palmas-solea",
+    "name": "Solea compas, 12 beats",
+    "bpm": 132,
+    "meter": 3,
+    "length": 12,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Palmas, Andalusia",
+    "note": "A teaching figure on the twelve-beat compas: claras on the accents 3, 6, 8, 10 and 12, sordas between.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Sorda"
+     },
+     {
+      "beat": 1,
+      "lane": "Sorda"
+     },
+     {
+      "beat": 2,
+      "lane": "Clara"
+     },
+     {
+      "beat": 3,
+      "lane": "Sorda"
+     },
+     {
+      "beat": 4,
+      "lane": "Sorda"
+     },
+     {
+      "beat": 5,
+      "lane": "Clara"
+     },
+     {
+      "beat": 6,
+      "lane": "Sorda"
+     },
+     {
+      "beat": 7,
+      "lane": "Clara"
+     },
+     {
+      "beat": 8,
+      "lane": "Sorda"
+     },
+     {
+      "beat": 9,
+      "lane": "Clara"
+     },
+     {
+      "beat": 10,
+      "lane": "Sorda"
+     },
+     {
+      "beat": 11,
+      "lane": "Clara"
+     }
+    ]
+   },
+   {
+    "id": "palmas-buleria",
+    "name": "Buleria figure, 12 beats",
+    "bpm": 150,
+    "meter": 3,
+    "length": 12,
+    "kind": "figure",
+    "heritage": "Palmas, Andalusia",
+    "note": "A faster figure with finger snaps and a thigh slap on the turn.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Pitos"
+     },
+     {
+      "beat": 1,
+      "lane": "Sorda"
+     },
+     {
+      "beat": 2,
+      "lane": "Clara"
+     },
+     {
+      "beat": 3,
+      "lane": "Sorda"
+     },
+     {
+      "beat": 4,
+      "lane": "Pitos"
+     },
+     {
+      "beat": 5,
+      "lane": "Clara"
+     },
+     {
+      "beat": 6,
+      "lane": "Golpe"
+     },
+     {
+      "beat": 7,
+      "lane": "Clara"
+     },
+     {
+      "beat": 8,
+      "lane": "Sorda"
+     },
+     {
+      "beat": 9,
+      "lane": "Clara"
+     },
+     {
+      "beat": 10,
+      "lane": "Pitos"
+     },
+     {
+      "beat": 11,
+      "lane": "Clara"
+     }
+    ]
+   }
+  ]
+ }
+}

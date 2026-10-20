@@ -1,0 +1,13 @@
+{
+ "slug": "turkmen-gul-carpet",
+ "title": "Turkmen gul carpet (hali)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

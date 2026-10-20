@@ -1,0 +1,13 @@
+{
+ "slug": "erhu-two-string-fiddle",
+ "title": "Erhu (two-string fiddle)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

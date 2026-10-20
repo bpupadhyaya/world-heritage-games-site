@@ -1,0 +1,13 @@
+{
+ "slug": "conga",
+ "title": "Conga (tall barrel drums)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

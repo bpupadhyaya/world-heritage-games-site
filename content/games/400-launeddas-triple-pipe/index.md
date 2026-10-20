@@ -40,16 +40,16 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Play it
 
-[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/launeddas-triple-pipe/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · App Store (coming soon)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/launeddas-triple-pipe/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
+- [Rhaita](../../games/3631-rhaita/index.md)
 - [Khene](../../games/145-khene/index.md)
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md)
 - [Mudhif reed-arch house](../../games/230-mudhif-reed-arch-house/index.md)
 - [Lusheng](../../games/337-lusheng/index.md)
 - [Vallenato accordion trio](../../games/431-vallenato-accordion-trio/index.md)
-- [Rubboard zydeco rhythm](../../games/437-rubboard-zydeco-rhythm/index.md)
 
 ## Sources
 

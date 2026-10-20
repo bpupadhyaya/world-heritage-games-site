@@ -35,11 +35,11 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 ## Related entries
 
 - [Tifinagh Letter Puzzle](../../games/1380-tifinagh-letter-puzzle/index.md)
+- [Duala canoe racing](../../games/7350-duala-canoe-racing/index.md)
 - [Kente strip weaving](../../games/22-kente-strip-weaving/index.md)
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md)
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md)
 - [Krobo Powder-Glass Beads](../../games/173-krobo-powder-glass-beads/index.md)
-- [Fufu Pounding Rhythm](../../games/175-fufu-pounding-rhythm/index.md)
 
 ## Sources
 

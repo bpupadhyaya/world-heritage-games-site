@@ -1,0 +1,29 @@
+{
+  "title": "Bidriware silver inlay",
+  "native": "ಬಿದರಿ",
+  "alt": [
+    "Bidri",
+    "Bidri ware"
+  ],
+  "summary": "Bidriware is the dark, silver-patterned metalwork of Bidar in southern India. A cast plate of zinc alloy is engraved with fine grooves, silver wire is hammered into them, and the whole piece is blackened so that only the silver shines.",
+  "howToPlay": [
+    "The framed plate shows the finished pattern you are making.",
+    "Engrave the lit lines with the graver so every groove lies on a line.",
+    "Press the silver wire along the grooves you cut; wire only settles where a groove exists.",
+    "Strike along the wire with the hammer so it sits flat, then blacken the plate and see the silver stand out."
+  ],
+  "rules": [
+    "The work has three steps: engraving, laying the wire, and peening it flat with the hammer; the final score is the mean of the three.",
+    "Engraving is judged by how closely each groove follows its line.",
+    "Wire is pressed in only along grooves that have been engraved, so a missed groove means a gap in the silver.",
+    "Every stretch of wire should be struck with the hammer; unstruck wire counts against you.",
+    "Nothing is scored for doing nothing, and the last stroke can be taken back during engraving."
+  ],
+  "heritageNote": "Bidriware takes its name from Bidar, where metalworkers have made it since the days of the Bahmani sultanate, drawing on Persian-influenced floral designs. Makers there cast a zinc and copper alloy, inlay it with silver, and darken it with a special soil from the old fort; the craft is now protected as a regional speciality of Karnataka.",
+  "countries": [
+    "India"
+  ],
+  "credits": [
+    "Tradition: Bidriware craft of Bidar, Karnataka, India; pattern drawn for this game"
+  ]
+}

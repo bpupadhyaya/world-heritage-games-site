@@ -1,0 +1,220 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "Step",
+    "hz": 120,
+    "timbre": "stomp",
+    "icon": "foot-r",
+    "color": "#3a86d8"
+   },
+   {
+    "name": "Cross",
+    "hz": 340,
+    "timbre": "slap",
+    "icon": "foot-l",
+    "color": "#e8b84a"
+   },
+   {
+    "name": "Lift",
+    "hz": 1000,
+    "timbre": "clap",
+    "icon": "stomp",
+    "color": "#e2457f"
+   },
+   {
+    "name": "Turn",
+    "hz": 620,
+    "timbre": "breath",
+    "icon": "clap",
+    "color": "#58c27d"
+   }
+  ],
+  "songs": [
+   {
+    "id": "kalam-basic",
+    "name": "Basic step",
+    "bpm": 128,
+    "meter": 7,
+    "length": 7,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Kalamatianos, Greece",
+    "note": "A teaching figure: a travelling step, a crossing step and a knee lift, counted as seven beats.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Step"
+     },
+     {
+      "beat": 1,
+      "lane": "Step"
+     },
+     {
+      "beat": 2,
+      "lane": "Cross"
+     },
+     {
+      "beat": 3,
+      "lane": "Step"
+     },
+     {
+      "beat": 4,
+      "lane": "Lift"
+     },
+     {
+      "beat": 5,
+      "lane": "Cross"
+     },
+     {
+      "beat": 6,
+      "lane": "Turn"
+     }
+    ]
+   },
+   {
+    "id": "kalam-lift",
+    "name": "With lifts",
+    "bpm": 132,
+    "meter": 7,
+    "length": 14,
+    "kind": "figure",
+    "heritage": "Kalamatianos, Greece",
+    "note": "The same line, with a knee lift added in the second bar.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Step"
+     },
+     {
+      "beat": 1,
+      "lane": "Step"
+     },
+     {
+      "beat": 2,
+      "lane": "Cross"
+     },
+     {
+      "beat": 3,
+      "lane": "Step"
+     },
+     {
+      "beat": 4,
+      "lane": "Lift"
+     },
+     {
+      "beat": 5,
+      "lane": "Cross"
+     },
+     {
+      "beat": 6,
+      "lane": "Turn"
+     },
+     {
+      "beat": 7,
+      "lane": "Step"
+     },
+     {
+      "beat": 8,
+      "lane": "Cross"
+     },
+     {
+      "beat": 9,
+      "lane": "Lift"
+     },
+     {
+      "beat": 10,
+      "lane": "Step"
+     },
+     {
+      "beat": 11,
+      "lane": "Lift"
+     },
+     {
+      "beat": 12,
+      "lane": "Cross"
+     },
+     {
+      "beat": 13,
+      "lane": "Turn"
+     }
+    ]
+   },
+   {
+    "id": "kalam-leader",
+    "name": "The leader turns",
+    "bpm": 136,
+    "meter": 7,
+    "length": 14,
+    "kind": "figure",
+    "heritage": "Kalamatianos, Greece",
+    "note": "The leader turns under the raised handkerchief at the end of each bar.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Step"
+     },
+     {
+      "beat": 1,
+      "lane": "Cross"
+     },
+     {
+      "beat": 2,
+      "lane": "Step"
+     },
+     {
+      "beat": 3,
+      "lane": "Lift"
+     },
+     {
+      "beat": 4,
+      "lane": "Cross"
+     },
+     {
+      "beat": 5,
+      "lane": "Step"
+     },
+     {
+      "beat": 6,
+      "lane": "Turn"
+     },
+     {
+      "beat": 7,
+      "lane": "Step"
+     },
+     {
+      "beat": 8,
+      "lane": "Step"
+     },
+     {
+      "beat": 9,
+      "lane": "Cross"
+     },
+     {
+      "beat": 10,
+      "lane": "Lift"
+     },
+     {
+      "beat": 11,
+      "lane": "Cross"
+     },
+     {
+      "beat": 12,
+      "lane": "Turn"
+     },
+     {
+      "beat": 13,
+      "lane": "Turn"
+     }
+    ]
+   }
+  ],
+  "song": 0,
+  "instrument": "chain dancer"
+ }
+}

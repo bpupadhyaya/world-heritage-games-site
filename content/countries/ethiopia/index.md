@@ -1,17 +1,18 @@
 ---
 title: "Ethiopia"
-description: "10 traditions from Ethiopia."
+description: "11 traditions from Ethiopia."
 path: "/countries/ethiopia/"
-count: 10
+count: 11
 ---
 # Ethiopia
 
-10 traditions from Ethiopia.
+11 traditions from Ethiopia.
 
 
 
-10 entries.
+11 entries.
 
+- [Begena](../../games/7301-begena/index.md): Ethiopia; Musical instruments; Classical Worlds
 - [Dorze cotton weaving](../../games/1271-dorze-cotton-weaving/index.md): Ethiopia; Crafts and making; Living Traditions
 - [Eskista](../../games/188-eskista/index.md): Ethiopia; Dances; Living Traditions
 - [Jebena coffee brewing](../../games/189-jebena-coffee-brewing/index.md): Ethiopia, Eritrea; Crafts and making; Living Traditions

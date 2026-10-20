@@ -41,10 +41,10 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 - [Dizi](../../games/132-dizi/index.md)
 - [Cuju](../../games/333-cuju/index.md)
+- [Guzheng](../../games/334-guzheng/index.md)
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md)
 - [Go](../../games/634-go/index.md)
-- [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md)
-- [Jianzi](../../games/1-jianzi/index.md)
+- [Yunluo](../../games/4446-yunluo/index.md)
 
 ## Sources
 

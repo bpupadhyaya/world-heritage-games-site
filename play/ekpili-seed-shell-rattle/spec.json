@@ -1,0 +1,154 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "ekpili seed-shell rattle",
+  "lanes": [
+   {
+    "name": "Flick",
+    "hz": 420,
+    "timbre": "clap",
+    "color": "#f0b84a"
+   },
+   {
+    "name": "Sway",
+    "hz": 300,
+    "timbre": "clap",
+    "color": "#58b8d6"
+   },
+   {
+    "name": "Clack",
+    "hz": 220,
+    "timbre": "clap",
+    "color": "#e0693a"
+   }
+  ],
+  "songs": [
+   {
+    "id": "ekpili-step",
+    "name": "Dancer's step, 4 beats",
+    "bpm": 108,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Ekpili seed-shell rattle, Igbo tradition",
+    "note": "A teaching pattern: a clack on the stamp, a sway, and flicks near the bar.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Clack"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Sway"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Flick"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Sway"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Clack"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Sway"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Flick"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Flick"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Clack"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "ekpili-run",
+    "name": "Quick steps",
+    "bpm": 120,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Ekpili seed-shell rattle, Igbo tradition",
+    "note": "A quicker run of steps.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Clack"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Sway"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Flick"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Sway"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Clack"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Sway"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Flick"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Clack"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Clack"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Sway"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Flick"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Clack"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Sway"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Flick"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Sway"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "ekpili-seed-shell-rattle"
+}

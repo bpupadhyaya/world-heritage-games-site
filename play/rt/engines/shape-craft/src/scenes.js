@@ -2,6 +2,7 @@
 // sounds) chosen by a table keyed on the spec (`scene` param) or on the title, so game folders need not change.
 // Pure drawing: no DOM, no randomness, no clocks (time arrives as an argument).
 import { hash } from './geom.js';
+import { EXT, SCENE_ID_LIST } from './registry.js';
 import { tint, mix, rgba, rrect, shadowed, surface, displayCase } from './fx.js';
 import { drawProp, drawHeld, lg, rg, ell, cast, TAU } from './props.js';
 
@@ -65,19 +66,24 @@ const RULES = [
 const BY_TECH = { lathe: 'terracotta', carve: 'soapstone', cut: 'papercut', fold: 'origami', coil: 'agaseke', knot: 'chineseknot', bend: 'wirecar' };
 const BY_MATERIAL = { stone: 'soapstone', clay: 'claymodel', wood: 'maskcarve', metal: 'lostwax', candy: 'candy', paper: 'papercut' };
 
-export const SCENE_IDS = Object.keys(S);
+SCENE_ID_LIST.unshift(...Object.keys(S));
+export const SCENE_IDS = SCENE_ID_LIST;   // live: extension scenes (registry.js registerSceneSet) are appended
 export function resolveScene(P = {}, text = {}, technique = 'lathe') {
-  let id = typeof P.scene === 'string' && S[P.scene] ? P.scene : null;
-  if (!id) {
+  // 1.5.0: a named scene (params.scene) is final; an unknown name gets the technique's default workshop, never a guess from the title.
+  const named = typeof P.scene === 'string' && P.scene !== 'auto' && P.scene !== '' ? P.scene : null;
+  let id = named && (S[named] || EXT.scenes[named]) ? named : null;
+  if (!id && !named) {
     const key = [text.title, text.native, ...(text.alt ?? []), P.figure, P.profile, P.layout].filter(Boolean).join(' ').toLowerCase();
-    for (const [re, sid] of RULES) if (re.test(key)) { id = sid; break; }
+    for (const [re, sid, not] of [...EXT.rules, ...RULES]) if ((S[sid] || EXT.scenes[sid]) && re.test(key) && !(not && not.test(key))) { id = sid; break; }
   }
-  if (!id) id = (technique === 'carve' && BY_MATERIAL[P.material]) || BY_TECH[technique] || 'soapstone';
-  return { id, ...S[id] };
+  if (!id) id = (technique === 'carve' && BY_MATERIAL[P.material]) || BY_TECH[technique] || EXT.techniques.get(technique)?.scene || 'soapstone';
+  return { ...(S[id] ?? EXT.scenes[id]), id };
 }
 
 // ---- ground: wall, bench, light, litter -------------------------------------------------------------------------------------
 const wallH = (r) => Math.max(70, Math.min(150, r.h * 0.26));
+// 1.13.0: height of the wall band for a scene (rows may shrink it with wallK, used by the flat-mat rooms); r is the full work rect
+export const wallBand = (r, s) => wallH(r) * (s?.wallK ?? 1);
 
 function planks(ctx, x, y, w, h, c, vertical = true, pl = 26) {
   ctx.fillStyle = lg(ctx, x, y, x, y + h, [[0, tint(c, 0.12)], [1, tint(c, -0.2)]]); ctx.fillRect(x, y, w, h);
@@ -93,7 +99,7 @@ function speckle(ctx, x, y, w, h, n, c, a, seed = 1, sz = 2) {
   ctx.fill();
 }
 
-const WALL = {
+export const WALL = {
   plaster(ctx, s, r, H) { ctx.fillStyle = lg(ctx, 0, r.y, 0, r.y + H, [[0, tint(s.wallC, 0.15)], [1, s.wallC]]); ctx.fillRect(r.x, r.y, r.w, H); speckle(ctx, r.x, r.y, r.w, H, 120, '#000000', 0.07, 5, 3); },
   tools(ctx, s, r, H) {
     planks(ctx, r.x, r.y, r.w, H, s.wallC, true, 34);
@@ -241,14 +247,14 @@ export function splitWork(r) { const d = dockHeight(r); return { work: { x: r.x,
 
 export function drawGround(ctx, s, r, t) {
   ctx.save(); rrect(ctx, r.x, r.y, r.w, r.h, 16); ctx.clip();
-  surface(ctx, r, FLOOR_KIND[s.floor] ?? 'wood', mix('#101010', s.floorC, 0.95));
-  FLOOR_EX[s.floor]?.(ctx, r, s.floorC);
-  const H = wallH(r);
-  (WALL[s.wall] ?? WALL.plaster)(ctx, s, r, H, t);
+  surface(ctx, r, FLOOR_KIND[s.floor] ?? EXT.floorKinds[s.floor] ?? 'wood', mix('#101010', s.floorC, 0.95));
+  (FLOOR_EX[s.floor] ?? EXT.floorEx[s.floor])?.(ctx, r, s.floorC);
+  const H = wallBand(r, s);
+  (WALL[s.wall] ?? EXT.walls[s.wall] ?? WALL.plaster)(ctx, s, r, H, t);
   // bench lip where the wall meets the bench
   ctx.fillStyle = lg(ctx, 0, r.y + H - 2, 0, r.y + H + 12, [[0, 'rgba(0,0,0,0.55)'], [1, 'rgba(0,0,0,0)']]); ctx.fillRect(r.x, r.y + H - 2, r.w, 14);
   ctx.fillStyle = 'rgba(255,255,255,0.18)'; ctx.fillRect(r.x, r.y + H - 3, r.w, 2);
-  for (const l of s.litter ?? []) LITTER[l.k]?.(ctx, { x: r.x, y: r.y + H, w: r.w, h: r.h - H }, l.c);
+  for (const l of s.litter ?? []) (LITTER[l.k] ?? EXT.litter[l.k])?.(ctx, { x: r.x, y: r.y + H, w: r.w, h: r.h - H }, l.c);
   if (s.light === 'window') { // a slanted beam of daylight across the bench
     ctx.save(); ctx.globalCompositeOperation = 'lighter';
     const g = ctx.createLinearGradient(r.x, r.y, r.x + r.w * 0.5, r.y + r.h); g.addColorStop(0, 'rgba(255,240,200,0.14)'); g.addColorStop(1, 'rgba(255,240,200,0)');
@@ -282,8 +288,9 @@ export function drawDock(ctx, s, d, t) {
 // Draws the frame in which the finished piece is shown and returns the inner rect the technique draws its target in.
 export function drawFrame(ctx, s, r, pal) {
   const { x, y, w, h } = r, k = s.frame;
-  if (k === 'case' || !FRAMES[k]) return { inner: displayCase(ctx, r, pal.accent, pal.bg), glass: true };
-  return { inner: FRAMES[k](ctx, s, x, y, w, h, pal), glass: false };
+  const FR = FRAMES[k] ?? EXT.frames[k];
+  if (k === 'case' || !FR) return { inner: displayCase(ctx, r, pal.accent, pal.bg), glass: true };
+  return { inner: FR(ctx, s, x, y, w, h, pal), glass: false };
 }
 const FRAMES = {
   plinth(ctx, s, x, y, w, h, pal) {

@@ -1,0 +1,29 @@
+{
+  "title": "Turkmen gul carpet (hali)",
+  "native": "Türkmen halysy",
+  "alt": [
+    "Turkmen carpet",
+    "Halı"
+  ],
+  "summary": "Turkmen weavers knot dense wool pile into rows of octagonal medallions called guls, each tribe keeping its own form. Rebuild three traditional medallion fields on a knot chart, in madder red, indigo and ivory wool, keeping the quarter-turn and mirror symmetry of the design.",
+  "howToPlay": [
+    "Look at the reference card: it shows the medallion field, its wool colours and its symmetry.",
+    "Pick a wool colour from the skeins, then a motif.",
+    "Press a knot square; the same knot appears in every matching place around the centre.",
+    "Press Check to compare your chart with the reference, then try the next tribe's gul."
+  ],
+  "rules": [
+    "The medallion is unchanged by quarter turns and by mirroring across both axes and both diagonals.",
+    "Every knot you place is repeated at all its symmetric partners; placing the same knot again, or choosing the eraser, removes it.",
+    "The score is the share of squares that match the reference in both motif and wool colour.",
+    "Three stars need a near perfect match; two stars a close one.",
+    "There are three reference fields: a Tekke style gul with a minor gul, a Yomut style diamond gul and an Ersari style wide gul."
+  ],
+  "heritageNote": "Carpet making is a living craft of the Turkmen people of Turkmenistan and neighbouring lands, passed from mother to daughter. Each tribe is recognised by its gul, and the art has been recognised internationally as world intangible heritage since 2019.",
+  "countries": [
+    "Turkmenistan"
+  ],
+  "credits": [
+    "Gul forms and tribal attribution follow public museum and encyclopedia descriptions; designs are our own simplified charts."
+  ]
+}

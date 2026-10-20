@@ -25,16 +25,16 @@ Games that belong to the same family tree: mancala, mill games, hunt games, drum
 - [Bat-and-ball games](../families/bat-ball/index.md): 18 entries
 - [Archery and target games](../families/target-games/index.md): 24 entries
 - [Tops, kites and spinning toys](../families/top-kite/index.md): 12 entries
-- [Puzzle and dexterity toys](../families/puzzle-dexterity/index.md): 129 entries
-- [String instruments](../families/string-instrument/index.md): 65 entries
-- [Wind instruments](../families/wind-instrument/index.md): 26 entries
-- [Drums and percussion](../families/percussion/index.md): 30 entries
-- [Textile and weaving crafts](../families/textile/index.md): 66 entries
-- [Pottery, wood and metal crafts](../families/ceramic-wood-metal/index.md): 51 entries
-- [Paper, ink and painting crafts](../families/paper-ink/index.md): 95 entries
-- [Folk and line dances](../families/folk-dance/index.md): 21 entries
+- [Puzzle and dexterity toys](../families/puzzle-dexterity/index.md): 128 entries
+- [String instruments](../families/string-instrument/index.md): 82 entries
+- [Wind instruments](../families/wind-instrument/index.md): 50 entries
+- [Drums and percussion](../families/percussion/index.md): 77 entries
+- [Textile and weaving crafts](../families/textile/index.md): 97 entries
+- [Pottery, wood and metal crafts](../families/ceramic-wood-metal/index.md): 86 entries
+- [Paper, ink and painting crafts](../families/paper-ink/index.md): 100 entries
+- [Folk and line dances](../families/folk-dance/index.md): 26 entries
 - [Puppetry and shadow play](../families/puppetry/index.md): 6 entries
-- [Horse and animal sports](../families/horse-animal/index.md): 17 entries
-- [Water sports](../families/water-sport/index.md): 26 entries
+- [Horse and animal sports](../families/horse-animal/index.md): 18 entries
+- [Water sports](../families/water-sport/index.md): 30 entries
 - [Winter sports](../families/winter-sport/index.md): 50 entries
-- [Rhyme and hand games](../families/rhyme-hand/index.md): 13 entries
+- [Rhyme and hand games](../families/rhyme-hand/index.md): 14 entries

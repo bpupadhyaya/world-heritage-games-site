@@ -1,0 +1,13 @@
+{
+ "slug": "bidriware-silver-inlay",
+ "title": "Bidriware silver inlay",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

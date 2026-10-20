@@ -1,16 +1,16 @@
 ---
 title: "Indonesia"
-description: "27 traditions from Indonesia."
+description: "31 traditions from Indonesia."
 path: "/countries/indonesia/"
-count: 27
+count: 31
 ---
 # Indonesia
 
-27 traditions from Indonesia.
+31 traditions from Indonesia.
 
 
 
-27 entries.
+31 entries.
 
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
 - [Bakiak](../../games/324-bakiak/index.md): Indonesia, Malaysia; Racing; Age of Contact and Craft
@@ -20,6 +20,7 @@ count: 27
 - [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md): Indonesia; Street and playground games; Modern Heritage
 - [Egrang](../../games/17-egrang/index.md): Indonesia, Malaysia; Racing; Classical Worlds
 - [Gobak Sodor](../../games/46-gobak-sodor/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
+- [Gong ageng](../../games/2500-gong-ageng/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Greasy pole climb](../../games/77-greasy-pole-climb/index.md): Indonesia; Performance and storytelling; Living Traditions
 - [Independence-day field games](../../games/330-independence-day-field-games/index.md): Indonesia; Racing; Age of Contact and Craft
 - [Juldarigi](../../games/2772-juldarigi/index.md): South Korea, United Kingdom; Other traditions; Classical Worlds
@@ -35,7 +36,10 @@ count: 27
 - [Songket](../../games/320-songket/index.md): Malaysia, Brunei; Crafts and making; Living Traditions
 - [Wayang Shadow Puppets](../../games/47-wayang-shadow-puppets/index.md): Indonesia; Performance and storytelling; Classical Worlds
 - [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
+- [Bonang](../../games/15166-bonang/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Gamelan](../../games/22329-gamelan/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Gaple dominoes](../../games/804-gaple-dominoes/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
+- [Gender](../../games/18923-gender/index.md): Indonesia; Musical instruments; Living Traditions
+- [Kendang](../../games/10163-kendang/index.md): Indonesia; Musical instruments; Living Traditions
 - [Rice terrace farming](../../games/22337-rice-terrace-farming/index.md): Philippines, Indonesia; Other traditions; Living Traditions
 - [Surakarta](../../games/4940-surakarta/index.md): Indonesia; Board and table games; Crossroads and Golden Ages

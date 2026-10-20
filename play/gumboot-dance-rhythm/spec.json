@@ -1,0 +1,179 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "lanes": [
+   {
+    "name": "Stomp",
+    "hz": 100,
+    "timbre": "stomp",
+    "icon": "stomp",
+    "color": "#c2552d"
+   },
+   {
+    "name": "Left boot",
+    "hz": 340,
+    "timbre": "slap",
+    "icon": "slap",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Right boot",
+    "hz": 420,
+    "timbre": "slap",
+    "icon": "slap",
+    "color": "#58c27d"
+   },
+   {
+    "name": "Clap",
+    "hz": 1400,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#4f9fd6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "gumboot-call",
+    "name": "Boot call",
+    "bpm": 104,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Gumboot dance, South Africa",
+    "note": "A call and a reply: stamps, boot slaps and a clap.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 2,
+      "lane": "Left boot"
+     },
+     {
+      "beat": 3,
+      "lane": "Right boot"
+     },
+     {
+      "beat": 4,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 5,
+      "lane": "Clap"
+     },
+     {
+      "beat": 6,
+      "lane": "Left boot"
+     },
+     {
+      "beat": 7,
+      "lane": "Right boot"
+     }
+    ]
+   },
+   {
+    "id": "gumboot-answer",
+    "name": "Call and answer",
+    "bpm": 112,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Gumboot dance, South Africa",
+    "note": "The same call answered with the boots swapped.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Left boot"
+     },
+     {
+      "beat": 1,
+      "lane": "Right boot"
+     },
+     {
+      "beat": 2,
+      "lane": "Clap"
+     },
+     {
+      "beat": 3,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 4,
+      "lane": "Right boot"
+     },
+     {
+      "beat": 5,
+      "lane": "Left boot"
+     },
+     {
+      "beat": 6,
+      "lane": "Clap"
+     },
+     {
+      "beat": 7,
+      "lane": "Stomp"
+     }
+    ]
+   },
+   {
+    "id": "gumboot-fast",
+    "name": "Quick slaps",
+    "bpm": 124,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Gumboot dance, South Africa",
+    "note": "Half-beat slaps between the stamps.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 1,
+      "lane": "Left boot"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Right boot"
+     },
+     {
+      "beat": 2,
+      "lane": "Clap"
+     },
+     {
+      "beat": 3,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 4,
+      "lane": "Right boot"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Left boot"
+     },
+     {
+      "beat": 5,
+      "lane": "Clap"
+     },
+     {
+      "beat": 6,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 7,
+      "lane": "Clap"
+     }
+    ]
+   }
+  ],
+  "instrument": "gumboot dancer"
+ }
+}

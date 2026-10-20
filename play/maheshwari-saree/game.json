@@ -1,0 +1,13 @@
+{
+ "slug": "maheshwari-saree",
+ "title": "Maheshwari saree",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

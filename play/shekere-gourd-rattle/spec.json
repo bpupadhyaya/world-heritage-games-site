@@ -1,0 +1,181 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "shekere",
+  "lanes": [
+   {
+    "name": "Bass",
+    "hz": 110,
+    "timbre": "bass",
+    "color": "#d9622b"
+   },
+   {
+    "name": "Slap",
+    "hz": 420,
+    "timbre": "slap",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Roll",
+    "hz": 520,
+    "timbre": "clap",
+    "color": "#58b878"
+   },
+   {
+    "name": "Shake",
+    "hz": 700,
+    "timbre": "clap",
+    "color": "#4fa8d6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "shekere-pulse",
+    "name": "Bead pulse, four beats",
+    "bpm": 104,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Shekere rhythm, Yoruba tradition",
+    "note": "A teaching figure: a low thump on the beat, beads shaken between, and a roll to close the bar.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Bass"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 1,
+      "lane": "Slap"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 2,
+      "lane": "Bass"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 3,
+      "lane": "Slap"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Roll"
+     },
+     {
+      "beat": 4,
+      "lane": "Bass"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 6,
+      "lane": "Bass"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 7,
+      "lane": "Shake"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Roll"
+     }
+    ]
+   },
+   {
+    "id": "shekere-twelve",
+    "name": "Twelve-pulse figure",
+    "bpm": 112,
+    "meter": 6,
+    "length": 12,
+    "kind": "figure",
+    "heritage": "Shekere rhythm, West Africa",
+    "note": "A rolling figure in twelve pulses, in the style of West African timeline patterns. Simplified, not a transcription.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Bass"
+     },
+     {
+      "beat": 1,
+      "lane": "Shake"
+     },
+     {
+      "beat": 2,
+      "lane": "Slap"
+     },
+     {
+      "beat": 3,
+      "lane": "Bass"
+     },
+     {
+      "beat": 4,
+      "lane": "Shake"
+     },
+     {
+      "beat": 5,
+      "lane": "Slap"
+     },
+     {
+      "beat": 6,
+      "lane": "Bass"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 7,
+      "lane": "Shake"
+     },
+     {
+      "beat": 8,
+      "lane": "Slap"
+     },
+     {
+      "beat": 9,
+      "lane": "Bass"
+     },
+     {
+      "beat": 10,
+      "lane": "Roll"
+     },
+     {
+      "beat": 11,
+      "lane": "Shake"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "shekere-gourd-rattle",
+ "players": "1"
+}

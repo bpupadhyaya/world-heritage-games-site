@@ -1,0 +1,190 @@
+{
+ "engine": "pattern",
+ "variant": "nakshi-kantha-embroidery",
+ "params": {
+  "scene": "kantha",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "mirror-x",
+  "palette": [
+   {
+    "name": "Red",
+    "color": "#d8392e"
+   },
+   {
+    "name": "Indigo",
+    "color": "#3a64b8"
+   },
+   {
+    "name": "White",
+    "color": "#f4eee0"
+   },
+   {
+    "name": "Yellow",
+    "color": "#f0c030"
+   },
+   {
+    "name": "Green",
+    "color": "#3aa05a"
+   }
+  ],
+  "background": "#2a4a6a",
+  "grid": "#1c3450",
+  "motifs": [
+   "fish",
+   "petal",
+   "kalka",
+   "ring",
+   "wave",
+   "diamond"
+  ],
+  "mode": "copy",
+  "designs": [
+   {
+    "name": "Lotus medallion",
+    "rows": [
+     "ccccccccc",
+     "c.......c",
+     "c..d.d..c",
+     "c..ded..c",
+     "c.dabad.c",
+     "c..ded..c",
+     "c..d.d..c",
+     "c.......c",
+     "ccccccccc"
+    ],
+    "legend": {
+     "a": {
+      "m": 2,
+      "c": 0
+     },
+     "b": {
+      "m": 3,
+      "c": 3
+     },
+     "c": {
+      "m": 4,
+      "c": 1
+     },
+     "d": {
+      "m": 1,
+      "c": 4
+     },
+     "e": {
+      "m": 5,
+      "c": 2
+     },
+     "f": {
+      "m": 0,
+      "c": 0
+     },
+     "g": {
+      "m": 3,
+      "c": 2
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Tree of life",
+    "rows": [
+     "....a....",
+     "...dad...",
+     "..d.e.d..",
+     "...ded...",
+     "..d.a.d..",
+     "...ded...",
+     "..d.e.d..",
+     "...dbd...",
+     "....b...."
+    ],
+    "legend": {
+     "a": {
+      "m": 2,
+      "c": 0
+     },
+     "b": {
+      "m": 3,
+      "c": 3
+     },
+     "c": {
+      "m": 4,
+      "c": 1
+     },
+     "d": {
+      "m": 1,
+      "c": 4
+     },
+     "e": {
+      "m": 5,
+      "c": 2
+     },
+     "f": {
+      "m": 0,
+      "c": 0
+     },
+     "g": {
+      "m": 3,
+      "c": 2
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Fish and eye border",
+    "rows": [
+     "g.g.g.g.g",
+     "hh.....hh",
+     ".hhf.fhh.",
+     "..h.b.h..",
+     ".hhfbfhh.",
+     "..h.b.h..",
+     ".hhf.fhh.",
+     "hh.....hh",
+     "g.g.g.g.g"
+    ],
+    "legend": {
+     "a": {
+      "m": 2,
+      "c": 0
+     },
+     "b": {
+      "m": 3,
+      "c": 3
+     },
+     "c": {
+      "m": 4,
+      "c": 1
+     },
+     "d": {
+      "m": 1,
+      "c": 4
+     },
+     "e": {
+      "m": 5,
+      "c": 2
+     },
+     "f": {
+      "m": 0,
+      "c": 0
+     },
+     "g": {
+      "m": 3,
+      "c": 2
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     }
+    }
+   }
+  ],
+  "rotateMarks": true
+ }
+}

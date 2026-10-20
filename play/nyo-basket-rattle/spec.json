@@ -1,0 +1,146 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "nyo basket rattle",
+  "lanes": [
+   {
+    "name": "Strike",
+    "hz": 160,
+    "timbre": "clap",
+    "color": "#e0763a"
+   },
+   {
+    "name": "Tick",
+    "hz": 700,
+    "timbre": "clap",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Shake",
+    "hz": 440,
+    "timbre": "clap",
+    "color": "#58b8d6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "nyo-time",
+    "name": "Time-keeping, 4 beats",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Nyo basket rattle, Igbo tradition",
+    "note": "A teaching pattern: a strike on the beat, shakes between, and a tick on the rim.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Strike"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Shake"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Tick"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Shake"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Strike"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Shake"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Tick"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Shake"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "nyo-dialogue",
+    "name": "Clapper dialogue",
+    "bpm": 112,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Nyo basket rattle, Igbo tradition",
+    "note": "A pattern shaped like the dialogue with wooden clappers.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Strike"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Tick"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Shake"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Tick"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Tick"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Strike"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Tick"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Strike"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Tick"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Shake"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "nyo-basket-rattle"
+}

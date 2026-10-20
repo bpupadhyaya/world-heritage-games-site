@@ -1,0 +1,130 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "agogo forged iron slab bells",
+  "lanes": [
+   {
+    "name": "Deep",
+    "hz": 330,
+    "timbre": "bell",
+    "color": "#f25d48"
+   },
+   {
+    "name": "Medium",
+    "hz": 440,
+    "timbre": "bell",
+    "color": "#f27e48"
+   },
+   {
+    "name": "Small",
+    "hz": 587,
+    "timbre": "bell",
+    "color": "#f2a048"
+   },
+   {
+    "name": "Bright",
+    "hz": 784,
+    "timbre": "bell",
+    "color": "#f2c248"
+   }
+  ],
+  "songs": [
+   {
+    "id": "agogo-line",
+    "name": "Dance time line",
+    "bpm": 108,
+    "meter": 6,
+    "length": 12.0,
+    "kind": "figure",
+    "heritage": "Iron bells, West Africa",
+    "note": "A twelve-pulse time line of long and short strokes.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Deep"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Bright"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Medium"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Small"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Deep"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Bright"
+     },
+     {
+      "beat": 9.0,
+      "lane": "Medium"
+     },
+     {
+      "beat": 10.0,
+      "lane": "Small"
+     },
+     {
+      "beat": 11.0,
+      "lane": "Bright"
+     }
+    ]
+   },
+   {
+    "id": "agogo-walk",
+    "name": "Walking pattern",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Iron bells, West Africa",
+    "note": "A steady walk that moves up the bench and back.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Deep"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Medium"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Small"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Bright"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Small"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Medium"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Deep"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Deep"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "crystalvase",
+  "scene": "bohemia",
+  "rows": 12,
+  "steps": 16,
+  "bands": 4,
+  "clay": "#d8eef2",
+  "glazes": [
+   {
+    "name": "Crystal",
+    "color": "#d8eef4"
+   },
+   {
+    "name": "Ruby",
+    "color": "#b01e2e"
+   },
+   {
+    "name": "Cobalt",
+    "color": "#2a4fc0"
+   }
+  ],
+  "glazePattern": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "variation": 0.03
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "engine": "tempo-race",
+ "variant": "nile-felucca-sailing",
+ "players": "1",
+ "params": {
+  "vehicle": {
+   "kind": "sailor",
+   "topSpeed": 5.5
+  },
+  "rhythm": {
+   "bpm": 60
+  },
+  "course": {
+   "length": 520,
+   "lanes": 3,
+   "shape": "straight",
+   "terrain": "water",
+   "scenery": "palms",
+   "current": 0.6,
+   "wind": {
+    "amp": 0.75,
+    "period": 110
+   },
+   "obstacles": [
+    {
+     "at": 180,
+     "kind": "buoy"
+    },
+    {
+     "at": 360,
+     "kind": "buoy"
+    }
+   ],
+   "rough": []
+  },
+  "opponents": {
+   "count": 3,
+   "skill": 0.88,
+   "spread": 0.03
+  },
+  "rounds": 1,
+  "colors": {
+   "ground": "#3e86a8",
+   "ground2": "#75b4cc",
+   "bank": "#c9a45a",
+   "edge": "#e8f4f7"
+  },
+  "labels": {
+   "left": "Ease the sail",
+   "right": "Haul the sail"
+  },
+  "craft": {
+   "id": "felucca"
+  }
+ }
+}

@@ -40,12 +40,12 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 ## Related entries
 
+- [Flamenco palmas](../../games/154-flamenco-palmas/index.md)
 - [Venetian lagoon regatta](../../games/486-venetian-lagoon-regatta/index.md)
 - [Tombola](../../games/829-tombola/index.md)
 - [Scopa](../../games/832-scopa/index.md)
 - [Maghrebi 5x5 capture game](../../games/887-maghrebi-5x5-capture-game/index.md)
 - [Remi](../../games/993-remi/index.md)
-- [Castells](../../games/119-castells/index.md)
 
 ## Sources
 

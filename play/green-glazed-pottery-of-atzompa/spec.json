@@ -1,0 +1,27 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "scene": "atzompa",
+  "profile": "atzjug",
+  "rows": 12,
+  "bands": 5,
+  "clay": "#b0623a",
+  "glazes": [
+   {
+    "name": "Green glaze",
+    "color": "#2f7a45"
+   },
+   {
+    "name": "Honey glaze",
+    "color": "#d49a3a"
+   },
+   {
+    "name": "Cream slip",
+    "color": "#eadfc0"
+   }
+  ],
+  "variation": 0.05,
+  "steps": 12
+ }
+}

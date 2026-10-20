@@ -1,0 +1,135 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "kakaki",
+  "mode": "follow",
+  "root": 98.0,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "G2",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "D3",
+    "cents": 702,
+    "timbre": "breath",
+    "color": "#58c27d"
+   },
+   {
+    "name": "G3",
+    "cents": 1200,
+    "timbre": "breath",
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "B3",
+    "cents": 1586,
+    "timbre": "breath",
+    "color": "#a56bd6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "kakaki-herald",
+    "name": "Herald call",
+    "bpm": 52,
+    "meter": 4,
+    "length": 20.0,
+    "kind": "figure",
+    "heritage": "Kakaki, the Sahel",
+    "note": "A teaching call of long notes that rises and settles.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "G2",
+      "len": 3
+     },
+     {
+      "beat": 3.0,
+      "lane": "D3",
+      "len": 2
+     },
+     {
+      "beat": 5.0,
+      "lane": "G2",
+      "len": 3
+     },
+     {
+      "beat": 8.0,
+      "lane": "G3",
+      "len": 2
+     },
+     {
+      "beat": 10.0,
+      "lane": "D3",
+      "len": 2
+     },
+     {
+      "beat": 12.0,
+      "lane": "B3",
+      "len": 2
+     },
+     {
+      "beat": 14.0,
+      "lane": "G3",
+      "len": 2
+     },
+     {
+      "beat": 16.0,
+      "lane": "G2",
+      "len": 4
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "kakaki-answer",
+    "name": "Answering call",
+    "bpm": 60,
+    "meter": 4,
+    "length": 14.0,
+    "kind": "figure",
+    "heritage": "Kakaki, the Sahel",
+    "note": "A second call that answers the first.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "D3",
+      "len": 2
+     },
+     {
+      "beat": 2.0,
+      "lane": "G3",
+      "len": 2
+     },
+     {
+      "beat": 4.0,
+      "lane": "B3",
+      "len": 3
+     },
+     {
+      "beat": 7.0,
+      "lane": "G3",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "D3",
+      "len": 2
+     },
+     {
+      "beat": 10.0,
+      "lane": "G2",
+      "len": 4
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "kakaki-trumpet"
+}

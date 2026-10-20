@@ -1,0 +1,13 @@
+{
+ "slug": "hawaiian-outrigger-canoe-racing",
+ "title": "Outrigger Canoe Race",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

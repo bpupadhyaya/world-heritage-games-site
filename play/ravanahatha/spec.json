@@ -1,0 +1,271 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 220.0,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "ravanahatha",
+  "lanes": [
+   {
+    "name": "A3",
+    "cents": 0,
+    "id": "a3-0",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#e06446",
+    "string": 0,
+    "fret": 0
+   },
+   {
+    "name": "B3",
+    "cents": 200,
+    "id": "b3-1",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#e0724b",
+    "string": 0,
+    "fret": 2
+   },
+   {
+    "name": "C4",
+    "cents": 300,
+    "id": "c4-2",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#e18051",
+    "string": 0,
+    "fret": 3
+   },
+   {
+    "name": "D4",
+    "cents": 500,
+    "id": "d4-3",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#e28e57",
+    "string": 0,
+    "fret": 5
+   },
+   {
+    "name": "E4",
+    "cents": 700,
+    "id": "e4-4",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#e39d5c",
+    "string": 1,
+    "fret": 0
+   },
+   {
+    "name": "F#4",
+    "cents": 900,
+    "id": "fs4-5",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#e4ab62",
+    "string": 1,
+    "fret": 2
+   },
+   {
+    "name": "G4",
+    "cents": 1000,
+    "id": "g4-6",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#e5b968",
+    "string": 1,
+    "fret": 3
+   },
+   {
+    "name": "A4",
+    "cents": 1200,
+    "id": "a4-7",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#e6c86e",
+    "string": 1,
+    "fret": 5
+   }
+  ],
+  "songs": [
+   {
+    "id": "desert-line",
+    "name": "Desert line",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A long bowed line in the style of Rajasthan",
+    "bpm": 72,
+    "meter": 8,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 7
+     },
+     {
+      "beat": 14,
+      "lane": 5
+     }
+    ]
+   },
+   {
+    "id": "two-string-sway",
+    "name": "Two-string sway",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "The two strings answer one another",
+    "bpm": 80,
+    "meter": 8,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 7,
+      "lane": 7
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 3
+     },
+     {
+      "beat": 11,
+      "lane": 2
+     },
+     {
+      "beat": 12,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "id": "bell-bow",
+    "name": "Bell bow",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Short bowed notes, the way the bow bells ring",
+    "bpm": 92,
+    "meter": 8,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 7
+     },
+     {
+      "beat": 7,
+      "lane": 7
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 3
+     },
+     {
+      "beat": 11,
+      "lane": 1
+     },
+     {
+      "beat": 12,
+      "lane": 0
+     }
+    ]
+   }
+  ]
+ }
+}

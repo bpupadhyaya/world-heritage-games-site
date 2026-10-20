@@ -1,0 +1,164 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "muga",
+    "cols": 7,
+    "rows": 7,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Rongali red",
+        "color": "#b3261e"
+      },
+      {
+        "name": "Eri ivory",
+        "color": "#f1e8d0"
+      },
+      {
+        "name": "Tea-garden green",
+        "color": "#3d7a3c"
+      },
+      {
+        "name": "Bark brown",
+        "color": "#5a2c14"
+      },
+      {
+        "name": "Pale gold",
+        "color": "#f0cf6a"
+      }
+    ],
+    "background": "#cf9f26",
+    "grid": "#a0791a",
+    "motifs": [
+      "flower",
+      "leaf",
+      "diamond",
+      "bird",
+      "star",
+      "vine"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 5,
+    "designs": [
+      {
+        "name": "Flowers, leaves and birds",
+        "rows": [
+          "a.a.a.a",
+          "bcdgdcb",
+          ".e.f.e.",
+          "dcgfgcd",
+          ".e.f.e.",
+          "bcdgdcb",
+          "afafafa"
+        ],
+        "legend": {
+          "a": {
+            "m": 2,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 2
+          },
+          "c": {
+            "m": 0,
+            "c": 1
+          },
+          "d": {
+            "m": 3,
+            "c": 0
+          },
+          "e": {
+            "m": 4,
+            "c": 3
+          },
+          "f": {
+            "m": 5,
+            "c": 2
+          },
+          "g": {
+            "m": 0,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Vine and star bands",
+        "rows": [
+          "aaaaaaa",
+          "b.b.b.b",
+          ".c.d.c.",
+          "e.efe.e",
+          ".c.d.c.",
+          "b.b.b.b",
+          "aaaaaaa"
+        ],
+        "legend": {
+          "a": {
+            "m": 5,
+            "c": 2
+          },
+          "b": {
+            "m": 4,
+            "c": 0
+          },
+          "c": {
+            "m": 0,
+            "c": 4
+          },
+          "d": {
+            "m": 2,
+            "c": 1
+          },
+          "e": {
+            "m": 1,
+            "c": 2
+          },
+          "f": {
+            "m": 3,
+            "c": 3
+          }
+        }
+      },
+      {
+        "name": "Flowers in diamonds",
+        "rows": [
+          "a.a.a.a",
+          "dbdbdbd",
+          ".c.e.c.",
+          "fdfafdf",
+          ".c.e.c.",
+          "dbdbdbd",
+          "a.a.a.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 2,
+            "c": 3
+          },
+          "c": {
+            "m": 4,
+            "c": 1
+          },
+          "d": {
+            "m": 1,
+            "c": 2
+          },
+          "e": {
+            "m": 0,
+            "c": 4
+          },
+          "f": {
+            "m": 3,
+            "c": 0
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,16 +1,16 @@
 ---
 title: "Greece"
-description: "8 traditions from Greece."
+description: "9 traditions from Greece."
 path: "/countries/greece/"
-count: 8
+count: 9
 ---
 # Greece
 
-8 traditions from Greece.
+9 traditions from Greece.
 
 
 
-8 entries.
+9 entries.
 
 - [Antikythera Gear Train](../../games/397-antikythera-gear-train/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Bouzouki Strum](../../games/1247-bouzouki-strum/index.md): Greece; Musical instruments; Living Traditions
@@ -20,3 +20,4 @@ count: 8
 - [Maze](../../games/6640-maze/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Santur Hammer Strings](../../games/138-santur-hammer-strings/index.md): Iran, Iraq; Musical instruments; Living Traditions
 - [Tavli](../../games/656-tavli/index.md): Cyprus, Greece; Board and table games; River Valleys and First Cities
+- [Kalamatianos](../../games/5066-kalamatianos/index.md): Greece; Dances; Living Traditions

@@ -1,0 +1,161 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "madal",
+  "lanes": [
+   {
+    "name": "Left bass",
+    "hz": 82,
+    "timbre": "bass",
+    "color": "#c8452f"
+   },
+   {
+    "name": "Centre",
+    "hz": 170,
+    "timbre": "tone",
+    "color": "#f0b84a"
+   },
+   {
+    "name": "Edge",
+    "hz": 330,
+    "timbre": "slap",
+    "color": "#4fa86a"
+   },
+   {
+    "name": "Shell",
+    "hz": 520,
+    "timbre": "rim",
+    "color": "#4f9fd6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "madal-hill-song",
+    "name": "Hill song pulse, 4 beats",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Madal rhythm, Nepal",
+    "note": "A teaching pattern in the style of a hill song: a low bass on the first beat, two warm strokes of the right head, and a light edge answer.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Left bass"
+     },
+     {
+      "beat": 1,
+      "lane": "Centre"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Centre"
+     },
+     {
+      "beat": 2,
+      "lane": "Edge"
+     },
+     {
+      "beat": 3,
+      "lane": "Centre"
+     },
+     {
+      "beat": 4,
+      "lane": "Left bass"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Left bass"
+     },
+     {
+      "beat": 5,
+      "lane": "Centre"
+     },
+     {
+      "beat": 6,
+      "lane": "Edge"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Shell"
+     },
+     {
+      "beat": 7,
+      "lane": "Centre"
+     }
+    ]
+   },
+   {
+    "id": "madal-dance-figure",
+    "name": "Dance figure, 8 beats",
+    "bpm": 116,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Madal rhythm, Nepal",
+    "note": "A livelier figure for a circle dance: the shell knock marks the turns.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Left bass"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Centre"
+     },
+     {
+      "beat": 1,
+      "lane": "Centre"
+     },
+     {
+      "beat": 2,
+      "lane": "Left bass"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 3,
+      "lane": "Shell"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Centre"
+     },
+     {
+      "beat": 4,
+      "lane": "Left bass"
+     },
+     {
+      "beat": 5,
+      "lane": "Centre"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Centre"
+     },
+     {
+      "beat": 6,
+      "lane": "Edge"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 7,
+      "lane": "Shell"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "madal-drum",
+ "players": "1"
+}

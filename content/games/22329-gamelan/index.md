@@ -43,12 +43,12 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Related entries
 
+- [Gong ageng](../../games/2500-gong-ageng/index.md)
+- [Bonang](../../games/15166-bonang/index.md)
 - [Kulintang](../../games/318-kulintang/index.md)
-- [Egrang](../../games/17-egrang/index.md)
-- [Wayang Shadow Puppets](../../games/47-wayang-shadow-puppets/index.md)
-- [Ranat ek](../../games/305-ranat-ek/index.md)
-- [Sasando](../../games/317-sasando/index.md)
-- [Pencak silat](../../games/329-pencak-silat/index.md)
+- [Kyi waing](../../games/5490-kyi-waing/index.md)
+- [Yunluo](../../games/4446-yunluo/index.md)
+- [Tavil](../../games/5714-tavil/index.md)
 
 ## Sources
 

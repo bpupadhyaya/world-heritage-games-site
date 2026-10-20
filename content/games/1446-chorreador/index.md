@@ -41,11 +41,11 @@ A living tradition passed from person to person; it is not tied to a single date
 ## Related entries
 
 - [Talavera tile painting](../../games/429-talavera-tile-painting/index.md)
+- [Barro negro pottery](../../games/10508-barro-negro-pottery/index.md)
+- [Green glazed pottery of Atzompa](../../games/10510-green-glazed-pottery-of-atzompa/index.md)
+- [Mata Ortiz pottery](../../games/10511-mata-ortiz-pottery/index.md)
+- [Pottery of Metepec](../../games/10512-pottery-of-metepec/index.md)
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
-- [Swahili carved door](../../games/90-swahili-carved-door/index.md)
-- [Thai fruit and vegetable carving](../../games/114-thai-fruit-and-vegetable-carving/index.md)
-- [Glassblowing](../../games/121-glassblowing/index.md)
-- [Azulejo tile painting](../../games/122-azulejo-tile-painting/index.md)
 
 ## Sources
 

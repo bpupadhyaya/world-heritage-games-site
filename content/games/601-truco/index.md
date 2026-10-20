@@ -40,12 +40,12 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 ## Related entries
 
+- [Surdo](../../games/3987-surdo/index.md)
 - [Bolas criollas](../../games/51-bolas-criollas/index.md)
 - [Bandoneon and tango rhythm](../../games/426-bandoneon-and-tango-rhythm/index.md)
 - [Peteca](../../games/421-peteca/index.md)
 - [Circle Dodgeball](../../games/470-circle-dodgeball/index.md)
 - [Frevo Umbrella Dance](../../games/1411-frevo-umbrella-dance/index.md)
-- [Jangada Sailing](../../games/1413-jangada-sailing/index.md)
 
 ## Sources
 

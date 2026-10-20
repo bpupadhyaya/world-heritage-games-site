@@ -1,0 +1,201 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "sword dancer",
+  "lanes": [
+   {
+    "name": "Cross",
+    "hz": 90,
+    "timbre": "stomp",
+    "color": "#d9622b"
+   },
+   {
+    "name": "Back",
+    "hz": 110,
+    "timbre": "stomp",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Left",
+    "hz": 130,
+    "timbre": "stomp",
+    "color": "#58b878"
+   },
+   {
+    "name": "Front",
+    "hz": 150,
+    "timbre": "stomp",
+    "color": "#4fa8d6"
+   },
+   {
+    "name": "Right",
+    "hz": 170,
+    "timbre": "stomp",
+    "color": "#b86ad6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "sword-quarters",
+    "name": "The four quarters",
+    "bpm": 112,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Highland sword dance, Scotland",
+    "note": "The dancer steps round the four spaces between the blades and springs at the cross.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Front"
+     },
+     {
+      "beat": 1,
+      "lane": "Right"
+     },
+     {
+      "beat": 2,
+      "lane": "Back"
+     },
+     {
+      "beat": 3,
+      "lane": "Left"
+     },
+     {
+      "beat": 4,
+      "lane": "Front"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Cross"
+     },
+     {
+      "beat": 5,
+      "lane": "Right"
+     },
+     {
+      "beat": 6,
+      "lane": "Back"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Cross"
+     },
+     {
+      "beat": 7,
+      "lane": "Left"
+     }
+    ]
+   },
+   {
+    "id": "sword-quick",
+    "name": "Quick step",
+    "bpm": 124,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Highland sword dance, Scotland",
+    "note": "A quicker round with a spring between each step.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Front"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Cross"
+     },
+     {
+      "beat": 1,
+      "lane": "Right"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Cross"
+     },
+     {
+      "beat": 2,
+      "lane": "Back"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Cross"
+     },
+     {
+      "beat": 3,
+      "lane": "Left"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Cross"
+     },
+     {
+      "beat": 4,
+      "lane": "Front"
+     },
+     {
+      "beat": 5,
+      "lane": "Right"
+     },
+     {
+      "beat": 6,
+      "lane": "Back"
+     },
+     {
+      "beat": 7,
+      "lane": "Left"
+     }
+    ]
+   },
+   {
+    "id": "sword-cross",
+    "name": "Over the cross",
+    "bpm": 104,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Highland sword dance, Scotland",
+    "note": "Slower: back and front, with the spring at the cross between.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Back"
+     },
+     {
+      "beat": 1,
+      "lane": "Cross"
+     },
+     {
+      "beat": 2,
+      "lane": "Front"
+     },
+     {
+      "beat": 3,
+      "lane": "Cross"
+     },
+     {
+      "beat": 4,
+      "lane": "Left"
+     },
+     {
+      "beat": 5,
+      "lane": "Cross"
+     },
+     {
+      "beat": 6,
+      "lane": "Right"
+     },
+     {
+      "beat": 7,
+      "lane": "Cross"
+     }
+    ]
+   }
+  ]
+ }
+}

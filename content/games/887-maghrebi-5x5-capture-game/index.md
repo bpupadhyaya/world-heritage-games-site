@@ -36,12 +36,12 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 ## Related entries
 
+- [Flamenco palmas](../../games/154-flamenco-palmas/index.md)
 - [Venetian lagoon regatta](../../games/486-venetian-lagoon-regatta/index.md)
 - [Cantabrian palm bowling](../../games/1096-cantabrian-palm-bowling/index.md)
 - [Tombola](../../games/829-tombola/index.md)
 - [Scopa](../../games/832-scopa/index.md)
 - [Remi](../../games/993-remi/index.md)
-- [Ghadames Rooftop Maze](../../games/1291-ghadames-rooftop-maze/index.md)
 
 ## Sources
 

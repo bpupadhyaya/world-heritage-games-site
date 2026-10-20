@@ -1,0 +1,187 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "yunluo cloud gong frame",
+  "lanes": [
+   {
+    "name": "1",
+    "hz": 294,
+    "timbre": "bell",
+    "color": "#f2ac6d"
+   },
+   {
+    "name": "2",
+    "hz": 330,
+    "timbre": "bell",
+    "color": "#f2d66d"
+   },
+   {
+    "name": "3",
+    "hz": 392,
+    "timbre": "bell",
+    "color": "#e4f26d"
+   },
+   {
+    "name": "4",
+    "hz": 440,
+    "timbre": "bell",
+    "color": "#baf26d"
+   },
+   {
+    "name": "5",
+    "hz": 523,
+    "timbre": "bell",
+    "color": "#90f26d"
+   },
+   {
+    "name": "6",
+    "hz": 587,
+    "timbre": "bell",
+    "color": "#6df273"
+   },
+   {
+    "name": "7",
+    "hz": 659,
+    "timbre": "bell",
+    "color": "#6df29c"
+   },
+   {
+    "name": "8",
+    "hz": 784,
+    "timbre": "bell",
+    "color": "#6df2c6"
+   },
+   {
+    "name": "9",
+    "hz": 880,
+    "timbre": "bell",
+    "color": "#6df2f0"
+   },
+   {
+    "name": "10",
+    "hz": 1047,
+    "timbre": "bell",
+    "color": "#6dcaf2"
+   }
+  ],
+  "songs": [
+   {
+    "id": "yun-climb",
+    "name": "Climbing the frame",
+    "bpm": 90,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Yunluo, China",
+    "note": "A teaching run from the bottom row to the top.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "1"
+     },
+     {
+      "beat": 1.0,
+      "lane": "2"
+     },
+     {
+      "beat": 2.0,
+      "lane": "3"
+     },
+     {
+      "beat": 3.0,
+      "lane": "4"
+     },
+     {
+      "beat": 4.0,
+      "lane": "5"
+     },
+     {
+      "beat": 5.0,
+      "lane": "6"
+     },
+     {
+      "beat": 6.0,
+      "lane": "7"
+     },
+     {
+      "beat": 7.0,
+      "lane": "8"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "yun-tune",
+    "name": "A bright tune",
+    "bpm": 108,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Yunluo, China",
+    "note": "A lively tune that skips across the rows.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "3"
+     },
+     {
+      "beat": 0.5,
+      "lane": "5"
+     },
+     {
+      "beat": 1.0,
+      "lane": "7"
+     },
+     {
+      "beat": 1.5,
+      "lane": "5"
+     },
+     {
+      "beat": 2.0,
+      "lane": "4"
+     },
+     {
+      "beat": 2.5,
+      "lane": "6"
+     },
+     {
+      "beat": 3.0,
+      "lane": "8"
+     },
+     {
+      "beat": 3.5,
+      "lane": "6"
+     },
+     {
+      "beat": 4.0,
+      "lane": "5"
+     },
+     {
+      "beat": 4.5,
+      "lane": "7"
+     },
+     {
+      "beat": 5.0,
+      "lane": "9"
+     },
+     {
+      "beat": 5.5,
+      "lane": "7"
+     },
+     {
+      "beat": 6.0,
+      "lane": "10"
+     },
+     {
+      "beat": 7.0,
+      "lane": "6"
+     }
+    ]
+   }
+  ]
+ }
+}

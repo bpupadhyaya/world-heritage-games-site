@@ -1,0 +1,211 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "lali",
+  "lanes": [
+   {
+    "name": "Big low",
+    "hz": 150,
+    "timbre": "bass",
+    "color": "#ff9a50"
+   },
+   {
+    "name": "Big high",
+    "hz": 230,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Small low",
+    "hz": 280,
+    "timbre": "tone",
+    "color": "#4fd0a0"
+   },
+   {
+    "name": "Small high",
+    "hz": 420,
+    "timbre": "rim",
+    "color": "#c9a0ff"
+   }
+  ],
+  "songs": [
+   {
+    "id": "call",
+    "name": "Gathering call",
+    "bpm": 76,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The big log calls, the small log answers.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Big low"
+     },
+     {
+      "beat": 1,
+      "lane": "Big low"
+     },
+     {
+      "beat": 2,
+      "lane": "Small low"
+     },
+     {
+      "beat": 3,
+      "lane": "Small high"
+     },
+     {
+      "beat": 4,
+      "lane": "Big low"
+     },
+     {
+      "beat": 5,
+      "lane": "Big high"
+     },
+     {
+      "beat": 6,
+      "lane": "Small low"
+     },
+     {
+      "beat": 7,
+      "lane": "Small high"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "answer",
+    "name": "Answering logs",
+    "bpm": 82,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The two logs trade short phrases.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Big low"
+     },
+     {
+      "beat": 1,
+      "lane": "Big high"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Big high"
+     },
+     {
+      "beat": 2,
+      "lane": "Small low"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Small high"
+     },
+     {
+      "beat": 3,
+      "lane": "Small low"
+     },
+     {
+      "beat": 4,
+      "lane": "Big low"
+     },
+     {
+      "beat": 5,
+      "lane": "Big high"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Big high"
+     },
+     {
+      "beat": 6,
+      "lane": "Small high"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Small high"
+     },
+     {
+      "beat": 7,
+      "lane": "Small low"
+     }
+    ]
+   },
+   {
+    "id": "pulse",
+    "name": "Steady pulse",
+    "bpm": 88,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A steady pulse with the small log filling gaps.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Big low"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Small high"
+     },
+     {
+      "beat": 1,
+      "lane": "Big high"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Small high"
+     },
+     {
+      "beat": 2,
+      "lane": "Big low"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Small low"
+     },
+     {
+      "beat": 3,
+      "lane": "Big high"
+     },
+     {
+      "beat": 4,
+      "lane": "Big low"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Small high"
+     },
+     {
+      "beat": 5,
+      "lane": "Big high"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Small high"
+     },
+     {
+      "beat": 6,
+      "lane": "Big low"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Small low"
+     },
+     {
+      "beat": 7,
+      "lane": "Big high"
+     }
+    ]
+   }
+  ]
+ }
+}

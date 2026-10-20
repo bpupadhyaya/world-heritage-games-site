@@ -1,0 +1,251 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "gaita galega",
+  "mode": "follow",
+  "root": 392.0,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Sol",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "1111111"
+   },
+   {
+    "name": "La",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "1111110"
+   },
+   {
+    "name": "Si",
+    "cents": 400,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "1111100"
+   },
+   {
+    "name": "Do",
+    "cents": 500,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "1111000"
+   },
+   {
+    "name": "Re",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "1110000"
+   },
+   {
+    "name": "Mi",
+    "cents": 900,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "1100000"
+   },
+   {
+    "name": "Fa",
+    "cents": 1000,
+    "timbre": "breath",
+    "color": "#6cc2a0",
+    "holes": "1000000"
+   }
+  ],
+  "drone": "reed",
+  "droneHz": [
+   196.0,
+   196.48999999999998,
+   98.0
+  ],
+  "songs": [
+   {
+    "id": "gaita-muineira",
+    "name": "Dance figure",
+    "bpm": 92,
+    "meter": 4,
+    "length": 22.0,
+    "kind": "figure",
+    "heritage": "Gaita, Galicia",
+    "note": "A teaching figure over a drone: bright, rising, and landing on the home note.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "Re",
+      "len": 2
+     },
+     {
+      "beat": 4.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "Sol",
+      "len": 3
+     },
+     {
+      "beat": 10.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "Fa",
+      "len": 2
+     },
+     {
+      "beat": 14.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "Si",
+      "len": 2
+     },
+     {
+      "beat": 18.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 19.0,
+      "lane": "Sol",
+      "len": 3
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "gaita-run",
+    "name": "Quick run",
+    "bpm": 108,
+    "meter": 4,
+    "length": 21.0,
+    "kind": "figure",
+    "heritage": "Gaita, Galicia",
+    "note": "A fast run up and down the chanter.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "Sol",
+      "len": 2
+     },
+     {
+      "beat": 10.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "Fa",
+      "len": 2
+     },
+     {
+      "beat": 14.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "Si",
+      "len": 2
+     },
+     {
+      "beat": 18.0,
+      "lane": "Sol",
+      "len": 3
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "galician-gaita"
+}

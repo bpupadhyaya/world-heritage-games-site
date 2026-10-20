@@ -1,16 +1,16 @@
 ---
 title: "Street and playground games"
-description: "154 traditions of this kind."
+description: "155 traditions of this kind."
 path: "/types/street_game/"
-count: 154
+count: 155
 ---
 # Street and playground games
 
-154 traditions of this kind.
+155 traditions of this kind.
 
 
 
-154 entries.
+155 entries.
 
 - [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
 - [Backyard cricket](../../games/559-backyard-cricket/index.md): Australia; Street and playground games; Age of Contact and Craft
@@ -37,6 +37,7 @@ count: 154
 - [Elastic Jump](../../games/6-elastic-jump/index.md): China; Street and playground games; Modern Heritage
 - [Elle](../../games/1104-elle/index.md): Sri Lanka; Street and playground games; Modern Heritage
 - [Fierljeppen](../../games/971-fierljeppen/index.md): Netherlands; Street and playground games; Modern Heritage
+- [Flamenco palmas](../../games/154-flamenco-palmas/index.md): Spain; Street and playground games; Age of Contact and Craft
 - [Flower or Empty](../../games/812-flower-or-empty/index.md): Iran; Street and playground games; Modern Heritage
 - [Four Corners](../../games/652-four-corners/index.md): Cuba; Street and playground games; Modern Heritage
 - [Galah panjang](../../games/909-galah-panjang/index.md): Malaysia, Singapore; Street and playground games; Deep Past and First Games

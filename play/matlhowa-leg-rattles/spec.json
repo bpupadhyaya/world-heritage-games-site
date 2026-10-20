@@ -1,0 +1,154 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "matlhowa leg rattles",
+  "lanes": [
+   {
+    "name": "Stamp",
+    "hz": 130,
+    "timbre": "clap",
+    "color": "#e0693a"
+   },
+   {
+    "name": "Shake",
+    "hz": 300,
+    "timbre": "clap",
+    "color": "#f0b84a"
+   },
+   {
+    "name": "Flick",
+    "hz": 450,
+    "timbre": "clap",
+    "color": "#58b8d6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "matlhowa-step",
+    "name": "Dancer's step, 4 beats",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Matlhowa leg rattles, Botswana",
+    "note": "A teaching pattern: a stamp on the beat and shakes of the band between.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Shake"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Flick"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Shake"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Flick"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "matlhowa-run",
+    "name": "Stamping run",
+    "bpm": 114,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Matlhowa leg rattles, Botswana",
+    "note": "A faster run of stamps and shakes.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Flick"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Flick"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Flick"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Flick"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Stamp"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "matlhowa-leg-rattles"
+}

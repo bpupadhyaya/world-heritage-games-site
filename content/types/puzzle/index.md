@@ -1,16 +1,16 @@
 ---
 title: "Puzzles and mind games"
-description: "62 traditions of this kind."
+description: "61 traditions of this kind."
 path: "/types/puzzle/"
-count: 62
+count: 61
 ---
 # Puzzles and mind games
 
-62 traditions of this kind.
+61 traditions of this kind.
 
 
 
-62 entries.
+61 entries.
 
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md): Ghana, Cote d'Ivoire; Puzzles and mind games; Modern Heritage
 - [Al-Jazari water-clock contraptions](../../games/237-al-jazari-water-clock-contraptions/index.md): Iraq; Puzzles and mind games; Modern Heritage
@@ -64,7 +64,6 @@ count: 62
 - [Uyuni Salt Harvest](../../games/1491-uyuni-salt-harvest/index.md): Bolivia; Puzzles and mind games; Modern Heritage
 - [Vai Syllabary Decoder](../../games/1394-vai-syllabary-decoder/index.md): Liberia; Puzzles and mind games; Crossroads and Golden Ages
 - [Wayfinder](../../games/43-wayfinder/index.md): United States, New Zealand; Puzzles and mind games; Crossroads and Golden Ages
-- [Whistled Language Relay](../../games/403-whistled-language-relay/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
 - [Chinese Rings](../../games/4551-chinese-rings/index.md): China; Puzzles and mind games; Modern Heritage
 - [Crossword](../../games/22326-crossword/index.md): United Kingdom, United States; Puzzles and mind games; Modern Heritage

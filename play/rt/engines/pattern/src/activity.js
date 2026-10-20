@@ -5,13 +5,12 @@
 //   Internally cols = rays and rows = rings, so designs, targets and boards use the same flat layout as the grid.
 // `designs`: optional hand-authored targets: [{ name, rows: ["..a..", ...], legend: { a: { m: motifIndex, c: colourIndex } } }] ('.' = empty). One is chosen per round.
 import { drawStamp, drawGround, drawThreadOverlay, drawLight, frameBefore, frameAfter, pickMaterial, hash, hashStr, rgba, mix, shade, lum, sparkle, roundRectPath, motifPath, clamp, createRng, drawProp } from './art.js';
-import { pickScene } from './scenes.js';
-import { SCENES } from './scenes.js';
+import { routeScene } from './scenes.js';
 import { FX, POT, drawCardBase } from './scene-kit.js';
 import { toolOf } from './scene-tools.js';
 import { makeSound } from './sound.js';
 
-export const DEFAULTS = { scene: 'auto', material: 'auto', shape: 'grid', rings: 5, rays: 16, rotateMarks: false, designs: null, cols: 7, rows: 7, symmetry: 'rot4', palette: [{ name: 'Cream', color: '#f3ead2' }, { name: 'Red', color: '#c8452d' }, { name: 'Blue', color: '#27508c' }, { name: 'Gold', color: '#e0a82e' }], background: '#2b2118', grid: '#4d3b2a', motifs: ['solid', 'diamond', 'dot', 'cross'], mode: 'copy', density: 0.45, colorsInTarget: 3 };
+export const DEFAULTS = { process: 'none', pen: 0, bath: null, scene: 'auto', material: 'auto', shape: 'grid', rings: 5, rays: 16, rotateMarks: false, designs: null, cols: 7, rows: 7, symmetry: 'rot4', palette: [{ name: 'Cream', color: '#f3ead2' }, { name: 'Red', color: '#c8452d' }, { name: 'Blue', color: '#27508c' }, { name: 'Gold', color: '#e0a82e' }], background: '#2b2118', grid: '#4d3b2a', motifs: ['solid', 'diamond', 'dot', 'cross'], mode: 'copy', density: 0.45, colorsInTarget: 3 };
 
 // Symmetry groups (each a proper group, so orbits partition the grid): identity plus the listed transforms.
 const orbit = (sym, c, r, cols, rows) => {
@@ -87,9 +86,9 @@ export function createActivity(userParams, env) {
   const { rng, palette: pal } = env;
   const polar = P.shape === 'polar';
   if (polar) validatePolarDesigns(P);
-  const scene = pickScene(P, env.text);
+  const route = routeScene(P, env.text), scene = route.scene;
   const mat = scene?.mat ?? pickMaterial(P.material === 'auto' ? null : P.material, env.text?.title, env.text?.summary);
-  const sceneId = scene ? Object.keys(SCENES).find((k) => SCENES[k] === scene) ?? '' : '';
+  const sceneId = route.id ?? '';
   const sfx = makeSound(env.audio, scene?.snd ?? 'default', `${sceneId} ${env.text?.title ?? ''}`);
   if (env.options?.soundLog) for (const k of Object.keys(sfx)) { const f = sfx[k]; sfx[k] = (...a) => { env.options.soundLog.push({ kind: k }); return f(...a); }; }   // audits
   let attractSndAt = -9;
@@ -97,10 +96,15 @@ export function createActivity(userParams, env) {
   const psym = polar ? parsePolarSymmetry(P.symmetry, P.rays) : null;
   const cols = polar ? P.rays : P.cols, rows = polar ? P.rings : P.rows;
   const total = cols * rows;
+  // 1.10.0 optional scene.tilt = { sy, crown, lift } (polar scenes): the disc is seen at an angle: squashed vertically by `sy`, the first `crown` rings (a hat's
+  // crown) raised by lift x R. Cell centres, hit tests and stamps follow; the scene draws its own ground to match. Untilted scenes are unchanged.
+  const tilt = polar && scene?.tilt ? scene.tilt : null;
+  const tiltDy = (B, r) => (tilt && r < tilt.crown ? -tilt.lift * B.R : 0);
+  const tiltT = (ctx, B, r) => { ctx.translate(B.cx, B.cy + tiltDy(B, r)); ctx.scale(1, tilt.sy); ctx.translate(-B.cx, -B.cy); };
   const orbitOf = (c, r) => (polar ? polarOrbit(psym, c, cols).map((x) => [x, r]) : orbit(P.symmetry, c, r, cols, rows));
   const bgc = P.background;
   const titleSeed = hashStr(String(env.text?.title ?? 'pattern'));
-  let board, target, targetName, sel, undoStack, tip, done, outcome, layout = null, curS = null, curArea = null;
+  let board, target, targetName, sel, undoStack, tip, toast = '', toastAt = -1e9, done, outcome, layout = null, curS = null, curArea = null;
   let toolX = 0, toolY = 0, toolHit = -1e9, toolInit = false, curBox = null;
   let clock = 0, landAt, eraseAt, eraseCell, revealAt, wrongAt, hoverAt, hover, hintAt, hintCell, shown, pulseAt, lastScore, pressId, lastPtr, attractT;
   const empty = () => Array.from({ length: total }, () => ({ m: -1, c: 0 }));
@@ -125,11 +129,19 @@ export function createActivity(userParams, env) {
   };
   const generate = () => generateWith(rng);
 
+  // ---- pen-dye process (1.9.0, kalamkari): the pen draws outlines on the empty cloth, then the dye baths colour them in order ----------
+  const proc = P.process === 'pen-dye';
+  const penIdx = Math.min(P.palette.length - 1, Math.max(0, P.pen | 0));
+  const bathOrder = proc ? (Array.isArray(P.bath) && P.bath.length ? P.bath.filter((i) => i !== penIdx && i < P.palette.length) : P.palette.map((_, i) => i).filter((i) => i !== penIdx)) : [];
+  // bath k is open when every target cell that needs an earlier bath already carries that dye (free mode: all baths open)
+  const bathDone = (idx) => !target || target.every((t, i) => t.m === -1 || t.c !== idx || (board[i].m !== -1 && board[i].c === idx));
+  const bathOpen = (idx) => { if (!proc || idx === penIdx) return true; const k = bathOrder.indexOf(idx); if (k < 0) return true; for (let j = 0; j < k; j++) if (!bathDone(bathOrder[j])) return false; return true; };
+  const nameOf = (i) => P.palette[i]?.name ?? '';
   const init = () => {
     board = empty();
     const gen = P.mode === 'copy' ? generate() : null;
     target = gen ? gen.cells : null; targetName = gen ? gen.name : '';
-    sel = { m: 0, c: Math.min(1, P.palette.length - 1) }; undoStack = []; tip = ''; done = null; outcome = null;
+    sel = { m: 0, c: proc ? penIdx : Math.min(1, P.palette.length - 1) }; undoStack = []; tip = ''; toast = ''; toastAt = -1e9; done = null; outcome = null;
     landAt = new Array(total).fill(-1e9); eraseAt = new Array(total).fill(-1e9); eraseCell = new Array(total).fill(null);
     revealAt = -1; wrongAt = []; hoverAt = -1e9; hover = null; hintAt = -1e9; hintCell = -1; shown = 0; pulseAt = -1e9; lastScore = 0;
     pressId = null; lastPtr = { x: -1, y: -1 }; attractT = 0;
@@ -137,9 +149,16 @@ export function createActivity(userParams, env) {
   init();
 
   const paint = (c, r) => {
+    if (proc && sel.m !== -1 && sel.c !== penIdx) { // dyeing: needs an outline, and an open bath
+      if (!bathOpen(sel.c)) { const k = bathOrder.indexOf(sel.c); tip = toast = `${nameOf(bathOrder.find((b, j) => j < k && !bathDone(b)))} comes first: finish that bath, then ${nameOf(sel.c)}.`; toastAt = clock; sfx.undo(); return; }
+      if (board[at(c, r)].m === -1) { tip = toast = 'Draw the outline with the pen first, then dye it.'; toastAt = clock; sfx.undo(); return; }
+      undoStack.push(board.map((x) => ({ ...x }))); let k = 0;
+      for (const [x, y] of orbitOf(c, r)) { const i = at(x, y); if (board[i].m === -1) continue; board[i] = { m: board[i].m, c: sel.c }; landAt[i] = clock + k * 0.045; eraseAt[i] = -1e9; k++; }
+      toolHit = clock; tip = ''; sfx.paint(sel.c); return;
+    }
     undoStack.push(board.map((x) => ({ ...x })));
     const erase = sel.m === -1;
-    const same = board[at(c, r)].m === sel.m && board[at(c, r)].c === sel.c;
+    const same = !proc && board[at(c, r)].m === sel.m && board[at(c, r)].c === sel.c;
     let k = 0;
     for (const [x, y] of orbitOf(c, r)) {
       const i = at(x, y), next = erase || same ? { m: -1, c: 0 } : { m: sel.m, c: sel.c };
@@ -187,9 +206,13 @@ export function createActivity(userParams, env) {
   const discOf = (x, y, D) => { const R = D / 2 - 3, R0 = R * 0.1; return { cx: x + D / 2, cy: y + D / 2, R, R0, thick: (R - R0) / rows }; };
   const step = (2 * Math.PI) / cols;
   const sectorAngle = (c) => -Math.PI / 2 + (c + 0.5) * step;
-  const sectorCentre = (d, c, r) => { const rad = d.R0 + (r + 0.5) * d.thick, a = sectorAngle(c); return { x: d.cx + Math.cos(a) * rad, y: d.cy + Math.sin(a) * rad }; };
+  const sectorCentre = (d, c, r) => { const rad = d.R0 + (r + 0.5) * d.thick, a = sectorAngle(c); return { x: d.cx + Math.cos(a) * rad, y: tilt ? d.cy + Math.sin(a) * rad * tilt.sy + tiltDy(d, r) : d.cy + Math.sin(a) * rad }; };
   const polarHit = (d, px, py) => {
-    const dx = px - d.cx, dy = py - d.cy, dist = Math.hypot(dx, dy);
+    let dx = px - d.cx, dy = py - d.cy, dist = Math.hypot(dx, dy);
+    if (tilt) { // invert the view: the raised crown first, then the brim
+      const rc = d.R0 + tilt.crown * d.thick, cy2 = (py + tilt.lift * d.R - d.cy) / tilt.sy, dc = Math.hypot(dx, cy2);
+      if (dc >= d.R0 && dc < rc) { dy = cy2; dist = dc; } else { dy = (py - d.cy) / tilt.sy; dist = Math.hypot(dx, dy); if (dist < rc) return null; }
+    }
     if (dist < d.R0 || dist >= d.R) return null;
     let ang = Math.atan2(dy, dx) + Math.PI / 2; ang = ((ang % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
     return { c: Math.min(cols - 1, Math.floor(ang / step)), r: Math.min(rows - 1, Math.floor((dist - d.R0) / d.thick)) };
@@ -198,7 +221,7 @@ export function createActivity(userParams, env) {
     // The board (square cells, or a disc) that fits `box` leaving room for the frame.
     const inner = { x: box.x + fd, y: box.y + fd, w: Math.max(10, box.w - 2 * fd), h: Math.max(10, box.h - 2 * fd) };
     if (polar) {
-      const D = Math.floor(Math.min(inner.w, inner.h)), x0 = inner.x + (inner.w - D) / 2, y0 = inner.y + (inner.h - D) / 2;
+      const D = Math.floor(Math.min(inner.w, tilt ? inner.h * 1.08 : inner.h)), x0 = inner.x + (inner.w - D) / 2, y0 = inner.y + (inner.h - D) / 2;
       return { x: x0, y: y0, w: D, h: D, cell: D, ...discOf(x0, y0, D) };
     }
     const cell = Math.max(4, Math.floor(Math.min(inner.w / cols, inner.h / rows)));
@@ -220,7 +243,7 @@ export function createActivity(userParams, env) {
       sw = Math.max(40, sw);
       const colW = per * (sw + 6) + 14;
       const left = a.w - colW - gap;
-      const cw = target ? Math.round(clamp(left * 0.3, 170 * u / 1.85, 340 * u / 1.85)) : 0;
+      const cw = target ? Math.round(clamp(left * (scene?.cardWL ?? 0.3), (scene?.cardWL ? 148 : 170) * u / 1.85, 340 * u / 1.85)) : 0;   // 1.10.0: optional scene.cardWL = slimmer landscape card column (wide-cloth scenes)
       // flip: palette on the left, reference card on the right
       const palX = flip ? a.x : a.x + a.w - colW;
       palArea = { x: palX, y: a.y, w: colW, h: a.h, per };
@@ -233,9 +256,14 @@ export function createActivity(userParams, env) {
     } else {
       const per = Math.max(nColor, nMotif);
       sw = Math.max(40, Math.min(touch, Math.floor((a.w - 8) / per) - 6));
-      const palH = (sw + 8) * 2 + actH + 14;
+      // 1.9.0: when colours and motifs fit one row at a comfortable touch size, they share it (a row of height back to the work)
+      const swM = Math.min(touch, Math.floor((a.w - 8 - 16) / (nColor + nMotif)) - 6);
+      const merged = swM >= 40 * u && a.h > a.w * 1.1;   // u = units per css px (the touch target stays 40 css px or more: tablets in portrait, not phones)
+      if (merged) sw = swM;
+      out.merged = merged;
+      const palH = merged ? (sw + 8) + actH + 14 : (sw + 8) * 2 + actH + 14;
       const rest = a.h - palH - gap;
-      const ch = target ? Math.round(clamp(rest * 0.3, 150, Math.min(a.w * 0.5, 380))) : 0;
+      const ch = target ? Math.round(clamp(rest * 0.27, 160, Math.min(a.w * 0.5, 340))) : 0;   // 1.9.0: a little slimmer card (was 30 percent / 150 / 380) keeps its text readable and gives the work some height
       const bh = target ? rest - ch - gap - 4 : rest;
       const sizes = { card: target ? ch + gap + 4 : 0, board: bh, pal: palH };
       let y = a.y; const pos = {};
@@ -247,8 +275,12 @@ export function createActivity(userParams, env) {
     }
     let fd = clamp(Math.min(boardBox.w, boardBox.h) / (Math.max(cols, rows) * 3.2), 9 * u / 1.85, 24 * u / 1.85) + 4;
     fd *= scene?.fd ?? 1;
-    const inset = Math.round(Math.min(boardBox.w, boardBox.h) * (scene?.pad ?? 0));
-    const px0 = Math.round(Math.min(boardBox.w, boardBox.h) * (scene?.padX ?? 0)), py0 = Math.round(Math.min(boardBox.w, boardBox.h) * (scene?.padY ?? 0));
+    // 1.9.0: in portrait the scene margin (room for loom, frame and shadow) is trimmed to 45 percent: the work was only about 45 percent of the
+    // screen width. The apparatus is drawn in cell units and needs far less than the old margin; the floor keeps a thin ring of room.
+    const tabletP = !landscape && a.w / u >= 600;   // 1.9.1: tablets in portrait keep most of the margin (fringes, frame and shadow stay clear of the controls); phones keep the bigger board
+    const pk = landscape ? 1 : tabletP ? 0.85 : 0.45, mn = Math.min(boardBox.w, boardBox.h);
+    const inset = Math.round(mn * ((landscape && scene?.padL != null ? scene.padL : scene?.pad) ?? 0) * pk);   // 1.9.1: optional `padL` = landscape-only margin (wide works on a short screen)
+    const px0 = Math.round(mn * (scene?.padX ?? 0) * pk), py0 = Math.round(mn * (scene?.padY ?? 0) * pk);
     const fitBox = { x: boardBox.x + inset + px0, y: boardBox.y + inset + py0, w: boardBox.w - 2 * (inset + px0), h: boardBox.h - 2 * (inset + py0) };
     const b = fitBoard(fitBox, fd + (mat === 'weave' && !scene ? 8 : 0));
     return { ...out, sw, actH, board: b, fd, card: cardBox, pal: palArea, boardBox };
@@ -260,12 +292,19 @@ export function createActivity(userParams, env) {
     const rowStart = (n, perRow) => (L.landscape ? p.x + 7 : p.x + (p.w - Math.min(n, perRow) * (sw + 6) + 6) / 2);
     let y = p.y + 4;
     const colorsPer = L.landscape ? per : P.palette.length;
+    const all = [...P.motifs.map((_, i) => i), -1];
+    if (L.merged) { // one row: colours, a gap, motifs
+      const n = P.palette.length + all.length, x0 = p.x + (p.w - (n * (sw + 6) - 6 + 16)) / 2;
+      P.palette.forEach((_, i) => out.push({ id: `color:${i}`, x: x0 + i * (sw + 6), y, w: sw, h: sw }));
+      all.forEach((mi, i) => out.push({ id: `motif:${mi}`, x: x0 + (P.palette.length + i) * (sw + 6) + 16, y, w: sw, h: sw }));
+      y += sw + 6 + 4;
+    } else {
     P.palette.forEach((_, i) => out.push({ id: `color:${i}`, x: rowStart(P.palette.length, colorsPer) + (i % colorsPer) * (sw + 6), y: y + Math.floor(i / colorsPer) * (sw + 6), w: sw, h: sw }));
     y += (Math.floor((P.palette.length - 1) / colorsPer) + 1) * (sw + 6) + (L.landscape ? 4 : 2);
-    const all = [...P.motifs.map((_, i) => i), -1];
     const mPer = L.landscape ? per : all.length;
     all.forEach((mi, i) => out.push({ id: `motif:${mi}`, x: rowStart(all.length, mPer) + (i % mPer) * (sw + 6), y: y + Math.floor(i / mPer) * (sw + 6), w: sw, h: sw }));
     y += (Math.floor((all.length - 1) / mPer) + 1) * (sw + 6) + (L.landscape ? 6 : 4);
+    }
     const names = [['check', 'Check', 1.5], ['undo', 'Undo', 1], ['clear', 'Clear', 1]];
     const totalW = L.landscape ? p.w - 14 : p.w - 12, gapB = 8, wsum = names.reduce((s, n) => s + n[2], 0);
     let x = L.landscape ? p.x + 7 : p.x + 6;
@@ -275,9 +314,10 @@ export function createActivity(userParams, env) {
 
   // ---- drawing -----------------------------------------------------------------------------------------------------------------
   const cellKind = (cell) => P.motifs[cell.m];
-  const drawCellAt = (ctx, cell, x, y, size, c, r, i, sc, alpha) => {
+  const drawCellAt = (ctx, cell, x, y, size, c, r, i, sc, alpha, age) => {   // age (1.9.0): seconds since the cell landed, undefined when not animating
     const col = P.palette[cell.c].color, kind = cellKind(cell);
     ctx.save(); ctx.translate(x, y);
+    if (tilt) ctx.scale(1, tilt.sy);
     if (alpha < 1) ctx.globalAlpha = alpha;
     if (sc !== 1) ctx.scale(sc, sc);
     if (polar) {
@@ -287,9 +327,19 @@ export function createActivity(userParams, env) {
       const t = orient(P.symmetry, c, r, cols, rows);
       ctx.rotate((t.rot * Math.PI) / 2); ctx.scale(t.fx ? -1 : 1, t.fy ? -1 : 1);
     }
-    if (scene?.cell && curS) scene.cell(ctx, curS, { kind, col, x: 0, y: 0, s: size, key: i * 13 + c, bg: bgc, c, r, i });
+    if (scene?.cell && curS) scene.cell(ctx, curS, { kind, col, x: 0, y: 0, s: size, key: i * 13 + c, bg: bgc, c, r, i, age, pen: proc && cell.c === penIdx, dye: proc && cell.c !== penIdx });
     else drawStamp(ctx, mat, kind, 0, 0, size, col, i * 13 + c, bgc);
     ctx.restore();
+  };
+  // 1.10.0 tilt: where to tap a cell (a cell of the brim behind the raised crown is partly hidden: its tap point is the middle of its visible part)
+  const cellTarget = (B, c, r) => {
+    if (!tilt || r < tilt.crown) return cellCentre(B, c, r);
+    const rc = B.R0 + tilt.crown * B.thick, Hw = tilt.lift * B.R, a = sectorAngle(c);
+    const at = (t) => { const rad = B.R0 + (r + t) * B.thick; return { x: B.cx + Math.cos(a) * rad, y: B.cy + Math.sin(a) * rad * tilt.sy }; };
+    const covered = (q) => ((q.x - B.cx) / rc) ** 2 + ((q.y - (B.cy - Hw)) / (rc * tilt.sy)) ** 2 <= 1.04;
+    if (!covered(at(0.5))) return at(0.5);
+    let t = 0.5; while (t < 0.97 && covered(at(t))) t += 0.02;
+    return at(Math.min(0.97, (t + 0.97) / 2));
   };
   const cellCentre = (B, c, r) => (polar ? sectorCentre(B, c, r) : { x: B.x + (c + 0.5) * B.cell, y: B.y + (r + 0.5) * B.cell });
   const cellSize = (B, r) => (polar ? Math.min(B.thick, (B.R0 + (r + 0.5) * B.thick) * step) * 0.92 : B.cell * 0.9);
@@ -326,6 +376,7 @@ export function createActivity(userParams, env) {
       if (tc.m === -1 || board[i].m !== -1) continue;
       const p = cellCentre(B, c, r), size = cellSize(B, r), kind = cellKind(tc);
       ctx.save(); ctx.translate(p.x, p.y);
+      if (tilt) ctx.scale(1, tilt.sy);
       if (polar) { ctx.rotate(sectorAngle(c) + Math.PI / 2); if (psym.mirror && Math.floor(((c + 0.5) * 2) / psym.step) % 2 === 1) ctx.scale(-1, 1); }
       else if (P.rotateMarks) { const t = orient(P.symmetry, c, r, cols, rows); ctx.rotate((t.rot * Math.PI) / 2); ctx.scale(t.fx ? -1 : 1, t.fy ? -1 : 1); }
       const sz = size * 0.82, lw = Math.max(1, size * 0.045);
@@ -371,9 +422,9 @@ export function createActivity(userParams, env) {
     for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
       const i = at(c, r), cellv = cells[i]; if (cellv.m === -1) continue;
       const p = cellCentre(B, c, r), size = cellSize(B, r);
-      let sc = 1, a = 1;
+      let sc = 1, a = 1, ageV;
       if (o.anim && !reduce) {
-        const age = clock - landAt[i];
+        const age = clock - landAt[i]; ageV = age;
         if (age < 0) continue;
         if (age < 0.55) {
           sc = 1 + 0.34 * Math.exp(-8.5 * age) * Math.cos(15 * age + 0.2); a = Math.min(1, age / 0.05);
@@ -381,7 +432,7 @@ export function createActivity(userParams, env) {
           if (lift > 0.01) { ctx.fillStyle = rgba('#000', Math.min(0.4, lift * 1.1)); ctx.beginPath(); ctx.ellipse(p.x + size * 0.06 * (1 + lift), p.y + size * (0.1 + lift * 0.5), size * 0.32, size * 0.2, 0, 0, 6.2832); ctx.fill(); }
         }
       }
-      drawCellAt(ctx, cellv, p.x, p.y, size, c, r, i, sc, a);
+      drawCellAt(ctx, cellv, p.x, p.y, size, c, r, i, sc, a, ageV);
     }
     if (scene?.over) scene.over(ctx, S); else if (!scene) drawThreadOverlay(ctx, mat, rect, cell, 1, lite);
     // ruled cell lines: a faint stitched guide that fades away when the work is done
@@ -399,7 +450,7 @@ export function createActivity(userParams, env) {
       }
       ctx.stroke(); ctx.restore();
     }
-    if (polar) { // hub
+    if (polar && !tilt) { // hub
       const hr = B.R0 * 0.9; const gr = ctx.createRadialGradient(B.cx - hr * 0.3, B.cy - hr * 0.3, 1, B.cx, B.cy, hr);
       gr.addColorStop(0, shade(bgc, 0.4)); gr.addColorStop(1, shade(bgc, -0.5)); ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(B.cx, B.cy, hr, 0, 6.2832); ctx.fill();
     }
@@ -410,7 +461,7 @@ export function createActivity(userParams, env) {
   // scene context handed to every scene hook: geometry of the board, the surface box around it, the clock and the palette
   const mkS = (ctx, B, rect, cell, fd, o) => ({
     ctx, B, polar, cols, rows, cell, fd, rect, box: o.box ?? curBox ?? rect, area: o.area ?? curArea ?? rect, t: clock, pal, P, bg: bgc,
-    colors: P.palette.map((p) => p.color), lite: !!o.lite, reveal: o.reveal ?? 0, anim: !!o.anim, outcome: !!outcome, sel,
+    colors: P.palette.map((p) => p.color), cells: o.cells, card: !!o.card, lite: !!o.lite, reveal: o.reveal ?? 0, anim: !!o.anim, outcome: !!outcome, sel,
   });
 
   // Symmetry guides: fine glowing axes with small diamond ends, a rosette where the turns meet.
@@ -455,11 +506,13 @@ export function createActivity(userParams, env) {
     first.forEach(([c, r], idx) => {
       const p = cellCentre(B, c, r), sz = cellSize(B, r) * 0.5 * 1.12, main = c === hover.c && r === hover.r;
       ctx.strokeStyle = rgba(pal.accent, main ? 0.95 : 0.55 + 0.25 * k); ctx.lineWidth = Math.max(1.5, (polar ? B.thick : B.cell) * (main ? 0.07 : 0.05));
+      if (tilt) { ctx.save(); tiltT(ctx, B, r); }
       if (polar) {
         const r0 = B.R0 + r * B.thick, r1 = r0 + B.thick, a0 = -Math.PI / 2 + c * step, a1 = a0 + step;
         ctx.beginPath(); ctx.arc(B.cx, B.cy, r1, a0, a1); ctx.arc(B.cx, B.cy, r0, a1, a0, true); ctx.closePath();
       } else roundRectPath(ctx, p.x - sz, p.y - sz, sz * 2, sz * 2, sz * 0.25);
       ctx.fillStyle = rgba(pal.accent, main ? 0.2 : 0.1); ctx.fill(); ctx.stroke(); void idx;
+      if (tilt) ctx.restore();
     });
     ctx.restore();
   };
@@ -514,7 +567,7 @@ export function createActivity(userParams, env) {
     if (outcome && outcome.stars > 0) {
       const gl = 0.5 + 0.5 * ease(p);
       ctx.save(); ctx.strokeStyle = rgba(pal.accent, 0.55 * gl); ctx.lineWidth = Math.max(3, (polar ? B.thick : B.cell) * 0.12); ctx.shadowColor = pal.accent; ctx.shadowBlur = 16 * gl;
-      ctx.beginPath(); if (polar) ctx.arc(B.cx, B.cy, B.R + 2, 0, 6.2832); else ctx.rect(rect.x - 2, rect.y - 2, rect.w + 4, rect.h + 4); ctx.stroke(); ctx.restore();
+      if (tilt) tiltT(ctx, B, tilt.crown); ctx.beginPath(); if (polar) ctx.arc(B.cx, B.cy, B.R + 2, 0, 6.2832); else ctx.rect(rect.x - 2, rect.y - 2, rect.w + 4, rect.h + 4); ctx.stroke(); ctx.restore();
     }
   };
 
@@ -527,50 +580,75 @@ export function createActivity(userParams, env) {
     const INK = cs.ink ?? '#3a2810', CAPC = cs.cap ?? '#6b4a1f', SUBC = cs.sub ?? '#6b5a40';
     // mini reference, drawn with the same material as the work
     const padI = 16 * css / 1.85;
-    let mini, textBox;
-    if (c.column) {
-      const side = Math.min(c.w - padI * 2, c.h - 262 * css / 1.85);
-      mini = { x: c.x + (c.w - side) / 2, y: c.y + padI + 8, w: side, h: side }; textBox = { x: c.x + padI, y: mini.y + side + 8, w: c.w - padI * 2, h: c.y + c.h - (mini.y + side + 8) - padI };
-    } else {
-      const side = c.h - padI * 2 - 4;
-      mini = { x: c.x + padI + 2, y: c.y + padI + 2, w: side, h: side }; textBox = { x: mini.x + side + padI, y: c.y + padI, w: c.x + c.w - (mini.x + side + padI) - padI, h: c.h - padI * 2 };
-    }
-    const mfd = Math.max(5, Math.min(mini.w, mini.h) / (Math.max(cols, rows) * 3.4)) + 2;
-    const mb = fitBoard(mini, mfd);
-    renderBoard(ctx, mb, { cells: target, lite, anim: false, grid: 0.55, fd: mfd, light: 0.8, box: mini, area: mini });
-    // text (caption 13 css px, name 16 css px, numbers 18 css px at the reference scale)
-    const cx0 = c.column ? c.x + c.w / 2 : textBox.x, al = c.column ? 'center' : 'left';
-    // Fluid layout: the card may be short (wide portrait tablets) or narrow (landscape column), so budget the stack: shrink caption and name
-    // together (never below 0.72), then drop the sub line and the palette chips, so nothing overlaps the match meter at any screen size.
-    const nameLines = (() => {
-      const nm = targetName || symName(P.symmetry);
-      return (n) => { const ls = []; let line = ''; ctx.save(); ctx.font = `700 ${Math.round(n)}px Georgia, 'Times New Roman', serif`; for (const word of String(nm).split(' ')) { const nx = line ? `${line} ${word}` : word; if (line && ctx.measureText(nx).width > textBox.w) { ls.push(line); line = word; } else line = nx; } if (line) ls.push(line); ctx.restore(); return ls; };
-    })();
+    // 1.9.1: the card text is fitted FIRST (the legend of the tradition's colours is never dropped while any smaller layout fits): in the narrow
+    // landscape column the small picture shrinks (down to 55 percent) before text is dropped; order of give-ups: picture, then the sub line, then
+    // a second name line, then the name size, and only as the very last resort the legend.
+    const mkBoxes = (side) => {
+      if (c.column) {
+        const m = { x: c.x + (c.w - side) / 2, y: c.y + padI + 8, w: side, h: side };
+        return { mini: m, textBox: { x: c.x + padI, y: m.y + side + 8, w: c.w - padI * 2, h: c.y + c.h - (m.y + side + 8) - padI } };
+      }
+      const side2 = c.h - padI * 2 - 4, m = { x: c.x + padI + 2, y: c.y + padI + 2, w: side2, h: side2 };
+      return { mini: m, textBox: { x: m.x + side2 + padI, y: c.y + padI, w: c.x + c.w - (m.x + side2 + padI) - padI, h: c.h - padI * 2 } };
+    };
+    const side0 = c.column ? Math.min(c.w - padI * 2, c.h - 262 * css / 1.85) : 0;
+    let { mini, textBox } = mkBoxes(side0);
+    const TW = textBox.w;
+    const floorU = g.px(0) * 0.96;   // 11.5 css px in virtual units: text never goes below it
+    const nameLines = (n) => { const nm = targetName || symName(P.symmetry); const ls = []; let line = ''; ctx.save(); ctx.font = `700 ${Math.round(n)}px Georgia, 'Times New Roman', serif`; for (const word of String(nm).split(' ')) { const nx = line ? `${line} ${word}` : word; if (line && ctx.measureText(nx).width > TW) { ls.push(line); line = word; } else line = nx; } if (line) ls.push(line); ctx.restore(); return ls; };
+    const chipName = (pci, pc0) => (proc ? `${pci === penIdx ? 'Pen' : `${bathOrder.indexOf(pci) + 1}`}${pci === penIdx ? ': ' : '. '}${pc0.name}` : pc0.name);
+    const chipRows = (C) => { // rows the wrapped legend needs at this caption size
+      const rad = C * 0.36; ctx.save(); ctx.font = `500 ${Math.round(Math.max(C * 0.92, floorU))}px system-ui, sans-serif`;
+      let x = 0, rows = 1;
+      for (const [pci, pc0] of P.palette.entries()) { const w = ctx.measureText(chipName(pci, pc0)).width + rad * 2 + 14; if (x + w > TW && x > 0) { x = 0; rows++; } x += w + 6; }
+      ctx.restore(); return rows;
+    };
     const fitLabel = (ctx2, str, x, y, size, color, align, weight, maxW) => {
       ctx2.save(); ctx2.font = `${weight} ${Math.round(size)}px system-ui, sans-serif`;
       const w = ctx2.measureText(String(str)).width; ctx2.restore();
       g.label(ctx2, str, x, y, w > maxW ? size * maxW / w : size, color, align, weight);
     };
-    let fs = 1, showSub = !!targetName, showChips = true, maxLines = 2;
-    const floorU = g.px(0) * 0.96;   // 11.5 css px in virtual units: text never goes below it
-    const budget = () => { const C = Math.max(g.px(24) * fs, floorU), N = Math.max(g.px(30) * fs, floorU); const nl = Math.min(maxLines, nameLines(N).length); return C * 0.6 + C * 1.25 + (nl - 0.2) * N * 1.15 + N * 0.6 + (showSub ? C * 1.2 : 0) + Math.max(16, g.px(20)) + C * 1.5 + (showChips ? C * 1.6 : 0); };
-    while (budget() > textBox.h && fs > 0.72) fs -= 0.05;
-    if (budget() > textBox.h && showChips) { showChips = false; while (budget() > textBox.h && fs > 0.72) fs -= 0.05; }
-    if (budget() > textBox.h && showSub) showSub = false;
-    if (budget() > textBox.h) maxLines = 1;
+    const budget = (fs0, showSub0, maxLines0, showChips0) => { const C = Math.max(g.px(24) * fs0, floorU), N = Math.max(g.px(30) * fs0, floorU); const nl = Math.min(maxLines0, nameLines(N).length); return C * 0.6 + C * 1.25 + (nl - 0.2) * N * 1.15 + N * 0.6 + (showSub0 ? C * 1.2 : 0) + Math.max(16, g.px(20)) + C * 1.5 + (showChips0 ? C * 1.1 + (chipRows(C) - 1) * C * 1.15 + C * 1.0 : 0); };
+    const cfgs = [[!!targetName, 3], [false, 3], [false, 2], [false, 1]];
+    let fs = 0.72, showSub = false, maxLines = 1, showChips = true, fitted = false;
+    const sides = c.column ? [1, 0.9, 0.8, 0.7, 0.62, 0.55, 0.48, 0.42].map((k) => side0 * k) : [0];
+    search: for (const sd of sides) {
+      ({ mini, textBox } = mkBoxes(sd));
+      for (const [sub, ml] of cfgs) for (let f = 1; f >= 0.72 - 1e-9; f -= 0.05) if (budget(f, sub, ml, true) <= textBox.h) { fs = f; showSub = sub; maxLines = ml; fitted = true; break search; }
+    }
+    if (!fitted) { fs = 0.72; showChips = budget(0.72, false, 1, true) <= textBox.h + 2 * floorU ? true : false; }
+    const mfd = Math.max(5, Math.min(mini.w, mini.h) / (Math.max(cols, rows) * 3.4)) + 2;
+    const mb = fitBoard(mini, mfd);
+    renderBoard(ctx, mb, { cells: target, lite, anim: false, grid: 0.55, fd: mfd, light: 0.8, box: mini, area: mini, card: true });
+    // text (caption 13 css px, name 16 css px, numbers 18 css px at the reference scale)
+    const cx0 = c.column ? c.x + c.w / 2 : textBox.x, al = c.column ? 'center' : 'left';
     const CAP = Math.max(g.px(24) * fs, floorU), NAME = Math.max(g.px(30) * fs, floorU);
     let ty = textBox.y + CAP * 0.6;
-    ctx.save(); try { ctx.letterSpacing = '3px'; } catch (e) { /* older canvas */ }
-    g.label(ctx, scene?.card?.label ?? 'REFERENCE', cx0, ty, CAP, CAPC, al, '700');
-    try { ctx.letterSpacing = '0px'; } catch (e) { /* ignore */ }
-    ctx.restore();
+    { // 1.9.0: the heading is measured WITH its letter spacing (3 px as before); if it does not fit the card text box (narrow landscape column) the
+      // spacing and then the size shrink until it does, and the trailing letter space is compensated when centred. A heading that fits draws exactly as in 1.8.
+      const head = String(scene?.card?.label ?? 'REFERENCE'); let hs = CAP, sp = 3, hw;
+      ctx.save();
+      const meas = () => { ctx.font = `700 ${Math.round(hs)}px system-ui, sans-serif`; try { ctx.letterSpacing = `${sp}px`; } catch (e) { /* older canvas */ } hw = ctx.measureText(head).width; };
+      meas();
+      if (hw <= textBox.w - 2) { ctx.fillStyle = CAPC; ctx.textAlign = al; ctx.textBaseline = 'middle'; ctx.fillText(head, cx0, ty); }
+      else {
+        while (hw > textBox.w - 2 && sp > 0) { sp -= 1; meas(); }
+        while (hw > textBox.w - 2 && hs > floorU * 0.8) { hs -= 0.5; meas(); }
+        ctx.fillStyle = CAPC; ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
+        const hx = al === 'center' ? clamp(cx0 - (hw - sp) / 2, textBox.x, Math.max(textBox.x, textBox.x + textBox.w - hw)) : textBox.x;
+        ctx.fillText(head, hx, ty);
+      }
+      try { ctx.letterSpacing = '0px'; } catch (e) { /* ignore */ }
+      ctx.restore();
+    }
     ty += CAP * 1.25;
     const name = targetName || symName(P.symmetry);
     ctx.font = `700 ${Math.round(NAME)}px Georgia, 'Times New Roman', serif`;
     const lines = [];
     { let line = ''; for (const word of String(name).split(' ')) { const nx = line ? `${line} ${word}` : word; if (line && ctx.measureText(nx).width > textBox.w) { lines.push(line); line = word; } else line = nx; } if (line) lines.push(line); }
-    ctx.save(); ctx.font = `700 ${Math.round(NAME)}px Georgia, 'Times New Roman', serif`; ctx.fillStyle = INK; ctx.textAlign = al; ctx.textBaseline = 'middle';
-    lines.slice(0, maxLines).forEach((l, i) => ctx.fillText(l, cx0, ty + i * NAME * 1.15));
+    while (lines.length > maxLines) lines.splice(maxLines - 1, 2, `${lines[maxLines - 1]} ${lines[maxLines]}`);   // 1.9.1: never cut words off the name: the overflow joins the last line, which then shrinks to fit
+    ctx.save(); ctx.fillStyle = INK; ctx.textAlign = al; ctx.textBaseline = 'middle';
+    lines.slice(0, maxLines).forEach((l, i) => { let ns = NAME; ctx.font = `700 ${Math.round(ns)}px Georgia, 'Times New Roman', serif`; const w0 = ctx.measureText(l).width; if (w0 > textBox.w) { ns = Math.max(floorU * 0.8, NAME * textBox.w / w0); ctx.font = `700 ${Math.round(ns)}px Georgia, 'Times New Roman', serif`; } ctx.fillText(l, cx0, ty + i * NAME * 1.15, textBox.w); });
     ctx.restore();
     ty += (Math.min(maxLines, lines.length) - 0.2) * NAME * 1.15;
     if (targetName && showSub) { fitLabel(ctx, symName(P.symmetry), cx0, ty + CAP * 0.4, CAP, SUBC, al, '500', textBox.w); ty += CAP * 1.2; }
@@ -579,10 +657,11 @@ export function createActivity(userParams, env) {
     if (showChips) {
       let px0 = textBox.x, py0 = ty + CAP * 0.9; const rad = CAP * 0.36;
       ctx.save(); ctx.font = `500 ${Math.round(Math.max(CAP * 0.92, floorU))}px system-ui, sans-serif`;
-      for (const pc of P.palette) {
+      for (const [pci, pc0] of P.palette.entries()) {
+        const pc = proc ? { ...pc0, name: chipName(pci, pc0) } : pc0;
         const w = ctx.measureText(pc.name).width + rad * 2 + 14;
         if (px0 + w > textBox.x + textBox.w && px0 > textBox.x) { px0 = textBox.x; py0 += CAP * 1.15; }
-        if (py0 + CAP * 0.5 > mTop) break;
+        if (py0 + CAP * 0.5 > mTop + CAP * 0.7) break;
         ctx.fillStyle = pc.color; ctx.strokeStyle = 'rgba(60,40,10,0.55)'; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.arc(px0 + rad, py0, rad, 0, 6.2832); ctx.fill(); ctx.stroke();
         ctx.fillStyle = SUBC; ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillText(pc.name, px0 + rad * 2 + 6, py0 + 1);
         px0 += w + 6;
@@ -654,6 +733,13 @@ export function createActivity(userParams, env) {
         ctx.strokeStyle = primary ? shade(bs.primary ?? pal.accent, 0.3) : (bs.edge ?? pal.dim); ctx.lineWidth = 2; ctx.stroke();
         g.label(ctx, btn.label, cx, cy + 1, Math.min(g.px(26), btn.h * 0.46), primary ? (bs.primaryText ?? '#1b1b1b') : (bs.text ?? pal.ink), 'center', '700');
       }
+      if (proc && btn.id.startsWith('color:')) { // pen-dye: a nib on the pen, a bath number on every dye, a dimmed padlock on baths not open yet
+        const i = Number(btn.id.slice(6)), isPen = i === penIdx, locked = !isPen && !bathOpen(i), br = Math.max(8, btn.w * 0.16), bxx = btn.x + br * 1.05, byy = btn.y + br * 1.05;
+        if (locked) { roundRectPath(ctx, btn.x, btn.y, btn.w, btn.h, 12 * css); ctx.fillStyle = 'rgba(14,10,8,0.58)'; ctx.fill(); const lw = btn.w * 0.3, lh = btn.w * 0.22; ctx.strokeStyle = '#f0e2c0'; ctx.lineWidth = Math.max(2, btn.w * 0.05); ctx.beginPath(); ctx.arc(cx, cy - lh * 0.45, lw * 0.32, Math.PI, 0); ctx.stroke(); ctx.fillStyle = '#f0e2c0'; roundRectPath(ctx, cx - lw / 2, cy - lh * 0.45, lw, lh, 3); ctx.fill(); ctx.fillStyle = '#3a2a18'; ctx.beginPath(); ctx.arc(cx, cy + lh * 0.05, Math.max(1.5, lw * 0.08), 0, 6.2832); ctx.fill(); }
+        ctx.fillStyle = locked ? '#8a7f6c' : '#f6ecd0'; ctx.strokeStyle = '#2a1a10'; ctx.lineWidth = 1.6; ctx.beginPath(); ctx.arc(bxx, byy, br, 0, 6.2832); ctx.fill(); ctx.stroke();
+        if (isPen) { ctx.fillStyle = '#2a1a10'; ctx.beginPath(); ctx.moveTo(bxx - br * 0.35, byy - br * 0.45); ctx.lineTo(bxx + br * 0.35, byy - br * 0.45); ctx.lineTo(bxx, byy + br * 0.55); ctx.closePath(); ctx.fill(); }
+        else g.label(ctx, String(bathOrder.indexOf(i) + 1), bxx, byy + 1, br * 1.35, '#2a1a10', 'center', '800');
+      }
       ctx.restore();
     }
   };
@@ -680,7 +766,7 @@ export function createActivity(userParams, env) {
   const drawTool = (ctx, S) => {
     if (!scene?.tool || !toolInit) return;
     const [name, o] = Array.isArray(scene.tool) ? scene.tool : [scene.tool, {}];
-    const T = { x: toolX, y: toolY, a: clock - toolHit, t: clock, col: P.palette[Math.min(sel.c, P.palette.length - 1)].color, u: S.cell, ...o };
+    const T = { x: toolX, y: toolY, a: clock - toolHit, t: clock, col: P.palette[Math.min(sel.c, P.palette.length - 1)].color, u: S.cell, pen: proc && sel.c === penIdx, dye: proc && sel.c !== penIdx, ...o };
     ctx.save();
     if (outcome) ctx.globalAlpha = Math.max(0, 1 - (clock - revealAt) * 2);
     if (ctx.globalAlpha > 0.02) toolOf(name)(ctx, S, T, o);
@@ -691,7 +777,7 @@ export function createActivity(userParams, env) {
     init,
     point(id) {
       if (!layout) return null;
-      if (/^\d+,\d+$/.test(id)) { const [c, r] = id.split(',').map(Number); return cellCentre(layout.board, c, r); }
+      if (/^\d+,\d+$/.test(id)) { const [c, r] = id.split(',').map(Number); return cellTarget(layout.board, c, r); }
       const btn = buttons(layout).find((x) => x.id === id);
       return btn ? { x: btn.x + btn.w / 2, y: btn.y + btn.h / 2 } : null;
     },
@@ -728,7 +814,7 @@ export function createActivity(userParams, env) {
       }
       const hit = buttons(layout).find((x) => p.x >= x.x && p.x <= x.x + x.w && p.y >= x.y && p.y <= x.y + x.h);
       if (!hit) return;
-      if (hit.id.startsWith('color:')) { sel.c = Number(hit.id.slice(6)); sfx.color(sel.c); }
+      if (hit.id.startsWith('color:')) { const ci = Number(hit.id.slice(6)); if (proc && !bathOpen(ci)) { toast = `${nameOf(bathOrder.find((b, j) => j < bathOrder.indexOf(ci) && !bathDone(b)))} comes first: finish that bath, then ${nameOf(ci)}.`; toastAt = clock; sfx.undo(); } else { sel.c = ci; sfx.color(sel.c); } }
       else if (hit.id.startsWith('motif:')) { sel.m = Number(hit.id.slice(6)); sfx.motif(sel.m + 1); }
       else if (hit.id === 'undo') { if (undoStack.length) { board = undoStack.pop(); sfx.undo(); } }
       else if (hit.id === 'clear') { undoStack.push(board.map((x) => ({ ...x }))); board = empty(); sfx.clear(); }
@@ -744,6 +830,13 @@ export function createActivity(userParams, env) {
       attractT += dt;
       if (attractT < 0.2) return; attractT = 0;
       const script = target ?? artDesign();
+      if (proc) { // outline everything with the pen first, then each dye bath in its order
+        const step = (i, to) => { sel = { m: to.m, c: to.c }; const c = i % cols, r = Math.floor(i / cols); let k = 0; for (const [x, y] of orbitOf(c, r)) { const j = at(x, y); if (script[j].m === -1) continue; board[j] = { m: script[j].m, c: to.c }; landAt[j] = clock + k * 0.05; eraseAt[j] = -1e9; k++; } hover = { c, r }; hoverAt = clock; toolHit = clock; if (clock - attractSndAt >= 0.38) { attractSndAt = clock; sfx.paint(sel.c, 0.5); } };
+        for (let i = 0; i < total; i++) if (script[i].m !== -1 && board[i].m === -1) return step(i, { m: script[i].m, c: penIdx });
+        for (const idx of bathOrder) for (let i = 0; i < total; i++) if (script[i].m !== -1 && script[i].c === idx && board[i].c !== idx) return step(i, { m: script[i].m, c: idx });
+        for (let i = 0; i < total; i++) if (script[i].m !== -1 && (board[i].m !== script[i].m || board[i].c !== script[i].c)) return step(i, { m: script[i].m, c: script[i].c });
+        finish(3, 'Pattern complete', 'The computer copied the design', score()); return;
+      }
       for (let i = 0; i < total; i++) {
         const a = board[i], t = script[i];
         if (t.m !== -1 && (a.m !== t.m || a.c !== t.c)) {
@@ -779,7 +872,11 @@ export function createActivity(userParams, env) {
       ctx.save();
       if (lift > 0) { ctx.translate(bc.x, bc.y); const s = 1 + 0.012 * Math.sin(Math.PI * Math.min(1, rp * 1.0)) + 0.008 * rp; ctx.scale(s, s); ctx.translate(-bc.x, -bc.y); }
       renderBoard(ctx, b, { cells: board, lite: false, anim: true, grid: 1 - rp, fd: L.fd, reveal: lift, guide: 1 - rp });
-      drawGuides(ctx, b, (1 - rp) * (revealAt >= 0 ? 1 : 1));
+      if (tilt) { // the symmetry guides lie on the tilted disc: crown part raised, brim part flat
+        const rc = b.R0 + tilt.crown * b.thick, ga = (1 - rp);
+        ctx.save(); tiltT(ctx, b, 0); ctx.beginPath(); ctx.arc(b.cx, b.cy, rc, 0, 6.2832); ctx.clip(); drawGuides(ctx, b, ga); ctx.restore();
+        ctx.save(); tiltT(ctx, b, tilt.crown); ctx.beginPath(); ctx.rect(b.cx - b.R - 12, b.cy - b.R - 12, b.R * 2 + 24, b.R * 2 + 24); ctx.arc(b.cx, b.cy, rc, 0, 6.2832, true); ctx.clip('evenodd'); drawGuides(ctx, b, ga); ctx.restore();
+      } else drawGuides(ctx, b, (1 - rp) * (revealAt >= 0 ? 1 : 1));
       drawGhosts(ctx, b);
       drawLandingFx(ctx, b);
       if (revealT >= 0) drawReveal(ctx, b, revealT);
@@ -794,6 +891,12 @@ export function createActivity(userParams, env) {
       if (scene?.tool) { ctx.save(); ctx.beginPath(); ctx.rect(area.x, area.y, area.w, area.h); ctx.clip(); drawTool(ctx, curS ?? mkS(ctx, b, { x: b.x, y: b.y, w: b.w, h: b.h }, b.cell ?? b.thick, L.fd, { box: L.boardBox })); ctx.restore(); }
       drawCard(ctx, g, L);
       drawControls(ctx, g, L);
+      if (proc && toast && clock - toastAt < 3.2) { // the reason a stroke was refused, over the work
+        const k = clamp(1 - (clock - toastAt - 2.4) / 0.8, 0, 1), fs = Math.max(g.px(24), 13), bb = L.boardBox;
+        ctx.save(); ctx.font = `700 ${Math.round(fs)}px system-ui, sans-serif`; const tw = Math.min(bb.w - 16, ctx.measureText(toast).width + fs * 1.6), th = fs * 2.1, tx = bb.x + bb.w / 2 - tw / 2, ty = bb.y + 10;
+        ctx.globalAlpha = k; roundRectPath(ctx, tx, ty, tw, th, th / 2); ctx.fillStyle = 'rgba(32,20,12,0.9)'; ctx.fill(); ctx.strokeStyle = pal.accent; ctx.lineWidth = 2; ctx.stroke();
+        ctx.fillStyle = '#fbf0d6'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(toast, tx + tw / 2, ty + th / 2 + 1, tw - fs * 0.8); ctx.restore();
+      }
     },
     // A large rendering of the finished craft for the shell's title screen: the work lying on the table with its tool beside it.
     titleArt(g, rect, t) {
@@ -848,11 +951,15 @@ export function createActivity(userParams, env) {
     },
     status() {
       const r = score();
-      return { score: r.score, max: 100, label: P.mode === 'copy' ? 'Match the design using the same symmetry' : 'Make a balanced design' };
+      return { score: r.score, max: 100, label: proc ? (clock - toastAt < 3.2 && toast ? toast : 'Outline with the pen, then dye in bath order') : P.mode === 'copy' ? 'Match the design using the same symmetry' : 'Make a balanced design' };
     },
     result: () => done,
     hint() {
       if (!target) return 'Use two or three colours and at least two motifs for a richer design.';
+      if (proc) {
+        for (let i = 0; i < total; i++) if (target[i].m !== -1 && board[i].m === -1) { hintCell = i; hintAt = clock; return `Draw the outline with the pen at ${polar ? `ray ${(i % cols) + 1}, ring ${Math.floor(i / cols) + 1}` : `column ${(i % cols) + 1}, row ${Math.floor(i / cols) + 1}`}`; }
+        for (const idx of bathOrder) for (let i = 0; i < total; i++) if (target[i].m !== -1 && target[i].c === idx && board[i].c !== idx) { hintCell = i; hintAt = clock; return `Bath ${bathOrder.indexOf(idx) + 1}: dye ${nameOf(idx)} at ${polar ? `ray ${(i % cols) + 1}, ring ${Math.floor(i / cols) + 1}` : `column ${(i % cols) + 1}, row ${Math.floor(i / cols) + 1}`}`; }
+      }
       for (let i = 0; i < total; i++) { const a = board[i], t = target[i]; if (t.m !== -1 && (a.m !== t.m || a.c !== t.c)) { hintCell = i; hintAt = clock; return polar ? `Check ray ${(i % cols) + 1}, ring ${Math.floor(i / cols) + 1} (ring 1 is the centre)` : `Check column ${(i % cols) + 1}, row ${Math.floor(i / cols) + 1}`; } }
       return 'Everything matches: press Check.';
     },

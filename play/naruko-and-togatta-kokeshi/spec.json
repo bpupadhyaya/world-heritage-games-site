@@ -1,0 +1,39 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "kokeshi",
+  "scene": "onsen",
+  "rows": 14,
+  "steps": 16,
+  "bands": 6,
+  "clay": "#ecd29c",
+  "glazes": [
+   {
+    "name": "Bare wood",
+    "color": "#ecd29c"
+   },
+   {
+    "name": "Red lac",
+    "color": "#c4302b"
+   },
+   {
+    "name": "Black lac",
+    "color": "#17110f"
+   },
+   {
+    "name": "Leaf green",
+    "color": "#2f7a46"
+   }
+  ],
+  "glazePattern": [
+   1,
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "variation": 0.03
+ }
+}

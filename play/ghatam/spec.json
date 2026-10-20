@@ -1,0 +1,193 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "ghatam",
+  "lanes": [
+   {
+    "name": "Gumki",
+    "hz": 140,
+    "timbre": "bass",
+    "color": "#d9622b"
+   },
+   {
+    "name": "Nam",
+    "hz": 900,
+    "timbre": "rim",
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "Tha",
+    "hz": 620,
+    "timbre": "bell",
+    "color": "#58b878"
+   },
+   {
+    "name": "Thom",
+    "hz": 300,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Base",
+    "hz": 170,
+    "timbre": "bass",
+    "color": "#c8452f"
+   }
+  ],
+  "songs": [
+   {
+    "id": "syllables",
+    "name": "Syllable pattern, 4 beats",
+    "bpm": 88,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The pot speaks in syllables.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Thom"
+     },
+     {
+      "beat": 1,
+      "lane": "Tha"
+     },
+     {
+      "beat": 2,
+      "lane": "Thom"
+     },
+     {
+      "beat": 3,
+      "lane": "Gumki"
+     },
+     {
+      "beat": 4,
+      "lane": "Thom"
+     },
+     {
+      "beat": 5,
+      "lane": "Tha"
+     },
+     {
+      "beat": 6,
+      "lane": "Nam"
+     },
+     {
+      "beat": 7,
+      "lane": "Gumki"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "ringing-run",
+    "name": "Ringing run, 4 beats",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Quick strokes on the bright shoulder.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Tha"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Tha"
+     },
+     {
+      "beat": 1,
+      "lane": "Thom"
+     },
+     {
+      "beat": 2,
+      "lane": "Tha"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Nam"
+     },
+     {
+      "beat": 3,
+      "lane": "Gumki"
+     },
+     {
+      "beat": 4,
+      "lane": "Tha"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Tha"
+     },
+     {
+      "beat": 5,
+      "lane": "Thom"
+     },
+     {
+      "beat": 6,
+      "lane": "Tha"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Nam"
+     },
+     {
+      "beat": 7,
+      "lane": "Base"
+     }
+    ]
+   },
+   {
+    "id": "deep-answer",
+    "name": "Deep answer, 4 beats",
+    "bpm": 80,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The low notes answer the high ones.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Gumki"
+     },
+     {
+      "beat": 1,
+      "lane": "Thom"
+     },
+     {
+      "beat": 2,
+      "lane": "Base"
+     },
+     {
+      "beat": 3,
+      "lane": "Thom"
+     },
+     {
+      "beat": 4,
+      "lane": "Gumki"
+     },
+     {
+      "beat": 5,
+      "lane": "Tha"
+     },
+     {
+      "beat": 6,
+      "lane": "Base"
+     },
+     {
+      "beat": 7,
+      "lane": "Nam"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "slug": "cigogo-iron-bell",
+ "title": "Cigogo (forged iron bells)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

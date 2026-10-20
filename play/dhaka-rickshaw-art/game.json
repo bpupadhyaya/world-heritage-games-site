@@ -1,0 +1,13 @@
+{
+ "slug": "dhaka-rickshaw-art",
+ "title": "Dhaka rickshaw art",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

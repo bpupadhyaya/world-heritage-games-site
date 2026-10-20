@@ -1,0 +1,13 @@
+{
+ "slug": "agaseke-basket-weaving",
+ "title": "Agaseke basket weaving",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

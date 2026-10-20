@@ -1,0 +1,13 @@
+{
+ "slug": "matepe",
+ "title": "Matepe (thumb piano)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

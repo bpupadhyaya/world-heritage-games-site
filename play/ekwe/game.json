@@ -1,0 +1,13 @@
+{
+ "slug": "ekwe",
+ "title": "Ekwe (box slit drum)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

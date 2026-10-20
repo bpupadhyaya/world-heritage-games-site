@@ -1,0 +1,13 @@
+{
+ "slug": "highland-sword-dance",
+ "title": "Highland Sword Dance",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

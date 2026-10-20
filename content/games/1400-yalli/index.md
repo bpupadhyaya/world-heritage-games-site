@@ -40,12 +40,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Attan circle dance](../../games/234-attan-circle-dance/index.md)
 - [Kochari](../../games/1315-kochari/index.md)
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md)
 - [Gumboot dance rhythm](../../games/123-gumboot-dance-rhythm/index.md)
 - [Balkan Kolo](../../games/134-balkan-kolo/index.md)
 - [Tahtib](../../games/157-tahtib/index.md)
-- [Eskista](../../games/188-eskista/index.md)
 
 ## Sources
 

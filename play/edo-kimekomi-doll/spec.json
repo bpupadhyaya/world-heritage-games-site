@@ -1,0 +1,39 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "kimekomi",
+  "scene": "kimekomi",
+  "rows": 15,
+  "steps": 16,
+  "bands": 6,
+  "clay": "#ecd7b0",
+  "glazes": [
+   {
+    "name": "Red cloth",
+    "color": "#b3232f"
+   },
+   {
+    "name": "Gold brocade",
+    "color": "#d9a838"
+   },
+   {
+    "name": "Indigo cloth",
+    "color": "#25396e"
+   },
+   {
+    "name": "White",
+    "color": "#f6efe2"
+   }
+  ],
+  "glazePattern": [
+   2,
+   0,
+   0,
+   1,
+   3,
+   3
+  ],
+  "variation": 0.03
+ }
+}

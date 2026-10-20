@@ -7,4 +7,4 @@ path: "/data/"
 
 Download the public fields of every entry: [JSON](../../data/encyclopedia.json) · [CSV](../../data/encyclopedia.csv) · [licence note](../../data/LICENSE.txt)
 
-1,147 entries. Text is CC BY-SA 4.0; photographs keep their own licences.
+1,340 entries. Text is CC BY-SA 4.0; photographs keep their own licences.

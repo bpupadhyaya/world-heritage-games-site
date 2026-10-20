@@ -1,0 +1,219 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "udu",
+  "lanes": [
+   {
+    "name": "Side hole",
+    "hz": 100,
+    "timbre": "bass",
+    "color": "#ff7a50"
+   },
+   {
+    "name": "Neck",
+    "hz": 160,
+    "timbre": "bass",
+    "color": "#c9a0ff"
+   },
+   {
+    "name": "Belly",
+    "hz": 380,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Shoulder",
+    "hz": 800,
+    "timbre": "rim",
+    "color": "#4fc6d6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "pot-pulse",
+    "name": "Pot pulse, 4 beats",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Bass on the beat, taps between.",
+    "watch": true,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Side hole"
+     },
+     {
+      "beat": 1,
+      "lane": "Belly"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Belly"
+     },
+     {
+      "beat": 2,
+      "lane": "Side hole"
+     },
+     {
+      "beat": 3,
+      "lane": "Belly"
+     },
+     {
+      "beat": 4,
+      "lane": "Side hole"
+     },
+     {
+      "beat": 5,
+      "lane": "Belly"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Belly"
+     },
+     {
+      "beat": 6,
+      "lane": "Side hole"
+     },
+     {
+      "beat": 7,
+      "lane": "Belly"
+     }
+    ]
+   },
+   {
+    "id": "neck-answer",
+    "name": "Neck answer, 4 beats",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The neck answers the side hole.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Side hole"
+     },
+     {
+      "beat": 1,
+      "lane": "Neck"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Belly"
+     },
+     {
+      "beat": 2,
+      "lane": "Side hole"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Neck"
+     },
+     {
+      "beat": 3,
+      "lane": "Belly"
+     },
+     {
+      "beat": 4,
+      "lane": "Side hole"
+     },
+     {
+      "beat": 5,
+      "lane": "Neck"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Belly"
+     },
+     {
+      "beat": 6,
+      "lane": "Side hole"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Neck"
+     },
+     {
+      "beat": 7,
+      "lane": "Neck"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Belly"
+     }
+    ]
+   },
+   {
+    "id": "dry-clicks",
+    "name": "Dry clicks, 4 beats",
+    "bpm": 90,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Clicks on the shoulder mark the bar.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Shoulder"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Shoulder"
+     },
+     {
+      "beat": 1,
+      "lane": "Side hole"
+     },
+     {
+      "beat": 2,
+      "lane": "Belly"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Neck"
+     },
+     {
+      "beat": 3,
+      "lane": "Side hole"
+     },
+     {
+      "beat": 4,
+      "lane": "Shoulder"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Shoulder"
+     },
+     {
+      "beat": 5,
+      "lane": "Side hole"
+     },
+     {
+      "beat": 6,
+      "lane": "Belly"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Belly"
+     },
+     {
+      "beat": 7,
+      "lane": "Neck"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Side hole"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,181 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "attan",
+  "lanes": [
+   {
+    "name": "Dhol",
+    "hz": 100,
+    "timbre": "bass",
+    "color": "#d9622b"
+   },
+   {
+    "name": "Step",
+    "hz": 110,
+    "timbre": "stomp",
+    "color": "#58b878"
+   },
+   {
+    "name": "Clap",
+    "hz": 1500,
+    "timbre": "clap",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Hop",
+    "hz": 90,
+    "timbre": "stomp",
+    "color": "#4fa8d6"
+   },
+   {
+    "name": "Spin",
+    "hz": 700,
+    "timbre": "clap",
+    "color": "#b86ad6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "attan-round",
+    "name": "Round, 4 beats",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Attan, Afghanistan",
+    "note": "A teaching figure in the style of the opening rounds: drum, step, clap, step.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dhol"
+     },
+     {
+      "beat": 1,
+      "lane": "Step"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Clap"
+     },
+     {
+      "beat": 2,
+      "lane": "Dhol"
+     },
+     {
+      "beat": 3,
+      "lane": "Step"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Clap"
+     },
+     {
+      "beat": 4,
+      "lane": "Dhol"
+     },
+     {
+      "beat": 5,
+      "lane": "Step"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Hop"
+     },
+     {
+      "beat": 6,
+      "lane": "Dhol"
+     },
+     {
+      "beat": 7,
+      "lane": "Clap"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Spin"
+     }
+    ]
+   },
+   {
+    "id": "attan-quick",
+    "name": "Quickening round",
+    "bpm": 124,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Attan, Afghanistan",
+    "note": "The drum quickens and the dancers spin.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dhol"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Step"
+     },
+     {
+      "beat": 1,
+      "lane": "Clap"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Hop"
+     },
+     {
+      "beat": 2,
+      "lane": "Dhol"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Step"
+     },
+     {
+      "beat": 3,
+      "lane": "Clap"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Spin"
+     },
+     {
+      "beat": 4,
+      "lane": "Dhol"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Hop"
+     },
+     {
+      "beat": 5,
+      "lane": "Clap"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Spin"
+     },
+     {
+      "beat": 6,
+      "lane": "Dhol"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Step"
+     },
+     {
+      "beat": 7,
+      "lane": "Hop"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Spin"
+     }
+    ]
+   }
+  ]
+ }
+}

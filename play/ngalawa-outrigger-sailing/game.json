@@ -1,0 +1,13 @@
+{
+ "slug": "ngalawa-outrigger-sailing",
+ "title": "Ngalawa Sailing",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

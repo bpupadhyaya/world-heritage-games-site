@@ -41,11 +41,11 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 ## Related entries
 
 - [Lapta](../../games/375-lapta/index.md)
+- [Vanka-vstanka](../../games/9264-vanka-vstanka/index.md)
 - [Kiiking](../../games/66-kiiking/index.md)
 - [Nail driving](../../games/82-nail-driving/index.md)
 - [Cymbergaj](../../games/377-cymbergaj/index.md)
 - [Nohejbal](../../games/378-nohejbal/index.md)
-- [Pesapallo](../../games/484-pesapallo/index.md)
 
 ## Sources
 

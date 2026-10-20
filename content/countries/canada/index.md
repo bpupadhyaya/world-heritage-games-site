@@ -1,16 +1,16 @@
 ---
 title: "Canada"
-description: "14 traditions from Canada."
+description: "16 traditions from Canada."
 path: "/countries/canada/"
-count: 14
+count: 16
 ---
 # Canada
 
-14 traditions from Canada.
+16 traditions from Canada.
 
 
 
-14 entries.
+16 entries.
 
 - [Axe throwing](../../games/442-axe-throwing/index.md): Canada, United States; Dexterity and skill games; Modern Heritage
 - [Barrel racing](../../games/439-barrel-racing/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
@@ -25,4 +25,6 @@ count: 14
 - [Shinny](../../games/725-shinny/index.md): United States, Canada; Street and playground games; Modern Heritage
 - [Sled dog race](../../games/62-sled-dog-race/index.md): United States, Canada; Racing; Age of Contact and Craft
 - [Tractor pull](../../games/440-tractor-pull/index.md): United States, Canada; Puzzles and mind games; Modern Heritage
+- [Voyageur canoe racing](../../games/6366-voyageur-canoe-racing/index.md): Canada; Water and winter sports; Modern Heritage
 - [Klondike](../../games/22325-klondike/index.md): United States, Canada; Card games; Age of Contact and Craft
+- [Ugly stick](../../games/6320-ugly-stick/index.md): Canada; Musical instruments; Living Traditions

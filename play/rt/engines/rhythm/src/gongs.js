@@ -2,10 +2,12 @@
 // and the accompanying drum. Cues are rings closing on each boss; the cycle cursor sweeps around the big gong.
 import { clamp, mix, rgba, lighter, darker, glow, rrect, grain, hgrad, vgrad, rgrad, ell, circ, TAU, gong as gongArt } from './art.js';
 import { makeBox, circleSpot, finishSpots, hitSpots, pill } from './stagekit.js';
+import { stageIdFor } from './registry.js';
 import { stick, createPlayer } from './performer.js';
 import { setting } from './set.js';
 
-export function gongId(key) { return /kulintang|kolintang|kolintan/.test(String(key || '').toLowerCase()) ? 'kulintang' : 'gamelan'; }
+export const GONG_IDS = [[/kulintang|kolintang|kolintan/, 'kulintang']];
+export const gongId = (key) => stageIdFor('circle', key);   // routes live in registry.js; new gongs: registerGongStage
 
 export function createGongStage(id, S, lanes, P) {
   const N = lanes.length;

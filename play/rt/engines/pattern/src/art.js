@@ -47,9 +47,9 @@ export function pickMaterial(param, title = '', summary = '') {
 }
 
 // ---- motif geometry ----------------------------------------------------------------------------------------------------------
-const FILLED = new Set(['solid', 'diamond', 'dot', 'cross', 'triangle', 'stripe-h', 'stripe-v', 'checker', 'leaf', 'hexagon', 'arch', 'star']);
+const FILLED = new Set(['solid', 'diamond', 'dot', 'cross', 'triangle', 'stripe-h', 'stripe-v', 'checker', 'leaf', 'hexagon', 'arch', 'star', 'flower', 'bird', 'fish', 'petal', 'kalka']);
 export const isFilled = (kind) => FILLED.has(kind);
-const LW = { ring: 0.12, wave: 0.14, zigzag: 0.14, spiral: 0.12, fret: 0.13, xstitch: 0.16, knot: 0.18 };
+const LW = { ring: 0.12, wave: 0.14, zigzag: 0.14, spiral: 0.12, fret: 0.13, xstitch: 0.16, knot: 0.18, vine: 0.09 };
 export const lineWidthOf = (kind, s) => Math.max(3, s * (LW[kind] ?? 0.12));
 // Builds the path of one stamp (no fill or stroke). Returns nothing; use isFilled(kind) and lineWidthOf(kind, s).
 export function motifPath(ctx, kind, x, y, s) {
@@ -75,6 +75,42 @@ export function motifPath(ctx, kind, x, y, s) {
     case 'arch': ctx.moveTo(x - h * 0.7, y + h * 0.8); ctx.lineTo(x - h * 0.7, y - h * 0.1); ctx.arc(x, y - h * 0.1, h * 0.7, Math.PI, 0); ctx.lineTo(x + h * 0.7, y + h * 0.8); ctx.closePath(); break;
     case 'xstitch': ctx.moveTo(x - h * 0.6, y - h * 0.6); ctx.lineTo(x + h * 0.6, y + h * 0.6); ctx.moveTo(x + h * 0.6, y - h * 0.6); ctx.lineTo(x - h * 0.6, y + h * 0.6); break;
     case 'star': { const pts = []; for (let i = 0; i < 8; i++) { const a = (i * Math.PI) / 4 - Math.PI / 2, r = i % 2 ? h * 0.38 : h * 0.9; pts.push([x + Math.cos(a) * r, y + Math.sin(a) * r]); } poly(pts); break; }
+    // 1.9.0 outline-style motifs of pen-drawn cloth: a blossom of six petals round a seed, a perched bird facing right, a vine with leaves
+    case 'flower': {
+      for (let k = 0; k < 6; k++) { const a = (k * Math.PI) / 3 - Math.PI / 2, ax = Math.cos(a), ay = Math.sin(a), l = Math.cos(a - 0.55), m = Math.sin(a - 0.55), l2 = Math.cos(a + 0.55), m2 = Math.sin(a + 0.55);
+        ctx.moveTo(x + ax * h * 0.16, y + ay * h * 0.16); ctx.quadraticCurveTo(x + l * h * 0.78, y + m * h * 0.78, x + ax * h * 0.95, y + ay * h * 0.95); ctx.quadraticCurveTo(x + l2 * h * 0.78, y + m2 * h * 0.78, x + ax * h * 0.16, y + ay * h * 0.16); ctx.closePath(); }
+      ctx.moveTo(x + h * 0.2, y); ctx.arc(x, y, h * 0.2, 0, Math.PI * 2); break;
+    }
+    case 'bird': {
+      const P = (px, py) => [x + px * h, y + py * h];
+      const mv = (px, py) => ctx.moveTo(...P(px, py)), qc = (cx2, cy2, px, py) => ctx.quadraticCurveTo(...P(cx2, cy2), ...P(px, py)), ln = (px, py) => ctx.lineTo(...P(px, py));
+      mv(0.86, -0.2); qc(0.78, -0.55, 0.45, -0.66); qc(0.12, -0.82, -0.04, -0.5); qc(-0.1, -0.2, -0.3, -0.04); qc(-0.55, 0.2, -0.9, 0.78); ln(-0.6, 0.82); qc(-0.22, 0.46, 0.06, 0.5);
+      qc(0.42, 0.56, 0.54, 0.2); qc(0.66, -0.02, 0.6, -0.1); qc(0.7, -0.12, 0.86, -0.2); ctx.closePath(); break;
+    }
+    case 'vine': {
+      const P = (px, py) => [x + px * h, y + py * h];
+      ctx.moveTo(...P(-0.9, 0.55)); ctx.bezierCurveTo(...P(-0.35, 0.8), ...P(-0.25, 0.05), ...P(0.05, -0.1)); ctx.bezierCurveTo(...P(0.35, -0.25), ...P(0.6, -0.75), ...P(0.9, -0.5));
+      const leaf = (px, py, ang, L) => { const ca = Math.cos(ang), sa = Math.sin(ang), nx = -sa, ny = ca; ctx.moveTo(...P(px, py)); ctx.quadraticCurveTo(...P(px + ca * L * 0.5 + nx * L * 0.3, py + sa * L * 0.5 + ny * L * 0.3), ...P(px + ca * L, py + sa * L)); ctx.quadraticCurveTo(...P(px + ca * L * 0.5 - nx * L * 0.3, py + sa * L * 0.5 - ny * L * 0.3), ...P(px, py)); };
+      leaf(-0.5, 0.62, -1.05, 0.5); leaf(-0.16, 0.12, 1.15, 0.45); leaf(0.3, -0.2, -0.6, 0.5); leaf(0.62, -0.58, 0.5, 0.36);
+      ctx.moveTo(...P(0.05, -0.1)); ctx.bezierCurveTo(...P(-0.05, -0.45), ...P(-0.3, -0.5), ...P(-0.32, -0.3)); break;
+    }
+    // 1.10.0 kantha motifs: a fish seen from the side (nose right, forked tail, an eye), a pointed petal, and the kalka (paisley mango): a full body
+    // that tapers to a curled tip, with a small seed hole
+    case 'fish': {
+      const P = (px, py) => [x + px * h, y + py * h];
+      ctx.moveTo(...P(0.92, 0.04)); ctx.quadraticCurveTo(...P(0.4, -0.68), ...P(-0.36, -0.2)); ctx.lineTo(...P(-0.9, -0.58)); ctx.quadraticCurveTo(...P(-0.66, 0), ...P(-0.9, 0.58)); ctx.lineTo(...P(-0.36, 0.2)); ctx.quadraticCurveTo(...P(0.4, 0.68), ...P(0.92, 0.04)); ctx.closePath();
+      ctx.moveTo(...P(0.66, -0.02)); ctx.arc(x + h * 0.52, y - h * 0.02, h * 0.09, 0, Math.PI * 2, true); break;
+    }
+    case 'petal': {
+      const P = (px, py) => [x + px * h, y + py * h];
+      ctx.moveTo(...P(0, 0.92)); ctx.bezierCurveTo(...P(0.95, 0.34), ...P(0.78, -0.5), ...P(0, -0.92)); ctx.bezierCurveTo(...P(-0.78, -0.5), ...P(-0.95, 0.34), ...P(0, 0.92)); ctx.closePath(); break;
+    }
+    case 'kalka': {
+      const P = (px, py) => [x + px * h, y + py * h];
+      ctx.moveTo(...P(0.52, -0.92)); ctx.bezierCurveTo(...P(-0.04, -0.9), ...P(-0.84, -0.42), ...P(-0.74, 0.28)); ctx.bezierCurveTo(...P(-0.66, 0.86), ...P(0.12, 1.0), ...P(0.56, 0.66));
+      ctx.bezierCurveTo(...P(0.96, 0.34), ...P(0.82, -0.24), ...P(0.36, -0.32)); ctx.bezierCurveTo(...P(0.52, -0.46), ...P(0.66, -0.7), ...P(0.52, -0.92)); ctx.closePath();
+      ctx.moveTo(...P(-0.1, 0.38)); ctx.arc(x - h * 0.2, y + h * 0.38, h * 0.2, 0, Math.PI * 2, true); break;
+    }
     default: break;
   }
 }

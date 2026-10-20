@@ -1,0 +1,26 @@
+{
+ "title": "Alphorn Mountain Echo",
+ "native": "Alphorn / Alpenhorn",
+ "alt": [],
+ "summary": "The alphorn is a very long wooden horn, several metres of spruce, that rests on the ground while the player blows into the mouthpiece. It has no holes at all: the player makes every note by tightening the lips to sound one of the natural harmonics of the tube, and tunes carry across a valley and come back as an echo.",
+ "howToPlay": [
+  "Eight lanes stand for the natural harmonics of the horn, numbered by their place in the series, lowest on the left.",
+  "Notes travel toward a line at the bottom; strike the lane just as a note arrives and let long notes ring.",
+  "Follow the climb up the harmonics first, then the hill-path call.",
+  "In Watch and learn, listen to the call and its echo, then try the same phrase yourself."
+ ],
+ "rules": [
+  "The eight notes are natural harmonics 8, 9, 10, 11, 12, 13, 14 and 16 of one fundamental tone; the eleventh is deliberately sharp, as on a real alphorn.",
+  "A stroke within a hair of the note is perfect, a near one is good, and a missed one scores nothing.",
+  "An extra stroke while a tune is running costs a few points.",
+  "Each tune plays twice; three stars need roughly nine notes in ten on time."
+ ],
+ "heritageNote": "The alphorn is played in the Alpine valleys of Switzerland, where herders once used it to call across pastures and where players now gather at village and valley festivals. Horns are carved and bored from a single spruce and are often longer than three metres.",
+ "countries": [
+  "Switzerland"
+ ],
+ "credits": [
+  "Tradition: alphorn playing in the Swiss Alps; tunes and figures written for this game",
+  "Photo of an alphorn player in Wallis from Wikimedia Commons (Hans Hillewaert, CC BY-SA 3.0)"
+ ]
+}

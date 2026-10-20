@@ -1,0 +1,159 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "tombak",
+  "lanes": [
+   {
+    "name": "Tom",
+    "hz": 110,
+    "timbre": "bass",
+    "color": "#b83a2a"
+   },
+   {
+    "name": "Bak",
+    "hz": 400,
+    "timbre": "tone",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Rik",
+    "hz": 620,
+    "timbre": "slap",
+    "color": "#4fa86a"
+   },
+   {
+    "name": "Pelang",
+    "hz": 900,
+    "timbre": "rim",
+    "color": "#4f8fd6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "tombak-six-eight",
+    "name": "Six-eight pulse",
+    "bpm": 92,
+    "meter": 3,
+    "length": 6,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Tombak rhythm, Iran",
+    "note": "Two groups of three: Tom, Bak, Bak and Tom, Bak, Rik.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Tom"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Bak"
+     },
+     {
+      "beat": 1,
+      "lane": "Bak"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Tom"
+     },
+     {
+      "beat": 2,
+      "lane": "Bak"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Rik"
+     },
+     {
+      "beat": 3,
+      "lane": "Tom"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Bak"
+     },
+     {
+      "beat": 4,
+      "lane": "Bak"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Tom"
+     },
+     {
+      "beat": 5,
+      "lane": "Bak"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Rik"
+     }
+    ]
+   },
+   {
+    "id": "tombak-roll",
+    "name": "Roll figure",
+    "bpm": 100,
+    "meter": 3,
+    "length": 6,
+    "kind": "figure",
+    "heritage": "Tombak rhythm, Iran",
+    "note": "A lively figure with the finger roll and a rim tap on the turn.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Tom"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Rik"
+     },
+     {
+      "beat": 1,
+      "lane": "Rik"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Bak"
+     },
+     {
+      "beat": 2,
+      "lane": "Tom"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Bak"
+     },
+     {
+      "beat": 3,
+      "lane": "Tom"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Rik"
+     },
+     {
+      "beat": 4,
+      "lane": "Rik"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Pelang"
+     },
+     {
+      "beat": 5,
+      "lane": "Bak"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Bak"
+     }
+    ]
+   }
+  ]
+ }
+}

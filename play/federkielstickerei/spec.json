@@ -1,0 +1,178 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "federkiel",
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Ivory quill",
+        "color": "#f2e9d0"
+      },
+      {
+        "name": "Honey quill",
+        "color": "#dcb868"
+      },
+      {
+        "name": "Rust-dyed quill",
+        "color": "#b6482c"
+      },
+      {
+        "name": "Moss-dyed quill",
+        "color": "#547f3e"
+      },
+      {
+        "name": "Alpine blue quill",
+        "color": "#4172a2"
+      }
+    ],
+    "background": "#2a1912",
+    "grid": "#150c08",
+    "motifs": [
+      "flower",
+      "leaf",
+      "vine",
+      "spiral",
+      "dot",
+      "star"
+    ],
+    "designs": [
+      {
+        "name": "Belt border with edelweiss",
+        "rows": [
+          "c.e.f.e.c",
+          ".b.d.d.b.",
+          "e.a.g.a.e",
+          ".d.b.b.d.",
+          "f.g.a.g.f",
+          ".d.b.b.d.",
+          "e.a.g.a.e",
+          ".b.d.d.b.",
+          "c.e.f.e.c"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 3
+          },
+          "c": {
+            "m": 2,
+            "c": 1
+          },
+          "d": {
+            "m": 3,
+            "c": 2
+          },
+          "e": {
+            "m": 4,
+            "c": 1
+          },
+          "f": {
+            "m": 5,
+            "c": 0
+          },
+          "g": {
+            "m": 0,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Braces with leaves and spirals",
+        "rows": [
+          "a.b.c.b.a",
+          ".d.e.e.d.",
+          "b.f.d.f.b",
+          ".e.a.a.e.",
+          "c.d.g.d.c",
+          ".e.a.a.e.",
+          "b.f.d.f.b",
+          ".d.e.e.d.",
+          "a.b.c.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 3
+          },
+          "b": {
+            "m": 2,
+            "c": 3
+          },
+          "c": {
+            "m": 5,
+            "c": 0
+          },
+          "d": {
+            "m": 0,
+            "c": 2
+          },
+          "e": {
+            "m": 3,
+            "c": 1
+          },
+          "f": {
+            "m": 4,
+            "c": 4
+          },
+          "g": {
+            "m": 0,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Tendril cross",
+        "rows": [
+          "e.d.a.d.e",
+          ".b.c.c.b.",
+          "d.g.f.g.d",
+          ".c.b.b.c.",
+          "a.f.g.f.a",
+          ".c.b.b.c.",
+          "d.g.f.g.d",
+          ".b.c.c.b.",
+          "e.d.a.d.e"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 1
+          },
+          "b": {
+            "m": 1,
+            "c": 4
+          },
+          "c": {
+            "m": 2,
+            "c": 3
+          },
+          "d": {
+            "m": 3,
+            "c": 2
+          },
+          "e": {
+            "m": 4,
+            "c": 0
+          },
+          "f": {
+            "m": 5,
+            "c": 1
+          },
+          "g": {
+            "m": 0,
+            "c": 0
+          }
+        }
+      }
+    ]
+  }
+}

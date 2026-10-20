@@ -1,0 +1,27 @@
+{
+ "title": "Cooking pot",
+ "native": "cerámica de La Chamba",
+ "alt": [
+  "La Chamba",
+  "Chamba black pottery"
+ ],
+ "summary": "In La Chamba, in the Tolima region of Colombia, potters build cooking pots by hand from red clay, polish them with a stone and fire them in pits so that the walls turn black. A pot with a domed lid and two small handles is the classic form. Here you shape a squat pot and choose the colour of each band.",
+ "howToPlay": [
+  "Look at the lit pot in its ring of stones: it shows the walls and the colour of each band.",
+  "Drag across the clay to set how wide each row is; the lid and handles are already in place.",
+  "Press Glaze, then tap a band and a colour: smoke black, red ochre or polished brown.",
+  "Press Check to see your stars, or Watch and learn to see a round played for you."
+ ],
+ "rules": [
+  "Shape counts for 70 percent of the score: the closer each of the 12 rows is to the width of the lit target, the better.",
+  "Finish counts for 30 percent: a band scores when it carries the same swatch as the target.",
+  "The lid and the two handles are part of the picture; the shape counts the body of the pot.",
+  "Undo takes back one stroke; Reshape goes back to the clay; Reset starts the shape again.",
+  "Three stars for 88 or more, two stars for 65 and one star for 40."
+ ],
+ "heritageNote": "La Chamba is a village on the Magdalena river in Tolima, Colombia, known for polished cooking ware made without a wheel. The red clay is formed by hand, burnished with a stone, and fired in a pit, which leaves the walls black.",
+ "countries": [
+  "Colombia"
+ ],
+ "credits": []
+}

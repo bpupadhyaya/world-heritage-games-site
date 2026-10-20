@@ -42,10 +42,10 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 - [Netball](../../games/447-netball/index.md)
 - [Pole-and-line tuna fishing from a masdhoni](../../games/1334-pole-and-line-tuna-fishing-from-a-masdhoni/index.md)
+- [Voyageur canoe racing](../../games/6366-voyageur-canoe-racing/index.md)
 - [Matkot](../../games/825-matkot/index.md)
 - [Kataw](../../games/873-kataw/index.md)
 - [Mixtec ball game](../../games/936-mixtec-ball-game/index.md)
-- [Neolttwigi](../../games/4-neolttwigi/index.md)
 
 ## Sources
 

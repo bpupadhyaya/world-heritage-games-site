@@ -1,16 +1,16 @@
 ---
 title: "Paper, ink and painting crafts"
-description: "95 related traditions."
+description: "100 related traditions."
 path: "/families/paper-ink/"
-count: 95
+count: 100
 ---
 # Paper, ink and painting crafts
 
-95 related traditions.
+100 related traditions.
 
 
 
-95 entries.
+100 entries.
 
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md): Ghana, Cote d'Ivoire; Crafts and making; Living Traditions
 - [Ajrak block printing](../../games/1226-ajrak-block-printing/index.md): Pakistan; Crafts and making; Living Traditions
@@ -38,7 +38,6 @@ count: 95
 - [Costa Rican painted oxcart](../../games/427-costa-rican-painted-oxcart/index.md): Costa Rica; Crafts and making; Living Traditions
 - [Dahomey Appliqué Panel Studio](../../games/1262-dahomey-applique-panel-studio/index.md): Benin; Crafts and making; Living Traditions
 - [Dakar Car Rapide Livery Painter](../../games/1263-dakar-car-rapide-livery-painter/index.md): Senegal; Crafts and making; Living Traditions
-- [Dala Horse Painting](../../games/415-dala-horse-painting/index.md): Sweden; Crafts and making; Living Traditions
 - [Dhaka rickshaw art](../../games/295-dhaka-rickshaw-art/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Dinka beaded corset beadwork](../../games/1269-dinka-beaded-corset-beadwork/index.md): South Sudan; Crafts and making; Living Traditions
 - [Dots and Boxes](../../games/463-dots-and-boxes/index.md): France; Crafts and making; Living Traditions
@@ -63,6 +62,7 @@ count: 95
 - [Lei making](../../games/449-lei-making/index.md): United States; Crafts and making; Living Traditions
 - [Licitar Heart Decorator](../../games/1326-licitar-heart-decorator/index.md): Croatia; Crafts and making; Living Traditions
 - [Lippan kaam mud-and-mirror relief](../../games/259-lippan-kaam-mud-and-mirror-relief/index.md): India, Pakistan; Crafts and making; Living Traditions
+- [Lokta paper-making](../../games/292-lokta-paper-making/index.md): Nepal; Crafts and making; Living Traditions
 - [Luk chup](../../games/307-luk-chup/index.md): Thailand; Crafts and making; Living Traditions
 - [Lukasa memory board pattern game](../../games/197-lukasa-memory-board-pattern-game/index.md): Worldwide; Crafts and making; Living Traditions
 - [Luzzu Boat Painter](../../games/1330-luzzu-boat-painter/index.md): Malta; Crafts and making; Living Traditions
@@ -105,5 +105,10 @@ count: 95
 - [Tingatinga painting](../../games/183-tingatinga-painting/index.md): Tanzania; Crafts and making; Living Traditions
 - [Ukulele strum-along](../../games/144-ukulele-strum-along/index.md): United States, Portugal; Musical instruments; Living Traditions
 - [Warli painting](../../games/117-warli-painting/index.md): India; Crafts and making; Living Traditions
+- [Washi Papermaking](../../games/497-washi-papermaking/index.md): Japan, Nepal; Crafts and making; Living Traditions
 - [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md): South Africa; Crafts and making; Living Traditions
+- [Dumbara Mats](../../games/5702-dumbara-mats/index.md): Sri Lanka; Crafts and making; Living Traditions
+- [Hanji paper making](../../games/14592-hanji-paper-making/index.md): South Korea; Crafts and making; Living Traditions
 - [Kolam](../../games/22332-kolam/index.md): India; Crafts and making; Living Traditions
+- [Malarstwo Zalipia](../../games/19992-malarstwo-zalipia/index.md): Poland; Crafts and making; Living Traditions
+- [Pysanka](../../games/13251-pysanka/index.md): Ukraine; Crafts and making; Living Traditions

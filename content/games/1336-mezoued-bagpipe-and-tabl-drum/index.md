@@ -40,12 +40,12 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Related entries
 
+- [Zampogna](../../games/10240-zampogna/index.md)
+- [Duduk](../../games/159-duduk/index.md)
 - [Highland Bagpipe Chanter and Drone](../../games/510-highland-bagpipe-chanter-and-drone/index.md)
 - [Horn of Africa camel caravan](../../games/1270-horn-of-africa-camel-caravan/index.md)
 - [Latvian Bagpipe and Folk Pipes](../../games/1324-latvian-bagpipe-and-folk-pipes/index.md)
-- [Launeddas Triple Pipe](../../games/400-launeddas-triple-pipe/index.md)
-- [Dizi](../../games/132-dizi/index.md)
-- [Fujara](../../games/135-fujara/index.md)
+- [Gaida](../../games/2423-gaida/index.md)
 
 ## Sources
 

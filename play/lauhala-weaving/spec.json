@@ -1,0 +1,123 @@
+{
+ "engine": "pattern",
+ "params": {
+  "scene": "lauhala",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "mirror-x",
+  "palette": [
+   {
+    "name": "Brown",
+    "color": "#7b4a24"
+   },
+   {
+    "name": "Black",
+    "color": "#2a1a12"
+   },
+   {
+    "name": "Red-dyed",
+    "color": "#a8352a"
+   },
+   {
+    "name": "Bleached",
+    "color": "#f3e6c0"
+   }
+  ],
+  "background": "#d7b56c",
+  "grid": "#a0763a",
+  "motifs": [
+   "solid",
+   "diamond",
+   "triangle",
+   "zigzag",
+   "stripe-v",
+   "star"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 3,
+  "designs": [
+   {
+    "name": "Chevron band",
+    "rows": [
+     "a.......a",
+     ".a.....a.",
+     "..a...a..",
+     "...a.a...",
+     "....b....",
+     "...a.a...",
+     "..a...a..",
+     ".a.....a.",
+     "a.......a"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Concentric diamonds",
+    "rows": [
+     "....b....",
+     "...bcb...",
+     "..bc.cb..",
+     ".bc...cb.",
+     "bc..e..cb",
+     ".bc...cb.",
+     "..bc.cb..",
+     "...bcb...",
+     "....b...."
+    ],
+    "legend": {
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "e": {
+      "m": 5,
+      "c": 3
+     }
+    }
+   },
+   {
+    "name": "Border and steps",
+    "rows": [
+     "bbbbbbbbb",
+     "b.......b",
+     "b.cc.cc.b",
+     "b.c...c.b",
+     "b...e...b",
+     "b.c...c.b",
+     "b.cc.cc.b",
+     "b.......b",
+     "bbbbbbbbb"
+    ],
+    "legend": {
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 0
+     },
+     "e": {
+      "m": 5,
+      "c": 3
+     }
+    }
+   }
+  ]
+ },
+ "variant": "lauhala-weaving"
+}

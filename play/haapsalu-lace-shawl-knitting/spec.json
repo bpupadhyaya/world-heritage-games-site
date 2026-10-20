@@ -1,0 +1,193 @@
+{
+ "engine": "pattern",
+ "variant": "haapsalu-lace-shawl-knitting",
+ "players": "1",
+ "params": {
+  "scene": "haapsalu",
+  "cols": 11,
+  "rows": 11,
+  "symmetry": "rot4",
+  "palette": [
+   {
+    "name": "Undyed white",
+    "color": "#f7f5ef"
+   },
+   {
+    "name": "Pale grey",
+    "color": "#c9c8c4"
+   },
+   {
+    "name": "Soft blue",
+    "color": "#9db4cf"
+   }
+  ],
+  "background": "#35595c",
+  "grid": "#1f3a3c",
+  "motifs": [
+   "leaf",
+   "diamond",
+   "dot",
+   "wave",
+   "triangle",
+   "knot"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 2,
+  "designs": [
+   {
+    "name": "Nupp and leaf centre",
+    "rows": [
+     ".....e.....",
+     ".....c.....",
+     "..b..a..b..",
+     "...g.c.g...",
+     ".....f.....",
+     "ecacfdfcace",
+     ".....f.....",
+     "...g.c.g...",
+     "..b..a..b..",
+     ".....c.....",
+     ".....e....."
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 5,
+      "c": 2
+     },
+     "e": {
+      "m": 3,
+      "c": 1
+     },
+     "f": {
+      "m": 1,
+      "c": 0
+     },
+     "g": {
+      "m": 2,
+      "c": 2
+     },
+     "h": {
+      "m": 4,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Diamond garden",
+    "rows": [
+     "h..c......h",
+     ".e..c....e.",
+     "..g.....g..",
+     "...d...d..c",
+     "....cac..c.",
+     "....afa....",
+     ".c..cac....",
+     "c..d...d...",
+     "..g.....g..",
+     ".e....c..e.",
+     "h......c..h"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 5,
+      "c": 2
+     },
+     "e": {
+      "m": 3,
+      "c": 1
+     },
+     "f": {
+      "m": 1,
+      "c": 0
+     },
+     "g": {
+      "m": 2,
+      "c": 2
+     },
+     "h": {
+      "m": 4,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Ring-shawl border",
+    "rows": [
+     ".....a.....",
+     "...c.c.....",
+     "..b..g..b..",
+     ".....f...c.",
+     "....a.a....",
+     "acgf.d.fgca",
+     "....a.a....",
+     ".c...f.....",
+     "..b..g..b..",
+     ".....c.c...",
+     ".....a....."
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 1
+     },
+     "c": {
+      "m": 2,
+      "c": 0
+     },
+     "d": {
+      "m": 5,
+      "c": 2
+     },
+     "e": {
+      "m": 3,
+      "c": 1
+     },
+     "f": {
+      "m": 1,
+      "c": 0
+     },
+     "g": {
+      "m": 2,
+      "c": 2
+     },
+     "h": {
+      "m": 4,
+      "c": 0
+     }
+    }
+   }
+  ]
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

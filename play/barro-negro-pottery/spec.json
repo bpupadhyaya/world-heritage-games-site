@@ -1,0 +1,27 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "scene": "oaxaca",
+  "profile": "cantaro",
+  "rows": 12,
+  "bands": 5,
+  "clay": "#8a6244",
+  "glazes": [
+   {
+    "name": "Burnished black",
+    "color": "#17141a"
+   },
+   {
+    "name": "Matt grey-black",
+    "color": "#4b4649"
+   },
+   {
+    "name": "Raw clay",
+    "color": "#a4724a"
+   }
+  ],
+  "variation": 0.05,
+  "steps": 12
+ }
+}

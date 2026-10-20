@@ -1,0 +1,256 @@
+{
+ "engine": "rhythm",
+ "variant": "alpine-yodel",
+ "players": "1",
+ "params": {
+  "layout": "voice",
+  "mode": "follow",
+  "root": 220,
+  "scale": "heptatonic",
+  "tolerance": 1.25,
+  "leadIn": 4,
+  "instrument": "yodel",
+  "vocal": {
+   "style": "yodel",
+   "breakHz": 380,
+   "second": 1.2599,
+   "echo": 1
+  },
+  "lanes": [
+   {
+    "name": "Yo",
+    "degree": 0,
+    "vowel": "o",
+    "reg": "chest",
+    "timbre": "vocal",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Del",
+    "degree": 2,
+    "vowel": "e",
+    "reg": "chest",
+    "timbre": "vocal",
+    "color": "#f08a3c"
+   },
+   {
+    "name": "Hol",
+    "degree": 4,
+    "vowel": "o",
+    "reg": "chest",
+    "timbre": "vocal",
+    "color": "#e87fa0"
+   },
+   {
+    "name": "Ay",
+    "degree": 7,
+    "vowel": "e",
+    "reg": "head",
+    "timbre": "vocal",
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "Ee",
+    "degree": 9,
+    "vowel": "i",
+    "reg": "head",
+    "timbre": "vocal",
+    "color": "#2ec4b6"
+   },
+   {
+    "name": "Oo",
+    "degree": 11,
+    "vowel": "u",
+    "reg": "head",
+    "timbre": "vocal",
+    "color": "#a56bd6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "alpine-call",
+    "name": "Alpine call",
+    "bpm": 88,
+    "meter": 4,
+    "length": 16,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Yodel, Switzerland and Austria",
+    "note": "A teaching figure in the style of an Alpine call: the chest voice climbs the triad, flips over the break into the head voice, and falls back.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0,
+      "len": 1
+     },
+     {
+      "beat": 0.5,
+      "lane": 1,
+      "len": 0.5
+     },
+     {
+      "beat": 1,
+      "lane": 2,
+      "len": 0.5
+     },
+     {
+      "beat": 1.5,
+      "lane": 3,
+      "len": 0.5
+     },
+     {
+      "beat": 2,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": 3,
+      "len": 0.5
+     },
+     {
+      "beat": 3.5,
+      "lane": 2,
+      "len": 0.5
+     },
+     {
+      "beat": 4,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": 0,
+      "len": 1.5
+     },
+     {
+      "beat": 8,
+      "lane": 0,
+      "len": 0.5
+     },
+     {
+      "beat": 8.5,
+      "lane": 2,
+      "len": 0.5
+     },
+     {
+      "beat": 9,
+      "lane": 3,
+      "len": 0.5
+     },
+     {
+      "beat": 9.5,
+      "lane": 2,
+      "len": 0.5
+     },
+     {
+      "beat": 10,
+      "lane": 3,
+      "len": 0.5
+     },
+     {
+      "beat": 10.5,
+      "lane": 4,
+      "len": 0.5
+     },
+     {
+      "beat": 11,
+      "lane": 5,
+      "len": 1.5
+     },
+     {
+      "beat": 12.5,
+      "lane": 4,
+      "len": 0.5
+     },
+     {
+      "beat": 13,
+      "lane": 3,
+      "len": 0.5
+     },
+     {
+      "beat": 13.5,
+      "lane": 2,
+      "len": 0.5
+     },
+     {
+      "beat": 14,
+      "lane": 1,
+      "len": 0.5
+     },
+     {
+      "beat": 15,
+      "lane": 0,
+      "len": 1
+     }
+    ]
+   },
+   {
+    "id": "echo-phrase",
+    "name": "Call and echo",
+    "bpm": 80,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Yodel, Alps",
+    "note": "A short call; the far valley wall answers a moment later.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0,
+      "len": 0.5
+     },
+     {
+      "beat": 0.5,
+      "lane": 2,
+      "len": 0.5
+     },
+     {
+      "beat": 1,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2,
+      "len": 0.5
+     },
+     {
+      "beat": 2.5,
+      "lane": 3,
+      "len": 0.5
+     },
+     {
+      "beat": 3,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": 5,
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": 3,
+      "len": 0.5
+     },
+     {
+      "beat": 6.5,
+      "lane": 2,
+      "len": 0.5
+     },
+     {
+      "beat": 7,
+      "lane": 0,
+      "len": 1
+     }
+    ]
+   }
+  ]
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

@@ -3,14 +3,18 @@
 // A player reaches for the notes about to fall due (performer.js); the instrument stands on a dressed surface (set.js).
 // Cues fall onto the bar, tine tip or baton; the struck part moves (mallet, flexing tine, swinging bell, opening bellows).
 import { clamp, mix, rgba, lighter, darker, glow, rrect, grain, hgrad, vgrad, rgrad, hash, ell, circ, TAU, bell as bellArt } from './art.js';
+import { stageIdFor } from './registry.js';
 import { makeBox, makeFrame, rectSpot, circleSpot, finishSpots, hitSpots, pill, lerp } from './stagekit.js';
 import { stick, hand, createPlayer } from './performer.js';
 import { setting } from './set.js';
 export { stick };
 
 const VIEW = { balafon: { tilt: 0, dy: 0 }, timbila: { tilt: 0, dy: 0 }, mbira: {}, carillon: { dy: 0.0 } };
-const IDS = [[/carillon/, 'carillon'], [/mbira|kalimba|likembe|sanza/, 'mbira'], [/bandoneon|accordion|concertina/, 'bandoneon'], [/timbila|amadinda|embaire|chopi/, 'timbila'], [/balafon|marimba|xylophone|gyil|kulintang/, 'balafon']];
-export function keyId(key) { const k = String(key || '').toLowerCase(); for (const [re, id] of IDS) if (re.test(k)) return id; return 'balafon'; }
+export const IDS = [[/carillon/, 'carillon'], [/mbira|kalimba|likembe|sanza/, 'mbira'], [/bandoneon|accordion|concertina/, 'bandoneon'], [/metallophone|\bgender\b|saron|glockenspiel|vibraphone/, 'metallophone'], [/ranat|ranad/, 'ranat'], [/timbila|amadinda|embaire|chopi/, 'timbila'], [/balafon|marimba|xylophone|gyil|kulintang/, 'balafon']];
+// 1.15.0: scene registry. A stage file (stage-bars.js) registers `KEY_SCENES[id] = (K) => { K.set({ ref, dress, plr, draw }) ... }` and gets the
+// drawing helpers of this file (K.bar, K.gourd, K.tube, K.hull, K.drop, K.eachCue) plus the lanes, spots and ranking; ids without an entry use BUILD below.
+export const KEY_SCENES = {};
+export const keyId = (key) => stageIdFor('keys', key);   // routes live in registry.js; new keyed instruments: registerKeyStage
 
 export function createKeyStage(id, S, lanes, P) {
   const N = lanes.length;
@@ -53,13 +57,17 @@ export function createKeyStage(id, S, lanes, P) {
     void tone;
   };
   // a wooden bar in its orientation: lit upper left, rounded ends, bevel highlight, cord holes and a lane-colour tab
-  const bar = (ctx, x, y, w, h, base, col, f, seed, vertical) => {
-    const w2 = mix(base, col, 0.18), r = Math.min(w, h) * 0.2;
+  const bar = (ctx, x, y, w, h, base, col, f, seed, vertical, metal = false) => {
+    const w2 = mix(base, col, metal ? 0.04 : 0.18), r = Math.min(w, h) * 0.2;
     ctx.fillStyle = 'rgba(0,0,0,0.42)'; rrect(ctx, x + 4, y + 7, w, h, r); ctx.fill();
     ctx.fillStyle = vertical ? hgrad(ctx, x, x + w, [[0, darker(w2, 0.5)], [0.3, lighter(w2, 0.3)], [0.65, w2], [1, darker(w2, 0.55)]]) : vgrad(ctx, y, y + h, [[0, lighter(w2, 0.28)], [0.35, w2], [1, darker(w2, 0.55)]]);
     rrect(ctx, x, y, w, h, r); ctx.fill();
     ctx.save(); rrect(ctx, x, y, w, h, r); ctx.clip();
-    grain(ctx, x, y, w, h, darker(w2, 0.7), 0.3, seed * 5 + 2, vertical, Math.max(4, Math.round((vertical ? w : h) / 7)));
+    if (metal) { // brushed metal: fine lines along the bar and a bright bevel stripe, no wood grain
+      ctx.fillStyle = 'rgba(255,248,220,0.42)'; if (vertical) ctx.fillRect(x + w * 0.18, y, w * 0.14, h); else ctx.fillRect(x, y + h * 0.18, w, h * 0.14);
+      ctx.fillStyle = 'rgba(20,10,0,0.28)'; if (vertical) ctx.fillRect(x + w * 0.72, y, w * 0.28, h); else ctx.fillRect(x, y + h * 0.72, w, h * 0.28);
+      ctx.strokeStyle = 'rgba(40,24,6,0.18)'; ctx.lineWidth = 1; for (let k = 1; k < 7; k++) { ctx.beginPath(); if (vertical) { ctx.moveTo(x + (w * k) / 7, y); ctx.lineTo(x + (w * k) / 7, y + h); } else { ctx.moveTo(x, y + (h * k) / 7); ctx.lineTo(x + w, y + (h * k) / 7); } ctx.stroke(); }
+    } else grain(ctx, x, y, w, h, darker(w2, 0.7), 0.3, seed * 5 + 2, vertical, Math.max(4, Math.round((vertical ? w : h) / 7)));
     if (f > 0.02) { ctx.fillStyle = rgba(lighter(col, 0.5), 0.5 * f); ctx.fillRect(x, y, w, h); }
     ctx.restore();
     ctx.strokeStyle = rgba(lighter(w2, 0.6), 0.55); ctx.lineWidth = 1.5; rrect(ctx, x, y, w, h, r); ctx.stroke();
@@ -68,18 +76,36 @@ export function createKeyStage(id, S, lanes, P) {
     else { circ(ctx, x + w * 0.22, y + h / 2, 3.4); ctx.fill(); circ(ctx, x + w * 0.78, y + h / 2, 3.4); ctx.fill(); ctx.fillStyle = rgba(col, 0.95); rrect(ctx, x + 6, y + h * 0.18, 7, h * 0.64, 3); ctx.fill(); }
   };
 
+  // resonators for the metal and trough variants: a bronze tube opening towards its bar, and a lacquered boat hull behind the bars
+  const tube = (ctx, x, y, w, len, vertical) => {
+    ctx.fillStyle = 'rgba(0,0,0,0.34)'; rrect(ctx, x + 5, y + 7, vertical ? w : len, vertical ? len : w, w * 0.3); ctx.fill();
+    const stops = [[0, '#4a3010'], [0.3, '#f0d890'], [0.65, '#b08a3c'], [1, '#3a2408']];
+    ctx.fillStyle = vertical ? hgrad(ctx, x, x + w, stops) : vgrad(ctx, y, y + w, stops); rrect(ctx, x, y, vertical ? w : len, vertical ? len : w, w * 0.3); ctx.fill();
+    ctx.strokeStyle = 'rgba(255,235,170,0.45)'; ctx.lineWidth = 1.5; ctx.stroke();
+    ctx.fillStyle = '#120a04'; if (vertical) ell(ctx, x + w / 2, y + w * 0.16, w * 0.36, w * 0.13); else ell(ctx, x + len - w * 0.16, y + w / 2, w * 0.13, w * 0.36); ctx.fill();
+  };
+  const hull = (ctx, pts) => {
+    const [a, b, c, d] = pts;   // a: start tip, b: far bulge, c: end tip, d: near bulge
+    const path = () => { ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.bezierCurveTo(b[0], b[1], b[2], b[3], c[0], c[1]); ctx.bezierCurveTo(d[0], d[1], d[2], d[3], a[0], a[1]); ctx.closePath(); };
+    ctx.save(); ctx.translate(10, 12); path(); ctx.fillStyle = 'rgba(0,0,0,0.38)'; ctx.fill(); ctx.restore();
+    path(); ctx.fillStyle = rgrad(ctx, (a[0] + c[0]) / 2, (a[1] + c[1]) / 2, 20, 420, [[0, '#a2331f'], [0.6, '#6a1a10'], [1, '#2a0806']], (a[0] + c[0]) / 2 - 80, (a[1] + c[1]) / 2 - 80); ctx.fill();
+    ctx.strokeStyle = '#e0b44a'; ctx.lineWidth = 6; ctx.stroke();
+    ctx.strokeStyle = 'rgba(240,200,110,0.35)'; ctx.lineWidth = 3; ctx.save(); ctx.translate(0, 0); path(); ctx.clip(); ctx.lineWidth = 14; ctx.stroke(); ctx.restore();
+  };
+
   function sceneBars() {
     const timb = id === 'timbila';
-    const wood = timb ? '#c4915a' : S.wood;
+    const metal = id === 'metallophone', boat = id === 'ranat';   // bronze bars over tube resonators; wooden bars in a boat-shaped trough
+    const wood = metal ? '#c79a45' : timb ? '#c4915a' : S.wood;
     const rank = new Array(N); order.forEach((lane, r) => { rank[lane] = r; });
-    dress = timb ? { kind: 'earth', base: '#8a6038', rugKind: 'zigzag', rugBase: '#3a2a1c', rugA: '#e8c070', rugB: '#6a8a4a', light: '#ffd18a' } : { kind: 'earth', base: '#7a5836', rugKind: 'stripes', rugBase: '#4a2c1a', rugA: '#e0b878', rugB: '#8a3a22', light: '#ffd18a' };
+    dress = metal || boat ? { kind: 'planks', base: metal ? '#4a3220' : '#5a2c1a', rugKind: 'diamond', rugBase: metal ? '#2a1a3a' : '#3a1218', rugA: '#e0b44a', rugB: metal ? '#2a5a7a' : '#2a6a4a', light: '#ffe0a8', vig: 0.55 } : timb ? { kind: 'earth', base: '#8a6038', rugKind: 'zigzag', rugBase: '#3a2a1c', rugA: '#e8c070', rugB: '#6a8a4a', light: '#ffd18a' } : { kind: 'earth', base: '#7a5836', rugKind: 'stripes', rugBase: '#4a2c1a', rugA: '#e0b878', rugB: '#8a3a22', light: '#ffd18a' };
     if (!tall) {
       const bw = clamp(900 / N, 44, 108), gap = bw * 0.14, total = N * bw + (N - 1) * gap;
       const Lmax = 340, Lmin = 210, mid = 250;
       ref = { w: Math.max(620, total + 120), h: 600 };
       const geo = lanes.map((_, i) => { const r = rank[i], t = N > 1 ? r / (N - 1) : 0, L = lerp(Lmax, Lmin, t), v = -total / 2 + r * (bw + gap) + bw / 2; return { v, L, u0: mid - L / 2 }; });
       lanes.forEach((_, i) => { const g = geo[i]; spots[i] = rectSpot(g.v, mid, bw / 2 + gap / 2, g.L / 2, { geo: g, labelV: g.v, labelU: g.u0 + 30 }); });
-      plr = { tool: 'stick', toolLen: 150, toolW: 15, wood: '#e6c58e', head: '#7a2c1a', headR: 1.05, shirt: '#b8422a', trim: '#f0d060', headwear: 'wrap', hat: '#1f5a3c', hands: 2, sit: 0.0 };
+      plr = { tool: 'stick', toolLen: 150, toolW: 15, wood: '#e6c58e', head: '#7a2c1a', headR: 1.05, shirt: metal ? '#1f4a6a' : boat ? '#2a5a4a' : '#b8422a', trim: '#f0d060', headwear: 'wrap', hat: '#1f5a3c', hands: 2, sit: 0.0 };
       drawScene = (ctx, rt) => {
         ctx.fillStyle = 'rgba(0,0,0,0.3)'; ell(ctx, 0, ref.h - 22, total / 2 + 90, 24); ctx.fill();
         const railW = total + 90;
@@ -87,8 +113,9 @@ export function createKeyStage(id, S, lanes, P) {
           ctx.fillStyle = 'rgba(0,0,0,0.4)'; rrect(ctx, -railW / 2 + 6, u + 6, railW, 22, 10); ctx.fill();
           ctx.fillStyle = vgrad(ctx, u, u + 22, [[0, lighter('#7a4a22', 0.3)], [1, '#2a170a']]); rrect(ctx, -railW / 2, u, railW, 22, 10); ctx.fill();
         }
-        lanes.forEach((l, i) => { const g = geo[i], gr = clamp(bw * 0.62 * (g.L / 380), 24, 68), gu = mid + g.L / 2 + gr + 16; gourd(ctx, g.v, gu, gr, timb); });
-        lanes.forEach((l, i) => { const g = geo[i], f = rt.flash[i]; bar(ctx, g.v - bw / 2, g.u0 + 2 * f, bw, g.L, wood, l.color, f, i, true); if (f > 0.03) glow(ctx, g.v, g.u0 + g.L / 2, g.L * 0.7, l.color, 0.45 * f); });
+        if (boat) hull(ctx, [[-total / 2 - 55, mid - 120], [-total / 2 - 10, mid + Lmax * 0.78, total / 2 + 10, mid + Lmax * 0.78], [total / 2 + 55, mid - 120], [total / 2 + 30, mid - 40, -total / 2 - 30, mid - 40]]);
+        else lanes.forEach((l, i) => { const g = geo[i], gr = clamp(bw * 0.62 * (g.L / 380), 24, 68), gu = mid + g.L / 2 + gr + 16; if (metal) tube(ctx, g.v - bw * 0.36, mid + g.L / 2 + 12, bw * 0.72, clamp(g.L * 0.62, 90, 190), true); else gourd(ctx, g.v, gu, gr, timb); });
+        lanes.forEach((l, i) => { const g = geo[i], f = rt.flash[i]; bar(ctx, g.v - bw / 2, g.u0 + 2 * f, bw, g.L, wood, l.color, f, i, true, metal); if (f > 0.03) glow(ctx, g.v, g.u0 + g.L / 2, g.L * 0.7, l.color, 0.45 * f); });
         eachCue(rt, (t, tau) => { const g = geo[t.lane]; drop(ctx, t, tau, rt, g.v, mid, 30); });
       };
     } else {
@@ -97,7 +124,7 @@ export function createKeyStage(id, S, lanes, P) {
       ref = { w: Lmax + 250, h: total + 120 };
       const geo = lanes.map((_, i) => { const r = rank[i], t = N > 1 ? r / (N - 1) : 0, L = lerp(Lmax, Lmin, t), u = u0 + (N - 1 - r) * p + p / 2; return { v: vc, L, u }; });
       lanes.forEach((_, i) => { const g = geo[i]; spots[i] = rectSpot(g.v, g.u, g.L / 2, p / 2, { geo: g, labelV: g.v, labelU: g.u }); });
-      plr = { tool: 'stick', toolLen: 140, toolW: 14, wood: '#e6c58e', head: '#7a2c1a', headR: 1.05, shirt: '#b8422a', trim: '#f0d060', headwear: 'wrap', hat: '#1f5a3c', hands: 2, side: 'right', sit: 0.0 };
+      plr = { tool: 'stick', toolLen: 140, toolW: 14, wood: '#e6c58e', head: '#7a2c1a', headR: 1.05, shirt: metal ? '#1f4a6a' : boat ? '#2a5a4a' : '#b8422a', trim: '#f0d060', headwear: 'wrap', hat: '#1f5a3c', hands: 2, side: 'right', sit: 0.0 };
       drawScene = (ctx, rt) => {
         ctx.fillStyle = 'rgba(0,0,0,0.3)'; ell(ctx, 12, ref.h - 14, ref.w * 0.4, 20); ctx.fill();
         const rv = Lmax * 0.34;
@@ -105,8 +132,9 @@ export function createKeyStage(id, S, lanes, P) {
           ctx.fillStyle = 'rgba(0,0,0,0.4)'; rrect(ctx, v - 11 + 6, u0 - 20 + 6, 22, total + 40, 10); ctx.fill();
           ctx.fillStyle = hgrad(ctx, v - 11, v + 11, [[0, lighter('#7a4a22', 0.3)], [1, '#2a170a']]); rrect(ctx, v - 11, u0 - 20, 22, total + 40, 10); ctx.fill();
         }
-        lanes.forEach((l, i) => { const g = geo[i], gr = clamp(p * 0.6 * (g.L / 380), 18, 44); gourd(ctx, g.v - g.L / 2 - gr - 12, g.u, gr, timb); });
-        lanes.forEach((l, i) => { const g = geo[i], f = rt.flash[i]; bar(ctx, g.v - g.L / 2 + 2 * f, g.u - bt / 2, g.L, bt, wood, l.color, f, i, false); if (f > 0.03) glow(ctx, g.v, g.u, g.L * 0.7, l.color, 0.45 * f); });
+        if (boat) hull(ctx, [[0, u0 - 70], [-Lmax * 0.78, u0 + total * 0.1, -Lmax * 0.78, u0 + total * 0.9], [0, u0 + total + 70], [Lmax * 0.78, u0 + total * 0.9, Lmax * 0.78, u0 + total * 0.1]]);
+        else lanes.forEach((l, i) => { const g = geo[i], gr = clamp(p * 0.6 * (g.L / 380), 18, 44); if (metal) { const tl = clamp(g.L * 0.25, 56, 100); tube(ctx, g.v - g.L / 2 - 12 - tl, g.u - p * 0.4, tl, p * 0.8, false); } else gourd(ctx, g.v - g.L / 2 - gr - 12, g.u, gr, timb); });
+        lanes.forEach((l, i) => { const g = geo[i], f = rt.flash[i]; bar(ctx, g.v - g.L / 2 + 2 * f, g.u - bt / 2, g.L, bt, wood, l.color, f, i, false, metal); if (f > 0.03) glow(ctx, g.v, g.u, g.L * 0.7, l.color, 0.45 * f); });
         eachCue(rt, (t, tau) => { const g = geo[t.lane]; drop(ctx, t, tau, rt, g.v, g.u, g.v + Lmax / 2 + 120, true); });
       };
     }
@@ -309,11 +337,13 @@ export function createKeyStage(id, S, lanes, P) {
     };
   }
 
-  const BUILD = { balafon: sceneBars, timbila: sceneBars, mbira: sceneMbira, carillon: sceneCarillon, bandoneon: sceneBandoneon };
+  const K = { id, st, S, P, lanes, N, spots, order, nm, drop, eachCue, gourd, bar, tube, hull, get land() { return land; }, get tall() { return tall; },
+    set(o) { if (o.ref) ref = o.ref; if (o.dress) dress = o.dress; if (o.plr !== undefined) plr = o.plr; if (o.draw) drawScene = o.draw; } };
+  const BUILD = { balafon: sceneBars, timbila: sceneBars, metallophone: sceneBars, ranat: sceneBars, mbira: sceneMbira, carillon: sceneCarillon, bandoneon: sceneBandoneon };
   const build = () => {
     for (let i = 0; i < N; i++) spots[i] = null;
     plr = null; rotFrame = false;
-    (BUILD[id] ?? sceneBars)();
+    if (KEY_SCENES[id]) KEY_SCENES[id](K); else (BUILD[id] ?? sceneBars)();
     for (let i = 0; i < N; i++) if (!spots[i]) spots[i] = circleSpot(0, 40 + 50 * i, 30);
     player = plr ? createPlayer({ key: `${P.instrument ?? ''}${id}`, ...plr }) : null;
   };

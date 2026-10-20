@@ -1,0 +1,251 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "uilleann pipes",
+  "mode": "follow",
+  "root": 293.7,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "D",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "1111111"
+   },
+   {
+    "name": "E",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "1111110"
+   },
+   {
+    "name": "F#",
+    "cents": 400,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "1111100"
+   },
+   {
+    "name": "G",
+    "cents": 500,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "1111000"
+   },
+   {
+    "name": "A",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "1110000"
+   },
+   {
+    "name": "B",
+    "cents": 900,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "1100000"
+   },
+   {
+    "name": "C#",
+    "cents": 1100,
+    "timbre": "breath",
+    "color": "#6cc2a0",
+    "holes": "1000000"
+   }
+  ],
+  "drone": "reed",
+  "droneHz": [
+   146.85,
+   147.21712499999998,
+   73.425
+  ],
+  "songs": [
+   {
+    "id": "uilleann-air",
+    "name": "Slow air",
+    "bpm": 70,
+    "meter": 4,
+    "length": 23.0,
+    "kind": "figure",
+    "heritage": "Uilleann pipes, Ireland",
+    "note": "A teaching air over a drone: slow, rising and falling back to the home note.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "D",
+      "len": 2
+     },
+     {
+      "beat": 2.0,
+      "lane": "F#",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "A",
+      "len": 2
+     },
+     {
+      "beat": 5.0,
+      "lane": "G",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "F#",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "D",
+      "len": 3
+     },
+     {
+      "beat": 11.0,
+      "lane": "A",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "C#",
+      "len": 2
+     },
+     {
+      "beat": 15.0,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "A",
+      "len": 1
+     },
+     {
+      "beat": 17.0,
+      "lane": "F#",
+      "len": 2
+     },
+     {
+      "beat": 19.0,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 20.0,
+      "lane": "D",
+      "len": 3
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "uilleann-reel",
+    "name": "Reel figure",
+    "bpm": 104,
+    "meter": 4,
+    "length": 17.0,
+    "kind": "figure",
+    "heritage": "Uilleann pipes, Ireland",
+    "note": "A quick figure that runs up and down the chanter.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "F#",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "A",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "G",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "F#",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "A",
+      "len": 1
+     },
+     {
+      "beat": 9.0,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 10.0,
+      "lane": "C#",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "A",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "F#",
+      "len": 1
+     },
+     {
+      "beat": 14.0,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "D",
+      "len": 2
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "uilleann-pipes"
+}

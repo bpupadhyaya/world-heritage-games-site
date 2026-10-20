@@ -1,0 +1,168 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "zardozi",
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Gold",
+        "color": "#dcaa34"
+      },
+      {
+        "name": "Silver",
+        "color": "#cfd3da"
+      },
+      {
+        "name": "Copper",
+        "color": "#c4703c"
+      },
+      {
+        "name": "Emerald",
+        "color": "#1f9a62"
+      },
+      {
+        "name": "Ruby",
+        "color": "#c01c44"
+      }
+    ],
+    "background": "#4a0f1a",
+    "grid": "#2a0810",
+    "motifs": [
+      "kalka",
+      "flower",
+      "dot",
+      "leaf",
+      "ring",
+      "star"
+    ],
+    "designs": [
+      {
+        "name": "Mango-and-flower panel",
+        "rows": [
+          "....a....",
+          "..b.c.b..",
+          ".d.e.e.d.",
+          "..a.f.a..",
+          "b..e.e..b",
+          "..a.f.a..",
+          ".d.e.e.d.",
+          "..b.c.b..",
+          "....a...."
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 3,
+            "c": 3
+          },
+          "c": {
+            "m": 1,
+            "c": 0
+          },
+          "d": {
+            "m": 4,
+            "c": 2
+          },
+          "e": {
+            "m": 2,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Paisley with stones",
+        "rows": [
+          "..a...a..",
+          ".b.c.c.b.",
+          "d.e.d.e.d",
+          ".a.f.f.a.",
+          "b.c.b.c.b",
+          ".a.f.f.a.",
+          "d.e.d.e.d",
+          ".b.c.c.b.",
+          "..a...a.."
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 3,
+            "c": 3
+          },
+          "c": {
+            "m": 1,
+            "c": 0
+          },
+          "d": {
+            "m": 4,
+            "c": 2
+          },
+          "e": {
+            "m": 2,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Spangle border",
+        "rows": [
+          "a.b.a.b.a",
+          ".c.c.c.c.",
+          "b.a.b.a.b",
+          ".d.d.d.d.",
+          "e.f.e.f.e",
+          ".d.d.d.d.",
+          "b.a.b.a.b",
+          ".c.c.c.c.",
+          "a.b.a.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 2,
+            "c": 0
+          },
+          "b": {
+            "m": 3,
+            "c": 3
+          },
+          "c": {
+            "m": 1,
+            "c": 0
+          },
+          "d": {
+            "m": 4,
+            "c": 2
+          },
+          "e": {
+            "m": 0,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 1
+          }
+        }
+      }
+    ]
+  },
+  "variant": "zardozi",
+  "players": "1"
+}

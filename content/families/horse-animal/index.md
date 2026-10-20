@@ -1,16 +1,16 @@
 ---
 title: "Horse and animal sports"
-description: "17 related traditions."
+description: "18 related traditions."
 path: "/families/horse-animal/"
-count: 17
+count: 18
 ---
 # Horse and animal sports
 
-17 related traditions.
+18 related traditions.
 
 
 
-17 entries.
+18 entries.
 
 - [Camel racing dash](../../games/19-camel-racing-dash/index.md): Jordan; Racing; Crossroads and Golden Ages
 - [Champ de Mars turf](../../games/1253-champ-de-mars-turf/index.md): Mauritius; Sports with animal partners; Classical Worlds
@@ -28,4 +28,5 @@ count: 17
 - [Bulls and Cows](../../games/9038-bulls-and-cows/index.md): Worldwide; Street and playground games; Age of Contact and Craft
 - [Chavgon](../../games/1204-chavgon/index.md): Uzbekistan; Street and playground games; Classical Worlds
 - [Encang kuda](../../games/1067-encang-kuda/index.md): Singapore; Street and playground games; Classical Worlds
+- [Rawhide braiding](../../games/6262-rawhide-braiding/index.md): Argentina; Crafts and making; Living Traditions
 - [Turkmen Akhal-Teke equestrian games](../../games/1170-turkmen-akhal-teke-equestrian-games/index.md): Turkmenistan; Street and playground games; Classical Worlds

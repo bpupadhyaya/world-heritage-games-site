@@ -1,0 +1,151 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.4,
+  "instrument": "musical saw",
+  "lanes": [
+   {
+    "name": "C",
+    "hz": 294,
+    "timbre": "bell",
+    "color": "#e5a972"
+   },
+   {
+    "name": "D",
+    "hz": 330,
+    "timbre": "bell",
+    "color": "#e5ad72"
+   },
+   {
+    "name": "E",
+    "hz": 370,
+    "timbre": "bell",
+    "color": "#e5b172"
+   },
+   {
+    "name": "F",
+    "hz": 392,
+    "timbre": "bell",
+    "color": "#e5b572"
+   },
+   {
+    "name": "G",
+    "hz": 440,
+    "timbre": "bell",
+    "color": "#e5b972"
+   },
+   {
+    "name": "A",
+    "hz": 494,
+    "timbre": "bell",
+    "color": "#e5bd72"
+   },
+   {
+    "name": "B",
+    "hz": 554,
+    "timbre": "bell",
+    "color": "#e5c172"
+   },
+   {
+    "name": "C+",
+    "hz": 587,
+    "timbre": "bell",
+    "color": "#e5c572"
+   }
+  ],
+  "songs": [
+   {
+    "id": "saw-scale",
+    "name": "Along the blade",
+    "bpm": 72,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Musical saw",
+    "note": "A teaching scale along the blade.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "C"
+     },
+     {
+      "beat": 1.0,
+      "lane": "D"
+     },
+     {
+      "beat": 2.0,
+      "lane": "E"
+     },
+     {
+      "beat": 3.0,
+      "lane": "F"
+     },
+     {
+      "beat": 4.0,
+      "lane": "G"
+     },
+     {
+      "beat": 5.0,
+      "lane": "A"
+     },
+     {
+      "beat": 6.0,
+      "lane": "B"
+     },
+     {
+      "beat": 7.0,
+      "lane": "C+"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "saw-song",
+    "name": "A singing line",
+    "bpm": 80,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Musical saw",
+    "note": "A long singing line.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "E"
+     },
+     {
+      "beat": 1.5,
+      "lane": "G"
+     },
+     {
+      "beat": 2.0,
+      "lane": "A"
+     },
+     {
+      "beat": 3.0,
+      "lane": "G"
+     },
+     {
+      "beat": 4.0,
+      "lane": "E"
+     },
+     {
+      "beat": 5.0,
+      "lane": "D"
+     },
+     {
+      "beat": 6.0,
+      "lane": "E"
+     },
+     {
+      "beat": 7.0,
+      "lane": "C"
+     }
+    ]
+   }
+  ]
+ }
+}

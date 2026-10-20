@@ -1,0 +1,362 @@
+{
+ "engine": "rhythm",
+ "variant": "fujara",
+ "params": {
+  "layout": "holes",
+  "mode": "follow",
+  "root": 98.0,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "1",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "111",
+    "dur": 1.2
+   },
+   {
+    "name": "2",
+    "cents": 300,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "110",
+    "dur": 1.2
+   },
+   {
+    "name": "3",
+    "cents": 500,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "100",
+    "dur": 1.2
+   },
+   {
+    "name": "4",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "000",
+    "dur": 1.2
+   },
+   {
+    "name": "1'",
+    "cents": 1200,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "111",
+    "dur": 1.2
+   },
+   {
+    "name": "2'",
+    "cents": 1500,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "110",
+    "dur": 1.2
+   },
+   {
+    "name": "3'",
+    "cents": 1700,
+    "timbre": "breath",
+    "color": "#6cc2a0",
+    "holes": "100",
+    "dur": 1.2
+   },
+   {
+    "name": "4'",
+    "cents": 1900,
+    "timbre": "breath",
+    "color": "#e0764a",
+    "holes": "000",
+    "dur": 1.2
+   }
+  ],
+  "songs": [
+   {
+    "name": "Climbing the overtones",
+    "bpm": 54,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0,
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": 5,
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": 7,
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": 5,
+      "len": 1
+     },
+     {
+      "beat": 7,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": 0,
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": 3,
+      "len": 2
+     },
+     {
+      "beat": 12,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 13,
+      "lane": 0,
+      "len": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0,
+      "len": 2
+     }
+    ]
+   },
+   {
+    "name": "Meadow call",
+    "bpm": 60,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 1,
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": 0,
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 7,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": 3,
+      "len": 2
+     },
+     {
+      "beat": 10,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": 1,
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": 0,
+      "len": 2
+     }
+    ]
+   },
+   {
+    "name": "Herd going home",
+    "bpm": 66,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": 5,
+      "len": 2
+     },
+     {
+      "beat": 4,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 6,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 8,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": 5,
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": 7,
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": 5,
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 15,
+      "lane": 1,
+      "len": 1
+     }
+    ]
+   },
+   {
+    "name": "Shepherd's call, overtone figure",
+    "bpm": 48,
+    "meter": 4,
+    "length": 20,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 1,
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3,
+      "len": 2
+     },
+     {
+      "beat": 4,
+      "lane": 5,
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 7,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": 0,
+      "len": 2
+     },
+     {
+      "beat": 10,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": 5,
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": 7,
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": 5,
+      "len": 1
+     },
+     {
+      "beat": 15,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 16,
+      "lane": 1,
+      "len": 4
+     }
+    ],
+    "id": "shepherd-call",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Slovak highland shepherds",
+    "note": "A teaching figure that climbs the natural overtones of the pipe and settles back to the lowest note, the way a shepherd's long call carries across a pasture. It is an exercise written for this game, not a fixed piece."
+   }
+  ],
+  "instrument": "fujara"
+ }
+}

@@ -1,16 +1,16 @@
 ---
 title: "Thailand"
-description: "12 traditions from Thailand."
+description: "13 traditions from Thailand."
 path: "/countries/thailand/"
-count: 12
+count: 13
 ---
 # Thailand
 
-12 traditions from Thailand.
+13 traditions from Thailand.
 
 
 
-12 entries.
+13 entries.
 
 - [Bo Sang umbrella painting](../../games/1243-bo-sang-umbrella-painting/index.md): Thailand; Crafts and making; Living Traditions
 - [Floating market trader](../../games/315-floating-market-trader/index.md): Thailand; Board and table games; Crossroads and Golden Ages
@@ -21,6 +21,7 @@ count: 12
 - [Sepak takraw](../../games/802-sepak-takraw/index.md): Indonesia, Malaysia; Street and playground games; Modern Heritage
 - [Thai fruit and vegetable carving](../../games/114-thai-fruit-and-vegetable-carving/index.md): Thailand; Crafts and making; Living Traditions
 - [Makyek](../../games/1143-makyek/index.md): Thailand; Board and table games; Crossroads and Golden Ages
+- [Ranat](../../games/10312-ranat/index.md): Thailand; Musical instruments; Living Traditions
 - [Thai checkers](../../games/1142-thai-checkers/index.md): Thailand; Board and table games; Crossroads and Golden Ages
 - [Thai chess](../../games/1141-thai-chess/index.md): Thailand; Board and table games; Crossroads and Golden Ages
 - [Thai pebbles](../../games/1140-thai-pebbles/index.md): Thailand; Dexterity and skill games; Deep Past and First Games

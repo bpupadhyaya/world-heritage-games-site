@@ -1,0 +1,148 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "maheshwari",
+    "cols": 7,
+    "rows": 7,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Indigo",
+        "color": "#2a4a8c"
+      },
+      {
+        "name": "Madder red",
+        "color": "#a8392e"
+      },
+      {
+        "name": "Zari gold",
+        "color": "#cf9f2a"
+      },
+      {
+        "name": "River teal",
+        "color": "#2f7f86"
+      },
+      {
+        "name": "Silk ivory",
+        "color": "#f0e6cc"
+      }
+    ],
+    "background": "#ece2c8",
+    "grid": "#b4a47c",
+    "motifs": [
+      "solid",
+      "diamond",
+      "checker",
+      "stripe-h",
+      "stripe-v",
+      "zigzag"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 5,
+    "designs": [
+      {
+        "name": "Check blocks and diamonds",
+        "rows": [
+          "cdfdfdc",
+          "dabebad",
+          "fbcacbf",
+          "eaedeae",
+          "fbcacbf",
+          "dabebad",
+          "cdfdfdc"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 2
+          },
+          "d": {
+            "m": 3,
+            "c": 3
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Chatai checks",
+        "rows": [
+          "abababa",
+          "babcbab",
+          "abdcdba",
+          "bacdcab",
+          "abdcdba",
+          "babcbab",
+          "abababa"
+        ],
+        "legend": {
+          "a": {
+            "m": 2,
+            "c": 0
+          },
+          "b": {
+            "m": 2,
+            "c": 4
+          },
+          "c": {
+            "m": 0,
+            "c": 2
+          },
+          "d": {
+            "m": 0,
+            "c": 3
+          }
+        }
+      },
+      {
+        "name": "Striped body, zigzag border",
+        "rows": [
+          "ccccccc",
+          "d.d.d.d",
+          "abababa",
+          "babebab",
+          "abababa",
+          "d.d.d.d",
+          "ccccccc"
+        ],
+        "legend": {
+          "a": {
+            "m": 3,
+            "c": 0
+          },
+          "b": {
+            "m": 3,
+            "c": 4
+          },
+          "c": {
+            "m": 5,
+            "c": 1
+          },
+          "d": {
+            "m": 4,
+            "c": 2
+          },
+          "e": {
+            "m": 1,
+            "c": 3
+          }
+        }
+      }
+    ]
+  }
+}

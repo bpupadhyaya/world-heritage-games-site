@@ -1,0 +1,31 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "mat",
+  "scene": "mt-lagoon",
+  "design": "blocks",
+  "weave": "plain",
+  "style": "rush",
+  "cols": 20,
+  "rows": 13,
+  "period": 6,
+  "colors": 3,
+  "edge": "fringe",
+  "frame": "none",
+  "binding": "#6a4a24",
+  "palette": [
+   {
+    "name": "Reed",
+    "color": "#c9c488"
+   },
+   {
+    "name": "Green",
+    "color": "#5a7a3a"
+   },
+   {
+    "name": "Maroon",
+    "color": "#7a2a2a"
+   }
+  ]
+ }
+}

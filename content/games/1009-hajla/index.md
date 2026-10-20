@@ -42,7 +42,7 @@ Usually placed in the era of Deep Past and First Games (before about 3000 BCE), 
 - [Elastic Jump](../../games/6-elastic-jump/index.md)
 - [Double Dutch](../../games/53-double-dutch/index.md)
 - [Morra](../../games/83-morra/index.md)
-- [Cublak-cublak suweng](../../games/325-cublak-cublak-suweng/index.md)
+- [Flamenco palmas](../../games/154-flamenco-palmas/index.md)
 
 ## Sources
 

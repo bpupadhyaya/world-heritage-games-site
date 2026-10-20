@@ -1,0 +1,179 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "assisi",
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-xy",
+    "rotateMarks": true,
+    "palette": [
+      {
+        "name": "Walnut brown",
+        "color": "#2a1a14"
+      },
+      {
+        "name": "Sienna",
+        "color": "#b5651d"
+      },
+      {
+        "name": "Indigo",
+        "color": "#23407a"
+      },
+      {
+        "name": "Olive green",
+        "color": "#5a6a2a"
+      },
+      {
+        "name": "Ochre",
+        "color": "#c09030"
+      }
+    ],
+    "background": "#9a2a24",
+    "grid": "#6a1a18",
+    "motifs": [
+      "bird",
+      "flower",
+      "leaf",
+      "vine",
+      "diamond",
+      "star"
+    ],
+    "designs": [
+      {
+        "name": "Birds and flowers on a red ground",
+        "rows": [
+          "e.c.f.c.e",
+          "..d.b.d..",
+          "a...g...a",
+          ".c.b.b.c.",
+          "..a.f.a..",
+          ".c.b.b.c.",
+          "a...g...a",
+          "..d.b.d..",
+          "e.c.f.c.e"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 3
+          },
+          "d": {
+            "m": 3,
+            "c": 2
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 0
+          },
+          "g": {
+            "m": 1,
+            "c": 2
+          }
+        }
+      },
+      {
+        "name": "Facing birds",
+        "rows": [
+          "a...b...a",
+          ".c.d.d.c.",
+          "b.e.c.e.b",
+          ".d.a.a.d.",
+          "c.f.g.f.c",
+          ".d.a.a.d.",
+          "b.e.c.e.b",
+          ".c.d.d.c.",
+          "a...b...a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 3
+          },
+          "d": {
+            "m": 3,
+            "c": 2
+          },
+          "e": {
+            "m": 5,
+            "c": 4
+          },
+          "f": {
+            "m": 4,
+            "c": 2
+          },
+          "g": {
+            "m": 1,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Birds round a star",
+        "rows": [
+          ".a.b.b.a.",
+          "c.d.e.d.c",
+          ".b.f.f.b.",
+          "a.g.c.g.a",
+          ".e.d.d.e.",
+          "a.g.c.g.a",
+          ".b.f.f.b.",
+          "c.d.e.d.c",
+          ".a.b.b.a."
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 2
+          },
+          "b": {
+            "m": 2,
+            "c": 3
+          },
+          "c": {
+            "m": 1,
+            "c": 1
+          },
+          "d": {
+            "m": 4,
+            "c": 0
+          },
+          "e": {
+            "m": 3,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 1
+          },
+          "g": {
+            "m": 1,
+            "c": 2
+          }
+        }
+      }
+    ]
+  }
+}

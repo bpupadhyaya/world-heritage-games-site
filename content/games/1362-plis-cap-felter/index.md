@@ -43,9 +43,9 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Lefkara Lace](../../games/220-lefkara-lace/index.md)
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md)
 - [Chechia Felt-Cap Workshop](../../games/1254-chechia-felt-cap-workshop/index.md)
+- [Assisi embroidery](../../games/1623-assisi-embroidery/index.md)
 - [Kente strip weaving](../../games/22-kente-strip-weaving/index.md)
 - [Celtic knot weave](../../games/25-celtic-knot-weave/index.md)
-- [Sashiko Stitch Patterns](../../games/27-sashiko-stitch-patterns/index.md)
 
 ## Sources
 

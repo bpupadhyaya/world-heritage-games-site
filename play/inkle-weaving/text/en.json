@@ -1,0 +1,25 @@
+{
+  "title": "Inkle weaving",
+  "native": "",
+  "alt": [
+    "Inkle band weaving"
+  ],
+  "summary": "An inkle loom is a small frame with pegs that holds one long loop of warp threads. The weaver lifts every other thread, passes the weft, and the threads pack so tightly that the weft vanishes and only the warp colours show: a narrow, firm band for belts, straps and reins.",
+  "howToPlay": [
+    "Pick a thread colour from the cones and a pattern shape from the tray.",
+    "Touch a square on the band to pick up that shape there; it is mirrored on the other half of the band.",
+    "Copy the band shown on the card, then press Check."
+  ],
+  "rules": [
+    "The band is mirrored left and right, so every shape you place is also placed on its partner square.",
+    "A square counts only when its shape and its thread colour both match the band you are copying.",
+    "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+  ],
+  "heritageNote": "Inkle was once an everyday English word for linen tape, and inkle weavers made bands for belts, bindings and reins for centuries. Small table-top inkle looms are still made and used today by hand weavers.",
+  "countries": [
+    "United Kingdom"
+  ],
+  "credits": [
+    "Pattern design: World Heritage Games (original, in the style of the tradition)"
+  ]
+}

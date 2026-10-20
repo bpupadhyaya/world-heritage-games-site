@@ -1,0 +1,32 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "basket",
+  "scene": "bk-mesob",
+  "form": "mesob",
+  "style": "coil",
+  "motif": "eyes",
+  "palette": [
+   {
+    "name": "Straw",
+    "color": "#e6d29c"
+   },
+   {
+    "name": "Red",
+    "color": "#a82a2a"
+   },
+   {
+    "name": "Green",
+    "color": "#2f7a3a"
+   },
+   {
+    "name": "Gold",
+    "color": "#e0b030"
+   }
+  ],
+  "colors": 4,
+  "stitches": 15,
+  "period": 6,
+  "rows": 5
+ }
+}

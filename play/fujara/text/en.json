@@ -1,0 +1,30 @@
+{
+ "title": "Fujara",
+ "native": "Fujara",
+ "alt": [
+  "Shepherd's overtone flute"
+ ],
+ "summary": "The fujara is a tall wooden overtone flute of the Slovak highlands, up to two metres long, with only three finger holes. A short mouth tube carries the breath to the edge near the top, and the player coaxes a whole melody from the pipe's natural overtones by blowing harder or softer.",
+ "howToPlay": [
+  "Four finger positions run up the pipe, numbered 1 to 4; the plain numbers are the low register, the numbers with a small mark on the right are the same fingering blown harder.",
+  "On the pipe, a filled ring is a covered hole and a dark ring is an open one.",
+  "Notes travel down the tube from the mouth; touch the matching ring as the breath arrives, and let long notes ring.",
+  "Start with climbing the overtones, then the meadow call and the herd going home."
+ ],
+ "rules": [
+  "The pipe has three finger holes; covering all three gives the lowest fundamental, lifting fingers from the bottom upward gives higher fundamentals.",
+  "Each fingering can sound two notes: blown softly it gives the low register, blown harder it jumps up to an overtone (the marked rings on the right).",
+  "Pitches follow a fixed low fundamental near 98 Hz; fingerings 1 to 4 sit at the low register and their upper partners an octave or more above.",
+  "A stroke within a hair of the note is perfect, a near one is good, and a missed one scores nothing.",
+  "An extra stroke while a song is running costs a few points.",
+  "Each song plays twice; three stars need roughly nine notes in ten on time."
+ ],
+ "heritageNote": "The fujara is played by shepherds in the mountains of central Slovakia, where its long, soft voice carried across pastures. Makers still carve and tune each pipe by hand, and the instrument is recognised internationally as part of Slovakia's living heritage.",
+ "countries": [
+  "Slovakia"
+ ],
+ "credits": [
+  "Tradition: Slovak fujara playing; melodies written for this game",
+  "Photo by Palo Cepcek from Wikimedia Commons (CC BY-SA 4.0)"
+ ]
+}

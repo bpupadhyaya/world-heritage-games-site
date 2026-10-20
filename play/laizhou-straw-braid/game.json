@@ -1,0 +1,13 @@
+{
+ "slug": "laizhou-straw-braid",
+ "title": "Straw braid",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

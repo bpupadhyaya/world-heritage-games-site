@@ -1,0 +1,236 @@
+{
+ "engine": "pattern",
+ "variant": "amazigh-rug-weaving",
+ "params": {
+  "scene": "kilim",
+  "cols": 9,
+  "rows": 11,
+  "symmetry": "rot2",
+  "palette": [
+   {
+    "name": "Rust red",
+    "color": "#b8452a"
+   },
+   {
+    "name": "Ochre",
+    "color": "#d6a038"
+   },
+   {
+    "name": "Indigo",
+    "color": "#263a6a"
+   },
+   {
+    "name": "Ivory",
+    "color": "#efe4cc"
+   },
+   {
+    "name": "Black wool",
+    "color": "#1f1a16"
+   }
+  ],
+  "background": "#e4d3ae",
+  "grid": "#a88a5a",
+  "motifs": [
+   "diamond",
+   "zigzag",
+   "triangle",
+   "checker",
+   "cross",
+   "stripe-h"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 4,
+  "designs": [
+   {
+    "name": "Lozenge field",
+    "rows": [
+     "jjjjjjjjj",
+     "igigigigi",
+     "....f....",
+     "..h.a.h..",
+     "...b.b...",
+     ".k..c..k.",
+     "...b.b...",
+     "..h.a.h..",
+     "....f....",
+     "igigigigi",
+     "jjjjjjjjj"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 1,
+      "c": 4
+     },
+     "e": {
+      "m": 1,
+      "c": 1
+     },
+     "f": {
+      "m": 2,
+      "c": 2
+     },
+     "g": {
+      "m": 3,
+      "c": 1
+     },
+     "h": {
+      "m": 4,
+      "c": 0
+     },
+     "i": {
+      "m": 5,
+      "c": 2
+     },
+     "j": {
+      "m": 5,
+      "c": 4
+     },
+     "k": {
+      "m": 2,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Zigzag bands",
+    "rows": [
+     "iiiiiiiii",
+     "ddddddddd",
+     "..c.a.c..",
+     "dedededed",
+     "....b....",
+     "ddddddddd",
+     "....b....",
+     "dedededed",
+     "..c.a.c..",
+     "ddddddddd",
+     "iiiiiiiii"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 1,
+      "c": 4
+     },
+     "e": {
+      "m": 1,
+      "c": 1
+     },
+     "f": {
+      "m": 2,
+      "c": 2
+     },
+     "g": {
+      "m": 3,
+      "c": 1
+     },
+     "h": {
+      "m": 4,
+      "c": 0
+     },
+     "i": {
+      "m": 5,
+      "c": 2
+     },
+     "j": {
+      "m": 5,
+      "c": 4
+     },
+     "k": {
+      "m": 2,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Chevrons and checks",
+    "rows": [
+     "jjjjjjjjj",
+     "....h....",
+     "gfgfgfgfg",
+     "..k.b.k..",
+     "..k.b.k..",
+     "...a.a...",
+     "..k.b.k..",
+     "..k.b.k..",
+     "gfgfgfgfg",
+     "....h....",
+     "jjjjjjjjj"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 1,
+      "c": 4
+     },
+     "e": {
+      "m": 1,
+      "c": 1
+     },
+     "f": {
+      "m": 2,
+      "c": 2
+     },
+     "g": {
+      "m": 3,
+      "c": 1
+     },
+     "h": {
+      "m": 4,
+      "c": 0
+     },
+     "i": {
+      "m": 5,
+      "c": 2
+     },
+     "j": {
+      "m": 5,
+      "c": 4
+     },
+     "k": {
+      "m": 2,
+      "c": 0
+     }
+    }
+   }
+  ]
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

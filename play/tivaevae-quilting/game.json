@@ -1,0 +1,13 @@
+{
+ "slug": "tivaevae-quilting",
+ "title": "Tivaevae appliqu\u00e9 quilt",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Mountain Dulcimer",
+  "native": "",
+  "alt": [
+    "Appalachian dulcimer",
+    "Lap dulcimer"
+  ],
+  "summary": "A fretted zither played across the lap in the Appalachian hills. One melody string is stopped with a small wooden stick while drone strings hum beneath it, giving ballads and dance tunes their open, ringing sound.",
+  "howToPlay": [
+    "Look at the long fretboard: the melody string runs down the middle with a bar at every fret.",
+    "Each lane is a fret on the melody string, and the last lane is the open drone string.",
+    "Watch the beads travel along the string and strike the lane as each one lands on its fret.",
+    "Learn the porch tune first, then try the reel and the waltz."
+  ],
+  "rules": [
+    "The frets give a seven-note scale with a flattened seventh, the traditional mountain mode.",
+    "The drone string is played open and always sounds the same low note.",
+    "A strum on the beat is perfect, a near one is good, and stray strums cost points.",
+    "Each tune is played through twice."
+  ],
+  "heritageNote": "Settlers in the Appalachian mountains made these instruments from local wood, and they became companions for ballads, hymn-like airs and dance tunes at home and on the porch. Makers and players across the region keep the tradition alive today.",
+  "countries": [
+    "United States"
+  ],
+  "credits": []
+}

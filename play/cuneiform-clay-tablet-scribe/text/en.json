@@ -1,0 +1,22 @@
+{
+ "title": "Babylonian numerals",
+ "native": "𒀸𒋗",
+ "countries": [
+  "Iraq"
+ ],
+ "summary": "Rule a square and its diagonals on a round clay tablet, then press the wedge numbers of a Babylonian scribe: one vertical wedge for each unit and a pair of corner wedges for each ten.",
+ "howToPlay": [
+  "The round tablet shows the finished record.",
+  "Drag the stylus point along each lit line to rule the square.",
+  "Then press at each lit dot and drag a short way toward the point to leave one wedge.",
+  "Press Check when every number is written."
+ ],
+ "rules": [
+  "Score: how closely your marks sit on the guide. A wedge is made by pressing and dragging a short way; a loose touch leaves only a dimple.",
+  "Three stars for 88 or more, two stars for 65 and one star for 40.",
+  "Watch and learn plays a whole round for you, and Undo takes back the last step."
+ ],
+ "heritageNote": "Cuneiform means wedge-shaped. Scribes of Mesopotamia pressed a cut reed into soft clay to leave wedge marks, and used place values of sixty. A tablet in the Yale collection shows a square with its diagonals and the number for the square root of two, correct to six figures.",
+ "alt": [],
+ "credits": []
+}

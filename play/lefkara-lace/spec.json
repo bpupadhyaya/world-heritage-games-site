@@ -1,0 +1,198 @@
+{
+ "engine": "pattern",
+ "variant": "lefkara-lace",
+ "params": {
+  "scene": "lefkara",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "rot4",
+  "palette": [
+   {
+    "name": "White",
+    "color": "#faf6ea"
+   },
+   {
+    "name": "Ecru",
+    "color": "#d8c9a6"
+   },
+   {
+    "name": "Blue-grey",
+    "color": "#6a8aaa"
+   }
+  ],
+  "background": "#efe8d6",
+  "grid": "#b8ac92",
+  "motifs": [
+   "diamond",
+   "star",
+   "cross",
+   "ring",
+   "solid",
+   "xstitch"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 2,
+  "designs": [
+   {
+    "name": "Diamond field",
+    "rows": [
+     "g...g...g",
+     ".a.a.a.a.",
+     "..b...b..",
+     ".a.e.e.a.",
+     "g...f...g",
+     ".a.e.e.a.",
+     "..b...b..",
+     ".a.a.a.a.",
+     "g...g...g"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 2,
+      "c": 2
+     },
+     "e": {
+      "m": 3,
+      "c": 1
+     },
+     "f": {
+      "m": 4,
+      "c": 0
+     },
+     "g": {
+      "m": 5,
+      "c": 2
+     },
+     "h": {
+      "m": 4,
+      "c": 1
+     },
+     "i": {
+      "m": 3,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Cross and ring",
+    "rows": [
+     "d.i.d.i.d",
+     "..e...e..",
+     "i.c.i.c.i",
+     "..e...e..",
+     "d.i.f.i.d",
+     "..e...e..",
+     "i.c.i.c.i",
+     "..e...e..",
+     "d.i.d.i.d"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 2,
+      "c": 2
+     },
+     "e": {
+      "m": 3,
+      "c": 1
+     },
+     "f": {
+      "m": 4,
+      "c": 0
+     },
+     "g": {
+      "m": 5,
+      "c": 2
+     },
+     "h": {
+      "m": 4,
+      "c": 1
+     },
+     "i": {
+      "m": 3,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Star in a frame",
+    "rows": [
+     "hgggggggh",
+     "gc.a.a.cg",
+     "g.e...e.g",
+     "ga.b.b.ag",
+     "g...c...g",
+     "ga.b.b.ag",
+     "g.e...e.g",
+     "gc.a.a.cg",
+     "hgggggggh"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 2,
+      "c": 2
+     },
+     "e": {
+      "m": 3,
+      "c": 1
+     },
+     "f": {
+      "m": 4,
+      "c": 0
+     },
+     "g": {
+      "m": 5,
+      "c": 2
+     },
+     "h": {
+      "m": 4,
+      "c": 1
+     },
+     "i": {
+      "m": 3,
+      "c": 2
+     }
+    }
+   }
+  ]
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

@@ -43,9 +43,9 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Celtic knot weave](../../games/25-celtic-knot-weave/index.md)
 - [Nordic Colourwork Knitting](../../games/413-nordic-colourwork-knitting/index.md)
 - [Tartan Sett Weaving](../../games/505-tartan-sett-weaving/index.md)
+- [Broderie anglaise](../../games/1847-broderie-anglaise/index.md)
+- [Blackwork](../../games/10529-blackwork/index.md)
 - [Bobbin lace making](../../games/108-bobbin-lace-making/index.md)
-- [Kente strip weaving](../../games/22-kente-strip-weaving/index.md)
-- [Sashiko Stitch Patterns](../../games/27-sashiko-stitch-patterns/index.md)
 
 ## Sources
 

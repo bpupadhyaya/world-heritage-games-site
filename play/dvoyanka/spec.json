@@ -1,0 +1,245 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "dvoyanka",
+  "mode": "follow",
+  "root": 392.0,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Sol",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "111111"
+   },
+   {
+    "name": "La",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "111110"
+   },
+   {
+    "name": "Si",
+    "cents": 400,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "111100"
+   },
+   {
+    "name": "Do",
+    "cents": 500,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "111000"
+   },
+   {
+    "name": "Re",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "110000"
+   },
+   {
+    "name": "Mi",
+    "cents": 900,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "100000"
+   },
+   {
+    "name": "Fa",
+    "cents": 1000,
+    "timbre": "breath",
+    "color": "#6cc2a0",
+    "holes": "000000"
+   }
+  ],
+  "songs": [
+   {
+    "id": "dvoyanka-line",
+    "name": "Slow line",
+    "bpm": 74,
+    "meter": 4,
+    "length": 23.0,
+    "kind": "figure",
+    "heritage": "Dvoyanka, Bulgaria",
+    "note": "A teaching line over the second pipe: slow, rising and settling on the home note.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Sol",
+      "len": 2
+     },
+     {
+      "beat": 2.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Re",
+      "len": 2
+     },
+     {
+      "beat": 5.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "Sol",
+      "len": 3
+     },
+     {
+      "beat": 11.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "Fa",
+      "len": 2
+     },
+     {
+      "beat": 15.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 17.0,
+      "lane": "Si",
+      "len": 2
+     },
+     {
+      "beat": 19.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 20.0,
+      "lane": "Sol",
+      "len": 3
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "dvoyanka-dance",
+    "name": "Dance line",
+    "bpm": 100,
+    "meter": 4,
+    "length": 21.0,
+    "kind": "figure",
+    "heritage": "Dvoyanka, Bulgaria",
+    "note": "A livelier line that runs up and down the melody pipe.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "Sol",
+      "len": 2
+     },
+     {
+      "beat": 10.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "Fa",
+      "len": 2
+     },
+     {
+      "beat": 14.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "Si",
+      "len": 2
+     },
+     {
+      "beat": 18.0,
+      "lane": "Sol",
+      "len": 3
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "dvoyanka"
+}

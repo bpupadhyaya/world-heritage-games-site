@@ -46,8 +46,8 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [Croquet](../../games/81-croquet/index.md)
+- [Uilleann pipes](../../games/4258-uilleann-pipes/index.md)
 - [Water Jousting](../../games/393-water-jousting/index.md)
 - [Racing Pigeon Loft](../../games/411-racing-pigeon-loft/index.md)
 - [Highland Bagpipe Chanter and Drone](../../games/510-highland-bagpipe-chanter-and-drone/index.md)
 - [Shinny](../../games/725-shinny/index.md)
-- [Chogan](../../games/810-chogan/index.md)

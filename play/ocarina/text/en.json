@@ -1,0 +1,25 @@
+{
+ "title": "Ocarina",
+ "native": "Ocarina",
+ "alt": [
+  "Vessel flute"
+ ],
+ "summary": "The ocarina is a vessel-shaped flute with finger holes, made from clay, found in the Americas, China and Europe. Instead of a long tube it has a rounded body: the player blows across the edge of a small window and covers holes to change the pitch, and the whole vessel rings with a soft, pure tone.",
+ "howToPlay": [
+  "A covered hole glows; an open hole shows its dark bore. Eight notes of the scale are lit across the body of the clay vessel.",
+  "Each strike shows the fingering of that note and a band of breath runs from the mouthpiece to it.",
+  "Strike close to the beat; a long note swells slowly."
+ ],
+ "rules": [
+  "A phrase is a line of notes, each struck close to its beat.",
+  "Long notes swell slowly: strike on the beat and let them ring.",
+  "The round ends when the last note has been judged; the score is the share of the best possible."
+ ],
+ "countries": [
+  "Worldwide"
+ ],
+ "heritageNote": "Clay vessel flutes have been made for thousands of years, from small bird-shaped whistles to the sweet-potato ocarinas of today.",
+ "credits": [
+  "Tradition: the ocarina; tunes written for this game"
+ ]
+}

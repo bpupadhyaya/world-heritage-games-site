@@ -1,0 +1,174 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "broderie",
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Optic white",
+        "color": "#fffefa"
+      },
+      {
+        "name": "Ivory",
+        "color": "#f3ead6"
+      },
+      {
+        "name": "Dusty rose",
+        "color": "#d89aa4"
+      },
+      {
+        "name": "Sky blue",
+        "color": "#8fbfe0"
+      },
+      {
+        "name": "Sage",
+        "color": "#a6c29c"
+      }
+    ],
+    "background": "#f5f1e8",
+    "grid": "#d9d2c4",
+    "motifs": [
+      "dot",
+      "ring",
+      "petal",
+      "leaf",
+      "flower",
+      "vine"
+    ],
+    "designs": [
+      {
+        "name": "Eyelet flowers and leaves",
+        "rows": [
+          "a.c.e.c.a",
+          ".d.b.b.d.",
+          "c.e.a.e.c",
+          ".b.d.d.b.",
+          "e.a.f.a.e",
+          ".b.d.d.b.",
+          "c.e.a.e.c",
+          ".d.b.b.d.",
+          "a.c.e.c.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 3
+          },
+          "d": {
+            "m": 3,
+            "c": 4
+          },
+          "e": {
+            "m": 4,
+            "c": 0
+          },
+          "f": {
+            "m": 4,
+            "c": 2
+          }
+        }
+      },
+      {
+        "name": "Scalloped daisy row",
+        "rows": [
+          "d.a.d.a.d",
+          ".b.e.e.b.",
+          "a.f.b.f.a",
+          ".e.c.c.e.",
+          "d.b.g.b.d",
+          ".e.c.c.e.",
+          "a.f.b.f.a",
+          ".b.e.e.b.",
+          "d.a.d.a.d"
+        ],
+        "legend": {
+          "a": {
+            "m": 4,
+            "c": 0
+          },
+          "b": {
+            "m": 0,
+            "c": 1
+          },
+          "c": {
+            "m": 1,
+            "c": 0
+          },
+          "d": {
+            "m": 2,
+            "c": 0
+          },
+          "e": {
+            "m": 3,
+            "c": 4
+          },
+          "f": {
+            "m": 4,
+            "c": 2
+          },
+          "g": {
+            "m": 1,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Sprigs and eyelets",
+        "rows": [
+          "a.b.a.b.a",
+          ".c.d.d.c.",
+          "e.a.c.a.e",
+          ".d.f.f.d.",
+          "b.c.g.c.b",
+          ".d.f.f.d.",
+          "e.a.c.a.e",
+          ".c.d.d.c.",
+          "a.b.a.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 0
+          },
+          "b": {
+            "m": 0,
+            "c": 0
+          },
+          "c": {
+            "m": 3,
+            "c": 0
+          },
+          "d": {
+            "m": 2,
+            "c": 3
+          },
+          "e": {
+            "m": 4,
+            "c": 0
+          },
+          "f": {
+            "m": 5,
+            "c": 4
+          },
+          "g": {
+            "m": 4,
+            "c": 2
+          }
+        }
+      }
+    ]
+  }
+}

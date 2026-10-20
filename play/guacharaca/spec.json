@@ -1,0 +1,172 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "guacharaca",
+  "lanes": [
+   {
+    "name": "Down",
+    "hz": 320,
+    "timbre": "clap",
+    "color": "#f0b84a"
+   },
+   {
+    "name": "Up",
+    "hz": 360,
+    "timbre": "clap",
+    "color": "#58b8d6"
+   },
+   {
+    "name": "Scratch",
+    "hz": 420,
+    "timbre": "clap",
+    "color": "#e0693a"
+   },
+   {
+    "name": "Knock",
+    "hz": 240,
+    "timbre": "clap",
+    "color": "#7ac07a"
+   }
+  ],
+  "songs": [
+   {
+    "id": "guacharaca-paseo",
+    "name": "Paseo scrape, 4 beats",
+    "bpm": 112,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Guacharaca, vallenato, Colombia",
+    "note": "A teaching pattern: long scrapes down and back, a scratch, and a knock on the end.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Up"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Scratch"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Down"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Knock"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Up"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Scratch"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Up"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Down"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Knock"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "guacharaca-fill",
+    "name": "Fill",
+    "bpm": 124,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Guacharaca, vallenato, Colombia",
+    "note": "A longer pattern of scrapes and scratches.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Up"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Scratch"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Up"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Up"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Scratch"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Knock"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Scratch"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Up"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Scratch"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Up"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Scratch"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Knock"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "guacharaca"
+}

@@ -1,0 +1,13 @@
+{
+ "slug": "zardozi",
+ "title": "Zardozi gold-wire embroidery",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

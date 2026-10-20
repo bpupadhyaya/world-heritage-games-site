@@ -1,0 +1,307 @@
+{
+ "engine": "rhythm",
+ "variant": "pipa",
+ "players": "1",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 220,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "pipa",
+  "lanes": [
+   {
+    "name": "A3",
+    "cents": 0,
+    "id": "a3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8442c",
+    "string": 0,
+    "fret": 4
+   },
+   {
+    "name": "B3",
+    "cents": 200,
+    "id": "b3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d57043",
+    "string": 0,
+    "fret": 7
+   },
+   {
+    "name": "C#4",
+    "cents": 400,
+    "id": "cs4-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e39c59",
+    "string": 0,
+    "fret": 11
+   },
+   {
+    "name": "E4",
+    "cents": 700,
+    "id": "e4-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#f0c870",
+    "string": 1,
+    "fret": 5
+   },
+   {
+    "name": "F#4",
+    "cents": 900,
+    "id": "fs4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d4c780",
+    "string": 1,
+    "fret": 9
+   },
+   {
+    "name": "A4",
+    "cents": 1200,
+    "id": "a4-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#b8c590",
+    "string": 2,
+    "fret": 7
+   },
+   {
+    "name": "B4",
+    "cents": 1400,
+    "id": "b4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#9cc4a0",
+    "string": 2,
+    "fret": 12
+   },
+   {
+    "name": "C#5",
+    "cents": 1600,
+    "id": "cs5-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#85bbab",
+    "string": 3,
+    "fret": 5
+   },
+   {
+    "name": "E5",
+    "cents": 1900,
+    "id": "e5-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#6fb1b5",
+    "string": 3,
+    "fret": 10
+   },
+   {
+    "name": "Tremolo",
+    "cents": 1200,
+    "id": "tremolo-9",
+    "timbre": "pluck",
+    "dur": 1.6,
+    "color": "#58a8c0",
+    "row": 3
+   }
+  ],
+  "songs": [
+   {
+    "id": "lyrical-line",
+    "name": "Lyrical line",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Slow singing line in the style of Chinese lute music",
+    "bpm": 76,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 8,
+      "lane": 7
+     },
+     {
+      "beat": 9,
+      "lane": 6
+     },
+     {
+      "beat": 10,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     }
+    ],
+    "note": "A flowing line that climbs through the pentatonic notes and settles back, with long pauses to let the strings sing."
+   },
+   {
+    "id": "lively-march",
+    "name": "Lively march",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Bright two-beat figure",
+    "bpm": 118,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 0.5,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 2.5,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 4.5,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 6.5,
+      "lane": 7
+     },
+     {
+      "beat": 7,
+      "lane": 8
+     },
+     {
+      "beat": 8,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 5
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 0
+     }
+    ],
+    "note": "A bright, bouncing figure in two, with repeated notes on the strong beat."
+   },
+   {
+    "id": "rolling-tremolo",
+    "name": "Rolling tremolo",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Long rolled notes between plucked phrases",
+    "bpm": 84,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 9
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 9
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     }
+    ],
+    "note": "Plucked notes answered by a long tremolo roll, the sound the pipa is best known for."
+   }
+  ]
+ }
+}

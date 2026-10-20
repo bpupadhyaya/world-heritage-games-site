@@ -1,0 +1,13 @@
+{
+  "engine": "shape-craft",
+  "variant": "pysanka",
+  "params": {
+    "technique": "paint",
+    "design": "pysanka",
+    "scene": "pysanka",
+    "guideMode": "trace"
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

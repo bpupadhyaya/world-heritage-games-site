@@ -1,0 +1,154 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "warpweight",
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Madder red",
+        "color": "#a8382c"
+      },
+      {
+        "name": "Woad blue",
+        "color": "#2f4f86"
+      },
+      {
+        "name": "Weld yellow",
+        "color": "#d8aa38"
+      },
+      {
+        "name": "Brown fleece",
+        "color": "#4a3322"
+      },
+      {
+        "name": "Ivory wool",
+        "color": "#efe6cc"
+      }
+    ],
+    "background": "#ddd0b0",
+    "grid": "#a89870",
+    "motifs": [
+      "diamond",
+      "triangle",
+      "stripe-h",
+      "checker",
+      "cross",
+      "zigzag"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Diamond twill blanket",
+        "rows": [
+          "....a....",
+          "...bcb...",
+          "..bdadb..",
+          ".bdeaedb.",
+          "bdeeeeedb",
+          ".bdeaedb.",
+          "..bdadb..",
+          "...bcb...",
+          "fffffffff"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 0,
+            "c": 1
+          },
+          "c": {
+            "m": 0,
+            "c": 2
+          },
+          "d": {
+            "m": 1,
+            "c": 2
+          },
+          "e": {
+            "m": 3,
+            "c": 4
+          },
+          "f": {
+            "m": 2,
+            "c": 3
+          }
+        }
+      },
+      {
+        "name": "Stepped band blanket",
+        "rows": [
+          "fffffffff",
+          "a.a.a.a.a",
+          "bbbbbbbbb",
+          "..c.d.c..",
+          "...cdc...",
+          "....d....",
+          "...cdc...",
+          "..c.d.c..",
+          "fffffffff"
+        ],
+        "legend": {
+          "f": {
+            "m": 5,
+            "c": 3
+          },
+          "a": {
+            "m": 4,
+            "c": 0
+          },
+          "b": {
+            "m": 2,
+            "c": 2
+          },
+          "c": {
+            "m": 1,
+            "c": 1
+          },
+          "d": {
+            "m": 0,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Checker field blanket",
+        "rows": [
+          "eeeeeeeee",
+          "..g...g..",
+          "..hhhhh..",
+          ".g.....g.",
+          "....a....",
+          ".g.....g.",
+          "..hhhhh..",
+          "..g...g..",
+          "eeeeeeeee"
+        ],
+        "legend": {
+          "e": {
+            "m": 2,
+            "c": 1
+          },
+          "g": {
+            "m": 0,
+            "c": 2
+          },
+          "h": {
+            "m": 3,
+            "c": 3
+          },
+          "a": {
+            "m": 0,
+            "c": 0
+          }
+        }
+      }
+    ]
+  }
+}

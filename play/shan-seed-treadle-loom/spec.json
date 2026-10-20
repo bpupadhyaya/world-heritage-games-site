@@ -1,0 +1,148 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "seedtreadle",
+    "cols": 7,
+    "rows": 7,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Indigo",
+        "color": "#243a6e"
+      },
+      {
+        "name": "Madder red",
+        "color": "#a8352a"
+      },
+      {
+        "name": "Turmeric",
+        "color": "#e0a526"
+      },
+      {
+        "name": "Leaf green",
+        "color": "#4a7a3e"
+      },
+      {
+        "name": "Cotton white",
+        "color": "#f2ead6"
+      }
+    ],
+    "background": "#e6d8b0",
+    "grid": "#a89868",
+    "motifs": [
+      "stripe-h",
+      "stripe-v",
+      "checker",
+      "diamond",
+      "zigzag",
+      "dot"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Indigo and turmeric check",
+        "rows": [
+          "a.b.b.a",
+          ".c.d.c.",
+          "b.e.e.b",
+          ".d.a.d.",
+          "b.e.e.b",
+          ".c.d.c.",
+          "a.b.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 2
+          },
+          "d": {
+            "m": 3,
+            "c": 3
+          },
+          "e": {
+            "m": 4,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Stripes and dots",
+        "rows": [
+          "b.b.b.b",
+          ".c.d.c.",
+          "a.e.e.a",
+          "..d.d..",
+          "a.e.e.a",
+          ".c.d.c.",
+          "b.b.b.b"
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 0
+          },
+          "b": {
+            "m": 0,
+            "c": 2
+          },
+          "c": {
+            "m": 5,
+            "c": 4
+          },
+          "d": {
+            "m": 4,
+            "c": 1
+          },
+          "e": {
+            "m": 2,
+            "c": 3
+          }
+        }
+      },
+      {
+        "name": "Diamond check",
+        "rows": [
+          "c.c.c.c",
+          ".d.a.d.",
+          "b.e.e.b",
+          ".a.d.a.",
+          "b.e.e.b",
+          ".d.a.d.",
+          "c.c.c.c"
+        ],
+        "legend": {
+          "a": {
+            "m": 3,
+            "c": 2
+          },
+          "b": {
+            "m": 2,
+            "c": 0
+          },
+          "c": {
+            "m": 0,
+            "c": 4
+          },
+          "d": {
+            "m": 5,
+            "c": 1
+          },
+          "e": {
+            "m": 4,
+            "c": 3
+          }
+        }
+      }
+    ]
+  }
+}

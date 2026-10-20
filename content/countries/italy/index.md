@@ -1,16 +1,16 @@
 ---
 title: "Italy"
-description: "24 traditions from Italy."
+description: "30 traditions from Italy."
 path: "/countries/italy/"
-count: 24
+count: 30
 ---
 # Italy
 
-24 traditions from Italy.
+30 traditions from Italy.
 
 
 
-24 entries.
+30 entries.
 
 - [Bocce](../../games/830-bocce/index.md): Italy, San Marino; Street and playground games; Modern Heritage
 - [Circle Dodgeball](../../games/470-circle-dodgeball/index.md): Brazil, Germany; Archery, throwing and target games; Classical Worlds
@@ -25,6 +25,7 @@ count: 24
 - [Launeddas Triple Pipe](../../games/400-launeddas-triple-pipe/index.md): Italy; Musical instruments; Living Traditions
 - [Ludus Latrunculorum](../../games/4756-ludus-latrunculorum/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Morra](../../games/83-morra/index.md): Italy; Archery, throwing and target games; Classical Worlds
+- [Peg Wooden Doll](../../games/8695-peg-wooden-doll/index.md): Italy; Toys; Modern Heritage
 - [Portolan Chart Navigator](../../games/503-portolan-chart-navigator/index.md): Italy, Spain; Puzzles and mind games; Modern Heritage
 - [Ribbon-Pole Plaiting Dance](../../games/512-ribbon-pole-plaiting-dance/index.md): United Kingdom, Germany; Dances; Living Traditions
 - [Sicilian Cart Painting](../../games/399-sicilian-cart-painting/index.md): Italy; Crafts and making; Living Traditions
@@ -32,7 +33,12 @@ count: 24
 - [Steal the Flag](../../games/474-steal-the-flag/index.md): Italy, Brazil; Other traditions; Living Traditions
 - [Tamburello](../../games/489-tamburello/index.md): Italy, France; Crafts and making; Living Traditions
 - [Tessellated Mosaic Making](../../games/500-tessellated-mosaic-making/index.md): Italy, Lebanon; Crafts and making; Living Traditions
+- [Tromba marina](../../games/4201-tromba-marina/index.md): Germany, France; Musical instruments; Living Traditions
 - [Venetian lagoon regatta](../../games/486-venetian-lagoon-regatta/index.md): Italy; Racing; Age of Contact and Craft
+- [Assisi embroidery](../../games/1623-assisi-embroidery/index.md): Italy; Crafts and making; Living Traditions
+- [Bargello](../../games/1706-bargello/index.md): Italy, Hungary; Crafts and making; Living Traditions
+- [Deruta ceramics](../../games/10441-deruta-ceramics/index.md): Italy; Crafts and making; Living Traditions
 - [Rithmomachia](../../games/8869-rithmomachia/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Scopa](../../games/832-scopa/index.md): Italy, San Marino; Card games; Age of Contact and Craft
 - [Tombola](../../games/829-tombola/index.md): Italy, Malta; Racing; Age of Contact and Craft
+- [Zampogna](../../games/10240-zampogna/index.md): Italy; Musical instruments; Crossroads and Golden Ages

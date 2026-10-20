@@ -49,7 +49,7 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Buzuq Long-Neck Lute](../../games/218-buzuq-long-neck-lute/index.md)
 - [Saz / Bağlama](../../games/243-saz-baglama/index.md)
 - [Rummikub](../../games/826-rummikub/index.md)
-- [Edrees](../../games/1008-edrees/index.md)
+- [Zurna](../../games/5975-zurna/index.md)
 
 ## Sources
 

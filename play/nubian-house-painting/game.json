@@ -1,0 +1,13 @@
+{
+ "slug": "nubian-house-painting",
+ "title": "Nubian house painting",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

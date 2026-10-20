@@ -1,0 +1,222 @@
+{
+ "engine": "rhythm",
+ "variant": "sasando",
+ "players": "1",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 196,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "sasando",
+  "lanes": [
+   {
+    "name": "S0",
+    "degree": 0,
+    "id": "s0-0",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#c8b040"
+   },
+   {
+    "name": "S1",
+    "degree": 1,
+    "id": "s1-1",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#d0ac44"
+   },
+   {
+    "name": "S2",
+    "degree": 2,
+    "id": "s2-2",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#d8a848"
+   },
+   {
+    "name": "S3",
+    "degree": 3,
+    "id": "s3-3",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#e0a44c"
+   },
+   {
+    "name": "S4",
+    "degree": 4,
+    "id": "s4-4",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#e8a050"
+   },
+   {
+    "name": "S5",
+    "degree": 5,
+    "id": "s5-5",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#cea656"
+   },
+   {
+    "name": "S6",
+    "degree": 6,
+    "id": "s6-6",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#b4ac5c"
+   },
+   {
+    "name": "S7",
+    "degree": 7,
+    "id": "s7-7",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#9ab262"
+   },
+   {
+    "name": "S8",
+    "degree": 8,
+    "id": "s8-8",
+    "timbre": "pluck",
+    "dur": 1.0,
+    "color": "#80b868"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Island lullaby",
+    "bpm": 76,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 1
+     },
+     {
+      "beat": 5,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 2
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 11,
+      "lane": 4
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "name": "Gathering step",
+    "bpm": 104,
+    "meter": 6,
+    "length": 12,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 1.5,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 0
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 6.5,
+      "lane": 4
+     },
+     {
+      "beat": 7,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 2
+     },
+     {
+      "beat": 10,
+      "lane": 3
+     },
+     {
+      "beat": 11,
+      "lane": 1
+     }
+    ]
+   }
+  ],
+  "scale": "heptatonic"
+ }
+}

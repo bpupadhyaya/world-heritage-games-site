@@ -39,12 +39,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Gankogui](../../games/7071-gankogui/index.md)
 - [Kente strip weaving](../../games/22-kente-strip-weaving/index.md)
 - [Talking drum](../../games/33-talking-drum/index.md)
 - [Bogolan mud cloth](../../games/86-bogolan-mud-cloth/index.md)
 - [Adire indigo resist dyeing](../../games/87-adire-indigo-resist-dyeing/index.md)
 - [Kuba cloth pattern puzzle](../../games/91-kuba-cloth-pattern-puzzle/index.md)
-- [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md)
 
 ## Sources
 

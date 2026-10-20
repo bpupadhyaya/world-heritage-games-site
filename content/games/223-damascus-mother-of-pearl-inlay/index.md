@@ -42,8 +42,8 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Iznik tile painting](../../games/244-iznik-tile-painting/index.md)
 - [Omani Khanjar Silver Filigree](../../games/1351-omani-khanjar-silver-filigree/index.md)
+- [Hebron Glassblowing](../../games/6034-hebron-glassblowing/index.md)
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
-- [Swahili carved door](../../games/90-swahili-carved-door/index.md)
 - [Thai fruit and vegetable carving](../../games/114-thai-fruit-and-vegetable-carving/index.md)
 - [Glassblowing](../../games/121-glassblowing/index.md)
 

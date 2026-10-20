@@ -1,0 +1,246 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "musette de cour",
+  "mode": "follow",
+  "root": 349.2,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Fa",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "1111111"
+   },
+   {
+    "name": "Sol",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "1111110"
+   },
+   {
+    "name": "La",
+    "cents": 400,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "1111100"
+   },
+   {
+    "name": "Sib",
+    "cents": 500,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "1111000"
+   },
+   {
+    "name": "Do",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "1110000"
+   },
+   {
+    "name": "Re",
+    "cents": 900,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "1100000"
+   },
+   {
+    "name": "Mi",
+    "cents": 1100,
+    "timbre": "breath",
+    "color": "#6cc2a0",
+    "holes": "1000000"
+   }
+  ],
+  "drone": "reed",
+  "droneHz": [
+   174.6,
+   175.0365,
+   87.3
+  ],
+  "songs": [
+   {
+    "id": "musette-air",
+    "name": "Pastoral air",
+    "bpm": 72,
+    "meter": 3,
+    "length": 23.0,
+    "kind": "figure",
+    "heritage": "Musette de cour, France",
+    "note": "A teaching air in three-beat time: gentle, rising and settling home over the drone.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Fa",
+      "len": 2
+     },
+     {
+      "beat": 2.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Do",
+      "len": 2
+     },
+     {
+      "beat": 5.0,
+      "lane": "Sib",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "Fa",
+      "len": 3
+     },
+     {
+      "beat": 11.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "Mi",
+      "len": 2
+     },
+     {
+      "beat": 15.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 17.0,
+      "lane": "La",
+      "len": 2
+     },
+     {
+      "beat": 19.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 20.0,
+      "lane": "Fa",
+      "len": 3
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "musette-dance",
+    "name": "Dance figure",
+    "bpm": 96,
+    "meter": 3,
+    "length": 17.0,
+    "kind": "figure",
+    "heritage": "Musette de cour, France",
+    "note": "A lively figure in three-beat time.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Fa",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "Sib",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "Fa",
+      "len": 2
+     },
+     {
+      "beat": 9.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 10.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 14.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "Fa",
+      "len": 2
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "musette-de-cour"
+}

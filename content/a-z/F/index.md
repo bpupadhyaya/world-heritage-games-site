@@ -1,20 +1,24 @@
 ---
 title: "Entries beginning with F"
-description: "37 entries beginning with F."
+description: "42 entries beginning with F."
 path: "/a-z/F/"
 ---
 # Entries beginning with F
 
 - [Falaj Water-Turn Clock](../../games/1274-falaj-water-turn-clock/index.md): Oman; Board and table games; Classical Worlds
+- [Family Island Regatta](../../games/8179-family-island-regatta/index.md): Bahamas; Racing; Age of Contact and Craft
 - [Fan-tan](../../games/900-fan-tan/index.md): China; Other traditions; Living Traditions
 - [Fanoron-Telo](../../games/902-fanoron-telo/index.md): Madagascar; Board and table games; Crossroads and Golden Ages
 - [Fanorona](../../games/901-fanorona/index.md): Madagascar; Board and table games; Crossroads and Golden Ages
 - [Faroese chain dance](../../games/1276-faroese-chain-dance/index.md): Denmark; Dances; Living Traditions
 - [Faso Dan Fani Strip Weaving](../../games/1277-faso-dan-fani-strip-weaving/index.md): Burkina Faso; Crafts and making; Living Traditions
 - [Faustball](../../games/485-faustball/index.md): Germany, Austria; Other traditions; Living Traditions
+- [Federkielstickerei](../../games/14211-federkielstickerei/index.md): Austria, Germany (Bavaria); Crafts and making; Living Traditions
 - [Fierljeppen](../../games/971-fierljeppen/index.md): Netherlands; Street and playground games; Modern Heritage
+- [Fijian bamboo drum ensemble](../../games/6380-fijian-bamboo-drum-ensemble/index.md): Fiji; Musical instruments; Living Traditions
 - [Fijian tag](../../games/712-fijian-tag/index.md): Fiji; Street and playground games; Deep Past and First Games
 - [Fijiri Pearl-Diver Sea Songs](../../games/1280-fijiri-pearl-diver-sea-songs/index.md): Kuwait, Bahrain; Musical instruments; Living Traditions
+- [Filet lace](../../games/2318-filet-lace/index.md): France; Crafts and making; Living Traditions
 - [Finch sitting](../../games/584-finch-sitting/index.md): Belgium; Other traditions; Living Traditions
 - [Finger Hooking](../../games/1452-finger-hooking/index.md): Germany, Austria; Wrestling and martial sports; Classical Worlds
 - [Finger pulling](../../games/563-finger-pulling/index.md): Austria; Street and playground games; Modern Heritage
@@ -23,6 +27,7 @@ path: "/a-z/F/"
 - [Five stones](../../games/907-five-stones/index.md): Malaysia, Brunei; Dexterity and skill games; Deep Past and First Games
 - [Five-Pin Bowling](../../games/1410-five-pin-bowling/index.md): Canada; Other traditions; Age of Contact and Craft
 - [Flag Tossing](../../games/395-flag-tossing/index.md): Italy; Dexterity and skill games; Modern Heritage
+- [Flamenco palmas](../../games/154-flamenco-palmas/index.md): Spain; Street and playground games; Age of Contact and Craft
 - [Floating market trader](../../games/315-floating-market-trader/index.md): Thailand; Board and table games; Crossroads and Golden Ages
 - [Flower or Empty](../../games/812-flower-or-empty/index.md): Iran; Street and playground games; Modern Heritage
 - [Fohr](../../games/839-fohr/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages

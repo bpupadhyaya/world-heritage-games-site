@@ -1,0 +1,265 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "rhaita",
+  "mode": "follow",
+  "root": 246.9,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Do",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "1111111"
+   },
+   {
+    "name": "Re",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "1111110"
+   },
+   {
+    "name": "Mi-",
+    "cents": 300,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "1111100"
+   },
+   {
+    "name": "Fa",
+    "cents": 500,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "1111000"
+   },
+   {
+    "name": "Sol",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "1110000"
+   },
+   {
+    "name": "La-",
+    "cents": 800,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "1100000"
+   },
+   {
+    "name": "Do'",
+    "cents": 1200,
+    "timbre": "breath",
+    "color": "#6cc2a0",
+    "holes": "1000000"
+   }
+  ],
+  "songs": [
+   {
+    "id": "rhaita-call",
+    "name": "Festival call",
+    "bpm": 100,
+    "meter": 4,
+    "length": 26.0,
+    "kind": "figure",
+    "heritage": "Rhaita, Maghreb",
+    "note": "A teaching phrase in a minor-flavoured mode: a festival call that climbs and settles.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "Mi-",
+      "len": 2
+     },
+     {
+      "beat": 4.0,
+      "lane": "Fa",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "La-",
+      "len": 2
+     },
+     {
+      "beat": 8.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 9.0,
+      "lane": "Fa",
+      "len": 1
+     },
+     {
+      "beat": 10.0,
+      "lane": "Mi-",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "Do",
+      "len": 3
+     },
+     {
+      "beat": 15.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "La-",
+      "len": 1
+     },
+     {
+      "beat": 17.0,
+      "lane": "Do'",
+      "len": 2
+     },
+     {
+      "beat": 19.0,
+      "lane": "La-",
+      "len": 1
+     },
+     {
+      "beat": 20.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 21.0,
+      "lane": "Fa",
+      "len": 1
+     },
+     {
+      "beat": 22.0,
+      "lane": "Mi-",
+      "len": 1
+     },
+     {
+      "beat": 23.0,
+      "lane": "Do",
+      "len": 3
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "rhaita-run",
+    "name": "Wedding run",
+    "bpm": 112,
+    "meter": 4,
+    "length": 21.0,
+    "kind": "figure",
+    "heritage": "Rhaita, Maghreb",
+    "note": "A quick run up and down the mode.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "Mi-",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Fa",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "Fa",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "Mi-",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "Do",
+      "len": 2
+     },
+     {
+      "beat": 10.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "La-",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "Do'",
+      "len": 2
+     },
+     {
+      "beat": 14.0,
+      "lane": "La-",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "Fa",
+      "len": 2
+     },
+     {
+      "beat": 18.0,
+      "lane": "Do",
+      "len": 3
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "rhaita"
+}

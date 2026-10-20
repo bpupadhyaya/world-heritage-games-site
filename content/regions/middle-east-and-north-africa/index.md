@@ -1,16 +1,16 @@
 ---
 title: "Middle East and North Africa"
-description: "103 entries."
+description: "115 entries."
 path: "/regions/middle-east-and-north-africa/"
-count: 103
+count: 115
 ---
 # Middle East and North Africa
 
-103 entries.
+115 entries.
 
 
 
-103 entries.
+115 entries.
 
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
 - [Al Talli Braid Embroidery](../../games/1273-al-talli-braid-embroidery/index.md): United Arab Emirates; Crafts and making; Living Traditions
@@ -33,7 +33,9 @@ count: 103
 - [Cirit](../../games/156-cirit/index.md): Turkey; Dexterity and skill games; Classical Worlds
 - [Cuneiform Clay Tablet Scribe](../../games/1260-cuneiform-clay-tablet-scribe/index.md): Iraq; Crafts and making; Living Traditions
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md): Lebanon; Dances; Living Traditions
+- [Daf](../../games/2120-daf/index.md): Iran; Musical instruments; Living Traditions
 - [Damascus Mother-of-Pearl Inlay](../../games/223-damascus-mother-of-pearl-inlay/index.md): Syria; Crafts and making; Living Traditions
+- [Darbuka Iqa'at Rhythm Drum](../../games/213-darbuka-iqaat-rhythm-drum/index.md): Egypt; Musical instruments; Living Traditions
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md): Turkey; Crafts and making; Living Traditions
 - [Egyptian Fractions and Doubling](../../games/215-egyptian-fractions-and-doubling/index.md): Egypt; Puzzles and mind games; Modern Heritage
 - [Falaj Water-Turn Clock](../../games/1274-falaj-water-turn-clock/index.md): Oman; Board and table games; Classical Worlds
@@ -43,8 +45,10 @@ count: 103
 - [Ghadames Rooftop Maze](../../games/1291-ghadames-rooftop-maze/index.md): Libya; Puzzles and mind games; Modern Heritage
 - [Gulf Dhow Hull Builder](../../games/1293-gulf-dhow-hull-builder/index.md): Qatar; Crafts and making; Living Traditions
 - [Hama Noria Waterwheels](../../games/1295-hama-noria-waterwheels/index.md): Syria; Puzzles and mind games; Modern Heritage
+- [Hebron Glassblowing](../../games/6034-hebron-glassblowing/index.md): Palestine; Crafts and making; Living Traditions
 - [Iznik tile painting](../../games/244-iznik-tile-painting/index.md): Turkey; Crafts and making; Living Traditions
 - [Jordanian Sand Bottle Art](../../games/219-jordanian-sand-bottle-art/index.md): Jordan; Crafts and making; Living Traditions
+- [Kabyle Enamel Jewellery](../../games/6086-kabyle-enamel-jewellery/index.md): Algeria; Crafts and making; Living Traditions
 - [Karagoz](../../games/38-karagoz/index.md): Turkey; Performance and storytelling; Classical Worlds
 - [Keffiyeh Pattern Loom](../../games/1310-keffiyeh-pattern-loom/index.md): Palestine; Crafts and making; Living Traditions
 - [Kharbaga](../../games/459-kharbaga/index.md): Morocco; Board and table games; Crossroads and Golden Ages
@@ -61,6 +65,7 @@ count: 103
 - [Mudhif reed-arch house](../../games/230-mudhif-reed-arch-house/index.md): Iraq; Crafts and making; Living Traditions
 - [Muqarnas stalactite vault builder](../../games/228-muqarnas-stalactite-vault-builder/index.md): Iran; Crafts and making; Living Traditions
 - [Nabulsi Soap Tower](../../games/1341-nabulsi-soap-tower/index.md): Palestine; Crafts and making; Living Traditions
+- [Naqareh](../../games/3233-naqareh/index.md): Iran; Musical instruments; Living Traditions
 - [Nile Felucca Sailing](../../games/216-nile-felucca-sailing/index.md): Egypt; Racing; Age of Contact and Craft
 - [Nubian house painting](../../games/192-nubian-house-painting/index.md): Egypt; Crafts and making; Living Traditions
 - [Oil wrestling](../../games/480-oil-wrestling/index.md): Turkey; Wrestling and martial sports; River Valleys and First Cities
@@ -73,6 +78,7 @@ count: 103
 - [Qamariya Gypsum Window Designer](../../games/1368-qamariya-gypsum-window-designer/index.md): Yemen; Crafts and making; Living Traditions
 - [Qanat Water Tunnels](../../games/160-qanat-water-tunnels/index.md): Iran; Puzzles and mind games; Modern Heritage
 - [Qanun](../../games/162-qanun/index.md): Turkey, Armenia; Musical instruments; Classical Worlds
+- [Rhaita](../../games/3631-rhaita/index.md): Morocco; Musical instruments; Living Traditions
 - [Royal Game of Ur](../../games/817-royal-game-of-ur/index.md): Iraq; Board and table games; River Valleys and First Cities
 - [Rummikub](../../games/826-rummikub/index.md): Israel; Board and table games; Crossroads and Golden Ages
 - [Sadu Bedouin ground-loom weaving](../../games/238-sadu-bedouin-ground-loom-weaving/index.md): Jordan; Crafts and making; Living Traditions
@@ -80,7 +86,9 @@ count: 103
 - [Saz / Bağlama](../../games/243-saz-baglama/index.md): Turkey; Musical instruments; Crossroads and Golden Ages
 - [Senet](../../games/693-senet/index.md): Egypt; Board and table games; River Valleys and First Cities
 - [Shibam Mud-Brick Tower Builder](../../games/1370-shibam-mud-brick-tower-builder/index.md): Yemen; Crafts and making; Living Traditions
+- [Simsimiyya](../../games/6047-simsimiyya/index.md): Egypt; Musical instruments; Classical Worlds
 - [Tahtib](../../games/157-tahtib/index.md): Egypt; Dances; Living Traditions
+- [Tanbura](../../games/6048-tanbura/index.md): Sudan; Musical instruments; Classical Worlds
 - [Tarneeb](../../games/816-tarneeb/index.md): Iraq, Syria; Card games; Age of Contact and Craft
 - [Tatreez Palestinian Cross-Stitch](../../games/212-tatreez-palestinian-cross-stitch/index.md): Palestine, Lebanon; Crafts and making; Living Traditions
 - [Tbourida](../../games/164-tbourida/index.md): Morocco; Sports with animal partners; Classical Worlds
@@ -91,6 +99,7 @@ count: 103
 - [Zamma](../../games/462-zamma/index.md): Morocco; Board and table games; Crossroads and Golden Ages
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md): Morocco; Crafts and making; Living Traditions
 - [Zurkhaneh strength rhythm](../../games/227-zurkhaneh-strength-rhythm/index.md): Iran; Dexterity and skill games; Modern Heritage
+- [Zurna](../../games/5975-zurna/index.md): Turkey; Musical instruments; Crossroads and Golden Ages
 - [101 Okey](../../games/1166-101-okey/index.md): Turkey; Board and table games; Crossroads and Golden Ages
 - [Al Laqfa](../../games/1038-al-laqfa/index.md): Qatar; Dexterity and skill games; Modern Heritage
 - [Alquerque](../../games/4485-alquerque/index.md): Spain; Board and table games; River Valleys and First Cities
@@ -106,7 +115,9 @@ count: 103
 - [Krur](../../games/950-krur/index.md): Morocco; Board and table games; Deep Past and First Games
 - [Maghrebi 5x5 capture game](../../games/887-maghrebi-5x5-capture-game/index.md): Libya; Board and table games; Age of Contact and Craft
 - [Matkot](../../games/825-matkot/index.md): Israel; Street and playground games; Modern Heritage
+- [Minakari](../../games/6007-minakari/index.md): Iran; Crafts and making; Living Traditions
 - [Pearl diving](../../games/6769-pearl-diving/index.md): Bahrain; Other traditions; Living Traditions
+- [Riq](../../games/6045-riq/index.md): Egypt; Musical instruments; Living Traditions
 - [Seega](../../games/692-seega/index.md): Egypt; Board and table games; Age of Contact and Craft
 - [Steel-and-stick](../../games/1162-steel-and-stick/index.md): Turkey; Street and playground games; Modern Heritage
 - [Syrian mancala](../../games/1128-syrian-mancala/index.md): Syria; Board and table games; Deep Past and First Games
@@ -114,4 +125,5 @@ count: 103
 - [Tawla](../../games/815-tawla/index.md): Iraq, Syria; Board and table games; River Valleys and First Cities
 - [Tawle](../../games/880-tawle/index.md): Lebanon, Palestine; Board and table games; River Valleys and First Cities
 - [Traditional dhow sail racing](../../games/6768-traditional-dhow-sail-racing/index.md): United Arab Emirates; Racing; Age of Contact and Craft
+- [Tulum](../../games/4230-tulum/index.md): Turkey; Musical instruments; Crossroads and Golden Ages
 - [Zarzir](../../games/1010-zarzir/index.md): Palestine; Dexterity and skill games; Deep Past and First Games

@@ -1,0 +1,10 @@
+{
+ "engine": "shape-craft",
+ "variant": "petrykivka-painting",
+ "players": "1",
+ "params": {
+  "technique": "paint",
+  "design": "petrykivka",
+  "scene": "petrykivka"
+ }
+}

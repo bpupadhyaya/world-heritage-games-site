@@ -1,0 +1,206 @@
+{
+ "engine": "rhythm",
+ "variant": "lusheng",
+ "players": "1",
+ "params": {
+  "layout": "holes",
+  "mode": "follow",
+  "instrument": "lusheng",
+  "root": 220,
+  "tolerance": 1.15,
+  "lanes": [
+   {
+    "name": "1",
+    "timbre": "reed",
+    "color": "#c0522d",
+    "cents": 0
+   },
+   {
+    "name": "2",
+    "timbre": "reed",
+    "color": "#d98a2b",
+    "cents": 200
+   },
+   {
+    "name": "3",
+    "timbre": "reed",
+    "color": "#e6c24a",
+    "cents": 400
+   },
+   {
+    "name": "5",
+    "timbre": "reed",
+    "color": "#7fb069",
+    "cents": 700
+   },
+   {
+    "name": "6",
+    "timbre": "reed",
+    "color": "#3f9d9a",
+    "cents": 900
+   },
+   {
+    "name": "1'",
+    "timbre": "reed",
+    "color": "#4f6fb5",
+    "cents": 1200
+   }
+  ],
+  "songs": [
+   {
+    "id": "rise",
+    "name": "Rising and falling",
+    "bpm": 84,
+    "meter": 4,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Miao and Dong style",
+    "note": "A slow climb up the six pipes and back, the way a group warms up together before the stepping begins.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0,
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": 5,
+      "len": 2
+     },
+     {
+      "beat": 7,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": 0,
+      "len": 2
+     }
+    ]
+   },
+   {
+    "id": "step",
+    "name": "Stepping figure",
+    "bpm": 100,
+    "meter": 4,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Miao and Dong style",
+    "note": "A swaying figure in two bars of four, in the style of a circle dance where the whole group moves with the beat.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 6,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 8,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": 5,
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 13,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0,
+      "len": 2
+     }
+    ]
+   }
+  ],
+  "song": 0,
+  "loops": 1
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

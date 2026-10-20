@@ -1,16 +1,16 @@
 ---
 title: "Water sports"
-description: "26 related traditions."
+description: "30 related traditions."
 path: "/families/water-sport/"
-count: 26
+count: 30
 ---
 # Water sports
 
-26 related traditions.
+30 related traditions.
 
 
 
-26 entries.
+30 entries.
 
 - [Antigua Classic Yacht Race](../../games/1433-antigua-classic-yacht-race/index.md): Antigua and Barbuda, United Kingdom; Racing; Age of Contact and Craft
 - [Bequia Boat and Model Builder](../../games/1440-bequia-boat-and-model-builder/index.md): Saint Vincent and the Grenadines; Crafts and making; Living Traditions
@@ -20,6 +20,7 @@ count: 26
 - [Fijiri Pearl-Diver Sea Songs](../../games/1280-fijiri-pearl-diver-sea-songs/index.md): Kuwait, Bahrain; Musical instruments; Living Traditions
 - [Haenyeo Breath Dive](../../games/1459-haenyeo-breath-dive/index.md): South Korea; Dexterity and skill games; Modern Heritage
 - [Hanetsuki](../../games/347-hanetsuki/index.md): Japan; Racing; Age of Contact and Craft
+- [Hawaiian outrigger canoe racing](../../games/6388-hawaiian-outrigger-canoe-racing/index.md): United States; Racing; Age of Contact and Craft
 - [Ice Canoe Race](../../games/1412-ice-canoe-race/index.md): Canada; Crafts and making; Living Traditions
 - [Jangada Sailing](../../games/1413-jangada-sailing/index.md): Brazil; Crafts and making; Living Traditions
 - [Mokoro polling](../../games/1338-mokoro-polling/index.md): Botswana; Racing; Age of Contact and Craft
@@ -33,7 +34,10 @@ count: 26
 - [Shikara paddle race](../../games/265-shikara-paddle-race/index.md): India; Racing; Age of Contact and Craft
 - [Stilt fishing](../../games/288-stilt-fishing/index.md): Sri Lanka; Dexterity and skill games; Classical Worlds
 - [Venetian lagoon regatta](../../games/486-venetian-lagoon-regatta/index.md): Italy; Racing; Age of Contact and Craft
+- [Voyageur canoe racing](../../games/6366-voyageur-canoe-racing/index.md): Canada; Water and winter sports; Modern Heritage
 - [Water Polo Sprint](../../games/1398-water-polo-sprint/index.md): Montenegro; Crafts and making; Living Traditions
+- [Duala canoe racing](../../games/7350-duala-canoe-racing/index.md): Cameroon; Racing; Age of Contact and Craft
+- [Family Island Regatta](../../games/8179-family-island-regatta/index.md): Bahamas; Racing; Age of Contact and Craft
 - [Kataw](../../games/873-kataw/index.md): Laos; Street and playground games; Modern Heritage
 - [Matkot](../../games/825-matkot/index.md): Israel; Street and playground games; Modern Heritage
 - [Mixtec ball game](../../games/936-mixtec-ball-game/index.md): Mexico; Street and playground games; Modern Heritage

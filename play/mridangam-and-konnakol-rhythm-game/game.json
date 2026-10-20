@@ -1,0 +1,13 @@
+{
+ "slug": "mridangam-and-konnakol-rhythm-game",
+ "title": "Mridangam (South Indian barrel drum)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

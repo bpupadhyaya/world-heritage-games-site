@@ -1,0 +1,179 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "skrabalai wooden bell boxes",
+  "lanes": [
+   {
+    "name": "1",
+    "hz": 330,
+    "timbre": "bell",
+    "color": "#f2a660"
+   },
+   {
+    "name": "2",
+    "hz": 370,
+    "timbre": "bell",
+    "color": "#f2ae60"
+   },
+   {
+    "name": "3",
+    "hz": 415,
+    "timbre": "bell",
+    "color": "#f2b560"
+   },
+   {
+    "name": "4",
+    "hz": 466,
+    "timbre": "bell",
+    "color": "#f2bd60"
+   },
+   {
+    "name": "5",
+    "hz": 523,
+    "timbre": "bell",
+    "color": "#f2c460"
+   },
+   {
+    "name": "6",
+    "hz": 587,
+    "timbre": "bell",
+    "color": "#f2cc60"
+   },
+   {
+    "name": "7",
+    "hz": 659,
+    "timbre": "bell",
+    "color": "#f2d360"
+   },
+   {
+    "name": "8",
+    "hz": 740,
+    "timbre": "bell",
+    "color": "#f2da60"
+   }
+  ],
+  "songs": [
+   {
+    "id": "skra-scale",
+    "name": "Up the boxes",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Skrabalai, Lithuania",
+    "note": "A teaching run from the large boxes to the small ones.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "1"
+     },
+     {
+      "beat": 1.0,
+      "lane": "2"
+     },
+     {
+      "beat": 2.0,
+      "lane": "3"
+     },
+     {
+      "beat": 3.0,
+      "lane": "4"
+     },
+     {
+      "beat": 4.0,
+      "lane": "5"
+     },
+     {
+      "beat": 5.0,
+      "lane": "6"
+     },
+     {
+      "beat": 6.0,
+      "lane": "7"
+     },
+     {
+      "beat": 7.0,
+      "lane": "8"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "skra-dance",
+    "name": "A dance tune",
+    "bpm": 116,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Skrabalai, Lithuania",
+    "note": "A skipping tune across both bars.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "1"
+     },
+     {
+      "beat": 0.5,
+      "lane": "3"
+     },
+     {
+      "beat": 1.0,
+      "lane": "5"
+     },
+     {
+      "beat": 1.5,
+      "lane": "3"
+     },
+     {
+      "beat": 2.0,
+      "lane": "2"
+     },
+     {
+      "beat": 2.5,
+      "lane": "4"
+     },
+     {
+      "beat": 3.0,
+      "lane": "6"
+     },
+     {
+      "beat": 3.5,
+      "lane": "4"
+     },
+     {
+      "beat": 4.0,
+      "lane": "3"
+     },
+     {
+      "beat": 4.5,
+      "lane": "5"
+     },
+     {
+      "beat": 5.0,
+      "lane": "7"
+     },
+     {
+      "beat": 5.5,
+      "lane": "5"
+     },
+     {
+      "beat": 6.0,
+      "lane": "4"
+     },
+     {
+      "beat": 6.5,
+      "lane": "6"
+     },
+     {
+      "beat": 7.0,
+      "lane": "8"
+     }
+    ]
+   }
+  ]
+ }
+}

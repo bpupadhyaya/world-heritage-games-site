@@ -1,16 +1,16 @@
 ---
 title: "Puzzle and dexterity toys"
-description: "129 related traditions."
+description: "128 related traditions."
 path: "/families/puzzle-dexterity/"
-count: 129
+count: 128
 ---
 # Puzzle and dexterity toys
 
-129 related traditions.
+128 related traditions.
 
 
 
-129 entries.
+128 entries.
 
 - [Akan Gold-Weight Balance](../../games/171-akan-gold-weight-balance/index.md): Ghana, Cote d'Ivoire; Puzzles and mind games; Modern Heritage
 - [Al-Jazari water-clock contraptions](../../games/237-al-jazari-water-clock-contraptions/index.md): Iraq; Puzzles and mind games; Modern Heritage
@@ -101,7 +101,6 @@ count: 129
 - [Uyuni Salt Harvest](../../games/1491-uyuni-salt-harvest/index.md): Bolivia; Puzzles and mind games; Modern Heritage
 - [Vai Syllabary Decoder](../../games/1394-vai-syllabary-decoder/index.md): Liberia; Puzzles and mind games; Crossroads and Golden Ages
 - [Wayfinder](../../games/43-wayfinder/index.md): United States, New Zealand; Puzzles and mind games; Crossroads and Golden Ages
-- [Whistled Language Relay](../../games/403-whistled-language-relay/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
 - [Alag Malkhii](../../games/941-alag-malkhii/index.md): Mongolia; Dexterity and skill games; Modern Heritage
 - [Alchik](../../games/868-alchik/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage

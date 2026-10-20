@@ -2,7 +2,7 @@
 title: "The Americas: Mesoamerica"
 description: "Mexico and Central America."
 path: "/cradles/meso-america/"
-count: 29
+count: 34
 ---
 # The Americas: Mesoamerica
 
@@ -10,7 +10,7 @@ Mexico and Central America.
 
 
 
-29 entries.
+34 entries.
 
 - [Alebrije painting](../../games/92-alebrije-painting/index.md): Mexico; Crafts and making; Living Traditions
 - [Baleada Stand](../../games/1436-baleada-stand/index.md): Honduras; Crafts and making; Living Traditions
@@ -28,16 +28,21 @@ Mexico and Central America.
 - [Pollera and Tembleques](../../games/1480-pollera-and-tembleques/index.md): Panama; Crafts and making; Living Traditions
 - [Pupusa Maker](../../games/1482-pupusa-maker/index.md): El Salvador; Crafts and making; Living Traditions
 - [Talavera tile painting](../../games/429-talavera-tile-painting/index.md): Mexico; Crafts and making; Living Traditions
+- [Barro negro pottery](../../games/10508-barro-negro-pottery/index.md): Mexico; Crafts and making; Living Traditions
 - [Blind hen](../../games/983-blind-hen/index.md): Nicaragua; Other traditions; Living Traditions
 - [Chromos](../../games/648-chromos/index.md): Costa Rica; Dexterity and skill games; Modern Heritage
 - [Cup-and-ball](../../games/933-cup-and-ball/index.md): Mexico; Dexterity and skill games; Modern Heritage
 - [Enchute](../../games/770-enchute/index.md): Honduras; Dexterity and skill games; Modern Heritage
+- [Green glazed pottery of Atzompa](../../games/10510-green-glazed-pottery-of-atzompa/index.md): Mexico; Crafts and making; Living Traditions
 - [Guatemalan Lotería](../../games/758-guatemalan-loteria/index.md): Guatemala; Board and table games; Crossroads and Golden Ages
+- [Guitarron mexicano](../../games/10261-guitarron-mexicano/index.md): Mexico; Musical instruments; Living Traditions
 - [Jacks](../../games/697-jacks/index.md): El Salvador; Dexterity and skill games; Deep Past and First Games
 - [Kriol traditional games](../../games/585-kriol-traditional-games/index.md): Belize; Street and playground games; Modern Heritage
 - [Macho parado](../../games/984-macho-parado/index.md): Nicaragua; Street and playground games; Modern Heritage
+- [Mata Ortiz pottery](../../games/10511-mata-ortiz-pottery/index.md): Mexico; Crafts and making; Living Traditions
 - [Mixtec ball game](../../games/936-mixtec-ball-game/index.md): Mexico; Street and playground games; Modern Heritage
 - [Panamanian singing rounds](../../games/1011-panamanian-singing-rounds/index.md): Panama; Performance and storytelling; Living Traditions
+- [Pottery of Metepec](../../games/10512-pottery-of-metepec/index.md): Mexico; Crafts and making; Living Traditions
 - [Puluc](../../games/757-puluc/index.md): Guatemala, Belize; Board and table games; Crossroads and Golden Ages
 - [Seed war](../../games/649-seed-war/index.md): Costa Rica; Street and playground games; Deep Past and First Games
 - [Yo-yo](../../games/696-yo-yo/index.md): El Salvador, Nicaragua; Dexterity and skill games; Modern Heritage

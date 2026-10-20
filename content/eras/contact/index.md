@@ -2,7 +2,7 @@
 title: "Age of Contact and Craft"
 description: "Trade and empire carried pastimes across oceans while village traditions took their lasting shape."
 path: "/eras/contact/"
-count: 82
+count: 87
 ---
 # Age of Contact and Craft
 
@@ -10,7 +10,7 @@ Trade and empire carried pastimes across oceans while village traditions took th
 
 
 
-82 entries.
+87 entries.
 
 - ['Ulu Maika](../../games/44-ulu-maika/index.md): United States; Dexterity and skill games; Age of Contact and Craft
 - [Antigua Classic Yacht Race](../../games/1433-antigua-classic-yacht-race/index.md): Antigua and Barbuda, United Kingdom; Racing; Age of Contact and Craft
@@ -33,10 +33,12 @@ Trade and empire carried pastimes across oceans while village traditions took th
 - [Durak](../../games/854-durak/index.md): Kazakhstan, Turkmenistan; Card games; Age of Contact and Craft
 - [Finnish pin toss](../../games/49-finnish-pin-toss/index.md): Finland; Dexterity and skill games; Age of Contact and Craft
 - [Five-Pin Bowling](../../games/1410-five-pin-bowling/index.md): Canada; Other traditions; Age of Contact and Craft
+- [Flamenco palmas](../../games/154-flamenco-palmas/index.md): Spain; Street and playground games; Age of Contact and Craft
 - [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md): Ireland, Netherlands; Dexterity and skill games; Age of Contact and Craft
 - [Fukuwarai](../../games/94-fukuwarai/index.md): Japan; Puzzles and mind games; Age of Contact and Craft
 - [Gorodki](../../games/13-gorodki/index.md): Russia; Dexterity and skill games; Age of Contact and Craft
 - [Hanetsuki](../../games/347-hanetsuki/index.md): Japan; Racing; Age of Contact and Craft
+- [Hawaiian outrigger canoe racing](../../games/6388-hawaiian-outrigger-canoe-racing/index.md): United States; Racing; Age of Contact and Craft
 - [Independence-day field games](../../games/330-independence-day-field-games/index.md): Indonesia; Racing; Age of Contact and Craft
 - [Intha leg rowing on the lake](../../games/304-intha-leg-rowing-on-the-lake/index.md): Myanmar; Racing; Age of Contact and Craft
 - [Kambala](../../games/80-kambala/index.md): India; Racing; Age of Contact and Craft
@@ -63,6 +65,7 @@ Trade and empire carried pastimes across oceans while village traditions took th
 - [Sled dog race](../../games/62-sled-dog-race/index.md): United States, Canada; Racing; Age of Contact and Craft
 - [Steelpan](../../games/31-steelpan/index.md): Trinidad and Tobago; Musical instruments; Age of Contact and Craft
 - [Stone Arch Bridge Builder](../../games/495-stone-arch-bridge-builder/index.md): China; Puzzles and mind games; Age of Contact and Craft
+- [Surdo](../../games/3987-surdo/index.md): Brazil; Musical instruments; Age of Contact and Craft
 - [Tarneeb](../../games/816-tarneeb/index.md): Iraq, Syria; Card games; Age of Contact and Craft
 - [Thung chai basket-boat spinning](../../games/308-thung-chai-basket-boat-spinning/index.md): Vietnam; Racing; Age of Contact and Craft
 - [Tifinagh Letter Puzzle](../../games/1380-tifinagh-letter-puzzle/index.md): Niger, Morocco; Puzzles and mind games; Age of Contact and Craft
@@ -73,7 +76,9 @@ Trade and empire carried pastimes across oceans while village traditions took th
 - [Baloot](../../games/1060-baloot/index.md): Saudi Arabia, Yemen; Card games; Age of Contact and Craft
 - [Bulls and Cows](../../games/9038-bulls-and-cows/index.md): Worldwide; Street and playground games; Age of Contact and Craft
 - [Cricket](../../games/22343-cricket/index.md): United Kingdom, India; Bat-and-ball games; Age of Contact and Craft
+- [Duala canoe racing](../../games/7350-duala-canoe-racing/index.md): Cameroon; Racing; Age of Contact and Craft
 - [Estonian Durak](../../games/704-estonian-durak/index.md): Estonia; Card games; Age of Contact and Craft
+- [Family Island Regatta](../../games/8179-family-island-regatta/index.md): Bahamas; Racing; Age of Contact and Craft
 - [Fuu Fuu Penu](../../games/1171-fuu-fuu-penu/index.md): Tuvalu; Street and playground games; Age of Contact and Craft
 - [Khuru](../../games/592-khuru/index.md): Bhutan; Dexterity and skill games; Age of Contact and Craft
 - [Klondike](../../games/22325-klondike/index.md): United States, Canada; Card games; Age of Contact and Craft

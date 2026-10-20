@@ -1,0 +1,127 @@
+{
+  "engine": "pattern",
+  "variant": "sadu-bedouin-ground-loom-weaving",
+  "params": {
+    "scene": "sadu",
+    "cols": 13,
+    "rows": 7,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Madder",
+        "color": "#b8312a"
+      },
+      {
+        "name": "White",
+        "color": "#efe6d0"
+      },
+      {
+        "name": "Camel",
+        "color": "#b5803f"
+      },
+      {
+        "name": "Green",
+        "color": "#2e7a5a"
+      },
+      {
+        "name": "Black",
+        "color": "#17120f"
+      }
+    ],
+    "background": "#2a2420",
+    "grid": "#4a3e34",
+    "motifs": [
+      "diamond",
+      "triangle",
+      "zigzag",
+      "stripe-h",
+      "checker",
+      "ring"
+    ],
+    "designs": [
+      {
+        "name": "Tent strip: rows of diamonds",
+        "rows": [
+          "aaaaaaaaaaaaa",
+          "d.d.d.d.d.d.d",
+          "..b.b.b.b.b..",
+          ".b.b.b.b.b.b.",
+          "..b.b.b.b.b..",
+          "d.d.d.d.d.d.d",
+          "aaaaaaaaaaaaa"
+        ],
+        "legend": {
+          "a": {
+            "m": 3,
+            "c": 0
+          },
+          "d": {
+            "m": 1,
+            "c": 1
+          },
+          "b": {
+            "m": 0,
+            "c": 2
+          }
+        }
+      },
+      {
+        "name": "Saddlebag band: zigzag and eyes",
+        "rows": [
+          "eeeeeeeeeeeee",
+          "zzzzzzzzzzzzz",
+          ".r...r.r...r.",
+          "..r.r...r.r..",
+          "...r.....r...",
+          "zzzzzzzzzzzzz",
+          "eeeeeeeeeeeee"
+        ],
+        "legend": {
+          "e": {
+            "m": 3,
+            "c": 4
+          },
+          "z": {
+            "m": 2,
+            "c": 0
+          },
+          "r": {
+            "m": 5,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Wedding strip: stepped medallion",
+        "rows": [
+          "c.c.c.c.c.c.c",
+          "aaaaaaaaaaaaa",
+          "...ggg.ggg...",
+          "..ggbbbbbgg..",
+          "...ggg.ggg...",
+          "aaaaaaaaaaaaa",
+          "c.c.c.c.c.c.c"
+        ],
+        "legend": {
+          "a": {
+            "m": 3,
+            "c": 1
+          },
+          "c": {
+            "m": 4,
+            "c": 2
+          },
+          "g": {
+            "m": 1,
+            "c": 3
+          },
+          "b": {
+            "m": 0,
+            "c": 0
+          }
+        }
+      }
+    ],
+    "mode": "copy"
+  }
+}

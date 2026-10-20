@@ -1,0 +1,22 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "disk",
+  "scene": "kumihimoroom",
+  "cycles": 8,
+  "palette": [
+   {
+    "color": "#c8321f"
+   },
+   {
+    "color": "#f2eadb"
+   },
+   {
+    "color": "#243a82"
+   },
+   {
+    "color": "#d8a62a"
+   }
+  ]
+ }
+}

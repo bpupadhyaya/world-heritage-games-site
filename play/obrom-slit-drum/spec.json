@@ -1,0 +1,134 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "obrom lying log drum two hollows",
+  "lanes": [
+   {
+    "name": "Left hollow",
+    "hz": 160,
+    "timbre": "tone",
+    "color": "#e8643a"
+   },
+   {
+    "name": "Right hollow",
+    "hz": 240,
+    "timbre": "tone",
+    "color": "#f2a050"
+   },
+   {
+    "name": "Side",
+    "hz": 110,
+    "timbre": "tone",
+    "color": "#c8503a"
+   },
+   {
+    "name": "End",
+    "hz": 500,
+    "timbre": "tone",
+    "color": "#f2d08a"
+   }
+  ],
+  "songs": [
+   {
+    "id": "obrom-two",
+    "name": "Two voices",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Obrom",
+    "note": "Low and high answer each other.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Left hollow"
+     },
+     {
+      "beat": 1,
+      "lane": "Right hollow"
+     },
+     {
+      "beat": 2,
+      "lane": "Left hollow"
+     },
+     {
+      "beat": 3,
+      "lane": "Left hollow"
+     },
+     {
+      "beat": 4,
+      "lane": "Right hollow"
+     },
+     {
+      "beat": 5,
+      "lane": "Right hollow"
+     },
+     {
+      "beat": 6,
+      "lane": "Left hollow"
+     },
+     {
+      "beat": 7,
+      "lane": "End"
+     }
+    ]
+   },
+   {
+    "id": "obrom-dance",
+    "name": "Dance tune",
+    "bpm": 104,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Obrom",
+    "note": "A running dance pattern with a side knock.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Left hollow"
+     },
+     {
+      "beat": 1,
+      "lane": "Right hollow"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Right hollow"
+     },
+     {
+      "beat": 2,
+      "lane": "Side"
+     },
+     {
+      "beat": 3,
+      "lane": "Right hollow"
+     },
+     {
+      "beat": 4,
+      "lane": "Left hollow"
+     },
+     {
+      "beat": 5,
+      "lane": "Right hollow"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Right hollow"
+     },
+     {
+      "beat": 6,
+      "lane": "Side"
+     },
+     {
+      "beat": 7,
+      "lane": "End"
+     }
+    ]
+   }
+  ]
+ }
+}

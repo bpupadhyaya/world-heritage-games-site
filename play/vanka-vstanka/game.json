@@ -1,0 +1,13 @@
+{
+ "slug": "vanka-vstanka",
+ "title": "Vanka-vstanka",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

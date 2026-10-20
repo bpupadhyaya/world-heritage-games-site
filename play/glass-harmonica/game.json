@@ -1,0 +1,13 @@
+{
+ "slug": "glass-harmonica",
+ "title": "Glass harmonica",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,371 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 146.83,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "gusle",
+  "lanes": [
+   {
+    "name": "D3",
+    "cents": 0,
+    "id": "d3-0",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#e8a858",
+    "string": 0,
+    "fret": 0
+   },
+   {
+    "name": "E3",
+    "cents": 200,
+    "id": "e3-1",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#dfad63",
+    "string": 0,
+    "fret": 2
+   },
+   {
+    "name": "F3",
+    "cents": 300,
+    "id": "f3-2",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#d6b16f",
+    "string": 0,
+    "fret": 3
+   },
+   {
+    "name": "G3",
+    "cents": 500,
+    "id": "g3-3",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#cdb67a",
+    "string": 0,
+    "fret": 5
+   },
+   {
+    "name": "A3",
+    "cents": 700,
+    "id": "a3-4",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#c3ba86",
+    "string": 0,
+    "fret": 7
+   },
+   {
+    "name": "A#3",
+    "cents": 800,
+    "id": "as3-5",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#babf91",
+    "string": 0,
+    "fret": 8
+   },
+   {
+    "name": "C4",
+    "cents": 1000,
+    "id": "c4-6",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#b1c39d",
+    "string": 0,
+    "fret": 10
+   },
+   {
+    "name": "D4",
+    "cents": 1200,
+    "id": "d4-7",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#a8c8a8",
+    "string": 0,
+    "fret": 12
+   }
+  ],
+  "songs": [
+   {
+    "id": "story-line",
+    "name": "Story line",
+    "watch": true,
+    "kind": "figure",
+    "bpm": 76,
+    "meter": 10,
+    "length": 20,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 4
+     },
+     {
+      "beat": 7,
+      "lane": 2
+     },
+     {
+      "beat": 8,
+      "lane": 1
+     },
+     {
+      "beat": 9,
+      "lane": 0
+     },
+     {
+      "beat": 10,
+      "lane": 0
+     },
+     {
+      "beat": 11,
+      "lane": 1
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     },
+     {
+      "beat": 16,
+      "lane": 4
+     },
+     {
+      "beat": 17,
+      "lane": 2
+     },
+     {
+      "beat": 18,
+      "lane": 1
+     },
+     {
+      "beat": 19,
+      "lane": 0
+     }
+    ],
+    "heritage": "A teaching phrase in the style of the tradition, written for this game"
+   },
+   {
+    "id": "rising-line",
+    "name": "Rising line",
+    "watch": false,
+    "kind": "figure",
+    "bpm": 72,
+    "meter": 10,
+    "length": 20,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 5
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 0
+     },
+     {
+      "beat": 11,
+      "lane": 2
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 5
+     },
+     {
+      "beat": 15,
+      "lane": 4
+     },
+     {
+      "beat": 16,
+      "lane": 3
+     },
+     {
+      "beat": 17,
+      "lane": 5
+     },
+     {
+      "beat": 18,
+      "lane": 6
+     },
+     {
+      "beat": 19,
+      "lane": 7
+     }
+    ],
+    "heritage": "A teaching phrase in the style of the tradition, written for this game"
+   },
+   {
+    "id": "answer-and-rest",
+    "name": "Answer and rest",
+    "watch": false,
+    "kind": "figure",
+    "bpm": 68,
+    "meter": 10,
+    "length": 20,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 0
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 1
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 9,
+      "lane": 0
+     },
+     {
+      "beat": 10,
+      "lane": 3
+     },
+     {
+      "beat": 11,
+      "lane": 2
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     },
+     {
+      "beat": 16,
+      "lane": 2
+     },
+     {
+      "beat": 17,
+      "lane": 1
+     },
+     {
+      "beat": 18,
+      "lane": 0
+     },
+     {
+      "beat": 19,
+      "lane": 0
+     }
+    ],
+    "heritage": "A teaching phrase in the style of the tradition, written for this game"
+   }
+  ]
+ }
+}

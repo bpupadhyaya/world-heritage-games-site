@@ -1,0 +1,13 @@
+{
+ "slug": "tap-tap-bus-painting",
+ "title": "Tap-tap bus panel",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

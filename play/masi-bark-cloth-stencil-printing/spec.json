@@ -1,0 +1,139 @@
+{
+ "engine": "pattern",
+ "params": {
+  "scene": "masi",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "mirror-xy",
+  "palette": [
+   {
+    "name": "Black",
+    "color": "#1d1612"
+   },
+   {
+    "name": "Rust",
+    "color": "#a4482a"
+   },
+   {
+    "name": "Ochre",
+    "color": "#c98a2e"
+   },
+   {
+    "name": "Bark",
+    "color": "#d8bd8c"
+   }
+  ],
+  "background": "#d8bd8c",
+  "grid": "#8a6a3e",
+  "motifs": [
+   "solid",
+   "triangle",
+   "diamond",
+   "zigzag",
+   "dot",
+   "cross"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 3,
+  "designs": [
+   {
+    "name": "Bands of triangles",
+    "rows": [
+     "bbbbbbbbb",
+     "ddddddddd",
+     ".........",
+     ".a.a.a.a.",
+     "....c....",
+     ".a.a.a.a.",
+     ".........",
+     "ddddddddd",
+     "bbbbbbbbb"
+    ],
+    "legend": {
+     "b": {
+      "m": 1,
+      "c": 0
+     },
+     "d": {
+      "m": 3,
+      "c": 1
+     },
+     "a": {
+      "m": 2,
+      "c": 0
+     },
+     "c": {
+      "m": 5,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Nested diamonds",
+    "rows": [
+     "a.......a",
+     ".b.....b.",
+     "..c...c..",
+     "...d.d...",
+     "....e....",
+     "...d.d...",
+     "..c...c..",
+     ".b.....b.",
+     "a.......a"
+    ],
+    "legend": {
+     "a": {
+      "m": 1,
+      "c": 1
+     },
+     "b": {
+      "m": 2,
+      "c": 0
+     },
+     "c": {
+      "m": 2,
+      "c": 1
+     },
+     "d": {
+      "m": 4,
+      "c": 0
+     },
+     "e": {
+      "m": 0,
+      "c": 0
+     }
+    }
+   },
+   {
+    "name": "Triangle ranks",
+    "rows": [
+     "bbbbbbbbb",
+     ".........",
+     "aaaaaaaaa",
+     ".........",
+     "ccccccccc",
+     ".........",
+     "aaaaaaaaa",
+     ".........",
+     "bbbbbbbbb"
+    ],
+    "legend": {
+     "b": {
+      "m": 1,
+      "c": 0
+     },
+     "a": {
+      "m": 2,
+      "c": 1
+     },
+     "c": {
+      "m": 3,
+      "c": 0
+     }
+    }
+   }
+  ]
+ },
+ "variant": "masi-bark-cloth-stencil-printing"
+}

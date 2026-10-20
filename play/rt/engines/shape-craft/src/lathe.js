@@ -2,8 +2,10 @@
 import { clamp, profileRadii, smoothThrough, hash } from './geom.js';
 import { tint, litEdge, rrect, rgba, mix, shadowed, shelf, lum } from './fx.js';
 import { drawTool } from './scenes.js';
+import { drawFineVessel } from './vessel.js';
+import { MARKS } from './doll.js';
 
-export const LATHE_DEFAULTS = { profile: 'vase', rows: 10, steps: 10, variation: 0.05, tolerance: 0.32, bands: 5, clay: '#b9744a', glazes: [{ name: 'White', color: '#f1ede2' }, { name: 'Cobalt', color: '#1f4aa8' }, { name: 'Turquoise', color: '#2aa6a0' }], glazePattern: null, guide: true, wheelColor: '#6e6a66' };
+export const LATHE_DEFAULTS = { profile: 'vase', rows: 10, steps: 10, variation: 0.05, tolerance: 0.32, bands: 5, clay: '#b9744a', glazes: [{ name: 'White', color: '#f1ede2' }, { name: 'Cobalt', color: '#1f4aa8' }, { name: 'Turquoise', color: '#2aa6a0' }], glazePattern: null, guide: true, wheelColor: '#6e6a66', engrave: false };
 
 function vesselPoints(cx, base, H, unit, radii) {
   const n = radii.length, rowH = H / n, top = base - H;
@@ -17,6 +19,7 @@ const lgT = (ctx, x0, x1, a, b) => { const g = ctx.createLinearGradient(x0, 0, x
 const guideDots = (ctx, cx, base, H, unit, steps, guide) => { if (guide) { ctx.strokeStyle = 'rgba(255,255,255,0.05)'; ctx.lineWidth = 1; for (let k = -steps; k <= steps; k++) { ctx.beginPath(); ctx.moveTo(cx + k * unit, base - H - 6); ctx.lineTo(cx + k * unit, base); ctx.stroke(); } } };
 const rg0 = (ctx, cx, cy, r, c) => { const g = ctx.createRadialGradient(cx - r * 0.2, cy - 2, 1, cx, cy, Math.max(2, r)); g.addColorStop(0, tint(c, 0.35)); g.addColorStop(1, tint(c, -0.1)); return g; };
 export function drawVessel(ctx, o) {
+  if (o.fine) return drawFineVessel(ctx, o);   // 1.10.0: scenes with `vessel: 'fine'` (src/vessel.js)
   const { cx, base, H, unit, radii, bands = 0, colors = [], clay, t = null, outlineOnly = false, accent = '#f2c14e', steps = 10, wet = 0 } = o;
   const { left, right, top, rowH } = vesselPoints(cx, base, H, unit, radii);
   const r0 = radii[0] * unit, sag0 = Math.max(2, r0 * 0.16);
@@ -50,6 +53,30 @@ export function drawVessel(ctx, o) {
   // throwing rings left by the fingers: finer and brighter while the clay is raw
   ctx.lineWidth = 1;
   for (let i = 1; i < n * 3; i++) { const y = base - (i / (n * 3)) * H; ctx.strokeStyle = glazed ? 'rgba(0,0,0,0.05)' : (i % 2 ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.07)'); ctx.beginPath(); curve(y, true); ctx.stroke(); }
+  // 1.11.0 engraving: grooves scraped through the top lac layer show the layer below (o.cuts: one entry per fine row, 0 none, 1 ring, 2 scroll)
+  if (o.cuts && glazed) {
+    const m = o.cuts.length, rotC = t === null ? 0.3 : t * 0.9;
+    for (let i = 0; i < m; i++) {
+      const ct = o.cuts[i]; if (!ct) continue;
+      const y = base - ((i + 0.5) / m) * H, k = Math.min(B - 1, Math.floor((i * B) / m)), ci = colors[k];
+      const under = ci !== undefined && ci >= 0 && o.glazes ? o.glazes[(ci + 1) % o.glazes.length].color : tint(clay, -0.4);
+      if (ct === 1) {
+        ctx.strokeStyle = 'rgba(0,0,0,0.35)'; ctx.lineWidth = 3.6; ctx.beginPath(); curve(y + 1, true); ctx.stroke();
+        ctx.strokeStyle = under; ctx.lineWidth = 2.4; ctx.beginPath(); curve(y, true); ctx.stroke();
+        ctx.strokeStyle = 'rgba(255,255,255,0.28)'; ctx.lineWidth = 0.8; ctx.beginPath(); curve(y - 1.3, true); ctx.stroke();
+      } else {
+        const ri = Math.min(n - 1, Math.floor((i / m) * n)), rr = radii[ri] * unit, N = 14, sz = Math.max(3, (H / m) * 1.7);
+        ctx.fillStyle = under; ctx.strokeStyle = under; ctx.lineWidth = Math.max(1.2, sz * 0.22);
+        for (let j = 0; j < N; j++) {
+          const th = rotC + (j * Math.PI * 2) / N, cv = Math.cos(th); if (cv < 0.1) continue;
+          const px = cx + Math.sin(th) * rr * 0.98, u2 = (px - cx) / (rmax + 4), py = y + sagE * Math.sqrt(Math.max(0, 1 - u2 * u2)) * 0.9, w = sz * cv * 1.4;
+          ctx.save(); ctx.translate(px, py); ctx.globalAlpha = 0.6 + 0.4 * cv;
+          ctx.beginPath(); ctx.moveTo(-w, sz * 0.3); ctx.bezierCurveTo(-w * 0.6, -sz, w * 0.2, -sz, w * 0.1, -sz * 0.1); ctx.bezierCurveTo(-w * 0.1, sz * 0.4, w * 0.6, sz * 0.5, w, -sz * 0.4); ctx.stroke();
+          ctx.beginPath(); ctx.arc(w * 0.1, -sz * 0.1, Math.max(1, sz * 0.28 * cv), 0, 6.2832); ctx.fill(); ctx.restore();
+        }
+      }
+    }
+  }
   // painted motifs go round the vessel: they turn with the wheel and foreshorten towards the edges
   if (glazed && o.motif && o.motif !== 'none') {
     const N = o.motif === 'leaf' ? 9 : 11, rot = t === null ? 0.45 : t * 0.9;
@@ -141,15 +168,60 @@ export function drawVessel(ctx, o) {
   ctx.beginPath(); ctx.ellipse(cx, top, rt, ry, 0, Math.PI * 1.1, Math.PI * 1.9); ctx.strokeStyle = 'rgba(255,255,255,0.45)'; ctx.lineWidth = 1.6; ctx.stroke();
 }
 
+// 1.12.0 rigs for hand-built ware: `turn` (a worn plate turned by hand on a low stool) and `pit` (the ware stands on a bed of ash among a ring of stones with embers)
+function drawBed(ctx, SC, kind, cx, base, wr, ry, t) {
+  const C = SC.turnC ?? '#8a6a48';
+  if (kind === 'turn') {
+    const sy = base + ry * 1.4;
+    ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.beginPath(); ctx.ellipse(cx, sy + ry * 2.1, wr * 1.1, ry * 1.3, 0, 0, 6.2832); ctx.fill();
+    const lgs = ctx.createLinearGradient(cx - wr * 0.7, 0, cx + wr * 0.7, 0); lgs.addColorStop(0, tint(C, -0.45)); lgs.addColorStop(0.4, tint(C, 0.05)); lgs.addColorStop(1, tint(C, -0.55));
+    ctx.fillStyle = lgs; ctx.beginPath(); ctx.moveTo(cx - wr * 0.4, base + 8); ctx.lineTo(cx + wr * 0.4, base + 8); ctx.lineTo(cx + wr * 0.56, sy + ry * 1.4); ctx.lineTo(cx - wr * 0.56, sy + ry * 1.4); ctx.closePath(); ctx.fill();
+    ctx.fillStyle = tint(C, -0.5); ctx.beginPath(); ctx.ellipse(cx, sy + ry * 1.4, wr * 0.56, ry * 0.7, 0, 0, 6.2832); ctx.fill();
+    const pg = ctx.createLinearGradient(cx - wr, 0, cx + wr, 0); pg.addColorStop(0, tint(C, -0.35)); pg.addColorStop(0.35, tint(C, 0.28)); pg.addColorStop(1, tint(C, -0.45));
+    ctx.fillStyle = pg; ctx.beginPath(); ctx.ellipse(cx, base + 6, wr * 1.08, ry * 1.2, 0, 0, Math.PI); ctx.lineTo(cx - wr * 1.08, base + 1); ctx.ellipse(cx, base + 1, wr * 1.08, ry * 1.2, 0, Math.PI, 0, true); ctx.closePath(); ctx.fill();
+    ctx.fillStyle = tint(C, 0.22); ctx.beginPath(); ctx.ellipse(cx, base + 1, wr * 1.08, ry * 1.2, 0, 0, 6.2832); ctx.fill();
+    ctx.strokeStyle = 'rgba(0,0,0,0.25)'; ctx.lineWidth = 1.5; for (const k of [0.78, 0.5]) { ctx.beginPath(); ctx.ellipse(cx, base + 1, wr * 1.08 * k, ry * 1.2 * k, 0, 0, 6.2832); ctx.stroke(); }
+    for (let k = 0; k < 9; k++) { const a = t * 1.1 + (k * 6.2832) / 9; if (Math.sin(a) > -0.2) { ctx.fillStyle = 'rgba(255,240,215,0.5)'; ctx.fillRect(cx + Math.cos(a) * wr * 0.95 - 2, base + 1 + Math.sin(a) * ry * 1.05, 4, 2.4); } }
+  } else {
+    const rx = wr * 1.55, ey = base + ry * 0.9, ryy = ry * 2.1;
+    const ag = ctx.createRadialGradient(cx, ey, 4, cx, ey, rx); ag.addColorStop(0, 'rgba(70,64,60,0.96)'); ag.addColorStop(0.75, 'rgba(40,36,34,0.95)'); ag.addColorStop(1, 'rgba(20,16,14,0)');
+    ctx.fillStyle = ag; ctx.beginPath(); ctx.ellipse(cx, ey, rx, ryy, 0, 0, 6.2832); ctx.fill();
+    for (let k = 0; k < 16; k++) { const a = hash(k, 91) * 6.2832, d = 0.35 + 0.6 * hash(k, 92), ex = cx + Math.cos(a) * rx * d, eyy = ey + Math.sin(a) * ryy * d, fl = 0.55 + 0.45 * Math.sin(t * 4 + k * 2.3), gr = ctx.createRadialGradient(ex, eyy, 0, ex, eyy, 12 + 8 * hash(k, 93)); gr.addColorStop(0, `rgba(255,170,70,${0.8 * fl})`); gr.addColorStop(1, 'rgba(255,90,20,0)'); ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(ex, eyy, 20, 0, 6.2832); ctx.fill(); }
+    for (let k = 0; k < 11; k++) { const a = (k / 11) * 6.2832 + 0.2, back = Math.sin(a) < 0, sx = cx + Math.cos(a) * rx * 1.02, sy2 = ey + Math.sin(a) * ryy * 1.05, sw = wr * (0.13 + 0.07 * hash(k, 94)), sh = sw * 0.62;
+      ctx.fillStyle = 'rgba(0,0,0,0.4)'; ctx.beginPath(); ctx.ellipse(sx + 3, sy2 + sh * 0.5, sw, sh * 0.8, 0, 0, 6.2832); ctx.fill();
+      const sg = ctx.createRadialGradient(sx - sw * 0.3, sy2 - sh * 0.4, 1, sx, sy2, sw * 1.2); sg.addColorStop(0, back ? '#7a7470' : '#8d857e'); sg.addColorStop(1, back ? '#2c2826' : '#3a3532'); ctx.fillStyle = sg; ctx.beginPath(); ctx.ellipse(sx, sy2, sw, sh, 0, 0, 6.2832); ctx.fill(); }
+  }
+}
+
 export function createLathe(P, env) {
   const { rng, audio, fx, sound } = env;
   const SC = P.scene ?? {}, WD = SC.words ?? {}, PM = SC.pitch ?? 1, WV = SC.wave ?? 'triangle';
   let toolAt = null, lastPtr = null, wetUntil = 0;
+  // 1.10.0 fine vessel (scene option `vessel: 'fine'`): smooth profile, rounded lip with the inside wall, per-band motifs, handle, painted floor
+  const FINE = SC.vessel === 'fine' ? { motifs: SC.motifs, handle: SC.handle, inkLight: SC.inkLight, inkDark: SC.inkDark, matt: SC.matt, roundel: SC.roundel, roundelInk: SC.roundelInk, inside: SC.inside, count: SC.count, sheen: SC.sheen, smoke: SC.smoke, mica: SC.mica, seams: SC.seams, engraveStyle: SC.engraveStyle, glazeAlpha: SC.glazeAlpha, grainAll: SC.grainAll, floorGrain: SC.floorGrain, floorColor: SC.floorColor, lipColor: SC.lipColor, engraveFill: SC.engraveFill, engraveLayers: SC.engraveLayers, lid: SC.lid, lidH: SC.lidH, lidColor: SC.lidColor, ears: SC.ears, earsAt: SC.earsAt, dome: SC.dome, still: SC.still, grain: SC.grain, deco: SC.deco, decoAlways: SC.decoAlways, decoInk: SC.decoInk, headAt: SC.headAt, chestAt: SC.chestAt, decoP: SC.decoP, glass: SC.glass } : null;
+  const FV = FINE ? { fine: FINE, ev: SC.view ?? 0.2 } : {}, HS = FINE ? SC.hscale ?? 1 : 1, WS = FINE ? SC.wscale ?? 1 : 1;
   const MOTIF = P.motif ?? SC.motif ?? ({ rishtan: 'leaf', bluepottery: 'petal', terracotta: 'dots' }[SC.id] ?? 'none');
   const n = P.rows, steps = P.steps;
-  const hasGlaze = P.bands > 0;
+  const hasGlaze = P.bands > 0, ENG = !!P.engrave && hasGlaze, M = n * 3, EK = SC.engraveKinds ?? 2, EN = SC.engraveNames ?? ['ring', 'scroll', 'leaf'];   // 1.15.0: up to three gravers (ring, scroll, leaf)
+  // 1.15.0 finishing touches (dolls): after the bands, tap each glowing mark to paint a feature (eyes, mouth); the decoration draws a feature only once it is painted
+  const MK = FINE && SC.deco && !ENG ? MARKS[SC.deco] ?? null : null, hasTouch = !!(MK && hasGlaze);
+  let touched = {};
+  let cuts, targetCuts, eTool = 1, eRestore = false, eLast = -1;
   let drag = false, radii, target, colors, targetColors, phase, sel, undo, done, rects = null, geo = null, clock = 0, acc = 0, attractStage = 0;
 
+  // the engraving target: a ring on each band's edges and a scroll or a second ring through the middle of alternate bands
+  const makeCuts = () => {
+    targetCuts = new Array(M).fill(0);
+    if (!ENG) return;
+    const B = P.bands, flip = rng.int(2);
+    for (let k = 0; k < B; k++) {
+      const lo = Math.round((k * M) / B), hi = Math.round(((k + 1) * M) / B) - 1, mid = Math.floor((lo + hi) / 2);
+      if (hi - lo < 3) continue;
+      if (SC.engraveStyle === 'band') { const kd = ((k + flip) % 2) + 1; for (let q = lo + 1; q <= hi - 1; q++) targetCuts[q] = kd; continue; }
+      if (EK > 2) { const pick = (k + flip) % 3; if (pick === 0) { targetCuts[mid] = 2; targetCuts[lo + 1] = 1; targetCuts[hi - 1] = 1; } else if (pick === 1) { targetCuts[mid] = 3; targetCuts[lo + 1] = 1; targetCuts[hi - 1] = 1; } else { targetCuts[mid] = 1; if (hi - lo >= 6) { targetCuts[mid - 2] = 1; targetCuts[mid + 2] = 1; } } continue; }
+      if ((k + flip) % 2 === 0) { targetCuts[mid] = 2; targetCuts[lo + 1] = 1; targetCuts[hi - 1] = 1; } else { targetCuts[mid] = 1; if (hi - lo >= 6) { targetCuts[mid - 2] = 1; targetCuts[mid + 2] = 1; } }
+    }
+  };
   const makeTarget = () => {
     target = profileRadii(P.profile, n, steps, P.variation, rng, P.explicitProfile);
     if (P.glazePattern && P.glazePattern.length) { targetColors = Array.from({ length: P.bands }, (_, k) => P.glazePattern[k % P.glazePattern.length]); return; }
@@ -161,36 +233,53 @@ export function createLathe(P, env) {
     makeTarget();
     const start = clamp(Math.round(steps * 0.55), 1, steps);
     radii = new Array(n).fill(start); colors = new Array(P.bands).fill(-1);
+    cuts = new Array(M).fill(0); eTool = 1; eLast = -1; makeCuts(); touched = {};
     phase = 'shape'; sel = 0; undo = []; done = null; attractStage = 0; acc = 0;
   };
   init();
 
-  const snapshot = () => undo.push({ radii: radii.slice(), colors: colors.slice(), phase });
+  const snapshot = () => undo.push({ radii: radii.slice(), colors: colors.slice(), phase, cuts: cuts.slice(), touched: { ...touched } });
   const shapeScore = () => { let e = 0; for (let i = 0; i < n; i++) e += Math.abs(radii[i] - target[i]); e = e / n / steps; return Math.round(100 * clamp(1 - e / P.tolerance, 0, 1)); };
   const glazeScore = () => { if (!hasGlaze) return 100; let ok = 0; for (let k = 0; k < P.bands; k++) if (colors[k] === targetColors[k]) ok++; return Math.round((100 * ok) / P.bands); };
+  // a cut counts when a cut of the same kind lies within one fine row of a target cut; stray cuts cost half as much
+  const near = (arr, i, t) => { for (let d = -1; d <= 1; d++) if (arr[i + d] === t) return true; return false; };
+  const engraveScore = () => {
+    if (!ENG) return 100;
+    let need = 0, got = 0, extra = 0;
+    for (let i = 0; i < M; i++) { if (targetCuts[i]) { need++; if (near(cuts, i, targetCuts[i])) got++; } if (cuts[i] && !near(targetCuts, i, cuts[i])) extra++; }
+    return Math.round(100 * clamp((got - 0.5 * extra) / Math.max(1, need), 0, 1));
+  };
+  const touchScore = () => (hasTouch ? Math.round((100 * MK.filter((m) => touched[m.k]).length) / MK.length) : 100);
   const score = () => {
-    const s = shapeScore(), g = glazeScore();
-    const total = hasGlaze ? Math.round(s * 0.7 + g * 0.3) : s;
-    return { score: total, detail: hasGlaze ? `Shape ${s} of 100, glaze ${Math.round((g * P.bands) / 100)} of ${P.bands} bands right` : `Shape ${s} of 100` };
+    const s = shapeScore(), g = glazeScore(), e = engraveScore(), tc = touchScore();
+    const total = ENG ? Math.round(s * 0.5 + g * 0.25 + e * 0.25) : hasTouch ? Math.round(s * 0.55 + g * 0.25 + tc * 0.2) : hasGlaze ? Math.round(s * 0.7 + g * 0.3) : s;
+    return { score: total, detail: hasTouch ? `Shape ${s} of 100, paint ${Math.round((g * P.bands) / 100)} of ${P.bands} bands right, finishing touches ${MK.filter((m) => touched[m.k]).length} of ${MK.length}` : ENG ? `Shape ${s} of 100, glaze ${Math.round((g * P.bands) / 100)} of ${P.bands} bands right, engraving ${e} of 100` : hasGlaze ? `Shape ${s} of 100, glaze ${Math.round((g * P.bands) / 100)} of ${P.bands} bands right` : `Shape ${s} of 100` };
   };
 
   const items = () => {
     const out = [];
     if (phase === 'glaze') P.glazes.forEach((gl, i) => out.push({ id: `glaze:${i}`, kind: 'swatch', color: gl.color, on: sel === i, name: gl.name }));
     out.push({ id: 'undo', kind: 'btn', label: 'Undo', off: !undo.length });
-    if (phase === 'glaze') out.push({ id: 'shape', kind: 'btn', label: 'Reshape' });
+    if (phase === 'engrave') out.splice(0, 0, { id: 'etool', kind: 'btn', label: `Graver: ${EN[eTool - 1]}` });
+    if (phase === 'engrave' || phase === 'touch') out.push({ id: 'glaze', kind: 'btn', label: phase === 'touch' ? 'Repaint' : 'Reglaze' });
+    else if (phase === 'glaze') out.push({ id: 'shape', kind: 'btn', label: 'Reshape' });
     else out.push({ id: 'reset', kind: 'btn', label: 'Reset' });
     if (phase === 'shape' && hasGlaze) out.push({ id: 'glaze', kind: 'btn', label: 'Glaze', primary: true });
+    else if (phase === 'glaze' && ENG) out.push({ id: 'engrave', kind: 'btn', label: 'Engrave', primary: true });
+    else if (phase === 'glaze' && hasTouch) out.push({ id: 'touch', kind: 'btn', label: WD.touchBtn ?? 'Finish', primary: true });
     else out.push({ id: 'check', kind: 'btn', label: 'Check', primary: true });
     return out;
   };
 
   const control = (id) => {
     if (done) return;
-    if (id === 'undo') { const u = undo.pop(); if (u) { radii = u.radii; colors = u.colors; phase = u.phase; } }
+    if (id === 'undo') { const u = undo.pop(); if (u) { radii = u.radii; colors = u.colors; phase = u.phase; if (u.cuts) cuts = u.cuts; if (u.touched) touched = u.touched; } }
     else if (id === 'reset') { snapshot(); radii = new Array(n).fill(clamp(Math.round(steps * 0.55), 1, steps)); }
     else if (id === 'glaze') { snapshot(); phase = 'glaze'; sound?.toGlaze(); }
     else if (id === 'shape') { snapshot(); phase = 'shape'; }
+    else if (id === 'engrave') { snapshot(); phase = 'engrave'; sound?.toGlaze(); }
+    else if (id === 'touch') { snapshot(); phase = 'touch'; sound?.toGlaze(); }
+    else if (id === 'etool') eTool = eTool >= EK ? 1 : eTool + 1;
     else if (id.startsWith('glaze:')) sel = Number(id.slice(6));
     else if (id === 'check') finish();
   };
@@ -213,11 +302,31 @@ export function createLathe(P, env) {
     lastPtr = { x: p.x, y: p.y, down: p.down, t: clock };
     const inside = p.x >= rects.work.x && p.x <= rects.work.x + rects.work.w && p.y >= rects.work.y && p.y <= rects.work.y + rects.work.h;
     if (p.pressed && inside) { snapshot(); drag = true; }
-    if (p.released && !p.down) { if (p.pressed && drag) apply(p); drag = false; return; }
+    if (p.released && !p.down) { if (p.pressed && drag) apply(p); drag = false; eLast = -1; return; }
     if (!drag || !inside) return;
     apply(p);
   };
+  // the head circle and the screen position of each finishing touch (marks are placed in units of the head radius from the head centre)
+  const spots = () => {
+    const tp = geo.base - geo.H; let hr = 0; for (let i = Math.max(0, n - Math.max(2, Math.round(n * 0.25))); i < n; i++) hr = Math.max(hr, radii[i]);
+    hr *= geo.unit; const hy = tp + geo.H * (SC.headAt ?? 0.07);
+    return MK.map((m) => ({ k: m.k, x: geo.cx + m.fx * hr, y: hy + m.fy * hr, r: Math.max(24, hr * (m.fr ?? 0.3)) }));
+  };
   const apply = (p) => {
+    if (phase === 'touch' && hasTouch) {
+      for (const sp of spots()) if (!touched[sp.k] && (p.x - sp.x) ** 2 + (p.y - sp.y) ** 2 <= sp.r * sp.r) { touched[sp.k] = true; sound?.glazeBand(sp.k.length); if (fx) fx.emit('drop', sp.x, sp.y, { count: 6, color: '#ffffff', size: 3, speed: 90, life: 0.5, gravity: 300, spread: 3, angle: -1.57 }); }
+      return;
+    }
+    if (phase === 'engrave') {
+      const f = clamp(Math.floor(((geo.base - p.y) / geo.H) * M), 0, M - 1);
+      if (p.pressed || eLast < 0) { eRestore = cuts[f] === eTool; eLast = f; }
+      const lo = Math.min(f, eLast), hi = Math.max(f, eLast);
+      for (let q = lo; q <= hi; q++) {
+        const v = eRestore ? 0 : eTool;
+        if (cuts[q] !== v) { cuts[q] = v; sound?.chip(hash(q, 3), false); if (geo && fx && v) fx.emit('curl', geo.cx + radii[Math.min(n - 1, Math.floor((q / M) * n))] * geo.unit, geo.base - ((q + 0.5) / M) * geo.H, { count: 2, color: tint(P.clay, -0.1), size: 4, speed: 100, life: 0.6, gravity: 420, spread: 2.4, angle: -0.3 }); }
+      }
+      eLast = f; return;
+    }
     const i = rowAt(p.y);
     if (phase === 'shape') setRow(i, Math.round(Math.abs(p.x - geo.cx) / geo.unit));
     else {
@@ -245,7 +354,7 @@ export function createLathe(P, env) {
       const rx = cx + Math.max(radiiArr[Math.floor(n / 2)] * unit + 22, wr * 0.9);
       ctx.fillStyle = '#7a8088'; ctx.fillRect(Math.min(rx, W.x + W.w - 20), top + H * 0.2, 6, H * 0.7);
       guideDots(ctx, cx, base, H, unit, steps, guide);
-      drawVessel(ctx, { cx, base, H, unit, radii: radiiArr, bands: P.bands, colors: colorsArr, glazes: P.glazes, clay: P.clay, t: done ? null : t, steps, wet, solid: true, motif: MOTIF, doll: SC.id === 'matryoshka' });
+      drawVessel(ctx, { cx, base, H, unit, radii: radiiArr, bands: P.bands, colors: colorsArr, glazes: P.glazes, clay: P.clay, t: done ? null : t, steps, wet, solid: true, motif: MOTIF, doll: SC.id === 'matryoshka', cuts: ENG ? (colorsArr === targetColors ? targetCuts : cuts) : null, ...FV });
       return;
     }
     if (SC.rig === 'kick') { // a low Uzbek kick wheel: a heavy flywheel under the wheel head, a clay trough around it
@@ -259,6 +368,22 @@ export function createLathe(P, env) {
       ctx.fillStyle = 'rgba(40,20,8,0.7)'; ctx.fillRect(cx - 7, base + ry, 14, fy - base - ry);
       ctx.restore();
     }
+    if (SC.rig === 'stand') { // 1.15.0: a doll stands on a low painter's block (a wooden disc on a short post); no wheel
+      const wr0 = Math.min(steps * unit * 1.2, W.w / 2.7) * (SC.standW ?? 0.9), ry0 = Math.max(6, wr0 * 0.12), C = SC.standC ?? '#7a5634';
+      ctx.fillStyle = 'rgba(0,0,0,0.38)'; ctx.beginPath(); ctx.ellipse(cx + wr0 * 0.06, base + ry0 * 2.6, wr0 * 1.12, ry0 * 1.2, 0, 0, 6.2832); ctx.fill();
+      const bg = ctx.createLinearGradient(cx - wr0, 0, cx + wr0, 0); bg.addColorStop(0, tint(C, -0.45)); bg.addColorStop(0.35, tint(C, 0.2)); bg.addColorStop(1, tint(C, -0.5));
+      ctx.fillStyle = bg; ctx.beginPath(); ctx.ellipse(cx, base + ry0 * 2.2, wr0, ry0 * 1.1, 0, 0, Math.PI); ctx.lineTo(cx - wr0, base + ry0 * 0.9); ctx.ellipse(cx, base + ry0 * 0.9, wr0, ry0 * 1.1, 0, Math.PI, 0, true); ctx.closePath(); ctx.fill();
+      ctx.fillStyle = tint(C, 0.28); ctx.beginPath(); ctx.ellipse(cx, base + ry0 * 0.9, wr0, ry0 * 1.1, 0, 0, 6.2832); ctx.fill();
+      ctx.strokeStyle = 'rgba(0,0,0,0.25)'; ctx.lineWidth = 1.2; for (const k of [0.8, 0.52]) { ctx.beginPath(); ctx.ellipse(cx, base + ry0 * 0.9, wr0 * k, ry0 * 1.1 * k, 0, 0, 6.2832); ctx.stroke(); }
+      drawVessel(ctx, { cx, base, H, unit, radii: radiiArr, bands: P.bands, colors: colorsArr, glazes: P.glazes, clay: P.clay, t: done ? null : t, steps, wet, solid: false, motif: MOTIF, doll: false, cuts: ENG ? (colorsArr === targetColors ? targetCuts : cuts) : null, ...FV });
+      return;
+    }
+    if (SC.rig === 'turn' || SC.rig === 'pit') { // hand-built ware: no wheel
+      const wr0 = Math.min(steps * unit * 1.2, W.w / 2.7);
+      drawBed(ctx, SC, SC.rig, cx, base, wr0, Math.max(8, wr0 * 0.14), t);
+      drawVessel(ctx, { cx, base, H, unit, radii: radiiArr, bands: P.bands, colors: colorsArr, glazes: P.glazes, clay: P.clay, t: done ? null : t, steps, wet, solid: false, motif: MOTIF, doll: false, cuts: null, ...FV });
+      return;
+    }
     // splash pan and wheel head
     ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.beginPath(); ctx.ellipse(cx, base + ry * 0.9, wr * 1.28, ry * 1.55, 0, 0, 6.2832); ctx.fill();
     const pan = ctx.createLinearGradient(cx - wr * 1.3, 0, cx + wr * 1.3, 0); pan.addColorStop(0, '#2a2724'); pan.addColorStop(0.5, '#4a4540'); pan.addColorStop(1, '#25221f');
@@ -271,32 +396,38 @@ export function createLathe(P, env) {
     for (let k = 1; k < 4; k++) { ctx.strokeStyle = 'rgba(0,0,0,0.18)'; ctx.beginPath(); ctx.ellipse(cx, base + 2, wr * (k / 4), ry * (k / 4), 0, 0, 6.2832); ctx.stroke(); }
     for (let k = 0; k < 11; k++) { const a = t * 1.6 + (k * Math.PI * 2) / 11; if (Math.sin(a) > -0.1) { ctx.fillStyle = 'rgba(255,255,255,0.55)'; ctx.fillRect(cx + Math.cos(a) * wr * 0.9 - 2, base + 2 + Math.sin(a) * ry * 0.9 - 1, 4, 3); } }
     guideDots(ctx, cx, base, H, unit, steps, guide);
-    drawVessel(ctx, { cx, base, H, unit, radii: radiiArr, bands: P.bands, colors: colorsArr, glazes: P.glazes, clay: P.clay, t: done ? null : t, steps, wet, solid: SC.top === 'solid', motif: MOTIF, doll: SC.id === 'matryoshka' });
+    drawVessel(ctx, { cx, base, H, unit, radii: radiiArr, bands: P.bands, colors: colorsArr, glazes: P.glazes, clay: P.clay, t: done ? null : t, steps, wet, solid: SC.top === 'solid', motif: MOTIF, doll: SC.id === 'matryoshka', cuts: ENG ? (colorsArr === targetColors ? targetCuts : cuts) : null, ...FV });
   };
 
   const draw = (g, R, t) => {
     const { ctx, pal } = g;
     rects = R; clock = t;
+    FV.marks = hasTouch ? touched : null;
     const W = R.work;
     // the reference on its shelf
-    const th = R.thumb, tH = th.h * 0.78, tUnit = Math.min((th.w * 0.44) / steps, tH / 11, SC.id === 'matryoshka' ? tH / (steps * 3.1) : 1e9), tb = th.y + th.h * 0.88;
+    const th = R.thumb, tH = th.h * 0.78, tUnit0 = Math.min((th.w * 0.44) / steps, tH / 11, SC.id === 'matryoshka' ? tH / (steps * 3.1) : 1e9) * WS, tUnit = SC.aspect ? Math.min(tUnit0, (tH * HS * SC.aspect) / steps) : tUnit0, tb = th.y + th.h * 0.88;
     shelf(ctx, th.x + th.w / 2, tb, th.w * 0.36);
-    drawVessel(ctx, { cx: th.x + th.w / 2, base: tb, H: tH, unit: tUnit, radii: target, bands: P.bands, colors: targetColors, glazes: P.glazes, clay: P.clay, steps, solid: SC.top === 'solid', motif: MOTIF, doll: SC.id === 'matryoshka' });
+    drawVessel(ctx, { cx: th.x + th.w / 2, base: tb, H: tH * HS, unit: tUnit, radii: target, bands: P.bands, colors: targetColors, glazes: P.glazes, clay: P.clay, steps, solid: SC.top === 'solid', motif: MOTIF, doll: SC.id === 'matryoshka', cuts: ENG ? targetCuts : null, ...FV, marks: null });
     // wheel + work vessel
     const kq = SC.rig === 'kick' || SC.rig === 'woodlathe' ? 0.8 : 1;
-    let unit = Math.min((W.w * 0.46) / steps, (W.h * 0.7) / (n * 1.1)) * kq;
+    let unit = Math.min((W.w * 0.46) / steps, (W.h * 0.7) / (n * 1.1)) * kq * WS;
     const base = W.y + W.h * (SC.rig === 'kick' ? 0.74 : 0.86), cx = W.x + W.w / 2;
-    const H = Math.min(W.h * 0.7 * kq, W.w * 1.0 * kq, base - W.y - 56 - steps * unit * 0.2);
+    const H = Math.min(W.h * 0.7 * kq, W.w * 1.0 * kq, base - W.y - 56 - steps * unit * 0.2) * HS;
     if (SC.id === 'matryoshka') unit = Math.min(unit, H / (steps * 3.1)); // a nesting doll is an egg, taller than it is wide
+    if (SC.aspect) unit = Math.min(unit, (H * SC.aspect) / steps);   // 1.15.0: a doll keeps its proportions in portrait and landscape (full width = steps x unit = aspect x height)
     geo = { cx, base, unit, H, rowH: H / n };
-    if (P.guide) drawVessel(ctx, { cx, base, H, unit, radii: target, outlineOnly: true, accent: pal.accent, t });
+    if (P.guide) drawVessel(ctx, { cx, base, H, unit, radii: target, outlineOnly: true, accent: pal.accent, t, ...FV });
     const wet = clamp((wetUntil - t) / 2.5, 0, 1);
     wheelAndVessel(ctx, pal, cx, base, H, unit, W, radii, phase === 'glaze' || colors.some((c) => c >= 0) ? colors : [], t, true, wet);
-    if (P.guide) drawVessel(ctx, { cx, base, H, unit, radii: target, outlineOnly: true, accent: pal.accent, t });
+    if (P.guide) drawVessel(ctx, { cx, base, H, unit, radii: target, outlineOnly: true, accent: pal.accent, t, ...FV });
+    if (phase === 'touch' && hasTouch && !done) { // glowing marks: tap each one to paint that feature
+      ctx.save(); for (const sp of spots()) { if (touched[sp.k]) continue; const pu = 0.5 + 0.5 * Math.sin(t * 5 + sp.x * 0.05); ctx.strokeStyle = rgba(pal.accent, 0.5 + 0.4 * pu); ctx.lineWidth = 2.4; ctx.beginPath(); ctx.arc(sp.x, sp.y, sp.r * (0.55 + 0.12 * pu), 0, 6.2832); ctx.stroke(); ctx.fillStyle = rgba(pal.accent, 0.2 + 0.25 * pu); ctx.beginPath(); ctx.arc(sp.x, sp.y, sp.r * 0.22, 0, 6.2832); ctx.fill(); } ctx.restore();
+    }
     // the rib tool where the finger is working
     if (!done && lastPtr && lastPtr.down && t - lastPtr.t < 0.3) {
       const i = rowAt(lastPtr.y), ex = geo.cx + radii[i] * geo.unit, ey = geo.base - (i + 0.5) * geo.rowH;
-      if (phase === 'glaze') drawTool(ctx, SC, 'brush', ex, ey, 96, t, { c: P.glazes[sel]?.color });
+      if (phase === 'engrave') drawTool(ctx, SC, 'chisel', ex, ey, 100, t);
+      else if (phase === 'glaze') drawTool(ctx, SC, 'brush', ex, ey, 96, t, { c: P.glazes[sel]?.color });
       else if (SC.tool === 'gouge' || SC.tool === 'sponge') drawTool(ctx, SC, SC.tool, ex, ey, 110, t);
       else { ctx.save(); ctx.translate(ex + 4, ey); ctx.rotate(0.25);
       shadowed(ctx, () => { const gr = ctx.createLinearGradient(0, -22, 0, 22); gr.addColorStop(0, '#e2b878'); gr.addColorStop(1, '#8a5b2d'); rrect(ctx, 0, -20, 46, 40, 14); ctx.fillStyle = gr; ctx.fill(); }, { blur: 8, dx: 3, dy: 4, a: 0.5 });
@@ -304,12 +435,24 @@ export function createLathe(P, env) {
       ctx.fillStyle = 'rgba(0,0,0,0.5)'; ctx.beginPath(); ctx.arc(30, 0, 5, 0, 6.2832); ctx.fill();
       ctx.restore(); }
     }
-    g.label(ctx, phase === 'shape' ? (WD.shape ?? 'Drag across the clay to set its width') : (WD.glaze ?? 'Tap a band to glaze it'), cx, W.y + 26, g.px(22), pal.ink, 'center', '600');
+    if (phase === 'engrave' && P.guide) { // lit marks beside the vessel show where each ring (a line) and each scroll (a wave) is cut
+      ctx.save(); ctx.lineWidth = 2.4; ctx.lineCap = 'round'; ctx.strokeStyle = pal.accent; ctx.globalAlpha = 0.55 + 0.35 * Math.sin(t * 4);
+      for (let i = 0; i < M; i++) { const v = targetCuts[i]; if (!v) continue; const y = geo.base - ((i + 0.5) / M) * geo.H, rr = radii[Math.min(n - 1, Math.floor((i / M) * n))] * geo.unit, x0 = geo.cx - rr - 34;
+        ctx.beginPath(); if (v === 1) { ctx.moveTo(x0, y); ctx.lineTo(x0 + 22, y); } else if (v === 3) { ctx.moveTo(x0 + 11, y + 6); ctx.lineTo(x0 + 11, y - 2); ctx.moveTo(x0 + 11, y + 4); ctx.quadraticCurveTo(x0 + 2, y, x0 + 4, y - 8); ctx.quadraticCurveTo(x0 + 11, y - 3, x0 + 11, y + 4); ctx.moveTo(x0 + 11, y + 4); ctx.quadraticCurveTo(x0 + 20, y, x0 + 18, y - 8); ctx.quadraticCurveTo(x0 + 11, y - 3, x0 + 11, y + 4); } else { ctx.moveTo(x0, y); ctx.bezierCurveTo(x0 + 5, y - 7, x0 + 9, y + 7, x0 + 13, y); ctx.bezierCurveTo(x0 + 16, y - 6, x0 + 19, y + 3, x0 + 22, y); } ctx.stroke(); }
+      ctx.restore();
+    }
+    const say = phase === 'shape' ? (WD.shape ?? 'Drag across the clay to set its width') : phase === 'touch' ? (WD.touch ?? 'Tap each glowing mark to paint it') : phase === 'engrave' ? (WD.engrave ?? 'Scrape each lit mark through the top lac') : (WD.glaze ?? 'Tap a band to glaze it');
+    if (FINE) { // 1.10.0: the instruction sits on a dark pill so it stays readable on any wall
+      ctx.font = `600 ${Math.round(g.px(20))}px system-ui, sans-serif`; const tw = Math.min(W.w - 16, ctx.measureText(say).width + 28), ph = g.px(20) + 14;
+      rrect(ctx, cx - tw / 2, W.y + 26 - ph / 2, tw, ph, ph / 2); ctx.fillStyle = 'rgba(12,10,8,0.62)'; ctx.fill();
+      g.label(ctx, say, cx, W.y + 26, g.px(20), '#f4efe6', 'center', '600');
+    } else g.label(ctx, say, cx, W.y + 26, g.px(22), pal.ink, 'center', '600');
   };
 
   const titleArt = (g, S, t) => {
     const { ctx, pal } = g;
-    const H = S.h * 0.66, unit = Math.min((S.w * 0.42) / steps, (S.h * 0.66) / (n * 1.1), SC.id === 'matryoshka' ? H / (steps * 3.1) : 1e9), base = S.y + S.h * 0.8, cx = S.x + S.w / 2;
+    const H = S.h * 0.66 * HS, unit0 = Math.min((S.w * 0.42) / steps, (S.h * 0.66) / (n * 1.1), SC.id === 'matryoshka' ? H / (steps * 3.1) : 1e9) * WS, unit = SC.aspect ? Math.min(unit0, (H * SC.aspect) / steps) : unit0, base = S.y + S.h * 0.8, cx = S.x + S.w / 2;
+    FV.marks = null;
     wheelAndVessel(ctx, pal, cx, base, H, unit, { x: S.x, y: S.y, w: S.w * 0.74, h: S.h }, target, targetColors, t, false, 0.3);
   };
 
@@ -320,8 +463,17 @@ export function createLathe(P, env) {
     if (phase === 'shape') {
       for (let i = 0; i < n; i++) if (radii[i] !== target[i]) { radii[i] += Math.sign(target[i] - radii[i]); return; }
       if (hasGlaze) phase = 'glaze'; else finish();
-    } else {
+    } else if (phase === 'glaze') {
       for (let k = 0; k < P.bands; k++) if (colors[k] !== targetColors[k]) { sel = targetColors[k]; colors[k] = sel; acc = -0.2; return; }
+      if (ENG) { phase = 'engrave'; acc = -0.4; return; }
+      if (hasTouch) { phase = 'touch'; acc = -0.5; return; }
+      acc = -0.4; if (++attractStage > 2) finish();
+    } else if (phase === 'touch') {
+      const nx = MK.find((m) => !touched[m.k]);
+      if (nx) { touched[nx.k] = true; sound?.glazeBand(nx.k.length); acc = -0.45; return; }
+      acc = -0.4; if (++attractStage > 2) finish();
+    } else if (phase === 'engrave') {
+      for (let i = 0; i < M; i++) if (cuts[i] !== targetCuts[i]) { cuts[i] = targetCuts[i]; sound?.chip(hash(i, 3), false); acc = -0.12; return; }
       acc = -0.4; if (++attractStage > 2) finish();
     }
   };
@@ -334,15 +486,20 @@ export function createLathe(P, env) {
     hint() {
       if (phase === 'shape') { for (let i = n - 1; i >= 0; i--) if (radii[i] !== target[i]) return `Row ${n - i} from the top should be ${target[i] > radii[i] ? 'wider' : 'narrower'}.`; return 'The shape matches: press Glaze.'; }
       for (let k = 0; k < P.bands; k++) if (colors[k] !== targetColors[k]) return `Band ${k + 1} from the bottom needs ${P.glazes[targetColors[k]].name}.`;
+      if (hasTouch && phase === 'glaze') return `The bands match: press ${WD.touchBtn ?? 'Finish'}.`;
+      if (hasTouch && phase === 'touch') { const nx = MK.find((m) => !touched[m.k]); return nx ? 'Tap the glowing mark to paint it.' : 'The doll is finished: press Check.'; }
+      if (ENG && phase === 'glaze') return 'The glaze matches: press Engrave.';
+      if (ENG) { for (let i = M - 1; i >= 0; i--) if (!near(cuts, i, targetCuts[i] || -1) && targetCuts[i]) return `A ${EN[targetCuts[i] - 1]} is missing near row ${M - i} from the top.`; return 'The engraving matches: press Check.'; }
       return 'The glaze matches: press Check.';
     },
-    rules: () => ['Score: how closely the vessel width matches the target on every row (70 percent) and how many glaze bands have the right colour (30 percent).'],
+    rules: () => (hasTouch ? ['Score: how closely the doll matches the target on every row (55 percent), how many bands have the right colour (25 percent) and how many of the finishing touches you have painted (20 percent).'] : ENG ? ['Score: how closely the vessel width matches the target on every row (50 percent), how many bands have the right lac colour (25 percent) and how many rings and scrolls are scraped in the right place (25 percent).'] : ['Score: how closely the vessel width matches the target on every row (70 percent) and how many glaze bands have the right colour (30 percent).']),
     point(id) {
       if (!geo) return null;
       if (id.startsWith('lathe:')) { const [, row, rad] = id.split(':').map(Number); return { x: geo.cx + rad * geo.unit, y: geo.base - (row + 0.5) * geo.rowH }; }
+      if (id.startsWith('mark:') && hasTouch) { const sp = spots().find((q) => q.k === id.slice(5)); return sp ? { x: sp.x, y: sp.y } : null; }
       if (id.startsWith('band:')) { const k = Number(id.slice(5)); const row = Math.floor(((k + 0.5) * n) / P.bands); return { x: geo.cx, y: geo.base - (row + 0.5) * geo.rowH }; }
       return null;
     },
-    state: () => ({ technique: 'lathe', phase, radii, target, colors, targetColors, sel, rows: n, bands: P.bands, steps, shape: shapeScore(), glaze: glazeScore() }),
+    state: () => ({ technique: 'lathe', phase, radii, target, colors, targetColors, sel, rows: n, bands: P.bands, steps, shape: shapeScore(), glaze: glazeScore(), cuts, targetCuts, engrave: engraveScore(), touched, touch: touchScore() }),
   };
 }

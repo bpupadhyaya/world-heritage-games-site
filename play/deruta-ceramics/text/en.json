@@ -1,0 +1,27 @@
+{
+ "title": "Deruta ceramics",
+ "native": "Maiolica di Deruta",
+ "alt": [
+  "Deruta maiolica",
+  "Deruta majolica"
+ ],
+ "summary": "Deruta in Umbria has painted tin-glazed maiolica since the Middle Ages, in ochre yellow, cobalt blue and copper green on a creamy white glaze. Here you throw a tazza, a wide dish on a foot, then paint its bands and the bird in the centre.",
+ "howToPlay": [
+  "Look at the small tazza in the frame: that is the shape to make.",
+  "Drag across the spinning clay, row by row, to set the width of the dish and its foot; the lit outline shows the target.",
+  "Pick a colour from the swatches and tap a band to paint it like the target.",
+  "Press Check to see your stars."
+ ],
+ "rules": [
+  "The tazza has twelve rows; each row can be set from narrow to wide.",
+  "Shape counts for most of the score, glaze for the rest.",
+  "Each band must carry the glaze shown on the target.",
+  "Undo takes back your last change; Reshape returns to the clay.",
+  "Three stars for a close shape with every band in the right glaze."
+ ],
+ "heritageNote": "Deruta in Umbria, central Italy, has been a centre of maiolica since the thirteenth century. Its bowls, plates and footed dishes are painted in ochre, cobalt and copper green over a creamy white tin glaze, often with a bird, a portrait or a coat of arms at the centre, and workshops there still paint by hand.",
+ "countries": [
+  "Italy"
+ ],
+ "credits": []
+}

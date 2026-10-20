@@ -1,0 +1,13 @@
+{
+ "slug": "bilum-looped-string-bag",
+ "title": "Bilum looped string bag",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

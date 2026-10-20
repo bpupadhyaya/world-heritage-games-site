@@ -1,0 +1,51 @@
+{
+ "engine": "tempo-race",
+ "variant": "ice-canoe-race",
+ "players": "1",
+ "params": {
+  "craft": {
+   "id": "ice-canoe",
+   "view": "iceedge"
+  },
+  "vehicle": {
+   "kind": "paddle"
+  },
+  "rhythm": {
+   "bpm": 72,
+   "window": 0.09
+  },
+  "course": {
+   "length": 480,
+   "lanes": 4,
+   "shape": "straight",
+   "terrain": "ice",
+   "scenery": "none",
+   "obstacles": [
+    {
+     "at": 230,
+     "kind": "log"
+    }
+   ],
+   "rough": [
+    {
+     "from": 150,
+     "to": 230
+    },
+    {
+     "from": 320,
+     "to": 400
+    }
+   ]
+  },
+  "opponents": {
+   "count": 3,
+   "skill": 0.88,
+   "spread": 0.025
+  },
+  "rounds": 1,
+  "labels": {
+   "left": "Left side",
+   "right": "Right side"
+  }
+ }
+}

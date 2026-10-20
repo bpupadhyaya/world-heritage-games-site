@@ -1,0 +1,13 @@
+{
+ "slug": "guacharaca",
+ "title": "Guacharaca (notched tube)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,7 @@
+{
+  "engine": "shape-craft",
+  "variant": "aranmula-metal-mirror",
+  "players": "1",
+  "params": { "technique": "polish", "scene": "aranmula" },
+  "ai": { "level": "normal" }
+}

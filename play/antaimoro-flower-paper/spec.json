@@ -1,0 +1,15 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "sheet",
+  "scene": "antaimoro",
+  "form": "spread",
+  "finish": "brush",
+  "mould": "mesh",
+  "vat": "board",
+  "flowers": true,
+  "pulp": "#ece0bc",
+  "water": "#8a6a4a",
+  "hero": "antaimoro"
+ }
+}

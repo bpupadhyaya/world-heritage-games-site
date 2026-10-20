@@ -1,0 +1,13 @@
+{
+ "engine": "shape-craft",
+ "variant": "kashmiri-papier-mache-painting",
+ "params": {
+  "technique": "paint",
+  "design": "kashmiri",
+  "scene": "kashmiri",
+  "guideMode": "trace",
+  "snap": true,
+  "assist": true,
+  "variation": 0.6
+ }
+}

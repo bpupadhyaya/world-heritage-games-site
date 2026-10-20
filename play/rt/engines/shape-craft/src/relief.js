@@ -17,10 +17,10 @@ function blur1d(src, dst, W, H, r, horizontal) {
 
 // loops of [x, y] points in cell units (0..cols, 0..rows); the area where mask is 1 is inside (use fill 'evenodd')
 export function contourLoops(mask, cols, rows, opt = {}) {
-  const key = `${cols}x${rows}:${opt.k ?? 4}:${mask.join('')}`;
+  const key = `${cols}x${rows}:${opt.k ?? 4}${opt.thr != null || opt.r != null ? `:${opt.thr ?? ''}:${opt.r ?? ''}` : ''}:${mask.join('')}`;
   const hit = cache.get(key);
   if (hit) return hit;
-  const k = opt.k ?? 4, P = 2, thr = opt.thr ?? 0.44, r = Math.max(1, Math.round(k * 0.5));
+  const k = opt.k ?? 4, P = 2, thr = opt.thr ?? 0.44, r = opt.r ?? Math.max(1, Math.round(k * 0.5));
   const W = (cols + 2 * P) * k + 1, H = (rows + 2 * P) * k + 1;
   let f = new Float32Array(W * H), tmp = new Float32Array(W * H);
   for (let j = 0; j < H; j++) for (let i = 0; i < W; i++) {
@@ -65,7 +65,7 @@ export function contourLoops(mask, cols, rows, opt = {}) {
     }
     if (loop.length >= 3) loops.push(smooth(loop));
   }
-  if (cache.size > 24) cache.clear();
+  if (cache.size > 48) cache.clear();
   cache.set(key, loops);
   return loops;
 }

@@ -1,0 +1,192 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "Twirl",
+    "hz": 640,
+    "timbre": "breath",
+    "icon": "clap",
+    "color": "#e8352f"
+   },
+   {
+    "name": "Kick",
+    "hz": 300,
+    "timbre": "slap",
+    "icon": "slap",
+    "color": "#f7c52a"
+   },
+   {
+    "name": "Crouch",
+    "hz": 95,
+    "timbre": "stomp",
+    "icon": "stomp",
+    "color": "#2aa05a"
+   },
+   {
+    "name": "Leap",
+    "hz": 1300,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#2c6fe0"
+   }
+  ],
+  "songs": [
+   {
+    "id": "frevo-steps",
+    "name": "Street steps",
+    "bpm": 120,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Frevo, Brazil",
+    "note": "A teaching figure: a twirl, two kicks, a crouch, a leap and a closing kick.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Twirl"
+     },
+     {
+      "beat": 1,
+      "lane": "Kick"
+     },
+     {
+      "beat": 2,
+      "lane": "Kick"
+     },
+     {
+      "beat": 3,
+      "lane": "Crouch"
+     },
+     {
+      "beat": 4,
+      "lane": "Leap"
+     },
+     {
+      "beat": 5,
+      "lane": "Kick"
+     },
+     {
+      "beat": 6,
+      "lane": "Crouch"
+     },
+     {
+      "beat": 7,
+      "lane": "Twirl"
+     }
+    ]
+   },
+   {
+    "id": "frevo-crouch",
+    "name": "Low and high",
+    "bpm": 128,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Frevo, Brazil",
+    "note": "The low crouch answered by a leap, over and over.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Crouch"
+     },
+     {
+      "beat": 1,
+      "lane": "Leap"
+     },
+     {
+      "beat": 2,
+      "lane": "Crouch"
+     },
+     {
+      "beat": 3,
+      "lane": "Leap"
+     },
+     {
+      "beat": 4,
+      "lane": "Twirl"
+     },
+     {
+      "beat": 5,
+      "lane": "Kick"
+     },
+     {
+      "beat": 6,
+      "lane": "Kick"
+     },
+     {
+      "beat": 7,
+      "lane": "Leap"
+     }
+    ]
+   },
+   {
+    "id": "frevo-parade",
+    "name": "Parade round",
+    "bpm": 136,
+    "meter": 4,
+    "length": 12,
+    "kind": "figure",
+    "heritage": "Frevo, Brazil",
+    "note": "A quicker round that passes through every step.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Twirl"
+     },
+     {
+      "beat": 1,
+      "lane": "Twirl"
+     },
+     {
+      "beat": 2,
+      "lane": "Kick"
+     },
+     {
+      "beat": 3,
+      "lane": "Crouch"
+     },
+     {
+      "beat": 4,
+      "lane": "Leap"
+     },
+     {
+      "beat": 5,
+      "lane": "Kick"
+     },
+     {
+      "beat": 6,
+      "lane": "Kick"
+     },
+     {
+      "beat": 7,
+      "lane": "Crouch"
+     },
+     {
+      "beat": 8,
+      "lane": "Twirl"
+     },
+     {
+      "beat": 9,
+      "lane": "Leap"
+     },
+     {
+      "beat": 10,
+      "lane": "Crouch"
+     },
+     {
+      "beat": 11,
+      "lane": "Leap"
+     }
+    ]
+   }
+  ],
+  "song": 0,
+  "instrument": "umbrella dancer"
+ }
+}

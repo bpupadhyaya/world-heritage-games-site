@@ -40,12 +40,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Najeon chilgi](../../games/367-najeon-chilgi/index.md)
+- [Pyeongyeong](../../games/11700-pyeongyeong/index.md)
 - [Lost-Wax Bronze Casting](../../games/178-lost-wax-bronze-casting/index.md)
 - [Leaded Glass Window Making](../../games/501-leaded-glass-window-making/index.md)
 - [Ukiyo-e Woodblock Printing](../../games/1490-ukiyo-e-woodblock-printing/index.md)
 - [Kintsugi](../../games/5371-kintsugi/index.md)
-- [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
-- [Swahili carved door](../../games/90-swahili-carved-door/index.md)
 
 ## Sources
 

@@ -45,7 +45,7 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Bankura terracotta horse](../../games/280-bankura-terracotta-horse/index.md)
 - [Sholapith flower carving](../../games/283-sholapith-flower-carving/index.md)
 - [Maldivian lacquer work](../../games/1328-maldivian-lacquer-work/index.md)
-- [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
+- [Meenakari](../../games/5793-meenakari/index.md)
 
 ## Sources
 

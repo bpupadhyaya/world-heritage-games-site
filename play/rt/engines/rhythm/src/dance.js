@@ -2,22 +2,16 @@
 // ribbons, or the dancer's own body (schuhplattler). Each lane is a painted mark on the floor (or a part of the body); a ring
 // closes on it when the step falls due. The dancers step, bob and wave with the music (dancers.js); the floor is dressed (set.js).
 import { clamp, mix, rgba, lighter, darker, glow, rrect, hgrad, vgrad, rgrad, hash, ell, circ, TAU, stepIcon, kerchief, footprint } from './art.js';
+import { stageIdFor } from './registry.js';
 import { makeBox, circleSpot, finishSpots, hitSpots, pill } from './stagekit.js';
 import { setting } from './set.js';
 import { dancerTop, limb, bunting } from './dancers.js';
 
-const VIEW = { cueca: { zoom: 1.0 }, pole: { zoom: 1.0 }, body: { zoom: 1.0 }, floor: { zoom: 1.0 }, dabke: { zoom: 1.0 }, kolo: { zoom: 1.0 } };
-export function danceId(key) {
-  const k = String(key || '').toLowerCase();
-  if (/cueca|kerchief|handkerchief/.test(k)) return 'cueca';
-  if (/ribbon|pole|maypole/.test(k)) return 'pole';
-  if (/schuhplattler|gumboot|slap/.test(k)) return 'body';
-  if (/dabke/.test(k)) return 'dabke';
-  if (/kolo/.test(k)) return 'kolo';
-  return 'floor';
-}
+export const VIEW = { cueca: { zoom: 1.0 }, pole: { zoom: 1.0 }, body: { zoom: 1.0 }, floor: { zoom: 1.0 }, dabke: { zoom: 1.0 }, kolo: { zoom: 1.0 } };
+export const IDS = [[/cueca|kerchief|handkerchief/, 'cueca'], [/ribbon|pole|maypole/, 'pole'], [/schuhplattler|gumboot|slap/, 'body'], [/dabke/, 'dabke'], [/kolo/, 'kolo']];
+export const danceId = (key) => stageIdFor('steps', key);   // routes live in registry.js; new dances: registerDanceStage
 
-const DRESS = {
+export const DRESS = {
   kolo: { set: { kind: 'meadow', base: '#3d6a32', light: '#fff0c0' }, ring: true },
   dabke: { set: { kind: 'tiles', base: '#2e5c70', accent: '#d9b45a', light: '#ffe6b0' } },
   cueca: { set: { kind: 'planks', base: '#6a4224', light: '#ffe0b0' } },

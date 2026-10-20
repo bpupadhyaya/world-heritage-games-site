@@ -1,0 +1,13 @@
+{
+ "slug": "timbalamhala-antelope-horn-orchestra",
+ "title": "Timbalamhala",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

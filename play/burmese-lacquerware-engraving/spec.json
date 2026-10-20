@@ -1,0 +1,39 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "hsun",
+  "scene": "yun",
+  "rows": 14,
+  "bands": 5,
+  "clay": "#d9b27c",
+  "glazes": [
+   {
+    "name": "Black lac",
+    "color": "#16110f"
+   },
+   {
+    "name": "Red lac",
+    "color": "#a8231a"
+   },
+   {
+    "name": "Yellow lac",
+    "color": "#d8a62a"
+   },
+   {
+    "name": "Green lac",
+    "color": "#2f7a46"
+   }
+  ],
+  "variation": 0.04,
+  "engrave": true,
+  "steps": 16,
+  "glazePattern": [
+   0,
+   0,
+   1,
+   1,
+   0
+  ]
+ }
+}

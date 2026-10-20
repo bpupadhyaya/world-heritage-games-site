@@ -1,0 +1,13 @@
+{
+ "slug": "gumboot-dance-rhythm",
+ "title": "Gumboot dance rhythm",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

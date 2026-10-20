@@ -1,0 +1,379 @@
+{
+ "engine": "rhythm",
+ "variant": "saz",
+ "players": "1",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 146.83,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "saz",
+  "lanes": [
+   {
+    "name": "D3",
+    "cents": 0,
+    "id": "d3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8403c",
+    "string": 0,
+    "fret": 4
+   },
+   {
+    "name": "E3",
+    "cents": 200,
+    "id": "e3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d05e47",
+    "string": 0,
+    "fret": 6
+   },
+   {
+    "name": "F3~",
+    "cents": 350,
+    "id": "f3~-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d87c52",
+    "string": 0,
+    "fret": 8
+   },
+   {
+    "name": "G3",
+    "cents": 500,
+    "id": "g3-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e09a5d",
+    "string": 1,
+    "fret": 4
+   },
+   {
+    "name": "A3",
+    "cents": 700,
+    "id": "a3-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e8b868",
+    "string": 1,
+    "fret": 6
+   },
+   {
+    "name": "Bb3",
+    "cents": 800,
+    "id": "bb3-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c4b27c",
+    "string": 1,
+    "fret": 7
+   },
+   {
+    "name": "C4",
+    "cents": 1000,
+    "id": "c4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a0ac90",
+    "string": 2,
+    "fret": 5
+   },
+   {
+    "name": "D4",
+    "cents": 1200,
+    "id": "d4-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7ca6a4",
+    "string": 2,
+    "fret": 7
+   },
+   {
+    "name": "E4",
+    "cents": 1400,
+    "id": "e4-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#58a0b8",
+    "string": 2,
+    "fret": 9
+   }
+  ],
+  "songs": [
+   {
+    "id": "nine-beat-tune",
+    "name": "Nine-beat tune",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Aksak 9/8 dance tune, Anatolia",
+    "bpm": 120,
+    "meter": 9,
+    "length": 36,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 1
+     },
+     {
+      "beat": 18,
+      "lane": 2
+     },
+     {
+      "beat": 20,
+      "lane": 3
+     },
+     {
+      "beat": 22,
+      "lane": 4
+     },
+     {
+      "beat": 24,
+      "lane": 6
+     },
+     {
+      "beat": 27,
+      "lane": 5
+     },
+     {
+      "beat": 29,
+      "lane": 4
+     },
+     {
+      "beat": 31,
+      "lane": 3
+     },
+     {
+      "beat": 33,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "id": "slow-melody",
+    "name": "Slow melody",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Slow song of the aşık poets, Anatolia",
+    "bpm": 78,
+    "meter": 4,
+    "length": 28,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 2
+     },
+     {
+      "beat": 8,
+      "lane": 1
+     },
+     {
+      "beat": 10,
+      "lane": 0
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 5
+     },
+     {
+      "beat": 15,
+      "lane": 6
+     },
+     {
+      "beat": 16,
+      "lane": 7
+     },
+     {
+      "beat": 18,
+      "lane": 6
+     },
+     {
+      "beat": 19,
+      "lane": 5
+     },
+     {
+      "beat": 20,
+      "lane": 4
+     },
+     {
+      "beat": 21,
+      "lane": 3
+     },
+     {
+      "beat": 22,
+      "lane": 2
+     },
+     {
+      "beat": 23,
+      "lane": 1
+     },
+     {
+      "beat": 24,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "id": "line-dance",
+    "name": "Line dance in two",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Halay line dance tune, Anatolia",
+    "bpm": 116,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 0.5,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 4
+     },
+     {
+      "beat": 2,
+      "lane": 6
+     },
+     {
+      "beat": 2.5,
+      "lane": 6
+     },
+     {
+      "beat": 3,
+      "lane": 7
+     },
+     {
+      "beat": 4,
+      "lane": 8
+     },
+     {
+      "beat": 5,
+      "lane": 7
+     },
+     {
+      "beat": 5.5,
+      "lane": 6
+     },
+     {
+      "beat": 6,
+      "lane": 4
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 7.5,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 6
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 10.5,
+      "lane": 8
+     },
+     {
+      "beat": 11,
+      "lane": 7
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 12.5,
+      "lane": 4
+     },
+     {
+      "beat": 13,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "naqareh",
+  "lanes": [
+   {
+    "name": "Big centre",
+    "hz": 110,
+    "timbre": "bass",
+    "color": "#d9622b"
+   },
+   {
+    "name": "Big edge",
+    "hz": 230,
+    "timbre": "slap",
+    "color": "#c8452f"
+   },
+   {
+    "name": "Small centre",
+    "hz": 200,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Small edge",
+    "hz": 440,
+    "timbre": "slap",
+    "color": "#58b878"
+   }
+  ],
+  "songs": [
+   {
+    "id": "gallop",
+    "name": "Gallop in six, 6 beats",
+    "bpm": 112,
+    "meter": 6,
+    "length": 12,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A galloping figure.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Big centre"
+     },
+     {
+      "beat": 1,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 2,
+      "lane": "Small edge"
+     },
+     {
+      "beat": 3,
+      "lane": "Big centre"
+     },
+     {
+      "beat": 4,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 5,
+      "lane": "Small edge"
+     },
+     {
+      "beat": 6,
+      "lane": "Big centre"
+     },
+     {
+      "beat": 7,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 8,
+      "lane": "Small edge"
+     },
+     {
+      "beat": 9,
+      "lane": "Big centre"
+     },
+     {
+      "beat": 10,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 10.5,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 11,
+      "lane": "Small edge"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "fanfare",
+    "name": "Fanfare, 4 beats",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A bold call.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Big centre"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Big edge"
+     },
+     {
+      "beat": 1,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 2,
+      "lane": "Big centre"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 3,
+      "lane": "Small edge"
+     },
+     {
+      "beat": 4,
+      "lane": "Big centre"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Big edge"
+     },
+     {
+      "beat": 5,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 6,
+      "lane": "Big centre"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 7,
+      "lane": "Small edge"
+     }
+    ]
+   },
+   {
+    "id": "alternate",
+    "name": "Alternating strokes, 4 beats",
+    "bpm": 108,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Left and right in turn.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Big centre"
+     },
+     {
+      "beat": 1,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 2,
+      "lane": "Big centre"
+     },
+     {
+      "beat": 3,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Small edge"
+     },
+     {
+      "beat": 4,
+      "lane": "Big centre"
+     },
+     {
+      "beat": 5,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 6,
+      "lane": "Big edge"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Big centre"
+     },
+     {
+      "beat": 7,
+      "lane": "Small centre"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Small edge"
+     }
+    ]
+   }
+  ]
+ }
+}

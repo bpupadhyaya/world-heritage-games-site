@@ -1,0 +1,164 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "kutch",
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Magenta",
+        "color": "#d0307a"
+      },
+      {
+        "name": "Marigold",
+        "color": "#f0a030"
+      },
+      {
+        "name": "Turquoise",
+        "color": "#20a8b0"
+      },
+      {
+        "name": "Parrot green",
+        "color": "#4aa040"
+      },
+      {
+        "name": "Cream",
+        "color": "#f3e8cc"
+      }
+    ],
+    "background": "#1c2140",
+    "grid": "#10142a",
+    "motifs": [
+      "dot",
+      "diamond",
+      "flower",
+      "ring",
+      "leaf",
+      "star"
+    ],
+    "designs": [
+      {
+        "name": "Mirror garden",
+        "rows": [
+          "....a....",
+          "..b.c.b..",
+          ".d.e.e.d.",
+          "..f.a.f..",
+          "a..d.d..a",
+          "..f.a.f..",
+          ".d.e.e.d.",
+          "..b.c.b..",
+          "....a...."
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 4
+          },
+          "b": {
+            "m": 4,
+            "c": 3
+          },
+          "c": {
+            "m": 2,
+            "c": 0
+          },
+          "d": {
+            "m": 1,
+            "c": 1
+          },
+          "e": {
+            "m": 3,
+            "c": 2
+          },
+          "f": {
+            "m": 5,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Peacock and flower row",
+        "rows": [
+          "..a...a..",
+          "b.c.b.c.b",
+          "..d.e.d..",
+          "f.e.f.e.f",
+          "a.c.a.c.a",
+          "f.e.f.e.f",
+          "..d.e.d..",
+          "b.c.b.c.b",
+          "..a...a.."
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 4
+          },
+          "b": {
+            "m": 4,
+            "c": 3
+          },
+          "c": {
+            "m": 2,
+            "c": 0
+          },
+          "d": {
+            "m": 1,
+            "c": 1
+          },
+          "e": {
+            "m": 3,
+            "c": 2
+          },
+          "f": {
+            "m": 5,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Rings of mirrors",
+        "rows": [
+          "a...a...a",
+          ".b.b.b.b.",
+          "..c...c..",
+          "d.e.d.e.d",
+          ".a.a.a.a.",
+          "d.e.d.e.d",
+          "..c...c..",
+          ".b.b.b.b.",
+          "a...a...a"
+        ],
+        "legend": {
+          "a": {
+            "m": 3,
+            "c": 3
+          },
+          "b": {
+            "m": 0,
+            "c": 4
+          },
+          "c": {
+            "m": 2,
+            "c": 0
+          },
+          "d": {
+            "m": 4,
+            "c": 1
+          },
+          "e": {
+            "m": 5,
+            "c": 2
+          }
+        }
+      }
+    ]
+  },
+  "variant": "kutch-embroidery",
+  "players": "1"
+}

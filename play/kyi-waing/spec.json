@@ -1,0 +1,239 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "kyi waing gong circle",
+  "lanes": [
+   {
+    "name": "1",
+    "hz": 220.0,
+    "timbre": "gong",
+    "color": "#f75d5d"
+   },
+   {
+    "name": "2",
+    "hz": 246.9,
+    "timbre": "gong",
+    "color": "#f7695d"
+   },
+   {
+    "name": "3",
+    "hz": 277.2,
+    "timbre": "gong",
+    "color": "#f7755d"
+   },
+   {
+    "name": "4",
+    "hz": 329.6,
+    "timbre": "gong",
+    "color": "#f7815d"
+   },
+   {
+    "name": "5",
+    "hz": 370.0,
+    "timbre": "gong",
+    "color": "#f78c5d"
+   },
+   {
+    "name": "6",
+    "hz": 440.0,
+    "timbre": "gong",
+    "color": "#f7985d"
+   },
+   {
+    "name": "7",
+    "hz": 493.9,
+    "timbre": "gong",
+    "color": "#f7a45d"
+   },
+   {
+    "name": "8",
+    "hz": 554.4,
+    "timbre": "gong",
+    "color": "#f7af5d"
+   },
+   {
+    "name": "9",
+    "hz": 659.3,
+    "timbre": "gong",
+    "color": "#f7bb5d"
+   },
+   {
+    "name": "10",
+    "hz": 740.0,
+    "timbre": "gong",
+    "color": "#f7c75d"
+   },
+   {
+    "name": "11",
+    "hz": 880.0,
+    "timbre": "gong",
+    "color": "#f7d35d"
+   },
+   {
+    "name": "12",
+    "hz": 987.8,
+    "timbre": "gong",
+    "color": "#f7de5d"
+   }
+  ],
+  "songs": [
+   {
+    "id": "kyi-round",
+    "name": "Round the circle",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Kyi waing, Myanmar",
+    "note": "A teaching run around the ring and back.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "1"
+     },
+     {
+      "beat": 0.5,
+      "lane": "2"
+     },
+     {
+      "beat": 1.0,
+      "lane": "3"
+     },
+     {
+      "beat": 1.5,
+      "lane": "4"
+     },
+     {
+      "beat": 2.0,
+      "lane": "5"
+     },
+     {
+      "beat": 2.5,
+      "lane": "6"
+     },
+     {
+      "beat": 3.0,
+      "lane": "7"
+     },
+     {
+      "beat": 3.5,
+      "lane": "8"
+     },
+     {
+      "beat": 4.0,
+      "lane": "9"
+     },
+     {
+      "beat": 4.5,
+      "lane": "8"
+     },
+     {
+      "beat": 5.0,
+      "lane": "7"
+     },
+     {
+      "beat": 5.5,
+      "lane": "6"
+     },
+     {
+      "beat": 6.0,
+      "lane": "5"
+     },
+     {
+      "beat": 6.5,
+      "lane": "4"
+     },
+     {
+      "beat": 7.0,
+      "lane": "3"
+     },
+     {
+      "beat": 7.5,
+      "lane": "2"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "kyi-sparkle",
+    "name": "Sparkle",
+    "bpm": 116,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Kyi waing, Myanmar",
+    "note": "Jumping pairs across the circle.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "2"
+     },
+     {
+      "beat": 0.5,
+      "lane": "7"
+     },
+     {
+      "beat": 1.0,
+      "lane": "3"
+     },
+     {
+      "beat": 1.5,
+      "lane": "8"
+     },
+     {
+      "beat": 2.0,
+      "lane": "4"
+     },
+     {
+      "beat": 2.5,
+      "lane": "9"
+     },
+     {
+      "beat": 3.0,
+      "lane": "5"
+     },
+     {
+      "beat": 3.5,
+      "lane": "10"
+     },
+     {
+      "beat": 4.0,
+      "lane": "12"
+     },
+     {
+      "beat": 4.5,
+      "lane": "7"
+     },
+     {
+      "beat": 5.0,
+      "lane": "11"
+     },
+     {
+      "beat": 5.5,
+      "lane": "6"
+     },
+     {
+      "beat": 6.0,
+      "lane": "10"
+     },
+     {
+      "beat": 6.5,
+      "lane": "5"
+     },
+     {
+      "beat": 7.0,
+      "lane": "9"
+     },
+     {
+      "beat": 7.5,
+      "lane": "4"
+     }
+    ]
+   }
+  ]
+ }
+}

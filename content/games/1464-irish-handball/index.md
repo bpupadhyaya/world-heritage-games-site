@@ -41,10 +41,10 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Celtic knot weave](../../games/25-celtic-knot-weave/index.md)
 - [Tartan Sett Weaving](../../games/505-tartan-sett-weaving/index.md)
+- [Tin whistle](../../games/4129-tin-whistle/index.md)
 - [Bobbin lace making](../../games/108-bobbin-lace-making/index.md)
 - [Hurdy-gurdy](../../games/153-hurdy-gurdy/index.md)
 - [Nordic Colourwork Knitting](../../games/413-nordic-colourwork-knitting/index.md)
-- [Welsh Love Spoon Carving](../../games/414-welsh-love-spoon-carving/index.md)
 
 ## Sources
 

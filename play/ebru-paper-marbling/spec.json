@@ -1,0 +1,30 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "marble",
+  "scene": "ebruatelier",
+  "palette": [
+   {
+    "name": "Red",
+    "color": "#c62a2a"
+   },
+   {
+    "name": "Turquoise",
+    "color": "#1f9aa6"
+   },
+   {
+    "name": "Gold",
+    "color": "#e8b53a"
+   },
+   {
+    "name": "Indigo",
+    "color": "#243a82"
+   }
+  ],
+  "designs": [
+   "gelgit",
+   "battal",
+   "karanfil"
+  ]
+ }
+}

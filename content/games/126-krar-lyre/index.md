@@ -40,16 +40,16 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Play it
 
-[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/krar-lyre/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · App Store (coming soon)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/krar-lyre/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
+- [Begena](../../games/7301-begena/index.md)
 - [Zande kundi arched harp](../../games/1319-zande-kundi-arched-harp/index.md)
+- [Simsimiyya](../../games/6047-simsimiyya/index.md)
+- [Tanbura](../../games/6048-tanbura/index.md)
 - [Morin khuur](../../games/34-morin-khuur/index.md)
 - [String Marionette Theatre](../../games/68-string-marionette-theatre/index.md)
-- [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md)
-- [Valiha tube zither](../../games/124-valiha-tube-zither/index.md)
-- [Joropo llanero band](../../games/130-joropo-llanero-band/index.md)
 
 ## Sources
 

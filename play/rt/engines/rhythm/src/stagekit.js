@@ -92,6 +92,7 @@ export function fitSize(ctx, s, maxW, size, weight = '800', minSize = 9) {
 // a name pill (screen space): rounded, dark, lane-coloured rim that lights when struck
 let heroMode = false;
 export const setHero = (v) => { heroMode = !!v; };
+export const isHero = () => heroMode;
 export function pill(ctx, s, cx, cy, maxW, size, col, f = 0, o = {}) {
   if (heroMode) return { w: 0, h: 0 };
   const fs = fitSize(ctx, s, maxW - 10, size, '800', size * 0.96);   // never below ~11 css px (size is >= 12 css px)

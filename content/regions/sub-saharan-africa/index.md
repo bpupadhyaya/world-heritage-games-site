@@ -1,16 +1,16 @@
 ---
 title: "Sub-Saharan Africa"
-description: "193 entries."
+description: "224 entries."
 path: "/regions/sub-saharan-africa/"
-count: 193
+count: 224
 ---
 # Sub-Saharan Africa
 
-193 entries.
+224 entries.
 
 
 
-193 entries.
+224 entries.
 
 - [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
@@ -34,6 +34,7 @@ count: 193
 - [Basotho blanket pattern designer](../../games/201-basotho-blanket-pattern-designer/index.md): Lesotho; Crafts and making; Living Traditions
 - [Basotho pony mountain race](../../games/1238-basotho-pony-mountain-race/index.md): Lesotho; Racing; Age of Contact and Craft
 - [Batuque Cloth-Drum Circle](../../games/1251-batuque-cloth-drum-circle/index.md): Cape Verde; Musical instruments; Living Traditions
+- [Begena](../../games/7301-begena/index.md): Ethiopia; Musical instruments; Classical Worlds
 - [Bogolan mud cloth](../../games/86-bogolan-mud-cloth/index.md): Mali; Crafts and making; Living Traditions
 - [Bolga Basket Weaver](../../games/1245-bolga-basket-weaver/index.md): Ghana; Crafts and making; Living Traditions
 - [Bozo Net Casting](../../games/169-bozo-net-casting/index.md): Niger, Mali; Puzzles and mind games; Modern Heritage
@@ -52,6 +53,7 @@ count: 193
 - [Djembe](../../games/2189-djembe/index.md): Guinea, Mali; Musical instruments; Modern Heritage
 - [Dogon Granary Builder](../../games/177-dogon-granary-builder/index.md): Mali; Crafts and making; Living Traditions
 - [Dorze cotton weaving](../../games/1271-dorze-cotton-weaving/index.md): Ethiopia; Crafts and making; Living Traditions
+- [Ekwe](../../games/2253-ekwe/index.md): Nigeria; Musical instruments; Living Traditions
 - [Engolo](../../games/1409-engolo/index.md): Angola; Dances; Living Traditions
 - [Eskista](../../games/188-eskista/index.md): Ethiopia; Dances; Living Traditions
 - [Faso Dan Fani Strip Weaving](../../games/1277-faso-dan-fani-strip-weaving/index.md): Burkina Faso; Crafts and making; Living Traditions
@@ -60,18 +62,22 @@ count: 193
 - [Fula Riti One-String Fiddle](../../games/1283-fula-riti-one-string-fiddle/index.md): Guinea; Musical instruments; Classical Worlds
 - [Gambian Oyster Harvest](../../games/1287-gambian-oyster-harvest/index.md): Gambia; Crafts and making; Living Traditions
 - [Gbofe Trumpet Ensemble](../../games/1290-gbofe-trumpet-ensemble/index.md): Cote d'Ivoire; Other traditions; Living Traditions
+- [Ghanaian stool carving](../../games/7269-ghanaian-stool-carving/index.md): Ghana; Crafts and making; Living Traditions
 - [Goje One-String Fiddle](../../games/176-goje-one-string-fiddle/index.md): Nigeria, Niger; Musical instruments; Living Traditions
 - [Gumboot dance rhythm](../../games/123-gumboot-dance-rhythm/index.md): South Africa; Dances; Living Traditions
 - [Hira gasy village troupe contest](../../games/205-hira-gasy-village-troupe-contest/index.md): Madagascar; Performance and storytelling; Living Traditions
 - [Horn of Africa camel caravan](../../games/1270-horn-of-africa-camel-caravan/index.md): Djibouti; Musical instruments; Crossroads and Golden Ages
 - [Igisoro](../../games/1049-igisoro/index.md): Rwanda, Burundi; Board and table games; Deep Past and First Games
+- [Ikoro](../../games/7189-ikoro/index.md): Nigeria; Musical instruments; Living Traditions
 - [Ikpu Ite Coil Pot](../../games/1300-ikpu-ite-coil-pot/index.md): Nigeria; Crafts and making; Living Traditions
 - [Imigongo geometric painting](../../games/182-imigongo-geometric-painting/index.md): Rwanda; Crafts and making; Living Traditions
 - [Imzad Fiddle](../../games/1301-imzad-fiddle/index.md): Niger, Mali; Musical instruments; Classical Worlds
 - [Intore dance](../../games/1302-intore-dance/index.md): Rwanda; Dances; Living Traditions
 - [Jebena coffee brewing](../../games/189-jebena-coffee-brewing/index.md): Ethiopia, Eritrea; Crafts and making; Living Traditions
 - [Jukskei](../../games/11-jukskei/index.md): South Africa; Archery, throwing and target games; Modern Heritage
+- [Kakaki trumpet](../../games/6917-kakaki-trumpet/index.md): Chad; Musical instruments; Living Traditions
 - [Kanga cloth design](../../games/184-kanga-cloth-design/index.md): Kenya; Crafts and making; Living Traditions
+- [Kashaka](../../games/7183-kashaka/index.md): Gambia; Musical instruments; Living Traditions
 - [Kati](../../games/860-kati/index.md): Kenya, South Africa; Street and playground games; Modern Heritage
 - [Katro / Katra](../../games/903-katro-katra/index.md): Madagascar; Board and table games; Deep Past and First Games
 - [Kente strip weaving](../../games/22-kente-strip-weaving/index.md): Ghana; Crafts and making; Living Traditions
@@ -92,6 +98,7 @@ count: 193
 - [Lake Assal salt harvest](../../games/1321-lake-assal-salt-harvest/index.md): Djibouti; Sports with animal partners; Crossroads and Golden Ages
 - [Lake Chad reed boat builder](../../games/1416-lake-chad-reed-boat-builder/index.md): Chad; Crafts and making; Living Traditions
 - [Lusona Sand Drawings](../../games/113-lusona-sand-drawings/index.md): Angola, Zambia; Puzzles and mind games; Modern Heritage
+- [Maasai beadwork](../../games/7320-maasai-beadwork/index.md): Kenya; Crafts and making; Living Traditions
 - [Makonde ebony carving](../../games/1331-makonde-ebony-carving/index.md): Tanzania, Mozambique; Crafts and making; Living Traditions
 - [Masenqo and the azmari](../../games/187-masenqo-and-the-azmari/index.md): Ethiopia; Musical instruments; Living Traditions
 - [Mbira](../../games/32-mbira/index.md): Zimbabwe; Musical instruments; Crossroads and Golden Ages
@@ -120,10 +127,10 @@ count: 193
 - [Savika](../../games/905-savika/index.md): Madagascar; Street and playground games; River Valleys and First Cities
 - [Sega ravanne drum](../../games/199-sega-ravanne-drum/index.md): Mauritius; Musical instruments; Modern Heritage
 - [Senterej](../../games/707-senterej/index.md): Ethiopia, Eritrea; Board and table games; Crossroads and Golden Ages
-- [Shona stone sculpture carving](../../games/203-shona-stone-sculpture-carving/index.md): Zimbabwe; Crafts and making; Living Traditions
+- [Shekere gourd rattle](../../games/125-shekere-gourd-rattle/index.md): Worldwide; Musical instruments; Living Traditions
 - [Sierra Leone Country Cloth Strip Loom](../../games/1372-sierra-leone-country-cloth-strip-loom/index.md): Sierra Leone; Crafts and making; Living Traditions
+- [Siwa horn](../../games/7212-siwa-horn/index.md): Kenya; Musical instruments; Living Traditions
 - [Songo](../../games/617-songo/index.md): Cameroon, Gabon; Board and table games; Deep Past and First Games
-- [Swahili carved door](../../games/90-swahili-carved-door/index.md): Kenya; Crafts and making; Living Traditions
 - [Swazi carved figures and craft market](../../games/1377-swazi-carved-figures-and-craft-market/index.md): Eswatini; Crafts and making; Living Traditions
 - [Takienta Tower-House Builder](../../games/1383-takienta-tower-house-builder/index.md): Togo; Crafts and making; Living Traditions
 - [Talking drum](../../games/33-talking-drum/index.md): Nigeria; Musical instruments; Living Traditions
@@ -135,20 +142,25 @@ count: 193
 - [Traditional wrestling](../../games/619-traditional-wrestling/index.md): Cameroon; Street and playground games; River Valleys and First Cities
 - [Tsoro Yematatu](../../games/196-tsoro-yematatu/index.md): Zimbabwe; Board and table games; River Valleys and First Cities
 - [Tuareg Tea](../../games/1390-tuareg-tea/index.md): Niger; Crafts and making; Living Traditions
+- [Udu](../../games/7187-udu/index.md): Nigeria; Musical instruments; Classical Worlds
 - [Vai Syllabary Decoder](../../games/1394-vai-syllabary-decoder/index.md): Liberia; Puzzles and mind games; Crossroads and Golden Ages
 - [Valiha tube zither](../../games/124-valiha-tube-zither/index.md): Madagascar; Musical instruments; Classical Worlds
 - [Venda team dances](../../games/1397-venda-team-dances/index.md): South Africa; Dances; Living Traditions
+- [Vuvuzela](../../games/7988-vuvuzela/index.md): South Africa; Musical instruments; Crossroads and Golden Ages
 - [Wire car](../../games/85-wire-car/index.md): Worldwide; Crafts and making; Living Traditions
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md): Senegal, Mali; Board and table games; Crossroads and Golden Ages
+- [Zafimaniry woodcarving](../../games/7311-zafimaniry-woodcarving/index.md): Madagascar; Crafts and making; Living Traditions
 - [Zande kundi arched harp](../../games/1319-zande-kundi-arched-harp/index.md): South Sudan; Musical instruments; Classical Worlds
 - [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md): South Africa; Crafts and making; Living Traditions
 - [Abalala'e](../../games/699-abalalae/index.md): Eritrea; Board and table games; Deep Past and First Games
 - [Abbia](../../games/618-abbia/index.md): Cameroon; Other traditions; Deep Past and First Games
 - [Achi](../../games/748-achi/index.md): Ghana; Board and table games; Age of Contact and Craft
+- [Adomba hand bell](../../games/21419-adomba-hand-bell/index.md): Ghana; Musical instruments; Living Traditions
 - [African draughts](../../games/586-african-draughts/index.md): Benin, Burkina Faso; Board and table games; Modern Heritage
 - [Akedewama](../../games/837-akedewama/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
 - [Anansi stories](../../games/22321-anansi-stories/index.md): Ghana; Performance and storytelling; Living Traditions
 - [Andada](../../games/700-andada/index.md): Eritrea; Board and table games; Deep Past and First Games
+- [Antelope-horn side-blown trumpet](../../games/17228-antelope-horn-side-blown-trumpet/index.md): Nigeria; Musical instruments; Living Traditions
 - [Ayit](../../games/1090-ayit/index.md): South Sudan; Board and table games; Deep Past and First Games
 - [Ayo](../../games/986-ayo/index.md): Nigeria; Board and table games; Deep Past and First Games
 - [Bao la Kiswahili](../../games/861-bao-la-kiswahili/index.md): Kenya, Tanzania; Board and table games; Deep Past and First Games
@@ -156,18 +168,26 @@ count: 193
 - [Blada](../../games/862-blada/index.md): Kenya; Dexterity and skill games; Modern Heritage
 - [Bulundu](../../games/667-bulundu/index.md): DR Congo; Street and playground games; Modern Heritage
 - [Choko](../../games/733-choko/index.md): Gambia; Board and table games; Crossroads and Golden Ages
+- [Cigogo iron bell](../../games/21362-cigogo-iron-bell/index.md): Nigeria; Musical instruments; Living Traditions
 - [Dabuda](../../games/705-dabuda/index.md): Ethiopia, Djibouti; Board and table games; Deep Past and First Games
 - [Dhamet](../../games/927-dhamet/index.md): Mauritania; Board and table games; Crossroads and Golden Ages
 - [Dibeke](../../games/1078-dibeke/index.md): South Africa, Botswana; Street and playground games; Modern Heritage
+- [Duala canoe racing](../../games/7350-duala-canoe-racing/index.md): Cameroon; Racing; Age of Contact and Craft
 - [Duo](../../games/838-duo/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
 - [Duulu](../../games/1173-duulu/index.md): Uganda; Dexterity and skill games; Modern Heritage
+- [Ekpili seed-shell rattle](../../games/21377-ekpili-seed-shell-rattle/index.md): Nigeria; Musical instruments; Living Traditions
 - [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania, Kenya; Board and table games; Deep Past and First Games
 - [Fanoron-Telo](../../games/902-fanoron-telo/index.md): Madagascar; Board and table games; Crossroads and Golden Ages
 - [Fanorona](../../games/901-fanorona/index.md): Madagascar; Board and table games; Crossroads and Golden Ages
 - [Fohr](../../games/839-fohr/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
+- [Gankogui](../../games/7071-gankogui/index.md): Togo; Musical instruments; Living Traditions
 - [Gebeta](../../games/708-gebeta/index.md): Ethiopia; Board and table games; Deep Past and First Games
 - [Highland and river mancalas](../../games/863-highland-and-river-mancalas/index.md): Kenya; Board and table games; Deep Past and First Games
+- [Kakradaa cog rattle](../../games/21420-kakradaa-cog-rattle/index.md): Ghana; Musical instruments; Living Traditions
 - [Kale](../../games/732-kale/index.md): Gabon; Board and table games; Deep Past and First Games
+- [Kamba funnel trumpet](../../games/17972-kamba-funnel-trumpet/index.md): Kenya; Musical instruments; Living Traditions
+- [Kamba musya bell dance](../../games/17976-kamba-musya-bell-dance/index.md): Kenya; Dances; Living Traditions
+- [Kankobele](../../games/18085-kankobele/index.md): Zambia; Musical instruments; Living Traditions
 - [Keram](../../games/1137-keram/index.md): Tanzania; Dexterity and skill games; Modern Heritage
 - [Kibao](../../games/1138-kibao/index.md): Tanzania; Street and playground games; Deep Past and First Games
 - [Kiela](../../games/544-kiela/index.md): Angola; Board and table games; Deep Past and First Games
@@ -175,18 +195,26 @@ count: 193
 - [Koi](../../games/599-koi/index.md): Botswana; Street and playground games; Modern Heritage
 - [Kuli](../../games/1041-kuli/index.md): Congo; Street and playground games; Modern Heritage
 - [Layli Goobalay](../../games/675-layli-goobalay/index.md): Djibouti, Somalia; Board and table games; Deep Past and First Games
+- [Lepapata kudu horn](../../games/6903-lepapata-kudu-horn/index.md): Botswana; Musical instruments; Crossroads and Golden Ages
 - [Local mancala variants](../../games/698-local-mancala-variants/index.md): Equatorial Guinea; Board and table games; Deep Past and First Games
 - [Makonn](../../games/1065-makonn/index.md): Seychelles; Board and table games; Deep Past and First Games
 - [Mancala-type sowing games](../../games/626-mancala-type-sowing-games/index.md): Central African Republic; Board and table games; Deep Past and First Games
 - [Mangola](../../games/668-mangola/index.md): DR Congo; Board and table games; Deep Past and First Games
 - [Mashonisa](../../games/882-mashonisa/index.md): Lesotho; Other traditions; Living Traditions
+- [Matepe](../../games/3120-matepe/index.md): Zimbabwe; Musical instruments; Living Traditions
+- [Matlhowa leg rattles](../../games/6906-matlhowa-leg-rattles/index.md): Botswana; Musical instruments; Living Traditions
 - [Mill](../../games/1061-mill/index.md): Senegal; Board and table games; River Valleys and First Cities
 - [Moruba / Ncuva](../../games/1080-moruba-ncuva/index.md): South Africa; Board and table games; Deep Past and First Games
+- [Namalwa friction drum](../../games/7919-namalwa-friction-drum/index.md): Zambia; Musical instruments; Living Traditions
 - [Ngola](../../games/1042-ngola/index.md): Congo; Board and table games; Deep Past and First Games
 - [Nsolo](../../games/1220-nsolo/index.md): Zambia, Malawi; Board and table games; Deep Past and First Games
 - [Ntxuva](../../games/954-ntxuva/index.md): Mozambique; Board and table games; Deep Past and First Games
+- [Nyo basket rattle](../../games/21379-nyo-basket-rattle/index.md): Nigeria; Musical instruments; Living Traditions
+- [Obrom slit drum](../../games/7192-obrom-slit-drum/index.md): Nigeria; Musical instruments; Living Traditions
 - [Odede](../../games/1175-odede/index.md): Uganda; Board and table games; Crossroads and Golden Ages
+- [Ogwumgwu board lamellophone](../../games/21365-ogwumgwu-board-lamellophone/index.md): Nigeria; Musical instruments; Living Traditions
 - [Omweso](../../games/1176-omweso/index.md): Uganda; Board and table games; Deep Past and First Games
+- [Opa tubular gourd](../../games/21376-opa-tubular-gourd/index.md): Nigeria; Musical instruments; Living Traditions
 - [Ouril](../../games/611-ouril/index.md): Cape Verde, Guinea-Bissau; Board and table games; Deep Past and First Games
 - [Oware-family mancala](../../games/587-oware-family-mancala/index.md): Benin, Burkina Faso; Board and table games; Deep Past and First Games
 - [Pilolo](../../games/750-pilolo/index.md): Ghana; Street and playground games; Deep Past and First Games
@@ -197,11 +225,14 @@ count: 193
 - [Shisima](../../games/865-shisima/index.md): Kenya; Board and table games; Crossroads and Golden Ages
 - [Sig](../../games/928-sig/index.md): Mauritania; Board and table games; Crossroads and Golden Ages
 - [Sija](../../games/627-sija/index.md): Chad; Board and table games; Deep Past and First Games
+- [Silimba](../../games/7920-silimba/index.md): Zambia; Musical instruments; Living Traditions
 - [Tanzanian draughts](../../games/1135-tanzanian-draughts/index.md): Tanzania; Board and table games; Crossroads and Golden Ages
 - [Tchouba](../../games/955-tchouba/index.md): Mozambique; Board and table games; Deep Past and First Games
+- [Timbalamhala antelope-horn orchestra](../../games/17552-timbalamhala-antelope-horn-orchestra/index.md): Mozambique; Musical instruments; Living Traditions
 - [Tok Ku Rou](../../games/1091-tok-ku-rou/index.md): South Sudan; Board and table games; Deep Past and First Games
 - [Tsoro](../../games/1222-tsoro/index.md): Zimbabwe; Board and table games; Deep Past and First Games
 - [Umlabalaba](../../games/881-umlabalaba/index.md): Lesotho, Eswatini; Board and table games; River Valleys and First Cities
 - [Yit](../../games/1092-yit/index.md): South Sudan; Board and table games; Deep Past and First Games
+- [Yomyom brass pellet rattle](../../games/21378-yomyom-brass-pellet-rattle/index.md): Nigeria; Musical instruments; Living Traditions
 - [Yuyu](../../games/610-yuyu/index.md): Burkina Faso; Street and playground games; Modern Heritage
 - [Zambian children's games](../../games/1221-zambian-childrens-games/index.md): Zambia; Street and playground games; Modern Heritage

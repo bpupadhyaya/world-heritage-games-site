@@ -1,0 +1,32 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "mat",
+  "scene": "mt-verandah",
+  "design": "medallion",
+  "weave": "plain",
+  "style": "cane",
+  "cols": 21,
+  "rows": 13,
+  "period": 6,
+  "colors": 3,
+  "edge": "bound",
+  "frame": "none",
+  "binding": "#7a3a22",
+  "sheen": 0.7,
+  "palette": [
+   {
+    "name": "Cane",
+    "color": "#e8d29c"
+   },
+   {
+    "name": "Dark",
+    "color": "#3a2418"
+   },
+   {
+    "name": "Red",
+    "color": "#b03a22"
+   }
+  ]
+ }
+}

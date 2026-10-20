@@ -1,0 +1,13 @@
+{
+ "slug": "kumihimo-braid-disk",
+ "title": "Kumihimo braid",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

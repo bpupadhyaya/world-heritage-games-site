@@ -1,0 +1,30 @@
+{
+ "title": "Alpine Yodel",
+ "native": "Jodeln",
+ "alt": [
+  "Yodelling",
+  "Juchzer"
+ ],
+ "summary": "The voice of the high pastures: a call that leaps between the full chest voice and the light head voice and lets the valley answer. Sing the notes of an Alpine call and cross the break in time.",
+ "howToPlay": [
+  "Each band is one sung note. The lower, warm bands are the chest voice; the upper, cool bands are the head voice. The zigzag between them is the break.",
+  "A frame closes on the band that is about to be sung; sing it on the beat.",
+  "Cross the break cleanly: the voice flips over in an instant, and the far side of the valley sends the call back."
+ ],
+ "rules": [
+  "Each band is one sung note: warm lower bands are the chest voice, cool upper bands the head voice.",
+  "A note is perfect within about 70 ms of its beat and good within about 160 ms; later is a miss.",
+  "A new note ends the one before; an extra stroke between notes costs a few points.",
+  "Score is the share of the maximum; three stars at 90, 70 and 40 percent.",
+  "The round ends after the last note of the second pass."
+ ],
+ "heritageNote": "Herders in the Alps used the call to carry across valleys; in concert it became a song form of its own. The voice here is our own synthesis, not a recording.",
+ "countries": [
+  "Switzerland",
+  "Austria",
+  "Germany"
+ ],
+ "credits": [
+  "Photo: Swiss yodelers, Moen Photo Service, public domain (Wikimedia Commons)."
+ ]
+}

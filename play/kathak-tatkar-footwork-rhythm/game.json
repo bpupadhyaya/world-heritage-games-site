@@ -1,0 +1,13 @@
+{
+ "slug": "kathak-tatkar-footwork-rhythm",
+ "title": "Kathak tatkar footwork rhythm",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -43,9 +43,9 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Matryoshka](../../games/28-matryoshka/index.md)
 - [Khokhloma Pattern Painting](../../games/102-khokhloma-pattern-painting/index.md)
 - [Kurpie Layered Paper Cutting](../../games/1320-kurpie-layered-paper-cutting/index.md)
+- [Malarstwo Zalipia](../../games/19992-malarstwo-zalipia/index.md)
 - [Rosemaling](../../games/120-rosemaling/index.md)
 - [Petrykivka painting](../../games/381-petrykivka-painting/index.md)
-- [Kalocsa floral painting](../../games/383-kalocsa-floral-painting/index.md)
 
 ## Sources
 

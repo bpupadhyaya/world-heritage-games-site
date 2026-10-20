@@ -1,0 +1,23 @@
+{
+ "title": "Tsugaru lacquer",
+ "native": "津軽塗",
+ "countries": [
+  "Japan"
+ ],
+ "summary": "Turn a vase, lay coats of dark lac over layers of bright colour, then grind each marked zone with a stone to bring up the mottled colours beneath.",
+ "howToPlay": [
+  "The vase in its frame shows what to make.",
+  "Drag across the wood to set its width, then tap the bands to lay the top coat.",
+  "Pick a stone and grind each lit zone: a coarse stone cuts deeper.",
+  "Press Check when it matches."
+ ],
+ "rules": [
+  "Shape counts for half the score, the coat on each band for a quarter, and the ground zones for a quarter.",
+  "A coarse stone reveals the first layer beneath the coat, a fine stone the next.",
+  "Undo takes back one step.",
+  "Three stars for 88 or more, two stars for 65 and one star for 40. Watch and learn makes a whole piece for you."
+ ],
+ "heritageNote": "Tsugaru lacquerware from Aomori is made from many layers of coloured lac laid over one another and then ground and polished, so that a mottled pattern of bright colours comes up through a dark ground.",
+ "alt": [],
+ "credits": []
+}

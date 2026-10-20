@@ -1,0 +1,30 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "toptoy",
+  "scene": "channapatna",
+  "rows": 10,
+  "bands": 5,
+  "clay": "#efd9a8",
+  "glazes": [
+   {
+    "name": "Lac red",
+    "color": "#cf2f25"
+   },
+   {
+    "name": "Lac yellow",
+    "color": "#f0b429"
+   },
+   {
+    "name": "Lac green",
+    "color": "#2d8a45"
+   },
+   {
+    "name": "Lac blue",
+    "color": "#2a5db8"
+   }
+  ],
+  "variation": 0.15
+ }
+}

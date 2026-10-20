@@ -40,12 +40,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Marginea black pottery](../../games/5230-marginea-black-pottery/index.md)
 - [Skrabalai](../../games/388-skrabalai/index.md)
 - [Bolesławiec Stamped Pottery](../../games/1244-bolesawiec-stamped-pottery/index.md)
 - [Bulgarian Painted Pottery](../../games/1388-bulgarian-painted-pottery/index.md)
-- [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
-- [Swahili carved door](../../games/90-swahili-carved-door/index.md)
-- [Thai fruit and vegetable carving](../../games/114-thai-fruit-and-vegetable-carving/index.md)
+- [Chip carving](../../games/1991-chip-carving/index.md)
+- [Bohemian glass making](../../games/5269-bohemian-glass-making/index.md)
 
 ## Sources
 

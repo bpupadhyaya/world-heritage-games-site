@@ -1,0 +1,27 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "scene": "chulucanas",
+  "profile": "chuluvase",
+  "rows": 12,
+  "bands": 5,
+  "clay": "#7a5030",
+  "glazes": [
+   {
+    "name": "Smoke black",
+    "color": "#1e1a18"
+   },
+   {
+    "name": "Cream resist",
+    "color": "#e6d6b4"
+   },
+   {
+    "name": "Burnt sienna",
+    "color": "#8a4a2a"
+   }
+  ],
+  "variation": 0.05,
+  "steps": 12
+ }
+}

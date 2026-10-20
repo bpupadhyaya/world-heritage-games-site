@@ -1,0 +1,181 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "dhol",
+  "lanes": [
+   {
+    "name": "Dagga",
+    "hz": 72,
+    "timbre": "bass",
+    "color": "#d93a2b"
+   },
+   {
+    "name": "Tilli",
+    "hz": 340,
+    "timbre": "slap",
+    "color": "#f2c230"
+   },
+   {
+    "name": "Rim",
+    "hz": 600,
+    "timbre": "rim",
+    "color": "#4fa8d6"
+   },
+   {
+    "name": "Shell",
+    "hz": 480,
+    "timbre": "rim",
+    "color": "#58b878"
+   }
+  ],
+  "songs": [
+   {
+    "id": "dhol-bhangra-chaal",
+    "name": "Chaal pattern, 4 beats",
+    "bpm": 108,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Dhol rhythm, Punjab",
+    "note": "A teaching pattern in the style of the steady bhangra walking beat: bass, bass, then the thin stick racing.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dagga"
+     },
+     {
+      "beat": 1,
+      "lane": "Dagga"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 2,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 3,
+      "lane": "Dagga"
+     },
+     {
+      "beat": 4,
+      "lane": "Dagga"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Dagga"
+     },
+     {
+      "beat": 5,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 6,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Rim"
+     },
+     {
+      "beat": 7,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Tilli"
+     }
+    ]
+   },
+   {
+    "id": "dhol-welcome",
+    "name": "Welcome roll, 8 beats",
+    "bpm": 120,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Dhol rhythm, Punjab",
+    "note": "A faster call to the dancers with rim clicks on the turns.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dagga"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 1,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 2,
+      "lane": "Dagga"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Dagga"
+     },
+     {
+      "beat": 3,
+      "lane": "Rim"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 4,
+      "lane": "Dagga"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 5,
+      "lane": "Shell"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 6,
+      "lane": "Dagga"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Dagga"
+     },
+     {
+      "beat": 7,
+      "lane": "Tilli"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Tilli"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "dhol-drum-rhythm",
+ "players": "1"
+}

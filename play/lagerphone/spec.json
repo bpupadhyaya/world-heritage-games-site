@@ -1,0 +1,241 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "lagerphone",
+  "lanes": [
+   {
+    "name": "Top",
+    "hz": 1000,
+    "timbre": "rim",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Upper",
+    "hz": 900,
+    "timbre": "rim",
+    "color": "#4fd0c0"
+   },
+   {
+    "name": "Middle",
+    "hz": 800,
+    "timbre": "rim",
+    "color": "#c9a0ff"
+   },
+   {
+    "name": "Lower",
+    "hz": 700,
+    "timbre": "rim",
+    "color": "#ff9a50"
+   },
+   {
+    "name": "Stomp",
+    "hz": 170,
+    "timbre": "bass",
+    "color": "#8fd0a3"
+   }
+  ],
+  "songs": [
+   {
+    "id": "bush",
+    "name": "Bush beat",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The stomp on the beat, the caps on the off-beat.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Middle"
+     },
+     {
+      "beat": 1,
+      "lane": "Lower"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Middle"
+     },
+     {
+      "beat": 2,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Middle"
+     },
+     {
+      "beat": 3,
+      "lane": "Upper"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Middle"
+     },
+     {
+      "beat": 4,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Middle"
+     },
+     {
+      "beat": 5,
+      "lane": "Lower"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Middle"
+     },
+     {
+      "beat": 6,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Middle"
+     },
+     {
+      "beat": 7,
+      "lane": "Top"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "polka",
+    "name": "Bush polka",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A lively one-two with the crown for accents.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 1,
+      "lane": "Upper"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Middle"
+     },
+     {
+      "beat": 2,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 3,
+      "lane": "Upper"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Middle"
+     },
+     {
+      "beat": 4,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 5,
+      "lane": "Upper"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Lower"
+     },
+     {
+      "beat": 6,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Top"
+     },
+     {
+      "beat": 7,
+      "lane": "Upper"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Top"
+     }
+    ]
+   },
+   {
+    "id": "shake",
+    "name": "Shake and stamp",
+    "bpm": 88,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Long shakes on the crown between the stamps.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 1,
+      "lane": "Top"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Top"
+     },
+     {
+      "beat": 2,
+      "lane": "Lower"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Middle"
+     },
+     {
+      "beat": 3,
+      "lane": "Upper"
+     },
+     {
+      "beat": 4,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 5,
+      "lane": "Top"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Top"
+     },
+     {
+      "beat": 6,
+      "lane": "Lower"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Middle"
+     },
+     {
+      "beat": 7,
+      "lane": "Upper"
+     }
+    ]
+   }
+  ]
+ }
+}

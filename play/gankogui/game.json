@@ -1,0 +1,13 @@
+{
+ "slug": "gankogui",
+ "title": "Gankogui (double iron bell)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -43,9 +43,9 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Lost-Wax Bronze Casting](../../games/178-lost-wax-bronze-casting/index.md)
 - [Leaded Glass Window Making](../../games/501-leaded-glass-window-making/index.md)
 - [Kintsugi](../../games/5371-kintsugi/index.md)
-- [Goryeo Celadon Inlay](../../games/1455-goryeo-celadon-inlay/index.md)
-- [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
-- [Swahili carved door](../../games/90-swahili-carved-door/index.md)
+- [Wajima-nuri](../../games/11615-wajima-nuri/index.md)
+- [Edo kimekomi doll](../../games/11625-edo-kimekomi-doll/index.md)
+- [Tsugaru-nuri lacquerware](../../games/14554-tsugaru-nuri-lacquerware/index.md)
 
 ## Sources
 

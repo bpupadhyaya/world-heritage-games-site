@@ -2,7 +2,7 @@
 title: "China"
 description: "From the Yellow River to the Yangtze and the highlands beyond."
 path: "/cradles/china/"
-count: 49
+count: 58
 ---
 # China
 
@@ -10,7 +10,7 @@ From the Yellow River to the Yangtze and the highlands beyond.
 
 
 
-49 entries.
+58 entries.
 
 - [Bamboo scaffold builder](../../games/369-bamboo-scaffold-builder/index.md): China; Crafts and making; Living Traditions
 - [Banqi](../../games/1437-banqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages
@@ -26,10 +26,12 @@ From the Yellow River to the Yangtze and the highlands beyond.
 - [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md): China; Racing; Crossroads and Golden Ages
 - [Dranyen](../../games/300-dranyen/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Dumpling Pleating](../../games/499-dumpling-pleating/index.md): China, Nepal; Crafts and making; Living Traditions
+- [Dutar](../../games/5312-dutar/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Elastic Jump](../../games/6-elastic-jump/index.md): China; Street and playground games; Modern Heritage
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Fan-tan](../../games/900-fan-tan/index.md): China; Other traditions; Living Traditions
 - [Go](../../games/634-go/index.md): China, Japan; Board and table games; Classical Worlds
+- [Guzheng](../../games/334-guzheng/index.md): China; Musical instruments; Classical Worlds
 - [Hmong story cloth](../../games/1298-hmong-story-cloth/index.md): China, Laos; Crafts and making; Living Traditions
 - [Hong Kong Milk Tea Pulling](../../games/1463-hong-kong-milk-tea-pulling/index.md): China; Crafts and making; Living Traditions
 - [Hoop Rolling Trundle](../../games/69-hoop-rolling-trundle/index.md): China; Street and playground games; Modern Heritage
@@ -44,6 +46,7 @@ From the Yellow River to the Yangtze and the highlands beyond.
 - [Neon sign bender](../../games/371-neon-sign-bender/index.md): China; Crafts and making; Living Traditions
 - [Oil-paper umbrella making](../../games/344-oil-paper-umbrella-making/index.md): China; Crafts and making; Living Traditions
 - [Peranakan beaded slippers](../../games/1358-peranakan-beaded-slippers/index.md): China, Singapore; Crafts and making; Living Traditions
+- [Pipa](../../games/335-pipa/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Pitch-pot](../../games/2-pitch-pot/index.md): China, South Korea; Dexterity and skill games; Modern Heritage
 - [Plate Spinning](../../games/73-plate-spinning/index.md): China; Dexterity and skill games; Modern Heritage
 - [Seal carving](../../games/341-seal-carving/index.md): China; Crafts and making; Living Traditions
@@ -53,11 +56,17 @@ From the Yellow River to the Yangtze and the highlands beyond.
 - [Tanghua](../../games/64-tanghua/index.md): China; Crafts and making; Living Traditions
 - [Tangram](../../games/641-tangram/index.md): China; Puzzles and mind games; Modern Heritage
 - [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md): China; Board and table games; Classical Worlds
+- [Yunluo](../../games/4446-yunluo/index.md): China; Musical instruments; Classical Worlds
+- [Budaoweng](../../games/12412-budaoweng/index.md): China; Toys; Modern Heritage
+- [Chengdu silver filigree](../../games/16387-chengdu-silver-filigree/index.md): China; Crafts and making; Living Traditions
 - [Chinese Rings](../../games/4551-chinese-rings/index.md): China; Puzzles and mind games; Modern Heritage
 - [Hong Kong mahjong](../../games/772-hong-kong-mahjong/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Jungle](../../games/637-jungle/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Kongzhu](../../games/5289-kongzhu/index.md): China; Dexterity and skill games; Modern Heritage
+- [Laizhou straw braid](../../games/16294-laizhou-straw-braid/index.md): China; Crafts and making; Living Traditions
+- [Maonan flower bamboo hat](../../games/16277-maonan-flower-bamboo-hat/index.md): China; Crafts and making; Living Traditions
 - [Pai gow](../../games/771-pai-gow/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Silk Road caravan trade](../../games/22339-silk-road-caravan-trade/index.md): China, Uzbekistan; Other traditions; Classical Worlds
+- [Suona](../../games/3977-suona/index.md): China; Musical instruments; Living Traditions
 - [Tien gow](../../games/773-tien-gow/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Xiangqi](../../games/636-xiangqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages

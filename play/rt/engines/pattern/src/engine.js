@@ -6,9 +6,9 @@ export const ENGINE_ID = 'pattern';
 export { createActivity };
 
 export function createEngine(spec = {}, theme = {}, text = {}, options = {}) {
-  // The scene table (scenes.js) is keyed by params.scene, then by spec.variant / spec.scene, then by the title; games need no changes.
-  const hint = spec.scene ?? spec.variant ?? null;
-  const factory = hint ? (params, env) => createActivity({ ...params, __hint: hint }, env) : createActivity;
+  // Scene routing (scenes.js routeScene): params.scene, then spec.scene (exact ids), then the words of spec.variant and the title.
+  const hint = spec.variant ?? null, sceneId = spec.scene ?? null;
+  const factory = hint || sceneId ? (params, env) => createActivity({ ...params, ...(hint ? { __hint: hint } : {}), ...(sceneId ? { __scene: sceneId } : {}) }, env) : createActivity;
   // Audio start rule (1.6.1): previews and store shots (?autoplay=1 / ?shot=1) are silent; options.soundLog (an array) records
   // every sound the craft requests (audits: nothing may sound before the first input).
   const quiet = options.autoplay === true || options.shot === true;

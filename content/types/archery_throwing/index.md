@@ -1,18 +1,19 @@
 ---
 title: "Archery, throwing and target games"
-description: "13 traditions of this kind."
+description: "14 traditions of this kind."
 path: "/types/archery_throwing/"
-count: 13
+count: 14
 ---
 # Archery, throwing and target games
 
-13 traditions of this kind.
+14 traditions of this kind.
 
 
 
-13 entries.
+14 entries.
 
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
+- [Alpine Yodel](../../games/509-alpine-yodel/index.md): Switzerland, Austria; Archery, throwing and target games; Classical Worlds
 - [Chilean Rayuela](../../games/1427-chilean-rayuela/index.md): Chile; Archery, throwing and target games; Modern Heritage
 - [Circle Dodgeball](../../games/470-circle-dodgeball/index.md): Brazil, Germany; Archery, throwing and target games; Classical Worlds
 - [Digor](../../games/1267-digor/index.md): Bhutan; Archery, throwing and target games; Classical Worlds

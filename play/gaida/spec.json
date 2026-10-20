@@ -1,0 +1,251 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "gaida",
+  "mode": "follow",
+  "root": 246.9,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Si",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "1111111"
+   },
+   {
+    "name": "Do",
+    "cents": 100,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "1111110"
+   },
+   {
+    "name": "Re#",
+    "cents": 400,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "1111100"
+   },
+   {
+    "name": "Mi",
+    "cents": 500,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "1111000"
+   },
+   {
+    "name": "Fa#",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "1110000"
+   },
+   {
+    "name": "Sol",
+    "cents": 800,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "1100000"
+   },
+   {
+    "name": "La",
+    "cents": 1000,
+    "timbre": "breath",
+    "color": "#6cc2a0",
+    "holes": "1000000"
+   }
+  ],
+  "drone": "reed",
+  "droneHz": [
+   123.45,
+   123.758625,
+   61.725
+  ],
+  "songs": [
+   {
+    "id": "gaida-slow",
+    "name": "Slow melody",
+    "bpm": 72,
+    "meter": 4,
+    "length": 23.0,
+    "kind": "figure",
+    "heritage": "Gaida, Bulgaria",
+    "note": "A teaching melody in a mode with narrow steps: slow and wide, over a deep drone.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Si",
+      "len": 2
+     },
+     {
+      "beat": 2.0,
+      "lane": "Re#",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Fa#",
+      "len": 2
+     },
+     {
+      "beat": 5.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "Re#",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "Si",
+      "len": 3
+     },
+     {
+      "beat": 11.0,
+      "lane": "Fa#",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "La",
+      "len": 2
+     },
+     {
+      "beat": 15.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "Fa#",
+      "len": 1
+     },
+     {
+      "beat": 17.0,
+      "lane": "Re#",
+      "len": 2
+     },
+     {
+      "beat": 19.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 20.0,
+      "lane": "Si",
+      "len": 3
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "gaida-line",
+    "name": "Dance line",
+    "bpm": 98,
+    "meter": 4,
+    "length": 21.0,
+    "kind": "figure",
+    "heritage": "Gaida, Bulgaria",
+    "note": "A livelier line that climbs the chanter and returns.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "Re#",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "Fa#",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "Re#",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "Do",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "Si",
+      "len": 2
+     },
+     {
+      "beat": 10.0,
+      "lane": "Fa#",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "La",
+      "len": 2
+     },
+     {
+      "beat": 14.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "Fa#",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "Mi",
+      "len": 2
+     },
+     {
+      "beat": 18.0,
+      "lane": "Si",
+      "len": 3
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "gaida"
+}

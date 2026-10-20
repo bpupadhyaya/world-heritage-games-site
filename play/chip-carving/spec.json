@@ -1,0 +1,20 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "carve",
+  "figure": "chip-rosette",
+  "scene": "chalet",
+  "cols": 48,
+  "rows": 48,
+  "material": "wood",
+  "color": "#e2c9a0",
+  "cavity": "#1a0f06",
+  "chisels": 2,
+  "guide": true,
+  "variation": 0.5,
+  "relief": true,
+  "zoom": true,
+  "wax": true,
+  "grain": "across"
+ }
+}

@@ -1,0 +1,314 @@
+{
+ "engine": "rhythm",
+ "variant": "masenqo",
+ "players": "1",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 261.63,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "masenqo",
+  "lanes": [
+   {
+    "name": "C4",
+    "cents": 0,
+    "dur": 1.4,
+    "id": "c4-0",
+    "timbre": "string",
+    "color": "#88b858"
+   },
+   {
+    "name": "D4",
+    "cents": 200,
+    "dur": 1.4,
+    "id": "d4-1",
+    "timbre": "string",
+    "color": "#a8bb60"
+   },
+   {
+    "name": "E4",
+    "cents": 400,
+    "dur": 1.4,
+    "id": "e4-2",
+    "timbre": "string",
+    "color": "#c8bd68"
+   },
+   {
+    "name": "G4",
+    "cents": 700,
+    "dur": 1.4,
+    "id": "g4-3",
+    "timbre": "string",
+    "color": "#e8c070"
+   },
+   {
+    "name": "A4",
+    "cents": 900,
+    "dur": 1.4,
+    "id": "a4-4",
+    "timbre": "string",
+    "color": "#e3a05f"
+   },
+   {
+    "name": "C5",
+    "cents": 1200,
+    "dur": 1.4,
+    "id": "c5-5",
+    "timbre": "string",
+    "color": "#dd804d"
+   },
+   {
+    "name": "D5",
+    "cents": 1400,
+    "dur": 1.4,
+    "id": "d5-6",
+    "timbre": "string",
+    "color": "#d8603c"
+   }
+  ],
+  "songs": [
+   {
+    "id": "slow-song",
+    "name": "Slow song",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Slow song of the azmari, Ethiopia",
+    "bpm": 62,
+    "meter": 4,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 2,
+      "len": 1.8
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 1,
+      "len": 1.8
+     },
+     {
+      "beat": 6,
+      "lane": 0,
+      "len": 1.8
+     },
+     {
+      "beat": 8,
+      "lane": 2,
+      "len": 1.8
+     },
+     {
+      "beat": 10,
+      "lane": 3,
+      "len": 1.8
+     },
+     {
+      "beat": 12,
+      "lane": 4,
+      "len": 1.8
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     },
+     {
+      "beat": 16,
+      "lane": 1,
+      "len": 1.8
+     },
+     {
+      "beat": 18,
+      "lane": 0,
+      "len": 1.8
+     },
+     {
+      "beat": 20,
+      "lane": 0,
+      "len": 3.8
+     }
+    ]
+   },
+   {
+    "id": "shuffle-in-six",
+    "name": "Shuffle in six",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Lively dance shuffle, Ethiopia",
+    "bpm": 104,
+    "meter": 6,
+    "length": 30,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 0
+     },
+     {
+      "beat": 7,
+      "lane": 2
+     },
+     {
+      "beat": 8,
+      "lane": 3
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 11,
+      "lane": 4
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 2
+     },
+     {
+      "beat": 14,
+      "lane": 1
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     },
+     {
+      "beat": 16,
+      "lane": 2
+     },
+     {
+      "beat": 17,
+      "lane": 1
+     },
+     {
+      "beat": 18,
+      "lane": 0
+     },
+     {
+      "beat": 19,
+      "lane": 0
+     },
+     {
+      "beat": 22,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "id": "verse-and-answer",
+    "name": "Verse and answer",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Instrument and singer take turns, Ethiopia",
+    "bpm": 76,
+    "meter": 4,
+    "length": 32,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 4
+     },
+     {
+      "beat": 2,
+      "lane": 5,
+      "len": 1.8
+     },
+     {
+      "beat": 8,
+      "lane": 5
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 3,
+      "len": 1.8
+     },
+     {
+      "beat": 16,
+      "lane": 2,
+      "len": 1.8
+     },
+     {
+      "beat": 18,
+      "lane": 3
+     },
+     {
+      "beat": 19,
+      "lane": 4
+     },
+     {
+      "beat": 20,
+      "lane": 5,
+      "len": 1.8
+     },
+     {
+      "beat": 22,
+      "lane": 4,
+      "len": 1.8
+     },
+     {
+      "beat": 24,
+      "lane": 3,
+      "len": 1.8
+     },
+     {
+      "beat": 26,
+      "lane": 1,
+      "len": 1.8
+     },
+     {
+      "beat": 28,
+      "lane": 0,
+      "len": 3.8
+     }
+    ]
+   }
+  ]
+ }
+}

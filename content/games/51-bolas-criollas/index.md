@@ -37,16 +37,16 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 ## Play it
 
-[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/bolas-criollas/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · App Store (coming soon)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/bolas-criollas/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
 - [Bandoneon and tango rhythm](../../games/426-bandoneon-and-tango-rhythm/index.md)
+- [Surdo](../../games/3987-surdo/index.md)
 - [Truco](../../games/601-truco/index.md)
 - [Joropo llanero band](../../games/130-joropo-llanero-band/index.md)
 - [Lotería](../../games/1211-loteria/index.md)
 - [Perinola](../../games/1212-perinola/index.md)
-- [Charango](../../games/55-charango/index.md)
 
 ## Sources
 

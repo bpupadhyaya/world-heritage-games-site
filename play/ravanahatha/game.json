@@ -1,0 +1,13 @@
+{
+ "slug": "ravanahatha",
+ "title": "Ravanahatha (bowed bamboo fiddle)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

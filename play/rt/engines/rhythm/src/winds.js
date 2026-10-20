@@ -4,20 +4,23 @@
 import { clamp, mix, rgba, lighter, darker, glow, rrect, grain, hgrad, vgrad, rgrad, hash, ell, circ, TAU } from './art.js';
 import { makeFrame, circleSpot, finishSpots, hitSpots, pill, lerp } from './stagekit.js';
 import { bust } from './performer.js';
+import { stageIdFor } from './registry.js';
 import { setting, instrumentBox } from './set.js';
+import { WIND2_IDS, createWindStage2 } from './winds2.js';
 
-const IDS = [[/dizi|di\b/, 'dizi'], [/mijwiz|mizmar|arghul|clarinet|double/, 'mijwiz'], [/bansuri|flute|fujara|shakuhachi|ney|duduk|khene|siku|alphorn/, 'bansuri']];
-const VIEW = { bansuri: { tilt: 0.6, dx: -0.1, zoom: 1.0 }, dizi: { tilt: -0.25, dx: 0.1, zoom: 0.9 }, mijwiz: { tilt: 0.0 } };
-export function windId(key) { const k = String(key || '').toLowerCase(); for (const [re, id] of IDS) if (re.test(k)) return id; return 'bansuri'; }
+export const IDS = [[/dizi|di\b/, 'dizi'], [/mijwiz|mizmar|arghul|clarinet|double/, 'mijwiz'], [/bansuri|flute/, 'bansuri']];
+export const VIEW = { bansuri: { tilt: 0.6, dx: -0.1, zoom: 1.0 }, dizi: { tilt: -0.25, dx: 0.1, zoom: 0.9 }, mijwiz: { tilt: 0.0 } };
+export const windId = (key) => stageIdFor('holes', key);   // routes live in registry.js; new winds: registerWindStage
 
 const SKIN = '#e2a577';
-const LOOK = {
+export const LOOK = {
   bansuri: { set: { kind: 'cloth', base: '#2a5a5a', accent: '#e8c070', light: '#ffd9a0' }, shirt: '#c0562a', hc: '#f0e0b8', hw: 'wrap', skin: '#c88a5a' },
   dizi: { set: { kind: 'cloth', base: '#27402c', accent: '#d8c070', light: '#e8ffd0' }, shirt: '#a02a2a', hc: '#1a1a1a', hw: 'hair', skin: '#e8b890' },
   mijwiz: { set: { kind: 'tiles', base: '#3a5a6a', accent: '#d8b45a', light: '#ffe0a8' }, shirt: '#e8e0cc', hc: '#c03a2a', hw: 'wrap', skin: '#d29a70' },
 };
 
-export function createWindStage(id, S, lanes, P) {
+export function createWindStage(id, S, lanes, P, key) {
+  if (WIND2_IDS.some(([, w]) => w === id)) return createWindStage2(id, key, S, lanes, P);   // 1.6.0: no bust, no hands (winds2.js)
   const N = lanes.length;
   const st = { id, kind: 'winds', spots: new Array(N).fill(null), voice: id === 'mijwiz' ? 'reed' : 'breath', F: null, G: null };
   const spots = st.spots;

@@ -1,0 +1,22 @@
+{
+ "title": "Carved stool",
+ "native": "Akan stool",
+ "countries": [
+  "Ghana"
+ ],
+ "summary": "Carve a stool from one block: a curved seat, a column with openwork and a curved base.",
+ "howToPlay": [
+  "The lit piece in its frame shows what to make.",
+  "Drag across the block to take wood away; two chisels, fine and broad. Zoom in to work close and use the Hand to move the view.",
+  "Rub the Wax cloth over the finished piece, then press Check."
+ ],
+ "rules": [
+  "Removing a cell inside the shape costs as much as leaving one outside it.",
+  "Undo takes back one stroke. Waxing is for the finish and does not change the score.",
+  "Three stars for 88 or more, two stars for 65 and one star for 40.",
+  "Watch and learn carves and waxes a whole round for you."
+ ],
+ "heritageNote": "In Akan communities of Ghana a stool is carved from one piece of wood. The seat curves, the central column is pierced with open shapes, and the base echoes the seat. Pale wood is polished until it glows.",
+ "alt": [],
+ "credits": []
+}

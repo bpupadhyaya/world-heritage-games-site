@@ -38,8 +38,8 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Ndebele geometric wall painting](../../games/23-ndebele-geometric-wall-painting/index.md)
 - [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md)
 - [Gumboot dance rhythm](../../games/123-gumboot-dance-rhythm/index.md)
-- [Shona stone sculpture carving](../../games/203-shona-stone-sculpture-carving/index.md)
 - [Capulana wrap cloth printing and tying](../../games/204-capulana-wrap-cloth-printing-and-tying/index.md)
+- [Swazi carved figures and craft market](../../games/1377-swazi-carved-figures-and-craft-market/index.md)
 
 ## Sources
 

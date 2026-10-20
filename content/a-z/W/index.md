@@ -1,13 +1,17 @@
 ---
 title: "Entries beginning with W"
-description: "20 entries beginning with W."
+description: "23 entries beginning with W."
 path: "/a-z/W/"
 ---
 # Entries beginning with W
 
 - [Wa-wee](../../games/1051-wa-wee/index.md): Saint Lucia; Board and table games; Deep Past and First Games
+- [Wajima-nuri](../../games/11615-wajima-nuri/index.md): Japan; Crafts and making; Living Traditions
 - [Warli painting](../../games/117-warli-painting/index.md): India; Crafts and making; Living Traditions
+- [Warp-weighted loom](../../games/6600-warp-weighted-loom/index.md): Worldwide; Crafts and making; Living Traditions
 - [Warri](../../games/566-warri/index.md): Bahamas, Barbados; Board and table games; Deep Past and First Games
+- [Washi Papermaking](../../games/497-washi-papermaking/index.md): Japan, Nepal; Crafts and making; Living Traditions
+- [Washtub bass](../../games/6351-washtub-bass/index.md): United States; Musical instruments; Modern Heritage
 - [Water Jousting](../../games/393-water-jousting/index.md): France; Wrestling and martial sports; Crossroads and Golden Ages
 - [Water Polo Sprint](../../games/1398-water-polo-sprint/index.md): Montenegro; Crafts and making; Living Traditions
 - [Water puppet pond theatre](../../games/303-water-puppet-pond-theatre/index.md): Vietnam; Performance and storytelling; Classical Worlds
@@ -18,7 +22,6 @@ path: "/a-z/W/"
 - [Wazza gourd trumpet](../../games/1399-wazza-gourd-trumpet/index.md): Sudan; Musical instruments; Living Traditions
 - [Welsh Love Spoon Carving](../../games/414-welsh-love-spoon-carving/index.md): United Kingdom; Crafts and making; Living Traditions
 - [Whai](../../games/982-whai/index.md): New Zealand; Dexterity and skill games; Deep Past and First Games
-- [Whistled Language Relay](../../games/403-whistled-language-relay/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [White Cloth](../../games/867-white-cloth/index.md): Kyrgyzstan; Street and playground games; Modern Heritage
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
 - [Wire car](../../games/85-wire-car/index.md): Worldwide; Crafts and making; Living Traditions

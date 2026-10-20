@@ -6,6 +6,8 @@ import { SCENES_B } from './scenes-b.js';
 import { SCENES_C } from './scenes-c.js';
 import { SCENES_D } from './scenes-d.js';
 import { SCENES_E } from './scenes-e.js';
+import { PENDING } from './scene-registry.js';
+import './scenes-ext.js';   // 1.7.0: extension manifest, one import line per new scenes-*.js file (see README "How to add a scene")
 
 export const SCENES = { ...SCENES_A, ...SCENES_B, ...SCENES_C, ...SCENES_D, ...SCENES_E };
 
@@ -53,22 +55,41 @@ const LAYOUT = {
 };
 for (const [id, l] of Object.entries(LAYOUT)) if (SCENES[id]) Object.assign(SCENES[id], l);
 
-// [scene id, regular expression over "variant title"]; the first match wins.
+// Extension scene sets (scene-registry.js registerSceneSet): added after the built-ins; an id may be defined once.
+const EXT_RULES = [];
+for (const set of PENDING) {
+  for (const [id, sc] of Object.entries(set.scenes)) {
+    if (SCENES[id]) throw new Error(`scene "${id}" is already defined (registerSceneSet from ${set.from || 'an extension'})`);
+    SCENES[id] = sc;
+  }
+  for (const [id, l] of Object.entries(set.layout ?? {})) if (set.scenes[id]) Object.assign(SCENES[id], l);
+  for (const r of set.rules ?? []) EXT_RULES.push(r);
+}
+
+// [scene id, regular expression over "variant title", optional exclusion regexp]; the first match wins. FALLBACK ONLY: since 1.7.0 a spec that
+// names its scene (params.scene or spec.scene) is routed by that id and never by these words. Extension rules (registerSceneSet) are tried first.
 const RULES = [
   ['songket', /songket/], ['kente', /kente/], ['dhaka', /dhaka|jamdani/], ['lamba', /lamba/], ['tartan', /tartan/], ['kuba', /kuba/],
-  ['carpet', /carpet|persian|knotting/], ['ikat', /ikat/], ['batik', /batik/], ['adire', /adire/], ['bogolan', /bogolan|mud.?cloth/],
+  ['carpet', /carpet|persian|knotting/, /felt|shyrdak|kilim/], ['ikat', /ikat/], ['batik', /batik/], ['adire', /adire/], ['bogolan', /bogolan|mud.?cloth/],
   ['adinkra', /adinkra/], ['blockprint', /block.?print/], ['tatreez', /tatreez/], ['crossstitch', /cross.?stitch/], ['phulkari', /phulkari/],
-  ['suzani', /suzani/], ['sashiko', /sashiko/], ['nordic', /nordic|colourwork|knitting/], ['temari', /temari/], ['nanduti', /nandut|ñandut/],
+  ['suzani', /suzani/], ['sashiko', /sashiko/], ['nordic', /nordic|colourwork|knitting/, /lace|shawl|haapsalu/], ['temari', /temari/], ['nanduti', /nandut|ñandut/],
   ['warli', /warli/], ['ndebele', /ndebele/], ['alebrije', /alebrije/], ['khokhloma', /khokhloma/], ['truck', /truck/], ['mehndi', /mehndi|henna/],
   ['tanghua', /tanghua|sugar/], ['lukasa', /lukasa/], ['zulu', /zulu/], ['celtic', /celtic/], ['macau', /macau|pavement|calçada/],
   ['zellij', /zellij/], ['mosaic', /mosaic|tessellat/], ['mashrabiya', /mashrabiya/], ['kumiko', /kumiko/], ['karesansui', /karesansui|gravel garden/],
   ['kolam', /kolam/], ['rangoli', /rangoli/], ['papercut', /paper.?cut|rosette/],
   ['andean', /andean|woven band/], ['ndebele', /painted house/], ['sashiko', /stitched cloth/], ['kente', /strip cloth/],
 ];
-export function pickScene(P, text) {
-  const key = P.scene && P.scene !== 'auto' ? P.scene : null;
-  if (key) return SCENES[key] ?? null;
+const GENERIC = new Set(['generic', 'none']);   // scene: "generic" forces the plain framed work in a material
+// Which scene does a game use? Order: 1. params.scene (an id) 2. spec.scene (an id; handed over as P.__scene) 3. words (spec.variant / title)
+// through the rules. An explicit id that does not exist is a mistake: it gets the generic look, never a guess from the title.
+export function routeScene(P, text) {
+  for (const key of [P.scene !== 'auto' ? P.scene : null, P.__scene]) {
+    if (!key) continue;
+    if (GENERIC.has(key)) return { id: null, scene: null, via: 'explicit' };
+    return SCENES[key] ? { id: key, scene: SCENES[key], via: 'explicit' } : { id: null, scene: null, via: 'unknown' };
+  }
   const hay = `${P.__hint ?? ''} ${text?.title ?? ''}`.toLowerCase();
-  for (const [id, re] of RULES) if (SCENES[id] && re.test(hay)) return SCENES[id];
-  return null;
+  for (const [id, re, not] of [...EXT_RULES, ...RULES]) if (SCENES[id] && re.test(hay) && !(not && not.test(hay))) return { id, scene: SCENES[id], via: 'words' };
+  return { id: null, scene: null, via: 'none' };
 }
+export function pickScene(P, text) { return routeScene(P, text).scene; }

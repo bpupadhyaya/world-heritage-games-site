@@ -1,0 +1,178 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "hichiriki",
+  "mode": "follow",
+  "root": 440.0,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Ro",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "1111111"
+   },
+   {
+    "name": "Ha",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "1111110"
+   },
+   {
+    "name": "Ni",
+    "cents": 500,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "1111100"
+   },
+   {
+    "name": "Ho",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "1111000"
+   },
+   {
+    "name": "He",
+    "cents": 900,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "1110000"
+   },
+   {
+    "name": "To",
+    "cents": 1200,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "1100000"
+   }
+  ],
+  "songs": [
+   {
+    "id": "hichiriki-line",
+    "name": "Slow melody",
+    "bpm": 48,
+    "meter": 4,
+    "length": 25.0,
+    "kind": "figure",
+    "heritage": "Hichiriki, Japan",
+    "note": "A teaching phrase in a five-note mode: long, slow tones with a rising and falling line.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Ro",
+      "len": 3
+     },
+     {
+      "beat": 3.0,
+      "lane": "Ni",
+      "len": 2
+     },
+     {
+      "beat": 5.0,
+      "lane": "Ho",
+      "len": 3
+     },
+     {
+      "beat": 8.0,
+      "lane": "He",
+      "len": 2
+     },
+     {
+      "beat": 10.0,
+      "lane": "To",
+      "len": 3
+     },
+     {
+      "beat": 13.0,
+      "lane": "He",
+      "len": 2
+     },
+     {
+      "beat": 15.0,
+      "lane": "Ho",
+      "len": 2
+     },
+     {
+      "beat": 17.0,
+      "lane": "Ni",
+      "len": 2
+     },
+     {
+      "beat": 19.0,
+      "lane": "Ha",
+      "len": 2
+     },
+     {
+      "beat": 21.0,
+      "lane": "Ro",
+      "len": 4
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "hichiriki-step",
+    "name": "Stepwise phrase",
+    "bpm": 56,
+    "meter": 4,
+    "length": 19.0,
+    "kind": "figure",
+    "heritage": "Hichiriki, Japan",
+    "note": "A phrase that climbs the mode in steps and returns.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Ro",
+      "len": 2
+     },
+     {
+      "beat": 2.0,
+      "lane": "Ha",
+      "len": 2
+     },
+     {
+      "beat": 4.0,
+      "lane": "Ni",
+      "len": 2
+     },
+     {
+      "beat": 6.0,
+      "lane": "Ho",
+      "len": 2
+     },
+     {
+      "beat": 8.0,
+      "lane": "He",
+      "len": 2
+     },
+     {
+      "beat": 10.0,
+      "lane": "Ho",
+      "len": 2
+     },
+     {
+      "beat": 12.0,
+      "lane": "Ni",
+      "len": 2
+     },
+     {
+      "beat": 14.0,
+      "lane": "Ha",
+      "len": 2
+     },
+     {
+      "beat": 16.0,
+      "lane": "Ro",
+      "len": 3
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "hichiriki"
+}

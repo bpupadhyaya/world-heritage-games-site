@@ -1,0 +1,33 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "chawan",
+  "scene": "shunkei",
+  "rows": 14,
+  "bands": 4,
+  "clay": "#e8c888",
+  "glazes": [
+   {
+    "name": "Clear lac",
+    "color": "#f0c060"
+   },
+   {
+    "name": "Amber lac",
+    "color": "#d08a30"
+   },
+   {
+    "name": "Red-brown lac",
+    "color": "#8a3a14"
+   }
+  ],
+  "variation": 0.04,
+  "steps": 16,
+  "glazePattern": [
+   1,
+   0,
+   2,
+   1
+  ]
+ }
+}

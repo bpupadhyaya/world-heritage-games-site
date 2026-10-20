@@ -1,0 +1,195 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "bonang",
+  "lanes": [
+   {
+    "name": "Low 1",
+    "hz": 262,
+    "timbre": "gong",
+    "color": "#f2ac6d"
+   },
+   {
+    "name": "Low 2",
+    "hz": 294,
+    "timbre": "gong",
+    "color": "#f2db6d"
+   },
+   {
+    "name": "Low 3",
+    "hz": 330,
+    "timbre": "gong",
+    "color": "#dbf26d"
+   },
+   {
+    "name": "Low 4",
+    "hz": 392,
+    "timbre": "gong",
+    "color": "#acf26d"
+   },
+   {
+    "name": "Low 5",
+    "hz": 440,
+    "timbre": "gong",
+    "color": "#7ef26d"
+   },
+   {
+    "name": "High 1",
+    "hz": 523,
+    "timbre": "gong",
+    "color": "#6df289"
+   },
+   {
+    "name": "High 2",
+    "hz": 587,
+    "timbre": "gong",
+    "color": "#6df2b7"
+   },
+   {
+    "name": "High 3",
+    "hz": 659,
+    "timbre": "gong",
+    "color": "#6df2e5"
+   },
+   {
+    "name": "High 4",
+    "hz": 784,
+    "timbre": "gong",
+    "color": "#6dd0f2"
+   },
+   {
+    "name": "High 5",
+    "hz": 880,
+    "timbre": "gong",
+    "color": "#6da2f2"
+   }
+  ],
+  "songs": [
+   {
+    "id": "bonang-up",
+    "name": "Up the rows",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Bonang, Javan gamelan",
+    "note": "A teaching run up the low row and back along the high row.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Low 1"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Low 2"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Low 3"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Low 4"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Low 5"
+     },
+     {
+      "beat": 5.0,
+      "lane": "High 4"
+     },
+     {
+      "beat": 6.0,
+      "lane": "High 3"
+     },
+     {
+      "beat": 7.0,
+      "lane": "High 2"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "bonang-interlock",
+    "name": "Answering rows",
+    "bpm": 108,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Bonang, Javan gamelan",
+    "note": "The two rows answer one another.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Low 3"
+     },
+     {
+      "beat": 0.5,
+      "lane": "High 3"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Low 4"
+     },
+     {
+      "beat": 1.5,
+      "lane": "High 4"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Low 5"
+     },
+     {
+      "beat": 2.5,
+      "lane": "High 5"
+     },
+     {
+      "beat": 3.0,
+      "lane": "High 4"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Low 4"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Low 3"
+     },
+     {
+      "beat": 4.5,
+      "lane": "High 3"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Low 2"
+     },
+     {
+      "beat": 5.5,
+      "lane": "High 2"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Low 1"
+     },
+     {
+      "beat": 6.5,
+      "lane": "High 1"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Low 3"
+     },
+     {
+      "beat": 7.5,
+      "lane": "High 4"
+     }
+    ]
+   }
+  ]
+ }
+}

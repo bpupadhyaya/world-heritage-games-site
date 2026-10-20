@@ -39,11 +39,11 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 ## Related entries
 
 - [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md)
+- [Duala canoe racing](../../games/7350-duala-canoe-racing/index.md)
 - [Nouka Baich](../../games/42-nouka-baich/index.md)
 - [Pirogue coastal canoe race](../../games/56-pirogue-coastal-canoe-race/index.md)
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md)
 - [Balafon Gourd Xylophone](../../games/168-balafon-gourd-xylophone/index.md)
-- [Sahel Salt Caravan](../../games/172-sahel-salt-caravan/index.md)
 
 ## Sources
 

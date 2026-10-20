@@ -1,0 +1,29 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "basket",
+  "scene": "bk-rattanyard",
+  "form": "stool",
+  "style": "plait",
+  "motif": "zigzag",
+  "stitches": 17,
+  "rows": 4,
+  "period": 6,
+  "colors": 3,
+  "leather": "#6a3a1a",
+  "palette": [
+   {
+    "name": "Rattan",
+    "color": "#d8b060"
+   },
+   {
+    "name": "Dark",
+    "color": "#5a3a1a"
+   },
+   {
+    "name": "Red",
+    "color": "#a8442a"
+   }
+  ]
+ }
+}

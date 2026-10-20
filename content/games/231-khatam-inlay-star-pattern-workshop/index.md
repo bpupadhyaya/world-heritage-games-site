@@ -40,11 +40,11 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Minakari](../../games/6007-minakari/index.md)
 - [Rishtan ceramics](../../games/252-rishtan-ceramics/index.md)
 - [Pamiri House Ceiling Raiser](../../games/1356-pamiri-house-ceiling-raiser/index.md)
 - [Turkmen Silver Jewelry Designer](../../games/1392-turkmen-silver-jewelry-designer/index.md)
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
-- [Swahili carved door](../../games/90-swahili-carved-door/index.md)
 - [Thai fruit and vegetable carving](../../games/114-thai-fruit-and-vegetable-carving/index.md)
 
 ## Sources

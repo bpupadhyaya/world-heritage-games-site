@@ -1,0 +1,234 @@
+{
+ "engine": "pattern",
+ "variant": "bandhani-tie-dye",
+ "params": {
+  "scene": "bandhani",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "rot4",
+  "palette": [
+   {
+    "name": "Yellow",
+    "color": "#eab32e"
+   },
+   {
+    "name": "Indigo",
+    "color": "#22306e"
+   },
+   {
+    "name": "Green",
+    "color": "#2d7a4a"
+   },
+   {
+    "name": "Pink",
+    "color": "#d9488a"
+   },
+   {
+    "name": "Cream",
+    "color": "#f7ecd2"
+   }
+  ],
+  "background": "#b0242c",
+  "grid": "#7a1620",
+  "motifs": [
+   "dot",
+   "diamond",
+   "ring",
+   "star",
+   "solid"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 3,
+  "designs": [
+   {
+    "name": "Dot flower (chandrakhani)",
+    "rows": [
+     "h.a.....h",
+     ".a..b..a.",
+     "..g.a.g.a",
+     "...dad...",
+     ".baaeaab.",
+     "...dad...",
+     "a.g.a.g..",
+     ".a..b..a.",
+     "h.....a.h"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 4
+     },
+     "b": {
+      "m": 0,
+      "c": 0
+     },
+     "c": {
+      "m": 1,
+      "c": 4
+     },
+     "d": {
+      "m": 2,
+      "c": 0
+     },
+     "e": {
+      "m": 3,
+      "c": 4
+     },
+     "f": {
+      "m": 4,
+      "c": 1
+     },
+     "g": {
+      "m": 0,
+      "c": 3
+     },
+     "h": {
+      "m": 2,
+      "c": 2
+     },
+     "i": {
+      "m": 1,
+      "c": 0
+     },
+     "j": {
+      "m": 3,
+      "c": 0
+     },
+     "k": {
+      "m": 4,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Wave of dots (leheriya)",
+    "rows": [
+     "k...g...k",
+     ".a.a...a.",
+     "..i.bai..",
+     "..ac.c.a.",
+     "g.b.f.b.g",
+     ".a.c.ca..",
+     "..iab.i..",
+     ".a...a.a.",
+     "k...g...k"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 4
+     },
+     "b": {
+      "m": 0,
+      "c": 0
+     },
+     "c": {
+      "m": 1,
+      "c": 4
+     },
+     "d": {
+      "m": 2,
+      "c": 0
+     },
+     "e": {
+      "m": 3,
+      "c": 4
+     },
+     "f": {
+      "m": 4,
+      "c": 1
+     },
+     "g": {
+      "m": 0,
+      "c": 3
+     },
+     "h": {
+      "m": 2,
+      "c": 2
+     },
+     "i": {
+      "m": 1,
+      "c": 0
+     },
+     "j": {
+      "m": 3,
+      "c": 0
+     },
+     "k": {
+      "m": 4,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Four petals",
+    "rows": [
+     "....g....",
+     ".a..a..a.",
+     "..dac.d..",
+     "...baba..",
+     "gacajacag",
+     "..abab...",
+     "..d.cad..",
+     ".a..a..a.",
+     "....g...."
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 4
+     },
+     "b": {
+      "m": 0,
+      "c": 0
+     },
+     "c": {
+      "m": 1,
+      "c": 4
+     },
+     "d": {
+      "m": 2,
+      "c": 0
+     },
+     "e": {
+      "m": 3,
+      "c": 4
+     },
+     "f": {
+      "m": 4,
+      "c": 1
+     },
+     "g": {
+      "m": 0,
+      "c": 3
+     },
+     "h": {
+      "m": 2,
+      "c": 2
+     },
+     "i": {
+      "m": 1,
+      "c": 0
+     },
+     "j": {
+      "m": 3,
+      "c": 0
+     },
+     "k": {
+      "m": 4,
+      "c": 2
+     }
+    }
+   }
+  ],
+  "process": "pen-dye",
+  "pen": 4,
+  "bath": [
+   0,
+   1,
+   2,
+   3
+  ]
+ }
+}

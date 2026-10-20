@@ -1,0 +1,35 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "braid",
+  "scene": "strawyard",
+  "strands": 7,
+  "over": 3,
+  "cycles": 2,
+  "cord": "flat",
+  "cordWidth": 0.8,
+  "palette": [
+   {
+    "color": "#e8c460"
+   },
+   {
+    "color": "#c89a3a"
+   },
+   {
+    "color": "#f0d078"
+   },
+   {
+    "color": "#b88830"
+   },
+   {
+    "color": "#e8c460"
+   },
+   {
+    "color": "#c89a3a"
+   },
+   {
+    "color": "#f0d078"
+   }
+  ]
+ }
+}

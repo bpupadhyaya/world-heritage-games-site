@@ -1,0 +1,26 @@
+{
+  "title": "Pit loom",
+  "native": "",
+  "alt": [
+    "Treadle pit loom"
+  ],
+  "summary": "A pit loom has its treadles set in a hole in the floor, so the weaver sits at the edge with feet in the pit. Pressing a treadle opens the threads, leaving both hands free to throw the shuttle, and the long narrow strips of cloth that result are sewn side by side into wide cloth.",
+  "howToPlay": [
+    "Pick a thread colour from the cones and a pattern shape from the tray.",
+    "Touch a square on the strip to weave that shape there; it is mirrored across and down the strip.",
+    "Copy the strip shown on the card, then press Check."
+  ],
+  "rules": [
+    "The strip is mirrored both left to right and top to bottom, so each shape is woven on up to four squares.",
+    "A square counts only when its shape and its thread colour both match the strip you are copying.",
+    "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+  ],
+  "heritageNote": "Foot-treadle looms set over a pit are found in many dry-climate weaving traditions, where the pit keeps the threads cool and the loom low and steady. They are still used in handloom villages of South Asia and in North Africa.",
+  "countries": [
+    "India",
+    "Morocco"
+  ],
+  "credits": [
+    "Pattern design: World Heritage Games (original, in the style of the tradition)"
+  ]
+}

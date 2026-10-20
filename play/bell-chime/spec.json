@@ -1,0 +1,167 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "handbell bell chime",
+  "lanes": [
+   {
+    "name": "C",
+    "hz": 523.3,
+    "timbre": "bell",
+    "color": "#79cdf2"
+   },
+   {
+    "name": "D",
+    "hz": 587.3,
+    "timbre": "bell",
+    "color": "#79adf2"
+   },
+   {
+    "name": "E",
+    "hz": 659.3,
+    "timbre": "bell",
+    "color": "#798df2"
+   },
+   {
+    "name": "F",
+    "hz": 698.5,
+    "timbre": "bell",
+    "color": "#8579f2"
+   },
+   {
+    "name": "G",
+    "hz": 784.0,
+    "timbre": "bell",
+    "color": "#a579f2"
+   },
+   {
+    "name": "A",
+    "hz": 880.0,
+    "timbre": "bell",
+    "color": "#c579f2"
+   },
+   {
+    "name": "B",
+    "hz": 987.8,
+    "timbre": "bell",
+    "color": "#e679f2"
+   },
+   {
+    "name": "C#",
+    "hz": 554.4,
+    "timbre": "bell",
+    "color": "#f279de"
+   },
+   {
+    "name": "D#",
+    "hz": 622.3,
+    "timbre": "bell",
+    "color": "#f279bd"
+   },
+   {
+    "name": "F#",
+    "hz": 740.0,
+    "timbre": "bell",
+    "color": "#f2799d"
+   }
+  ],
+  "songs": [
+   {
+    "id": "hb-scale",
+    "name": "Up the table",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Handbells",
+    "note": "A teaching scale along the front rank.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "C"
+     },
+     {
+      "beat": 1.0,
+      "lane": "D"
+     },
+     {
+      "beat": 2.0,
+      "lane": "E"
+     },
+     {
+      "beat": 3.0,
+      "lane": "F"
+     },
+     {
+      "beat": 4.0,
+      "lane": "G"
+     },
+     {
+      "beat": 5.0,
+      "lane": "A"
+     },
+     {
+      "beat": 6.0,
+      "lane": "B"
+     },
+     {
+      "beat": 7.0,
+      "lane": "G"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "hb-round",
+    "name": "A little round",
+    "bpm": 104,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Handbells",
+    "note": "A simple tune that borrows two sharps.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "E"
+     },
+     {
+      "beat": 1.0,
+      "lane": "G"
+     },
+     {
+      "beat": 2.0,
+      "lane": "A"
+     },
+     {
+      "beat": 3.0,
+      "lane": "G"
+     },
+     {
+      "beat": 4.0,
+      "lane": "F#"
+     },
+     {
+      "beat": 5.0,
+      "lane": "G"
+     },
+     {
+      "beat": 6.0,
+      "lane": "E"
+     },
+     {
+      "beat": 7.0,
+      "lane": "C#"
+     },
+     {
+      "beat": 7.5,
+      "lane": "D"
+     }
+    ]
+   }
+  ]
+ }
+}

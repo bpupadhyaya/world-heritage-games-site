@@ -1,0 +1,15 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "sheet",
+  "scene": "washiya",
+  "form": "slosh",
+  "finish": "brush",
+  "mould": "su",
+  "pulp": "#f2e8cf",
+  "water": "#8aa0a6",
+  "vat": "cedar",
+  "neri": true,
+  "hero": "washi"
+ }
+}

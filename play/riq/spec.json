@@ -1,0 +1,215 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "riq",
+  "lanes": [
+   {
+    "name": "Dum",
+    "hz": 190,
+    "timbre": "bass",
+    "color": "#ff7a50"
+   },
+   {
+    "name": "Tak",
+    "hz": 520,
+    "timbre": "slap",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Jingles",
+    "hz": 900,
+    "timbre": "bell",
+    "color": "#4fc6d6"
+   },
+   {
+    "name": "Frame",
+    "hz": 700,
+    "timbre": "rim",
+    "color": "#c9a0ff"
+   }
+  ],
+  "songs": [
+   {
+    "id": "maqsum",
+    "name": "Maqsum, 4 beats",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The most common cycle: dum, tak, tak, dum, tak.",
+    "watch": true,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dum"
+     },
+     {
+      "beat": 1,
+      "lane": "Tak"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 2,
+      "lane": "Dum"
+     },
+     {
+      "beat": 3,
+      "lane": "Tak"
+     },
+     {
+      "beat": 4,
+      "lane": "Dum"
+     },
+     {
+      "beat": 5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 6,
+      "lane": "Dum"
+     },
+     {
+      "beat": 7,
+      "lane": "Tak"
+     }
+    ]
+   },
+   {
+    "id": "jingle-fill",
+    "name": "Jingle fill, 4 beats",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The jingles shimmer between the strokes.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dum"
+     },
+     {
+      "beat": 1,
+      "lane": "Tak"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Jingles"
+     },
+     {
+      "beat": 2,
+      "lane": "Dum"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Jingles"
+     },
+     {
+      "beat": 3,
+      "lane": "Tak"
+     },
+     {
+      "beat": 4,
+      "lane": "Dum"
+     },
+     {
+      "beat": 5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Jingles"
+     },
+     {
+      "beat": 6,
+      "lane": "Dum"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Jingles"
+     },
+     {
+      "beat": 7,
+      "lane": "Tak"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Jingles"
+     }
+    ]
+   },
+   {
+    "id": "frame-call",
+    "name": "Frame call, 4 beats",
+    "bpm": 90,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Frame taps call the cycle.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Frame"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Frame"
+     },
+     {
+      "beat": 1,
+      "lane": "Dum"
+     },
+     {
+      "beat": 2,
+      "lane": "Tak"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 3,
+      "lane": "Jingles"
+     },
+     {
+      "beat": 4,
+      "lane": "Frame"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Frame"
+     },
+     {
+      "beat": 5,
+      "lane": "Dum"
+     },
+     {
+      "beat": 6,
+      "lane": "Tak"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Dum"
+     },
+     {
+      "beat": 7,
+      "lane": "Jingles"
+     }
+    ]
+   }
+  ]
+ }
+}

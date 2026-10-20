@@ -41,10 +41,10 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Amadinda and embaire](../../games/185-amadinda-and-embaire/index.md)
 - [Agaseke basket weaving](../../games/89-agaseke-basket-weaving/index.md)
-- [Swahili carved door](../../games/90-swahili-carved-door/index.md)
 - [Imigongo geometric painting](../../games/182-imigongo-geometric-painting/index.md)
 - [Tingatinga painting](../../games/183-tingatinga-painting/index.md)
 - [Kanga cloth design](../../games/184-kanga-cloth-design/index.md)
+- [Kiondo basket weaving](../../games/194-kiondo-basket-weaving/index.md)
 
 ## Sources
 

@@ -1,0 +1,257 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "janggu",
+  "lanes": [
+   {
+    "name": "Kung",
+    "hz": 112,
+    "timbre": "bass",
+    "color": "#ff8a50"
+   },
+   {
+    "name": "Deok",
+    "hz": 170,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Dak",
+    "hz": 330,
+    "timbre": "tone",
+    "color": "#4fc6d6"
+   },
+   {
+    "name": "Ddak",
+    "hz": 900,
+    "timbre": "rim",
+    "color": "#c9a0ff"
+   },
+   {
+    "name": "Kung edge",
+    "hz": 260,
+    "timbre": "slap",
+    "color": "#8fd0a3"
+   }
+  ],
+  "songs": [
+   {
+    "id": "gutgeori",
+    "name": "Gutgeori, 12 pulses",
+    "bpm": 84,
+    "meter": 4,
+    "length": 12,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A rolling twelve-pulse cycle: both, low, bright, bright.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Deok"
+     },
+     {
+      "beat": 1,
+      "lane": "Kung"
+     },
+     {
+      "beat": 2,
+      "lane": "Dak"
+     },
+     {
+      "beat": 3,
+      "lane": "Dak"
+     },
+     {
+      "beat": 4,
+      "lane": "Deok"
+     },
+     {
+      "beat": 5,
+      "lane": "Kung"
+     },
+     {
+      "beat": 6,
+      "lane": "Dak"
+     },
+     {
+      "beat": 7,
+      "lane": "Dak"
+     },
+     {
+      "beat": 8,
+      "lane": "Deok"
+     },
+     {
+      "beat": 9,
+      "lane": "Kung"
+     },
+     {
+      "beat": 10,
+      "lane": "Dak"
+     },
+     {
+      "beat": 11,
+      "lane": "Dak"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "rolling",
+    "name": "Rolling answer",
+    "bpm": 80,
+    "meter": 4,
+    "length": 12,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Short taps on the rims fill the gaps.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Deok"
+     },
+     {
+      "beat": 1,
+      "lane": "Kung"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Kung edge"
+     },
+     {
+      "beat": 2,
+      "lane": "Dak"
+     },
+     {
+      "beat": 3,
+      "lane": "Ddak"
+     },
+     {
+      "beat": 4,
+      "lane": "Deok"
+     },
+     {
+      "beat": 5,
+      "lane": "Kung"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Kung edge"
+     },
+     {
+      "beat": 6,
+      "lane": "Dak"
+     },
+     {
+      "beat": 7,
+      "lane": "Ddak"
+     },
+     {
+      "beat": 8,
+      "lane": "Deok"
+     },
+     {
+      "beat": 9,
+      "lane": "Kung"
+     },
+     {
+      "beat": 10,
+      "lane": "Dak"
+     },
+     {
+      "beat": 10.5,
+      "lane": "Ddak"
+     },
+     {
+      "beat": 11,
+      "lane": "Dak"
+     }
+    ]
+   },
+   {
+    "id": "quick",
+    "name": "Quick patter",
+    "bpm": 76,
+    "meter": 4,
+    "length": 12,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The bright head runs ahead of the beat.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Deok"
+     },
+     {
+      "beat": 1,
+      "lane": "Kung"
+     },
+     {
+      "beat": 2,
+      "lane": "Dak"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Dak"
+     },
+     {
+      "beat": 3,
+      "lane": "Dak"
+     },
+     {
+      "beat": 4,
+      "lane": "Deok"
+     },
+     {
+      "beat": 5,
+      "lane": "Kung"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Kung edge"
+     },
+     {
+      "beat": 6,
+      "lane": "Dak"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Ddak"
+     },
+     {
+      "beat": 7,
+      "lane": "Dak"
+     },
+     {
+      "beat": 8,
+      "lane": "Deok"
+     },
+     {
+      "beat": 9,
+      "lane": "Kung"
+     },
+     {
+      "beat": 9.5,
+      "lane": "Kung"
+     },
+     {
+      "beat": 10,
+      "lane": "Dak"
+     },
+     {
+      "beat": 10.5,
+      "lane": "Ddak"
+     },
+     {
+      "beat": 11,
+      "lane": "Deok"
+     }
+    ]
+   }
+  ]
+ }
+}

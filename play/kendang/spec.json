@@ -1,0 +1,213 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "kendang",
+  "lanes": [
+   {
+    "name": "Dung",
+    "hz": 95,
+    "timbre": "bass",
+    "color": "#ff8a4a"
+   },
+   {
+    "name": "Tak",
+    "hz": 260,
+    "timbre": "slap",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Tong",
+    "hz": 210,
+    "timbre": "tone",
+    "color": "#4fc6d6"
+   },
+   {
+    "name": "Ket",
+    "hz": 720,
+    "timbre": "slap",
+    "color": "#c9a0ff"
+   },
+   {
+    "name": "Wood",
+    "hz": 1000,
+    "timbre": "rim",
+    "color": "#8fd0a3"
+   }
+  ],
+  "songs": [
+   {
+    "id": "ladrang",
+    "name": "Ladrang pulse",
+    "bpm": 88,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The big head marks the pulse, the small head answers.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dung"
+     },
+     {
+      "beat": 1,
+      "lane": "Tong"
+     },
+     {
+      "beat": 2,
+      "lane": "Tak"
+     },
+     {
+      "beat": 3,
+      "lane": "Tong"
+     },
+     {
+      "beat": 4,
+      "lane": "Dung"
+     },
+     {
+      "beat": 5,
+      "lane": "Tong"
+     },
+     {
+      "beat": 6,
+      "lane": "Tak"
+     },
+     {
+      "beat": 7,
+      "lane": "Tong"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "running",
+    "name": "Running answer",
+    "bpm": 84,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Quick slaps fill the gaps between strokes.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dung"
+     },
+     {
+      "beat": 1,
+      "lane": "Tong"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Ket"
+     },
+     {
+      "beat": 2,
+      "lane": "Tak"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Tong"
+     },
+     {
+      "beat": 3,
+      "lane": "Ket"
+     },
+     {
+      "beat": 4,
+      "lane": "Dung"
+     },
+     {
+      "beat": 5,
+      "lane": "Tong"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Ket"
+     },
+     {
+      "beat": 6,
+      "lane": "Tak"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Tong"
+     },
+     {
+      "beat": 7,
+      "lane": "Wood"
+     }
+    ]
+   },
+   {
+    "id": "break",
+    "name": "Break and stop",
+    "bpm": 80,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A tightening pattern that closes the phrase.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dung"
+     },
+     {
+      "beat": 1,
+      "lane": "Dung"
+     },
+     {
+      "beat": 2,
+      "lane": "Tak"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Ket"
+     },
+     {
+      "beat": 3,
+      "lane": "Tong"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Ket"
+     },
+     {
+      "beat": 4,
+      "lane": "Dung"
+     },
+     {
+      "beat": 5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 6,
+      "lane": "Tong"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Ket"
+     },
+     {
+      "beat": 7,
+      "lane": "Wood"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Dung"
+     }
+    ]
+   }
+  ]
+ }
+}

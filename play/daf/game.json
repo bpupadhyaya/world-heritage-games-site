@@ -1,0 +1,13 @@
+{
+ "slug": "daf",
+ "title": "Daf (frame drum with rings)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

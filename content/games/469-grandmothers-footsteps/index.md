@@ -43,8 +43,8 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Hurdy-gurdy](../../games/153-hurdy-gurdy/index.md)
 - [Nordic Colourwork Knitting](../../games/413-nordic-colourwork-knitting/index.md)
 - [Welsh Love Spoon Carving](../../games/414-welsh-love-spoon-carving/index.md)
+- [Highland Sword Dance](../../games/417-highland-sword-dance/index.md)
 - [Ribbon Pole Weave](../../games/419-ribbon-pole-weave/index.md)
-- [Dots and Boxes](../../games/463-dots-and-boxes/index.md)
 
 ## Sources
 

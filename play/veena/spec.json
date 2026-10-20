@@ -1,0 +1,354 @@
+{
+ "engine": "rhythm",
+ "variant": "veena",
+ "players": "1",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 196,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "veena",
+  "lanes": [
+   {
+    "name": "Ni-",
+    "cents": -100,
+    "id": "nim-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8502c",
+    "string": 0,
+    "fret": 4
+   },
+   {
+    "name": "Sa",
+    "cents": 0,
+    "id": "sa-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d26a34",
+    "string": 0,
+    "fret": 5
+   },
+   {
+    "name": "Ri",
+    "cents": 200,
+    "id": "ri-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#db853d",
+    "string": 1,
+    "fret": 2
+   },
+   {
+    "name": "Ga",
+    "cents": 400,
+    "id": "ga-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e59f45",
+    "string": 1,
+    "fret": 4
+   },
+   {
+    "name": "Ma",
+    "cents": 600,
+    "id": "ma-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d9aa54",
+    "string": 1,
+    "fret": 6
+   },
+   {
+    "name": "Pa",
+    "cents": 700,
+    "id": "pa-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c2ae66",
+    "string": 1,
+    "fret": 7
+   },
+   {
+    "name": "Dha",
+    "cents": 900,
+    "id": "dha-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#abb178",
+    "string": 2,
+    "fret": 2
+   },
+   {
+    "name": "Ni",
+    "cents": 1100,
+    "id": "ni-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#95b287",
+    "string": 2,
+    "fret": 4
+   },
+   {
+    "name": "Sa'",
+    "cents": 1200,
+    "id": "sap-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#81af8f",
+    "string": 2,
+    "fret": 5
+   },
+   {
+    "name": "Ri'",
+    "cents": 1400,
+    "id": "rip-9",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#6cab98",
+    "string": 3,
+    "fret": 2
+   },
+   {
+    "name": "Ga'",
+    "cents": 1600,
+    "id": "gap-10",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#58a8a0",
+    "string": 3,
+    "fret": 4
+   }
+  ],
+  "songs": [
+   {
+    "id": "slow-rising-phrase",
+    "name": "Slow rising phrase",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Slow opening in the style of South Indian classical music",
+    "bpm": 60,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 7,
+      "lane": 4
+     },
+     {
+      "beat": 8,
+      "lane": 3
+     },
+     {
+      "beat": 10,
+      "lane": 2
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     }
+    ],
+    "note": "A slow climb up the scale and back down, the kind of unhurried opening in which each note is allowed to ring out."
+   },
+   {
+    "id": "eight-beat-cycle",
+    "name": "Eight-beat cycle",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Eight-beat cycle, South India",
+    "bpm": 92,
+    "meter": 8,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 1
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 5
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 7,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 8
+     },
+     {
+      "beat": 11,
+      "lane": 7
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 13,
+      "lane": 5
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 1
+     }
+    ],
+    "note": "A steady cycle of eight beats in four groups of two, rising and then falling again."
+   },
+   {
+    "id": "sweep-and-answer",
+    "name": "Sweep and answer",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Running phrase with a call and answer",
+    "bpm": 100,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 2
+     },
+     {
+      "beat": 0.5,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 4
+     },
+     {
+      "beat": 1.5,
+      "lane": 5
+     },
+     {
+      "beat": 2,
+      "lane": 6
+     },
+     {
+      "beat": 3,
+      "lane": 8
+     },
+     {
+      "beat": 4,
+      "lane": 8
+     },
+     {
+      "beat": 4.5,
+      "lane": 7
+     },
+     {
+      "beat": 5,
+      "lane": 6
+     },
+     {
+      "beat": 5.5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 4
+     },
+     {
+      "beat": 7,
+      "lane": 2
+     },
+     {
+      "beat": 8,
+      "lane": 5
+     },
+     {
+      "beat": 9,
+      "lane": 9
+     },
+     {
+      "beat": 10,
+      "lane": 8
+     },
+     {
+      "beat": 11,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 5
+     },
+     {
+      "beat": 13,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 1
+     }
+    ],
+    "note": "Quick runs up and down the neck, then a calm answer on lower notes."
+   }
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "goblet",
+  "scene": "murano",
+  "rows": 14,
+  "steps": 16,
+  "bands": 5,
+  "clay": "#d8eef2",
+  "glazes": [
+   {
+    "name": "Clear",
+    "color": "#e4f4f8"
+   },
+   {
+    "name": "Cobalt",
+    "color": "#2a4fc0"
+   },
+   {
+    "name": "Amethyst",
+    "color": "#8a3aa8"
+   },
+   {
+    "name": "Ruby",
+    "color": "#b01e2e"
+   }
+  ],
+  "glazePattern": [
+   0,
+   0,
+   0,
+   1,
+   2
+  ],
+  "variation": 0.03
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "kakradaa cog rattle",
+  "lanes": [
+   {
+    "name": "Tongue",
+    "hz": 900,
+    "timbre": "clap",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Wheel",
+    "hz": 600,
+    "timbre": "clap",
+    "color": "#e0693a"
+   },
+   {
+    "name": "Handle",
+    "hz": 400,
+    "timbre": "clap",
+    "color": "#58b878"
+   }
+  ],
+  "songs": [
+   {
+    "id": "cog-whirl",
+    "name": "Whirl, 4 beats",
+    "bpm": 104,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Kakradaa cog rattle, Winneba, Ghana",
+    "note": "A teaching pattern: a long whirl of the wheel, ticks of the tongue, a swing of the handle.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Wheel"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Tongue"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Handle"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Wheel"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Tongue"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Tongue"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Handle"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "cog-flourish",
+    "name": "Flourish",
+    "bpm": 116,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Kakradaa cog rattle, Winneba, Ghana",
+    "note": "A busier pattern with short whirls.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Wheel"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Tongue"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Wheel"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Handle"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Wheel"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Tongue"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Wheel"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Tongue"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Wheel"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Handle"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Wheel"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Wheel"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "kakradaa-cog-rattle"
+}

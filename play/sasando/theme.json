@@ -1,0 +1,16 @@
+{
+ "palette": {
+  "bg": "#171a10",
+  "board": "#c9a86a",
+  "line": "#3a2d16",
+  "a": "#d8d870",
+  "b": "#e8a050",
+  "accent": "#e8c46a",
+  "ink": "#f6ecd6",
+  "panel": "#2a3018"
+ },
+ "board": {},
+ "pieces": {},
+ "sounds": {},
+ "assets": {}
+}

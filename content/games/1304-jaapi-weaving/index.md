@@ -44,8 +44,8 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Bandhani tie-dye](../../games/258-bandhani-tie-dye/index.md)
 - [Chamba rumal embroidery](../../games/1252-chamba-rumal-embroidery/index.md)
 - [Ralli patchwork quilt](../../games/1364-ralli-patchwork-quilt/index.md)
-- [Dhaka weave pattern loom](../../games/115-dhaka-weave-pattern-loom/index.md)
-- [Kantha running-stitch quilt](../../games/284-kantha-running-stitch-quilt/index.md)
+- [Chanderi sari](../../games/1950-chanderi-sari/index.md)
+- [Kanchipuram Silk Sari](../../games/5756-kanchipuram-silk-sari/index.md)
 
 ## Sources
 

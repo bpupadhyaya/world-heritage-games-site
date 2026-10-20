@@ -1,0 +1,28 @@
+{
+ "title": "Gender",
+ "native": "Gendèr",
+ "alt": [
+  "Gender barung",
+  "Javanese suspended-key metallophone"
+ ],
+ "summary": "The gender is a metallophone of Javanese gamelan: ten bronze keys hung on cords over tuned tubes, struck with a padded disc mallet in each hand. Its keys follow the five-note slendro scale across two octaves.",
+ "howToPlay": [
+  "Ten bronze keys lie in order of pitch: long, low keys at the bottom and short, high keys at the top.",
+  "Numbers on the keys are the Javanese way of naming the notes: 1 2 3 5 6, then the same five an octave higher.",
+  "Strike each key as its note lands on it, and let the sound ring until the next one arrives.",
+  "Try the skeleton melody first, then the octave pairs and the flowing line."
+ ],
+ "rules": [
+  "The scale is slendro: five notes in each octave, spaced almost evenly, so melodies sound unlike a European major or minor.",
+  "Ten keys cover two octaves; the second five repeat the first an octave higher.",
+  "A stroke on the beat is perfect, a near one is good, and extra strokes cost points.",
+  "Each figure plays twice."
+ ],
+ "heritageNote": "Gamelan music was recognised as world intangible cultural heritage in 2021. In the orchestra the gender plays soft, flowing lines around the main melody, with one hand striking and the other damping the previous key so the notes stay clear.",
+ "countries": [
+  "Indonesia"
+ ],
+ "credits": [
+  "Tradition: Javanese gamelan gender; figures written for this game"
+ ]
+}

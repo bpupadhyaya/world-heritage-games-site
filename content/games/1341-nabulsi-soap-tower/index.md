@@ -43,8 +43,8 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md)
 - [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md)
 - [Keffiyeh Pattern Loom](../../games/1310-keffiyeh-pattern-loom/index.md)
+- [Hebron Glassblowing](../../games/6034-hebron-glassblowing/index.md)
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md)
-- [Dabke line dance](../../games/37-dabke-line-dance/index.md)
 
 ## Sources
 

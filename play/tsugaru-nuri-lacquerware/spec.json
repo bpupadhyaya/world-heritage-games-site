@@ -1,0 +1,43 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "tsugarujar",
+  "scene": "tsugaru",
+  "rows": 14,
+  "bands": 5,
+  "clay": "#d9b27c",
+  "glazes": [
+   {
+    "name": "Green lac",
+    "color": "#1f5a3a"
+   },
+   {
+    "name": "Black lac",
+    "color": "#14100e"
+   },
+   {
+    "name": "Vermilion",
+    "color": "#c8321f"
+   },
+   {
+    "name": "Yellow",
+    "color": "#d8a62a"
+   },
+   {
+    "name": "White",
+    "color": "#f2eadb"
+   }
+  ],
+  "variation": 0.04,
+  "engrave": true,
+  "steps": 16,
+  "glazePattern": [
+   1,
+   0,
+   1,
+   0,
+   1
+  ]
+ }
+}

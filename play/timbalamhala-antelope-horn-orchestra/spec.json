@@ -1,0 +1,249 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "timbalamhala antelope horn orchestra",
+  "mode": "follow",
+  "root": 196.0,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "G3",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "A3",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d"
+   },
+   {
+    "name": "B3",
+    "cents": 400,
+    "timbre": "breath",
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "D4",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#a56bd6"
+   },
+   {
+    "name": "E4",
+    "cents": 900,
+    "timbre": "breath",
+    "color": "#e87fa0"
+   },
+   {
+    "name": "G4",
+    "cents": 1200,
+    "timbre": "breath",
+    "color": "#f2c14e"
+   },
+   {
+    "name": "A4",
+    "cents": 1400,
+    "timbre": "breath",
+    "color": "#6cc2a0"
+   },
+   {
+    "name": "B4",
+    "cents": 1600,
+    "timbre": "breath",
+    "color": "#e0764a"
+   }
+  ],
+  "songs": [
+   {
+    "id": "timbalamhala-march",
+    "name": "March of the horns",
+    "bpm": 92,
+    "meter": 4,
+    "length": 16.0,
+    "kind": "figure",
+    "heritage": "Timbalamhala, Mozambique",
+    "note": "A teaching figure: each horn sounds its own note and together they make the tune.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "G3",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "B3",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "E4",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "B3",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "D4",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "G4",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "D4",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "B3",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "G3",
+      "len": 1
+     },
+     {
+      "beat": 9.0,
+      "lane": "B3",
+      "len": 1
+     },
+     {
+      "beat": 10.0,
+      "lane": "E4",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "A4",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "G4",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "D4",
+      "len": 1
+     },
+     {
+      "beat": 14.0,
+      "lane": "A3",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "G3",
+      "len": 1
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "timbalamhala-circle",
+    "name": "Circle figure",
+    "bpm": 104,
+    "meter": 4,
+    "length": 16.0,
+    "kind": "figure",
+    "heritage": "Timbalamhala, Mozambique",
+    "note": "A longer figure that runs up and down the ten horns.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "B4",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "G4",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "E4",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "B3",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "G3",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "B3",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "E4",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "G4",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "B4",
+      "len": 1
+     },
+     {
+      "beat": 9.0,
+      "lane": "A4",
+      "len": 1
+     },
+     {
+      "beat": 10.0,
+      "lane": "E4",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "D4",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "A3",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "D4",
+      "len": 1
+     },
+     {
+      "beat": 14.0,
+      "lane": "E4",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "A4",
+      "len": 1
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "timbalamhala-antelope-horn-orchestra"
+}

@@ -1,0 +1,27 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "scene": "saramenha",
+  "profile": "moringa",
+  "rows": 12,
+  "bands": 5,
+  "clay": "#b9743a",
+  "glazes": [
+   {
+    "name": "Honey glaze",
+    "color": "#c98a2e"
+   },
+   {
+    "name": "Brown glaze",
+    "color": "#6a3a1c"
+   },
+   {
+    "name": "Green splash",
+    "color": "#4a7a3a"
+   }
+  ],
+  "variation": 0.05,
+  "steps": 12
+ }
+}

@@ -1,19 +1,20 @@
 ---
 title: "Egypt"
-description: "16 traditions from Egypt."
+description: "19 traditions from Egypt."
 path: "/countries/egypt/"
-count: 16
+count: 19
 ---
 # Egypt
 
-16 traditions from Egypt.
+19 traditions from Egypt.
 
 
 
-16 entries.
+19 entries.
 
 - [Aragoz Hand-Puppet Booth](../../games/222-aragoz-hand-puppet-booth/index.md): Egypt; Performance and storytelling; Classical Worlds
 - [Cafe dominoes](../../games/690-cafe-dominoes/index.md): Egypt; Board and table games; Crossroads and Golden Ages
+- [Darbuka Iqa'at Rhythm Drum](../../games/213-darbuka-iqaat-rhythm-drum/index.md): Egypt; Musical instruments; Living Traditions
 - [Egyptian Fractions and Doubling](../../games/215-egyptian-fractions-and-doubling/index.md): Egypt; Puzzles and mind games; Modern Heritage
 - [Khayamiya Tentmaker Applique](../../games/217-khayamiya-tentmaker-applique/index.md): Egypt; Crafts and making; Living Traditions
 - [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
@@ -23,8 +24,10 @@ count: 16
 - [Nubian house painting](../../games/192-nubian-house-painting/index.md): Egypt; Crafts and making; Living Traditions
 - [Oud](../../games/3348-oud/index.md): Iraq, Egypt; Musical instruments; Crossroads and Golden Ages
 - [Senet](../../games/693-senet/index.md): Egypt; Board and table games; River Valleys and First Cities
+- [Simsimiyya](../../games/6047-simsimiyya/index.md): Egypt; Musical instruments; Classical Worlds
 - [Tahtib](../../games/157-tahtib/index.md): Egypt; Dances; Living Traditions
 - [Tarneeb](../../games/816-tarneeb/index.md): Iraq, Syria; Card games; Age of Contact and Craft
 - [Egyptian backgammon](../../games/695-egyptian-backgammon/index.md): Egypt; Board and table games; River Valleys and First Cities
+- [Riq](../../games/6045-riq/index.md): Egypt; Musical instruments; Living Traditions
 - [Seega](../../games/692-seega/index.md): Egypt; Board and table games; Age of Contact and Craft
 - [Tab](../../games/694-tab/index.md): Egypt; Board and table games; River Valleys and First Cities

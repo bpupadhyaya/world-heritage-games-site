@@ -1,0 +1,191 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "rabana",
+  "lanes": [
+   {
+    "name": "Dum",
+    "hz": 95,
+    "timbre": "bass",
+    "color": "#d9622b"
+   },
+   {
+    "name": "North",
+    "hz": 220,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "East",
+    "hz": 300,
+    "timbre": "tone",
+    "color": "#58b878"
+   },
+   {
+    "name": "South",
+    "hz": 390,
+    "timbre": "slap",
+    "color": "#4fa8d6"
+   },
+   {
+    "name": "West",
+    "hz": 260,
+    "timbre": "tone",
+    "color": "#b86ad6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "rabana-circle",
+    "name": "Round of four, slow",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Rabana play, Sri Lanka",
+    "note": "One stroke per place, passed from North round to West with a deep boom in the middle on the beat: a teaching figure in the style of the New Year circle.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dum"
+     },
+     {
+      "beat": 1,
+      "lane": "North"
+     },
+     {
+      "beat": 1.5,
+      "lane": "East"
+     },
+     {
+      "beat": 2,
+      "lane": "South"
+     },
+     {
+      "beat": 2.5,
+      "lane": "West"
+     },
+     {
+      "beat": 3,
+      "lane": "Dum"
+     },
+     {
+      "beat": 4,
+      "lane": "North"
+     },
+     {
+      "beat": 4.5,
+      "lane": "East"
+     },
+     {
+      "beat": 5,
+      "lane": "South"
+     },
+     {
+      "beat": 5.5,
+      "lane": "West"
+     },
+     {
+      "beat": 6,
+      "lane": "Dum"
+     },
+     {
+      "beat": 6.5,
+      "lane": "North"
+     },
+     {
+      "beat": 7,
+      "lane": "East"
+     },
+     {
+      "beat": 7.5,
+      "lane": "South"
+     }
+    ]
+   },
+   {
+    "id": "rabana-quick",
+    "name": "Quickening round",
+    "bpm": 118,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Rabana play, Sri Lanka",
+    "note": "The same circle at a faster pace with the centre answering. Figures are simplified teaching patterns, not transcriptions.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dum"
+     },
+     {
+      "beat": 0.5,
+      "lane": "North"
+     },
+     {
+      "beat": 1,
+      "lane": "East"
+     },
+     {
+      "beat": 1.5,
+      "lane": "South"
+     },
+     {
+      "beat": 2,
+      "lane": "West"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Dum"
+     },
+     {
+      "beat": 3,
+      "lane": "North"
+     },
+     {
+      "beat": 3.5,
+      "lane": "East"
+     },
+     {
+      "beat": 4,
+      "lane": "South"
+     },
+     {
+      "beat": 4.5,
+      "lane": "West"
+     },
+     {
+      "beat": 5,
+      "lane": "Dum"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Dum"
+     },
+     {
+      "beat": 6,
+      "lane": "North"
+     },
+     {
+      "beat": 6.5,
+      "lane": "East"
+     },
+     {
+      "beat": 7,
+      "lane": "South"
+     },
+     {
+      "beat": 7.5,
+      "lane": "West"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "rabana-drum-game",
+ "players": "1"
+}

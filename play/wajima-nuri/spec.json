@@ -1,0 +1,30 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "owan",
+  "scene": "wajima",
+  "rows": 14,
+  "bands": 4,
+  "clay": "#d9b27c",
+  "glazes": [
+   {
+    "name": "Black lac",
+    "color": "#17110f"
+   },
+   {
+    "name": "Red lac",
+    "color": "#a8231a"
+   }
+  ],
+  "variation": 0.04,
+  "engrave": true,
+  "steps": 16,
+  "glazePattern": [
+   0,
+   0,
+   0,
+   1
+  ]
+ }
+}

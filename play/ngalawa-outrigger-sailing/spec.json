@@ -1,0 +1,49 @@
+{
+ "engine": "tempo-race",
+ "variant": "ngalawa-outrigger-sailing",
+ "players": "1",
+ "params": {
+  "craft": {
+   "id": "ngalawa",
+   "view": "aerial"
+  },
+  "vehicle": {
+   "kind": "sailor"
+  },
+  "rhythm": {
+   "bpm": 60
+  },
+  "course": {
+   "length": 500,
+   "lanes": 4,
+   "shape": "straight",
+   "terrain": "water",
+   "scenery": "none",
+   "current": 0.2,
+   "wind": {
+    "amp": 0.8,
+    "period": 95
+   },
+   "obstacles": [
+    {
+     "at": 170,
+     "kind": "buoy"
+    },
+    {
+     "at": 340,
+     "kind": "buoy"
+    }
+   ]
+  },
+  "opponents": {
+   "count": 3,
+   "skill": 0.88,
+   "spread": 0.025
+  },
+  "rounds": 1,
+  "labels": {
+   "left": "Ease the sail",
+   "right": "Haul the sail"
+  }
+ }
+}

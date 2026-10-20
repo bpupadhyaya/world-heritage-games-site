@@ -41,11 +41,11 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 ## Related entries
 
 - [Krar lyre](../../games/126-krar-lyre/index.md)
+- [Simsimiyya](../../games/6047-simsimiyya/index.md)
+- [Tanbura](../../games/6048-tanbura/index.md)
+- [Begena](../../games/7301-begena/index.md)
 - [Morin khuur](../../games/34-morin-khuur/index.md)
 - [String Marionette Theatre](../../games/68-string-marionette-theatre/index.md)
-- [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md)
-- [Valiha tube zither](../../games/124-valiha-tube-zither/index.md)
-- [Joropo llanero band](../../games/130-joropo-llanero-band/index.md)
 
 ## Sources
 

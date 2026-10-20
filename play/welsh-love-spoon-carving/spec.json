@@ -1,0 +1,20 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "carve",
+  "figure": "lovespoon-fine",
+  "scene": "lovespoon",
+  "cols": 20,
+  "rows": 50,
+  "material": "wood",
+  "color": "#c99358",
+  "cavity": "#1a1008",
+  "chisels": 2,
+  "guide": true,
+  "variation": 0.6,
+  "relief": true,
+  "wax": true,
+  "zoom": true,
+  "grain": "long"
+ }
+}

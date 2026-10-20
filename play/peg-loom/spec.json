@@ -1,0 +1,154 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "pegloom",
+    "cols": 7,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Brick",
+        "color": "#b84a2c"
+      },
+      {
+        "name": "Denim blue",
+        "color": "#2f5f94"
+      },
+      {
+        "name": "Mustard",
+        "color": "#d8a22c"
+      },
+      {
+        "name": "Moss",
+        "color": "#4a7a48"
+      },
+      {
+        "name": "Cream",
+        "color": "#f2e9d2"
+      }
+    ],
+    "background": "#d8cdb4",
+    "grid": "#a89c80",
+    "motifs": [
+      "stripe-h",
+      "diamond",
+      "solid",
+      "checker",
+      "triangle",
+      "cross"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Diamond rug",
+        "rows": [
+          "aaaaaaa",
+          "bbbbbbb",
+          "...c...",
+          "..dcd..",
+          "cdeeedc",
+          "..dcd..",
+          "...c...",
+          "bbbbbbb",
+          "aaaaaaa"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 0,
+            "c": 2
+          },
+          "c": {
+            "m": 1,
+            "c": 1
+          },
+          "d": {
+            "m": 4,
+            "c": 3
+          },
+          "e": {
+            "m": 2,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Striped rug with border",
+        "rows": [
+          "ccccccc",
+          "aaaaaaa",
+          "bbbbbbb",
+          "..d.d..",
+          "...e...",
+          "..d.d..",
+          "bbbbbbb",
+          "aaaaaaa",
+          "ccccccc"
+        ],
+        "legend": {
+          "c": {
+            "m": 2,
+            "c": 0
+          },
+          "a": {
+            "m": 0,
+            "c": 4
+          },
+          "b": {
+            "m": 0,
+            "c": 1
+          },
+          "d": {
+            "m": 1,
+            "c": 2
+          },
+          "e": {
+            "m": 5,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Triangles and checker",
+        "rows": [
+          "fffffff",
+          ".g.g.g.",
+          "hhhhhhh",
+          "..i.i..",
+          "...j...",
+          "..i.i..",
+          "hhhhhhh",
+          ".g.g.g.",
+          "fffffff"
+        ],
+        "legend": {
+          "f": {
+            "m": 3,
+            "c": 3
+          },
+          "g": {
+            "m": 4,
+            "c": 2
+          },
+          "h": {
+            "m": 0,
+            "c": 0
+          },
+          "i": {
+            "m": 1,
+            "c": 1
+          },
+          "j": {
+            "m": 2,
+            "c": 0
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,17 +1,22 @@
 ---
 title: "Entries beginning with L"
-description: "52 entries beginning with L."
+description: "60 entries beginning with L."
 path: "/a-z/L/"
 ---
 # Entries beginning with L
 
+- [La Chamba pottery](../../games/6218-la-chamba-pottery/index.md): Colombia; Crafts and making; Living Traditions
 - [La Sape dress-up parade](../../games/200-la-sape-dress-up-parade/index.md): Congo; Street and playground games; Modern Heritage
 - [Laamb Wrestling Bout](../../games/166-laamb-wrestling-bout/index.md): Senegal, Gambia; Wrestling and martial sports; River Valleys and First Cities
 - [Ladu](../../games/674-ladu/index.md): Djibouti, Somalia; Board and table games; Crossroads and Golden Ages
 - [Lafo](../../games/1150-lafo/index.md): Tonga; Dexterity and skill games; Deep Past and First Games
+- [Lagerphone](../../games/10152-lagerphone/index.md): Australia; Musical instruments; Living Traditions
 - [Lagori](../../games/14-lagori/index.md): India; Street and playground games; Modern Heritage
+- [Laizhou straw braid](../../games/16294-laizhou-straw-braid/index.md): China; Crafts and making; Living Traditions
 - [Lake Assal salt harvest](../../games/1321-lake-assal-salt-harvest/index.md): Djibouti; Sports with animal partners; Crossroads and Golden Ages
 - [Lake Chad reed boat builder](../../games/1416-lake-chad-reed-boat-builder/index.md): Chad; Crafts and making; Living Traditions
+- [Lali](../../games/2986-lali/index.md): Fiji; Musical instruments; Living Traditions
+- [Lambani Embroidery](../../games/5802-lambani-embroidery/index.md): India; Crafts and making; Living Traditions
 - [Lambs and Tigers](../../games/791-lambs-and-tigers/index.md): India; Board and table games; Crossroads and Golden Ages
 - [Lamian](../../games/340-lamian/index.md): China; Crafts and making; Living Traditions
 - [Langeleik](../../games/1322-langeleik/index.md): Norway; Musical instruments; Classical Worlds
@@ -23,6 +28,7 @@ path: "/a-z/L/"
 - [Lato-lato](../../games/316-lato-lato/index.md): Indonesia, Malaysia; Toys; Modern Heritage
 - [Latvian Bagpipe and Folk Pipes](../../games/1324-latvian-bagpipe-and-folk-pipes/index.md): Latvia; Musical instruments; Crossroads and Golden Ages
 - [Lau Kata Kati](../../games/460-lau-kata-kati/index.md): Bangladesh; Board and table games; Crossroads and Golden Ages
+- [Lauhala weaving](../../games/6371-lauhala-weaving/index.md): Samoa; Crafts and making; Living Traditions
 - [Launeddas Triple Pipe](../../games/400-launeddas-triple-pipe/index.md): Italy; Musical instruments; Living Traditions
 - [Lavash Baking](../../games/163-lavash-baking/index.md): Armenia; Crafts and making; Living Traditions
 - [Lawn bowls](../../games/74-lawn-bowls/index.md): United Kingdom, Australia; Dexterity and skill games; Classical Worlds
@@ -31,6 +37,7 @@ path: "/a-z/L/"
 - [Lefkara Lace](../../games/220-lefkara-lace/index.md): Cyprus; Crafts and making; Living Traditions
 - [Lei making](../../games/449-lei-making/index.md): United States; Crafts and making; Living Traditions
 - [Lelo Burti](../../games/737-lelo-burti/index.md): Georgia; Street and playground games; Modern Heritage
+- [Lepapata kudu horn](../../games/6903-lepapata-kudu-horn/index.md): Botswana; Musical instruments; Crossroads and Golden Ages
 - [Letter Categories](../../games/472-letter-categories/index.md): Germany, India; Racing; Age of Contact and Craft
 - [Lezginka](../../games/250-lezginka/index.md): Worldwide; Dances; Living Traditions
 - [Licitar Heart Decorator](../../games/1326-licitar-heart-decorator/index.md): Croatia; Crafts and making; Living Traditions
@@ -43,6 +50,7 @@ path: "/a-z/L/"
 - [Lo Shu Magic Square](../../games/111-lo-shu-magic-square/index.md): China; Puzzles and mind games; Age of Contact and Craft
 - [Local mancala variants](../../games/698-local-mancala-variants/index.md): Equatorial Guinea; Board and table games; Deep Past and First Games
 - [Log rolling](../../games/59-log-rolling/index.md): United States, Canada; Dexterity and skill games; Modern Heritage
+- [Lokta paper-making](../../games/292-lokta-paper-making/index.md): Nepal; Crafts and making; Living Traditions
 - [Lost-Wax Bronze Casting](../../games/178-lost-wax-bronze-casting/index.md): Japan, Benin; Crafts and making; Living Traditions
 - [Lotería](../../games/1211-loteria/index.md): Venezuela; Board and table games; Crossroads and Golden Ages
 - [Luban lock](../../games/99-luban-lock/index.md): China; Puzzles and mind games; Modern Heritage

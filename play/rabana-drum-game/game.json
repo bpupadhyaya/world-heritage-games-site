@@ -1,0 +1,13 @@
+{
+ "slug": "rabana-drum-game",
+ "title": "Rabana (Sri Lankan floor drum)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

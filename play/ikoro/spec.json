@@ -1,0 +1,134 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "ikoro standing log drum",
+  "lanes": [
+   {
+    "name": "Thick lip",
+    "hz": 150,
+    "timbre": "tone",
+    "color": "#e8a050"
+   },
+   {
+    "name": "Thin lip",
+    "hz": 230,
+    "timbre": "tone",
+    "color": "#f2c870"
+   },
+   {
+    "name": "Bark",
+    "hz": 100,
+    "timbre": "tone",
+    "color": "#b8783a"
+   },
+   {
+    "name": "Top",
+    "hz": 420,
+    "timbre": "tone",
+    "color": "#f2e0a0"
+   }
+  ],
+  "songs": [
+   {
+    "id": "ikoro-call",
+    "name": "Message across the forest",
+    "bpm": 88,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Ikoro, Igbo tradition",
+    "note": "Slow booming call, bright answer.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Thick lip"
+     },
+     {
+      "beat": 1,
+      "lane": "Thick lip"
+     },
+     {
+      "beat": 2,
+      "lane": "Thin lip"
+     },
+     {
+      "beat": 3,
+      "lane": "Thin lip"
+     },
+     {
+      "beat": 4,
+      "lane": "Thick lip"
+     },
+     {
+      "beat": 5,
+      "lane": "Bark"
+     },
+     {
+      "beat": 6,
+      "lane": "Thin lip"
+     },
+     {
+      "beat": 7,
+      "lane": "Top"
+     }
+    ]
+   },
+   {
+    "id": "ikoro-run",
+    "name": "Running news",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Ikoro, Igbo tradition",
+    "note": "Quick thin-lip strokes between two booms.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Thick lip"
+     },
+     {
+      "beat": 1,
+      "lane": "Thin lip"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Thin lip"
+     },
+     {
+      "beat": 2,
+      "lane": "Thin lip"
+     },
+     {
+      "beat": 3,
+      "lane": "Thick lip"
+     },
+     {
+      "beat": 4,
+      "lane": "Thick lip"
+     },
+     {
+      "beat": 5,
+      "lane": "Thin lip"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Thin lip"
+     },
+     {
+      "beat": 6,
+      "lane": "Bark"
+     },
+     {
+      "beat": 7,
+      "lane": "Top"
+     }
+    ]
+   }
+  ]
+ }
+}

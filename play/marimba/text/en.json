@@ -1,0 +1,28 @@
+{
+ "title": "Marimba",
+ "native": "Marimba de Guatemala",
+ "alt": [
+  "Marimba de tecomates",
+  "Guatemalan marimba"
+ ],
+ "summary": "The marimba is the national instrument of Guatemala: wooden bars graduated in length, each over its own resonator, struck with rubber-headed mallets. Players roll fast repeated strokes to hold a note and play melody, harmony and bass on one keyboard.",
+ "howToPlay": [
+  "Ten wooden bars lie in order of pitch, shortest and highest at the top.",
+  "Notes are named C to E' in the usual European way.",
+  "Strike each bar as its note lands, and treat quick repeated notes as a roll that holds the note.",
+  "Start with the son in six, then try the rolled melody and the bass and tune."
+ ],
+ "rules": [
+  "The bars follow a European major scale: seven notes to the octave, so ten bars reach the third note of the next octave.",
+  "The son is counted in six pulses, grouped in twos and threes.",
+  "A stroke on the beat is perfect, a near one is good, and extra strokes cost points.",
+  "Each figure plays twice."
+ ],
+ "heritageNote": "The first record of a marimba in Guatemala dates from 1680, an instrument with gourd resonators; later makers built larger keyboards and, in 1894, a double keyboard. Marimba bands remain a part of village and town life.",
+ "countries": [
+  "Guatemala"
+ ],
+ "credits": [
+  "Tradition: Guatemalan marimba music; figures written for this game"
+ ]
+}

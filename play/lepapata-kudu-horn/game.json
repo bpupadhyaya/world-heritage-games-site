@@ -1,0 +1,13 @@
+{
+ "slug": "lepapata-kudu-horn",
+ "title": "Lepapata (kudu horn)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

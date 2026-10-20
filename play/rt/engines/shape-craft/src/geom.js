@@ -1,4 +1,5 @@
 // Shared geometry and drawing helpers for the shape-craft engine (pure, deterministic, no DOM).
+import { EXT } from './registry.js';
 export const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 // Stable hash in [0,1) for per-cell texture (no rng needed at render time).
 export function hash(a, b = 0, c = 0) {
@@ -25,7 +26,7 @@ export const PROFILES = {
   urn: [0.4, 0.6, 0.9, 1, 0.8, 0.5, 0.58],
 };
 export function profileRadii(name, n, steps, jitter, rng, explicit) {
-  const keys = explicit && explicit.length > 1 ? explicit : PROFILES[name] ?? PROFILES.vase;
+  const keys = explicit && explicit.length > 1 ? explicit : PROFILES[name] ?? EXT.profiles[name] ?? PROFILES.vase;
   const k = keys.map((v) => clamp(v + (jitter ? (rng.next() - 0.5) * 2 * jitter : 0), 0.2, 1));
   const out = [];
   for (let i = 0; i < n; i++) {
@@ -107,7 +108,7 @@ export const FIGURES = {
   heart: { mirror: false, shapes: () => [E(0.33, 0.38, 0.2, 0.2), E(0.67, 0.38, 0.2, 0.2), Pg([[0.14, 0.46], [0.86, 0.46], [0.5, 0.9]])] },
 };
 export function rasterFigure(name, cols, rows, j) {
-  const fig = FIGURES[name] ?? FIGURES.elephant, shapes = fig.shapes(j);
+  const fig = FIGURES[name] ?? EXT.figures[name] ?? FIGURES.elephant, shapes = fig.shapes(j);
   const out = new Array(cols * rows).fill(0);
   const hit = (s, u, v) => (s.k === 'e' ? ((u - s.x) / s.rx) ** 2 + ((v - s.y) / s.ry) ** 2 <= 1 : inPoly(s.pts, u, v));
   for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {

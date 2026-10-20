@@ -1,0 +1,11 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "paint",
+  "design": "iznik",
+  "scene": "iznik",
+  "guideMode": "trace",
+  "assist": true,
+  "variation": 0.5
+ }
+}

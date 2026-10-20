@@ -1,0 +1,26 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "braid",
+  "scene": "trenzado",
+  "strands": 4,
+  "over": 1,
+  "cycles": 5,
+  "cord": "flat",
+  "cordWidth": 0.8,
+  "palette": [
+   {
+    "color": "#d8b27a"
+   },
+   {
+    "color": "#5a3418"
+   },
+   {
+    "color": "#d8b27a"
+   },
+   {
+    "color": "#5a3418"
+   }
+  ]
+ }
+}

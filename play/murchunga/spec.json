@@ -1,0 +1,296 @@
+{
+ "engine": "rhythm",
+ "variant": "murchunga",
+ "players": "1",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 110,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "murchunga",
+  "lanes": [
+   {
+    "name": "H4",
+    "hz": 440,
+    "id": "h4-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d8a040"
+   },
+   {
+    "name": "H5",
+    "hz": 550,
+    "id": "h5-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c69769"
+   },
+   {
+    "name": "H6",
+    "hz": 660,
+    "id": "h6-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#b58e92"
+   },
+   {
+    "name": "H7",
+    "hz": 770,
+    "id": "h7-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a385bb"
+   },
+   {
+    "name": "H8",
+    "hz": 880,
+    "id": "h8-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#9188cf"
+   },
+   {
+    "name": "H9",
+    "hz": 990,
+    "id": "h9-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7e98cd"
+   },
+   {
+    "name": "H10",
+    "hz": 1100,
+    "id": "h10-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#6ba8ca"
+   },
+   {
+    "name": "H12",
+    "hz": 1320,
+    "id": "h12-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#58b8c8"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Hill dance pulse, 4 beats",
+    "bpm": 96,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 0
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 1
+     },
+     {
+      "beat": 5,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 1
+     },
+     {
+      "beat": 7,
+      "lane": 4
+     },
+     {
+      "beat": 8,
+      "lane": 2
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 3
+     },
+     {
+      "beat": 11,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 13,
+      "lane": 2
+     },
+     {
+      "beat": 14,
+      "lane": 1
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "name": "Call and answer, 4 beats",
+    "bpm": 84,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 7,
+      "lane": 7
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "name": "Overtone staircase, 4 beats",
+    "bpm": 72,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 1
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 5
+     },
+     {
+      "beat": 3,
+      "lane": 7
+     },
+     {
+      "beat": 4,
+      "lane": 6
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 0
+     },
+     {
+      "beat": 8,
+      "lane": 2
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 11,
+      "lane": 7
+     },
+     {
+      "beat": 12,
+      "lane": 5
+     },
+     {
+      "beat": 13,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 1
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ]
+   }
+  ]
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

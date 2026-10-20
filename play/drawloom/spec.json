@@ -1,0 +1,178 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "drawloom",
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Vermilion",
+        "color": "#b8281e"
+      },
+      {
+        "name": "Gold",
+        "color": "#e0b242"
+      },
+      {
+        "name": "Jade",
+        "color": "#2f8a6a"
+      },
+      {
+        "name": "Midnight blue",
+        "color": "#1c2a5a"
+      },
+      {
+        "name": "Ivory",
+        "color": "#f2e8cc"
+      }
+    ],
+    "background": "#7a2a36",
+    "grid": "#b08060",
+    "motifs": [
+      "flower",
+      "leaf",
+      "bird",
+      "star",
+      "ring",
+      "dot"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Birds among flowers",
+        "rows": [
+          "....a....",
+          "...bcb...",
+          "..deaed..",
+          "....f....",
+          "gh..a..hg",
+          "...ici...",
+          "..deaed..",
+          "....a....",
+          "j.j.j.j.j"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 1
+          },
+          "b": {
+            "m": 1,
+            "c": 2
+          },
+          "c": {
+            "m": 4,
+            "c": 0
+          },
+          "d": {
+            "m": 1,
+            "c": 2
+          },
+          "e": {
+            "m": 0,
+            "c": 0
+          },
+          "f": {
+            "m": 3,
+            "c": 4
+          },
+          "g": {
+            "m": 5,
+            "c": 1
+          },
+          "h": {
+            "m": 1,
+            "c": 2
+          },
+          "i": {
+            "m": 2,
+            "c": 4
+          },
+          "j": {
+            "m": 5,
+            "c": 2
+          }
+        }
+      },
+      {
+        "name": "Peony and cloud scroll",
+        "rows": [
+          "....a....",
+          "..b.c.b..",
+          ".d..a..d.",
+          "e.b.a.b.e",
+          "....f....",
+          "e.b.a.b.e",
+          ".d..a..d.",
+          "..b.c.b..",
+          "....a...."
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 1
+          },
+          "b": {
+            "m": 1,
+            "c": 2
+          },
+          "c": {
+            "m": 3,
+            "c": 4
+          },
+          "d": {
+            "m": 4,
+            "c": 4
+          },
+          "e": {
+            "m": 5,
+            "c": 1
+          },
+          "f": {
+            "m": 2,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Border of dots and birds",
+        "rows": [
+          "ggggggggg",
+          ".h.....h.",
+          "..i...i..",
+          "...j.j...",
+          "....k....",
+          "...j.j...",
+          "..i...i..",
+          ".h.....h.",
+          "ggggggggg"
+        ],
+        "legend": {
+          "g": {
+            "m": 5,
+            "c": 2
+          },
+          "h": {
+            "m": 2,
+            "c": 4
+          },
+          "i": {
+            "m": 1,
+            "c": 1
+          },
+          "j": {
+            "m": 3,
+            "c": 1
+          },
+          "k": {
+            "m": 0,
+            "c": 4
+          }
+        }
+      }
+    ]
+  }
+}

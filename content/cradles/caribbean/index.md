@@ -2,7 +2,7 @@
 title: "The Americas: Caribbean"
 description: "The island arc between the continents."
 path: "/cradles/caribbean/"
-count: 48
+count: 54
 ---
 # The Americas: Caribbean
 
@@ -10,11 +10,12 @@ The island arc between the continents.
 
 
 
-48 entries.
+54 entries.
 
 - [Antigua Classic Yacht Race](../../games/1433-antigua-classic-yacht-race/index.md): Antigua and Barbuda, United Kingdom; Racing; Age of Contact and Craft
 - [Bahamian Straw Plaiting](../../games/1435-bahamian-straw-plaiting/index.md): Bahamas; Crafts and making; Living Traditions
 - [Bequia Boat and Model Builder](../../games/1440-bequia-boat-and-model-builder/index.md): Saint Vincent and the Grenadines; Crafts and making; Living Traditions
+- [Bongo drum](../../games/1814-bongo-drum/index.md): Cuba; Musical instruments; Living Traditions
 - [Checkers](../../games/567-checkers/index.md): Bahamas, United States; Board and table games; Crossroads and Golden Ages
 - [Four Corners](../../games/652-four-corners/index.md): Cuba; Street and playground games; Modern Heritage
 - [Grenada Nutmeg Grading](../../games/1456-grenada-nutmeg-grading/index.md): Grenada; Puzzles and mind games; Modern Heritage
@@ -27,6 +28,7 @@ The island arc between the continents.
 - [Kites](../../games/577-kites/index.md): Barbados, El Salvador; Dexterity and skill games; Classical Worlds
 - [Limbo](../../games/58-limbo/index.md): Trinidad and Tobago; Dexterity and skill games; Modern Heritage
 - [Ludo](../../games/763-ludo/index.md): Haiti, Jamaica; Board and table games; River Valleys and First Cities
+- [Maracas](../../games/6170-maracas/index.md): Cuba; Musical instruments; Living Traditions
 - [Mento band](../../games/432-mento-band/index.md): Jamaica; Musical instruments; Living Traditions
 - [Rounders](../../games/761-rounders/index.md): Guyana; Street and playground games; Modern Heritage
 - [Spinning top](../../games/678-spinning-top/index.md): Dominican Republic, Jamaica; Dexterity and skill games; Modern Heritage
@@ -35,16 +37,20 @@ The island arc between the continents.
 - [Street games](../../games/570-street-games/index.md): Bahamas; Dexterity and skill games; Deep Past and First Games
 - [Street play games](../../games/1155-street-play-games/index.md): Trinidad and Tobago; Dexterity and skill games; Modern Heritage
 - [Tap-Tap Bus Painting](../../games/1461-tap-tap-bus-painting/index.md): Haiti; Crafts and making; Living Traditions
+- [Timbales](../../games/4126-timbales/index.md): Cuba; Musical instruments; Living Traditions
 - [Tres cubano](../../games/433-tres-cubano/index.md): Cuba; Musical instruments; Living Traditions
 - [Tuk Band](../../games/1438-tuk-band/index.md): Barbados; Other traditions; Classical Worlds
 - [Yard cricket](../../games/1151-yard-cricket/index.md): Trinidad and Tobago, Barbados; Street and playground games; Age of Contact and Craft
 - [Adji-boto](../../games/1116-adji-boto/index.md): Suriname; Board and table games; Deep Past and First Games
 - [Bahamian dominoes](../../games/569-bahamian-dominoes/index.md): Bahamas; Board and table games; Crossroads and Golden Ages
 - [Burn-out](../../games/654-burn-out/index.md): Cuba; Street and playground games; Modern Heritage
+- [Conga](../../games/2046-conga/index.md): Cuba; Musical instruments; Living Traditions
 - [Cuban dominoes](../../games/653-cuban-dominoes/index.md): Cuba; Board and table games; Crossroads and Golden Ages
 - [Cush](../../games/760-cush/index.md): Guyana; Dexterity and skill games; Modern Heritage
 - [Dominoes](../../games/679-dominoes/index.md): Dominican Republic, Trinidad and Tobago; Board and table games; Crossroads and Golden Ages
 - [Draughts](../../games/576-draughts/index.md): Barbados, Antigua and Barbuda; Board and table games; Modern Heritage
+- [Family Island Regatta](../../games/8179-family-island-regatta/index.md): Bahamas; Racing; Age of Contact and Craft
+- [Güira](../../games/10191-guira/index.md): Dominican Republic; Musical instruments; Living Traditions
 - [Haitian dominoes](../../games/765-haitian-dominoes/index.md): Haiti; Board and table games; Crossroads and Golden Ages
 - [Hoyito](../../games/682-hoyito/index.md): Dominican Republic; Board and table games; Deep Past and First Games
 - [Jacks, Dandy Shandy, ring games](../../games/842-jacks-dandy-shandy-ring-games/index.md): Jamaica; Dexterity and skill games; Deep Past and First Games

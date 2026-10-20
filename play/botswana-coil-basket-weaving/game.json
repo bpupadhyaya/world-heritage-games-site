@@ -1,0 +1,13 @@
+{
+ "slug": "botswana-coil-basket-weaving",
+ "title": "Botswana coil basket weaving",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

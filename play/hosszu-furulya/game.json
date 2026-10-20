@@ -1,0 +1,13 @@
+{
+ "slug": "hosszu-furulya",
+ "title": "Long furulya",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

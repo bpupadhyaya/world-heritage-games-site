@@ -1,0 +1,225 @@
+{
+ "engine": "pattern",
+ "params": {
+  "scene": "kalocsa",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "mirror-x",
+  "palette": [
+   {
+    "name": "Red",
+    "color": "#cf2a2a"
+   },
+   {
+    "name": "Blue",
+    "color": "#2a5aa8"
+   },
+   {
+    "name": "Green",
+    "color": "#2e8a4a"
+   },
+   {
+    "name": "Violet",
+    "color": "#7a3a8a"
+   },
+   {
+    "name": "Yellow",
+    "color": "#e8b830"
+   }
+  ],
+  "background": "#f4efe2",
+  "grid": "#c8bfa4",
+  "motifs": [
+   "flower",
+   "petal",
+   "leaf",
+   "dot",
+   "star",
+   "ring"
+  ],
+  "mode": "copy",
+  "rotateMarks": true,
+  "designs": [
+   {
+    "name": "Rose bouquet",
+    "rows": [
+     "..l.d.l..",
+     "l.F.s.F.l",
+     ".p.B.B.p.",
+     "l.V.l.V.l",
+     "..Y.d.Y..",
+     ".l.F.F.l.",
+     "p.B.p.B.p",
+     "l.d.l.d.l",
+     "s.F.s.F.s"
+    ],
+    "legend": {
+     "F": {
+      "m": 0,
+      "c": 0
+     },
+     "B": {
+      "m": 0,
+      "c": 1
+     },
+     "V": {
+      "m": 0,
+      "c": 3
+     },
+     "Y": {
+      "m": 0,
+      "c": 4
+     },
+     "p": {
+      "m": 1,
+      "c": 0
+     },
+     "q": {
+      "m": 1,
+      "c": 1
+     },
+     "l": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 4
+     },
+     "s": {
+      "m": 4,
+      "c": 0
+     },
+     "r": {
+      "m": 5,
+      "c": 3
+     },
+     "g": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Flower frieze",
+    "rows": [
+     "FBFVFVFBF",
+     "d...d...d",
+     "l.s.l.s.l",
+     "d.F.d.F.d",
+     "l.Y.l.Y.l",
+     "d.p.d.p.d",
+     "l.q.l.q.l",
+     "d...d...d",
+     "FVFBFBFVF"
+    ],
+    "legend": {
+     "F": {
+      "m": 0,
+      "c": 0
+     },
+     "B": {
+      "m": 0,
+      "c": 1
+     },
+     "V": {
+      "m": 0,
+      "c": 3
+     },
+     "Y": {
+      "m": 0,
+      "c": 4
+     },
+     "p": {
+      "m": 1,
+      "c": 0
+     },
+     "q": {
+      "m": 1,
+      "c": 1
+     },
+     "l": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 4
+     },
+     "s": {
+      "m": 4,
+      "c": 0
+     },
+     "r": {
+      "m": 5,
+      "c": 3
+     },
+     "g": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Paprika wreath",
+    "rows": [
+     "..d.l.d..",
+     "l.F.d.F.l",
+     "d.rYrYr.d",
+     ".l.l.l.l.",
+     "FgB.V.BgF",
+     ".l.l.l.l.",
+     "d.rYrYr.d",
+     "l.F.d.F.l",
+     "..d.l.d.."
+    ],
+    "legend": {
+     "F": {
+      "m": 0,
+      "c": 0
+     },
+     "B": {
+      "m": 0,
+      "c": 1
+     },
+     "V": {
+      "m": 0,
+      "c": 3
+     },
+     "Y": {
+      "m": 0,
+      "c": 4
+     },
+     "p": {
+      "m": 1,
+      "c": 0
+     },
+     "q": {
+      "m": 1,
+      "c": 1
+     },
+     "l": {
+      "m": 2,
+      "c": 2
+     },
+     "d": {
+      "m": 3,
+      "c": 4
+     },
+     "s": {
+      "m": 4,
+      "c": 0
+     },
+     "r": {
+      "m": 5,
+      "c": 3
+     },
+     "g": {
+      "m": 5,
+      "c": 2
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,166 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "kanchipuram",
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Parrot green",
+        "color": "#3f9a2e"
+      },
+      {
+        "name": "Mustard",
+        "color": "#d9a21b"
+      },
+      {
+        "name": "Indigo",
+        "color": "#232a74"
+      },
+      {
+        "name": "Zari gold",
+        "color": "#ecc65a"
+      },
+      {
+        "name": "Cream",
+        "color": "#f4ead0"
+      }
+    ],
+    "background": "#a3145f",
+    "grid": "#d9a84a",
+    "motifs": [
+      "checker",
+      "stripe-h",
+      "diamond",
+      "flower",
+      "leaf",
+      "dot"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Checks and stripes",
+        "rows": [
+          "aaaaaaaaa",
+          "b.f.d.f.b",
+          ".e.c.c.e.",
+          "f.b.d.b.f",
+          ".c.e.e.c.",
+          "b.f.d.f.b",
+          ".e.c.c.e.",
+          "f.b.d.b.f",
+          "aaaaaaaaa"
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 3
+          },
+          "b": {
+            "m": 0,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 0
+          },
+          "d": {
+            "m": 3,
+            "c": 1
+          },
+          "e": {
+            "m": 4,
+            "c": 0
+          },
+          "f": {
+            "m": 5,
+            "c": 3
+          }
+        }
+      },
+      {
+        "name": "Flower and leaf border",
+        "rows": [
+          "aaaaaaaaa",
+          "f.f.f.f.f",
+          ".c.b.b.c.",
+          "d.c.d.c.d",
+          "e.b.e.b.e",
+          "d.c.d.c.d",
+          ".c.b.b.c.",
+          "f.f.f.f.f",
+          "aaaaaaaaa"
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 3
+          },
+          "b": {
+            "m": 3,
+            "c": 4
+          },
+          "c": {
+            "m": 4,
+            "c": 0
+          },
+          "d": {
+            "m": 2,
+            "c": 2
+          },
+          "e": {
+            "m": 5,
+            "c": 3
+          },
+          "f": {
+            "m": 0,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Diamond lattice in indigo",
+        "rows": [
+          "fffffffff",
+          "a.b.a.b.a",
+          ".e.e.e.e.",
+          "b.c.b.c.b",
+          ".d.d.d.d.",
+          "b.c.b.c.b",
+          ".e.e.e.e.",
+          "a.b.a.b.a",
+          "fffffffff"
+        ],
+        "legend": {
+          "a": {
+            "m": 2,
+            "c": 2
+          },
+          "b": {
+            "m": 2,
+            "c": 1
+          },
+          "c": {
+            "m": 0,
+            "c": 3
+          },
+          "d": {
+            "m": 5,
+            "c": 4
+          },
+          "e": {
+            "m": 4,
+            "c": 0
+          },
+          "f": {
+            "m": 1,
+            "c": 2
+          }
+        }
+      }
+    ]
+  }
+}

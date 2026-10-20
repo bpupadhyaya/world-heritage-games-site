@@ -1,0 +1,532 @@
+{
+ "engine": "rhythm",
+ "variant": "valiha-tube-zither",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "instrument": "valiha",
+  "root": 261.63,
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "C4",
+    "id": "C4",
+    "cents": 0,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#dbb962"
+   },
+   {
+    "name": "D4",
+    "id": "D4",
+    "cents": 200,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#dbc862"
+   },
+   {
+    "name": "E4",
+    "id": "E4",
+    "cents": 400,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#dbd662"
+   },
+   {
+    "name": "F4",
+    "id": "F4",
+    "cents": 500,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d1db62"
+   },
+   {
+    "name": "G4",
+    "id": "G4",
+    "cents": 700,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c3db62"
+   },
+   {
+    "name": "A4",
+    "id": "A4",
+    "cents": 900,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#b4db62"
+   },
+   {
+    "name": "B4",
+    "id": "B4",
+    "cents": 1100,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a6db62"
+   },
+   {
+    "name": "C5",
+    "id": "C5",
+    "cents": 1200,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#97db62"
+   },
+   {
+    "name": "D5",
+    "id": "D5",
+    "cents": 1400,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#89db62"
+   },
+   {
+    "name": "E5",
+    "id": "E5",
+    "cents": 1600,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7adb62"
+   },
+   {
+    "name": "F5",
+    "id": "F5",
+    "cents": 1700,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#6cdb62"
+   },
+   {
+    "name": "G5",
+    "id": "G5",
+    "cents": 1900,
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#62db67"
+   }
+  ],
+  "songs": [
+   {
+    "id": "rolling-six",
+    "name": "Rolling pattern, six pulses (3 + 3)",
+    "bpm": 96,
+    "meter": 6,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "C4"
+     },
+     {
+      "beat": 1,
+      "lane": "G4"
+     },
+     {
+      "beat": 2,
+      "lane": "C5"
+     },
+     {
+      "beat": 3,
+      "lane": "E4"
+     },
+     {
+      "beat": 4,
+      "lane": "A4"
+     },
+     {
+      "beat": 5,
+      "lane": "E5"
+     },
+     {
+      "beat": 6,
+      "lane": "D4"
+     },
+     {
+      "beat": 7,
+      "lane": "A4"
+     },
+     {
+      "beat": 8,
+      "lane": "D5"
+     },
+     {
+      "beat": 9,
+      "lane": "F4"
+     },
+     {
+      "beat": 10,
+      "lane": "B4"
+     },
+     {
+      "beat": 11,
+      "lane": "F5"
+     },
+     {
+      "beat": 12,
+      "lane": "C4"
+     },
+     {
+      "beat": 13,
+      "lane": "G4"
+     },
+     {
+      "beat": 14,
+      "lane": "C5"
+     },
+     {
+      "beat": 15,
+      "lane": "E5"
+     },
+     {
+      "beat": 16,
+      "lane": "C5"
+     },
+     {
+      "beat": 17,
+      "lane": "G4"
+     },
+     {
+      "beat": 18,
+      "lane": "E4"
+     },
+     {
+      "beat": 19,
+      "lane": "G4"
+     },
+     {
+      "beat": 20,
+      "lane": "C4"
+     },
+     {
+      "beat": 21,
+      "lane": "E4"
+     },
+     {
+      "beat": 22,
+      "lane": "G4"
+     },
+     {
+      "beat": 23,
+      "lane": "C4"
+     }
+    ]
+   },
+   {
+    "id": "two-hands-weave",
+    "name": "Two hands weaving, in four",
+    "bpm": 84,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "C4"
+     },
+     {
+      "beat": 0.5,
+      "lane": "C5"
+     },
+     {
+      "beat": 1,
+      "lane": "E4"
+     },
+     {
+      "beat": 1.5,
+      "lane": "E5"
+     },
+     {
+      "beat": 2,
+      "lane": "C4"
+     },
+     {
+      "beat": 2.5,
+      "lane": "E5"
+     },
+     {
+      "beat": 3,
+      "lane": "E4"
+     },
+     {
+      "beat": 3.5,
+      "lane": "G5"
+     },
+     {
+      "beat": 4,
+      "lane": "G4"
+     },
+     {
+      "beat": 4.5,
+      "lane": "G5"
+     },
+     {
+      "beat": 5,
+      "lane": "B4"
+     },
+     {
+      "beat": 5.5,
+      "lane": "E5"
+     },
+     {
+      "beat": 6,
+      "lane": "G4"
+     },
+     {
+      "beat": 6.5,
+      "lane": "E5"
+     },
+     {
+      "beat": 7,
+      "lane": "B4"
+     },
+     {
+      "beat": 7.5,
+      "lane": "F5"
+     },
+     {
+      "beat": 8,
+      "lane": "F4"
+     },
+     {
+      "beat": 8.5,
+      "lane": "F5"
+     },
+     {
+      "beat": 9,
+      "lane": "A4"
+     },
+     {
+      "beat": 9.5,
+      "lane": "D5"
+     },
+     {
+      "beat": 10,
+      "lane": "F4"
+     },
+     {
+      "beat": 10.5,
+      "lane": "D5"
+     },
+     {
+      "beat": 11,
+      "lane": "A4"
+     },
+     {
+      "beat": 11.5,
+      "lane": "E5"
+     },
+     {
+      "beat": 12,
+      "lane": "G4"
+     },
+     {
+      "beat": 12.5,
+      "lane": "E5"
+     },
+     {
+      "beat": 13,
+      "lane": "B4"
+     },
+     {
+      "beat": 13.5,
+      "lane": "C5"
+     },
+     {
+      "beat": 14,
+      "lane": "G4"
+     },
+     {
+      "beat": 14.5,
+      "lane": "C5"
+     },
+     {
+      "beat": 15,
+      "lane": "B4"
+     },
+     {
+      "beat": 15.5,
+      "lane": "C5"
+     }
+    ]
+   },
+   {
+    "id": "lilting-six",
+    "name": "Lilting upper line, in six",
+    "bpm": 120,
+    "meter": 6,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "C5"
+     },
+     {
+      "beat": 1,
+      "lane": "E5"
+     },
+     {
+      "beat": 2,
+      "lane": "G5"
+     },
+     {
+      "beat": 3,
+      "lane": "E5"
+     },
+     {
+      "beat": 4,
+      "lane": "C5"
+     },
+     {
+      "beat": 5,
+      "lane": "G4"
+     },
+     {
+      "beat": 6,
+      "lane": "A4"
+     },
+     {
+      "beat": 7,
+      "lane": "C5"
+     },
+     {
+      "beat": 8,
+      "lane": "E5"
+     },
+     {
+      "beat": 9,
+      "lane": "C5"
+     },
+     {
+      "beat": 10,
+      "lane": "A4"
+     },
+     {
+      "beat": 11,
+      "lane": "G4"
+     },
+     {
+      "beat": 12,
+      "lane": "E4"
+     },
+     {
+      "beat": 13,
+      "lane": "G4"
+     },
+     {
+      "beat": 14,
+      "lane": "A4"
+     },
+     {
+      "beat": 15,
+      "lane": "G4"
+     },
+     {
+      "beat": 16,
+      "lane": "E4"
+     },
+     {
+      "beat": 17,
+      "lane": "C4"
+     },
+     {
+      "beat": 18,
+      "lane": "E4"
+     },
+     {
+      "beat": 19,
+      "lane": "G4"
+     },
+     {
+      "beat": 20,
+      "lane": "E4"
+     },
+     {
+      "beat": 21,
+      "lane": "C4"
+     },
+     {
+      "beat": 22,
+      "lane": "E4"
+     },
+     {
+      "beat": 23,
+      "lane": "C4"
+     }
+    ]
+   },
+   {
+    "id": "cascade-figure",
+    "name": "Falling cascade and rise",
+    "bpm": 76,
+    "meter": 4,
+    "length": 18,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Highlands of Madagascar",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "G5"
+     },
+     {
+      "beat": 1,
+      "lane": "E5"
+     },
+     {
+      "beat": 2,
+      "lane": "C5"
+     },
+     {
+      "beat": 3,
+      "lane": "A4"
+     },
+     {
+      "beat": 4,
+      "lane": "G4"
+     },
+     {
+      "beat": 5,
+      "lane": "E4"
+     },
+     {
+      "beat": 6,
+      "lane": "C4"
+     },
+     {
+      "beat": 8,
+      "lane": "C4"
+     },
+     {
+      "beat": 9,
+      "lane": "E4"
+     },
+     {
+      "beat": 10,
+      "lane": "G4"
+     },
+     {
+      "beat": 11,
+      "lane": "C5"
+     },
+     {
+      "beat": 12,
+      "lane": "E5"
+     },
+     {
+      "beat": 13,
+      "lane": "C5"
+     },
+     {
+      "beat": 14,
+      "lane": "G4"
+     },
+     {
+      "beat": 16,
+      "lane": "C4"
+     }
+    ],
+    "note": "A teaching figure in the style of the instrument: notes tumble down the scale from the upper strings, then climb back in steps and leaps."
+   }
+  ]
+ }
+}

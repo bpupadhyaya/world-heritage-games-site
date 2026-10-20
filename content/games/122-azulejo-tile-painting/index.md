@@ -44,8 +44,8 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Glassblowing](../../games/121-glassblowing/index.md)
 - [Txalaparta Duet](../../games/390-txalaparta-duet/index.md)
 - [Tessellated Mosaic Making](../../games/500-tessellated-mosaic-making/index.md)
-- [Swahili carved door](../../games/90-swahili-carved-door/index.md)
-- [Thai fruit and vegetable carving](../../games/114-thai-fruit-and-vegetable-carving/index.md)
+- [Albanian filigree](../../games/5102-albanian-filigree/index.md)
+- [Kabyle Enamel Jewellery](../../games/6086-kabyle-enamel-jewellery/index.md)
 
 ## Sources
 

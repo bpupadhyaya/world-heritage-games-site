@@ -1,0 +1,23 @@
+{
+ "title": "Kanklės (Baltic Zither)",
+ "native": "Kanklės",
+ "alt": [],
+ "summary": "Kanklės is a Baltic box zither carved from wood, with a row of strings stretched from a peg bar to the far edge. Played on the lap, it rings softly and is used to accompany and double old village songs.",
+ "howToPlay": [
+  "The strings lie in order of pitch, lowest on the left, each marked with its note name.",
+  "A bead glides down a string toward the point where the fingertip plucks. Pluck the string just as the bead arrives.",
+  "Start with the slow village song, then try the close-seconds line, where neighbouring strings answer each other in the style of the old canon songs.",
+  "Strings keep ringing after a pluck, so quick notes blend into a shimmer, as on the real zither."
+ ],
+ "rules": [
+  "Ten strings are tuned to a major scale, from G up to the B above the next G.",
+  "A pluck on the beat is perfect, a near one is good, and extra plucks cost points.",
+  "Each song is played twice through.",
+  "Each string is plucked once per note; the ringing is only for the ear."
+ ],
+ "heritageNote": "Kanklės has been made and played in Lithuania and neighbouring Baltic lands for many centuries, in regional forms with roughly five to a dozen strings. Singers of the old multi-voice songs long used it to double and support their lines.",
+ "countries": [
+  "Lithuania"
+ ],
+ "credits": []
+}

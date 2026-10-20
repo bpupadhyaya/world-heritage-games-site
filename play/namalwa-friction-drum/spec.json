@@ -1,0 +1,119 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.3,
+  "instrument": "friction lion drum",
+  "lanes": [
+   {
+    "name": "Roar high",
+    "hz": 130.0,
+    "timbre": "bass",
+    "color": "#f27260"
+   },
+   {
+    "name": "Roar low",
+    "hz": 82.0,
+    "timbre": "bass",
+    "color": "#f28960"
+   },
+   {
+    "name": "Skin",
+    "hz": 110.0,
+    "timbre": "bass",
+    "color": "#f2a060"
+   },
+   {
+    "name": "Shell",
+    "hz": 420.0,
+    "timbre": "bass",
+    "color": "#f2b860"
+   }
+  ],
+  "songs": [
+   {
+    "id": "lion-call",
+    "name": "A lion call",
+    "bpm": 88,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Friction drum, Zambia",
+    "note": "A teaching call: a long roar answered by short knocks.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Roar low"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Skin"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Shell"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Roar high"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Skin"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Shell"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "lion-night",
+    "name": "Night roar",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Friction drum, Zambia",
+    "note": "Roars and knocks in a short phrase.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Roar high"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Skin"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Shell"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Roar low"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Skin"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Shell"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Roar high"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Roar low"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -2,7 +2,7 @@
 title: "Africa: Southern Africa"
 description: "From the Zambezi to the Cape."
 path: "/cradles/africa-south/"
-count: 31
+count: 35
 ---
 # Africa: Southern Africa
 
@@ -10,7 +10,7 @@ From the Zambezi to the Cape.
 
 
 
-31 entries.
+35 entries.
 
 - [Basotho blanket pattern designer](../../games/201-basotho-blanket-pattern-designer/index.md): Lesotho; Crafts and making; Living Traditions
 - [Basotho pony mountain race](../../games/1238-basotho-pony-mountain-race/index.md): Lesotho; Racing; Age of Contact and Craft
@@ -29,17 +29,21 @@ From the Zambezi to the Cape.
 - [Nguni stick-fighting rhythm skirmish](../../games/209-nguni-stick-fighting-rhythm-skirmish/index.md): South Africa, Eswatini; Dexterity and skill games; Modern Heritage
 - [Nhodo](../../games/1346-nhodo/index.md): Zimbabwe; Dexterity and skill games; Deep Past and First Games
 - [Owela](../../games/960-owela/index.md): Namibia; Board and table games; Deep Past and First Games
-- [Shona stone sculpture carving](../../games/203-shona-stone-sculpture-carving/index.md): Zimbabwe; Crafts and making; Living Traditions
 - [Swazi carved figures and craft market](../../games/1377-swazi-carved-figures-and-craft-market/index.md): Eswatini; Crafts and making; Living Traditions
 - [Tsoro Yematatu](../../games/196-tsoro-yematatu/index.md): Zimbabwe; Board and table games; River Valleys and First Cities
 - [Venda team dances](../../games/1397-venda-team-dances/index.md): South Africa; Dances; Living Traditions
+- [Vuvuzela](../../games/7988-vuvuzela/index.md): South Africa; Musical instruments; Crossroads and Golden Ages
 - [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md): South Africa; Crafts and making; Living Traditions
 - [Dibeke](../../games/1078-dibeke/index.md): South Africa, Botswana; Street and playground games; Modern Heritage
 - [Kiela](../../games/544-kiela/index.md): Angola; Board and table games; Deep Past and First Games
 - [Koi](../../games/599-koi/index.md): Botswana; Street and playground games; Modern Heritage
+- [Lepapata kudu horn](../../games/6903-lepapata-kudu-horn/index.md): Botswana; Musical instruments; Crossroads and Golden Ages
 - [Mashonisa](../../games/882-mashonisa/index.md): Lesotho; Other traditions; Living Traditions
+- [Matepe](../../games/3120-matepe/index.md): Zimbabwe; Musical instruments; Living Traditions
+- [Matlhowa leg rattles](../../games/6906-matlhowa-leg-rattles/index.md): Botswana; Musical instruments; Living Traditions
 - [Moruba / Ncuva](../../games/1080-moruba-ncuva/index.md): South Africa; Board and table games; Deep Past and First Games
 - [Ntxuva](../../games/954-ntxuva/index.md): Mozambique; Board and table games; Deep Past and First Games
 - [Tchouba](../../games/955-tchouba/index.md): Mozambique; Board and table games; Deep Past and First Games
+- [Timbalamhala antelope-horn orchestra](../../games/17552-timbalamhala-antelope-horn-orchestra/index.md): Mozambique; Musical instruments; Living Traditions
 - [Tsoro](../../games/1222-tsoro/index.md): Zimbabwe; Board and table games; Deep Past and First Games
 - [Umlabalaba](../../games/881-umlabalaba/index.md): Lesotho, Eswatini; Board and table games; River Valleys and First Cities

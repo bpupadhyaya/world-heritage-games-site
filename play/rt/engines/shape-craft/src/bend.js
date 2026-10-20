@@ -1,6 +1,7 @@
 // bend: bend a wire into a silhouette. Drag the points of each wire (and place the wheels) to match the outline.
 // Score = a partial Hausdorff distance between the player's wire and the target outline, in figure heights.
 import { clamp, starsFor } from './geom.js';
+import { EXT } from './registry.js';
 import { tint, litEdge, rgba, shadowed, rrect, shelf } from './fx.js';
 import { drawTool, wallLift } from './scenes.js';
 const shade = tint;
@@ -68,7 +69,7 @@ export function createBend(P, env) {
   const { rng, audio, fx, sound } = env;
   const SC = P.scene ?? {}, PM = SC.pitch ?? 1, WV = SC.wave ?? 'triangle';
   let clock = 0, lastGrab = null, lastRelease = -9;
-  const FIG = BEND_FIGURES[P.figure] ?? BEND_FIGURES.car;
+  const FIG = BEND_FIGURES[P.figure] ?? EXT.bendFigures[P.figure] ?? BEND_FIGURES.car;
   let target, cur, undo, done, geo = null, grab = null, moved = false, tSamples, cache = null, acc = 0, hit = 26;
 
   const lineFrom = (from, n) => Array.from({ length: n }, (_, i) => { const t = n === 1 ? 0 : i / (n - 1); return [from[0][0] + (from[1][0] - from[0][0]) * t, from[0][1] + (from[1][1] - from[0][1]) * t]; });

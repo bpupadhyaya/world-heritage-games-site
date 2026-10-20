@@ -1,0 +1,13 @@
+{
+ "slug": "tar-and-mugham-modes",
+ "title": "Tar (Azerbaijani long-neck lute)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

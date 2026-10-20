@@ -1,0 +1,257 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "bongo",
+  "lanes": [
+   {
+    "name": "Macho open",
+    "hz": 520,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Macho slap",
+    "hz": 900,
+    "timbre": "slap",
+    "color": "#e8a038"
+   },
+   {
+    "name": "Hembra open",
+    "hz": 340,
+    "timbre": "bass",
+    "color": "#d9622b"
+   },
+   {
+    "name": "Hembra slap",
+    "hz": 640,
+    "timbre": "slap",
+    "color": "#c8452f"
+   },
+   {
+    "name": "Rim",
+    "hz": 1100,
+    "timbre": "rim",
+    "color": "#4f9fd6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "martillo",
+    "name": "Martillo, 4 beats",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The steady hammer pattern.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 1,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 2,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 3,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 4,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 5,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 6,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 7,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Macho open"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "slap-fills",
+    "name": "Slaps and fills, 4 beats",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Slaps mark the answers.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 1,
+      "lane": "Macho slap"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 2,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Hembra slap"
+     },
+     {
+      "beat": 3,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Macho slap"
+     },
+     {
+      "beat": 4,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 5,
+      "lane": "Macho slap"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 6,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Hembra slap"
+     },
+     {
+      "beat": 7,
+      "lane": "Macho slap"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Rim"
+     }
+    ]
+   },
+   {
+    "id": "rim-call",
+    "name": "Rim call, 4 beats",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Rim clicks call and the heads answer.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Rim"
+     },
+     {
+      "beat": 1,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 2,
+      "lane": "Rim"
+     },
+     {
+      "beat": 3,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Hembra slap"
+     },
+     {
+      "beat": 4,
+      "lane": "Rim"
+     },
+     {
+      "beat": 5,
+      "lane": "Macho open"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Macho slap"
+     },
+     {
+      "beat": 6,
+      "lane": "Rim"
+     },
+     {
+      "beat": 7,
+      "lane": "Hembra open"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Macho open"
+     }
+    ]
+   }
+  ]
+ }
+}

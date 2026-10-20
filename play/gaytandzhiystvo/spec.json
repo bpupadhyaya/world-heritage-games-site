@@ -1,0 +1,29 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "braid",
+  "scene": "gaitan",
+  "strands": 5,
+  "over": 2,
+  "cycles": 3,
+  "cord": "round",
+  "cordWidth": 0.7,
+  "palette": [
+   {
+    "color": "#c0281c"
+   },
+   {
+    "color": "#f2eadb"
+   },
+   {
+    "color": "#1c1a18"
+   },
+   {
+    "color": "#f2eadb"
+   },
+   {
+    "color": "#c0281c"
+   }
+  ]
+ }
+}

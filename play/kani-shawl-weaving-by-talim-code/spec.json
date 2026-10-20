@@ -1,0 +1,207 @@
+{
+ "engine": "pattern",
+ "variant": "kani-shawl-weaving-by-talim-code",
+ "players": "1",
+ "params": {
+  "scene": "kani",
+  "cols": 11,
+  "rows": 9,
+  "symmetry": "mirror-x",
+  "palette": [
+   {
+    "name": "Madder red",
+    "color": "#b02a30"
+   },
+   {
+    "name": "Saffron",
+    "color": "#e0a030"
+   },
+   {
+    "name": "Indigo",
+    "color": "#26346a"
+   },
+   {
+    "name": "Cream",
+    "color": "#efe4c8"
+   },
+   {
+    "name": "Leaf green",
+    "color": "#2e6a4a"
+   }
+  ],
+  "background": "#2a2038",
+  "grid": "#4a3a66",
+  "motifs": [
+   "leaf",
+   "diamond",
+   "wave",
+   "dot",
+   "star",
+   "arch"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 4,
+  "designs": [
+   {
+    "name": "Boteh border",
+    "rows": [
+     "d.d.d.d.d.d",
+     "c.c.c.c.c.c",
+     "..b.e.e.b..",
+     ".b.e.f.e.b.",
+     "b.e.a.a.e.b",
+     ".b.e.f.e.b.",
+     "..b.e.e.b..",
+     "g.g.g.g.g.g",
+     "d.d.d.d.d.d"
+    ],
+    "legend": {
+     "a": {
+      "m": 1,
+      "c": 1
+     },
+     "b": {
+      "m": 0,
+      "c": 0
+     },
+     "c": {
+      "m": 3,
+      "c": 3
+     },
+     "d": {
+      "m": 5,
+      "c": 2
+     },
+     "e": {
+      "m": 0,
+      "c": 4
+     },
+     "f": {
+      "m": 4,
+      "c": 1
+     },
+     "g": {
+      "m": 2,
+      "c": 3
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     },
+     "i": {
+      "m": 3,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Jaal lattice",
+    "rows": [
+     "h.h.h.h.h.h",
+     ".a.a.a.a.a.",
+     "c.f.c.c.f.c",
+     ".a.a.a.a.a.",
+     "h.h.h.h.h.h",
+     ".a.a.a.a.a.",
+     "c.f.c.c.f.c",
+     ".a.a.a.a.a.",
+     "h.h.h.h.h.h"
+    ],
+    "legend": {
+     "a": {
+      "m": 1,
+      "c": 1
+     },
+     "b": {
+      "m": 0,
+      "c": 0
+     },
+     "c": {
+      "m": 3,
+      "c": 3
+     },
+     "d": {
+      "m": 5,
+      "c": 2
+     },
+     "e": {
+      "m": 0,
+      "c": 4
+     },
+     "f": {
+      "m": 4,
+      "c": 1
+     },
+     "g": {
+      "m": 2,
+      "c": 3
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     },
+     "i": {
+      "m": 3,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Leaf and wave",
+    "rows": [
+     "g.g.g.g.g.g",
+     "..e.....e..",
+     ".e.b...b.e.",
+     "e.b.f.f.b.e",
+     ".b.a.i.a.b.",
+     "e.b.f.f.b.e",
+     ".e.b...b.e.",
+     "..e.....e..",
+     "g.g.g.g.g.g"
+    ],
+    "legend": {
+     "a": {
+      "m": 1,
+      "c": 1
+     },
+     "b": {
+      "m": 0,
+      "c": 0
+     },
+     "c": {
+      "m": 3,
+      "c": 3
+     },
+     "d": {
+      "m": 5,
+      "c": 2
+     },
+     "e": {
+      "m": 0,
+      "c": 4
+     },
+     "f": {
+      "m": 4,
+      "c": 1
+     },
+     "g": {
+      "m": 2,
+      "c": 3
+     },
+     "h": {
+      "m": 1,
+      "c": 0
+     },
+     "i": {
+      "m": 3,
+      "c": 1
+     }
+    }
+   }
+  ]
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

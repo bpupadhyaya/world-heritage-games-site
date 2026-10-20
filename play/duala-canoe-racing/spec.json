@@ -1,0 +1,47 @@
+{
+ "engine": "tempo-race",
+ "variant": "duala-canoe-racing",
+ "players": "1",
+ "params": {
+  "craft": {
+   "id": "dugout"
+  },
+  "vehicle": {
+   "kind": "paddle"
+  },
+  "rhythm": {
+   "bpm": 80,
+   "window": 0.09
+  },
+  "course": {
+   "length": 520,
+   "lanes": 4,
+   "shape": "straight",
+   "terrain": "water",
+   "scenery": "none",
+   "current": 0.3,
+   "obstacles": [
+    {
+     "at": 260,
+     "kind": "buoy"
+    }
+   ],
+   "rough": [
+    {
+     "from": 340,
+     "to": 430
+    }
+   ]
+  },
+  "opponents": {
+   "count": 3,
+   "skill": 0.88,
+   "spread": 0.025
+  },
+  "rounds": 1,
+  "labels": {
+   "left": "Left side",
+   "right": "Right side"
+  }
+ }
+}

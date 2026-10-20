@@ -1,0 +1,22 @@
+{
+ "title": "Kumihimo braid",
+ "native": "組紐",
+ "countries": [
+  "Japan"
+ ],
+ "summary": "Braid a silk cord on a notched disk: move one thread from the lower left up to the top, one from the top right down to the bottom, and turn the disk a quarter turn, again and again.",
+ "howToPlay": [
+  "Eight threads sit in four pairs round the disk.",
+  "Tap the lit thread, then tap the ringed notch.",
+  "Do both moves and the disk turns by itself.",
+  "Braid every turn, then press Check."
+ ],
+ "rules": [
+  "Each turn has two moves and a quarter turn of the disk.",
+  "Three stars for 88 or more, two stars for 65 and one star for 40.",
+  "Doing nothing scores nothing. Watch and learn plays a whole round for you."
+ ],
+ "heritageNote": "Kumihimo is the Japanese art of braiding silk cords. On a notched disk, threads are moved between notches in a fixed order, and a quarter turn of the disk after every pair of moves makes a firm round cord with a spiral of colour.",
+ "alt": [],
+ "credits": []
+}

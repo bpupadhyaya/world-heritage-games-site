@@ -9,6 +9,9 @@ import { clamp as _c, mix, rgba, lighter, darker, glow, rrect, text, vgrad, rgra
 import { createStage } from './stage.js';
 import { setHero } from './stagekit.js';
 import { voice, fx } from '../../../platform/engine-kit/synth.js';
+import { evoice, startDrone } from './voices.js';
+import { TIMBRES, LAYOUT_TIMBRE, LANE_VOICE_RULES, STRIKE_VOICES } from './voice-registry.js';
+import './voices-ext.js';
 
 export const SCALES = {
   pentatonic: [0, 200, 400, 700, 900],
@@ -27,30 +30,12 @@ export const SCALES = {
   chromatic: [0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100],
 };
 
-// Timbre presets: how a stroke sounds. `to` is a ratio of the start frequency (pitch fall for drums).
-const TIMBRES = {
-  bass: { type: 'sine', to: 0.55, dur: 0.38, vol: 0.4 },
-  tone: { type: 'triangle', to: 0.8, dur: 0.22, vol: 0.32 },
-  slap: { type: 'sawtooth', to: 0.9, dur: 0.09, vol: 0.2 },
-  rim: { type: 'square', to: 0.95, dur: 0.06, vol: 0.14 },
-  pluck: { type: 'triangle', to: 0.995, dur: 0.6, vol: 0.3 },
-  string: { type: 'sawtooth', to: 0.998, dur: 0.55, vol: 0.14 },
-  mallet: { type: 'sine', to: 0.99, dur: 0.55, vol: 0.34 },
-  bell: { type: 'sine', to: 0.99, dur: 0.8, vol: 0.28 },
-  breath: { type: 'sine', to: null, dur: 0.6, vol: 0.3 },
-  reed: { type: 'sawtooth', to: null, dur: 0.6, vol: 0.13 },
-  stomp: { type: 'sine', to: 0.4, dur: 0.2, vol: 0.45 },
-  clap: { type: 'square', to: 0.8, dur: 0.05, vol: 0.16 },
-  gong: { type: 'sine', to: 0.97, dur: 1.2, vol: 0.4 },
-};
-const LAYOUT_TIMBRE = { pads: 'tone', strings: 'pluck', keys: 'mallet', holes: 'breath', steps: 'stomp', circle: 'bell' };
-
 export const DEFAULTS = {
   layout: 'pads', mode: 'follow', root: 220, scale: 'pentatonic',
   lanes: [{ name: 'Low', timbre: 'bass', hz: 110 }, { name: 'Mid', timbre: 'tone', hz: 220 }, { name: 'High', timbre: 'slap', hz: 330 }],
   notes: {}, songs: [{ name: 'Basic pattern', bpm: 80, meter: 4, steps: [{ beat: 0, lane: 0 }, { beat: 1, lane: 1 }, { beat: 2, lane: 2 }, { beat: 3, lane: 1 }] }],
   song: 0, tempo: 1, tolerance: 1, leadIn: null, phrase: null, loops: 1, duration: 40, subdivision: 2,
-  drone: false, pulse: null, guide: true, memory: false, colors: null,
+  drone: false, droneHz: null, grace: null, vocal: null, pulse: null, guide: true, memory: false, colors: null,
 };
 
 const KEYS = ['KeyA', 'KeyS', 'KeyD', 'KeyF', 'KeyG', 'KeyH', 'KeyJ', 'KeyK', 'KeyL', 'Semicolon'];
@@ -80,7 +65,7 @@ export function createActivity(userParams, env) {
     const hz = base.hz ?? (base.cents != null ? P.root * 2 ** (base.cents / 1200) : degreeHz(base.degree ?? i));
     const tim = TIMBRES[base.timbre ?? LAYOUT_TIMBRE[P.layout]] ?? TIMBRES.tone;
     return { id: l.id ?? l.name, name: l.name ?? `${i + 1}`, hz, tim, timName: base.timbre ?? LAYOUT_TIMBRE[P.layout], wave: base.wave ?? tim.type, dur: base.dur ?? tim.dur, color: l.color ?? colors[(l.row ?? i) % colors.length],
-      holes: l.holes ?? '', icon: l.icon ?? 'foot-l', row: l.row ?? 0, string: l.string, fret: l.fret };
+      holes: l.holes ?? '', icon: l.icon ?? 'foot-l', row: l.row ?? 0, string: l.string, fret: l.fret, vowel: l.vowel, reg: l.reg };
   });
   const N = lanes.length;
   const laneIndex = (v) => {
@@ -113,6 +98,8 @@ export function createActivity(userParams, env) {
   let clock, targets, demos, guide, sections, pts, strays, combo, maxCombo, counts, done, flash, pops, endT, nextBeat, nextDemo, lastTip;
   let firstStroke = null;
   let free, lastSlot, droneT, layout = null, attractIdx, auto = false;
+  const droneKind = typeof P.drone === 'string' && P.drone !== 'pad' ? P.drone : null;   // 1.7.0: 'reed' | 'vocal' constant drone in every mode
+  let droneOn = false, droneH = null;
   let sus = [], hold = [], voices = [], ptr = { x: 0, y: 0, down: false };
   // presentation-only state (never read by the rules or by getState)
   let anim = 0, comboPop = 0, missFlash = 0, rs = 20241012, pi = 0;
@@ -161,6 +148,7 @@ export function createActivity(userParams, env) {
     comboPop = 0; missFlash = 0; anim = 0; for (const p of part) p.on = false;
     sus = lanes.map(() => 0); hold = lanes.map(() => 0); voices = [];
     counts = { perfect: 0, good: 0, miss: 0, off: 0, strokes: 0 };
+    droneH?.stop(0.2); droneH = null; droneOn = false;
     nextBeat = -leadBeats; nextDemo = 0; lastTip = ''; droneT = 0; firstStroke = null; lastSlot = null; attractIdx = 0; auto = false;
     build();
     free = { want: Math.max(4, Math.floor((P.duration / spb) * 0.3)) };
@@ -178,12 +166,13 @@ export function createActivity(userParams, env) {
   // tuned bars, tines, bells, gongs, breath and reed pipes, dance steps). Pitch comes from the lane data; the same strike()
   // serves Play, Watch and learn and the attract mode, so all of them sound identical and at the same level.
   const instName = `${instKey} ${stage.id ?? ''}`;
-  const VEL = { bass: 0.9, tone: 0.8, slap: 0.65, rim: 0.55, pluck: 0.8, string: 0.75, mallet: 0.85, bell: 0.7, breath: 0.75, reed: 0.7, stomp: 0.9, clap: 0.7, gong: 0.85 };
+  const VEL = { vocal: 0.85, scrape: 0.85, bass: 0.9, tone: 0.8, slap: 0.65, rim: 0.55, pluck: 0.8, string: 0.75, mallet: 0.85, bell: 0.7, breath: 0.75, reed: 0.7, stomp: 0.9, clap: 0.7, gong: 0.85 };
   const later = (delay, k, o) => { voice(audio, k, { ...o, delay }); };
   const voiceKind = (i) => {
     const l = lanes[i];
     if (stage.strumLanes?.includes(i)) return 'strum';
     if (stage.voiceOf) { const v = stage.voiceOf(i); if (v) return v; }
+    for (const rule of LANE_VOICE_RULES) { const v = rule(l, { stage, P, instName }); if (v) return v; }   // 1.9.0: registerLaneVoice (voice-registry.js)
     switch (l.timName) {
       case 'pluck': return 'pluck';
       case 'string': return stage.bowed ? 'bow' : P.layout === 'strings' ? 'drone' : 'bow';
@@ -193,6 +182,8 @@ export function createActivity(userParams, env) {
       case 'tone': return stage.id === 'mortar' ? 'wood' : 'drum';
       case 'rim': return stage.id === 'mortar' ? 'soft' : 'drum';
       case 'breath': return 'breath';
+      case 'vocal': return stage.id === 'throat' ? 'throat' : stage.id === 'whistle' ? 'whistle' : 'vocal';
+      case 'scrape': return 'scrape';
       case 'reed': return /dizi|flute|bansuri|pipe|whistle|fife|ney|quena/i.test(instName) ? 'breath' : 'reed';
       case 'gong': return 'gong';
       case 'clap': return 'clap';
@@ -231,16 +222,64 @@ export function createActivity(userParams, env) {
     if (/^(ka|ke|kat|kha)$/.test(n)) return voice(audio, 'drum', { ...base, hz: l.hz * 0.8, style: 'slap', dur: 0.09, vel: 0.7 });
     return voice(audio, 'drum', { ...base, style: 'dayan', dur: 0.3 });
   };
+  // 1.7.0: the voice, the bagpipe reed and the rubboard (engine-local voices, see voices.js). Voice and chanter are monophonic: a new
+  // note ends the previous one, which is what makes a pipe sound articulated and a yodel flip from one register to the other.
+  let mono = [], lastLane = -1, lastAt = -9;
+  const graceHz = (i) => {
+    if (P.grace == null || P.grace === false) return 0;
+    const ref = P.grace === true ? -1 : laneIndex(P.grace);
+    if (ref >= 0 && ref !== i) return lanes[ref].hz;
+    let best = null; lanes.forEach((q, k) => { if (k !== i && (!best || q.hz > best.hz)) best = q; });   // true: the highest other note of the instrument
+    return best ? best.hz : lanes[i].hz * 1.5;
+  };
+  const sing = (i, l, kind, base, dur, vel, prev) => {
+    const V = P.vocal ?? {}, hz = l.hz, near = prev.near;
+    const note = stage.note ? stage.note(i) : { from: 0, crossed: false };
+    for (const h of mono) h?.cut?.();
+    mono = [];
+    if (kind === 'scrape') {
+      const n = String(l.name).toLowerCase(), d = /up/.test(n) ? 'up' : /tick|click|tap|dig|rim|beat|pop|clack/.test(n) ? 'tick' : 'down';
+      evoice(audio, 'scrape', { hz, dir: d, vel, dur: Math.min(0.3, Math.max(0.08, dur)) });
+      return;
+    }
+    if (kind === 'vocal') {
+      const reg = stage.regOf ? stage.regOf(i) : 'chest';
+      mono.push(evoice(audio, 'vocal', { hz, vel, dur: Math.max(0.25, dur), reg, vowel: l.vowel ?? V.vowel ?? 'a', from: note.crossed && near ? note.from : 0, echo: V.echo ?? 1 }));
+      if (V.second) mono.push(evoice(audio, 'vocal', { hz: hz * V.second, vel: vel * 0.62, dur: Math.max(0.25, dur), reg, vowel: V.secondVowel ?? 'o', from: 0, echo: V.echo ?? 1, delay: 0.014, pan: 0.35 }));
+    } else if (kind === 'throat') {
+      mono.push(evoice(audio, 'throat', { hz, f0: V.fundamental ?? P.root, sub: !!V.sub, vel, dur: Math.max(0.3, dur), from: near ? note.from : 0 }));
+    } else if (kind === 'whistle') {
+      mono.push(evoice(audio, 'whistle', { hz, vel, dur: Math.max(0.12, dur), from: near ? note.from : 0, echo: V.echo ?? 0.8 }));
+    } else {   // pipe: the chanter reed, with a short separation and an optional grace note (a "cut") on a repeated note
+      const g = prev.grace;
+      let delay = 0;
+      if (g) { mono.push(evoice(audio, 'reedpipe', { hz: g, vel: vel * 0.8, dur: 0.03, soft: false, style: stage.reedStyle })); delay = 0.042; }
+      mono.push(evoice(audio, 'reedpipe', { hz, vel, dur: Math.max(0.1, dur - 0.04), delay, style: stage.reedStyle }));
+    }
+  };
   let lastDrone = -9;
   const strike = (i, len = 0) => {
     const l = lanes[i];
     if (!l) return;
     const hz = l.hz, dur = len > 0 ? Math.max(l.dur, len * spb) : l.dur, kind = voiceKind(i), vel = VEL[l.timName] ?? 0.75;
-    sus[i] = Math.max(sus[i] ?? 0, kind === 'bow' || kind === 'breath' || kind === 'reed' ? dur : Math.min(dur, 0.7));
-    env.options?.voiceLog?.push({ lane: l.name, tim: l.timName, kind, hz: Math.round(hz), stage: stage.id });   // audits (tools): which voice every lane triggers
+    sus[i] = Math.max(sus[i] ?? 0, kind === 'bow' || kind === 'breath' || kind === 'reed' || stage.sustained ? dur : Math.min(dur, 0.7));
+    // 1.7.0: what the previous note was (the break glide, the grace note on a repeated pipe note); logged for audits and tests
+    const prev = { near: clock - lastAt < spb * 1.6, grace: kind === 'pipe' && lastLane === i && clock - lastAt < spb * 1.6 ? graceHz(i) : 0 };
+    lastLane = i; lastAt = clock;
+    if (prev.grace) env.options?.soundLog?.push({ kind: 'grace', hz: Math.round(prev.grace), lane: l.name });
+    env.options?.voiceLog?.push({ lane: l.name, tim: l.timName, kind, hz: Math.round(hz), stage: stage.id, reg: stage.regOf ? stage.regOf(i) : undefined });   // audits (tools): which voice every lane triggers
     if (!audio) return;
     const base = { hz, vel, dur, inst: instName };
     let ok = true;
+    if (kind === 'vocal' || kind === 'throat' || kind === 'whistle' || kind === 'pipe' || kind === 'scrape') { sing(i, l, kind, base, dur, vel, prev); return; }
+    const sv = STRIKE_VOICES.get(kind);   // 1.9.0: voices added through voice-registry.js (registerStrikeVoice)
+    if (sv) {
+      if (sv.mono) { for (const h of mono) h?.cut?.(); mono = []; }
+      const h = sv.play({ audio, lane: l, index: i, base, hz, dur, vel, prev, P, stage, env, clock, voice, evoice });
+      if (sv.mono && h) mono.push(...[].concat(h));
+      return;
+    }
+    if (stage.sound) { if (stage.sound(audio, { hz, vel, dur: Math.max(0.5, dur) }) || audio.context) return; }   // stages with their own voices (winds2.js)
     if (stage.id === 'tabla') { ok = tablaBol(l, base); if (!ok && !audio.context) audio.tone({ freq: hz, dur, type: l.wave, vol: l.tim.vol }); return; }
     if (stage.id === 'mijwiz' && audio) {   // one pipe drones on the tonic while the other carries the tune (breath is continuous)
       if (clock - lastDrone > 0.9) { lastDrone = clock; const low = Math.min(...lanes.map((q) => q.hz)); voice(audio, 'reed', { hz: low, vel: 0.2, dur: 1.2, inst: instName }); }
@@ -257,7 +296,7 @@ export function createActivity(userParams, env) {
         break;
       }
       case 'bow': ok = voice(audio, 'bow', { ...base, dur: Math.max(0.5, dur) }); break;
-      case 'bar': ok = voice(audio, 'bar', { ...base, dur: Math.max(0.4, dur), buzz: /balafon|gyil|xylo/i.test(instName) ? 0.9 : 0 }); break;
+      case 'bar': ok = voice(audio, 'bar', { ...base, dur: Math.max(0.4, dur), buzz: /balafon|gyil|xylo|silimba/i.test(instName) ? 0.9 : 0 }); break;
       case 'pan': ok = voice(audio, 'steelpan', { ...base, dur: Math.max(0.6, dur) }); break;
       case 'tine': ok = voice(audio, 'tine', { ...base, dur: Math.max(0.7, dur) }); break;
       case 'bell': ok = voice(audio, 'bell', { ...base, dur: 1.4 }); break;
@@ -378,6 +417,18 @@ export function createActivity(userParams, env) {
     for (let i = 0; i < N; i++) { flash[i] = Math.max(0, flash[i] - dt * 4); sus[i] = Math.max(0, sus[i] - dt); hold[i] = Math.min(1, sus[i] / 0.45); }
     if (voices.length) { let k = 0; for (const v of voices) { if (v.at <= clock) audio?.tone(v.o); else voices[k++] = v; } voices.length = k; }
     anim += dt; comboPop = Math.max(0, comboPop - dt * 3.2); missFlash = Math.max(0, missFlash - dt * 2.4);
+    // constant drone (drone: "reed" bagpipe drones, "vocal" the throat-singing fundamental): from the moment the piece begins until it ends,
+    // in every mode (follow, learn, the song player); it pauses with the song player
+    if (droneKind) {
+      const want = !done && clock >= -spb * 0.5 && !(study.on && !study.playing);
+      if (want && !droneOn) { droneOn = true; env.options?.soundLog?.push({ kind: 'drone', style: droneKind }); }
+      if (!want && droneOn) { droneOn = false; droneH?.stop(0.35); droneH = null; }
+      if (want && audio && !droneH && droneOn) {
+        const f0 = P.vocal?.fundamental ?? P.root;
+        const hzs = P.droneHz ?? (droneKind === 'vocal' ? [f0] : [P.root / 2, (P.root / 2) * 1.0025, P.root / 4]);
+        droneH = startDrone(audio, droneKind, hzs, { dur: clamp((endT - clock) * (study.on ? 3 : 1.25) + 8, 10, 400), vel: droneKind === 'vocal' ? 0.45 : 0.55 });
+      }
+    }
     let w = 0;
     for (const p of pops) { p.age += dt; if (p.age < 0.8) pops[w++] = p; }
     pops.length = w;
@@ -394,7 +445,7 @@ export function createActivity(userParams, env) {
       else if (showTick && (MODE !== 'free' || firstStroke !== null)) tick(((nextBeat % meter) + meter) % meter === 0, true);
       nextBeat++;
     }
-    if (P.drone && MODE === 'free' && firstStroke !== null) {   // silent until the first stroke, then fades in over 3 s at a low level
+    if (P.drone === true && MODE === 'free' && firstStroke !== null) {   // silent until the first stroke, then fades in over 3 s at a low level
       droneT -= dt;
       if (droneT <= 0) {
         droneT = 2;
@@ -457,6 +508,7 @@ export function createActivity(userParams, env) {
   const nameLabel = (g, s, x, y, size, maxW, col = '#ffffff') => text(g.ctx, s, x, y, fit(g, s, size, maxW), col, { outline: 'rgba(10,6,2,0.85)', lw: Math.max(2, size * 0.18) });
 
   const anchor = (L, lane) => stage.anchor(lane);
+  const popAt = (L, lane) => (stage.popAnchor && stage.popAnchor(lane)) || anchor(L, lane);   // 1.29.0: bursts and judgement text may sit away from the pad label
 
   const drawParticles = (g, L) => {
     const { ctx } = g;
@@ -464,7 +516,7 @@ export function createActivity(userParams, env) {
     for (let k = 0; k < PN; k++) {
       const p = part[k];
       if (!p.on) continue;
-      const an = anchor(L, p.lane), u = clamp(p.life / p.max, 0, 1), x = an.x + p.x, y = an.y + p.y;
+      const an = popAt(L, p.lane), u = clamp(p.life / p.max, 0, 1), x = an.x + p.x, y = an.y + p.y;
       if (p.kind === 1) { ctx.strokeStyle = rgba(p.color, 0.8 * u); ctx.lineWidth = 2 + 3 * u; ctx.beginPath(); ctx.ellipse(x, y, p.size * (1.4 - u), p.size * (1.4 - u) * 0.45, 0, 0, 6.2832); ctx.stroke(); }
       else if (p.kind === 3) { const s2 = p.size * (0.4 + u); ctx.fillStyle = rgba('#fff7d0', 0.9 * u); ctx.beginPath(); ctx.moveTo(x, y - s2); ctx.lineTo(x + s2 * 0.25, y - s2 * 0.25); ctx.lineTo(x + s2, y); ctx.lineTo(x + s2 * 0.25, y + s2 * 0.25); ctx.lineTo(x, y + s2); ctx.lineTo(x - s2 * 0.25, y + s2 * 0.25); ctx.lineTo(x - s2, y); ctx.lineTo(x - s2 * 0.25, y - s2 * 0.25); ctx.closePath(); ctx.fill(); }
       else { ctx.fillStyle = rgba(p.color, (p.kind === 2 ? 0.7 : 0.95) * u); ctx.beginPath(); ctx.arc(x, y, Math.max(0.6, p.size * (0.4 + 0.6 * u)), 0, 6.2832); ctx.fill(); }
@@ -782,12 +834,14 @@ export function createActivity(userParams, env) {
       // count-in numeral and streak watermark
       if (clock < 0 && !done) {
         const n = Math.ceil(-clock / spb), mid = (L.top + L.hitY) / 2;
-        text(ctx, String(n), L.mid, mid, Math.min(L.hitY - L.top, 220) * 0.55 * (0.9 + 0.25 * pul), rgba(pal.accent, 0.55 + 0.35 * pul), { weight: '900', outline: 'rgba(0,0,0,0.45)', lw: 6, family: 'Georgia, serif' });
+        const cs = stage.countSpot ? stage.countSpot() : null;   // a stage may park the numeral where it covers no label or instrument part
+        if (cs) text(ctx, String(n), cs.x, cs.y, cs.size * (0.9 + 0.25 * pul), rgba(pal.accent, 0.6 + 0.35 * pul), { weight: '900', outline: 'rgba(0,0,0,0.55)', lw: 5, family: 'Georgia, serif' });
+        else text(ctx, String(n), L.mid, mid, Math.min(L.hitY - L.top, 220) * 0.55 * (0.9 + 0.25 * pul), rgba(pal.accent, 0.55 + 0.35 * pul), { weight: '900', outline: 'rgba(0,0,0,0.45)', lw: 6, family: 'Georgia, serif' });
       }
       drawParticles(g, L);
       // judgement pop-ups: spring in, drift up, fade
       for (const p of pops) {
-        const big = p.lane < 0, an = big ? { x: L.mid, y: L.top + (L.hitY - L.top) * 0.45 } : anchor(L, p.lane), u = p.age / 0.8, sp = u < 0.18 ? 0.6 + 2.2 * u : 1;
+        const big = p.lane < 0, an = big ? { x: L.mid, y: L.top + (L.hitY - L.top) * 0.45 } : popAt(L, p.lane), u = p.age / 0.8, sp = u < 0.18 ? 0.6 + 2.2 * u : 1;
         ctx.globalAlpha = clamp(1.6 - 1.6 * u, 0, 1);
         text(ctx, p.text, clamp(an.x, area.x + 50, area.x + area.w - 50), an.y - (big ? 10 : 30) - u * (big ? 30 : 46), Math.max(g.px(big ? 34 : 22) * sp, g.px(0) * 0.95), p.color, { weight: '800', outline: 'rgba(0,0,0,0.75)', lw: 4 });
         ctx.globalAlpha = 1;
@@ -816,7 +870,8 @@ export function createActivity(userParams, env) {
       {
         const t = g.t ?? 0, fl = lanes.map((_, i) => Math.max(0, 1 - (((t * 0.9 + i * 0.41) % 3.1)) * 2.6));
         const idle = { list: EMPTY, soft: false, clock: 0, look: 2, spb: 0.5, anim: t, pul: 0.3, flash: fl, hold: fl.map((v) => v * 0.5), ptr: null, pal, lanes, cycle: { beats: cycleBeats, meter, pos: (t * 0.8) % cycleBeats } };
-        stage.layout({ x: rect.x, y: rect.y, w: rect.w, h: rect.h });
+        const vw = stage.neck ? Math.min(rect.w, rect.h * 0.72) : rect.w;   // 1.18.0: neck instruments keep their own tall proportions in the title picture
+        stage.layout(stage.neck ? { x: rect.x + (rect.w - vw) / 2, y: rect.y - 34, w: vw, h: rect.h + 38 } : { x: rect.x + (rect.w - vw) / 2, y: rect.y, w: vw, h: rect.h });
         setHero(true); stage.draw(g, idle); setHero(false);
       }
       ctx.restore();

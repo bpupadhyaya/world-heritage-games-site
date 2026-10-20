@@ -1,0 +1,25 @@
+{
+  "title": "Aubusson tapestry",
+  "native": "tapisserie d'Aubusson",
+  "alt": [
+    "Aubusson tapestry weaving"
+  ],
+  "summary": "Aubusson tapestry is woven in the Creuse valley of central France. The weaver works from a painted cartoon placed behind the warp and builds each patch of colour in wool or silk, thread by thread, so the picture is part of the cloth itself. Flowers, leaves and birds are classic subjects.",
+  "howToPlay": [
+    "Pick a wool colour from the bobbins and a shape from the tray.",
+    "Touch a square on the tapestry to weave that shape there; it is mirrored left to right.",
+    "Copy the cartoon shown on the card, then press Check."
+  ],
+  "rules": [
+    "The tapestry is mirrored left to right, so each shape is woven on up to two squares.",
+    "A square counts only when its shape and its wool colour both match the cartoon you are copying.",
+    "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+  ],
+  "heritageNote": "Tapestry has been woven around Aubusson in central France for several centuries, and the craft is recognised as intangible cultural heritage. The weaver turns the warp over a low loom and follows a painted cartoon, changing coloured threads patch by patch.",
+  "countries": [
+    "France"
+  ],
+  "credits": [
+    "Pattern design: World Heritage Games (original, in the style of the tradition)"
+  ]
+}

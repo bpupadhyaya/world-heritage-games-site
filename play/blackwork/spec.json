@@ -1,0 +1,174 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "blackwork",
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Black silk",
+        "color": "#17130f"
+      },
+      {
+        "name": "Iron-gall brown",
+        "color": "#4a3020"
+      },
+      {
+        "name": "Tudor red",
+        "color": "#b02a2a"
+      },
+      {
+        "name": "Gold thread",
+        "color": "#c79a2e"
+      },
+      {
+        "name": "Slate blue-black",
+        "color": "#2c3a52"
+      }
+    ],
+    "background": "#f4efe3",
+    "grid": "#c8c0ae",
+    "motifs": [
+      "flower",
+      "leaf",
+      "bird",
+      "diamond",
+      "star",
+      "hexagon"
+    ],
+    "designs": [
+      {
+        "name": "Sleeve border with spray and scroll fillings",
+        "rows": [
+          "..b.d.b..",
+          ".a.c.c.a.",
+          "c.a.e.a.c",
+          ".d.b.b.d.",
+          "a.c.f.c.a",
+          ".d.b.b.d.",
+          "c.a.e.a.c",
+          ".a.c.c.a.",
+          "..b.d.b.."
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 2
+          },
+          "c": {
+            "m": 3,
+            "c": 0
+          },
+          "d": {
+            "m": 4,
+            "c": 3
+          },
+          "e": {
+            "m": 5,
+            "c": 4
+          },
+          "f": {
+            "m": 2,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Collar of leaves",
+        "rows": [
+          "a.b.c.b.a",
+          ".d.e.e.d.",
+          "b.f.a.f.b",
+          ".e.d.d.e.",
+          "c.a.g.a.c",
+          ".e.d.d.e.",
+          "b.f.a.f.b",
+          ".d.e.e.d.",
+          "a.b.c.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 0
+          },
+          "b": {
+            "m": 0,
+            "c": 2
+          },
+          "c": {
+            "m": 3,
+            "c": 0
+          },
+          "d": {
+            "m": 5,
+            "c": 0
+          },
+          "e": {
+            "m": 4,
+            "c": 3
+          },
+          "f": {
+            "m": 2,
+            "c": 0
+          },
+          "g": {
+            "m": 0,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Coif band with birds",
+        "rows": [
+          "c.a.c.a.c",
+          ".b.d.d.b.",
+          "a.f.e.f.a",
+          ".d.b.b.d.",
+          "c.e.g.e.c",
+          ".d.b.b.d.",
+          "a.f.e.f.a",
+          ".b.d.d.b.",
+          "c.a.c.a.c"
+        ],
+        "legend": {
+          "a": {
+            "m": 3,
+            "c": 1
+          },
+          "b": {
+            "m": 5,
+            "c": 2
+          },
+          "c": {
+            "m": 1,
+            "c": 0
+          },
+          "d": {
+            "m": 4,
+            "c": 0
+          },
+          "e": {
+            "m": 0,
+            "c": 3
+          },
+          "f": {
+            "m": 2,
+            "c": 4
+          },
+          "g": {
+            "m": 2,
+            "c": 0
+          }
+        }
+      }
+    ]
+  }
+}

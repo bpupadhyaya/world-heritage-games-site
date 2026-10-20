@@ -1,0 +1,192 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "Stamp",
+    "hz": 100,
+    "timbre": "stomp",
+    "icon": "stomp",
+    "color": "#d8603a"
+   },
+   {
+    "name": "Step",
+    "hz": 280,
+    "timbre": "slap",
+    "icon": "foot-r",
+    "color": "#e8b84a"
+   },
+   {
+    "name": "Sway",
+    "hz": 900,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#8a6ad8"
+   },
+   {
+    "name": "Shake",
+    "hz": 1500,
+    "timbre": "bell",
+    "icon": "clap",
+    "color": "#58c2a8"
+   }
+  ],
+  "songs": [
+   {
+    "id": "musya-stamps",
+    "name": "Stamps and steps",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Musya, Kenya",
+    "note": "A teaching figure: stamps that ring the bells, side steps, a sway and a shake.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 1,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 2,
+      "lane": "Step"
+     },
+     {
+      "beat": 3,
+      "lane": "Step"
+     },
+     {
+      "beat": 4,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 5,
+      "lane": "Shake"
+     },
+     {
+      "beat": 6,
+      "lane": "Sway"
+     },
+     {
+      "beat": 7,
+      "lane": "Step"
+     }
+    ]
+   },
+   {
+    "id": "musya-line",
+    "name": "Twisting line",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Musya, Kenya",
+    "note": "The twisting line: steps and sways, a stamp to close each turn.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Step"
+     },
+     {
+      "beat": 1,
+      "lane": "Sway"
+     },
+     {
+      "beat": 2,
+      "lane": "Step"
+     },
+     {
+      "beat": 3,
+      "lane": "Sway"
+     },
+     {
+      "beat": 4,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 5,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 6,
+      "lane": "Shake"
+     },
+     {
+      "beat": 7,
+      "lane": "Stamp"
+     }
+    ]
+   },
+   {
+    "id": "musya-round",
+    "name": "The round",
+    "bpm": 108,
+    "meter": 4,
+    "length": 12,
+    "kind": "figure",
+    "heritage": "Musya, Kenya",
+    "note": "A quicker round for the whole group, with the bells shaken at the end.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 1,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 2,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 3,
+      "lane": "Step"
+     },
+     {
+      "beat": 4,
+      "lane": "Sway"
+     },
+     {
+      "beat": 5,
+      "lane": "Step"
+     },
+     {
+      "beat": 6,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 7,
+      "lane": "Shake"
+     },
+     {
+      "beat": 8,
+      "lane": "Stamp"
+     },
+     {
+      "beat": 9,
+      "lane": "Sway"
+     },
+     {
+      "beat": 10,
+      "lane": "Shake"
+     },
+     {
+      "beat": 11,
+      "lane": "Shake"
+     }
+    ]
+   }
+  ],
+  "song": 0,
+  "instrument": "bell dancer"
+ }
+}

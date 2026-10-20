@@ -1,0 +1,229 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "daf",
+  "lanes": [
+   {
+    "name": "Dum",
+    "hz": 130,
+    "timbre": "bass",
+    "color": "#d9622b"
+   },
+   {
+    "name": "Mid",
+    "hz": 260,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Tak",
+    "hz": 520,
+    "timbre": "slap",
+    "color": "#58b878"
+   },
+   {
+    "name": "Rim",
+    "hz": 900,
+    "timbre": "rim",
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "Rings",
+    "hz": 1400,
+    "timbre": "bell",
+    "color": "#c070d0"
+   }
+  ],
+  "songs": [
+   {
+    "id": "slow-cycle",
+    "name": "Slow cycle in six, 6 beats",
+    "bpm": 84,
+    "meter": 6,
+    "length": 12,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A slow, rolling cycle.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dum"
+     },
+     {
+      "beat": 1,
+      "lane": "Tak"
+     },
+     {
+      "beat": 2,
+      "lane": "Tak"
+     },
+     {
+      "beat": 3,
+      "lane": "Dum"
+     },
+     {
+      "beat": 4,
+      "lane": "Mid"
+     },
+     {
+      "beat": 5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 6,
+      "lane": "Dum"
+     },
+     {
+      "beat": 7,
+      "lane": "Tak"
+     },
+     {
+      "beat": 8,
+      "lane": "Tak"
+     },
+     {
+      "beat": 9,
+      "lane": "Dum"
+     },
+     {
+      "beat": 10,
+      "lane": "Mid"
+     },
+     {
+      "beat": 11,
+      "lane": "Rings"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "quick-four",
+    "name": "Quick four, 4 beats",
+    "bpm": 116,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A bright, quick pattern.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dum"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 1,
+      "lane": "Mid"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 2,
+      "lane": "Dum"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Dum"
+     },
+     {
+      "beat": 3,
+      "lane": "Tak"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Rim"
+     },
+     {
+      "beat": 4,
+      "lane": "Dum"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 5,
+      "lane": "Mid"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 6,
+      "lane": "Dum"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Dum"
+     },
+     {
+      "beat": 7,
+      "lane": "Tak"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Rings"
+     }
+    ]
+   },
+   {
+    "id": "ring-roll",
+    "name": "Ring roll, 4 beats",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The rings answer each stroke.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Dum"
+     },
+     {
+      "beat": 1,
+      "lane": "Rings"
+     },
+     {
+      "beat": 2,
+      "lane": "Mid"
+     },
+     {
+      "beat": 3,
+      "lane": "Rings"
+     },
+     {
+      "beat": 4,
+      "lane": "Dum"
+     },
+     {
+      "beat": 5,
+      "lane": "Rings"
+     },
+     {
+      "beat": 6,
+      "lane": "Tak"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Tak"
+     },
+     {
+      "beat": 7,
+      "lane": "Rings"
+     }
+    ]
+   }
+  ]
+ }
+}

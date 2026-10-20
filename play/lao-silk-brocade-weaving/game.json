@@ -1,0 +1,13 @@
+{
+ "slug": "lao-silk-brocade-weaving",
+ "title": "Lao silk brocade weaving (sinh)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

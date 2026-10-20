@@ -1,0 +1,13 @@
+{
+ "slug": "bolesawiec-pottery",
+ "title": "Boles\u0142awiec pottery",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,162 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "tapestry",
+    "cols": 7,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Madder red",
+        "color": "#a9332b"
+      },
+      {
+        "name": "Woad blue",
+        "color": "#2c4f8a"
+      },
+      {
+        "name": "Weld yellow",
+        "color": "#dbaa30"
+      },
+      {
+        "name": "Moss green",
+        "color": "#5d7d33"
+      },
+      {
+        "name": "Wool cream",
+        "color": "#ebe0c5"
+      }
+    ],
+    "background": "#46566e",
+    "grid": "#8fa0b8",
+    "motifs": [
+      "flower",
+      "leaf",
+      "bird",
+      "diamond",
+      "ring",
+      "vine"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Flowers and birds",
+        "rows": [
+          "b..d..b",
+          ".a.c.a.",
+          "d.b.b.d",
+          ".c.e.c.",
+          "b.a.a.b",
+          ".c.f.c.",
+          "d.b.b.d",
+          ".a.c.a.",
+          "b..d..b"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 3
+          },
+          "c": {
+            "m": 2,
+            "c": 2
+          },
+          "d": {
+            "m": 3,
+            "c": 1
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 3
+          }
+        }
+      },
+      {
+        "name": "Leaves and rings",
+        "rows": [
+          "e..f..e",
+          ".b.c.b.",
+          "a.d.d.a",
+          ".c.a.c.",
+          "b.e.e.b",
+          ".c.a.c.",
+          "a.d.d.a",
+          ".b.c.b.",
+          "e..f..e"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 3
+          },
+          "c": {
+            "m": 5,
+            "c": 3
+          },
+          "d": {
+            "m": 2,
+            "c": 1
+          },
+          "e": {
+            "m": 4,
+            "c": 2
+          },
+          "f": {
+            "m": 3,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Diamond border with birds",
+        "rows": [
+          "a.a.a.a",
+          ".d...d.",
+          "b.c.c.b",
+          "..e.e..",
+          "d.a.a.d",
+          "..e.e..",
+          "b.c.c.b",
+          ".d...d.",
+          "a.a.a.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 3,
+            "c": 2
+          },
+          "b": {
+            "m": 2,
+            "c": 4
+          },
+          "c": {
+            "m": 0,
+            "c": 1
+          },
+          "d": {
+            "m": 1,
+            "c": 0
+          },
+          "e": {
+            "m": 4,
+            "c": 3
+          }
+        }
+      }
+    ]
+  }
+}

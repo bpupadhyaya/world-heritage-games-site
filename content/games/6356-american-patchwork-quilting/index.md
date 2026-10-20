@@ -54,7 +54,7 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Sashiko Stitch Patterns](../../games/27-sashiko-stitch-patterns/index.md)
 - [Adire indigo resist dyeing](../../games/87-adire-indigo-resist-dyeing/index.md)
 - [Agaseke basket weaving](../../games/89-agaseke-basket-weaving/index.md)
-- [Toquilla straw hat weaving](../../games/93-toquilla-straw-hat-weaving/index.md)
+- [Cross-Stitch Pattern Weaving](../../games/103-cross-stitch-pattern-weaving/index.md)
 
 ## Sources
 

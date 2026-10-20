@@ -1,0 +1,343 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 220.0,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "bandola",
+  "lanes": [
+   {
+    "name": "A3",
+    "cents": 0,
+    "id": "a3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8403c",
+    "string": 0,
+    "fret": 0
+   },
+   {
+    "name": "B3",
+    "cents": 200,
+    "id": "b3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d05e47",
+    "string": 0,
+    "fret": 2
+   },
+   {
+    "name": "C4",
+    "cents": 300,
+    "id": "c4-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d87c52",
+    "string": 0,
+    "fret": 3
+   },
+   {
+    "name": "D4",
+    "cents": 500,
+    "id": "d4-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e09a5d",
+    "string": 1,
+    "fret": 0
+   },
+   {
+    "name": "E4",
+    "cents": 700,
+    "id": "e4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d4c780",
+    "string": 1,
+    "fret": 2
+   },
+   {
+    "name": "F4",
+    "cents": 800,
+    "id": "f4-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#b8c590",
+    "string": 1,
+    "fret": 3
+   },
+   {
+    "name": "G4",
+    "cents": 1000,
+    "id": "g4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#9cc4a0",
+    "string": 2,
+    "fret": 0
+   },
+   {
+    "name": "A4",
+    "cents": 1200,
+    "id": "a4-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7ca6a4",
+    "string": 2,
+    "fret": 2
+   },
+   {
+    "name": "B4",
+    "cents": 1400,
+    "id": "b4-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#58a0b8",
+    "string": 2,
+    "fret": 4
+   },
+   {
+    "name": "E5",
+    "cents": 1900,
+    "id": "e5-9",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#5a8cc8",
+    "string": 3,
+    "fret": 0
+   },
+   {
+    "name": "F5",
+    "cents": 2000,
+    "id": "f5-10",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7a78c8",
+    "string": 3,
+    "fret": 1
+   },
+   {
+    "name": "Tremolo",
+    "cents": 1200,
+    "id": "tremolo-11",
+    "timbre": "pluck",
+    "dur": 1.4,
+    "color": "#a070b8",
+    "row": 3
+   }
+  ],
+  "songs": [
+   {
+    "id": "pasillo-line",
+    "name": "Pasillo line",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A flowing three-beat line in the style of Andean song",
+    "bpm": 96,
+    "meter": 3,
+    "length": 18,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 5
+     },
+     {
+      "beat": 5,
+      "lane": 6
+     },
+     {
+      "beat": 6,
+      "lane": 11
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 8
+     },
+     {
+      "beat": 11,
+      "lane": 9
+     },
+     {
+      "beat": 12,
+      "lane": 8
+     },
+     {
+      "beat": 13,
+      "lane": 6
+     },
+     {
+      "beat": 14,
+      "lane": 5
+     },
+     {
+      "beat": 15,
+      "lane": 3
+     },
+     {
+      "beat": 16,
+      "lane": 2
+     },
+     {
+      "beat": 17,
+      "lane": 0
+     }
+    ],
+    "note": "A waltz-like line that rises and falls in long phrases."
+   },
+   {
+    "id": "tremolo-song",
+    "name": "Tremolo song",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A slow song with rolled notes",
+    "bpm": 80,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 11
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 8
+     },
+     {
+      "beat": 12,
+      "lane": 11
+     },
+     {
+      "beat": 14,
+      "lane": 5
+     },
+     {
+      "beat": 15,
+      "lane": 3
+     }
+    ],
+    "note": "Long rolled notes alternate with short melody phrases."
+   },
+   {
+    "id": "quick-scale",
+    "name": "Quick scale",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A quick run up and down the scale",
+    "bpm": 116,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 0.5,
+      "lane": 1
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 1.5,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 2.5,
+      "lane": 5
+     },
+     {
+      "beat": 3,
+      "lane": 6
+     },
+     {
+      "beat": 3.5,
+      "lane": 7
+     },
+     {
+      "beat": 4,
+      "lane": 8
+     },
+     {
+      "beat": 4.5,
+      "lane": 9
+     },
+     {
+      "beat": 5,
+      "lane": 10
+     },
+     {
+      "beat": 5.5,
+      "lane": 9
+     },
+     {
+      "beat": 6,
+      "lane": 8
+     },
+     {
+      "beat": 6.5,
+      "lane": 6
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 7.5,
+      "lane": 0
+     }
+    ],
+    "note": "A bright run on every half beat, up and down the strings."
+   }
+  ]
+ },
+ "variant": "bandola",
+ "players": "1"
+}

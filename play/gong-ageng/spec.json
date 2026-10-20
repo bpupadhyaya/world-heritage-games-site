@@ -1,0 +1,125 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.35,
+  "instrument": "gong ageng",
+  "lanes": [
+   {
+    "name": "Boss",
+    "hz": 65,
+    "timbre": "gong",
+    "color": "#f27b48"
+   },
+   {
+    "name": "Face",
+    "hz": 98,
+    "timbre": "gong",
+    "color": "#f29f48"
+   },
+   {
+    "name": "Rim",
+    "hz": 131,
+    "timbre": "gong",
+    "color": "#f2c248"
+   }
+  ],
+  "songs": [
+   {
+    "id": "ageng-cycle",
+    "name": "One long cycle",
+    "bpm": 60,
+    "meter": 4,
+    "length": 16.0,
+    "kind": "figure",
+    "heritage": "Gong ageng, Javan gamelan",
+    "note": "A teaching figure: the deep stroke on the first beat of a long cycle, with the body and the rim answering.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Boss"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Face"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Rim"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Face"
+     },
+     {
+      "beat": 10.0,
+      "lane": "Face"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Rim"
+     },
+     {
+      "beat": 14.0,
+      "lane": "Face"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "ageng-colotomic",
+    "name": "Cycle with answers",
+    "bpm": 72,
+    "meter": 4,
+    "length": 16.0,
+    "kind": "figure",
+    "heritage": "Gong ageng, Javan gamelan",
+    "note": "The boss opens the cycle and returns at its end.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Boss"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Rim"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Face"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Rim"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Boss"
+     },
+     {
+      "beat": 10.0,
+      "lane": "Rim"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Face"
+     },
+     {
+      "beat": 13.0,
+      "lane": "Face"
+     },
+     {
+      "beat": 14.0,
+      "lane": "Rim"
+     },
+     {
+      "beat": 15.0,
+      "lane": "Rim"
+     }
+    ]
+   }
+  ]
+ }
+}

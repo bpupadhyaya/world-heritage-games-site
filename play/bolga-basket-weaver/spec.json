@@ -1,0 +1,32 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "basket",
+  "scene": "bk-bolga",
+  "form": "bolga",
+  "style": "plait",
+  "motif": "bands",
+  "palette": [
+   {
+    "name": "Straw",
+    "color": "#e8d29a"
+   },
+   {
+    "name": "Red",
+    "color": "#c0392b"
+   },
+   {
+    "name": "Green",
+    "color": "#2e8b57"
+   },
+   {
+    "name": "Black",
+    "color": "#262626"
+   }
+  ],
+  "colors": 4,
+  "stitches": 14,
+  "period": 5,
+  "rows": 9
+ }
+}

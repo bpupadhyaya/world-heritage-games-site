@@ -1,0 +1,134 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "ekwe box slit drum",
+  "lanes": [
+   {
+    "name": "Near lip",
+    "hz": 170,
+    "timbre": "tone",
+    "color": "#e8643a"
+   },
+   {
+    "name": "Far lip",
+    "hz": 250,
+    "timbre": "tone",
+    "color": "#f2a050"
+   },
+   {
+    "name": "Front",
+    "hz": 120,
+    "timbre": "tone",
+    "color": "#c8503a"
+   },
+   {
+    "name": "End",
+    "hz": 520,
+    "timbre": "tone",
+    "color": "#f2d08a"
+   }
+  ],
+  "songs": [
+   {
+    "id": "ekwe-call",
+    "name": "Call and answer",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Ekwe, Igbo tradition",
+    "note": "A low-high call, then an answer.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Near lip"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Far lip"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Near lip"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Near lip"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Far lip"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Far lip"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Near lip"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Front"
+     }
+    ]
+   },
+   {
+    "id": "ekwe-roll",
+    "name": "Roll and tick",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Ekwe, Igbo tradition",
+    "note": "Quick far-lip strokes close with the end tick.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Near lip"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Far lip"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Far lip"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Near lip"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Front"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Near lip"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Far lip"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Far lip"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Far lip"
+     },
+     {
+      "beat": 7.0,
+      "lane": "End"
+     }
+    ]
+   }
+  ]
+ }
+}

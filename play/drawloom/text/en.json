@@ -1,0 +1,27 @@
+{
+  "title": "Drawloom",
+  "native": "",
+  "alt": [
+    "Draw loom",
+    "Figured-silk loom"
+  ],
+  "summary": "A drawloom carries a harness of cords that gather the pattern threads into groups. A helper pulls the cords for each pick while the weaver throws the shuttle, so the cloth can carry whole pictures: flowers, birds and clouds in glossy silk. It is the forerunner of the jacquard loom.",
+  "howToPlay": [
+    "Pick a silk colour from the reels and a pattern shape from the tray.",
+    "Touch a square on the panel to weave that shape there; it is mirrored on the other half of the panel.",
+    "Copy the panel shown on the card, then press Check."
+  ],
+  "rules": [
+    "The panel is mirrored left and right, so every shape you weave is also woven on its partner square.",
+    "A square counts only when its shape and its silk colour both match the panel you are copying.",
+    "Three stars need a nearly perfect copy; you can undo or clear as often as you like."
+  ],
+  "heritageNote": "Drawlooms wove the figured silks of China and, later, of Italian and other European silk towns. A weaver and a helper had to work in step, and one metre of rich cloth could take days.",
+  "countries": [
+    "China",
+    "Italy"
+  ],
+  "credits": [
+    "Pattern design: World Heritage Games (original, in the style of the tradition)"
+  ]
+}

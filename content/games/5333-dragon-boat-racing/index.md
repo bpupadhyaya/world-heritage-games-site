@@ -52,9 +52,9 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 - [Ogooué river pirogue journey](../../games/1423-ogooue-river-pirogue-journey/index.md)
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md)
 - [Dranyen](../../games/300-dranyen/index.md)
+- [Pipa](../../games/335-pipa/index.md)
 - [Mahjong](../../games/635-mahjong/index.md)
 - [Luzhanqi](../../games/640-luzhanqi/index.md)
-- [Banqi](../../games/1437-banqi/index.md)
 
 ## Sources
 

@@ -1,0 +1,27 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "scene": "chamba",
+  "profile": "ollachamba",
+  "rows": 12,
+  "bands": 4,
+  "clay": "#5a3a2a",
+  "glazes": [
+   {
+    "name": "Smoke black",
+    "color": "#1a1514"
+   },
+   {
+    "name": "Red ochre slip",
+    "color": "#8a3a22"
+   },
+   {
+    "name": "Polished brown",
+    "color": "#4a2e22"
+   }
+  ],
+  "variation": 0.05,
+  "steps": 12
+ }
+}

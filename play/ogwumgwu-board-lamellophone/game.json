@@ -1,0 +1,13 @@
+{
+ "slug": "ogwumgwu-board-lamellophone",
+ "title": "Ogwumgwu (board thumb piano)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

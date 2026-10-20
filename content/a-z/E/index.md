@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with E"
-description: "19 entries beginning with E."
+description: "22 entries beginning with E."
 path: "/a-z/E/"
 ---
 # Entries beginning with E
@@ -8,10 +8,13 @@ path: "/a-z/E/"
 - [E-sugoroku](../../games/348-e-sugoroku/index.md): Japan; Board and table games; River Valleys and First Cities
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md): Turkey; Crafts and making; Living Traditions
 - [Ecuavoley](../../games/1450-ecuavoley/index.md): Ecuador; Other traditions; Living Traditions
+- [Edo kimekomi doll](../../games/11625-edo-kimekomi-doll/index.md): Japan; Crafts and making; Living Traditions
 - [Edrees](../../games/1008-edrees/index.md): Palestine; Board and table games; Crossroads and Golden Ages
 - [Egrang](../../games/17-egrang/index.md): Indonesia, Malaysia; Racing; Classical Worlds
 - [Egyptian backgammon](../../games/695-egyptian-backgammon/index.md): Egypt; Board and table games; River Valleys and First Cities
 - [Egyptian Fractions and Doubling](../../games/215-egyptian-fractions-and-doubling/index.md): Egypt; Puzzles and mind games; Modern Heritage
+- [Ekpili seed-shell rattle](../../games/21377-ekpili-seed-shell-rattle/index.md): Nigeria; Musical instruments; Living Traditions
+- [Ekwe](../../games/2253-ekwe/index.md): Nigeria; Musical instruments; Living Traditions
 - [Elastic Jump](../../games/6-elastic-jump/index.md): China; Street and playground games; Modern Heritage
 - [Elle](../../games/1104-elle/index.md): Sri Lanka; Street and playground games; Modern Heritage
 - [Emboque](../../games/629-emboque/index.md): Chile; Dexterity and skill games; Modern Heritage

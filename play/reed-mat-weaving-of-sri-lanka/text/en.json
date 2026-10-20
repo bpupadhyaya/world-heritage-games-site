@@ -1,0 +1,27 @@
+{
+ "title": "Reed mat",
+ "native": "පැදුරු",
+ "alt": [
+  "Padura"
+ ],
+ "summary": "Weave a mat of reed in large squares of green and maroon.",
+ "howToPlay": [
+  "Look at the lit mat in its frame: it shows the pattern the finished mat must have.",
+  "Tap a colour to lay the next crossing along the row; the gold square marks the place, and the strip under the mat shows the row you are working on.",
+  "The strips not yet woven lie bare under the finished rows. Undo takes back the last crossing.",
+  "Press Check to see your stars, or Watch and learn to see a mat woven for you."
+ ],
+ "rules": [
+  "Each crossing is laid in the colour you choose; rows run left to right, from the start of the work.",
+  "The weave goes over one, under one; the loose reed ends are left as a fringe.",
+  "The score counts the crossings that match the lit target, beyond what the plain fibre colour alone would give.",
+  "Undo takes back the last crossing.",
+  "Three stars for 88 or more, two stars for 65 and one star for 40.",
+  "Watch and learn plays a whole round for you."
+ ],
+ "heritageNote": "In Sri Lanka, reeds and palm leaves are cut, soaked, dried and often dyed before they are woven into mats, baskets and hats. Plain weave in two or three colours makes squares and bands, and the mats are spread on floors and used for sleeping and for drying rice.",
+ "countries": [
+  "Sri Lanka"
+ ],
+ "credits": []
+}

@@ -1,0 +1,162 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "filet",
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Ivory cotton",
+        "color": "#f1e9d2"
+      },
+      {
+        "name": "Ecru",
+        "color": "#d8c49a"
+      },
+      {
+        "name": "Flax gold",
+        "color": "#c8a456"
+      },
+      {
+        "name": "Rose cotton",
+        "color": "#d58f8d"
+      },
+      {
+        "name": "Sage",
+        "color": "#9fb892"
+      }
+    ],
+    "background": "#0e1a40",
+    "grid": "#08102a",
+    "motifs": [
+      "solid",
+      "diamond",
+      "cross",
+      "ring",
+      "star",
+      "zigzag"
+    ],
+    "designs": [
+      {
+        "name": "Lozenge on net",
+        "rows": [
+          "a.a.a.a.a",
+          ".d.c.c.d.",
+          "a.b.e.b.a",
+          ".c.d.d.c.",
+          "a.e.f.e.a",
+          ".c.d.d.c.",
+          "a.b.e.b.a",
+          ".d.c.c.d.",
+          "a.a.a.a.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 2
+          },
+          "d": {
+            "m": 3,
+            "c": 3
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Cross and diamond frame",
+        "rows": [
+          "a.a.a.a.a",
+          ".b.c.c.b.",
+          "a.d.e.d.a",
+          ".c.b.b.c.",
+          "a.e.f.e.a",
+          ".c.b.b.c.",
+          "a.d.e.d.a",
+          ".b.c.c.b.",
+          "a.a.a.a.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 1
+          },
+          "b": {
+            "m": 2,
+            "c": 3
+          },
+          "c": {
+            "m": 1,
+            "c": 0
+          },
+          "d": {
+            "m": 3,
+            "c": 4
+          },
+          "e": {
+            "m": 4,
+            "c": 2
+          },
+          "f": {
+            "m": 0,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Ladder band",
+        "rows": [
+          "b.b.b.b.b",
+          ".a.a.a.a.",
+          "c.d.c.d.c",
+          ".a.a.a.a.",
+          "b.e.b.e.b",
+          ".a.a.a.a.",
+          "c.d.c.d.c",
+          ".a.a.a.a.",
+          "b.b.b.b.b"
+        ],
+        "legend": {
+          "a": {
+            "m": 5,
+            "c": 4
+          },
+          "b": {
+            "m": 1,
+            "c": 2
+          },
+          "c": {
+            "m": 0,
+            "c": 0
+          },
+          "d": {
+            "m": 4,
+            "c": 3
+          },
+          "e": {
+            "m": 3,
+            "c": 1
+          }
+        }
+      }
+    ]
+  }
+}

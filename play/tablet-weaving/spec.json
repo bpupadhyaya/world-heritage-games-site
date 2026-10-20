@@ -1,0 +1,126 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "tablet",
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Madder red",
+        "color": "#b03a2a"
+      },
+      {
+        "name": "Woad blue",
+        "color": "#2c5a9a"
+      },
+      {
+        "name": "Weld yellow",
+        "color": "#e0b238"
+      },
+      {
+        "name": "Bone white",
+        "color": "#f1ead6"
+      },
+      {
+        "name": "Iron black",
+        "color": "#201c18"
+      }
+    ],
+    "background": "#33405a",
+    "grid": "#6a5878",
+    "motifs": [
+      "diamond",
+      "triangle",
+      "stripe-v",
+      "zigzag",
+      "dot",
+      "checker"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Dotted chevron band",
+        "rows": [
+          "a.a.a.a.a",
+          ".b.b.b.b.",
+          "cdcdcdcdc",
+          "....e....",
+          "fgfgfgfgf",
+          "....e....",
+          "cdcdcdcdc",
+          ".b.b.b.b.",
+          "a.a.a.a.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 4,
+            "c": 3
+          },
+          "b": {
+            "m": 1,
+            "c": 0
+          },
+          "c": {
+            "m": 3,
+            "c": 2
+          },
+          "d": {
+            "m": 3,
+            "c": 1
+          },
+          "e": {
+            "m": 0,
+            "c": 4
+          },
+          "f": {
+            "m": 2,
+            "c": 3
+          },
+          "g": {
+            "m": 2,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Checker edge band",
+        "rows": [
+          "hhhhhhhhh",
+          "g.g.g.g.g",
+          "..a.b.a..",
+          "...cbc...",
+          "....b....",
+          "...cbc...",
+          "..a.b.a..",
+          "g.g.g.g.g",
+          "hhhhhhhhh"
+        ],
+        "legend": {
+          "h": {
+            "m": 5,
+            "c": 3
+          },
+          "g": {
+            "m": 4,
+            "c": 2
+          },
+          "a": {
+            "m": 1,
+            "c": 1
+          },
+          "b": {
+            "m": 0,
+            "c": 0
+          },
+          "c": {
+            "m": 0,
+            "c": 2
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+ "slug": "kakradaa-cog-rattle",
+ "title": "Kakradaa (cog rattle)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

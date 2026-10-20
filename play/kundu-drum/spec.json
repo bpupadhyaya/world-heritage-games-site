@@ -1,0 +1,211 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "kundu",
+  "lanes": [
+   {
+    "name": "Centre",
+    "hz": 210,
+    "timbre": "bass",
+    "color": "#ff9a50"
+   },
+   {
+    "name": "Edge",
+    "hz": 520,
+    "timbre": "slap",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Grip",
+    "hz": 700,
+    "timbre": "rim",
+    "color": "#4fd0a0"
+   },
+   {
+    "name": "Mouth",
+    "hz": 110,
+    "timbre": "bass",
+    "color": "#c9a0ff"
+   }
+  ],
+  "songs": [
+   {
+    "id": "dance",
+    "name": "Dance beat",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Centre strokes with the edge answering.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Centre"
+     },
+     {
+      "beat": 1,
+      "lane": "Edge"
+     },
+     {
+      "beat": 2,
+      "lane": "Centre"
+     },
+     {
+      "beat": 3,
+      "lane": "Edge"
+     },
+     {
+      "beat": 4,
+      "lane": "Centre"
+     },
+     {
+      "beat": 5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 6,
+      "lane": "Centre"
+     },
+     {
+      "beat": 7,
+      "lane": "Edge"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "grip",
+    "name": "Grip answer",
+    "bpm": 90,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The grip and the mouth fill the gaps.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Centre"
+     },
+     {
+      "beat": 1,
+      "lane": "Edge"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Grip"
+     },
+     {
+      "beat": 2,
+      "lane": "Centre"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Mouth"
+     },
+     {
+      "beat": 3,
+      "lane": "Edge"
+     },
+     {
+      "beat": 4,
+      "lane": "Centre"
+     },
+     {
+      "beat": 5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Grip"
+     },
+     {
+      "beat": 6,
+      "lane": "Centre"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Mouth"
+     },
+     {
+      "beat": 7,
+      "lane": "Edge"
+     }
+    ]
+   },
+   {
+    "id": "quick",
+    "name": "Quick pattern",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A quicker pattern that climbs to the mouth.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Centre"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 1,
+      "lane": "Centre"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 2,
+      "lane": "Grip"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Grip"
+     },
+     {
+      "beat": 3,
+      "lane": "Centre"
+     },
+     {
+      "beat": 4,
+      "lane": "Centre"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 5,
+      "lane": "Centre"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 6,
+      "lane": "Grip"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Mouth"
+     },
+     {
+      "beat": 7,
+      "lane": "Mouth"
+     }
+    ]
+   }
+  ]
+ }
+}

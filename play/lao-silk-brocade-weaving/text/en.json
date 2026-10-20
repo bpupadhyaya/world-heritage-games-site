@@ -1,0 +1,27 @@
+{
+  "title": "Lao silk brocade weaving (sinh)",
+  "native": "ຜ້າຊິ່ນ",
+  "alt": [
+    "Lao sinh weaving",
+    "Supplementary-weft silk weaving"
+  ],
+  "summary": "Lao weavers make the border of a sinh, the wrapped skirt, on a bamboo loom. Extra coloured threads are picked up by hand and floated over the silk ground, so gold, magenta and turquoise motifs rise out of the cloth row by row.",
+  "howToPlay": [
+    "Choose a silk colour and a motif from the thread baskets.",
+    "Place it on the cloth; the half-turn partner is woven at the same moment, as on the real border.",
+    "Compare your band with the reference and press Check when the pattern is complete."
+  ],
+  "rules": [
+    "The border is the same when turned half a circle: every thread you place is repeated in the opposite cell.",
+    "Placing the same motif and colour on a woven cell again lifts it, and the eraser clears it.",
+    "A cell scores when its motif and silk colour match the reference band.",
+    "Three stars need nearly every cell to match; free mode scores colours, motifs and balance instead."
+  ],
+  "heritageNote": "Sinh borders are woven by women across Laos, with each region and family keeping its own motifs and colours. The craft is shown here in respectful outline; the patterns are drawn from the general vocabulary of diamonds, stars, hooks and leaves.",
+  "countries": [
+    "Laos"
+  ],
+  "credits": [
+    "Photo: shankar s., CC BY 2.0, via Wikimedia Commons"
+  ]
+}

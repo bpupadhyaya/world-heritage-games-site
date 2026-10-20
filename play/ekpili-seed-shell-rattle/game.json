@@ -1,0 +1,13 @@
+{
+ "slug": "ekpili-seed-shell-rattle",
+ "title": "Ekpili (seed-shell rattle)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

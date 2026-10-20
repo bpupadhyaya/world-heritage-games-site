@@ -1,0 +1,146 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "opa tube gourd",
+  "lanes": [
+   {
+    "name": "Cover",
+    "hz": 120,
+    "timbre": "clap",
+    "color": "#e0763a"
+   },
+   {
+    "name": "Beat",
+    "hz": 170,
+    "timbre": "clap",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Open",
+    "hz": 240,
+    "timbre": "clap",
+    "color": "#58b8d6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "opa-pulse",
+    "name": "Pulse, 4 beats",
+    "bpm": 92,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Opa tube gourd, Idoma people, Nigeria",
+    "note": "A teaching pattern: the beat on the gourd, the mouth opened and covered to make the note pulse.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Beat"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Open"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Beat"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Cover"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Beat"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Open"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Beat"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Open"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Cover"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "opa-answer",
+    "name": "Call and answer",
+    "bpm": 104,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Opa tube gourd, Idoma people, Nigeria",
+    "note": "A longer pattern that answers each beat with the mouth.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Beat"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Cover"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Beat"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Open"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Beat"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Cover"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Open"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Beat"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Cover"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Open"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Beat"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Beat"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Cover"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "opa-tubular-gourd"
+}

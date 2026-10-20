@@ -1,0 +1,163 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.4,
+  "instrument": "musical glasses",
+  "lanes": [
+   {
+    "name": "C",
+    "hz": 523.3,
+    "timbre": "bell",
+    "color": "#79e3f2"
+   },
+   {
+    "name": "D",
+    "hz": 587.3,
+    "timbre": "bell",
+    "color": "#79c0f2"
+   },
+   {
+    "name": "E",
+    "hz": 659.3,
+    "timbre": "bell",
+    "color": "#799ef2"
+   },
+   {
+    "name": "F",
+    "hz": 698.5,
+    "timbre": "bell",
+    "color": "#797bf2"
+   },
+   {
+    "name": "G",
+    "hz": 784.0,
+    "timbre": "bell",
+    "color": "#9979f2"
+   },
+   {
+    "name": "A",
+    "hz": 880.0,
+    "timbre": "bell",
+    "color": "#bc79f2"
+   },
+   {
+    "name": "B",
+    "hz": 987.8,
+    "timbre": "bell",
+    "color": "#de79f2"
+   },
+   {
+    "name": "C+",
+    "hz": 1046.5,
+    "timbre": "bell",
+    "color": "#f279e2"
+   },
+   {
+    "name": "D+",
+    "hz": 1174.7,
+    "timbre": "bell",
+    "color": "#f279c0"
+   },
+   {
+    "name": "E+",
+    "hz": 1318.5,
+    "timbre": "bell",
+    "color": "#f2799d"
+   }
+  ],
+  "songs": [
+   {
+    "id": "glasses-scale",
+    "name": "Up the glasses",
+    "bpm": 66,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Musical glasses",
+    "note": "A teaching scale from the fullest glass to the emptiest.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "C"
+     },
+     {
+      "beat": 1.0,
+      "lane": "D"
+     },
+     {
+      "beat": 2.0,
+      "lane": "E"
+     },
+     {
+      "beat": 3.0,
+      "lane": "F"
+     },
+     {
+      "beat": 4.0,
+      "lane": "G"
+     },
+     {
+      "beat": 5.0,
+      "lane": "A"
+     },
+     {
+      "beat": 6.0,
+      "lane": "B"
+     },
+     {
+      "beat": 7.0,
+      "lane": "C+"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "glasses-lullaby",
+    "name": "A slow tune",
+    "bpm": 72,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Musical glasses",
+    "note": "A slow, singing tune.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "E"
+     },
+     {
+      "beat": 1.0,
+      "lane": "G"
+     },
+     {
+      "beat": 2.0,
+      "lane": "A"
+     },
+     {
+      "beat": 3.0,
+      "lane": "G"
+     },
+     {
+      "beat": 4.0,
+      "lane": "E"
+     },
+     {
+      "beat": 5.0,
+      "lane": "D"
+     },
+     {
+      "beat": 6.0,
+      "lane": "E"
+     },
+     {
+      "beat": 7.0,
+      "lane": "C"
+     }
+    ]
+   }
+  ]
+ }
+}

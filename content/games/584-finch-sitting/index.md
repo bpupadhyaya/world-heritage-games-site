@@ -42,10 +42,10 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Bobbin lace making](../../games/108-bobbin-lace-making/index.md)
 - [Carillon](../../games/418-carillon/index.md)
+- [Bijenkorfvlechten](../../games/19798-bijenkorfvlechten/index.md)
 - [Celtic knot weave](../../games/25-celtic-knot-weave/index.md)
 - [Hurdy-gurdy](../../games/153-hurdy-gurdy/index.md)
 - [Nordic Colourwork Knitting](../../games/413-nordic-colourwork-knitting/index.md)
-- [Welsh Love Spoon Carving](../../games/414-welsh-love-spoon-carving/index.md)
 
 ## Sources
 

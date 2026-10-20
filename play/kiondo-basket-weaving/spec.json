@@ -1,0 +1,32 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "basket",
+  "scene": "bk-kiondo",
+  "form": "kiondo",
+  "style": "twine",
+  "motif": "bands",
+  "palette": [
+   {
+    "name": "Natural sisal",
+    "color": "#d2b886"
+   },
+   {
+    "name": "Indigo",
+    "color": "#2b4678"
+   },
+   {
+    "name": "Red",
+    "color": "#b43a2c"
+   },
+   {
+    "name": "Gold",
+    "color": "#e0b030"
+   }
+  ],
+  "colors": 4,
+  "stitches": 13,
+  "period": 5,
+  "rows": 9
+ }
+}

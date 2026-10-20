@@ -1,0 +1,27 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "scene": "pomaire",
+  "profile": "greda",
+  "rows": 12,
+  "bands": 5,
+  "clay": "#a8452c",
+  "glazes": [
+   {
+    "name": "Red greda",
+    "color": "#a8452c"
+   },
+   {
+    "name": "Black ferrous",
+    "color": "#2d2022"
+   },
+   {
+    "name": "Cream slip",
+    "color": "#e0cfa8"
+   }
+  ],
+  "variation": 0.05,
+  "steps": 12
+ }
+}

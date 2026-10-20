@@ -1,0 +1,336 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 293.66,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "dulcimer",
+  "lanes": [
+   {
+    "name": "E4",
+    "cents": 200,
+    "string": 0,
+    "fret": 1,
+    "id": "e4-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e2b46c"
+   },
+   {
+    "name": "F#4",
+    "cents": 400,
+    "string": 0,
+    "fret": 2,
+    "id": "f#4-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e4bf7d"
+   },
+   {
+    "name": "G4",
+    "cents": 500,
+    "string": 0,
+    "fret": 3,
+    "id": "g4-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e6cb8f"
+   },
+   {
+    "name": "A4",
+    "cents": 700,
+    "string": 0,
+    "fret": 4,
+    "id": "a4-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e8d6a0"
+   },
+   {
+    "name": "B4",
+    "cents": 900,
+    "string": 0,
+    "fret": 5,
+    "id": "b4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#cdcd9a"
+   },
+   {
+    "name": "C5",
+    "cents": 1000,
+    "string": 0,
+    "fret": 6,
+    "id": "c5-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#b1c394"
+   },
+   {
+    "name": "D5",
+    "cents": 1200,
+    "string": 0,
+    "fret": 7,
+    "id": "d5-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#96ba8e"
+   },
+   {
+    "name": "E5",
+    "cents": 1400,
+    "string": 0,
+    "fret": 8,
+    "id": "e5-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7fb78c"
+   },
+   {
+    "name": "F#5",
+    "cents": 1600,
+    "string": 0,
+    "fret": 9,
+    "id": "f#5-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#6fae92"
+   },
+   {
+    "name": "Drone",
+    "hz": 220,
+    "string": 1,
+    "fret": 0,
+    "id": "drone-9",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7ab088"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Porch tune, 4 beats",
+    "bpm": 92,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 9
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 0
+     },
+     {
+      "beat": 5,
+      "lane": 1
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 9
+     },
+     {
+      "beat": 9,
+      "lane": 3
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     },
+     {
+      "beat": 15,
+      "lane": 9
+     }
+    ]
+   },
+   {
+    "name": "Reel feel, 4 beats",
+    "bpm": 108,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 0.5,
+      "lane": 4
+     },
+     {
+      "beat": 1,
+      "lane": 5
+     },
+     {
+      "beat": 2,
+      "lane": 6
+     },
+     {
+      "beat": 3,
+      "lane": 5
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 4.5,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 9
+     },
+     {
+      "beat": 8,
+      "lane": 3
+     },
+     {
+      "beat": 8.5,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 10.5,
+      "lane": 7
+     },
+     {
+      "beat": 11,
+      "lane": 8
+     },
+     {
+      "beat": 12,
+      "lane": 7
+     },
+     {
+      "beat": 13,
+      "lane": 6
+     },
+     {
+      "beat": 14,
+      "lane": 4
+     },
+     {
+      "beat": 15,
+      "lane": 3
+     }
+    ]
+   },
+   {
+    "name": "Waltz, 3 beats",
+    "bpm": 84,
+    "meter": 3,
+    "length": 12,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 9
+     },
+     {
+      "beat": 1,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4.5,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 1
+     },
+     {
+      "beat": 6,
+      "lane": 9
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 5
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 10.5,
+      "lane": 6
+     },
+     {
+      "beat": 11,
+      "lane": 4
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "mountain-dulcimer",
+ "players": "1",
+ "ai": {
+  "level": "normal"
+ }
+}

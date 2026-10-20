@@ -1,0 +1,13 @@
+{
+ "slug": "masaya-hammock-weaving",
+ "title": "Masaya hammock weaving",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

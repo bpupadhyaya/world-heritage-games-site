@@ -1,0 +1,361 @@
+{
+ "engine": "rhythm",
+ "variant": "saung-gauk",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 196,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "saung-gauk",
+  "scale": "heptatonic",
+  "lanes": [
+   {
+    "name": "G3",
+    "degree": 0,
+    "id": "G3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c83c34"
+   },
+   {
+    "name": "A3",
+    "degree": 1,
+    "id": "A3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#ce513b"
+   },
+   {
+    "name": "B3",
+    "degree": 2,
+    "id": "B3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d46641"
+   },
+   {
+    "name": "C4",
+    "degree": 3,
+    "id": "C4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#da7c48"
+   },
+   {
+    "name": "D4",
+    "degree": 4,
+    "id": "D4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e0914f"
+   },
+   {
+    "name": "E4",
+    "degree": 5,
+    "id": "E4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e6a655"
+   },
+   {
+    "name": "F#4",
+    "degree": 6,
+    "id": "F#4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#ecbb5c"
+   },
+   {
+    "name": "G4",
+    "degree": 7,
+    "id": "G4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#cfb26b"
+   },
+   {
+    "name": "A4",
+    "degree": 8,
+    "id": "A4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#b1aa7b"
+   },
+   {
+    "name": "B4",
+    "degree": 9,
+    "id": "B4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#94a28a"
+   },
+   {
+    "name": "C5",
+    "degree": 10,
+    "id": "C5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#779999"
+   },
+   {
+    "name": "D5",
+    "degree": 11,
+    "id": "D5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#5990a9"
+   },
+   {
+    "name": "E5",
+    "degree": 12,
+    "id": "E5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#3c88b8"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Falling-note court air",
+    "bpm": 60,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 11
+     },
+     {
+      "beat": 1,
+      "lane": 10
+     },
+     {
+      "beat": 2,
+      "lane": 9
+     },
+     {
+      "beat": 3,
+      "lane": 7
+     },
+     {
+      "beat": 4,
+      "lane": 8
+     },
+     {
+      "beat": 5,
+      "lane": 7
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 8,
+      "lane": 9
+     },
+     {
+      "beat": 9,
+      "lane": 8
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 11,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 5
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     },
+     {
+      "beat": 16,
+      "lane": 3
+     }
+    ]
+   },
+   {
+    "name": "River dance tune",
+    "bpm": 100,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 4
+     },
+     {
+      "beat": 0.5,
+      "lane": 5
+     },
+     {
+      "beat": 1,
+      "lane": 6
+     },
+     {
+      "beat": 1.5,
+      "lane": 7
+     },
+     {
+      "beat": 2,
+      "lane": 6
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 5
+     },
+     {
+      "beat": 4.5,
+      "lane": 6
+     },
+     {
+      "beat": 5,
+      "lane": 7
+     },
+     {
+      "beat": 5.5,
+      "lane": 9
+     },
+     {
+      "beat": 6,
+      "lane": 8
+     },
+     {
+      "beat": 7,
+      "lane": 6
+     },
+     {
+      "beat": 8,
+      "lane": 7
+     },
+     {
+      "beat": 8.5,
+      "lane": 8
+     },
+     {
+      "beat": 9,
+      "lane": 9
+     },
+     {
+      "beat": 9.5,
+      "lane": 10
+     },
+     {
+      "beat": 10,
+      "lane": 9
+     },
+     {
+      "beat": 11,
+      "lane": 7
+     },
+     {
+      "beat": 12,
+      "lane": 9
+     },
+     {
+      "beat": 12.5,
+      "lane": 8
+     },
+     {
+      "beat": 13,
+      "lane": 7
+     },
+     {
+      "beat": 14,
+      "lane": 5
+     },
+     {
+      "beat": 15,
+      "lane": 4
+     }
+    ]
+   },
+   {
+    "name": "Answering phrases",
+    "bpm": 72,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 6
+     },
+     {
+      "beat": 1,
+      "lane": 8
+     },
+     {
+      "beat": 2,
+      "lane": 10
+     },
+     {
+      "beat": 3,
+      "lane": 8
+     },
+     {
+      "beat": 4,
+      "lane": 12
+     },
+     {
+      "beat": 6,
+      "lane": 10
+     },
+     {
+      "beat": 7,
+      "lane": 9
+     },
+     {
+      "beat": 8,
+      "lane": 8
+     },
+     {
+      "beat": 9,
+      "lane": 6
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 11,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 5
+     },
+     {
+      "beat": 16,
+      "lane": 0
+     }
+    ]
+   }
+  ]
+ }
+}

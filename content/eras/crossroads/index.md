@@ -2,7 +2,7 @@
 title: "Crossroads and Golden Ages"
 description: "Along the Silk Road and the sea lanes, games, instruments and crafts travelled and changed."
 path: "/eras/crossroads/"
-count: 141
+count: 154
 ---
 # Crossroads and Golden Ages
 
@@ -10,7 +10,7 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 
 
 
-141 entries.
+154 entries.
 
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
 - [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md): Afghanistan; Musical instruments; Crossroads and Golden Ages
@@ -37,10 +37,13 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 - [Dombra](../../games/48-dombra/index.md): Kazakhstan; Musical instruments; Crossroads and Golden Ages
 - [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md): China; Racing; Crossroads and Golden Ages
 - [Dranyen](../../games/300-dranyen/index.md): China; Musical instruments; Crossroads and Golden Ages
+- [Duduk](../../games/159-duduk/index.md): Armenia; Musical instruments; Crossroads and Golden Ages
+- [Dutar](../../games/5312-dutar/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Floating market trader](../../games/315-floating-market-trader/index.md): Thailand; Board and table games; Crossroads and Golden Ages
 - [Four-Field Kono](../../games/457-four-field-kono/index.md): South Korea; Board and table games; Crossroads and Golden Ages
 - [Fox and Geese](../../games/4615-fox-and-geese/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
+- [Gaida](../../games/2423-gaida/index.md): Bulgaria; Musical instruments; Crossroads and Golden Ages
 - [Gomoku and Renju](../../games/847-gomoku-and-renju/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Hasami shogi](../../games/849-hasami-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Highland Bagpipe Chanter and Drone](../../games/510-highland-bagpipe-chanter-and-drone/index.md): United Kingdom; Musical instruments; Crossroads and Golden Ages
@@ -63,6 +66,7 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 - [Mexican Lotería](../../games/935-mexican-loteria/index.md): Mexico; Board and table games; Crossroads and Golden Ages
 - [Mezoued Bagpipe and Tabl Drum](../../games/1336-mezoued-bagpipe-and-tabl-drum/index.md): Tunisia; Musical instruments; Crossroads and Golden Ages
 - [Mongolian chess](../../games/943-mongolian-chess/index.md): Mongolia; Board and table games; Crossroads and Golden Ages
+- [Musette de cour](../../games/3217-musette-de-cour/index.md): France; Musical instruments; Crossroads and Golden Ages
 - [Novuss](../../games/456-novuss/index.md): Latvia, Estonia; Board and table games; Crossroads and Golden Ages
 - [Nzango](../../games/1422-nzango/index.md): Congo; Board and table games; Crossroads and Golden Ages
 - [Ogooué river pirogue journey](../../games/1423-ogooue-river-pirogue-journey/index.md): Gabon; Racing; Crossroads and Golden Ages
@@ -71,6 +75,7 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 - [Patolli](../../games/454-patolli/index.md): Mexico; Board and table games; Crossroads and Golden Ages
 - [Peralikatuma](../../games/287-peralikatuma/index.md): Sri Lanka; Board and table games; Crossroads and Golden Ages
 - [Pinisi](../../games/327-pinisi/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
+- [Pipa](../../games/335-pipa/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Queah](../../games/885-queah/index.md): Liberia; Board and table games; Crossroads and Golden Ages
 - [Rabab plucked lute](../../games/270-rabab-plucked-lute/index.md): India, Pakistan; Musical instruments; Crossroads and Golden Ages
 - [Racing Pigeon Loft](../../games/411-racing-pigeon-loft/index.md): Belgium, Netherlands; Board and table games; Crossroads and Golden Ages
@@ -91,13 +96,16 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 - [Texas 42](../../games/1195-texas-42/index.md): United States; Board and table games; Crossroads and Golden Ages
 - [Tsugaru Shamisen](../../games/1489-tsugaru-shamisen/index.md): Japan; Musical instruments; Crossroads and Golden Ages
 - [Turkish Dama](../../games/155-turkish-dama/index.md): Turkey, Turkmenistan; Board and table games; Crossroads and Golden Ages
+- [Uilleann pipes](../../games/4258-uilleann-pipes/index.md): Ireland; Musical instruments; Crossroads and Golden Ages
 - [Vai Syllabary Decoder](../../games/1394-vai-syllabary-decoder/index.md): Liberia; Puzzles and mind games; Crossroads and Golden Ages
 - [Veena](../../games/282-veena/index.md): India; Musical instruments; Crossroads and Golden Ages
+- [Vuvuzela](../../games/7988-vuvuzela/index.md): South Africa; Musical instruments; Crossroads and Golden Ages
 - [Water Jousting](../../games/393-water-jousting/index.md): France; Wrestling and martial sports; Crossroads and Golden Ages
 - [Wayfinder](../../games/43-wayfinder/index.md): United States, New Zealand; Puzzles and mind games; Crossroads and Golden Ages
 - [Yap stone money trade puzzle](../../games/1401-yap-stone-money-trade-puzzle/index.md): Micronesia; Board and table games; Crossroads and Golden Ages
 - [Yote Capture Grid](../../games/167-yote-capture-grid/index.md): Senegal, Mali; Board and table games; Crossroads and Golden Ages
 - [Zamma](../../games/462-zamma/index.md): Morocco; Board and table games; Crossroads and Golden Ages
+- [Zurna](../../games/5975-zurna/index.md): Turkey; Musical instruments; Crossroads and Golden Ages
 - [101 Okey](../../games/1166-101-okey/index.md): Turkey; Board and table games; Crossroads and Golden Ages
 - [Akedewama](../../games/837-akedewama/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
 - [Bahamian dominoes](../../games/569-bahamian-dominoes/index.md): Bahamas; Board and table games; Crossroads and Golden Ages
@@ -113,6 +121,7 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 - [Fanoron-Telo](../../games/902-fanoron-telo/index.md): Madagascar; Board and table games; Crossroads and Golden Ages
 - [Fanorona](../../games/901-fanorona/index.md): Madagascar; Board and table games; Crossroads and Golden Ages
 - [Fohr](../../games/839-fohr/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
+- [Gambus](../../games/7078-gambus/index.md): Brunei; Musical instruments; Crossroads and Golden Ages
 - [Gaple dominoes](../../games/804-gaple-dominoes/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
 - [Guatemalan Lotería](../../games/758-guatemalan-loteria/index.md): Guatemala; Board and table games; Crossroads and Golden Ages
 - [Haitian dominoes](../../games/765-haitian-dominoes/index.md): Haiti; Board and table games; Crossroads and Golden Ages
@@ -126,6 +135,7 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 - [Kikouri](../../games/840-kikouri/index.md): Cote d'Ivoire; Board and table games; Crossroads and Golden Ages
 - [Lambs and Tigers](../../games/791-lambs-and-tigers/index.md): India; Board and table games; Crossroads and Golden Ages
 - [Lao chess](../../games/875-lao-chess/index.md): Laos; Board and table games; Crossroads and Golden Ages
+- [Lepapata kudu horn](../../games/6903-lepapata-kudu-horn/index.md): Botswana; Musical instruments; Crossroads and Golden Ages
 - [Lotería](../../games/1211-loteria/index.md): Venezuela; Board and table games; Crossroads and Golden Ages
 - [Makyek](../../games/1143-makyek/index.md): Thailand; Board and table games; Crossroads and Golden Ages
 - [Malay draughts](../../games/910-malay-draughts/index.md): Malaysia; Board and table games; Crossroads and Golden Ages
@@ -139,6 +149,7 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 - [Reversi](../../games/22336-reversi/index.md): United Kingdom, Japan; Board and table games; Crossroads and Golden Ages
 - [Rithmomachia](../../games/8869-rithmomachia/index.md): Italy; Board and table games; Crossroads and Golden Ages
 - [Russian Loto](../../games/22338-russian-loto/index.md): Russia; Board and table games; Crossroads and Golden Ages
+- [Sanshin](../../games/5365-sanshin/index.md): Japan; Musical instruments; Crossroads and Golden Ages
 - [Shisima](../../games/865-shisima/index.md): Kenya; Board and table games; Crossroads and Golden Ages
 - [Sig](../../games/928-sig/index.md): Mauritania; Board and table games; Crossroads and Golden Ages
 - [Slam dominoes](../../games/578-slam-dominoes/index.md): Barbados; Board and table games; Crossroads and Golden Ages
@@ -150,6 +161,8 @@ Along the Silk Road and the sea lanes, games, instruments and crafts travelled a
 - [Thai chess](../../games/1141-thai-chess/index.md): Thailand; Board and table games; Crossroads and Golden Ages
 - [Tien gow](../../games/773-tien-gow/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Tiger and Goat](../../games/967-tiger-and-goat/index.md): Nepal; Board and table games; Crossroads and Golden Ages
+- [Tulum](../../games/4230-tulum/index.md): Turkey; Musical instruments; Crossroads and Golden Ages
 - [Union Jack Game](../../games/547-union-jack-game/index.md): Antigua and Barbuda; Board and table games; Crossroads and Golden Ages
 - [Vietnamese xiangqi](../../games/1215-vietnamese-xiangqi/index.md): Vietnam; Board and table games; Crossroads and Golden Ages
 - [Xiangqi](../../games/636-xiangqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages
+- [Zampogna](../../games/10240-zampogna/index.md): Italy; Musical instruments; Crossroads and Golden Ages

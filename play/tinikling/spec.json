@@ -1,0 +1,179 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "tinikling dancer",
+  "lanes": [
+   {
+    "name": "Tap",
+    "hz": 520,
+    "timbre": "rim",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Clap",
+    "hz": 460,
+    "timbre": "rim",
+    "color": "#d9622b"
+   },
+   {
+    "name": "In",
+    "hz": 150,
+    "timbre": "stomp",
+    "color": "#58b878"
+   },
+   {
+    "name": "Out",
+    "hz": 180,
+    "timbre": "stomp",
+    "color": "#4fa8d6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "tinikling-basic",
+    "name": "Basic step, 3 beats",
+    "bpm": 108,
+    "meter": 3,
+    "length": 6,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Tinikling, Philippines",
+    "note": "Tap, tap, clap, while the dancer hops in on the clap and out on the taps.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Tap"
+     },
+     {
+      "beat": 1,
+      "lane": "Tap"
+     },
+     {
+      "beat": 1.5,
+      "lane": "In"
+     },
+     {
+      "beat": 2,
+      "lane": "Clap"
+     },
+     {
+      "beat": 3,
+      "lane": "Tap"
+     },
+     {
+      "beat": 4,
+      "lane": "Tap"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Out"
+     },
+     {
+      "beat": 5,
+      "lane": "Clap"
+     }
+    ]
+   },
+   {
+    "id": "tinikling-quick",
+    "name": "Quick step",
+    "bpm": 128,
+    "meter": 3,
+    "length": 6,
+    "kind": "figure",
+    "heritage": "Tinikling, Philippines",
+    "note": "A faster round: the dancer hops in and out on every bar.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Tap"
+     },
+     {
+      "beat": 0.5,
+      "lane": "In"
+     },
+     {
+      "beat": 1,
+      "lane": "Tap"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Out"
+     },
+     {
+      "beat": 2,
+      "lane": "Clap"
+     },
+     {
+      "beat": 3,
+      "lane": "Tap"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Out"
+     },
+     {
+      "beat": 4,
+      "lane": "Tap"
+     },
+     {
+      "beat": 4.5,
+      "lane": "In"
+     },
+     {
+      "beat": 5,
+      "lane": "Clap"
+     }
+    ]
+   },
+   {
+    "id": "tinikling-long",
+    "name": "In and out",
+    "bpm": 116,
+    "meter": 3,
+    "length": 6,
+    "kind": "figure",
+    "heritage": "Tinikling, Philippines",
+    "note": "Hops on both sides of the poles in one round.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Tap"
+     },
+     {
+      "beat": 1,
+      "lane": "Tap"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Out"
+     },
+     {
+      "beat": 2,
+      "lane": "Clap"
+     },
+     {
+      "beat": 3,
+      "lane": "Tap"
+     },
+     {
+      "beat": 4,
+      "lane": "Tap"
+     },
+     {
+      "beat": 4.5,
+      "lane": "In"
+     },
+     {
+      "beat": 5,
+      "lane": "Clap"
+     }
+    ]
+   }
+  ]
+ }
+}

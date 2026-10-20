@@ -1,0 +1,176 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "Open fans",
+    "hz": 900,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#e2557a"
+   },
+   {
+    "name": "Sweep",
+    "hz": 520,
+    "timbre": "breath",
+    "icon": "clap",
+    "color": "#4fb0c8"
+   },
+   {
+    "name": "Bloom",
+    "hz": 880,
+    "timbre": "bell",
+    "icon": "clap",
+    "color": "#f0b84a"
+   },
+   {
+    "name": "Close",
+    "hz": 1500,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#9c7ad8"
+   }
+  ],
+  "songs": [
+   {
+    "id": "buchae-open",
+    "name": "Open and close",
+    "bpm": 72,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Buchaechum, Korea",
+    "note": "A teaching figure: the fans open wide, sweep from side to side, meet as a bloom and close.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Open fans"
+     },
+     {
+      "beat": 2,
+      "lane": "Sweep"
+     },
+     {
+      "beat": 3,
+      "lane": "Sweep"
+     },
+     {
+      "beat": 4,
+      "lane": "Bloom"
+     },
+     {
+      "beat": 6,
+      "lane": "Close"
+     }
+    ]
+   },
+   {
+    "id": "buchae-wave",
+    "name": "Waves",
+    "bpm": 78,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Buchaechum, Korea",
+    "note": "Long sweeps of the fans like waves, ending in a bloom.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Open fans"
+     },
+     {
+      "beat": 1,
+      "lane": "Sweep"
+     },
+     {
+      "beat": 2,
+      "lane": "Sweep"
+     },
+     {
+      "beat": 3,
+      "lane": "Sweep"
+     },
+     {
+      "beat": 4,
+      "lane": "Open fans"
+     },
+     {
+      "beat": 5,
+      "lane": "Sweep"
+     },
+     {
+      "beat": 6,
+      "lane": "Bloom"
+     },
+     {
+      "beat": 7,
+      "lane": "Close"
+     }
+    ]
+   },
+   {
+    "id": "buchae-flower",
+    "name": "Flower round",
+    "bpm": 84,
+    "meter": 4,
+    "length": 12,
+    "kind": "figure",
+    "heritage": "Buchaechum, Korea",
+    "note": "Three blooms in a row, opened and closed in turn.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Bloom"
+     },
+     {
+      "beat": 1,
+      "lane": "Open fans"
+     },
+     {
+      "beat": 2,
+      "lane": "Bloom"
+     },
+     {
+      "beat": 4,
+      "lane": "Close"
+     },
+     {
+      "beat": 5,
+      "lane": "Open fans"
+     },
+     {
+      "beat": 6,
+      "lane": "Sweep"
+     },
+     {
+      "beat": 7,
+      "lane": "Bloom"
+     },
+     {
+      "beat": 8,
+      "lane": "Open fans"
+     },
+     {
+      "beat": 9,
+      "lane": "Bloom"
+     },
+     {
+      "beat": 10,
+      "lane": "Close"
+     },
+     {
+      "beat": 11,
+      "lane": "Close"
+     }
+    ]
+   }
+  ],
+  "song": 0,
+  "instrument": "fan dancer"
+ }
+}

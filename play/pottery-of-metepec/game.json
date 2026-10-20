@@ -1,0 +1,13 @@
+{
+ "slug": "pottery-of-metepec",
+ "title": "Jar with flowers",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

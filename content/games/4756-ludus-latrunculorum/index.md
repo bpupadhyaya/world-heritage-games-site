@@ -47,10 +47,10 @@ Played across the Roman world from about the 1st century BCE to the 5th century 
 
 - [Italian draughts](../../games/834-italian-draughts/index.md)
 - [Rithmomachia](../../games/8869-rithmomachia/index.md)
+- [Zampogna](../../games/10240-zampogna/index.md)
 - [Kharbaga](../../games/459-kharbaga/index.md)
 - [Zamma](../../games/462-zamma/index.md)
 - [Çiftelia](../../games/1257-ciftelia/index.md)
-- [Mezoued Bagpipe and Tabl Drum](../../games/1336-mezoued-bagpipe-and-tabl-drum/index.md)
 
 ## Sources
 

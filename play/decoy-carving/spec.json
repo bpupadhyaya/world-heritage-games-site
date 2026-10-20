@@ -1,0 +1,20 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "carve",
+  "figure": "decoy",
+  "scene": "marsh",
+  "cols": 42,
+  "rows": 28,
+  "material": "wood",
+  "color": "#c8905a",
+  "cavity": "#0e0a06",
+  "chisels": 2,
+  "guide": true,
+  "variation": 0.5,
+  "relief": true,
+  "zoom": true,
+  "wax": true,
+  "grain": "across"
+ }
+}

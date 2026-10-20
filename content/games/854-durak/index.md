@@ -46,10 +46,10 @@ Usually placed in the era of Age of Contact and Craft (about 1500 to 1800), alth
 
 - [Panduri](../../games/41-panduri/index.md)
 - [Dombra](../../games/48-dombra/index.md)
+- [Duduk](../../games/159-duduk/index.md)
 - [Lavash Baking](../../games/163-lavash-baking/index.md)
 - [Kamancha](../../games/165-kamancha/index.md)
 - [Kok-boru](../../games/241-kok-boru/index.md)
-- [Georgian three-voice polyphony](../../games/245-georgian-three-voice-polyphony/index.md)
 
 ## Sources
 

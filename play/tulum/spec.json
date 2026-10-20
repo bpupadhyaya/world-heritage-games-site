@@ -1,0 +1,255 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "tulum",
+  "mode": "follow",
+  "root": 293.7,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Re",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "1111111"
+   },
+   {
+    "name": "Mi",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "1111110"
+   },
+   {
+    "name": "Fa",
+    "cents": 300,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "1111100"
+   },
+   {
+    "name": "Sol",
+    "cents": 500,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "1111000"
+   },
+   {
+    "name": "La",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "1110000"
+   },
+   {
+    "name": "Si",
+    "cents": 900,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "1100000"
+   },
+   {
+    "name": "Do",
+    "cents": 1000,
+    "timbre": "breath",
+    "color": "#6cc2a0",
+    "holes": "1000000"
+   }
+  ],
+  "drone": "reed",
+  "droneHz": [
+   293.7,
+   294.72795
+  ],
+  "songs": [
+   {
+    "id": "tulum-line",
+    "name": "Hill melody",
+    "bpm": 88,
+    "meter": 4,
+    "length": 23.0,
+    "kind": "figure",
+    "heritage": "Tulum, Turkey",
+    "note": "A teaching melody on a twin-pipe chanter: it climbs the mode and settles back.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "Fa",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "Sol",
+      "len": 2
+     },
+     {
+      "beat": 4.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "Fa",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "Re",
+      "len": 3
+     },
+     {
+      "beat": 11.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "Do",
+      "len": 2
+     },
+     {
+      "beat": 15.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 17.0,
+      "lane": "Sol",
+      "len": 2
+     },
+     {
+      "beat": 19.0,
+      "lane": "Fa",
+      "len": 1
+     },
+     {
+      "beat": 20.0,
+      "lane": "Re",
+      "len": 3
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "tulum-run",
+    "name": "Quick run",
+    "bpm": 106,
+    "meter": 4,
+    "length": 21.0,
+    "kind": "figure",
+    "heritage": "Tulum, Turkey",
+    "note": "A fast run up and down the chanter.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "Fa",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "Sol",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "Fa",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "Mi",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "Re",
+      "len": 2
+     },
+     {
+      "beat": 10.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "Do",
+      "len": 2
+     },
+     {
+      "beat": 14.0,
+      "lane": "Si",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "La",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "Sol",
+      "len": 2
+     },
+     {
+      "beat": 18.0,
+      "lane": "Re",
+      "len": 3
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "tulum"
+}

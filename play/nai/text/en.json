@@ -1,0 +1,20 @@
+{
+ "title": "Nai",
+ "native": "Nai",
+ "summary": "The pan flute of the Carpathian lands: a single curved raft of closed pipes of graduated length, played by moving the lips along the rims. Each pipe is one note; strike a pipe to blow across it.",
+ "howToPlay": [
+  "The longest pipes are the lowest notes.",
+  "Strike a pipe to blow across its rim.",
+  "Follow the notes as they come to their pipes."
+ ],
+ "rules": [
+  "One raft, one scale, from the longest pipe to the shortest.",
+  "Strike each pipe close to its beat.",
+  "The round ends when the last note has been judged; the score is the share of the best possible."
+ ],
+ "countries": [
+  "Romania",
+  "Moldova"
+ ],
+ "heritageNote": "The nai is played in village bands and by solo musicians, with a soft breathy tone and a rich vibrato."
+}

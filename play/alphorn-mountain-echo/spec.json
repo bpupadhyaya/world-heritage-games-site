@@ -1,0 +1,283 @@
+{
+ "engine": "rhythm",
+ "variant": "alphorn-mountain-echo",
+ "players": "1",
+ "params": {
+  "layout": "holes",
+  "mode": "follow",
+  "root": 370,
+  "scale": [
+   0,
+   204,
+   386,
+   551,
+   702,
+   841,
+   969,
+   1200
+  ],
+  "instrument": "alphorn",
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "8",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "dur": 1.4
+   },
+   {
+    "name": "9",
+    "cents": 204,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "dur": 1.4
+   },
+   {
+    "name": "10",
+    "cents": 386,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "dur": 1.4
+   },
+   {
+    "name": "11",
+    "cents": 551,
+    "timbre": "breath",
+    "color": "#7fd0c4",
+    "dur": 1.4
+   },
+   {
+    "name": "12",
+    "cents": 702,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "dur": 1.4
+   },
+   {
+    "name": "13",
+    "cents": 841,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "dur": 1.4
+   },
+   {
+    "name": "14",
+    "cents": 969,
+    "timbre": "breath",
+    "color": "#e8a07a",
+    "dur": 1.4
+   },
+   {
+    "name": "16",
+    "cents": 1200,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "dur": 1.4
+   }
+  ],
+  "songs": [
+   {
+    "name": "Climb the harmonics",
+    "bpm": 54,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0,
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": 1,
+      "len": 2
+     },
+     {
+      "beat": 4,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": 3,
+      "len": 2
+     },
+     {
+      "beat": 8,
+      "lane": 4,
+      "len": 2
+     },
+     {
+      "beat": 10,
+      "lane": 5,
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": 6,
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": 7,
+      "len": 3
+     }
+    ]
+   },
+   {
+    "id": "valley-echo",
+    "name": "Call and echo (teaching figure)",
+    "bpm": 56,
+    "meter": 4,
+    "length": 24,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Alpine herding calls, Switzerland",
+    "note": "A herder blows a short call and the mountain gives it back a moment later. This figure plays a call on the lower harmonics, a pause for the echo, then the call again a little higher; it is a teaching exercise in the style of the calls, not a fixed tune.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0,
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 4,
+      "lane": 4,
+      "len": 4
+     },
+     {
+      "beat": 12,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": 4,
+      "len": 2
+     },
+     {
+      "beat": 16,
+      "lane": 5,
+      "len": 4
+     }
+    ]
+   },
+   {
+    "id": "fa-note",
+    "name": "The bright eleventh (teaching figure)",
+    "bpm": 60,
+    "meter": 4,
+    "length": 20,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Alphorn scale, Switzerland",
+    "note": "The eleventh natural harmonic sits between two notes of the ordinary scale, so alphorn tunes have a bright, slightly sharp fourth that is not found on a piano. This figure leans on that note and resolves down to the fifth.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3,
+      "len": 3
+     },
+     {
+      "beat": 5,
+      "lane": 4,
+      "len": 3
+     },
+     {
+      "beat": 8,
+      "lane": 3,
+      "len": 2
+     },
+     {
+      "beat": 10,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 12,
+      "lane": 1,
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": 0,
+      "len": 4
+     }
+    ]
+   },
+   {
+    "name": "Hill-path call",
+    "bpm": 60,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0,
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": 4,
+      "len": 2
+     },
+     {
+      "beat": 4,
+      "lane": 5,
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 6,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 8,
+      "lane": 3,
+      "len": 2
+     },
+     {
+      "beat": 10,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": 0,
+      "len": 4
+     }
+    ]
+   }
+  ]
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

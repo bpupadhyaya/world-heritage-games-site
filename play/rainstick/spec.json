@@ -1,0 +1,131 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.45,
+  "instrument": "rainstick",
+  "lanes": [
+   {
+    "name": "Tap",
+    "hz": 190.0,
+    "timbre": "bell",
+    "color": "#6df2f2"
+   },
+   {
+    "name": "Soft rain",
+    "hz": 300.0,
+    "timbre": "bell",
+    "color": "#f2ac6d"
+   },
+   {
+    "name": "Heavy rain",
+    "hz": 260.0,
+    "timbre": "bell",
+    "color": "#c7f26d"
+   },
+   {
+    "name": "Last drops",
+    "hz": 500.0,
+    "timbre": "bell",
+    "color": "#6df282"
+   }
+  ],
+  "songs": [
+   {
+    "id": "rain-shower",
+    "name": "A passing shower",
+    "bpm": 60,
+    "meter": 4,
+    "length": 12.0,
+    "kind": "figure",
+    "heritage": "Rainstick",
+    "note": "A teaching figure: a soft shower, a heavy burst and last drops.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Tap"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Tap"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Soft rain"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Heavy rain"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Last drops"
+     },
+     {
+      "beat": 9.0,
+      "lane": "Tap"
+     },
+     {
+      "beat": 10.0,
+      "lane": "Soft rain"
+     },
+     {
+      "beat": 11.0,
+      "lane": "Last drops"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "rain-storm",
+    "name": "Gathering storm",
+    "bpm": 66,
+    "meter": 4,
+    "length": 12.0,
+    "kind": "figure",
+    "heritage": "Rainstick",
+    "note": "A storm that gathers and clears.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Tap"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Soft rain"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Tap"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Heavy rain"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Heavy rain"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Last drops"
+     },
+     {
+      "beat": 9.0,
+      "lane": "Tap"
+     },
+     {
+      "beat": 10.0,
+      "lane": "Soft rain"
+     },
+     {
+      "beat": 11.0,
+      "lane": "Last drops"
+     }
+    ]
+   }
+  ]
+ }
+}

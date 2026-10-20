@@ -1,0 +1,14 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "sheet",
+  "scene": "papiermolen",
+  "form": "slosh",
+  "finish": "press",
+  "mould": "laid",
+  "pulp": "#ece4d0",
+  "water": "#7e949c",
+  "vat": "oak",
+  "hero": "dutch"
+ }
+}

@@ -42,10 +42,10 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md)
 - [Dranyen](../../games/300-dranyen/index.md)
+- [Pipa](../../games/335-pipa/index.md)
 - [Mahjong](../../games/635-mahjong/index.md)
 - [Luzhanqi](../../games/640-luzhanqi/index.md)
 - [Banqi](../../games/1437-banqi/index.md)
-- [Dragon boat racing](../../games/5333-dragon-boat-racing/index.md)
 
 ## Sources
 

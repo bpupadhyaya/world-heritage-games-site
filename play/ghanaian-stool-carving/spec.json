@@ -1,0 +1,20 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "carve",
+  "figure": "akan-stool",
+  "scene": "kumasi",
+  "cols": 40,
+  "rows": 30,
+  "material": "wood",
+  "color": "#d8b480",
+  "cavity": "#160c06",
+  "chisels": 2,
+  "guide": true,
+  "variation": 0.5,
+  "relief": true,
+  "zoom": true,
+  "wax": true,
+  "grain": "long"
+ }
+}

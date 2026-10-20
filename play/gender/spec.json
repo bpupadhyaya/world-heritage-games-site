@@ -1,0 +1,361 @@
+{
+ "engine": "rhythm",
+ "variant": "gender",
+ "players": "1",
+ "params": {
+  "layout": "keys",
+  "mode": "follow",
+  "instrument": "gender",
+  "root": 196,
+  "scale": "slendro",
+  "loops": 2,
+  "tolerance": 1.2,
+  "lanes": [
+   {
+    "name": "1",
+    "id": "1",
+    "degree": 0,
+    "timbre": "bell",
+    "dur": 1.8,
+    "color": "#c98a3a"
+   },
+   {
+    "name": "2",
+    "id": "2",
+    "degree": 1,
+    "timbre": "bell",
+    "dur": 1.8,
+    "color": "#b9772c"
+   },
+   {
+    "name": "3",
+    "id": "3",
+    "degree": 2,
+    "timbre": "bell",
+    "dur": 1.8,
+    "color": "#c98a3a"
+   },
+   {
+    "name": "5",
+    "id": "5",
+    "degree": 3,
+    "timbre": "bell",
+    "dur": 1.8,
+    "color": "#b9772c"
+   },
+   {
+    "name": "6",
+    "id": "6",
+    "degree": 4,
+    "timbre": "bell",
+    "dur": 1.8,
+    "color": "#c98a3a"
+   },
+   {
+    "name": "1'",
+    "id": "1'",
+    "degree": 5,
+    "timbre": "bell",
+    "dur": 1.8,
+    "color": "#b9772c"
+   },
+   {
+    "name": "2'",
+    "id": "2'",
+    "degree": 6,
+    "timbre": "bell",
+    "dur": 1.8,
+    "color": "#c98a3a"
+   },
+   {
+    "name": "3'",
+    "id": "3'",
+    "degree": 7,
+    "timbre": "bell",
+    "dur": 1.8,
+    "color": "#b9772c"
+   },
+   {
+    "name": "5'",
+    "id": "5'",
+    "degree": 8,
+    "timbre": "bell",
+    "dur": 1.8,
+    "color": "#c98a3a"
+   },
+   {
+    "name": "6'",
+    "id": "6'",
+    "degree": 9,
+    "timbre": "bell",
+    "dur": 1.8,
+    "color": "#b9772c"
+   }
+  ],
+  "songs": [
+   {
+    "id": "balungan-frame",
+    "name": "Skeleton melody",
+    "bpm": 76,
+    "meter": 4,
+    "length": 16,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Javanese gamelan",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "3"
+     },
+     {
+      "beat": 1,
+      "lane": "5"
+     },
+     {
+      "beat": 2,
+      "lane": "6"
+     },
+     {
+      "beat": 3,
+      "lane": "5"
+     },
+     {
+      "beat": 4,
+      "lane": "3"
+     },
+     {
+      "beat": 5,
+      "lane": "2"
+     },
+     {
+      "beat": 6,
+      "lane": "3"
+     },
+     {
+      "beat": 7,
+      "lane": "5"
+     },
+     {
+      "beat": 8,
+      "lane": "6"
+     },
+     {
+      "beat": 9,
+      "lane": "5"
+     },
+     {
+      "beat": 10,
+      "lane": "3"
+     },
+     {
+      "beat": 11,
+      "lane": "2"
+     },
+     {
+      "beat": 12,
+      "lane": "3"
+     },
+     {
+      "beat": 13,
+      "lane": "2"
+     },
+     {
+      "beat": 14,
+      "lane": "1"
+     },
+     {
+      "beat": 15,
+      "lane": "2"
+     }
+    ],
+    "note": "A skeleton melody in slendro: one note to every beat, the outline that other instruments decorate. It settles on the low 2."
+   },
+   {
+    "id": "octave-pairs",
+    "name": "Octave pairs",
+    "bpm": 84,
+    "meter": 4,
+    "length": 8,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Javanese gamelan",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "1"
+     },
+     {
+      "beat": 0.5,
+      "lane": "1'"
+     },
+     {
+      "beat": 1,
+      "lane": "2"
+     },
+     {
+      "beat": 1.5,
+      "lane": "2'"
+     },
+     {
+      "beat": 2,
+      "lane": "3"
+     },
+     {
+      "beat": 2.5,
+      "lane": "3'"
+     },
+     {
+      "beat": 3,
+      "lane": "5"
+     },
+     {
+      "beat": 3.5,
+      "lane": "5'"
+     },
+     {
+      "beat": 4,
+      "lane": "6"
+     },
+     {
+      "beat": 4.5,
+      "lane": "6'"
+     },
+     {
+      "beat": 5,
+      "lane": "5"
+     },
+     {
+      "beat": 5.5,
+      "lane": "5'"
+     },
+     {
+      "beat": 6,
+      "lane": "3"
+     },
+     {
+      "beat": 6.5,
+      "lane": "3'"
+     },
+     {
+      "beat": 7,
+      "lane": "2"
+     },
+     {
+      "beat": 7.5,
+      "lane": "2'"
+     }
+    ],
+    "note": "A key and the same note an octave higher struck in turn, the doubling at the heart of gender playing."
+   },
+   {
+    "id": "flowing-line",
+    "name": "Flowing line",
+    "bpm": 90,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "2"
+     },
+     {
+      "beat": 0.5,
+      "lane": "3"
+     },
+     {
+      "beat": 1,
+      "lane": "5"
+     },
+     {
+      "beat": 1.5,
+      "lane": "6"
+     },
+     {
+      "beat": 2,
+      "lane": "5"
+     },
+     {
+      "beat": 3,
+      "lane": "3"
+     },
+     {
+      "beat": 3.5,
+      "lane": "2"
+     },
+     {
+      "beat": 4,
+      "lane": "3"
+     },
+     {
+      "beat": 4.5,
+      "lane": "5"
+     },
+     {
+      "beat": 5,
+      "lane": "6"
+     },
+     {
+      "beat": 5.5,
+      "lane": "1'"
+     },
+     {
+      "beat": 6,
+      "lane": "6"
+     },
+     {
+      "beat": 7,
+      "lane": "5"
+     },
+     {
+      "beat": 8,
+      "lane": "6"
+     },
+     {
+      "beat": 8.5,
+      "lane": "1'"
+     },
+     {
+      "beat": 9,
+      "lane": "2'"
+     },
+     {
+      "beat": 9.5,
+      "lane": "1'"
+     },
+     {
+      "beat": 10,
+      "lane": "6"
+     },
+     {
+      "beat": 10.5,
+      "lane": "5"
+     },
+     {
+      "beat": 11,
+      "lane": "3"
+     },
+     {
+      "beat": 12,
+      "lane": "5"
+     },
+     {
+      "beat": 12.5,
+      "lane": "3"
+     },
+     {
+      "beat": 13,
+      "lane": "2"
+     },
+     {
+      "beat": 14,
+      "lane": "1"
+     },
+     {
+      "beat": 15,
+      "lane": "2"
+     }
+    ]
+   }
+  ]
+ }
+}

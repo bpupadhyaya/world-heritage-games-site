@@ -1,0 +1,184 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "guira",
+  "lanes": [
+   {
+    "name": "Down",
+    "hz": 520,
+    "timbre": "clap",
+    "color": "#f0b84a"
+   },
+   {
+    "name": "Up",
+    "hz": 580,
+    "timbre": "clap",
+    "color": "#58b8d6"
+   },
+   {
+    "name": "Scratch",
+    "hz": 640,
+    "timbre": "clap",
+    "color": "#e0693a"
+   },
+   {
+    "name": "Knock",
+    "hz": 400,
+    "timbre": "clap",
+    "color": "#7ac07a"
+   }
+  ],
+  "songs": [
+   {
+    "id": "guira-merengue-pulse",
+    "name": "Merengue pulse, 4 beats",
+    "bpm": 128,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Guira, merengue, Dominican Republic",
+    "note": "A teaching pattern: brush strokes in steady pairs with a scratch and a knock to end the bar.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Up"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Up"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Up"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Scratch"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Up"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Up"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Scratch"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Knock"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "guira-run",
+    "name": "Quick run",
+    "bpm": 140,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Guira, merengue, Dominican Republic",
+    "note": "A fast run of strokes with a knock closing each bar.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Up"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Scratch"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Up"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Knock"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Up"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Scratch"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Down"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Up"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Scratch"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Down"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Knock"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "guira"
+}

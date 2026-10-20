@@ -1,0 +1,242 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "ocarina",
+  "mode": "follow",
+  "root": 523.3,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "C5",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "11111111"
+   },
+   {
+    "name": "D5",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "11111110"
+   },
+   {
+    "name": "E5",
+    "cents": 400,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "11111100"
+   },
+   {
+    "name": "F5",
+    "cents": 500,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "11111000"
+   },
+   {
+    "name": "G5",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "11110000"
+   },
+   {
+    "name": "A5",
+    "cents": 900,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "11100000"
+   },
+   {
+    "name": "B5",
+    "cents": 1100,
+    "timbre": "breath",
+    "color": "#6cc2a0",
+    "holes": "11000000"
+   },
+   {
+    "name": "C6",
+    "cents": 1200,
+    "timbre": "breath",
+    "color": "#e0764a",
+    "holes": "10000000"
+   }
+  ],
+  "songs": [
+   {
+    "id": "ocarina-lullaby",
+    "name": "Gentle tune",
+    "bpm": 80,
+    "meter": 4,
+    "length": 23.0,
+    "kind": "figure",
+    "heritage": "Ocarina, vessel flutes of many lands",
+    "note": "A teaching tune in a bright major scale: gentle, rising and settling back.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "C5",
+      "len": 2
+     },
+     {
+      "beat": 2.0,
+      "lane": "E5",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "G5",
+      "len": 2
+     },
+     {
+      "beat": 5.0,
+      "lane": "F5",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "E5",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "D5",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "C5",
+      "len": 3
+     },
+     {
+      "beat": 11.0,
+      "lane": "G5",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "A5",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "C6",
+      "len": 2
+     },
+     {
+      "beat": 15.0,
+      "lane": "B5",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "A5",
+      "len": 1
+     },
+     {
+      "beat": 17.0,
+      "lane": "G5",
+      "len": 2
+     },
+     {
+      "beat": 19.0,
+      "lane": "F5",
+      "len": 1
+     },
+     {
+      "beat": 20.0,
+      "lane": "C5",
+      "len": 3
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "ocarina-skip",
+    "name": "Skipping tune",
+    "bpm": 108,
+    "meter": 4,
+    "length": 16.0,
+    "kind": "figure",
+    "heritage": "Ocarina, vessel flutes of many lands",
+    "note": "A quicker tune that skips up the scale.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "C5",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "D5",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "E5",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "G5",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "E5",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "D5",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "C5",
+      "len": 2
+     },
+     {
+      "beat": 8.0,
+      "lane": "G5",
+      "len": 1
+     },
+     {
+      "beat": 9.0,
+      "lane": "A5",
+      "len": 1
+     },
+     {
+      "beat": 10.0,
+      "lane": "B5",
+      "len": 1
+     },
+     {
+      "beat": 11.0,
+      "lane": "C6",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "B5",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "A5",
+      "len": 1
+     },
+     {
+      "beat": 14.0,
+      "lane": "G5",
+      "len": 2
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "ocarina"
+}

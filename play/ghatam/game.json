@@ -1,0 +1,13 @@
+{
+ "slug": "ghatam",
+ "title": "Ghatam (clay pot drum)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

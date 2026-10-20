@@ -1,0 +1,20 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "carve",
+  "figure": "szekler-gate",
+  "scene": "szekler",
+  "cols": 38,
+  "rows": 44,
+  "material": "wood",
+  "color": "#a67a45",
+  "cavity": "#120c06",
+  "chisels": 2,
+  "guide": true,
+  "variation": 0.5,
+  "relief": true,
+  "zoom": true,
+  "wax": true,
+  "grain": "across"
+ }
+}

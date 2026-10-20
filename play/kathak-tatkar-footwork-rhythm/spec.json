@@ -1,0 +1,235 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "kathak dancer",
+  "lanes": [
+   {
+    "name": "Dha",
+    "hz": 80,
+    "timbre": "stomp",
+    "color": "#d9622b"
+   },
+   {
+    "name": "Tat",
+    "hz": 85,
+    "timbre": "stomp",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "Thei",
+    "hz": 105,
+    "timbre": "stomp",
+    "color": "#58b878"
+   },
+   {
+    "name": "Ta",
+    "hz": 120,
+    "timbre": "stomp",
+    "color": "#4fa8d6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "kathak-teental",
+    "name": "Tatkar in sixteen beats",
+    "bpm": 96,
+    "meter": 4,
+    "length": 16,
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Kathak, India",
+    "note": "A teaching figure on the sixteen-beat cycle: ta thei thei tat, three times, and a closing dha.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Ta"
+     },
+     {
+      "beat": 1,
+      "lane": "Thei"
+     },
+     {
+      "beat": 2,
+      "lane": "Thei"
+     },
+     {
+      "beat": 3,
+      "lane": "Tat"
+     },
+     {
+      "beat": 4,
+      "lane": "Ta"
+     },
+     {
+      "beat": 5,
+      "lane": "Thei"
+     },
+     {
+      "beat": 6,
+      "lane": "Thei"
+     },
+     {
+      "beat": 7,
+      "lane": "Tat"
+     },
+     {
+      "beat": 8,
+      "lane": "Ta"
+     },
+     {
+      "beat": 9,
+      "lane": "Thei"
+     },
+     {
+      "beat": 10,
+      "lane": "Thei"
+     },
+     {
+      "beat": 11,
+      "lane": "Tat"
+     },
+     {
+      "beat": 12,
+      "lane": "Dha"
+     },
+     {
+      "beat": 13,
+      "lane": "Thei"
+     },
+     {
+      "beat": 14,
+      "lane": "Tat"
+     },
+     {
+      "beat": 15,
+      "lane": "Dha"
+     }
+    ]
+   },
+   {
+    "id": "kathak-quick",
+    "name": "Quick tatkar",
+    "bpm": 120,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Kathak, India",
+    "note": "The same pattern at twice the speed.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Ta"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Thei"
+     },
+     {
+      "beat": 1,
+      "lane": "Thei"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Tat"
+     },
+     {
+      "beat": 2,
+      "lane": "Ta"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Thei"
+     },
+     {
+      "beat": 3,
+      "lane": "Thei"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Tat"
+     },
+     {
+      "beat": 4,
+      "lane": "Ta"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Thei"
+     },
+     {
+      "beat": 5,
+      "lane": "Thei"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Tat"
+     },
+     {
+      "beat": 6,
+      "lane": "Dha"
+     },
+     {
+      "beat": 7,
+      "lane": "Dha"
+     }
+    ]
+   },
+   {
+    "id": "kathak-tihai",
+    "name": "Three and a spring",
+    "bpm": 104,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Kathak, India",
+    "note": "A phrase repeated three times and closed with a spring.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Ta"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Thei"
+     },
+     {
+      "beat": 1,
+      "lane": "Tat"
+     },
+     {
+      "beat": 2,
+      "lane": "Ta"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Thei"
+     },
+     {
+      "beat": 3,
+      "lane": "Tat"
+     },
+     {
+      "beat": 4,
+      "lane": "Ta"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Thei"
+     },
+     {
+      "beat": 5,
+      "lane": "Tat"
+     },
+     {
+      "beat": 7,
+      "lane": "Dha"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -40,7 +40,7 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Play it
 
-[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/tavern-nail-and-wire-puzzles/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · App Store (coming soon)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/tavern-nail-and-wire-puzzles/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
@@ -49,7 +49,7 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Clockwork Movement Builder](../../games/502-clockwork-movement-builder/index.md)
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md)
 - [Kiiking](../../games/66-kiiking/index.md)
-- [Ringridning](../../games/1365-ringridning/index.md)
+- [Alpine Yodel](../../games/509-alpine-yodel/index.md)
 
 ## Sources
 

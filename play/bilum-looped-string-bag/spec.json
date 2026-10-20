@@ -1,0 +1,135 @@
+{
+ "engine": "pattern",
+ "params": {
+  "scene": "bilum",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "mirror-x",
+  "palette": [
+   {
+    "name": "Red",
+    "color": "#c8262c"
+   },
+   {
+    "name": "Yellow",
+    "color": "#f2b820"
+   },
+   {
+    "name": "Black",
+    "color": "#1c1612"
+   },
+   {
+    "name": "Green",
+    "color": "#2c8a4a"
+   }
+  ],
+  "background": "#cdb88c",
+  "grid": "#8a7a58",
+  "motifs": [
+   "solid",
+   "diamond",
+   "triangle",
+   "zigzag",
+   "stripe-h",
+   "dot"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 3,
+  "designs": [
+   {
+    "name": "Diamond bands",
+    "rows": [
+     "aaaaaaaaa",
+     ".b.b.b.b.",
+     ".........",
+     "c.c.c.c.c",
+     "..d...d..",
+     "c.c.c.c.c",
+     ".........",
+     ".b.b.b.b.",
+     "aaaaaaaaa"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 2,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 2
+     },
+     "d": {
+      "m": 5,
+      "c": 3
+     }
+    }
+   },
+   {
+    "name": "Zigzag stripes",
+    "rows": [
+     ".........",
+     "eeeeeeeee",
+     ".........",
+     "aaaaaaaaa",
+     "....c....",
+     "aaaaaaaaa",
+     ".........",
+     "eeeeeeeee",
+     "........."
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "e": {
+      "m": 3,
+      "c": 1
+     },
+     "c": {
+      "m": 1,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Stepped diamond",
+    "rows": [
+     ".........",
+     "....a....",
+     "...aba...",
+     "..abcba..",
+     ".abcdcba.",
+     "..abcba..",
+     "...aba...",
+     "....a....",
+     "........."
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 0,
+      "c": 1
+     },
+     "c": {
+      "m": 0,
+      "c": 2
+     },
+     "d": {
+      "m": 0,
+      "c": 3
+     }
+    }
+   }
+  ]
+ },
+ "variant": "bilum-looped-string-bag"
+}

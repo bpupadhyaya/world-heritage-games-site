@@ -1,0 +1,39 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "peg",
+  "scene": "alpine",
+  "rows": 14,
+  "steps": 16,
+  "bands": 6,
+  "clay": "#ecd29c",
+  "glazes": [
+   {
+    "name": "Bare wood",
+    "color": "#ecd29c"
+   },
+   {
+    "name": "Blue dress",
+    "color": "#2b5aa4"
+   },
+   {
+    "name": "Red",
+    "color": "#c4282a"
+   },
+   {
+    "name": "Green",
+    "color": "#2f7a46"
+   }
+  ],
+  "glazePattern": [
+   1,
+   1,
+   1,
+   2,
+   0,
+   0
+  ],
+  "variation": 0.03
+ }
+}

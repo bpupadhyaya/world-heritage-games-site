@@ -41,11 +41,11 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 ## Related entries
 
 - [Fujara](../../games/135-fujara/index.md)
+- [Nai](../../games/1342-nai/index.md)
+- [Dvoyanka](../../games/2230-dvoyanka/index.md)
+- [Hosszú furulya](../../games/11018-hosszu-furulya/index.md)
 - [Dizi](../../games/132-dizi/index.md)
 - [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md)
-- [Shakuhachi](../../games/349-shakuhachi/index.md)
-- [Khloy bamboo duct flute](../../games/1311-khloy-bamboo-duct-flute/index.md)
-- [Latvian Bagpipe and Folk Pipes](../../games/1324-latvian-bagpipe-and-folk-pipes/index.md)
 
 ## Sources
 

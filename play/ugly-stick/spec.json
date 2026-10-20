@@ -1,0 +1,171 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "ugly stick",
+  "lanes": [
+   {
+    "name": "Bells",
+    "hz": 900.0,
+    "timbre": "bell",
+    "color": "#f2b860"
+   },
+   {
+    "name": "Caps",
+    "hz": 700.0,
+    "timbre": "bell",
+    "color": "#a9f260"
+   },
+   {
+    "name": "Tin",
+    "hz": 880.0,
+    "timbre": "bell",
+    "color": "#60f29b"
+   },
+   {
+    "name": "Stomp",
+    "hz": 90.0,
+    "timbre": "bell",
+    "color": "#60c6f2"
+   }
+  ],
+  "songs": [
+   {
+    "id": "ugly-beat",
+    "name": "Kitchen party beat",
+    "bpm": 112,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Ugly stick",
+    "note": "A steady stomp with the bells and caps dancing over it.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Caps"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Bells"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Tin"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Caps"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Caps"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Bells"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Tin"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "ugly-reel",
+    "name": "Reel time",
+    "bpm": 132,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Ugly stick",
+    "note": "A quick reel pattern.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Caps"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Bells"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Caps"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Tin"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Bells"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Caps"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Bells"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Tin"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Stomp"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Caps"
+     }
+    ]
+   }
+  ]
+ }
+}

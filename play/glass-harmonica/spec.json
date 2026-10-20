@@ -1,0 +1,163 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.4,
+  "instrument": "glass harmonica armonica",
+  "lanes": [
+   {
+    "name": "C",
+    "hz": 261.6,
+    "timbre": "bell",
+    "color": "#f26060"
+   },
+   {
+    "name": "D",
+    "hz": 293.7,
+    "timbre": "bell",
+    "color": "#f2a960"
+   },
+   {
+    "name": "E",
+    "hz": 329.6,
+    "timbre": "bell",
+    "color": "#f2f260"
+   },
+   {
+    "name": "F",
+    "hz": 349.2,
+    "timbre": "bell",
+    "color": "#a9f260"
+   },
+   {
+    "name": "G",
+    "hz": 392.0,
+    "timbre": "bell",
+    "color": "#60f260"
+   },
+   {
+    "name": "A",
+    "hz": 440.0,
+    "timbre": "bell",
+    "color": "#60f2a9"
+   },
+   {
+    "name": "B",
+    "hz": 493.9,
+    "timbre": "bell",
+    "color": "#60f2f2"
+   },
+   {
+    "name": "C+",
+    "hz": 523.3,
+    "timbre": "bell",
+    "color": "#60a9f2"
+   },
+   {
+    "name": "D+",
+    "hz": 587.3,
+    "timbre": "bell",
+    "color": "#6060f2"
+   },
+   {
+    "name": "E+",
+    "hz": 659.3,
+    "timbre": "bell",
+    "color": "#a960f2"
+   }
+  ],
+  "songs": [
+   {
+    "id": "arm-scale",
+    "name": "Along the spindle",
+    "bpm": 66,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Glass harmonica",
+    "note": "A teaching scale from the largest bowl to the smaller ones.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "C"
+     },
+     {
+      "beat": 1.0,
+      "lane": "D"
+     },
+     {
+      "beat": 2.0,
+      "lane": "E"
+     },
+     {
+      "beat": 3.0,
+      "lane": "F"
+     },
+     {
+      "beat": 4.0,
+      "lane": "G"
+     },
+     {
+      "beat": 5.0,
+      "lane": "A"
+     },
+     {
+      "beat": 6.0,
+      "lane": "B"
+     },
+     {
+      "beat": 7.0,
+      "lane": "C+"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "arm-melody",
+    "name": "A sweet melody",
+    "bpm": 76,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Glass harmonica",
+    "note": "A slow melody.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "G"
+     },
+     {
+      "beat": 1.0,
+      "lane": "E"
+     },
+     {
+      "beat": 2.0,
+      "lane": "G"
+     },
+     {
+      "beat": 3.0,
+      "lane": "A"
+     },
+     {
+      "beat": 4.0,
+      "lane": "G"
+     },
+     {
+      "beat": 5.0,
+      "lane": "E"
+     },
+     {
+      "beat": 6.0,
+      "lane": "D"
+     },
+     {
+      "beat": 7.0,
+      "lane": "C"
+     }
+    ]
+   }
+  ]
+ }
+}

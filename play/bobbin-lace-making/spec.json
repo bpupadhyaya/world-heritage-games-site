@@ -1,0 +1,183 @@
+{
+ "engine": "pattern",
+ "variant": "bobbin-lace-making",
+ "params": {
+  "scene": "bobbinlace",
+  "cols": 9,
+  "rows": 9,
+  "symmetry": "rot4",
+  "palette": [
+   {
+    "name": "White linen",
+    "color": "#f6f2e8"
+   },
+   {
+    "name": "Ecru",
+    "color": "#d9c9a2"
+   },
+   {
+    "name": "Gold thread",
+    "color": "#d8b050"
+   }
+  ],
+  "background": "#1d2848",
+  "grid": "#34406a",
+  "motifs": [
+   "diamond",
+   "dot",
+   "leaf",
+   "ring",
+   "star",
+   "knot"
+  ],
+  "mode": "copy",
+  "density": 0.5,
+  "colorsInTarget": 3,
+  "designs": [
+   {
+    "name": "Diamond net",
+    "rows": [
+     "g.g.g.g.g",
+     ".a.a.a.a.",
+     "g.f.f.f.g",
+     ".a.k.k.a.",
+     "g.f.d.f.g",
+     ".a.k.k.a.",
+     "g.f.f.f.g",
+     ".a.a.a.a.",
+     "g.g.g.g.g"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 0
+     },
+     "c": {
+      "m": 3,
+      "c": 0
+     },
+     "d": {
+      "m": 4,
+      "c": 2
+     },
+     "f": {
+      "m": 0,
+      "c": 1
+     },
+     "g": {
+      "m": 1,
+      "c": 2
+     },
+     "h": {
+      "m": 3,
+      "c": 1
+     },
+     "k": {
+      "m": 5,
+      "c": 1
+     }
+    }
+   },
+   {
+    "name": "Dot and ring ground",
+    "rows": [
+     "h.h.h.h.h",
+     ".b.b.b.b.",
+     "h.a.a.a.h",
+     ".b.c.c.b.",
+     "h.a.d.a.h",
+     ".b.c.c.b.",
+     "h.a.a.a.h",
+     ".b.b.b.b.",
+     "h.h.h.h.h"
+    ],
+    "legend": {
+     "a": {
+      "m": 0,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 0
+     },
+     "c": {
+      "m": 3,
+      "c": 0
+     },
+     "d": {
+      "m": 4,
+      "c": 2
+     },
+     "f": {
+      "m": 0,
+      "c": 1
+     },
+     "g": {
+      "m": 1,
+      "c": 2
+     },
+     "h": {
+      "m": 3,
+      "c": 1
+     },
+     "k": {
+      "m": 0,
+      "c": 2
+     }
+    }
+   },
+   {
+    "name": "Gold lattice",
+    "rows": [
+     "k.k.k.k.k",
+     ".a.a.a.a.",
+     "k.k.k.k.k",
+     ".a.a.a.a.",
+     "k.k.d.k.k",
+     ".a.a.a.a.",
+     "k.k.k.k.k",
+     ".a.a.a.a.",
+     "k.k.k.k.k"
+    ],
+    "legend": {
+     "a": {
+      "m": 5,
+      "c": 0
+     },
+     "b": {
+      "m": 1,
+      "c": 0
+     },
+     "c": {
+      "m": 3,
+      "c": 0
+     },
+     "d": {
+      "m": 4,
+      "c": 2
+     },
+     "f": {
+      "m": 0,
+      "c": 1
+     },
+     "g": {
+      "m": 1,
+      "c": 2
+     },
+     "h": {
+      "m": 3,
+      "c": 1
+     },
+     "k": {
+      "m": 0,
+      "c": 2
+     }
+    }
+   }
+  ]
+ }
+}

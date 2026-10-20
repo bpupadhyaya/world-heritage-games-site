@@ -1,0 +1,138 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "adomba brass cup bells with clappers",
+  "lanes": [
+   {
+    "name": "Big",
+    "hz": 392,
+    "timbre": "tone",
+    "color": "#e8a020"
+   },
+   {
+    "name": "Medium",
+    "hz": 523,
+    "timbre": "tone",
+    "color": "#f2b838"
+   },
+   {
+    "name": "Small",
+    "hz": 659,
+    "timbre": "tone",
+    "color": "#f2cc58"
+   },
+   {
+    "name": "Tiny",
+    "hz": 880,
+    "timbre": "tone",
+    "color": "#f2e088"
+   }
+  ],
+  "songs": [
+   {
+    "id": "adomba-shake",
+    "name": "Shaken pulse",
+    "bpm": 104,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Adomba, Effutu tradition",
+    "note": "Big bell on the pulse, smaller bells between.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Big"
+     },
+     {
+      "beat": 1,
+      "lane": "Small"
+     },
+     {
+      "beat": 2,
+      "lane": "Medium"
+     },
+     {
+      "beat": 3,
+      "lane": "Tiny"
+     },
+     {
+      "beat": 4,
+      "lane": "Big"
+     },
+     {
+      "beat": 5,
+      "lane": "Small"
+     },
+     {
+      "beat": 6,
+      "lane": "Medium"
+     },
+     {
+      "beat": 7,
+      "lane": "Tiny"
+     }
+    ]
+   },
+   {
+    "id": "adomba-run",
+    "name": "Running ring",
+    "bpm": 112,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Adomba, Effutu tradition",
+    "note": "Quick small bells over a slow big bell.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Big"
+     },
+     {
+      "beat": 1,
+      "lane": "Small"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Tiny"
+     },
+     {
+      "beat": 2,
+      "lane": "Medium"
+     },
+     {
+      "beat": 3,
+      "lane": "Small"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Tiny"
+     },
+     {
+      "beat": 4,
+      "lane": "Big"
+     },
+     {
+      "beat": 5,
+      "lane": "Medium"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Small"
+     },
+     {
+      "beat": 6,
+      "lane": "Medium"
+     },
+     {
+      "beat": 7,
+      "lane": "Tiny"
+     }
+    ]
+   }
+  ]
+ }
+}

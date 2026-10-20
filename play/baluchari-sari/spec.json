@@ -1,0 +1,178 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "baluchari",
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Ivory silk",
+        "color": "#f2e8d2"
+      },
+      {
+        "name": "Saffron",
+        "color": "#e9a23b"
+      },
+      {
+        "name": "Rose madder",
+        "color": "#c9475f"
+      },
+      {
+        "name": "Leaf green",
+        "color": "#4f9a52"
+      },
+      {
+        "name": "Sky blue",
+        "color": "#6aa0d6"
+      }
+    ],
+    "background": "#2a1346",
+    "grid": "#8a6ac0",
+    "motifs": [
+      "kalka",
+      "flower",
+      "leaf",
+      "vine",
+      "diamond",
+      "dot"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Paisley panel",
+        "rows": [
+          "f.f.e.f.f",
+          ".c.....c.",
+          "..d.a.d..",
+          ".b.g.g.b.",
+          "..c.h.c..",
+          ".b.g.g.b.",
+          "..d.a.d..",
+          ".c.....c.",
+          "f.f.e.f.f"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 2
+          },
+          "c": {
+            "m": 2,
+            "c": 3
+          },
+          "d": {
+            "m": 3,
+            "c": 1
+          },
+          "e": {
+            "m": 4,
+            "c": 0
+          },
+          "f": {
+            "m": 5,
+            "c": 4
+          },
+          "g": {
+            "m": 0,
+            "c": 2
+          },
+          "h": {
+            "m": 1,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Flower and leaf trellis",
+        "rows": [
+          "d.d.d.d.d",
+          ".b.a.a.b.",
+          "c.f.c.f.c",
+          ".a.b.b.a.",
+          "d.g.d.g.d",
+          ".a.b.b.a.",
+          "c.f.c.f.c",
+          ".b.a.a.b.",
+          "d.d.d.d.d"
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 1
+          },
+          "b": {
+            "m": 2,
+            "c": 3
+          },
+          "c": {
+            "m": 3,
+            "c": 4
+          },
+          "d": {
+            "m": 4,
+            "c": 0
+          },
+          "e": {
+            "m": 5,
+            "c": 2
+          },
+          "f": {
+            "m": 0,
+            "c": 2
+          },
+          "g": {
+            "m": 0,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Paisley border and dots",
+        "rows": [
+          "c.c.c.c.c",
+          "a.b.a.b.a",
+          ".e.e.e.e.",
+          "d.f.d.f.d",
+          ".e.e.e.e.",
+          "d.f.d.f.d",
+          ".e.e.e.e.",
+          "a.b.a.b.a",
+          "c.c.c.c.c"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 0,
+            "c": 4
+          },
+          "c": {
+            "m": 5,
+            "c": 1
+          },
+          "d": {
+            "m": 1,
+            "c": 2
+          },
+          "e": {
+            "m": 2,
+            "c": 3
+          },
+          "f": {
+            "m": 4,
+            "c": 1
+          }
+        }
+      }
+    ]
+  }
+}

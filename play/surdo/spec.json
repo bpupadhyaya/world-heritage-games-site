@@ -1,0 +1,203 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "surdo",
+  "lanes": [
+   {
+    "name": "Open boom",
+    "hz": 82,
+    "timbre": "bass",
+    "color": "#ff7a50"
+   },
+   {
+    "name": "Hand mute",
+    "hz": 98,
+    "timbre": "bass",
+    "color": "#c9a0ff"
+   },
+   {
+    "name": "Edge",
+    "hz": 190,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Rim",
+    "hz": 900,
+    "timbre": "rim",
+    "color": "#4fc6d6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "heartbeat",
+    "name": "Heartbeat, 2 beats",
+    "bpm": 100,
+    "meter": 2,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Muted on one, open on two.",
+    "watch": true,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Hand mute"
+     },
+     {
+      "beat": 1,
+      "lane": "Open boom"
+     },
+     {
+      "beat": 2,
+      "lane": "Hand mute"
+     },
+     {
+      "beat": 3,
+      "lane": "Open boom"
+     },
+     {
+      "beat": 4,
+      "lane": "Hand mute"
+     },
+     {
+      "beat": 5,
+      "lane": "Open boom"
+     },
+     {
+      "beat": 6,
+      "lane": "Hand mute"
+     },
+     {
+      "beat": 7,
+      "lane": "Open boom"
+     }
+    ]
+   },
+   {
+    "id": "edge-answer",
+    "name": "Edge answer, 2 beats",
+    "bpm": 96,
+    "meter": 2,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A short edge tone fills the gap.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Hand mute"
+     },
+     {
+      "beat": 0.75,
+      "lane": "Edge"
+     },
+     {
+      "beat": 1,
+      "lane": "Open boom"
+     },
+     {
+      "beat": 2,
+      "lane": "Hand mute"
+     },
+     {
+      "beat": 2.75,
+      "lane": "Edge"
+     },
+     {
+      "beat": 3,
+      "lane": "Open boom"
+     },
+     {
+      "beat": 4,
+      "lane": "Hand mute"
+     },
+     {
+      "beat": 4.75,
+      "lane": "Edge"
+     },
+     {
+      "beat": 5,
+      "lane": "Open boom"
+     },
+     {
+      "beat": 6,
+      "lane": "Hand mute"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 6.75,
+      "lane": "Edge"
+     },
+     {
+      "beat": 7,
+      "lane": "Open boom"
+     }
+    ]
+   },
+   {
+    "id": "break-call",
+    "name": "Break call, 2 beats",
+    "bpm": 92,
+    "meter": 2,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "Rim clicks call the break.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Rim"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Rim"
+     },
+     {
+      "beat": 1,
+      "lane": "Open boom"
+     },
+     {
+      "beat": 2,
+      "lane": "Hand mute"
+     },
+     {
+      "beat": 3,
+      "lane": "Open boom"
+     },
+     {
+      "beat": 4,
+      "lane": "Rim"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 5,
+      "lane": "Open boom"
+     },
+     {
+      "beat": 6,
+      "lane": "Hand mute"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Hand mute"
+     },
+     {
+      "beat": 7,
+      "lane": "Open boom"
+     }
+    ]
+   }
+  ]
+ }
+}

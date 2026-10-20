@@ -36,12 +36,12 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 
 ## Related entries
 
+- [Kundu drum](../../games/6417-kundu-drum/index.md)
 - [Village rugby league](../../games/1013-village-rugby-league/index.md)
 - [Wave riding](../../games/76-wave-riding/index.md)
 - [Netball](../../games/447-netball/index.md)
 - [Gumboot throwing](../../games/448-gumboot-throwing/index.md)
 - [Hand-slap game](../../games/711-hand-slap-game/index.md)
-- [Ibibo](../../games/964-ibibo/index.md)
 
 ## Sources
 

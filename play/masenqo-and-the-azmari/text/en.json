@@ -1,0 +1,29 @@
+{
+ "title": "Masenqo (one-string fiddle)",
+ "native": "ማሲንቆ / Masinqo",
+ "alt": [
+  "Masinko",
+  "Masenqo and the azmari"
+ ],
+ "summary": "The masenqo is a one-string fiddle from Ethiopia. A diamond-shaped wooden box covered in skin carries a single string of horsehair, played with a small bow. Travelling singers called azmari use it to answer and tease their listeners with sung verses made up on the spot.",
+ "howToPlay": [
+  "One string runs from the head to the bridge; each lane marks a finger place on that string.",
+  "A bead slides down toward the finger place. Bow that note just as the bead lands.",
+  "Hold the long notes for their full tail, as the bow keeps moving on the string.",
+  "Some tunes leave silent bars: that is where the singer answers, so listen and wait for the next bead."
+ ],
+ "rules": [
+  "The notes come from a five-note scale: C, D, E, G and A, with the octave above.",
+  "A stroke on the beat is perfect, a near one is good, and extra strokes cost points.",
+  "Long notes are judged at their start only.",
+  "Silent bars give no beads, and strokes made in them cost points.",
+  "Every tune is played through twice."
+ ],
+ "heritageNote": "For generations azmari have carried the masenqo from house to house, singing news, praise and playful teasing with the fiddle underneath. The instrument is made by hand from wood and skin, and the same craft is still practised today.",
+ "countries": [
+  "Ethiopia"
+ ],
+ "credits": [
+  "Tradition: the Ethiopian masenqo and the azmari; melodies written for this game"
+ ]
+}

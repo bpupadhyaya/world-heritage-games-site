@@ -40,12 +40,12 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Related entries
 
+- [Gaida](../../games/2423-gaida/index.md)
+- [Duduk](../../games/159-duduk/index.md)
 - [Highland Bagpipe Chanter and Drone](../../games/510-highland-bagpipe-chanter-and-drone/index.md)
 - [Horn of Africa camel caravan](../../games/1270-horn-of-africa-camel-caravan/index.md)
 - [Mezoued Bagpipe and Tabl Drum](../../games/1336-mezoued-bagpipe-and-tabl-drum/index.md)
-- [Fujara](../../games/135-fujara/index.md)
-- [Novuss](../../games/456-novuss/index.md)
-- [Kurai](../../games/1237-kurai/index.md)
+- [Musette de cour](../../games/3217-musette-de-cour/index.md)
 
 ## Sources
 

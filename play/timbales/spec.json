@@ -1,0 +1,267 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "timbales",
+  "lanes": [
+   {
+    "name": "Low drum",
+    "hz": 170,
+    "timbre": "bass",
+    "color": "#d9622b"
+   },
+   {
+    "name": "High drum",
+    "hz": 320,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Paila",
+    "hz": 900,
+    "timbre": "rim",
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "Cowbell",
+    "hz": 700,
+    "timbre": "bell",
+    "color": "#58b878"
+   }
+  ],
+  "songs": [
+   {
+    "id": "shell-pulse",
+    "name": "Shell pulse, 8 beats",
+    "bpm": 108,
+    "meter": 8,
+    "length": 16,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A steady pulse on the shell.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Paila"
+     },
+     {
+      "beat": 1,
+      "lane": "Paila"
+     },
+     {
+      "beat": 2,
+      "lane": "Paila"
+     },
+     {
+      "beat": 3,
+      "lane": "Paila"
+     },
+     {
+      "beat": 4,
+      "lane": "Paila"
+     },
+     {
+      "beat": 5,
+      "lane": "Paila"
+     },
+     {
+      "beat": 6,
+      "lane": "Paila"
+     },
+     {
+      "beat": 7,
+      "lane": "Paila"
+     },
+     {
+      "beat": 8,
+      "lane": "Paila"
+     },
+     {
+      "beat": 9,
+      "lane": "Paila"
+     },
+     {
+      "beat": 10,
+      "lane": "Paila"
+     },
+     {
+      "beat": 11,
+      "lane": "Paila"
+     },
+     {
+      "beat": 12,
+      "lane": "Paila"
+     },
+     {
+      "beat": 13,
+      "lane": "Paila"
+     },
+     {
+      "beat": 14,
+      "lane": "Paila"
+     },
+     {
+      "beat": 15,
+      "lane": "Paila"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "cowbell-bar",
+    "name": "Cowbell and drums, 8 beats",
+    "bpm": 104,
+    "meter": 8,
+    "length": 16,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The cowbell keeps the bar.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Cowbell"
+     },
+     {
+      "beat": 1,
+      "lane": "Cowbell"
+     },
+     {
+      "beat": 2,
+      "lane": "High drum"
+     },
+     {
+      "beat": 3,
+      "lane": "Cowbell"
+     },
+     {
+      "beat": 4,
+      "lane": "Low drum"
+     },
+     {
+      "beat": 5,
+      "lane": "Cowbell"
+     },
+     {
+      "beat": 6,
+      "lane": "High drum"
+     },
+     {
+      "beat": 7,
+      "lane": "Low drum"
+     },
+     {
+      "beat": 8,
+      "lane": "Cowbell"
+     },
+     {
+      "beat": 9,
+      "lane": "Cowbell"
+     },
+     {
+      "beat": 10,
+      "lane": "High drum"
+     },
+     {
+      "beat": 11,
+      "lane": "Cowbell"
+     },
+     {
+      "beat": 12,
+      "lane": "Low drum"
+     },
+     {
+      "beat": 13,
+      "lane": "Cowbell"
+     },
+     {
+      "beat": 14,
+      "lane": "High drum"
+     },
+     {
+      "beat": 15,
+      "lane": "High drum"
+     }
+    ]
+   },
+   {
+    "id": "drum-fill",
+    "name": "Drum fill, 8 beats",
+    "bpm": 100,
+    "meter": 8,
+    "length": 16,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A fill that runs between the two drums.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Low drum"
+     },
+     {
+      "beat": 1,
+      "lane": "High drum"
+     },
+     {
+      "beat": 2,
+      "lane": "High drum"
+     },
+     {
+      "beat": 3,
+      "lane": "Low drum"
+     },
+     {
+      "beat": 4,
+      "lane": "Paila"
+     },
+     {
+      "beat": 5,
+      "lane": "High drum"
+     },
+     {
+      "beat": 6,
+      "lane": "Low drum"
+     },
+     {
+      "beat": 7,
+      "lane": "High drum"
+     },
+     {
+      "beat": 8,
+      "lane": "Low drum"
+     },
+     {
+      "beat": 9,
+      "lane": "High drum"
+     },
+     {
+      "beat": 10,
+      "lane": "High drum"
+     },
+     {
+      "beat": 11,
+      "lane": "Low drum"
+     },
+     {
+      "beat": 12,
+      "lane": "Paila"
+     },
+     {
+      "beat": 13,
+      "lane": "Paila"
+     },
+     {
+      "beat": 14,
+      "lane": "High drum"
+     },
+     {
+      "beat": 15,
+      "lane": "Low drum"
+     }
+    ]
+   }
+  ]
+ }
+}

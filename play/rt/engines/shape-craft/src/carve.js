@@ -3,8 +3,9 @@ import { clamp, hash, rasterFigure, orbit, normIoU, starsFor } from './geom.js';
 import { tint, litEdge, rrect, rgba, mix, shadowed, shelf, lum } from './fx.js';
 import { drawSeat, drawTool, wallLift } from './scenes.js';
 import { contourLoops, tracePath } from './relief.js';
+import { EXT } from './registry.js';
 
-export const CARVE_DEFAULTS = { mode: 'figure', figure: 'elephant', cols: 16, rows: 16, material: 'stone', color: '#8a8f86', cavity: '#14181d', symmetry: 'none', snips: 7, tolerance: 0.06, guide: true, chisels: 2, variation: 1 };
+export const CARVE_DEFAULTS = { mode: 'figure', figure: 'elephant', cols: 16, rows: 16, material: 'stone', color: '#8a8f86', cavity: '#14181d', symmetry: 'none', snips: 7, tolerance: 0.06, guide: true, chisels: 2, variation: 1, relief: false, zoom: 0, wax: false, studs: false };
 
 export function createCarve(P, env) {
   const { rng, audio, fx, sound } = env;
@@ -12,6 +13,10 @@ export function createCarve(P, env) {
   const FXK = SC.fx ?? { kind: P.mode === 'cut' ? 'flake' : 'chip', c: null };
   let flashes = [], lastPtr = null;
   const { cols, rows } = P, total = cols * rows, cut = P.mode === 'cut';
+  // 1.14.0 (all opt-in): zoom level and pan (rows), wax polish per cell, brass studs from the figure table
+  const FIG = EXT.figures[P.figure];
+  const STUDS = P.studs && FIG?.studs ? FIG.studs : [];
+  let zoomLv = 0, panRow = 0, polish = null, polishN = 0, focusRow = -1, panning = null;
   let castAt = -1, kept, target, undo, done, geo = null, rects = null, tool = 1, drag = false, last = null, strokeRestore = false, acc = 0, clock = 0;
   const at = (c, r) => r * cols + c;
 
@@ -34,7 +39,7 @@ export function createCarve(P, env) {
     if (!holes.some((h) => h)) holes[at(Math.floor(cols / 2), Math.floor(rows / 2))] = 1;
     return holes.map((h) => (h ? 0 : 1));
   };
-  const init = () => { castAt = -1; target = makeTarget(); kept = new Array(total).fill(1); undo = []; done = null; tool = 1; drag = false; last = null; acc = 0; };
+  const init = () => { castAt = -1; target = makeTarget(); kept = new Array(total).fill(1); undo = []; done = null; tool = 1; drag = false; last = null; acc = 0; zoomLv = P.zoom === true ? 1 : Math.min(2, Math.max(0, P.zoom | 0)); panRow = 0; polish = new Uint8Array(total); polishN = 0; focusRow = -1; panning = null; };
   init();
 
   const score = () => normIoU(kept, target, P.tolerance);
@@ -42,12 +47,16 @@ export function createCarve(P, env) {
     const r = score(), stars = starsFor(r.score);
     if (SC.id === 'lostwax') { castAt = clock; sound?.cast(); }
     const wrong = kept.reduce((n, k, i) => n + (k !== target[i] ? 1 : 0), 0);
-    done = { score: r.score, max: 100, stars, headline: stars === 3 ? (cut ? 'A clean cut-out' : 'A fine carving') : stars ? 'Well shaped' : 'Keep chipping', detail: wrong ? `${wrong} cells differ from the design` : 'Every cell matches the design' };
+    const keptN = kept.reduce((n, k) => n + k, 0), wp = P.wax && keptN ? Math.round((100 * polishN) / keptN) : 0;
+    zoomLv = 0; panRow = 0;
+    done = { score: r.score, max: 100, stars, headline: stars === 3 ? (cut ? 'A clean cut-out' : P.wax && wp >= 70 ? 'A fine carving, waxed to a glow' : 'A fine carving') : stars ? 'Well shaped' : 'Keep chipping', detail: wrong ? `${wrong} cells differ from the design` : P.wax ? `Every cell matches the design; ${wp} percent waxed` : 'Every cell matches the design' };
   };
 
+  const toolList = () => [1, ...(P.chisels > 1 ? [2] : []), ...(P.wax ? [3] : []), ...(P.zoom ? [4] : [])];
   const items = () => {
     const out = [];
-    if (!cut && P.chisels > 1) out.push({ id: 'tool', kind: 'btn', label: tool === 1 ? 'Chisel: fine' : 'Chisel: broad' });
+    if (!cut && toolList().length > 1) out.push({ id: 'tool', kind: 'btn', label: tool === 1 ? (P.chisels > 1 ? 'Chisel: fine' : 'Chisel') : tool === 2 ? 'Chisel: broad' : tool === 3 ? 'Wax cloth' : 'Hand: move view' });
+    if (!cut && P.zoom) out.push({ id: 'zoom', kind: 'btn', label: `Zoom ${zoomLv + 1}x` });
     out.push({ id: 'undo', kind: 'btn', label: 'Undo', off: !undo.length });
     out.push({ id: 'reset', kind: 'btn', label: 'Reset' });
     out.push({ id: 'check', kind: 'btn', label: 'Check', primary: true });
@@ -57,13 +66,14 @@ export function createCarve(P, env) {
     if (done) return;
     if (id === 'undo') { const u = undo.pop(); if (u) kept = u; }
     else if (id === 'reset') { undo.push(kept.slice()); kept = new Array(total).fill(1); }
-    else if (id === 'tool') tool = tool === 1 ? 2 : 1;
+    else if (id === 'tool') { const L = toolList(); tool = L[(Math.max(0, L.indexOf(tool)) + 1) % L.length]; }
+    else if (id === 'zoom') { zoomLv = (zoomLv + 1) % 3; focusRow = -1; }
     else if (id === 'check') finish();
   };
 
   const cellAt = (p) => { const c = Math.floor((p.x - geo.x) / geo.cs), r = Math.floor((p.y - geo.y) / geo.cs); return c >= 0 && r >= 0 && c < cols && r < rows ? [c, r] : null; };
   const strike = (c, r, remove = true) => {
-    const sz = cut ? 1 : tool; let changed = false;
+    const sz = cut ? 1 : tool === 2 ? 2 : 1; let changed = false;
     for (let dy = 0; dy < sz; dy++) for (let dx = 0; dx < sz; dx++) {
       const cc = c + dx, rr = r + dy;
       if (cc >= cols || rr >= rows) continue;
@@ -84,18 +94,45 @@ export function createCarve(P, env) {
       }
     }
   };
-  const work = (p) => {
+  const waxAt = (c, r) => {
+    let any = false;
+    for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+      const cc = c + dx, rr = r + dy;
+      if (cc < 0 || rr < 0 || cc >= cols || rr >= rows) continue;
+      if (kept[at(cc, rr)] && !polish[at(cc, rr)]) { polish[at(cc, rr)] = 1; polishN++; any = true; }
+    }
+    if (any) {
+      sound?.rub?.(hash(c, r));
+      if (geo && fx) fx.emit('dust', geo.x + (c + 0.5) * geo.cs, geo.y + (r + 0.5) * geo.cs, { count: 1, color: '#fff0c8', size: Math.max(3, geo.cs * 0.4), speed: 25, life: 0.5, gravity: -10 });
+    }
+  };
+  const clampPan = () => { if (geo) panRow = Math.max(0, Math.min(Math.max(0, geo.maxPan / geo.cs), panRow)); };
+  const work = (p, dt = 0.016) => {
     if (!geo || done) return;
+    if (P.zoom && rects && geo.zoomed && (p.y < rects.work.y + 40 || p.y > rects.work.y + rects.work.h)) { if (!p.down) { drag = false; panning = null; } if (!p.pressed) return; }
     lastPtr = { x: p.x, y: p.y, down: p.down, t: clock };
+    if (tool === 4) { // the hand: drag moves the view
+      if (p.pressed) panning = { y: p.y, row: panRow };
+      else if (p.down && panning) { panRow = panning.row - (p.y - panning.y) / geo.cs; clampPan(); }
+      if (!p.down) panning = null;
+      lastPtr.down = false;
+      return;
+    }
+    if (zoomLv > 0 && drag && p.down && rects && geo.maxPan > 0) { // near the top or bottom edge the view follows the chisel
+      const zone = rects.work.h * 0.16, ty = rects.work.y + 40;
+      if (p.y < ty + zone) panRow -= (14 * dt * (1 - Math.max(0, p.y - ty) / zone)); else if (p.y > rects.work.y + rects.work.h - zone) panRow += 14 * dt * (1 - Math.max(0, rects.work.y + rects.work.h - p.y) / zone);
+      clampPan();
+    }
     if (p.pressed) {
       const cell = cellAt(p);
-      if (cell) { undo.push(kept.slice()); drag = true; last = { x: p.x, y: p.y }; strokeRestore = cut && !kept[at(cell[0], cell[1])]; strike(cell[0], cell[1], !strokeRestore); }
+      if (cell && tool === 3) { drag = true; last = { x: p.x, y: p.y }; waxAt(cell[0], cell[1]); }
+      else if (cell) { undo.push(kept.slice()); drag = true; last = { x: p.x, y: p.y }; strokeRestore = cut && !kept[at(cell[0], cell[1])]; strike(cell[0], cell[1], !strokeRestore); }
       if (p.released && !p.down) drag = false;
       return;
     }
     if (drag && p.down && last) {
       const d = Math.hypot(p.x - last.x, p.y - last.y), n = Math.max(1, Math.ceil(d / (geo.cs * 0.5)));
-      for (let s = 1; s <= n; s++) { const cell = cellAt({ x: last.x + ((p.x - last.x) * s) / n, y: last.y + ((p.y - last.y) * s) / n }); if (cell) strike(cell[0], cell[1], !strokeRestore); }
+      for (let s = 1; s <= n; s++) { const cell = cellAt({ x: last.x + ((p.x - last.x) * s) / n, y: last.y + ((p.y - last.y) * s) / n }); if (cell) { if (tool === 3) waxAt(cell[0], cell[1]); else strike(cell[0], cell[1], !strokeRestore); } }
       last = { x: p.x, y: p.y };
     }
     if (!p.down) drag = false;
@@ -115,9 +152,24 @@ export function createCarve(P, env) {
     return tint(P.color, f);
   };
 
+  // 1.14.0 raised brass studs (figure.studs: [x, y, r] in the unit square): a lit dome with a cast shadow, shown where the wood stays
+  const drawStuds = (ctx, x, y, cs, mask) => {
+    for (const [sx, sy, sr] of STUDS) {
+      const c = Math.min(cols - 1, Math.floor(sx * cols)), r = Math.min(rows - 1, Math.floor(sy * rows));
+      if (!mask[at(c, r)] || !target[at(c, r)]) continue;
+      const px = x + sx * cols * cs, py = y + sy * rows * cs, rr = Math.max(2.4, sr * cols * cs);
+      ctx.save(); ctx.fillStyle = 'rgba(0,0,0,0.38)'; ctx.beginPath(); ctx.ellipse(px + rr * 0.32, py + rr * 0.42, rr * 1.05, rr * 0.95, 0, 0, 6.2832); ctx.fill();
+      const bg = ctx.createRadialGradient(px - rr * 0.35, py - rr * 0.4, rr * 0.1, px, py, rr);
+      bg.addColorStop(0, '#fff7c4'); bg.addColorStop(0.35, '#e2b447'); bg.addColorStop(0.8, '#a8751c'); bg.addColorStop(1, '#5e3c0a');
+      ctx.fillStyle = bg; ctx.beginPath(); ctx.arc(px, py, rr, 0, 6.2832); ctx.fill();
+      ctx.strokeStyle = 'rgba(60,34,4,0.8)'; ctx.lineWidth = Math.max(0.8, rr * 0.14); ctx.stroke();
+      ctx.fillStyle = 'rgba(255,255,255,0.85)'; ctx.beginPath(); ctx.arc(px - rr * 0.38, py - rr * 0.42, Math.max(0.8, rr * 0.2), 0, 6.2832); ctx.fill();
+      ctx.restore();
+    }
+  };
   // The block as one smooth solid: rounded contour, material painted in block coordinates (so veins, grain and glints run on
   // across cells), a soft cast shadow into the cavity, inner light and shade that give it thickness.
-  const drawSmooth = (ctx, mask, x, y, cs, { detail, t = 0, cast = 0 }) => {
+  const drawSmooth = (ctx, mask, x, y, cs, { detail, t = 0, cast = 0, main = false, thumb = false }) => {
     const loops = contourLoops(mask, cols, rows, { k: cs >= 9 ? 4 : 3 });
     if (!loops.length) return;
     const W = cs * cols, Hh = cs * rows, base = cast > 0 ? mix(P.color, '#7c4518', Math.min(1, cast)) : P.color;
@@ -131,8 +183,8 @@ export function createCarve(P, env) {
       ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.4)'; ctx.shadowBlur = cs * 1.3; ctx.shadowOffsetX = cs * 0.45; ctx.shadowOffsetY = cs * 0.7; path(); ctx.fillStyle = tint(base, -0.6); ctx.fill('evenodd'); ctx.restore();
     }
     if (detail) { // the thickness of the slab: side wall seen below and to the right of the lit top face
-      const steps = 6, dx = cs * 0.09, dy = cs * 0.13;
-      for (let q = steps; q >= 1; q--) { ctx.save(); ctx.translate(dx * q, dy * q); path(); ctx.fillStyle = tint(base, -0.35 - 0.3 * (q / steps)); ctx.fill('evenodd'); ctx.restore(); }
+      const LACW = BK === 'lac', steps = LACW ? 9 : 6, dx = cs * (LACW ? 0.15 : 0.09), dy = cs * (LACW ? 0.21 : 0.13), SD = SC.strata ?? ['#150a0b', '#d9a42c', '#150a0b', '#8a1d16'];   // 1.15.0: carved lacquer shows its layers (red, black, yellow) along every cut wall
+      for (let q = steps; q >= 1; q--) { ctx.save(); ctx.translate(dx * q, dy * q); path(); ctx.fillStyle = LACW ? tint(SD[(q - 1) % SD.length], -0.1 - 0.3 * (q / steps)) : tint(base, -0.35 - 0.3 * (q / steps)); ctx.fill('evenodd'); ctx.restore(); }
     }
     const gb = ctx.createLinearGradient(x, y, x + W * 0.7, y + Hh);
     gb.addColorStop(0, tint(base, 0.14)); gb.addColorStop(0.55, base); gb.addColorStop(1, tint(base, -0.2));
@@ -158,7 +210,13 @@ export function createCarve(P, env) {
       }
     };
     const k = cast > 0.5 ? 'metal' : BK === 'soapstone' ? 'stone' : BK;
-    if (k === 'stone') {
+    if (k === 'stone' && P.relief) { // 1.14.0: serpentine and springstone: deep mottled colour, pale veins, a faint grain
+      blot(10, 2.5, 5.5, (q) => (q % 2 ? tint(P.color, 0.22) : tint(P.color, -0.3)), 0.34);
+      wander(8, tint(P.color, 0.5), 0.3, Math.max(1, cs * 0.06), 7);
+      wander(6, '#e8e0c0', 0.16, Math.max(0.8, cs * 0.03), 8);
+      wander(7, tint(P.color, -0.6), 0.3, Math.max(1, cs * 0.05), 6);
+      dots(120, '#ffffff', 0.08, 0.06); dots(110, '#000000', 0.12, 0.07);
+    } else if (k === 'stone') {
       blot(11, 2.2, 4.8, (q) => (q % 3 === 0 ? '#9a4a56' : q % 3 === 1 ? '#5a5f78' : '#f6ece4'), 0.2);
       wander(7, '#6f3a3a', 0.2, Math.max(1, cs * 0.07), 6);
       wander(7, '#ffffff', 0.18, Math.max(0.8, cs * 0.035), 6);
@@ -176,6 +234,16 @@ export function createCarve(P, env) {
       dots(150, '#3a2010', 0.3, 0.1); dots(90, '#ffe8c8', 0.26, 0.09);
       wander(8, '#3a2010', 0.3, Math.max(1, cs * 0.05), 2.4);
       ctx.fillStyle = 'rgba(255,235,205,0.18)'; for (let q = 0; q < 22; q++) { ctx.beginPath(); ctx.ellipse(u(R(q, 31)), v(R(q, 32)), cs * (0.25 + R(q, 33) * 0.35), cs * 0.18, R(q, 34) * 3, 0, 6.2832); ctx.fill(); }
+    } else if (k === 'wood' && P.grain === 'long') { // 1.14.0: grain running along the piece (tall carvings: spoons, posts, stools)
+      ctx.lineCap = 'round';
+      for (let q = 0; q < cols * 2.4; q++) {
+        const xx = u((q + R(q, 43) * 0.8) / (cols * 2.4)), ph = R(q, 41) * 6, tw = 0.35 + R(q, 44);
+        ctx.strokeStyle = `rgba(${q % 3 ? '84,44,14' : '40,18,4'},${0.07 + 0.1 * R(q, 42)})`; ctx.lineWidth = Math.max(0.8, cs * (0.03 + 0.05 * R(q, 45))); ctx.beginPath();
+        for (let s2 = 0; s2 <= 30; s2++) { const py = y + (s2 / 30) * Hh, px = xx + Math.sin(s2 * 0.21 + ph) * cs * 0.28 * tw + Math.sin(s2 * 0.07 + q) * cs * 0.4; if (s2) ctx.lineTo(px, py); else ctx.moveTo(px, py); }
+        ctx.stroke();
+      }
+      for (let q = 0; q < 3; q++) { const kx = u(0.2 + R(q, 51) * 0.6), ky = v(0.1 + R(q + 3, 52) * 0.8); for (let m = 3; m > 0; m--) { ctx.strokeStyle = `rgba(50,22,6,${0.1 + 0.05 * m})`; ctx.lineWidth = Math.max(0.8, cs * 0.04); ctx.beginPath(); ctx.ellipse(kx, ky, cs * m * 0.32, cs * m * 0.62, 0, 0, 6.2832); ctx.stroke(); } }
+      blot(8, 3, 6, '#ffe2a8', 0.1);
     } else if (k === 'wood') {
       ctx.lineWidth = Math.max(1, cs * 0.055);
       for (let q = 0; q < rows * 1.6; q++) {
@@ -191,6 +259,9 @@ export function createCarve(P, env) {
       ctx.lineWidth = 1;
       for (let q = 0; q < rows * 3; q++) { const yy = v(q / (rows * 3)); ctx.strokeStyle = q % 2 ? 'rgba(255,255,255,0.09)' : 'rgba(0,0,0,0.09)'; ctx.beginPath(); ctx.moveTo(x, yy); ctx.lineTo(x + W, yy + cs * (R(q, 61) - 0.5) * 0.3); ctx.stroke(); }
       blot(6, 3, 6, '#ffffff', 0.12);
+    } else if (k === 'lac') { // 1.15.0 carved red lacquer: deep glass-like red with darker pools and soft reflections
+      blot(6, 4, 8, '#ff6a4a', 0.13); blot(7, 3, 6, '#2a0000', 0.2); blot(4, 5, 9, '#ffd0b8', 0.07);
+      wander(5, '#ffb8a8', 0.1, Math.max(1, cs * 0.08), 5); wander(4, '#3a0000', 0.16, Math.max(1, cs * 0.06), 4);
     } else if (k === 'candy') {
       blot(9, 2, 5, '#fff2a0', 0.3); blot(7, 1.5, 3.5, '#a03800', 0.18);
       for (let q = 0; q < 16; q++) { ctx.fillStyle = 'rgba(255,255,255,0.28)'; ctx.beginPath(); ctx.ellipse(u(R(q, 71)), v(R(q, 72)), cs * 0.2, cs * 0.1, -0.6, 0, 6.2832); ctx.fill(); }
@@ -204,11 +275,29 @@ export function createCarve(P, env) {
     ringFill(() => { ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = cs * 0.5; ctx.shadowOffsetX = 0; ctx.shadowOffsetY = 0; ctx.fillStyle = '#000'; ctx.fill('evenodd'); ctx.restore(); });
     ringFill(() => { ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.65)'; ctx.shadowBlur = cs * 0.55; ctx.shadowOffsetX = -cs * 0.28; ctx.shadowOffsetY = -cs * 0.38; ctx.fillStyle = '#000'; ctx.fill('evenodd'); ctx.restore(); });
     ringFill(() => { ctx.save(); ctx.shadowColor = k === 'metal' || k === 'candy' || k === 'wax' ? 'rgba(255,255,255,0.85)' : 'rgba(255,255,255,0.6)'; ctx.shadowBlur = cs * 0.3; ctx.shadowOffsetX = cs * 0.16; ctx.shadowOffsetY = cs * 0.22; ctx.fillStyle = '#000'; ctx.fill('evenodd'); ctx.restore(); });
+    if (P.relief && detail) { // 1.14.0: a graded bevel on every cut edge (light on the edges that face the lamp, shade on the others) and a domed face
+      const kk = cs >= 9 ? 4 : 3;
+      [0.5, 0.64, 0.78].forEach((th) => { const lp = contourLoops(mask, cols, rows, { k: 4, thr: th, r: 6 }); ctx.save(); ctx.beginPath(); tracePath(ctx, lp, x - cs * 0.2, y - cs * 0.3, cs); ctx.fillStyle = 'rgba(255,240,205,0.085)'; ctx.fill('evenodd'); ctx.restore(); });
+      const shift = (ox, oy, col, a) => { ctx.save(); ctx.beginPath(); ctx.rect(x - cs * 3, y - cs * 3, W + cs * 6, Hh + cs * 6); tracePath(ctx, loops, x + ox, y + oy, cs); ctx.fillStyle = rgba(col, a); ctx.fill('evenodd'); ctx.restore(); };
+      for (let j = 1; j <= 4; j++) { const d = Math.max(cs * 0.13, 1.3) * j; shift(d, d * 1.15, '#fff4d6', 0.26 / j + 0.04); shift(-d, -d * 1.15, '#140802', 0.34 / j + 0.05); }
+      shift(cs * 0.05, cs * 0.06, '#ffffff', 0.34);
+    }
+    if (main && P.wax && polishN > 0) { // rubbed wax: richer colour and a soft moving sheen where the cloth has been (smooth outline of the rubbed cells)
+      const lp = contourLoops(polish, cols, rows, { k: cs >= 9 ? 4 : 3 }), tone = k === 'stone' ? '#2a1612' : '#7a3c08';
+      ctx.save(); ctx.beginPath(); tracePath(ctx, lp, x, y, cs); ctx.clip('evenodd');
+      ctx.fillStyle = rgba(tone, k === 'stone' ? 0.34 : 0.3); ctx.fillRect(x, y, W, Hh);
+      const sw = ((t * 0.22) % 2.6) - 0.8, sg = ctx.createLinearGradient(x + W * sw, y, x + W * (sw + 0.32), y + Hh * 0.3);
+      sg.addColorStop(0, 'rgba(255,244,214,0)'); sg.addColorStop(0.5, 'rgba(255,244,214,0.3)'); sg.addColorStop(1, 'rgba(255,244,214,0)');
+      ctx.fillStyle = sg; ctx.fillRect(x, y, W, Hh);
+      const hg = ctx.createLinearGradient(x, y, x + W, y + Hh); hg.addColorStop(0, 'rgba(255,248,230,0.16)'); hg.addColorStop(0.4, 'rgba(255,248,230,0)'); hg.addColorStop(1, 'rgba(0,0,0,0.14)');
+      ctx.fillStyle = hg; ctx.fillRect(x, y, W, Hh);
+      ctx.restore();
+    }
     // overall key light and a broad sheen
     const lg = ctx.createLinearGradient(x, y, x + W, y + Hh);
     lg.addColorStop(0, 'rgba(255,255,255,0.2)'); lg.addColorStop(0.45, 'rgba(255,255,255,0)'); lg.addColorStop(1, 'rgba(0,0,0,0.26)');
     ctx.fillStyle = lg; ctx.fillRect(x, y, W, Hh);
-    if (k === 'metal' || k === 'candy' || k === 'wax' || k === 'stone') {
+    if (k === 'metal' || k === 'candy' || k === 'wax' || k === 'stone' || k === 'lac') {
       const sw = ((t * 0.18) % 2.2) - 0.6, sg = ctx.createLinearGradient(x + W * sw, y, x + W * (sw + 0.22), y + Hh * 0.35);
       sg.addColorStop(0, 'rgba(255,255,255,0)'); sg.addColorStop(0.5, `rgba(255,255,255,${k === 'stone' ? 0.1 : 0.22})`); sg.addColorStop(1, 'rgba(255,255,255,0)');
       ctx.fillStyle = sg; ctx.fillRect(x, y, W, Hh);
@@ -216,6 +305,7 @@ export function createCarve(P, env) {
     ctx.restore();
     path(); ctx.lineJoin = 'round'; ctx.strokeStyle = rgba(tint(base, -0.7), 0.75); ctx.lineWidth = Math.max(1, cs * 0.06); ctx.stroke();
     ctx.restore();
+    if (STUDS.length && (main || (thumb && cs >= 5))) drawStuds(ctx, x, y, cs, mask);
   };
   // One block drawn with form: cells with a texture of their material, bevelled cut edges and cast shadows into the cavity.
   const drawBlock = (ctx, mask, x, y, cs, opt) => {
@@ -239,7 +329,7 @@ export function createCarve(P, env) {
         ctx.strokeStyle = 'rgba(255,255,255,0.1)'; ctx.lineWidth = 1; ctx.beginPath(); for (let q = 0; q <= cols; q++) { ctx.moveTo(x + q * cs, y); ctx.lineTo(x + q * cs, y + Hh); } for (let q = 0; q <= rows; q++) { ctx.moveTo(x, y + q * cs); ctx.lineTo(x + W, y + q * cs); } ctx.stroke();
       }
     }
-    if (cs >= 3) { drawSmooth(ctx, mask, x, y, cs, { detail, t, cast: opt.cast ?? 0 }); return; }
+    if (cs >= 3) { drawSmooth(ctx, mask, x, y, cs, { detail, t, cast: opt.cast ?? 0, main: opt.main, thumb: opt.thumb }); return; }
     const open = (cc, rr) => cc < 0 || rr < 0 || cc >= cols || rr >= rows || !mask[at(cc, rr)];
     // shadows cast by raised material into the cavity (light from the upper left)
     if (detail) {
@@ -336,9 +426,21 @@ export function createCarve(P, env) {
   const draw = (g, R, t) => {
     const { ctx, pal } = g;
     rects = R; clock = t;
-    const W0 = R.work, lift = SC.wall ? wallLift(W0) : 0, W = { x: W0.x, y: W0.y + 40 + lift, w: W0.w, h: W0.h - 40 - lift }, cs = Math.max(4, Math.floor(Math.min((W.w - 24) / (cols + 2), (W.h - 24) / (rows + 2))));
-    const bx = Math.round(W.x + (W.w - cs * cols) / 2), by = Math.round(W.y + (W.h - cs * rows) / 2);
-    geo = { x: bx, y: by, cs };
+    const W0 = R.work, lift = SC.wall ? wallLift(W0) : 0, W = { x: W0.x, y: W0.y + 40 + lift, w: W0.w, h: W0.h - 40 - lift }; let cs = Math.max(4, Math.floor(Math.min((W.w - 24) / (cols + 2), (W.h - 24) / (rows + 2))));
+    let csz = cs, by0 = null, maxPan = 0;
+    if (P.zoom) { // 1.14.0: three zoom levels (fit, close, closer = fit to the width); the view pans when the block is taller than the room
+      const csMax = Math.max(cs, Math.min(Math.floor((W.w - 24) / (cols + 2)), cs * 4)), lv = [cs, Math.round(Math.sqrt(cs * csMax)), csMax];
+      csz = lv[zoomLv]; const avail = W.h - 24, Hpx = csz * rows;
+      maxPan = Math.max(0, Hpx - avail);
+      if (focusRow >= 0) panRow += (focusRow + 0.5 - avail / csz / 2 - panRow) * 0.2;
+      panRow = Math.max(0, Math.min(maxPan / csz, panRow));
+      by0 = maxPan > 0 ? Math.round(W.y + 12 - panRow * csz) : null;
+    }
+    const cs0 = cs; cs = csz;
+    const bx = Math.round(W.x + (W.w - cs * cols) / 2), by = by0 ?? Math.round(W.y + (W.h - cs * rows) / 2);
+    geo = { x: bx, y: by, cs, maxPan, zoomed: !!P.zoom };
+    if (P.zoom) { ctx.save(); ctx.beginPath(); ctx.rect(W.x, W.y, W.w, W.h); ctx.clip(); }
+    void cs0;
     // the block sits on the bench with a body (a plinth edge below and to the right) and a soft shadow
     const dp = Math.max(4, cs * 0.5);
     drawSeat(ctx, SC.seat ?? 'bench', bx, by, cs * cols, cs * rows, cs, P.color, t);
@@ -346,7 +448,7 @@ export function createCarve(P, env) {
     ctx.fillStyle = cut ? '#0b0e12' : tint(P.color, -0.5); ctx.fillRect(bx - 5, by - 5, cs * cols + 10, cs * rows + 10);
     ctx.strokeStyle = 'rgba(255,255,255,0.22)'; ctx.lineWidth = 1.5; ctx.strokeRect(bx - 4.5, by - 4.5, cs * cols + 9, cs * rows + 9);
     const castU = SC.id === 'lostwax' && done && castAt >= 0 ? Math.min(1, Math.max(0, (t - castAt - 0.2) / 1.6)) : 0;
-    drawBlock(ctx, kept, bx, by, cs, { detail: true, fillCavity: true, t, cast: castU });
+    drawBlock(ctx, kept, bx, by, cs, { detail: true, fillCavity: true, t, cast: castU, main: true });
     // strike flashes
     flashes = flashes.filter((f) => t - f.t < 0.18);
     for (const f of flashes) { const a = 1 - (t - f.t) / 0.18; ctx.fillStyle = `rgba(255,248,220,${0.55 * a})`; ctx.fillRect(bx + f.c * cs, by + f.r * cs, cs * f.sz, cs * f.sz); }
@@ -356,7 +458,7 @@ export function createCarve(P, env) {
       if (/mirror-xy|rot4/.test(P.symmetry)) { ctx.beginPath(); ctx.moveTo(bx, by + (cs * rows) / 2); ctx.lineTo(bx + cs * cols, by + (cs * rows) / 2); ctx.stroke(); }
       ctx.setLineDash([]);
     }
-    if (P.guide) {
+    if (P.guide && !(P.relief && done)) {
       // material still to remove (kept, outside the figure) is tinted; over-cut places show red inside the lit outline
       const kl = contourLoops(kept, cols, rows, { k: cs >= 9 ? 4 : 3 }), tl = contourLoops(target, cols, rows, { k: cs >= 9 ? 4 : 3 });
       ctx.save(); ctx.beginPath(); ctx.rect(bx, by, cs * cols, cs * rows); ctx.clip();
@@ -369,12 +471,13 @@ export function createCarve(P, env) {
       ctx.restore();
       outlinePath(ctx, bx, by, cs); litEdge(ctx, pal.accent, Math.max(1.6, cs * 0.1), t);
     }
+    if (P.zoom) ctx.restore();
     // the working tool
     if (!done && lastPtr && lastPtr.down && t - lastPtr.t < 0.25) { if (SC.tool) drawTool(ctx, SC, SC.tool, lastPtr.x, lastPtr.y, Math.max(90, Math.min(150, cs * 9)), t, { c: SC.fx?.c, t }); else drawChisel(ctx, lastPtr.x, lastPtr.y, t); }
     // the reference
     const th = R.thumb, tcs = Math.max(2, Math.floor(Math.min((th.w - 16) / cols, (th.h - 16) / rows))), tx = th.x + (th.w - tcs * cols) / 2, ty = th.y + (th.h - tcs * rows) / 2;
     shadowed(ctx, () => { ctx.fillStyle = '#000'; ctx.fillRect(tx, ty, tcs * cols, tcs * rows); }, { blur: 10, dy: 5, a: 0.5 });
-    drawBlock(ctx, target, tx, ty, tcs, { detail: tcs >= 5, fillCavity: true, t });
+    drawBlock(ctx, target, tx, ty, tcs, { detail: tcs >= 5, fillCavity: true, t, thumb: true });
     const wd = SC.words ?? {};
     g.label(ctx, cut ? (wd.hint ?? 'Tap cells to snip: partners on the fold are cut too') : P.guide ? (wd.hint ?? 'Remove what lies outside the lit outline') : (wd.hintBlind ?? 'Remove everything that is not the figure'), W0.x + W0.w / 2, W0.y + 26, g.px(22), pal.ink, 'center', '600');
   };
@@ -384,7 +487,7 @@ export function createCarve(P, env) {
     const cs = Math.max(4, Math.floor(Math.min(S.w * 0.74 / cols, S.h * 0.74 / rows))), bx = S.x + (S.w - cs * cols) / 2, by = S.y + (S.h - cs * rows) / 2;
     drawSeat(ctx, SC.seat ?? 'bench', bx, by, cs * cols, cs * rows, cs, P.color, t);
     if (cut) shadowed(ctx, () => { ctx.fillStyle = P.cavity; ctx.fillRect(bx, by, cs * cols, cs * rows); }, { blur: 28, dy: 16, a: 0.6 });
-    drawBlock(ctx, target, bx, by, cs, { detail: true, fillCavity: cut, t });
+    drawBlock(ctx, target, bx, by, cs, { detail: true, fillCavity: cut, t, thumb: true });
   };
 
   const attract = (dt) => {
@@ -392,21 +495,31 @@ export function createCarve(P, env) {
     if (done) return;
     acc += dt;
     if (acc < 0.06) return; acc = 0;
-    for (let i = 0; i < total; i++) if (kept[i] && !target[i]) {
+    const B = P.relief || P.zoom ? 1 + Math.floor(total / 420) : 1;   // 1.14.0: big grids are carved several cells per beat in Watch and learn
+    let removed = false;
+    for (let b = 0; b < B; b++) {
+      const i = kept.findIndex((k, q) => k && !target[q]);
+      if (i < 0) break;
       const c = i % cols, r = Math.floor(i / cols);
+      focusRow = r;
       for (const [x, y] of orbit(cut ? P.symmetry : 'none', c, r, cols, rows)) if (!target[at(x, y)]) { kept[at(x, y)] = 0; if (geo && fx) { const col = cut ? P.color : cellColor(x, y); fx.emit(cut ? 'flake' : 'chip', geo.x + (x + 0.5) * geo.cs, geo.y + (y + 0.5) * geo.cs, { count: 3, color: col, size: Math.max(2.5, geo.cs * 0.2), speed: 140, life: 0.55, gravity: 600, spread: 3.4, angle: -1.2 }); flashes.push({ c: x, r: y, t: clock, sz: 1 }); } }
       if (flashes.length > 24) flashes.splice(0, flashes.length - 24);
       if (cut && SC.cavity === 'mirror') sound?.mirror(hash(c, r)); else sound?.chip(hash(c, r), false);
-      return;
+      removed = true;
     }
+    if (removed) return;
     for (let i = 0; i < total; i++) if (!kept[i] && target[i]) { kept[i] = 1; return; }
+    if (P.wax && !cut) { // rub the wax in, top to bottom, as a player would
+      for (let n = 0; n < 5; n++) { const i = kept.findIndex((k, q) => k && !polish[q]); if (i < 0) break; focusRow = Math.floor(i / cols); waxAt(i % cols, focusRow); }
+      if (kept.some((k, q) => k && !polish[q])) return;
+    }
     finish();
   };
 
   return {
-    init, items, control, work, draw, attract, titleArt, result: () => done,
+    compact: !!P.zoom, init, items, control, work, draw, attract, titleArt, result: () => done,
     score: () => score().score,
-    info: () => [`Block: ${cols} by ${rows}`, cut ? `Fold: ${P.symmetry}` : (P.chisels > 1 ? 'Chisels: fine and broad' : 'One chisel')],
+    info: () => [`Block: ${cols} by ${rows}`, cut ? `Fold: ${P.symmetry}` : (P.chisels > 1 ? 'Chisels: fine and broad' : 'One chisel'), ...(P.wax && !cut ? [`Wax rubbed: ${Math.round((100 * polishN) / Math.max(1, kept.reduce((n, k) => n + k, 0)))} percent`] : [])],
     caption: SC.words?.caption ?? (cut ? 'Cut this design' : 'Carve this figure'),
     hint() {
       const c = target.findIndex((v, i) => kept[i] && !v);
@@ -421,6 +534,6 @@ export function createCarve(P, env) {
       if (id.startsWith('cell:')) { const [c, r] = id.slice(5).split(',').map(Number); return { x: geo.x + (c + 0.5) * geo.cs, y: geo.y + (r + 0.5) * geo.cs }; }
       return null;
     },
-    state: () => ({ technique: cut ? 'cut' : 'carve', cols, rows, kept, target, tool, symmetry: P.symmetry }),
+    state: () => ({ technique: cut ? 'cut' : 'carve', cols, rows, kept, target, tool, symmetry: P.symmetry, ...(P.wax ? { polished: polishN } : {}), ...(P.zoom ? { zoom: zoomLv } : {}) }),
   };
 }

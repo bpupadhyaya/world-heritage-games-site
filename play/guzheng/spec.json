@@ -1,0 +1,391 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 146.83,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "guzheng",
+  "lanes": [
+   {
+    "name": "D3",
+    "cents": 0,
+    "id": "d3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d8553c"
+   },
+   {
+    "name": "E3",
+    "cents": 200,
+    "id": "e3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#db6947"
+   },
+   {
+    "name": "F#3",
+    "cents": 400,
+    "id": "f#3-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#de7d51"
+   },
+   {
+    "name": "A3",
+    "cents": 700,
+    "id": "a3-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e1915c"
+   },
+   {
+    "name": "B3",
+    "cents": 900,
+    "id": "b3-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e4a567"
+   },
+   {
+    "name": "D4",
+    "cents": 1200,
+    "id": "d4-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e7b972"
+   },
+   {
+    "name": "E4",
+    "cents": 1400,
+    "id": "e4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#dac07d"
+   },
+   {
+    "name": "F#4",
+    "cents": 1600,
+    "id": "f#4-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#bdb989"
+   },
+   {
+    "name": "A4",
+    "cents": 1900,
+    "id": "a4-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a0b395"
+   },
+   {
+    "name": "B4",
+    "cents": 2100,
+    "id": "b4-9",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#83ada0"
+   },
+   {
+    "name": "D5",
+    "cents": 2400,
+    "id": "d5-10",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#67a6ac"
+   },
+   {
+    "name": "Gliss",
+    "id": "gliss-11",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#4aa0b8",
+    "cents": 0
+   }
+  ],
+  "songs": [
+   {
+    "name": "Rising and falling water, 4 beats",
+    "bpm": 80,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 0.5,
+      "lane": 1
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 1.5,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 5
+     },
+     {
+      "beat": 4.5,
+      "lane": 6
+     },
+     {
+      "beat": 5,
+      "lane": 7
+     },
+     {
+      "beat": 5.5,
+      "lane": 8
+     },
+     {
+      "beat": 6,
+      "lane": 9
+     },
+     {
+      "beat": 7,
+      "lane": 8
+     },
+     {
+      "beat": 8,
+      "lane": 7
+     },
+     {
+      "beat": 8.5,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 9.5,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 3
+     },
+     {
+      "beat": 11,
+      "lane": 11
+     },
+     {
+      "beat": 12,
+      "lane": 0
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "name": "Quick running tune, 2 beats",
+    "bpm": 112,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 5
+     },
+     {
+      "beat": 0.5,
+      "lane": 6
+     },
+     {
+      "beat": 1,
+      "lane": 7
+     },
+     {
+      "beat": 1.5,
+      "lane": 6
+     },
+     {
+      "beat": 2,
+      "lane": 5
+     },
+     {
+      "beat": 2.5,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 3.5,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 5
+     },
+     {
+      "beat": 4.5,
+      "lane": 7
+     },
+     {
+      "beat": 5,
+      "lane": 8
+     },
+     {
+      "beat": 5.5,
+      "lane": 7
+     },
+     {
+      "beat": 6,
+      "lane": 9
+     },
+     {
+      "beat": 6.5,
+      "lane": 8
+     },
+     {
+      "beat": 7,
+      "lane": 7
+     },
+     {
+      "beat": 7.5,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 3
+     },
+     {
+      "beat": 9,
+      "lane": 11
+     },
+     {
+      "beat": 10,
+      "lane": 0
+     },
+     {
+      "beat": 11,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 10
+     },
+     {
+      "beat": 13,
+      "lane": 11
+     },
+     {
+      "beat": 14,
+      "lane": 5
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "name": "Answering phrases, 4 beats",
+    "bpm": 92,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 5
+     },
+     {
+      "beat": 1.5,
+      "lane": 4
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 1
+     },
+     {
+      "beat": 4.5,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 7,
+      "lane": 6
+     },
+     {
+      "beat": 8,
+      "lane": 8
+     },
+     {
+      "beat": 8.5,
+      "lane": 7
+     },
+     {
+      "beat": 9,
+      "lane": 6
+     },
+     {
+      "beat": 10,
+      "lane": 5
+     },
+     {
+      "beat": 11,
+      "lane": 11
+     },
+     {
+      "beat": 12,
+      "lane": 9
+     },
+     {
+      "beat": 13,
+      "lane": 7
+     },
+     {
+      "beat": 14,
+      "lane": 5
+     },
+     {
+      "beat": 14.5,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ]
+   }
+  ]
+ }
+}

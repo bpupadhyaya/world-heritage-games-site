@@ -1,0 +1,11 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "paint",
+  "design": "talavera",
+  "scene": "talavera",
+  "guideMode": "trace",
+  "assist": true,
+  "variation": 0.5
+ }
+}

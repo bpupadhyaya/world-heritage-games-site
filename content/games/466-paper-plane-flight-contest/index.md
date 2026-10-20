@@ -45,7 +45,7 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md)
 - [Kumihimo Braid Disk](../../games/107-kumihimo-braid-disk/index.md)
 - [Kokeshi doll painting](../../games/355-kokeshi-doll-painting/index.md)
-- [Origami](../../games/3332-origami/index.md)
+- [Washi Papermaking](../../games/497-washi-papermaking/index.md)
 
 ## Sources
 

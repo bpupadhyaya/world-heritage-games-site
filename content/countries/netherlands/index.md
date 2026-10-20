@@ -1,21 +1,22 @@
 ---
 title: "Netherlands"
-description: "16 traditions from Netherlands."
+description: "18 traditions from Netherlands."
 path: "/countries/netherlands/"
-count: 16
+count: 18
 ---
 # Netherlands
 
-16 traditions from Netherlands.
+18 traditions from Netherlands.
 
 
 
-16 entries.
+18 entries.
 
 - [Canal ice-skating marathon](../../games/84-canal-ice-skating-marathon/index.md): Netherlands; Racing; Age of Contact and Craft
 - [Canal pole vault](../../games/7-canal-pole-vault/index.md): Netherlands; Water and winter sports; Modern Heritage
 - [Carillon](../../games/418-carillon/index.md): Belgium, Netherlands; Musical instruments; Living Traditions
 - [Clinker Boat Building](../../games/496-clinker-boat-building/index.md): Norway, Denmark; Crafts and making; Living Traditions
+- [Delftware](../../games/5267-delftware/index.md): Netherlands; Crafts and making; Living Traditions
 - [Fierljeppen](../../games/971-fierljeppen/index.md): Netherlands; Street and playground games; Modern Heritage
 - [Frisian Road Bowling](../../games/1441-frisian-road-bowling/index.md): Ireland, Netherlands; Dexterity and skill games; Age of Contact and Craft
 - [Klootschieten](../../games/975-klootschieten/index.md): Netherlands; Street and playground games; Modern Heritage
@@ -28,3 +29,4 @@ count: 16
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
 - [Dutch draughts](../../games/970-dutch-draughts/index.md): Netherlands; Board and table games; Crossroads and Golden Ages
 - [Frisian kaatsen](../../games/973-frisian-kaatsen/index.md): Netherlands; Street and playground games; Modern Heritage
+- [Papierscheppen](../../games/19945-papierscheppen/index.md): Netherlands; Crafts and making; Living Traditions

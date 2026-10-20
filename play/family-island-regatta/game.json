@@ -1,0 +1,13 @@
+{
+ "slug": "family-island-regatta",
+ "title": "Family Island Regatta",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

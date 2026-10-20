@@ -1,0 +1,30 @@
+{
+ "title": "Maldivian lacquer vase",
+ "native": "ލިއެލާ ޖެހުން",
+ "alt": [
+  "Liyelaa jehun",
+  "Maldivian lacquerware"
+ ],
+ "summary": "Maldivian makers turn a wooden vase on a hand lathe and press on sticks of lac in layers of red, black and yellow while it spins. They then scrape back through the layers with a graver to bring out rings and scrolls in the colour beneath. Here you turn, colour and engrave a vase.",
+ "howToPlay": [
+  "Look at the lit vase in its frame: it shows the shape, the colour of each band and the engraving.",
+  "Drag across the spinning wood to set how wide each row is turned.",
+  "Tap a band, then tap a lac colour to melt it on, then press Engrave.",
+  "Choose the ring or the scroll graver and scrape each lit mark; the colour below shows through.",
+  "Press Check to see your stars."
+ ],
+ "rules": [
+  "Shape counts for half of the score, the colour of each band for a quarter and the engraving for a quarter.",
+  "Each scrape shows the layer beneath, so the order of the colours matters.",
+  "A ring or scroll counts when it lies within one row of the lit mark; scrapes elsewhere lose points.",
+  "Undo takes back one stroke; Reglaze goes back to the colours.",
+  "Three stars for a clean vase."
+ ],
+ "heritageNote": "Lacquerwork has long been a craft of the Maldives. A turned wooden piece is coated with layers of coloured lac as it spins, then engraved through the layers so that bands and scrolls appear in the colours below.",
+ "countries": [
+  "Maldives"
+ ],
+ "credits": [
+  "Photo: Wikimedia Commons, File:Laquer-finished.jpg"
+ ]
+}

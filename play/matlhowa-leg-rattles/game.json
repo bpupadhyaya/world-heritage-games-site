@@ -1,0 +1,13 @@
+{
+ "slug": "matlhowa-leg-rattles",
+ "title": "Matlhowa (leg rattles)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

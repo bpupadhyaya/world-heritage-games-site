@@ -1,18 +1,19 @@
 ---
 title: "Armenia"
-description: "8 traditions from Armenia."
+description: "9 traditions from Armenia."
 path: "/countries/armenia/"
-count: 8
+count: 9
 ---
 # Armenia
 
-8 traditions from Armenia.
+9 traditions from Armenia.
 
 
 
-8 entries.
+9 entries.
 
 - [Chess](../../games/552-chess/index.md): Armenia, Azerbaijan; Board and table games; Crossroads and Golden Ages
+- [Duduk](../../games/159-duduk/index.md): Armenia; Musical instruments; Crossroads and Golden Ages
 - [Durak](../../games/854-durak/index.md): Kazakhstan, Turkmenistan; Card games; Age of Contact and Craft
 - [Kamancha](../../games/165-kamancha/index.md): Azerbaijan, Iran; Musical instruments; Living Traditions
 - [Kochari](../../games/1315-kochari/index.md): Armenia; Dances; Living Traditions

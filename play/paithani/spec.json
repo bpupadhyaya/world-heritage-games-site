@@ -1,0 +1,174 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "paithani",
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Peacock blue",
+        "color": "#1c86b5"
+      },
+      {
+        "name": "Rani magenta",
+        "color": "#c2185b"
+      },
+      {
+        "name": "Parrot green",
+        "color": "#79b82c"
+      },
+      {
+        "name": "Marigold",
+        "color": "#e3a61c"
+      },
+      {
+        "name": "Ivory",
+        "color": "#f4ecd6"
+      }
+    ],
+    "background": "#0d4f4a",
+    "grid": "#c8a24a",
+    "motifs": [
+      "bird",
+      "flower",
+      "leaf",
+      "vine",
+      "dot",
+      "diamond"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Peacocks and flowers",
+        "rows": [
+          "d.d.e.d.d",
+          "..b...b..",
+          ".c.a.a.c.",
+          "v.d.f.d.v",
+          "..b.e.b..",
+          ".c.a.a.c.",
+          "v.d.f.d.v",
+          "..b...b..",
+          "d.d.e.d.d"
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 1
+          },
+          "b": {
+            "m": 0,
+            "c": 0
+          },
+          "c": {
+            "m": 2,
+            "c": 2
+          },
+          "d": {
+            "m": 4,
+            "c": 3
+          },
+          "e": {
+            "m": 5,
+            "c": 4
+          },
+          "f": {
+            "m": 1,
+            "c": 3
+          },
+          "v": {
+            "m": 3,
+            "c": 2
+          }
+        }
+      },
+      {
+        "name": "Parrots and flowers",
+        "rows": [
+          "e.e.e.e.e",
+          ".a.b.b.a.",
+          "c.d.g.d.c",
+          ".b.a.a.b.",
+          "e.f.e.f.e",
+          ".b.a.a.b.",
+          "c.d.g.d.c",
+          ".a.b.b.a.",
+          "e.e.e.e.e"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 2
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 0
+          },
+          "d": {
+            "m": 3,
+            "c": 2
+          },
+          "e": {
+            "m": 4,
+            "c": 3
+          },
+          "f": {
+            "m": 5,
+            "c": 3
+          },
+          "g": {
+            "m": 1,
+            "c": 4
+          }
+        }
+      },
+      {
+        "name": "Gold-edged border and buti",
+        "rows": [
+          "ababababa",
+          "c.c.c.c.c",
+          ".d.e.e.d.",
+          "f.d.f.d.f",
+          "c.e.c.e.c",
+          "f.d.f.d.f",
+          ".d.e.e.d.",
+          "c.c.c.c.c",
+          "ababababa"
+        ],
+        "legend": {
+          "a": {
+            "m": 5,
+            "c": 1
+          },
+          "b": {
+            "m": 5,
+            "c": 3
+          },
+          "c": {
+            "m": 4,
+            "c": 4
+          },
+          "d": {
+            "m": 2,
+            "c": 0
+          },
+          "e": {
+            "m": 0,
+            "c": 3
+          },
+          "f": {
+            "m": 3,
+            "c": 2
+          }
+        }
+      }
+    ]
+  }
+}

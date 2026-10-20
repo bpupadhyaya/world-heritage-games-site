@@ -1,0 +1,9 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "paint",
+  "design": "babylon",
+  "scene": "babylon",
+  "tolerance": 0.02
+ }
+}

@@ -39,7 +39,7 @@ Usually placed in the era of Modern Heritage (1800 to today).
 
 ## Play it
 
-[Web preview](https://bpupadhyaya.github.io/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/world-weave/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
@@ -48,4 +48,4 @@ Usually placed in the era of Modern Heritage (1800 to today).
 - [Sashiko Stitch Patterns](../../games/27-sashiko-stitch-patterns/index.md)
 - [Adire indigo resist dyeing](../../games/87-adire-indigo-resist-dyeing/index.md)
 - [Agaseke basket weaving](../../games/89-agaseke-basket-weaving/index.md)
-- [Toquilla straw hat weaving](../../games/93-toquilla-straw-hat-weaving/index.md)
+- [Cross-Stitch Pattern Weaving](../../games/103-cross-stitch-pattern-weaving/index.md)

@@ -1,0 +1,13 @@
+{
+ "slug": "fijian-bamboo-drum-ensemble",
+ "title": "Stamping tubes (bamboo)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

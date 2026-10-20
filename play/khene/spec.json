@@ -1,0 +1,447 @@
+{
+ "engine": "rhythm",
+ "variant": "khene",
+ "players": "1",
+ "params": {
+  "layout": "holes",
+  "mode": "follow",
+  "root": 220,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "khene",
+  "lanes": [
+   {
+    "name": "A low",
+    "cents": 0,
+    "timbre": "reed",
+    "color": "#f2c14e"
+   },
+   {
+    "name": "C low",
+    "cents": 300,
+    "timbre": "reed",
+    "color": "#f0a35a"
+   },
+   {
+    "name": "D low",
+    "cents": 500,
+    "timbre": "reed",
+    "color": "#e8825f"
+   },
+   {
+    "name": "E low",
+    "cents": 700,
+    "timbre": "reed",
+    "color": "#d8627a"
+   },
+   {
+    "name": "G low",
+    "cents": 1000,
+    "timbre": "reed",
+    "color": "#b86ad0"
+   },
+   {
+    "name": "A high",
+    "cents": 1200,
+    "timbre": "reed",
+    "color": "#8a7ae0"
+   },
+   {
+    "name": "C high",
+    "cents": 1500,
+    "timbre": "reed",
+    "color": "#5f9be0"
+   },
+   {
+    "name": "D high",
+    "cents": 1700,
+    "timbre": "reed",
+    "color": "#4fb8c8"
+   },
+   {
+    "name": "E high",
+    "cents": 1900,
+    "timbre": "reed",
+    "color": "#56c79a"
+   },
+   {
+    "name": "G high",
+    "cents": 2200,
+    "timbre": "reed",
+    "color": "#9ad66a"
+   }
+  ],
+  "songs": [
+   {
+    "id": "lai-yai",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Lao khene, mode lai yai",
+    "name": "Lai yai figure",
+    "bpm": 84,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "A low",
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": "C low",
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": "D low",
+      "len": 2
+     },
+     {
+      "beat": 4,
+      "lane": "E low",
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": "G low",
+      "len": 1
+     },
+     {
+      "beat": 6,
+      "lane": "E low",
+      "len": 2
+     },
+     {
+      "beat": 8,
+      "lane": "D low",
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": "C low",
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": "D low",
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": "E low",
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": "G low",
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": "A high",
+      "len": 2
+     },
+     {
+      "beat": 16,
+      "lane": "G low",
+      "len": 1
+     },
+     {
+      "beat": 17,
+      "lane": "E low",
+      "len": 1
+     },
+     {
+      "beat": 18,
+      "lane": "D low",
+      "len": 1
+     },
+     {
+      "beat": 19,
+      "lane": "C low",
+      "len": 1
+     },
+     {
+      "beat": 20,
+      "lane": "A low",
+      "len": 4
+     }
+    ],
+    "note": "A figure in the style of the broad, long-breathed mode: slow steps climbing from the tonic and settling back."
+   },
+   {
+    "id": "lai-sutsanaen",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Lao khene, mode lai sutsanaen",
+    "name": "Lai sutsanaen figure",
+    "bpm": 96,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "G low",
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": "A low",
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": "C low",
+      "len": 2
+     },
+     {
+      "beat": 4,
+      "lane": "D low",
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": "E low",
+      "len": 1
+     },
+     {
+      "beat": 6,
+      "lane": "D low",
+      "len": 2
+     },
+     {
+      "beat": 8,
+      "lane": "C low",
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": "A low",
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": "G low",
+      "len": 2
+     },
+     {
+      "beat": 12,
+      "lane": "C low",
+      "len": 1
+     },
+     {
+      "beat": 13,
+      "lane": "D low",
+      "len": 1
+     },
+     {
+      "beat": 14,
+      "lane": "E low",
+      "len": 1
+     },
+     {
+      "beat": 15,
+      "lane": "G high",
+      "len": 1
+     },
+     {
+      "beat": 16,
+      "lane": "E high",
+      "len": 2
+     },
+     {
+      "beat": 18,
+      "lane": "D low",
+      "len": 1
+     },
+     {
+      "beat": 19,
+      "lane": "C low",
+      "len": 1
+     },
+     {
+      "beat": 20,
+      "lane": "A low",
+      "len": 1
+     },
+     {
+      "beat": 21,
+      "lane": "G low",
+      "len": 1
+     },
+     {
+      "beat": 22,
+      "lane": "G low",
+      "len": 4
+     }
+    ],
+    "note": "A figure in the style of the mode taught first to many players: the same five notes, but the tune rests on G."
+   },
+   {
+    "id": "quick-run",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Lao khene, lively style",
+    "name": "Quick mor lam run",
+    "bpm": 116,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "A low",
+      "len": 0.5
+     },
+     {
+      "beat": 0.5,
+      "lane": "C low",
+      "len": 0.5
+     },
+     {
+      "beat": 1.0,
+      "lane": "D low",
+      "len": 0.5
+     },
+     {
+      "beat": 1.5,
+      "lane": "E low",
+      "len": 0.5
+     },
+     {
+      "beat": 2.0,
+      "lane": "G low",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "E low",
+      "len": 0.5
+     },
+     {
+      "beat": 3.5,
+      "lane": "D low",
+      "len": 0.5
+     },
+     {
+      "beat": 4.0,
+      "lane": "C low",
+      "len": 0.5
+     },
+     {
+      "beat": 4.5,
+      "lane": "D low",
+      "len": 0.5
+     },
+     {
+      "beat": 5.0,
+      "lane": "E low",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "A high",
+      "len": 0.5
+     },
+     {
+      "beat": 6.5,
+      "lane": "C high",
+      "len": 0.5
+     },
+     {
+      "beat": 7.0,
+      "lane": "D high",
+      "len": 0.5
+     },
+     {
+      "beat": 7.5,
+      "lane": "C high",
+      "len": 0.5
+     },
+     {
+      "beat": 8.0,
+      "lane": "A high",
+      "len": 1
+     },
+     {
+      "beat": 9.0,
+      "lane": "G low",
+      "len": 0.5
+     },
+     {
+      "beat": 9.5,
+      "lane": "E low",
+      "len": 0.5
+     },
+     {
+      "beat": 10.0,
+      "lane": "D low",
+      "len": 0.5
+     },
+     {
+      "beat": 10.5,
+      "lane": "E low",
+      "len": 0.5
+     },
+     {
+      "beat": 11.0,
+      "lane": "G low",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "A high",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "C high",
+      "len": 1
+     },
+     {
+      "beat": 14.0,
+      "lane": "D high",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "E high",
+      "len": 2
+     },
+     {
+      "beat": 17.0,
+      "lane": "D high",
+      "len": 1
+     },
+     {
+      "beat": 18.0,
+      "lane": "C high",
+      "len": 1
+     },
+     {
+      "beat": 19.0,
+      "lane": "A high",
+      "len": 2
+     },
+     {
+      "beat": 21.0,
+      "lane": "G low",
+      "len": 1
+     },
+     {
+      "beat": 22.0,
+      "lane": "A low",
+      "len": 3
+     }
+    ],
+    "note": "A lively run in the spirit of the sung-poetry shows, where the khene answers the singer with fast turns."
+   }
+  ],
+  "drone": "reed",
+  "droneHz": [
+   110,
+   110.25,
+   165
+  ]
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

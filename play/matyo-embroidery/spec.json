@@ -1,0 +1,174 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "matyo",
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Scarlet silk",
+        "color": "#d6281f"
+      },
+      {
+        "name": "Cobalt blue",
+        "color": "#2a62b8"
+      },
+      {
+        "name": "Leaf green",
+        "color": "#2e9a45"
+      },
+      {
+        "name": "Marigold",
+        "color": "#f0b323"
+      },
+      {
+        "name": "Chalk white",
+        "color": "#f6f0e2"
+      }
+    ],
+    "background": "#14121a",
+    "grid": "#0a0910",
+    "motifs": [
+      "flower",
+      "petal",
+      "leaf",
+      "vine",
+      "dot",
+      "wave"
+    ],
+    "designs": [
+      {
+        "name": "Bouquet with rose, tulip and bud",
+        "rows": [
+          "e.c.f.c.e",
+          "cabagabac",
+          ".d.c.c.d.",
+          "bagaeagab",
+          "cdafafadc",
+          "bagaeagab",
+          ".d.c.c.d.",
+          "cabagabac",
+          "e.c.f.c.e"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 2
+          },
+          "d": {
+            "m": 3,
+            "c": 2
+          },
+          "e": {
+            "m": 4,
+            "c": 3
+          },
+          "f": {
+            "m": 0,
+            "c": 4
+          },
+          "g": {
+            "m": 0,
+            "c": 3
+          }
+        }
+      },
+      {
+        "name": "Tulip garland",
+        "rows": [
+          "e.b.a.b.e",
+          "cdcb.bcdc",
+          ".c.a.a.c.",
+          "bdae.eadb",
+          "a.c.g.c.a",
+          "bdae.eadb",
+          ".c.a.a.c.",
+          "cdcb.bcdc",
+          "e.b.a.b.e"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 3
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 2
+          },
+          "d": {
+            "m": 3,
+            "c": 2
+          },
+          "e": {
+            "m": 4,
+            "c": 0
+          },
+          "g": {
+            "m": 0,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Ring of roses",
+        "rows": [
+          "a.b.d.b.a",
+          ".c.e.e.c.",
+          "b.g.c.g.b",
+          ".e.a.a.e.",
+          "d.c.f.c.d",
+          ".e.a.a.e.",
+          "b.g.c.g.b",
+          ".c.e.e.c.",
+          "a.b.d.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 3
+          },
+          "c": {
+            "m": 2,
+            "c": 2
+          },
+          "d": {
+            "m": 4,
+            "c": 4
+          },
+          "e": {
+            "m": 5,
+            "c": 1
+          },
+          "g": {
+            "m": 0,
+            "c": 3
+          },
+          "f": {
+            "m": 0,
+            "c": 4
+          }
+        }
+      }
+    ]
+  }
+}

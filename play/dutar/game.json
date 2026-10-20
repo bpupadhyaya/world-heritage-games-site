@@ -1,0 +1,13 @@
+{
+ "slug": "dutar",
+ "title": "Dutar (two-string long-neck lute)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

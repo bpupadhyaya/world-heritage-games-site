@@ -1,0 +1,27 @@
+{
+ "title": "Bandhani Tie-Dye",
+ "native": "બાંધણી (bandhani)",
+ "alt": [
+  "Bandhej",
+  "Bandhni"
+ ],
+ "summary": "Bandhani is the tie-dye of Gujarat and Rajasthan. Makers pinch tiny points of cloth and bind each with thread so it resists the dye, then dip the cloth in dye baths in order, leaving thousands of pale dots.",
+ "howToPlay": [
+  "Tie first: pick the cream thread and touch a square to bind a point or a motif there.",
+  "Then dip the cloth: the dye baths open one after another, numbered 1, 2, 3 and 4. A bath opens when the one before it is finished.",
+  "Copy the dot plan shown beside the cloth, then press Check."
+ ],
+ "rules": [
+  "The cloth repeats in quarter turns, so each point you bind or dye is also worked on up to three partner squares.",
+  "Bound points come first. A dye bath stays locked until every square that needs an earlier bath already has it.",
+  "A square counts only when its motif and its colour both match the plan; three stars need a nearly perfect copy.",
+  "You can undo or clear as often as you like."
+ ],
+ "heritageNote": "Bandhani has been practised for centuries by dyers and tiers in Kutch, Jamnagar and Rajasthan, where whole families tie the points by hand. Its name comes from a word meaning to tie.",
+ "countries": [
+  "India"
+ ],
+ "credits": [
+  "Pattern design: World Heritage Games (original, in the style of the tradition)"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "mat",
+  "scene": "mt-hills",
+  "design": "steps",
+  "weave": "twill21",
+  "style": "hana",
+  "cols": 20,
+  "rows": 14,
+  "period": 6,
+  "colors": 3,
+  "edge": "tassel",
+  "frame": "loom",
+  "bare": "threads",
+  "binding": "#6a3a20",
+  "palette": [
+   {
+    "name": "Natural",
+    "color": "#d8c48c"
+   },
+   {
+    "name": "Black",
+    "color": "#1c1812"
+   },
+   {
+    "name": "Red",
+    "color": "#a02a1c"
+   }
+  ]
+ }
+}

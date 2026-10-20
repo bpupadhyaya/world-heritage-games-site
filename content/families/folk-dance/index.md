@@ -1,20 +1,22 @@
 ---
 title: "Folk and line dances"
-description: "21 related traditions."
+description: "26 related traditions."
 path: "/families/folk-dance/"
-count: 21
+count: 26
 ---
 # Folk and line dances
 
-21 related traditions.
+26 related traditions.
 
 
 
-21 entries.
+26 entries.
 
+- [Attan circle dance](../../games/234-attan-circle-dance/index.md): Afghanistan; Dances; Living Traditions
 - [Balkan Kolo](../../games/134-balkan-kolo/index.md): Serbia, Croatia; Dances; Living Traditions
 - [Bamum script writer](../../games/1405-bamum-script-writer/index.md): Cameroon; Crafts and making; Living Traditions
 - [Bottle Dance](../../games/1424-bottle-dance/index.md): Paraguay, Spain; Dances; Living Traditions
+- [Buchaechum](../../games/5396-buchaechum/index.md): South Korea; Dances; Living Traditions
 - [Bulgarian asymmetric rhythm](../../games/385-bulgarian-asymmetric-rhythm/index.md): Bulgaria; Dances; Living Traditions
 - [Cueca](../../games/430-cueca/index.md): Chile, Bolivia; Dances; Living Traditions
 - [Dabke line dance](../../games/37-dabke-line-dance/index.md): Lebanon; Dances; Living Traditions
@@ -23,6 +25,8 @@ count: 21
 - [Faroese chain dance](../../games/1276-faroese-chain-dance/index.md): Denmark; Dances; Living Traditions
 - [Frevo Umbrella Dance](../../games/1411-frevo-umbrella-dance/index.md): Brazil; Dances; Living Traditions
 - [Gumboot dance rhythm](../../games/123-gumboot-dance-rhythm/index.md): South Africa; Dances; Living Traditions
+- [Highland Sword Dance](../../games/417-highland-sword-dance/index.md): United Kingdom; Dances; Living Traditions
+- [Hopak](../../games/382-hopak/index.md): Ukraine; Dances; Living Traditions
 - [Intore dance](../../games/1302-intore-dance/index.md): Rwanda; Dances; Living Traditions
 - [Jamaican Sound System Selector](../../games/1465-jamaican-sound-system-selector/index.md): Jamaica; Musical instruments; Modern Heritage
 - [Jebena coffee brewing](../../games/189-jebena-coffee-brewing/index.md): Ethiopia, Eritrea; Crafts and making; Living Traditions
@@ -33,3 +37,4 @@ count: 21
 - [Schuhplattler](../../games/410-schuhplattler/index.md): Germany, Austria; Dances; Living Traditions
 - [Tahtib](../../games/157-tahtib/index.md): Egypt; Dances; Living Traditions
 - [Yalli](../../games/1400-yalli/index.md): Azerbaijan; Dances; Living Traditions
+- [Kalamatianos](../../games/5066-kalamatianos/index.md): Greece; Dances; Living Traditions

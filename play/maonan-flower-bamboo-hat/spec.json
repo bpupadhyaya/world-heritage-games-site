@@ -1,0 +1,29 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "basket",
+  "scene": "bk-terrace",
+  "form": "hat",
+  "style": "plait",
+  "motif": "diamonds",
+  "stitches": 17,
+  "rows": 8,
+  "period": 6,
+  "colors": 3,
+  "leather": "#2a3a6a",
+  "palette": [
+   {
+    "name": "Bamboo",
+    "color": "#efe0a0"
+   },
+   {
+    "name": "Indigo",
+    "color": "#2a3a6a"
+   },
+   {
+    "name": "Red",
+    "color": "#b8423a"
+   }
+  ]
+ }
+}

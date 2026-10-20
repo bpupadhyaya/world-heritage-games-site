@@ -1,0 +1,37 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "profile": "hebronjug",
+  "scene": "hebron",
+  "rows": 12,
+  "steps": 16,
+  "bands": 4,
+  "clay": "#d8eef2",
+  "glazes": [
+   {
+    "name": "Clear green",
+    "color": "#cfe6e0"
+   },
+   {
+    "name": "Cobalt",
+    "color": "#2a4fc0"
+   },
+   {
+    "name": "Green",
+    "color": "#2f8a6a"
+   },
+   {
+    "name": "Amber",
+    "color": "#d8a030"
+   }
+  ],
+  "glazePattern": [
+   1,
+   1,
+   1,
+   2
+  ],
+  "variation": 0.03
+ }
+}

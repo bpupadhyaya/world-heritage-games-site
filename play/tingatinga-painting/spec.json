@@ -1,0 +1,12 @@
+{
+  "engine": "shape-craft",
+  "variant": "tingatinga-painting",
+  "params": {
+    "technique": "paint",
+    "design": "tingatinga",
+    "scene": "tingatinga"
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

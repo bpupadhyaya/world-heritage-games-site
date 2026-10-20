@@ -1,0 +1,156 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "nai",
+  "mode": "follow",
+  "root": 392,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "G",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e"
+   },
+   {
+    "name": "A",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d"
+   },
+   {
+    "name": "B",
+    "cents": 400,
+    "timbre": "breath",
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "C",
+    "cents": 500,
+    "timbre": "breath",
+    "color": "#a56bd6"
+   },
+   {
+    "name": "D",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#e87fa0"
+   },
+   {
+    "name": "E",
+    "cents": 900,
+    "timbre": "breath",
+    "color": "#f2c14e"
+   },
+   {
+    "name": "F#",
+    "cents": 1100,
+    "timbre": "breath",
+    "color": "#6cc2a0"
+   },
+   {
+    "name": "G'",
+    "cents": 1200,
+    "timbre": "breath",
+    "color": "#e0764a"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Shepherd tune",
+    "bpm": 72,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "G",
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": "G",
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": "D",
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 7,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": "B",
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": "C",
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": "A",
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": "G",
+      "len": 2
+     },
+     {
+      "beat": 12,
+      "lane": "G'",
+      "len": 1
+     },
+     {
+      "beat": 13,
+      "lane": "E",
+      "len": 1
+     },
+     {
+      "beat": 14,
+      "lane": "D",
+      "len": 1
+     },
+     {
+      "beat": 15,
+      "lane": "B",
+      "len": 2
+     },
+     {
+      "beat": 16,
+      "lane": "G",
+      "len": 3
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "nai"
+}

@@ -1,0 +1,336 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 196,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "adungu",
+  "lanes": [
+   {
+    "name": "Low 1",
+    "degree": 0,
+    "id": "s1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8603c"
+   },
+   {
+    "name": "2",
+    "degree": 1,
+    "id": "s2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d07647"
+   },
+   {
+    "name": "3",
+    "degree": 2,
+    "id": "s3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d88c52"
+   },
+   {
+    "name": "4",
+    "degree": 3,
+    "id": "s4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e0a25d"
+   },
+   {
+    "name": "5",
+    "degree": 4,
+    "id": "s5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e8b868"
+   },
+   {
+    "name": "6",
+    "degree": 5,
+    "id": "s6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8b476"
+   },
+   {
+    "name": "7",
+    "degree": 6,
+    "id": "s7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a8b084"
+   },
+   {
+    "name": "8",
+    "degree": 7,
+    "id": "s8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#88ac92"
+   },
+   {
+    "name": "High 9",
+    "degree": 8,
+    "id": "s9",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#68a8a0"
+   }
+  ],
+  "songs": [
+   {
+    "id": "twelve-pulse-weave",
+    "name": "Twelve-pulse weave",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Interlocking pattern, Uganda",
+    "bpm": 92,
+    "meter": 12,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 5
+     },
+     {
+      "beat": 2,
+      "lane": 7
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 6
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 0
+     },
+     {
+      "beat": 7,
+      "lane": 6
+     },
+     {
+      "beat": 8,
+      "lane": 8
+     },
+     {
+      "beat": 9,
+      "lane": 3
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 11,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 0
+     },
+     {
+      "beat": 13,
+      "lane": 5
+     },
+     {
+      "beat": 14,
+      "lane": 7
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     },
+     {
+      "beat": 16,
+      "lane": 6
+     },
+     {
+      "beat": 17,
+      "lane": 4
+     },
+     {
+      "beat": 18,
+      "lane": 0
+     },
+     {
+      "beat": 19,
+      "lane": 6
+     },
+     {
+      "beat": 20,
+      "lane": 8
+     },
+     {
+      "beat": 21,
+      "lane": 3
+     },
+     {
+      "beat": 22,
+      "lane": 7
+     },
+     {
+      "beat": 23,
+      "lane": 5
+     }
+    ],
+    "note": "A teaching figure in the style of the tradition: a slow low line under a running upper line, counted in groups of three."
+   },
+   {
+    "id": "slow-song",
+    "name": "Slow song",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Song-style line, Uganda",
+    "bpm": 76,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 2
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 5
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 5,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 8,
+      "lane": 3
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 11,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     }
+    ],
+    "note": "A teaching figure: a calm, singing line that moves by steps, of the kind that accompanies a voice."
+   },
+   {
+    "id": "rising-ostinato",
+    "name": "Rising and falling ostinato",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Repeating bass figure, Uganda",
+    "bpm": 84,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 4
+     },
+     {
+      "beat": 2,
+      "lane": 6
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 7
+     },
+     {
+      "beat": 7,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 11,
+      "lane": 4
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 5
+     },
+     {
+      "beat": 14,
+      "lane": 7
+     },
+     {
+      "beat": 15,
+      "lane": 5
+     }
+    ],
+    "note": "A teaching figure: a low note answered by a rising and falling upper line, repeated until it feels like breathing."
+   }
+  ],
+  "scale": "equi-heptatonic"
+ },
+ "variant": "adungu"
+}

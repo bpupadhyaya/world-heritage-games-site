@@ -1,0 +1,204 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "keys",
+  "instrument": "kankobele",
+  "mode": "follow",
+  "root": 130.8,
+  "scale": [
+   0,
+   200,
+   300,
+   500,
+   700,
+   800,
+   1000
+  ],
+  "loops": 2,
+  "tolerance": 1.25,
+  "lanes": [
+   {
+    "name": "C3",
+    "id": "k0",
+    "degree": 0,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#e0a82e"
+   },
+   {
+    "name": "D3",
+    "id": "k1",
+    "degree": 1,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#58c27d"
+   },
+   {
+    "name": "D#3",
+    "id": "k2",
+    "degree": 2,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#4f9fd6"
+   },
+   {
+    "name": "F3",
+    "id": "k3",
+    "degree": 3,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#a56bd6"
+   },
+   {
+    "name": "G3",
+    "id": "k4",
+    "degree": 4,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#e87fa0"
+   },
+   {
+    "name": "G#3",
+    "id": "k5",
+    "degree": 5,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#f2c14e"
+   },
+   {
+    "name": "A#3",
+    "id": "k6",
+    "degree": 6,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#6cc2a0"
+   },
+   {
+    "name": "C4",
+    "id": "k7",
+    "degree": 7,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#e0764a"
+   },
+   {
+    "name": "D4",
+    "id": "k8",
+    "degree": 8,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#e0a82e"
+   },
+   {
+    "name": "D#4",
+    "id": "k9",
+    "degree": 9,
+    "row": 0,
+    "timbre": "bell",
+    "dur": 0.9,
+    "color": "#58c27d"
+   }
+  ],
+  "songs": [
+   {
+    "id": "kankobele-cycle",
+    "name": "Cycle, 8 pulses",
+    "bpm": 108,
+    "meter": 8,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Kankobele, Ila people, Zambia",
+    "note": "A teaching cycle that climbs the keys and falls back.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "C3"
+     },
+     {
+      "beat": 1,
+      "lane": "G3"
+     },
+     {
+      "beat": 2,
+      "lane": "C4"
+     },
+     {
+      "beat": 3,
+      "lane": "D#3"
+     },
+     {
+      "beat": 4,
+      "lane": "G#3"
+     },
+     {
+      "beat": 5,
+      "lane": "D4"
+     },
+     {
+      "beat": 6,
+      "lane": "F3"
+     },
+     {
+      "beat": 7,
+      "lane": "A#3"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "kankobele-play",
+    "name": "Game tune",
+    "bpm": 120,
+    "meter": 8,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "Kankobele, Ila people, Zambia",
+    "note": "A bouncing tune for a game.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "D3"
+     },
+     {
+      "beat": 1,
+      "lane": "F3"
+     },
+     {
+      "beat": 2,
+      "lane": "G#3"
+     },
+     {
+      "beat": 3,
+      "lane": "D#4"
+     },
+     {
+      "beat": 4,
+      "lane": "C4"
+     },
+     {
+      "beat": 5,
+      "lane": "G#3"
+     },
+     {
+      "beat": 6,
+      "lane": "F3"
+     },
+     {
+      "beat": 7,
+      "lane": "D3"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "kankobele"
+}

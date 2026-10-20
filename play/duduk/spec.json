@@ -1,0 +1,401 @@
+{
+ "engine": "rhythm",
+ "variant": "duduk",
+ "params": {
+  "layout": "holes",
+  "mode": "follow",
+  "instrument": "duduk",
+  "root": 220,
+  "scale": [
+   0,
+   200,
+   300,
+   500,
+   700,
+   800,
+   1000,
+   1200
+  ],
+  "loops": 2,
+  "tolerance": 1.4,
+  "lanes": [
+   {
+    "name": "A",
+    "cents": 0,
+    "holes": "11111111",
+    "timbre": "reed",
+    "color": "#e8b45a",
+    "dur": 1.4
+   },
+   {
+    "name": "B",
+    "cents": 200,
+    "holes": "11111101",
+    "timbre": "reed",
+    "color": "#e08a4a",
+    "dur": 1.4
+   },
+   {
+    "name": "C",
+    "cents": 300,
+    "holes": "11111001",
+    "timbre": "reed",
+    "color": "#d65a4a",
+    "dur": 1.4
+   },
+   {
+    "name": "D",
+    "cents": 500,
+    "holes": "11110001",
+    "timbre": "reed",
+    "color": "#c8506e",
+    "dur": 1.4
+   },
+   {
+    "name": "E",
+    "cents": 700,
+    "holes": "11100001",
+    "timbre": "reed",
+    "color": "#a8609a",
+    "dur": 1.4
+   },
+   {
+    "name": "F",
+    "cents": 800,
+    "holes": "11000001",
+    "timbre": "reed",
+    "color": "#7a78c4",
+    "dur": 1.4
+   },
+   {
+    "name": "G",
+    "cents": 1000,
+    "holes": "10000001",
+    "timbre": "reed",
+    "color": "#5a9ac8",
+    "dur": 1.4
+   },
+   {
+    "name": "A'",
+    "cents": 1200,
+    "holes": "11111110",
+    "timbre": "reed",
+    "color": "#f0cf7a",
+    "dur": 1.4
+   }
+  ],
+  "songs": [
+   {
+    "name": "Slow steps down",
+    "bpm": 54,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 4,
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3,
+      "len": 2
+     },
+     {
+      "beat": 4,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": 1,
+      "len": 2
+     },
+     {
+      "beat": 8,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 10,
+      "lane": 1,
+      "len": 2
+     },
+     {
+      "beat": 12,
+      "lane": 0,
+      "len": 4
+     }
+    ]
+   },
+   {
+    "name": "Breath and sigh",
+    "bpm": 58,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0,
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 4,
+      "lane": 4,
+      "len": 4
+     },
+     {
+      "beat": 8,
+      "lane": 3,
+      "len": 2
+     },
+     {
+      "beat": 10,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 12,
+      "lane": 1,
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": 0,
+      "len": 2
+     }
+    ]
+   },
+   {
+    "name": "Rise to the high note",
+    "bpm": 60,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0,
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 4,
+      "lane": 4,
+      "len": 2
+     },
+     {
+      "beat": 6,
+      "lane": 5,
+      "len": 2
+     },
+     {
+      "beat": 8,
+      "lane": 7,
+      "len": 4
+     },
+     {
+      "beat": 12,
+      "lane": 5,
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": 4,
+      "len": 2
+     }
+    ]
+   },
+   {
+    "name": "Lament phrase (teaching figure)",
+    "bpm": 52,
+    "meter": 4,
+    "length": 32,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 4,
+      "len": 2
+     },
+     {
+      "beat": 2,
+      "lane": 5,
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": 2,
+      "len": 4
+     },
+     {
+      "beat": 8,
+      "lane": 3,
+      "len": 2
+     },
+     {
+      "beat": 10,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": 0,
+      "len": 4
+     },
+     {
+      "beat": 16,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 18,
+      "lane": 4,
+      "len": 2
+     },
+     {
+      "beat": 20,
+      "lane": 6,
+      "len": 2
+     },
+     {
+      "beat": 22,
+      "lane": 4,
+      "len": 2
+     },
+     {
+      "beat": 24,
+      "lane": 2,
+      "len": 2
+     },
+     {
+      "beat": 26,
+      "lane": 1,
+      "len": 2
+     },
+     {
+      "beat": 28,
+      "lane": 0,
+      "len": 4
+     }
+    ],
+    "id": "slow-lament",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Armenian slow song style",
+    "note": "Duduk melodies are often slow and sighing: long notes that swell, small turns on the pitch, and a quiet low drone held under the tune by a second player. This figure is a teaching phrase in that spirit, not a transcription of a particular song."
+   },
+   {
+    "name": "Dance-song figure (teaching figure)",
+    "bpm": 84,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 1,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 2,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 3,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 4,
+      "lane": 3,
+      "len": 1
+     },
+     {
+      "beat": 5,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 6,
+      "lane": 1,
+      "len": 1
+     },
+     {
+      "beat": 7,
+      "lane": 0,
+      "len": 1
+     },
+     {
+      "beat": 8,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 9,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 10,
+      "lane": 4,
+      "len": 1
+     },
+     {
+      "beat": 11,
+      "lane": 5,
+      "len": 1
+     },
+     {
+      "beat": 12,
+      "lane": 4,
+      "len": 2
+     },
+     {
+      "beat": 14,
+      "lane": 2,
+      "len": 1
+     },
+     {
+      "beat": 15,
+      "lane": 0,
+      "len": 1
+     }
+    ],
+    "id": "lively-figure",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Armenian lively song style",
+    "note": "Not every tune is a lament. Lively songs move in short even notes and small steps, with the same warm reed tone. This figure shows the quicker side of the instrument."
+   }
+  ],
+  "drone": "reed"
+ }
+}

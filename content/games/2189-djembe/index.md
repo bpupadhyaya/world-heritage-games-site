@@ -49,9 +49,9 @@ A Mande instrument from the Mali Empire region of West Africa, with its history 
 - [Balafon Gourd Xylophone](../../games/168-balafon-gourd-xylophone/index.md)
 - [Sega ravanne drum](../../games/199-sega-ravanne-drum/index.md)
 - [Chinchinero Drum Walk](../../games/1406-chinchinero-drum-walk/index.md)
+- [Kundu drum](../../games/6417-kundu-drum/index.md)
 - [Talking drum](../../games/33-talking-drum/index.md)
 - [Bozo Net Casting](../../games/169-bozo-net-casting/index.md)
-- [Calabash Water Drum](../../games/180-calabash-water-drum/index.md)
 
 ## Sources
 

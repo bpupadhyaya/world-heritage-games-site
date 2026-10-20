@@ -1,0 +1,323 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 110.0,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "begena",
+  "lanes": [
+   {
+    "name": "A2",
+    "id": "a2-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e8c070",
+    "cents": 0
+   },
+   {
+    "name": "B2",
+    "id": "b2-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e4b66a",
+    "cents": 200
+   },
+   {
+    "name": "D3",
+    "id": "d3-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e1ad64",
+    "cents": 500
+   },
+   {
+    "name": "E3",
+    "id": "e3-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#dda35e",
+    "cents": 700
+   },
+   {
+    "name": "G3",
+    "id": "g3-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#da9a58",
+    "cents": 1000
+   },
+   {
+    "name": "A3",
+    "id": "a3-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d69052",
+    "cents": 1200
+   },
+   {
+    "name": "B3",
+    "id": "b3-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d3874c",
+    "cents": 1400
+   },
+   {
+    "name": "D4",
+    "id": "d4-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#cf7d46",
+    "cents": 1700
+   },
+   {
+    "name": "E4",
+    "id": "e4-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#cc7440",
+    "cents": 1900
+   },
+   {
+    "name": "G4",
+    "id": "g4-9",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c86a3a",
+    "cents": 2200
+   }
+  ],
+  "songs": [
+   {
+    "id": "slow-rising-line",
+    "name": "Slow rising line",
+    "watch": true,
+    "kind": "figure",
+    "bpm": 72,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 6
+     },
+     {
+      "beat": 4,
+      "lane": 8
+     },
+     {
+      "beat": 5,
+      "lane": 9
+     },
+     {
+      "beat": 6,
+      "lane": 7
+     },
+     {
+      "beat": 7,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 9,
+      "lane": 2
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 8
+     },
+     {
+      "beat": 13,
+      "lane": 9
+     },
+     {
+      "beat": 14,
+      "lane": 7
+     },
+     {
+      "beat": 15,
+      "lane": 5
+     }
+    ],
+    "heritage": "A teaching phrase in the style of the tradition, written for this game"
+   },
+   {
+    "id": "pairs-low-to-high",
+    "name": "Pairs, low to high",
+    "watch": false,
+    "kind": "figure",
+    "bpm": 68,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 7,
+      "lane": 7
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 9,
+      "lane": 1
+     },
+     {
+      "beat": 10,
+      "lane": 2
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 13,
+      "lane": 5
+     },
+     {
+      "beat": 14,
+      "lane": 6
+     },
+     {
+      "beat": 15,
+      "lane": 7
+     }
+    ],
+    "heritage": "A teaching phrase in the style of the tradition, written for this game"
+   },
+   {
+    "id": "long-fall",
+    "name": "Long fall",
+    "watch": false,
+    "kind": "figure",
+    "bpm": 64,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 9
+     },
+     {
+      "beat": 1,
+      "lane": 8
+     },
+     {
+      "beat": 2,
+      "lane": 7
+     },
+     {
+      "beat": 3,
+      "lane": 6
+     },
+     {
+      "beat": 4,
+      "lane": 5
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 2
+     },
+     {
+      "beat": 8,
+      "lane": 9
+     },
+     {
+      "beat": 9,
+      "lane": 8
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 11,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 5
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     }
+    ],
+    "heritage": "A teaching phrase in the style of the tradition, written for this game"
+   }
+  ]
+ }
+}

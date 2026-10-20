@@ -1,0 +1,13 @@
+{
+ "slug": "jaki-ed-mat-weaving",
+ "title": "Jaki-ed fine mat",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

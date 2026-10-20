@@ -1,0 +1,21 @@
+{
+ "title": "Nile Felucca",
+ "native": "فلوكة",
+ "countries": [
+  "Egypt"
+ ],
+ "summary": "The triangular sail of the river boat: the wind shifts along the bends, and you keep the sail trimmed to the gold marker as it moves.",
+ "howToPlay": [
+  "Hold the left or the right side to ease or haul the sail.",
+  "Keep the white dot on the gold marker: it follows the wind as it shifts.",
+  "Stay on it as you pass the buoys."
+ ],
+ "rules": [
+  "Speed comes from how well the sail matches the wind.",
+  "The river current gives every boat a small push downstream.",
+  "Buoys are cleared when your trim is right as you reach them."
+ ],
+ "heritageNote": "Feluccas have carried goods and passengers up and down the Nile for centuries; their lateen sail lets them sail upstream into the prevailing wind.",
+ "alt": [],
+ "credits": []
+}

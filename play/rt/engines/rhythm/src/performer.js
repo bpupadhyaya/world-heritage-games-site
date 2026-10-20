@@ -57,7 +57,7 @@ function person(ctx, p, A, breathe, bot, room) {
   ctx.strokeStyle = rgba(lighter(shirt, 0.6), 0.4); ctx.lineWidth = 2; ctx.stroke();
   ctx.fillStyle = trim; ctx.fillRect(cx - 3, t0 + shw * 0.08, 6, (t1 - t0) * 0.7);
   ctx.fillStyle = rgba(trim, 0.7); for (let k = 0; k < 6; k++) { circ(ctx, cx, t0 + shw * 0.18 + k * shw * 0.17, 4); ctx.fill(); }
-  if (bot || room < 96) return;
+  if (bot || room < 96 || p.noHead) return;
   const hr = clamp(shw * 0.2, 24, 60), hy = sy - shw * 0.2 - hr * 1.15 + breathe * 0.4;
   ctx.fillStyle = vgrad(ctx, hy, sy, [[0, lighter(skin, 0.05)], [1, darker(skin, 0.4)]]); rrect(ctx, cx - hr * 0.42, hy, hr * 0.84, sy - hy, hr * 0.3); ctx.fill();
   ctx.fillStyle = 'rgba(0,0,0,0.25)'; ell(ctx, cx + 4, hy + hr * 1.1, hr * 1.05, hr * 1.2); ctx.fill();
@@ -140,7 +140,7 @@ export function createPlayer(cfg = {}) {
   const wristOf = (k, hh, s) => {
     const tool = toolOf(k);
     if (tool === 'pestle') { const d = cfg.pestleDir(k), g = st.geo ? st.geo.grip : 200; return { x: hh.x + d.x * g, y: hh.y + d.y * g }; }
-    const len = tool === 'stick' ? L.toolLen : 0, dx = hh.x - s.x, dy = hh.y - s.y, dd = Math.hypot(dx, dy) || 1;
+    const len = (tool === 'stick' || tool === 'spoon') ? L.toolLen : 0, dx = hh.x - s.x, dy = hh.y - s.y, dd = Math.hypot(dx, dy) || 1;
     return { x: hh.x - (dx / dd) * len, y: hh.y - (dy / dd) * len };
   };
 
@@ -163,7 +163,7 @@ export function createPlayer(cfg = {}) {
     if (cfg.shoulderPos) sh = cfg.shoulderPos(G, spots);
     st.sh = sh;
     if (cfg.twin) { const pw = cfg.personW ? cfg.personW(G) : clamp(A.w * 0.34, 110, 260); st.people = sh.map((s, k) => ({ cx: s.x, sy: s.y, shw: pw, skin: k ? skin2 : skin, shirt: k ? (cfg.shirt2 ?? mix(shirt, '#ffffff', 0.2)) : shirt, trim, hw: cfg.headwear ?? 'cap', hc: cfg.hat ?? trim })); }
-    else st.people = [{ cx: side === 'left' || side === 'right' ? sxs : cx, cy: sy, sy, shw, skin, shirt, trim, hw: cfg.headwear ?? 'cap', hc: cfg.hat ?? trim }];
+    else st.people = [{ cx: side === 'left' || side === 'right' ? sxs : cx, cy: sy, sy, shw, skin, shirt, trim, noHead: cfg.noHead, hw: cfg.headwear ?? 'cap', hc: cfg.hat ?? trim }];
     // which hand goes where for lane i: a list of { h, x, y } (a combined stroke may use both hands)
     const aim = (i) => {
       const sp = spots[i];
@@ -194,7 +194,7 @@ export function createPlayer(cfg = {}) {
       else if (hh.lane >= 0 && sinceHit < 0.5 && hh.hx != null) { tx = hh.hx; ty = hh.hy; raise = clamp(sinceHit / 0.22, 0, 1) * 0.85; }
       else if (cfg.restOf) { const r = cfg.restOf(k, spots, G); tx = r.x; ty = r.y; raise = r.raise ?? 0.2; }
       else { tx = cx + (k === 0 ? -1 : 1) * Math.min(bw * 0.18, 70); ty = bb.y0 + bh * 0.46 + Math.sin(rt.anim * 1.7 + k * 2.1) * 4; raise = 0.55; if (nHands === 1) tx = cx; }
-      const tool = toolOf(k), lift = tool === 'stick' ? L.toolLen * 0.9 + 14 : tool === 'pestle' ? (cfg.lift ?? 90) : 30;
+      const tool = toolOf(k), lift = (tool === 'stick' || tool === 'spoon') ? L.toolLen * 0.9 + 14 : tool === 'pestle' ? (cfg.lift ?? 90) : 30;
       hh.tx = tx; hh.ty = ty - raise * lift; hh.raise = raise;
       if (!hh.init) { hh.x = hh.tx; hh.y = hh.ty; hh.init = true; }
       const e = clamp(dt * 24, 0, 1);
@@ -219,6 +219,7 @@ export function createPlayer(cfg = {}) {
   st.back = (ctx, F, rt) => {
     const G = st.geo;
     if (!G) return;
+    if (cfg.noBody) return;   // 1.15.0: figure-free stages show only the arms, hands and tools
     const { A } = G, bot = G.side === 'bottom';
     ctx.save();
     ctx.beginPath(); ctx.rect(A.x, A.y, A.w, A.h); ctx.clip();
@@ -256,7 +257,7 @@ export function createPlayer(cfg = {}) {
       const s = hh.shoulder, e = hh.elbow, w = hh.wrist, tool = toolOf(k);
       const person_ = cfg.twin ? st.people[Math.min(k, st.people.length - 1)] : st.people[0];
       const sleeveCol = person_.shirt, armSkin = person_.skin;
-      const fw = G.armL * 0.125, aw = G.armL * 0.16, cuff = cfg.sleeve === 'long';
+      const sl = cfg.slim ?? 1, fw = G.armL * 0.125 * sl, aw = G.armL * 0.16 * sl, cuff = cfg.sleeve === 'long';
       capsule(ctx, s.x, s.y, e.x, e.y, aw, sleeveCol);
       ctx.fillStyle = sleeveCol; circ(ctx, s.x, s.y, aw * 0.62); ctx.fill();
       capsule(ctx, e.x, e.y, w.x, w.y, fw, cuff ? sleeveCol : armSkin);
@@ -269,7 +270,7 @@ export function createPlayer(cfg = {}) {
         capsule(ctx, e.x - (dx / Ld) * 4, e.y - (dy / Ld) * 4, e.x + (dx / Ld) * Ld * 0.22, e.y + (dy / Ld) * Ld * 0.22, fw * 1.12, sleeveCol, false);
       }
       const ang = Math.atan2(hh.y - s.y, hh.x - s.x);
-      if (tool === 'stick') {
+      if (tool === 'stick' || tool === 'spoon') {
         ctx.save(); ctx.lineCap = 'round';
         const w2 = L.toolW, x0 = w.x, y0 = w.y, x1 = hh.x, y1 = hh.y;
         ctx.strokeStyle = 'rgba(0,0,0,0.3)'; ctx.lineWidth = w2; ctx.beginPath(); ctx.moveTo(x0 + 5, y0 + 8); ctx.lineTo(x1 + 5, y1 + 8); ctx.stroke();
@@ -277,8 +278,18 @@ export function createPlayer(cfg = {}) {
         ctx.strokeStyle = cfg.wood ?? '#e6c58e'; ctx.lineWidth = w2 * 0.6; ctx.beginPath(); ctx.moveTo(x0 - 1, y0 - 1); ctx.lineTo(x1 - 1, y1 - 1); ctx.stroke();
         ctx.strokeStyle = lighter(cfg.wood ?? '#e6c58e', 0.55); ctx.lineWidth = w2 * 0.2; ctx.beginPath(); ctx.moveTo(x0 - 2, y0 - 2); ctx.lineTo(x1 - 2, y1 - 2); ctx.stroke();
         const hr = w2 * (cfg.headR ?? 1.0), hc = cfg.head ?? '#c9955a';
+        if (tool === 'spoon') {   // a steel spoon: a slim handle ending in an oval bowl whose long axis follows the handle
+          const sa = Math.atan2(y1 - y0, x1 - x0);
+          ctx.save(); ctx.translate(x1, y1); ctx.rotate(sa);
+          ctx.fillStyle = 'rgba(0,0,0,0.3)'; ell(ctx, 5, 7, hr * 1.5, hr * 1.0); ctx.fill();
+          ctx.fillStyle = rgrad(ctx, hr * 0.2, 0, 0, hr * 1.6, [[0, '#f4f6fa'], [0.55, hc], [1, darker(hc, 0.5)]], -hr * 0.3, -hr * 0.4); ell(ctx, hr * 0.3, 0, hr * 1.5, hr * 1.0); ctx.fill();
+          ctx.strokeStyle = 'rgba(60,66,80,0.7)'; ctx.lineWidth = 1.5; ctx.stroke();
+          ctx.fillStyle = 'rgba(255,255,255,0.55)'; ell(ctx, hr * 0.1, -hr * 0.3, hr * 0.8, hr * 0.22); ctx.fill();
+          ctx.restore();
+        } else {
         ctx.fillStyle = 'rgba(0,0,0,0.3)'; circ(ctx, x1 + 4, y1 + 7, hr); ctx.fill();
         ctx.fillStyle = rgrad(ctx, x1, y1, 0, hr * 1.1, [[0, lighter(hc, 0.5)], [0.6, hc], [1, darker(hc, 0.45)]], x1 - hr * 0.35, y1 - hr * 0.35); circ(ctx, x1, y1, hr); ctx.fill();
+        }
         ctx.restore();
         drawFist(ctx, w.x, w.y, fw * 0.62, ang, armSkin);
       } else if (tool === 'pestle') {

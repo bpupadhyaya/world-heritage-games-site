@@ -1,0 +1,13 @@
+{
+ "slug": "kakaki-trumpet",
+ "title": "Kakaki",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

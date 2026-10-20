@@ -1,16 +1,16 @@
 ---
 title: "Mexico"
-description: "11 traditions from Mexico."
+description: "16 traditions from Mexico."
 path: "/countries/mexico/"
-count: 11
+count: 16
 ---
 # Mexico
 
-11 traditions from Mexico.
+16 traditions from Mexico.
 
 
 
-11 entries.
+16 entries.
 
 - [Alebrije painting](../../games/92-alebrije-painting/index.md): Mexico; Crafts and making; Living Traditions
 - [Charro lasso roping](../../games/60-charro-lasso-roping/index.md): Mexico; Dexterity and skill games; Age of Contact and Craft
@@ -21,5 +21,10 @@ count: 11
 - [Pinata swing](../../games/61-pinata-swing/index.md): Mexico, Paraguay; Dexterity and skill games; Modern Heritage
 - [Spinning top](../../games/678-spinning-top/index.md): Dominican Republic, Jamaica; Dexterity and skill games; Modern Heritage
 - [Talavera tile painting](../../games/429-talavera-tile-painting/index.md): Mexico; Crafts and making; Living Traditions
+- [Barro negro pottery](../../games/10508-barro-negro-pottery/index.md): Mexico; Crafts and making; Living Traditions
 - [Cup-and-ball](../../games/933-cup-and-ball/index.md): Mexico; Dexterity and skill games; Modern Heritage
+- [Green glazed pottery of Atzompa](../../games/10510-green-glazed-pottery-of-atzompa/index.md): Mexico; Crafts and making; Living Traditions
+- [Guitarron mexicano](../../games/10261-guitarron-mexicano/index.md): Mexico; Musical instruments; Living Traditions
+- [Mata Ortiz pottery](../../games/10511-mata-ortiz-pottery/index.md): Mexico; Crafts and making; Living Traditions
 - [Mixtec ball game](../../games/936-mixtec-ball-game/index.md): Mexico; Street and playground games; Modern Heritage
+- [Pottery of Metepec](../../games/10512-pottery-of-metepec/index.md): Mexico; Crafts and making; Living Traditions

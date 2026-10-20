@@ -42,10 +42,10 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Krobo Powder-Glass Beads](../../games/173-krobo-powder-glass-beads/index.md)
 - [Kissi Penny Forging](../../games/1314-kissi-penny-forging/index.md)
+- [Kakaki trumpet](../../games/6917-kakaki-trumpet/index.md)
+- [Ghanaian stool carving](../../games/7269-ghanaian-stool-carving/index.md)
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
-- [Swahili carved door](../../games/90-swahili-carved-door/index.md)
 - [Thai fruit and vegetable carving](../../games/114-thai-fruit-and-vegetable-carving/index.md)
-- [Glassblowing](../../games/121-glassblowing/index.md)
 
 ## Sources
 

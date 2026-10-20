@@ -1,0 +1,27 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "scene": "marginea",
+  "profile": "margjar",
+  "rows": 12,
+  "bands": 5,
+  "clay": "#403638",
+  "glazes": [
+   {
+    "name": "Smoke black",
+    "color": "#1d1b1c"
+   },
+   {
+    "name": "Burnished grey",
+    "color": "#59565a"
+   },
+   {
+    "name": "Ochre slip",
+    "color": "#a8793e"
+   }
+  ],
+  "variation": 0.05,
+  "steps": 12
+ }
+}

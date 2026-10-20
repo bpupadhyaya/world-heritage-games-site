@@ -1,0 +1,158 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "maracas",
+  "lanes": [
+   {
+    "name": "Left",
+    "hz": 520,
+    "timbre": "clap",
+    "color": "#f0b84a"
+   },
+   {
+    "name": "Right",
+    "hz": 640,
+    "timbre": "clap",
+    "color": "#e8603a"
+   },
+   {
+    "name": "Both",
+    "hz": 580,
+    "timbre": "clap",
+    "color": "#5ec2d6"
+   }
+  ],
+  "songs": [
+   {
+    "id": "maracas-pulse",
+    "name": "Pair pulse, 4 beats",
+    "bpm": 108,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Maracas, Cuba and Latin America",
+    "note": "A teaching pattern: the hands answer each other, and both gourds close the bar.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Left"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Right"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Left"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Right"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Both"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Left"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Right"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Left"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Right"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Both"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "maracas-quick",
+    "name": "Quick alternation",
+    "bpm": 120,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Maracas, Latin America",
+    "note": "Fast hand-to-hand strokes with a double shake to finish.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Left"
+     },
+     {
+      "beat": 0.5,
+      "lane": "Right"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Left"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Right"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Left"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Right"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Left"
+     },
+     {
+      "beat": 3.5,
+      "lane": "Both"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Left"
+     },
+     {
+      "beat": 4.5,
+      "lane": "Right"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Left"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Right"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Left"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Right"
+     },
+     {
+      "beat": 7.5,
+      "lane": "Both"
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "maracas"
+}

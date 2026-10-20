@@ -1,0 +1,28 @@
+{
+ "title": "Ranat",
+ "native": "ระนาด / Ranat",
+ "alt": [
+  "Thai boat xylophone",
+  "Ranat ek family"
+ ],
+ "summary": "The ranat is the xylophone of Thai classical music: wooden bars strung on cords across a curved, lacquered hull that acts as the resonator, played with a mallet in each hand. Its seven steps to the octave are nearly equal.",
+ "howToPlay": [
+  "Ten bars lie across the hull in order of pitch: the longest, lowest bar at the bottom.",
+  "Strike each bar as its note lands on it.",
+  "Octave pairs and quick repeated notes are the heart of the style, so listen for the rhythm of the pairs.",
+  "Start with the running figure, then try the octave doubling and the rolled repeats."
+ ],
+ "rules": [
+  "The scale divides the octave into seven almost equal steps (about 171 cents each), so melodies sound unlike a European major or minor.",
+  "Ten bars cover seven steps and three more of the next octave, named 1 to 7 and 1' to 3'.",
+  "A stroke on the beat is perfect, a near one is good, and extra strokes cost points.",
+  "Each figure plays twice."
+ ],
+ "heritageNote": "The ranat leads the melody in the Thai classical ensemble that accompanies dance-drama and shadow-play. Makers tune the bars by adding or scraping off a lump of lead and beeswax under each one.",
+ "countries": [
+  "Thailand"
+ ],
+ "credits": [
+  "Tradition: Thai classical ranat; figures written for this game"
+ ]
+}

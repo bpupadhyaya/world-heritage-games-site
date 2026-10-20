@@ -1,0 +1,148 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "hammock",
+    "cols": 7,
+    "rows": 7,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Turquoise",
+        "color": "#1fb5b0"
+      },
+      {
+        "name": "Coral",
+        "color": "#f0675a"
+      },
+      {
+        "name": "Sun yellow",
+        "color": "#f6c445"
+      },
+      {
+        "name": "Leaf lime",
+        "color": "#8ecb3f"
+      },
+      {
+        "name": "Cotton white",
+        "color": "#fbf6e6"
+      }
+    ],
+    "background": "#f2ead2",
+    "grid": "#9fb8a8",
+    "motifs": [
+      "stripe-h",
+      "dot",
+      "diamond",
+      "wave",
+      "zigzag",
+      "ring"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Sunrise stripes",
+        "rows": [
+          "a.b.b.a",
+          ".c.d.c.",
+          "e.a.a.e",
+          ".b.c.b.",
+          "e.a.a.e",
+          ".c.d.c.",
+          "a.b.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 2
+          },
+          "d": {
+            "m": 3,
+            "c": 4
+          },
+          "e": {
+            "m": 4,
+            "c": 3
+          }
+        }
+      },
+      {
+        "name": "Coral waves",
+        "rows": [
+          "c.c.c.c",
+          ".a.b.a.",
+          "d.e.e.d",
+          ".b.a.b.",
+          "d.e.e.d",
+          ".a.b.a.",
+          "c.c.c.c"
+        ],
+        "legend": {
+          "a": {
+            "m": 3,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 0,
+            "c": 2
+          },
+          "d": {
+            "m": 5,
+            "c": 4
+          },
+          "e": {
+            "m": 4,
+            "c": 3
+          }
+        }
+      },
+      {
+        "name": "Lime diamonds",
+        "rows": [
+          "b.b.b.b",
+          ".a.c.a.",
+          "c.d.d.c",
+          ".e.a.e.",
+          "c.d.d.c",
+          ".a.c.a.",
+          "b.b.b.b"
+        ],
+        "legend": {
+          "a": {
+            "m": 2,
+            "c": 3
+          },
+          "b": {
+            "m": 0,
+            "c": 0
+          },
+          "c": {
+            "m": 1,
+            "c": 2
+          },
+          "d": {
+            "m": 5,
+            "c": 1
+          },
+          "e": {
+            "m": 3,
+            "c": 4
+          }
+        }
+      }
+    ]
+  }
+}

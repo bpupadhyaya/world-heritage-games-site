@@ -1,0 +1,13 @@
+{
+ "slug": "lali",
+ "title": "Lali (log drum pair)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,234 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 98.0,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "tromba-marina",
+  "lanes": [
+   {
+    "name": "G2 open",
+    "cents": 0,
+    "id": "g2 open-0",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#e8c86e",
+    "string": 0
+   },
+   {
+    "name": "G3",
+    "cents": 1200,
+    "id": "g3-1",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#dac882",
+    "string": 0
+   },
+   {
+    "name": "D4",
+    "cents": 1902,
+    "id": "d4-2",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#ccc896",
+    "string": 0
+   },
+   {
+    "name": "G4",
+    "cents": 2400,
+    "id": "g4-3",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#bfc8aa",
+    "string": 0
+   },
+   {
+    "name": "B4",
+    "cents": 2786,
+    "id": "b4-4",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#b1c8be",
+    "string": 0
+   },
+   {
+    "name": "D5",
+    "cents": 3102,
+    "id": "d5-5",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#a3c8d2",
+    "string": 0
+   },
+   {
+    "name": "G5",
+    "cents": 3600,
+    "id": "g5-6",
+    "timbre": "bow",
+    "dur": 1.0,
+    "color": "#96c8e6",
+    "string": 0
+   }
+  ],
+  "songs": [
+   {
+    "id": "fanfare",
+    "name": "Fanfare",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A trumpet-like call on the natural notes",
+    "bpm": 84,
+    "meter": 8,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 1
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 8,
+      "lane": 1
+     },
+     {
+      "beat": 10,
+      "lane": 0
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 5
+     },
+     {
+      "beat": 15,
+      "lane": 6
+     }
+    ]
+   },
+   {
+    "id": "climb",
+    "name": "Climb",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Up the harmonics and back",
+    "bpm": 76,
+    "meter": 8,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 1
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 14,
+      "lane": 4
+     }
+    ]
+   },
+   {
+    "id": "call-back",
+    "name": "Call back",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A call, then its echo",
+    "bpm": 90,
+    "meter": 8,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     }
+    ]
+   }
+  ]
+ }
+}

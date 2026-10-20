@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with P"
-description: "76 entries beginning with P."
+description: "86 entries beginning with P."
 path: "/a-z/P/"
 ---
 # Entries beginning with P
@@ -9,6 +9,7 @@ path: "/a-z/P/"
 - [Pacu jawi](../../games/1354-pacu-jawi/index.md): Indonesia; Racing; Age of Contact and Craft
 - [Paduk](../../games/990-paduk/index.md): North Korea; Board and table games; Classical Worlds
 - [Pai gow](../../games/771-pai-gow/index.md): China; Board and table games; Crossroads and Golden Ages
+- [Paithani](../../games/5759-paithani/index.md): India; Crafts and making; Living Traditions
 - [Pakistani truck art](../../games/116-pakistani-truck-art/index.md): Pakistan, India; Crafts and making; Living Traditions
 - [Palant](../../games/1031-palant/index.md): Poland; Street and playground games; Deep Past and First Games
 - [Palauan storyboard carving](../../games/1355-palauan-storyboard-carving/index.md): Palau; Crafts and making; Living Traditions
@@ -24,6 +25,7 @@ path: "/a-z/P/"
 - [Paper Fortune Teller](../../games/465-paper-fortune-teller/index.md): United Kingdom, United States; Crafts and making; Living Traditions
 - [Paper Plane Flight Contest](../../games/466-paper-plane-flight-contest/index.md): Japan; Crafts and making; Living Traditions
 - [Paper Soccer](../../games/464-paper-soccer/index.md): Poland, Germany; Crafts and making; Living Traditions
+- [Papierscheppen](../../games/19945-papierscheppen/index.md): Netherlands; Crafts and making; Living Traditions
 - [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md): Paraguay; Musical instruments; Classical Worlds
 - [Parchís](../../games/1098-parchis/index.md): Spain; Board and table games; River Valleys and First Cities
 - [Partner-Carry Obstacle Race](../../games/406-partner-carry-obstacle-race/index.md): Finland; Racing; Age of Contact and Craft
@@ -34,7 +36,9 @@ path: "/a-z/P/"
 - [Payada](../../games/1426-payada/index.md): Argentina, Uruguay; Wrestling and martial sports; Classical Worlds
 - [Pearl diving](../../games/6769-pearl-diving/index.md): Bahrain; Other traditions; Living Traditions
 - [Pebbles](../../games/874-pebbles/index.md): Laos; Dexterity and skill games; Deep Past and First Games
+- [Peg loom](../../games/3434-peg-loom/index.md): Worldwide; Crafts and making; Living Traditions
 - [Peg solitaire](../../games/4849-peg-solitaire/index.md): France; Puzzles and mind games; Modern Heritage
+- [Peg Wooden Doll](../../games/8695-peg-wooden-doll/index.md): Italy; Toys; Modern Heritage
 - [Pencak silat](../../games/329-pencak-silat/index.md): Indonesia, Malaysia; Wrestling and martial sports; Classical Worlds
 - [Penghu Stone Weir Tide Puzzle](../../games/1479-penghu-stone-weir-tide-puzzle/index.md): Taiwan; Crafts and making; Living Traditions
 - [Peralikatuma](../../games/287-peralikatuma/index.md): Sri Lanka; Board and table games; Crossroads and Golden Ages
@@ -57,8 +61,10 @@ path: "/a-z/P/"
 - [Pilolo](../../games/750-pilolo/index.md): Ghana; Street and playground games; Deep Past and First Games
 - [Pinata swing](../../games/61-pinata-swing/index.md): Mexico, Paraguay; Dexterity and skill games; Modern Heritage
 - [Pinisi](../../games/327-pinisi/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
+- [Pipa](../../games/335-pipa/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Pirogue coastal canoe race](../../games/56-pirogue-coastal-canoe-race/index.md): Worldwide; Racing; Age of Contact and Craft
 - [Pirot Kilim Weaver](../../games/1361-pirot-kilim-weaver/index.md): Serbia; Crafts and making; Living Traditions
+- [Pit loom](../../games/6601-pit-loom/index.md): Worldwide; Crafts and making; Living Traditions
 - [Pitch and toss](../../games/822-pitch-and-toss/index.md): Ireland; Dexterity and skill games; Modern Heritage
 - [Pitch-pot](../../games/2-pitch-pot/index.md): China, South Korea; Dexterity and skill games; Modern Heritage
 - [Pitthu Garam](../../games/1004-pitthu-garam/index.md): Pakistan; Street and playground games; Modern Heritage
@@ -68,12 +74,14 @@ path: "/a-z/P/"
 - [Pole-and-line tuna fishing from a masdhoni](../../games/1334-pole-and-line-tuna-fishing-from-a-masdhoni/index.md): Maldives; Dexterity and skill games; Modern Heritage
 - [Polish draughts](../../games/1034-polish-draughts/index.md): Poland; Board and table games; Crossroads and Golden Ages
 - [Pollera and Tembleques](../../games/1480-pollera-and-tembleques/index.md): Panama; Crafts and making; Living Traditions
+- [Pomaire pottery](../../games/6270-pomaire-pottery/index.md): Chile; Crafts and making; Living Traditions
 - [Poo](../../games/884-poo/index.md): Liberia; Board and table games; Deep Past and First Games
 - [Portolan Chart Navigator](../../games/503-portolan-chart-navigator/index.md): Italy, Spain; Puzzles and mind games; Modern Heritage
 - [Portuguese Guitar](../../games/1457-portuguese-guitar/index.md): Portugal; Musical instruments; Classical Worlds
 - [Portuguese staff fighting](../../games/1037-portuguese-staff-fighting/index.md): Portugal; Street and playground games; Classical Worlds
 - [Potta](../../games/579-potta/index.md): Barbados; Board and table games; River Valleys and First Cities
 - [Pottery](../../games/6593-pottery/index.md): Worldwide; Crafts and making; Living Traditions
+- [Pottery of Metepec](../../games/10512-pottery-of-metepec/index.md): Mexico; Crafts and making; Living Traditions
 - [Provencal boules](../../games/939-provencal-boules/index.md): Monaco; Street and playground games; Classical Worlds
 - [Pub darts](../../games/1182-pub-darts/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
 - [Pub dominoes](../../games/1183-pub-dominoes/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
@@ -81,3 +89,5 @@ path: "/a-z/P/"
 - [Puluc](../../games/757-puluc/index.md): Guatemala, Belize; Board and table games; Crossroads and Golden Ages
 - [Pupusa Maker](../../games/1482-pupusa-maker/index.md): El Salvador; Crafts and making; Living Traditions
 - [Putu](../../games/609-putu/index.md): Burkina Faso; Street and playground games; Modern Heritage
+- [Pyeongyeong](../../games/11700-pyeongyeong/index.md): South Korea; Musical instruments; Living Traditions
+- [Pysanka](../../games/13251-pysanka/index.md): Ukraine; Crafts and making; Living Traditions

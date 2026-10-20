@@ -1,0 +1,29 @@
+{
+  "title": "Aranmula metal mirror",
+  "native": "ആറന്മുള കണ്ണാടി",
+  "alt": [
+    "Aranmula kannadi",
+    "Aranmula metal mirror"
+  ],
+  "summary": "A cast bronze disc is ground and polished by hand until its bare metal face gives a clear reflection, with no glass or silvering. The craft comes from a single village in Kerala, India, and the exact alloy mix is a closely held family skill.",
+  "howToPlay": [
+    "Look at the master's sample: it shows the tone of metal you are aiming for.",
+    "Slide the alloy until your molten metal matches that tone, then press Cast.",
+    "Rub the cooled disc with the coarsest grit first, then change to a finer one, step by step.",
+    "When the face shines like a mirror, press Check to see your stars."
+  ],
+  "rules": [
+    "Your score is one quarter alloy match and three quarters how much of the face is polished to a mirror.",
+    "A poor alloy leaves tiny pits in the cast that polishing can never remove.",
+    "Each grit only cuts while the surface is close to its own roughness, so you must work from coarse to fine.",
+    "Going back to a coarse grit on a smooth face scratches it again, and only a finer grit takes the scratches out.",
+    "Tilt the disc with the pointer to see the room reflected in a well polished face."
+  ],
+  "heritageNote": "Aranmula mirrors are made in a village in Kerala, India, from a bronze alloy that is cast in a clay mould and polished by hand through finer and finer grits. The craft is protected as a regional product and is kept alive by a small number of families.",
+  "countries": [
+    "India"
+  ],
+  "credits": [
+    "Photo: Prasanth Prakash, CC BY-SA 4.0, via Wikimedia Commons"
+  ]
+}

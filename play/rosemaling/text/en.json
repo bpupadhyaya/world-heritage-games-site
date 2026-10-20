@@ -1,0 +1,26 @@
+{
+ "title": "Rosemaling",
+ "native": "Rosemaling",
+ "countries": [
+  "Norway"
+ ],
+ "summary": "Rosemaling is the decorative painting of Norway, in which scrolls, leaves and flowers are brushed in a few quick strokes onto bowls, boxes, chests and walls. Here you decorate a wooden bowl, laying a rosette, C-scrolls and leaves over a deep blue-green ground.",
+ "howToPlay": [
+  "Study the finished bowl in the frame above the workbench.",
+  "Dip the brush in a pot of colour, then press and drag along the lit guide lines. A slow, steady pull lays a fat stroke that thins as the paint runs out.",
+  "Dip again whenever the paint is low; the Mirror button repeats your strokes on the other half of the bowl.",
+  "Press Next for the cream highlights, then Check to see how closely your painting follows the pattern."
+ ],
+ "rules": [
+  "Each stroke is judged on how closely it follows the guide line and whether it is in the right colour.",
+  "Shapes such as the rosette petals are judged on how much of each holds the right colour.",
+  "The bowl pattern is symmetric, so both halves are compared for evenness.",
+  "Paint outside the guide counts against you; Undo takes back the last stroke.",
+  "The bowl is painted in two steps: the scrolls, rosette and leaves first, then the cream highlights."
+ ],
+ "heritageNote": "Rosemaling developed in the valleys of Norway from the 1700s, with regional styles such as Telemark, Hallingdal and Rogaland. Painters used a flat brush loaded with colour on one side so a single pull swells and thins, and the craft is kept alive today by painters and museums.",
+ "alt": [
+  "Norwegian decorative painting"
+ ],
+ "credits": []
+}

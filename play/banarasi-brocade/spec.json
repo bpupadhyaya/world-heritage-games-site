@@ -1,0 +1,174 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "banarasi",
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-x",
+    "palette": [
+      {
+        "name": "Zari gold",
+        "color": "#e2b04a"
+      },
+      {
+        "name": "Silver zari",
+        "color": "#d6dae0"
+      },
+      {
+        "name": "Rani pink",
+        "color": "#c2306a"
+      },
+      {
+        "name": "Bottle green",
+        "color": "#1f6b4a"
+      },
+      {
+        "name": "Ivory silk",
+        "color": "#f1e6cc"
+      }
+    ],
+    "background": "#4c0d27",
+    "grid": "#b08060",
+    "motifs": [
+      "kalka",
+      "flower",
+      "vine",
+      "dot",
+      "diamond",
+      "leaf"
+    ],
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "designs": [
+      {
+        "name": "Paisley and flower trellis",
+        "rows": [
+          "d...a...d",
+          ".f.cbc.f.",
+          "..h.e.h..",
+          "d..gag..d",
+          "..e.b.e..",
+          ".f.c.c.f.",
+          "..h.a.h..",
+          "d...g...d",
+          "d.d.e.d.d"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 3
+          },
+          "d": {
+            "m": 3,
+            "c": 4
+          },
+          "e": {
+            "m": 4,
+            "c": 2
+          },
+          "f": {
+            "m": 5,
+            "c": 3
+          },
+          "g": {
+            "m": 0,
+            "c": 1
+          },
+          "h": {
+            "m": 1,
+            "c": 2
+          }
+        }
+      },
+      {
+        "name": "Flower jaal",
+        "rows": [
+          "d.d.d.d.d",
+          ".a.b.b.a.",
+          "c.e.c.e.c",
+          ".b.a.a.b.",
+          "f.c.f.c.f",
+          ".b.a.a.b.",
+          "c.e.c.e.c",
+          ".a.b.b.a.",
+          "d.d.d.d.d"
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 0
+          },
+          "b": {
+            "m": 5,
+            "c": 3
+          },
+          "c": {
+            "m": 4,
+            "c": 1
+          },
+          "d": {
+            "m": 3,
+            "c": 4
+          },
+          "e": {
+            "m": 0,
+            "c": 2
+          },
+          "f": {
+            "m": 2,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Kalka and vine border",
+        "rows": [
+          "a.b.a.b.a",
+          "c.d.c.d.c",
+          ".e.f.f.e.",
+          "b.a.b.a.b",
+          ".f.e.e.f.",
+          "b.a.b.a.b",
+          ".e.f.f.e.",
+          "c.d.c.d.c",
+          "a.b.a.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 0,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 3
+          },
+          "d": {
+            "m": 3,
+            "c": 0
+          },
+          "e": {
+            "m": 1,
+            "c": 2
+          },
+          "f": {
+            "m": 4,
+            "c": 4
+          }
+        }
+      }
+    ]
+  }
+}

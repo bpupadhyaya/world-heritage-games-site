@@ -1,0 +1,49 @@
+{
+ "engine": "tempo-race",
+ "variant": "mokoro-polling",
+ "players": "1",
+ "params": {
+  "craft": {
+   "id": "mokoro",
+   "view": "map"
+  },
+  "vehicle": {
+   "kind": "paddle",
+   "topSpeed": 4.8
+  },
+  "rhythm": {
+   "bpm": 64,
+   "window": 0.1
+  },
+  "course": {
+   "length": 420,
+   "lanes": 4,
+   "shape": "straight",
+   "terrain": "water",
+   "scenery": "none",
+   "current": 0.2,
+   "obstacles": [
+    {
+     "at": 200,
+     "kind": "log"
+    }
+   ],
+   "rough": [
+    {
+     "from": 260,
+     "to": 340
+    }
+   ]
+  },
+  "opponents": {
+   "count": 3,
+   "skill": 0.88,
+   "spread": 0.025
+  },
+  "rounds": 1,
+  "labels": {
+   "left": "Left side",
+   "right": "Right side"
+  }
+ }
+}

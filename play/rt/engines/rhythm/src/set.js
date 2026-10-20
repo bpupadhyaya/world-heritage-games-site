@@ -221,6 +221,101 @@ export function meadow(ctx, A, base, o = {}) {
   ctx.restore();
 }
 
+
+// batik cloth (1.15.0): a deep indigo ground printed with a kawung lattice of four-petal ovals in cream wax-resist lines, a darker border
+// band top and bottom and a faint cloth weave (gender, the Javanese metallophone).
+export function batik(ctx, A, base, accent, o = {}) {
+  const { x, y, w, h } = A, s = clamp(Math.min(w, h) / 6.5, 58, 112), seed = o.seed ?? 6;
+  ctx.save(); ctx.beginPath(); ctx.rect(x, y, w, h); ctx.clip();
+  ctx.fillStyle = vgrad(ctx, y, y + h, [[0, lighter(base, 0.08)], [0.5, base], [1, darker(base, 0.4)]]); ctx.fillRect(x, y, w, h);
+  const cream = '#eadfbf', ac = accent ?? '#c8903c';
+  for (let gy = -1; gy * s * 0.5 < h + s; gy++) for (let gx = -1; gx * s < w + s; gx++) {
+    const cx = x + gx * s + (gy % 2 ? s / 2 : 0), cy = y + gy * s * 0.5, k = hash(gx * 7 + gy * 3 + seed);
+    ctx.fillStyle = rgba(ac, 0.1 + 0.07 * k); ctx.strokeStyle = rgba(cream, 0.3); ctx.lineWidth = 1.3;
+    for (const [dx, dy, rx, ry] of [[0.25, 0, 0.22, 0.12], [-0.25, 0, 0.22, 0.12], [0, 0.25, 0.12, 0.22], [0, -0.25, 0.12, 0.22]]) { ell(ctx, cx + dx * s, cy + dy * s, rx * s, ry * s); ctx.fill(); ctx.stroke(); }
+    ctx.fillStyle = rgba(cream, 0.4); circ(ctx, cx, cy, s * 0.04); ctx.fill();
+  }
+  ctx.fillStyle = rgba('#000000', 0.07); for (let py = y; py < y + h; py += 3) ctx.fillRect(x, py, w, 1);
+  for (const by of [y, y + h - s * 0.2]) { ctx.fillStyle = rgba(darker(base, 0.5), 0.8); ctx.fillRect(x, by, w, s * 0.2); ctx.fillStyle = rgba(ac, 0.7); ctx.fillRect(x, by + s * 0.2 * 0.5 - 1.5, w, 3); }
+  ctx.restore();
+}
+
+// woven reed mat (1.15.0): a plain over-and-under basket weave of pale reed strips with a little tone variation (silimba, the Lozi xylophone)
+export function reeds(ctx, A, base, o = {}) {
+  const { x, y, w, h } = A, c = clamp(Math.min(w, h) / 34, 15, 22), seed = o.seed ?? 9;
+  ctx.save(); ctx.beginPath(); ctx.rect(x, y, w, h); ctx.clip();
+  ctx.fillStyle = darker(base, 0.55); ctx.fillRect(x, y, w, h);
+  for (let gy = 0; gy * c < h + c; gy++) for (let gx = 0; gx * c < w + c; gx++) {
+    const px = x + gx * c, py = y + gy * c, horiz = (gx + gy) % 2 === 0, t = (hash(gx * 13 + gy * 5 + seed) - 0.5) * 0.2, col = t > 0 ? lighter(base, t) : darker(base, -t);
+    const pw = horiz ? c - 1 : c * 0.62, ph = horiz ? c * 0.62 : c - 1, qx = px + (c - pw) / 2, qy = py + (c - ph) / 2;
+    ctx.fillStyle = horiz ? vgrad(ctx, qy, qy + ph, [[0, lighter(col, 0.1)], [0.5, col], [1, darker(col, 0.2)]]) : hgrad(ctx, qx, qx + pw, [[0, lighter(col, 0.1)], [0.5, col], [1, darker(col, 0.2)]]);
+    rrect(ctx, qx, qy, pw, ph, 3); ctx.fill();
+    ctx.strokeStyle = rgba(darker(col, 0.6), 0.28); ctx.lineWidth = 1; ctx.beginPath();
+    if (horiz) { ctx.moveTo(qx + 2, qy + ph * 0.5); ctx.lineTo(qx + pw - 2, qy + ph * 0.5); } else { ctx.moveTo(qx + pw * 0.5, qy + 2); ctx.lineTo(qx + pw * 0.5, qy + ph - 2); }
+    ctx.stroke();
+  }
+  ctx.restore();
+}
+
+// quiet Japanese / East Asian backdrops (1.8.0): sumi-ink night with a pale moon, layered misty ridges, a few bamboo stalks at the edges
+// (kind 'inkwash'), or a misty bamboo grove of stalks at several depths (kind 'bamboo'). Nothing here competes with the instrument.
+function stalk(ctx, x, y0, y1, w, col, a, seed, leaves) {
+  ctx.save(); ctx.globalAlpha = a;
+  ctx.fillStyle = hgrad(ctx, x - w / 2, x + w / 2, [[0, darker(col, 0.45)], [0.35, lighter(col, 0.12)], [1, darker(col, 0.55)]]);
+  ctx.fillRect(x - w / 2, y0, w, y1 - y0);
+  const seg = Math.max(34, (y1 - y0) / 7);
+  for (let yy = y1 - seg * (0.4 + 0.5 * hash(seed)), k = 0; yy > y0; yy -= seg * (0.85 + 0.3 * hash(seed + k + 1)), k++) {
+    ctx.fillStyle = rgba(darker(col, 0.7), 0.85); ctx.fillRect(x - w * 0.56, yy - w * 0.14, w * 1.12, w * 0.28);
+    ctx.fillStyle = rgba(lighter(col, 0.35), 0.4); ctx.fillRect(x - w * 0.4, yy + w * 0.14, w * 0.5, w * 0.1);
+    if (leaves && k % 2 === 0 && yy < y1 - seg) {   // a slim leaf pair hanging from the node
+      for (const dir of [-1, 1]) {
+        ctx.fillStyle = rgba(darker(col, 0.35), 0.8); ctx.beginPath(); ctx.moveTo(x, yy);
+        ctx.quadraticCurveTo(x + dir * w * 4, yy - w * 1.2, x + dir * w * (6 + 3 * hash(seed + k)), yy + w * (3 + 2 * hash(seed + 2 * k)));
+        ctx.quadraticCurveTo(x + dir * w * 3, yy + w * 0.2, x, yy); ctx.fill();
+      }
+    }
+  }
+  ctx.restore();
+}
+export function inkwash(ctx, A, base, accent, o = {}) {
+  const { x, y, w, h } = A, grove = !!o.grove, seed = o.seed ?? 4, wide = w > h * 1.15;
+  ctx.save(); ctx.beginPath(); ctx.rect(x, y, w, h); ctx.clip();
+  ctx.fillStyle = vgrad(ctx, y, y + h, [[0, darker(base, 0.1)], [0.55, mix(base, '#c8c2a8', 0.12)], [1, darker(base, 0.35)]]); ctx.fillRect(x, y, w, h);
+  // washi fibres: faint short strokes
+  ctx.strokeStyle = rgba('#f2ead0', 0.045); ctx.lineWidth = 1; ctx.beginPath();
+  for (let k = 0; k < 160; k++) { const px = x + hash(k + seed) * w, py = y + hash(k * 1.7 + seed + 2) * h, a = hash(k + 9) * 3; ctx.moveTo(px, py); ctx.lineTo(px + Math.cos(a) * 14, py + Math.sin(a) * 14); }
+  ctx.stroke();
+  if (!grove) {   // pale moon with a soft halo
+    const mx = x + w * (wide ? 0.82 : 0.76), my = y + h * (wide ? 0.24 : 0.16), mr = Math.min(w, h) * 0.075;
+    glow(ctx, mx, my, mr * 4.5, '#e9e2c4', 0.22);
+    ctx.fillStyle = rgba('#efe8cc', 0.82); circ(ctx, mx, my, mr); ctx.fill();
+    ctx.fillStyle = rgba(base, 0.1); circ(ctx, mx + mr * 0.25, my + mr * 0.05, mr * 0.95); ctx.fill();
+  }
+  const ridge = (f0, amp, freq, sd, col, a) => {
+    ctx.beginPath(); ctx.moveTo(x, y + h);
+    for (let px = 0; px <= w; px += 8) { const t = px / w, yy = y + h * f0 - h * amp * (0.5 + 0.5 * Math.sin(t * freq + sd) * 0.7 + 0.3 * Math.sin(t * freq * 2.3 + sd * 1.7)); ctx.lineTo(x + px, yy); }
+    ctx.lineTo(x + w, y + h); ctx.closePath();
+    ctx.fillStyle = vgrad(ctx, y + h * (f0 - amp), y + h, [[0, rgba(col, a)], [1, rgba(col, a * 0.2)]]); ctx.fill();
+  };
+  const ink = mix(base, '#0a0e0c', 0.55);
+  if (!grove) { ridge(0.62, 0.17, 6.0, 1.3, mix(ink, '#8aa09a', 0.4), 0.6); ridge(0.74, 0.12, 8.5, 4.1, mix(ink, '#5f756e', 0.3), 0.7); }
+  else { ridge(0.7, 0.1, 5, 2.2, mix(ink, '#6f8a78', 0.3), 0.4); }
+  for (const f of [0.6, 0.74, 0.88]) { ctx.fillStyle = vgrad(ctx, y + h * (f - 0.07), y + h * (f + 0.07), [[0, 'rgba(226,232,220,0)'], [0.5, `rgba(226,232,220,${grove ? 0.12 : 0.09})`], [1, 'rgba(226,232,220,0)']]); ctx.fillRect(x, y + h * (f - 0.07), w, h * 0.14); }
+  ridge(0.92, 0.08, 7.0, 0.6, ink, 0.7);
+  const bam = mix(accent ?? '#7f9a78', '#4f6a52', 0.5);
+  if (grove) {
+    const far = wide ? 16 : 11;
+    for (let k = 0; k < far; k++) stalk(ctx, x + w * ((k + 0.3 + 0.4 * hash(k + seed)) / far), y - 4, y + h + 4, 4 + 3 * hash(k + 3), mix(bam, '#cfe0cc', 0.4), 0.28, k * 3 + seed, false);
+    ctx.fillStyle = 'rgba(210,222,208,0.12)'; ctx.fillRect(x, y, w, h);
+    const near = wide ? [0.03, 0.07, 0.94, 0.975] : [0.03, 0.075, 0.935, 0.975];
+    near.forEach((f, k) => stalk(ctx, x + w * f, y - 4, y + h + 4, (wide ? 16 : 20) - 4 * (k % 2), bam, 0.82, k * 7 + seed, true));
+  } else {
+    const edge = wide ? [0.022, 0.05, 0.968] : [0.03, 0.07, 0.965];
+    edge.forEach((f, k) => stalk(ctx, x + w * f, y - 4, y + h + 4, (wide ? 13 : 17) - 3 * (k % 2), bam, 0.55, k * 5 + seed, true));
+  }
+  ctx.restore();
+}
+
 // the dressing dispatcher. F is the stage frame (F.area is the playable area); kind picks the surface
 export function setting(ctx, F, kind, S, rt, o = {}) {
   const A0 = F.area, A = A0.bleed ? { ...A0, h: A0.h + A0.bleed } : A0, t = rt?.anim ?? 0, pul = rt?.pul ?? 0;
@@ -236,6 +331,10 @@ export function setting(ctx, F, kind, S, rt, o = {}) {
     case 'cloth': cloth(ctx, A, o.base ?? '#2e5f4a', o.accent ?? '#e8d089', o); break;
     case 'tiles': tiles(ctx, A, o.base ?? '#2e5c70', o.accent ?? '#d9b45a', o); break;
     case 'meadow': meadow(ctx, A, o.base ?? '#3f6a34', o); break;
+    case 'inkwash': inkwash(ctx, A, o.base ?? '#1b2422', o.accent, o); break;
+    case 'bamboo': inkwash(ctx, A, o.base ?? '#1c2a22', o.accent, { ...o, grove: true }); break;
+    case 'batik': batik(ctx, A, o.base ?? '#1c2448', o.accent, o); break;
+    case 'reeds': reeds(ctx, A, o.base ?? '#b8935a', o); break;
     case 'stone': tiles(ctx, A, o.base ?? '#5a5750', o.accent ?? '#7a766c', { size: o.size ?? 96 }); break;
     default: planks(ctx, A, o.base ?? '#5a3a20', { seed: 4 });
   }

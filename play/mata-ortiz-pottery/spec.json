@@ -1,0 +1,27 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "lathe",
+  "scene": "mataortiz",
+  "profile": "olla",
+  "rows": 12,
+  "bands": 5,
+  "clay": "#c9a67e",
+  "glazes": [
+   {
+    "name": "Cream slip",
+    "color": "#eadcc0"
+   },
+   {
+    "name": "Black paint",
+    "color": "#211a18"
+   },
+   {
+    "name": "Rust red",
+    "color": "#a8482c"
+   }
+  ],
+  "variation": 0.05,
+  "steps": 12
+ }
+}

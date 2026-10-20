@@ -1,0 +1,248 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "shehnai",
+  "mode": "follow",
+  "root": 277.2,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Sa",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "1111111"
+   },
+   {
+    "name": "Re",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "1111110"
+   },
+   {
+    "name": "Ga",
+    "cents": 400,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "1111100"
+   },
+   {
+    "name": "Pa",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "1111000"
+   },
+   {
+    "name": "Dha",
+    "cents": 900,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "1110000"
+   },
+   {
+    "name": "Sa'",
+    "cents": 1200,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "1100000"
+   }
+  ],
+  "songs": [
+   {
+    "id": "shehnai-alap",
+    "name": "Opening phrase",
+    "bpm": 62,
+    "meter": 4,
+    "length": 25.0,
+    "kind": "figure",
+    "heritage": "Shehnai, northern India",
+    "note": "A teaching phrase in a five-note mode: it climbs slowly and settles home.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Sa",
+      "len": 2
+     },
+     {
+      "beat": 2.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Ga",
+      "len": 2
+     },
+     {
+      "beat": 5.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "Ga",
+      "len": 1
+     },
+     {
+      "beat": 7.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 8.0,
+      "lane": "Sa",
+      "len": 3
+     },
+     {
+      "beat": 11.0,
+      "lane": "Pa",
+      "len": 2
+     },
+     {
+      "beat": 13.0,
+      "lane": "Dha",
+      "len": 1
+     },
+     {
+      "beat": 14.0,
+      "lane": "Sa'",
+      "len": 2
+     },
+     {
+      "beat": 16.0,
+      "lane": "Dha",
+      "len": 1
+     },
+     {
+      "beat": 17.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 18.0,
+      "lane": "Ga",
+      "len": 2
+     },
+     {
+      "beat": 20.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 21.0,
+      "lane": "Sa",
+      "len": 4
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "shehnai-answer",
+    "name": "Call and answer",
+    "bpm": 70,
+    "meter": 4,
+    "length": 25.0,
+    "kind": "figure",
+    "heritage": "Shehnai, northern India",
+    "note": "A livelier phrase that answers itself.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Sa",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "Ga",
+      "len": 2
+     },
+     {
+      "beat": 4.0,
+      "lane": "Ga",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 6.0,
+      "lane": "Dha",
+      "len": 2
+     },
+     {
+      "beat": 8.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 9.0,
+      "lane": "Ga",
+      "len": 1
+     },
+     {
+      "beat": 10.0,
+      "lane": "Re",
+      "len": 2
+     },
+     {
+      "beat": 12.0,
+      "lane": "Sa",
+      "len": 2
+     },
+     {
+      "beat": 14.0,
+      "lane": "Ga",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 16.0,
+      "lane": "Sa'",
+      "len": 2
+     },
+     {
+      "beat": 18.0,
+      "lane": "Dha",
+      "len": 1
+     },
+     {
+      "beat": 19.0,
+      "lane": "Pa",
+      "len": 1
+     },
+     {
+      "beat": 20.0,
+      "lane": "Ga",
+      "len": 1
+     },
+     {
+      "beat": 21.0,
+      "lane": "Re",
+      "len": 1
+     },
+     {
+      "beat": 22.0,
+      "lane": "Sa",
+      "len": 3
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "shehnai"
+}

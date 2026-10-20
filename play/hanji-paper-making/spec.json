@@ -1,0 +1,15 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "sheet",
+  "scene": "hanok",
+  "form": "slosh",
+  "finish": "pound",
+  "mould": "su",
+  "pulp": "#f4ead2",
+  "water": "#8a9aa0",
+  "vat": "amber",
+  "rope": true,
+  "hero": "hanji"
+ }
+}

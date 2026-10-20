@@ -1,0 +1,383 @@
+{
+ "engine": "rhythm",
+ "variant": "tar",
+ "players": "1",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 220,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "tar",
+  "lanes": [
+   {
+    "name": "A3",
+    "cents": 0,
+    "id": "a3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#b83c52",
+    "string": 0,
+    "fret": 4
+   },
+   {
+    "name": "B3~",
+    "cents": 150,
+    "id": "b3~-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c45b58",
+    "string": 0,
+    "fret": 6
+   },
+   {
+    "name": "C4",
+    "cents": 300,
+    "id": "c4-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d07a5d",
+    "string": 0,
+    "fret": 7
+   },
+   {
+    "name": "D4",
+    "cents": 500,
+    "id": "d4-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#dc9963",
+    "string": 1,
+    "fret": 5
+   },
+   {
+    "name": "E4",
+    "cents": 700,
+    "id": "e4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e8b868",
+    "string": 1,
+    "fret": 7
+   },
+   {
+    "name": "F4",
+    "cents": 800,
+    "id": "f4-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c4b47c",
+    "string": 1,
+    "fret": 8
+   },
+   {
+    "name": "G4",
+    "cents": 1000,
+    "id": "g4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a0b090",
+    "string": 2,
+    "fret": 5
+   },
+   {
+    "name": "A4",
+    "cents": 1200,
+    "id": "a4-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7caca4",
+    "string": 2,
+    "fret": 7
+   },
+   {
+    "name": "B4~",
+    "cents": 1350,
+    "id": "b4~-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#58a8b8",
+    "string": 2,
+    "fret": 9
+   }
+  ],
+  "songs": [
+   {
+    "id": "climb-and-return",
+    "name": "Climb and return",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Opening of a mode, Azerbaijan",
+    "bpm": 76,
+    "meter": 4,
+    "length": 28,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 2
+     },
+     {
+      "beat": 8,
+      "lane": 1
+     },
+     {
+      "beat": 10,
+      "lane": 0
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 5
+     },
+     {
+      "beat": 15,
+      "lane": 6
+     },
+     {
+      "beat": 16,
+      "lane": 7
+     },
+     {
+      "beat": 18,
+      "lane": 6
+     },
+     {
+      "beat": 19,
+      "lane": 5
+     },
+     {
+      "beat": 20,
+      "lane": 4
+     },
+     {
+      "beat": 21,
+      "lane": 3
+     },
+     {
+      "beat": 22,
+      "lane": 2
+     },
+     {
+      "beat": 23,
+      "lane": 1
+     },
+     {
+      "beat": 24,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "id": "rhythmic-six",
+    "name": "Rhythmic piece in six",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Dance-like rhythmic piece, Azerbaijan",
+    "bpm": 108,
+    "meter": 6,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 0
+     },
+     {
+      "beat": 1.5,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 0
+     },
+     {
+      "beat": 5,
+      "lane": 0
+     },
+     {
+      "beat": 6,
+      "lane": 0
+     },
+     {
+      "beat": 6.5,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 6
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 2
+     },
+     {
+      "beat": 16,
+      "lane": 0
+     },
+     {
+      "beat": 17,
+      "lane": 0
+     },
+     {
+      "beat": 18,
+      "lane": 2
+     },
+     {
+      "beat": 19,
+      "lane": 0
+     }
+    ]
+   },
+   {
+    "id": "rising-phrase",
+    "name": "Rising phrase",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Rising phrase with resting note, Azerbaijan",
+    "bpm": 84,
+    "meter": 4,
+    "length": 24,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 4
+     },
+     {
+      "beat": 2,
+      "lane": 5
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 6
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 7,
+      "lane": 4
+     },
+     {
+      "beat": 8,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 8
+     },
+     {
+      "beat": 11,
+      "lane": 7
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 13,
+      "lane": 5
+     },
+     {
+      "beat": 14,
+      "lane": 4
+     },
+     {
+      "beat": 15,
+      "lane": 3
+     },
+     {
+      "beat": 16,
+      "lane": 2
+     },
+     {
+      "beat": 17,
+      "lane": 1
+     },
+     {
+      "beat": 18,
+      "lane": 0
+     },
+     {
+      "beat": 20,
+      "lane": 0
+     }
+    ]
+   }
+  ]
+ }
+}

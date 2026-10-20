@@ -3,6 +3,8 @@
 import { resolve, createPlayer, createBot, createLead, reference, createRivals, placePoints, heatStars, heatScore, qualityOf, leadShare, windShift, curveAt, bendAt, roughAt } from './model.js';
 import { kitOf, createKit, padSurface } from './kits.js';
 import { voice as voice0, fx as fx0 } from '../../../platform/engine-kit/synth.js';
+import { resolveCraft, craftKit, soundOf, sailAmbience } from './craft.js';
+import { drawView } from './craft-views.js';
 import { hash, shade, scenery, texture, racer, checker, leadObject, trail, speedLines, gantry, confetti, atmosphere } from './draw.js';
 
 const RIVAL_COLORS = ['#e0603a', '#f2c14e', '#58c27d', '#b07be0', '#ef8fb5', '#4fc3d9', '#d8d8d8'];
@@ -13,12 +15,13 @@ const fmtTime = (t) => (t >= 60 ? `${Math.floor(t / 60)}:${(t % 60).toFixed(1).p
 export function createActivity(userParams, env) {
   const P = resolve(userParams);
   const { rng, palette: pal } = env;
-  const KIT = createKit(kitOf(P, env.text?.title));
+  const CRAFT = resolveCraft(P.craft);
+  const KIT = CRAFT ? craftKit(CRAFT) : createKit(kitOf(P, env.text?.title));
   const C = KIT ? { ...P.course, scenery: KIT.scenery } : P.course;
   const V = P.vehicle, kind = V.kind, N = P.opponents.count, L = C.length, cols = KIT ? { ...P.colors, ...KIT.colors, ...(userParams.colors ?? {}) } : P.colors;
   const lanes = C.lanes, playerLane = Math.floor(lanes / 2);
   let pl, bot, rivals, ref, heat, heats, phase, cd, linger, between, done, layout = null, padDown, prevKey, lastBeat, tip, lead = null, caughtFlash = 0;
-  let finT = 0, streak = 0, streakT = 0, strokeFx = null, lastSide = 0, titleT = 0;
+  let ambT = 0, ambN = 0, finT = 0, streak = 0, streakT = 0, strokeFx = null, lastSide = 0, titleT = 0;
   const LD = C.lead;
 
   const startHeat = () => {
@@ -42,11 +45,13 @@ export function createActivity(userParams, env) {
   // Natural race sounds (platform/engine-kit/synth.js), by what the racer touches: clogs clop, hooves thud, blades scrape,
   // wheels roll, buffalo splash through mud, paddles dip. The kit's raw tone stays as the fallback.
   const A = env.audio, nat = () => !!A?.context;
-  const kitId = KIT ? kitOf(P, env.text?.title) : '';
+  const kitId = CRAFT ? CRAFT.id : KIT ? kitOf(P, env.text?.title) : '';
+  const SND = CRAFT ? soundOf(CRAFT.id) : null;
   const stroke = (grade) => {
     if (!nat()) return false;
     const v = grade === 'perfect' ? 0.85 : grade === 'miss' ? 0.4 : 0.65;
     if (grade === 'miss') { fx(A, 'bad', { hz: 170, vel: 0.35 }); return true; }
+    if (SND) { SND.stroke(fx, voice, A, grade); return true; }
     switch (kitId) {
       case 'bakiak': fx(A, 'impact', { mat: 'wood', hz: grade === 'perfect' ? 300 : 230, vel: v }); break;
       case 'camel': fx(A, 'thud', { hz: 85, vel: v }); fx(A, 'scrape', { hz: 900, dur: 0.1, vel: 0.5, delay: 0.02 }); break;
@@ -65,6 +70,7 @@ export function createActivity(userParams, env) {
     SL?.push({ kind: 'beat' });
     const L = Math.min(1, 0.3 + beatN * 0.18) * 0.8;   // fades in over the first four beats and stays under the stroke sounds
     if (!nat()) { tone({ freq: 96, dur: 0.09, type: 'sine', vol: 0.35 * L }); return; }
+    if (SND) { SND.beat(fx, voice, A, acc, L); return; }
     switch (kitId) {
       case 'bakiak': fx(A, 'tick', { hz: acc ? 1150 : 860, vel: (acc ? 0.5 : 0.32) * L }); break;                     // wooden clapper counting the clogs
       case 'camel': voice(A, 'drum', { style: 'frame', hz: acc ? 150 : 120, vel: (acc ? 0.4 : 0.28) * L }); break;    // desert frame drum
@@ -77,6 +83,7 @@ export function createActivity(userParams, env) {
   };
   const mishap = () => {
     if (!nat()) { tone({ freq: 140, dur: 0.18, type: 'sawtooth', vol: 0.5 }); return; }
+    if (CRAFT) { fx(A, 'splash', { vel: 0.9 }); fx(A, CRAFT.def.ice ? 'scrape' : 'thud', CRAFT.def.ice ? { hz: 2400, dur: 0.3, vel: 0.8 } : { hz: 60, vel: 0.6, delay: 0.02 }); return; }
     switch (kitId) {
       case 'bakiak': fx(A, 'impact', { mat: 'wood', hz: 180, vel: 0.9 }); fx(A, 'impact', { mat: 'wood', hz: 260, vel: 0.6, delay: 0.07 }); fx(A, 'bad', { hz: 160, vel: 0.4, delay: 0.1 }); break;
       case 'nouka': case 'kambala': fx(A, 'splash', { vel: 0.9 }); fx(A, 'thud', { hz: 60, vel: 0.6, delay: 0.02 }); break;
@@ -163,7 +170,7 @@ export function createActivity(userParams, env) {
     if (phase === 'ready') {
       const before = cd; cd -= dt;
       for (const mark of [1.8, 1.0, 0.2]) if (before > mark && cd <= mark) { if (nat()) fx(A, 'tick', { hz: 900, vel: 0.45 }); else tone({ freq: 330, dur: 0.1, type: 'triangle', vol: 0.5 }); }
-      if (cd <= 0) { phase = 'race'; beatN = 0; stepN = 0; beatOn = false; if (nat()) { if (kitId === 'kambala' || kitId === 'nouka' || kitId === 'camel') { voice(A, 'drum', { style: 'taiko', hz: 70, vel: 0.55 }); fx(A, 'whoosh', { vel: 0.3, dur: 0.25 }); } else if (kitId === 'bakiak' || kitId === 'cheese') { voice(A, 'clap', { vel: 0.5 }); fx(A, 'impact', { mat: 'wood', hz: 330, vel: 0.45 }); } else { voice(A, 'bell', { hz: 880, dur: 0.8, vel: 0.45 }); fx(A, 'whoosh', { vel: 0.4, dur: 0.3 }); } } else tone({ freq: 660, dur: 0.25, type: 'triangle' }); }
+      if (cd <= 0) { phase = 'race'; beatN = 0; stepN = 0; beatOn = false; if (nat()) { if (SND) { SND.start(fx, voice, A); } else if (kitId === 'kambala' || kitId === 'nouka' || kitId === 'camel') { voice(A, 'drum', { style: 'taiko', hz: 70, vel: 0.55 }); fx(A, 'whoosh', { vel: 0.3, dur: 0.25 }); } else if (kitId === 'bakiak' || kitId === 'cheese') { voice(A, 'clap', { vel: 0.5 }); fx(A, 'impact', { mat: 'wood', hz: 330, vel: 0.45 }); } else { voice(A, 'bell', { hz: 880, dur: 0.8, vel: 0.45 }); fx(A, 'whoosh', { vel: 0.4, dur: 0.3 }); } } else tone({ freq: 660, dur: 0.25, type: 'triangle' }); }
       return;
     }
     if (phase === 'between') {
@@ -192,6 +199,7 @@ export function createActivity(userParams, env) {
       if (b > lastBeat) { lastBeat = b; beat(); }
     }
     if (playing) footfall(m);
+    if (playing && CRAFT && kind === 'sailor' && nat()) { ambT += dt; if (ambT >= 0.55) { ambT = 0; sailAmbience(fx, voice, A, CRAFT.id, clamp(m.v / V.topSpeed, 0, 1), m.q, ambN++); } }
     if (playing) {
       if (m.finished) finishHeat(m.rt - (m.x - L) / Math.max(1, m.v));
       else if (rivals.every((r) => r.fin !== null) && m.rt > Math.max(...rivals.map((r) => r.fin)) + 0.6 * ref.time) finishHeat(null);
@@ -283,7 +291,7 @@ export function createActivity(userParams, env) {
       : [{ x: area.x, y: padY, w: area.w, h: padH }];
     layout = { area, view, pads, row: { x: area.x, y: area.y + view.h + gap, w: area.w, h: rowH } };
     ctx.save(); ctx.beginPath(); ctx.rect(view.x, view.y, view.w, view.h); ctx.clip();
-    if (C.shape === 'loop') drawLoop(g, view); else drawScroll(g, view, null);
+    if (C.shape === 'loop' && !CRAFT) drawLoop(g, view); else drawScroll(g, view, null);
     drawHud(g, view);
     ctx.restore();
     drawControls(g, area);
@@ -314,9 +322,23 @@ export function createActivity(userParams, env) {
     ctx.beginPath(); ctx.arc(x, y, s * (1.5 + 0.06 * Math.sin(pl.m.rt * 6)), pl.m.rt * 1.2, pl.m.rt * 1.2 + 6.283); ctx.stroke(); ctx.setLineDash([]);
   };
 
+  // chase view for spec-selected crafts (1.6.0): perspective water, hero-scale craft in depth rows, backdrop, wake
+  const drawCraft = (g, V0, S) => {
+    const { ctx } = g, m = pl.m, title = !!S, tNow = title ? titleT : m.rt;
+    const list = (title ? S.racers : racerList()).map((r) => {
+      const cyc = kind === 'sailor' ? 0 : kind === 'paddle' && CRAFT.id === 'mokoro' ? 0.4 : 0.74;
+      const me = !!r.me;
+      const q = me ? clamp(m.q, 0, 1) : clamp(0.62 + 0.25 * Math.sin(r.s * 0.04 + (r.i ?? 0) * 1.7), 0, 1);
+      const sw = me ? m.trim : Math.sin(r.s * 0.03 + (r.i ?? 0));
+      return { ...r, ph: r.s * cyc, q, trim: sw, heel: kind === 'sailor' ? 0.02 + 0.05 * (0.3 + q * 0.7) * (r.v ?? 0.5) : 0 };
+    });
+    drawView(ctx, V0, { craft: CRAFT, t: tNow, camS: title ? S.camS : Math.min(m.x, L + 4), L, racers: list, obstacles: C.obstacles, rough: C.rough, current: C.current, title, hitT: m.flashT > 0 && m.tone === 'bad' ? m.flashT : 0 });
+  };
+
   // straight and zigzag: scrolling course, camera follows the player; forward is up (portrait) or right (landscape).
   // S (optional) = a fixed camera for the title art: { camS, racers }.
   const drawScroll = (g, V0, S) => {
+    if (CRAFT) return drawCraft(g, V0, S);
     const { ctx } = g;
     const m = pl.m;
     const title = !!S;

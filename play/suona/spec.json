@@ -1,0 +1,228 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "holes",
+  "instrument": "suona",
+  "mode": "follow",
+  "root": 392.0,
+  "loops": 2,
+  "tolerance": 1.3,
+  "lanes": [
+   {
+    "name": "Gong",
+    "cents": 0,
+    "timbre": "breath",
+    "color": "#e0a82e",
+    "holes": "1111111"
+   },
+   {
+    "name": "Shang",
+    "cents": 200,
+    "timbre": "breath",
+    "color": "#58c27d",
+    "holes": "1111110"
+   },
+   {
+    "name": "Jue",
+    "cents": 400,
+    "timbre": "breath",
+    "color": "#4f9fd6",
+    "holes": "1111100"
+   },
+   {
+    "name": "Zhi",
+    "cents": 700,
+    "timbre": "breath",
+    "color": "#a56bd6",
+    "holes": "1111000"
+   },
+   {
+    "name": "Yu",
+    "cents": 900,
+    "timbre": "breath",
+    "color": "#e87fa0",
+    "holes": "1110000"
+   },
+   {
+    "name": "Gong'",
+    "cents": 1200,
+    "timbre": "breath",
+    "color": "#f2c14e",
+    "holes": "1100000"
+   }
+  ],
+  "songs": [
+   {
+    "id": "suona-fanfare",
+    "name": "Bright fanfare",
+    "bpm": 100,
+    "meter": 4,
+    "length": 27.0,
+    "kind": "figure",
+    "heritage": "Suona, China",
+    "note": "A teaching phrase in a five-note mode: a bright fanfare that climbs and comes home.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Gong",
+      "len": 1
+     },
+     {
+      "beat": 1.0,
+      "lane": "Jue",
+      "len": 1
+     },
+     {
+      "beat": 2.0,
+      "lane": "Zhi",
+      "len": 2
+     },
+     {
+      "beat": 4.0,
+      "lane": "Yu",
+      "len": 1
+     },
+     {
+      "beat": 5.0,
+      "lane": "Gong'",
+      "len": 3
+     },
+     {
+      "beat": 8.0,
+      "lane": "Yu",
+      "len": 1
+     },
+     {
+      "beat": 9.0,
+      "lane": "Zhi",
+      "len": 1
+     },
+     {
+      "beat": 10.0,
+      "lane": "Jue",
+      "len": 2
+     },
+     {
+      "beat": 12.0,
+      "lane": "Shang",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "Gong",
+      "len": 3
+     },
+     {
+      "beat": 16.0,
+      "lane": "Zhi",
+      "len": 1
+     },
+     {
+      "beat": 17.0,
+      "lane": "Yu",
+      "len": 1
+     },
+     {
+      "beat": 18.0,
+      "lane": "Gong'",
+      "len": 2
+     },
+     {
+      "beat": 20.0,
+      "lane": "Yu",
+      "len": 1
+     },
+     {
+      "beat": 21.0,
+      "lane": "Zhi",
+      "len": 1
+     },
+     {
+      "beat": 22.0,
+      "lane": "Jue",
+      "len": 1
+     },
+     {
+      "beat": 23.0,
+      "lane": "Shang",
+      "len": 1
+     },
+     {
+      "beat": 24.0,
+      "lane": "Gong",
+      "len": 3
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "suona-wail",
+    "name": "Rising wail",
+    "bpm": 84,
+    "meter": 4,
+    "length": 19.0,
+    "kind": "figure",
+    "heritage": "Suona, China",
+    "note": "A slower phrase with long, wailing notes.",
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Gong",
+      "len": 2
+     },
+     {
+      "beat": 2.0,
+      "lane": "Shang",
+      "len": 1
+     },
+     {
+      "beat": 3.0,
+      "lane": "Jue",
+      "len": 1
+     },
+     {
+      "beat": 4.0,
+      "lane": "Zhi",
+      "len": 2
+     },
+     {
+      "beat": 6.0,
+      "lane": "Yu",
+      "len": 2
+     },
+     {
+      "beat": 8.0,
+      "lane": "Gong'",
+      "len": 3
+     },
+     {
+      "beat": 11.0,
+      "lane": "Yu",
+      "len": 1
+     },
+     {
+      "beat": 12.0,
+      "lane": "Zhi",
+      "len": 1
+     },
+     {
+      "beat": 13.0,
+      "lane": "Jue",
+      "len": 1
+     },
+     {
+      "beat": 14.0,
+      "lane": "Shang",
+      "len": 1
+     },
+     {
+      "beat": 15.0,
+      "lane": "Gong",
+      "len": 4
+     }
+    ]
+   }
+  ]
+ },
+ "variant": "suona"
+}

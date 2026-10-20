@@ -40,16 +40,16 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Play it
 
-[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/morra/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · App Store (coming soon)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/morra/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
 
 ## Related entries
 
 - [Tuvan Throat Singing](../../games/508-tuvan-throat-singing/index.md)
 - [Finger Hooking](../../games/1452-finger-hooking/index.md)
+- [Flamenco palmas](../../games/154-flamenco-palmas/index.md)
 - [Sicilian Puppet Knights](../../games/514-sicilian-puppet-knights/index.md)
 - [Elastic Jump](../../games/6-elastic-jump/index.md)
 - [Double Dutch](../../games/53-double-dutch/index.md)
-- [Tbourida](../../games/164-tbourida/index.md)
 
 ## Sources
 

@@ -1,0 +1,332 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 293.66,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "tiple",
+  "lanes": [
+   {
+    "name": "D4",
+    "cents": 0,
+    "id": "d4-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8403c",
+    "string": 0,
+    "fret": 0
+   },
+   {
+    "name": "E4",
+    "cents": 200,
+    "id": "e4-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d05e47",
+    "string": 0,
+    "fret": 2
+   },
+   {
+    "name": "F4",
+    "cents": 300,
+    "id": "f4-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d87c52",
+    "string": 0,
+    "fret": 3
+   },
+   {
+    "name": "G4",
+    "cents": 500,
+    "id": "g4-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e09a5d",
+    "string": 1,
+    "fret": 0
+   },
+   {
+    "name": "A4",
+    "cents": 700,
+    "id": "a4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d4c780",
+    "string": 1,
+    "fret": 2
+   },
+   {
+    "name": "Bb4",
+    "cents": 800,
+    "id": "bb4-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#9cc4a0",
+    "string": 1,
+    "fret": 3
+   },
+   {
+    "name": "C5",
+    "cents": 1000,
+    "id": "c5-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7ca6a4",
+    "string": 2,
+    "fret": 0
+   },
+   {
+    "name": "D5",
+    "cents": 1200,
+    "id": "d5-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#58a0b8",
+    "string": 2,
+    "fret": 2
+   },
+   {
+    "name": "E5",
+    "cents": 1400,
+    "id": "e5-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#5a8cc8",
+    "string": 2,
+    "fret": 4
+   },
+   {
+    "name": "Chord Dm",
+    "cents": 0,
+    "id": "chord-dm-9",
+    "timbre": "pluck",
+    "dur": 1.4,
+    "color": "#7a78c8",
+    "row": 3
+   },
+   {
+    "name": "Chord Gm",
+    "cents": 500,
+    "id": "chord-gm-10",
+    "timbre": "pluck",
+    "dur": 1.4,
+    "color": "#a070b8",
+    "row": 3
+   }
+  ],
+  "songs": [
+   {
+    "id": "bambuco-sway",
+    "name": "Bambuco sway",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A swaying six-beat figure in the style of Andean song",
+    "bpm": 96,
+    "meter": 6,
+    "length": 12,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 9
+     },
+     {
+      "beat": 1,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 10
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 9
+     },
+     {
+      "beat": 7,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 10
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 11,
+      "lane": 8
+     }
+    ],
+    "note": "Strums mark the swing while the melody rises over them."
+   },
+   {
+    "id": "bright-pairs",
+    "name": "Bright pairs",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Pairs of quick notes between strums",
+    "bpm": 120,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 0.5,
+      "lane": 2
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 9
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 3.5,
+      "lane": 5
+     },
+     {
+      "beat": 4,
+      "lane": 6
+     },
+     {
+      "beat": 5,
+      "lane": 10
+     },
+     {
+      "beat": 6,
+      "lane": 7
+     },
+     {
+      "beat": 7,
+      "lane": 8
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 10
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 2
+     },
+     {
+      "beat": 14,
+      "lane": 0
+     },
+     {
+      "beat": 15,
+      "lane": 9
+     }
+    ],
+    "note": "Quick pairs of notes sparkle between the chords."
+   },
+   {
+    "id": "gentle-arc",
+    "name": "Gentle arc",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A gentle arch of a tune",
+    "bpm": 72,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 9
+     },
+     {
+      "beat": 2,
+      "lane": 1
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 10
+     },
+     {
+      "beat": 6,
+      "lane": 4
+     },
+     {
+      "beat": 7,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 8
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ],
+    "note": "The tune climbs slowly and comes back down in one long arch."
+   }
+  ]
+ },
+ "variant": "colombian-tiple",
+ "players": "1"
+}
