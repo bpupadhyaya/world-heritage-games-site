@@ -1,0 +1,308 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 146.83,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "phin",
+  "lanes": [
+   {
+    "name": "D3",
+    "cents": 0,
+    "id": "d3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8403c",
+    "string": 0,
+    "fret": 0
+   },
+   {
+    "name": "E3",
+    "cents": 200,
+    "id": "e3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d05e47",
+    "string": 0,
+    "fret": 2
+   },
+   {
+    "name": "F#3",
+    "cents": 400,
+    "id": "fs3-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d87c52",
+    "string": 0,
+    "fret": 4
+   },
+   {
+    "name": "G3",
+    "cents": 500,
+    "id": "g3-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d4c780",
+    "string": 1,
+    "fret": 0
+   },
+   {
+    "name": "A3",
+    "cents": 700,
+    "id": "a3-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#b8c590",
+    "string": 1,
+    "fret": 2
+   },
+   {
+    "name": "B3",
+    "cents": 900,
+    "id": "b3-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#9cc4a0",
+    "string": 1,
+    "fret": 4
+   },
+   {
+    "name": "D4",
+    "cents": 1200,
+    "id": "d4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7ca6a4",
+    "string": 2,
+    "fret": 0
+   },
+   {
+    "name": "E4",
+    "cents": 1400,
+    "id": "e4-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#5a8cc8",
+    "string": 2,
+    "fret": 2
+   },
+   {
+    "name": "F#4",
+    "cents": 1600,
+    "id": "fs4-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7a78c8",
+    "string": 2,
+    "fret": 4
+   },
+   {
+    "name": "G4",
+    "cents": 1700,
+    "id": "g4-9",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a070b8",
+    "string": 2,
+    "fret": 5
+   }
+  ],
+  "songs": [
+   {
+    "id": "market-tune",
+    "name": "Market tune",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A lively walking tune in the scale of Lao folk music",
+    "bpm": 104,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 0.5,
+      "lane": 1
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 1.5,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 2.5,
+      "lane": 5
+     },
+     {
+      "beat": 3,
+      "lane": 6
+     },
+     {
+      "beat": 3.5,
+      "lane": 7
+     },
+     {
+      "beat": 4,
+      "lane": 8
+     },
+     {
+      "beat": 4.5,
+      "lane": 9
+     },
+     {
+      "beat": 5,
+      "lane": 8
+     },
+     {
+      "beat": 5.5,
+      "lane": 7
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 6.5,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 1
+     },
+     {
+      "beat": 7.5,
+      "lane": 0
+     }
+    ],
+    "note": "Quick steps up the neck and back, with a smile in every phrase."
+   },
+   {
+    "id": "call-and-reply",
+    "name": "Call and reply",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Phrases that call and reply",
+    "bpm": 88,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 8
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 1
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ],
+    "note": "A phrase rises, and the next one answers lower down."
+   },
+   {
+    "id": "slow-evening",
+    "name": "Slow evening",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A slow, singing line",
+    "bpm": 66,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 7
+     },
+     {
+      "beat": 8,
+      "lane": 9
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     }
+    ],
+    "note": "Slow, rounded notes rise and fall like a sung line at dusk."
+   }
+  ]
+ },
+ "variant": "phin",
+ "players": "1"
+}

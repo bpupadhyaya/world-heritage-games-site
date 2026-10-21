@@ -1,0 +1,348 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 146.83,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "biwa",
+  "lanes": [
+   {
+    "name": "D3",
+    "cents": 0,
+    "id": "d3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8403c",
+    "string": 0,
+    "fret": 0
+   },
+   {
+    "name": "Eb3",
+    "cents": 100,
+    "id": "eb3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d05e47",
+    "string": 0,
+    "fret": 1
+   },
+   {
+    "name": "G3",
+    "cents": 500,
+    "id": "g3-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d87c52",
+    "string": 1,
+    "fret": 0
+   },
+   {
+    "name": "A3",
+    "cents": 700,
+    "id": "a3-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d4c780",
+    "string": 1,
+    "fret": 2
+   },
+   {
+    "name": "Bb3",
+    "cents": 800,
+    "id": "bb3-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#b8c590",
+    "string": 1,
+    "fret": 3
+   },
+   {
+    "name": "D4",
+    "cents": 1200,
+    "id": "d4-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#9cc4a0",
+    "string": 2,
+    "fret": 0
+   },
+   {
+    "name": "Eb4",
+    "cents": 1300,
+    "id": "eb4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7ca6a4",
+    "string": 2,
+    "fret": 1
+   },
+   {
+    "name": "G4",
+    "cents": 1700,
+    "id": "g4-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#5a8cc8",
+    "string": 3,
+    "fret": 0
+   },
+   {
+    "name": "A4",
+    "cents": 1900,
+    "id": "a4-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7a78c8",
+    "string": 3,
+    "fret": 2
+   },
+   {
+    "name": "Bb4",
+    "cents": 2000,
+    "id": "bb4-9",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a070b8",
+    "string": 3,
+    "fret": 3
+   }
+  ],
+  "songs": [
+   {
+    "id": "telling-line",
+    "name": "Telling line",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A slow, spare line in the style of sung storytelling",
+    "bpm": 62,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 2
+     },
+     {
+      "beat": 8,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 14,
+      "lane": 1
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ],
+    "note": "Long pauses between strikes let each deep note ring out before the next arrives."
+   },
+   {
+    "id": "strike-and-answer",
+    "name": "Strike and answer",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A bold figure with doubled strikes on the strong beats",
+    "bpm": 84,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 0.5,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 3
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 5
+     },
+     {
+      "beat": 4.5,
+      "lane": 5
+     },
+     {
+      "beat": 5,
+      "lane": 7
+     },
+     {
+      "beat": 6,
+      "lane": 8
+     },
+     {
+      "beat": 7,
+      "lane": 7
+     },
+     {
+      "beat": 8,
+      "lane": 9
+     },
+     {
+      "beat": 9,
+      "lane": 8
+     },
+     {
+      "beat": 10,
+      "lane": 7
+     },
+     {
+      "beat": 11,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 13,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ],
+    "note": "Repeated low notes answer a rising phrase, then the line falls back home."
+   },
+   {
+    "id": "bending-phrase",
+    "name": "Bending phrase",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Three-beat phrase that leans on the half-step notes",
+    "bpm": 70,
+    "meter": 3,
+    "length": 18,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 2
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 1
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 7,
+      "lane": 6
+     },
+     {
+      "beat": 8,
+      "lane": 5
+     },
+     {
+      "beat": 9,
+      "lane": 4
+     },
+     {
+      "beat": 10,
+      "lane": 3
+     },
+     {
+      "beat": 11,
+      "lane": 2
+     },
+     {
+      "beat": 12,
+      "lane": 7
+     },
+     {
+      "beat": 13,
+      "lane": 8
+     },
+     {
+      "beat": 14,
+      "lane": 9
+     },
+     {
+      "beat": 15,
+      "lane": 8
+     },
+     {
+      "beat": 16,
+      "lane": 7
+     },
+     {
+      "beat": 17,
+      "lane": 5
+     }
+    ],
+    "note": "Bright pairs of notes a half step apart give the line its leaning, wavering character."
+   }
+  ]
+ },
+ "variant": "biwa",
+ "players": "1"
+}

@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with K"
-description: "115 entries beginning with K."
+description: "117 entries beginning with K."
 path: "/a-z/K/"
 ---
 # Entries beginning with K
@@ -35,6 +35,7 @@ path: "/a-z/K/"
 - [Kashmiri papier-mache painting](../../games/269-kashmiri-papier-mache-painting/index.md): India; Crafts and making; Living Traditions
 - [Kasivaki](../../games/1148-kasivaki/index.md): Tonga; Street and playground games; Modern Heritage
 - [Kastom games](../../games/1208-kastom-games/index.md): Vanuatu; Street and playground games; Modern Heritage
+- [Kasuti](../../games/2823-kasuti/index.md): India; Crafts and making; Living Traditions
 - [Kataw](../../games/873-kataw/index.md): Laos; Street and playground games; Modern Heritage
 - [Kathak tatkar footwork rhythm](../../games/267-kathak-tatkar-footwork-rhythm/index.md): India, Pakistan; Other traditions; Living Traditions
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md): India; Performance and storytelling; Classical Worlds
@@ -69,6 +70,7 @@ path: "/a-z/K/"
 - [Kira and Kushuthara backstrap weaving](../../games/1312-kira-and-kushuthara-backstrap-weaving/index.md): Bhutan; Crafts and making; Living Traditions
 - [Kisii soapstone carving](../../games/195-kisii-soapstone-carving/index.md): Worldwide; Crafts and making; Living Traditions
 - [Kisolo](../../games/666-kisolo/index.md): DR Congo, Zambia; Board and table games; Deep Past and First Games
+- [Kissar](../../games/2889-kissar/index.md): Egypt; Musical instruments; Classical Worlds
 - [Kissi Penny Forging](../../games/1314-kissi-penny-forging/index.md): Guinea, Sierra Leone; Crafts and making; Living Traditions
 - [Kite fighting](../../games/788-kite-fighting/index.md): India, Pakistan; Dexterity and skill games; Classical Worlds
 - [Kite flying](../../games/769-kite-flying/index.md): Honduras; Dexterity and skill games; Classical Worlds

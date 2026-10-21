@@ -1,0 +1,330 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 196.0,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "nguyet",
+  "lanes": [
+   {
+    "name": "G3",
+    "cents": 0,
+    "id": "g3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8403c",
+    "string": 0,
+    "fret": 0
+   },
+   {
+    "name": "A3",
+    "cents": 200,
+    "id": "a3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d05e47",
+    "string": 0,
+    "fret": 2
+   },
+   {
+    "name": "C4",
+    "cents": 500,
+    "id": "c4-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e09a5d",
+    "string": 0,
+    "fret": 5
+   },
+   {
+    "name": "D4",
+    "cents": 700,
+    "id": "d4-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d4c780",
+    "string": 1,
+    "fret": 0
+   },
+   {
+    "name": "E4",
+    "cents": 900,
+    "id": "e4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#9cc4a0",
+    "string": 1,
+    "fret": 2
+   },
+   {
+    "name": "G4",
+    "cents": 1200,
+    "id": "g4-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7ca6a4",
+    "string": 1,
+    "fret": 5
+   },
+   {
+    "name": "A4",
+    "cents": 1400,
+    "id": "a4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#58a0b8",
+    "string": 1,
+    "fret": 7
+   },
+   {
+    "name": "C5",
+    "cents": 1700,
+    "id": "c5-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7a78c8",
+    "string": 1,
+    "fret": 10
+   },
+   {
+    "name": "D5",
+    "cents": 1900,
+    "id": "d5-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a070b8",
+    "string": 1,
+    "fret": 12
+   }
+  ],
+  "songs": [
+   {
+    "id": "moonlit-line",
+    "name": "Moonlit line",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A gentle line in the five-note scale of Vietnamese song",
+    "bpm": 70,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 10,
+      "lane": 5
+     },
+     {
+      "beat": 11,
+      "lane": 4
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 1
+     }
+    ],
+    "note": "Climbs gently and returns, with long notes to let each ring."
+   },
+   {
+    "id": "bright-run",
+    "name": "Bright run",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A quick, bright run up and down the neck",
+    "bpm": 112,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 0.5,
+      "lane": 1
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 1.5,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 2.5,
+      "lane": 5
+     },
+     {
+      "beat": 3,
+      "lane": 6
+     },
+     {
+      "beat": 3.5,
+      "lane": 7
+     },
+     {
+      "beat": 4,
+      "lane": 8
+     },
+     {
+      "beat": 4.5,
+      "lane": 7
+     },
+     {
+      "beat": 5,
+      "lane": 6
+     },
+     {
+      "beat": 5.5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 4
+     },
+     {
+      "beat": 6.5,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 1
+     },
+     {
+      "beat": 7.5,
+      "lane": 0
+     }
+    ],
+    "note": "Quick strokes on every half beat run up the strings and back."
+   },
+   {
+    "id": "answering-pairs",
+    "name": "Answering pairs",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Pairs of notes that answer each other",
+    "bpm": 84,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 0.5,
+      "lane": 2
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 0
+     },
+     {
+      "beat": 2.5,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 4.5,
+      "lane": 5
+     },
+     {
+      "beat": 5,
+      "lane": 6
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 6.5,
+      "lane": 5
+     },
+     {
+      "beat": 7,
+      "lane": 7
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 1
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ],
+    "note": "Two-note figures answer each other, high then low."
+   }
+  ]
+ },
+ "variant": "an-nguyet",
+ "players": "1"
+}

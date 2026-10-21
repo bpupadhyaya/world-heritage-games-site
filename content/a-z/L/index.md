@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with L"
-description: "60 entries beginning with L."
+description: "62 entries beginning with L."
 path: "/a-z/L/"
 ---
 # Entries beginning with L
@@ -46,6 +46,7 @@ path: "/a-z/L/"
 - [Limbo](../../games/58-limbo/index.md): Trinidad and Tobago; Dexterity and skill games; Modern Heritage
 - [Lippan kaam mud-and-mirror relief](../../games/259-lippan-kaam-mud-and-mirror-relief/index.md): India, Pakistan; Crafts and making; Living Traditions
 - [Lithuanian Durak variants](../../games/894-lithuanian-durak-variants/index.md): Lithuania; Card games; Age of Contact and Craft
+- [Litungu](../../games/3039-litungu/index.md): Kenya; Musical instruments; Classical Worlds
 - [Liubo](../../games/331-liubo/index.md): China; Board and table games; River Valleys and First Cities
 - [Lo Shu Magic Square](../../games/111-lo-shu-magic-square/index.md): China; Puzzles and mind games; Age of Contact and Craft
 - [Local mancala variants](../../games/698-local-mancala-variants/index.md): Equatorial Guinea; Board and table games; Deep Past and First Games
@@ -65,3 +66,4 @@ path: "/a-z/L/"
 - [Lusona Sand Drawings](../../games/113-lusona-sand-drawings/index.md): Angola, Zambia; Puzzles and mind games; Modern Heritage
 - [Luzhanqi](../../games/640-luzhanqi/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Luzzu Boat Painter](../../games/1330-luzzu-boat-painter/index.md): Malta; Crafts and making; Living Traditions
+- [Lyre](../../games/3064-lyre/index.md): Worldwide; Musical instruments; Classical Worlds

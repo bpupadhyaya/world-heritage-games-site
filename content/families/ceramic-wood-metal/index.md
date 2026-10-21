@@ -1,16 +1,16 @@
 ---
 title: "Pottery, wood and metal crafts"
-description: "86 related traditions."
+description: "88 related traditions."
 path: "/families/ceramic-wood-metal/"
-count: 86
+count: 88
 ---
 # Pottery, wood and metal crafts
 
-86 related traditions.
+88 related traditions.
 
 
 
-86 entries.
+88 entries.
 
 - [Albanian filigree](../../games/5102-albanian-filigree/index.md): Albania; Crafts and making; Living Traditions
 - [Ambalangoda mask carving](../../games/299-ambalangoda-mask-carving/index.md): Sri Lanka; Crafts and making; Living Traditions
@@ -57,6 +57,7 @@ count: 86
 - [Meenakari](../../games/5793-meenakari/index.md): India; Crafts and making; Living Traditions
 - [Najeon chilgi](../../games/367-najeon-chilgi/index.md): South Korea; Crafts and making; Living Traditions
 - [Omani Khanjar Silver Filigree](../../games/1351-omani-khanjar-silver-filigree/index.md): Oman; Crafts and making; Living Traditions
+- [Pack basket](../../games/3355-pack-basket/index.md): United States; Crafts and making; Living Traditions
 - [Palauan storyboard carving](../../games/1355-palauan-storyboard-carving/index.md): Palau; Crafts and making; Living Traditions
 - [Pamiri House Ceiling Raiser](../../games/1356-pamiri-house-ceiling-raiser/index.md): Tajikistan; Crafts and making; Living Traditions
 - [Pomaire pottery](../../games/6270-pomaire-pottery/index.md): Chile; Crafts and making; Living Traditions
@@ -92,6 +93,7 @@ count: 86
 - [Magimagi](../../games/10380-magimagi/index.md): Fiji; Crafts and making; Living Traditions
 - [Mata Ortiz pottery](../../games/10511-mata-ortiz-pottery/index.md): Mexico; Crafts and making; Living Traditions
 - [Minakari](../../games/6007-minakari/index.md): Iran; Crafts and making; Living Traditions
+- [Nantucket lightship basket](../../games/3230-nantucket-lightship-basket/index.md): United States; Crafts and making; Living Traditions
 - [Pottery of Metepec](../../games/10512-pottery-of-metepec/index.md): Mexico; Crafts and making; Living Traditions
 - [Pyeongyeong](../../games/11700-pyeongyeong/index.md): South Korea; Musical instruments; Living Traditions
 - [Székelykapu](../../games/11025-szekelykapu/index.md): Hungary; Crafts and making; Living Traditions

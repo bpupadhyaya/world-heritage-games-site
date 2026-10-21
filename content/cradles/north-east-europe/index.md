@@ -2,7 +2,7 @@
 title: "Northern and Eastern Europe"
 description: "Nordic, Baltic, Slavic and central European lands."
 path: "/cradles/north-east-europe/"
-count: 111
+count: 112
 ---
 # Northern and Eastern Europe
 
@@ -10,7 +10,7 @@ Nordic, Baltic, Slavic and central European lands.
 
 
 
-111 entries.
+112 entries.
 
 - [Alphorn Mountain Echo](../../games/140-alphorn-mountain-echo/index.md): Switzerland; Musical instruments; Living Traditions
 - [Alpine Yodel](../../games/509-alpine-yodel/index.md): Switzerland, Austria; Archery, throwing and target games; Classical Worlds
@@ -103,6 +103,7 @@ Nordic, Baltic, Slavic and central European lands.
 - [Trembita](../../games/1387-trembita/index.md): Ukraine; Musical instruments; Living Traditions
 - [Tromba marina](../../games/4201-tromba-marina/index.md): Germany, France; Musical instruments; Living Traditions
 - [Varpa](../../games/1396-varpa/index.md): Sweden; Dexterity and skill games; Modern Heritage
+- [Zhostovo painting](../../games/4460-zhostovo-painting/index.md): Russia; Crafts and making; Living Traditions
 - [Bargello](../../games/1706-bargello/index.md): Italy, Hungary; Crafts and making; Living Traditions
 - [Czech draughts](../../games/662-czech-draughts/index.md): Czechia; Board and table games; Crossroads and Golden Ages
 - [Estonian Durak](../../games/704-estonian-durak/index.md): Estonia; Card games; Age of Contact and Craft

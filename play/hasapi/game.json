@@ -1,0 +1,13 @@
+{
+ "slug": "hasapi",
+ "title": "Hasapi (Batak boat lute)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

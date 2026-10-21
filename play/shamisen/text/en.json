@@ -1,0 +1,27 @@
+{
+ "title": "Shamisen (three-string lute)",
+ "native": "三味線 / Shamisen",
+ "alt": [
+  "Samisen"
+ ],
+ "summary": "The shamisen is a Japanese three-string lute with a long, thin, fretless neck and a small, nearly square body covered with stretched skin. The player strikes the strings with a broad plectrum, which also slaps the skin and gives the instrument its sharp, snapping sound.",
+ "howToPlay": [
+  "Three strings run down the long neck, the thickest on the left. The neck has no frets, so each lane marks the spot where a finger presses.",
+  "A bead slides down the string to its spot. Strike the lane as the bead lands.",
+  "Open lanes at the top of the neck sound the string without pressing.",
+  "Try the open strings first, then the quick snaps, then the long and short line."
+ ],
+ "rules": [
+  "The notes come from a five-note scale: D, F, G, A and C, in two octaves.",
+  "Every phrase is played through twice.",
+  "A strike on the beat is perfect, a near one is good, and extra strikes cost points.",
+  "The tunes use two, three and four beats to the bar."
+ ],
+ "heritageNote": "The shamisen came to Japan about five hundred years ago and became the voice of folk song, storytelling and theatre. Players today still follow the old habit of tuning the strings to suit the singer.",
+ "countries": [
+  "Japan"
+ ],
+ "credits": [
+  "Tradition: the Japanese shamisen; phrases written for this game"
+ ]
+}

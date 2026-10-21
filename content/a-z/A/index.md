@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with A"
-description: "68 entries beginning with A."
+description: "69 entries beginning with A."
 path: "/a-z/A/"
 ---
 # Entries beginning with A
@@ -43,6 +43,7 @@ path: "/a-z/A/"
 - [American patchwork quilting](../../games/6356-american-patchwork-quilting/index.md): United States; Crafts and making; Living Traditions
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Ampe](../../games/747-ampe/index.md): Ghana, Togo; Dexterity and skill games; Modern Heritage
+- [Đàn nguyệt](../../games/1567-an-nguyet/index.md): Vietnam; Musical instruments; Crossroads and Golden Ages
 - [Anansi stories](../../games/22321-anansi-stories/index.md): Ghana; Performance and storytelling; Living Traditions
 - [Andada](../../games/700-andada/index.md): Eritrea; Board and table games; Deep Past and First Games
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions

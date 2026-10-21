@@ -1,0 +1,27 @@
+{
+  "title": "Madhubani painting",
+  "native": "मधुबनी",
+  "alt": [
+    "Mithila painting"
+  ],
+  "summary": "Madhubani, or Mithila, painting is a folk art of northern Bihar in India and the neighbouring plains of Nepal. Bold ink outlines, double lines and flat fields of colour fill the whole picture, with fish, birds, leaves and flowers set in pairs and framed by borders.",
+  "howToPlay": [
+    "The framed picture shows the finished piece to copy: a lotus or four fish, set in a leaf-and-flower frame.",
+    "Choose the ink, then press and drag along the lit lines: first the two-line frame, then the double outlines of the petals or fish. A slow, steady hand lays a fat line; dip again when it runs dry.",
+    "Fill the bands with hatching and dots where the picture shows them. Mirror paints the matching half for you.",
+    "Choose a colour and tap each shape to fill it with the colour shown in the picture."
+  ],
+  "rules": [
+    "There are four steps: the frame, the double-line outlines, the hatched and dotted bands, and the colour. Each step is scored on its own and the scores are averaged.",
+    "Ink score: how much of every guide line is covered by ink in the right place; stray ink outside the guides counts against you.",
+    "Colour score: how much of each shape holds its own colour. A colour tapped into the wrong shape does not count.",
+    "The picture is mirror-symmetric, so both halves should be painted alike; uneven halves lower the score a little.",
+    "Undo takes back your last stroke or fill. Doing nothing earns no stars."
+  ],
+  "heritageNote": "Madhubani painting comes from the Mithila region of Bihar, India, and the neighbouring plains of Nepal. Women painted house walls and later paper and cloth with colours made from plants, soot and earth, and the art is kept alive today by families and cooperatives.",
+  "countries": [
+    "India",
+    "Nepal"
+  ],
+  "credits": []
+}

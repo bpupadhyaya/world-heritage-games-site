@@ -1,0 +1,13 @@
+{
+ "slug": "nantucket-lightship-basket",
+ "title": "Lightship basket",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

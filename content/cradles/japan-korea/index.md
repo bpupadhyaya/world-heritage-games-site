@@ -2,7 +2,7 @@
 title: "Japan and Korea"
 description: "The island and peninsula traditions of Northeast Asia."
 path: "/cradles/japan-korea/"
-count: 86
+count: 88
 ---
 # Japan and Korea
 
@@ -10,10 +10,11 @@ The island and peninsula traditions of Northeast Asia.
 
 
 
-86 entries.
+88 entries.
 
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Baduk](../../games/1084-baduk/index.md): South Korea; Board and table games; Classical Worlds
+- [Biwa](../../games/1787-biwa/index.md): Japan; Musical instruments; Crossroads and Golden Ages
 - [Bojagi](../../games/363-bojagi/index.md): South Korea; Crafts and making; Living Traditions
 - [Bonsai](../../games/5376-bonsai/index.md): Japan; Crafts and making; Living Traditions
 - [Buchaechum](../../games/5396-buchaechum/index.md): South Korea; Dances; Living Traditions
@@ -65,6 +66,7 @@ The island and peninsula traditions of Northeast Asia.
 - [Sashiko Stitch Patterns](../../games/27-sashiko-stitch-patterns/index.md): Japan; Crafts and making; Living Traditions
 - [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds
+- [Shamisen](../../games/3786-shamisen/index.md): Japan; Musical instruments; Living Traditions
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md): Japan, India; Crafts and making; Living Traditions
 - [Shogi](../../games/852-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Ssireum](../../games/366-ssireum/index.md): South Korea; Wrestling and martial sports; River Valleys and First Cities

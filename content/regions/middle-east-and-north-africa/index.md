@@ -1,16 +1,16 @@
 ---
 title: "Middle East and North Africa"
-description: "115 entries."
+description: "116 entries."
 path: "/regions/middle-east-and-north-africa/"
-count: 115
+count: 116
 ---
 # Middle East and North Africa
 
-115 entries.
+116 entries.
 
 
 
-115 entries.
+116 entries.
 
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
 - [Al Talli Braid Embroidery](../../games/1273-al-talli-braid-embroidery/index.md): United Arab Emirates; Crafts and making; Living Traditions
@@ -54,6 +54,7 @@ count: 115
 - [Kharbaga](../../games/459-kharbaga/index.md): Morocco; Board and table games; Crossroads and Golden Ages
 - [Khatam inlay star pattern workshop](../../games/231-khatam-inlay-star-pattern-workshop/index.md): Iran; Crafts and making; Living Traditions
 - [Khayamiya Tentmaker Applique](../../games/217-khayamiya-tentmaker-applique/index.md): Egypt; Crafts and making; Living Traditions
+- [Kissar](../../games/2889-kissar/index.md): Egypt; Musical instruments; Classical Worlds
 - [Lezginka](../../games/250-lezginka/index.md): Worldwide; Dances; Living Traditions
 - [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
 - [Mangala](../../games/1164-mangala/index.md): Turkey; Board and table games; Deep Past and First Games

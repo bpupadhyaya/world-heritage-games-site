@@ -1,0 +1,299 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 196.0,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "greek-lyre",
+  "lanes": [
+   {
+    "name": "G3",
+    "id": "g3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e8b858",
+    "cents": 0
+   },
+   {
+    "name": "A3",
+    "id": "a3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#ddbb69",
+    "cents": 200
+   },
+   {
+    "name": "A#3",
+    "id": "as3-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d3bd7b",
+    "cents": 300
+   },
+   {
+    "name": "C4",
+    "id": "c4-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8c08c",
+    "cents": 500
+   },
+   {
+    "name": "D4",
+    "id": "d4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#bdc39d",
+    "cents": 700
+   },
+   {
+    "name": "E4",
+    "id": "e4-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#b3c5af",
+    "cents": 900
+   },
+   {
+    "name": "F4",
+    "id": "f4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a8c8c0",
+    "cents": 1000
+   }
+  ],
+  "songs": [
+   {
+    "id": "rising-verse",
+    "name": "Rising verse",
+    "watch": true,
+    "kind": "figure",
+    "bpm": 84,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 5,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 1
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 9,
+      "lane": 1
+     },
+     {
+      "beat": 10,
+      "lane": 2
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 13,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 1
+     }
+    ],
+    "heritage": "A teaching phrase in the style of the tradition, written for this game"
+   },
+   {
+    "id": "step-and-leap",
+    "name": "Step and leap",
+    "watch": false,
+    "kind": "figure",
+    "bpm": 80,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 1
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 9,
+      "lane": 2
+     },
+     {
+      "beat": 10,
+      "lane": 1
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 5
+     }
+    ],
+    "heritage": "A teaching phrase in the style of the tradition, written for this game"
+   },
+   {
+    "id": "falling-cadence",
+    "name": "Falling cadence",
+    "watch": false,
+    "kind": "figure",
+    "bpm": 76,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 6
+     },
+     {
+      "beat": 1,
+      "lane": 5
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 5
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 0
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 5
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ],
+    "heritage": "A teaching phrase in the style of the tradition, written for this game"
+   }
+  ]
+ }
+}

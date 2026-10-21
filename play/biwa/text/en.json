@@ -1,0 +1,27 @@
+{
+ "title": "Biwa (Japanese four-string lute)",
+ "native": "琵琶 / Biwa",
+ "alt": [
+  "Japanese lute"
+ ],
+ "summary": "The biwa is a Japanese lute with a broad pear-shaped body, a short neck and four silk strings. It is struck with a large wooden plectrum rather than plucked, and its few tall frets let a player press between them to bend a note upward. For centuries it has accompanied storytellers and court music alike.",
+ "howToPlay": [
+  "Four strings run down the short neck, the lowest on the left. Each lane marks where a note is played, from the open string to the fourth tall fret.",
+  "A bead slides down the string to its place. Strike the lane as the bead lands.",
+  "The notes come from a five-note scale with half steps, so neighbouring lanes can sit very close in pitch.",
+  "Try the slow telling line first, then the bold strike-and-answer, then the bending phrase."
+ ],
+ "rules": [
+  "The scale is D, E flat, G, A and B flat, in two octaves.",
+  "Every phrase is played through twice.",
+  "A strike on the beat is perfect, a near one is good, and extra strikes cost points.",
+  "The slow phrase leaves long pauses: wait for the bead."
+ ],
+ "heritageNote": "Biwa players have told stories and played for audiences in Japan for over a thousand years. Makers still carve the pear body from a single block and set the tall frets by hand, so each instrument has its own voice.",
+ "countries": [
+  "Japan"
+ ],
+ "credits": [
+  "Tradition: the Japanese biwa; phrases written for this game"
+ ]
+}

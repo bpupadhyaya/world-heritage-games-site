@@ -26,12 +26,12 @@ Games that belong to the same family tree: mancala, mill games, hunt games, drum
 - [Archery and target games](../families/target-games/index.md): 24 entries
 - [Tops, kites and spinning toys](../families/top-kite/index.md): 12 entries
 - [Puzzle and dexterity toys](../families/puzzle-dexterity/index.md): 128 entries
-- [String instruments](../families/string-instrument/index.md): 82 entries
+- [String instruments](../families/string-instrument/index.md): 91 entries
 - [Wind instruments](../families/wind-instrument/index.md): 50 entries
 - [Drums and percussion](../families/percussion/index.md): 77 entries
-- [Textile and weaving crafts](../families/textile/index.md): 97 entries
-- [Pottery, wood and metal crafts](../families/ceramic-wood-metal/index.md): 86 entries
-- [Paper, ink and painting crafts](../families/paper-ink/index.md): 100 entries
+- [Textile and weaving crafts](../families/textile/index.md): 98 entries
+- [Pottery, wood and metal crafts](../families/ceramic-wood-metal/index.md): 88 entries
+- [Paper, ink and painting crafts](../families/paper-ink/index.md): 103 entries
 - [Folk and line dances](../families/folk-dance/index.md): 26 entries
 - [Puppetry and shadow play](../families/puppetry/index.md): 6 entries
 - [Horse and animal sports](../families/horse-animal/index.md): 18 entries

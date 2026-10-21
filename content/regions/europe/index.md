@@ -1,16 +1,16 @@
 ---
 title: "Europe"
-description: "298 entries."
+description: "299 entries."
 path: "/regions/europe/"
-count: 298
+count: 299
 ---
 # Europe
 
-298 entries.
+299 entries.
 
 
 
-298 entries.
+299 entries.
 
 - [Albanian filigree](../../games/5102-albanian-filigree/index.md): Albania; Crafts and making; Living Traditions
 - [Alphorn Mountain Echo](../../games/140-alphorn-mountain-echo/index.md): Switzerland; Musical instruments; Living Traditions
@@ -243,6 +243,7 @@ count: 298
 - [Welsh Love Spoon Carving](../../games/414-welsh-love-spoon-carving/index.md): United Kingdom; Crafts and making; Living Traditions
 - [Windmill Miller](../../games/507-windmill-miller/index.md): Netherlands, Spain; Puzzles and mind games; River Valleys and First Cities
 - [Yalli](../../games/1400-yalli/index.md): Azerbaijan; Dances; Living Traditions
+- [Zhostovo painting](../../games/4460-zhostovo-painting/index.md): Russia; Crafts and making; Living Traditions
 - [Assisi embroidery](../../games/1623-assisi-embroidery/index.md): Italy; Crafts and making; Living Traditions
 - [Aubusson tapestry](../../games/10370-aubusson-tapestry/index.md): France; Crafts and making; Living Traditions
 - [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage

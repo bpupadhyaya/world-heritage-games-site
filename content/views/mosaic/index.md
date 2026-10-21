@@ -9,23 +9,23 @@ default: true
 
 Photo tiles for every region and kind of play; pick a tile to open its games.
 
-This is one of 4 views of the same 1,340 entries. The interactive view needs JavaScript; below is the same material as plain links.
+This is one of 4 views of the same 1,357 entries. The interactive view needs JavaScript; below is the same material as plain links.
 
 **Where in the world**
 
-- [Africa](../../regions/sub-saharan-africa/index.md): 224 entries
-- [Middle East and North Africa](../../regions/middle-east-and-north-africa/index.md): 115 entries
-- [South and Central Asia](../../regions/south-and-central-asia/index.md): 158 entries
-- [East and Southeast Asia](../../regions/east-and-southeast-asia/index.md): 265 entries
-- [Europe](../../regions/europe/index.md): 298 entries
-- [Americas](../../regions/americas/index.md): 187 entries
+- [Africa](../../regions/sub-saharan-africa/index.md): 226 entries
+- [Middle East and North Africa](../../regions/middle-east-and-north-africa/index.md): 116 entries
+- [South and Central Asia](../../regions/south-and-central-asia/index.md): 161 entries
+- [East and Southeast Asia](../../regions/east-and-southeast-asia/index.md): 270 entries
+- [Europe](../../regions/europe/index.md): 299 entries
+- [Americas](../../regions/americas/index.md): 191 entries
 - [Oceania and Pacific](../../regions/oceania-and-pacific/index.md): 61 entries
-- [Worldwide](../../regions/worldwide/index.md): 32 entries
+- [Worldwide](../../regions/worldwide/index.md): 33 entries
 
 **What kind of play**
 
-- [Music](../../types/instrument/index.md): 212 entries
-- [Crafts](../../types/craft/index.md): 342 entries
+- [Music](../../types/instrument/index.md): 221 entries
+- [Crafts](../../types/craft/index.md): 350 entries
 - Sports: 108 entries ([Team ball sports](../../types/team_ball/index.md), [Bat-and-ball games](../../types/bat_and_ball/index.md), [Racing](../../types/racing/index.md), [Wrestling and martial sports](../../types/wrestling_martial/index.md), [Archery, throwing and target games](../../types/archery_throwing/index.md), [Sports with animal partners](../../types/animal_partnered/index.md), [Water and winter sports](../../types/water_winter/index.md), [Acrobatics and strength](../../types/acrobatic/index.md))
 - [Board games](../../types/board_game/index.md): 227 entries
 - Street play: 168 entries ([Street and playground games](../../types/street_game/index.md), [Toys](../../types/toy/index.md))

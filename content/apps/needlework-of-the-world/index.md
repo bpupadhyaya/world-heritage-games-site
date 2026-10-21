@@ -12,6 +12,8 @@ Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, no ad
 ## The needlework crafts
 
 - [Chamba rumal embroidery](../../games/1252-chamba-rumal-embroidery/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/chamba-rumal-embroidery/
+- [Kasuti](../../games/2823-kasuti/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/kasuti/
 - [Kutch Embroidery](../../games/5761-kutch-embroidery/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/kutch-embroidery/
 - [Lambani Embroidery](../../games/5802-lambani-embroidery/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/lambani-embroidery/
+- [Pipili appliqué work](../../games/3483-pipili-applique-work/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/pipili-applique-work/
 - [Zardozi](../../games/5791-zardozi/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/zardozi/

@@ -2,7 +2,7 @@
 title: "Shared across the world"
 description: "Pastimes found in many cultures at once."
 path: "/cradles/worldwide/"
-count: 60
+count: 61
 ---
 # Shared across the world
 
@@ -10,7 +10,7 @@ Pastimes found in many cultures at once.
 
 
 
-60 entries.
+61 entries.
 
 - [Aranmula metal mirror](../../games/285-aranmula-metal-mirror/index.md): Worldwide; Crafts and making; Living Traditions
 - [Bamboo Copter](../../games/12-bamboo-copter/index.md): Worldwide; Toys; Modern Heritage
@@ -36,6 +36,7 @@ Pastimes found in many cultures at once.
 - [Luge and toboggan run](../../games/482-luge-and-toboggan-run/index.md): Worldwide; Racing; Age of Contact and Craft
 - [Lukasa memory board pattern game](../../games/197-lukasa-memory-board-pattern-game/index.md): Worldwide; Crafts and making; Living Traditions
 - [Lusheng](../../games/337-lusheng/index.md): Worldwide; Musical instruments; Living Traditions
+- [Lyre](../../games/3064-lyre/index.md): Worldwide; Musical instruments; Classical Worlds
 - [Malagasy lamba silk weaving](../../games/206-malagasy-lamba-silk-weaving/index.md): Worldwide; Crafts and making; Living Traditions
 - [Marimba](../../games/52-marimba/index.md): Worldwide; Musical instruments; Living Traditions
 - [Maze](../../games/6640-maze/index.md): Greece; Puzzles and mind games; Modern Heritage

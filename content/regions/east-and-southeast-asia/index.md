@@ -1,18 +1,19 @@
 ---
 title: "East and Southeast Asia"
-description: "265 entries."
+description: "270 entries."
 path: "/regions/east-and-southeast-asia/"
-count: 265
+count: 270
 ---
 # East and Southeast Asia
 
-265 entries.
+270 entries.
 
 
 
-265 entries.
+270 entries.
 
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Đàn nguyệt](../../games/1567-an-nguyet/index.md): Vietnam; Musical instruments; Crossroads and Golden Ages
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
 - [Aranmula metal mirror](../../games/285-aranmula-metal-mirror/index.md): Worldwide; Crafts and making; Living Traditions
 - [Arnis / Eskrima](../../games/323-arnis-eskrima/index.md): Philippines, Timor-Leste; Wrestling and martial sports; Classical Worlds
@@ -25,6 +26,7 @@ count: 265
 - [Batik wax-resist pattern studio](../../games/105-batik-wax-resist-pattern-studio/index.md): Indonesia, Malaysia; Crafts and making; Living Traditions
 - [Bentengan](../../games/326-bentengan/index.md): Indonesia; Board and table games; Deep Past and First Games
 - [Bianzhong](../../games/336-bianzhong/index.md): China; Musical instruments; Living Traditions
+- [Biwa](../../games/1787-biwa/index.md): Japan; Musical instruments; Crossroads and Golden Ages
 - [Bo Sang umbrella painting](../../games/1243-bo-sang-umbrella-painting/index.md): Thailand; Crafts and making; Living Traditions
 - [Bojagi](../../games/363-bojagi/index.md): South Korea; Crafts and making; Living Traditions
 - [Bökh](../../games/374-bokh/index.md): Mongolia; Wrestling and martial sports; River Valleys and First Cities
@@ -84,6 +86,7 @@ count: 265
 - [Hanetsuki](../../games/347-hanetsuki/index.md): Japan; Racing; Age of Contact and Craft
 - [Hangul syllable blocks](../../games/364-hangul-syllable-blocks/index.md): South Korea; Puzzles and mind games; Modern Heritage
 - [Hasami shogi](../../games/849-hasami-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
+- [Hasapi](../../games/2603-hasapi/index.md): Indonesia; Musical instruments; Crossroads and Golden Ages
 - [Hashi](../../games/360-hashi/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Hmong story cloth](../../games/1298-hmong-story-cloth/index.md): China, Laos; Crafts and making; Living Traditions
 - [Hong Kong Milk Tea Pulling](../../games/1463-hong-kong-milk-tea-pulling/index.md): China; Crafts and making; Living Traditions
@@ -150,6 +153,7 @@ count: 265
 - [Penghu Stone Weir Tide Puzzle](../../games/1479-penghu-stone-weir-tide-puzzle/index.md): Taiwan; Crafts and making; Living Traditions
 - [Peranakan beaded slippers](../../games/1358-peranakan-beaded-slippers/index.md): China, Singapore; Crafts and making; Living Traditions
 - [Phankhon](../../games/957-phankhon/index.md): Myanmar; Street and playground games; Modern Heritage
+- [Phin](../../games/3454-phin/index.md): Laos; Musical instruments; Crossroads and Golden Ages
 - [Phuang malai flower garland threading](../../games/309-phuang-malai-flower-garland-threading/index.md): Thailand; Crafts and making; Living Traditions
 - [Pinisi](../../games/327-pinisi/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
 - [Pipa](../../games/335-pipa/index.md): China; Musical instruments; Crossroads and Golden Ages
@@ -167,6 +171,7 @@ count: 265
 - [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Sepak takraw](../../games/802-sepak-takraw/index.md): Indonesia, Malaysia; Street and playground games; Modern Heritage
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds
+- [Shamisen](../../games/3786-shamisen/index.md): Japan; Musical instruments; Living Traditions
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md): Japan, India; Crafts and making; Living Traditions
 - [Sho](../../games/286-sho/index.md): China; Board and table games; River Valleys and First Cities
 - [Shogi](../../games/852-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages

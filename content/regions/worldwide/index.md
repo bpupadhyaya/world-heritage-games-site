@@ -1,16 +1,16 @@
 ---
 title: "Worldwide"
-description: "32 entries."
+description: "33 entries."
 path: "/regions/worldwide/"
-count: 32
+count: 33
 ---
 # Worldwide
 
-32 entries.
+33 entries.
 
 
 
-32 entries.
+33 entries.
 
 - [Bell chime](../../games/6539-bell-chime/index.md): Worldwide; Musical instruments; Living Traditions
 - [Bidriware silver inlay](../../games/274-bidriware-silver-inlay/index.md): Worldwide; Crafts and making; Living Traditions
@@ -24,6 +24,7 @@ count: 32
 - [Kisii soapstone carving](../../games/195-kisii-soapstone-carving/index.md): Worldwide; Crafts and making; Living Traditions
 - [Kondapalli village toys](../../games/276-kondapalli-village-toys/index.md): Worldwide; Crafts and making; Living Traditions
 - [Lukasa memory board pattern game](../../games/197-lukasa-memory-board-pattern-game/index.md): Worldwide; Crafts and making; Living Traditions
+- [Lyre](../../games/3064-lyre/index.md): Worldwide; Musical instruments; Classical Worlds
 - [Malagasy lamba silk weaving](../../games/206-malagasy-lamba-silk-weaving/index.md): Worldwide; Crafts and making; Living Traditions
 - [Musical glasses](../../games/6534-musical-glasses/index.md): Worldwide; Musical instruments; Classical Worlds
 - [Ocarina](../../games/6501-ocarina/index.md): Worldwide; Musical instruments; Classical Worlds

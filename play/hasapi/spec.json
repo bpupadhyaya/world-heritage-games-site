@@ -1,0 +1,280 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 293.66,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "hasapi",
+  "lanes": [
+   {
+    "name": "D4",
+    "cents": 0,
+    "id": "d4-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8403c",
+    "string": 0,
+    "fret": 0
+   },
+   {
+    "name": "E4",
+    "cents": 200,
+    "id": "e4-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d87c52",
+    "string": 0,
+    "fret": 2
+   },
+   {
+    "name": "F#4",
+    "cents": 400,
+    "id": "fs4-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e09a5d",
+    "string": 0,
+    "fret": 4
+   },
+   {
+    "name": "A4",
+    "cents": 700,
+    "id": "a4-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#b8c590",
+    "string": 1,
+    "fret": 0
+   },
+   {
+    "name": "B4",
+    "cents": 900,
+    "id": "b4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#9cc4a0",
+    "string": 1,
+    "fret": 2
+   },
+   {
+    "name": "D5",
+    "cents": 1200,
+    "id": "d5-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#58a0b8",
+    "string": 1,
+    "fret": 5
+   },
+   {
+    "name": "E5",
+    "cents": 1400,
+    "id": "e5-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#5a8cc8",
+    "string": 1,
+    "fret": 7
+   },
+   {
+    "name": "F#5",
+    "cents": 1600,
+    "id": "fs5-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a070b8",
+    "string": 1,
+    "fret": 9
+   }
+  ],
+  "songs": [
+   {
+    "id": "river-song",
+    "name": "River song",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A flowing line in the five-note scale of highland song",
+    "bpm": 76,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 6
+     },
+     {
+      "beat": 12,
+      "lane": 5
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 1
+     }
+    ],
+    "note": "Flows up the two strings like a river rising, then settles back."
+   },
+   {
+    "id": "twin-strings",
+    "name": "Twin strings",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "Quick notes that jump between the two strings",
+    "bpm": 108,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 0.5,
+      "lane": 3
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 1.5,
+      "lane": 4
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 2.5,
+      "lane": 5
+     },
+     {
+      "beat": 3,
+      "lane": 4
+     },
+     {
+      "beat": 3.5,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 0
+     },
+     {
+      "beat": 4.5,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 1
+     },
+     {
+      "beat": 5.5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 6
+     },
+     {
+      "beat": 6.5,
+      "lane": 5
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 7.5,
+      "lane": 0
+     }
+    ],
+    "note": "Notes leap from the low string to the high one and back."
+   },
+   {
+    "id": "slow-greeting",
+    "name": "Slow greeting",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A slow, wide line of long notes",
+    "bpm": 64,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 8,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 1
+     }
+    ],
+    "note": "Long notes spaced two beats apart, each left to ring."
+   }
+  ]
+ },
+ "variant": "hasapi",
+ "players": "1"
+}

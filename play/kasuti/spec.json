@@ -1,0 +1,164 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "kasuti",
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Chalk white",
+        "color": "#f2ede0"
+      },
+      {
+        "name": "Madder red",
+        "color": "#c4302b"
+      },
+      {
+        "name": "Leaf green",
+        "color": "#2f8a4e"
+      },
+      {
+        "name": "Saffron",
+        "color": "#e9a020"
+      },
+      {
+        "name": "Sky blue",
+        "color": "#4a90c8"
+      }
+    ],
+    "background": "#3b1d30",
+    "grid": "#2a1220",
+    "motifs": [
+      "diamond",
+      "zigzag",
+      "cross",
+      "star",
+      "hexagon",
+      "dot"
+    ],
+    "designs": [
+      {
+        "name": "Border of fenugreek and zigzag",
+        "rows": [
+          "a.b.c.b.a",
+          ".d.e.e.d.",
+          "b.f.a.f.b",
+          ".e.d.d.e.",
+          "c.a.f.a.c",
+          ".e.d.d.e.",
+          "b.f.a.f.b",
+          ".d.e.e.d.",
+          "a.b.c.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 3,
+            "c": 3
+          },
+          "d": {
+            "m": 2,
+            "c": 2
+          },
+          "e": {
+            "m": 5,
+            "c": 4
+          },
+          "f": {
+            "m": 4,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Chessboard of crosses",
+        "rows": [
+          "a.b.a.b.a",
+          ".c.c.c.c.",
+          "b.a.b.a.b",
+          ".c.d.d.c.",
+          "a.b.e.b.a",
+          ".c.d.d.c.",
+          "b.a.b.a.b",
+          ".c.c.c.c.",
+          "a.b.a.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 2,
+            "c": 1
+          },
+          "c": {
+            "m": 5,
+            "c": 4
+          },
+          "d": {
+            "m": 3,
+            "c": 3
+          },
+          "e": {
+            "m": 4,
+            "c": 2
+          }
+        }
+      },
+      {
+        "name": "Stepped diamonds",
+        "rows": [
+          "e.e.e.e.e",
+          ".d.d.d.d.",
+          "b.f.b.f.b",
+          ".d.a.a.d.",
+          "c.a.c.a.c",
+          ".d.a.a.d.",
+          "b.f.b.f.b",
+          ".d.d.d.d.",
+          "e.e.e.e.e"
+        ],
+        "legend": {
+          "a": {
+            "m": 0,
+            "c": 0
+          },
+          "b": {
+            "m": 1,
+            "c": 1
+          },
+          "c": {
+            "m": 3,
+            "c": 3
+          },
+          "d": {
+            "m": 2,
+            "c": 2
+          },
+          "e": {
+            "m": 5,
+            "c": 4
+          },
+          "f": {
+            "m": 4,
+            "c": 1
+          }
+        }
+      }
+    ]
+  },
+  "variant": "kasuti",
+  "players": "1"
+}

@@ -1,22 +1,23 @@
 ---
 title: "Egypt"
-description: "19 traditions from Egypt."
+description: "20 traditions from Egypt."
 path: "/countries/egypt/"
-count: 19
+count: 20
 ---
 # Egypt
 
-19 traditions from Egypt.
+20 traditions from Egypt.
 
 
 
-19 entries.
+20 entries.
 
 - [Aragoz Hand-Puppet Booth](../../games/222-aragoz-hand-puppet-booth/index.md): Egypt; Performance and storytelling; Classical Worlds
 - [Cafe dominoes](../../games/690-cafe-dominoes/index.md): Egypt; Board and table games; Crossroads and Golden Ages
 - [Darbuka Iqa'at Rhythm Drum](../../games/213-darbuka-iqaat-rhythm-drum/index.md): Egypt; Musical instruments; Living Traditions
 - [Egyptian Fractions and Doubling](../../games/215-egyptian-fractions-and-doubling/index.md): Egypt; Puzzles and mind games; Modern Heritage
 - [Khayamiya Tentmaker Applique](../../games/217-khayamiya-tentmaker-applique/index.md): Egypt; Crafts and making; Living Traditions
+- [Kissar](../../games/2889-kissar/index.md): Egypt; Musical instruments; Classical Worlds
 - [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
 - [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md): Egypt, Syria; Crafts and making; Living Traditions
 - [Mehen](../../games/4785-mehen/index.md): Egypt; Board and table games; Crossroads and Golden Ages

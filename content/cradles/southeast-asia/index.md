@@ -2,7 +2,7 @@
 title: "Southeast Asia and the Islands"
 description: "Mainland valleys and the island world from Sumatra to the Philippines."
 path: "/cradles/southeast-asia/"
-count: 107
+count: 110
 ---
 # Southeast Asia and the Islands
 
@@ -10,8 +10,9 @@ Mainland valleys and the island world from Sumatra to the Philippines.
 
 
 
-107 entries.
+110 entries.
 
+- [Đàn nguyệt](../../games/1567-an-nguyet/index.md): Vietnam; Musical instruments; Crossroads and Golden Ages
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
 - [Arnis / Eskrima](../../games/323-arnis-eskrima/index.md): Philippines, Timor-Leste; Wrestling and martial sports; Classical Worlds
 - [Bakiak](../../games/324-bakiak/index.md): Indonesia, Malaysia; Racing; Age of Contact and Craft
@@ -35,6 +36,7 @@ Mainland valleys and the island world from Sumatra to the Philippines.
 - [Gong ageng](../../games/2500-gong-ageng/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Gourd-crab dice](../../games/1213-gourd-crab-dice/index.md): Vietnam; Board and table games; River Valleys and First Cities
 - [Greasy pole climb](../../games/77-greasy-pole-climb/index.md): Indonesia; Performance and storytelling; Living Traditions
+- [Hasapi](../../games/2603-hasapi/index.md): Indonesia; Musical instruments; Crossroads and Golden Ages
 - [Independence-day field games](../../games/330-independence-day-field-games/index.md): Indonesia; Racing; Age of Contact and Craft
 - [Intha leg rowing on the lake](../../games/304-intha-leg-rowing-on-the-lake/index.md): Myanmar; Racing; Age of Contact and Craft
 - [Jeepney painting](../../games/1306-jeepney-painting/index.md): Philippines; Crafts and making; Living Traditions
@@ -57,6 +59,7 @@ Mainland valleys and the island world from Sumatra to the Philippines.
 - [Pencak silat](../../games/329-pencak-silat/index.md): Indonesia, Malaysia; Wrestling and martial sports; Classical Worlds
 - [Penghu Stone Weir Tide Puzzle](../../games/1479-penghu-stone-weir-tide-puzzle/index.md): Taiwan; Crafts and making; Living Traditions
 - [Phankhon](../../games/957-phankhon/index.md): Myanmar; Street and playground games; Modern Heritage
+- [Phin](../../games/3454-phin/index.md): Laos; Musical instruments; Crossroads and Golden Ages
 - [Phuang malai flower garland threading](../../games/309-phuang-malai-flower-garland-threading/index.md): Thailand; Crafts and making; Living Traditions
 - [Pinisi](../../games/327-pinisi/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
 - [Ranat ek](../../games/305-ranat-ek/index.md): Thailand; Musical instruments; Living Traditions

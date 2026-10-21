@@ -45,7 +45,7 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Chamba rumal embroidery](../../games/1252-chamba-rumal-embroidery/index.md)
 - [Jaapi weaving](../../games/1304-jaapi-weaving/index.md)
 - [Chanderi sari](../../games/1950-chanderi-sari/index.md)
-- [Kanchipuram Silk Sari](../../games/5756-kanchipuram-silk-sari/index.md)
+- [Kasuti](../../games/2823-kasuti/index.md)
 
 ## Sources
 

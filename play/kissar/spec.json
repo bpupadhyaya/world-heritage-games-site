@@ -1,0 +1,283 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 196.0,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "kissar",
+  "lanes": [
+   {
+    "name": "G3",
+    "id": "g3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e8a050",
+    "cents": 0
+   },
+   {
+    "name": "A3",
+    "id": "a3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#daac64",
+    "cents": 200
+   },
+   {
+    "name": "B3",
+    "id": "b3-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#ccb878",
+    "cents": 400
+   },
+   {
+    "name": "D4",
+    "id": "d4-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#bec48c",
+    "cents": 700
+   },
+   {
+    "name": "E4",
+    "id": "e4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#b0d0a0",
+    "cents": 900
+   }
+  ],
+  "songs": [
+   {
+    "id": "rising-phrase",
+    "name": "Rising phrase",
+    "watch": true,
+    "kind": "figure",
+    "bpm": 88,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 1
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 2
+     },
+     {
+      "beat": 5,
+      "lane": 4
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 7,
+      "lane": 1
+     },
+     {
+      "beat": 8,
+      "lane": 0
+     },
+     {
+      "beat": 9,
+      "lane": 1
+     },
+     {
+      "beat": 10,
+      "lane": 2
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 4
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 1
+     }
+    ],
+    "heritage": "A teaching phrase in the style of the tradition, written for this game"
+   },
+   {
+    "id": "call-and-answer",
+    "name": "Call and answer",
+    "watch": false,
+    "kind": "figure",
+    "bpm": 84,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 2
+     },
+     {
+      "beat": 1,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 4
+     },
+     {
+      "beat": 5,
+      "lane": 3
+     },
+     {
+      "beat": 6,
+      "lane": 1
+     },
+     {
+      "beat": 7,
+      "lane": 0
+     },
+     {
+      "beat": 8,
+      "lane": 2
+     },
+     {
+      "beat": 9,
+      "lane": 0
+     },
+     {
+      "beat": 10,
+      "lane": 2
+     },
+     {
+      "beat": 11,
+      "lane": 3
+     },
+     {
+      "beat": 12,
+      "lane": 4
+     },
+     {
+      "beat": 13,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 1
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ],
+    "heritage": "A teaching phrase in the style of the tradition, written for this game"
+   },
+   {
+    "id": "walking-down",
+    "name": "Walking down",
+    "watch": false,
+    "kind": "figure",
+    "bpm": 80,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 4
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 2,
+      "lane": 4
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 3
+     },
+     {
+      "beat": 5,
+      "lane": 1
+     },
+     {
+      "beat": 6,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 0
+     },
+     {
+      "beat": 8,
+      "lane": 4
+     },
+     {
+      "beat": 9,
+      "lane": 3
+     },
+     {
+      "beat": 10,
+      "lane": 4
+     },
+     {
+      "beat": 11,
+      "lane": 2
+     },
+     {
+      "beat": 12,
+      "lane": 3
+     },
+     {
+      "beat": 13,
+      "lane": 1
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ],
+    "heritage": "A teaching phrase in the style of the tradition, written for this game"
+   }
+  ]
+ }
+}

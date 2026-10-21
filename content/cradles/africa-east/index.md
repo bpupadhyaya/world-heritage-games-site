@@ -2,7 +2,7 @@
 title: "Africa: Great Lakes and Indian Ocean"
 description: "East Africa, the Great Lakes and the island world of the Indian Ocean."
 path: "/cradles/africa-east/"
-count: 52
+count: 54
 ---
 # Africa: Great Lakes and Indian Ocean
 
@@ -10,7 +10,7 @@ East Africa, the Great Lakes and the island world of the Indian Ocean.
 
 
 
-52 entries.
+54 entries.
 
 - [Adungu](../../games/186-adungu/index.md): Uganda; Musical instruments; Classical Worlds
 - [Agaseke basket weaving](../../games/89-agaseke-basket-weaving/index.md): Rwanda; Crafts and making; Living Traditions
@@ -36,6 +36,7 @@ East Africa, the Great Lakes and the island world of the Indian Ocean.
 - [Moraingy drum-and-strike duel](../../games/207-moraingy-drum-and-strike-duel/index.md): Madagascar; Wrestling and martial sports; Classical Worlds
 - [Ngalawa outrigger sailing](../../games/1259-ngalawa-outrigger-sailing/index.md): Comoros; Racing; Age of Contact and Craft
 - [Nyatiti Luo lyre](../../games/1349-nyatiti-luo-lyre/index.md): Kenya; Musical instruments; Classical Worlds
+- [Obokano](../../games/3292-obokano/index.md): Kenya; Musical instruments; Classical Worlds
 - [Savika](../../games/905-savika/index.md): Madagascar; Street and playground games; River Valleys and First Cities
 - [Sega ravanne drum](../../games/199-sega-ravanne-drum/index.md): Mauritius; Musical instruments; Modern Heritage
 - [Siwa horn](../../games/7212-siwa-horn/index.md): Kenya; Musical instruments; Living Traditions
@@ -55,6 +56,7 @@ East Africa, the Great Lakes and the island world of the Indian Ocean.
 - [Kankobele](../../games/18085-kankobele/index.md): Zambia; Musical instruments; Living Traditions
 - [Keram](../../games/1137-keram/index.md): Tanzania; Dexterity and skill games; Modern Heritage
 - [Kibao](../../games/1138-kibao/index.md): Tanzania; Street and playground games; Deep Past and First Games
+- [Litungu](../../games/3039-litungu/index.md): Kenya; Musical instruments; Classical Worlds
 - [Makonn](../../games/1065-makonn/index.md): Seychelles; Board and table games; Deep Past and First Games
 - [Namalwa friction drum](../../games/7919-namalwa-friction-drum/index.md): Zambia; Musical instruments; Living Traditions
 - [Nsolo](../../games/1220-nsolo/index.md): Zambia, Malawi; Board and table games; Deep Past and First Games

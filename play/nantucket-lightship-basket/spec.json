@@ -1,0 +1,29 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "basket",
+  "scene": "bk-nantucket",
+  "form": "lightship",
+  "style": "rattan",
+  "motif": "bands",
+  "stitches": 15,
+  "rows": 7,
+  "period": 6,
+  "colors": 3,
+  "leather": "#4a2e16",
+  "palette": [
+   {
+    "name": "Rattan",
+    "color": "#dcb878"
+   },
+   {
+    "name": "Dark",
+    "color": "#6a4220"
+   },
+   {
+    "name": "Rust",
+    "color": "#a05a2a"
+   }
+  ]
+ }
+}

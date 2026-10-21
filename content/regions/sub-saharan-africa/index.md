@@ -1,16 +1,16 @@
 ---
 title: "Sub-Saharan Africa"
-description: "224 entries."
+description: "226 entries."
 path: "/regions/sub-saharan-africa/"
-count: 224
+count: 226
 ---
 # Sub-Saharan Africa
 
-224 entries.
+226 entries.
 
 
 
-224 entries.
+226 entries.
 
 - [Abula](../../games/985-abula/index.md): Nigeria; Street and playground games; Modern Heritage
 - [Acadja Fish Park](../../games/1223-acadja-fish-park/index.md): Benin; Board and table games; Crossroads and Golden Ages
@@ -115,6 +115,7 @@ count: 224
 - [Nhodo](../../games/1346-nhodo/index.md): Zimbabwe; Dexterity and skill games; Deep Past and First Games
 - [Nyatiti Luo lyre](../../games/1349-nyatiti-luo-lyre/index.md): Kenya; Musical instruments; Classical Worlds
 - [Nzango](../../games/1422-nzango/index.md): Congo; Board and table games; Crossroads and Golden Ages
+- [Obokano](../../games/3292-obokano/index.md): Kenya; Musical instruments; Classical Worlds
 - [Ogooué river pirogue journey](../../games/1423-ogooue-river-pirogue-journey/index.md): Gabon; Racing; Crossroads and Golden Ages
 - [Oualata Wall Painting](../../games/1352-oualata-wall-painting/index.md): Mauritania; Crafts and making; Living Traditions
 - [Oware](../../games/749-oware/index.md): Ghana; Board and table games; Deep Past and First Games
@@ -196,6 +197,7 @@ count: 224
 - [Kuli](../../games/1041-kuli/index.md): Congo; Street and playground games; Modern Heritage
 - [Layli Goobalay](../../games/675-layli-goobalay/index.md): Djibouti, Somalia; Board and table games; Deep Past and First Games
 - [Lepapata kudu horn](../../games/6903-lepapata-kudu-horn/index.md): Botswana; Musical instruments; Crossroads and Golden Ages
+- [Litungu](../../games/3039-litungu/index.md): Kenya; Musical instruments; Classical Worlds
 - [Local mancala variants](../../games/698-local-mancala-variants/index.md): Equatorial Guinea; Board and table games; Deep Past and First Games
 - [Makonn](../../games/1065-makonn/index.md): Seychelles; Board and table games; Deep Past and First Games
 - [Mancala-type sowing games](../../games/626-mancala-type-sowing-games/index.md): Central African Republic; Board and table games; Deep Past and First Games

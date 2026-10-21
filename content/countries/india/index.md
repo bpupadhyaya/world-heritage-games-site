@@ -1,16 +1,16 @@
 ---
 title: "India"
-description: "75 traditions from India."
+description: "78 traditions from India."
 path: "/countries/india/"
-count: 75
+count: 78
 ---
 # India
 
-75 traditions from India.
+78 traditions from India.
 
 
 
-75 entries.
+78 entries.
 
 - [Bandhani tie-dye](../../games/258-bandhani-tie-dye/index.md): India; Crafts and making; Living Traditions
 - [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md): India, Nepal; Musical instruments; Classical Worlds
@@ -33,6 +33,7 @@ count: 75
 - [Kambala](../../games/80-kambala/index.md): India; Racing; Age of Contact and Craft
 - [Kanchipuram Silk Sari](../../games/5756-kanchipuram-silk-sari/index.md): India; Crafts and making; Living Traditions
 - [Kashmiri papier-mache painting](../../games/269-kashmiri-papier-mache-painting/index.md): India; Crafts and making; Living Traditions
+- [Kasuti](../../games/2823-kasuti/index.md): India; Crafts and making; Living Traditions
 - [Kathak tatkar footwork rhythm](../../games/267-kathak-tatkar-footwork-rhythm/index.md): India, Pakistan; Other traditions; Living Traditions
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md): India; Performance and storytelling; Classical Worlds
 - [Kho-Kho](../../games/15-kho-kho/index.md): India, Nepal; Street and playground games; Modern Heritage
@@ -42,6 +43,7 @@ count: 75
 - [Lagori](../../games/14-lagori/index.md): India; Street and playground games; Modern Heritage
 - [Letter Categories](../../games/472-letter-categories/index.md): Germany, India; Racing; Age of Contact and Craft
 - [Lippan kaam mud-and-mirror relief](../../games/259-lippan-kaam-mud-and-mirror-relief/index.md): India, Pakistan; Crafts and making; Living Traditions
+- [Madhubani art](../../games/3074-madhubani-art/index.md): India; Crafts and making; Living Traditions
 - [Mallakhamb](../../games/150-mallakhamb/index.md): India; Dexterity and skill games; Modern Heritage
 - [Meenakari](../../games/5793-meenakari/index.md): India; Crafts and making; Living Traditions
 - [Mehndi henna pattern drawing](../../games/260-mehndi-henna-pattern-drawing/index.md): India, Pakistan; Crafts and making; Living Traditions
@@ -83,6 +85,7 @@ count: 75
 - [Mekhela sador weaving](../../games/21161-mekhela-sador-weaving/index.md): India; Crafts and making; Living Traditions
 - [One Arrow Oath](../../games/22334-one-arrow-oath/index.md): India; Other traditions; Modern Heritage
 - [Pachisi](../../games/797-pachisi/index.md): India; Board and table games; River Valleys and First Cities
+- [Pipili appliqué work](../../games/3483-pipili-applique-work/index.md): India; Crafts and making; Living Traditions
 - [Snakes and Ladders](../../games/796-snakes-and-ladders/index.md): India; Board and table games; River Valleys and First Cities
 - [Thaikkal Rattan Craft](../../games/15490-thaikkal-rattan-craft/index.md): India; Crafts and making; Living Traditions
 - [The Road to Lanka](../../games/22330-the-road-to-lanka/index.md): India, Sri Lanka; Performance and storytelling; Modern Heritage

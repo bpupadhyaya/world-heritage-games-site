@@ -1,16 +1,16 @@
 ---
 title: "Paper, ink and painting crafts"
-description: "100 related traditions."
+description: "103 related traditions."
 path: "/families/paper-ink/"
-count: 100
+count: 103
 ---
 # Paper, ink and painting crafts
 
-100 related traditions.
+103 related traditions.
 
 
 
-100 entries.
+103 entries.
 
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md): Ghana, Cote d'Ivoire; Crafts and making; Living Traditions
 - [Ajrak block printing](../../games/1226-ajrak-block-printing/index.md): Pakistan; Crafts and making; Living Traditions
@@ -68,6 +68,7 @@ count: 100
 - [Luzzu Boat Painter](../../games/1330-luzzu-boat-painter/index.md): Malta; Crafts and making; Living Traditions
 - [Maamoul Cookie Moulding](../../games/225-maamoul-cookie-moulding/index.md): Lebanon, Syria; Crafts and making; Living Traditions
 - [Macau wave pavement](../../games/372-macau-wave-pavement/index.md): Portugal; Crafts and making; Living Traditions
+- [Madhubani art](../../games/3074-madhubani-art/index.md): India; Crafts and making; Living Traditions
 - [Maedeup](../../games/1468-maedeup/index.md): South Korea; Crafts and making; Living Traditions
 - [Mashrabiya Lattice Joinery](../../games/214-mashrabiya-lattice-joinery/index.md): Egypt, Syria; Crafts and making; Living Traditions
 - [Masi bark-cloth stencil printing](../../games/1279-masi-bark-cloth-stencil-printing/index.md): Fiji; Crafts and making; Living Traditions
@@ -94,6 +95,7 @@ count: 100
 - [Ribbon-Pole Plaiting Dance](../../games/512-ribbon-pole-plaiting-dance/index.md): United Kingdom, Germany; Dances; Living Traditions
 - [Rosemaling](../../games/120-rosemaling/index.md): Norway; Crafts and making; Living Traditions
 - [Sailor's Knotwork and Turk's Head](../../games/112-sailors-knotwork-and-turks-head/index.md): Worldwide; Crafts and making; Living Traditions
+- [Screen painting](../../games/3759-screen-painting/index.md): United States; Crafts and making; Living Traditions
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md): Japan, India; Crafts and making; Living Traditions
 - [Sicilian Cart Painting](../../games/399-sicilian-cart-painting/index.md): Italy; Crafts and making; Living Traditions
 - [Sierra Leone Country Cloth Strip Loom](../../games/1372-sierra-leone-country-cloth-strip-loom/index.md): Sierra Leone; Crafts and making; Living Traditions
@@ -106,6 +108,7 @@ count: 100
 - [Ukulele strum-along](../../games/144-ukulele-strum-along/index.md): United States, Portugal; Musical instruments; Living Traditions
 - [Warli painting](../../games/117-warli-painting/index.md): India; Crafts and making; Living Traditions
 - [Washi Papermaking](../../games/497-washi-papermaking/index.md): Japan, Nepal; Crafts and making; Living Traditions
+- [Zhostovo painting](../../games/4460-zhostovo-painting/index.md): Russia; Crafts and making; Living Traditions
 - [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md): South Africa; Crafts and making; Living Traditions
 - [Dumbara Mats](../../games/5702-dumbara-mats/index.md): Sri Lanka; Crafts and making; Living Traditions
 - [Hanji paper making](../../games/14592-hanji-paper-making/index.md): South Korea; Crafts and making; Living Traditions

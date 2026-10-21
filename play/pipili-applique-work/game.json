@@ -1,0 +1,13 @@
+{
+ "slug": "pipili-applique-work",
+ "title": "Pipili appliqu\u00e9",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with S"
-description: "123 entries beginning with S."
+description: "125 entries beginning with S."
 path: "/a-z/S/"
 ---
 # Entries beginning with S
@@ -26,6 +26,7 @@ path: "/a-z/S/"
 - [Scarf-ball toss](../../games/614-scarf-ball-toss/index.md): Cambodia; Street and playground games; Modern Heritage
 - [Schuhplattler](../../games/410-schuhplattler/index.md): Germany, Austria; Dances; Living Traditions
 - [Scopa](../../games/832-scopa/index.md): Italy, San Marino; Card games; Age of Contact and Craft
+- [Screen painting](../../games/3759-screen-painting/index.md): United States; Crafts and making; Living Traditions
 - [Seal carving](../../games/341-seal-carving/index.md): China; Crafts and making; Living Traditions
 - [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Seed throwing](../../games/612-seed-throwing/index.md): Cambodia; Dexterity and skill games; Deep Past and First Games
@@ -38,6 +39,7 @@ path: "/a-z/S/"
 - [Seven-Key Cabinet Puzzle](../../games/1432-seven-key-cabinet-puzzle/index.md): Andorra; Performance and storytelling; Living Traditions
 - [Seven-pebble toss game](../../games/620-seven-pebble-toss-game/index.md): Cameroon; Dexterity and skill games; Deep Past and First Games
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds
+- [Shamisen](../../games/3786-shamisen/index.md): Japan; Musical instruments; Living Traditions
 - [Shan seed-treadle loom](../../games/18903-shan-seed-treadle-loom/index.md): Myanmar; Crafts and making; Living Traditions
 - [Shashki](../../games/1177-shashki/index.md): Ukraine, Belarus; Board and table games; Crossroads and Golden Ages
 - [Shashki / chess](../../games/1206-shashki-chess/index.md): Uzbekistan; Board and table games; Classical Worlds

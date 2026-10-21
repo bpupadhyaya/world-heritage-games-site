@@ -1,0 +1,318 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "strings",
+  "mode": "follow",
+  "root": 146.83,
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "shamisen",
+  "lanes": [
+   {
+    "name": "D3",
+    "cents": 0,
+    "id": "d3-0",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#c8403c",
+    "string": 0,
+    "fret": 0
+   },
+   {
+    "name": "F3",
+    "cents": 300,
+    "id": "f3-1",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d05e47",
+    "string": 0,
+    "fret": 3
+   },
+   {
+    "name": "G3",
+    "cents": 500,
+    "id": "g3-2",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#e09a5d",
+    "string": 1,
+    "fret": 0
+   },
+   {
+    "name": "A3",
+    "cents": 700,
+    "id": "a3-3",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#d4c780",
+    "string": 0,
+    "fret": 7
+   },
+   {
+    "name": "C4",
+    "cents": 1000,
+    "id": "c4-4",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#9cc4a0",
+    "string": 1,
+    "fret": 5
+   },
+   {
+    "name": "D4",
+    "cents": 1200,
+    "id": "d4-5",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7ca6a4",
+    "string": 2,
+    "fret": 0
+   },
+   {
+    "name": "F4",
+    "cents": 1500,
+    "id": "f4-6",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#58a0b8",
+    "string": 2,
+    "fret": 3
+   },
+   {
+    "name": "G4",
+    "cents": 1700,
+    "id": "g4-7",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#7a78c8",
+    "string": 2,
+    "fret": 5
+   },
+   {
+    "name": "A4",
+    "cents": 1900,
+    "id": "a4-8",
+    "timbre": "pluck",
+    "dur": 0.9,
+    "color": "#a070b8",
+    "string": 2,
+    "fret": 7
+   }
+  ],
+  "songs": [
+   {
+    "id": "open-strings",
+    "name": "Open strings",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A plain figure built from the three open strings",
+    "bpm": 92,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 1,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 5
+     },
+     {
+      "beat": 3,
+      "lane": 2
+     },
+     {
+      "beat": 4,
+      "lane": 0
+     },
+     {
+      "beat": 5,
+      "lane": 2
+     },
+     {
+      "beat": 6,
+      "lane": 5
+     },
+     {
+      "beat": 7,
+      "lane": 7
+     },
+     {
+      "beat": 8,
+      "lane": 8
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 5
+     },
+     {
+      "beat": 12,
+      "lane": 2
+     },
+     {
+      "beat": 13,
+      "lane": 3
+     },
+     {
+      "beat": 14,
+      "lane": 2
+     },
+     {
+      "beat": 15,
+      "lane": 0
+     }
+    ],
+    "note": "Starts on the open strings and climbs to the high notes before settling back."
+   },
+   {
+    "id": "quick-snaps",
+    "name": "Quick snaps",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A fast two-beat figure of short, sharp strokes",
+    "bpm": 126,
+    "meter": 2,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 0.5,
+      "lane": 2
+     },
+     {
+      "beat": 1,
+      "lane": 3
+     },
+     {
+      "beat": 1.5,
+      "lane": 2
+     },
+     {
+      "beat": 2,
+      "lane": 5
+     },
+     {
+      "beat": 2.5,
+      "lane": 6
+     },
+     {
+      "beat": 3,
+      "lane": 7
+     },
+     {
+      "beat": 3.5,
+      "lane": 6
+     },
+     {
+      "beat": 4,
+      "lane": 8
+     },
+     {
+      "beat": 4.5,
+      "lane": 7
+     },
+     {
+      "beat": 5,
+      "lane": 6
+     },
+     {
+      "beat": 5.5,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 3
+     },
+     {
+      "beat": 6.5,
+      "lane": 2
+     },
+     {
+      "beat": 7,
+      "lane": 1
+     },
+     {
+      "beat": 7.5,
+      "lane": 0
+     }
+    ],
+    "note": "Strokes land on every half beat, each as sharp as a snapped finger."
+   },
+   {
+    "id": "long-and-short",
+    "name": "Long and short",
+    "watch": true,
+    "kind": "figure",
+    "heritage": "A song-like line with long and short notes",
+    "bpm": 76,
+    "meter": 4,
+    "length": 16,
+    "steps": [
+     {
+      "beat": 0,
+      "lane": 0
+     },
+     {
+      "beat": 2,
+      "lane": 2
+     },
+     {
+      "beat": 3,
+      "lane": 3
+     },
+     {
+      "beat": 4,
+      "lane": 5
+     },
+     {
+      "beat": 6,
+      "lane": 4
+     },
+     {
+      "beat": 7,
+      "lane": 3
+     },
+     {
+      "beat": 8,
+      "lane": 6
+     },
+     {
+      "beat": 9,
+      "lane": 7
+     },
+     {
+      "beat": 10,
+      "lane": 8
+     },
+     {
+      "beat": 12,
+      "lane": 6
+     },
+     {
+      "beat": 14,
+      "lane": 3
+     },
+     {
+      "beat": 15,
+      "lane": 1
+     }
+    ],
+    "note": "Notes of different lengths follow one another like a sung line."
+   }
+  ]
+ },
+ "variant": "shamisen",
+ "players": "1"
+}

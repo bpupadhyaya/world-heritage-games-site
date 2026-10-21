@@ -34936,6 +34936,38 @@
    }
   },
   {
+   "id": 1567,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/1567-an-nguyet/",
+   "name": "Đàn nguyệt",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Vietnam"
+   ],
+   "country_codes": [
+    "VN"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Southeast Asia and the Islands",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Southeast Asia and the Islands.",
+   "summary": "The moon lute is a Vietnamese lute whose body is a perfectly round disc, like a full moon. It has a short neck with tall frets and two pairs of strings tuned a fifth apart. Its clear, glassy tone carries melodies in folk song and chamber music.",
+   "how_played": "Two pairs of strings run up the neck, the lower pair on the left. Each lane marks the fret where a note is played. A bead slides down the strings to its fret. Pluck the lane as the bead lands.",
+   "heritage_note": "Part of the living heritage of Vietnam.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/%C4%90%C3%A0n_nguy%E1%BB%87t"
+   ],
+   "photo": {
+    "file": "img/photos/01567-an-nguyet.jpg",
+    "author": "Jean-Pierre Dalbéra from Paris, France",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flickr_-_dalbera_-_Huong_Thanh_Trio,_(mus%C3%A9e_Guimet,_Paris)_(1).jpg"
+   }
+  },
+  {
    "id": 1623,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/1623-assisi-embroidery/",
    "name": "Assisi embroidery",
@@ -34990,6 +35022,38 @@
     "https://en.wikipedia.org/wiki/Bargello_(needlework)"
    ],
    "photo": null
+  },
+  {
+   "id": 1787,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/1787-biwa/",
+   "name": "Biwa",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Japan"
+   ],
+   "country_codes": [
+    "JP"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Japan and Korea",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Japan and Korea.",
+   "summary": "The biwa is a Japanese lute with a broad pear-shaped body, a short neck and four silk strings. It is struck with a large wooden plectrum rather than plucked, and its few tall frets let a player press between them to bend a note upward. For centuries it has accompanied storytellers and court music alike.",
+   "how_played": "Four strings run down the short neck, the lowest on the left. Each lane marks where a note is played, from the open string to the fourth tall fret. A bead slides down the string to its place. Strike the lane as the bead lands.",
+   "heritage_note": "Part of the living heritage of Japan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Biwa"
+   ],
+   "photo": {
+    "file": "img/photos/01787-biwa.jpg",
+    "author": "日: Jnn",
+    "licence": "CC BY 2.1 jp",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gifujyou5848.JPG"
+   }
   },
   {
    "id": 1814,
@@ -35564,6 +35628,70 @@
    }
   },
   {
+   "id": 2603,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/2603-hasapi/",
+   "name": "Hasapi",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Indonesia"
+   ],
+   "country_codes": [
+    "ID"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Southeast Asia and the Islands",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Southeast Asia and the Islands.",
+   "summary": "The hasapi is a two-string lute of the Batak people of Sumatra. Its body is carved from one piece of wood in the shape of a small boat, and a few raised frets mark the notes of the song scale. Players pluck quick patterns that answer each other across the two strings.",
+   "how_played": "Two strings run up the neck, the lower on the left. Each lane marks the fret where a note is played. A bead slides down the string to its fret. Pluck the lane as the bead lands.",
+   "heritage_note": "Part of the living heritage of Indonesia.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hasapi"
+   ],
+   "photo": {
+    "file": "img/photos/02603-hasapi.jpg",
+    "author": "Tropenmuseum",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Langhalsluit_met_twee_snaren_TMnr_1772-176.jpg"
+   }
+  },
+  {
+   "id": 2619,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/2619-hex-sign/",
+   "name": "Hex sign",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United States"
+   ],
+   "country_codes": [
+    "US"
+   ],
+   "region": "Americas",
+   "type": "Crafts and making",
+   "family": "",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "The Americas: North America",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of The Americas: North America.",
+   "summary": "Hex signs are round painted discs on barns in Pennsylvania, drawn with a compass and a rule. Eight-pointed stars, rosettes and tulips are filled in red, blue, yellow, green and white.",
+   "how_played": "Paint a barn star: three rings, an eight-pointed star set by compass, petals in red, blue, yellow and green and a ring of white dots.",
+   "heritage_note": "Part of the living heritage of United States.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hex_sign"
+   ],
+   "photo": {
+    "file": "img/photos/02619-hex-sign.jpg",
+    "author": "Smallbones",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:12_pointed_Compass_Rose_Zook.jpg"
+   }
+  },
+  {
    "id": 2620,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/2620-hichiriki/",
    "name": "Hichiriki",
@@ -35699,6 +35827,70 @@
    }
   },
   {
+   "id": 2823,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/2823-kasuti/",
+   "name": "Kasuti",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "India"
+   ],
+   "country_codes": [
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Crafts and making",
+   "family": "Textile and weaving crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of South Asia.",
+   "summary": "Kasuti is the counted-thread embroidery of Karnataka, in southern India. Makers count the threads of the cloth and work tiny straight stitches in single rows, so the pattern looks the same on both faces; traditional border and chessboard motifs repeat in red, green and white on dark cloth.",
+   "how_played": "Pick a thread colour and a stitch pattern from the tray. its mirror partners are stitched too.",
+   "heritage_note": "Part of the living heritage of India.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kasuti"
+   ],
+   "photo": {
+    "file": "img/photos/02823-kasuti.jpg",
+    "author": "Kannadiga",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E0%B2%B0%E0%B2%B5%E0%B2%BF%E0%B2%95%E0%B3%86_-_%E0%B2%B5%26%E0%B2%85_%E0%B2%AE%E0%B3%81%E0%B2%B8%E0%B3%86%E0%B2%89%E0%B2%AE%E0%B3%8D.jpg"
+   }
+  },
+  {
+   "id": 2889,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/2889-kissar/",
+   "name": "Kissar",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Egypt"
+   ],
+   "country_codes": [
+    "EG"
+   ],
+   "region": "Middle East and North Africa",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Africa: Nile and the Horn",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Africa: Nile and the Horn.",
+   "summary": "The kissar is the bowl lyre of the Nile valley. A round wooden bowl is covered with hide and laced at the edge; two slim arms rise from it and carry a crossbar, and five strings run from leather-wrapped ties on the bar down over a bridge to a tail cord. It is plucked with the fingers to accompany songs.",
+   "how_played": "Five strings run from the crossbar down to the bridge, the lowest on the left. Each lane marks a place to pluck a string. A bead slides down a string. Pluck the lane just as the bead lands on it.",
+   "heritage_note": "Part of the living heritage of Egypt.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kissar"
+   ],
+   "photo": {
+    "file": "img/photos/02889-kissar.jpg",
+    "author": "Zenit",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kissar.JPG"
+   }
+  },
+  {
    "id": 2918,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/2918-kombu/",
    "name": "Kombu",
@@ -35787,6 +35979,95 @@
     "author": "Hsz282",
     "licence": "CC BY 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Lali-Suva-Fiji.jpg"
+   }
+  },
+  {
+   "id": 3039,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3039-litungu/",
+   "name": "Litungu",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Kenya"
+   ],
+   "country_codes": [
+    "KE"
+   ],
+   "region": "Sub-Saharan Africa",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Africa: Great Lakes and Indian Ocean",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Africa: Great Lakes and Indian Ocean.",
+   "summary": "The litungu is the lyre of the Luhya people of Kenya. A deep round bowl of pale wood is covered with a skin that has one sound hole, and two tall arms sweep out and curl in toward a slim crossbar. Eight strings are tied on with dark cuffs. The wood is burnt with black patterns.",
+   "how_played": "Eight strings run from the cuffs on the crossbar down to the bridge, the lowest on the left. Each lane marks a place to pluck a string. A bead slides down a string. Pluck the lane as it lands.",
+   "heritage_note": "Part of the living heritage of Kenya.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Litungu"
+   ],
+   "photo": null
+  },
+  {
+   "id": 3064,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3064-lyre/",
+   "name": "Lyre",
+   "native": "",
+   "alt": [],
+   "countries": [],
+   "country_codes": [],
+   "region": "Worldwide",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Shared across the world",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain.",
+   "summary": "The lyre of ancient Greece has a body made from a tortoise shell, with two curved horn arms and a pale crossbar. Seven strings run from rolled cuffs on the bar over a bridge to the tail. It is held upright and plucked, often to accompany song and verse.",
+   "how_played": "Seven strings run from the crossbar to the bridge, the lowest on the left. Each lane marks a place to pluck a string. A bead slides down a string. Pluck the lane as it lands.",
+   "heritage_note": "A tradition shared by communities in many places.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lyre"
+   ],
+   "photo": {
+    "file": "img/photos/03064-lyre.jpg",
+    "author": "Achilles Painter",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mousai_Helikon_Staatliche_Antikensammlungen_Schoen80_n1.jpg"
+   }
+  },
+  {
+   "id": 3074,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3074-madhubani-art/",
+   "name": "Madhubani art",
+   "native": "",
+   "alt": [
+    "['Mithila art']"
+   ],
+   "countries": [
+    "India"
+   ],
+   "country_codes": [
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Crafts and making",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of South Asia.",
+   "summary": "Madhubani, or Mithila, painting is a folk art of northern Bihar in India and the neighbouring plains of Nepal. Bold ink outlines, double lines and flat fields of colour fill the whole picture, with fish, birds, leaves and flowers set in pairs and framed by borders.",
+   "how_played": "The framed picture shows the finished piece to copy: a lotus or four fish, set in a leaf-and-flower frame. Choose the ink, then press and drag along the lit lines: first the two-line frame, then the double outlines of the petals or fish. A slow, steady hand lays a fat line; dip again when it runs dry.",
+   "heritage_note": "Part of the living heritage of India.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Madhubani_art"
+   ],
+   "photo": {
+    "file": "img/photos/03074-madhubani-art.jpg",
+    "author": "toyin adepoju",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Madhubani_Mahavidyas.jpg"
    }
   },
   {
@@ -35881,6 +36162,33 @@
    }
   },
   {
+   "id": 3230,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3230-nantucket-lightship-basket/",
+   "name": "Nantucket lightship basket",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United States"
+   ],
+   "country_codes": [
+    "US"
+   ],
+   "region": "Americas",
+   "type": "Crafts and making",
+   "family": "Pottery, wood and metal crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "The Americas: North America",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of The Americas: North America.",
+   "summary": "On Nantucket island in Massachusetts, sailors on the lightships began making baskets in the 1800s to pass the long watches. Rattan is woven round oak staves set in a turned wooden base, and the basket is closed with a lid and a swing handle. The tradition continues in island workshops.",
+   "how_played": "Weave a rattan basket over oak staves, with a lid and a swing handle.",
+   "heritage_note": "Part of the living heritage of United States.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nantucket_lightship_basket"
+   ],
+   "photo": null
+  },
+  {
    "id": 3233,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3233-naqareh/",
    "name": "Naqareh",
@@ -35945,6 +36253,38 @@
     "author": "Raul654",
     "licence": "CC BY-SA 3.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Nutcrackers.jpg"
+   }
+  },
+  {
+   "id": 3292,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3292-obokano/",
+   "name": "Obokano",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Kenya"
+   ],
+   "country_codes": [
+    "KE"
+   ],
+   "region": "Sub-Saharan Africa",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "Africa: Great Lakes and Indian Ocean",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Africa: Great Lakes and Indian Ocean.",
+   "summary": "The obokano is the big box lyre of the Gusii people of Kenya. Its body is a large square wooden box with a carved window, two stout posts rise from it to a thick crossbar, and eight strings run from large leather rings down to the box. The sound is deep and humming.",
+   "how_played": "Eight strings run from the big rings on the crossbar to the bridge, the lowest on the left. Each lane marks a place to pluck a string. Beads slide down the strings. Pluck the lane as the bead lands.",
+   "heritage_note": "Part of the living heritage of Kenya.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Obokano"
+   ],
+   "photo": {
+    "file": "img/photos/03292-obokano.jpg",
+    "author": "Ecotopian7",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Obokano_001_M.jpg"
    }
   },
   {
@@ -36019,6 +36359,40 @@
    }
   },
   {
+   "id": 3355,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3355-pack-basket/",
+   "name": "Pack basket",
+   "native": "",
+   "alt": [
+    "['packbasket']"
+   ],
+   "countries": [
+    "United States"
+   ],
+   "country_codes": [
+    "US"
+   ],
+   "region": "Americas",
+   "type": "Crafts and making",
+   "family": "Pottery, wood and metal crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "The Americas: North America",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of The Americas: North America.",
+   "summary": "The pack basket is a tall basket of woven wood splint, carried on the back with leather shoulder straps and closed with a flat cover. Woodworkers, anglers and trappers of the northeastern United States packed food and gear in it. Splints are pounded from ash logs, cut to width and woven over and under.",
+   "how_played": "Weave a tall splint pack basket with leather straps for the shoulders.",
+   "heritage_note": "Part of the living heritage of United States.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pack_basket"
+   ],
+   "photo": {
+    "file": "img/photos/03355-pack-basket.jpg",
+    "author": "Matthew Foster",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pack_basket_from_Pack_Baskets_of_Maine.png"
+   }
+  },
+  {
    "id": 3434,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3434-peg-loom/",
    "name": "Peg loom",
@@ -36045,6 +36419,65 @@
     "licence": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Loom_2,_Lesbos_(Skala_Sykamias).jpg"
    }
+  },
+  {
+   "id": 3454,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3454-phin/",
+   "name": "Phin",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Laos"
+   ],
+   "country_codes": [
+    "LA"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Crossroads and Golden Ages",
+   "era_uncertain": true,
+   "cradle": "Southeast Asia and the Islands",
+   "origin_note": "Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), although its exact origins are uncertain, within the cultural world of Southeast Asia and the Islands.",
+   "summary": "The phin is a small plucked lute of Laos and north-east Thailand. Three pairs of strings run over a neck with many wooden frets, and the body is carved from a single block with a flat foot. Its bright, quick tone suits lively folk tunes and songs.",
+   "how_played": "Three pairs of strings run up the neck, the lowest on the left. Each lane marks the fret where a note is played. A bead slides down the strings to its fret. Pluck the lane as the bead lands.",
+   "heritage_note": "Part of the living heritage of Laos.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Phin"
+   ],
+   "photo": {
+    "file": "img/photos/03454-phin.jpg",
+    "author": "Respubliko de Gvapolando",
+    "licence": "CC0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pina%C5%ADo.jpg"
+   }
+  },
+  {
+   "id": 3483,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3483-pipili-applique-work/",
+   "name": "Pipili appliqué work",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "India"
+   ],
+   "country_codes": [
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Crafts and making",
+   "family": "",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of South Asia.",
+   "summary": "Pipili appliqué comes from the village of Pipili in Odisha, India. Cotton cloth in red, yellow, white and green is cut into bold shapes, laid in layers on a deep-blue ground and edge-stitched, so cut-outs in the top layer show the colour beneath.",
+   "how_played": "Pick a cloth colour and a cut shape from the tray. its mirror partners are stitched too.",
+   "heritage_note": "Part of the living heritage of India.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pipili_appliqu%C3%A9_work"
+   ],
+   "photo": null
   },
   {
    "id": 3607,
@@ -36144,6 +36577,70 @@
     "author": "Unknown author Unknown author",
     "licence": "Public domain",
     "source_url": "https://commons.wikimedia.org/wiki/File:Foot_Ball,_Kingston-upon-Thames,_Shrove_Tuesday,_Feb._24th,_1846.jpg"
+   }
+  },
+  {
+   "id": 3759,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3759-screen-painting/",
+   "name": "Screen painting",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "United States"
+   ],
+   "country_codes": [
+    "US"
+   ],
+   "region": "Americas",
+   "type": "Crafts and making",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "The Americas: North America",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of The Americas: North America.",
+   "summary": "In Baltimore, painters began to paint country scenes on the wire of window screens, so the view could be seen from the street while the room stayed private. Red-roofed cottages, streams and mills are favourite subjects.",
+   "how_played": "Paint a cottage by a stream on the wire of a window: sky and hills, the cottage and trees, then smoke, birds and grass.",
+   "heritage_note": "Part of the living heritage of United States.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Screen_painting"
+   ],
+   "photo": {
+    "file": "img/photos/03759-screen-painting.jpg",
+    "author": "Andrew Hazlett",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Baltimore_vernacular_art_-_screen_painting.jpg"
+   }
+  },
+  {
+   "id": 3786,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/3786-shamisen/",
+   "name": "Shamisen",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Japan"
+   ],
+   "country_codes": [
+    "JP"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Musical instruments",
+   "family": "String instruments",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Japan and Korea",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Japan and Korea.",
+   "summary": "The shamisen is a Japanese three-string lute with a long, thin, fretless neck and a small, nearly square body covered with stretched skin. The player strikes the strings with a broad plectrum, which also slaps the skin and gives the instrument its sharp, snapping sound.",
+   "how_played": "Three strings run down the long neck, the thickest on the left. The neck has no frets, so each lane marks the spot where a finger presses. A bead slides down the string to its spot. Strike the lane as the bead lands.",
+   "heritage_note": "Part of the living heritage of Japan.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Shamisen"
+   ],
+   "photo": {
+    "file": "img/photos/03786-shamisen.jpg",
+    "author": "Unknown Artist, Unknown School",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tokyo_Geisha_with_Shamisen_c1870s,.jpg"
    }
   },
   {
@@ -36451,6 +36948,38 @@
     "author": "Unknown author (public domain)",
     "licence": "Public domain",
     "source_url": "https://commons.wikimedia.org/wiki/File:Yunluo.jpg"
+   }
+  },
+  {
+   "id": 4460,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/4460-zhostovo-painting/",
+   "name": "Zhostovo painting",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Russia"
+   ],
+   "country_codes": [
+    "RU"
+   ],
+   "region": "Europe",
+   "type": "Crafts and making",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Northern and Eastern Europe",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Northern and Eastern Europe.",
+   "summary": "Painters of the Zhostovo workshops decorate black lacquered metal trays with garden flowers. Roses and peonies are laid with soft layers of oil colour, and the edge is traced in gold.",
+   "how_played": "Paint a bouquet on a black tray: leaves first, then roses, bells and berries, then a gold edge.",
+   "heritage_note": "Part of the living heritage of Russia.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Zhostovo_painting"
+   ],
+   "photo": {
+    "file": "img/photos/04460-zhostovo-painting.jpg",
+    "author": "Vakhla",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:K35A3683.jpg"
    }
   },
   {

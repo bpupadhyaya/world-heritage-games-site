@@ -2,7 +2,7 @@
 title: "Classical Worlds"
 description: "Empires and academies turned play into sport, strategy and art."
 path: "/eras/classical/"
-count: 133
+count: 137
 ---
 # Classical Worlds
 
@@ -10,7 +10,7 @@ Empires and academies turned play into sport, strategy and art.
 
 
 
-133 entries.
+137 entries.
 
 - [Adungu](../../games/186-adungu/index.md): Uganda; Musical instruments; Classical Worlds
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
@@ -56,6 +56,7 @@ Empires and academies turned play into sport, strategy and art.
 - [Karagoz](../../games/38-karagoz/index.md): Turkey; Performance and storytelling; Classical Worlds
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md): India; Performance and storytelling; Classical Worlds
 - [Khloy bamboo duct flute](../../games/1311-khloy-bamboo-duct-flute/index.md): Cambodia; Musical instruments; Classical Worlds
+- [Kissar](../../games/2889-kissar/index.md): Egypt; Musical instruments; Classical Worlds
 - [Kite flying](../../games/769-kite-flying/index.md): Honduras; Dexterity and skill games; Classical Worlds
 - [Kitendawili](../../games/181-kitendawili/index.md): Kenya; Puzzles and mind games; Classical Worlds
 - [Kites](../../games/577-kites/index.md): Barbados, El Salvador; Dexterity and skill games; Classical Worlds
@@ -73,6 +74,7 @@ Empires and academies turned play into sport, strategy and art.
 - [Langspil](../../games/1323-langspil/index.md): Iceland; Musical instruments; Classical Worlds
 - [Lathi Khela](../../games/298-lathi-khela/index.md): Bangladesh; Wrestling and martial sports; Classical Worlds
 - [Lawn bowls](../../games/74-lawn-bowls/index.md): United Kingdom, Australia; Dexterity and skill games; Classical Worlds
+- [Lyre](../../games/3064-lyre/index.md): Worldwide; Musical instruments; Classical Worlds
 - [Malha](../../games/1466-malha/index.md): Portugal; Archery, throwing and target games; Classical Worlds
 - [Mongolian Bow Archery](../../games/1476-mongolian-bow-archery/index.md): Mongolia; Dexterity and skill games; Classical Worlds
 - [Moraingy drum-and-strike duel](../../games/207-moraingy-drum-and-strike-duel/index.md): Madagascar; Wrestling and martial sports; Classical Worlds
@@ -86,6 +88,7 @@ Empires and academies turned play into sport, strategy and art.
 - [Nai](../../games/1342-nai/index.md): Romania; Musical instruments; Classical Worlds
 - [Nyatiti Luo lyre](../../games/1349-nyatiti-luo-lyre/index.md): Kenya; Musical instruments; Classical Worlds
 - [Nyckelharpa](../../games/408-nyckelharpa/index.md): Sweden; Musical instruments; Classical Worlds
+- [Obokano](../../games/3292-obokano/index.md): Kenya; Musical instruments; Classical Worlds
 - [Ocarina](../../games/6501-ocarina/index.md): Worldwide; Musical instruments; Classical Worlds
 - [Okey](../../games/1158-okey/index.md): Turkey, Cyprus; Board and table games; Classical Worlds
 - [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md): Paraguay; Musical instruments; Classical Worlds
@@ -136,6 +139,7 @@ Empires and academies turned play into sport, strategy and art.
 - [Kokpar](../../games/857-kokpar/index.md): Kazakhstan; Street and playground games; Classical Worlds
 - [Koto](../../games/2937-koto/index.md): Japan; Musical instruments; Classical Worlds
 - [Kyi waing](../../games/5490-kyi-waing/index.md): Myanmar; Musical instruments; Classical Worlds
+- [Litungu](../../games/3039-litungu/index.md): Kenya; Musical instruments; Classical Worlds
 - [Omok](../../games/1088-omok/index.md): South Korea; Board and table games; Classical Worlds
 - [Paduk](../../games/990-paduk/index.md): North Korea; Board and table games; Classical Worlds
 - [Portuguese staff fighting](../../games/1037-portuguese-staff-fighting/index.md): Portugal; Street and playground games; Classical Worlds

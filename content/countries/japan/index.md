@@ -1,18 +1,19 @@
 ---
 title: "Japan"
-description: "66 traditions from Japan."
+description: "68 traditions from Japan."
 path: "/countries/japan/"
-count: 66
+count: 68
 ---
 # Japan
 
-66 traditions from Japan.
+68 traditions from Japan.
 
 
 
-66 entries.
+68 entries.
 
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
+- [Biwa](../../games/1787-biwa/index.md): Japan; Musical instruments; Crossroads and Golden Ages
 - [Blacksmith's Forge](../../games/506-blacksmiths-forge/index.md): United Kingdom, Germany; Crafts and making; Living Traditions
 - [Bonsai](../../games/5376-bonsai/index.md): Japan; Crafts and making; Living Traditions
 - [Daruma Otoshi](../../games/63-daruma-otoshi/index.md): Japan; Puzzles and mind games; Modern Heritage
@@ -51,6 +52,7 @@ count: 66
 - [Sashiko Stitch Patterns](../../games/27-sashiko-stitch-patterns/index.md): Japan; Crafts and making; Living Traditions
 - [Secret Puzzle Box](../../games/29-secret-puzzle-box/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds
+- [Shamisen](../../games/3786-shamisen/index.md): Japan; Musical instruments; Living Traditions
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md): Japan, India; Crafts and making; Living Traditions
 - [Shogi](../../games/852-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Sumo bout](../../games/359-sumo-bout/index.md): Japan; Wrestling and martial sports; River Valleys and First Cities

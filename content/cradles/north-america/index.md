@@ -2,7 +2,7 @@
 title: "The Americas: North America"
 description: "The United States and Canada."
 path: "/cradles/north-america/"
-count: 36
+count: 40
 ---
 # The Americas: North America
 
@@ -10,7 +10,7 @@ The United States and Canada.
 
 
 
-36 entries.
+40 entries.
 
 - [American patchwork quilting](../../games/6356-american-patchwork-quilting/index.md): United States; Crafts and making; Living Traditions
 - [Axe throwing](../../games/442-axe-throwing/index.md): Canada, United States; Dexterity and skill games; Modern Heritage
@@ -24,12 +24,15 @@ The United States and Canada.
 - [Double Dutch](../../games/53-double-dutch/index.md): United States; Street and playground games; Modern Heritage
 - [Five-Pin Bowling](../../games/1410-five-pin-bowling/index.md): Canada; Other traditions; Age of Contact and Craft
 - [Four Square](../../games/471-four-square/index.md): United States; Other traditions; Living Traditions
+- [Hex sign](../../games/2619-hex-sign/index.md): United States; Crafts and making; Living Traditions
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
 - [Ice Canoe Race](../../games/1412-ice-canoe-race/index.md): Canada; Crafts and making; Living Traditions
 - [Log rolling](../../games/59-log-rolling/index.md): United States, Canada; Dexterity and skill games; Modern Heritage
 - [Maple taffy on snow](../../games/441-maple-taffy-on-snow/index.md): Canada; Crafts and making; Living Traditions
 - [Mountain dulcimer](../../games/435-mountain-dulcimer/index.md): United States; Musical instruments; Classical Worlds
 - [Musical saw](../../games/6353-musical-saw/index.md): United States; Musical instruments; Living Traditions
+- [Pack basket](../../games/3355-pack-basket/index.md): United States; Crafts and making; Living Traditions
+- [Screen painting](../../games/3759-screen-painting/index.md): United States; Crafts and making; Living Traditions
 - [Shinny](../../games/725-shinny/index.md): United States, Canada; Street and playground games; Modern Heritage
 - [Sled dog race](../../games/62-sled-dog-race/index.md): United States, Canada; Racing; Age of Contact and Craft
 - [Spelling Bee](../../games/1429-spelling-bee/index.md): United States; Other traditions; Crossroads and Golden Ages
@@ -46,5 +49,6 @@ The United States and Canada.
 - [Glass harmonica](../../games/10143-glass-harmonica/index.md): United States; Musical instruments; Classical Worlds
 - [Jackstraws](../../games/14110-jackstraws/index.md): United States; Dexterity and skill games; Modern Heritage
 - [Klondike](../../games/22325-klondike/index.md): United States, Canada; Card games; Age of Contact and Craft
+- [Nantucket lightship basket](../../games/3230-nantucket-lightship-basket/index.md): United States; Crafts and making; Living Traditions
 - [Ugly stick](../../games/6320-ugly-stick/index.md): Canada; Musical instruments; Living Traditions
 - [Volleyball](../../games/22345-volleyball/index.md): United States, Brazil; Team ball sports; Modern Heritage

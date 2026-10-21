@@ -1,0 +1,13 @@
+{
+ "slug": "an-nguyet",
+ "title": "\u0110\u00e0n nguy\u1ec7t (moon lute)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

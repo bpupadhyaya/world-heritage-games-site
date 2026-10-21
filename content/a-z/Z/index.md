@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with Z"
-description: "12 entries beginning with Z."
+description: "13 entries beginning with Z."
 path: "/a-z/Z/"
 ---
 # Entries beginning with Z
@@ -13,6 +13,7 @@ path: "/a-z/Z/"
 - [Zardozi](../../games/5791-zardozi/index.md): India; Crafts and making; Living Traditions
 - [Zarzir](../../games/1010-zarzir/index.md): Palestine; Dexterity and skill games; Deep Past and First Games
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md): Morocco; Crafts and making; Living Traditions
+- [Zhostovo painting](../../games/4460-zhostovo-painting/index.md): Russia; Crafts and making; Living Traditions
 - [Ziziros](../../games/659-ziziros/index.md): Cyprus; Street and playground games; Deep Past and First Games
 - [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md): South Africa; Crafts and making; Living Traditions
 - [Zurkhaneh strength rhythm](../../games/227-zurkhaneh-strength-rhythm/index.md): Iran; Dexterity and skill games; Modern Heritage

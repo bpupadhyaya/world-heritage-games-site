@@ -1,0 +1,29 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "basket",
+  "scene": "bk-cabin",
+  "form": "pack",
+  "style": "plait",
+  "motif": "checker",
+  "stitches": 15,
+  "rows": 9,
+  "period": 6,
+  "colors": 3,
+  "leather": "#6b3f22",
+  "palette": [
+   {
+    "name": "Ash",
+    "color": "#d8bc86"
+   },
+   {
+    "name": "Brown",
+    "color": "#4a3524"
+   },
+   {
+    "name": "Green",
+    "color": "#4a6a3a"
+   }
+  ]
+ }
+}

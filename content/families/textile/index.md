@@ -1,16 +1,16 @@
 ---
 title: "Textile and weaving crafts"
-description: "97 related traditions."
+description: "98 related traditions."
 path: "/families/textile/"
-count: 97
+count: 98
 ---
 # Textile and weaving crafts
 
-97 related traditions.
+98 related traditions.
 
 
 
-97 entries.
+98 entries.
 
 - [Adire indigo resist dyeing](../../games/87-adire-indigo-resist-dyeing/index.md): Nigeria; Crafts and making; Living Traditions
 - [Agaseke basket weaving](../../games/89-agaseke-basket-weaving/index.md): Rwanda; Crafts and making; Living Traditions
@@ -47,6 +47,7 @@ count: 97
 - [Kalamkari pen painting](../../games/273-kalamkari-pen-painting/index.md): Worldwide; Crafts and making; Living Traditions
 - [Kanchipuram Silk Sari](../../games/5756-kanchipuram-silk-sari/index.md): India; Crafts and making; Living Traditions
 - [Kantha running-stitch quilt](../../games/284-kantha-running-stitch-quilt/index.md): Bangladesh; Crafts and making; Living Traditions
+- [Kasuti](../../games/2823-kasuti/index.md): India; Crafts and making; Living Traditions
 - [Kente strip weaving](../../games/22-kente-strip-weaving/index.md): Ghana; Crafts and making; Living Traditions
 - [Ketupat](../../games/322-ketupat/index.md): Malaysia, Indonesia; Crafts and making; Living Traditions
 - [Kiondo basket weaving](../../games/194-kiondo-basket-weaving/index.md): Kenya; Crafts and making; Living Traditions

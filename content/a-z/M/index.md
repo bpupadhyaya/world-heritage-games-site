@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with M"
-description: "95 entries beginning with M."
+description: "96 entries beginning with M."
 path: "/a-z/M/"
 ---
 # Entries beginning with M
@@ -11,6 +11,7 @@ path: "/a-z/M/"
 - [Macau wave pavement](../../games/372-macau-wave-pavement/index.md): Portugal; Crafts and making; Living Traditions
 - [Macho parado](../../games/984-macho-parado/index.md): Nicaragua; Street and playground games; Modern Heritage
 - [Madal drum](../../games/147-madal-drum/index.md): Nepal; Musical instruments; Living Traditions
+- [Madhubani art](../../games/3074-madhubani-art/index.md): India; Crafts and making; Living Traditions
 - [Madura bull racing](../../games/805-madura-bull-racing/index.md): Indonesia; Street and playground games; Modern Heritage
 - [Maedeup](../../games/1468-maedeup/index.md): South Korea; Crafts and making; Living Traditions
 - [Maghrebi 5x5 capture game](../../games/887-maghrebi-5x5-capture-game/index.md): Libya; Board and table games; Age of Contact and Craft

@@ -1,11 +1,12 @@
 ---
 title: "Entries beginning with P"
-description: "86 entries beginning with P."
+description: "89 entries beginning with P."
 path: "/a-z/P/"
 ---
 # Entries beginning with P
 
 - [Pachisi](../../games/797-pachisi/index.md): India; Board and table games; River Valleys and First Cities
+- [Pack basket](../../games/3355-pack-basket/index.md): United States; Crafts and making; Living Traditions
 - [Pacu jawi](../../games/1354-pacu-jawi/index.md): Indonesia; Racing; Age of Contact and Craft
 - [Paduk](../../games/990-paduk/index.md): North Korea; Board and table games; Classical Worlds
 - [Pai gow](../../games/771-pai-gow/index.md): China; Board and table games; Crossroads and Golden Ages
@@ -53,6 +54,7 @@ path: "/a-z/P/"
 - [Peteca](../../games/421-peteca/index.md): Brazil; Dexterity and skill games; Modern Heritage
 - [Petrykivka painting](../../games/381-petrykivka-painting/index.md): Ukraine; Crafts and making; Living Traditions
 - [Phankhon](../../games/957-phankhon/index.md): Myanmar; Street and playground games; Modern Heritage
+- [Phin](../../games/3454-phin/index.md): Laos; Musical instruments; Crossroads and Golden Ages
 - [Phoenician Alphabet Trader](../../games/1359-phoenician-alphabet-trader/index.md): Lebanon; Puzzles and mind games; Modern Heritage
 - [Phuang malai flower garland threading](../../games/309-phuang-malai-flower-garland-threading/index.md): Thailand; Crafts and making; Living Traditions
 - [Phulkari darn-stitch embroidery](../../games/257-phulkari-darn-stitch-embroidery/index.md): India, Pakistan; Crafts and making; Living Traditions
@@ -62,6 +64,7 @@ path: "/a-z/P/"
 - [Pinata swing](../../games/61-pinata-swing/index.md): Mexico, Paraguay; Dexterity and skill games; Modern Heritage
 - [Pinisi](../../games/327-pinisi/index.md): Indonesia; Board and table games; Crossroads and Golden Ages
 - [Pipa](../../games/335-pipa/index.md): China; Musical instruments; Crossroads and Golden Ages
+- [Pipili appliqué work](../../games/3483-pipili-applique-work/index.md): India; Crafts and making; Living Traditions
 - [Pirogue coastal canoe race](../../games/56-pirogue-coastal-canoe-race/index.md): Worldwide; Racing; Age of Contact and Craft
 - [Pirot Kilim Weaver](../../games/1361-pirot-kilim-weaver/index.md): Serbia; Crafts and making; Living Traditions
 - [Pit loom](../../games/6601-pit-loom/index.md): Worldwide; Crafts and making; Living Traditions

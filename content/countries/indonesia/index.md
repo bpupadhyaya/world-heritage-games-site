@@ -1,16 +1,16 @@
 ---
 title: "Indonesia"
-description: "31 traditions from Indonesia."
+description: "32 traditions from Indonesia."
 path: "/countries/indonesia/"
-count: 31
+count: 32
 ---
 # Indonesia
 
-31 traditions from Indonesia.
+32 traditions from Indonesia.
 
 
 
-31 entries.
+32 entries.
 
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
 - [Bakiak](../../games/324-bakiak/index.md): Indonesia, Malaysia; Racing; Age of Contact and Craft
@@ -22,6 +22,7 @@ count: 31
 - [Gobak Sodor](../../games/46-gobak-sodor/index.md): Indonesia, Malaysia; Board and table games; Deep Past and First Games
 - [Gong ageng](../../games/2500-gong-ageng/index.md): Indonesia; Musical instruments; Classical Worlds
 - [Greasy pole climb](../../games/77-greasy-pole-climb/index.md): Indonesia; Performance and storytelling; Living Traditions
+- [Hasapi](../../games/2603-hasapi/index.md): Indonesia; Musical instruments; Crossroads and Golden Ages
 - [Independence-day field games](../../games/330-independence-day-field-games/index.md): Indonesia; Racing; Age of Contact and Craft
 - [Juldarigi](../../games/2772-juldarigi/index.md): South Korea, United Kingdom; Other traditions; Classical Worlds
 - [Ketupat](../../games/322-ketupat/index.md): Malaysia, Indonesia; Crafts and making; Living Traditions

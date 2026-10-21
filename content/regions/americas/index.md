@@ -1,16 +1,16 @@
 ---
 title: "Americas"
-description: "187 entries."
+description: "191 entries."
 path: "/regions/americas/"
-count: 187
+count: 191
 ---
 # Americas
 
-187 entries.
+191 entries.
 
 
 
-187 entries.
+191 entries.
 
 - ['Ulu Maika](../../games/44-ulu-maika/index.md): United States; Dexterity and skill games; Age of Contact and Craft
 - [Alebrije painting](../../games/92-alebrije-painting/index.md): Mexico; Crafts and making; Living Traditions
@@ -65,6 +65,7 @@ count: 187
 - [Handkerchief game](../../games/683-handkerchief-game/index.md): Dominican Republic; Street and playground games; Modern Heritage
 - [Hawaiian outrigger canoe racing](../../games/6388-hawaiian-outrigger-canoe-racing/index.md): United States; Racing; Age of Contact and Craft
 - [Heritage games](../../games/1050-heritage-games/index.md): Saint Lucia; Street and playground games; Modern Heritage
+- [Hex sign](../../games/2619-hex-sign/index.md): United States; Crafts and making; Living Traditions
 - [Hopscotch](../../games/762-hopscotch/index.md): Haiti, Honduras; Dexterity and skill games; Deep Past and First Games
 - [Horseshoe pitching](../../games/50-horseshoe-pitching/index.md): United States, Canada; Dexterity and skill games; Classical Worlds
 - [Ice Canoe Race](../../games/1412-ice-canoe-race/index.md): Canada; Crafts and making; Living Traditions
@@ -94,6 +95,7 @@ count: 187
 - [Murga Uruguaya Carnival Troupe](../../games/1419-murga-uruguaya-carnival-troupe/index.md): Uruguay; Crafts and making; Living Traditions
 - [Musical saw](../../games/6353-musical-saw/index.md): United States; Musical instruments; Living Traditions
 - [Nanduti](../../games/428-nanduti/index.md): Paraguay; Crafts and making; Living Traditions
+- [Pack basket](../../games/3355-pack-basket/index.md): United States; Crafts and making; Living Traditions
 - [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md): Paraguay; Musical instruments; Classical Worlds
 - [Patolli](../../games/454-patolli/index.md): Mexico; Board and table games; Crossroads and Golden Ages
 - [Payada](../../games/1426-payada/index.md): Argentina, Uruguay; Wrestling and martial sports; Classical Worlds
@@ -105,6 +107,7 @@ count: 187
 - [Pupusa Maker](../../games/1482-pupusa-maker/index.md): El Salvador; Crafts and making; Living Traditions
 - [Ring jousting](../../games/1017-ring-jousting/index.md): Paraguay; Street and playground games; Crossroads and Golden Ages
 - [Rounders](../../games/761-rounders/index.md): Guyana; Street and playground games; Modern Heritage
+- [Screen painting](../../games/3759-screen-painting/index.md): United States; Crafts and making; Living Traditions
 - [Shinny](../../games/725-shinny/index.md): United States, Canada; Street and playground games; Modern Heritage
 - [Skijoring](../../games/490-skijoring/index.md): Worldwide; Sports with animal partners; Classical Worlds
 - [Sled dog race](../../games/62-sled-dog-race/index.md): United States, Canada; Racing; Age of Contact and Craft
@@ -176,6 +179,7 @@ count: 187
 - [Marbles](../../games/650-marbles/index.md): Cuba, Jamaica; Dexterity and skill games; Deep Past and First Games
 - [Mata Ortiz pottery](../../games/10511-mata-ortiz-pottery/index.md): Mexico; Crafts and making; Living Traditions
 - [Mixtec ball game](../../games/936-mixtec-ball-game/index.md): Mexico; Street and playground games; Modern Heritage
+- [Nantucket lightship basket](../../games/3230-nantucket-lightship-basket/index.md): United States; Crafts and making; Living Traditions
 - [Panamanian singing rounds](../../games/1011-panamanian-singing-rounds/index.md): Panama; Performance and storytelling; Living Traditions
 - [Perinola](../../games/1212-perinola/index.md): Venezuela; Dexterity and skill games; Modern Heritage
 - [Potta](../../games/579-potta/index.md): Barbados; Board and table games; River Valleys and First Cities

@@ -1,16 +1,16 @@
 ---
 title: "Russia"
-description: "15 traditions from Russia."
+description: "16 traditions from Russia."
 path: "/countries/russia/"
-count: 15
+count: 16
 ---
 # Russia
 
-15 traditions from Russia.
+16 traditions from Russia.
 
 
 
-15 entries.
+16 entries.
 
 - [Balalaika](../../games/133-balalaika/index.md): Russia; Musical instruments; Crossroads and Golden Ages
 - [Gorodki](../../games/13-gorodki/index.md): Russia; Dexterity and skill games; Age of Contact and Craft
@@ -24,6 +24,7 @@ count: 15
 - [Shashki](../../games/1177-shashki/index.md): Ukraine, Belarus; Board and table games; Crossroads and Golden Ages
 - [Svaika](../../games/1048-svaika/index.md): Russia; Street and playground games; Modern Heritage
 - [Tuvan Throat Singing](../../games/508-tuvan-throat-singing/index.md): Mongolia, Russia; Archery, throwing and target games; Classical Worlds
+- [Zhostovo painting](../../games/4460-zhostovo-painting/index.md): Russia; Crafts and making; Living Traditions
 - [Nardy](../../games/1047-nardy/index.md): Russia; Board and table games; River Valleys and First Cities
 - [Russian Loto](../../games/22338-russian-loto/index.md): Russia; Board and table games; Crossroads and Golden Ages
 - [Vanka-vstanka](../../games/9264-vanka-vstanka/index.md): Russia; Toys; Modern Heritage

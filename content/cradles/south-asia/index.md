@@ -2,7 +2,7 @@
 title: "South Asia"
 description: "The Indus and Ganges plains, the Deccan, the south and the Himalaya."
 path: "/cradles/south-asia/"
-count: 121
+count: 124
 ---
 # South Asia
 
@@ -10,7 +10,7 @@ The Indus and Ganges plains, the Deccan, the south and the Himalaya.
 
 
 
-121 entries.
+124 entries.
 
 - [Ajrak block printing](../../games/1226-ajrak-block-printing/index.md): Pakistan; Crafts and making; Living Traditions
 - [Allo nettle fibre weaving](../../games/1228-allo-nettle-fibre-weaving/index.md): Nepal; Crafts and making; Living Traditions
@@ -47,6 +47,7 @@ The Indus and Ganges plains, the Deccan, the south and the Himalaya.
 - [Kanchipuram Silk Sari](../../games/5756-kanchipuram-silk-sari/index.md): India; Crafts and making; Living Traditions
 - [Kantha running-stitch quilt](../../games/284-kantha-running-stitch-quilt/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Kashmiri papier-mache painting](../../games/269-kashmiri-papier-mache-painting/index.md): India; Crafts and making; Living Traditions
+- [Kasuti](../../games/2823-kasuti/index.md): India; Crafts and making; Living Traditions
 - [Kathak tatkar footwork rhythm](../../games/267-kathak-tatkar-footwork-rhythm/index.md): India, Pakistan; Other traditions; Living Traditions
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md): India; Performance and storytelling; Classical Worlds
 - [Kho-Kho](../../games/15-kho-kho/index.md): India, Nepal; Street and playground games; Modern Heritage
@@ -60,6 +61,7 @@ The Indus and Ganges plains, the Deccan, the south and the Himalaya.
 - [Lippan kaam mud-and-mirror relief](../../games/259-lippan-kaam-mud-and-mirror-relief/index.md): India, Pakistan; Crafts and making; Living Traditions
 - [Lokta paper-making](../../games/292-lokta-paper-making/index.md): Nepal; Crafts and making; Living Traditions
 - [Madal drum](../../games/147-madal-drum/index.md): Nepal; Musical instruments; Living Traditions
+- [Madhubani art](../../games/3074-madhubani-art/index.md): India; Crafts and making; Living Traditions
 - [Maldivian lacquer work](../../games/1328-maldivian-lacquer-work/index.md): Maldives; Crafts and making; Living Traditions
 - [Mallakhamb](../../games/150-mallakhamb/index.md): India; Dexterity and skill games; Modern Heritage
 - [Meenakari](../../games/5793-meenakari/index.md): India; Crafts and making; Living Traditions
@@ -125,6 +127,7 @@ The Indus and Ganges plains, the Deccan, the south and the Himalaya.
 - [Pachisi](../../games/797-pachisi/index.md): India; Board and table games; River Valleys and First Cities
 - [Pancha](../../games/1108-pancha/index.md): Sri Lanka; Board and table games; River Valleys and First Cities
 - [Pillow fight](../../games/1101-pillow-fight/index.md): Sri Lanka, Myanmar; Street and playground games; Modern Heritage
+- [Pipili appliqué work](../../games/3483-pipili-applique-work/index.md): India; Crafts and making; Living Traditions
 - [Pitthu Garam](../../games/1004-pitthu-garam/index.md): Pakistan; Street and playground games; Modern Heritage
 - [Snakes and Ladders](../../games/796-snakes-and-ladders/index.md): India; Board and table games; River Valleys and First Cities
 - [Thaikkal Rattan Craft](../../games/15490-thaikkal-rattan-craft/index.md): India; Crafts and making; Living Traditions

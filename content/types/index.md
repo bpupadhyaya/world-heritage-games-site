@@ -21,8 +21,8 @@ Games, sports, instruments, dances and crafts.
 - [Toys](../types/toy/index.md): 13 entries
 - [Puzzles and mind games](../types/puzzle/index.md): 61 entries
 - [Dances](../types/dance/index.md): 28 entries
-- [Musical instruments](../types/instrument/index.md): 212 entries
-- [Crafts and making](../types/craft/index.md): 342 entries
+- [Musical instruments](../types/instrument/index.md): 221 entries
+- [Crafts and making](../types/craft/index.md): 350 entries
 - [Performance and storytelling](../types/performance/index.md): 20 entries
 - [Card games](../types/card/index.md): 9 entries
 - [Other traditions](../types/other/index.md): 24 entries

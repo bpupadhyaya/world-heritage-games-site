@@ -1,0 +1,13 @@
+{
+ "slug": "biwa",
+ "title": "Biwa (Japanese four-string lute)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

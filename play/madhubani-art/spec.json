@@ -1,0 +1,11 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "paint",
+  "design": "madhubani",
+  "scene": "madhubani",
+  "guideMode": "trace",
+  "assist": true,
+  "variation": 0.5
+ }
+}

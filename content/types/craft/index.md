@@ -1,16 +1,16 @@
 ---
 title: "Crafts and making"
-description: "342 traditions of this kind."
+description: "350 traditions of this kind."
 path: "/types/craft/"
-count: 342
+count: 350
 ---
 # Crafts and making
 
-342 traditions of this kind.
+350 traditions of this kind.
 
 
 
-342 entries.
+350 entries.
 
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md): Ghana, Cote d'Ivoire; Crafts and making; Living Traditions
 - [Adire indigo resist dyeing](../../games/87-adire-indigo-resist-dyeing/index.md): Nigeria; Crafts and making; Living Traditions
@@ -118,6 +118,7 @@ count: 342
 - [Haitian Oil-Drum Metal Cut-Out Art](../../games/1460-haitian-oil-drum-metal-cut-out-art/index.md): Haiti; Crafts and making; Living Traditions
 - [Hardanger embroidery](../../games/1296-hardanger-embroidery/index.md): Norway; Crafts and making; Living Traditions
 - [Hebron Glassblowing](../../games/6034-hebron-glassblowing/index.md): Palestine; Crafts and making; Living Traditions
+- [Hex sign](../../games/2619-hex-sign/index.md): United States; Crafts and making; Living Traditions
 - [Hmong story cloth](../../games/1298-hmong-story-cloth/index.md): China, Laos; Crafts and making; Living Traditions
 - [Hong Kong Milk Tea Pulling](../../games/1463-hong-kong-milk-tea-pulling/index.md): China; Crafts and making; Living Traditions
 - [Horezu ceramics](../../games/384-horezu-ceramics/index.md): Romania; Crafts and making; Living Traditions
@@ -144,6 +145,7 @@ count: 342
 - [Kantha running-stitch quilt](../../games/284-kantha-running-stitch-quilt/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Karesansui](../../games/95-karesansui/index.md): Japan; Crafts and making; Living Traditions
 - [Kashmiri papier-mache painting](../../games/269-kashmiri-papier-mache-painting/index.md): India; Crafts and making; Living Traditions
+- [Kasuti](../../games/2823-kasuti/index.md): India; Crafts and making; Living Traditions
 - [Keffiyeh Pattern Loom](../../games/1310-keffiyeh-pattern-loom/index.md): Palestine; Crafts and making; Living Traditions
 - [Kente strip weaving](../../games/22-kente-strip-weaving/index.md): Ghana; Crafts and making; Living Traditions
 - [Ketupat](../../games/322-ketupat/index.md): Malaysia, Indonesia; Crafts and making; Living Traditions
@@ -185,6 +187,7 @@ count: 342
 - [Maasai beadwork](../../games/7320-maasai-beadwork/index.md): Kenya; Crafts and making; Living Traditions
 - [Macau Portuguese Custard Tart Bake](../../games/1471-macau-portuguese-custard-tart-bake/index.md): Portugal, China; Crafts and making; Living Traditions
 - [Macau wave pavement](../../games/372-macau-wave-pavement/index.md): Portugal; Crafts and making; Living Traditions
+- [Madhubani art](../../games/3074-madhubani-art/index.md): India; Crafts and making; Living Traditions
 - [Maedeup](../../games/1468-maedeup/index.md): South Korea; Crafts and making; Living Traditions
 - [Makonde ebony carving](../../games/1331-makonde-ebony-carving/index.md): Tanzania, Mozambique; Crafts and making; Living Traditions
 - [Malagasy lamba silk weaving](../../games/206-malagasy-lamba-silk-weaving/index.md): Worldwide; Crafts and making; Living Traditions
@@ -222,6 +225,7 @@ count: 342
 - [Omani Khanjar Silver Filigree](../../games/1351-omani-khanjar-silver-filigree/index.md): Oman; Crafts and making; Living Traditions
 - [Origami](../../games/3332-origami/index.md): Japan; Crafts and making; Living Traditions
 - [Oualata Wall Painting](../../games/1352-oualata-wall-painting/index.md): Mauritania; Crafts and making; Living Traditions
+- [Pack basket](../../games/3355-pack-basket/index.md): United States; Crafts and making; Living Traditions
 - [Paithani](../../games/5759-paithani/index.md): India; Crafts and making; Living Traditions
 - [Pakistani truck art](../../games/116-pakistani-truck-art/index.md): Pakistan, India; Crafts and making; Living Traditions
 - [Palauan storyboard carving](../../games/1355-palauan-storyboard-carving/index.md): Palau; Crafts and making; Living Traditions
@@ -256,6 +260,7 @@ count: 342
 - [Sailor's Knotwork and Turk's Head](../../games/112-sailors-knotwork-and-turks-head/index.md): Worldwide; Crafts and making; Living Traditions
 - [São Tomé cocoa and chocolate maker](../../games/1428-sao-tome-cocoa-and-chocolate-maker/index.md): Sao Tome and Principe; Crafts and making; Living Traditions
 - [Sashiko Stitch Patterns](../../games/27-sashiko-stitch-patterns/index.md): Japan; Crafts and making; Living Traditions
+- [Screen painting](../../games/3759-screen-painting/index.md): United States; Crafts and making; Living Traditions
 - [Seal carving](../../games/341-seal-carving/index.md): China; Crafts and making; Living Traditions
 - [Shibam Mud-Brick Tower Builder](../../games/1370-shibam-mud-brick-tower-builder/index.md): Yemen; Crafts and making; Living Traditions
 - [Shibori Indigo Fold](../../games/106-shibori-indigo-fold/index.md): Japan, India; Crafts and making; Living Traditions
@@ -305,6 +310,7 @@ count: 342
 - [Zafimaniry woodcarving](../../games/7311-zafimaniry-woodcarving/index.md): Madagascar; Crafts and making; Living Traditions
 - [Zardozi](../../games/5791-zardozi/index.md): India; Crafts and making; Living Traditions
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md): Morocco; Crafts and making; Living Traditions
+- [Zhostovo painting](../../games/4460-zhostovo-painting/index.md): Russia; Crafts and making; Living Traditions
 - [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md): South Africa; Crafts and making; Living Traditions
 - [Assisi embroidery](../../games/1623-assisi-embroidery/index.md): Italy; Crafts and making; Living Traditions
 - [Aubusson tapestry](../../games/10370-aubusson-tapestry/index.md): France; Crafts and making; Living Traditions
@@ -341,7 +347,9 @@ count: 342
 - [Mata Ortiz pottery](../../games/10511-mata-ortiz-pottery/index.md): Mexico; Crafts and making; Living Traditions
 - [Mekhela sador weaving](../../games/21161-mekhela-sador-weaving/index.md): India; Crafts and making; Living Traditions
 - [Minakari](../../games/6007-minakari/index.md): Iran; Crafts and making; Living Traditions
+- [Nantucket lightship basket](../../games/3230-nantucket-lightship-basket/index.md): United States; Crafts and making; Living Traditions
 - [Papierscheppen](../../games/19945-papierscheppen/index.md): Netherlands; Crafts and making; Living Traditions
+- [Pipili appliqué work](../../games/3483-pipili-applique-work/index.md): India; Crafts and making; Living Traditions
 - [Pit loom](../../games/6601-pit-loom/index.md): Worldwide; Crafts and making; Living Traditions
 - [Pottery of Metepec](../../games/10512-pottery-of-metepec/index.md): Mexico; Crafts and making; Living Traditions
 - [Pysanka](../../games/13251-pysanka/index.md): Ukraine; Crafts and making; Living Traditions

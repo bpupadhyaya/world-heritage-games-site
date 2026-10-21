@@ -2,7 +2,7 @@
 title: "Africa: Nile and the Horn"
 description: "Egypt, Sudan, Ethiopia and the Horn of Africa."
 path: "/cradles/africa-nile/"
-count: 44
+count: 45
 ---
 # Africa: Nile and the Horn
 
@@ -10,7 +10,7 @@ Egypt, Sudan, Ethiopia and the Horn of Africa.
 
 
 
-44 entries.
+45 entries.
 
 - [Aqal Somali](../../games/190-aqal-somali/index.md): Somalia; Crafts and making; Living Traditions
 - [Aragoz Hand-Puppet Booth](../../games/222-aragoz-hand-puppet-booth/index.md): Egypt; Performance and storytelling; Classical Worlds
@@ -25,6 +25,7 @@ Egypt, Sudan, Ethiopia and the Horn of Africa.
 - [Horn of Africa camel caravan](../../games/1270-horn-of-africa-camel-caravan/index.md): Djibouti; Musical instruments; Crossroads and Golden Ages
 - [Jebena coffee brewing](../../games/189-jebena-coffee-brewing/index.md): Ethiopia, Eritrea; Crafts and making; Living Traditions
 - [Khayamiya Tentmaker Applique](../../games/217-khayamiya-tentmaker-applique/index.md): Egypt; Crafts and making; Living Traditions
+- [Kissar](../../games/2889-kissar/index.md): Egypt; Musical instruments; Classical Worlds
 - [Krar lyre](../../games/126-krar-lyre/index.md): Ethiopia, Eritrea; Musical instruments; Classical Worlds
 - [Ladu](../../games/674-ladu/index.md): Djibouti, Somalia; Board and table games; Crossroads and Golden Ages
 - [Lake Assal salt harvest](../../games/1321-lake-assal-salt-harvest/index.md): Djibouti; Sports with animal partners; Crossroads and Golden Ages

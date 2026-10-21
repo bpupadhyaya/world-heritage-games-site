@@ -9,8 +9,8 @@ Games grew up alongside cities, empires and trade routes. Walk through seven cha
 
 - [Deep Past and First Games](../eras/deep-past/index.md): before about 3000 BCE · 105 entries
 - [River Valleys and First Cities](../eras/river-valleys/index.md): about 3000 to 1000 BCE · 67 entries
-- [Classical Worlds](../eras/classical/index.md): about 1000 BCE to 500 CE · 133 entries
-- [Crossroads and Golden Ages](../eras/crossroads/index.md): about 500 to 1500 · 154 entries
+- [Classical Worlds](../eras/classical/index.md): about 1000 BCE to 500 CE · 137 entries
+- [Crossroads and Golden Ages](../eras/crossroads/index.md): about 500 to 1500 · 158 entries
 - [Age of Contact and Craft](../eras/contact/index.md): about 1500 to 1800 · 87 entries
 - [Modern Heritage](../eras/modern/index.md): 1800 to today · 284 entries
-- [Living Traditions](../eras/living/index.md): undated · 510 entries
+- [Living Traditions](../eras/living/index.md): undated · 519 entries

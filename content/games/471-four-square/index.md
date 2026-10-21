@@ -38,11 +38,11 @@ A living tradition passed from person to person; it is not tied to a single date
 ## Related entries
 
 - [Clawhammer banjo](../../games/436-clawhammer-banjo/index.md)
+- [Hex sign](../../games/2619-hex-sign/index.md)
+- [Pack basket](../../games/3355-pack-basket/index.md)
+- [Screen painting](../../games/3759-screen-painting/index.md)
 - [Musical saw](../../games/6353-musical-saw/index.md)
 - [American patchwork quilting](../../games/6356-american-patchwork-quilting/index.md)
-- [Decoy carving](../../games/6360-decoy-carving/index.md)
-- [Maple taffy on snow](../../games/441-maple-taffy-on-snow/index.md)
-- [Ice Canoe Race](../../games/1412-ice-canoe-race/index.md)
 
 ## Sources
 

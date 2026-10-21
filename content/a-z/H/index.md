@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with H"
-description: "54 entries beginning with H."
+description: "56 entries beginning with H."
 path: "/a-z/H/"
 ---
 # Entries beginning with H
@@ -22,12 +22,14 @@ path: "/a-z/H/"
 - [Hardanger Fiddle Halling](../../games/520-hardanger-fiddle-halling/index.md): Norway; Musical instruments; Living Traditions
 - [Hare and Hounds](../../games/4647-hare-and-hounds/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages
 - [Hasami shogi](../../games/849-hasami-shogi/index.md): Japan; Board and table games; Crossroads and Golden Ages
+- [Hasapi](../../games/2603-hasapi/index.md): Indonesia; Musical instruments; Crossroads and Golden Ages
 - [Hashi](../../games/360-hashi/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Hawaiian outrigger canoe racing](../../games/6388-hawaiian-outrigger-canoe-racing/index.md): United States; Racing; Age of Contact and Craft
 - [Hawalis](../../games/1001-hawalis/index.md): Oman; Board and table games; Deep Past and First Games
 - [Hebron Glassblowing](../../games/6034-hebron-glassblowing/index.md): Palestine; Crafts and making; Living Traditions
 - [Heritage games](../../games/1050-heritage-games/index.md): Saint Lucia; Street and playground games; Modern Heritage
 - [Heu](../../games/1146-heu/index.md): Tonga; Dexterity and skill games; Modern Heritage
+- [Hex sign](../../games/2619-hex-sign/index.md): United States; Crafts and making; Living Traditions
 - [Hichiriki](../../games/2620-hichiriki/index.md): Japan; Musical instruments; Classical Worlds
 - [Hida shunkei lacquerware](../../games/14555-hida-shunkei-lacquerware/index.md): Japan; Crafts and making; Living Traditions
 - [Hide and Seek](../../games/475-hide-and-seek/index.md): Worldwide; Street and playground games; Deep Past and First Games

@@ -1,0 +1,164 @@
+{
+  "engine": "pattern",
+  "params": {
+    "scene": "pipili",
+    "mode": "copy",
+    "density": 0.5,
+    "colorsInTarget": 4,
+    "cols": 9,
+    "rows": 9,
+    "symmetry": "mirror-xy",
+    "palette": [
+      {
+        "name": "Red",
+        "color": "#d8281c"
+      },
+      {
+        "name": "Sun yellow",
+        "color": "#f0c020"
+      },
+      {
+        "name": "White",
+        "color": "#f4efe0"
+      },
+      {
+        "name": "Leaf green",
+        "color": "#2a9a4a"
+      },
+      {
+        "name": "Orange",
+        "color": "#f08020"
+      }
+    ],
+    "background": "#1d3f8a",
+    "grid": "#102a60",
+    "motifs": [
+      "diamond",
+      "flower",
+      "star",
+      "leaf",
+      "triangle",
+      "arch"
+    ],
+    "designs": [
+      {
+        "name": "Canopy panel",
+        "rows": [
+          "a.b.c.b.a",
+          ".d.e.e.d.",
+          "b.f.a.f.b",
+          ".e.d.d.e.",
+          "c.a.f.a.c",
+          ".e.d.d.e.",
+          "b.f.a.f.b",
+          ".d.e.e.d.",
+          "a.b.c.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 0
+          },
+          "b": {
+            "m": 0,
+            "c": 1
+          },
+          "c": {
+            "m": 2,
+            "c": 3
+          },
+          "d": {
+            "m": 3,
+            "c": 2
+          },
+          "e": {
+            "m": 4,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 1
+          }
+        }
+      },
+      {
+        "name": "Layered flower",
+        "rows": [
+          "a.b.a.b.a",
+          ".c.d.d.c.",
+          "b.e.b.e.b",
+          ".d.c.c.d.",
+          "a.b.f.b.a",
+          ".d.c.c.d.",
+          "b.e.b.e.b",
+          ".c.d.d.c.",
+          "a.b.a.b.a"
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 0
+          },
+          "b": {
+            "m": 4,
+            "c": 1
+          },
+          "c": {
+            "m": 3,
+            "c": 2
+          },
+          "d": {
+            "m": 2,
+            "c": 3
+          },
+          "e": {
+            "m": 0,
+            "c": 4
+          },
+          "f": {
+            "m": 5,
+            "c": 0
+          }
+        }
+      },
+      {
+        "name": "Parasol border",
+        "rows": [
+          "e.e.e.e.e",
+          ".a.a.a.a.",
+          "c.d.c.d.c",
+          ".a.b.b.a.",
+          "e.c.e.c.e",
+          ".a.b.b.a.",
+          "c.d.c.d.c",
+          ".a.a.a.a.",
+          "e.e.e.e.e"
+        ],
+        "legend": {
+          "a": {
+            "m": 1,
+            "c": 1
+          },
+          "b": {
+            "m": 0,
+            "c": 0
+          },
+          "c": {
+            "m": 4,
+            "c": 3
+          },
+          "d": {
+            "m": 5,
+            "c": 4
+          },
+          "e": {
+            "m": 2,
+            "c": 2
+          }
+        }
+      }
+    ]
+  },
+  "variant": "pipili-applique-work",
+  "players": "1"
+}

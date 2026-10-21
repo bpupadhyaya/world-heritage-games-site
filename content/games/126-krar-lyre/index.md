@@ -46,10 +46,10 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 - [Begena](../../games/7301-begena/index.md)
 - [Zande kundi arched harp](../../games/1319-zande-kundi-arched-harp/index.md)
+- [Kissar](../../games/2889-kissar/index.md)
 - [Simsimiyya](../../games/6047-simsimiyya/index.md)
 - [Tanbura](../../games/6048-tanbura/index.md)
 - [Morin khuur](../../games/34-morin-khuur/index.md)
-- [String Marionette Theatre](../../games/68-string-marionette-theatre/index.md)
 
 ## Sources
 

@@ -43,12 +43,12 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Related entries
 
+- [Hasapi](../../games/2603-hasapi/index.md)
 - [Gaple dominoes](../../games/804-gaple-dominoes/index.md)
 - [Surakarta](../../games/4940-surakarta/index.md)
 - [Co Ganh](../../games/301-co-ganh/index.md)
 - [Sittuyin](../../games/302-sittuyin/index.md)
 - [Floating market trader](../../games/315-floating-market-trader/index.md)
-- [Khmer chess](../../games/616-khmer-chess/index.md)
 
 ## Sources
 

@@ -14,6 +14,7 @@ Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, no ad
 - [Kalamkari pen painting](../../games/273-kalamkari-pen-painting/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/kalamkari-pen-painting/
 - [Kashmiri papier-mache painting](../../games/269-kashmiri-papier-mache-painting/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/kashmiri-papier-mache-painting/
 - [Luk chup](../../games/307-luk-chup/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/luk-chup/
+- [Madhubani art](../../games/3074-madhubani-art/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/madhubani-art/
 - [Petrykivka painting](../../games/381-petrykivka-painting/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/petrykivka-painting/
 - [Pysanka](../../games/13251-pysanka/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/pysanka/
 - [Rosemaling](../../games/120-rosemaling/index.md): playable preview at https://bpupadhyaya.github.io/world-heritage-games-site/play/rosemaling/

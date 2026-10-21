@@ -1,0 +1,13 @@
+{
+ "slug": "phin",
+ "title": "Phin (Lao three-string lute)",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

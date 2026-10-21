@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with B"
-description: "114 entries beginning with B."
+description: "115 entries beginning with B."
 path: "/a-z/B/"
 ---
 # Entries beginning with B
@@ -71,6 +71,7 @@ path: "/a-z/B/"
 - [Billycart derby](../../games/445-billycart-derby/index.md): Australia; Racing; Age of Contact and Craft
 - [Bilum looped string bag](../../games/1242-bilum-looped-string-bag/index.md): Papua New Guinea; Crafts and making; Living Traditions
 - [Bingo](../../games/622-bingo/index.md): Canada; Board and table games; Crossroads and Golden Ages
+- [Biwa](../../games/1787-biwa/index.md): Japan; Musical instruments; Crossroads and Golden Ages
 - [Black Forest Cuckoo Clock Workshop](../../games/409-black-forest-cuckoo-clock-workshop/index.md): Germany; Crafts and making; Living Traditions
 - [Blacksmith's Forge](../../games/506-blacksmiths-forge/index.md): United Kingdom, Germany; Crafts and making; Living Traditions
 - [Blackwork](../../games/10529-blackwork/index.md): United Kingdom; Crafts and making; Living Traditions
