@@ -5,7 +5,7 @@ path: "/apps/story-and-theatre-of-the-world/"
 ---
 # Story & Theatre of the World
 
-A mobile app (iPhone, iPad & Android) with 10 playable story and theatre games from 11 countries. Submitted to the App Store and Google Play; in review. Store links appear here the day it goes live.
+A mobile app (iPhone, iPad & Android) with 10 playable story and theatre games from 11 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, no ads, works offline.
 
