@@ -5,7 +5,7 @@ path: "/apps/music-and-dance-of-the-world/"
 ---
 # Music & Dance of the World
 
-A mobile app (iPhone, iPad, Android) with 10 playable instruments and dances from 24 countries. Submitted to the App Store and Google Play; in review. Store links appear here the day it goes live.
+A mobile app (iPhone, iPad & Android) with 10 playable instruments and dances from 24 countries. Submitted to the App Store and Google Play; in review. Store links appear here the day it goes live.
 
 Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, no ads, works offline.
 
