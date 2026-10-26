@@ -1,0 +1,30 @@
+{
+  "title": "Netball",
+  "native": "Netball",
+  "alt": [],
+  "summary": "A seven-a-side court game in which the ball is passed from hand to hand and never carried, and goals are scored by a shooter standing inside the goal circle. The ring sits on a tall post with no board behind it, so every shot must arrive on a true arc.",
+  "howToPlay": [
+    "Press and hold to bring the ball up in your hand: the ring on the ground shows where the shot will come down, and it drifts a little as you wait.",
+    "Release when the ring sits under the goal ring.",
+    "Each round is eight shots from the circle, and there are three rounds. Watch and learn shows a calm shooter."
+  ],
+  "rules": [
+    "A shot through the middle of the ring scores 2; a ball that drops in off the rim scores 1.",
+    "A ball that strikes the rim and bounces away scores nothing.",
+    "The goal ring is on a tall post with no backboard, so there is no bouncing a shot in.",
+    "Wind-up time matters: a very short wind-up drops the ball low.",
+    "Eight shots make a round; three rounds are played and the scores are added.",
+    "Three stars are awarded for 10, 20 and 28 points."
+  ],
+  "heritageNote": "Netball grew in the 1890s from early basketball rules sent to a teacher in New Orleans and carried to women's colleges in England, and it spread through Australia, New Zealand, Jamaica and the wider Commonwealth. Today it is played in school playgrounds and in national leagues, mostly by women and girls.",
+  "countries": [
+    "Australia",
+    "United Kingdom"
+  ],
+  "credits": [
+    "Photo: Samson Ssemakadde, CC0, Wikimedia Commons",
+    "3D people: Microsoft Rocketbox Avatar Library (MIT License, Copyright (c) 2020 Microsoft); textures repainted for team kits.",
+    "Motion data: Carnegie Mellon University Graphics Lab Motion Capture Database (mocap.cs.cmu.edu, funded by NSF EIA-0196217; BVH conversion by Bruce Hahne, cgspeed.com) and the Quaternius Universal Animation Library (CC0).",
+    "Software: three.js (MIT License, Copyright (c) 2010-2024 three.js authors) and meshoptimizer (MIT License, Copyright (c) 2016-2024 Arseny Kapoulkine). Full licence texts ship with the game."
+  ]
+}

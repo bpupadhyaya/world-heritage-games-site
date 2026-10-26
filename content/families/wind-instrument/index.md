@@ -1,16 +1,16 @@
 ---
 title: "Wind instruments"
-description: "50 related traditions."
+description: "51 related traditions."
 path: "/families/wind-instrument/"
-count: 50
+count: 51
 ---
 # Wind instruments
 
-50 related traditions.
+51 related traditions.
 
 
 
-50 entries.
+51 entries.
 
 - [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md): India, Nepal; Musical instruments; Classical Worlds
 - [Caballito de totora](../../games/1442-caballito-de-totora/index.md): Peru; Crafts and making; Living Traditions
@@ -40,6 +40,7 @@ count: 50
 - [Nadaswaram](../../games/3221-nadaswaram/index.md): India; Musical instruments; Living Traditions
 - [Nai](../../games/1342-nai/index.md): Romania; Musical instruments; Classical Worlds
 - [Ocarina](../../games/6501-ocarina/index.md): Worldwide; Musical instruments; Classical Worlds
+- [Pauliteiros de Miranda](../../games/5143-pauliteiros-de-miranda/index.md): Portugal; Dances; Living Traditions
 - [Reed Mat Weaving of Sri Lanka](../../games/5704-reed-mat-weaving-of-sri-lanka/index.md): Sri Lanka; Crafts and making; Living Traditions
 - [Rhaita](../../games/3631-rhaita/index.md): Morocco; Musical instruments; Living Traditions
 - [Shakuhachi](../../games/349-shakuhachi/index.md): Japan; Musical instruments; Classical Worlds

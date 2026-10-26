@@ -43,9 +43,9 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Sprouts](../../games/473-sprouts/index.md)
 - [Ribbon-Pole Plaiting Dance](../../games/512-ribbon-pole-plaiting-dance/index.md)
 - [Dots and Boxes](../../games/463-dots-and-boxes/index.md)
+- [Enluminure](../../games/19901-enluminure/index.md)
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md)
 - [Ndebele geometric wall painting](../../games/23-ndebele-geometric-wall-painting/index.md)
-- [Chinese knotting](../../games/26-chinese-knotting/index.md)
 
 ## Sources
 

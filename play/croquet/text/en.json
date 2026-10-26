@@ -1,0 +1,33 @@
+{
+  "title": "Croquet",
+  "native": "Croquet (from the French jeu de mail)",
+  "alt": [
+    "Jeu de mail",
+    "Pall-mall"
+  ],
+  "summary": "A lawn game in which wooden balls are driven with a long-handled mallet through small iron hoops set in the grass and on to a striped peg. It grew out of older mallet-and-ball games of France and the British Isles and became a favourite of garden parties and clubs.",
+  "howToPlay": [
+    "Press behind the ball and pull back like drawing a mallet: the dotted line shows the path.",
+    "Let go to strike. A longer pull is a harder stroke.",
+    "Roll the ball gently between the legs of a white hoop to run it; a ball struck too fast skims through for nothing.",
+    "Finish at the striped peg for the biggest score. Ten strokes make a round."
+  ],
+  "rules": [
+    "The pull length sets the strength and the dotted guide shows the line.",
+    "A ball that crosses a hoop slowly enough runs it and keeps rolling.",
+    "A ball that strikes a leg of a hoop bounces away.",
+    "The four hoops are worth 2, 2, 3 and 3 points; the striped peg is worth 5.",
+    "Ten strokes make a round."
+  ],
+  "heritageNote": "Played on the lawns of Ireland and Britain since the 1800s, with roots in the French mallet game jeu de mail. Clubs in many countries keep the sport alive.",
+  "countries": [
+    "United Kingdom",
+    "Ireland",
+    "France"
+  ],
+  "credits": [
+    "3D people: Microsoft Rocketbox Avatar Library (MIT License, Copyright (c) 2020 Microsoft); textures repainted for team kits.",
+    "Motion data: Carnegie Mellon University Graphics Lab Motion Capture Database (mocap.cs.cmu.edu, funded by NSF EIA-0196217; BVH conversion by Bruce Hahne, cgspeed.com) and the Quaternius Universal Animation Library (CC0).",
+    "Software: three.js (MIT License, Copyright (c) 2010-2024 three.js authors) and meshoptimizer (MIT License, Copyright (c) 2016-2024 Arseny Kapoulkine). Full licence texts ship with the game."
+  ]
+}

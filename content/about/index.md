@@ -25,7 +25,7 @@ Know a game, a correction or a better photograph? [Open an issue](https://github
 
 ## What you are seeing
 
-The site currently publishes 1,357 entries. Many more are being researched; they appear here only when our own description is ready. Browse by [era](../eras/index.md), [cradle](../cradles/index.md), [country](../countries/index.md), [type](../types/index.md) or [A to Z](../a-z/index.md).
+The site currently publishes 1,372 entries. Many more are being researched; they appear here only when our own description is ready. Browse by [era](../eras/index.md), [cradle](../cradles/index.md), [country](../countries/index.md), [type](../types/index.md) or [A to Z](../a-z/index.md).
 
 ## Open data
 

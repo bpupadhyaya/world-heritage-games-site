@@ -1,0 +1,187 @@
+{
+ "engine": "aim",
+ "variant": "pesapallo",
+ "players": "1",
+ "params": {
+  "mode": "lob",
+  "controls": "drag",
+  "guide": "direction",
+  "setting": "lawn",
+  "lane": {
+   "width": 9.0,
+   "length": 16,
+   "startX": "fixed",
+   "start": {
+    "x": 0,
+    "y": 0
+   },
+   "props": [
+    {
+     "kind": "box",
+     "x": 3.5100000000000002,
+     "y": 4.2,
+     "w": 0.5,
+     "h": 0.06,
+     "d": 0.5,
+     "color": "#fbfaf2"
+    },
+    {
+     "kind": "box",
+     "x": -3.5100000000000002,
+     "y": 7.6,
+     "w": 0.5,
+     "h": 0.06,
+     "d": 0.5,
+     "color": "#fbfaf2"
+    },
+    {
+     "kind": "box",
+     "x": 3.5100000000000002,
+     "y": 11.0,
+     "w": 0.5,
+     "h": 0.06,
+     "d": 0.5,
+     "color": "#fbfaf2"
+    },
+    {
+     "kind": "box",
+     "x": -3.5100000000000002,
+     "y": 14.2,
+     "w": 0.5,
+     "h": 0.06,
+     "d": 0.5,
+     "color": "#f2c14e"
+    }
+   ]
+  },
+  "range": {
+   "min": 3,
+   "max": 16
+  },
+  "projectile": {
+   "r": 0.1,
+   "mass": 0.3,
+   "bounce": 0.5,
+   "look": "ball",
+   "color": "#f2d23a",
+   "pattern": "plain"
+  },
+  "world": {
+   "friction": 3.2,
+   "landRoll": 2.6,
+   "wallBounce": 0.3,
+   "sides": "out",
+   "ends": "out",
+   "wind": 0
+  },
+  "target": {
+   "bands": [
+    {
+     "y0": 4.2,
+     "y1": 7.6,
+     "points": 1,
+     "label": "1",
+     "color": "#e8cf8e"
+    },
+    {
+     "y0": 7.6,
+     "y1": 11,
+     "points": 2,
+     "label": "2",
+     "color": "#e3c079"
+    },
+    {
+     "y0": 11,
+     "y1": 14.2,
+     "points": 3,
+     "label": "3",
+     "color": "#dcb363"
+    },
+    {
+     "y0": 14.2,
+     "y1": 16,
+     "points": 4,
+     "label": "HOME",
+     "color": "#f2c14e"
+    }
+   ],
+   "lines": [
+    {
+     "x0": 0.0,
+     "y0": 0,
+     "x1": 3.5100000000000002,
+     "y1": 4.2,
+     "w": 0.07
+    },
+    {
+     "x0": 3.5100000000000002,
+     "y0": 4.2,
+     "x1": -3.5100000000000002,
+     "y1": 7.6,
+     "w": 0.07
+    },
+    {
+     "x0": -3.5100000000000002,
+     "y0": 7.6,
+     "x1": 3.5100000000000002,
+     "y1": 11,
+     "w": 0.07
+    },
+    {
+     "x0": 3.5100000000000002,
+     "y0": 11,
+     "x1": -3.5100000000000002,
+     "y1": 14.2,
+     "w": 0.07
+    }
+   ],
+   "lineColor": "#fbfaf2"
+  },
+  "rounds": {
+   "throws": 6,
+   "count": 1,
+   "scoring": "aggregate",
+   "scoreAt": "throw"
+  },
+  "stars": [
+   8,
+   14,
+   20
+  ],
+  "look": {
+   "striker": "bat",
+   "figureScale": 1.15,
+   "ballScale": 2.0,
+   "courtyard": "trees",
+   "wallHeight": 1.8,
+   "lane": "#86bd4f",
+   "ground": "#4f9a3c",
+   "surround": "#3f8a35",
+   "edge": "#fbfaf2",
+   "line": "#fbfaf2",
+   "jersey": "#d8322f",
+   "skin": "#e8b896",
+   "hair": "#d8b46a",
+   "pants": "#f4f1e4",
+   "shoes": "#2a2f3a",
+   "hat": "cap",
+   "hatColor": "#f4f1e4",
+   "ringColors": [
+    "#e8cf8e",
+    "#e3c079",
+    "#dcb363",
+    "#f2c14e"
+   ],
+   "bollards": false,
+   "titleArt": "bat",
+   "cameraBack": 1.2,
+   "farEdge": 0.2,
+   "farEdgeWide": 0.12,
+   "cameraBackWide": 2.5,
+   "wall": "#d9dfd2"
+  }
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

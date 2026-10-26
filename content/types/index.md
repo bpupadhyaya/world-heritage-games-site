@@ -15,14 +15,14 @@ Games, sports, instruments, dances and crafts.
 - [Racing](../types/racing/index.md): 38 entries
 - [Wrestling and martial sports](../types/wrestling_martial/index.md): 23 entries
 - [Archery, throwing and target games](../types/archery_throwing/index.md): 14 entries
-- [Sports with animal partners](../types/animal_partnered/index.md): 8 entries
+- [Sports with animal partners](../types/animal_partnered/index.md): 7 entries
 - [Water and winter sports](../types/water_winter/index.md): 6 entries
 - [Acrobatics and strength](../types/acrobatic/index.md): 1 entries
 - [Toys](../types/toy/index.md): 13 entries
 - [Puzzles and mind games](../types/puzzle/index.md): 61 entries
-- [Dances](../types/dance/index.md): 28 entries
-- [Musical instruments](../types/instrument/index.md): 221 entries
-- [Crafts and making](../types/craft/index.md): 350 entries
+- [Dances](../types/dance/index.md): 36 entries
+- [Musical instruments](../types/instrument/index.md): 223 entries
+- [Crafts and making](../types/craft/index.md): 356 entries
 - [Performance and storytelling](../types/performance/index.md): 20 entries
 - [Card games](../types/card/index.md): 9 entries
 - [Other traditions](../types/other/index.md): 24 entries

@@ -1,0 +1,13 @@
+{
+ "slug": "hong-kong-milk-tea-pulling",
+ "title": "Hong Kong Milk Tea Pulling",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,29 @@
+{
+ "title": "Generala",
+ "native": "Generala",
+ "alt": [
+  "Five-dice cup game"
+ ],
+ "summary": "A five-dice cup game of the Rio de la Plata. Shake the cup, throw up to three times a turn, keep the dice you like, and write each result in one of ten boxes: numbers, a run of five, a full house, four alike or five alike.",
+ "howToPlay": [
+  "Shake the cup and throw the five dice.",
+  "Keep any dice you like by sliding them into the rack, then throw the others again, up to three throws in all.",
+  "Choose a box on the sheet for the dice you finished with; each box is used once.",
+  "A box you cannot fill is crossed out for nothing. When all ten boxes are written the higher total wins."
+ ],
+ "rules": [
+  "Each turn you may throw the five dice up to three times, keeping any dice you like between throws.",
+  "Numbers 1 to 6: add up the dice showing that number. Escalera (five in a row; 3-4-5-6-1 counts) scores 20, Full (three and two) 30, Poker (four alike) 40, Generala (five alike) 50.",
+  "Escalera, Full and Poker made on the very first throw (servida) score 5 extra.",
+  "A Generala made on the first throw wins the whole game.",
+  "A second Generala after you already hold 50 in the Generala box raises that box to 100 (Generala doble).",
+  "When no box fits you must cross one out for nothing. Ten boxes each; the higher total wins."
+ ],
+ "heritageNote": "Generala is a family game of Argentina, Uruguay and Paraguay, played around kitchen tables with a leather cup and five dice, with the old combination names Escalera, Full and Poker. Rules differ from house to house; this version follows the common ten-box form.",
+ "countries": [
+  "Argentina",
+  "Uruguay",
+  "Paraguay"
+ ],
+ "credits": []
+}

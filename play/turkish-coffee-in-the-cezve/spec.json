@@ -1,0 +1,15 @@
+{
+  "engine": "shape-craft",
+  "variant": "turkish-coffee-in-the-cezve",
+  "players": "1",
+  "params": {
+    "technique": "brew",
+    "mode": "cezve",
+    "scene": "kc-brew-cezve",
+    "cups": 0,
+    "sweet": 1
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

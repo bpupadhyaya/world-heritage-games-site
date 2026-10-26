@@ -1,0 +1,30 @@
+{
+  "title": "Omweso",
+  "native": "Omweso",
+  "alt": [
+    "Mweso"
+  ],
+  "summary": "Four rows of eight pits and sixty-four seeds: each player owns the two rows nearest them. Seeds are sown in long relays round your own side, and a lucky ending takes both pits facing it.",
+  "howToPlay": [
+    "Choose any pit of yours that holds two or more seeds.",
+    "Lift them and sow one by one, counter-clockwise, round your own two rows.",
+    "If your last seed lands in a pit that was already occupied, lift that pit and keep sowing.",
+    "When the last seed fills an occupied pit in your front row and both pits facing it are occupied, take those seeds and sow them on.",
+    "The player who cannot find a pit with two seeds loses."
+  ],
+  "rules": [
+    "Sixty-four seeds; two seeds in every pit at the start.",
+    "A move starts from one of your pits holding at least two seeds.",
+    "Sowing runs counter-clockwise and stays on your own two rows.",
+    "A last seed in an occupied pit starts a new lap from that pit.",
+    "A last seed in an occupied front-row pit with both facing pits occupied takes the seeds of both pits.",
+    "Captured seeds are sown on from the pit where the capturing lap began.",
+    "A move ends when a lap finishes in an empty pit.",
+    "You lose when you have no pit with two or more seeds."
+  ],
+  "heritageNote": "Omweso is the national sowing game of the Baganda in Uganda and was a pastime of the royal court. Players traditionally count the seeds as cattle; the game is still played in homes and at gatherings across the country.",
+  "countries": [
+    "Uganda"
+  ],
+  "credits": []
+}

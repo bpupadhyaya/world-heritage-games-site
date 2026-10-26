@@ -1,0 +1,30 @@
+{
+  "title": "Street Stickball",
+  "native": "Stickball",
+  "alt": [
+    "Stickball",
+    "Sewer-to-sewer ball"
+  ],
+  "summary": "A sawn-off broom handle, a pink rubber ball and a city street: one player flips the ball up and swings, and the hit is measured in sewers, the manhole covers that run down the road. It grew up in the crowded blocks of New York and other big cities of the north-eastern United States, played by children after school and by grown-ups on summer evenings.",
+  "howToPlay": [
+    "Press at the batter and pull back to set the line and the swing's strength.",
+    "Release to swing: the dotted line shows where the ball will fly.",
+    "Six swings make a round. The further down the street the ball lands, the more it is worth."
+  ],
+  "rules": [
+    "A ball landing past the first manhole scores 1, a single; past the second 2, a double; past the third 3, a triple.",
+    "A ball that carries to the far end of the street is a home run and scores 4.",
+    "A swing that falls short of the first manhole scores nothing.",
+    "Parked cars and the kerbs bounce the ball but never stop it from scoring.",
+    "All six swings count when the round ends."
+  ],
+  "heritageNote": "Street stickball was played on the paved blocks of New York, Philadelphia and Boston through the twentieth century, using a broom handle and a rubber ball. Players used what the street offered: manhole covers as bases or distance marks, and buildings as foul lines.",
+  "countries": [
+    "United States"
+  ],
+  "credits": [
+    "3D people: Microsoft Rocketbox Avatar Library (MIT License, Copyright (c) 2020 Microsoft); textures repainted for team kits.",
+    "Motion data: Carnegie Mellon University Graphics Lab Motion Capture Database (mocap.cs.cmu.edu, funded by NSF EIA-0196217; BVH conversion by Bruce Hahne, cgspeed.com) and the Quaternius Universal Animation Library (CC0).",
+    "Software: three.js (MIT License, Copyright (c) 2010-2024 three.js authors) and meshoptimizer (MIT License, Copyright (c) 2016-2024 Arseny Kapoulkine). Full licence texts ship with the game."
+  ]
+}

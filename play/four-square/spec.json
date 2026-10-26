@@ -1,0 +1,274 @@
+{
+  "engine": "aim",
+  "variant": "four-square",
+  "players": "1",
+  "params": {
+    "mode": "lob",
+    "controls": "drag",
+    "guide": "full",
+    "setting": "playground",
+    "lane": {
+      "width": 4.4,
+      "length": 9,
+      "startX": "fixed",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "props": [
+        {
+          "kind": "cone",
+          "x": -2.7,
+          "y": 3.0
+        },
+        {
+          "kind": "cone",
+          "x": 2.7,
+          "y": 3.0
+        },
+        {
+          "kind": "cone",
+          "x": -2.7,
+          "y": 8.4
+        },
+        {
+          "kind": "cone",
+          "x": 2.7,
+          "y": 8.4
+        }
+      ]
+    },
+    "range": {
+      "min": 2.5,
+      "max": 8.8
+    },
+    "projectile": {
+      "r": 0.12,
+      "mass": 0.5,
+      "bounce": 0.6,
+      "look": "ball",
+      "color": "#d8453a",
+      "pattern": "volley"
+    },
+    "world": {
+      "friction": 6,
+      "landRoll": 0.12,
+      "wallBounce": 0.4,
+      "sides": "out",
+      "ends": "wall"
+    },
+    "target": {
+      "bands": [
+        {
+          "y0": 3.2,
+          "y1": 5.9,
+          "x0": -2.2,
+          "x1": 0,
+          "points": 1,
+          "label": "1",
+          "color": "#e0a21c"
+        },
+        {
+          "y0": 3.2,
+          "y1": 5.9,
+          "x0": 0,
+          "x1": 2.2,
+          "points": 2,
+          "label": "2",
+          "color": "#2f8f83"
+        },
+        {
+          "y0": 5.9,
+          "y1": 8.6,
+          "x0": 0,
+          "x1": 2.2,
+          "points": 3,
+          "label": "3",
+          "color": "#d8453a"
+        },
+        {
+          "y0": 5.9,
+          "y1": 8.6,
+          "x0": -2.2,
+          "x1": 0,
+          "points": 4,
+          "label": "4",
+          "color": "#3a6fb8"
+        }
+      ],
+      "lineColor": "#f6f2e6",
+      "lines": [
+        {
+          "x0": -2.2,
+          "y0": 3.2,
+          "x1": 2.2,
+          "y1": 3.2,
+          "w": 0.06
+        },
+        {
+          "x0": -2.2,
+          "y0": 8.6,
+          "x1": 2.2,
+          "y1": 8.6,
+          "w": 0.06
+        }
+      ]
+    },
+    "rounds": {
+      "throws": 6,
+      "count": 1,
+      "scoring": "aggregate",
+      "scoreAt": "throw"
+    },
+    "stars": [
+      8,
+      14,
+      19
+    ],
+    "look": {
+      "striker": "hand",
+      "ballScale": 1.8,
+      "lane": "#3f4a58",
+      "ground": "#59626c",
+      "surround": "#59626c",
+      "edge": "#f4f4ee",
+      "line": "#f4f4ee",
+      "jersey": "#e0a21c",
+      "skin": "#c68b5e",
+      "courtyard": "schoolyard",
+      "ringColors": [
+        "#e0a21c",
+        "#2f8f83",
+        "#d8453a",
+        "#3a6fb8"
+      ],
+      "titleArt": "ball",
+      "lines": "none",
+      "cameraBack": 9,
+      "bollards": false,
+      "hat": "cap",
+      "hatColor": "#2f8f83",
+      "hair": "#2a1a12",
+      "pants": "#3b3f4a",
+      "shoes": "#f2c230",
+      "farEdgeWide": 0.22,
+      "cameraBackWide": 2.6,
+      "farEdge": 0.05,
+      "zoom": 1.25,
+      "figureScale": 1.4,
+      "figureX": 1.1,
+      "finish": {
+        "detail": "asphalt",
+        "haze": 0.18,
+        "vignette": 0.3
+      },
+      "figureScaleWide": 0.4,
+      "figureXWide": 1.8,
+      "figureSide": 1,
+      "ballScaleWide": 1.2,
+      "bystanders": [
+        {
+          "x": -0.85,
+          "y": 4.6,
+          "shirt": "#d8453a",
+          "pants": "#2b3140",
+          "front": true,
+          "scale": 0.9,
+          "skin": "light",
+          "cap": "#2f8f83"
+        },
+        {
+          "x": 0.85,
+          "y": 6.2,
+          "shirt": "#2f8f83",
+          "pants": "#3a4a6a",
+          "front": true,
+          "scale": 0.9,
+          "skin": "deep",
+          "hair": "black"
+        },
+        {
+          "x": -0.85,
+          "y": 7.6,
+          "shirt": "#e0a21c",
+          "pants": "#2b3140",
+          "front": true,
+          "scale": 0.9,
+          "skin": "tan"
+        }
+      ],
+      "decals": [
+        {
+          "kind": "chalk",
+          "art": "sun",
+          "x": 0.9,
+          "y": 1.1,
+          "r": 0.7,
+          "color": "#ffb6c8"
+        },
+        {
+          "kind": "chalk",
+          "art": "figure",
+          "x": -0.8,
+          "y": 1.2,
+          "r": 0.7,
+          "color": "#9ad8ff"
+        },
+        {
+          "kind": "chalk",
+          "art": "flower",
+          "x": 0.2,
+          "y": 0.55,
+          "r": 0.35,
+          "color": "#fff2a8"
+        },
+        {
+          "kind": "puddle",
+          "x": -1.2,
+          "y": 0.3,
+          "rx": 0.6,
+          "ry": 0.3
+        },
+        {
+          "kind": "hopscotch",
+          "x": -2.6,
+          "y": 0.4,
+          "w": 0.45,
+          "n": 8,
+          "color": "#f4efe0"
+        },
+        {
+          "kind": "chalk",
+          "art": "face",
+          "x": 2.5,
+          "y": 2.0,
+          "r": 0.5,
+          "color": "#c8f0a8"
+        },
+        {
+          "kind": "circle",
+          "x": 2.5,
+          "y": 5.5,
+          "r": 0.55,
+          "color": "#f4efe0",
+          "alpha": 0.6
+        }
+      ],
+      "figures": "view3d",
+      "figureLighting": "day",
+      "nearPad": 2.8,
+      "actor": {
+        "action": "toss",
+        "shirt": "#e0a21c",
+        "pants": "#3a4a6a",
+        "skin": "tan",
+        "hair": "black",
+        "cap": "#2f8f83"
+      },
+      "bystanderScaleWide": 0.6
+    }
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

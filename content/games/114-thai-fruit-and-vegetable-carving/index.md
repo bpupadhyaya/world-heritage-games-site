@@ -42,10 +42,10 @@ A living tradition passed from person to person; it is not tied to a single date
 
 - [Burmese lacquerware engraving](../../games/310-burmese-lacquerware-engraving/index.md)
 - [Shophouse facade builder](../../games/1373-shophouse-facade-builder/index.md)
+- [Prasi](../../games/15096-prasi/index.md)
 - [Gender](../../games/18923-gender/index.md)
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
 - [Glassblowing](../../games/121-glassblowing/index.md)
-- [Azulejo tile painting](../../games/122-azulejo-tile-painting/index.md)
 
 ## Sources
 

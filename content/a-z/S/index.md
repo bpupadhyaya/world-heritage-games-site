@@ -104,7 +104,7 @@ path: "/a-z/S/"
 - [Steppe eagle hunting](../../games/254-steppe-eagle-hunting/index.md): Kazakhstan; Dexterity and skill games; Modern Heritage
 - [Stick and Cingel](../../games/529-stick-and-cingel/index.md): Albania; Street and playground games; Modern Heritage
 - [Stick game](../../games/912-stick-game/index.md): Maldives, New Zealand; Street and playground games; Modern Heritage
-- [Stickball](../../games/477-stickball/index.md): Cuba; Bat-and-ball games; Modern Heritage
+- [Stickball](../../games/477-stickball/index.md): United States; Bat-and-ball games; Modern Heritage
 - [Stilt fishing](../../games/288-stilt-fishing/index.md): Sri Lanka; Dexterity and skill games; Classical Worlds
 - [Stilt-village builder](../../games/1248-stilt-village-builder/index.md): Brunei, Malaysia; Crafts and making; Living Traditions
 - [Stone Arch Bridge Builder](../../games/495-stone-arch-bridge-builder/index.md): China; Puzzles and mind games; Age of Contact and Craft

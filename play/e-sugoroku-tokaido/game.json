@@ -1,0 +1,13 @@
+{
+ "slug": "e-sugoroku-tokaido",
+ "title": "E-sugoroku: Tokaido Road",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Hong Kong Milk Tea Pulling",
+  "native": "港式奶茶",
+  "alt": [
+    "Silk-stocking milk tea",
+    "絲襪奶茶",
+    "Hong Kong-style milk tea"
+  ],
+  "summary": "In the tea cafes of Hong Kong, strong black tea is poured back and forth between two enamel pots through a long cloth strainer, then mixed with evaporated milk for a smooth, silky cup. Here you pull the tea between the pots and add the milk.",
+  "howToPlay": [
+    "Slide your finger up: the left pot rises and tips its tea into the right one. Slide down for the other way.",
+    "Tip each pot further as it empties. If the cloth fills and runs over, ease off.",
+    "Put both pots down and press Milk until the marker sits in the green.",
+    "Make four smooth pulls, then press Serve to see your stars."
+  ],
+  "rules": [
+    "Tea only flows when a pot is tipped past a point that rises as the pot empties; the gauge on each pot shows what is left.",
+    "The cloth passes tea at a limited rate and gets slower with every pull; tea beyond what it can hold runs over the rim and is lost, and a stream that misses the cloth is lost.",
+    "A long, thin, steady fall smooths the tea; a quick hand makes the stream sway.",
+    "Score out of 100: how steady, high and clean each pull was (45), milk mixed in (25), the right amount of milk (20), tea kept (10).",
+    "Three stars for 88 or more, two stars for 65 and one star for 40; doing nothing scores 0."
+  ],
+  "heritageNote": "Hong Kong milk tea took shape in the mid twentieth century, when local cafes adapted the British habit of tea with milk using strong blended black tea and evaporated milk. The long cotton strainer, darkened by years of use and nicknamed the silk stocking, holds back the leaves and leaves the tea smooth.",
+  "countries": [
+    "China"
+  ],
+  "credits": []
+}

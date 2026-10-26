@@ -1,0 +1,12 @@
+{
+  "palette": {
+    "bg": "#21140a",
+    "panel": "#3a2410",
+    "accent": "#e0a050",
+    "line": "#6a4a24"
+  },
+  "board": {},
+  "pieces": {},
+  "sounds": {},
+  "assets": {}
+}

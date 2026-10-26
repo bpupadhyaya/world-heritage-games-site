@@ -6,6 +6,11 @@
   var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
   function $(s, c) { return (c || document).querySelector(s); }
   function $$(s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); }
+  /* external links opened from JS-rendered content also go to a new tab */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a[href^="http"]') : null;
+    if (a && !a.target && a.hostname !== location.hostname && !(e.metaKey || e.ctrlKey || e.shiftKey)) { e.preventDefault(); window.open(a.href, '_blank', 'noopener,noreferrer'); }
+  });
   function ls(k, v) { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) {} return null; }
 
   /* theme picker. mode: light | dark | auto (follow the device). Keep ids in sync with tools/site/style.css and the head script in build-site.py */

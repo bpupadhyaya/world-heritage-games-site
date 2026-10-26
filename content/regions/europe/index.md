@@ -1,16 +1,16 @@
 ---
 title: "Europe"
-description: "299 entries."
+description: "302 entries."
 path: "/regions/europe/"
-count: 299
+count: 302
 ---
 # Europe
 
-299 entries.
+302 entries.
 
 
 
-299 entries.
+302 entries.
 
 - [Albanian filigree](../../games/5102-albanian-filigree/index.md): Albania; Crafts and making; Living Traditions
 - [Alphorn Mountain Echo](../../games/140-alphorn-mountain-echo/index.md): Switzerland; Musical instruments; Living Traditions
@@ -79,7 +79,6 @@ count: 299
 - [Dry Stone Wall Builder](../../games/404-dry-stone-wall-builder/index.md): Croatia, Spain; Crafts and making; Living Traditions
 - [Duduk](../../games/159-duduk/index.md): Armenia; Musical instruments; Crossroads and Golden Ages
 - [Dvoyanka](../../games/2230-dvoyanka/index.md): Bulgaria; Musical instruments; Classical Worlds
-- [Equestrian vaulting](../../games/488-equestrian-vaulting/index.md): Worldwide; Sports with animal partners; Classical Worlds
 - [Euclid's Ruler and Compass](../../games/396-euclids-ruler-and-compass/index.md): Greece; Puzzles and mind games; Modern Heritage
 - [Faroese chain dance](../../games/1276-faroese-chain-dance/index.md): Denmark; Dances; Living Traditions
 - [Faustball](../../games/485-faustball/index.md): Germany, Austria; Other traditions; Living Traditions
@@ -181,6 +180,7 @@ count: 299
 - [Paper Fortune Teller](../../games/465-paper-fortune-teller/index.md): United Kingdom, United States; Crafts and making; Living Traditions
 - [Paper Soccer](../../games/464-paper-soccer/index.md): Poland, Germany; Crafts and making; Living Traditions
 - [Partner-Carry Obstacle Race](../../games/406-partner-carry-obstacle-race/index.md): Finland; Racing; Age of Contact and Craft
+- [Pauliteiros de Miranda](../../games/5143-pauliteiros-de-miranda/index.md): Portugal; Dances; Living Traditions
 - [Peg solitaire](../../games/4849-peg-solitaire/index.md): France; Puzzles and mind games; Modern Heritage
 - [Peg Wooden Doll](../../games/8695-peg-wooden-doll/index.md): Italy; Toys; Modern Heritage
 - [Perfumer's Organ](../../games/402-perfumers-organ/index.md): Worldwide; Crafts and making; Living Traditions
@@ -247,6 +247,7 @@ count: 299
 - [Assisi embroidery](../../games/1623-assisi-embroidery/index.md): Italy; Crafts and making; Living Traditions
 - [Aubusson tapestry](../../games/10370-aubusson-tapestry/index.md): France; Crafts and making; Living Traditions
 - [Badminton](../../games/22322-badminton/index.md): United Kingdom, India; Bat-and-ball games; Modern Heritage
+- [Ball de bastons](../../games/5136-ball-de-bastons/index.md): Spain; Dances; Living Traditions
 - [Balle pelote](../../games/580-balle-pelote/index.md): Belgium; Street and playground games; Modern Heritage
 - [Bargello](../../games/1706-bargello/index.md): Italy, Hungary; Crafts and making; Living Traditions
 - [Bijenkorfvlechten](../../games/19798-bijenkorfvlechten/index.md): Belgium; Crafts and making; Living Traditions
@@ -260,6 +261,7 @@ count: 299
 - [Deruta ceramics](../../games/10441-deruta-ceramics/index.md): Italy; Crafts and making; Living Traditions
 - [Don't Get Mad](../../games/530-dont-get-mad/index.md): Albania; Board and table games; Crossroads and Golden Ages
 - [Dutch draughts](../../games/970-dutch-draughts/index.md): Netherlands; Board and table games; Crossroads and Golden Ages
+- [Enluminure](../../games/19901-enluminure/index.md): France; Crafts and making; Living Traditions
 - [Estonian Durak](../../games/704-estonian-durak/index.md): Estonia; Card games; Age of Contact and Craft
 - [Federkielstickerei](../../games/14211-federkielstickerei/index.md): Austria, Germany (Bavaria); Crafts and making; Living Traditions
 - [Filet lace](../../games/2318-filet-lace/index.md): France; Crafts and making; Living Traditions
@@ -279,6 +281,7 @@ count: 299
 - [Nardy](../../games/1047-nardy/index.md): Russia; Board and table games; River Valleys and First Cities
 - [Nine Men's Morris](../../games/740-nine-mens-morris/index.md): Germany, Liechtenstein; Board and table games; River Valleys and First Cities
 - [Palant](../../games/1031-palant/index.md): Poland; Street and playground games; Deep Past and First Games
+- [Paloteo](../../games/5137-paloteo/index.md): Spain; Dances; Living Traditions
 - [Papierscheppen](../../games/19945-papierscheppen/index.md): Netherlands; Crafts and making; Living Traditions
 - [Parchís](../../games/1098-parchis/index.md): Spain; Board and table games; River Valleys and First Cities
 - [Parxís](../../games/542-parxis/index.md): Andorra; Board and table games; River Valleys and First Cities

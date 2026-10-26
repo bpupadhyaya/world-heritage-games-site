@@ -1,0 +1,116 @@
+{
+  "engine": "chess",
+  "params": {
+    "cols": 8,
+    "rows": 8,
+    "setup": [
+      "RNBQKBNR",
+      "PPP.PPPP",
+      "........",
+      "...P...."
+    ],
+    "setupSymmetry": "mirror",
+    "stalemate": "draw",
+    "bareKing": "none",
+    "repetition": 3,
+    "halfmoveLimit": 100,
+    "maxPlies": 500,
+    "pieces": {
+      "K": {
+        "name": "Noyon",
+        "label": "Н",
+        "value": 0,
+        "moves": [
+          {
+            "dirs": [
+              "all"
+            ]
+          }
+        ],
+        "royal": true
+      },
+      "Q": {
+        "name": "Bers",
+        "label": "Б",
+        "value": 350,
+        "moves": [
+          {
+            "dirs": [
+              "orth"
+            ],
+            "kind": "ride"
+          },
+          {
+            "dirs": [
+              "diag"
+            ]
+          }
+        ]
+      },
+      "R": {
+        "name": "Tereg",
+        "label": "Тр",
+        "value": 500,
+        "moves": [
+          {
+            "dirs": [
+              "orth"
+            ],
+            "kind": "ride"
+          }
+        ]
+      },
+      "B": {
+        "name": "Temee",
+        "label": "Тм",
+        "value": 300,
+        "moves": [
+          {
+            "dirs": [
+              "diag"
+            ],
+            "kind": "ride"
+          }
+        ]
+      },
+      "N": {
+        "name": "Mori",
+        "label": "Мо",
+        "value": 300,
+        "moves": [
+          {
+            "dirs": [
+              "knight"
+            ]
+          }
+        ]
+      },
+      "P": {
+        "name": "Khuu",
+        "label": "Х",
+        "value": 100,
+        "moves": [
+          {
+            "dirs": [
+              "forward"
+            ],
+            "capture": "no"
+          },
+          {
+            "dirs": [
+              "fdiag"
+            ],
+            "capture": "only"
+          }
+        ],
+        "pawn": true,
+        "promote": {
+          "rank": 7,
+          "to": [
+            "Q"
+          ]
+        }
+      }
+    }
+  }
+}

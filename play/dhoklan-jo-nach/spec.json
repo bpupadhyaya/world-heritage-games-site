@@ -1,0 +1,144 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "lanes": [
+   {
+    "name": "Left pair",
+    "hz": 1600,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#e8b61c"
+   },
+   {
+    "name": "Middle pair",
+    "hz": 1900,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#d8341c"
+   },
+   {
+    "name": "Right pair",
+    "hz": 1200,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#2a7a6a"
+   },
+   {
+    "name": "All four",
+    "hz": 1450,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#f4ecd8"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Wedding beat",
+    "bpm": 116,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Left pair"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Middle pair"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Right pair"
+     },
+     {
+      "beat": 3.0,
+      "lane": "All four"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Left pair"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Middle pair"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Right pair"
+     },
+     {
+      "beat": 7.0,
+      "lane": "All four"
+     },
+     {
+      "beat": 8.0,
+      "lane": "All four"
+     },
+     {
+      "beat": 10.0,
+      "lane": "All four"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Right pair"
+     },
+     {
+      "beat": 14.0,
+      "lane": "Middle pair"
+     }
+    ]
+   },
+   {
+    "name": "Fast clash",
+    "bpm": 128,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Left pair"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Left pair"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Middle pair"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Middle pair"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Right pair"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Right pair"
+     },
+     {
+      "beat": 8.0,
+      "lane": "All four"
+     },
+     {
+      "beat": 10.0,
+      "lane": "All four"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Right pair"
+     },
+     {
+      "beat": 14.0,
+      "lane": "Middle pair"
+     }
+    ]
+   }
+  ],
+  "instrument": "stick clash sindh"
+ }
+}

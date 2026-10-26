@@ -1,0 +1,208 @@
+{
+  "engine": "aim",
+  "variant": "chuiwan",
+  "players": "1",
+  "params": {
+    "mode": "lob",
+    "controls": "drag",
+    "guide": "full",
+    "setting": "court",
+    "lane": {
+      "width": 5,
+      "length": 13,
+      "startX": "fixed",
+      "start": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "range": {
+      "min": 2,
+      "max": 12
+    },
+    "projectile": {
+      "r": 0.07,
+      "mass": 0.5,
+      "bounce": 0.35,
+      "look": "ball",
+      "color": "#e8d3a0"
+    },
+    "world": {
+      "friction": 7,
+      "landRoll": 1.6,
+      "wallBounce": 0.3,
+      "sides": "wall",
+      "ends": "wall",
+      "captureSpeed": 2.2
+    },
+    "target": {
+      "pots": [
+        {
+          "x": -1.3,
+          "y": 4,
+          "r": 0.26,
+          "rim": 0.1,
+          "points": 3,
+          "flag": "#c93a2e",
+          "label": "3"
+        },
+        {
+          "x": 1.2,
+          "y": 7.5,
+          "r": 0.26,
+          "rim": 0.1,
+          "points": 5,
+          "flag": "#e0b04a",
+          "label": "5"
+        },
+        {
+          "x": -0.6,
+          "y": 11,
+          "r": 0.26,
+          "rim": 0.1,
+          "points": 8,
+          "flag": "#2f8f7a",
+          "label": "8"
+        }
+      ]
+    },
+    "rounds": {
+      "throws": 6,
+      "count": 3,
+      "scoring": "aggregate",
+      "scoreAt": "throw"
+    },
+    "stars": [
+      8,
+      16,
+      26
+    ],
+    "look": {
+      "striker": "club",
+      "ballScale": 2.4,
+      "courtyard": "moongate",
+      "wallHeight": 2.6,
+      "lane": "#8fae6a",
+      "surround": "#3b2a22",
+      "edge": "#a8321f",
+      "line": "#f4ecd8",
+      "wall": "#e9dcc0",
+      "ground": "#b9a98a",
+      "jersey": "#9a2f22",
+      "pot": "#14110e",
+      "potRim": "#d9a441",
+      "skyTop": "#9cc6e0",
+      "skyLow": "#f6ead0",
+      "titleArt": "club",
+      "figureSide": 1,
+      "skin": "#d9a97e",
+      "cameraBack": 2.4,
+      "farEdge": 0.2,
+      "cameraBackWide": 2.4,
+      "farEdgeWide": 0.22,
+      "zoom": 0.95,
+      "figureScale": 1.5,
+      "finish": {
+        "detail": "lawn",
+        "mow": 1.1,
+        "laneStripes": true,
+        "haze": 0.2,
+        "vignette": 0.3
+      },
+      "figureScaleWide": 0.4,
+      "figureXWide": 1.8,
+      "figureX": 1.15,
+      "ballScaleWide": 1.6,
+      "bystanders": [
+        {
+          "x": -2.0,
+          "y": 8,
+          "shirt": "#2f8f7a",
+          "pants": "#2b2e34",
+          "front": true,
+          "scale": 0.9,
+          "skin": "light",
+          "hair": "black"
+        },
+        {
+          "x": 2.2,
+          "y": 5,
+          "shirt": "#d9a441",
+          "pants": "#2b2e34",
+          "front": true,
+          "scale": 0.9,
+          "skin": "tan",
+          "hair": "black"
+        }
+      ],
+      "yaw": 20,
+      "yawCenter": 0.3,
+      "yawWide": 12,
+      "decals": [
+        {
+          "kind": "circle",
+          "x": -1.3,
+          "y": 4,
+          "r": 0.6,
+          "color": "#e8d6a8",
+          "fill": "#e8d6a8",
+          "fillAlpha": 0.5
+        },
+        {
+          "kind": "circle",
+          "x": 1.2,
+          "y": 7.5,
+          "r": 0.6,
+          "color": "#e8d6a8",
+          "fill": "#e8d6a8",
+          "fillAlpha": 0.5
+        },
+        {
+          "kind": "circle",
+          "x": -0.6,
+          "y": 11,
+          "r": 0.6,
+          "color": "#e8d6a8",
+          "fill": "#e8d6a8",
+          "fillAlpha": 0.5
+        },
+        {
+          "kind": "shade",
+          "x": 1.8,
+          "y": 3,
+          "rx": 1.6,
+          "ry": 1.0,
+          "alpha": 0.18
+        },
+        {
+          "kind": "flowers",
+          "x": -2.0,
+          "y": 9,
+          "w": 0.6,
+          "d": 2.4,
+          "n": 8,
+          "colors": [
+            "#f2a8b8",
+            "#f4f0e6",
+            "#f2c230"
+          ]
+        }
+      ],
+      "figures": "view3d",
+      "figureLighting": "day",
+      "nearPad": 3.2,
+      "actor": {
+        "action": "swing",
+        "shirt": "#9a2f22",
+        "pants": "#2b2e34",
+        "skin": "light",
+        "hair": "black",
+        "prop": {
+          "kind": "club",
+          "length": 1.0
+        }
+      },
+      "bystanderScaleWide": 0.6
+    }
+  }
+}

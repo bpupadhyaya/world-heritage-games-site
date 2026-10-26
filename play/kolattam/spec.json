@@ -1,0 +1,152 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "lanes": [
+   {
+    "name": "Across",
+    "hz": 1600,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#e8c04a"
+   },
+   {
+    "name": "High",
+    "hz": 1900,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#f08a3a"
+   },
+   {
+    "name": "Low",
+    "hz": 1200,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#3fae6a"
+   },
+   {
+    "name": "Own pair",
+    "hz": 1450,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#e6477a"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Pair rhythm",
+    "bpm": 112,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Across"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Across"
+     },
+     {
+      "beat": 4.0,
+      "lane": "High"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Across"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Own pair"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Across"
+     },
+     {
+      "beat": 9.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 11.0,
+      "lane": "Across"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Across"
+     },
+     {
+      "beat": 13.0,
+      "lane": "High"
+     },
+     {
+      "beat": 14.0,
+      "lane": "Own pair"
+     },
+     {
+      "beat": 15.0,
+      "lane": "Low"
+     }
+    ]
+   },
+   {
+    "name": "Circle rhythm",
+    "bpm": 100,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Across"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Own pair"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Across"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Own pair"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Across"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Across"
+     },
+     {
+      "beat": 9.0,
+      "lane": "Across"
+     },
+     {
+      "beat": 10.0,
+      "lane": "High"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Own pair"
+     },
+     {
+      "beat": 14.0,
+      "lane": "Low"
+     },
+     {
+      "beat": 15.0,
+      "lane": "Low"
+     }
+    ]
+   }
+  ],
+  "instrument": "stick clash kolattam"
+ }
+}

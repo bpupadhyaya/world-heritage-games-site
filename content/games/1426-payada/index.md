@@ -39,12 +39,12 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 
 ## Related entries
 
+- [Pato](../../games/420-pato/index.md)
 - [Joropo llanero band](../../games/130-joropo-llanero-band/index.md)
 - [Circle Dodgeball](../../games/470-circle-dodgeball/index.md)
 - [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md)
 - [Generala](../../games/422-generala/index.md)
 - [Bandoneon and tango rhythm](../../games/426-bandoneon-and-tango-rhythm/index.md)
-- [Cueca](../../games/430-cueca/index.md)
 
 ## Sources
 

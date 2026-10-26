@@ -2,7 +2,7 @@
 title: "Shared across the world"
 description: "Pastimes found in many cultures at once."
 path: "/cradles/worldwide/"
-count: 61
+count: 60
 ---
 # Shared across the world
 
@@ -10,7 +10,7 @@ Pastimes found in many cultures at once.
 
 
 
-61 entries.
+60 entries.
 
 - [Aranmula metal mirror](../../games/285-aranmula-metal-mirror/index.md): Worldwide; Crafts and making; Living Traditions
 - [Bamboo Copter](../../games/12-bamboo-copter/index.md): Worldwide; Toys; Modern Heritage
@@ -23,7 +23,6 @@ Pastimes found in many cultures at once.
 - [Cantonese opera role maker](../../games/370-cantonese-opera-role-maker/index.md): Worldwide; Crafts and making; Living Traditions
 - [Channapatna lacquer toys](../../games/272-channapatna-lacquer-toys/index.md): Worldwide; Crafts and making; Living Traditions
 - [Chikankari white-on-white embroidery](../../games/266-chikankari-white-on-white-embroidery/index.md): Worldwide; Crafts and making; Living Traditions
-- [Equestrian vaulting](../../games/488-equestrian-vaulting/index.md): Worldwide; Sports with animal partners; Classical Worlds
 - [Güiro](../../games/6171-guiro/index.md): Worldwide; Musical instruments; Living Traditions
 - [Hide and Seek](../../games/475-hide-and-seek/index.md): Worldwide; Street and playground games; Deep Past and First Games
 - [Inkle weaving](../../games/6603-inkle-weaving/index.md): Worldwide; Crafts and making; Living Traditions

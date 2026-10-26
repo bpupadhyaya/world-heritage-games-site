@@ -3,12 +3,15 @@
 import { createLane } from './laneview.js';
 import { createFace } from './faceview.js';
 import { createBalance } from './balanceview.js';
+import { drawHero } from './hero.js';
 
 export const DEFAULTS = {
   mode: 'lob',            // lob | slide | flick | roll (lane view), fire (face view), balance (stack view)
   controls: 'drag',       // drag (pull back and release) | meter (tap to stop the angle, then the power)
   guide: 'full',          // full (path and wind) | direction (aim line only)
   showWindow: true,       // balance: show the clean-strike window on the strength gauge
+  view: 'lane',           // lane | table (top-down board with rails and pockets, mode flick)
+  table: { rail: 0.28, pocketR: 0.17, cloth: '#2f6a52', wood: '#8a5a2b', line: '#f1ead2', marks: true, baseline: 0.3, cue: true },
   lane: { width: 4, length: 10, startX: 'fixed', start: { x: 0, y: 0 } },
   range: { min: 2, max: 9 },
   projectile: { r: 0.12, mass: 1, bounce: 0.5, look: 'disc', color: '#e8c34a', inner: 0.2 },
@@ -87,8 +90,10 @@ export function createActivity(userParams, env) {
     }
   };
 
+  const heroArt = P.look.titleArt ?? P.look.hero ?? null;
   return {
     init,
+    titleArt: heroArt ? (g, rect) => drawHero(g, rect, heroArt, P) : undefined,
     update(dt, input) { advance(dt); if (!st.done) mod.update(dt, input); },
     attract(dt, input) { advance(dt); if (!st.done) mod.attract(dt, input); },
     render(g, area) { mod.render(g, area); },

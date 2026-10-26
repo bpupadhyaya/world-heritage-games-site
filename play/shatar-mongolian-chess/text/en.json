@@ -1,0 +1,28 @@
+{
+  "title": "Mongolian chess (shatar)",
+  "native": "Монгол шатар",
+  "alt": [
+    "Shatar",
+    "Mongol shatar"
+  ],
+  "summary": "The chess of the Mongolian steppe: the familiar board and pieces, but with its own names, a queen-like bers that strides like a rook or steps like a king, and a custom of opening with the two queen pawns already advanced. The player who traps the noyon wins.",
+  "howToPlay": [
+    "Both queen pawns start the game already advanced to the fourth rank; the lower side moves first.",
+    "Move one piece per turn and capture by landing on an enemy piece: tereg like a rook, temee along diagonals, mori in a knight leap, bers like a rook or one step in any direction.",
+    "Pawns step forward one square, capture diagonally forward and become a bers on the far edge.",
+    "Trap the opposing noyon so it cannot escape attack to win."
+  ],
+  "rules": [
+    "The board and the starting rows are those of the international game, with the two kings facing each other. In this edition the game begins with the queen pawns on the fourth rank and the lower side to move, as in the traditional opening.",
+    "The noyon steps one square in any direction. The tereg moves any distance in a straight line along a row or column. The temee moves any distance diagonally. The mori leaps in an L shape. The bers moves like a tereg or one square diagonally.",
+    "The khuu steps one square forward, captures one square diagonally forward and becomes a bers on the far rank. There is no double step later in the game, no capture in passing and no castling.",
+    "A noyon may never be left under attack; trapping it with no escape wins the game.",
+    "A player with no legal move who is not under attack draws.",
+    "The same position three times, or fifty moves each without a capture or pawn step, is a draw."
+  ],
+  "heritageNote": "Shatar has been played across Mongolia for centuries, in family tents and at the summer festivals, and is taught in schools today. Older Mongolian rules differ from the international game in how a game may be won; this edition keeps the traditional pieces, names and opening, and uses the common rule of winning by trapping the noyon.",
+  "countries": [
+    "Mongolia"
+  ],
+  "credits": []
+}

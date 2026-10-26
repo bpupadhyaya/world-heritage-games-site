@@ -1,16 +1,16 @@
 ---
 title: "East and Southeast Asia"
-description: "270 entries."
+description: "272 entries."
 path: "/regions/east-and-southeast-asia/"
-count: 270
+count: 272
 ---
 # East and Southeast Asia
 
-270 entries.
+272 entries.
 
 
 
-270 entries.
+272 entries.
 
 - [Amidakuji](../../games/357-amidakuji/index.md): Japan; Puzzles and mind games; Modern Heritage
 - [Đàn nguyệt](../../games/1567-an-nguyet/index.md): Vietnam; Musical instruments; Crossroads and Golden Ages
@@ -75,6 +75,7 @@ count: 270
 - [Goguryeo Mural Restoration](../../games/1454-goguryeo-mural-restoration/index.md): South Korea, North Korea; Puzzles and mind games; River Valleys and First Cities
 - [Gomoku and Renju](../../games/847-gomoku-and-renju/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Gong ageng](../../games/2500-gong-ageng/index.md): Indonesia; Musical instruments; Classical Worlds
+- [Gongfu tea pour](../../games/339-gongfu-tea-pour/index.md): China, Taiwan; Crafts and making; Living Traditions
 - [Gonggi](../../games/1085-gonggi/index.md): South Korea; Dexterity and skill games; Deep Past and First Games
 - [Gonu](../../games/1086-gonu/index.md): South Korea; Board and table games; Deep Past and First Games
 - [Goryeo Celadon Inlay](../../games/1455-goryeo-celadon-inlay/index.md): South Korea, North Korea; Crafts and making; Living Traditions
@@ -254,6 +255,7 @@ count: 270
 - [Pai gow](../../games/771-pai-gow/index.md): China; Board and table games; Crossroads and Golden Ages
 - [Petanque](../../games/872-petanque/index.md): Laos, France; Street and playground games; Modern Heritage
 - [Piko](../../games/1022-piko/index.md): Philippines; Street and playground games; Deep Past and First Games
+- [Prasi](../../games/15096-prasi/index.md): Indonesia; Crafts and making; Living Traditions
 - [Pyeongyeong](../../games/11700-pyeongyeong/index.md): South Korea; Musical instruments; Living Traditions
 - [Ranat](../../games/10312-ranat/index.md): Thailand; Musical instruments; Living Traditions
 - [Rice terrace farming](../../games/22337-rice-terrace-farming/index.md): Philippines, Indonesia; Other traditions; Living Traditions

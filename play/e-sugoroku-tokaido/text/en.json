@@ -1,0 +1,32 @@
+{
+ "title": "E-sugoroku: Tokaido Road",
+ "native": "絵双六 / 東海道五十三次",
+ "alt": [
+  "Picture sugoroku",
+  "Tokaido sugoroku",
+  "Dochu sugoroku"
+ ],
+ "summary": "A travel race along the old Tokaido road, from Nihonbashi in Edo to Kyoto. Throw a die and walk the fifty-three post stations; a few stops bring a lift ahead, a setback or a night at the inn. A pastime of Edo-period print culture, played from New Year on the floor.",
+ "howToPlay": [
+  "Both travellers set out from Nihonbashi, the bridge in Edo, and take turns throwing one die.",
+  "Walk your traveller that many stations west along the road: Shinagawa, Kawasaki, Kanagawa and on towards Kyoto.",
+  "Some stops carry an event: a palanquin or ferry carries you ahead, a landslide or a lost way sends you back, and a night at the inn, a mountain barrier or a flooded river makes you miss a turn.",
+  "The first traveller to reach Kyoto, the finish at the end of the road, wins."
+ ],
+ "rules": [
+  "One die and one traveller each. Nihonbashi is the start; the stations run from Shinagawa (1) to Otsu (53), and Kyoto (54) is the finish.",
+  "Both travellers may stand on the same station; nobody is sent back by the other.",
+  "Lifts ahead: Kanagawa (3) to Hiratsuka (7), Kakegawa (26) to Maisaka (30), Shirasuka (32) to Fujikawa (37), the Miya ferry (41) to Shono (45), Tsuchiyama (49) to Kusatsu (52).",
+  "Setbacks: Yui (16) back to Numazu (12), Akasaka (36) back to Futagawa (33), Ishibe (51) back to Sakanoshita (48).",
+  "The Hakone barrier (10), Hamamatsu (29), Okazaki (38) and Seki (47) cost one turn; the flooded river at Shimada (23) costs two turns.",
+  "Kyoto must be reached exactly: a throw that is too large is counted back from Kyoto.",
+  "The first traveller to reach Kyoto wins."
+ ],
+ "heritageNote": "Picture sugoroku sheets were printed in Edo-period Japan, and the Tokaido road from Edo to Kyoto was one of their favourite subjects. Printed boards differed from publisher to publisher; the events here are our own and follow the geography of the road. The station names are the traditional fifty-three post towns.",
+ "countries": [
+  "Japan"
+ ],
+ "credits": [
+  "Game design: World Heritage Games (original)"
+ ]
+}

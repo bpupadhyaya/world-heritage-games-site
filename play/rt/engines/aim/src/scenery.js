@@ -28,7 +28,7 @@ export function rrect(ctx, x, y, w, h, r) {
 }
 
 // ---- settings ----------------------------------------------------------------------------------------------------
-export const SETTINGS = ['generic', 'lawn', 'village', 'shore', 'hall', 'ice', 'court', 'range', 'jungle', 'festival', 'dojo'];
+export const SETTINGS = ['generic', 'lawn', 'village', 'shore', 'hall', 'ice', 'court', 'range', 'jungle', 'festival', 'dojo', 'sports-hall', 'playground', 'street'];
 const PAL = {
   generic: { skyTop: '#7fb4d9', skyLow: '#dbe9f1', far: '#6c8a5a', mid: '#4f7a45', ground: '#6a9a50' },
   lawn: { skyTop: '#6fa8dc', skyLow: '#e6f1f6', far: '#7da36a', mid: '#4f8a3f', ground: '#3e7a34' },
@@ -41,6 +41,9 @@ const PAL = {
   jungle: { skyTop: '#4a7a4a', skyLow: '#b8d89a', far: '#2f5a34', mid: '#1f4a2a', ground: '#3a5a2a' },
   festival: { skyTop: '#7fb4d9', skyLow: '#f6e6c0', far: '#b88a64', mid: '#a86a4a', ground: '#c8b08a' },
   dojo: { skyTop: '#2a2236', skyLow: '#6a4a3a', far: '#5a3c2a', mid: '#8a6a44', ground: '#b08955' },
+  'sports-hall': { skyTop: '#dfe4ea', skyLow: '#c3cad4', far: '#9aa4b4', mid: '#2d4a7a', ground: '#c99a58' },
+  playground: { skyTop: '#8cc4e8', skyLow: '#eef4f2', far: '#6a9a62', mid: '#4a7a46', ground: '#68727c' },
+  street: { skyTop: '#7fb0d6', skyLow: '#f0e6d2', far: '#8a7a70', mid: '#7a4a3c', ground: '#4a4d55' },
 };
 export const palFor = (setting, look = {}) => ({ ...(PAL[setting] ?? PAL.generic), skyTop: look.skyTop ?? (PAL[setting] ?? PAL.generic).skyTop, skyLow: look.skyLow ?? (PAL[setting] ?? PAL.generic).skyLow });
 

@@ -1,16 +1,16 @@
 ---
 title: "Pottery, wood and metal crafts"
-description: "88 related traditions."
+description: "89 related traditions."
 path: "/families/ceramic-wood-metal/"
-count: 88
+count: 89
 ---
 # Pottery, wood and metal crafts
 
-88 related traditions.
+89 related traditions.
 
 
 
-88 entries.
+89 entries.
 
 - [Albanian filigree](../../games/5102-albanian-filigree/index.md): Albania; Crafts and making; Living Traditions
 - [Ambalangoda mask carving](../../games/299-ambalangoda-mask-carving/index.md): Sri Lanka; Crafts and making; Living Traditions
@@ -95,6 +95,7 @@ count: 88
 - [Minakari](../../games/6007-minakari/index.md): Iran; Crafts and making; Living Traditions
 - [Nantucket lightship basket](../../games/3230-nantucket-lightship-basket/index.md): United States; Crafts and making; Living Traditions
 - [Pottery of Metepec](../../games/10512-pottery-of-metepec/index.md): Mexico; Crafts and making; Living Traditions
+- [Prasi](../../games/15096-prasi/index.md): Indonesia; Crafts and making; Living Traditions
 - [Pyeongyeong](../../games/11700-pyeongyeong/index.md): South Korea; Musical instruments; Living Traditions
 - [Székelykapu](../../games/11025-szekelykapu/index.md): Hungary; Crafts and making; Living Traditions
 - [Tsugaru-nuri lacquerware](../../games/14554-tsugaru-nuri-lacquerware/index.md): Japan; Crafts and making; Living Traditions

@@ -42,8 +42,8 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Tanghua](../../games/64-tanghua/index.md)
 - [Chuiwan](../../games/332-chuiwan/index.md)
 - [Bianzhong](../../games/336-bianzhong/index.md)
+- [Gongfu tea pour](../../games/339-gongfu-tea-pour/index.md)
 - [Lamian](../../games/340-lamian/index.md)
-- [Seal carving](../../games/341-seal-carving/index.md)
 
 ## Sources
 

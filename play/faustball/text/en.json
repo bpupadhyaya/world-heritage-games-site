@@ -1,0 +1,32 @@
+{
+  "title": "Faustball",
+  "native": "Faustball",
+  "alt": [],
+  "summary": "Two teams of five strike a ball with a closed fist or forearm across a line stretched between posts, on a grass field. Here you serve from the back line into the far half, reading the breeze and choosing the zone to land in.",
+  "howToPlay": [
+    "Watch the wind flag and the dotted flight path.",
+    "Stop the first sweep to set the direction of your fist serve.",
+    "Stop the second sweep to set the strength, and the ball sails over the line.",
+    "Land it in the middle of the far half for the most points. Two rounds of five serves."
+  ],
+  "rules": [
+    "The ball is struck only with a closed fist or the forearm.",
+    "The serve must clear the line between the posts and land inside the far half.",
+    "Landing in the middle zone scores 3, the next zone 2, the near and back zones 1.",
+    "A ball landing outside the side lines or beyond the back line scores nothing.",
+    "The wind changes at the start of each round and bends the flight.",
+    "A round is five serves; the score is the total over two rounds."
+  ],
+  "heritageNote": "Fistball is played mostly in Germany, Austria and Switzerland and in Brazil, with roots that reach back to ball games of Southern Europe. German gymnastics clubs drafted its first rules in the 1890s, and it is still played on village and club lawns.",
+  "countries": [
+    "Germany",
+    "Austria",
+    "Brazil"
+  ],
+  "credits": [
+    "Photo reference: Fistball Spike, Wikimedia Commons (CC BY-SA 3.0)",
+    "3D people: Microsoft Rocketbox Avatar Library (MIT License, Copyright (c) 2020 Microsoft); textures repainted for team kits.",
+    "Motion data: Carnegie Mellon University Graphics Lab Motion Capture Database (mocap.cs.cmu.edu, funded by NSF EIA-0196217; BVH conversion by Bruce Hahne, cgspeed.com) and the Quaternius Universal Animation Library (CC0).",
+    "Software: three.js (MIT License, Copyright (c) 2010-2024 three.js authors) and meshoptimizer (MIT License, Copyright (c) 2016-2024 Arseny Kapoulkine). Full licence texts ship with the game."
+  ]
+}

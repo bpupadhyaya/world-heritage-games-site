@@ -1,0 +1,35 @@
+{
+  "title": "Nohejbal (foot volleyball)",
+  "native": "Nohejbal",
+  "alt": [
+    "Football tennis",
+    "Futnet"
+  ],
+  "summary": "Nohejbal is the Czech game of football played over a low net: two or three players a side send the ball across using feet, knees, chest and head, never the hands, and must land it in the other half. It began in Prague in 1922 and is now a sport with its own national league and world championships.",
+  "howToPlay": [
+    "Stand on your baseline and press where you want to serve from.",
+    "Draw back the way a catapult is drawn: the line shows the direction and the strength of the kick.",
+    "Release to kick. The ball must clear the net and drop in the far half.",
+    "The deeper strip you land in, the more it is worth. A ball that stays on your side of the net scores nothing.",
+    "Serve five times a round for three rounds, then see how many stars the total earns."
+  ],
+  "rules": [
+    "The court is divided by a net 1.10 m high; the serve is kicked from behind your baseline.",
+    "The ball is struck only with feet, legs, chest or head, never the hands or arms.",
+    "The far half is split into three strips counted from the net: the near strip scores 1, the middle strip 2 and the deep strip 3.",
+    "A ball landing short of the net, wide of the court or beyond the far line scores nothing.",
+    "The ball's marks do not matter: only where it first lands counts.",
+    "Each round is five serves; three rounds make a game."
+  ],
+  "heritageNote": "Nohejbal was invented in Prague in 1922 by football players who first played over a rope, then a net. Czech and Slovak federations now organise leagues, and the game is played on clay and sand courts, in parks and halls, across Czechia, Slovakia and beyond.",
+  "countries": [
+    "Czechia"
+  ],
+  "credits": [
+    "Rules and history: Wikipedia, Football tennis",
+    "Rules and history: Czech Futnet Association (nohejbal.org), Historie",
+    "3D people: Microsoft Rocketbox Avatar Library (MIT License, Copyright (c) 2020 Microsoft); textures repainted for team kits.",
+    "Motion data: Carnegie Mellon University Graphics Lab Motion Capture Database (mocap.cs.cmu.edu, funded by NSF EIA-0196217; BVH conversion by Bruce Hahne, cgspeed.com) and the Quaternius Universal Animation Library (CC0).",
+    "Software: three.js (MIT License, Copyright (c) 2010-2024 three.js authors) and meshoptimizer (MIT License, Copyright (c) 2016-2024 Arseny Kapoulkine). Full licence texts ship with the game."
+  ]
+}

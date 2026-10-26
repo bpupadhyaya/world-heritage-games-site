@@ -2,7 +2,7 @@
 title: "Classical Worlds"
 description: "Empires and academies turned play into sport, strategy and art."
 path: "/eras/classical/"
-count: 137
+count: 136
 ---
 # Classical Worlds
 
@@ -10,7 +10,7 @@ Empires and academies turned play into sport, strategy and art.
 
 
 
-137 entries.
+136 entries.
 
 - [Adungu](../../games/186-adungu/index.md): Uganda; Musical instruments; Classical Worlds
 - [Al Ayyala Cane-Line Rhythm](../../games/1272-al-ayyala-cane-line-rhythm/index.md): United Arab Emirates; Archery, throwing and target games; Classical Worlds
@@ -33,7 +33,6 @@ Empires and academies turned play into sport, strategy and art.
 - [Dougong Bracket Stacking](../../games/504-dougong-bracket-stacking/index.md): China, South Korea; Puzzles and mind games; Classical Worlds
 - [Dvoyanka](../../games/2230-dvoyanka/index.md): Bulgaria; Musical instruments; Classical Worlds
 - [Egrang](../../games/17-egrang/index.md): Indonesia, Malaysia; Racing; Classical Worlds
-- [Equestrian vaulting](../../games/488-equestrian-vaulting/index.md): Worldwide; Sports with animal partners; Classical Worlds
 - [Falaj Water-Turn Clock](../../games/1274-falaj-water-turn-clock/index.md): Oman; Board and table games; Classical Worlds
 - [Finger Hooking](../../games/1452-finger-hooking/index.md): Germany, Austria; Wrestling and martial sports; Classical Worlds
 - [Fujara](../../games/135-fujara/index.md): Slovakia; Musical instruments; Classical Worlds
@@ -92,6 +91,7 @@ Empires and academies turned play into sport, strategy and art.
 - [Ocarina](../../games/6501-ocarina/index.md): Worldwide; Musical instruments; Classical Worlds
 - [Okey](../../games/1158-okey/index.md): Turkey, Cyprus; Board and table games; Classical Worlds
 - [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md): Paraguay; Musical instruments; Classical Worlds
+- [Pato](../../games/420-pato/index.md): Argentina; Sports with animal partners; Classical Worlds
 - [Payada](../../games/1426-payada/index.md): Argentina, Uruguay; Wrestling and martial sports; Classical Worlds
 - [Pencak silat](../../games/329-pencak-silat/index.md): Indonesia, Malaysia; Wrestling and martial sports; Classical Worlds
 - [Portuguese Guitar](../../games/1457-portuguese-guitar/index.md): Portugal; Musical instruments; Classical Worlds
@@ -110,7 +110,6 @@ Empires and academies turned play into sport, strategy and art.
 - [Tanbura](../../games/6048-tanbura/index.md): Sudan; Musical instruments; Classical Worlds
 - [Tavern Nail and Wire Puzzles](../../games/110-tavern-nail-and-wire-puzzles/index.md): Germany, United Kingdom; Puzzles and mind games; Classical Worlds
 - [Tavil](../../games/5714-tavil/index.md): India; Musical instruments; Classical Worlds
-- [Tbourida](../../games/164-tbourida/index.md): Morocco; Sports with animal partners; Classical Worlds
 - [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md): China; Board and table games; Classical Worlds
 - [Tuk Band](../../games/1438-tuk-band/index.md): Barbados; Other traditions; Classical Worlds
 - [Tuvan Throat Singing](../../games/508-tuvan-throat-singing/index.md): Mongolia, Russia; Archery, throwing and target games; Classical Worlds

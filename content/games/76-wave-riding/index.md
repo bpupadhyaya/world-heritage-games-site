@@ -47,8 +47,8 @@ Usually placed in the era of Modern Heritage (1800 to today), although its exact
 - [Madura bull racing](../../games/805-madura-bull-racing/index.md)
 - [Camel racing dash](../../games/19-camel-racing-dash/index.md)
 - [Cirit](../../games/156-cirit/index.md)
-- [Tbourida](../../games/164-tbourida/index.md)
 - [Sahel Salt Caravan](../../games/172-sahel-salt-caravan/index.md)
+- [Pato](../../games/420-pato/index.md)
 - [Netball](../../games/447-netball/index.md)
 
 ## Sources

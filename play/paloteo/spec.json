@@ -1,0 +1,136 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "lanes": [
+   {
+    "name": "First pair",
+    "hz": 1600,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#e8b61c"
+   },
+   {
+    "name": "Second pair",
+    "hz": 1900,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#c0261f"
+   },
+   {
+    "name": "Third pair",
+    "hz": 1200,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#3f7ad6"
+   },
+   {
+    "name": "Fourth pair",
+    "hz": 1450,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#f2f0e6"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Eight sticks",
+    "bpm": 108,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "First pair"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Second pair"
+     },
+     {
+      "beat": 4.0,
+      "lane": "First pair"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Fourth pair"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Third pair"
+     },
+     {
+      "beat": 10.0,
+      "lane": "First pair"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Second pair"
+     },
+     {
+      "beat": 14.0,
+      "lane": "Fourth pair"
+     },
+     {
+      "beat": 15.0,
+      "lane": "First pair"
+     }
+    ]
+   },
+   {
+    "name": "Turns",
+    "bpm": 116,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "First pair"
+     },
+     {
+      "beat": 1.0,
+      "lane": "First pair"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Second pair"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Second pair"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Third pair"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Third pair"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Fourth pair"
+     },
+     {
+      "beat": 10.0,
+      "lane": "First pair"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Fourth pair"
+     },
+     {
+      "beat": 14.0,
+      "lane": "Second pair"
+     },
+     {
+      "beat": 15.0,
+      "lane": "Third pair"
+     }
+    ]
+   }
+  ],
+  "instrument": "stick clash paloteo"
+ }
+}

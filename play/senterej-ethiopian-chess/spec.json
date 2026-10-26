@@ -1,0 +1,106 @@
+{
+  "engine": "chess",
+  "params": {
+    "cols": 8,
+    "rows": 8,
+    "setup": [
+      "RNAFKANR",
+      "PPPPPPPP"
+    ],
+    "setupSymmetry": "rotate",
+    "stalemate": "draw",
+    "bareKing": "none",
+    "repetition": 3,
+    "maxPlies": 500,
+    "pieces": {
+      "K": {
+        "name": "Negus",
+        "label": "ንጉ",
+        "value": 0,
+        "moves": [
+          {
+            "dirs": [
+              "all"
+            ]
+          }
+        ],
+        "royal": true
+      },
+      "F": {
+        "name": "Sew (ferz)",
+        "label": "ሰው",
+        "value": 200,
+        "moves": [
+          {
+            "dirs": [
+              "diag"
+            ]
+          }
+        ]
+      },
+      "A": {
+        "name": "Fil",
+        "label": "ፊል",
+        "value": 150,
+        "moves": [
+          {
+            "dirs": [
+              "alfil"
+            ]
+          }
+        ]
+      },
+      "N": {
+        "name": "Ferese",
+        "label": "ፈረ",
+        "value": 300,
+        "moves": [
+          {
+            "dirs": [
+              "knight"
+            ]
+          }
+        ]
+      },
+      "R": {
+        "name": "Der",
+        "label": "ደር",
+        "value": 500,
+        "moves": [
+          {
+            "dirs": [
+              "orth"
+            ],
+            "kind": "ride"
+          }
+        ]
+      },
+      "P": {
+        "name": "Medeq",
+        "label": "መ",
+        "value": 100,
+        "moves": [
+          {
+            "dirs": [
+              "forward"
+            ],
+            "capture": "no"
+          },
+          {
+            "dirs": [
+              "fdiag"
+            ],
+            "capture": "only"
+          }
+        ],
+        "pawn": true,
+        "promote": {
+          "rank": 7,
+          "to": [
+            "F"
+          ]
+        }
+      }
+    }
+  }
+}

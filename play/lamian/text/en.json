@@ -1,0 +1,28 @@
+{
+  "title": "Lamian (hand-pulled noodles)",
+  "native": "拉面",
+  "alt": [
+    "Hand-pulled noodles",
+    "La mian"
+  ],
+  "summary": "A rope of rested wheat dough is swung out to arm width, folded and swung again. Every fold doubles the strands, and the cook decides when the noodles are fine enough for the pot.",
+  "howToPlay": [
+    "The order card shows a strand count and a thickness. Thick belt noodles need only a few folds; thread-fine noodles need many.",
+    "Press anywhere on the board and drag outward. Two ghost hands show the pace: follow them to the marks and let go to fold.",
+    "Start each pull on the beat. Too fast and the dough snaps; too slow and it sags and thins.",
+    "When the dough turns tacky, press Dust. Press Into the pot when the strand count matches the order."
+  ],
+  "rules": [
+    "Each fold doubles the strands: 2, 4, 8, and so on, so ten folds make 1,024.",
+    "A pull must follow the pace of the ghost hands to the marks; a pull that is too fast snaps the dough, one that is too slow thins it unevenly.",
+    "Tacky dough glues the strands together, so dust it with flour before the next fold.",
+    "Send the noodles into the pot only when the strand count matches the order.",
+    "The round is a table of three bowls: belt, standard and thread-fine noodles in turn.",
+    "Score of a bowl: the right number of folds, an even pull and a steady rhythm, minus points for each snap and each glued fold."
+  ],
+  "heritageNote": "Hand-pulled noodles are made across northern China and are especially associated with the noodle houses of Lanzhou. A rope of rested dough is stretched out, folded in half and stretched again, so each fold doubles the number of strands. The cook judges the dough by its spring and by the rhythm of the arms, and chooses the thickness by how many times to fold.",
+  "countries": [
+    "China"
+  ],
+  "credits": []
+}

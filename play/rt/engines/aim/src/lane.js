@@ -5,6 +5,7 @@ const hyp = Math.hypot;
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 const TAU = Math.PI * 2;
 
+const FLAT = ['net', 'rope', 'manhole'];
 export function railed(item, clock) {
   const r = item.rail;
   if (!r) return { x: item.x, y: item.y };
@@ -16,11 +17,23 @@ export function railed(item, clock) {
 export function createPhysics(P) {
   const L = P.lane, W = P.world, T = P.target, PR = P.projectile, R = P.range, S = P.skip;
   const hw = L.width / 2, len = L.length;
+  const TABLE = P.view === 'table', pocketR = P.table?.pocketR ?? 0.17;
   const pots = () => T.pots ?? [];
+  // static things a rolling piece can hit (1.4.0): solid props, the legs of croquet hoops and the peg
+  const hoops = T.hoops ?? [], peg = T.peg ?? null;
+  const circles = [], boxes = [];
+  for (const p of L.props ?? []) if (p.solid && !FLAT.includes(p.kind)) { if (p.kind === 'box') boxes.push({ x0: p.x - (p.w ?? 0.6) / 2, x1: p.x + (p.w ?? 0.6) / 2, y0: p.y - (p.d ?? 0.4) / 2, y1: p.y + (p.d ?? 0.4) / 2 }); else circles.push({ x: p.x, y: p.y, r: p.r ?? 0.1 }); }
+  for (const h of hoops) { const leg = h.leg ?? 0.025; circles.push({ x: h.x - h.w / 2 - leg, y: h.y, r: leg }, { x: h.x + h.w / 2 + leg, y: h.y, r: leg }); }
+  if (peg) circles.push({ x: peg.x, y: peg.y, r: peg.r ?? 0.05, peg: true });
+
+  // nets and ropes (1.5.0): a barrier across the lane. A lob lower than `h` where it crosses is a net fault (no score, drops back);
+  // a rolling piece bounces off it.
+  const nets = (L.props ?? []).filter((p) => p.kind === 'net' || p.kind === 'rope').map((p) => ({ x: p.x ?? 0, y: p.y, w: p.w ?? L.width + 0.8, h: p.h ?? 1, fault: p.fault !== false }));
 
   const newWorld = (rng) => {
     const w = { clock: 0, nid: 1, throwNo: 0, bodies: [], wind: { x: 0, y: 0 }, trail: null };
     for (const p of T.pins ?? []) w.bodies.push({ id: w.nid++, kind: 'pin', x: p.x, y: p.y, x0: p.x, y0: p.y, vx: 0, vy: 0, r: T.pinR, m: T.pinMass, e: 0.35, st: 'stand', v: p.v, fall: -1 });
+    for (const d of T.discs ?? []) w.bodies.push({ id: w.nid++, kind: 'disc', x: d.x, y: d.y, vx: 0, vy: 0, r: d.r ?? 0.07, m: d.mass ?? 0.35, e: 0.82, st: 'ground', v: d.points ?? 1, color: d.color });
     if (T.jack) {
       const j = T.jack, jj = j.jitter ?? {};
       w.bodies.push({ id: w.nid++, kind: 'jack', x: j.x + (jj.x ? rng.range(-jj.x, jj.x) : 0), y: j.y + (jj.y ? rng.range(-jj.y, jj.y) : 0), vx: 0, vy: 0, r: j.r, m: j.mass, e: 0.6, st: 'ground' });
@@ -90,6 +103,7 @@ export function createPhysics(P) {
   const step = (w, events = []) => {
     w.clock += DT;
     const bs = w.bodies;
+    for (const b of bs) { b.py = b.y; b.px = b.x; }
     for (const b of bs) {
       if (b.st === 'fly') {
         const f = b.fl;
@@ -97,6 +111,19 @@ export function createPhysics(P) {
         const u = Math.min(1, f.t / f.T);
         b.x = f.x0 + (f.x1 - f.x0) * u; b.y = f.y0 + (f.y1 - f.y0) * u;
         b.z = Math.sin(Math.PI * u) * (f.hop ? 0.25 : 1) * (0.25 + 0.05 * f.len);
+        if (nets.length && b.kind === 'proj') {
+          for (const n of nets) {
+            if (b.py < n.y && b.y >= n.y && Math.abs(b.x - n.x) <= n.w / 2 && n.fault) {
+              if (b.z < n.h) {
+                // net fault: the ball dies against the net and drops back toward the thrower
+                b.st = 'ground'; b.fl = null; b.z = 0; b.fault = true; b.y = n.y - b.r - 0.02;
+                b.vx = (b.x - f.x0) * 0.25; b.vy = -1.3; b.v0 = 1.3; events.push('netfault');
+              } else if (b.z < n.h + 0.22) events.push('nettape');
+              break;
+            }
+          }
+          if (b.fault) continue;
+        }
         if (u >= 1) land(w, b, events);
         if (w.trail) w.trail.push({ x: b.x, y: b.y, z: b.z ?? 0 });
         continue;
@@ -115,6 +142,16 @@ export function createPhysics(P) {
       }
       b.x += b.vx * DT; b.y += b.vy * DT;
       if (w.trail && b.kind === 'proj') w.trail.push({ x: b.x, y: b.y, z: 0 });
+    }
+    if (nets.length) {
+      for (const b of bs) {
+        if (b.st !== 'ground' || b.kind !== 'proj') continue;
+        for (const n of nets) {
+          if (b.py < n.y && b.y + b.r >= n.y && Math.abs(b.x - n.x) <= n.w / 2) {
+            b.y = n.y - b.r; b.vy = -Math.abs(b.vy) * 0.3; b.vx *= 0.5; b.fault = true; events.push('netfault');
+          }
+        }
+      }
     }
     // circle vs circle
     for (let i = 0; i < bs.length; i++) {
@@ -143,19 +180,67 @@ export function createPhysics(P) {
     for (const b of bs) {
       if (b.st === 'fly' || b.st === 'in' || b.st === 'out' || b.st === 'sunk') continue;
       if (W.sides === 'wall' || b.kind !== 'proj') {
-        if (b.x - b.r < -hw) { b.x = -hw + b.r; b.vx = Math.abs(b.vx) * W.wallBounce; }
-        if (b.x + b.r > hw) { b.x = hw - b.r; b.vx = -Math.abs(b.vx) * W.wallBounce; }
+        if (b.x - b.r < -hw) { if (TABLE && b.vx < -0.5) events.push('rail'); b.x = -hw + b.r; b.vx = Math.abs(b.vx) * W.wallBounce; }
+        if (b.x + b.r > hw) { if (TABLE && b.vx > 0.5) events.push('rail'); b.x = hw - b.r; b.vx = -Math.abs(b.vx) * W.wallBounce; }
       } else if (Math.abs(b.x) > hw) { b.st = 'out'; events.push('out'); continue; }
-      if (W.ends === 'wall') { if (b.y + b.r > len) { b.y = len - b.r; b.vy = -Math.abs(b.vy) * W.wallBounce; } }
+      if (W.ends === 'wall') { if (b.y + b.r > len) { if (TABLE && b.vy > 0.5) events.push('rail'); b.y = len - b.r; b.vy = -Math.abs(b.vy) * W.wallBounce; } }
       else if (b.y - b.r > len) { if (b.kind === 'proj') { b.st = 'out'; events.push('out'); continue; } b.y = len; b.vy = 0; }
+      if (TABLE && b.y - b.r < 0) { if (b.vy < -0.5) events.push('rail'); b.y = b.r; b.vy = Math.abs(b.vy) * W.wallBounce; }
       if (b.y - b.r < -2 && b.kind !== 'proj') { b.y = -2 + b.r; b.vy = 0; }
-      if (b.kind === 'proj' && b.y < -2) { b.st = 'out'; continue; }
+      if (b.kind === 'proj' && b.y < -2 && !TABLE) { b.st = 'out'; continue; }
       if (b.kind === 'proj' && b.st === 'ground' && b.thr && hyp(b.vx, b.vy) < (W.captureSpeed ?? 1.4)) {
         for (const p of pots()) {
           if (p.peg) continue;
           const c = railed(p, w.clock);
           if (hyp(b.x - c.x, b.y - c.y) <= p.r - b.r * 0.3) { b.st = 'in'; b.pot = p; b.x = c.x; b.y = c.y; events.push('in'); break; }
         }
+      }
+    }
+    if (TABLE) {
+      for (const b of bs) {
+        if (b.st !== 'ground' || (b.kind !== 'proj' && b.kind !== 'disc')) continue;
+        for (const [px, py] of [[-hw, 0], [hw, 0], [-hw, len], [hw, len]]) {
+          if (hyp(b.x - px, b.y - py) < pocketR) { b.st = 'sunk'; b.vx = 0; b.vy = 0; b.pk = [px, py]; events.push('pocket'); break; }
+        }
+      }
+    }
+    if (circles.length || boxes.length) {
+      for (const b of bs) {
+        if (b.st !== 'ground' && b.st !== 'stand') continue;
+        const e = W.wallBounce ?? 0.5;
+        for (const c of circles) {
+          const dx = b.x - c.x, dy = b.y - c.y, d = hyp(dx, dy), rr = b.r + c.r;
+          if (d >= rr) continue;
+          const nx = d > 1e-6 ? dx / d : 0, ny = d > 1e-6 ? dy / d : -1, over = rr - d;
+          b.x += nx * over; b.y += ny * over;
+          const vn = b.vx * nx + b.vy * ny;
+          if (vn < 0) { b.vx -= (1 + e) * vn * nx; b.vy -= (1 + e) * vn * ny; if (-vn > 0.4) events.push(c.peg ? 'peg' : 'post'); }
+          if (c.peg && b.kind === 'proj' && !b.pegHit) { b.pegHit = true; b.xp = (b.xp ?? 0) + (peg.points ?? 1); events.push('pegscore'); }
+        }
+        for (const q of boxes) {
+          const px = clamp(b.x, q.x0, q.x1), py = clamp(b.y, q.y0, q.y1), dx = b.x - px, dy = b.y - py, d = hyp(dx, dy);
+          if (d >= b.r) continue;
+          let nx, ny, over;
+          if (d > 1e-6) { nx = dx / d; ny = dy / d; over = b.r - d; }
+          else { const dl = b.x - q.x0, dr = q.x1 - b.x, dt = b.y - q.y0, db = q.y1 - b.y, m = Math.min(dl, dr, dt, db); nx = m === dl ? -1 : m === dr ? 1 : 0; ny = m === dt ? -1 : m === db ? 1 : 0; over = b.r + m; }
+          b.x += nx * over; b.y += ny * over;
+          const vn = b.vx * nx + b.vy * ny;
+          if (vn < 0) { b.vx -= (1 + e) * vn * nx; b.vy -= (1 + e) * vn * ny; if (-vn > 0.4) events.push('post'); }
+        }
+      }
+    }
+    // hoops: a ground piece that crosses the plane between the legs, slowly enough, scores without being captured
+    if (hoops.length) {
+      for (const b of bs) {
+        if (b.kind !== 'proj' || b.st !== 'ground' || !b.thr) continue;
+        hoops.forEach((h, i) => {
+          if (b.py < h.y && b.y >= h.y && !(b.hp ?? []).includes(i)) {
+            const f = (h.y - b.py) / Math.max(1e-6, b.y - b.py), xc = b.px + (b.x - b.px) * f;
+            const ok = Math.abs(xc - h.x) <= h.w / 2 - b.r * 0.2 && hyp(b.vx, b.vy) <= (h.maxSpeed ?? 99) && (T.hoopOrder !== 'ordered' || (b.hn ?? 0) === i);
+            (b.hp ??= []).push(i);
+            if (ok) { b.xp = (b.xp ?? 0) + (h.points ?? 1); b.hn = i + 1; events.push('hoop'); }
+          }
+        });
       }
     }
     return events;
@@ -177,12 +262,13 @@ export function createPhysics(P) {
   };
   const restPoints = (w, b) => {
     let best = 0;
+    if (b.fault) return 0;
     for (const ring of T.rings ?? []) {
       const c = centerOf(w, ring); if (!c) continue;
       const d = hyp(b.x - c.x, b.y - c.y);
       for (const band of ring.bands) if (d <= band.r) { best = Math.max(best, band.points); break; }
     }
-    for (const band of T.bands ?? []) if (b.y >= band.y0 && b.y < band.y1 && Math.abs(b.x) <= hw) best = Math.max(best, band.points);
+    for (const band of T.bands ?? []) if (b.y >= band.y0 && b.y < band.y1 && (band.x0 !== undefined || band.x1 !== undefined ? b.x >= (band.x0 ?? -hw) && b.x < (band.x1 ?? hw) : Math.abs(b.x) <= hw)) best = Math.max(best, band.points);
     return best;
   };
   const restTotal = (w) => w.bodies.reduce((s, b) => s + (b.kind === 'proj' && b.st === 'ground' ? restPoints(w, b) : 0), 0);
@@ -192,10 +278,12 @@ export function createPhysics(P) {
     if (T.pinScoring === 'single') return fell.length === 1 ? fell[0].v : fell.length;
     return fell.reduce((s, b) => s + b.v, 0);
   };
+  const xpPoints = (w, thr) => w.bodies.reduce((s2, b) => s2 + (b.kind === 'proj' && b.thr === thr ? (b.xp ?? 0) : 0), 0);
+  const discPoints = (w) => w.bodies.reduce((s2, b) => s2 + (b.kind === 'disc' && b.st === 'sunk' && !b.scored ? b.v : 0), 0) - (T.foul ?? 0) * w.bodies.filter((b) => TABLE && b.kind === 'proj' && b.st === 'sunk' && !b.scored).length;
   const potPoints = (w) => w.bodies.reduce((s, b) => s + (b.kind === 'proj' && b.st === 'in' && !b.scored ? b.pot.points : 0), 0);
   const skipPoints = (w) => (S ? w.bodies.reduce((s, b) => s + (b.kind === 'proj' && (b.st === 'sunk' || b.st === 'out') && !b.scored ? b.skips * S.points : 0), 0) : 0);
   // points the current throw is worth right now (end-of-round resting scores are added separately)
-  const throwGain = (w, thr) => potPoints(w) + pinPoints(w, thr) + skipPoints(w) + (P.rounds.scoreAt === 'throw' ? w.bodies.reduce((s, b) => s + (b.kind === 'proj' && b.thr === thr && b.st === 'ground' ? restPoints(w, b) : 0), 0) : 0);
+  const throwGain = (w, thr) => discPoints(w) + xpPoints(w, thr) + potPoints(w) + pinPoints(w, thr) + skipPoints(w) + (P.rounds.scoreAt === 'throw' ? w.bodies.reduce((s, b) => s + (b.kind === 'proj' && b.thr === thr && b.st === 'ground' ? restPoints(w, b) : 0), 0) : 0);
 
   const clone = (w) => JSON.parse(JSON.stringify({ ...w, trail: null }));
   return { newWorld, launch, step, settled, settle, restTotal, throwGain, restPoints, clone, hw, len, rate };

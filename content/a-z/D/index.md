@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with D"
-description: "62 entries beginning with D."
+description: "64 entries beginning with D."
 path: "/a-z/D/"
 ---
 # Entries beginning with D
@@ -17,6 +17,7 @@ path: "/a-z/D/"
 - [Dambe](../../games/987-dambe/index.md): Nigeria, Niger; Street and playground games; Modern Heritage
 - [Dan bau](../../games/143-dan-bau/index.md): Vietnam; Musical instruments; Living Traditions
 - [Dandi Biyo](../../games/968-dandi-biyo/index.md): Nepal; Dexterity and skill games; Modern Heritage
+- [Dandiya Raas](../../games/5632-dandiya-raas/index.md): India; Dances; Living Traditions
 - [Danish pin billiards](../../games/671-danish-pin-billiards/index.md): Denmark; Street and playground games; Age of Contact and Craft
 - [Dara](../../games/452-dara/index.md): Nigeria, Niger; Board and table games; Living Traditions
 - [Darbuka Iqa'at Rhythm Drum](../../games/213-darbuka-iqaat-rhythm-drum/index.md): Egypt; Musical instruments; Living Traditions
@@ -29,6 +30,7 @@ path: "/a-z/D/"
 - [Dhaka rickshaw art](../../games/295-dhaka-rickshaw-art/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Dhaka weave pattern loom](../../games/115-dhaka-weave-pattern-loom/index.md): Nepal; Crafts and making; Living Traditions
 - [Dhamet](../../games/927-dhamet/index.md): Mauritania; Board and table games; Crossroads and Golden Ages
+- [Dhoklan jo Nach](../../games/12242-dhoklan-jo-nach/index.md): Pakistan; Dances; Living Traditions
 - [Dhokra lost-wax casting](../../games/278-dhokra-lost-wax-casting/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Dhol drum rhythm](../../games/263-dhol-drum-rhythm/index.md): India; Musical instruments; Living Traditions
 - [Diabolo](../../games/5023-diabolo/index.md): France; Toys; Modern Heritage

@@ -1,0 +1,14 @@
+{
+  "engine": "shape-craft",
+  "variant": "hong-kong-milk-tea-pulling",
+  "players": "2",
+  "params": {
+    "technique": "pour",
+    "mode": "pull",
+    "pulls": 4,
+    "scene": "kc-tea-cha"
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

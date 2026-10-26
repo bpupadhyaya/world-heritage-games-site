@@ -1,0 +1,13 @@
+{
+ "slug": "senterej-ethiopian-chess",
+ "title": "Senterej",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

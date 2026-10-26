@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with B"
-description: "115 entries beginning with B."
+description: "116 entries beginning with B."
 path: "/a-z/B/"
 ---
 # Entries beginning with B
@@ -22,6 +22,7 @@ path: "/a-z/B/"
 - [Balanta Mangrove Rice Polder](../../games/1235-balanta-mangrove-rice-polder/index.md): Guinea-Bissau; Board and table games; Crossroads and Golden Ages
 - [Baleada Stand](../../games/1436-baleada-stand/index.md): Honduras; Crafts and making; Living Traditions
 - [Balkan Kolo](../../games/134-balkan-kolo/index.md): Serbia, Croatia; Dances; Living Traditions
+- [Ball de bastons](../../games/5136-ball-de-bastons/index.md): Spain; Dances; Living Traditions
 - [Balle pelote](../../games/580-balle-pelote/index.md): Belgium; Street and playground games; Modern Heritage
 - [Baloot](../../games/1060-baloot/index.md): Saudi Arabia, Yemen; Card games; Age of Contact and Craft
 - [Baluchari Sari](../../games/5764-baluchari-sari/index.md): India; Crafts and making; Living Traditions

@@ -1,0 +1,212 @@
+{
+  "engine": "aim",
+  "params": {
+    "mode": "fire",
+    "controls": "drag",
+    "projectile": {
+      "look": "ball",
+      "color": "#f3c33a",
+      "pattern": "volley",
+      "r": 0.1
+    },
+    "face": {
+      "w": 2,
+      "h": 1.9,
+      "sway": 0.03,
+      "drop": 0.05,
+      "flight": 0.55,
+      "drawTime": 0.5,
+      "aimer": "hand",
+      "arc": 1.15,
+      "ball": 0.058,
+      "items": [
+        {
+          "kind": "hoop",
+          "style": "basket",
+          "x": -0.5,
+          "y": 1.3,
+          "color": "#2d6bb0",
+          "bands": [
+            {
+              "r": 0.08,
+              "points": 3
+            },
+            {
+              "r": 0.14,
+              "points": 2
+            }
+          ]
+        },
+        {
+          "kind": "hoop",
+          "style": "basket",
+          "x": 0.5,
+          "y": 1.3,
+          "color": "#e8b52e",
+          "bands": [
+            {
+              "r": 0.08,
+              "points": 3
+            },
+            {
+              "r": 0.14,
+              "points": 2
+            }
+          ]
+        }
+      ]
+    },
+    "rounds": {
+      "throws": 8,
+      "count": 2,
+      "scoring": "aggregate",
+      "scoreAt": "throw"
+    },
+    "stars": [
+      14,
+      26,
+      36
+    ],
+    "look": {
+      "jersey": "#2d4a7a",
+      "titleArt": "basket",
+      "zoom": 2.0,
+      "zoomWide": 2.0,
+      "aimerX": 0.2,
+      "aimerXWide": 0.3,
+      "aimerScale": 1.15,
+      "finish": {
+        "vignette": 0.3,
+        "haze": 0.12
+      },
+      "bystanders": [
+        {
+          "x": -0.7,
+          "y": 0.03,
+          "shirt": "#2d6bb0",
+          "pants": "#f4f0e6",
+          "front": false,
+          "scale": 1.0,
+          "skin": "light",
+          "hair": "#5a3a1a"
+        },
+        {
+          "x": -0.78,
+          "y": 0.08,
+          "shirt": "#2d6bb0",
+          "pants": "#f4f0e6",
+          "front": true,
+          "scale": 1.0,
+          "pose": "cheer",
+          "skin": "tan",
+          "female": true,
+          "hair": "#8a5a2b"
+        },
+        {
+          "x": 0.7,
+          "y": 0.03,
+          "shirt": "#e8b52e",
+          "pants": "#f4f0e6",
+          "front": false,
+          "scale": 1.0,
+          "skin": "brown",
+          "hair": "black"
+        },
+        {
+          "x": 0.78,
+          "y": 0.08,
+          "shirt": "#e8b52e",
+          "pants": "#f4f0e6",
+          "front": true,
+          "scale": 1.0,
+          "pose": "cheer",
+          "skin": "light",
+          "female": true,
+          "hair": "#c89a5a"
+        }
+      ],
+      "faceProps": [
+        {
+          "kind": "bench",
+          "x": -0.74,
+          "y": 0.1,
+          "scale": 1.0
+        },
+        {
+          "kind": "bag",
+          "x": -0.62,
+          "y": 0.12,
+          "color": "#2d6bb0"
+        },
+        {
+          "kind": "bag",
+          "x": 0.7,
+          "y": 0.12,
+          "color": "#e8b52e"
+        },
+        {
+          "kind": "ballrack",
+          "x": 0.8,
+          "y": 0.04,
+          "scale": 1.0
+        },
+        {
+          "kind": "cones",
+          "x": -0.45,
+          "y": 0.15,
+          "n": 3
+        },
+        {
+          "kind": "beam",
+          "x": -0.5,
+          "y": 1.85,
+          "sky": true,
+          "scale": 1.0
+        },
+        {
+          "kind": "beam",
+          "x": 0.15,
+          "y": 1.85,
+          "sky": true
+        },
+        {
+          "kind": "poolglow",
+          "x": -0.5,
+          "y": 0.02,
+          "scale": 0.9
+        },
+        {
+          "kind": "poolglow",
+          "x": 0.5,
+          "y": 0.02,
+          "scale": 0.9
+        }
+      ],
+      "aimerScaleWide": 1.7,
+      "aimerFollow": 0.15,
+      "figures": "view3d",
+      "figureLighting": "indoor",
+      "figuresScale": 0.3,
+      "actor": {
+        "action": "shoot",
+        "shirt": "#2d6bb0",
+        "pants": "#f4f0e6",
+        "skin": "light",
+        "hair": "#5a3a1a",
+        "prop": {
+          "kind": "ball",
+          "radius": 0.12,
+          "color": "#f3c33a",
+          "pattern": "volley"
+        }
+      },
+      "actorHeight": 0.36,
+      "actorHeightWide": 0.42
+    },
+    "setting": "sports-hall"
+  },
+  "players": "2",
+  "ai": {
+    "level": "normal"
+  }
+}

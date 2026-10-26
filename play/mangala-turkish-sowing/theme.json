@@ -1,0 +1,65 @@
+{
+ "palette": {
+  "bg": "#0b2f45",
+  "board": "#f0e0bb",
+  "line": "#8b6a3f",
+  "panel": "#0f4a63",
+  "accent": "#e7b94a",
+  "ink": "#fff6e2",
+  "dim": "#9cc7d1",
+  "good": "#8fd0c0",
+  "a": "#f6f1e6",
+  "b": "#d2602f",
+  "p0": "#f6f1e6",
+  "p1": "#d2602f"
+ },
+ "board": {},
+ "pieces": {},
+ "sounds": {},
+ "assets": {},
+ "look": {
+  "ground": {
+   "style": "silk",
+   "color": "#0e5a6e"
+  },
+  "board": {
+   "style": "wood",
+   "color": "#ecd9a8",
+   "rim": "#c9962f",
+   "inlay": "#1aa6a0",
+   "studs": "#d8aa3a",
+   "planks": 0,
+   "motif": "#1aa6a0",
+   "border": {
+    "pattern": "zigzag",
+    "color": "#1aa6a0",
+    "unit": 0.02
+   }
+  },
+  "node": {
+   "style": "hole",
+   "color": "#8b6a3f"
+  },
+  "line": {
+   "style": "inlay",
+   "color": "#1aa6a0",
+   "width": 0.005
+  },
+  "seed": {
+   "style": "pebble",
+   "depth": 0.6,
+   "colors": [
+    [
+     "#f6f1e6",
+     "#e4dccb",
+     "#fffaf0"
+    ],
+    [
+     "#d2602f",
+     "#b84a1e",
+     "#e2784a"
+    ]
+   ]
+  }
+ }
+}

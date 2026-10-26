@@ -1,0 +1,12 @@
+{
+  "engine": "shape-craft",
+  "variant": "maple-taffy-on-snow",
+  "players": "1",
+  "params": {
+    "technique": "sweet-taffy",
+    "scene": "kc-sweet-sugarshack"
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

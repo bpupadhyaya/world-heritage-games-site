@@ -40,12 +40,12 @@ A living tradition passed from person to person; it is not tied to a single date
 
 ## Related entries
 
+- [Tazhib manuscript illumination](../../games/13176-tazhib-manuscript-illumination/index.md)
 - [Ebru paper marbling](../../games/20-ebru-paper-marbling/index.md)
 - [Ndebele geometric wall painting](../../games/23-ndebele-geometric-wall-painting/index.md)
 - [Chinese knotting](../../games/26-chinese-knotting/index.md)
 - [Matryoshka](../../games/28-matryoshka/index.md)
 - [Bogolan mud cloth](../../games/86-bogolan-mud-cloth/index.md)
-- [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md)
 
 ## Sources
 

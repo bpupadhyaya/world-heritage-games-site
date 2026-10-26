@@ -1,0 +1,186 @@
+{
+  "engine": "aim",
+  "variant": "stickball",
+  "players": "1",
+  "params": {
+    "mode": "lob",
+    "controls": "drag",
+    "guide": "direction",
+    "setting": "street",
+    "lane": {
+      "width": 5.4,
+      "length": 15,
+      "startX": "fixed",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "props": [
+        {
+          "kind": "hydrant",
+          "x": 3.75,
+          "y": 2.8,
+          "color": "#d8352b"
+        },
+        {
+          "kind": "manhole",
+          "x": -1.0,
+          "y": 1.6,
+          "r": 0.36
+        }
+      ]
+    },
+    "range": {
+      "min": 3,
+      "max": 15
+    },
+    "projectile": {
+      "r": 0.1,
+      "mass": 0.3,
+      "bounce": 0.6,
+      "look": "ball",
+      "color": "#f06a9c",
+      "pattern": "plain"
+    },
+    "world": {
+      "friction": 3,
+      "landRoll": 3.2,
+      "wallBounce": 0.55,
+      "sides": "wall",
+      "ends": "wall",
+      "wind": 0
+    },
+    "target": {
+      "bands": [
+        {
+          "y0": 4,
+          "y1": 7,
+          "points": 1,
+          "cover": true
+        },
+        {
+          "y0": 7,
+          "y1": 10,
+          "points": 2,
+          "cover": true
+        },
+        {
+          "y0": 10,
+          "y1": 12.6,
+          "points": 3,
+          "cover": true
+        },
+        {
+          "y0": 12.6,
+          "y1": 15,
+          "points": 4
+        }
+      ]
+    },
+    "rounds": {
+      "throws": 6,
+      "count": 1,
+      "scoring": "aggregate",
+      "scoreAt": "throw"
+    },
+    "stars": [
+      8,
+      14,
+      20
+    ],
+    "look": {
+      "striker": "bat",
+      "ballScale": 1.8,
+      "lane": "#43464f",
+      "ground": "#3b3d46",
+      "edge": "#d9cfa8",
+      "line": "#f2e7b8",
+      "jersey": "#2f6f8f",
+      "ringColors": [
+        "#e78fb0",
+        "#e8c26a",
+        "#7cc3c9",
+        "#f1ead6"
+      ],
+      "lines": "none",
+      "titleArt": "<svg viewBox=\"0 0 100 100\"><ellipse cx=\"50\" cy=\"78\" rx=\"34\" ry=\"9\" fill=\"#15161b\" opacity=\"0.5\"/><ellipse cx=\"50\" cy=\"75\" rx=\"32\" ry=\"8\" fill=\"#6b6e7a\"/><ellipse cx=\"50\" cy=\"75\" rx=\"32\" ry=\"8\" fill=\"none\" stroke=\"#9a9eab\" stroke-width=\"1.6\"/><line x1=\"26\" y1=\"75\" x2=\"74\" y2=\"75\" stroke=\"#2c2e36\" stroke-width=\"2\"/><line x1=\"50\" y1=\"68\" x2=\"50\" y2=\"82\" stroke=\"#2c2e36\" stroke-width=\"2\"/><polygon points=\"14,16 20,12 66,66 60,70\" fill=\"#d9a85c\"/><polygon points=\"14,16 17,14 62,68 60,70\" fill=\"#f6dc9c\" opacity=\"0.7\"/><circle cx=\"72\" cy=\"38\" r=\"15\" fill=\"#e84b7c\"/><circle cx=\"72\" cy=\"38\" r=\"15\" fill=\"none\" stroke=\"#b21f55\" stroke-width=\"1.5\"/><ellipse cx=\"67\" cy=\"32\" rx=\"5\" ry=\"3\" fill=\"#ffffff\" opacity=\"0.6\"/></svg>",
+      "cameraBack": 0.9,
+      "hat": "cap",
+      "hatColor": "#d8453a",
+      "hair": "#3a2a1c",
+      "pants": "#3a4a6a",
+      "shoes": "#f4f4ee",
+      "street": {
+        "dusk": true,
+        "laundry": true
+      },
+      "farEdgeWide": 0.45,
+      "cameraBackWide": 1.1,
+      "farEdge": 0.42,
+      "zoom": 1.0,
+      "figureScale": 1.9,
+      "finish": {
+        "haze": 0.15,
+        "vignette": 0.32,
+        "detail": "asphalt",
+        "count": 90
+      },
+      "bystanders": [
+        {
+          "x": -3.6,
+          "y": 6.5,
+          "shirt": "#e8b52e",
+          "pants": "#3a4a6a",
+          "scale": 0.9,
+          "armUp": true,
+          "front": false
+        },
+        {
+          "x": -3.9,
+          "y": 8.6,
+          "shirt": "#d8453a",
+          "pants": "#2b2e38",
+          "scale": 0.85,
+          "front": false
+        },
+        {
+          "x": 3.8,
+          "y": 5.5,
+          "shirt": "#3a9a5a",
+          "pants": "#2b3140",
+          "scale": 0.9,
+          "sit": false,
+          "front": false
+        },
+        {
+          "x": 4.2,
+          "y": 11,
+          "shirt": "#7a4aa8",
+          "pants": "#3a3a44",
+          "scale": 0.8,
+          "front": false
+        }
+      ],
+      "figureScaleWide": 0.4,
+      "figureXWide": 1.8,
+      "figures": "view3d",
+      "figureLighting": "evening",
+      "nearPad": 3.0,
+      "actor": {
+        "action": "bat",
+        "shirt": "#2f6f8f",
+        "pants": "#3a4a6a",
+        "skin": "tan",
+        "hair": "#3a2a1c",
+        "cap": "#d8453a",
+        "prop": {
+          "kind": "stick",
+          "length": 0.95
+        }
+      }
+    }
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

@@ -41,11 +41,11 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 ## Related entries
 
 - [Cirit](../../games/156-cirit/index.md)
-- [Tbourida](../../games/164-tbourida/index.md)
-- [Equestrian vaulting](../../games/488-equestrian-vaulting/index.md)
+- [Pato](../../games/420-pato/index.md)
 - [Slovene quintain](../../games/1073-slovene-quintain/index.md)
 - [Encang kuda](../../games/1067-encang-kuda/index.md)
 - [Turkmen Akhal-Teke equestrian games](../../games/1170-turkmen-akhal-teke-equestrian-games/index.md)
+- [Chavgon](../../games/1204-chavgon/index.md)
 
 ## Sources
 

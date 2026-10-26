@@ -1,0 +1,134 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.2,
+  "instrument": "phye ghan wind bell with paddle clapper",
+  "lanes": [
+   {
+    "name": "Lip",
+    "hz": 260,
+    "timbre": "tone",
+    "color": "#a88060"
+   },
+   {
+    "name": "Waist",
+    "hz": 350,
+    "timbre": "tone",
+    "color": "#c09878"
+   },
+   {
+    "name": "Shoulder",
+    "hz": 470,
+    "timbre": "tone",
+    "color": "#d8b090"
+   },
+   {
+    "name": "Paddle",
+    "hz": 700,
+    "timbre": "tone",
+    "color": "#e8c8a0"
+   }
+  ],
+  "songs": [
+   {
+    "id": "wind-slow",
+    "name": "Slow breeze",
+    "bpm": 84,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Phye ghan, Sunuwar tradition",
+    "note": "A low ring, then lighter ones.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Lip"
+     },
+     {
+      "beat": 1,
+      "lane": "Waist"
+     },
+     {
+      "beat": 2,
+      "lane": "Lip"
+     },
+     {
+      "beat": 3,
+      "lane": "Shoulder"
+     },
+     {
+      "beat": 4,
+      "lane": "Lip"
+     },
+     {
+      "beat": 5,
+      "lane": "Waist"
+     },
+     {
+      "beat": 6,
+      "lane": "Shoulder"
+     },
+     {
+      "beat": 7,
+      "lane": "Paddle"
+     }
+    ]
+   },
+   {
+    "id": "wind-gust",
+    "name": "Gusting",
+    "bpm": 96,
+    "meter": 4,
+    "length": 8.0,
+    "kind": "figure",
+    "heritage": "Phye ghan, Sunuwar tradition",
+    "note": "Quick paddle taps between rings.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Lip"
+     },
+     {
+      "beat": 1,
+      "lane": "Paddle"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Paddle"
+     },
+     {
+      "beat": 2,
+      "lane": "Waist"
+     },
+     {
+      "beat": 3,
+      "lane": "Shoulder"
+     },
+     {
+      "beat": 4,
+      "lane": "Lip"
+     },
+     {
+      "beat": 5,
+      "lane": "Paddle"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Paddle"
+     },
+     {
+      "beat": 6,
+      "lane": "Waist"
+     },
+     {
+      "beat": 7,
+      "lane": "Shoulder"
+     }
+    ]
+   }
+  ]
+ }
+}

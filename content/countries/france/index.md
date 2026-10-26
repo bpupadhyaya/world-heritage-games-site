@@ -1,16 +1,16 @@
 ---
 title: "France"
-description: "23 traditions from France."
+description: "24 traditions from France."
 path: "/countries/france/"
-count: 23
+count: 24
 ---
 # France
 
-23 traditions from France.
+24 traditions from France.
 
 
 
-23 entries.
+24 entries.
 
 - [Bagatelle](../../games/72-bagatelle/index.md): France, United Kingdom; Dexterity and skill games; Modern Heritage
 - [Basque Pelota](../../games/1094-basque-pelota/index.md): Spain, France; Street and playground games; Modern Heritage
@@ -32,6 +32,7 @@ count: 23
 - [Water Jousting](../../games/393-water-jousting/index.md): France; Wrestling and martial sports; Crossroads and Golden Ages
 - [Aubusson tapestry](../../games/10370-aubusson-tapestry/index.md): France; Crafts and making; Living Traditions
 - [Boules lyonnaises](../../games/730-boules-lyonnaises/index.md): France; Street and playground games; Classical Worlds
+- [Enluminure](../../games/19901-enluminure/index.md): France; Crafts and making; Living Traditions
 - [Filet lace](../../games/2318-filet-lace/index.md): France; Crafts and making; Living Traditions
 - [Petanque](../../games/872-petanque/index.md): Laos, France; Street and playground games; Modern Heritage
 - [Vannerie sur arceaux](../../games/13768-vannerie-sur-arceaux/index.md): France; Crafts and making; Living Traditions

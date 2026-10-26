@@ -45,11 +45,11 @@ A living tradition passed from person to person; it is not tied to a single date
 ## Related entries
 
 - [Rhaita](../../games/3631-rhaita/index.md)
+- [Pauliteiros de Miranda](../../games/5143-pauliteiros-de-miranda/index.md)
 - [Khene](../../games/145-khene/index.md)
 - [Mijwiz Double Clarinet](../../games/221-mijwiz-double-clarinet/index.md)
 - [Mudhif reed-arch house](../../games/230-mudhif-reed-arch-house/index.md)
 - [Lusheng](../../games/337-lusheng/index.md)
-- [Vallenato accordion trio](../../games/431-vallenato-accordion-trio/index.md)
 
 ## Sources
 

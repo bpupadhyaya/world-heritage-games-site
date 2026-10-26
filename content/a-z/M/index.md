@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with M"
-description: "96 entries beginning with M."
+description: "97 entries beginning with M."
 path: "/a-z/M/"
 ---
 # Entries beginning with M
@@ -86,6 +86,7 @@ path: "/a-z/M/"
 - [Mongolian chess](../../games/943-mongolian-chess/index.md): Mongolia; Board and table games; Crossroads and Golden Ages
 - [Moraingy drum-and-strike duel](../../games/207-moraingy-drum-and-strike-duel/index.md): Madagascar; Wrestling and martial sports; Classical Worlds
 - [Morin khuur](../../games/34-morin-khuur/index.md): Mongolia; Musical instruments; Classical Worlds
+- [Moroccan Mint Tea High Pour](../../games/211-moroccan-mint-tea-high-pour/index.md): Morocco; Crafts and making; Living Traditions
 - [Morra](../../games/83-morra/index.md): Italy; Archery, throwing and target games; Classical Worlds
 - [Moruba / Ncuva](../../games/1080-moruba-ncuva/index.md): South Africa; Board and table games; Deep Past and First Games
 - [Mountain dulcimer](../../games/435-mountain-dulcimer/index.md): United States; Musical instruments; Classical Worlds

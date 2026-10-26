@@ -22,7 +22,7 @@ path: "/a-z/E/"
 - [Enchute](../../games/770-enchute/index.md): Honduras; Dexterity and skill games; Modern Heritage
 - [Engolo](../../games/1409-engolo/index.md): Angola; Dances; Living Traditions
 - [Enkeshui](../../games/1136-enkeshui/index.md): Tanzania, Kenya; Board and table games; Deep Past and First Games
-- [Equestrian vaulting](../../games/488-equestrian-vaulting/index.md): Worldwide; Sports with animal partners; Classical Worlds
+- [Enluminure](../../games/19901-enluminure/index.md): France; Crafts and making; Living Traditions
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Eskista](../../games/188-eskista/index.md): Ethiopia; Dances; Living Traditions
 - [Estonian Durak](../../games/704-estonian-durak/index.md): Estonia; Card games; Age of Contact and Craft

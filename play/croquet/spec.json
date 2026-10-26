@@ -1,0 +1,216 @@
+{
+  "engine": "aim",
+  "variant": "croquet",
+  "players": "1",
+  "params": {
+    "mode": "roll",
+    "controls": "drag",
+    "guide": "full",
+    "setting": "lawn",
+    "lane": {
+      "width": 3.6,
+      "length": 13,
+      "startX": "fixed",
+      "start": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "range": {
+      "min": 3,
+      "max": 13
+    },
+    "projectile": {
+      "r": 0.075,
+      "mass": 0.45,
+      "bounce": 0.6,
+      "look": "ball",
+      "color": "#d8453a",
+      "pattern": "plain"
+    },
+    "world": {
+      "friction": 1.5,
+      "bias": 0.12,
+      "wallBounce": 0.55,
+      "sides": "wall",
+      "ends": "wall"
+    },
+    "target": {
+      "hoops": [
+        {
+          "x": -0.6,
+          "y": 3.4,
+          "w": 0.3,
+          "points": 2,
+          "maxSpeed": 4.4,
+          "color": "#f4f4ee",
+          "leg": 0.035,
+          "h": 0.42
+        },
+        {
+          "x": 0.7,
+          "y": 5.6,
+          "w": 0.3,
+          "points": 2,
+          "maxSpeed": 4.4,
+          "color": "#f4f4ee",
+          "leg": 0.035,
+          "h": 0.42
+        },
+        {
+          "x": -0.5,
+          "y": 7.8,
+          "w": 0.3,
+          "points": 3,
+          "maxSpeed": 4.4,
+          "color": "#f4f4ee",
+          "leg": 0.035,
+          "h": 0.42
+        },
+        {
+          "x": 0.5,
+          "y": 9.8,
+          "w": 0.3,
+          "points": 3,
+          "maxSpeed": 4.4,
+          "color": "#f4f4ee",
+          "leg": 0.035,
+          "h": 0.42
+        }
+      ],
+      "peg": {
+        "x": 0,
+        "y": 11.8,
+        "r": 0.06,
+        "points": 5,
+        "h": 0.7
+      },
+      "hoopOrder": "any"
+    },
+    "rounds": {
+      "throws": 10,
+      "count": 1,
+      "scoring": "aggregate",
+      "scoreAt": "throw"
+    },
+    "stars": [
+      8,
+      16,
+      24
+    ],
+    "look": {
+      "striker": "mallet",
+      "figureScale": 1.5,
+      "ballScale": 2.4,
+      "courtyard": "pavilion",
+      "wallHeight": 2.2,
+      "lane": "#5f9a45",
+      "surround": "#2f6a2c",
+      "edge": "#e8e4d4",
+      "line": "#f4f4ee",
+      "jersey": "#f4f4ee",
+      "mallet": "#a5763d",
+      "titleArt": "mallet",
+      "zoom": 0.9,
+      "cameraBack": 2.4,
+      "farEdge": 0.2,
+      "cameraBackWide": 2.5,
+      "farEdgeWide": 0.22,
+      "hoopStyle": "tube",
+      "finish": {
+        "mow": 0.9,
+        "detail": "lawn",
+        "haze": 0.3,
+        "vignette": 0.3
+      },
+      "bystanders": [
+        {
+          "x": -1.75,
+          "y": 8.5,
+          "shirt": "#f4f0e6",
+          "pants": "#f4f0e6",
+          "front": true,
+          "scale": 0.9,
+          "skin": "light",
+          "hair": "#c8c8c8"
+        },
+        {
+          "x": 1.8,
+          "y": 10.5,
+          "shirt": "#f4f0e6",
+          "pants": "#f4f0e6",
+          "front": false,
+          "scale": 0.9,
+          "skin": "tan"
+        }
+      ],
+      "figureScaleWide": 0.4,
+      "figureXWide": 1.8,
+      "figureSide": -1,
+      "ballScaleWide": 1.4,
+      "yaw": -13,
+      "yawCenter": 0.2,
+      "yawWide": -12,
+      "decals": [
+        {
+          "kind": "flowers",
+          "x": -2.0,
+          "y": 4.5,
+          "w": 0.7,
+          "d": 2.4,
+          "n": 12
+        },
+        {
+          "kind": "flowers",
+          "x": 2.1,
+          "y": 8,
+          "w": 0.7,
+          "d": 3,
+          "n": 12,
+          "seed": 8
+        },
+        {
+          "kind": "shade",
+          "x": -1.6,
+          "y": 9,
+          "rx": 2.4,
+          "ry": 1.4,
+          "alpha": 0.2
+        },
+        {
+          "kind": "shade",
+          "x": 1.8,
+          "y": 3,
+          "rx": 1.8,
+          "ry": 1.0,
+          "alpha": 0.16
+        },
+        {
+          "kind": "rect",
+          "x": 0,
+          "y": 6.5,
+          "w": 3.5,
+          "d": 12.8,
+          "color": "#f4f0e2",
+          "alpha": 0.35,
+          "line": 0.012
+        }
+      ],
+      "figures": "view3d",
+      "figureLighting": "day",
+      "nearPad": 3.2,
+      "actor": {
+        "action": "swing",
+        "shirt": "#f4f0e6",
+        "pants": "#f4f0e6",
+        "skin": "tan",
+        "hair": "#3a2a1e",
+        "prop": {
+          "kind": "mallet",
+          "length": 1.0
+        }
+      },
+      "bystanderScaleWide": 0.8
+    }
+  }
+}

@@ -1,16 +1,16 @@
 ---
 title: "Musical instruments"
-description: "221 traditions of this kind."
+description: "223 traditions of this kind."
 path: "/types/instrument/"
-count: 221
+count: 223
 ---
 # Musical instruments
 
-221 traditions of this kind.
+223 traditions of this kind.
 
 
 
-221 entries.
+223 entries.
 
 - [Adungu](../../games/186-adungu/index.md): Uganda; Musical instruments; Classical Worlds
 - [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md): Afghanistan; Musical instruments; Crossroads and Golden Ages
@@ -222,6 +222,8 @@ count: 221
 - [Obrom slit drum](../../games/7192-obrom-slit-drum/index.md): Nigeria; Musical instruments; Living Traditions
 - [Ogwumgwu board lamellophone](../../games/21365-ogwumgwu-board-lamellophone/index.md): Nigeria; Musical instruments; Living Traditions
 - [Opa tubular gourd](../../games/21376-opa-tubular-gourd/index.md): Nigeria; Musical instruments; Living Traditions
+- [Pate](../../games/7145-pate/index.md): Samoa; Musical instruments; Living Traditions
+- [Phye Ghan](../../games/20677-phye-ghan/index.md): Nepal; Musical instruments; Living Traditions
 - [Pyeongyeong](../../games/11700-pyeongyeong/index.md): South Korea; Musical instruments; Living Traditions
 - [Ranat](../../games/10312-ranat/index.md): Thailand; Musical instruments; Living Traditions
 - [Riq](../../games/6045-riq/index.md): Egypt; Musical instruments; Living Traditions

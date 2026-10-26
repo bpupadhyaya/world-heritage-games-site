@@ -1,0 +1,28 @@
+{
+  "title": "Jebena coffee brewing",
+  "native": "ቡና / ጀበና",
+  "alt": [
+    "Buna",
+    "Jebena buna"
+  ],
+  "summary": "In Ethiopia and Eritrea coffee is made fresh from green beans: roasted in a flat pan over charcoal, pounded in a wooden mortar, boiled in a round-bellied clay pot and poured from a height into a row of small cups.",
+  "howToPlay": [
+    "Roast: drag round and round in the pan to turn the beans, then pull the pan when the colour reaches the green band.",
+    "Pound: tap as the ring closes on the mouth of the mortar.",
+    "Boil: fan the charcoal or set the pot aside to keep the brew in the green band of the neck window without overflowing.",
+    "Pour: press and hold, sweep slowly along the cups with the spout held high, and bring every cup to the same level."
+  ],
+  "rules": [
+    "Each step is scored; press the lit button to finish a step.",
+    "Beans left on the hot place of the pan go dark first.",
+    "Taps off the beat make the beans jump out of the mortar.",
+    "Never let the brew rise past the red mark in the neck.",
+    "A shaky pour, or the last grounds from the pot, cloud the cups."
+  ],
+  "heritageNote": "Across Ethiopia and Eritrea, coffee is a daily household craft. Villages often favour their own shape of jebena, a clay pot with a narrow neck that holds back the grounds as the coffee is poured. The skill lies in judging colour, sound and aroma at every step.",
+  "countries": [
+    "Ethiopia",
+    "Eritrea"
+  ],
+  "credits": []
+}

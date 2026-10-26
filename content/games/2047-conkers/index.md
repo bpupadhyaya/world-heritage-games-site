@@ -50,8 +50,8 @@ Recorded from the mid-1800s in England, the Isle of Wight is the earliest docume
 - [Camel racing dash](../../games/19-camel-racing-dash/index.md)
 - [Wave riding](../../games/76-wave-riding/index.md)
 - [Cirit](../../games/156-cirit/index.md)
-- [Tbourida](../../games/164-tbourida/index.md)
 - [Sahel Salt Caravan](../../games/172-sahel-salt-caravan/index.md)
+- [Pato](../../games/420-pato/index.md)
 
 ## Sources
 

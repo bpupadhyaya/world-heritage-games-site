@@ -2,7 +2,7 @@
 title: "Persia, Caucasus and Central Asia"
 description: "The Iranian plateau, the mountains of the Caucasus and the Silk Road oases."
 path: "/cradles/persia-central-asia/"
-count: 67
+count: 68
 ---
 # Persia, Caucasus and Central Asia
 
@@ -10,7 +10,7 @@ The Iranian plateau, the mountains of the Caucasus and the Silk Road oases.
 
 
 
-67 entries.
+68 entries.
 
 - [Afghan Rubab Strings](../../games/1224-afghan-rubab-strings/index.md): Afghanistan; Musical instruments; Crossroads and Golden Ages
 - [Astrolabe: reading the sky](../../games/236-astrolabe-reading-the-sky/index.md): Iran; Toys; Modern Heritage
@@ -76,6 +76,7 @@ The Iranian plateau, the mountains of the Caucasus and the Silk Road oases.
 - [Nard / long backgammon](../../games/1205-nard-long-backgammon/index.md): Uzbekistan; Board and table games; River Valleys and First Cities
 - [Ordo](../../games/870-ordo/index.md): Kyrgyzstan; Dexterity and skill games; Modern Heritage
 - [Shashki / chess](../../games/1206-shashki-chess/index.md): Uzbekistan; Board and table games; Classical Worlds
+- [Tazhib manuscript illumination](../../games/13176-tazhib-manuscript-illumination/index.md): Iran; Crafts and making; Living Traditions
 - [Togyz Kumalak](../../games/859-togyz-kumalak/index.md): Kazakhstan; Board and table games; Deep Past and First Games
 - [Turkmen Akhal-Teke equestrian games](../../games/1170-turkmen-akhal-teke-equestrian-games/index.md): Turkmenistan; Street and playground games; Classical Worlds
 - [White Cloth](../../games/867-white-cloth/index.md): Kyrgyzstan; Street and playground games; Modern Heritage

@@ -1,0 +1,13 @@
+{
+  "engine": "shape-craft",
+  "variant": "jebena-coffee-brewing",
+  "players": "1",
+  "params": {
+    "technique": "brew",
+    "mode": "jebena",
+    "scene": "kc-brew-jebena"
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

@@ -5,7 +5,7 @@ path: "/apps/folk-painting-of-the-world/"
 ---
 # Folk Painting of the World
 
-A mobile app (Android) with 8 playable folk painting traditions from 5 countries. Submitted to Google Play; in review. Store links appear here the day it goes live.
+A mobile app (Android) with 8 playable folk painting traditions from 5 countries. Live on Google Play.
 
 Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, works offline.
 

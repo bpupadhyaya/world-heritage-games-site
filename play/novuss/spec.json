@@ -1,0 +1,146 @@
+{
+  "engine": "aim",
+  "variant": "novuss",
+  "players": "1",
+  "params": {
+    "mode": "flick",
+    "view": "table",
+    "controls": "drag",
+    "guide": "full",
+    "lane": {
+      "width": 3,
+      "length": 3,
+      "startX": "free",
+      "start": {
+        "x": 0,
+        "y": 0.32
+      }
+    },
+    "range": {
+      "min": 1.2,
+      "max": 7
+    },
+    "projectile": {
+      "r": 0.13,
+      "mass": 0.9,
+      "bounce": 0.8,
+      "look": "disc",
+      "color": "#e8c34a"
+    },
+    "world": {
+      "friction": 1.5,
+      "wallBounce": 0.75,
+      "sides": "wall",
+      "ends": "wall"
+    },
+    "table": {
+      "rail": 0.34,
+      "pocketR": 0.21,
+      "cloth": "#d8b878",
+      "wood": "#7a4220",
+      "line": "#6a4524",
+      "marks": true,
+      "baseline": 0.32,
+      "cue": true
+    },
+    "target": {
+      "discs": [
+        {
+          "x": 0,
+          "y": 1.5,
+          "r": 0.115,
+          "color": "#2b2b30",
+          "points": 2
+        },
+        {
+          "x": -0.3,
+          "y": 1.25,
+          "r": 0.115,
+          "color": "#efe5cc",
+          "points": 1
+        },
+        {
+          "x": 0.3,
+          "y": 1.25,
+          "r": 0.115,
+          "color": "#2b2b30",
+          "points": 2
+        },
+        {
+          "x": -0.3,
+          "y": 1.75,
+          "r": 0.115,
+          "color": "#efe5cc",
+          "points": 1
+        },
+        {
+          "x": 0.3,
+          "y": 1.75,
+          "r": 0.115,
+          "color": "#2b2b30",
+          "points": 2
+        },
+        {
+          "x": 0,
+          "y": 1.0,
+          "r": 0.115,
+          "color": "#efe5cc",
+          "points": 1
+        },
+        {
+          "x": 0,
+          "y": 2.0,
+          "r": 0.115,
+          "color": "#2b2b30",
+          "points": 2
+        },
+        {
+          "x": -0.62,
+          "y": 1.5,
+          "r": 0.115,
+          "color": "#efe5cc",
+          "points": 1
+        },
+        {
+          "x": 0.62,
+          "y": 1.5,
+          "r": 0.115,
+          "color": "#2b2b30",
+          "points": 2
+        }
+      ],
+      "foul": 1
+    },
+    "rounds": {
+      "throws": 8,
+      "count": 1,
+      "scoring": "aggregate",
+      "scoreAt": "throw"
+    },
+    "stars": [
+      5,
+      9,
+      13
+    ],
+    "attract": {
+      "angle": 1.2
+    },
+    "look": {
+      "surround": "#241812",
+      "guide": "#ffd24a",
+      "cue": "#e0bf86",
+      "cueButt": "#2b1a10",
+      "titleArt": "<svg viewBox=\"-50 -50 100 100\"><g><rect x=\"-44\" y=\"-44\" width=\"88\" height=\"88\" rx=\"6\" fill=\"#7a4220\"/><rect x=\"-36\" y=\"-36\" width=\"72\" height=\"72\" rx=\"3\" fill=\"#d8b878\"/><circle cx=\"-34\" cy=\"-34\" r=\"9\" fill=\"#120a06\" stroke=\"#e2b84a\" stroke-width=\"3\"/><circle cx=\"34\" cy=\"-34\" r=\"9\" fill=\"#120a06\" stroke=\"#e2b84a\" stroke-width=\"3\"/><circle cx=\"-34\" cy=\"34\" r=\"9\" fill=\"#120a06\" stroke=\"#e2b84a\" stroke-width=\"3\"/><circle cx=\"34\" cy=\"34\" r=\"9\" fill=\"#120a06\" stroke=\"#e2b84a\" stroke-width=\"3\"/><circle cx=\"-8\" cy=\"-6\" r=\"6\" fill=\"#26262b\"/><circle cx=\"9\" cy=\"-8\" r=\"6\" fill=\"#efe5cc\"/><circle cx=\"2\" cy=\"8\" r=\"6\" fill=\"#26262b\"/><circle cx=\"-12\" cy=\"10\" r=\"6\" fill=\"#efe5cc\"/><circle cx=\"0\" cy=\"26\" r=\"7\" fill=\"#e8c34a\"/></g></svg>",
+      "finish": {
+        "vignette": 0.3
+      },
+      "floor": "#8a5a34",
+      "rug": "#6e2428",
+      "rugTrim": "#e8d6a8"
+    },
+    "setting": "hall"
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

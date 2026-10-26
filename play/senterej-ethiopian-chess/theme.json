@@ -1,0 +1,67 @@
+{
+  "palette": {
+    "bg": "#0f2d1a",
+    "board": "#6b3d17",
+    "line": "#3d2209",
+    "cell0": "#f1e2b6",
+    "cell1": "#c18a3c",
+    "p0": "#d3a72a",
+    "p1": "#b3262c",
+    "accent": "#2e8b4a",
+    "ink": "#f6edd2"
+  },
+  "board": {},
+  "pieces": {},
+  "sounds": {},
+  "assets": {},
+  "look": {
+    "ground": {
+      "style": "mat",
+      "color": "#5b3a1e"
+    },
+    "board": {
+      "style": "wood",
+      "color": "#7a4a1c",
+      "rim": "#2e5a2a",
+      "inlay": "#e0a82e",
+      "studs": "#b3262c",
+      "planks": 2,
+      "border": {
+        "pattern": "zigzag",
+        "color": "#e0a82e",
+        "unit": 0.028
+      }
+    },
+    "cell": {
+      "style": "woven",
+      "light": "#e8cf98",
+      "dark": "#a8743a"
+    },
+    "line": {
+      "style": "incised",
+      "color": "#3d2209"
+    },
+    "pieces": [
+      {
+        "style": "figure",
+        "color": "#8d9a3c",
+        "accent": "#d8dc8a",
+        "ring": "#4a5a1a"
+      },
+      {
+        "style": "figure",
+        "color": "#241a17",
+        "accent": "#6b5646",
+        "ring": "#0c0807"
+      }
+    ],
+    "kindMap": {
+      "king": "negus",
+      "F": "sew",
+      "A": "elephant",
+      "N": "knight",
+      "R": "rook",
+      "P": "pawn"
+    }
+  }
+}

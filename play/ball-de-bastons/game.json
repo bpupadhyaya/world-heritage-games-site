@@ -1,0 +1,13 @@
+{
+ "slug": "ball-de-bastons",
+ "title": "Ball de bastons",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

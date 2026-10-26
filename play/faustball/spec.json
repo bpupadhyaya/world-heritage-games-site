@@ -1,0 +1,183 @@
+{
+  "engine": "aim",
+  "variant": "faustball",
+  "players": "2",
+  "params": {
+    "mode": "lob",
+    "controls": "meter",
+    "guide": "full",
+    "setting": "lawn",
+    "lane": {
+      "width": 5.2,
+      "length": 15,
+      "startX": "fixed",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "props": [
+        {
+          "kind": "rope",
+          "x": 0,
+          "y": 6.5,
+          "w": 6.4,
+          "h": 0.85,
+          "post": "#8a6a44",
+          "color": "#efe9d2",
+          "fault": false
+        }
+      ]
+    },
+    "range": {
+      "min": 5,
+      "max": 14.5
+    },
+    "projectile": {
+      "r": 0.13,
+      "mass": 0.5,
+      "bounce": 0.5,
+      "look": "ball",
+      "color": "#f1ece0",
+      "pattern": "volley"
+    },
+    "world": {
+      "friction": 6,
+      "landRoll": 0.8,
+      "wallBounce": 0.3,
+      "sides": "out",
+      "ends": "out",
+      "wind": 0.35
+    },
+    "target": {
+      "bands": [
+        {
+          "y0": 6.5,
+          "y1": 9,
+          "points": 1,
+          "color": "#e8c84a"
+        },
+        {
+          "y0": 9,
+          "y1": 11.5,
+          "points": 3,
+          "color": "#e8743a"
+        },
+        {
+          "y0": 11.5,
+          "y1": 13.5,
+          "points": 2,
+          "color": "#2d6bb0"
+        },
+        {
+          "y0": 13.5,
+          "y1": 15,
+          "points": 1,
+          "color": "#e8c84a"
+        }
+      ]
+    },
+    "rounds": {
+      "throws": 5,
+      "count": 2,
+      "scoring": "aggregate",
+      "scoreAt": "throw"
+    },
+    "stars": [
+      12,
+      20,
+      28
+    ],
+    "attract": {
+      "angle": 0.2
+    },
+    "look": {
+      "striker": "hand",
+      "figureScale": 1.7,
+      "ballScale": 1.9,
+      "courtyard": "village",
+      "wallHeight": 1.6,
+      "lane": "#6aa84a",
+      "surround": "#2e6b2b",
+      "edge": "#f4f1e4",
+      "line": "#fbfaf2",
+      "jersey": "#f4f1e4",
+      "ringColors": [
+        "#f4f0d8",
+        "#e9d98a",
+        "#f4f0d8",
+        "#d8c46a"
+      ],
+      "titleArt": "ball",
+      "cameraBack": 2.2,
+      "hat": "cap",
+      "hatColor": "#2a6fc4",
+      "hair": "#c89a5a",
+      "pants": "#2b3140",
+      "farEdgeWide": 0.22,
+      "cameraBackWide": 3,
+      "farEdge": 0.2,
+      "zoom": 0.9,
+      "finish": {
+        "detail": "lawn",
+        "mow": 1.1,
+        "haze": 0.22,
+        "vignette": 0.28
+      },
+      "figureScaleWide": 0.4,
+      "figureXWide": 1.8,
+      "figureX": 1.15,
+      "ballScaleWide": 1.2,
+      "bystanders": [
+        {
+          "x": -1.3,
+          "y": 11.5,
+          "shirt": "#f4f1e4",
+          "pants": "#2b3140",
+          "front": true,
+          "scale": 0.9,
+          "cap": "#c8392e",
+          "skin": "light"
+        },
+        {
+          "x": 1.2,
+          "y": 13,
+          "shirt": "#f4f1e4",
+          "pants": "#2b3140",
+          "front": true,
+          "scale": 0.9,
+          "cap": "#c8392e",
+          "skin": "brown"
+        },
+        {
+          "x": 1.9,
+          "y": 2.5,
+          "shirt": "#f4f1e4",
+          "pants": "#2b3140",
+          "front": false,
+          "scale": 0.9,
+          "cap": "#2a6fc4",
+          "skin": "tan"
+        }
+      ],
+      "yaw": -13,
+      "yawCenter": 0.3,
+      "figureSide": -1,
+      "yawWide": -12,
+      "figures": "view3d",
+      "figureLighting": "day",
+      "nearPad": 3.0,
+      "actor": {
+        "action": "throw",
+        "shirt": "#f4f1e4",
+        "pants": "#2b3140",
+        "skin": "light",
+        "hair": "#c89a5a",
+        "cap": "#2a6fc4"
+      },
+      "bystanderScaleWide": 0.6
+    }
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

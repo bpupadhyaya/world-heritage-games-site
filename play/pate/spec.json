@@ -1,0 +1,211 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "pads",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "instrument": "pate",
+  "lanes": [
+   {
+    "name": "Low",
+    "hz": 190,
+    "timbre": "bass",
+    "color": "#ff9a50"
+   },
+   {
+    "name": "High",
+    "hz": 330,
+    "timbre": "tone",
+    "color": "#f0c24a"
+   },
+   {
+    "name": "Face",
+    "hz": 250,
+    "timbre": "slap",
+    "color": "#4fd0c0"
+   },
+   {
+    "name": "Edge",
+    "hz": 900,
+    "timbre": "rim",
+    "color": "#c9a0ff"
+   }
+  ],
+  "songs": [
+   {
+    "id": "beat",
+    "name": "Dance beat",
+    "bpm": 100,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "An even beat with the high side leading.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Low"
+     },
+     {
+      "beat": 1,
+      "lane": "High"
+     },
+     {
+      "beat": 2,
+      "lane": "Low"
+     },
+     {
+      "beat": 3,
+      "lane": "High"
+     },
+     {
+      "beat": 4,
+      "lane": "Low"
+     },
+     {
+      "beat": 5,
+      "lane": "High"
+     },
+     {
+      "beat": 6,
+      "lane": "Low"
+     },
+     {
+      "beat": 7,
+      "lane": "High"
+     }
+    ],
+    "watch": true
+   },
+   {
+    "id": "accent",
+    "name": "Accented beat",
+    "bpm": 94,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "The face and the edge add accents.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Low"
+     },
+     {
+      "beat": 1,
+      "lane": "High"
+     },
+     {
+      "beat": 1.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 2,
+      "lane": "Low"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Face"
+     },
+     {
+      "beat": 3,
+      "lane": "High"
+     },
+     {
+      "beat": 4,
+      "lane": "Low"
+     },
+     {
+      "beat": 5,
+      "lane": "High"
+     },
+     {
+      "beat": 5.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 6,
+      "lane": "Low"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Face"
+     },
+     {
+      "beat": 7,
+      "lane": "High"
+     }
+    ]
+   },
+   {
+    "id": "quick",
+    "name": "Quick beat",
+    "bpm": 104,
+    "meter": 4,
+    "length": 8,
+    "kind": "figure",
+    "heritage": "A teaching pattern in the style of the tradition, written for this game",
+    "note": "A quick pattern that keeps the dancers moving.",
+    "steps": [
+     {
+      "beat": 0,
+      "lane": "Low"
+     },
+     {
+      "beat": 0.5,
+      "lane": "High"
+     },
+     {
+      "beat": 1,
+      "lane": "Low"
+     },
+     {
+      "beat": 1.5,
+      "lane": "High"
+     },
+     {
+      "beat": 2,
+      "lane": "Face"
+     },
+     {
+      "beat": 2.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 3,
+      "lane": "High"
+     },
+     {
+      "beat": 4,
+      "lane": "Low"
+     },
+     {
+      "beat": 4.5,
+      "lane": "High"
+     },
+     {
+      "beat": 5,
+      "lane": "Low"
+     },
+     {
+      "beat": 5.5,
+      "lane": "High"
+     },
+     {
+      "beat": 6,
+      "lane": "Face"
+     },
+     {
+      "beat": 6.5,
+      "lane": "Edge"
+     },
+     {
+      "beat": 7,
+      "lane": "High"
+     }
+    ]
+   }
+  ]
+ }
+}

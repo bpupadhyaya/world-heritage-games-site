@@ -42,9 +42,9 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md)
 - [Glassblowing](../../games/121-glassblowing/index.md)
 - [Azulejo tile painting](../../games/122-azulejo-tile-painting/index.md)
+- [Moroccan Mint Tea High Pour](../../games/211-moroccan-mint-tea-high-pour/index.md)
 - [Lefkara Lace](../../games/220-lefkara-lace/index.md)
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md)
-- [Macau wave pavement](../../games/372-macau-wave-pavement/index.md)
 
 ## Sources
 

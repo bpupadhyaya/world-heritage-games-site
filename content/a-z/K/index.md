@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with K"
-description: "117 entries beginning with K."
+description: "119 entries beginning with K."
 path: "/a-z/K/"
 ---
 # Entries beginning with K
@@ -87,7 +87,9 @@ path: "/a-z/K/"
 - [Kokh](../../games/1317-kokh/index.md): Armenia; Wrestling and martial sports; River Valleys and First Cities
 - [Kokpar](../../games/857-kokpar/index.md): Kazakhstan; Street and playground games; Classical Worlds
 - [Kolam](../../games/22332-kolam/index.md): India; Crafts and making; Living Traditions
+- [Kolattam](../../games/5613-kolattam/index.md): India; Dances; Living Traditions
 - [Kolf](../../games/491-kolf/index.md): Netherlands; Archery, throwing and target games; Classical Worlds
+- [Kolkali](../../games/5609-kolkali/index.md): India; Dances; Living Traditions
 - [Kombu](../../games/2918-kombu/index.md): India; Musical instruments; Living Traditions
 - [Komuz](../../games/242-komuz/index.md): Kyrgyzstan; Musical instruments; Crossroads and Golden Ages
 - [Kōnane](../../games/961-konane/index.md): United States; Board and table games; Crossroads and Golden Ages

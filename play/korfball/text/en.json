@@ -1,0 +1,30 @@
+{
+  "title": "Korfball",
+  "native": "Korfbal",
+  "alt": [
+    "Korfbal",
+    "Korbball"
+  ],
+  "summary": "Two baskets stand on tall posts with no backboard behind them, so every shot has to arrive from the front and drop cleanly through. A mixed team of women and men plays, and the shot from distance is the pride of the sport.",
+  "howToPlay": [
+    "Press and hold to wind up: the ring shows where the ball will come down, and it drifts a little with your hand.",
+    "Release when the ring sits over the basket.",
+    "Eight shots make a round and there are two rounds."
+  ],
+  "rules": [
+    "Straight through the middle of the basket scores 3; in off the rim scores 2.",
+    "A ball that hits the rim and bounces away scores nothing.",
+    "There is no backboard, so a shot must be thrown on a true line."
+  ],
+  "heritageNote": "Korfball was designed in the Netherlands at the start of the twentieth century as a team game for women and men together, with baskets on tall posts and no backboard.",
+  "countries": [
+    "Netherlands",
+    "Belgium",
+    "Taiwan"
+  ],
+  "credits": [
+    "3D people: Microsoft Rocketbox Avatar Library (MIT License, Copyright (c) 2020 Microsoft); textures repainted for team kits.",
+    "Motion data: Carnegie Mellon University Graphics Lab Motion Capture Database (mocap.cs.cmu.edu, funded by NSF EIA-0196217; BVH conversion by Bruce Hahne, cgspeed.com) and the Quaternius Universal Animation Library (CC0).",
+    "Software: three.js (MIT License, Copyright (c) 2010-2024 three.js authors) and meshoptimizer (MIT License, Copyright (c) 2016-2024 Arseny Kapoulkine). Full licence texts ship with the game."
+  ]
+}

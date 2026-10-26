@@ -1,0 +1,29 @@
+{
+  "title": "Bat and Trap",
+  "native": "Bat and Trap",
+  "alt": [
+    "Trap ball"
+  ],
+  "summary": "A pub-garden game of south-east England: a rubber ball rests on a hinged wooden trap, is flipped into the air by a knock of the bat, then struck out across the lawn between two tall posts. The farther it lands inside the field, the more it scores.",
+  "howToPlay": [
+    "Press at the trap, pull back and let go: the bat strikes the ball and sends it up the lawn.",
+    "Aim between the two posts; a ball that drifts wide is out of play.",
+    "Land the ball in the far strips of grass for the biggest scores. Six strikes make a round, and there are two rounds."
+  ],
+  "rules": [
+    "The ball must travel between the two posts; a ball that goes wide counts nothing.",
+    "The lawn is marked in strips; the farther the strip the ball lands in, the more it is worth (one to four).",
+    "A ball that carries past the end of the lawn is lost.",
+    "A light breeze can push the ball sideways, so allow for it.",
+    "Each round is six strikes and a game is two rounds; your total decides the stars."
+  ],
+  "heritageNote": "A pub game of Kent and the south coast of England, played on garden lawns and in league matches for generations, with a wooden trap, a solid rubber ball and two tall posts on a pitch measured in yards.",
+  "countries": [
+    "United Kingdom"
+  ],
+  "credits": [
+    "3D people: Microsoft Rocketbox Avatar Library (MIT License, Copyright (c) 2020 Microsoft); textures repainted for team kits.",
+    "Motion data: Carnegie Mellon University Graphics Lab Motion Capture Database (mocap.cs.cmu.edu, funded by NSF EIA-0196217; BVH conversion by Bruce Hahne, cgspeed.com) and the Quaternius Universal Animation Library (CC0).",
+    "Software: three.js (MIT License, Copyright (c) 2010-2024 three.js authors) and meshoptimizer (MIT License, Copyright (c) 2016-2024 Arseny Kapoulkine). Full licence texts ship with the game."
+  ]
+}

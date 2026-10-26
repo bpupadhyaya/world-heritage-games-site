@@ -1,0 +1,52 @@
+{
+ "palette": {
+  "bg": "#0e2b33",
+  "panel": "#16424d",
+  "board": "#7cc4c2",
+  "line": "#0d4a52",
+  "node": "#0d4a52",
+  "p0": "#3b2414",
+  "p1": "#f0c34a",
+  "accent": "#f6d776",
+  "ink": "#f2f7f4"
+ },
+ "board": {},
+ "pieces": {},
+ "sounds": {},
+ "assets": {},
+ "look": {
+  "ground": {
+   "style": "wood",
+   "color": "#2a4a4a"
+  },
+  "board": {
+   "style": "ripple",
+   "color": "#2a7a8a",
+   "rim": "#7a5a2a",
+   "inlay": "#d6b45a"
+  },
+  "node": {
+   "style": "ring",
+   "color": "#e8e0c0",
+   "size": 0.3
+  },
+  "line": {
+   "style": "incised",
+   "color": "#cfe8e8"
+  },
+  "pieces": [
+   {
+    "style": "bug",
+    "color": "#6a3a1a"
+   },
+   {
+    "style": "bug",
+    "color": "#e0a84a"
+   }
+  ],
+  "sides": [
+   "Water bugs",
+   "Pond skaters"
+  ]
+ }
+}

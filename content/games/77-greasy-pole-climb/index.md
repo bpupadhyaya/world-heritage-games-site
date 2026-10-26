@@ -44,7 +44,7 @@ A living tradition passed from person to person; it is not tied to a single date
 - [Songket](../../games/320-songket/index.md)
 - [Ketupat](../../games/322-ketupat/index.md)
 - [Kendang](../../games/10163-kendang/index.md)
-- [Gender](../../games/18923-gender/index.md)
+- [Prasi](../../games/15096-prasi/index.md)
 
 ## Sources
 

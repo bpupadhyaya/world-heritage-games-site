@@ -2,7 +2,7 @@
 title: "South Asia"
 description: "The Indus and Ganges plains, the Deccan, the south and the Himalaya."
 path: "/cradles/south-asia/"
-count: 124
+count: 130
 ---
 # South Asia
 
@@ -10,7 +10,7 @@ The Indus and Ganges plains, the Deccan, the south and the Himalaya.
 
 
 
-124 entries.
+130 entries.
 
 - [Ajrak block printing](../../games/1226-ajrak-block-printing/index.md): Pakistan; Crafts and making; Living Traditions
 - [Allo nettle fibre weaving](../../games/1228-allo-nettle-fibre-weaving/index.md): Nepal; Crafts and making; Living Traditions
@@ -28,6 +28,7 @@ The Indus and Ganges plains, the Deccan, the south and the Himalaya.
 - [Chaturanga](../../games/45-chaturanga/index.md): India; Board and table games; Crossroads and Golden Ages
 - [Chungi](../../games/297-chungi/index.md): Nepal, India; Dexterity and skill games; Modern Heritage
 - [Dandi Biyo](../../games/968-dandi-biyo/index.md): Nepal; Dexterity and skill games; Modern Heritage
+- [Dandiya Raas](../../games/5632-dandiya-raas/index.md): India; Dances; Living Traditions
 - [Dhaka rickshaw art](../../games/295-dhaka-rickshaw-art/index.md): Bangladesh; Crafts and making; Living Traditions
 - [Dhaka weave pattern loom](../../games/115-dhaka-weave-pattern-loom/index.md): Nepal; Crafts and making; Living Traditions
 - [Dhokra lost-wax casting](../../games/278-dhokra-lost-wax-casting/index.md): Bangladesh; Crafts and making; Living Traditions
@@ -52,6 +53,8 @@ The Indus and Ganges plains, the Deccan, the south and the Himalaya.
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md): India; Performance and storytelling; Classical Worlds
 - [Kho-Kho](../../games/15-kho-kho/index.md): India, Nepal; Street and playground games; Modern Heritage
 - [Kira and Kushuthara backstrap weaving](../../games/1312-kira-and-kushuthara-backstrap-weaving/index.md): Bhutan; Crafts and making; Living Traditions
+- [Kolattam](../../games/5613-kolattam/index.md): India; Dances; Living Traditions
+- [Kolkali](../../games/5609-kolkali/index.md): India; Dances; Living Traditions
 - [Kombu](../../games/2918-kombu/index.md): India; Musical instruments; Living Traditions
 - [Kotta Pora](../../games/18-kotta-pora/index.md): Sri Lanka; Wrestling and martial sports; Classical Worlds
 - [Kushti / Pehlwani mud wrestling](../../games/256-kushti-pehlwani-mud-wrestling/index.md): India, Pakistan; Wrestling and martial sports; River Valleys and First Cities
@@ -107,7 +110,9 @@ The Indus and Ganges plains, the Deccan, the south and the Himalaya.
 - [Baluchari Sari](../../games/5764-baluchari-sari/index.md): India; Crafts and making; Living Traditions
 - [Banarasi Brocade](../../games/5758-banarasi-brocade/index.md): India; Crafts and making; Living Traditions
 - [Dego](../../games/590-dego/index.md): Bhutan; Dexterity and skill games; Modern Heritage
+- [Dhoklan jo Nach](../../games/12242-dhoklan-jo-nach/index.md): Pakistan; Dances; Living Traditions
 - [Dumbara Mats](../../games/5702-dumbara-mats/index.md): Sri Lanka; Crafts and making; Living Traditions
+- [Gauda Badi Khela](../../games/11828-gauda-badi-khela/index.md): India; Dances; Living Traditions
 - [Gollachut](../../games/573-gollachut/index.md): Bangladesh; Street and playground games; Modern Heritage
 - [Gulli Danda](../../games/1003-gulli-danda/index.md): Pakistan; Dexterity and skill games; Modern Heritage
 - [Horn pulling](../../games/1103-horn-pulling/index.md): Sri Lanka; Street and playground games; Classical Worlds
@@ -126,6 +131,7 @@ The Indus and Ganges plains, the Deccan, the south and the Himalaya.
 - [One Arrow Oath](../../games/22334-one-arrow-oath/index.md): India; Other traditions; Modern Heritage
 - [Pachisi](../../games/797-pachisi/index.md): India; Board and table games; River Valleys and First Cities
 - [Pancha](../../games/1108-pancha/index.md): Sri Lanka; Board and table games; River Valleys and First Cities
+- [Phye Ghan](../../games/20677-phye-ghan/index.md): Nepal; Musical instruments; Living Traditions
 - [Pillow fight](../../games/1101-pillow-fight/index.md): Sri Lanka, Myanmar; Street and playground games; Modern Heritage
 - [Pipili appliqué work](../../games/3483-pipili-applique-work/index.md): India; Crafts and making; Living Traditions
 - [Pitthu Garam](../../games/1004-pitthu-garam/index.md): Pakistan; Street and playground games; Modern Heritage

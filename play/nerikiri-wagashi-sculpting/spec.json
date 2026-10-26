@@ -1,0 +1,13 @@
+{
+  "engine": "shape-craft",
+  "variant": "nerikiri-wagashi-sculpting",
+  "players": "1",
+  "params": {
+    "technique": "sweet-nerikiri",
+    "scene": "kc-sweet-alcove",
+    "design": "auto"
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

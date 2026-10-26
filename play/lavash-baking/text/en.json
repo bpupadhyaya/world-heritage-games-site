@@ -1,0 +1,24 @@
+{
+  "title": "Lavash baking",
+  "native": "Լավաշ",
+  "alt": [
+    "Lavash (tonir bread)"
+  ],
+  "summary": "In Armenia, lavash is a very thin flatbread. The baker stretches rested dough over a cushion, presses it on the hot clay wall of a sunken oven called a tonir, and lifts it out on a hook when it is blistered and golden.",
+  "howToPlay": [
+    "Stretch: drag over the dough on the cushion in steady passes to thin it evenly. Going too fast tears it.",
+    "Stick: press To the oven, then press on the wall and hold; let go inside the lit part of the bar so the sheet clings.",
+    "Bake: the wall is hotter low and on the fire side. Sheets blister and brown, and thin places colour first.",
+    "Lift: tap a sheet to hook it off when it is golden. Pale is raw, dark is lost."
+  ],
+  "rules": [
+    "A sheet is scored on how thin and even it is, how cleanly it stuck, and its colour when lifted.",
+    "The round score is the mean of the sheets in the order.",
+    "A sheet that falls or burns scores nothing."
+  ],
+  "heritageNote": "Lavash belongs to the everyday food culture of Armenia and its neighbours. Bakers, often women of a village working together, lean into the warm pit to press the dough on the wall and stack the sheets to keep for the week.",
+  "countries": [
+    "Armenia"
+  ],
+  "credits": []
+}

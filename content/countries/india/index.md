@@ -1,16 +1,16 @@
 ---
 title: "India"
-description: "78 traditions from India."
+description: "82 traditions from India."
 path: "/countries/india/"
-count: 78
+count: 82
 ---
 # India
 
-78 traditions from India.
+82 traditions from India.
 
 
 
-78 entries.
+82 entries.
 
 - [Bandhani tie-dye](../../games/258-bandhani-tie-dye/index.md): India; Crafts and making; Living Traditions
 - [Bansuri bamboo flute](../../games/149-bansuri-bamboo-flute/index.md): India, Nepal; Musical instruments; Classical Worlds
@@ -23,6 +23,7 @@ count: 78
 - [Chaturanga](../../games/45-chaturanga/index.md): India; Board and table games; Crossroads and Golden Ages
 - [Chess](../../games/552-chess/index.md): Armenia, Azerbaijan; Board and table games; Crossroads and Golden Ages
 - [Chungi](../../games/297-chungi/index.md): Nepal, India; Dexterity and skill games; Modern Heritage
+- [Dandiya Raas](../../games/5632-dandiya-raas/index.md): India; Dances; Living Traditions
 - [Dhol drum rhythm](../../games/263-dhol-drum-rhythm/index.md): India; Musical instruments; Living Traditions
 - [Ghatam](../../games/5712-ghatam/index.md): India; Musical instruments; Living Traditions
 - [Gilli-Danda](../../games/793-gilli-danda/index.md): India; Dexterity and skill games; Modern Heritage
@@ -37,6 +38,8 @@ count: 78
 - [Kathak tatkar footwork rhythm](../../games/267-kathak-tatkar-footwork-rhythm/index.md): India, Pakistan; Other traditions; Living Traditions
 - [Kathputli string puppets](../../games/79-kathputli-string-puppets/index.md): India; Performance and storytelling; Classical Worlds
 - [Kho-Kho](../../games/15-kho-kho/index.md): India, Nepal; Street and playground games; Modern Heritage
+- [Kolattam](../../games/5613-kolattam/index.md): India; Dances; Living Traditions
+- [Kolkali](../../games/5609-kolkali/index.md): India; Dances; Living Traditions
 - [Kombu](../../games/2918-kombu/index.md): India; Musical instruments; Living Traditions
 - [Kushti / Pehlwani mud wrestling](../../games/256-kushti-pehlwani-mud-wrestling/index.md): India, Pakistan; Wrestling and martial sports; River Valleys and First Cities
 - [Kutch Embroidery](../../games/5761-kutch-embroidery/index.md): India; Crafts and making; Living Traditions
@@ -75,6 +78,7 @@ count: 78
 - [Baluchari Sari](../../games/5764-baluchari-sari/index.md): India; Crafts and making; Living Traditions
 - [Banarasi Brocade](../../games/5758-banarasi-brocade/index.md): India; Crafts and making; Living Traditions
 - [Cricket](../../games/22343-cricket/index.md): United Kingdom, India; Bat-and-ball games; Age of Contact and Craft
+- [Gauda Badi Khela](../../games/11828-gauda-badi-khela/index.md): India; Dances; Living Traditions
 - [Kani shawl weaving by talim code](../../games/261-kani-shawl-weaving-by-talim-code/index.md): India; Crafts and making; Living Traditions
 - [Kite fighting](../../games/788-kite-fighting/index.md): India, Pakistan; Dexterity and skill games; Classical Worlds
 - [Kolam](../../games/22332-kolam/index.md): India; Crafts and making; Living Traditions

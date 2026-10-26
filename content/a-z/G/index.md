@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with G"
-description: "64 entries beginning with G."
+description: "66 entries beginning with G."
 path: "/a-z/G/"
 ---
 # Entries beginning with G
@@ -20,6 +20,7 @@ path: "/a-z/G/"
 - [Gargoor Fish-Trap Weaving](../../games/1288-gargoor-fish-trap-weaving/index.md): Bahrain; Crafts and making; Living Traditions
 - [Gasing](../../games/908-gasing/index.md): Malaysia, Singapore; Dexterity and skill games; Modern Heritage
 - [Gasing uri](../../games/1289-gasing-uri/index.md): Malaysia; Dexterity and skill games; Modern Heritage
+- [Gauda Badi Khela](../../games/11828-gauda-badi-khela/index.md): India; Dances; Living Traditions
 - [Gayageum](../../games/361-gayageum/index.md): South Korea; Musical instruments; Classical Worlds
 - [Gaytandzhiystvo](../../games/11073-gaytandzhiystvo/index.md): Bulgaria; Crafts and making; Living Traditions
 - [Gbofe Trumpet Ensemble](../../games/1290-gbofe-trumpet-ensemble/index.md): Cote d'Ivoire; Other traditions; Living Traditions
@@ -48,6 +49,7 @@ path: "/a-z/G/"
 - [Gomoku and Renju](../../games/847-gomoku-and-renju/index.md): Japan; Board and table games; Crossroads and Golden Ages
 - [Gondola Rowing](../../games/401-gondola-rowing/index.md): Italy; Dexterity and skill games; Modern Heritage
 - [Gong ageng](../../games/2500-gong-ageng/index.md): Indonesia; Musical instruments; Classical Worlds
+- [Gongfu tea pour](../../games/339-gongfu-tea-pour/index.md): China, Taiwan; Crafts and making; Living Traditions
 - [Gonggi](../../games/1085-gonggi/index.md): South Korea; Dexterity and skill games; Deep Past and First Games
 - [Gonu](../../games/1086-gonu/index.md): South Korea; Board and table games; Deep Past and First Games
 - [Gorodki](../../games/13-gorodki/index.md): Russia; Dexterity and skill games; Age of Contact and Craft

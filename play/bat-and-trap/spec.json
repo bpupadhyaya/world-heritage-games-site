@@ -1,0 +1,256 @@
+{
+  "engine": "aim",
+  "variant": "bat-and-trap",
+  "players": "1",
+  "params": {
+    "mode": "lob",
+    "controls": "drag",
+    "guide": "full",
+    "setting": "lawn",
+    "lane": {
+      "width": 4.1,
+      "length": 24,
+      "startX": "fixed",
+      "start": {
+        "x": 0,
+        "y": 0
+      },
+      "props": [
+        {
+          "kind": "box",
+          "x": 0,
+          "y": 0.9,
+          "w": 0.56,
+          "d": 0.14,
+          "h": 0.12,
+          "color": "#8a5a2b"
+        },
+        {
+          "kind": "post",
+          "x": -2.05,
+          "y": 19,
+          "r": 0.06,
+          "h": 2.1,
+          "color": "#f1ece0"
+        },
+        {
+          "kind": "post",
+          "x": 2.05,
+          "y": 19,
+          "r": 0.06,
+          "h": 2.1,
+          "color": "#f1ece0"
+        },
+        {
+          "kind": "bench",
+          "x": -2.7,
+          "y": 6,
+          "w": 0.4,
+          "d": 1.6,
+          "h": 0.4,
+          "color": "#8a6a3a"
+        },
+        {
+          "kind": "bench",
+          "x": 2.8,
+          "y": 11,
+          "w": 0.4,
+          "d": 1.6,
+          "h": 0.4,
+          "color": "#8a6a3a"
+        }
+      ]
+    },
+    "range": {
+      "min": 6,
+      "max": 23
+    },
+    "projectile": {
+      "r": 0.16,
+      "mass": 1,
+      "bounce": 0.45,
+      "look": "ball",
+      "color": "#c0392b"
+    },
+    "world": {
+      "friction": 6,
+      "landRoll": 2.0,
+      "wallBounce": 0.3,
+      "sides": "out",
+      "ends": "out",
+      "wind": 0.1
+    },
+    "target": {
+      "bands": [
+        {
+          "y0": 6,
+          "y1": 9.5,
+          "points": 1,
+          "color": "#d8a838"
+        },
+        {
+          "y0": 9.5,
+          "y1": 13,
+          "points": 1,
+          "color": "#e8c84a"
+        },
+        {
+          "y0": 13,
+          "y1": 16.5,
+          "points": 2,
+          "color": "#2d8fb0"
+        },
+        {
+          "y0": 16.5,
+          "y1": 20,
+          "points": 3,
+          "color": "#d8743a"
+        },
+        {
+          "y0": 20,
+          "y1": 24,
+          "points": 4,
+          "color": "#c8392e"
+        }
+      ]
+    },
+    "rounds": {
+      "throws": 6,
+      "count": 2,
+      "scoring": "aggregate",
+      "scoreAt": "throw"
+    },
+    "stars": [
+      12,
+      22,
+      30
+    ],
+    "look": {
+      "surround": "#4d6b2e",
+      "lane": "#86a94a",
+      "line": "#f4f1e6",
+      "edge": "#f4f1e6",
+      "ringColors": [
+        "#b8512f",
+        "#f1e7c8",
+        "#2f6b8f"
+      ],
+      "striker": "bat",
+      "figureScale": 1.3,
+      "ballScale": 1.8,
+      "courtyard": "pubgarden",
+      "wallHeight": 1.5,
+      "titleArt": "bat",
+      "jersey": "#f4efe2",
+      "skin": "#d9a47c",
+      "wall": "#8a4a38",
+      "cameraBack": 1.0,
+      "farEdge": 0.3,
+      "cameraBackWide": 2.4,
+      "farEdgeWide": 0.22,
+      "zoom": 1.5,
+      "hair": "#3a2a1e",
+      "finish": {
+        "detail": "lawn",
+        "mow": 1.0,
+        "haze": 0.2,
+        "vignette": 0.3
+      },
+      "figureScaleWide": 0.4,
+      "figureXWide": 1.8,
+      "figureX": 1.15,
+      "figureSide": 1,
+      "ballScaleWide": 1.1,
+      "bystanders": [
+        {
+          "x": -1.2,
+          "y": 17,
+          "shirt": "#f4efe2",
+          "pants": "#2b3140",
+          "front": true,
+          "scale": 0.9,
+          "skin": "light"
+        },
+        {
+          "x": 1.3,
+          "y": 20,
+          "shirt": "#e8c84a",
+          "pants": "#2b3140",
+          "front": true,
+          "scale": 0.9,
+          "skin": "deep",
+          "hair": "black"
+        },
+        {
+          "x": -1.4,
+          "y": 10,
+          "shirt": "#f4efe2",
+          "pants": "#2b3140",
+          "front": true,
+          "scale": 0.9,
+          "cap": "#3a6a8a",
+          "skin": "tan"
+        }
+      ],
+      "decals": [
+        {
+          "kind": "mat",
+          "x": 0,
+          "y": 0.95,
+          "w": 1.6,
+          "d": 0.9,
+          "color": "#2f4f22"
+        },
+        {
+          "kind": "flowers",
+          "x": -2.3,
+          "y": 3,
+          "w": 0.8,
+          "d": 2.4,
+          "n": 24
+        },
+        {
+          "kind": "flowers",
+          "x": 2.3,
+          "y": 6.5,
+          "w": 0.8,
+          "d": 2.4,
+          "n": 24,
+          "seed": 6
+        },
+        {
+          "kind": "shade",
+          "x": 2.0,
+          "y": 11,
+          "rx": 2.2,
+          "ry": 1.5,
+          "alpha": 0.18
+        },
+        {
+          "kind": "shade",
+          "x": -1.9,
+          "y": 16,
+          "rx": 2.2,
+          "ry": 1.4,
+          "alpha": 0.16
+        }
+      ],
+      "figures": "view3d",
+      "figureLighting": "day",
+      "nearPad": 3.0,
+      "actor": {
+        "action": "bat",
+        "shirt": "#f4efe2",
+        "pants": "#2b3140",
+        "skin": "light",
+        "hair": "#3a2a1e",
+        "prop": {
+          "kind": "bat"
+        }
+      }
+    }
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

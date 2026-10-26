@@ -1,21 +1,20 @@
 ---
 title: "Cuba"
-description: "12 traditions from Cuba."
+description: "11 traditions from Cuba."
 path: "/countries/cuba/"
-count: 12
+count: 11
 ---
 # Cuba
 
-12 traditions from Cuba.
+11 traditions from Cuba.
 
 
 
-12 entries.
+11 entries.
 
 - [Bongo drum](../../games/1814-bongo-drum/index.md): Cuba; Musical instruments; Living Traditions
 - [Four Corners](../../games/652-four-corners/index.md): Cuba; Street and playground games; Modern Heritage
 - [Maracas](../../games/6170-maracas/index.md): Cuba; Musical instruments; Living Traditions
-- [Stickball](../../games/477-stickball/index.md): Cuba; Bat-and-ball games; Modern Heritage
 - [Timbales](../../games/4126-timbales/index.md): Cuba; Musical instruments; Living Traditions
 - [Tres cubano](../../games/433-tres-cubano/index.md): Cuba; Musical instruments; Living Traditions
 - [Baseball](../../games/22323-baseball/index.md): United States, Cuba; Bat-and-ball games; Modern Heritage

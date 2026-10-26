@@ -1,0 +1,13 @@
+{
+ "slug": "palm-sugar-boiling-and-mould-filling",
+ "title": "Palm sugar boiling and mould-filling",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

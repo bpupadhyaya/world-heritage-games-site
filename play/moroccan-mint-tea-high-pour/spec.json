@@ -1,0 +1,15 @@
+{
+  "engine": "shape-craft",
+  "variant": "moroccan-mint-tea-high-pour",
+  "players": "2",
+  "params": {
+    "technique": "pour",
+    "mode": "high",
+    "glasses": 4,
+    "glassesMax": 5,
+    "scene": "kc-tea-riad"
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

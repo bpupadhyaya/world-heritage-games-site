@@ -1,0 +1,30 @@
+{
+ "title": "Shisima",
+ "native": "Shisima",
+ "alt": [
+  "Water-bug game",
+  "Shisima (the lake)"
+ ],
+ "summary": "A game of the Tiriki, a Luhya community of western Kenya, played on an eight-sided board with a point in the middle. Three little water bugs each glide from point to point, and the one who first lines up all three through the centre wins.",
+ "howToPlay": [
+  "Each side starts with three bugs on neighbouring points of the ring, facing the rival's three across the water. Three points stay empty, the centre among them.",
+  "Take turns gliding one of your bugs along a line to an empty neighbouring point, around the rim or to and from the centre.",
+  "Bugs never jump and nothing is taken.",
+  "Line up your three bugs along a straight line through the centre to win."
+ ],
+ "rules": [
+  "The board is an eight-sided ring of eight points with one point in the centre, joined by the eight sides and four lines through the centre.",
+  "Each player has three pieces, set at the start on three neighbouring points of the ring.",
+  "A move is one step along a line to an empty point; pieces do not jump and are never taken.",
+  "Only three of your pieces on one line through the centre win: two opposite rim points and the centre.",
+  "A player who cannot move loses.",
+  "The same position three times is a draw."
+ ],
+ "heritageNote": "Shisima is played by Tiriki children and adults in western Kenya, where the name means water and the board is the lake. The pieces are called imbalavali, the water bugs that skate across the surface. It is often drawn in the dust with bottle tops or stones; the rules here follow the common modern descriptions.",
+ "countries": [
+  "Kenya"
+ ],
+ "credits": [
+  "Game design: World Heritage Games (original)"
+ ]
+}

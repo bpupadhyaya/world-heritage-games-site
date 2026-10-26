@@ -1,16 +1,16 @@
 ---
 title: "Winter sports"
-description: "50 related traditions."
+description: "51 related traditions."
 path: "/families/winter-sport/"
-count: 50
+count: 51
 ---
 # Winter sports
 
-50 related traditions.
+51 related traditions.
 
 
 
-50 entries.
+51 entries.
 
 - ['Ulu Maika](../../games/44-ulu-maika/index.md): United States; Dexterity and skill games; Age of Contact and Craft
 - [Axe throwing](../../games/442-axe-throwing/index.md): Canada, United States; Dexterity and skill games; Modern Heritage
@@ -45,6 +45,7 @@ count: 50
 - [Malha](../../games/1466-malha/index.md): Portugal; Archery, throwing and target games; Classical Worlds
 - [Mallakhamb](../../games/150-mallakhamb/index.md): India; Dexterity and skill games; Modern Heritage
 - [Maple taffy on snow](../../games/441-maple-taffy-on-snow/index.md): Canada; Crafts and making; Living Traditions
+- [Moroccan Mint Tea High Pour](../../games/211-moroccan-mint-tea-high-pour/index.md): Morocco; Crafts and making; Living Traditions
 - [Namib dune sandboarding](../../games/1345-namib-dune-sandboarding/index.md): Namibia; Dexterity and skill games; Modern Heritage
 - [Neon sign bender](../../games/371-neon-sign-bender/index.md): China; Crafts and making; Living Traditions
 - [Nguni stick-fighting rhythm skirmish](../../games/209-nguni-stick-fighting-rhythm-skirmish/index.md): South Africa, Eswatini; Dexterity and skill games; Modern Heritage

@@ -1,0 +1,67 @@
+{
+ "palette": {
+  "bg": "#1c0f09",
+  "board": "#8a4a26",
+  "line": "#2a1208",
+  "panel": "#35190d",
+  "accent": "#e2a24a",
+  "ink": "#f7ead3",
+  "dim": "#c7a888",
+  "good": "#9fcf8a",
+  "a": "#e8b04a",
+  "b": "#8fa6a0",
+  "p0": "#e8b04a",
+  "p1": "#8fa6a0"
+ },
+ "board": {},
+ "pieces": {},
+ "sounds": {},
+ "assets": {},
+ "look": {
+  "ground": {
+   "style": "wood",
+   "color": "#2a140b"
+  },
+  "board": {
+   "style": "carved",
+   "color": "#7a3a1e",
+   "rim": "#d9a441",
+   "inlay": "#d9a441",
+   "studs": "#e8b04a",
+   "planks": 0,
+   "divider": "#e2a24a",
+   "border": {
+    "pattern": "diamond",
+    "color": "#8a5a1c",
+    "unit": 0.02
+   }
+  },
+  "node": {
+   "style": "hole",
+   "color": "#1a0a05"
+  },
+  "line": {
+   "style": "inlay",
+   "color": "#d9a441",
+   "width": 0.006
+  },
+  "seed": {
+   "style": "nut",
+   "depth": 1.5,
+   "colors": [
+    [
+     "#e8b04a",
+     "#c98a2c",
+     "#f2c872",
+     "#a8701f"
+    ],
+    [
+     "#8fa6a0",
+     "#6f8a84",
+     "#b4c4be",
+     "#51675f"
+    ]
+   ]
+  }
+ }
+}

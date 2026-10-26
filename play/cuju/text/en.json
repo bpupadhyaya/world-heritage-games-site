@@ -1,0 +1,31 @@
+{
+  "title": "Cuju",
+  "native": "蹴鞠",
+  "alt": [
+    "Tsu chu",
+    "Ts'u chü"
+  ],
+  "summary": "Cuju, 'kick the ball', is a football pastime from ancient China, played for more than two thousand years. Players kept a stuffed leather ball in the air with feet and body, and in some forms they aimed it at an opening in a goal hung between two tall posts.",
+  "howToPlay": [
+    "Press and hold, then pull back: a ring shows where the ball will land.",
+    "Let go when the ring sits over the round hole in the red silk.",
+    "Eight kicks make a round and a match is two rounds."
+  ],
+  "rules": [
+    "A round is eight kicks; a match is two rounds and the scores add up.",
+    "A ball that flies through the gold-rimmed hole scores 4.",
+    "A ball that strikes the silk but misses the hole scores 1.",
+    "A ball that goes wide of the screen scores nothing, and each kick stands alone.",
+    "Hand sway and a slight drop move the ball away from the ring, so a steady hold helps.",
+    "Stars are earned for 14, 28 and 40 points over a match."
+  ],
+  "heritageNote": "Cuju began as a military training exercise and became a pastime of the Han, Tang and Song courts and streets, enjoyed by people of every rank. It is kept alive in China today as a cultural heritage sport and in demonstration matches.",
+  "countries": [
+    "China"
+  ],
+  "credits": [
+    "3D people: Microsoft Rocketbox Avatar Library (MIT License, Copyright (c) 2020 Microsoft); textures repainted for team kits.",
+    "Motion data: Carnegie Mellon University Graphics Lab Motion Capture Database (mocap.cs.cmu.edu, funded by NSF EIA-0196217; BVH conversion by Bruce Hahne, cgspeed.com) and the Quaternius Universal Animation Library (CC0).",
+    "Software: three.js (MIT License, Copyright (c) 2010-2024 three.js authors) and meshoptimizer (MIT License, Copyright (c) 2016-2024 Arseny Kapoulkine). Full licence texts ship with the game."
+  ]
+}

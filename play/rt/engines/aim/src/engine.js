@@ -17,5 +17,16 @@ export function createEngine(spec = {}, theme = {}, text = {}, options = {}) {
     if (log) { const base = audio; audio = new Proxy(base ?? {}, { get: (t, k) => (k === 'tone' ? (o) => { log.push({ kind: 'tone' }); return base?.tone?.(o); } : t[k]) }); }
     return createActivity(params, { ...env, audio, options });
   };
-  return createActivityEngine({ createActivity: wrapped, spec, theme, text, options });
+  const holder = { figs: null };
+  const eng = createActivityEngine({ createActivity: (params, env) => wrapped(params, { ...env, figs: holder.figs }), spec, theme, text, options });
+  // 1.8.0 `look.figures: 'view3d'`: real 3D people are baked into sprites before the first frame (browsers with WebGL only; otherwise the vector
+  // figures stay). The DOM and WebGL code lives in ../view3d (outside the pure src), loaded on demand.
+  if (spec?.params?.look?.figures === 'view3d' && options.figures !== false && typeof globalThis.requestAnimationFrame === 'function') {
+    const make = eng.createGame;
+    eng.createGame = async (env) => {
+      try { const m = await import('../view3d/figures3d.js'); holder.figs = await m.loadFigures(spec.params.look); } catch (e) { holder.figs = null; }
+      return make(env);
+    };
+  }
+  return eng;
 }

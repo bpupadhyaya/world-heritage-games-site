@@ -1,16 +1,16 @@
 ---
 title: "Americas"
-description: "191 entries."
+description: "192 entries."
 path: "/regions/americas/"
-count: 191
+count: 192
 ---
 # Americas
 
-191 entries.
+192 entries.
 
 
 
-191 entries.
+192 entries.
 
 - ['Ulu Maika](../../games/44-ulu-maika/index.md): United States; Dexterity and skill games; Age of Contact and Craft
 - [Alebrije painting](../../games/92-alebrije-painting/index.md): Mexico; Crafts and making; Living Traditions
@@ -97,6 +97,7 @@ count: 191
 - [Nanduti](../../games/428-nanduti/index.md): Paraguay; Crafts and making; Living Traditions
 - [Pack basket](../../games/3355-pack-basket/index.md): United States; Crafts and making; Living Traditions
 - [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md): Paraguay; Musical instruments; Classical Worlds
+- [Pato](../../games/420-pato/index.md): Argentina; Sports with animal partners; Classical Worlds
 - [Patolli](../../games/454-patolli/index.md): Mexico; Board and table games; Crossroads and Golden Ages
 - [Payada](../../games/1426-payada/index.md): Argentina, Uruguay; Wrestling and martial sports; Classical Worlds
 - [Peteca](../../games/421-peteca/index.md): Brazil; Dexterity and skill games; Modern Heritage
@@ -115,7 +116,7 @@ count: 191
 - [Spinning top](../../games/678-spinning-top/index.md): Dominican Republic, Jamaica; Dexterity and skill games; Modern Heritage
 - [Square dance caller](../../games/129-square-dance-caller/index.md): United States; Puzzles and mind games; Modern Heritage
 - [Steelpan](../../games/31-steelpan/index.md): Trinidad and Tobago; Musical instruments; Age of Contact and Craft
-- [Stickball](../../games/477-stickball/index.md): Cuba; Bat-and-ball games; Modern Heritage
+- [Stickball](../../games/477-stickball/index.md): United States; Bat-and-ball games; Modern Heritage
 - [Street games](../../games/570-street-games/index.md): Bahamas; Dexterity and skill games; Deep Past and First Games
 - [Street play games](../../games/1155-street-play-games/index.md): Trinidad and Tobago; Dexterity and skill games; Modern Heritage
 - [Surdo](../../games/3987-surdo/index.md): Brazil; Musical instruments; Age of Contact and Craft

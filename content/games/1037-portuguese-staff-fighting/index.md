@@ -39,9 +39,9 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Portuguese Guitar](../../games/1457-portuguese-guitar/index.md)
 - [Malha](../../games/1466-malha/index.md)
 - [Morra](../../games/83-morra/index.md)
-- [Tbourida](../../games/164-tbourida/index.md)
 - [Kottabos Symposium Toss](../../games/392-kottabos-symposium-toss/index.md)
 - [Sicilian Puppet Knights](../../games/514-sicilian-puppet-knights/index.md)
+- [Slovene quintain](../../games/1073-slovene-quintain/index.md)
 
 ## Sources
 

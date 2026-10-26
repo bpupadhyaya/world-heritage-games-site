@@ -1,0 +1,152 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "lanes": [
+   {
+    "name": "Nearest",
+    "hz": 1600,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#e8b61c"
+   },
+   {
+    "name": "Second",
+    "hz": 1900,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#c0261f"
+   },
+   {
+    "name": "Third",
+    "hz": 1200,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#3fae6a"
+   },
+   {
+    "name": "Farthest",
+    "hz": 1450,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#f2f0e6"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Pairs down the row",
+    "bpm": 112,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Nearest"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Second"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Third"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Farthest"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Farthest"
+     },
+     {
+      "beat": 5.0,
+      "lane": "Third"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Second"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Nearest"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Nearest"
+     },
+     {
+      "beat": 9.0,
+      "lane": "Nearest"
+     },
+     {
+      "beat": 10.0,
+      "lane": "Second"
+     },
+     {
+      "beat": 11.0,
+      "lane": "Second"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Third"
+     },
+     {
+      "beat": 13.0,
+      "lane": "Third"
+     },
+     {
+      "beat": 14.0,
+      "lane": "Farthest"
+     },
+     {
+      "beat": 15.0,
+      "lane": "Farthest"
+     }
+    ]
+   },
+   {
+    "name": "Quick clash",
+    "bpm": 124,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Nearest"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Second"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Third"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Farthest"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Farthest"
+     },
+     {
+      "beat": 10.0,
+      "lane": "Third"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Second"
+     },
+     {
+      "beat": 14.0,
+      "lane": "Nearest"
+     }
+    ]
+   }
+  ],
+  "instrument": "stick clash pauliteiros"
+ }
+}

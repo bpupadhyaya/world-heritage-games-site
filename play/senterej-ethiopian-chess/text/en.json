@@ -1,0 +1,30 @@
+{
+  "title": "Senterej",
+  "native": "ሰንጠረዥ",
+  "alt": [
+    "Ethiopian chess",
+    "Sentrej"
+  ],
+  "summary": "The chess of the Ethiopian highlands, a living descendant of the old shatranj: a short-stepping sew beside the negus, elephants that leap two squares diagonally, and kings that do not face each other across the board.",
+  "howToPlay": [
+    "Move one piece per turn and capture by landing on an enemy piece; each piece has its own fixed way of moving.",
+    "Elephants (fil) leap exactly two squares on a diagonal, horses (ferese) leap like a chess knight, rooks (der) run along rows and columns.",
+    "Foot soldiers (medeq) step forward one square, capture diagonally forward and become a sew on the far edge.",
+    "Trap the opposing negus so it cannot escape attack to win."
+  ],
+  "rules": [
+    "The back row reads der, ferese, fil, sew, negus, fil, ferese, der from the lower player; the opposing army is turned half a circle, so the two negus stand on different files.",
+    "The negus steps one square in any direction; the sew steps one square diagonally; the fil leaps two squares diagonally, over anything in between; the ferese leaps like a knight; the der moves any distance along a row or column.",
+    "Soldiers step one square forward, capture diagonally forward and become a sew when they reach the far row. There is no double step, no capture in passing and no castling.",
+    "A negus may never be left under attack; trapping it with no escape wins.",
+    "A player with no legal move who is not under attack draws.",
+    "The same position three times is a draw.",
+    "In the village game both sides first set up their armies freely without taking turns until the first capture; in this edition the sides move in turn from the start."
+  ],
+  "heritageNote": "Senterej is played in Ethiopia and Eritrea, in cafes and under trees, and is the last widely played form of the medieval shatranj. Local custom varies on promotion, on how a lone king may be hunted and on the free opening phase, so this edition follows the common core.",
+  "countries": [
+    "Ethiopia",
+    "Eritrea"
+  ],
+  "credits": []
+}

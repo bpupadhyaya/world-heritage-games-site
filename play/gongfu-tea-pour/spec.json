@@ -1,0 +1,16 @@
+{
+  "engine": "shape-craft",
+  "variant": "gongfu-tea-pour",
+  "players": "1",
+  "params": {
+    "technique": "pour",
+    "mode": "gongfu",
+    "infusions": 3,
+    "cups": 4,
+    "rinse": true,
+    "scene": "kc-tea-house"
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

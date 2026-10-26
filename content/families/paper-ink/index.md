@@ -1,16 +1,16 @@
 ---
 title: "Paper, ink and painting crafts"
-description: "103 related traditions."
+description: "106 related traditions."
 path: "/families/paper-ink/"
-count: 103
+count: 106
 ---
 # Paper, ink and painting crafts
 
-103 related traditions.
+106 related traditions.
 
 
 
-103 entries.
+106 entries.
 
 - [Adinkra Cloth Stamping](../../games/170-adinkra-cloth-stamping/index.md): Ghana, Cote d'Ivoire; Crafts and making; Living Traditions
 - [Ajrak block printing](../../games/1226-ajrak-block-printing/index.md): Pakistan; Crafts and making; Living Traditions
@@ -110,8 +110,11 @@ count: 103
 - [Washi Papermaking](../../games/497-washi-papermaking/index.md): Japan, Nepal; Crafts and making; Living Traditions
 - [Zhostovo painting](../../games/4460-zhostovo-painting/index.md): Russia; Crafts and making; Living Traditions
 - [Zulu beadwork letters](../../games/88-zulu-beadwork-letters/index.md): South Africa; Crafts and making; Living Traditions
+- [Ball de bastons](../../games/5136-ball-de-bastons/index.md): Spain; Dances; Living Traditions
 - [Dumbara Mats](../../games/5702-dumbara-mats/index.md): Sri Lanka; Crafts and making; Living Traditions
+- [Enluminure](../../games/19901-enluminure/index.md): France; Crafts and making; Living Traditions
 - [Hanji paper making](../../games/14592-hanji-paper-making/index.md): South Korea; Crafts and making; Living Traditions
 - [Kolam](../../games/22332-kolam/index.md): India; Crafts and making; Living Traditions
 - [Malarstwo Zalipia](../../games/19992-malarstwo-zalipia/index.md): Poland; Crafts and making; Living Traditions
 - [Pysanka](../../games/13251-pysanka/index.md): Ukraine; Crafts and making; Living Traditions
+- [Tazhib manuscript illumination](../../games/13176-tazhib-manuscript-illumination/index.md): Iran; Crafts and making; Living Traditions

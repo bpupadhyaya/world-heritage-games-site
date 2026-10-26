@@ -2,7 +2,7 @@
 title: "Southeast Asia and the Islands"
 description: "Mainland valleys and the island world from Sumatra to the Philippines."
 path: "/cradles/southeast-asia/"
-count: 110
+count: 111
 ---
 # Southeast Asia and the Islands
 
@@ -10,7 +10,7 @@ Mainland valleys and the island world from Sumatra to the Philippines.
 
 
 
-110 entries.
+111 entries.
 
 - [Đàn nguyệt](../../games/1567-an-nguyet/index.md): Vietnam; Musical instruments; Crossroads and Golden Ages
 - [Angklung bamboo chime ensemble](../../games/142-angklung-bamboo-chime-ensemble/index.md): Indonesia; Musical instruments; Living Traditions
@@ -108,6 +108,7 @@ Mainland valleys and the island world from Sumatra to the Philippines.
 - [Malay draughts](../../games/910-malay-draughts/index.md): Malaysia; Board and table games; Crossroads and Golden Ages
 - [Petanque](../../games/872-petanque/index.md): Laos, France; Street and playground games; Modern Heritage
 - [Piko](../../games/1022-piko/index.md): Philippines; Street and playground games; Deep Past and First Games
+- [Prasi](../../games/15096-prasi/index.md): Indonesia; Crafts and making; Living Traditions
 - [Ranat](../../games/10312-ranat/index.md): Thailand; Musical instruments; Living Traditions
 - [Rice terrace farming](../../games/22337-rice-terrace-farming/index.md): Philippines, Indonesia; Other traditions; Living Traditions
 - [Scarf-ball toss](../../games/614-scarf-ball-toss/index.md): Cambodia; Street and playground games; Modern Heritage

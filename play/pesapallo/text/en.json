@@ -1,0 +1,26 @@
+{
+ "title": "Pesapallo",
+ "native": "Pesäpallo",
+ "alt": [
+  "Finnish bat-and-ball",
+  "Pesis"
+ ],
+ "summary": "A fast Finnish bat-and-ball sport on a summer field. The ball is tossed straight up over the plate, the batter strikes it into the fair field and runs a zigzag course of four bases, and the further the ball travels, the further the run can go.",
+ "howToPlay": [
+  "Press beside the batter and pull back: the dotted line shows the direction of the hit and how hard you will strike.",
+  "Release to swing. Aim for open grass between the fielders' reach, in the fair field.",
+  "Six hits make a round. A ball that lands past the first base zone scores a run, and each base further is worth more, up to the home run zone."
+ ],
+ "rules": [
+  "The ball must land inside the field to count. A ball that leaves the sides or the far end scores nothing.",
+  "A ball that lands in the first zone scores 1, in the second 2, in the third 3 and in the home run zone 4.",
+  "A ball that lands short of the first base zone scores nothing.",
+  "All six hits count when the round ends.",
+  "Watch and learn plays a round for you with the best hit it can find."
+ ],
+ "heritageNote": "Pesäpallo was shaped in Finland in the 1920s by Lauri Pihkala, who joined older Finnish ball-batting games with ideas from North American baseball. It is often called Finland's national sport and was shown at the 1952 Helsinki Olympics; clubs and leagues keep it alive across the country each summer.",
+ "countries": [
+  "Finland"
+ ],
+ "credits": []
+}

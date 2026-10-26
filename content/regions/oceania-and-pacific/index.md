@@ -1,16 +1,16 @@
 ---
 title: "Oceania and Pacific"
-description: "61 entries."
+description: "63 entries."
 path: "/regions/oceania-and-pacific/"
-count: 61
+count: 63
 ---
 # Oceania and Pacific
 
-61 entries.
+63 entries.
 
 
 
-61 entries.
+63 entries.
 
 - [Axemen woodchop](../../games/1232-axemen-woodchop/index.md): Australia; Other traditions; Modern Heritage
 - [Backyard cricket](../../games/559-backyard-cricket/index.md): Australia; Street and playground games; Age of Contact and Craft
@@ -59,8 +59,10 @@ count: 61
 - [Marshallese string figures](../../games/926-marshallese-string-figures/index.md): Marshall Islands; Dexterity and skill games; Deep Past and First Games
 - [Mu Torere](../../games/979-mu-torere/index.md): New Zealand; Board and table games; Crossroads and Golden Ages
 - [Nauruan wrestling](../../games/963-nauruan-wrestling/index.md): Nauru; Street and playground games; River Valleys and First Cities
+- [Ngatu bark cloth making](../../games/6377-ngatu-bark-cloth-making/index.md): Tonga; Crafts and making; Living Traditions
 - [Palauan string figures](../../games/1007-palauan-string-figures/index.md): Palau; Dexterity and skill games; Deep Past and First Games
 - [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md): New Zealand; Street and playground games; Age of Contact and Craft
+- [Pate](../../games/7145-pate/index.md): Samoa; Musical instruments; Living Traditions
 - [Rugby sevens](../../games/713-rugby-sevens/index.md): Fiji; Street and playground games; Modern Heritage
 - [Siapo](../../games/7151-siapo/index.md): Samoa; Crafts and making; Living Traditions
 - [Solomon string figures](../../games/1075-solomon-string-figures/index.md): Solomon Islands; Dexterity and skill games; Deep Past and First Games

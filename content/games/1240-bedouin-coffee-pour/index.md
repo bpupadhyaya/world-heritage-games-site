@@ -41,11 +41,11 @@ A living tradition passed from person to person; it is not tied to a single date
 ## Related entries
 
 - [Wire car](../../games/85-wire-car/index.md)
+- [Moroccan Mint Tea High Pour](../../games/211-moroccan-mint-tea-high-pour/index.md)
 - [Bamboo scaffold builder](../../games/369-bamboo-scaffold-builder/index.md)
 - [Neon sign bender](../../games/371-neon-sign-bender/index.md)
 - [Maple taffy on snow](../../games/441-maple-taffy-on-snow/index.md)
 - [Dumpling Pleating](../../games/499-dumpling-pleating/index.md)
-- [Freetown Beach Seine Haul](../../games/1282-freetown-beach-seine-haul/index.md)
 
 ## Sources
 

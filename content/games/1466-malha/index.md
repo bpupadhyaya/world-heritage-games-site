@@ -44,8 +44,8 @@ Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), althou
 - [Barrel racing](../../games/439-barrel-racing/index.md)
 - [Skijoring](../../games/490-skijoring/index.md)
 - [Ring Tilting](../../games/65-ring-tilting/index.md)
+- [Moroccan Mint Tea High Pour](../../games/211-moroccan-mint-tea-high-pour/index.md)
 - [Gondola Rowing](../../games/401-gondola-rowing/index.md)
-- [Crossbow Target Match](../../games/1367-crossbow-target-match/index.md)
 
 ## Sources
 

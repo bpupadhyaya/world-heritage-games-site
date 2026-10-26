@@ -2,7 +2,7 @@
 title: "The Americas: Andes and South America"
 description: "The Andes, the Amazon and the southern cone."
 path: "/cradles/andes-south-america/"
-count: 52
+count: 53
 ---
 # The Americas: Andes and South America
 
@@ -10,7 +10,7 @@ The Andes, the Amazon and the southern cone.
 
 
 
-52 entries.
+53 entries.
 
 - [Atarraya](../../games/1434-atarraya/index.md): Colombia; Dexterity and skill games; Modern Heritage
 - [Bandola](../../games/6216-bandola/index.md): Colombia; Musical instruments; Living Traditions
@@ -41,6 +41,7 @@ The Andes, the Amazon and the southern cone.
 - [Murga Uruguaya Carnival Troupe](../../games/1419-murga-uruguaya-carnival-troupe/index.md): Uruguay; Crafts and making; Living Traditions
 - [Nanduti](../../games/428-nanduti/index.md): Paraguay; Crafts and making; Living Traditions
 - [Paraguayan Harp](../../games/1425-paraguayan-harp/index.md): Paraguay; Musical instruments; Classical Worlds
+- [Pato](../../games/420-pato/index.md): Argentina; Sports with animal partners; Classical Worlds
 - [Payada](../../games/1426-payada/index.md): Argentina, Uruguay; Wrestling and martial sports; Classical Worlds
 - [Peteca](../../games/421-peteca/index.md): Brazil; Dexterity and skill games; Modern Heritage
 - [Pomaire pottery](../../games/6270-pomaire-pottery/index.md): Chile; Crafts and making; Living Traditions

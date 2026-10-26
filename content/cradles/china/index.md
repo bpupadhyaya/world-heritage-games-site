@@ -2,7 +2,7 @@
 title: "China"
 description: "From the Yellow River to the Yangtze and the highlands beyond."
 path: "/cradles/china/"
-count: 58
+count: 59
 ---
 # China
 
@@ -10,7 +10,7 @@ From the Yellow River to the Yangtze and the highlands beyond.
 
 
 
-58 entries.
+59 entries.
 
 - [Bamboo scaffold builder](../../games/369-bamboo-scaffold-builder/index.md): China; Crafts and making; Living Traditions
 - [Banqi](../../games/1437-banqi/index.md): China, Taiwan; Board and table games; Crossroads and Golden Ages
@@ -31,6 +31,7 @@ From the Yellow River to the Yangtze and the highlands beyond.
 - [Erhu Two-String Fiddle](../../games/139-erhu-two-string-fiddle/index.md): China; Musical instruments; Crossroads and Golden Ages
 - [Fan-tan](../../games/900-fan-tan/index.md): China; Other traditions; Living Traditions
 - [Go](../../games/634-go/index.md): China, Japan; Board and table games; Classical Worlds
+- [Gongfu tea pour](../../games/339-gongfu-tea-pour/index.md): China, Taiwan; Crafts and making; Living Traditions
 - [Guzheng](../../games/334-guzheng/index.md): China; Musical instruments; Classical Worlds
 - [Hmong story cloth](../../games/1298-hmong-story-cloth/index.md): China, Laos; Crafts and making; Living Traditions
 - [Hong Kong Milk Tea Pulling](../../games/1463-hong-kong-milk-tea-pulling/index.md): China; Crafts and making; Living Traditions

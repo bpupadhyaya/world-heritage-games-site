@@ -168,7 +168,7 @@ Street games, national sports and revivals: heritage that people are still playi
 - [Square dance caller](../../games/129-square-dance-caller/index.md): United States; Puzzles and mind games; Modern Heritage
 - [Steppe eagle hunting](../../games/254-steppe-eagle-hunting/index.md): Kazakhstan; Dexterity and skill games; Modern Heritage
 - [Stick game](../../games/912-stick-game/index.md): Maldives, New Zealand; Street and playground games; Modern Heritage
-- [Stickball](../../games/477-stickball/index.md): Cuba; Bat-and-ball games; Modern Heritage
+- [Stickball](../../games/477-stickball/index.md): United States; Bat-and-ball games; Modern Heritage
 - [Stone put](../../games/589-stone-put/index.md): Bhutan, Switzerland; Dexterity and skill games; Modern Heritage
 - [Stone Skipping](../../games/5-stone-skipping/index.md): Worldwide; Puzzles and mind games; Modern Heritage
 - [Stoolball](../../games/492-stoolball/index.md): United Kingdom; Archery, throwing and target games; Modern Heritage

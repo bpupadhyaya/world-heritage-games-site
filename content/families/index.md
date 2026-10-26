@@ -27,14 +27,14 @@ Games that belong to the same family tree: mancala, mill games, hunt games, drum
 - [Tops, kites and spinning toys](../families/top-kite/index.md): 12 entries
 - [Puzzle and dexterity toys](../families/puzzle-dexterity/index.md): 128 entries
 - [String instruments](../families/string-instrument/index.md): 91 entries
-- [Wind instruments](../families/wind-instrument/index.md): 50 entries
-- [Drums and percussion](../families/percussion/index.md): 77 entries
+- [Wind instruments](../families/wind-instrument/index.md): 51 entries
+- [Drums and percussion](../families/percussion/index.md): 80 entries
 - [Textile and weaving crafts](../families/textile/index.md): 98 entries
-- [Pottery, wood and metal crafts](../families/ceramic-wood-metal/index.md): 88 entries
-- [Paper, ink and painting crafts](../families/paper-ink/index.md): 103 entries
-- [Folk and line dances](../families/folk-dance/index.md): 26 entries
+- [Pottery, wood and metal crafts](../families/ceramic-wood-metal/index.md): 89 entries
+- [Paper, ink and painting crafts](../families/paper-ink/index.md): 106 entries
+- [Folk and line dances](../families/folk-dance/index.md): 32 entries
 - [Puppetry and shadow play](../families/puppetry/index.md): 6 entries
-- [Horse and animal sports](../families/horse-animal/index.md): 18 entries
+- [Horse and animal sports](../families/horse-animal/index.md): 17 entries
 - [Water sports](../families/water-sport/index.md): 30 entries
-- [Winter sports](../families/winter-sport/index.md): 50 entries
+- [Winter sports](../families/winter-sport/index.md): 51 entries
 - [Rhyme and hand games](../families/rhyme-hand/index.md): 14 entries

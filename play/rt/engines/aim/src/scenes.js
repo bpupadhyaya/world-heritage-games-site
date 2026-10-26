@@ -13,6 +13,7 @@ const ell = (ctx, x, y, rx, ry, rot = 0) => { ctx.beginPath(); ctx.ellipse(x, y,
 export function faceSceneId(P, title) {
   const t = `${title ?? ''}`.toLowerCase();
   if (P.mode !== 'fire') return null;
+  if (!P.scene && (P.face?.items ?? []).some((it) => it.kind === 'hoop' || it.kind === 'goalscreen')) return null;   // hoops and screens bring their own scene
   if (P.scene && ['pinata', 'alka', 'steppe'].includes(P.scene)) return P.scene;
   if (/pi[nñ]ata|hampas|palayok/.test(t)) return 'pinata';
   if (/ring.?tilt|alka|tilting/.test(t)) return 'alka';

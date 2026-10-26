@@ -4978,38 +4978,6 @@
    }
   },
   {
-   "id": 164,
-   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/164-tbourida/",
-   "name": "Tbourida",
-   "native": "Tbourida / Fantasia",
-   "alt": [],
-   "countries": [
-    "Morocco"
-   ],
-   "country_codes": [
-    "MA"
-   ],
-   "region": "Middle East and North Africa",
-   "type": "Sports with animal partners",
-   "family": "Horse and animal sports",
-   "era": "Classical Worlds",
-   "era_uncertain": true,
-   "cradle": "Mediterranean",
-   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of Mediterranean.",
-   "summary": "A line of riders gallops in formation and must fire their blank powder charges in one perfect volley on a signal, judged for unity.",
-   "how_played": "A line of riders gallops in formation and must fire their blank powder charges in one perfect volley on a signal, judged for unity.",
-   "heritage_note": "Part of the living heritage of Morocco. Animals are partners in this tradition; good care and local rules always come first. It is presented as sport and skill, never as real fighting.",
-   "sources": [
-    "https://commons.wikimedia.org/wiki/File:Moroccan_Tbourida_or_Fantasia.jpg"
-   ],
-   "photo": {
-    "file": "img/photos/00164-tbourida.jpg",
-    "author": "Houssain tork",
-    "licence": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Moroccan_Tbourida_or_Fantasia.jpg"
-   }
-  },
-  {
    "id": 165,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/165-kamancha/",
    "name": "Kamancha",
@@ -6374,6 +6342,38 @@
     "author": "South African Tourism from South Africa",
     "licence": "CC BY 2.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Lesedi_Cultural_Village,_Hartbeespoort,_North_West,_South_Africa_(20517297875).jpg"
+   }
+  },
+  {
+   "id": 211,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/211-moroccan-mint-tea-high-pour/",
+   "name": "Moroccan Mint Tea High Pour",
+   "native": "atay b'naanaa",
+   "alt": [],
+   "countries": [
+    "Morocco"
+   ],
+   "country_codes": [
+    "MA"
+   ],
+   "region": "Middle East and North Africa",
+   "type": "Crafts and making",
+   "family": "Winter sports",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Mediterranean",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Mediterranean.",
+   "summary": "Moroccan Mint Tea High Pour is a crafts and making tradition from Morocco.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of Morocco.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File%3AMint_tea_%2814823416550%29.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00211-moroccan-mint-tea-high-pour.jpg",
+    "author": "katiebordner",
+    "licence": "CC BY 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AMint_tea_%2814823416550%29.jpg"
    }
   },
   {
@@ -10204,6 +10204,40 @@
    }
   },
   {
+   "id": 339,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/339-gongfu-tea-pour/",
+   "name": "Gongfu tea pour",
+   "native": "功夫茶",
+   "alt": [],
+   "countries": [
+    "China",
+    "Taiwan"
+   ],
+   "country_codes": [
+    "CN",
+    "TW"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Crafts and making",
+   "family": "Drums and percussion",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "China",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of China.",
+   "summary": "Gongfu tea pour is a crafts and making tradition from China, Taiwan.",
+   "how_played": "",
+   "heritage_note": "Part of the living heritage of China, Taiwan. Some forms of this practice carry deep meaning for the communities who keep it; here we describe the play and the craft only, with respect for its roots.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Gong_fu_cha.jpg"
+   ],
+   "photo": {
+    "file": "img/photos/00339-gongfu-tea-pour.jpg",
+    "author": "Neptunati",
+    "licence": "Public domain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gong_fu_cha.jpg"
+   }
+  },
+  {
    "id": 340,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/340-lamian/",
    "name": "Lamian",
@@ -12461,6 +12495,38 @@
    }
   },
   {
+   "id": 420,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/420-pato/",
+   "name": "Pato",
+   "native": "Pato",
+   "alt": [],
+   "countries": [
+    "Argentina"
+   ],
+   "country_codes": [
+    "AR"
+   ],
+   "region": "Americas",
+   "type": "Sports with animal partners",
+   "family": "Horse and animal sports",
+   "era": "Classical Worlds",
+   "era_uncertain": true,
+   "cradle": "The Americas: Andes and South America",
+   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain, within the cultural world of The Americas: Andes and South America.",
+   "summary": "Two teams on horseback fight for a six-handled ball and score by throwing it through a tall vertical ring.",
+   "how_played": "Two teams on horseback fight for a six-handled ball and score by throwing it through a tall vertical ring.",
+   "heritage_note": "Part of the living heritage of Argentina. Animals are partners in this tradition; good care and local rules always come first.",
+   "sources": [
+    "https://commons.wikimedia.org/wiki/File:Patogame.JPG"
+   ],
+   "photo": {
+    "file": "img/photos/00420-pato.jpg",
+    "author": "The original uploader was Y1997xf11 at English Wikipedia.",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Patogame.JPG"
+   }
+  },
+  {
    "id": 421,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/421-peteca/",
    "name": "Peteca",
@@ -14062,10 +14128,10 @@
    "native": "Stickball",
    "alt": [],
    "countries": [
-    "Cuba"
+    "United States"
    ],
    "country_codes": [
-    "CU"
+    "US"
    ],
    "region": "Americas",
    "type": "Bat-and-ball games",
@@ -14377,34 +14443,6 @@
     "author": "Quejaytee",
     "licence": "CC BY-SA 4.0",
     "source_url": "https://commons.wikimedia.org/wiki/File:Wrestlers_at_the_2026_F%C3%AAte_Romande_de_Lutte_Suisse_37.jpg"
-   }
-  },
-  {
-   "id": 488,
-   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/488-equestrian-vaulting/",
-   "name": "Equestrian vaulting",
-   "native": "Voltigieren",
-   "alt": [],
-   "countries": [],
-   "country_codes": [],
-   "region": "Europe",
-   "type": "Sports with animal partners",
-   "family": "Horse and animal sports",
-   "era": "Classical Worlds",
-   "era_uncertain": true,
-   "cradle": "Shared across the world",
-   "origin_note": "Usually placed in the era of Classical Worlds (about 1000 BCE to 500 CE), although its exact origins are uncertain.",
-   "summary": "A gymnast performs a compulsory move sequence on a horse cantering in a circle.",
-   "how_played": "A gymnast performs a compulsory move sequence on a horse cantering in a circle.",
-   "heritage_note": "A tradition shared by communities in many places. Animals are partners in this tradition; good care and local rules always come first.",
-   "sources": [
-    "https://commons.wikimedia.org/wiki/File:Vaulting_C_IMG_0434.JPG"
-   ],
-   "photo": {
-    "file": "img/photos/00488-equestrian-vaulting.jpg",
-    "author": "Anneli Salo",
-    "licence": "CC BY-SA 4.0",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Vaulting_C_IMG_0434.JPG"
    }
   },
   {
@@ -37459,6 +37497,94 @@
    }
   },
   {
+   "id": 5136,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5136-ball-de-bastons/",
+   "name": "Ball de bastons",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Spain"
+   ],
+   "country_codes": [
+    "ES"
+   ],
+   "region": "Europe",
+   "type": "Dances",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Mediterranean",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Mediterranean.",
+   "summary": "A Catalan stick dance in which dancers strike each other's sticks in patterns of rhythms.",
+   "how_played": "Dancers in two rows strike sticks together in set rhythmic patterns.",
+   "heritage_note": "Part of the living heritage of Spain.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ball_de_bastons"
+   ],
+   "photo": null
+  },
+  {
+   "id": 5137,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5137-paloteo/",
+   "name": "Paloteo",
+   "native": "",
+   "alt": [
+    "Danza de palos"
+   ],
+   "countries": [
+    "Spain"
+   ],
+   "country_codes": [
+    "ES"
+   ],
+   "region": "Europe",
+   "type": "Dances",
+   "family": "Folk and line dances",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Mediterranean",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Mediterranean.",
+   "summary": "A Spanish stick dance performed in groups of eight with sticks struck together in turns.",
+   "how_played": "Dancers form lines or circles and strike sticks in rhythm to a tune.",
+   "heritage_note": "Part of the living heritage of Spain.",
+   "sources": [
+    "https://es.wikipedia.org/wiki/Danzas_de_palos_y_de_cintas"
+   ],
+   "photo": null
+  },
+  {
+   "id": 5143,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5143-pauliteiros-de-miranda/",
+   "name": "Pauliteiros de Miranda",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Portugal"
+   ],
+   "country_codes": [
+    "PT"
+   ],
+   "region": "Europe",
+   "type": "Dances",
+   "family": "Wind instruments",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Mediterranean",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Mediterranean.",
+   "summary": "A Mirandese stick dance performed by men in skirts, with bagpipes and drums.",
+   "how_played": "Eight dancers strike sticks together in rhythm and perform clack-and-turn sequences.",
+   "heritage_note": "Part of the living heritage of Portugal.",
+   "sources": [
+    "https://pt.wikipedia.org/wiki/Pauliteiros_de_Miranda"
+   ],
+   "photo": {
+    "file": "img/photos/05143-pauliteiros-de-miranda.jpg",
+    "author": "Mário Pires - Retorta.Net de Portugal",
+    "licence": "CC BY-SA 2.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pauliteiros.jpg"
+   }
+  },
+  {
    "id": 5222,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5222-matyo-embroidery/",
    "name": "Matyó embroidery",
@@ -37952,6 +38078,102 @@
     "https://en.wikipedia.org/wiki/Hsaing_waing"
    ],
    "photo": null
+  },
+  {
+   "id": 5609,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5609-kolkali/",
+   "name": "Kolkali",
+   "native": "കോൽക്കളി",
+   "alt": [],
+   "countries": [
+    "India"
+   ],
+   "country_codes": [
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Dances",
+   "family": "Folk and line dances",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of South Asia.",
+   "summary": "A Kerala folk dance in which performers move in circles striking sticks together to a song and rhythm.",
+   "how_played": "Dancers move in rings, step and spin while striking short sticks in sequence with partners, accompanied by a singer.",
+   "heritage_note": "Part of the living heritage of India.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kolkali"
+   ],
+   "photo": {
+    "file": "img/photos/05609-kolkali.jpg",
+    "author": "Farisori",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kolkkali.jpg"
+   }
+  },
+  {
+   "id": 5613,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5613-kolattam/",
+   "name": "Kolattam",
+   "native": "கோலாட்டம்",
+   "alt": [],
+   "countries": [
+    "India"
+   ],
+   "country_codes": [
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Dances",
+   "family": "Folk and line dances",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of South Asia.",
+   "summary": "A South Indian stick dance in which pairs or circles of dancers strike short sticks together in a rhythm.",
+   "how_played": "Dancers form pairs or rings, striking sticks in changing patterns while stepping in time to songs.",
+   "heritage_note": "Part of the living heritage of India.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kolattam"
+   ],
+   "photo": {
+    "file": "img/photos/05613-kolattam.jpg",
+    "author": "Iharishs",
+    "licence": "CC BY-SA 4.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Procession_at_Bhadrachalam_12.jpg"
+   }
+  },
+  {
+   "id": 5632,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/5632-dandiya-raas/",
+   "name": "Dandiya Raas",
+   "native": "ડાંડિયા રાસ",
+   "alt": [],
+   "countries": [
+    "India"
+   ],
+   "country_codes": [
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Dances",
+   "family": "Folk and line dances",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of South Asia.",
+   "summary": "A Gujarati stick dance in which pairs strike decorated sticks in rhythm during seasonal festivities.",
+   "how_played": "Dancers form concentric circles and strike sticks with partners in time to drum beat and songs.",
+   "heritage_note": "Part of the living heritage of India.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dandiya_Raas"
+   ],
+   "photo": {
+    "file": "img/photos/05632-dandiya-raas.jpg",
+    "author": "User:psubhashish",
+    "licence": "CC BY-SA 3.0",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Children_performing_Dandiya_in_Palace_Grounds,_Bangalore.jpg"
+   }
   },
   {
    "id": 5702,
@@ -39074,6 +39296,35 @@
    "photo": null
   },
   {
+   "id": 6377,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/6377-ngatu-bark-cloth-making/",
+   "name": "Ngatu bark cloth making",
+   "native": "",
+   "alt": [
+    "koka'anga"
+   ],
+   "countries": [
+    "Tonga"
+   ],
+   "country_codes": [
+    "TO"
+   ],
+   "region": "Oceania and Pacific",
+   "type": "Crafts and making",
+   "family": "",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Pacific and Oceania",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Pacific and Oceania.",
+   "summary": "Communal production of large decorated barkcloth sheets by groups of women in Tonga.",
+   "how_played": "Beaten strips of mulberry bark are pasted into large sheets, then rubbed over embossed boards with dye.",
+   "heritage_note": "Part of the living heritage of Tonga.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tonga"
+   ],
+   "photo": null
+  },
+  {
    "id": 6380,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/6380-fijian-bamboo-drum-ensemble/",
    "name": "Fijian bamboo drum ensemble",
@@ -39762,6 +40013,33 @@
    "heritage_note": "Part of the living heritage of Brunei.",
    "sources": [
     "https://en.wikipedia.org/wiki/Music_of_Brunei"
+   ],
+   "photo": null
+  },
+  {
+   "id": 7145,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/7145-pate/",
+   "name": "Pate",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Samoa"
+   ],
+   "country_codes": [
+    "WS"
+   ],
+   "region": "Oceania and Pacific",
+   "type": "Musical instruments",
+   "family": "Drums and percussion",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Pacific and Oceania",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Pacific and Oceania.",
+   "summary": "A hand-held slit drum introduced from Tahiti in the 1800s and used to keep rhythm in Samoan song and dance.",
+   "how_played": "Players strike the drum with sticks.",
+   "heritage_note": "Part of the living heritage of Samoa.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Music_of_Samoa"
    ],
    "photo": null
   },
@@ -41143,6 +41421,68 @@
    "photo": null
   },
   {
+   "id": 11828,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/11828-gauda-badi-khela/",
+   "name": "Gauda Badi Khela",
+   "native": "ଗଉଡ଼ ବାଡ଼ି ଖେଳ",
+   "alt": [
+    "Badi Khela",
+    "Laudi Khela",
+    "Danda Khela"
+   ],
+   "countries": [
+    "India"
+   ],
+   "country_codes": [
+    "IN"
+   ],
+   "region": "South and Central Asia",
+   "type": "Dances",
+   "family": "Folk and line dances",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of South Asia.",
+   "summary": "An Odisha stick dance of the Gopal cattle-herding communities, performed in groups during the spring season.",
+   "how_played": "Twelve to twenty-four men in matching dress each hold two short sticks and dance in teams under captains, striking neighbours' sticks in rhythm to a song and buffalo-horn beat, with friendly contests between groups.",
+   "heritage_note": "Part of the living heritage of India.",
+   "sources": [
+    "https://or.wikipedia.org/wiki/ଗଉଡ଼_ବାଡ଼ି_ଖେଳ"
+   ],
+   "photo": null
+  },
+  {
+   "id": 12242,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/12242-dhoklan-jo-nach/",
+   "name": "Dhoklan jo Nach",
+   "native": "ڏونڪن جو ناچ",
+   "alt": [
+    "Donkan jo Nach",
+    "Dokli Dance"
+   ],
+   "countries": [
+    "Pakistan"
+   ],
+   "country_codes": [
+    "PK"
+   ],
+   "region": "South and Central Asia",
+   "type": "Dances",
+   "family": "Folk and line dances",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of South Asia.",
+   "summary": "A men's stick dance from the Thar desert of Sindh performed at weddings and celebrations, with dancers clashing short sticks to a drum rhythm.",
+   "how_played": "Each dancer carries a stick in both hands and pairs knock them together to produce a ringing beat while circling to the rhythm of a dhol drum. The dance is open to men of all ages.",
+   "heritage_note": "Part of the living heritage of Pakistan.",
+   "sources": [
+    "https://sd.wikipedia.org/wiki/%DA%8F%D9%88%D9%86%DA%AA%D9%86_%D8%AC%D9%88_%D9%86%D8%A7%DA%86",
+    "https://sd.wikipedia.org/wiki/%D8%B3%D9%86%DA%8C%D9%8A_%D8%B1%D8%A7%D9%86%D8%AF%D9%8A%D9%86_%D8%AC%D9%8A_%D9%81%D9%87%D8%B1%D8%B3%D8%AA"
+   ],
+   "photo": null
+  },
+  {
    "id": 12412,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/12412-budaoweng/",
    "name": "Budaoweng",
@@ -41169,6 +41509,39 @@
    "heritage_note": "Part of the living heritage of China.",
    "sources": [
     "https://zh.wikipedia.org/wiki/%E4%B8%8D%E5%80%92%E7%BF%81"
+   ],
+   "photo": null
+  },
+  {
+   "id": 13176,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/13176-tazhib-manuscript-illumination/",
+   "name": "Tazhib manuscript illumination",
+   "native": "تذهیب",
+   "alt": [
+    "Tazhib",
+    "Zarhalkori",
+    "Naqqoshlik",
+    "Tezhip"
+   ],
+   "countries": [
+    "Iran"
+   ],
+   "country_codes": [
+    "IR"
+   ],
+   "region": "Middle East and North Africa",
+   "type": "Crafts and making",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Persia, Caucasus and Central Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Persia, Caucasus and Central Asia.",
+   "summary": "The art of decorating manuscripts and calligraphy pages with gold leaf, bright colours and ornamental borders, shared across Iran, Central Asia and Turkey.",
+   "how_played": "The illuminator sketches the pattern, traces it in ink, lays and burnishes gold leaf and paints with pigments made from minerals, plants and insects.",
+   "heritage_note": "Part of the living heritage of Iran.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tazhib",
+    "https://ich.unesco.org/en/state/iran-islamic-republic-of-IR?info=elements-on-the-lists"
    ],
    "photo": null
   },
@@ -41407,6 +41780,33 @@
    "sources": [
     "https://en.wikipedia.org/wiki/National_Intangible_Cultural_Heritage_(South_Korea)",
     "https://en.wikipedia.org/wiki/Korean_paper"
+   ],
+   "photo": null
+  },
+  {
+   "id": 15096,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/15096-prasi/",
+   "name": "Prasi",
+   "native": "",
+   "alt": [],
+   "countries": [
+    "Indonesia"
+   ],
+   "country_codes": [
+    "ID"
+   ],
+   "region": "East and Southeast Asia",
+   "type": "Crafts and making",
+   "family": "Pottery, wood and metal crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Southeast Asia and the Islands",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Southeast Asia and the Islands.",
+   "summary": "A Balinese art of carving or painting narrative scenes on lontar palm leaf, a visual storytelling sometimes called Balinese comics.",
+   "how_played": "Scenes from a story are incised and inked on dried palm-leaf strips with a stylus, combining narrative and drawing.",
+   "heritage_note": "Part of the living heritage of Indonesia.",
+   "sources": [
+    "https://id.wikipedia.org/wiki/Prasi"
    ],
    "photo": null
   },
@@ -41907,6 +42307,35 @@
    "photo": null
   },
   {
+   "id": 19901,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/19901-enluminure/",
+   "name": "Enluminure",
+   "native": "L'enluminure",
+   "alt": [
+    "Illumination"
+   ],
+   "countries": [
+    "France"
+   ],
+   "country_codes": [
+    "FR"
+   ],
+   "region": "Europe",
+   "type": "Crafts and making",
+   "family": "Paper, ink and painting crafts",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "Celtic and Atlantic Europe",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of Celtic and Atlantic Europe.",
+   "summary": "The craft of painting on parchment.",
+   "how_played": "The illuminator paints and gilds on parchment.",
+   "heritage_note": "Part of the living heritage of France.",
+   "sources": [
+    "https://www.pci-lab.fr/fiche-d-inventaire/fiche/228"
+   ],
+   "photo": null
+  },
+  {
    "id": 19945,
    "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/19945-papierscheppen/",
    "name": "Papierscheppen",
@@ -41961,6 +42390,36 @@
    "heritage_note": "Part of the living heritage of Poland.",
    "sources": [
     "https://niematerialne.nid.pl/zjawisko/102-malarstwo-zalipia-i-powisla-dabrowskiego/"
+   ],
+   "photo": null
+  },
+  {
+   "id": 20677,
+   "url": "https://bpupadhyaya.github.io/world-heritage-games-site/games/20677-phye-ghan/",
+   "name": "Phye Ghan",
+   "native": "फ्ये गँ:",
+   "alt": [
+    "Phye Gan",
+    "Wind-activated bell"
+   ],
+   "countries": [
+    "Nepal"
+   ],
+   "country_codes": [
+    "NP"
+   ],
+   "region": "South and Central Asia",
+   "type": "Musical instruments",
+   "family": "Drums and percussion",
+   "era": "Living Traditions",
+   "era_uncertain": false,
+   "cradle": "South Asia",
+   "origin_note": "A living tradition passed from person to person; it is not tied to a single dated origin. It belongs to the cultural world of South Asia.",
+   "summary": "A small bell of the Sunuwar people, about 18 cm tall, whose clapper is moved by wind.",
+   "how_played": "It is hung in the open so that the wind swings the clapper and rings the bell without anyone striking it.",
+   "heritage_note": "Part of the living heritage of Nepal.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/List_of_Nepali_musical_instruments"
    ],
    "photo": null
   },

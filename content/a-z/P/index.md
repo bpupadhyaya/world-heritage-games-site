@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with P"
-description: "89 entries beginning with P."
+description: "95 entries beginning with P."
 path: "/a-z/P/"
 ---
 # Entries beginning with P
@@ -17,6 +17,7 @@ path: "/a-z/P/"
 - [Palauan string figures](../../games/1007-palauan-string-figures/index.md): Palau; Dexterity and skill games; Deep Past and First Games
 - [Pallanguzhi](../../games/798-pallanguzhi/index.md): India; Board and table games; Deep Past and First Games
 - [Palm sugar boiling and mould-filling](../../games/313-palm-sugar-boiling-and-mould-filling/index.md): Cambodia; Crafts and making; Living Traditions
+- [Paloteo](../../games/5137-paloteo/index.md): Spain; Dances; Living Traditions
 - [Pamiri House Ceiling Raiser](../../games/1356-pamiri-house-ceiling-raiser/index.md): Tajikistan; Crafts and making; Living Traditions
 - [Panamanian singing rounds](../../games/1011-panamanian-singing-rounds/index.md): Panama; Performance and storytelling; Living Traditions
 - [Pancha](../../games/1108-pancha/index.md): Sri Lanka; Board and table games; River Valleys and First Cities
@@ -32,8 +33,11 @@ path: "/a-z/P/"
 - [Partner-Carry Obstacle Race](../../games/406-partner-carry-obstacle-race/index.md): Finland; Racing; Age of Contact and Craft
 - [Parxís](../../games/542-parxis/index.md): Andorra; Board and table games; River Valleys and First Cities
 - [Pasifika kirikiti](../../games/980-pasifika-kirikiti/index.md): New Zealand; Street and playground games; Age of Contact and Craft
+- [Pate](../../games/7145-pate/index.md): Samoa; Musical instruments; Living Traditions
 - [Patintero](../../games/1021-patintero/index.md): Philippines; Street and playground games; Deep Past and First Games
+- [Pato](../../games/420-pato/index.md): Argentina; Sports with animal partners; Classical Worlds
 - [Patolli](../../games/454-patolli/index.md): Mexico; Board and table games; Crossroads and Golden Ages
+- [Pauliteiros de Miranda](../../games/5143-pauliteiros-de-miranda/index.md): Portugal; Dances; Living Traditions
 - [Payada](../../games/1426-payada/index.md): Argentina, Uruguay; Wrestling and martial sports; Classical Worlds
 - [Pearl diving](../../games/6769-pearl-diving/index.md): Bahrain; Other traditions; Living Traditions
 - [Pebbles](../../games/874-pebbles/index.md): Laos; Dexterity and skill games; Deep Past and First Games
@@ -58,6 +62,7 @@ path: "/a-z/P/"
 - [Phoenician Alphabet Trader](../../games/1359-phoenician-alphabet-trader/index.md): Lebanon; Puzzles and mind games; Modern Heritage
 - [Phuang malai flower garland threading](../../games/309-phuang-malai-flower-garland-threading/index.md): Thailand; Crafts and making; Living Traditions
 - [Phulkari darn-stitch embroidery](../../games/257-phulkari-darn-stitch-embroidery/index.md): India, Pakistan; Crafts and making; Living Traditions
+- [Phye Ghan](../../games/20677-phye-ghan/index.md): Nepal; Musical instruments; Living Traditions
 - [Piko](../../games/1022-piko/index.md): Philippines; Street and playground games; Deep Past and First Games
 - [Pillow fight](../../games/1101-pillow-fight/index.md): Sri Lanka, Myanmar; Street and playground games; Modern Heritage
 - [Pilolo](../../games/750-pilolo/index.md): Ghana; Street and playground games; Deep Past and First Games
@@ -85,6 +90,7 @@ path: "/a-z/P/"
 - [Potta](../../games/579-potta/index.md): Barbados; Board and table games; River Valleys and First Cities
 - [Pottery](../../games/6593-pottery/index.md): Worldwide; Crafts and making; Living Traditions
 - [Pottery of Metepec](../../games/10512-pottery-of-metepec/index.md): Mexico; Crafts and making; Living Traditions
+- [Prasi](../../games/15096-prasi/index.md): Indonesia; Crafts and making; Living Traditions
 - [Provencal boules](../../games/939-provencal-boules/index.md): Monaco; Street and playground games; Classical Worlds
 - [Pub darts](../../games/1182-pub-darts/index.md): United Kingdom; Street and playground games; Age of Contact and Craft
 - [Pub dominoes](../../games/1183-pub-dominoes/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages

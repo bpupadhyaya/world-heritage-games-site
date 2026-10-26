@@ -40,4 +40,15 @@ import './scenes-dolls2.js';  // 1.19.0: workshops izba, kimekomi, tumbler; prof
 import './scenes-jewel.js';  // 1.21.0: six jewellers' workshops (tarakasi, chengdu, kruja, meenakari, minakari, kabyle) for the figure tables of paint-figures/jewel.js
 import './scenes-script.js';  // 1.25.0: scribes' rooms (babylon, ustav ...) for paint-figures/script.js
 import './scenes-glass.js';  // 1.22.0: glassblowing workshops murano, hebron, bohemia; profiles goblet, hebronjug, crystalvase (the look is glass.js, called by vessel.js)
+// -- 1.26.0 Kitchen Crafts of the World (one owner per file pair) --
+import './tech-dough.js';            // dough: pleating, shaping and moulding (khinkali, jiaozi, pasta, maamoul ...)
+import './scenes-kitchen-dough.js';  // kitchens for the dough games
+import './tech-pull.js';             // pull: hand-pulled noodles
+import './tech-bake.js';             // bake: stretch, slap and peel flatbread
+import './scenes-kitchen-fire.js';   // noodle shop and tonir kitchens
+import './tech-pour.js';             // pour: tea poured from a height
+import './scenes-kitchen-tea.js';    // tea rooms
+import './tech-brew.js';             // brew: pot on the heat (coffee foam, boiled palm sugar)
+import './scenes-kitchen-coffee.js'; // coffee and sugar kitchens
+import './scenes-kitchen-sweet.js';  // paint-based sweets: scenes for the paint figures taffy and nerikiri
 export {};

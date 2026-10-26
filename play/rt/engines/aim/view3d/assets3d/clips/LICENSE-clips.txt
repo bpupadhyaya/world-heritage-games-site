@@ -1,0 +1,43 @@
+Third-party notices for the base clip library (assets/clips/base.json, base.bin)
+=================================================================================
+
+The motion data in base.bin is derived (retargeted onto the Rocketbox skeleton, resampled to 30 fps,
+trimmed, looped and quantised) from the following sources.
+
+1. Microsoft Rocketbox Avatar Library animations (MIT)
+   https://github.com/microsoft/Microsoft-Rocketbox
+
+   MIT License
+   
+   Copyright (c) 2020 Microsoft
+   
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+   
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+   
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+2. Quaternius "Universal Animation Library" and "Universal Animation Library 2" (CC0 1.0)
+   https://quaternius.com   License: CC0 1.0 Universal (public domain dedication)
+   https://creativecommons.org/publicdomain/zero/1.0/
+   Animations by @Quaternius. No attribution is required; it is given here as a courtesy.
+
+3. Carnegie Mellon University Graphics Lab Motion Capture Database (free use)
+   http://mocap.cs.cmu.edu  (BVH conversion by Bruce Hahne, www.cgspeed.com, and the una-dinosauria/cmu-mocap mirror)
+   "The data used in this project was obtained from mocap.cs.cmu.edu.
+    The database was created with funding from NSF EIA-0196217."
+   CMU states the data may be used for any purpose, commercial included, but may not be resold as a motion
+   capture library. The clips here are a small, retargeted, quantised subset embedded in a game.
+   Subjects used: 15 (throw ball), 64 (golf swing), 74 (kick).

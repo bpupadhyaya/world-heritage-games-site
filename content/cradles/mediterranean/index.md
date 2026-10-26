@@ -2,7 +2,7 @@
 title: "Mediterranean"
 description: "Greece, Rome, Iberia, Italy and the Maghreb around the inland sea."
 path: "/cradles/mediterranean/"
-count: 80
+count: 83
 ---
 # Mediterranean
 
@@ -10,7 +10,7 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 
 
 
-80 entries.
+83 entries.
 
 - [Albanian filigree](../../games/5102-albanian-filigree/index.md): Albania; Crafts and making; Living Traditions
 - [Amazigh Rug Weaving](../../games/224-amazigh-rug-weaving/index.md): Morocco; Crafts and making; Living Traditions
@@ -50,8 +50,10 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Macau wave pavement](../../games/372-macau-wave-pavement/index.md): Portugal; Crafts and making; Living Traditions
 - [Malha](../../games/1466-malha/index.md): Portugal; Archery, throwing and target games; Classical Worlds
 - [Mezoued Bagpipe and Tabl Drum](../../games/1336-mezoued-bagpipe-and-tabl-drum/index.md): Tunisia; Musical instruments; Crossroads and Golden Ages
+- [Moroccan Mint Tea High Pour](../../games/211-moroccan-mint-tea-high-pour/index.md): Morocco; Crafts and making; Living Traditions
 - [Morra](../../games/83-morra/index.md): Italy; Archery, throwing and target games; Classical Worlds
 - [Ohrid Pearl Maker](../../games/1350-ohrid-pearl-maker/index.md): North Macedonia; Crafts and making; Living Traditions
+- [Pauliteiros de Miranda](../../games/5143-pauliteiros-de-miranda/index.md): Portugal; Dances; Living Traditions
 - [Peg Wooden Doll](../../games/8695-peg-wooden-doll/index.md): Italy; Toys; Modern Heritage
 - [Plis Cap Felter](../../games/1362-plis-cap-felter/index.md): Albania, Kosovo; Crafts and making; Living Traditions
 - [Portolan Chart Navigator](../../games/503-portolan-chart-navigator/index.md): Italy, Spain; Puzzles and mind games; Modern Heritage
@@ -65,7 +67,6 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Steal the Flag](../../games/474-steal-the-flag/index.md): Italy, Brazil; Other traditions; Living Traditions
 - [Tamburello](../../games/489-tamburello/index.md): Italy, France; Crafts and making; Living Traditions
 - [Tavli](../../games/656-tavli/index.md): Cyprus, Greece; Board and table games; River Valleys and First Cities
-- [Tbourida](../../games/164-tbourida/index.md): Morocco; Sports with animal partners; Classical Worlds
 - [Tessellated Mosaic Making](../../games/500-tessellated-mosaic-making/index.md): Italy, Lebanon; Crafts and making; Living Traditions
 - [Txalaparta Duet](../../games/390-txalaparta-duet/index.md): Spain; Musical instruments; Living Traditions
 - [Venetian lagoon regatta](../../games/486-venetian-lagoon-regatta/index.md): Italy; Racing; Age of Contact and Craft
@@ -73,6 +74,7 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Zamma](../../games/462-zamma/index.md): Morocco; Board and table games; Crossroads and Golden Ages
 - [Zellij tile mosaic](../../games/21-zellij-tile-mosaic/index.md): Morocco; Crafts and making; Living Traditions
 - [Assisi embroidery](../../games/1623-assisi-embroidery/index.md): Italy; Crafts and making; Living Traditions
+- [Ball de bastons](../../games/5136-ball-de-bastons/index.md): Spain; Dances; Living Traditions
 - [Boċċi](../../games/922-bocci/index.md): Malta; Street and playground games; Classical Worlds
 - [Deruta ceramics](../../games/10441-deruta-ceramics/index.md): Italy; Crafts and making; Living Traditions
 - [Don't Get Mad](../../games/530-dont-get-mad/index.md): Albania; Board and table games; Crossroads and Golden Ages
@@ -80,6 +82,7 @@ Greece, Rome, Iberia, Italy and the Maghreb around the inland sea.
 - [Krur](../../games/950-krur/index.md): Morocco; Board and table games; Deep Past and First Games
 - [Ligrin](../../games/657-ligrin/index.md): Cyprus; Street and playground games; Modern Heritage
 - [Maghrebi 5x5 capture game](../../games/887-maghrebi-5x5-capture-game/index.md): Libya; Board and table games; Age of Contact and Craft
+- [Paloteo](../../games/5137-paloteo/index.md): Spain; Dances; Living Traditions
 - [Parchís](../../games/1098-parchis/index.md): Spain; Board and table games; River Valleys and First Cities
 - [Parxís](../../games/542-parxis/index.md): Andorra; Board and table games; River Valleys and First Cities
 - [Portuguese staff fighting](../../games/1037-portuguese-staff-fighting/index.md): Portugal; Street and playground games; Classical Worlds

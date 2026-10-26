@@ -25,6 +25,9 @@ export function cheer(audio, big = 0.5, delay = 0) {
 export function groan(audio, delay = 0) { later(audio, delay, 'murmur', { hz: 360, dur: 0.55, vel: 0.35, rate: -1 }); }
 
 export const SOUND = {
+  // net (1.5.0): a ball dies in the mesh with a soft dull thud and a rustle of cord; a clean pass over the tape whispers
+  netThud: (a) => { fx(a, 'thud', { hz: 64, vel: 0.65 }); later(a, 0.02, 'scrape', { hz: 2400, dur: 0.18, vel: 0.35 }); later(a, 0.08, 'tick', { hz: 1500, vel: 0.2 }); later(a, 0.14, 'thud', { hz: 90, vel: 0.3 }); },
+  netBrush: (a) => { fx(a, 'scrape', { hz: 3200, dur: 0.1, vel: 0.28 }); },
   // piñata: stick whoosh, wood on papier-mache with paper tearing, candy rattling on the stones, children cheering
   pinataSwing: (a) => { fx(a, 'whoosh', { dur: 0.2, vel: 0.5 }); },
   pinataHit: (a, points, n = 0) => {
@@ -77,6 +80,65 @@ export const SOUND = {
     if (points >= 4) cheer(a, 0.6, 0.18);
   },
   archMiss: (a) => { fx(a, 'thud', { hz: 95, vel: 0.35 }); later(a, 0.05, 'scrape', { hz: 1800, dur: 0.1, vel: 0.3 }); },
+  // ball sports (1.4.0): every sound belongs to what is on screen
+  ballShoot: (a, aimer) => {
+    if (aimer === 'foot') { fx(a, 'thud', { hz: 130, vel: 0.85 }); later(a, 0.02, 'whoosh', { dur: 0.16, vel: 0.2 }); later(a, 0.01, 'impact', { mat: 'skin', hz: 210, vel: 0.5 }); }
+    else { fx(a, 'whoosh', { dur: 0.22, vel: 0.32 }); vlater(a, 0.02, 'slap', { hz: 300, vel: 0.2 }); }
+  },
+  ballSwish: (a, points) => {                                 // a clean pass through the net: a soft rush of cord, no rim
+    fx(a, 'whoosh', { dur: 0.3, vel: 0.5 });
+    later(a, 0.05, 'scrape', { hz: 5200, dur: 0.22, vel: 0.35 });
+    later(a, 0.2, 'thud', { hz: 95, vel: 0.5 });
+    later(a, 0.34, 'thud', { hz: 105, vel: 0.28 });
+    later(a, 0.12, 'good', { hz: NOTES[Math.min(NOTES.length - 1, 2 + points)], vel: 0.4 });
+    cheer(a, Math.min(1, points / 3), 0.18);
+  },
+  ballRattle: (a, points) => {                                // in off the rim: the metal rings, then the net
+    fx(a, 'impact', { mat: 'metal', hz: 760, vel: 0.7 });
+    later(a, 0.03, 'ring', { hz: 1320, dur: 0.6, vel: 0.35 });
+    later(a, 0.14, 'impact', { mat: 'metal', hz: 640, vel: 0.4 });
+    later(a, 0.24, 'whoosh', { dur: 0.22, vel: 0.35 });
+    later(a, 0.36, 'thud', { hz: 98, vel: 0.45 });
+    later(a, 0.2, 'good', { hz: NOTES[Math.min(NOTES.length - 1, 1 + points)], vel: 0.4 });
+    cheer(a, Math.min(1, 0.3 + points / 4), 0.28);
+  },
+  ballRim: (a) => {                                           // off the rim and away
+    fx(a, 'impact', { mat: 'metal', hz: 840, vel: 0.9 });
+    later(a, 0.02, 'ring', { hz: 1180, dur: 0.8, vel: 0.4 });
+    later(a, 0.18, 'thud', { hz: 105, vel: 0.5 });
+    groan(a, 0.12);
+  },
+  ballHole: (a, points) => {                                  // through the hole in the silk: cloth flutter, a drum beat
+    fx(a, 'whoosh', { dur: 0.26, vel: 0.35 });
+    later(a, 0.03, 'scrape', { hz: 900, dur: 0.3, vel: 0.3 });
+    later(a, 0.08, 'impact', { mat: 'skin', hz: 120, vel: 0.5 });
+    later(a, 0.12, 'chime', { hz: 988, vel: 0.7 });
+    cheer(a, Math.min(1, 0.4 + points / 6), 0.18);
+  },
+  ballPanel: (a) => {                                         // into the silk: a muffled slap and the cloth settling
+    fx(a, 'impact', { mat: 'skin', hz: 105, vel: 0.7 });
+    later(a, 0.03, 'scrape', { hz: 700, dur: 0.35, vel: 0.28 });
+    later(a, 0.2, 'thud', { hz: 90, vel: 0.35 });
+  },
+  ballThud: (a, points) => { fx(a, 'impact', { mat: 'skin', hz: 150, vel: 0.8 }); later(a, 0.1, 'good', { hz: NOTES[Math.min(NOTES.length - 1, 1 + points)], vel: 0.45 }); cheer(a, Math.min(1, points / 4), 0.14); },
+  ballMiss: (a) => { fx(a, 'thud', { hz: 90, vel: 0.35 }); later(a, 0.06, 'whoosh', { dur: 0.16, vel: 0.15 }); groan(a, 0.12); },
+  // lane sports (1.4.0): the tool that strikes, hoops, pegs and posts
+  strike: (a, kind, power = 0.5) => {
+    if (kind === 'mallet') { fx(a, 'impact', { mat: 'wood', hz: 170 + power * 60, vel: 0.9 }); later(a, 0.015, 'tick', { hz: 1500, vel: 0.35 }); }
+    else if (kind === 'bat') { fx(a, 'impact', { mat: 'wood', hz: 360 + power * 90, vel: 1 }); later(a, 0.01, 'tick', { hz: 2400, vel: 0.5 }); later(a, 0.02, 'whoosh', { dur: 0.12, vel: 0.2 }); }
+    else if (kind === 'cue') { later(a, 0, 'tick', { hz: 2600, vel: 0.8 }); fx(a, 'impact', { mat: 'stone', hz: 700, vel: 0.4 }); }
+    else if (kind === 'foot') { fx(a, 'thud', { hz: 120, vel: 0.9 }); later(a, 0.01, 'impact', { mat: 'skin', hz: 210, vel: 0.5 }); later(a, 0.02, 'whoosh', { dur: 0.14, vel: 0.2 }); }
+    else if (kind === 'hand') { fx(a, 'whoosh', { dur: 0.2, vel: 0.28 }); vlater(a, 0.02, 'slap', { hz: 280, vel: 0.18 }); }
+    else { fx(a, 'whoosh', { dur: 0.14, vel: 0.35 }); later(a, 0.05, 'impact', { mat: 'wood', hz: 300 + power * 80, vel: 0.8 }); }       // club
+  },
+  hoopRun: (a) => { fx(a, 'impact', { mat: 'wood', hz: 520, vel: 0.35 }); later(a, 0.03, 'ring', { hz: 1568, dur: 0.5, vel: 0.35 }); later(a, 0.1, 'good', { hz: 988, vel: 0.5 }); },
+  pegHit: (a) => { fx(a, 'impact', { mat: 'wood', hz: 260, vel: 0.9 }); later(a, 0.04, 'chime', { hz: 784, vel: 0.8 }); cheer(a, 0.7, 0.2); },
+  postTock: (a) => { fx(a, 'impact', { mat: 'wood', hz: 330, vel: 0.55 }); },
+  // table sports (1.4.0): cue tip, disc on disc, rail, pocket
+  discClack: (a) => { fx(a, 'impact', { mat: 'stone', hz: 880, vel: 0.5 }); later(a, 0.006, 'tick', { hz: 2800, vel: 0.35 }); },
+  railKnock: (a) => { fx(a, 'impact', { mat: 'wood', hz: 190, vel: 0.5 }); },
+  pocketDrop: (a) => { fx(a, 'impact', { mat: 'wood', hz: 150, vel: 0.5 }); later(a, 0.07, 'impact', { mat: 'wood', hz: 130, vel: 0.35 }); later(a, 0.1, 'scrape', { hz: 1800, dur: 0.14, vel: 0.25 }); later(a, 0.18, 'good', { hz: 880, vel: 0.35 }); },
+  ballBounce: (a, v = 0.5) => { fx(a, 'thud', { hz: 105 + v * 40, vel: 0.15 + v * 0.35 }); },
 };
 
 // audits (options.soundLog): every SOUND.* call is recorded when the engine was created with a log array (1.3.1)

@@ -1,0 +1,13 @@
+{
+ "slug": "ngatu-bark-cloth-making",
+ "title": "Ngatu bark cloth",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

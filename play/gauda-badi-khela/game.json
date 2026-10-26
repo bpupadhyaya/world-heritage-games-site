@@ -1,0 +1,13 @@
+{
+ "slug": "gauda-badi-khela",
+ "title": "Gauda Badi Khela",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

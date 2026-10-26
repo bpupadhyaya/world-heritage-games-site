@@ -1,0 +1,13 @@
+{
+ "slug": "turkish-coffee-in-the-cezve",
+ "title": "Turkish coffee in the cezve",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

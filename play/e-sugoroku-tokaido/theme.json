@@ -1,0 +1,141 @@
+{
+ "palette": {
+  "bg": "#1b2a4a",
+  "panel": "#24375f",
+  "board": "#efe2bd",
+  "line": "#1f2a44",
+  "cell0": "#f3e8c8",
+  "cell1": "#e2c98a",
+  "node": "#1f2a44",
+  "p0": "#c8402e",
+  "p1": "#2b4a86",
+  "accent": "#d9a93c",
+  "ink": "#f7f0dc",
+  "dim": "#b9c3d6",
+  "good": "#6fb58a"
+ },
+ "board": {},
+ "pieces": {},
+ "sounds": {},
+ "assets": {},
+ "look": {
+  "ground": {
+   "style": "ink",
+   "color": "#1c2c4e"
+  },
+  "board": {
+   "style": "scroll",
+   "color": "#f2e6c2",
+   "rim": "#8a2f22"
+  },
+  "cell": {
+   "style": "ring",
+   "light": "#f7efd3",
+   "dark": "#e8a68a"
+  },
+  "node": {
+   "style": "ring",
+   "color": "#8a2f22",
+   "size": 0.2
+  },
+  "line": {
+   "style": "road",
+   "color": "#1f2a44",
+   "roadColor": "#e0c48a",
+   "roadWidth": 0.045,
+   "jumpColor": "#c8402e",
+   "width": 0.006
+  },
+  "pieces": [
+   {
+    "style": "coin",
+    "color": "#c8402e",
+    "accent": "#f1d27a"
+   },
+   {
+    "style": "coin",
+    "color": "#2b4a86",
+    "accent": "#f1d27a"
+   }
+  ],
+  "labels": {
+   "c0": "Shinagawa",
+   "c1": "Kawasaki",
+   "c2": "Kanagawa",
+   "c3": "Hodogaya",
+   "c4": "Totsuka",
+   "c5": "Fujisawa",
+   "c6": "Hiratsuka",
+   "c7": "Oiso",
+   "c8": "Odawara",
+   "c9": "Hakone",
+   "c10": "Mishima",
+   "c11": "Numazu",
+   "c12": "Hara",
+   "c13": "Yoshiwara",
+   "c14": "Kambara",
+   "c15": "Yui",
+   "c16": "Okitsu",
+   "c17": "Ejiri",
+   "c18": "Fuchu",
+   "c19": "Mariko",
+   "c20": "Okabe",
+   "c21": "Fujieda",
+   "c22": "Shimada",
+   "c23": "Kanaya",
+   "c24": "Nissaka",
+   "c25": "Kakegawa",
+   "c26": "Fukuroi",
+   "c27": "Mitsuke",
+   "c28": "Hamamatsu",
+   "c29": "Maisaka",
+   "c30": "Arai",
+   "c31": "Shirasuka",
+   "c32": "Futagawa",
+   "c33": "Yoshida",
+   "c34": "Goyu",
+   "c35": "Akasaka",
+   "c36": "Fujikawa",
+   "c37": "Okazaki",
+   "c38": "Chiryu",
+   "c39": "Narumi",
+   "c40": "Miya",
+   "c41": "Kuwana",
+   "c42": "Yokkaichi",
+   "c43": "Ishiyakushi",
+   "c44": "Shono",
+   "c45": "Kameyama",
+   "c46": "Seki",
+   "c47": "Sakanoshita",
+   "c48": "Tsuchiyama",
+   "c49": "Minakuchi",
+   "c50": "Ishibe",
+   "c51": "Kusatsu",
+   "c52": "Otsu",
+   "c53": "Kyoto"
+  },
+  "marks": {
+   "color": "#8a2f22",
+   "c2": "up",
+   "c25": "up",
+   "c31": "up",
+   "c40": "boat",
+   "c48": "up",
+   "c15": "down",
+   "c35": "down",
+   "c50": "down",
+   "c9": "mountain",
+   "c22": "wave",
+   "c53": "flag",
+   "c28": "pause",
+   "c37": "pause",
+   "c46": "pause"
+  },
+  "labelSize": 0.3,
+  "labelColor": "#1f2a44",
+  "sides": [
+   "Merchant",
+   "Pilgrim"
+  ]
+ }
+}

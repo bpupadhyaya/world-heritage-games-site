@@ -1,0 +1,13 @@
+{
+ "slug": "nerikiri-wagashi-sculpting",
+ "title": "Nerikiri wagashi sculpting",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

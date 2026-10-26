@@ -1,0 +1,32 @@
+{
+  "title": "Chuiwan",
+  "native": "捶丸",
+  "alt": [
+    "Ancient Chinese golf"
+  ],
+  "summary": "A club-and-ball game of China in which players drive a small wooden ball across a garden court toward shallow holes marked by coloured flags. Each hole sits at a different distance, so the player judges how hard to strike. It was a pastime of the Song, Yuan and Ming courts.",
+  "howToPlay": [
+    "Press behind the line and pull back to set the direction and the strength of the stroke, then let go.",
+    "The dotted arc shows where the ball will land; a long way needs a long pull, a short hole a gentle one.",
+    "The ball rolls on after landing and drops into a hole if it is slow enough; the nearer holes score less than the far ones.",
+    "Each round gives six strokes; play three rounds and try for the best total."
+  ],
+  "rules": [
+    "Three holes lie in the court at short, middle and long distances.",
+    "Sinking the ball scores 3 at the near hole, 5 at the middle hole and 8 at the far hole.",
+    "The ball is struck into the air and rolls on after landing; a ball moving too fast skips over a hole.",
+    "The side walls and the far wall turn the ball back into the court.",
+    "A round is six strokes; a game is three rounds, and the total decides the stars.",
+    "The strength of the stroke stands in for the choice of club: a short stroke is the light club, a long stroke the driver."
+  ],
+  "heritageNote": "Chuiwan was played at the courts and in the gardens of China from the Song dynasty and is shown in scrolls and manuals of the Song, Yuan and Ming periods, which describe holes, flags and a set of clubs for different distances. It is remembered today through museums, paintings and revivals.",
+  "countries": [
+    "China"
+  ],
+  "credits": [
+    "Painting of a Ming emperor playing chuiwan, Wikimedia Commons (public domain)",
+    "3D people: Microsoft Rocketbox Avatar Library (MIT License, Copyright (c) 2020 Microsoft); textures repainted for team kits.",
+    "Motion data: Carnegie Mellon University Graphics Lab Motion Capture Database (mocap.cs.cmu.edu, funded by NSF EIA-0196217; BVH conversion by Bruce Hahne, cgspeed.com) and the Quaternius Universal Animation Library (CC0).",
+    "Software: three.js (MIT License, Copyright (c) 2010-2024 three.js authors) and meshoptimizer (MIT License, Copyright (c) 2016-2024 Arseny Kapoulkine). Full licence texts ship with the game."
+  ]
+}

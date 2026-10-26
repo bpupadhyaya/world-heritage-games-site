@@ -1,0 +1,14 @@
+{
+ "engine": "shape-craft",
+ "params": {
+  "technique": "sheet",
+  "scene": "fale",
+  "form": "beat",
+  "finish": "pound",
+  "mould": "bare",
+  "vat": "board",
+  "pulp": "#b88a5a",
+  "water": "#6a4a28",
+  "hero": "ngatu"
+ }
+}

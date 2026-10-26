@@ -1,0 +1,14 @@
+{
+ "engine": "mancala",
+ "variant": "omweso-four-row-sowing",
+ "players": "2",
+ "params": {
+  "rows": 4,
+  "pits": 8,
+  "setup": "even",
+  "maxPlies": 300
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

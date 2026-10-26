@@ -1,0 +1,13 @@
+{
+  "engine": "shape-craft",
+  "variant": "lamian",
+  "players": "1",
+  "params": {
+    "technique": "pull",
+    "orders": 3,
+    "scene": "kc-fire-noodle"
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

@@ -1,0 +1,84 @@
+{
+ "engine": "race",
+ "variant": "e-sugoroku-tokaido",
+ "players": "2",
+ "params": {
+  "shape": "serpentine",
+  "cols": 9,
+  "rows": 6,
+  "orientation": "tall",
+  "pieces": 1,
+  "throw": {
+   "type": "dice",
+   "count": 1,
+   "sides": 6
+  },
+  "entry": "move",
+  "enterOn": [],
+  "extraOn": [],
+  "capture": "none",
+  "stacking": "stack",
+  "overshoot": "bounce",
+  "goal": "last",
+  "jumps": [
+   {
+    "from": 3,
+    "to": 7
+   },
+   {
+    "from": 16,
+    "to": 12
+   },
+   {
+    "from": 26,
+    "to": 30
+   },
+   {
+    "from": 32,
+    "to": 37
+   },
+   {
+    "from": 36,
+    "to": 33
+   },
+   {
+    "from": 41,
+    "to": 45
+   },
+   {
+    "from": 49,
+    "to": 52
+   },
+   {
+    "from": 51,
+    "to": 48
+   }
+  ],
+  "skip": [
+   {
+    "at": 10,
+    "turns": 1
+   },
+   {
+    "at": 23,
+    "turns": 2
+   },
+   {
+    "at": 29,
+    "turns": 1
+   },
+   {
+    "at": 38,
+    "turns": 1
+   },
+   {
+    "at": 47,
+    "turns": 1
+   }
+  ],
+  "maxMoves": 600
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

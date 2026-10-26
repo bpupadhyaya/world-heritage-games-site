@@ -1,0 +1,39 @@
+{
+ "engine": "dice",
+ "variant": "generala-five-dice-cup",
+ "players": "2",
+ "params": {
+  "game": "generala",
+  "dice": 5,
+  "throws": 3,
+  "level": "normal",
+  "servidaWins": true,
+  "table": {
+   "kind": "felt",
+   "surface": "#1c6b4b",
+   "surface2": "#2b8a62",
+   "rim": "#5a331b",
+   "rim2": "#93603a",
+   "trim": "#d6aa4e",
+   "sound": "felt"
+  },
+  "dieLook": {
+   "body": "#f3ead2",
+   "pip": "#1a1a1a",
+   "gloss": 0.55
+  },
+  "cup": {
+   "leather": "#7b4a26",
+   "band": "#d9ad55",
+   "stitch": "#ecd9a6"
+  },
+  "paper": {
+   "paper": "#efe2bf",
+   "ink": "#26323f",
+   "line": "#a9966c"
+  }
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

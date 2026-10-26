@@ -1,0 +1,13 @@
+{
+ "slug": "moroccan-mint-tea-high-pour",
+ "title": "Moroccan Mint Tea High Pour",
+ "orientation": "any",
+ "version": "1.0.0",
+ "locales": [
+  "en"
+ ],
+ "monetization": {
+  "model": "free"
+ },
+ "demoOnly": true
+}

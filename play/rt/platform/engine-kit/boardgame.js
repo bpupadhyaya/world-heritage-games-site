@@ -8,6 +8,7 @@
 import { chooseMove, LEVELS } from './ai.js';
 import { createUI, shade, rgba } from './ui.js';
 import { createMenu } from './menu.js';
+import { createLook } from './look.js';
 
 const PALETTE = { bg: '#17212b', panel: '#223140', board: '#c9a86a', line: '#4a3820', cell0: '#d9bb82', cell1: '#b8935a', node: '#4a3820', p0: '#d64b3c', p1: '#2d7bd6', accent: '#f2c14e', ink: '#f5f1e8', dim: '#9fb0c3', good: '#58c27d' };
 const AI_DELAY = 0.55;
@@ -33,6 +34,7 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     const px = (base) => Math.max(base * zoom(), 12 / (meta.cssPerUnit || 1));
     const autoplay = options.autoplay === true; // attract mode: both sides computer, pointer ignored (store screenshots, previews)
     const ui = createUI({ pal, meta, px, audio, config: env.config, options, name: T.title, theme });
+    const look = createLook(theme.look, pal, ui);   // optional material-true skin (docs/BOARD-LOOK.md); null = the plain presenter
     const firstSentence = (s) => { const m = /^.{20,}?[.!?](\s|$)/.exec(String(s)); return m ? m[0].trim() : String(s).slice(0, 140); };
     let drag = null, maxScroll = 0;
     const state = { scene: autoplay ? 'play' : 'title', mode: autoplay ? 'watch' : 'ai', human: 0, level: 'normal', game: rules.init(params, rng.fork()), history: [], ply: 0, selected: null, msg: '', t: 0, wait: 0, overT: 0, hint: null, page: 0, scroll: 0, sceneT: 0, winner: null, moveT: -9, resT: 0 };
@@ -69,10 +71,20 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     };
 
     // ---- geometry ---------------------------------------------------------------------------------------------
+    const lookMargin = () => (look ? Math.max(10, Math.min(meta.width, meta.height) * (look.spec.board?.border ? 0.045 : 0.03)) : 0);
+    // wide boards (mancala) turn a quarter so they use the height of a portrait screen; pits stay big and tappable
+    const portraitArea = () => { const a = ui.layout(meta.width, meta.height, { footer: !autoplay }).area; return a.h > a.w * 1.12; };
+    const view = (d) => {
+      if (!look || look.spec.rotate === false || (d.aspect ?? 1) < 1.45 || !portraitArea()) return d;
+      const nodes = d.nodes.map((n) => ({ ...n, x: 1 - n.y, y: n.x, ...(n.shape === 'store' ? { w: n.h, h: n.w } : {}) }));
+      return { ...d, aspect: 1 / d.aspect, nodes };
+    };
+    const describe = (st) => view(rules.describe(st));
     const boardRect = (aspect) => {
       const W = meta.width, H = meta.height;
       const a = ui.layout(W, H, { footer: !autoplay }).area;
-      const areaW = a.w - 8, areaH = a.h - 16;
+      const m = lookMargin();
+      const areaW = a.w - 8 - 2 * m, areaH = a.h - 16 - 2 * m;
       let w = areaW, h = w / aspect;
       if (h > areaH) { h = areaH; w = h * aspect; }
       return { x: a.x + (a.w - w) / 2, y: a.y + 8 + (areaH - h) / 2, w, h };
@@ -91,7 +103,7 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     // ---- input ------------------------------------------------------------------------------------------------
     const tapBoard = (x, y) => {
       if (!humanTurn() || state.winner !== null) return;
-      const d = rules.describe(state.game), rect = boardRect(d.aspect ?? 1);
+      const d = describe(state.game), rect = boardRect(d.aspect ?? 1);
       const n = nodeAt(d, rect, x, y);
       if (n === null) { state.selected = null; return; }
       const moves = rules.moves(state.game);
@@ -181,7 +193,7 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     const rr = ui.rr;
     const label = (ctx, s, x, y, size, color = pal.ink, align = 'center', weight = '600') => { ctx.fillStyle = color; ctx.font = `${weight} ${Math.round(size)}px system-ui, sans-serif`; ctx.textAlign = align; ctx.textBaseline = 'middle'; ctx.fillText(String(s), x, y); };
     const playerName = (d, p) => {
-      const n = d.players?.[p]?.name ?? (p === 0 ? 'Player 1' : 'Player 2');
+      const n = look?.spec.sides?.[p] ?? d.players?.[p]?.name ?? (p === 0 ? 'Player 1' : 'Player 2');
       if (state.mode === 'ai') return p === state.human ? `${n} (you)` : `${n} (computer)`;
       return n;
     };
@@ -190,17 +202,21 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     const drawBoard = (ctx, d, rect, legal) => {
       const unit = Math.min(rect.w, rect.h);
       const corner = Math.min(24, rect.w * 0.04), frame = Math.max(3, unit * 0.012);
+      const lm = lookMargin();
+      if (look) look.body(ctx, { x: rect.x - lm, y: rect.y - lm, w: rect.w + 2 * lm, h: rect.h + 2 * lm }, d, lm);
+      else {
       // body: soft shadow, gradient, grain, bevel
-      ctx.save();
-      ctx.shadowColor = 'rgba(0,0,0,0.55)'; ctx.shadowBlur = unit * 0.05; ctx.shadowOffsetY = unit * 0.02;
-      rr(ctx, rect.x, rect.y, rect.w, rect.h, corner); ctx.fillStyle = shade(pal.board, -0.25); ctx.fill();
-      ctx.restore();
-      rr(ctx, rect.x, rect.y, rect.w, rect.h, corner); ctx.fillStyle = ui.vgrad(ctx, rect.y, rect.y + rect.h, [[0, shade(pal.board, 0.14)], [0.5, pal.board], [1, shade(pal.board, -0.16)]]); ctx.fill();
-      ctx.save(); rr(ctx, rect.x, rect.y, rect.w, rect.h, corner); ctx.clip();
-      ui.texture(ctx, rect.x, rect.y, rect.w, rect.h, { kind: 'grain', alpha: 0.1, dark: shade(pal.board, -0.6) });
-      ctx.restore();
-      rr(ctx, rect.x + frame / 2, rect.y + frame / 2, rect.w - frame, rect.h - frame, corner); ctx.lineWidth = frame; ctx.strokeStyle = shade(pal.board, -0.42); ctx.stroke();
-      rr(ctx, rect.x + frame * 1.5, rect.y + frame * 1.5, rect.w - frame * 3, rect.h - frame * 3, Math.max(2, corner - frame)); ctx.lineWidth = 1.5; ctx.strokeStyle = 'rgba(255,255,255,0.25)'; ctx.stroke();
+        ctx.save();
+        ctx.shadowColor = 'rgba(0,0,0,0.55)'; ctx.shadowBlur = unit * 0.05; ctx.shadowOffsetY = unit * 0.02;
+        rr(ctx, rect.x, rect.y, rect.w, rect.h, corner); ctx.fillStyle = shade(pal.board, -0.25); ctx.fill();
+        ctx.restore();
+        rr(ctx, rect.x, rect.y, rect.w, rect.h, corner); ctx.fillStyle = ui.vgrad(ctx, rect.y, rect.y + rect.h, [[0, shade(pal.board, 0.14)], [0.5, pal.board], [1, shade(pal.board, -0.16)]]); ctx.fill();
+        ctx.save(); rr(ctx, rect.x, rect.y, rect.w, rect.h, corner); ctx.clip();
+        ui.texture(ctx, rect.x, rect.y, rect.w, rect.h, { kind: 'grain', alpha: 0.1, dark: shade(pal.board, -0.6) });
+        ctx.restore();
+        rr(ctx, rect.x + frame / 2, rect.y + frame / 2, rect.w - frame, rect.h - frame, corner); ctx.lineWidth = frame; ctx.strokeStyle = shade(pal.board, -0.42); ctx.stroke();
+        rr(ctx, rect.x + frame * 1.5, rect.y + frame * 1.5, rect.w - frame * 3, rect.h - frame * 3, Math.max(2, corner - frame)); ctx.lineWidth = 1.5; ctx.strokeStyle = 'rgba(255,255,255,0.25)'; ctx.stroke();
+      }
       const byId = new Map(d.nodes.map((n) => [n.id, n]));
       const lw = Math.max(2, rect.w * 0.006);
       const strokeLines = (dx, dy, color) => {
@@ -208,12 +224,14 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
         for (const l of d.lines ?? []) l.forEach((id, i) => { const n = byId.get(id); const x = rect.x + n.x * rect.w + dx, y = rect.y + n.y * rect.h + dy; if (i) ctx.lineTo(x, y); else ctx.moveTo(x, y); });
         ctx.strokeStyle = color; ctx.lineWidth = lw; ctx.lineCap = 'round'; ctx.stroke();
       };
-      if (d.lines?.length) { strokeLines(0, lw * 0.9, 'rgba(255,255,255,0.28)'); strokeLines(0, 0, pal.line); }
+      if (look) look.lines(ctx, rect, d, byId);
+      else if (d.lines?.length) { strokeLines(0, lw * 0.9, 'rgba(255,255,255,0.28)'); strokeLines(0, 0, pal.line); }
       const pieces = new Map();
       for (const pc of d.pieces ?? []) { if (!pieces.has(pc.node)) pieces.set(pc.node, []); pieces.get(pc.node).push(pc); }
       const lastSet = new Set(d.last ?? []);
       for (const n of d.nodes) {
         const x = rect.x + n.x * rect.w, y = rect.y + n.y * rect.h, r = (n.r ?? 0.04) * unit;
+        if (look) { look.node(ctx, n, x, y, r, rect, lastSet.has(n.id)); continue; }
         if (n.shape === 'cell') {
           ctx.fillStyle = n.tone ? pal.cell1 : pal.cell0; ctx.fillRect(x - r, y - r, r * 2, r * 2);
           ctx.fillStyle = ui.vgrad(ctx, y - r, y + r, [[0, 'rgba(255,255,255,0.14)'], [1, 'rgba(0,0,0,0.12)']]); ctx.fillRect(x - r, y - r, r * 2, r * 2);
@@ -246,17 +264,25 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
         if (n.shape === 'pit' || n.shape === 'store') {
           const count = list.reduce((a, p) => a + (p.count ?? 1), 0);
           const col = list[0].owner === 1 ? pal.p1 : list[0].owner === 0 ? pal.p0 : pal.accent;
-          if (count <= 10 && n.shape === 'pit') {
+          if (look) {
+            const own = list[0].owner === 1 ? 1 : 0;
+            if (count && n.shape === 'pit') look.seeds(ctx, x, y, r, count, own);
+            if (count && n.shape === 'store') label(ctx, count, x, y, Math.max(14, r * 0.9), pal.ink, 'center', '800');
+            else if (count) { const bx = x + r * 0.72, by = y + r * 0.74, br = Math.max(9, r * 0.27); ctx.beginPath(); ctx.arc(bx, by, br, 0, Math.PI * 2); ctx.fillStyle = 'rgba(20,12,6,0.86)'; ctx.fill(); ctx.lineWidth = 1.5; ctx.strokeStyle = 'rgba(255,255,255,0.55)'; ctx.stroke(); label(ctx, count, bx, by + 0.5, Math.max(11, br * 1.1), '#fff', 'center', '800'); }
+          } else if (count <= 10 && n.shape === 'pit') {
             for (let i = 0; i < count; i++) { const a = (i / Math.max(1, count)) * Math.PI * 2 + 0.5, rad = count === 1 ? 0 : r * 0.5; ball(x + Math.cos(a) * rad, y + Math.sin(a) * rad, Math.max(3.5, r * 0.22), col, false); }
           } else label(ctx, count, x, y, Math.max(14, r * 0.9), pal.ink, 'center', '700');
-          if (count && count <= 10 && n.shape === 'pit') label(ctx, count, x, y + r * (n.labelDy ?? 1.25), Math.max(11, r * 0.45), pal.dim, 'center', '600');
+          if (!look && count && count <= 10 && n.shape === 'pit') label(ctx, count, x, y + r * (n.labelDy ?? 1.25), Math.max(11, r * 0.45), pal.dim, 'center', '600');
         } else {
           const owner = list[0].owner;
           const isLast = lastSet.has(id);
           const yy = y - (isLast ? drop * r * 0.8 : 0);
+          if (look) look.piece(ctx, x, yy, r, owner, list[0].kind, list[0].label, id);
+          else {
           ball(x, yy, r * 0.78, ownerColor(owner), true);
           if (list[0].kind === 'king') { ctx.beginPath(); ctx.arc(x, yy, r * 0.4, 0, Math.PI * 2); ctx.strokeStyle = pal.accent; ctx.lineWidth = 3; ctx.stroke(); }
           if (list[0].label) label(ctx, list[0].label, x, yy, r * 0.9, '#fff', 'center', '700');
+          }
           if (list.length > 1 || (list[0].count ?? 1) > 1) label(ctx, list.reduce((a, p) => a + (p.count ?? 1), 0), x + r * 0.6, y - r * 0.6, Math.max(11, r * 0.5), pal.accent, 'center', '700');
         }
       }
@@ -276,6 +302,7 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
       ui.begin();
       const W = meta.width, H = meta.height;
       ui.background(ctx, 0, 0, W, H);
+      if (look && state.scene === 'play') look.ground(ctx, W, H);
       ui.sceneBegin(ctx, state.sceneT);
       if (state.scene === 'title') renderTitle(ctx, W, H);
       else if (state.scene === 'rules') renderRules(ctx, W, H);
@@ -284,11 +311,11 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
     };
 
     const renderPlay = (ctx, W, H) => {
-      const d = rules.describe(state.game);
+      const d = describe(state.game);
       const legal = rules.moves(state.game);
       const status = state.winner !== null ? '' : state.mode === 'watch' ? 'Watch and learn: the computer plays both sides' : humanTurn() ? (state.mode === 'two' ? `${playerName(d, state.game.turn)}: your move` : 'Your move') : 'Computer is thinking…';
       const turn = state.winner === null ? state.game.turn : -1;
-      const chips = [0, 1].map((p) => ({ label: d.scores ? String(d.scores[p]) : (state.mode === 'ai' ? (p === state.human ? 'You' : 'CPU') : `P${p + 1}`), color: ownerColor(p), active: turn === p }));
+      const chips = [0, 1].map((p) => ({ label: d.scores ? String(d.scores[p]) : (state.mode === 'ai' ? (p === state.human ? 'You' : 'CPU') : ((look?.spec.sides?.[p] ?? '').length > 9 ? look.spec.sides[p].split(' ')[0] : (look?.spec.sides?.[p] ?? `P${p + 1}`))), color: ownerColor(p), active: turn === p }));
       ui.header(ctx, W, { title: T.title, sub: state.msg || d.status || status, subAccent: !!state.msg, chips });
       drawBoard(ctx, d, boardRect(d.aspect ?? 1), legal);
       if (!autoplay) ui.footer(ctx, W, H, [{ id: 'menu', label: 'Menu', icon: 'menu' }, { id: 'undo', label: 'Undo', icon: 'undo', off: !state.history.length }, { id: 'hint', label: 'Hint', icon: 'hint' }, { id: 'new', label: 'New', icon: 'plus' }]);
@@ -330,7 +357,7 @@ export function createBoardEngine({ rules, spec = {}, theme = {}, text = {}, tit
 
     // virtual-resolution point of a board node (tests and accessibility helpers tap exactly where the player would)
     const nodePoint = (id) => {
-      const d = rules.describe(state.game), rect = boardRect(d.aspect ?? 1), n = d.nodes.find((x) => x.id === id);
+      const d = describe(state.game), rect = boardRect(d.aspect ?? 1), n = d.nodes.find((x) => x.id === id);
       return n ? { x: rect.x + n.x * rect.w, y: rect.y + n.y * rect.h } : null;
     };
     return {

@@ -33,7 +33,7 @@ The island arc between the continents.
 - [Rounders](../../games/761-rounders/index.md): Guyana; Street and playground games; Modern Heritage
 - [Spinning top](../../games/678-spinning-top/index.md): Dominican Republic, Jamaica; Dexterity and skill games; Modern Heritage
 - [Steelpan](../../games/31-steelpan/index.md): Trinidad and Tobago; Musical instruments; Age of Contact and Craft
-- [Stickball](../../games/477-stickball/index.md): Cuba; Bat-and-ball games; Modern Heritage
+- [Stickball](../../games/477-stickball/index.md): United States; Bat-and-ball games; Modern Heritage
 - [Street games](../../games/570-street-games/index.md): Bahamas; Dexterity and skill games; Deep Past and First Games
 - [Street play games](../../games/1155-street-play-games/index.md): Trinidad and Tobago; Dexterity and skill games; Modern Heritage
 - [Tap-Tap Bus Painting](../../games/1461-tap-tap-bus-painting/index.md): Haiti; Crafts and making; Living Traditions

@@ -1,0 +1,140 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "lanes": [
+   {
+    "name": "Left pair",
+    "hz": 1600,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#2a9d6a"
+   },
+   {
+    "name": "Middle pair",
+    "hz": 1900,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#e8b61c"
+   },
+   {
+    "name": "Right pair",
+    "hz": 1200,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#e8641c"
+   },
+   {
+    "name": "All four",
+    "hz": 1450,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#fff2d0"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Spring beat",
+    "bpm": 112,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Left pair"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Middle pair"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Right pair"
+     },
+     {
+      "beat": 6.0,
+      "lane": "All four"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Left pair"
+     },
+     {
+      "beat": 10.0,
+      "lane": "Middle pair"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Right pair"
+     },
+     {
+      "beat": 14.0,
+      "lane": "All four"
+     },
+     {
+      "beat": 15.0,
+      "lane": "All four"
+     }
+    ]
+   },
+   {
+    "name": "Herd turn",
+    "bpm": 124,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Left pair"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Left pair"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Middle pair"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Middle pair"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Right pair"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Right pair"
+     },
+     {
+      "beat": 8.0,
+      "lane": "All four"
+     },
+     {
+      "beat": 9.0,
+      "lane": "All four"
+     },
+     {
+      "beat": 11.0,
+      "lane": "Right pair"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Right pair"
+     },
+     {
+      "beat": 14.0,
+      "lane": "Middle pair"
+     },
+     {
+      "beat": 15.0,
+      "lane": "Middle pair"
+     }
+    ]
+   }
+  ],
+  "instrument": "stick clash gauda"
+ }
+}

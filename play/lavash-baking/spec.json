@@ -1,0 +1,14 @@
+{
+  "engine": "shape-craft",
+  "variant": "lavash-baking",
+  "players": "1",
+  "params": {
+    "technique": "bake",
+    "mode": "tonir",
+    "sheets": 4,
+    "scene": "kc-fire-tonir"
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

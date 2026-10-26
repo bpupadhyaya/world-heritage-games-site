@@ -1,0 +1,23 @@
+{
+ "engine": "mancala",
+ "variant": "mangala-turkish-sowing",
+ "players": "2",
+ "params": {
+  "pits": 6,
+  "seeds": 4,
+  "stores": true,
+  "direction": "ccw",
+  "sowing": "single",
+  "skipOrigin": false,
+  "firstInOrigin": true,
+  "capture": "mangala",
+  "mustFeed": false,
+  "extraTurn": true,
+  "endWhenSideEmpty": "any",
+  "endSweep": "emptier",
+  "maxPlies": 400
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

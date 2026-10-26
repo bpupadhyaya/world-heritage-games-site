@@ -1,0 +1,140 @@
+{
+ "engine": "rhythm",
+ "params": {
+  "layout": "steps",
+  "mode": "follow",
+  "loops": 2,
+  "tolerance": 1.15,
+  "lanes": [
+   {
+    "name": "Front-back",
+    "hz": 1600,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#f2d040"
+   },
+   {
+    "name": "Left-right",
+    "hz": 1900,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#e8641c"
+   },
+   {
+    "name": "Corners",
+    "hz": 1200,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#fff2d0"
+   },
+   {
+    "name": "All four",
+    "hz": 1450,
+    "timbre": "clap",
+    "icon": "clap",
+    "color": "#d8341c"
+   }
+  ],
+  "songs": [
+   {
+    "name": "Ring",
+    "bpm": 104,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Front-back"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Front-back"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Left-right"
+     },
+     {
+      "beat": 6.0,
+      "lane": "Left-right"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Corners"
+     },
+     {
+      "beat": 10.0,
+      "lane": "Front-back"
+     },
+     {
+      "beat": 12.0,
+      "lane": "Left-right"
+     },
+     {
+      "beat": 14.0,
+      "lane": "All four"
+     }
+    ]
+   },
+   {
+    "name": "Quick turn",
+    "bpm": 116,
+    "meter": 4,
+    "steps": [
+     {
+      "beat": 0.0,
+      "lane": "Front-back"
+     },
+     {
+      "beat": 1.0,
+      "lane": "Left-right"
+     },
+     {
+      "beat": 2.0,
+      "lane": "Left-right"
+     },
+     {
+      "beat": 3.0,
+      "lane": "Front-back"
+     },
+     {
+      "beat": 4.0,
+      "lane": "Corners"
+     },
+     {
+      "beat": 6.0,
+      "lane": "All four"
+     },
+     {
+      "beat": 7.0,
+      "lane": "Front-back"
+     },
+     {
+      "beat": 8.0,
+      "lane": "Front-back"
+     },
+     {
+      "beat": 9.0,
+      "lane": "Left-right"
+     },
+     {
+      "beat": 10.0,
+      "lane": "Left-right"
+     },
+     {
+      "beat": 11.0,
+      "lane": "Front-back"
+     },
+     {
+      "beat": 12.0,
+      "lane": "All four"
+     },
+     {
+      "beat": 14.0,
+      "lane": "Corners"
+     }
+    ]
+   }
+  ],
+  "instrument": "stick clash kolkali"
+ }
+}

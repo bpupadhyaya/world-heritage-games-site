@@ -45,7 +45,7 @@ path: "/a-z/T/"
 - [Tavli](../../games/656-tavli/index.md): Cyprus, Greece; Board and table games; River Valleys and First Cities
 - [Tawla](../../games/815-tawla/index.md): Iraq, Syria; Board and table games; River Valleys and First Cities
 - [Tawle](../../games/880-tawle/index.md): Lebanon, Palestine; Board and table games; River Valleys and First Cities
-- [Tbourida](../../games/164-tbourida/index.md): Morocco; Sports with animal partners; Classical Worlds
+- [Tazhib manuscript illumination](../../games/13176-tazhib-manuscript-illumination/index.md): Iran; Crafts and making; Living Traditions
 - [Tchiloli masked play](../../games/1430-tchiloli-masked-play/index.md): Sao Tome and Principe; Performance and storytelling; Living Traditions
 - [Tchouba](../../games/955-tchouba/index.md): Mozambique; Board and table games; Deep Past and First Games
 - [Tea Horse Road Caravan](../../games/39-tea-horse-road-caravan/index.md): China; Board and table games; Classical Worlds

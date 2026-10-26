@@ -1,0 +1,30 @@
+{
+ "title": "Novuss",
+ "native": "Novuss / Koroona",
+ "alt": [
+  "Koroona",
+  "Korona"
+ ],
+ "summary": "A square wooden board with a pocket in each corner. A slender cue drives a heavy puck into black and light discs, and the aim is to send the discs into the corners while keeping the puck itself out of them. A national pastime of Latvia and Estonia.",
+ "howToPlay": [
+  "Press on the near edge where you want to start, then pull the cue back along the line you want.",
+  "Release to strike. The dotted line shows the puck's path and where it bounces.",
+  "Drive discs into the corner pockets: dark ones are worth two, light ones one.",
+  "Eight strokes make a game. Beat your best total."
+ ],
+ "rules": [
+  "The board is square with raised wooden edges and a pocket in each corner.",
+  "Every stroke starts from the near edge; you choose the spot along it.",
+  "The puck and the discs bounce off the edges and off each other, and slow down on the polished wood.",
+  "A dark disc in a pocket scores 2 and a light disc scores 1.",
+  "If the puck itself drops into a pocket you lose 1 point.",
+  "A game is eight strokes, and it ends early if every disc is pocketed.",
+  "Stars are awarded for total score."
+ ],
+ "heritageNote": "Novuss is thought to have reached the Baltic coast in the 1920s and became a national game in Latvia and Estonia, where it is played in clubs, homes and schools. The Latvian federation was founded in 1963, and Baltic communities play it abroad.",
+ "countries": [
+  "Latvia",
+  "Estonia"
+ ],
+ "credits": []
+}

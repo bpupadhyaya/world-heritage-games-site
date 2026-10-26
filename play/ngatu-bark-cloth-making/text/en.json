@@ -1,0 +1,25 @@
+{
+ "title": "Ngatu bark cloth",
+ "native": "ngatu",
+ "countries": [
+  "Tonga"
+ ],
+ "summary": "Lay strips of soaked mulberry bark on a log anvil, beat them with a wooden beater until they join into one even cloth, then pound it smooth and see its pattern appear.",
+ "howToPlay": [
+  "Press Lay to put the strips on the log.",
+  "Drag the beater across the strips until the cloth is even.",
+  "Press Lift.",
+  "Pound each zone as it lights.",
+  "Press Check."
+ ],
+ "rules": [
+  "The strips overlap, so the cloth is thick where they cross and thin in the gaps.",
+  "Beating spreads the bark; the score is how even the cloth is.",
+  "Fibre that is moved stays where the beater leaves it; the heap never gets lighter, so every stroke spreads it further.",
+  "The form of the sheet counts for 60 points and the finish for 40.",
+  "Three stars for 88 or more, two stars for 65 and one star for 40. Watch and learn makes a whole sheet for you."
+ ],
+ "heritageNote": "Ngatu is a cloth made in Tonga from the inner bark of the paper mulberry tree. Strips are soaked and beaten on a wooden anvil until they widen and felt together, then pasted into long sheets.",
+ "alt": [],
+ "credits": []
+}

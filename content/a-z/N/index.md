@@ -1,6 +1,6 @@
 ---
 title: "Entries beginning with N"
-description: "42 entries beginning with N."
+description: "43 entries beginning with N."
 path: "/a-z/N/"
 ---
 # Entries beginning with N
@@ -28,6 +28,7 @@ path: "/a-z/N/"
 - [Nerikiri wagashi sculpting](../../games/350-nerikiri-wagashi-sculpting/index.md): Japan; Crafts and making; Living Traditions
 - [Netball](../../games/447-netball/index.md): Australia, United Kingdom; Team ball sports; Modern Heritage
 - [Ngalawa outrigger sailing](../../games/1259-ngalawa-outrigger-sailing/index.md): Comoros; Racing; Age of Contact and Craft
+- [Ngatu bark cloth making](../../games/6377-ngatu-bark-cloth-making/index.md): Tonga; Crafts and making; Living Traditions
 - [Ngatu bark-cloth pattern rubbing](../../games/1385-ngatu-bark-cloth-pattern-rubbing/index.md): Tonga; Crafts and making; Living Traditions
 - [Ngola](../../games/1042-ngola/index.md): Congo; Board and table games; Deep Past and First Games
 - [Nguni stick-fighting rhythm skirmish](../../games/209-nguni-stick-fighting-rhythm-skirmish/index.md): South Africa, Eswatini; Dexterity and skill games; Modern Heritage

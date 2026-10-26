@@ -1,16 +1,16 @@
 ---
 title: "Drums and percussion"
-description: "77 related traditions."
+description: "80 related traditions."
 path: "/families/percussion/"
-count: 77
+count: 80
 ---
 # Drums and percussion
 
-77 related traditions.
+80 related traditions.
 
 
 
-77 entries.
+80 entries.
 
 - [Amadinda and embaire](../../games/185-amadinda-and-embaire/index.md): Uganda; Musical instruments; Living Traditions
 - [Ardah Drum-and-Line Rhythm](../../games/1343-ardah-drum-and-line-rhythm/index.md): Saudi Arabia; Musical instruments; Living Traditions
@@ -34,6 +34,7 @@ count: 77
 - [Garamut](../../games/2449-garamut/index.md): Papua New Guinea; Musical instruments; Living Traditions
 - [Ghatam](../../games/5712-ghatam/index.md): India; Musical instruments; Living Traditions
 - [Gong ageng](../../games/2500-gong-ageng/index.md): Indonesia; Musical instruments; Classical Worlds
+- [Gongfu tea pour](../../games/339-gongfu-tea-pour/index.md): China, Taiwan; Crafts and making; Living Traditions
 - [Güiro](../../games/6171-guiro/index.md): Worldwide; Musical instruments; Living Traditions
 - [Haitian Oil-Drum Metal Cut-Out Art](../../games/1460-haitian-oil-drum-metal-cut-out-art/index.md): Haiti; Crafts and making; Living Traditions
 - [Ikoro](../../games/7189-ikoro/index.md): Nigeria; Musical instruments; Living Traditions
@@ -86,6 +87,8 @@ count: 77
 - [Nyo basket rattle](../../games/21379-nyo-basket-rattle/index.md): Nigeria; Musical instruments; Living Traditions
 - [Obrom slit drum](../../games/7192-obrom-slit-drum/index.md): Nigeria; Musical instruments; Living Traditions
 - [Ogwumgwu board lamellophone](../../games/21365-ogwumgwu-board-lamellophone/index.md): Nigeria; Musical instruments; Living Traditions
+- [Pate](../../games/7145-pate/index.md): Samoa; Musical instruments; Living Traditions
+- [Phye Ghan](../../games/20677-phye-ghan/index.md): Nepal; Musical instruments; Living Traditions
 - [Ranat](../../games/10312-ranat/index.md): Thailand; Musical instruments; Living Traditions
 - [Silimba](../../games/7920-silimba/index.md): Zambia; Musical instruments; Living Traditions
 - [Yomyom brass pellet rattle](../../games/21378-yomyom-brass-pellet-rattle/index.md): Nigeria; Musical instruments; Living Traditions

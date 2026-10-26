@@ -27,6 +27,7 @@ path: "/apps/"
 - [Folk Strings of the World](../apps/folk-strings-of-the-world/index.md): 6 playable games
 - [Mallet Music of the World](../apps/mallet-music-of-the-world/index.md): 4 playable games
 - [Clay & Kiln of the World](../apps/clay-and-kiln-of-the-world/index.md): 8 playable games
+- [Kitchen Crafts of the World](../apps/kitchen-crafts-of-the-world/index.md): 10 playable games
 - [Asian Lutes of the World](../apps/asian-lutes-of-the-world/index.md): 7 playable games
 - [Sails & Canoes of the World](../apps/sails-and-canoes-of-the-world/index.md): 7 playable games
 - [Mats & Wicker of the World](../apps/mats-and-wicker-of-the-world/index.md): 8 playable games
@@ -47,3 +48,4 @@ path: "/apps/"
 - [Jewels & Glass of the World](../apps/jewels-and-glass-of-the-world/index.md): 6 playable games
 - [Handmade Paper of the World](../apps/handmade-paper-of-the-world/index.md): 6 playable games
 - [Bells & Log Drums](../apps/bells-and-log-drums/index.md): 6 playable games
+- [Ball Games of the World](../apps/ball-games-of-the-world/index.md): 11 playable games

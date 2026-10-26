@@ -1,0 +1,244 @@
+{
+ "engine": "aim",
+ "variant": "oina",
+ "players": "2",
+ "params": {
+  "mode": "lob",
+  "controls": "drag",
+  "guide": "full",
+  "setting": "village",
+  "lane": {
+   "width": 6.4,
+   "length": 35,
+   "startX": "fixed",
+   "start": {
+    "x": 0,
+    "y": 0
+   },
+   "props": [
+    {
+     "kind": "box",
+     "x": 0,
+     "y": 1.0,
+     "w": 0.7,
+     "d": 0.14,
+     "h": 0.1,
+     "color": "#e8dcc0"
+    },
+    {
+     "kind": "post",
+     "x": -3.8,
+     "y": 5,
+     "r": 0.08,
+     "h": 0.75,
+     "color": "#8a5a2b"
+    },
+    {
+     "kind": "post",
+     "x": 3.8,
+     "y": 5,
+     "r": 0.08,
+     "h": 0.75,
+     "color": "#8a5a2b"
+    },
+    {
+     "kind": "post",
+     "x": -3.8,
+     "y": 11,
+     "r": 0.08,
+     "h": 0.75,
+     "color": "#8a5a2b"
+    },
+    {
+     "kind": "post",
+     "x": 3.8,
+     "y": 11,
+     "r": 0.08,
+     "h": 0.75,
+     "color": "#8a5a2b"
+    },
+    {
+     "kind": "post",
+     "x": -3.8,
+     "y": 17,
+     "r": 0.08,
+     "h": 0.75,
+     "color": "#8a5a2b"
+    },
+    {
+     "kind": "post",
+     "x": 3.8,
+     "y": 17,
+     "r": 0.08,
+     "h": 0.75,
+     "color": "#8a5a2b"
+    },
+    {
+     "kind": "post",
+     "x": -3.8,
+     "y": 23,
+     "r": 0.08,
+     "h": 0.75,
+     "color": "#8a5a2b"
+    },
+    {
+     "kind": "post",
+     "x": 3.8,
+     "y": 23,
+     "r": 0.08,
+     "h": 0.75,
+     "color": "#8a5a2b"
+    },
+    {
+     "kind": "post",
+     "x": -3.8,
+     "y": 29,
+     "r": 0.08,
+     "h": 0.75,
+     "color": "#8a5a2b"
+    },
+    {
+     "kind": "post",
+     "x": 3.8,
+     "y": 29,
+     "r": 0.08,
+     "h": 0.75,
+     "color": "#8a5a2b"
+    },
+    {
+     "kind": "post",
+     "x": -3.8,
+     "y": 35,
+     "r": 0.08,
+     "h": 0.75,
+     "color": "#8a5a2b"
+    },
+    {
+     "kind": "post",
+     "x": 3.8,
+     "y": 35,
+     "r": 0.08,
+     "h": 0.75,
+     "color": "#8a5a2b"
+    },
+    {
+     "kind": "box",
+     "x": -3.5,
+     "y": -0.3,
+     "w": 0.8,
+     "d": 0.6,
+     "h": 0.4,
+     "color": "#d9b35a"
+    },
+    {
+     "kind": "box",
+     "x": 3.5,
+     "y": -0.3,
+     "w": 0.8,
+     "d": 0.6,
+     "h": 0.4,
+     "color": "#d9b35a"
+    }
+   ]
+  },
+  "range": {
+   "min": 8,
+   "max": 34
+  },
+  "projectile": {
+   "r": 0.12,
+   "mass": 1,
+   "bounce": 0.35,
+   "look": "ball",
+   "color": "#b3262e",
+   "pattern": "seams"
+  },
+  "world": {
+   "friction": 6,
+   "landRoll": 1.6,
+   "wallBounce": 0.3,
+   "sides": "out",
+   "ends": "out",
+   "wind": 0.05
+  },
+  "target": {
+   "bands": [
+    {
+     "y0": 10,
+     "y1": 22.5,
+     "points": 0,
+     "label": "FIELD",
+     "color": "#6f9446"
+    },
+    {
+     "y0": 22.5,
+     "y1": 30,
+     "points": 1,
+     "label": "3/4",
+     "color": "#e6c35a"
+    },
+    {
+     "y0": 30,
+     "y1": 35,
+     "points": 2,
+     "label": "BACK",
+     "color": "#c4472f"
+    }
+   ],
+   "lines": [
+    {
+     "x0": -3.2,
+     "y0": 22.5,
+     "x1": 3.2,
+     "y1": 22.5,
+     "w": 0.1
+    },
+    {
+     "x0": 0,
+     "y0": 2.5,
+     "x1": 0,
+     "y1": 32.5,
+     "w": 0.05
+    }
+   ],
+   "lineColor": "#f6f1e4"
+  },
+  "rounds": {
+   "throws": 6,
+   "count": 2,
+   "scoring": "aggregate",
+   "scoreAt": "throw"
+  },
+  "stars": [
+   8,
+   14,
+   20
+  ],
+  "look": {
+   "surround": "#8a9a45",
+   "lane": "#a2b552",
+   "line": "#f6f1e4",
+   "edge": "#f6f1e4",
+   "striker": "bat",
+   "figureScale": 1.0,
+   "ballScale": 2.2,
+   "courtyard": "trees",
+   "wallHeight": 1.0,
+   "titleArt": "<svg viewBox=\"0 0 100 100\"><polygon points=\"23.6,81.9 65,48.4 59,41.6 20.4,78.1\" fill=\"#c89a58\" stroke=\"#6b4420\" stroke-width=\"2\"/><polygon points=\"46,66 50,70 54,66 50,62\" fill=\"#b3262e\"/><polygon points=\"36,74 40,78 44,74 40,70\" fill=\"#b3262e\"/><polygon points=\"56,58 60,62 64,58 60,54\" fill=\"#b3262e\"/><circle cx=\"74\" cy=\"30\" r=\"11\" fill=\"#f1e6c8\" stroke=\"#6b4420\" stroke-width=\"2\"/><path d=\"M66 26 Q74 34 82 26\" stroke=\"#b3262e\" stroke-width=\"2\" fill=\"none\"/><path d=\"M66 34 Q74 42 82 34\" stroke=\"#b3262e\" stroke-width=\"2\" fill=\"none\"/></svg>",
+   "jersey": "#f6f1e4",
+   "skin": "#d9a47c",
+   "pants": "#1f2230",
+   "hat": "cap",
+   "hatColor": "#1f2230",
+   "hair": "#3a2a1c",
+   "bollards": false,
+   "cameraBack": 0.9,
+   "farEdge": 0.17,
+   "cameraBackWide": 1.5,
+   "farEdgeWide": 0.12
+  }
+ },
+ "ai": {
+  "level": "normal"
+ }
+}

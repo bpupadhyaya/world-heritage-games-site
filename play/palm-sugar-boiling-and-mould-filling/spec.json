@@ -1,0 +1,13 @@
+{
+  "engine": "shape-craft",
+  "variant": "palm-sugar-boiling-and-mould-filling",
+  "players": "1",
+  "params": {
+    "technique": "brew",
+    "mode": "syrup",
+    "scene": "kc-brew-syrup"
+  },
+  "ai": {
+    "level": "normal"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Four Square",
+  "native": "",
+  "alt": [
+    "Four Square (playground)"
+  ],
+  "countries": [
+    "United States"
+  ],
+  "summary": "A playground ball game in which four players each stand in their own painted square and bounce a rubber ball into another player's square with the hand. Whoever cannot return it fairly drops out and the others move up a square. Here you practise the serve: bounce the ball into the far squares for more points.",
+  "howToPlay": [
+    "Press at the ball, then pull back to set the direction and the strength.",
+    "Release to bounce the ball: the dotted line shows where it will land.",
+    "Each of the four painted squares has its own number; the far squares are worth more.",
+    "Six bounces make a round. Land them in the high squares to earn stars."
+  ],
+  "rules": [
+    "The court is a square split by a cross into four equal boxes numbered 1 to 4; the two far boxes are 3 and 4, with 4 the \"king\" square in the real game.",
+    "A bounce scores the number of the square where the ball comes to rest.",
+    "A ball that stops outside the squares, or leaves the court, scores nothing.",
+    "Six bounces make a round; all six are added up.",
+    "Three stars are awarded at 8, 14 and 19 points."
+  ],
+  "heritageNote": "Four square is a schoolyard game from the United States, played on asphalt with a painted court and a rubber ball. Local rules for serving, faults and names for the squares differ from school to school and are handed down among children.",
+  "credits": [
+    "3D people: Microsoft Rocketbox Avatar Library (MIT License, Copyright (c) 2020 Microsoft); textures repainted for team kits.",
+    "Motion data: Carnegie Mellon University Graphics Lab Motion Capture Database (mocap.cs.cmu.edu, funded by NSF EIA-0196217; BVH conversion by Bruce Hahne, cgspeed.com) and the Quaternius Universal Animation Library (CC0).",
+    "Software: three.js (MIT License, Copyright (c) 2010-2024 three.js authors) and meshoptimizer (MIT License, Copyright (c) 2016-2024 Arseny Kapoulkine). Full licence texts ship with the game."
+  ]
+}

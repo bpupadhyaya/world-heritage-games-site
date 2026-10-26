@@ -2,7 +2,7 @@
 title: "Celtic and Atlantic Europe"
 description: "Ireland, Britain, France and the Low Countries."
 path: "/cradles/celtic-atlantic/"
-count: 92
+count: 93
 ---
 # Celtic and Atlantic Europe
 
@@ -10,7 +10,7 @@ Ireland, Britain, France and the Low Countries.
 
 
 
-92 entries.
+93 entries.
 
 - [Bagatelle](../../games/72-bagatelle/index.md): France, United Kingdom; Dexterity and skill games; Modern Heritage
 - [Basque stone lifting](../../games/479-basque-stone-lifting/index.md): France; Acrobatics and strength; Classical Worlds
@@ -88,6 +88,7 @@ Ireland, Britain, France and the Low Countries.
 - [Cricket](../../games/22343-cricket/index.md): United Kingdom, India; Bat-and-ball games; Age of Contact and Craft
 - [Crossword](../../games/22326-crossword/index.md): United Kingdom, United States; Puzzles and mind games; Modern Heritage
 - [Dutch draughts](../../games/970-dutch-draughts/index.md): Netherlands; Board and table games; Crossroads and Golden Ages
+- [Enluminure](../../games/19901-enluminure/index.md): France; Crafts and making; Living Traditions
 - [Filet lace](../../games/2318-filet-lace/index.md): France; Crafts and making; Living Traditions
 - [Frisian kaatsen](../../games/973-frisian-kaatsen/index.md): Netherlands; Street and playground games; Modern Heritage
 - [Hare and Hounds](../../games/4647-hare-and-hounds/index.md): United Kingdom; Board and table games; Crossroads and Golden Ages

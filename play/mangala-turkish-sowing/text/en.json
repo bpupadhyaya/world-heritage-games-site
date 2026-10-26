@@ -1,0 +1,30 @@
+{
+  "title": "Mangala",
+  "native": "Mangala",
+  "alt": [
+    "Mangola"
+  ],
+  "summary": "Six round pits and a long treasury for each player, four stones in every pit. A last stone that makes a rival pit even takes it, and one that lands in an empty pit of yours takes the pit facing it.",
+  "howToPlay": [
+    "Lift all the stones from one of your pits; the first goes back into that pit and the rest are dropped one by one, counter-clockwise.",
+    "Your own treasury takes a stone each time you pass it; the rival's treasury is skipped.",
+    "If your last stone makes a rival pit hold an even number, take that pit.",
+    "If your last stone falls in an empty pit of yours, take it together with the rival pit facing it.",
+    "If your last stone lands in your treasury, play again."
+  ],
+  "rules": [
+    "Forty-eight stones, four in each of twelve pits.",
+    "A pit with several stones puts the first stone back into itself, then sows on.",
+    "Your own treasury receives stones as you pass it; the rival's treasury never does.",
+    "A last stone that makes an opposing pit even sends all its stones to your treasury.",
+    "A last stone in an empty pit of yours takes the facing pit and your own stone to your treasury; if the facing pit is empty nothing is taken.",
+    "A last stone in your treasury gives another turn.",
+    "The game ends when a side is empty; the player who emptied their side takes the stones left on the other.",
+    "Most stones in the treasury wins."
+  ],
+  "heritageNote": "Mangala is the sowing game of Turkey and the lands of the former Ottoman world, played on boards of two rows of six or seven pits. It has long been a pastime of coffee houses and homes, and its pits are often called wells.",
+  "countries": [
+    "Turkey"
+  ],
+  "credits": []
+}
