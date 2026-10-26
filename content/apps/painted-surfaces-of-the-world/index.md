@@ -7,7 +7,7 @@ path: "/apps/painted-surfaces-of-the-world/"
 
 A mobile app (Android) with 6 playable painted-surface traditions from 5 countries. Coming soon to Google Play. The store link appears here the day it goes live.
 
-Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, no ads, works offline.
+Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, works offline.
 
 ## The painted-surface crafts
 
