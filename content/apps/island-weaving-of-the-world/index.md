@@ -7,7 +7,7 @@ path: "/apps/island-weaving-of-the-world/"
 
 A mobile app (Android) with 7 playable Pacific weaving and bark-cloth crafts from 4 countries. Coming soon to Google Play. The store link appears here the day it goes live.
 
-Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, works offline.
+Version 1.0.0, free to play with ads, one-time purchase to remove ads $2.99, works offline.
 
 ## The island weaving crafts
 

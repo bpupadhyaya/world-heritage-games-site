@@ -7,7 +7,7 @@ path: "/apps/mats-and-wicker-of-the-world/"
 
 A mobile app (Android) with 8 playable mat and wicker weaving traditions from 6 countries. Coming soon to Google Play. The store link appears here the day it goes live.
 
-Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, works offline.
+Version 1.0.0, free to play with ads, one-time purchase to remove ads $2.99, works offline.
 
 ## The mat and wicker crafts
 

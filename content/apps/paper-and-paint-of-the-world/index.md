@@ -7,7 +7,7 @@ path: "/apps/paper-and-paint-of-the-world/"
 
 A mobile app (iPhone, iPad & Android) with 20 playable paper and paint crafts from 14 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
-Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, works offline.
+Version 1.0.0, free to play with ads, one-time purchase to remove ads $2.99, works offline.
 
 ## The paper and paint crafts
 

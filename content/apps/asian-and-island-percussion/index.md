@@ -7,7 +7,7 @@ path: "/apps/asian-and-island-percussion/"
 
 A mobile app (Android) with 11 playable drums and percussion of Asia and the Pacific from 9 countries. Live on Google Play.
 
-Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, works offline.
+Version 1.0.0, free to play with ads, one-time purchase to remove ads $2.99, works offline.
 
 ## The drums and percussion
 

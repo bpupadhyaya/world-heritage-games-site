@@ -7,7 +7,7 @@ path: "/apps/weaving-and-lace-of-the-world/"
 
 A mobile app (Android) with 9 playable weaving, lace and embroidery traditions from 8 countries. Live on Google Play.
 
-Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, works offline.
+Version 1.0.0, free to play with ads, one-time purchase to remove ads $2.99, works offline.
 
 ## The weaving and lace crafts
 

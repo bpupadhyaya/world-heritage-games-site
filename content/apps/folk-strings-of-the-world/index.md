@@ -7,7 +7,7 @@ path: "/apps/folk-strings-of-the-world/"
 
 A mobile app (Android) with 6 playable folk string instruments from 12 countries. Live on Google Play.
 
-Version 1.0.0, one-time unlock $2.99, free 90-second preview of each game, works offline.
+Version 1.0.0, free to play with ads, one-time purchase to remove ads $2.99, works offline.
 
 ## The folk string instruments
 
