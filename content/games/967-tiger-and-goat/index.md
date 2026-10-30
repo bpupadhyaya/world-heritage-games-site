@@ -37,7 +37,7 @@ Usually placed in the era of Crossroads and Golden Ages (about 500 to 1500), alt
 
 ## Play it
 
-[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/tiger-and-goat/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442) · [Bagh-Chal: Tiger & Goat on Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.tigerandgoat.app) · Bagh-Chal: Tiger & Goat on the App Store (coming soon)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/tiger-and-goat/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442) · [Bagh-Chal: Tiger & Goat on Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.tigerandgoat.app) · [Bagh-Chal: Tiger & Goat on the App Store](https://apps.apple.com/app/bagh-chal-tiger-goat/id6818936256)
 
 ## Related entries
 
