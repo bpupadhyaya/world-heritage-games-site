@@ -7,7 +7,7 @@ path: "/apps/rattles-and-thumb-pianos/"
 
 A mobile app (Android) with 11 playable rattles, scrapers and thumb pianos from 7 countries. Coming soon to Google Play. The store link appears here the day it goes live.
 
-Version 1.0.0, free to play with ads, one-time purchase to remove ads $2.99, works offline.
+Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 
 ## The rattles and thumb pianos
 

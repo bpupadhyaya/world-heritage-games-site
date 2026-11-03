@@ -7,7 +7,7 @@ path: "/apps/basketry-and-straw-of-the-world/"
 
 A mobile app (Android) with 6 playable basketry and straw-weaving traditions from 5 countries. Live on Google Play.
 
-Version 1.0.0, free to play with ads, one-time purchase to remove ads $2.99, works offline.
+Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 
 ## The basketry crafts
 

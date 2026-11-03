@@ -7,7 +7,7 @@ path: "/apps/needlework-of-the-world/"
 
 A mobile app (Android) with 6 playable embroidery and needlework traditions across India from 1 countries. Coming soon to Google Play. The store link appears here the day it goes live.
 
-Version 1.0.0, free to play with ads, one-time purchase to remove ads $2.99, works offline.
+Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 
 ## The needlework crafts
 

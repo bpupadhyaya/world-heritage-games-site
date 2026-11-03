@@ -7,7 +7,7 @@ path: "/apps/hand-drums-of-the-world/"
 
 A mobile app (Android) with 6 playable hand drums and drum rhythms from 4 countries. Live on Google Play.
 
-Version 1.0.0, free to play with ads, one-time purchase to remove ads $2.99, works offline.
+Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 
 ## The hand drums
 

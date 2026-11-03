@@ -7,7 +7,7 @@ path: "/apps/woodcraft-and-metal-of-the-world/"
 
 A mobile app (Android) with 13 playable woodcraft, lacquer and metalwork traditions from 10 countries. Live on Google Play.
 
-Version 1.0.0, free to play with ads, one-time purchase to remove ads $2.99, works offline.
+Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 
 ## The woodcraft and metal crafts
 

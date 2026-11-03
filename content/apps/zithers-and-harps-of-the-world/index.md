@@ -7,7 +7,7 @@ path: "/apps/zithers-and-harps-of-the-world/"
 
 A mobile app (Android) with 9 playable zithers, harps and plucked board instruments from 9 countries. Live on Google Play.
 
-Version 1.0.0, free to play with ads, one-time purchase to remove ads $2.99, works offline.
+Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 
 ## The zithers and harps
 
