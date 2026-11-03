@@ -40,7 +40,7 @@ Usually placed in the era of Modern Heritage (1800 to today).
 
 ## Play it
 
-[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/sure-sweep-no-guess/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442)
+[Try a 90-second preview in your browser](https://bpupadhyaya.github.io/games-site/games/sure-sweep-no-guess/play/) · [Google Play](https://play.google.com/store/apps/details?id=com.equalinformation.arcforge.shell) · [App Store](https://apps.apple.com/us/app/arcforge-world-heritage-games/id6813746442) · [Minesweeper Deluxe: 3D Logic on the App Store](https://apps.apple.com/app/minesweeper-deluxe-3d-logic/id6823714516)
 
 ## Sources
 
