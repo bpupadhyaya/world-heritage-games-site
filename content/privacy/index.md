@@ -10,7 +10,7 @@ Last updated: 5 November 2026.
 
 ## Who publishes these apps
 
-These apps are published by **EqualInformation, LLC** (the developer named on the App Store and Google Play listings), a United States company. This policy applies to every World Heritage Games app we publish under that developer name on Google Play and the App Store, for example **Paper & Paint of the World** (`com.equalinformation.whg.paperandpaintoftheworld`), String Music of the World, Drum Music of the World and the other "of the World" collections listed on the [apps page](../apps/index.md). Android package names for these apps start with `com.equalinformation.whg.`. Contact: support@equalinformation.com, or EqualInformation, LLC at https://equalinformation.com/.
+These apps are published on Google Play by **EqualInformation, LLC** (the developer named on the Google Play listings), a United States company, and on the Apple App Store under the developer name **Bhim Upadhyaya** (the founder of EqualInformation, LLC). This policy applies to every World Heritage Games app published under either developer name, for example **Paper & Paint of the World** (`com.equalinformation.whg.paperandpaintoftheworld`), String Music of the World, Drum Music of the World and the other "of the World" collections listed on the [apps page](../apps/index.md). Android package names for these apps start with `com.equalinformation.whg.`. Contact: support@equalinformation.com, or EqualInformation, LLC at https://equalinformation.com/.
 
 **Short version: we collect no personal data ourselves, there are no accounts, and the apps are free to play with ads served by Google AdMob. A one-time in-app purchase removes the ads.**
 
