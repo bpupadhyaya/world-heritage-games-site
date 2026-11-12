@@ -5,7 +5,7 @@ path: "/apps/asian-lutes-of-the-world/"
 ---
 # Asian Lutes of the World
 
-A mobile app (Android) with 7 playable lutes of Asia from 5 countries. Coming soon to Google Play. The store link appears here the day it goes live.
+A mobile app (Android) with 7 playable lutes of Asia from 5 countries. Live on Google Play.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

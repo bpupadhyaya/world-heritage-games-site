@@ -5,7 +5,7 @@ path: "/apps/lyres-of-the-world/"
 ---
 # Lyres of the World
 
-A mobile app (Android) with 6 playable lyres of Africa and the Mediterranean from 2 countries. Coming soon to Google Play. The store link appears here the day it goes live.
+A mobile app (Android) with 6 playable lyres of Africa and the Mediterranean from 2 countries. Live on Google Play.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 
