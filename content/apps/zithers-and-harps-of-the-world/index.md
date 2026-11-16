@@ -1,11 +1,11 @@
 ---
 title: "Zithers & Harps of the World"
-description: "Zithers & Harps of the World: 9 playable zithers, harps and plucked board instruments from 9 countries for Android."
+description: "Zithers & Harps of the World: 9 playable zithers, harps and plucked board instruments from 9 countries for iPhone, iPad and Android."
 path: "/apps/zithers-and-harps-of-the-world/"
 ---
 # Zithers & Harps of the World
 
-A mobile app (Android) with 9 playable zithers, harps and plucked board instruments from 9 countries. Live on Google Play.
+A mobile app (iPhone, iPad & Android) with 9 playable zithers, harps and plucked board instruments from 9 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

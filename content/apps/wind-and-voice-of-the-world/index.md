@@ -1,11 +1,11 @@
 ---
 title: "Wind & Voice of the World"
-description: "Wind & Voice of the World: 9 playable wind instruments and voices from 10 countries for Android."
+description: "Wind & Voice of the World: 9 playable wind instruments and voices from 10 countries for iPhone, iPad and Android."
 path: "/apps/wind-and-voice-of-the-world/"
 ---
 # Wind & Voice of the World
 
-A mobile app (Android) with 9 playable wind instruments and voices from 10 countries. Live on Google Play.
+A mobile app (iPhone, iPad & Android) with 9 playable wind instruments and voices from 10 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

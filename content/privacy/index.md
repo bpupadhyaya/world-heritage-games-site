@@ -3,7 +3,6 @@ title: "Privacy policy"
 description: "Privacy policy for the World Heritage Games apps: free with ads served by Google AdMob, no accounts, one purchase removes the ads."
 path: "/privacy/"
 ---
-
 # Privacy policy for the World Heritage Games apps
 
 Last updated: 5 November 2026.

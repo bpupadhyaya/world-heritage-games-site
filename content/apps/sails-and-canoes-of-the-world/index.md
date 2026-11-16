@@ -1,11 +1,11 @@
 ---
 title: "Sails & Canoes of the World"
-description: "Sails & Canoes of the World: 7 playable sailing and paddling craft from 7 countries for Android."
+description: "Sails & Canoes of the World: 7 playable sailing and paddling craft from 7 countries for iPhone, iPad and Android."
 path: "/apps/sails-and-canoes-of-the-world/"
 ---
 # Sails & Canoes of the World
 
-A mobile app (Android) with 7 playable sailing and paddling craft from 7 countries. Coming soon to Google Play. The store link appears here the day it goes live.
+A mobile app (iPhone, iPad & Android) with 7 playable sailing and paddling craft from 7 countries. Submitted to the App Store; in review. Store links appear here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

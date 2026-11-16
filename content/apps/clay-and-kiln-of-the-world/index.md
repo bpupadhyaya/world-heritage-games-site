@@ -1,11 +1,11 @@
 ---
 title: "Clay & Kiln of the World"
-description: "Clay & Kiln of the World: 8 playable pottery and ceramic traditions of the Americas from 5 countries for Android."
+description: "Clay & Kiln of the World: 8 playable pottery and ceramic traditions of the Americas from 5 countries for iPhone, iPad and Android."
 path: "/apps/clay-and-kiln-of-the-world/"
 ---
 # Clay & Kiln of the World
 
-A mobile app (Android) with 8 playable pottery and ceramic traditions of the Americas from 5 countries. Coming soon to Google Play. The store link appears here the day it goes live.
+A mobile app (iPhone, iPad & Android) with 8 playable pottery and ceramic traditions of the Americas from 5 countries. Submitted to the App Store; in review. Store links appear here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

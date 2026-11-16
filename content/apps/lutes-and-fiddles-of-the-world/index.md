@@ -1,11 +1,11 @@
 ---
 title: "Lutes & Fiddles of the World"
-description: "Lutes & Fiddles of the World: 9 playable lutes and fiddles from 7 countries for Android."
+description: "Lutes & Fiddles of the World: 9 playable lutes and fiddles from 7 countries for iPhone, iPad and Android."
 path: "/apps/lutes-and-fiddles-of-the-world/"
 ---
 # Lutes & Fiddles of the World
 
-A mobile app (Android) with 9 playable lutes and fiddles from 7 countries. Live on Google Play.
+A mobile app (iPhone, iPad & Android) with 9 playable lutes and fiddles from 7 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

@@ -1,11 +1,11 @@
 ---
 title: "Folk Strings of the World"
-description: "Folk Strings of the World: 6 playable folk string instruments from 12 countries for Android."
+description: "Folk Strings of the World: 6 playable folk string instruments from 12 countries for iPhone, iPad and Android."
 path: "/apps/folk-strings-of-the-world/"
 ---
 # Folk Strings of the World
 
-A mobile app (Android) with 6 playable folk string instruments from 12 countries. Live on Google Play.
+A mobile app (iPhone, iPad & Android) with 6 playable folk string instruments from 12 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

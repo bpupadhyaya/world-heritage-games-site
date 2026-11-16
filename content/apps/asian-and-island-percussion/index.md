@@ -1,11 +1,11 @@
 ---
 title: "Asian & Island Percussion"
-description: "Asian & Island Percussion: 11 playable drums and percussion of Asia and the Pacific from 9 countries for Android."
+description: "Asian & Island Percussion: 11 playable drums and percussion of Asia and the Pacific from 9 countries for iPhone, iPad and Android."
 path: "/apps/asian-and-island-percussion/"
 ---
 # Asian & Island Percussion
 
-A mobile app (Android) with 11 playable drums and percussion of Asia and the Pacific from 9 countries. Live on Google Play.
+A mobile app (iPhone, iPad & Android) with 11 playable drums and percussion of Asia and the Pacific from 9 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

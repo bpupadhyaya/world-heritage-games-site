@@ -1,11 +1,11 @@
 ---
 title: "Woodcraft & Metal of the World"
-description: "Woodcraft & Metal of the World: 13 playable woodcraft, lacquer and metalwork traditions from 10 countries for Android."
+description: "Woodcraft & Metal of the World: 13 playable woodcraft, lacquer and metalwork traditions from 10 countries for iPhone, iPad and Android."
 path: "/apps/woodcraft-and-metal-of-the-world/"
 ---
 # Woodcraft & Metal of the World
 
-A mobile app (Android) with 13 playable woodcraft, lacquer and metalwork traditions from 10 countries. Live on Google Play.
+A mobile app (iPhone, iPad & Android) with 13 playable woodcraft, lacquer and metalwork traditions from 10 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

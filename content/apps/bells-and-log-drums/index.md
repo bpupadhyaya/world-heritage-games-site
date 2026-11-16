@@ -1,11 +1,11 @@
 ---
 title: "Bells & Log Drums"
-description: "Bells & Log Drums: 6 playable log drums and bells of West Africa from 3 countries for Android."
+description: "Bells & Log Drums: 6 playable log drums and bells of West Africa from 3 countries for iPhone, iPad and Android."
 path: "/apps/bells-and-log-drums/"
 ---
 # Bells & Log Drums
 
-A mobile app (Android) with 6 playable log drums and bells of West Africa from 3 countries. Coming soon to Google Play. The store link appears here the day it goes live.
+A mobile app (iPhone, iPad & Android) with 6 playable log drums and bells of West Africa from 3 countries. Submitted to the App Store; in review. Store links appear here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

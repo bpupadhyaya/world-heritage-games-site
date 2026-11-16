@@ -1,11 +1,11 @@
 ---
 title: "Handmade Paper of the World"
-description: "Handmade Paper of the World: 6 playable handmade paper and papermaking traditions from 7 countries for Android."
+description: "Handmade Paper of the World: 6 playable handmade paper and papermaking traditions from 7 countries for iPhone, iPad and Android."
 path: "/apps/handmade-paper-of-the-world/"
 ---
 # Handmade Paper of the World
 
-A mobile app (Android) with 6 playable handmade paper and papermaking traditions from 7 countries. Live on Google Play.
+A mobile app (iPhone, iPad & Android) with 6 playable handmade paper and papermaking traditions from 7 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

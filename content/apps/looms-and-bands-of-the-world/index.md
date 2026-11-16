@@ -1,11 +1,11 @@
 ---
 title: "Looms & Bands of the World"
-description: "Looms & Bands of the World: 14 playable loom, band and braiding traditions from 7 countries for Android."
+description: "Looms & Bands of the World: 14 playable loom, band and braiding traditions from 7 countries for iPhone, iPad and Android."
 path: "/apps/looms-and-bands-of-the-world/"
 ---
 # Looms & Bands of the World
 
-A mobile app (Android) with 14 playable loom, band and braiding traditions from 7 countries. Coming soon to Google Play. The store link appears here the day it goes live.
+A mobile app (iPhone, iPad & Android) with 14 playable loom, band and braiding traditions from 7 countries. Submitted to the App Store; in review. Store links appear here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

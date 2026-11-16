@@ -1,11 +1,11 @@
 ---
 title: "Conga, Daf & Udu Drums"
-description: "Conga, Daf & Udu Drums: 10 playable drums and drum rhythms from 6 countries for Android."
+description: "Conga, Daf & Udu Drums: 10 playable drums and drum rhythms from 6 countries for iPhone, iPad and Android."
 path: "/apps/conga-daf-and-udu-drums/"
 ---
 # Conga, Daf & Udu Drums
 
-A mobile app (Android) with 10 playable drums and drum rhythms from 6 countries. Coming soon to Google Play. The store link appears here the day it goes live.
+A mobile app (iPhone, iPad & Android) with 10 playable drums and drum rhythms from 6 countries. Submitted to the App Store; in review. Store links appear here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

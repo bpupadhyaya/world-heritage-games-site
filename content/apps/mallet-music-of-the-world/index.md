@@ -1,11 +1,11 @@
 ---
 title: "Mallet Music of the World"
-description: "Mallet Music of the World: 4 playable mallet instruments from 3 countries for Android."
+description: "Mallet Music of the World: 4 playable mallet instruments from 3 countries for iPhone, iPad and Android."
 path: "/apps/mallet-music-of-the-world/"
 ---
 # Mallet Music of the World
 
-A mobile app (Android) with 4 playable mallet instruments from 3 countries. Live on Google Play.
+A mobile app (iPhone, iPad & Android) with 4 playable mallet instruments from 3 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

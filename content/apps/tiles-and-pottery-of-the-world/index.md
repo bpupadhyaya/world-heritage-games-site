@@ -1,11 +1,11 @@
 ---
 title: "Tiles & Pottery of the World"
-description: "Tiles & Pottery of the World: 7 playable tile painting and pottery traditions from 7 countries for Android."
+description: "Tiles & Pottery of the World: 7 playable tile painting and pottery traditions from 7 countries for iPhone, iPad and Android."
 path: "/apps/tiles-and-pottery-of-the-world/"
 ---
 # Tiles & Pottery of the World
 
-A mobile app (Android) with 7 playable tile painting and pottery traditions from 7 countries. Live on Google Play.
+A mobile app (iPhone, iPad & Android) with 7 playable tile painting and pottery traditions from 7 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

@@ -1,11 +1,11 @@
 ---
 title: "Jewels & Glass of the World"
-description: "Jewels & Glass of the World: 6 playable jewellery, beadwork and glass traditions from 5 countries for Android."
+description: "Jewels & Glass of the World: 6 playable jewellery, beadwork and glass traditions from 5 countries for iPhone, iPad and Android."
 path: "/apps/jewels-and-glass-of-the-world/"
 ---
 # Jewels & Glass of the World
 
-A mobile app (Android) with 6 playable jewellery, beadwork and glass traditions from 5 countries. Live on Google Play.
+A mobile app (iPhone, iPad & Android) with 6 playable jewellery, beadwork and glass traditions from 5 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

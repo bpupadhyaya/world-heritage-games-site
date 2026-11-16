@@ -1,11 +1,11 @@
 ---
 title: "Folk Dance of the World"
-description: "Folk Dance of the World: 12 playable folk dance rhythms from 13 countries for Android."
+description: "Folk Dance of the World: 12 playable folk dance rhythms from 13 countries for iPhone, iPad and Android."
 path: "/apps/folk-dance-of-the-world/"
 ---
 # Folk Dance of the World
 
-A mobile app (Android) with 12 playable folk dance rhythms from 13 countries. Live on Google Play.
+A mobile app (iPhone, iPad & Android) with 12 playable folk dance rhythms from 13 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

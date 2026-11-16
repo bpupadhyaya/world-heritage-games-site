@@ -1,11 +1,11 @@
 ---
 title: "Folk Painting of the World"
-description: "Folk Painting of the World: 8 playable folk painting traditions from 5 countries for Android."
+description: "Folk Painting of the World: 8 playable folk painting traditions from 5 countries for iPhone, iPad and Android."
 path: "/apps/folk-painting-of-the-world/"
 ---
 # Folk Painting of the World
 
-A mobile app (Android) with 8 playable folk painting traditions from 5 countries. Live on Google Play.
+A mobile app (iPhone, iPad & Android) with 8 playable folk painting traditions from 5 countries. Live on Google Play. Submitted to the App Store; in review, and the store link appears here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 

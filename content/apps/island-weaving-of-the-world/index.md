@@ -1,11 +1,11 @@
 ---
 title: "Island Weaving of the World"
-description: "Island Weaving of the World: 7 playable Pacific weaving and bark-cloth crafts from 4 countries for Android."
+description: "Island Weaving of the World: 7 playable Pacific weaving and bark-cloth crafts from 4 countries for iPhone, iPad and Android."
 path: "/apps/island-weaving-of-the-world/"
 ---
 # Island Weaving of the World
 
-A mobile app (Android) with 7 playable Pacific weaving and bark-cloth crafts from 4 countries. Coming soon to Google Play. The store link appears here the day it goes live.
+A mobile app (iPhone, iPad & Android) with 7 playable Pacific weaving and bark-cloth crafts from 4 countries. Submitted to the App Store; in review. Store links appear here the day it goes live.
 
 Version 1.0.0, free to play with ads, one-time purchase to remove ads, works offline.
 
